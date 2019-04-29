@@ -1,4 +1,4 @@
----
+﻿---
 title: 캔버스 앱에 대한 구성 요소 만들기 | Microsoft Docs
 description: 캔버스 앱에 대한 재사용 가능한 구성 요소 소개
 author: yifwang
