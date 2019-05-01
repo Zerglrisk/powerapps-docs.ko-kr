@@ -11,23 +11,18 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 045a395b-4475-48dd-8f67-6bc2b33cd89c
-ms.openlocfilehash: 7cf5f46fedc5708f4e2f30dc30140b8a8d9f3529
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 88e9d35792d86e279b9af4a19eaff288643412ca
+ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63393857"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "64524315"
 ---
 # <a name="manifest-schema-reference"></a>매니페스트 스키마 참조
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 이 섹션에는 PowerApps CLI를 사용하여 생성된 매니페스트 스키마에 대한 참조 설명서가 포함되어 있습니다.
-
-> [!IMPORTANT]
-> - PowerApps 구성 요소 프레임워크는 미리 보기 기능입니다.
-> - [!INCLUDE[cc_preview_features_definition](../../../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc_preview_features_no_MS_support](../../../includes/cc-preview-features-no-ms-support.md)]
 
 |요소|설명|
 |----|-----------|
