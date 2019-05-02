@@ -1,6 +1,6 @@
 ---
-title: 캔버스 앱에 대 한 전자 메일 화면 템플릿에 대 한 참조 | Microsoft Docs
-description: PowerApps의 캔버스 앱에 대 한 전자 메일 화면 템플릿을 작동 하는 방법의 세부 정보 이해
+title: 캔버스 앱에 대한 전자 메일 화면 템플릿에 대한 참조 | Microsoft Docs
+description: PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿을 작동하는 방법의 세부 정보 이해
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -53,21 +53,21 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 **추가 아이콘** 컨트롤을 사용하여 앱 사용자는 해당 조직 내에서 존재하지 않는 사람을 전자 메일 받는사람 목록에 추가할 수 있습니다.
 
 * 속성: **Visible**<br>
-    값: 검색 상자에 유효한 전자 메일 주소를 입력 하는 경우에 컨트롤을 표시 하는 논리:
+    값: 검색 상자에 유효한 전자 메일 주소를 입력하는 경우에만 컨트롤을 표시하는 논리입니다.
 
     ```powerapps-dot
     !IsBlank( TextSearchBox.Text ) &&
         IsMatch( TextSearchBox.Text, Match.Email ) &&
         Not( Trim( TextSearchBox.Text ) in MyPeople.UserPrincipalName )
     ```
-  한 줄씩, 앞에 나오는 코드 블록에 따르면 합니다 **추가 아이콘** 컨트롤 표시 됩니다. 경우에만:
+  한 줄씩, 앞에 나오는 코드 블록에 따르면 **추가 아이콘** 컨트롤은 다음 경우에 해당되면 표시됩니다.
 
     * **TextSearchBox**가 텍스트를 포함합니다.
     * **TextSearchBox**의 텍스트가 유효한 전자 메일 주소입니다.
     * **TextSearchBox**의 텍스트가 **MyPeople** 컬렉션에 존재하지 않습니다.
 
 * 속성: **OnSelect**<br>
-    값: 이 선택 하면 올바른 전자 메일 주소를 추가 합니다 **MyPeople** 컬렉션입니다. 이 컬렉션은 받는 사람 목록으로 화면에서 사용 됩니다.
+    값: 선택하면 올바른 전자 메일 주소를 **MyPeople** 컬렉션에 추가합니다. 이 컬렉션은 받는 사람 목록으로 화면에서 사용됩니다.
 
     ```powerapps-dot
     Collect( MyPeople,
@@ -87,7 +87,7 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
    ![PeopleBrowseGallery 컨트롤](media/email-screen/email-browse-gall.png)
 
 * 속성: **Items**<br>
-    값: 에 입력 된 검색 텍스트가 상위 15 검색 결과 **TextSearchBox** 제어 합니다.
+    값: **TextSearchBox** 컨트롤에 입력된 검색 텍스트의 상위 15개 검색 결과가 나타납니다.
     
     ```powerapps-dot
     If( !IsBlank( Trim(TextSearchBox.Text ) ), 
@@ -103,13 +103,13 @@ PowerApps의 캔버스 앱에 대한 전자 메일 화면 템플릿의 각 중�
 
    ![PeopleBrowseGallery 제목 컨트롤](media/email-screen/email-browse-gall-title.png)
 
-* 속성: **텍스트**<br>
+* 속성: **Text**<br>
     값: `ThisItem.DisplayName`
 
   Office 365 프로필에서 사용자의 표시 이름을 표시합니다.
 
 * 속성: **OnSelect**<br>
-    값: 사용자는 응용 프로그램 수준 컬렉션에 추가할 코드 및 사용자를 선택 합니다.
+    값: 응용 프로그램 수준 컬렉션에 추가할 코드 및 사용자를 선택합니다.
 
     ```powerapps-dot
     Concurrent(

@@ -82,7 +82,7 @@ ms.locfileid: "61539236"
     `TextEmailMessage1.Y + TextEmailMessage1.Height + 20`
     
 1. 삽입된 **AddMediaWithImage** 컨트롤의 높이는 210 보다 작게 설정합니다.
-1. 컨트롤 트리 보기에서 선택 **AddMediaWithImage** > **...**   >  **순서** > **맨 뒤로 보내기**합니다.
+1. 컨트롤 트리 보기에서 **AddMediaWithImage** > **...** > **순서 바꾸기** > **맨 뒤로 보내기**를 선택합니다.
    컨트롤이 **PeopleBrowseGallery** 컨트롤의 앞에 위치하지 않도록 합니다.
 1. **EmailPeopleGallery**의 **Height** 속성을 다음 수식으로 변경합니다.
 
@@ -137,7 +137,7 @@ ms.locfileid: "61539236"
 
 ### <a name="show-different-data-for-people"></a>사용자에 대한 다양한 데이터 표시.
 
-이 화면은 조직에서 사용자를 검색하기 위해 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업을 사용합니다. 새로운 각 이벤트에 표시에 대 한 추가 필드를 제공 합니다 **PeopleBrowseGallery** 제어 합니다. 갤러리에서 필드를 변경 하거나 추가 간단 합니다.
+이 화면은 조직에서 사용자를 검색하기 위해 [Office365Users.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업을 사용합니다. **PeopleBrowseGallery** 컨트롤에 나타나는 각 이벤트에 대한 추가 필드를 제공합니다. 갤러리에서 필드를 변경하거나 추가하는 것은 간단합니다.
 
 1. **PeopleBrowseGallery** 컨트롤에서, 수정하려는(또는 추가한 후 선택) 레이블을 선택합니다.
 
