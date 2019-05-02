@@ -38,7 +38,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![TextSearchBox 컨트롤](media/people-screen/people-search-box.png)
 
-몇 가지 다른 컨트롤과 상호 작용 하거나 텍스트 검색 상자에 대 한 종속성:
+텍스트 검색 상자 컨트롤은 화면의 다른 여러 컨트롤에 대해 다음과 같은 종속성을 가집니다.
 
 * 사용자가 텍스트를 입력하기 시작하면 **UserBrowseGallery**가 표시됩니다.
 * 사용자가 **UserBrowseGallery**에서 사용자를 선택하는 경우, 검색 내용이 다시 설정됩니다.
@@ -48,7 +48,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 ![UserBrowseGallery 컨트롤](media/people-screen/people-browse-gall.png)
 
 * 속성: **Items**<br>
-    값: 사용자가 입력을 시작 하는 경우에 사용자를 조회 하는 논리:
+    값: 사용자가 입력을 시작하는 경우 사용자를 조회합니다.
     
     ```powerapps-dot
     If( !IsBlank( Trim( TextSearchBox.Text ) ), 
@@ -61,7 +61,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
     )
     ```
     
-이 갤러리의 항목은 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업의 검색 결과로 채워집니다. 이 작업은 검색어를 `Trim(TextSearchBox)`하여 텍스트를 가져와서 검색에 따라 상위 15개 결과를 반환합니다. **TextSearchBox**는 사용자 검색에 빈 칸이 유효하지 않으므로 `Trim()` 함수로 래핑됩니다.
+이 갤러리의 항목이 [Office365.SearchUser](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업에 따라 검색 결과에 나타납니다. 이 작업은 검색어를 `Trim(TextSearchBox)`하여 가져오고 상위 15개의 검색 결과를 반환합니다. 사용자 검색에서 빈 칸은 유효하지 않기 떄문에 **TextSearchBox**는 `Trim()` 함수로 래핑됩니다.
 
 `Office365Users.SearchUser` 작업은 검색 상자가 사용자 입력한 텍스트를 포함하는 경우에만 작업을 호출할 필요가 있기 때문에`If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 함수로 래핑됩니다. 이것은 성능을 향상시킵니다.
 
@@ -69,12 +69,12 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![사용자 찾아보기 갤러리 제목 컨트롤](media/people-screen/people-browse-gall-title.png)
 
-* 속성: **텍스트**<br>값: `ThisItem.DisplayName`
+* 속성: **Text**<br>값: `ThisItem.DisplayName`
 
   Office 365 프로필에서 사용자의 표시 이름을 표시합니다.
 
 * 속성: **OnSelect**<br>
-    값: 사용자는 응용 프로그램 수준 컬렉션에 추가할 코드 및 사용자를 선택 합니다.
+    값: text응용 프로그램 수준 컬렉션에 사용자를 추가한 다음 사용자를 선택합니다.
 
     ```powerapps-dot
     Concurrent(
@@ -87,7 +87,7 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
     ```
 이 컨트롤을 선택하면 다음 세 가지가 동시에 수행됩니다.
 
-   * 설정 된  **\_selectedUser** 선택한 항목에 변수입니다.
+   * **\_selectedUser** 변수를 선택한 항목으로 설정합니다.
    * **TextSearchBox**에 검색어를 다시 설정합니다.
    * 앱 사용자가 선택한 모든 사용자의 컬렉션인 **MyPeople** 컬렉션에 선택된 항목을 추가합니다.
 
@@ -95,8 +95,8 @@ PowerApps의 캔버스 앱의 사용자 화면 템플릿에 중요한 각 컨트
 
 ![사용자 찾아보기 갤러리 프로필 이미지 컨트롤](media/people-screen/people-browse-gall-image.png)
 
-* 속성: **이미지**<br>
-    값: 사용자의 프로필 사진을 검색할 논리입니다.
+* 속성: **Image**<br>
+    값: 사용자의 프로필 사진을 검색합니다.
 
     ```powerapps-dot
     If( !IsBlank( ThisItem.Id ) && 
