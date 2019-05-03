@@ -21,7 +21,7 @@ ms.lasthandoff: 04/23/2019
 ms.locfileid: "63319419"
 ---
 # <a name="integrate-powerapps-microsoft-flow-and-power-bi-with-sharepoint-online"></a>SharePoint Online과 PowerApps, Microsoft Flow 및 Power BI 통합
-SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해 보았습니까? 아니면 SharePoint Online에서 사용하는 방법에 대해 잘 알고 있지 않으십니까? 그렇다면 제대로 찾아오셨습니다! 이 자습서 시리즈에서는 SharePoint 목록 및 SharePoint Online과 통합되는 세 가지 주요 기술을 기반으로 하는 프로젝트 관리에 대한 기본 캔버스 앱을 구축하는 방법을 살펴봅니다. PowerApps, Microsoft Flow 및 Power BI를 선택합니다. 이러한 기술을 함께 사용하면 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
+SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적으로 자동화하고 간소화하고 싶습니까? PowerApps, Microsoft Flow 또는 Power BI를 사용해본 적이 있지만 SharePoint Online에서 사용하는 방법은 잘 모르십니까? 그렇다면 제대로 찾아오셨습니다! 이 자습서 시리즈에서는 SharePoint 목록 및 SharePoint Online과 통합되는 세 가지 주요 기술 을 기반으로 하는 프로젝트 관리를 위한 기본 캔버스 앱을 구축하는 방법을 살펴봅니다. PowerApps, Microsoft Flow 및 Power BI 이러한 기술을 함께 사용하면 더 쉽게 비즈니스를 *측정*하고 결과에서 *작동*하고 워크플로를 *자동화*할 수 있습니다. 이 시리즈를 마치면 다음과 같이 멋진 시나리오를 갖게 됩니다.
 
 ![완성된 시나리오에 대한 다이어그램](./media/sharepoint-scenario-intro/composite-with-background.png)
 
@@ -29,9 +29,9 @@ SharePoint Online을 가지고 있고 비즈니스 프로세스를 더 효율적
 이 시리즈의 자습서에서 Contoso 회사는 요청, 승인, 개발, 최종 검토에 이르기까지 프로젝트의 수명 주기를 관리하는 SharePoint Online 사이트를 운영하고 있습니다. 부서 책임자와 같은 *프로젝트 요청자*는 SharePoint 목록에 항목을 추가하여 IT 프로젝트를 요청합니다. IT 관리자와 같은 *프로젝트 승인자*는 이 프로젝트를 검토한 다음 승인하거나 거부합니다. 승인되면 프로젝트가 *프로젝트 관리자*에게 할당되고 추가 세부 정보가 동일한 앱을 통해 두 번째 목록에 추가됩니다. *비즈니스 분석가*는 SharePoint에 포함된 Power BI 보고서를 사용하여 현재 및 완성된 프로젝트를 검토합니다.  Microsoft Flow는 승인 전자 메일을 보내고 Power BI 경고에 응답하는 데 사용됩니다.
 
 ## <a name="getting-started-quickly"></a>빠른 시작
-이 시리즈의 자습서에서 소개하는 시나리오는 완전한 프로젝트 관리 및 분석 앱에 비해 간단하지만, 모든 작업을 완료하는 데 약간의 시간이 걸립니다. SharePoint를 사용하여 PowerApps, Microsoft Flow 및 Power BI를 간단히 소개하려면 다음 문서를 확인하세요.
+이 시리즈의 자습서에서 소개하는 시나리오는 완전한 프로젝트 관리 및 분석 앱에 비해 간단하지만, 모든 작업을 완료하는 데는 약간의 시간이 걸립니다. SharePoint를 사용하는 PowerApps, Microsoft Flow 및 Power BI 사용에 대한 빠른 소개를 원한면 다음 문서를 확인하세요.
 
-* **PowerApps**: [PowerApps를 사용 하 여 SharePoint 내에서 앱을 생성](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) 고 [SharePoint 목록의 데이터를 관리 하는 앱 생성](app-from-sharepoint.md)
+* **PowerApps**: [PowerApps를 사용하여 SharePoint 내에서 앱 생성](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) 고 [SharePoint 목록의 데이터를 관리 하는 앱 생성](app-from-sharepoint.md)
 * **Microsoft Flow**: [Microsoft Flow 승인 대기](https://docs.microsoft.com/flow/wait-for-approvals)
 * **Power BI**: [SharePoint Online에 보고서 웹 파트 포함](https://docs.microsoft.com/power-bi/service-embed-report-spo)
 
