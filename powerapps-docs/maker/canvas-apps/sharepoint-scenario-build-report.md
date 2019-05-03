@@ -94,7 +94,7 @@ ms.locfileid: "63321284"
 2. 가운데 창에서 **FileSystemObjectType** 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
    
     ![열 제거](./media/sharepoint-scenario-build-report/05-01-07-remove-column.png)
-3. **Id**열 다음 두 개의 열인 **ServerRedirectedEmbedURL**과 **ContentTypeId**를 제거합니다.
+3. **Id**열 다음 두 개의 열인 **ServerRedirectedEmbedURL**과 **ContentTypeId**를 제거합니다. 
    > [!TIP]
    > Shift 키를 사용하여 두 열을 선택한 다음 **열 제거**를 클릭하거나 탭합니다.
 4. **PMAssigned**열 오른쪽에 있는 모든 열(총 22열)을 제거합니다. 테이블은 다음 이미지와 같습니다.

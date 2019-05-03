@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에 대한 데이터 폼 레이아웃 이해 | Microsoft Docs
-description: PowerApps에서 행과 열을 사용하여 캔버스 앱에 멋진 양식 레이아웃을 만듭니다.
+description: PowerApps에서 행과 열을 사용하여 캔버스 앱에 멋진 폼 레이아웃을 만듭니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps

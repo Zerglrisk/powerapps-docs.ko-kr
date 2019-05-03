@@ -25,7 +25,7 @@ ms.locfileid: "61559590"
 
 * **함수**는 매개 변수를 받아 작업을 수행하고 값을 반환합니다. 예를 들어 **Sqrt(25)** 는 **5**를 반환합니다. 함수는 Microsoft Excel 함수를 본떠 만듭니다.  **SubmitForm**과 같은 일부 함수에는 파생 작업이 있으며 **Button.OnSelect**와 같은 [동작 수식](working-with-formulas-in-depth.md)에서만 적합합니다.
 * **신호**는 환경에 대한 정보를 반환합니다. 예를 들어 **[Location](functions/signals.md)** 는 디바이스의 현재 GPS 좌표를 반환합니다. 신호는 매개 변수를 받지 않거나 파생 작업이 있습니다.
-* **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[색](functions/function-colors.md)** 은 **Color.Red**, **Color.Blue** 및 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
+* **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[Color](functions/function-colors.md)** 는 **Color.Red**, **Color.Blue** 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
 * **[ThisItem](functions/operators.md#thisitem-operator)** 및 **[Parent](functions/operators.md#parent-operator)** 와 같은 **명명된 연산자**는 컨테이너 내에서 정보에 대한 액세스를 제공합니다.
 
 기타 요소는 다음과 같습니다.
@@ -125,7 +125,7 @@ ms.locfileid: "61559590"
 
 **[Degrees](functions/function-trig.md)** - 라디안을 각도로 변환합니다.
 
-**[Disable](functions/function-enable-disable.md)** – GPS 판독 중에 **[위치](functions/signals.md)** 와 같은 신호를 사용하지 않습니다.
+**[Disable](functions/function-enable-disable.md)** – GPS 판독 중에 **[Location](functions/signals.md)** 과 같은 신호를 사용하지 않습니다.
 
 **[Distinct](functions/function-distinct.md)** – 테이블의 레코드를 요약하여 중복을 제거합니다.  
 
@@ -136,7 +136,7 @@ ms.locfileid: "61559590"
 ## <a name="e"></a>E
 **[EditForm](functions/function-form.md)** – 항목 편집을 위해 Form 컨트롤을 다시 설정합니다.
 
-**[Enable](functions/function-enable-disable.md)** – GPS 판독 중에 **[위치](functions/signals.md)** 와 같은 신호를 사용합니다.
+**[Enable](functions/function-enable-disable.md)** – GPS 판독 중에 **[Location](functions/signals.md)** 과 같은 신호를 사용합니다.
 
 **[EndsWith](functions/function-startswith.md)** – 텍스트 문자열이 다른 텍스트 문자열로 끝나는지 확인합니다.
 
@@ -208,7 +208,7 @@ ms.locfileid: "61559590"
 **[Lower](functions/function-lower-upper-proper.md)** – 텍스트 문자열의 문자를 모두 소문자로 변환합니다.
 
 ## <a name="m"></a>M
-**[일치](functions/function-ismatch.md)**  – 패턴에 따라 하위 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
+**[Match](functions/function-ismatch.md)** – 패턴에 따라 하위 문자열을 추출합니다.  정규식을 사용할 수 있습니다.
 
 **[MatchAll](functions/function-ismatch.md)**  – 패턴에 따라 여러 부분 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
 
@@ -260,7 +260,7 @@ ms.locfileid: "61559590"
 
 **[Refresh](functions/function-refresh.md)** – 데이터 원본의 레코드를 새로 고칩니다.
 
-**[관련](functions/function-relate-unrelate.md)**  –에 일 대 다 또는 다 대 다 관계를 통해 두 엔터티의 레코드를 연결 합니다.
+**[Relate](functions/function-relate-unrelate.md)** – 일대다 또는 다대다 관계를 통해 두 엔터티의 레코드를 연결합니다.
 
 **[Remove](functions/function-remove-removeif.md)** – 데이터 원본에서 하나 이상의 특정 레코드를 제거합니다.
 
@@ -328,7 +328,8 @@ ms.locfileid: "61559590"
 
 **[Tan](functions/function-trig.md)** - 라디안으로 지정된 각도의 탄젠트를 반환합니다.
 
-**[텍스트](functions/function-text.md)**  – 모든 값을 변환 하 고 텍스트 문자열을 숫자 또는 날짜/시간 값의 형식을 지정 합니다.
+**[Text](functions/function-text.md)** – 모든 값을 변환하고 숫자 또는 날짜/시간 값을 텍스트 문자열로 형식을 지정합니다.
+
 
 **[ThisItem](functions/operators.md#thisitem-operator)** – 갤러리 또는 Form에서 컨테이너에서 현재 항목에 대한 데이터를 반환합니다.
 
@@ -347,7 +348,7 @@ ms.locfileid: "61559590"
 ## <a name="u"></a>U
 **[Ungroup](functions/function-groupby.md)** – 그룹화를 제거합니다.
 
-**[연결을 해제](functions/function-relate-unrelate.md)**  –에 일 대 다 또는 다 대 다 관계에서 두 엔터티의 레코드 Unrelates 합니다.
+**[Unrelate](functions/function-relate-unrelate.md)** – 일대다 또는 다대다 관계에서 두 엔터티의 레코드의 연결을 해제합니다.
 
 **[Update](functions/function-update-updateif.md)** – 데이터 원본에서 레코드를 바꿉니다.
 
