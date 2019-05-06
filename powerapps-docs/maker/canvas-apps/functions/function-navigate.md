@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: 0033d0a2d7473e6aaeac1e8533f62873e0d2f49a
 ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "63321920"
@@ -31,7 +31,7 @@ ms.locfileid: "63321920"
 사용자가 화면 사이를 이동할 때 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)도 보존됩니다. **Navigate**를 사용하여 수식이 표시되는 화면에 대해 둘 이상의 컨텍스트 변수를 설정할 수 있습니다. 이는 화면 외부에서 컨텍스트 변수를 설정하는 유일한 방법입니다. 이 방법을 사용하여 화면에 매개 변수를 전달할 수 있습니다. 다른 프로그래밍 도구를 사용한 경험이 있는 경우, 이 방법은 프로시저에 매개 변수를 전달하는 것과 유사합니다.
 
 ## <a name="description"></a>설명
-### <a name="back"></a>뒤로
+### <a name="back"></a>Back
 **Back** 함수는 가장 최근에 표시된 화면을 표시합니다. 이 함수에 대해 인수를 지정하지 않았습니다.
 
 ### <a name="navigate"></a>Navigate

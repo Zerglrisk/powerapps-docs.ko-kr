@@ -53,7 +53,7 @@ ms.locfileid: "61549930"
 
 - 모든 입력 컨트롤의 **[AccessibilityLabel](controls/properties-accessibility.md)** 속성을 설정해야 합니다.
 - 이미지의 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 을 적절한 설명으로 설정합니다.
-  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 판독기에서 일지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 이 비어 있거나 설정되어 있지 않아야 합니다.
+  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 읽기 프로그램에서 읽지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 이 비어 있거나 설정되어 있지 않아야 합니다.
   - 사진이나 아이콘이 단추로 사용되는 경우에는 **[TabIndex](controls/properties-accessibility.md)** 를 0으로, **[AccessibilityLabel](controls/properties-accessibility.md)** 을 링크 설명으로 설정합니다.
 
 

@@ -71,7 +71,7 @@ API는 무료 미리 보기로 사용 가능하며 Azure 구독과 연결되어 
 ### <a name="create-the-app-and-add-a-connection"></a>앱 만들기 및 연결 추가
 먼저, 빈 휴대폰 앱을 만들고 **Text Analytics** 커넥터와의 연결을 추가하겠습니다. 이러한 작업에 대해 추가 정보가 필요할 경우 [처음부터 앱 만들기](get-started-create-from-blank.md)와 [PowerApps에서 연결 관리](add-manage-connections.md)를 참조하세요.
 
-1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **비어 있는 상태에서 시작** > ![Phone 앱 아이콘](./media/cognitive-services-api/icon-phone-app.png)(휴대폰) > **이 앱 만들기**를 선택합니다.
+1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **비어 있는 상태에서 시작** > ![Phone 앱 아이콘](./media/cognitive-services-api/icon-phone-app.png)(휴대폰) > **앱 만들기**를 선택합니다.
 
     ![비어 있는 상태에서 시작](./media/cognitive-services-api/start-from-blank.png)
 
@@ -92,7 +92,7 @@ API는 무료 미리 보기로 사용 가능하며 Azure 구독과 연결되어 
 
 1. **홈** 탭에서 **새 화면**, **스크롤 가능 화면**을 차례로 클릭하거나 탭합니다. 
 
-2. **Screen2**에서 **[Title]** 을 선택하고 **텍스트 분석**으로 변경합니다.
+2. **Screen2**에서 **[제목]** 을 선택하고 **텍스트 분석**으로 변경합니다.
 
 3. 소개 텍스트에 대한 **레이블** 컨트롤을 추가합니다.
 
@@ -172,7 +172,7 @@ If( chkSentiment.Value = true,
 
   * **DetectLanguage()** 에서 **numberOfLanguagesToDetect**는 1로 하드 코딩되지만, 앱의 일부 논리에 따라 이 매개 변수를 전달할 수 있습니다.
 
-  * **keyphrases ()** 하 고 **detectsentiment ()** 에 **언어** 은 하드 코드 된 "en" 해도 앱의 일부 논리에 따라이 매개 변수를 전달할 수 있습니다. 예를 들어 언어를 먼저 감지한 다음, **DetectLanguage()** 에서 반환하는 내용에 따라 이 매개 변수를 설정할 수 있습니다.
+  * **keyphrases()** 와 **detectsentiment()** 에서 **language**는 "en"으로 하드 코딩되지만, 앱의 일부 논리에 따라 이 매개 변수를 전달할 수 있습니다. 예를 들어 언어를 먼저 감지한 다음, **DetectLanguage()** 에서 반환하는 내용에 따라 이 매개 변수를 설정할 수 있습니다.
 
 * 각 호출에 대해 결과를 적합한 컬렉션에 추가합니다.
 
@@ -199,7 +199,7 @@ API 호출의 결과를 표시하려면 각 컨트롤에서 적절한 컬렉션�
 
 ## <a name="run-the-app"></a>앱 실행
 
-이제 앱이 완료되었으니 앱을 실행하여 어떻게 작동하는지 살펴봅니다. 오른쪽 상단의 실행 버튼을 클릭하거나 탭합니다. ![앱 실행](./media/cognitive-services-api/icon-run-app.png)줄임표(...)를 클릭한 다음 다음 이미지에서는 모두 세 개의 옵션이 선택되었으며 텍스트는 Text Analytics API 페이지의 기본 텍스트와 동일합니다.
+이제 앱이 완료되었으니 앱을 실행하여 어떻게 작동하는지 살펴봅니다. 오른쪽 상단의 실행 ![앱 실행](./media/cognitive-services-api/icon-run-app.png)버튼을 클릭하거나 탭합니다. 다음 이미지에서는 모두 세 개의 옵션이 선택되었으며 텍스트는 Text Analytics API 페이지의 기본 텍스트와 동일합니다.
 
 ![데이터가 있는 완성된 앱](./media/cognitive-services-api/finished-app.png)
 

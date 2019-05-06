@@ -33,7 +33,7 @@ ms.locfileid: "61531736"
 2. **열기**를 클릭하면 새 브라우저 탭에서 앱이 열립니다.
    
     ![프로젝트 요청 열기 앱](./media/sharepoint-scenario-summary/09-00-02-open-app.png)
-3. 오른쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘](./media/sharepoint-scenario-publish-report/icon-pin.png)을 클릭하거나 탭합니다.
+3. 앱에서 ![항목 추가 아이콘](./media/sharepoint-scenario-summary/icon-add-item.png) 을 클릭하거나 탭하여 새 항목을 만듭니다.
 4. 다음 값으로 양식을 작성합니다.
    
    * **Title** = "Mobile devices for design team"
@@ -51,7 +51,7 @@ ms.locfileid: "61531736"
    * **Requestor** = "Emily Braun"
      
      ![프로젝트 요청 편집 양식](./media/sharepoint-scenario-summary/09-01-01-app-new.png)
-5. ![확인 표시 아이콘](./media/sharepoint-scenario-summary/icon-check-mark.png)을 클릭하거나 탭한 다음 브라우저 탭을 닫습니다.
+5. 을 클릭하거나 탭한 ![확인 표시 아이콘](./media/sharepoint-scenario-summary/icon-check-mark.png)다음 브라우저 탭을 닫습니다.
 6. **프로젝트 요청** 목록으로 이동하고, **프로젝트 요청 앱** 및 **모든 항목**을 차례로 클릭하거나 누릅니다.
    
     ![모든 항목 보기](./media/sharepoint-scenario-summary/09-01-01a-view-all.png)
@@ -114,7 +114,7 @@ ms.locfileid: "61531736"
    * **ProjectedDays** 필드 = "15"
      
      ![프로젝트 업데이트 세부 정보](./media/sharepoint-scenario-summary/09-04-03-update.png)
-5. ![체크 표시 아이콘](./media/sharepoint-scenario-summary/icon-check-mark.png)을 클릭하거나 탭하여 변경 내용을 SharePoint 목록에 적용합니다.
+5. 을 클릭하거나 탭한 ![확인 표시 아이콘](./media/sharepoint-scenario-summary/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
 6. 앱을 닫고 목록으로 돌아갑니다. 이제 프로젝트 항목이 변경된 날짜 및 일 수로 업데이트됩니다.
    
    ![SharePoint 목록에서 업데이트된 세부 정보](./media/sharepoint-scenario-summary/09-04-04-updated-list.png)

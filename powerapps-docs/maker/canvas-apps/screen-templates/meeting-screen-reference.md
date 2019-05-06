@@ -50,7 +50,7 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 * 속성: **Color**<br>
     값: `If( _showDetails, LblRecipientCount.Color, RectQuickActionBar.Fill )`
 
-    **_showDetails** 변수는 **LblInviteTab** 컨트롤 또는 **LblScheduleTab** 컨트롤이 선택되었는지 여부를 결정하는데 사용됩니다. **_showDetails**의 값이 **true**라면, **LblScheduleTab**이 선택된 것입니다. **false**라면, **LblInviteTab**이 선택된 것입니다.  **_showDetails**의 값이 **true**(이 탭이 선택되지 않음)이면, 탭의 색은 *LblRecipientCount*의 색과 일치합니다. 그렇지 않으면, **RectQuickActionBar**의 채우기 색과 일치합니다.
+    **_showDetails** 변수는 **LblInviteTab** 컨트롤 또는 **LblScheduleTab** 컨트롤이 선택되었는지 여부를 결정하는데 사용됩니다. **_showDetails**의 값이 **true**라면, **LblScheduleTab**이 선택된 것입니다. **false**라면, **LblInviteTab**이 선택된 것입니다.  **_showDetails**의 값이 **true**(이 탭이 선택*되지* 않음)이면, 탭의 색은 **LblRecipientCount**의 색과 일치합니다. 그렇지 않으면, **RectQuickActionBar**의 채우기 색과 일치합니다.
 
 * 속성: **OnSelect**<br> 
     값: `Set( _showDetails, false )`
@@ -145,9 +145,9 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
     Set( _showMeetingTimes, true )
     ```
 
-  이 컨트롤을 선택 하면 올바른 전자 메일 주소를 추가 (문서에 올바른 전자 메일 주소를 입력 하는 경우에 표시 **TextSearchBox**)에 **MyPeople** 컬렉션 (이 컬렉션은 참석자 목록) 및 새 사용자 항목을 사용 하 여 사용할 수 있는 회의 시간을 새로 고칩니다.
+  이 컨트롤을 선택하면 **MyPeople** 컬렉션에(참석자 목록) 유효한 전자 메일 주소를(유효한 전자 메일 주소가 **TextSearchBox**에 입력되어야 표시됨) 추가한 다음 새 사용자 항목으로 가능한 모임 시간을 새로 고칩니다.
 
-  낮은 수준에서이 코드 블록:
+  코드 블록은 구체적으로 다음을 수행합니다.
   1. 에 전자 메일 주소를 수집 합니다 **MyPeople** 전자 메일 주소를 수집 하는 컬렉션에는 **DisplayName**, **UserPrincipalName**, 및 **메일**  필드입니다.
   1. 콘텐츠를 다시 설정 합니다 **TextSearchBox** 제어 합니다.
   1. 설정 된 **_showMeetingTimes** 변수를 **false**합니다. 이 변수는 표시 유형을 제어 **FindMeetingTimesGallery**는 열려 있는 시간에 맞게 선택된 참석자에 게 표시 합니다.
@@ -481,19 +481,19 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 
   높은 수준에서, 이 코드 블록은 모임의 선택한 날짜/시간을 기준으로 회의실 목록을 가지고 있지 않은 사용자를 위해 가능한 회의실을 수집합니다. 그렇지 않으면, 단순히 회의실 목록을 검색합니다.
 
-  낮은 수준에서이 코드 블록:
-  1. 집합 **_selectedMeetingTime** 선택한 항목에 있습니다. 이 시간 동안 사용할 수 있는 어떤 방 찾으려고 사용 됩니다.
-  1. 로드를 설정 하는 상태 변수 **_loadingRooms** 에 **true**, 로드 상태를 설정 합니다.
-  1. 경우는 **RoomsLists** 컬렉션이 비어, 사용자의 테 넌 트의 방 목록을 검색 하 고 저장 합니다 합니다 **RoomsLists** 컬렉션입니다.
-  1. 사용자가 있는 경우 하나의 회의실 목록 없거나 회의실 목록:
-      1. 합니다 **noRoomLists** 변수가로 설정 된 **true**,이 변수는 아래에 표시 된 항목을 확인 하는 데 사용 됩니다는 **RoomBrowseGallery** 컨트롤입니다.
-      1. `Office365.GetRooms()` 작업은 테 넌 트의 처음 100 개의 방 검색에 사용 됩니다. 에 저장 됩니다는 **AllRooms** 컬렉션입니다.
-      1. 합니다 **_allRoomsConcat** 변수는 회의실의 첫 번째 20 전자 메일 주소의 세미콜론으로 구분 된 문자열로 설정 됩니다는 **AllRooms** 컬렉션입니다. 왜냐하면 합니다 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 한 번에 20 person 개체의 사용 가능한 시간에 대 한 검색으로 제한 됩니다.
-      1. **RoomTimeSuggestions** 컬렉션 사용 합니다 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 에서 처음 20 개 대화방의 가용성을 검색 하는 **AllRooms** 기반 컬렉션 시간 값에는 **_selectedMeetingTime** 변수입니다. 합니다 `& "Z"` 형식을 제대로 지정 하는 데 사용 되는 **DateTime** 값입니다.
-      1. 합니다 **AvailableRooms** 컬렉션이 만들어집니다. 이 단순히를 **RoomTimeSuggestions** 컬렉션에 추가 하는 두 개의 추가 열을 사용 하 여 참석자 가용성입니다. "Address" 및 "이름"입니다. "Address"의 대화방에 전자 메일 주소 이며 "Name" 대화방의 이름입니다.
-      1. 그런 다음, **AvailableRoomsOptimal** 컬렉션이 만들어집니다. 바로 이것이 합니다 **AvailableRooms** "Availability" 및 "참가자" 열을 사용 하 여 컬렉션에서 제거 합니다. 스키마와 일치 이렇게 **AvailableRoomsOptimal** 하 고 **AllRooms**합니다. 두 컬렉션을 사용할 수 있습니다는 **항목** 의 속성을 **RoomBrowseGallery**합니다.
-      1. **_roomListSelected** 로 설정 된 **false**합니다.
-  1. 로딩 상태가 **_loadingRooms**로 설정 된 **false** 등등 실행이 완료 되 면 합니다.
+  코드 블록은 구체적으로 다음을 수행합니다.
+  1. **\_selectedMeetingTime**을 선택한 항목으로 설정합니다. 이것은 지정된 시간에 가능한 회의실을 찾는데 사용됩니다.
+  1. 로딩 상태 변수 **\_loadingRooms**에 **true**를 설정하고, 로딩 상태를 켭니다.
+  1. **RoomsLists** 컬렉션이 비어 있는 경우, 사용자의 테넌트의 회의실 목록을 검색하고 **RoomsLists** 컬렉션에 저장합니다.
+  1. 사용자에게 회의실 목록이 없가나 하나의 회의실 목록이 있다면
+      1. **noRoomLists** 변수를 **true**로 설정하고, 이 변수는 **RoomBrowseGallery** 컨트롤에서 표시된 항목을 결정하는 데 사용됩니다.
+      1. `Office365.GetRooms()` 작업은 테넌트의 처음 100개의 회의실을 검색하는 데 사용됩니다. 이는 **AllRooms** 컬렉션에 저장됩니다.
+      1. **_allRoomsConcat** 변수는 **AllRooms** 컬렉션에서 회의실의 처음 20개 전자 메일 주소의 세미콜론으로 구분된 문자열로 설정됩니다. 왜냐하면, [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times)는 한 번에 20개의 사용자 개체의 사용 가능한 시간을 검색하는 것으로 제한되기 때문입니다.
+      1. **RoomTimeSuggestions** 컬렉션은 **_selectedMeetingTime** 변수의 시간 값을 기준으로 **AllRooms** 컬렉션에서 처음 20개 회의실의 가용성을 검색하기 위해 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times)를 사용합니다. `& "Z"`는 **DateTime** 형식을 적절하게 지정하는 데 사용됩니다.
+      1. **AvailableRooms** 컬렉션이 생성됩니다. 이는 단순히 추가된 두 열을 가진 참석자의 가용성의 **RoomTimeSuggestions** 컬렉션입니다: "Address", "Name". "Address"는 회의실의 전자 메일 주소이며 "Name"이 회의실의 이름입니다.
+      1. **AvailableRooms** 컬렉션이 생성됩니다. 이는 단순히 **AvailableRooms** 컬렉션에서 "Availability" 및 "Attendee" 열을 제거한 것입니다. 이를 통해 **AvailableRoomsOptimal**과 **AllRooms**의 스키마를 매치합니다. 두 컬렉션을 사용할 수 있습니다는 **항목** 의 속성을 **RoomBrowseGallery**합니다.
+      1. **_roomListSelected**를 **false**로 설정합니다.
+  1. 모든 실행이 완료되면 로딩 상태 **\_loadingRooms**는 **false**로 설정합니다.
 
 ## <a name="room-browse-gallery"></a>회의실 찾아보기 갤러리
 
@@ -570,16 +570,16 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
 
   이 컨트롤을 선택할 때 발생하는 동작은 사용자가 회의실 목록 집합 또는 회의실 집합을 보는지에 따라 달라집니다. 전자의 경우 컨트롤을 선택하면 선택한 회의실 목록에서 선택한 시간에 사용할 수 있는 회의실을 검색합니다. 후자의 경우 이 컨트롤을 선택하면 **_selectedRoom** 변수를 선택한 항목으로 설정합니다. 위의 구문은 [**FindMeetingTimesGallery(모임 시간 찾기 갤러리) 제목**](#find-meeting-times-gallery) 의 **Select** 구문과 매우 유사합니다.
 
-  낮은 수준에서 앞에 나오는 코드 블록:
-  1. 대화방에 대 한 로드 상태를 설정 하 여 켭니다 **_loadingRooms** 하 **true**합니다.
-  1. 회의실 목록에서 선택 된 경우 및 테 넌 트 공간이 있을 경우 참조 목록을 확인 합니다. 이 경우:
-      1. 설정 **_roomListSelected** 하 **true** 설정 하 고 **_selectedRoomList** 선택한 항목에 합니다.
-      1. 합니다 **_allRoomsConcat** 변수는 회의실의 첫 번째 20 전자 메일 주소의 세미콜론으로 구분 된 문자열로 설정 됩니다는 **AllRooms** 컬렉션입니다. 왜냐하면 합니다 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 작업이 한 번에 20 person 개체의 사용 가능한 시간에 대 한 검색을 제한 합니다.
-      1. 합니다 **RoomTimeSuggestions** 컬렉션 사용 합니다 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times) 에서 처음 20 개 대화방의 가용성을 검색 하는 작업을 **AllRooms** 컬렉션의 시간 값에 기반 합니다 **_selectedMeetingTime** 변수입니다. 유의 `& "Z"` 형식을 제대로 지정 하는 데 사용 되는 **DateTime** 값입니다.
-      1. 합니다 **AvailableRooms** 컬렉션이 만들어집니다. 이 단순히를 **RoomTimeSuggestions** 컬렉션에 추가 하는 두 개의 추가 열을 사용 하 여 참석자 가용성입니다. "Address" 및 "이름"입니다. "Address"의 대화방에 전자 메일 주소 이며 "Name" 대화방의 이름입니다.
-      1. 그런 다음, **AvailableRoomsOptimal** 컬렉션이 만들어집니다. 바로 이것이 합니다 **AvailableRooms** "Availability" 및 "참가자" 열을 사용 하 여 컬렉션에서 제거 합니다. 스키마와 일치 이렇게 **AvailableRoomsOptimal** 하 고 **AllRooms**합니다. 두 컬렉션을 사용 하면이 **항목** 속성을 **RoomBrowseGallery**합니다.
-      1. **_roomListSelected** 로 설정 된 **false**합니다.
-  1. 로딩 상태가 **_loadingRooms**로 설정 된 **false** 등등 실행이 완료 되 면 합니다.
+  코드 블록은 구체적으로 다음을 수행합니다.
+  1. **\_loadingRooms**을 **true**로 설정하여 회의실의 로딩 상태를 켭니다.
+  1. 회의실 목록이 선택되었는지 및 테넌트에 회의실 목록이 있는지 확인합니다. 해당하는 경우,
+      1. **_roomListSelected**를 **true**로 설정하고 **_selectedRoomList**를 선택한 항목으로 설정합니다.
+      1. **_allRoomsConcat** 변수는 **AllRooms** 컬렉션에서 회의실의 처음 20개 전자 메일 주소의 세미콜론으로 구분된 문자열로 설정됩니다. 왜냐하면, [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times)는 한 번에 20개의 사용자 개체의 사용 가능한 시간을 검색하는 것으로 제한되기 때문입니다.
+      1. **RoomTimeSuggestions** 컬렉션은 **_selectedMeetingTime** 변수의 시간 값을 기준으로 **AllRooms** 컬렉션에서 처음 20개 회의실의 가용성을 검색하기 위해 [Office365.FindMeetingTimes](https://docs.microsoft.com/connectors/office365/#find-meeting-times)를 사용합니다. `& "Z"`는 **DateTime** 형식을 적절하게 지정하는 데 사용됩니다.
+      1. **AvailableRooms** 컬렉션이 생성됩니다. 이는 단순히 추가된 두 열을 가진 참석자의 가용성의 **RoomTimeSuggestions** 컬렉션입니다: "Address", "Name". "Address"는 회의실의 전자 메일 주소이며 "Name"이 회의실의 이름입니다.
+      1. **AvailableRooms** 컬렉션이 생성됩니다. 이는 단순히 **AvailableRooms** 컬렉션에서 "Availability" 및 "Attendee" 열을 제거한 것입니다. 이를 통해 **AvailableRoomsOptimal**과 **AllRooms**의 스키마를 매치합니다. 이제 **RoomBrowseGallery**의 **Items** 속성에서 두 컬렉션을 모두 사용할 수 있습니다.
+      1. **_roomListSelected**를 **false**로 설정합니다.
+  1. 모든 실행이 완료되면 로딩 상태 **\_loadingRooms**는 **false**로 설정합니다.
 
 ## <a name="back-chevron"></a>뒤로 펼침 단추
 
@@ -643,7 +643,7 @@ PowerApps의 캔버스 앱의 모임 화면 템플릿의 각 주요 컨트롤이
     )
     ```
   
-  코드 블록을 구체적으로 설명하면 다음과 같습니다.
+  코드 블록은 구체적으로 다음을 수행합니다.
   1. **_myCalendarName**을 [Office365.CalendarGetTables()](https://docs.microsoft.com/connectors/office365/#get-calendars)에서 **DisplayName**이 "Calendar"인 일정으로 설정합니다.
   1. [Office365.V2CalendarPostItem](https://docs.microsoft.com/connectors/office365/#create-event--v2-) 작업을 사용하여 화면에서 사용자가 만든 다양한 선택에서 입력값으로 모임을 예약합니다.
   1. 모임을 생성하는데 사용된 모든 입력 필드 및 변수를 다시 설정합니다.

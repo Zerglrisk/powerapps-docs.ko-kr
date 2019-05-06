@@ -22,7 +22,7 @@ ms.locfileid: "61561624"
 ---
 # <a name="create-and-update-a-collection-in-a-canvas-app"></a>만들기 및 캔버스 앱에서 컬렉션 업데이트
 
-컬렉션을 사용 하 여 앱에 사용자를 관리할 수 있는 데이터를 저장 합니다. 컬렉션은 제품 목록의 제품과 같은 비슷한 항목의 그룹입니다. 변수 컬렉션과 같은 다른 형식에 대 한 참조 항목: [캔버스 앱 변수 이해](working-with-variables.md)합니다.
+컬렉션을 사용하여 앱에서 사용자가 관리할 수 있는 데이터를 저장합니다. 컬렉션은 제품 목록의 제품과 같은 비슷한 항목의 그룹입니다. 컬렉션과 같은 변수의 다른 형식에 대한 정보는 [캔버스 앱 변수 이해](working-with-variables.md)를 참조합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -64,7 +64,7 @@ ms.locfileid: "61561624"
     )
     ```
 
-1. F5 키를 일부 텍스트를 입력 **ProductName**에서 옵션을 선택 **색**를 선택한 후 **추가**합니다.
+1. <F5> 키를 눌러, **ProductName**에 일부 텍스트를 입력하고, **Colors**에서 옵션을 선택한 후 **추가**를 선택합니다.
 
     ![앱의 미리 보기](./media/create-update-collection/preview-add.png)
 
@@ -108,11 +108,11 @@ ms.locfileid: "61561624"
 
     `Remove(ProductList, ThisItem)`
 
-1. 갤러리 외부 단추 추가 해당 **텍스트** 속성을 **"지우기"** 를 설정 하 고 해당 **OnSelect** 속성을 다음이 수식:
+1. 갤러리 외부에, 단추를 추가하고 **Text** 속성을 **"지우기"** 로 설정하고 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
     `Clear(ProductList)`
 
-1. Alt 키를 누른 채 선택 합니다 **휴지통** 컬렉션에서 해당 항목을 제거 하거나 선택 항목에 대 한 아이콘을 **지우기** 컬렉션에서 모든 항목을 제거 하려면 단추.
+1. <Alt> 키를 누른 채로 컬렉션에서 해당 항목을 제거하기 위해 항목의 **휴지통** 아이콘을 선택하거나, 컬렉션에서 모든 항목을 제거하기 위해 **지우기** 단추를 선택합니다.
 
 ## <a name="put-a-sharepoint-list-into-a-collection"></a>컬렉션에 SharePoint 목록 넣기
 
@@ -128,7 +128,7 @@ ms.locfileid: "61561624"
 
 1. (선택 사항) 사용자가 만든 컬렉션을 미리 보려면 **파일** 메뉴에서 **컬렉션**을 선택합니다.
 
-갤러리에서 (예: 날짜, 선택 및 사용자) SharePoint 목록의 데이터를에서 표시 하는 방법에 대 한 정보: [갤러리에서 목록 열 표시](connections/connection-sharepoint-online.md#show-list-columns-in-a-gallery)합니다. (사용 하 여 드롭다운 목록, 날짜 선택 및 사용자 선택기) 형태로 데이터를 표시 하는 방법에 대 한 정보: [편집 양식 및 표시 양식 컨트롤](controls/control-form-detail.md)합니다.
+갤러리에서 SharePoint 목록(예: 날짜, 선택 및 사용자)의 데이터를 표시하는 방법에 대한 정보는  [갤러리에서 목록 열 표시](connections/connection-sharepoint-online.md#show-list-columns-in-a-gallery)를 확인합니다. 폼(드롭다운 목록, 날짜 선택 및 사용자 선택을 사용)에서 데이터를 표시하는 방법에 대한 정보는  [편집 폼 및 표시 폼 컨트롤](controls/control-form-detail.md)을 확인합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

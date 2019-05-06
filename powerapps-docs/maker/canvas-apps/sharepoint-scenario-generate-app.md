@@ -63,7 +63,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
 1. 찾아보기 화면을 클릭하거나 누릅니다.
    
-    이 화면에는 *갤러리*를 포함하는 *레이아웃*이 있어서 검색 표시줄 및 정렬 단추와 같은 다른 *컨트롤*뿐만 아니라 목록 항목을 표시합니다.
+    이 화면에는 *갤러리*를 포함하는 *레이아웃*이 있어서 검색 표시줄 및 정렬 단추와 같은 다른 *컨트롤* 뿐만 아니라 목록 항목을 표시합니다.
 
 2. 첫 번째 항목을 제외한 레코드를 클릭하거나 눌러서 **BrowseGallery1** 갤러리를 선택합니다.
    
@@ -106,7 +106,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
     ![편집 양식](./media/sharepoint-scenario-generate-app/02-04-03-edit.png)
 
-## <a name="step-5-run-the-app-from-the-list"></a>5단계: 목록에서 앱을 실행 합니다.
+## <a name="step-5-run-the-app-from-the-list"></a>5단계: 목록에서 앱 실행
 
 1. **프로젝트 요청** 목록에서 **모든 항목** 및 **프로젝트 요청 앱**을 차례로 클릭하거나 누릅니다.
    
@@ -121,7 +121,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
 4. 연필 편집 아이콘을 ![클릭하거나 눌러서](./media/sharepoint-scenario-generate-app/icon-pencil.png) 항목을 편집합니다.
 
-5. **설명** 필드를 업데이트합니다. 마지막 단어를 "그룹"에서 "팀"으로 변경한 다음 ![확인 표시 아이콘](./media/sharepoint-scenario-generate-app/icon-check-mark.png)을 클릭하거나 누릅니다.
+5. **Description** 필드를 업데이트합니다. 마지막 단어를 "그룹"에서 "팀"으로 변경한 다음 ![확인 표시 아이콘](./media/sharepoint-scenario-generate-app/icon-check-mark.png)을 클릭하거나 누릅니다.
    
    ![설명 필드 업데이트](./media/sharepoint-scenario-generate-app/02-05-07-edit.png)
 
@@ -137,7 +137,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 아주 간단한 앱이며 몇 가지 기본 사용자 지정만 수행했지만 흥미로운 기능을 신속하게 빌드할 수 있습니다. 다음 작업으로 이동하겠습니다. 하지만 원하신다면 앱에 대해 좀 더 살펴보고 컨트롤 및 수식이 함께 작동하여 앱 동작을 구현하는 방법을 확인합니다.
 
 ## <a name="formula-deep-dive"></a>수식 심층 분석
-이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있습니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **항목** 속성의 수식을 수정했습니다. 특히 선택한 PowerApps 필드 대신 **제목** 필드를 사용하도록 정렬 및 검색 방법을 변경했습니다. 수정한 수식은 다음과 같습니다.
+이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있게 합니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **Item** 속성의 수식을 수정했습니다. 특히 선택한 PowerApps 필드 대신 **Title** 필드를 사용하도록 정렬 및 검색 방법을 변경했습니다. 수정한 수식은 다음과 같습니다.
 
 **SortByColumns ( Filter ( 'Project Requests', StartsWith ( Title, TextSearchBox1.Text ) ), "Title", If ( SortDescending1, Descending, Ascending ) )**
 

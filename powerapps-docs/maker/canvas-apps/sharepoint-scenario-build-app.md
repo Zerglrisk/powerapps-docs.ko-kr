@@ -140,7 +140,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
     ![단추 추가](./media/sharepoint-scenario-build-app/04-03-05-button-default.png)
 2. 수식 입력줄에서 단추에 대해 다음 속성을 설정합니다.
    
-   * **OnSelect** 속성 = **Navigate(AssignManager, Fade)** 앱을 실행하고 이 단추를 클릭하면 앱에서 화면 간의 페이드 전환을 통해 두 번째 화면으로 이동합니다.
+   * **OnSelect** 속성 = **Navigate(AssignManager, Fade)**. 앱을 실행하고 이 단추를 클릭하면 앱에서 화면 간의 페이드 전환을 통해 두 번째 화면으로 이동합니다.
 
    * **Text** 속성 = **"관리자 할당"**
 
@@ -167,7 +167,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 3. 단추 중 하나를 클릭하거나 탭하여 다른 화면으로 이동합니다.
 
-4. 우측 상단 모서리의 ![앱 미리 보기 닫기 아이콘을 클릭하거나 탭하여](./media/sharepoint-scenario-build-app/icon-close-preview.png) 앱을 닫습니다.
+4. 을 클릭하거나 탭하여 ![앱 미리 보기 닫기 아이콘](./media/sharepoint-scenario-build-app/icon-close-preview.png) 앱을 닫습니다.
 
 ## <a name="step-4-build-the-assignmanager-screen"></a>4단계: AssignManager 화면 빌드
 이 단계에서는 갤러리를 사용하여 승인되었지만 아직 관리자가 없는 모든 프로젝트를 표시합니다. 다른 컨트롤을 추가하여 관리자를 지정할 수 있습니다.
@@ -487,7 +487,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
    ![항목 세부 정보 업데이트](./media/sharepoint-scenario-build-app/04-07-11-update.png)
 
-5. 우측 상단 모서리의 ![클릭하거나 누른](./media/sharepoint-scenario-build-app/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
+5. 을 클릭하거나 탭하여 ![체크 표시 아이콘](./media/sharepoint-scenario-build-app/icon-check-mark.png) 변경 내용을 SharePoint 목록에 적용합니다.
 
 6. 앱을 닫고 목록으로 돌아갑니다. 이제 프로젝트 항목이 변경된 날짜 및 일 수로 업데이트됩니다.
    

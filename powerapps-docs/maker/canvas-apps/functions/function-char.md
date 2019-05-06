@@ -48,7 +48,7 @@ ms.locfileid: "61559710"
 
     - **Items**: `[0,1,2,3,4,5,6,7]`
     - **Width**: 800
-    - **높이**: 500
+    - **Height**: 500
     - **TemplateSize**: 100
     - **TemplatePadding**: 0
 
@@ -56,7 +56,7 @@ ms.locfileid: "61559710"
 
     - **Items**: `ForAll( [0,2,3,4,5,6,7,8,9,10,11,12,13,14,15], Value + ThisItem.Value * 16 )`
     - **Width**: 100
-    - **높이**: 500
+    - **Height**: 500
     - **TemplateSize**: 30
     - **TemplatePadding**: 0
 

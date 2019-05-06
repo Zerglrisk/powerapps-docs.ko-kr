@@ -36,7 +36,7 @@ ms.locfileid: "61549976"
 ## <a name="minimum-contrast-for-non-text"></a>텍스트 이외 항목에 대한 최소 대비
 
 > [!NOTE]
-> [WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) 표준에서 대비 요구 사항은 텍스트에만 적용됩니다. 접근성을 높이려면 아이콘 단추와 같은 필수 사용자 인터페이스 구성 요소에 대한 제공 예정인 [WCAG 2.1 대비 지침](https://www.w3.org/TR/WCAG21/#non-text-contrast)을 고려하세요. 이러한 구성 요소에는 최소 비율 3:1이 권장됩니다. 이 섹션에서 설명 하는 지침은 **선택적** WCAG 2.0 준수에 대 한 합니다.
+> [WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) 표준에서 대비 요구 사항은 텍스트에만 적용됩니다. 접근성을 높이려면 아이콘 단추와 같은 필수 사용자 인터페이스 구성 요소에 대해 제공 예정인 [WCAG 2.1 대비 지침](https://www.w3.org/TR/WCAG21/#non-text-contrast)을 고려하세요. 이러한 구성 요소에는 최소 비율 3:1이 권장됩니다. 이 섹션에서 설명하는 지침은 WCAG 2.0 준수에 **있어 선택 사항입니다**.
 
 ### <a name="user-interface-components"></a>사용자 인터페이스 구성 요소
 모든 대화형 컨트롤에는 다음 사이에 적절한 색 대비가 있어야 합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "61549976"
 * **[HoverFill](controls/properties-color-border.md)** 및 컨트롤 외부 색
 
 ### <a name="graphical-objects"></a>그래픽 개체
-이미지가 중요한 정보를 전달하는 경우 대비 문제를 확인하는 것이 좋습니다. 이 이미지를 표시할 수 있는 컨트롤에 적용 됩니다. **[오디오](controls/control-audio-video.md)** 를  **[이미지](controls/control-image.md)** 하십시오  **[마이크](controls/control-microphone.md)**, 및 **[비디오](controls/control-audio-video.md)**.
+이미지가 중요한 정보를 전달하는 경우 대비 문제를 확인하는 것이 좋습니다. 이는 다음과 같은 이미지를 표시할 수 있는 컨트롤에 적용됩니다: **[오디오](controls/control-audio-video.md)**, **[이미지](controls/control-image.md)**, **[마이크](controls/control-microphone.md)** 및 **[비디오](controls/control-audio-video.md)**.
 
 비디오 콘텐츠의 경우 대비 문제를 확인하는 것이 좋습니다. 또는 비디오를 설명하는 [선택 자막](controls/control-audio-video.md)을 추가할 수도 있습니다.
 

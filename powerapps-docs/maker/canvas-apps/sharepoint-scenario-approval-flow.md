@@ -44,11 +44,11 @@ ms.locfileid: "61538246"
    
     ![승인 전자 메일 연락처](./media/sharepoint-scenario-approval-flow/03-01-05-approval-email.png)
    
-    흐름의 다음 상자에서는 프로젝트 승인자의 결정에 응답 하 고 두 가지 흐름 라우팅합니다 *분기*: **그렇다면** 나 **없으면**합니다.
+    흐름의 다음 상자는 프로젝트 승인자의 결정에 응답하고 *분기* 두 가지 중 하나로 흐름을 라우팅합니다:  **예인 경우** 또는 **아니요인 경우**.
    
     ![승인 조건](./media/sharepoint-scenario-approval-flow/03-01-06-condition.png)
 
-## <a name="step-2-create-actions-for-approve--yes"></a>2 단계: 승인에 대 한 작업을 만드는 = yes
+## <a name="step-2-create-actions-for-approve--yes"></a>2단계: 승인 작업 생성 = 예
 기본적으로 이 분기에서는 요청자에게 승인 전자 메일을 보냅니다. 또한 프로젝트가 승인되었으므로 **프로젝트 요청** 목록을 업데이트하고 **프로젝트 세부 정보** 목록에 항목을 추가합니다.
 
 1. **예인 경우** 분기에서 **항목 작성자에게 승인 알림**, **편집**을 차례로 클릭하거나 탭하여 요청자에게 보낸 전자 메일에 대한 기본 옵션을 확인합니다.
@@ -96,7 +96,7 @@ ms.locfileid: "61538246"
     
     ![항목 만들기 완료](./media/sharepoint-scenario-approval-flow/03-01-11-yes-create-complete.png)
 
-## <a name="step-3-review-action-for-approve--no"></a>3 단계: 검토 작업 승인 = 아니요
+## <a name="step-3-review-action-for-approve--no"></a>3단계: 승인 작업 검토 = 아니요
 기본적으로 이 분기에서는 요청자에게 거부 전자 메일을 보냅니다. 또한 **프로젝트 요청** 목록을 업데이트합니다. 프로젝트가 진행되지 않으므로 **프로젝트 세부 정보** 목록에 항목을 추가하지 않습니다.
 
 1. **아니요인 경우** 분기에서 **항목 작성자에게 거부 알림**, **편집**을 차례로 클릭하거나 탭하여 요청자에게 보낸 전자 메일에 대한 기본 옵션을 확인합니다.
