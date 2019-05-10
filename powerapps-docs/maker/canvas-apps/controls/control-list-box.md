@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a2cb87cf68457771605e78970b8d7a923af61fce
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: a7128ace53cc1e0754eb7247282b2ecae7642672
+ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61544438"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65517415"
 ---
 # <a name="list-box-control-in-powerapps"></a>PowerApps의 목록 상자 컨트롤
 사용자가 하나 또는 여러 개의 항목을 선택할 수 있는 목록입니다.
@@ -30,6 +30,8 @@ ms.locfileid: "61544438"
 **[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
+
+**선택한** – 선택한 항목을 나타내는 데이터 레코드입니다.
 
 갤러리, 목록 또는 차트를 추가할 경우 속성 목록은 새 컨트롤이 표시해야 하는 데이터를 쉽게 지정할 수 있는 **항목**을 기본적으로 보여줍니다. 예를 들어 갤러리의 **Items** 속성을 Salesforce의 **Account** 테이블, Excel에서 만들어 클라우드에 업로드한 **Inventory** 테이블 또는 **ConferenceSpeakers** SharePoint 목록 테이블로 설정할 수 있습니다.
 
@@ -95,6 +97,8 @@ ms.locfileid: "61544438"
 **[PressedFill](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 배경색입니다.
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+
+**(사용 되지 않음) SelectedText** – 선택한 항목을 나타내는 하는 문자열 값입니다.
 
 **[SelectionColor](properties-color-border.md)** – 목록에서 선택한 항목의 텍스트 색 또는 펜 컨트롤에 있는 선택 도구의 색입니다.
 

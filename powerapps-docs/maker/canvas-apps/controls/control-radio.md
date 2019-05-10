@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 447cda7a1d8d4f27c8be2b943abd2b5d6b431d49
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 2b1527f8a7bf157c88b85ae9721626b6fc14f5a9
+ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61548780"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65517359"
 ---
 # <a name="radio-control-in-powerapps"></a>PowerApps의 라디오 컨트롤
 
@@ -39,6 +39,8 @@ ms.locfileid: "61548780"
 **Layout** – 가로 또는 세로로 레이아웃되는지 옵션입니다.
 
 **[Value](properties-core.md)** – 입력 컨트롤의 값입니다.
+
+**선택한** – 선택한 항목을 나타내는 데이터 레코드입니다.
 
 ## <a name="all-properties"></a>모든 속성
 
@@ -105,6 +107,8 @@ ms.locfileid: "61548780"
 **RadioSize** – 라디오 단추 컨트롤에서 원의 직경입니다.
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+
+**(사용 되지 않음) SelectedText** – 선택한 항목을 나타내는 하는 문자열 값입니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2283f77f7e1c09ceade63f96003fefabc5e92539
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 02e8477873adad476c65e513a470e027aee5cd5c
+ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61544272"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65517381"
 ---
 # <a name="drop-down-control-in-powerapps"></a>PowerApps의 드롭다운 컨트롤
 사용자가 열지 않는 한 첫 번째 항목만 표시하는 목록입니다.
@@ -33,7 +33,9 @@ ms.locfileid: "61544272"
   
 **Value** - 컨트롤에 표시할 데이터 열입니다(예를 들어 데이터 원본에 여러 열이 있는 경우).
 
-**Selected** – 선택한 항목입니다.
+**선택한** – 선택한 항목을 나타내는 데이터 레코드입니다.
+
+**AllowEmptySelection** – 컨트롤이 선택 영역이 없는 항목은 선택 된 경우 표시 여부를 선택 합니다. 앱 사용자 빈 항목을 선택 하 여 선택 항목을 지울 수도 있습니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
@@ -97,6 +99,8 @@ ms.locfileid: "61544272"
 **[PressedFill](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 배경색입니다.
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+
+**(사용 되지 않음) SelectedText** – 선택한 항목을 나타내는 하는 문자열 값입니다.
 
 **[SelectionColor](properties-color-border.md)** – 목록에서 선택한 항목의 텍스트 색 또는 펜 컨트롤에 있는 선택 도구의 색입니다.
 

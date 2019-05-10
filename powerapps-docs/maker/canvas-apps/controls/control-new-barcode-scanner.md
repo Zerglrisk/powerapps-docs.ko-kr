@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1e41ec8d228e62c22354d77777a8390bfd442f8c
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 9a4b2c941b5e28c462b85d3c6d54404746e22d04
+ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61543968"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65517353"
 ---
 # <a name="barcode-scanner-control-for-canvas-apps"></a>캔버스 앱에 대한 바코드 스캐너 컨트롤
 
@@ -60,6 +60,8 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 **FlashlightEnabled** 는 손전등은 스캐너 열릴 때 자동으로 사용 되는지 여부를-합니다.
 
 **[높이](properties-size-location.md)**  – 스캐너를 활성화 하는 단추의 높이입니다.
+
+**PreferFrontCamera** -전면 카메라를 사용 가능한 경우에 사용할지 여부를 검색 합니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 

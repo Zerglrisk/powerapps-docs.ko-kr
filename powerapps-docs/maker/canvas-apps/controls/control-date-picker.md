@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 90f18c4b490564bc098046831ea932db13fce05d
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: eb8835a2e5c66bb975bc384d9ca782cd3a0f7d85
+ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63321709"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65517431"
 ---
 # <a name="date-picker-control-in-powerapps"></a>PowerApps의 날짜 선택기 컨트롤
 사용자가 날짜를 지정하기 위해 클릭 또는 탭할 수 있는 컨트롤입니다.
@@ -36,7 +36,7 @@ ms.locfileid: "63321709"
 * 이 컨트롤은 사용자가 2017의 마지막 날을 클릭하거나 누르고, **Format** 형식이 **ShortDate**로 설정되어 있고 **Language** 속성이 **en-us**로 설정되어 있는 경우 **12/31/2017**을 표시합니다.
 * 이 컨트롤은 사용자가 2017의 마지막 날을 클릭하거나 누르고, **Format** 형식이 **LongDate**로 설정되어 있고 **Language** 속성이 **fr-fr**로 설정되어 있는 경우 **dimanche 31 decembre 2017**을 표시합니다.
 
-**Language** – 월 이름을 포함하여 날짜 형식을 지정하는 데 사용하는 언어를 결정합니다. 이 속성이 지정되지 않은 경우 사용자의 디바이스 설정이 언어를 결정합니다.
+**언어** – 월 이름을 포함 하 여 날짜 형식을 지정 하는 데 사용 되는 언어를 결정 합니다. 이 속성이 지정되지 않은 경우 사용자의 디바이스 설정이 언어를 결정합니다. 지원 되는 값 "EN-우리" 및 "FR"입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
@@ -74,6 +74,8 @@ ms.locfileid: "63321709"
 **IconFill** – 날짜 선택기 아이콘의 전경색입니다.
 
 **IconBackground** – 날짜 선택기 아이콘의 배경색입니다.
+
+**InputTextPlaceholder** – 없는 날짜를 입력 하는 경우 표시 되는 지침 텍스트입니다.
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 

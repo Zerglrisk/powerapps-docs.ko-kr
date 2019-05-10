@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0c972120a70df8471f27a2b6e4e99f7a66182e04
-ms.sourcegitcommit: 065b3b210273e5fe9025d41d27a08a62dfa16d03
-ms.translationtype: HT
+ms.openlocfilehash: 21e1042dc525e666fcab40610c290793abe37395
+ms.sourcegitcommit: 91f084def8d7c2b78eeef20fa3959d1d34b8da66
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "64904049"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65516815"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -93,12 +93,13 @@ PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하�
 | management.azure.com |https |RP |
 | msmanaged-na.azure-apim.net |https |커넥터 런타임/API |
 | login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |https |ADAL |
-| graph.microsoft.com<br>graph.windows.net |https |Azure Graph - 사용자 정보를 가져오는 경우(예: 프로필 사진) |
+| graph.microsoft.com<br>graph.windows.net |https |사용자 정보 (예: 프로필 사진)를 가져오는 azure Graph- |
 | gallery.azure.com |https |샘플 및 템플릿 앱 |
 | \*.azure-apim.net |https |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
-| \*.powerapps.com |https |WebAuth + 포털 |
-| \*.azureedge.net |https |WebAuth |
-| \*.blob.core.windows.net |https |Blob 저장소 |
+| \*.powerapps.com |https | create.powerapps.com + web.powerapps.com |
+| \*.azureedge.net |https | create.powerapps.com |
+| \*.blob.core.windows.net |https | Blob 저장소 |
+| \*.flow.microsoft.com | https | create.powerapps.com + web.powerapps.com |
 | vortex.data.microsoft.com |https |원격 분석 |
 
 > [!NOTE]
