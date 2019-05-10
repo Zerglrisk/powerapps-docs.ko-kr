@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4aae487a0b2efe50e3ac6bd42c90d26de23fed60
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: ee2e2b854b56dadfd63b35a984e92db2ca515093
+ms.sourcegitcommit: 8bad6bff1b3397b21654df4a9357dd0180fbcfe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61553795"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "65046058"
 ---
 # <a name="build-global-support-into-canvas-apps"></a>캔버스 앱에 글로벌 지원 빌드
 PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 캔버스 앱을 빌드하고 사용할 수 있습니다.
@@ -70,7 +70,7 @@ PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 
 | **.** (점 또는 마침표) |**.** (점 또는 마침표) |**,**(쉼표) |**;**(세미콜론) |
 | **,**(쉼표) |**,**(쉼표) |**;**(세미콜론) |**;;**(이중 세미콜론) |
 
-PowerApps 목록 구분 기호의 변경 사항이 Excel 목록 구분 기호의 변경 사항과 일치합니다.  이는 다음에 영향을 미칩니다.
+PowerApps 목록 구분 기호에 변경 내용이 Excel 목록 구분 기호에 어떻게 부합 합니다.  이는 다음에 영향을 미칩니다.
 
 * 함수 호출의 인수
 * [레코드](working-with-tables.md#elements-of-a-table)의 필드

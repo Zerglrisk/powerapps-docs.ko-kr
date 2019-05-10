@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5125299c969db635a9e260ea7bac28f6a6e02bc0
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 503ffa049ecd737cfd9e948c3e2af25c8cdd831d
+ms.sourcegitcommit: dbd922de8f2e97a478df64e7e9ba33b48574af5c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61542313"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "65088137"
 ---
 # <a name="create-a-canvas-app-to-manage-projects"></a>프로젝트를 관리하는 캔버스 앱 만들기
 > [!NOTE]
@@ -86,8 +86,8 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 ![모든 앱 화면](./media/sharepoint-scenario-build-app/04-01-05-all-screens.png)
 
-## <a name="step-2-connect-to-a-sharepoint-list"></a>2 단계: SharePoint 목록에 연결
-이 단계에서는 **제품 세부 정보** SharePoint 목록에 연결합니다. 이 앱에서는 하나의 목록만 사용하지만, 앱을 확장하려는 경우 둘 다에 쉽게 연결할 수 있습니다.
+## <a name="step-2-connect-to-a-sharepoint-list"></a>2단계: SharePoint 목록에 연결
+이 단계에서는 연결 합니다 **프로젝트 세부 정보** SharePoint 목록입니다. 이 앱에서는 하나의 목록만 사용하지만, 앱을 확장하려는 경우 둘 다에 쉽게 연결할 수 있습니다.
 
 1. 왼쪽 탐색 모음에서 **SelectTask** 화면을 클릭하거나 탭합니다.
 2. 오른쪽 창에서 **데이터 원본 추가**를 클릭하거나 탭합니다.
@@ -113,7 +113,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
    
     ![데이터 원본 탭](./media/sharepoint-scenario-build-app/04-02-06-data-sources.png)
 
-## <a name="step-3-build-the-selecttask-screen"></a>3 단계: SelectTask 화면 빌드
+## <a name="step-3-build-the-selecttask-screen"></a>3단계: SelectTask 화면 빌드
 이 단계에서는 PowerApps에서 제공하는 컨트롤, 수식 및 서식 옵션 중 일부를 사용하여 앱의 다른 화면으로 이동하는 방법을 제공합니다.
 
 ### <a name="update-the-title-and-insert-introductory-text"></a>제목 업데이트 및 설명 텍스트 삽입
@@ -364,7 +364,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
      
      ![완성된 프로젝트 보기 화면](./media/sharepoint-scenario-build-app/04-05-07-viewprojects-final.png)
 
-## <a name="step-6-build-the-updatedetails-screen"></a>6 단계: UpdateDetails 화면 빌드
+## <a name="step-6-build-the-updatedetails-screen"></a>6단계: UpdateDetails 화면 빌드
 이 단계에서는 **UpdateDetails** 화면의 편집 양식을 데이터 원본에 연결하고, 일부 속성 및 필드를 변경합니다. 이 화면에서 **프로젝트 보기** 화면에서 선택한 프로젝트에 대한 세부 정보를 편집합니다.
 
 1. 왼쪽 탐색 모음에서 **UpdateDetails** 화면을 클릭하거나 탭합니다.
@@ -404,7 +404,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 
 ![세부 정보 업데이트 화면이 완성되었습니다.](./media/sharepoint-scenario-build-app/04-06-06-edit-final.png)
 
-## <a name="step-7-run-the-app"></a>7 단계: 앱 실행
+## <a name="step-7-run-the-app"></a>7단계: 앱 실행
 이제 앱이 완성되었으므로 앱을 실행하여 앱이 어떻게 작동하는지 살펴보겠습니다. SharePoint 사이트의 링크를 앱에 추가하겠습니다. 브라우저에서 앱을 실행할 수는 있지만 다른 사람이 앱을 실행하려면 앱을 공유해야 할 수도 있습니다. 자세한 내용은 [앱 공유](https://powerapps.microsoft.com/guided-learning/learning-manage-share-apps)를 참조하세요.
 
 ### <a name="add-a-link-to-the-app"></a>앱에 링크 추가

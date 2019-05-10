@@ -13,51 +13,45 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: cc7eefbe2989ed1aa0e893c2d826215aec48003b
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: eeb7a80c106541acd6ca284541fae6112b6d470c
+ms.sourcegitcommit: 065b3b210273e5fe9025d41d27a08a62dfa16d03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61557016"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "64904106"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>환경 및 Microsoft PowerApps 관련 작업하기
 PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환할 수 있습니다. 환경 개요에 대한 내용은 환경을 사용하는 이유와 환경을 만들고 관리하는 방법이 자세히 설명된 [환경 개요](../../administrator/environments-overview.md)를 참조하세요. 이 문서의 범위에서는 환경에 대해 다음 토픽을 다룹니다.
 
-* powerapps.com의 환경을 전환하는 방법
-* 적합 한 환경에서 앱을 만드는 방법
-* 적합한 환경에서 앱을 보는 방법
+- powerapps.com의 환경을 전환하는 방법
+- 적합 한 환경에서 앱을 만드는 방법
+- 적합한 환경에서 앱을 보는 방법
 
 ## <a name="switch-the-environment"></a>환경 전환
-등록하고 powerapps.com에 처음 로그인하면 기본 환경으로 시작할 수 있습니다. 페이지의 오른쪽 위 모서리를 보면 이를 확인할 수 있습니다.
+등록 및 PowerApps에 먼저 로그인 페이지의 오른쪽 위 모서리에서 식별할 수 있는 기본 환경에서 열립니다.
 
-![기본 환경](./media/working-with-environments/env-dropdown.png)
+> [!div class="mx-imgBorder"]
+> ![기본 환경](./media/working-with-environments/env-dropdown.png)
 
-기본 환경은 모든 사람이 액세스할 수 있습니다. 이 환경에서 앱 개발을 시작할 수 있으며 다른 사용자와 앱을 공유할 수 있습니다. [직접 만든](../../administrator/environments-administration.md) 환경 또는 다른 사용자가 만들었지만 액세스할 수 있는 환경과 같은 다른 환경에 액세스할 수 있습니다. 오른쪽 위 모서리에 있는 환경 드롭다운을 클릭하고 다른 환경을 선택하여 환경을 전환할 수 있습니다. 이 예제에서는 *기본 환경*에서 *환경 1*로 전환하는 것을 보여줍니다.
+조직의 모든 사용자가 기본 환경에 액세스할 수 있습니다. 이 환경에서 앱을 만들 하 고 다른 사용자와 앱을 공유할 수 있습니다. 할 수도 있습니다 다른 환경에 액세스할 수 있는지 여부 [만들면서](../../administrator/environments-administration.md) 또는 다른 사용자가 수행 합니다. 오른쪽 위 모서리에서 환경 목록을 열고 다른 환경을 선택 하 여 환경을 전환할 수 있습니다. 이 예제에서 전환을 보여 줍니다 **Microsoft** 하 **MyOwnEnv**합니다.
 
-![환경 전환](./media/working-with-environments/switch-env.png)
+> [!div class="mx-imgBorder"]
+> ![환경 전환](./media/working-with-environments/switch-environment.png)
 
-다른 환경(예: 환경 1)으로 전환하면 만든 앱을 모두 보거나 이와 같은 새로운 환경에서 액세스할 수 있습니다.
+환경을 전환 후 새로운 환경에서는 해당 환경에서 액세스 해야 하는 모든 앱을 보여 줍니다.
 
 ## <a name="create-apps-in-the-right-environment"></a>적합한 환경에서 앱 제작하기
 액세스 권한을 부여받았거나 만든 환경에서 앱을 만들 수 있습니다. 하지만 자신만의 환경을 만들려면 [특정 플랜](../../administrator/pricing-billing-skus.md)이 필요합니다. 앱을 만들기 전에 항상 **앱이 속하는 환경을 선택**해야 합니다. 그렇지 않으면 환경 간에 앱을 이동해야 합니다.
 
-오른쪽 환경에서 앱을 만들려면 다음 중 하나를 수행합니다.
+적합 한 환경에서 앱을 만들려면:
 
-- PowerApps Studio가 열리지 않은 경우 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하고 앱을 만들려는 환경을 선택하고 왼쪽 가장자리 근처의 **앱**을 선택한 다음, **앱 만들기**를 선택합니다.
+1. [PowerApps에 로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 
-- PowerApps Studio를 열 때 오른쪽 위 모서리에서 환경을 다시 선택합니다.
+1. 이전 섹션에서 설명한 대로는 원하는 앱을 만들 환경을 선택 합니다.
 
-5. **계정** 페이지에서 현재 환경 이름 옆에 있는 **변경**을 선택합니다.
-
-6. 앱을 만들 환경을 선택합니다.
-
-    ![Studio 환경 전환](./media/working-with-environments/studio-env-dropdown2.PNG)
-
-7. **신규**를 선택하여 앱을 제작합니다. 그러면 앱이 6단계에서 선택한 환경에 있게 됩니다.
-
-    ![Studio 환경 전환](./media/working-with-environments/new-app.PNG)
+1. 선택 **앱** 왼쪽 가장자리를 선택한 후 **앱을 만드는**합니다.
 
 ## <a name="view-apps-in-the-right-environment"></a>적합한 환경에서 앱 보기
-[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Studio에서 작업 중인지와 관계없이 보이는 앱 목록, 연결 등은 항상 드롭다운 목록에서 선택된 환경에 따라 필터링됩니다. 찾고자 하는 앱이 보이지 않으면 항상 적합한 환경이 선택되어 있는지 확인하세요.
+[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Studio에서 작업 중인지와 관계없이 보이는 앱 목록, 연결 등은 항상 드롭다운 목록에서 선택된 환경에 따라 필터링됩니다. 원하는 앱이 보이지 않으면 항상 적합 한 환경 선택 되었는지 여부를 확인 합니다.
 
 환경에 대한 자세한 내용은 [이 개요](../../administrator/environments-overview.md)를 참조하세요.

@@ -1,5 +1,4 @@
 ---
-redirect_url: working-with-experimental-preview
 title: 미리 보기 및 실험적 기능 이해 | Microsoft Docs
 description: 새 기능을 테스트하고 도입하기 시작합니다.
 author: gregli-msft
@@ -14,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c5abda1f3c208567ad9e1e2888647d20b07949be
+ms.openlocfilehash: 50785382404496c7409eab1b545fdc0b2d930d44
 ms.sourcegitcommit: 8bad6bff1b3397b21654df4a9357dd0180fbcfe6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2019
-ms.locfileid: "65046023"
+ms.locfileid: "65048432"
 ---
 # <a name="understand-experimental-and-preview-features-in-powerapps"></a>PowerApps에서 실험적 및 미리 보기 기능 이해
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 798a355e1c8728b41f3e92f183d4a4e2831b7cc2
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.openlocfilehash: 3311433b3950bcf48dc6c7b7969da501e542952c
+ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61530574"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "64670875"
 ---
 # <a name="add-and-configure-a-canvas-app-control-in-powerapps"></a>PowerApps에서 캔버스 앱 컨트롤 추가 및 구성
 
@@ -51,7 +51,7 @@ ms.locfileid: "61530574"
 
 ![목록의 Screen2](./media/add-configure-controls/add-label.png)
 
-화면에서는 기본적으로 6개의 핸들을 가진 상자가 레이블을 둘러쌉니다. 어떤 컨트롤이 선택되면 해당 유형의 상자가 둘러쌉니다. 화면을 클릭하거나 탭(하지만 레이블 외부)하면 레이블의 상자가 사라집니다. 레이블을 다시 선택하기 위해서는 레이블을 클릭 또는 탭하거나, 계층적 목록에서 **Label1** 컨트롤을  클릭하거나 탭할 수 있습니다.
+화면에서는 기본적으로 6개의 핸들을 가진 상자가 레이블을 둘러쌉니다. 어떤 컨트롤이 선택되면 해당 유형의 상자가 둘러쌉니다. 화면을 클릭하거나 탭(하지만 레이블 외부)하면 레이블의 상자가 사라집니다. 레이블을 선택 하 다시 클릭 하거나, 탭 또는 클릭 하거나 컨트롤의 계층적 목록에서 해당 이름을 탭 합니다.
 
 > [!IMPORTANT]
 > 컨트롤을 구성 하기 전에 항상 선택 해야 합니다.

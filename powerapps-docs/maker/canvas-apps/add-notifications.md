@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f5ee975343afc16faaca52194b16cedff57e7e9f
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: a32dd9f483682ba462aae1d3bd9d257d3204b8f5
+ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61560078"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "64670439"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
 푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
@@ -114,25 +114,25 @@ ms.locfileid: "61560078"
 ### <a name="sample-formulas"></a>샘플 수식
 기본 알림을 보냅니다.
 
-```
+```powerapps-dot
 PowerAppsNotification.SendPushNotification(
-{
-  recipients: [""f60ccf6f-7579-4f92-967c-2920473c966b", 72f988bf-86f1-41af-91ab-2d7cd011db47],
-  message: "A new case was assigned to you."
- }
+    {
+        recipients: ["f60ccf6f-7579-4f92-967c-2920473c966b", "72f988bf-86f1-41af-91ab-2d7cd011db47"],
+        message: "A new case was assigned to you."
+    }
 )
 ```
 
 앱을 열고 특정 매개 변수를 전달하는 알림을 보냅니다.
 
-```
+```powerapps-dot
 PowerAppsNotification.SendPushNotification(
-{
-  recipients:["email1@contoso.com", "email2@contoso.com"],
-  message:"message in the notif toast",
-  params:Table({key:"notificationKey", value:"The value for notificationKey"}),
-  openApp:true
- }
+    {
+        recipients: ["email1@contoso.com", "email2@contoso.com"],
+        message: "message in the notif toast",
+        params: Table({key:"notificationKey", value:"The value for notificationKey"}),
+        openApp: true
+    }
 )
 ```
 

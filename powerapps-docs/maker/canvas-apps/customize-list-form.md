@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d33f541ea698b02a662edb652f809095f47acc6e
-ms.sourcegitcommit: f84095d964fe1fe5cc5290e5edbee284bd768e1e
-ms.translationtype: HT
+ms.openlocfilehash: 66fe60c0d74c86705615522621d8f277fcc343ae
+ms.sourcegitcommit: dbd922de8f2e97a478df64e7e9ba33b48574af5c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "59042735"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "65088188"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
 
@@ -71,7 +71,7 @@ SharePoint 사이트에서 목록을 만든 다음, 해당 목록에 다음 열�
 
 1. 왼쪽 탐색 모음에서 **Details_DataCard1**을 확장하여, **DataCardValue**의 끝에 표시되는 숫자를 기록해 둡니다.
 
-1. **색**, **가용성** 및 **가격** 카드의 **Visible** 속성을 다음 수식으로 설정합니다(필요 시 이전 단계에서 적어둔 숫자로 대체합니다).
+1. 설정 합니다 **표시** 의 속성을 **색**, **가용성**, 및 **가격** 을이 수식 (대체, 필요한 경우 숫자 카드 이전 단계에서 적어둔):
 
     **If(DataCardValue2.Value = true, true)**
 
@@ -101,7 +101,7 @@ SharePoint 사이트에서 목록을 만든 다음, 해당 목록에 다음 열�
     - [하나 이상의 카드 사용자 지정](working-with-cards.md) (예를 들어, 카드의 표시 텍스트 또는 입력 컨트롤 변경).
     - [조회 필드](sharepoint-lookup-fields.md)를 만듭니다.
 
-    자세한 정보: [SharePoint 양식 통합 이해](sharepoint-form-integration.md).
+    자세한 정보는 [SharePoint 양식 통합 이해](sharepoint-form-integration.md).
 
 ## <a name="use-the-default-form"></a>기본 양식 사용
 
@@ -197,7 +197,7 @@ SharePoint 사이트에서 목록을 만든 다음, 해당 목록에 다음 열�
 
 **Q:** 사용자 지정 목록 양식을 만들거나 사용하는 데 PowerApps 라이선스가 필요합니까?
 
-**A:** [PowerApps가 포함된 Office 365 플랜](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus.md#licenses)이 필요합니다.
+**A:** [PowerApps가 포함된 Office 365 플랜](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses)이 필요합니다.
 
 **Q:** 게스트 사용자들이 사용자 지정 양식이 있는 목록에 액세스하는 경우 어떻게 되나요?
 

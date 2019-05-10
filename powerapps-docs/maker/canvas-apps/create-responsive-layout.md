@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ddd11ddd40792ef1042536041554737ddb16547b
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.openlocfilehash: af07bcb7b343a14f6342c53ed2e083e214a12368
+ms.sourcegitcommit: b27a5206f8c7b4b4c1bcca814a1f7c32724c1fcf
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61562528"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65206390"
 ---
 # <a name="create-responsive-layouts-in-canvas-apps"></a>캔버스 앱에서 반응형 레이아웃 만들기
 
@@ -137,7 +137,7 @@ PowerApps의 캔버스 앱을 빌드하기 전에, 휴대폰 또는 태블릿 �
 | **C**의 아래쪽 가장자리를 **D**의 아래쪽 가장자리에 맞춥니다 | **Y** | `D.Y + D.Height - C.Height` | ![패턴의 예](media/create-responsive-layout/d4.png) |
 | **C**를 **D** 기준으로 가로 방향으로 가운데에 맞춥니다 | **X** | `D.X + (D.Width - C.Width) / 2`  | ![패턴의 예](media/create-responsive-layout/d5.png) |
 | **C**를 **D** 기준으로 세로 방향으로 가운데에 맞춥니다 | **Y** | `D.Y + (D.Height - C.Height) /2` | ![패턴의 예](media/create-responsive-layout/d6.png) |
-| **C**를 N 간격으로 **D**의 오른쪽에 배치합니다 | **X** | `D.X + D.Width - N` | ![패턴의 예](media/create-responsive-layout/d7.png) |
+| **C**를 N 간격으로 **D**의 오른쪽에 배치합니다 | **X** | `D.X + D.Width + N` | ![패턴의 예](media/create-responsive-layout/d7.png) |
 | **C**를 N 간격으로 **D**의 아래쪽에 배치합니다             | **Y** | `D.Y + D.Height + N` | ![패턴의 예](media/create-responsive-layout/d8.png) |
 | **C**가 **D**와 부모의 오른쪽 가장자리의 공간을 채웁니다 | **X** | `D.X + D.Width` | ![패턴의 예](media/create-responsive-layout/d9.png) |
 |  | **Width** | `Parent.Width - C.X` |  |

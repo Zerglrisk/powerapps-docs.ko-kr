@@ -8,23 +8,18 @@ ms.assetid: ''
 author: nkrb
 ms.author: nabuthuk
 manager: Jdaly
-ms.openlocfilehash: 8351f48019635dd0a6ec9921d8888d8ca4b77f80
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 4e84956807b91e535e709aa2e0739fdf121bc2f7
+ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63394386"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "64524280"
 ---
 # <a name="powerapps-component-framework-api-reference"></a>PowerApps 구성 요소 Framework API 참조
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
-이 섹션에는 PowerApps 구성 요소 프레임워크를 사용하여 사용자 지정 컨트롤을 만들기 위한 참조 설명서가 포함되어 있습니다.
-
-> [!IMPORTANT]
-> - PowerApps 구성 요소 프레임워크는 미리 보기 기능입니다.
-> - [!INCLUDE[cc_preview_features_definition](../../../includes/cc-preview-features-definition.md)] 
-> - [!INCLUDE[cc_preview_features_no_MS_support](../../../includes/cc-preview-features-no-ms-support.md)]
+이 섹션에는 PowerApps 구성 요소 프레임워크를 사용하여 사용자 지정 구성 요소를 만들기 위한 참조 설명서가 포함되어 있습니다.
 
 |이름|설명|
 |----|-----------|
