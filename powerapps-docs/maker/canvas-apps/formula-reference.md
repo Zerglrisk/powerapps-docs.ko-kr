@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9796cf6c668818110cd6910311ab5b5f61a745df
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: c801a67cc7944d32a6a0a93e8b8566618b66da98
+ms.sourcegitcommit: f6c9e525130a03b8c76f0a4b4e90419604c5823c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61559590"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65525650"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -49,6 +49,8 @@ ms.locfileid: "61559590"
 **[App](functions/signals.md)** – 현재 표시된 화면과 같이 현재 실행 중인 앱에 대한 정보를 반환합니다.
 
 **[Asin](functions/function-trig.md)** – 숫자의 아크사인을 라디안으로 반환합니다.
+
+**[AsType](functions/function-astype-istype.md)**  – 특정 엔터티 형식에 대 한 레코드 참조 취급 합니다.
 
 **[Atan](functions/function-trig.md)** – 숫자의 아크탄젠트를 라디안으로 반환합니다.
 
@@ -183,6 +185,8 @@ ms.locfileid: "61559590"
 **[IsNumeric](functions/function-isnumeric.md)** – 숫자 값을 확인합니다.
 
 **[IsToday](functions/function-now-today-istoday.md)** – 날짜/시간 값이 오늘인지 확인합니다.
+
+**[IsType](functions/function-astype-istype.md)**  – 특정 엔터티 형식에 대 한 레코드 참조를 참조 하는지 여부를 확인 합니다.  
 
 ## <a name="l"></a>L
 **[Language](functions/function-language.md)** – 현재 사용자의 언어 태그를 반환합니다.

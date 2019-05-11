@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3a3d272737783abeaf2fe33557457486dae31e45
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 452b5f11ede81c0e19a84026803ea60d7fd3f934
+ms.sourcegitcommit: 26704369b17d2358a77cd4841bd70bbcca3384f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61519205"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65521084"
 ---
 # <a name="text-function-in-powerapps"></a>PowerApps의 Text 함수
 모든 값을 변환 하 고 텍스트 문자열을 숫자 또는 날짜/시간 값의 형식을 지정 합니다.
@@ -176,6 +176,7 @@ ms.locfileid: "61519205"
 | **Text( Now(), DateTimeFormat.LongTime24 )** |24시간제를 사용하여 자세한 시간 문자열로 서식을 지정합니다. |"14:37:47" |
 | **Text( Now(), DateTimeFormat.ShortDate )** |현재 사용자의 언어와 지역에 맞는 간단한 날짜 문자열로 서식을 지정합니다. |"11/23/2015" |
 | **Text( Now(), "d-mmm-yy" )** |자리 표시자 문자를 사용한 형식: <ul><li>해당 월의 한 자리 또는 두 자리의 날짜를 나타낸 **d**<li>결과에 복사한 문자적 문자로서의 **-**<li>해당 월을 3자 약어로 나타낸 **mmm**<li>결과에 복사한 또다른 문자적 문자로서의 **-**<li>해당 연도를 2자리의 약어로 나타낸 **yy**</ul> |"23-Nov-15" |
+| **Text(1448318857000, "mmm. dd, yyyy (hh:mm:ss AM/PM)")** | 1,000으로 원본 값을 늘리면 이해 하기 쉬운 형태로 Unix 날짜-시간 값을 보여 줍니다. | "11 월 23 2015 (오후 02시 47분: 37)" |
 
 ### <a name="global-apps"></a>전역 앱
 

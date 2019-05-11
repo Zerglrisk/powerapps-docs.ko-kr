@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a46635276f6598cf0591dc21ae5aeb855b6667c1
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 60340c3833f61be4acf4780a90d18e483c1dc010
+ms.sourcegitcommit: 26704369b17d2358a77cd4841bd70bbcca3384f2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61560482"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "65521036"
 ---
 # <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.
@@ -123,6 +123,8 @@ ms.locfileid: "61560482"
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
 **[Underline](properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.
+
+**VirtualKeyboardMode** – 가상 키보드, 텍스트 또는 앱 사용자의 터치 스크린에 나타나는 숫자의 형식입니다. 합니다 **형식** 속성의 기본값을 결정 합니다. 장치 지원 달라 집니다. IOS를 실행 하는 장치에 하나 이상 있어야 12.2 버전입니다. 권장 되는 Android 버전이 9.0, 및 Android 장치에 숫자 키보드의 기능에 따라 달라 집니다. Windows 10이이 속성을 지원 하지 않습니다.  
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
