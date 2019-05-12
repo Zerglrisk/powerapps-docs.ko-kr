@@ -1,5 +1,5 @@
 ---
-title: 샘플 앱 사용(빠른 시작) | Microsoft Docs
+title: 샘플 앱 사용 | Microsoft Docs
 description: PowerApps에서 샘플 기반 캔버스 앱을 만들기 위한 단계별 지침
 author: AFTOwen
 manager: kvivek
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1adf38b59b01bb08bc89c6101a96247b8bce8092
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 1cac73bad25bf1179f88030ee1f02589189610e0
+ms.sourcegitcommit: 4201d95421a74da19c585239b34d7d8620c74113
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61540318"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65546867"
 ---
-# <a name="quickstart-create-a-canvas-app-from-a-sample-in-powerapps"></a>빠른 시작: PowerApps의 샘플에서 캔버스 앱 만들기
+# <a name="create-a-canvas-app-from-a-sample-in-powerapps"></a>PowerApps의 샘플에서 캔버스 앱 만들기
 이 빠른 시작에서 디자인 가능성을 알아보고 사용자 고유의 캔버스 앱을 개발할 때 적용할 수 있는 개념을 검색할 수 있도록 샘플에서 캔버스 앱을 만듭니다.
 
 각 샘플은 실제 업무 시나리오를 보여주지만 가상 데이터를 사용합니다. 이 데이터를 저장하기 위해 Dropbox, Google Drive 또는 OneDrive와 같은 클라우드 저장소 계정이 필요합니다.
