@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 31b166dbe0257127d02f410182aaebb70e641da6
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 9d24094bfbc596c232e7455ef3d8b8dcdfc5be5c
+ms.sourcegitcommit: 9b2648a9066fe5d3b27b3d893daacba9b18eb75e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63320869"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65609372"
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
 사용자의 장치에 파일을 다운로드하는 것뿐만 아니라 업로드하고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제할 수 있는 컨트롤입니다.
@@ -27,9 +27,9 @@ ms.locfileid: "63320869"
 첨부 파일 컨트롤에는 이러한 제한 사항이 있습니다.
 1. 첨부 파일은 SharePoint 목록 및 Common Data Service 엔터티를 지원 합니다.
 
-1. 업로드 및 삭제 기능은 폼 내부에서만 작동합니다.  첨부 파일 컨트롤은 편집 모드와 폼 외부에서는 비활성화된 것처럼 보입니다. 파일 추가 및 삭제를 백 엔드에 저장하려면 최종 사용자가 폼을 저장해야 합니다.
+1. 업로드 하 고 양식 내 에서만 기능 작업을 삭제 합니다. 첨부 파일 컨트롤 나타나고 사용할 수 없는 경우 편집 모드에서 폼에 포함 되지 않은. 파일 추가 및 삭제를 저장 하려면 앱 사용자는 폼을 저장 해야 합니다. 이 제한 때문에 첨부 파일 컨트롤에서 사용할 수 없는 합니다 **삽입** 탭 형태로 첨부 양식 필드를 SharePoint 또는 Common Data Service 형태로 사용 하는 경우 하지만 나타납니다.
 
-1. 최대 10MB의 파일만 업로드할 수 있습니다.  
+1. 10MB 있을 경우에 또는 더 작은 파일을 업로드할 수 있습니다.  
 
 ## <a name="description"></a>설명
 **첨부 파일** 컨트롤을 사용하여 SharePoint 목록 또는 Common Data Service 엔터티에 파일을 추가하고, 열고, 삭제합니다.
