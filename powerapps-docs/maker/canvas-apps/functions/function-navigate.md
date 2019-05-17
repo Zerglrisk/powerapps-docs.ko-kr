@@ -7,34 +7,35 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 04/23/2019
+ms.date: 05/16/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0033d0a2d7473e6aaeac1e8533f62873e0d2f49a
-ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
+ms.openlocfilehash: e57cc541c753ff3f24f66a78c6e30d6e5683b41a
+ms.sourcegitcommit: 57dfad065318263e162e949e26b5c2684ba0dccb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "64670931"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "65828164"
 ---
 # <a name="back-and-navigate-functions-in-powerapps"></a>PowerApps에서 Back 및 Navigate 함수
+
 표시되는 화면을 변경합니다.
 
 ## <a name="overview"></a>개요
+
 대부분의 앱에는 여러 화면이 포함되어 있습니다.  **Back** 및 **Navigate** 함수를 사용하여 표시되는 화면을 변경합니다. 예를 들어 사용자가 해당 단추를 선택할 때 다른 화면을 표시하려는 경우 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 **Navigate** 함수를 포함하는 수식으로 설정합니다. 해당 수식에서 **Fade**와 같은 시각적 전환을 지정하여 한 화면을 다른 화면으로 변경하는 방법을 제어할 수 있습니다.  
 
-**Back** 및 **Navigate**는 표시되는 화면만 변경합니다. 현재 표시되지 않은 화면은 백그라운드에서 작업을 계속합니다. 다른 화면에서 컨트롤의 속성을 참조하는 수식을 빌드할 수 있습니다. 예를 들어, 사용자가 한 화면에서 슬라이더의 값을 변경하고, 수식에서 해당 값을 사용하는 다른 화면으로 이동하여, 새 화면에서 어떻게 적용되는지를 확인할 수 있습니다.  그런 다음, 사용자가 원래 화면으로 다시 이동하면 슬라이더가 해당 값을 유지하고 있음을 확인할 수 있습니다.
+**Back** 및 **Navigate**는 표시되는 화면만 변경합니다. 현재 표시되지 않은 화면은 백그라운드에서 작업을 계속합니다. 다른 화면에서 컨트롤의 속성을 참조 하는 수식을 빌드할 수 있습니다. 예를 들어, 사용자 한 화면에서 슬라이더의 값, 수식에서 값을 사용 하는 다른 화면으로 이동를 미치는 새 화면에서 어떻게 처리 되는지를 확인 합니다. 그런 다음 사용자 원래 화면으로 다시 이동 하 고 슬라이더 값 유지 되는 확인 수 있습니다.
 
 사용자가 화면 사이를 이동할 때 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)도 보존됩니다. **Navigate**를 사용하여 수식이 표시되는 화면에 대해 둘 이상의 컨텍스트 변수를 설정할 수 있습니다. 이는 화면 외부에서 컨텍스트 변수를 설정하는 유일한 방법입니다. 이 방법을 사용하여 화면에 매개 변수를 전달할 수 있습니다. 다른 프로그래밍 도구를 사용한 경험이 있는 경우, 이 방법은 프로시저에 매개 변수를 전달하는 것과 유사합니다.
 
-## <a name="description"></a>설명
-### <a name="back"></a>Back
-**Back** 함수는 가장 최근에 표시된 화면을 표시합니다. 이 함수에 대해 인수를 지정하지 않았습니다.
+함수 내 에서만 사용할 수 있습니다는 [동작 수식](../working-with-formulas-in-depth.md)합니다.
 
-### <a name="navigate"></a>Navigate
+## <a name="navigate"></a>Navigate
+
 첫 번째 인수에서 표시할 화면의 이름을 지정합니다.  
 
  두 번째 인수에서 이전 화면을 새 화면으로 변경하는 방법을 지정합니다.
@@ -52,12 +53,23 @@ ms.locfileid: "64670931"
 
 전환하는 동안 추가적인 변경을 수행하려면 이전 화면의 **[OnHidden](../controls/control-screen.md)** 속성 또는 새 화면의 **[OnVisible](../controls/control-screen.md)** 속성을 설정합니다. **App.ActiveScreen** 속성은 변경 내용을 반영하도록 업데이트됩니다.
 
-**Back**은 일반적으로 **true**를 반환하지만, 해당 사용자가 표시된 첫 번째 화면에 있고 이전 화면이 없는 경우 **false**를 반환합니다.  **Navigate**는 일반적으로 **true**를 반환하지만, 인수 중 하나에 문제가 있으면 **false**를 반환합니다.
+**이동** 정상적으로 반환 **true** 하지만 반환 **false** 오류가 발생 하는 경우.
 
-[동작 수식](../working-with-formulas-in-depth.md) 내에서만 이러한 함수를 사용할 수 있습니다.
+## <a name="back"></a>Back
+
+합니다 **다시** 가장 최근에 표시 된 화면에 반환 합니다.
+
+각 **Navigate** 호출 앱 추적 표시 되는 화면과 전환 합니다. 연속 사용할 수 있습니다 **다시** 호출 될 때 표시 되는 화면으로 사용자를 반환 하는 앱을 시작 합니다.
+
+경우는 **다시** 함수가 실행 되 면 역 전환 기본적으로 사용 됩니다. 예를 들어 화면을 통해 표시 되는 **CoverRight** 전환 **다시** 사용 하 여 **UnCover** (입니다 왼쪽) 반환할 합니다.  **페이드** 하 고 **None** 자신의 반대 됩니다. 선택적 인수를 전달할 **다시** 특정 전환 하도록 합니다.
+
+**다시** 정상적으로 반환 **true** 반환 하지만 **false** 사용자는 앱을 시작 이후 다른 화면으로 탐색 하지 않은 경우.
 
 ## <a name="syntax"></a>구문
-**Back**()
+
+**다시**([ *전환* ])
+
+* *전환* -선택 사항입니다. 현재 화면과 이전 화면 간에 사용할 시각적 전환입니다. 이 항목의 앞부분에이 인수에 대 한 유효한 값 목록을 참조 하세요. 기본적으로 화면을 반환 하는 전환은 였는 전환의 역함수 값입니다.
 
 **Navigate**( *Screen* [, *Transition* [, *UpdateContextRecord* ] ] )
 
@@ -73,13 +85,39 @@ ms.locfileid: "64670931"
 | **Navigate( Details, ScreenTransition.Fade )** |**Fade** 전환을 사용하여 **Details** 화면이 표시됩니다.  컨텍스트 변수의 값이 변경되지 않습니다. |현재 화면이 서서히 사라지면서 **Details** 화면이 표시됩니다. |
 | **Navigate( Details, ScreenTransition.Fade, {&nbsp;ID:&nbsp;12&nbsp;} )** |**Fade** 전환을 사용하여 **Details** 화면이 표시되고 **ID** 컨텍스트 변수의 값이 **12**로 업데이트됩니다. |현재 화면이 서서히 사라지면서 **Details** 화면이 표시되고, 화면의 컨텍스트 변수 **ID**가 **12**로 설정됩니다. |
 | **Navigate( Details, ScreenTransition.Fade, {&nbsp;ID:&nbsp;12&nbsp;,&nbsp;Shade:&nbsp;Color.Red&nbsp;} )** |**Fade** 전환을 사용하여 **Details** 화면이 표시됩니다. **ID** 컨텍스트 변수의 값이 **12**로 업데이트되고, **Shade** 컨텍스트 변수의 값이 **Color.Red**로 업데이트됩니다. |현재 화면이 서서히 사라지면서 **Details** 화면이 표시됩니다. **Details** 화면의 컨텍스트 변수 **ID**가 **12**로 설정되고, 컨텍스트 변수 **Shade**가 **Color.Red**로 설정됩니다. **Details** 화면에서 컨트롤의 **Fill** 속성을 **Shade**로 설정하는 경우 해당 컨트롤이 빨간색으로 표시됩니다. |
+| **Back()** | 기본 반환 전환 사용 하 여 이전 화면을 표시합니다. | 현재 화면에 표시 되는 전환의 역 전환을 통해 이전 화면을 표시 합니다. |
+| **Back( ScreenTransition.Cover )** |  사용 하 여 이전 화면을 표시 합니다 **다루는** 전환 합니다. | 통해 이전 화면을 표시 합니다 **다루는** 현재 화면에 표시 되는 전환에 관계 없이 전환 합니다. |
 
 ### <a name="step-by-step"></a>단계별
-1. 기본 화면의 이름을 **DefaultScreen**으로 지정하고, 레이블을 추가하고, 해당 레이블의 **[Text](../controls/properties-core.md)** 속성이 **Default**를 표시하도록 설정합니다.
-2. 화면을 추가하고 이름을 **AddlScreen**으로 지정합니다.
-3. 레이블을 **AddlScreen**에 추가하고, 레이블의 **[Text](../controls/properties-core.md)** 속성을 **Addl**을 표시하도록 설정합니다.
-4. 단추를 **AddlScreen**에 추가하고, 해당 **[OnSelect](../controls/properties-core.md)** 속성을 다음 함수로 설정합니다.<br>**Navigate(DefaultScreen, ScreenTransition.Fade)**
-5. **AddlScreen**에서 F5를 누른 다음, 단추를 선택합니다.<br>**DefaultScreen** 페이드 전환을 통해 표시 됩니다.
+
+1. 빈 앱을 만듭니다.
+
+1. 두 번째 화면을 추가 합니다.
+
+    앱에는 두 개의 빈 화면 포함 됩니다. **Screen1** 하 고 **Screen2**합니다.
+
+1. 설정 합니다 **채우기** 속성을 **Screen2** 값으로 `Gray`입니다.
+
+1. 온 **Screen2**단추를 추가 하 고 설정, 해당 **[OnSelect](../controls/properties-core.md)** 속성을 다음이 수식:
+
+    ```powerapps-dot
+    Navigate( Screen1, ScreenTransition.Cover )
+    ```
+
+1. 누른 채 합니다 **Alt** 키, 단추를 선택 합니다.
+
+    **Screen1** 왼쪽에 설명 하는 전환을 통해 흰색 배경으로 표시 됩니다.
+
+1. 온 **Screen1**단추를 추가 하 고 설정, 해당 **OnSelect** 속성을 다음이 수식:
+
+    ```powerapps-dot
+    Back()
+    ```
+
+1. 누른 채 합니다 **Alt** 키, 단추를 선택 합니다.
+
+    두 번째 화면을 오른쪽으로 얻는 전환을 통해 회색 배경과 함께 표시 됩니다 (의 역 **다루는**).
+
+1. 반복 해 서 바운스되 지 각 화면에서 단추를 선택 합니다.
 
 [또 다른 예](../add-screen-context-variables.md)
-
