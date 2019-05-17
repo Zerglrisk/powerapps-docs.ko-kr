@@ -2,7 +2,7 @@
 title: Common Data Service에서 엔터티 만들기 및 편집 | MicrosoftDocs
 description: 엔터티를 만들고 편집하는 방법 알아보기
 ms.custom: ''
-ms.date: 05/11/2018
+ms.date: 04/16/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -65,13 +65,6 @@ search.app:
   [!INCLUDE [cc_entity-set-once-options-table](../../includes/cc_entity-set-once-options-table.md)]
 
 - 다음 속성을 변경합니다.
-
-  <!-- Based on ../../includes/cc_entity-changeable-options-table.md 
-Removed these:
-
-  /|**Description**/|Provide a meaningful description of the purpose of the entity./|
-
-  /|**Primary Image**/|System entities that support images will already have an **Image** field. You can choose whether to display data in this field as the image for the record by setting this field to **[None]** or **Default Image**.<br /><br /> For custom entities you must first create an image field. Each entity can have only one image field. After you create one, you can change this setting to set the primary image. More information: [Image fields](../maker/common-data-service/types-of-fields.md#image-fields) /|-->
 
   |옵션   |설명  |
   |---------|---------|

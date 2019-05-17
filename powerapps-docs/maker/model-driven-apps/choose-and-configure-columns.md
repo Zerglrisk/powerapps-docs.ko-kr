@@ -3,7 +3,7 @@ title: PowerApps에서 모델 기반 앱 보기의 열 선택 및 구성 | Micro
 description: 앱에 대한 보기 선택 및 구성 방법 알아보기
 keywords: ''
 ms.date: 11/27/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:
@@ -46,7 +46,7 @@ search.app:
   > 디자이너 보기의 최신 버전은 현재 미리 보기 상태입니다. 열의 상태 표시를 활성화 또는 비활성화하고 찾기 열을 추가하는 등의 일부 기능은 아직 지원되지 않습니다. 이러한 작업을 수행 하려면 [디자이너 보기에서 보기를 엽니다](/dynamics365/customer-engagement/customize/create-and-edit-views#open-the-classic-view-designer).
   >  -   [열의 상태 표시 활성화 또는 비활성화](/dynamics365/customer-engagement/customize/choose-and-configure-columns#BKMK_EnableOrDisablePresence)  
   >
-  >  -   [찾기 열 추가](choose-and-configure-columns.md#BKMK_AddFindColumns)  
+  >  -   [찾기 열 추가](/dynamics365/customer-engagement/customize/choose-and-configure-columns#BKMK_AddFindColumns) 
 
 
 
@@ -111,6 +111,8 @@ search.app:
   
 > [!TIP]
 >   이동하려는 열의 머리글을 선택하고 드롭다운 메뉴에서 **오른쪽으로 이동** 또는 **왼쪽으로 이동**을 선택할 수도 있습니다.  
+
+
   
 ## <a name="next-steps"></a>다음 단계
 [보기 만들기 또는 편집](create-edit-views.md)

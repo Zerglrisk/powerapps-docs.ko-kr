@@ -9,7 +9,7 @@ applies_to:
   - powerapps
 ms.author: matp
 manager: kvivek
-ms.date: 06/27/2018
+ms.date: 04/03/2019
 ms.service: powerapps
 ms.topic: article
 ms.assetid: 82cd41ea-95b0-4606-9e7d-43eb5ce9ecd6
@@ -36,6 +36,8 @@ search.app:
 
 ![웹 리소스 추가 대화 상자](media/add-web-resource-dialog.png)
 
+> [!IMPORTANT]
+> 웹 리소스를 양식에 표시하고 사용자가 사용할 수 있도록 하려면 **기본적으로 표시 가능** 옵션을 선택해야 합니다.
 
 ## <a name="web-resource-properties"></a>웹 리소스 속성
 

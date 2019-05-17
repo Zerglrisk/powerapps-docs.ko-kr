@@ -100,6 +100,10 @@ HTML 웹 리소스가 솔루션 검사기 내에서 처리되면 HTML 웹 리소
 
 ECMAScript 6 (2015) 이상 버전은 현재 솔루션 검사기에 지원되지 않습니다. 솔루션 검사기가 ECMAScript 6 이상을 사용하여 JavaScript를 분석하는 경우 웹 리소스에 대한 웹 지원 구문 문제가 보고됩니다.  
 
+## <a name="multiple-violations-reported-for-plug-ins-and-workflow-activities-based-on-call-scope"></a>호출 범위를 기반으로 하는 플러그 인 및 워크플로 활동에 대해 여러 가지 위반이 보고됨
+
+문제는 호출 컨텍스트에만 관련된 플러그 인 및 워크플로 작업 규칙의 경우 솔루션 검사기 도구는 IPlugin 인터페이스 구현에서 분석을 시작하고 호출 그래프를 트래버스하여 해당 구현의 범위 내에서 문제를 검색합니다. .  경우에 따라 많은 호출 경로가 문제가 발견되는 동일한 위치에 도착할 수 있습니다.  이 문제는 호출 범위와 관련이 있으므로 이 도구는 해당 범위를 기반으로 보고할 수 있으므로 별개의 위치보다 더 나은 영향을 제공합니다. 결과적으로 여러 문제를 해결해야 하는 단일 위치를 참조할 수 있습니다.
+
 ## <a name="see-also"></a>참조
 [Common Data Service에 대한 모범 사례 및 지침](../../developer/common-data-service/best-practices/index.md)<br />
 [모델 기반 앱에 대한 모범 사례 및 지침](../../developer/model-driven-apps/best-practices/index.md)<br />

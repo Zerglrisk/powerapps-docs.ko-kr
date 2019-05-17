@@ -3,7 +3,7 @@ title: 포함된 캔버스 앱을 사용하여 현재 레코드를 데이터 컨
 ms.custom: ''
 ms.date: 12/17/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
@@ -81,5 +81,6 @@ search.app:
 ## <a name="see-also"></a>참조
 [모델 기반 양식에 캔버스 앱 포함](embed-canvas-app-in-form.md) <br />
 [포함된 캔버스 앱을 사용하여 관련 레코드의 목록을 데이터 컨텍스트로 전달](pass-related-embedded-canvas-app.md) <br />
+[포함된 캔버스 앱 내에서 호스트 양식에 대한 미리 정의된 작업 수행](embedded-canvas-app-actions.md) <br />
 [포함된 캔버스 앱 공유](share-embedded-canvas-app.md) <br />
 [포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md)

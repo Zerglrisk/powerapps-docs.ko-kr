@@ -3,7 +3,7 @@ title: PowerApps를 사용하여 공용 또는 시스템 모델 기반 앱 보�
 description: 앱 디자이너를 사용하여 보기를 만들거나 편집하는 방법 알아보기
 keywords: ''
 ms.date: 11/27/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:
@@ -57,7 +57,7 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 
 4. **보기 만들기** 대화 상자에서 이름과 설명(선택 사항)을 입력한 다음 **만들기**를 선택합니다. 
     
-5. 보기 디자이너에서 더하기 단추를 선택하여 보기에 표시할 열을 추가합니다. 추가 정보: [보기에 열 추가](#add-a-column-to-your-view)
+5. 보기 디자이너에서 더하기 단추를 선택하여 보기에 표시할 열을 추가합니다. 추가 정보: [앱 디자이너에서 보기에 열 추가](#add-a-column-to-your-view-in-app-designer) 
 
    ![열 추가](../common-data-service/media/add-column-to-view.png)
 

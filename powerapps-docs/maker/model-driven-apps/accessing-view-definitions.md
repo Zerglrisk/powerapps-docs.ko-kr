@@ -4,7 +4,7 @@ description: 이 항목에서는 엔터티 보기에 액세스하는 방법에 �
 ms.custom: ''
 ms.date: 11/27/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -31,7 +31,7 @@ search.app:
 ## <a name="open-a-view-for-editing-in-the-latest-view-designer"></a>최신 디자이너 보기에서 편집할 뷰 열기
 
 > [!IMPORTANT]
-> 디자이너 보기의 최신 버전은 현재 미리 보기 상태입니다. 고급 필터링, 사용자 지정 컨트롤 및 열 속성과 같은 일부 기능은 아직 지원되지 않습니다. 이러한 작업을 수행 하려면 [디자이너 보기에서 보기를 엽니다](#open-a-view-in-solution-explorer).
+> 디자이너 보기의 최신 버전은 현재 미리 보기 상태입니다. 고급 필터링, 사용자 지정 컨트롤 및 열 속성과 같은 일부 기능은 아직 지원되지 않습니다. 이러한 작업을 수행하려면 [솔루션 탐색기에서 편집할 뷰를 엽니다](#open-a-view-for-editing-in-solution-explorer).
 
 1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 

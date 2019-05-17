@@ -6,9 +6,9 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.custom: ''
-ms.date: 10/30/2018
+ms.date: 04/11/2019
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -39,9 +39,9 @@ search.app:
 
 1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2.  왼쪽 탐색 창에서 **솔루션**을 선택합니다.  
-3.  도구 모음에서 **클래식으로 전환**을 선택하여 솔루션 탐색기를 엽니다. 
-
+3.  도구 모음에서 **클래식으로 전환**을 선택하여 **모든 솔루션** 보기를 엽니다. 
     목록에서 솔루션을 선택하면 **클래식으로 전환** 명령을 사용할 수 없습니다.
+4.  사용 가능한 솔루션 목록에서 솔루션 탐색기를 열려면 **표시 이름** 열에서 원하는 솔루션을 선택합니다.
 
 ## <a name="apps"></a>앱
 앱 영역에는 사용자 환경에서 권한이 있는 모든 모델 기반 및 캔버스 앱이 나열됩니다. 앱을 시작하는 것 외에도 앱 영역에서 보안 역할을 할당할 수도 있습니다. 
