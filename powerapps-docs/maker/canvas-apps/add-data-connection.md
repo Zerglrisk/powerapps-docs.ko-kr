@@ -13,21 +13,22 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 43832847f447a9af8a05d149b0d6f3b564b770e1
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 15f3f38dd4812ffcbebeeaab4d301f715c97e1d1
+ms.sourcegitcommit: be110258910aa097b0065da1ee4ea1c40b7e1334
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61530128"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "65922536"
 ---
 # <a name="add-a-data-connection-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 데이터 연결 추가
 
-PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 캔버스 앱에서 데이터 연결을 추가합니다. 앱은 SharePoint, Salesforce, OneDrive 또는 [다른 많은 데이터 원본](connections-list.md)에 연결할 수 있습니다.
+PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 캔버스 앱에서 데이터 연결을 추가합니다. 앱은 SharePoint, Common Data Service, Salesforce, OneDrive에 연결할 수 또는 [다른 많은 데이터 소스](connections-list.md)합니다.
 
 이 문서 이후 [다음 단계](#next-steps)는 다음 예와 같이 앱에서 데이터 원본의 데이터를 표시하고 관리하기 위한 것입니다.
 
 * OneDrive에 연결하고 사용자 앱에서 Excel 통합 문서의 데이터를 관리합니다.
 * Twilio에 연결하고 사용자 앱에서 SMS 메시지를 보냅니다.
+* Common Data Service에 연결 하 고 앱에서 엔터티를 업데이트 합니다.
 * SQL Server에 연결하고 사용자 앱에서 테이블을 업데이트합니다.
 
 ## <a name="prerequisites"></a>필수 조건
@@ -64,7 +65,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 1. **만들기**를 선택하여 연결을 만들고 앱에 추가합니다.
 
-    **Office 365 Outlook**과 같은 일부 커넥터는 추가 단계가 필요하지 않으며 즉시 데이터를 표시할 수 있습니다. 다른 커넥터의 경우 자격 증명을 제공하고, 데이터의 특정 집합을 지정하거나 다른 단계를 수행하라는 메시지가 표시됩니다. 예를 들어 [SharePoint](connections/connection-sharepoint-online.md) 및 [SQL Server](connections/connection-azure-sqldatabase.md)는 사용하기 전에 추가 정보가 필요합니다.
+    **Office 365 Outlook**과 같은 일부 커넥터는 추가 단계가 필요하지 않으며 즉시 데이터를 표시할 수 있습니다. 다른 커넥터의 경우 자격 증명을 제공하고, 데이터의 특정 집합을 지정하거나 다른 단계를 수행하라는 메시지가 표시됩니다. 예를 들어 [SharePoint](connections/connection-sharepoint-online.md) 및 [SQL Server](connections/connection-azure-sqldatabase.md)는 사용하기 전에 추가 정보가 필요합니다. 사용 하 여 [Common Data Service](connections/connection-common-data-service.md), 엔터티를 선택 하기 전에 환경을 변경할 수 있습니다.
 
 ## <a name="identify-or-change-a-data-source"></a>데이터 원본 식별 또는 변경
 앱을 업데이트하는 경우 갤러리, 양식 또는 다른 컨트롤에 표시되는 데이터의 원본을 식별하거나 변경해야 할 수 있습니다. 예를 들어, 다른 사람이 만든 앱을 업데이트 하거나 오래 전에 만든 데이터 원본을 식별 해야 합니다.
@@ -83,5 +84,5 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 ## <a name="next-steps"></a>다음 단계
 
-* Excel, SharePoint 또는 SQL Server와 같은 원본에서 데이터를 표시하고 업데이트하려면 [갤러리를 추가](add-gallery.md)하고 [폼을 추가](add-form.md)합니다.
+* Excel, SharePoint, Common Data Service 또는 SQL Server와 같은 원본에서 데이터를 표시 및 업데이트할 [갤러리를 추가](add-gallery.md), 및 [폼을 추가](add-form.md)합니다.
 * 다른 원본에 있는 데이터의 경우, [Office 365 Outlook](connections/connection-office365-outlook.md), [Twitter](connections/connection-twitter.md) 및 [Microsoft Translator](connections/connection-microsoft-translator.md)에 대한 데이터와 같이 커넥터 특정 기능을 사용합니다.
