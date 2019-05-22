@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 03/18/2018
+ms.date: 09/21/2019
 ms.author: anneta
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1fc257bb8ef99353b78e7a87234397b4ced3bc4a
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
-ms.translationtype: HT
+ms.openlocfilehash: 23c5ead5e8dde0b781c0c83b366baea0a199a56e
+ms.sourcegitcommit: 0272fc5beac5bace5781b1de986a0e2703dd5ddc
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63319644"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "65974568"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service"></a>Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -36,11 +36,11 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-1. **고유한 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
+1. **나만의 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
 
     ![비어 있는 앱 타일](./media/data-platform-create-app-scratch/blank-app.png)
 
-1. 앱의 이름을 지정하고, **휴대폰**을 선택한 다음, **만들기**를 선택합니다.
+1. 앱의 이름을 지정하고, **전화**를 선택한 다음, **만들기**를 선택합니다.
 
     태블릿용 앱을 처음부터 만들 수 있지만 이 항목에서는 전화용 앱을 만드는 방법을 설명합니다.
 
@@ -92,7 +92,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
     ![양식의 Datasource 및 Item 속성 설정](./media/data-platform-create-app-scratch/form-datasource.png)
 
-1. 오른쪽 창의 **속성** 탭에서 **필드 편집**을 선택하여 **필드** 창을 엽니다.
+1. 에 **속성** 선택 오른쪽 창의 탭 **필드 편집** 열려는 합니다 **필드** 창.
 
 1. **필드 추가**를 선택하고, 다음 필드에 대한 확인란을 선택합니다.
 
@@ -102,6 +102,9 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
     - **주소 1: 우편 번호**
     - **직원 수**
     - **연간 수익**
+
+    > [!NOTE]
+    > 이 시나리오에서는 외부에서 사용자 지정 필드를 선택 하 여 만들 수 있습니다 **새 필드**필요한 정보를 제공 하 고 선택한 다음 **수행**합니다. 자세한 정보는 [필드를 만들](../common-data-service/create-edit-field-portal.md#create-a-field)합니다.<br><br>![](media/data-platform-create-app-scratch/choose-or-add-fields.png "선택 하 고 필드를 추가 합니다.")
 
 1. **추가**를 선택합니다.
 
