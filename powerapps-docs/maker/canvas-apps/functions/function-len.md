@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b92008425ade7976259087309de9a540dbceb455
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: d99cf1129ae23eda97b79457cb2b93db6a74a5ea
+ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61563386"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66216010"
 ---
 # <a name="len-function-in-powerapps"></a>PowerApps의 Len 함수
 텍스트 문자열의 길이를 반환합니다.
@@ -26,7 +26,7 @@ ms.locfileid: "61563386"
 ## <a name="description"></a>설명
 단일 문자열을 인수로 지정하는 경우 반환 값은 숫자로 표현된 길이입니다.  문자열이 포함된 단일 열 [테이블](../working-with-tables.md)을 지정하면, 반환 값은 각 문자열의 길이가 포함된 단일 열 테이블입니다. 여러 열 테이블이 있는 경우 [테이블 작업](../working-with-tables.md)에 설명된 대로 단일 열 테이블로 만들 수 있습니다.
 
-[빈](function-isblank-isempty.md) 문자열을 지정하는 경우 **Len**은 0을 반환합니다.
+지정 하는 경우는 [빈](function-isblank-isempty.md) 문자열 **Len** 0을 반환 합니다.
 
 ## <a name="syntax"></a>구문
 **Len**( *String* )
