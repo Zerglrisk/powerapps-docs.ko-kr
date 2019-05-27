@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 04/26/2016
+ms.date: 05/23/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5883ae65beb698a8c7681d9eac6ba0f7439ca19e
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 264bce9c986544f8294d4a0346be2e7694d606d8
+ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61557887"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66216171"
 ---
 # <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
 
@@ -115,13 +115,16 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
     `FirstN(Sort(CustomGallerySample, SampleHeading, Descending), 2)`
 
     이 수식에서는 **[FirstN](functions/function-first-last.md)** 함수를 사용하여 테이블에 있는 특정 수의 레코드를 표시합니다. **[Sort](functions/function-sort.md)** 함수를 **[FirstN](functions/function-first-last.md)** 의 첫 번째 인수로, 숫자(이 경우 **2**)를 두 번째 인수로 사용하여 표시할 레코드 수를 지정합니다.
-   
+
     전체 수식은 **SampleHeading** 열 기준 내림차순으로 정렬된 **CustomGallerySample** 테이블의 처음 두 레코드가 포함된 테이블을 반환합니다.
-   
+
     ![](media/working-with-tables/gallery-items-sort-firstn.png)
 
-### <a name="table-functions-and-control-properties"></a>Table 함수 및 컨트롤 속성
-대부분의 PowerApps 함수는 테이블 이름을 인수로 사용하고, 동일한 데이터가 포함된 두 번째 테이블을 만들고, 다른 인수를 기반으로 하여 새 테이블을 조작한 다음, 결과를 반환합니다. 이러한 함수는 데이터 원본인 경우에도 원래 테이블을 수정하지 않습니다.
+## <a name="table-functions-and-control-properties"></a>Table 함수 및 컨트롤 속성
+
+고려해 야 합니다 **낮은** 함수입니다. 경우 변수의 **오신 것을 환영** 텍스트 문자열이 포함 **"Hello, World"** , 수식 **(시작)를 절감** 반환 **"hello, world"** .  이 함수를 어떤 방식으로든에서 바뀌지 해당 변수의 값입니다. **낮은** 는 순수 함수 입력 및 생성 출력만 처리 합니다. 모든; 그 부작용이 없습니다. Excel에서 모든 함수 및 PowerApps에서 대부분의 함수는 통합 문서 또는 응용 프로그램에서 자동으로 계산할 수 있도록 하는 순수 함수는입니다.
+
+PowerApps는 동일한 방식으로 테이블에서 작동 하는 함수의 집합을 제공 합니다. 이러한 함수는 입력 및 필터, 정렬, 변환, reduce 및 전체 테이블의 데이터를 요약 하는 대로 테이블을 사용 합니다. 사실 **낮은** 및 일반적으로 단일 값을 사용 하는 다른 많은 함수는 단일 열 테이블을 입력으로 사용할 수도 있습니다.
 
 * **[Sort](functions/function-sort.md)**, **[Filter](functions/function-filter-lookup.md)** - 레코드를 정렬하고 필터링합니다.
 * **[FirstN](functions/function-first-last.md)**, **[LastN](functions/function-first-last.md)** - 테이블의 처음 N 또는 마지막 N 레코드를 반환합니다.
@@ -135,25 +138,29 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 * **[HashTags](functions/function-hashtags.md)** - 문자열의 해시 태그를 검색합니다.
 * **[Errors](functions/function-errors.md)** - 데이터 원본으로 작업할 때 오류 정보를 제공합니다.
 
-함수에서 단일 열을 인수로 사용해야 하는 경우에도 여러 열이 포함된 테이블에서 함수를 실행할 수 있습니다. 다중 열 테이블에서 단일 열을 추출하려면 다음 예제와 같이 사용하려는 함수의 인수로 **[ShowColumns](functions/function-table-shaping.md)** 함수를 인수로 사용합니다.<br>**Lower( ShowColumns( Products, "Name" ) )**
+이러한 함수는 대부분 단일 열 테이블을 입력 변수로 사용 합니다. 전체 테이블에 하나의 열이 있는 경우에 이름으로 지정할 수 있습니다. 테이블에 있는 경우 여러 열을 지정할 수 있습니다 이러한 열 중 하나를 사용 하 여 *테이블. 열* 구문입니다. 예를 들어 **Products.Name** 만의 단일 열 테이블을 반환 **이름** 에서 값을 **제품** 테이블입니다.
 
-이 수식은 **Products** 테이블에 있는 **Name** 열의 모든 데이터를 포함하지만 대문자를 소문자로 변환한 단일 열 테이블을 만듭니다. **[AddColumns](functions/function-table-shaping.md)**, **[RenameColumns](functions/function-table-shaping.md)** 또는 **[DropColumns](functions/function-table-shaping.md)** 함수의 인수로 테이블을 지정하면 원하는 테이블을 완전히 다시 만들 수 있습니다.
+사용 하 여 원하는 테이블을 완전히 변형할 수 있습니다 합니다  **[AddColumns](functions/function-table-shaping.md)** 하십시오  **[RenameColumns](functions/function-table-shaping.md)**,  **[ ShowColumns](functions/function-table-shaping.md)**, 또는 **[DropColumns](functions/function-table-shaping.md)** 함수입니다. 마찬가지로 이러한 함수 변경만 해당 출력을 해당 원본에 없습니다.
 
-이러한 함수 중 하나의 인수로 데이터 원본을 지정하면 해당 데이터 원본의 레코드가 수정되고 일반적으로 데이터 원본의 새 값이 테이블로 반환됩니다.
+컨트롤의 속성 테이블을 수도 있습니다.
 
-* **[Collect](functions/function-clear-collect-clearcollect.md)**, **[Clear](functions/function-clear-collect-clearcollect.md)**, **[ClearCollect](functions/function-clear-collect-clearcollect.md)** - 컬렉션을 만들거나 지우거나 추가합니다.
+* **항목** -갤러리, 목록 상자 및 콤보 상자에 적용 됩니다. 이 속성은 갤러리 또는 목록을 보여 주는 표를 정의 합니다.
+* **SelectedItems** -목록 상자 및 콤보 상자에 적용 됩니다. 이 속성 정의 하는 경우 사용자가 선택한 항목의 테이블 **SelectMultiple** 사용 가능 합니다.
+
+## <a name="behavioral-formulas"></a>동작 수식
+
+다른 함수는 데이터를 수정 하 고 의도 하지 않은 특별히 설계 되었습니다. 이러한 함수는 순수 하지 않으면 때문에 신중 하 게 작성 해야 하 고 앱에서 값을 자동으로 다시 계산 참여할 수 없습니다. 내 에서만 이러한 함수를 사용할 수 있습니다 [동작 수식](working-with-formulas-in-depth.md)합니다.
+
+* **[수집](functions/function-clear-collect-clearcollect.md)** 를  **[지우기](functions/function-clear-collect-clearcollect.md)** 하십시오 **[ClearCollect](functions/function-clear-collect-clearcollect.md)** -컬렉션을 만듭니다, 하 지우고 데이터를 추가 해당 합니다.
+* **[패치](functions/function-patch.md)**  -레코드에서 하나 이상의 필드를 수정 합니다.
 * **[Update](functions/function-update-updateif.md)**, **[UpdateIf](functions/function-update-updateif.md)** - 지정한 하나 이상의 기준과 일치하는 레코드를 업데이트합니다.
 * **[Remove](functions/function-remove-removeif.md)**, **[RemoveIf](functions/function-remove-removeif.md)** - 지정한 하나 이상의 기준과 일치하는 레코드를 삭제합니다.
 
-이러한 속성은 테이블인 값으로 설정됩니다.
-
-* **Items** - 갤러리 및 목록 상자에 적용됩니다. 갤러리에 표시할 테이블입니다.
-* **SelectedItems** - 목록 상자에 적용됩니다. 사용자가 선택한 항목의 테이블입니다.
-
 ## <a name="record-formulas"></a>레코드 수식
+
 개별 레코드에 대한 데이터를 계산하고, 개별 레코드를 인수로 사용하고, 개별 레코드를 반환 값으로 제공하는 수식을 작성할 수도 있습니다. 위의 갤러리 예제로 돌아가서 **Gallery1.Selected** 속성을 사용하여 사용자가 갤러리에서 선택한 레코드의 정보를 표시해 보겠습니다.
 
-1. 단추 하나를 추가하고 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+1. 추가 된 [ **단추**](controls/control-button.md), 설정 및 해당 **[OnSelect](controls/properties-core.md)** 속성을 다음이 수식:<br>
     **Collect( SelectedRecord, Gallery1.Selected )**
 
 2. Alt 키를 누른 상태에서 단추를 선택합니다.
@@ -167,13 +174,13 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 > [!NOTE]
 > **Subtitle1** 열의 이름은 **Subtitle2**이거나 이 항목에서 지정한 것과 다른 요소를 추가한 경우 유사할 수 있습니다.
 
-이제 선택한 레코드가 있으므로 **.** 연산자를 사용하여 해당 레코드에서 개별 필드를 추출할 수 액세스합니다.
+이제 선택한 레코드가 있으므로 **.** 연산자를 사용하여 해당 레코드에서 개별 필드를 추출할 수 설정합니다.
 
 1. **[Label](controls/control-text-box.md)** 컨트롤을 추가한 다음, 갤러리 및 단추 아래로 이동합니다.
 
 1. 레이블의 **[Text](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.<br>
     **"Selected: " & Gallery1.Selected.SampleHeading**
-   
+
     ![](media/working-with-tables/gallery-selected.png)
 
 레코드인 **Selected** 속성을 가져와서 **SampleHeading** 속성을 추출했습니다.
@@ -186,7 +193,7 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 
 이 경우 레코드는 테이블의 일부가 되지 않습니다.
 
-### <a name="record-functions-and-control-properties"></a>레코드 함수 및 컨트롤 속성
+## <a name="record-functions-and-control-properties"></a>레코드 함수 및 컨트롤 속성
 레코드를 반환하는 함수는 다음과 같습니다.
 
 * **[FirstN](functions/function-first-last.md)**, **[LastN](functions/function-first-last.md)** - 테이블의 첫 번째 또는 마지막 레코드 또는 레코드를 반환합니다.
@@ -201,23 +208,37 @@ Excel 및 PowerApps에서는 수식을 사용하여 숫자와 텍스트 문자�
 * **[Update](functions/function-update-updateif.md)** - 텍스트 입력 컨트롤 및 슬라이더와 같은 입력 컨트롤에 적용됩니다. 갤러리에서 함께 가져올 수 있도록 개별 속성을 설정합니다.
 
 ## <a name="record-scope"></a>레코드 범위
-일부 함수는 테이블의 모든 레코드에서 수식을 개별적으로 평가하여 작동합니다.  수식 결과는 다음과 같이 다양한 방법으로 사용됩니다.  
+
+일부 함수는 테이블의 모든 레코드에서 수식을 개별적으로 평가하여 작동합니다. 수식 결과는 다음과 같이 다양한 방법으로 사용됩니다.
 
 * **Filter**, **Lookup** - 수식에서 레코드가 출력에 포함되어야 하는지 여부를 결정합니다.
 * **Sort** - 수식에서 레코드를 정렬할 값을 제공합니다.
 * **Concat** - 수식에서 함께 연결할 문자열을 결정합니다.
 * **ForAll** - 수식에서 잠재적으로 부작용이 있는 모든 값을 반환할 수 있습니다.
-* **Distinct** - 수식에서 중복된 레코드를 식별하는 데 사용되는 값을 반환합니다.  
+* **Distinct** - 수식에서 중복된 레코드를 식별하는 데 사용되는 값을 반환합니다.
 * **AddColumns** - 수식에서 추가된 필드의 값을 제공합니다.
 * **Average**, **Max**, **Min**, **Sum**, **StdevP**, **VarP** - 수식에서 집계할 값을 제공합니다.
 
-이러한 수식 내에서는 처리되는 레코드의 필드를 참조할 수 있습니다.  이러한 각 함수는 수식이 평가되는 "레코드 범위"를 만들어 레코드의 필드를 최상위 식별자로 사용할 수 있습니다.  또한 앱 전체에서 컨트롤 속성과 다른 값을 참조할 수도 있습니다.
+이러한 수식 내에서는 처리되는 레코드의 필드를 참조할 수 있습니다. 이러한 각 함수는 수식이 평가되는 "레코드 범위"를 만들어 레코드의 필드를 최상위 식별자로 사용할 수 있습니다. 또한 앱 전체에서 컨트롤 속성과 다른 값을 참조할 수도 있습니다.
 
 예를 들어 다음 **Products** 테이블을 가져옵니다.
 
 ![](media/working-with-tables/requested.png)
 
-이러한 제품 중 하나라도 사용 가능한 것 보다 더 많은 요청이 있었는지 확인하려면 다음을 수행합니다.
+앱에서이 예제에서는 테이블을 만들려면 단추를 삽입, 설정 해당 **OnSelect** 속성을이 수식 (PowerApps Studio Alt 키를 보유 하는 동안이 클릭) 단추를 선택 합니다.
+
+```powerapps-dot
+Set( Products,
+    Table(
+        { Product: "Widget",    'Quantity Requested': 6,  'Quantity Available': 3 },
+        { Product: "Gadget",    'Quantity Requested': 10, 'Quantity Available': 20 },
+        { Product: "Gizmo",     'Quantity Requested': 4,  'Quantity Available': 11 },
+        { Product: "Apparatus", 'Quantity Requested': 7,  'Quantity Available': 6 }
+    )
+)
+```
+
+이러한 제품 중 하나 보다 요청 더 있는지 여부를 결정 하는 수 있습니다.
 
 `Filter( Products, 'Quantity Requested' > 'Quantity Available' )`
 
@@ -234,34 +255,35 @@ AddColumns(
 )
 ```
 
-여기서는 계산 열을 결과에 추가합니다.  **AddColumns**에는 요청된 항목과 사용 가능한 항목 간의 차이를 계산하는 데 사용하는 자체의 레코드 범위가 있습니다.
+여기서는 계산 열을 결과에 추가합니다. **AddColumns**에는 요청된 항목과 사용 가능한 항목 간의 차이를 계산하는 데 사용하는 자체의 레코드 범위가 있습니다.
 
 ![](media/working-with-tables/toorder.png)
 
-마지막으로 결과 테이블을 원하는 열만으로 줄일 수 있습니다.
+마지막으로, 결과 테이블에 우리가 원하는 열만 줄일 수 있습니다.
 
 ```powerapps-dot
-ShowColumns( 
-    AddColumns( 
-        Filter( Products, 'Quantity Requested' > 'Quantity Available' ), 
+ShowColumns(
+    AddColumns(
+        Filter( Products, 'Quantity Requested' > 'Quantity Available' ),
         "Quantity To Order", 'Quantity Requested' - 'Quantity Available'
-    ), 
-    "Product", 
+    ),
+    "Product",
     "Quantity To Order"
 )
 ```
 
 ![](media/working-with-tables/toorderonly.png)
 
-위의 예제에서 일부 항목에는 큰따옴표(")를 사용하고 다른 항목에는 작은따옴표(')를 사용했습니다.  개체 이름에 공백이 포함된 개체(예: 필드 또는 테이블)의 값을 참조할 때는 작은따옴표가 필요합니다.  큰따옴표는 **AddColumns**의 경우와 같이 개체의 값을 참조하지 않고 해당 개체에 대해 언급하는 경우, 특히 개체가 아직 없는 상황에서 사용됩니다.  
+위의 예제에서 일부 항목에는 큰따옴표(")를 사용하고 다른 항목에는 작은따옴표(')를 사용했습니다.  개체 이름에 공백이 포함된 개체(예: 필드 또는 테이블)의 값을 참조할 때는 작은따옴표가 필요합니다.  큰따옴표는 **AddColumns**의 경우와 같이 개체의 값을 참조하지 않고 해당 개체에 대해 언급하는 경우, 특히 개체가 아직 없는 상황에서 사용됩니다.
 
-### <a name="disambiguation"></a>명확성
-레코드 범위에 추가된 필드 이름은 앱의 다른 위치에서 동일한 이름을 재정의합니다.  이 경우 [**@** 명확성](functions/operators.md) 연산자를 사용하여 레코드 범위 외부의 값에 계속 액세스할 수 있습니다.
+## <a name="disambiguation"></a>명확성
 
-* 중첩된 레코드 범위의 값에 액세스하려면 다음 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.<br>_Table_**[@**_FieldName_**]**
-* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 테이블 지정 없이 **[@**_ObjectName_**]** 패턴을 사용합니다.
+레코드 범위에 추가된 필드 이름은 앱의 다른 위치에서 동일한 이름을 재정의합니다.  이 경우 [ **@** 명확성](functions/operators.md) 연산자를 사용하여 레코드 범위 외부의 값에 계속 액세스할 수 있습니다.
 
-작업 중인 테이블이 **Filter(** _Table_**,** ... **)** 과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.
+* 중첩된 레코드 범위의 값에 액세스하려면 다음 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.<br>_Table_ **[@** _FieldName_ **]**
+* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 테이블 지정 없이 **[@** _ObjectName_ **]** 패턴을 사용합니다.
+
+작업 중인 테이블이 **Filter(** _Table_ **,** ... **)** 과 같은 식이면 명확성 연산자를 사용할 수 없습니다.  가장 안쪽의 레코드 범위만 명확성 연산자를 사용하지 않고 이 테이블 식의 필드에 액세스할 수 있습니다.
 
 예를 들어 **X** 컬렉션이 있다고 가정해 보겠습니다.
 
@@ -277,16 +299,16 @@ ShowColumns(
 
 또한 라는 컨텍스트 변수를 정의할 **값** 이 수식을 사용 하 여: **UpdateContext( {Value: "!"} )**
 
-이제 모두 정리해 보겠습니다.  이 컨텍스트에서 수식은 다음과 같습니다.
+이제 모두 정리해 보겠습니다. 이 컨텍스트에서 수식은 다음과 같습니다.
 
 ```powerapps-dot
-Ungroup( 
-    ForAll( X, 
-        ForAll( Y, 
-            Y[@Value] & Text( X[@Value] ) & [@Value] 
-        ) 
-    ), 
-    "Value" 
+Ungroup(
+    ForAll( X,
+        ForAll( Y,
+            Y[@Value] & Text( X[@Value] ) & [@Value]
+        )
+    ),
+    "Value"
 )
 ```
 
@@ -301,22 +323,40 @@ Ungroup(
 **Y**가 가장 안쪽의 레코드 범위이므로 이 테이블의 필드에 액세스하는 데 명확성이 필요하지 않습니다. 따라서 다음 수식을 사용하여 동일한 결과를 얻을 수 있습니다.
 
 ```powerapps-dot
-Ungroup( 
-    ForAll( X, 
-        ForAll( Y, 
-            Value & Text( X[@Value] ) & [@Value] 
-        ) 
-    ), 
-    "Value" 
+Ungroup(
+    ForAll( X,
+        ForAll( Y,
+            Value & Text( X[@Value] ) & [@Value]
+        )
+    ),
+    "Value"
 )
 ```
 
-모든 **ForAll** 레코드 범위는 전역 범위를 재정의합니다.  정의한 **Value** 컨텍스트 변수는 명확성 연산자가 없이 이름으로 사용할 수 없습니다.   이 값에 액세스하려면 **[@Value]** 을 사용해야 합니다.
+모든 **ForAll** 레코드 범위는 전역 범위를 재정의합니다. 합니다 **값** 정의한 컨텍스트 변수는 명확성 연산자 없이 이름으로 사용할 수 없습니다. 이 값에 액세스 하려면 사용 하 여 **[@Value]** 합니다.
 
-중첩된 **ForAll** 함수에서 중첩된 결과 테이블을 생성하므로 **Ungroup**은 결과를 평면화합니다.
+**그룹 해제** 중첩 결과 평면화 **ForAll** 함수 중첩 된 결과 테이블이 됩니다.
 
-## <a name="inline-syntax"></a>인라인 구문
-### <a name="records"></a>레코드
+## <a name="single-column-tables"></a>단일 열 테이블
+
+테이블의 단일 열에서 작동 하려면 사용 합니다 **ShowColumns** 이 예제와 같이 함수:
+
+```powerapps-dot
+ShowColumns( Products, "Product" )
+```
+
+이 수식은이 단일 열 테이블을 생성합니다.
+
+![](media/working-with-tables/single-column.png)
+
+짧은 대신 지정할 *테이블. 열*만의 단일 열 테이블을 추출 하는 *열* 에서 *테이블*합니다. 이 수식을 사용 하 여 정확 하 게 동일한 결과 생성 하는 예를 들어 **ShowColumns**합니다.
+
+```powerapps-dot
+Products.Product
+```
+
+## <a name="inline-records"></a>인라인 레코드
+
 레코드는 명명된 필드 값이 포함된 중괄호를 사용하여 표현합니다.  예를 들어 다음 수식을 사용하여 이 항목의 시작 부분에 테이블의 첫 번째 레코드를 표현할 수 있습니다.
 
 `{ Name: "Chocolate", Price: 3.95, 'Quantity on Hand': 12, 'Quantity on Order': 10 }`
@@ -333,7 +373,7 @@ Ungroup(
 
 **Price** 열의 값에는 $ 기호와 같은 통화 기호가 포함되지 않습니다. 값이 표시될 때 해당 형식이 적용됩니다.  
 
-### <a name="tables"></a>테이블
+## <a name="inline-tables"></a>인라인 테이블
 **[Table](functions/function-table.md)** 함수와 레코드 집합을 사용하여 테이블을 만들 수 있습니다. 다음 수식을 사용하여 이 항목의 시작 부분에 테이블을 표현할 수 있습니다.
 
 ```powerapps-dot
@@ -355,7 +395,7 @@ Table(
 )
 ```
 
-### <a name="value-tables"></a>Value 테이블
+## <a name="inline-value-tables"></a>인라인 값 테이블
 대괄호 안에 값을 지정하여 단일 열 테이블을 만들 수 있습니다. 결과 테이블에는 **Value**라는 단일 열이 있습니다.
 
 예를 들어 `[ 1, 2, 3, 4 ]` 같습니다 `Table( { Value: 1 }, { Value: 2 }, { Value: 3 }, { Value: 4 } )` 이 테이블을 반환 합니다.

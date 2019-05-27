@@ -1,24 +1,24 @@
 ---
 title: InfoPath 양식을 캔버스 앱으로 변환 | Microsoft Docs
 description: 일반적인 시나리오에 대한 정보와 캔버스 앱에서 이러한 항목을 만드는 방법을 사용하여 InfoPath 양식을 PowerApps로 변환하기 시작합니다.
-author: gregli-msft
+author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: article
 ms.custom: canvas
 ms.reviewer: anneta
 ms.date: 04/05/2018
-ms.author: gregli
+ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0ceffa705262e879ee09df2494f71f59bcc2d1b5
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 52f97ce8360981b060500ce62da44a58002f4afa
+ms.sourcegitcommit: dd74c98f48587730466e6669fc94da250d5c631e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63318396"
+ms.lasthandoff: 05/26/2019
+ms.locfileid: "66224810"
 ---
 # <a name="transform-your-infopath-form-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 

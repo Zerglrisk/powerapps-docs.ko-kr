@@ -13,17 +13,17 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ee2e2b854b56dadfd63b35a984e92db2ca515093
-ms.sourcegitcommit: 8bad6bff1b3397b21654df4a9357dd0180fbcfe6
+ms.openlocfilehash: 9ca80511875ff8534e5b07c3a7844485ff70a4a5
+ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "65046058"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66216162"
 ---
 # <a name="build-global-support-into-canvas-apps"></a>캔버스 앱에 글로벌 지원 빌드
 PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 캔버스 앱을 빌드하고 사용할 수 있습니다.
 
-앱을 빌드하고 실행하는 동안 PowerApps에서 표시되는 텍스트는 다양한 언어로 번역되었습니다.  따라서 메뉴 항목, 대화 상자, 리본 탭은 물론, 기타 텍스트를 모국어로 보게 될 것입니다.  날짜와 숫자의 입력과 표시도 특정 언어와 지역에 맞게 수정됩니다.  예를 들어, 전 세계의 일부 지역은 소수 구분 기호로 **.** (점 또는 마침표)를 사용하는 반면 다른 지역은 **,**(쉼표)를 사용합니다.  
+앱을 빌드하고 실행하는 동안 PowerApps에서 표시되는 텍스트는 다양한 언어로 번역되었습니다.  따라서 메뉴 항목, 대화 상자, 리본 탭은 물론, 기타 텍스트를 모국어로 보게 될 것입니다.  날짜와 숫자의 입력과 표시도 특정 언어와 지역에 맞게 수정됩니다.  예를 들어, 전 세계의 일부 지역은 소수 구분 기호로 **.** (점 또는 마침표)를 사용하는 반면 다른 지역은 **,** (쉼표)를 사용합니다.  
 
 사용자가 만드는 앱도 전 세계적으로 알려질 수 있습니다.  **[Language](functions/function-language.md)**, **[Text](functions/function-text.md)**, **[Value](functions/function-value.md)**, **[DateValue](functions/function-datevalue-timevalue.md)** 및 기타 함수를 사용하여 다른 언어에서 입력으로 표시 및 사용되는 것을 변경합니다.   
 
@@ -67,14 +67,14 @@ PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 
 
 | 제작자의 언어 소수 구분 기호 | PowerApps 소수 구분 기호 | PowerApps 목록 구분 기호 | PowerApps 연결 연산자 |
 | --- | --- | --- | --- |
-| **.** (점 또는 마침표) |**.** (점 또는 마침표) |**,**(쉼표) |**;**(세미콜론) |
-| **,**(쉼표) |**,**(쉼표) |**;**(세미콜론) |**;;**(이중 세미콜론) |
+| **.** (점 또는 마침표) |**.** (점 또는 마침표) |**,** (쉼표) |**;** (세미콜론) |
+| **,** (쉼표) |**,** (쉼표) |**;** (세미콜론) |**;;** (이중 세미콜론) |
 
 PowerApps 목록 구분 기호에 변경 내용이 Excel 목록 구분 기호에 어떻게 부합 합니다.  이는 다음에 영향을 미칩니다.
 
 * 함수 호출의 인수
 * [레코드](working-with-tables.md#elements-of-a-table)의 필드
-* [값 테이블](working-with-tables.md#inline-syntax)의 레코드
+* 에 기록 된 [테이블](working-with-tables.md#inline-value-tables)합니다.
 
 예를 들어, 일본과 영국 같은 소수 구분 기호로 점 또는 마침표를 사용하는 언어나 지역에서는 다음 수식을 고려합니다.
 
@@ -84,7 +84,7 @@ PowerApps 목록 구분 기호에 변경 내용이 Excel 목록 구분 기호에
 
 ![PowerApps 수식 오픈 괄호 slider1 점 값 12 쉼표로 세미콜론 59 보다 큰 경우 알림 오픈 괄호 "유효!" 세미콜론으로 성공 닫기 괄호 이중 세미콜론 탐색 열린 괄호 "NextScreen" None 닫기 괄호는 세미콜론으로 세미콜론으로 알림 오픈 괄호 "잘못 된 경우 다시 시도" 세미콜론 오류 닫기 괄호 닫기 괄호](media/global-apps/operators-comma.png)
 
-강조 표시는 두 버전 간에 변경되는 연산자를 보여 줍니다.  **Slider1.Value**에서 속성 선택 연산자 **.**(점 또는 마침표)는 항상 소수 구분 기호와 상관 없이 동일합니다.
+강조 표시는 두 버전 간에 변경되는 연산자를 보여 줍니다.  **Slider1.Value**에서 속성 선택 연산자 **.** (점 또는 마침표)는 항상 소수 구분 기호와 상관 없이 동일합니다.
 
 내부적으로는 수식이 변경되지 않지만, 제작자가 표시 및 편집하는 방식이 변경 사항의 전부입니다.  두 가지 다른 언어를 사용하는 두 명의 제작자는 각각 자신의 언어에 대한 적합한 구분자와 연산자를 통해 같은 수식을 보고 편집할 수 있습니다.
 
@@ -92,7 +92,7 @@ PowerApps 목록 구분 기호에 변경 내용이 Excel 목록 구분 기호에
 사용자가 만드는 앱은 다른 언어로 변경되어 전 세계 사용자에게 훌륭한 사용자 경험을 제공할 수 있습니다.
 
 ### <a name="language-function"></a>Language 함수
-**[Language](functions/function-language.md)** 함수는 현재 사용자의 언어 태그를 반환합니다.  예를 들어 이 함수는 영국의 사용자에게 **"en-GB"**, 독일의 사용자에게 **"de-DE"** 를 반환합니다.  
+**[Language](functions/function-language.md)** 함수는 현재 사용자의 언어 태그를 반환합니다.  예를 들어 이 함수는 영국의 사용자에게 **"en-GB"** , 독일의 사용자에게 **"de-DE"** 를 반환합니다.  
 
 무엇 보다도 **Language**를 사용하여 사용자를 위해 번역된 텍스트를 표시할 수 있습니다.  앱은 번역된 값의 테이블을 앱에 포함할 수 있으며
 
@@ -139,10 +139,10 @@ Excel을 사용한 경우 이러한 모든 함수가 단일한 **Value** 함수�
 
 예:
 
-* **Value( "12,345.678", "en-US" )** 또는 **Value( "12,345.678" )**, "en-US"가 사용자 언어인 경우 계산할 준비가 된 **12345.678**을 반환합니다.
-* **DateValue( "1/2/01", "es-ES" )** 또는 **DateValue( "1/2/01" )**, "es-ES"가 사용자 언어인 경우 날짜/시간 값 **February 1, 2001 at midnight**을 반환합니다.
-* **TimeValue( "11:43:02", "fr-FR" )** 또는 **DateValue( "11:43:02" )**, "fr-FR"이 사용자 언어인 경우 날짜/시간 값 **January 1, 1970 at 11:43:02**를 반환합니다.
-* **TimeDateValue( "11:43:02 1/2/01", "de-DE" )** 또는 **DateValue( "11:43:02" )**, "de-DE"이 사용자 언어인 경우 날짜/시간 값 **February 1, 2001 at 11:43:02**를 반환합니다.
+* **Value( "12,345.678", "en-US" )** 또는 **Value( "12,345.678" )** , "en-US"가 사용자 언어인 경우 계산할 준비가 된 **12345.678**을 반환합니다.
+* **DateValue( "1/2/01", "es-ES" )** 또는 **DateValue( "1/2/01" )** , "es-ES"가 사용자 언어인 경우 날짜/시간 값 **February 1, 2001 at midnight**을 반환합니다.
+* **TimeValue( "11:43:02", "fr-FR" )** 또는 **DateValue( "11:43:02" )** , "fr-FR"이 사용자 언어인 경우 날짜/시간 값 **January 1, 1970 at 11:43:02**를 반환합니다.
+* **TimeDateValue( "11:43:02 1/2/01", "de-DE" )** 또는 **DateValue( "11:43:02" )** , "de-DE"이 사용자 언어인 경우 날짜/시간 값 **February 1, 2001 at 11:43:02**를 반환합니다.
 
 자세한 내용은 **[Value](functions/function-value.md)** 및 **[DateValue, TimeValue, 및 DateTimeValue](functions/function-datevalue-timevalue.md)** 함수와 [날짜 및 시간 작업](show-text-dates-times.md). 문서를 참조하세요.
 

@@ -13,26 +13,29 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 883ea1a63952a01cf1f131b0ccae6629a0324b2c
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 882fa81d61c57c29af94b44bebad97fce4e95631
+ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63321498"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66218068"
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>PowerApps에서 Color 열거 및 ColorFade, ColorValue 및 RGBA 함수
+
 기본 제공 색 값 사용, 사용자 지정 색 정의 및 알파 혼합
 
 ## <a name="description"></a>설명
-**Color** 열거는 HTML의 CSS(Cascading Style Sheets)에서 정의된 색에 액세스하는 쉬운 방법입니다.  예를 들어, **Color.Red**는 순수한 빨간색을 반환합니다.  이러한 색의 목록은 이 문서의 끝에 포함되어 있습니다.   
+
+**Color** 열거는 HTML의 CSS(Cascading Style Sheets)에서 정의된 색에 액세스하는 쉬운 방법입니다. 예를 들어, **Color.Red**는 순수한 빨간색을 반환합니다.  이러한 색의 목록은 이 문서의 끝에 포함되어 있습니다.
 
 **ColorValue** 함수는 CSS 색 문자열에 따라 색을 반환합니다.  "RosyBrown"과 같은 CSS 색의 이름 및 "#bc8f8f"와 같은 16진수 값을 모두 사용할 수 있습니다.
 
-**RGBA** 함수는 빨강, 녹색 및 파랑 색의 구성 요소에 따라 색을 반환합니다.  서로를 기반으로 계층화되는 개체의 색을 혼합하는 데 사용되는 알파 구성 요소도 포함합니다.  알파는 완전히 투명하고 보이지 않는 0 또는 0%에서 완전히 불투명하고 아래 계층을 완전히 차단하는 1 또는 100%까지 다양합니다.
+**RGBA** 함수는 빨강, 녹색 및 파랑 색의 구성 요소에 따라 색을 반환합니다. 서로를 기반으로 계층화되는 개체의 색을 혼합하는 데 사용되는 알파 구성 요소도 포함합니다.  알파는 완전히 투명하고 보이지 않는 0 또는 0%에서 완전히 불투명하고 아래 계층을 완전히 차단하는 1 또는 100%까지 다양합니다.
 
-**ColorFade** 함수는 색의 밝거나 짙은 버전을 반환합니다.  페이드의 양은 색을 검정으로 완전히 어둡게 하는 -1에서 색에 영향을 주지 않는 0, 색을 흰색으로 완전히 밝게 하는 1까지 다양합니다.  
+**ColorFade** 함수는 색의 밝거나 짙은 버전을 반환합니다. 페이드의 양은-1 또는-100% (색을 검정으로 완전히 어둡게) 0 (영향을 주지 않습니다 색)을 1 또는 100% (색을 흰색으로 완전히 밝게 하).
 
 ## <a name="syntax"></a>구문
+
 **Color**.*ColorName*
 
 * *ColorName* - 필수 항목입니다.  CSS(Cascading Style Sheet) 색 이름입니다.  아래 가능한 열거 값의 목록을 참조하세요.
@@ -44,12 +47,12 @@ ms.locfileid: "63321498"
 **RGBA**( *Red*, *Green*, *Blue*, *Alpha* )
 
 * *Red*, *Green*, *Blue* - 필수 항목입니다.  0(채도 없음)에서 255(전체 채도)까지의 색 구성 요소 값입니다.
-* *Alpha* - 필수 항목입니다.  0(완전히 투명)에서 1(완전히 불투명)까지의 알파 구성 요소입니다.  0%에서 100%까지 %를 사용할 수도 있습니다.
+* *Alpha* - 필수 항목입니다.  0(완전히 투명)에서 1(완전히 불투명)까지의 알파 구성 요소입니다. 0%에서 100%까지 %를 사용할 수도 있습니다.
 
 **ColorFade**( *Color*, *FadeAmount* )
 
 * *Color* - 필수 항목입니다.  **Color.Red** 또는 **ColorValue** 또는 **RGBA**의 출력과 같은 색 값입니다.
-* *FadeAmount* - 필수 항목입니다.  -1에서 1 사이의 숫자입니다.  -1은 색을 검정으로 완전히 어둡게 하고, 0은 색에 어떠한 영향도 주지 않으며 1은 색을 흰색으로 완전히 밝게 합니다.  
+* *FadeAmount* - 필수 항목입니다.  -1에서 1 사이의 숫자입니다.  -1은 색을 검정으로 완전히 어둡게 하고, 0은 색에 어떠한 영향도 주지 않으며 1은 색을 흰색으로 완전히 밝게 합니다. 백분율-100에서 이용할 수 있습니다 100% %
 
 ## <a name="built-in-colors"></a>기본 제공 색
 

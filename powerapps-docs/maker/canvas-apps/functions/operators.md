@@ -13,14 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d8436656150d3abf36c8c4a26efc46e940e35f06
-ms.sourcegitcommit: 6b75019dccc5296a313f9ff0eb397003f13ce737
+ms.openlocfilehash: 284e9dfca0dff9a3bb92c2f5b073cfbe962ce5e9
+ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "65940471"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66215983"
 ---
 # <a name="operators-in-powerapps"></a>PowerApps의 연산자
+
 일부 연산자는 제작자의 언어에 따라 달라집니다.  자세한 내용은 [글로벌 앱](../global-apps.md)을 참조하세요.
 
 
@@ -51,7 +52,7 @@ ms.locfileid: "65940471"
 |                               **in**                                |                       &nbsp;                        |                                                      **&quot;The&quot; in &quot;The keyboard and the monitor...&quot;**                                                      |                                                                                                                부분 문자열 테스트(대/소문자 구분 안 함)                                                                                                                 |
 |                                **@**                                | [명확성 연산자](#disambiguation-operator) |                                                                           **MyTable[@fieldname]**                                                                            |                                                                                                                       필드 명확성                                                                                                                       |
 |                                **@**                                |                       &nbsp;                        |                                                                              **[@MyVariable]**                                                                               |                                                                                                                      글로벌 명확성                                                                                                                       |
-| **,**<br>[[언어에 종속](../global-apps.md)]  |                   목록 구분 기호                    | **If( X < 10, "Low", "Good" )**<br>**{ X: 12, Y: 32 }**<br>**[ 1, 2, 3 ]** | 분리: <ul><li>함수 호출의 인수</li><li>[레코드](../working-with-tables.md#elements-of-a-table)의 필드</li><li>[값 테이블](../working-with-tables.md#inline-syntax)의 레코드</li></ul>버튼을 클릭하거나 탭합니다.  이 문자 언어에 따라 달라 집니다. |
+| **,**<br>[[언어에 종속](../global-apps.md)]  |                   목록 구분 기호                    | **If( X < 10, "Low", "Good" )**<br>**{ X: 12, Y: 32 }**<br>**[ 1, 2, 3 ]** | 분리: <ul><li>함수 호출의 인수</li><li>[레코드](../working-with-tables.md#elements-of-a-table)의 필드</li><li>에 기록 된 [테이블](../working-with-tables.md#inline-value-tables)</li></ul> 이 문자 언어에 따라 달라 집니다. |
 | **;**<br>[[언어에 종속](../global-apps.md)] |                  수식 체인                   |                                     **Collect(T, A); Navigate(S1, &quot;&quot;)**                                     |                                                                          동작 속성의 함수 분리 호출. 연결 문자 언어에 따라 달라 집니다.                                                                          |
 |                             **Parent**                              |         [부모 연산자](#parent-operator)         |                                                                               **Parent.Fill**                                                                                |                                                                                                           컨트롤 컨테이너의 속성에 대한 액세스                                                                                                            |
 |                            **ThisItem**                             |       [ThisItem 연산자](#thisitem-operator)       |                                                                            **ThisItem.FirstName**                                                                            |                                                                                                          갤러리 또는 양식 컨트롤의 필드에 대한 액세스                                                                                                           |
@@ -86,8 +87,8 @@ PowerApps의 컨트롤은 앱 내부의 어디서나 이름을 통해 참조할 
 ## <a name="disambiguation-operator"></a>명확성 연산자 
 일부 함수는 각 레코드를 처리하는 동안 테이블의 필드에 액세스하기 위해 **Filter**, **AddColumns** 및 **Sum** 등과 같은 [범위 기록](../working-with-tables.md#record-scope)을 만듭니다.  레코드 범위에 추가된 필드 이름은 앱 어디에서나 동일한 이름을 재정의합니다.  이 경우 **@** 명확성 연산자를 사용하여 레코드 범위 밖에서 값에 계속 액세스할 수 있습니다.
 
-* 중첩된 레코드 범위의 값에 액세스하려면 다음 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.<br>_Table_**[@**_FieldName_**]**
-* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 테이블 지정 없이 **[@**_ObjectName_**]** 패턴을 사용합니다.
+* 중첩된 레코드 범위의 값에 액세스하려면 다음 패턴을 사용하여 작업 중인 테이블의 이름에 **@** 연산자를 사용합니다.<br>_Table_ **[@** _FieldName_ **]**
+* 데이터 원본, 컬렉션 및 컨텍스트 변수와 같은 전역 값에 액세스하려면 테이블 지정 없이 **[@** _ObjectName_ **]** 패턴을 사용합니다.
 
 자세한 내용 및 예제는 [레코드 범위](../working-with-tables.md#record-scope)를 참조하세요.
 

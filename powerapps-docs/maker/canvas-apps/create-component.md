@@ -1,4 +1,4 @@
-﻿---
+---
 title: 캔버스 앱에 대한 구성 요소 만들기 | Microsoft Docs
 description: 캔버스 앱에 대한 재사용 가능한 구성 요소 소개
 author: yifwang
@@ -10,12 +10,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 369304ded3fdc9fcd69459da9875e6080d5d860c
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 0a20218d3670775f67b26c907ce5a3a54fa0af7b
+ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61562241"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66216663"
 ---
 # <a name="create-a-component-for-canvas-apps"></a>캔버스 앱에 대한 구성 요소 만들기
 
@@ -50,9 +50,12 @@ ms.locfileid: "61562241"
 
 ## <a name="import-and-export"></a>가져오기 및 내보내기
 
-구성 요소를 내보낼 경우, 다른 앱으로 가져올 수 있는 로컬 파일을 만듭니다. 앱이 동일한 구성 요소의 수정된 버전을 포함하는 경우, 수정된 버전을 대체하거나 가져오기를 취소할지 여부를 결정할 수 있는 메시지가 나타납니다. 이 문서의 작성 시점에서는 클라우드로 구성 요소를 저장하거나 환경 내에서 공유할 수 없습니다.
+하나 이상의 구성 요소 하나의 앱에서 다른을 가져오려면 선택 **구성 요소를 가져오는** 드롭 다운 목록을 구성 요소입니다. 대화 상자를 편집할 수 있는 권한이 있는 구성 요소를 포함 하는 모든 앱을 나열 합니다. 앱을 선택한 후 **가져오기** 게시 된 최신 버전의 모든 해당 앱의 구성 요소를 가져오려고 합니다. 하나 이상의 구성 요소를 가져온 후 사본을 편집 하 고 필요 하지 않은 모든를 삭제 합니다.
 
-![가져오기 및 내보내기](./media/create-component/import.png)
+> [!div class="mx-imgBorder"]
+> ![가져오기 구성 요소 대화 상자](./media/create-component/import-components.png)
+
+구성 요소를 내보낼 경우, 다른 앱으로 가져올 수 있는 로컬 파일을 만듭니다. 앱이 동일한 구성 요소의 수정된 버전을 포함하는 경우, 수정된 버전을 대체하거나 가져오기를 취소할지 여부를 결정할 수 있는 메시지가 나타납니다. 
 
 ## <a name="custom-properties"></a>사용자 지정 속성
 
@@ -180,8 +183,7 @@ ms.locfileid: "61562241"
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
-- 이 문서의 작성 시점에서 데이터 원본은 구성 요소를 사용하여 저장되지 않으며, 따라서 폼 및 데이터 테이블은 비활성화됩니다. 
-- 구성 요소에서 변수를 만든 경우 해당 변수는 구성 요소로만 범위가 지정되며 앱 변수를 사용하여 표시되지 않습니다.
+- 이 문서의 작성 시점에서 데이터 원본은 구성 요소를 사용하여 저장되지 않으며, 따라서 폼 및 데이터 테이블은 비활성화됩니다.
 - PowerApps는 구성 요소에서 컬렉션을 지원하지 않습니다.
 - 구성 요소를 갤러리, 폼 또는 데이터 카드에 삽입할 수 없습니다.
 - 구성 요소의 마스터 인스턴스가 로컬 마스터이며 앱으로 범위가 지정됩니다. 마스터 인스턴스를 변경하면 앱 내의 구성 요소의 복사본에만 변경 내용이 반영됩니다. 구성 요소 라이브러리를 다시 가져오지 않으면 다른 앱의 복사본은 그대로 유지됩니다. 해당 앱의 모든 마스터 인스턴스는 자동으로 검색되며 업데이트됩니다.

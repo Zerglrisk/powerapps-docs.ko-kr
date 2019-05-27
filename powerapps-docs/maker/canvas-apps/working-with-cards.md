@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: db0e42a45af217e9e5703242c2a5a867a52b687b
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
-ms.translationtype: MT
+ms.openlocfilehash: 0337c7f79a81d7368128b6ef11d4d108345d3923
+ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
+ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63317835"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66216625"
 ---
 # <a name="understand-data-cards-in-powerapps"></a>PowerApps의 데이터 카드 이해
 
@@ -97,9 +97,6 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 수식 입력줄에서 이 컨트롤의 **Image** 속성을 *TextBox*.**Text**로 설정합니다. 여기서 *TextBox*는 URL을 포함하는 **텍스트 입력** 컨트롤의 이름입니다.
 
-> [!TIP]
-> Alt 키를 누르고 있으면 각 컨트롤의 이름이 표시됩니다.
-
 ![](./media/working-with-cards/show-image.png)
 
 이제 이미지를 확인하고 해당 URL을 편집할 수 있습니다. **Parent.Default**를 **Image** 속성으로 사용했지만 사용자가 URL을 변경한 경우 업데이트되지 않습니다.
@@ -139,7 +136,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 ![](./media/working-with-cards/dissect-card1.png)
 
-Alt 키를 누르고 있으면 이 카드를 구성하는 컨트롤의 이름을 표시합니다.
+이 그래픽에서 데이터 카드 내의 컨트롤 레이블이 지정 되어 있습니다.
 
 ![](./media/working-with-cards/dissect-card2.png)
 
