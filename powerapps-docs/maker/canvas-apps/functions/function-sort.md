@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: c405af25d0e3228939b908c081ea8b08ce674ea6
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.sourcegitcommit: d87b2068a63e416e2814791328a3a47bbcb5bb48
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/28/2019
 ms.locfileid: "61519659"
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>PowerApps의 Sort 및 SortByColumns 함수

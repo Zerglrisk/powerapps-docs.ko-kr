@@ -266,7 +266,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 7.  **Switch**를 확장합니다.
 8.  **NOT STARTED** 경우를 확장합니다.
 9.  **Case note started** 동작을 확장합니다.
-10. 지원 센터 관리자 이메일에 맞게 ***받는 사람**을 변경합니다.
+10. 지원 센터 관리자 이메일에 맞게 **받는 사람**을 변경합니다.
 
     ![흐름 편집 화면](./media/help-desk-install/edit-flow-condition-send-email.png) 
 

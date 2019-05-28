@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: a6887694f2cc64cd44dcdc74e7769ce874872f70
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.sourcegitcommit: d87b2068a63e416e2814791328a3a47bbcb5bb48
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
+ms.lasthandoff: 05/28/2019
 ms.locfileid: "61520885"
 ---
 # <a name="remove-and-removeif-functions-in-powerapps"></a>PowerApps의 Remove 및 RemoveIf 함수
