@@ -32,7 +32,7 @@ ms.locfileid: "65517359"
 
 ## <a name="key-properties"></a>주요 속성
 
-**[Default](properties-core.md)**  – 사용자가 변경하기 전의 컨트롤의 값입니다.
+**[Default](properties-core.md) ** – 사용자가 변경하기 전의 컨트롤의 값입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "65517359"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 

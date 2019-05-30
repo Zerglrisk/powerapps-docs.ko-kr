@@ -13,17 +13,17 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8c88417763b4eee125ce511fafcac61da018d2ec
-ms.sourcegitcommit: d87b2068a63e416e2814791328a3a47bbcb5bb48
+ms.openlocfilehash: c528ff033515a1e124330c0880c78e14f1014cec
+ms.sourcegitcommit: 963d32bf17f1b596fbd3053567fd2d3a3a34b199
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/28/2019
-ms.locfileid: "66249818"
+ms.locfileid: "66251482"
 ---
 # <a name="keyboard-shortcuts-for-canvas-apps"></a>캔버스 앱에 대 한 바로 가기 키
 
 > [!NOTE]
-> 바로 가기는 언어에 따라 달라질 수 있습니다.
+> 바로 가기는 키보드 레이아웃에 따라 달라질 수 있습니다.
 
 ## <a name="file"></a>파일
 

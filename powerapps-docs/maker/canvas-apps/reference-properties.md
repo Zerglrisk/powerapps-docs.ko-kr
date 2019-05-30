@@ -32,7 +32,7 @@ ms.locfileid: "61535831"
 
 **[오디오](controls/control-audio-video.md)** – 오디오 클립 또는 비디오 클립의 오디오 부분을 재생합니다.
 
-**[바코드 스캐너](controls/control-new-barcode-scanner.md)**  – 바코드, QR 코드 및 Android 또는 iOS 장치에서 데이터 행렬 코드를 검색 합니다.
+**[바코드 스캐너](controls/control-new-barcode-scanner.md) ** – 바코드, QR 코드 및 Android 또는 iOS 장치에서 데이터 행렬 코드를 검색 합니다.
 
 **[단추](controls/control-button.md)** – 클릭하거나 탭하여 앱과 상호 작용합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "61535831"
 
 **[편집 폼](controls/control-form-detail.md)** – 폼을 사용하여 데이터 원본의 레코드를 편집하고 만듭니다.
 
-**[엔터티 폼](entity-form-control.md)**  -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집하는 동적 폼을 추가합니다.
+**[엔터티 폼](entity-form-control.md) ** -실험적 기능: 사용자 수 보기, 탐색 및 Common Data Service의 관계형 데이터를 편집하는 동적 폼을 추가합니다.
 
 **[내보내기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 사용할 데이터를 내보냅니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "61535831"
 
 **[등급](controls/control-rating.md)** – 1과 지정한 숫자 사이의 값을 나타냅니다.
 
-**[서식 있는 텍스트 편집기](controls/control-richtexteditor.md)**  -앱 사용자가 서식 있는 텍스트를 허용 합니다.
+**[서식 있는 텍스트 편집기](controls/control-richtexteditor.md) ** -앱 사용자가 서식 있는 텍스트를 허용 합니다.
 
 **[화면](controls/control-screen.md)** – 특정 작업에 대한 데이터를 표시하고 업데이트합니다.
 
@@ -108,7 +108,7 @@ ms.locfileid: "61535831"
 
 **[비디오](controls/control-audio-video.md)** – 로컬 파일, 데이터 원본 또는 YouTube에서 비디오 클립을 재생합니다.
 
-**[(실험적) 웹 바코드 스캐너](controls/control-barcodescanner.md)**  – 레거시 바코드 스캐너를 사용 되지 않지만 웹 브라우저에서 코드를 스캔 하는 데 유용할 수 있습니다.
+**[(실험적) 웹 바코드 스캐너](controls/control-barcodescanner.md) ** – 레거시 바코드 스캐너를 사용 되지 않지만 웹 브라우저에서 코드를 스캔 하는 데 유용할 수 있습니다.
 
 ## <a name="common-properties-by-category"></a>범주별 공용 속성
 
@@ -238,7 +238,7 @@ ms.locfileid: "61535831"
 
 **[Font](controls/properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.  많은 컨트롤에 적용됩니다.
 
-**[FontWeight](controls/properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.  많은 컨트롤에 적용됩니다.
+**[FontWeight](controls/properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.  많은 컨트롤에 적용됩니다.
 
 ### <a name="g"></a>G
 

@@ -36,7 +36,7 @@ ms.locfileid: "61544249"
 
 ## <a name="key-properties"></a>주요 속성
 
-**[Default](properties-core.md)**  – 앱이 시작하면 갤러리에서 선택할 데이터 원본의 항목 또는 레코드입니다.
+**[Default](properties-core.md) ** – 앱이 시작하면 갤러리에서 선택할 데이터 원본의 항목 또는 레코드입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "61544249"
 
 ## <a name="additional-properties"></a>추가 속성
 
-**[AccessibleLabel](properties-accessibility.md)**  – 화면 읽기 프로그램에 대 한 갤러리 (항목이 아니라 포함)의 레이블을 지정 합니다. 항목 목록의 개념을 설명해야 합니다.
+**[AccessibleLabel](properties-accessibility.md) ** – 화면 읽기 프로그램에 대 한 갤러리 (항목이 아니라 포함)의 레이블을 지정 합니다. 항목 목록의 개념을 설명해야 합니다.
 
 **AllItems** – 갤러리의 템플릿에 속해 있는 추가 컨트롤 값을 포함하는 갤러리에 있는 모든 항목입니다.
 

@@ -59,7 +59,7 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 
 **FlashlightEnabled** 는 손전등은 스캐너 열릴 때 자동으로 사용 되는지 여부를-합니다.
 
-**[높이](properties-size-location.md)**  – 스캐너를 활성화 하는 단추의 높이입니다.
+**[높이](properties-size-location.md) ** – 스캐너를 활성화 하는 단추의 높이입니다.
 
 **PreferFrontCamera** -전면 카메라를 사용 가능한 경우에 사용할지 여부를 검색 합니다.
 
@@ -69,7 +69,7 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
-**[너비](properties-size-location.md)**  – 스캐너를 활성화 하는 단추의 너비입니다.
+**[너비](properties-size-location.md) ** – 스캐너를 활성화 하는 단추의 너비입니다.
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 

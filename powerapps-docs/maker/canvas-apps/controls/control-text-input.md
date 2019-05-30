@@ -64,7 +64,7 @@ ms.locfileid: "65521036"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
 
 **Format** – 사용자 입력이 숫자로만 제한되거나 어떤 텍스트라도 입력할 수 있는지 여부를 선택합니다.
 

@@ -50,7 +50,7 @@ ms.locfileid: "61560349"
 
 **Reset** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.  또한 **[Reset](../functions/function-reset.md)** 함수도 참조하세요.
 
-* **[Audio](control-audio-video.md)**, **[Check box](control-check-box.md)**, **[Drop down](control-drop-down.md)**, **[List Box](control-list-box.md)**, **[Microphone](control-microphone.md)**, **[Radio](control-radio.md)**, **[Rating](control-rating.md)**, **[Slider](control-slider.md)**, **[Text input](control-text-input.md)**, **[Timer](control-timer.md)**, **[Toggle](control-toggle.md)**  및 **[Video](control-audio-video.md)** 컨트롤에 적용됩니다.
+* **[Audio](control-audio-video.md)**, **[Check box](control-check-box.md)**, **[Drop down](control-drop-down.md)**, **[List Box](control-list-box.md)**, **[Microphone](control-microphone.md)**, **[Radio](control-radio.md)**, **[Rating](control-rating.md)**, **[Slider](control-slider.md)**, **[Text input](control-text-input.md)**, **[Timer](control-timer.md)**, **[Toggle](control-toggle.md) ** 및 **[Video](control-audio-video.md)** 컨트롤에 적용됩니다.
 
 **Text** – 컨트롤에 표시되는 텍스트 또는 사용자가 컨트롤에 입력하는 텍스트입니다.
 

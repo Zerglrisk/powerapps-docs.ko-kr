@@ -32,7 +32,7 @@ ms.locfileid: "61550091"
 
 * 설정할 **[크기](controls/properties-text.md)** 0입니다.
 * 설정 **[너비](controls/properties-size-location.md)** 하 고 **[높이](controls/properties-size-location.md)** 1입니다.
-* 설정  **[X](controls/properties-size-location.md)** 를  **[Y](controls/properties-size-location.md)**, 또는 두 속성 컨트롤 화면 외부 되도록 합니다.
+* 설정  **[X](controls/properties-size-location.md)** 를  **[Y](controls/properties-size-location.md)** , 또는 두 속성 컨트롤 화면 외부 되도록 합니다.
 * 설정할 **[색](controls/properties-color-border.md)** 및 관련 속성을 투명 하 게 합니다.
 * 사각형 위치 **[셰이프](controls/control-shapes-icons.md)** 콘텐츠와 집합 위에 **[채우기](controls/properties-color-border.md)** 화면의 배경색으로 동일한 색입니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "61550091"
 
 ## <a name="hide-content-from-screen-reader-users-and-show-it-to-sighted-users"></a>화면 읽기 프로그램 사용자의 콘텐츠를 숨기고 보면서 사용자에 게 표시
 
-* 에 대 한  **[이미지](controls/control-image.md)** 하십시오  **[아이콘](controls/control-shapes-icons.md)**, 및 **[셰이프](controls/control-shapes-icons.md)** 컨트롤 설정 **[AccessibleLabel](controls/properties-accessibility.md)** 빈 문자열 ""입니다.
+* 에 대 한  **[이미지](controls/control-image.md)** 하십시오  **[아이콘](controls/control-shapes-icons.md)** , 및 **[셰이프](controls/control-shapes-icons.md)** 컨트롤 설정 **[AccessibleLabel](controls/properties-accessibility.md)** 빈 문자열 ""입니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -125,7 +125,7 @@ PowerApps에서 날짜와 시간을 캔버스 앱에 추가하고 형식을 지�
 
 ## <a name="format-a-date-by-using-datevalue"></a>DateValue를 사용하여 날짜 서식 지정
 
-1. **ArrivalDate**라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 날짜를 입력합니다(예: **5/10/85**).
+1. **ArrivalDate**라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 날짜를 입력합니다(예: ** 5/10/85 **).
 
 2. **FormatDate**라는 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**DateValue(ArrivalDate.Text)**
@@ -146,7 +146,7 @@ PowerApps에서 날짜와 시간을 캔버스 앱에 추가하고 형식을 지�
 
 ## <a name="format-a-time-using-datetimevalue"></a>DateTimeValue를 사용하여 시간 형식 지정
 
-1. **ArrivalTime** 이라는 이름의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 **6:15 AM**을 입력합니다.
+1. **ArrivalTime **이라는 이름의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 **6:15 AM**을 입력합니다.
 
 2. **ShowTime**이라는 **[레이블](controls/control-text-box.md)** 컨트롤을 추가합니다.
 
