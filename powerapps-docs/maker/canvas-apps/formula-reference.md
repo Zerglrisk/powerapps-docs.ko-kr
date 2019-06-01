@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 85ab89641fd29fa91e8c5b5d7b3d36e9cddedaf2
-ms.sourcegitcommit: 6b75019dccc5296a313f9ff0eb397003f13ce737
+ms.openlocfilehash: ec035ca959f29832e2ba0bbb2250a24c11f1692e
+ms.sourcegitcommit: 562c7ed5fbb116be1cbb0f45e3f6e75e3e4cf011
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "65940512"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66451408"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -45,9 +45,9 @@ ms.locfileid: "65940512"
 
 **[AddColumns](functions/function-table-shaping.md)** – [열](working-with-tables.md#columns)이 추가된 테이블을 반환합니다.
 
-**[And](functions/function-logicals.md)** – 부울 논리 AND입니다.  모든 인수가 **true**이면 **true**를 반환합니다.  [**&&** 연산자](functions/operators.md)를 사용할 수도 있습니다.
+**[And](functions/function-logicals.md)** – 부울 논리 AND입니다.  모든 인수가 **true**이면 **true**를 반환합니다.  [ **&&** 연산자](functions/operators.md)를 사용할 수도 있습니다.
 
-**[App](functions/signals.md)** – 현재 표시된 화면과 같이 현재 실행 중인 앱에 대한 정보를 반환합니다.
+**[앱](functions/object-app.md)**  – 현재 실행 중인 앱 및 앱의 동작을 제어 하는 방법에 대 한 정보를 제공 합니다.
 
 **[Asin](functions/function-trig.md)** – 숫자의 아크사인을 라디안으로 반환합니다.
 
@@ -234,14 +234,14 @@ ms.locfileid: "65940512"
 
 **[NewForm](functions/function-form.md)** – 항목 생성을 위해 Form 컨트롤을 다시 설정합니다.
 
-**[Not](functions/function-logicals.md)** – 부울 논리 NOT입니다.  인수가 **false**이면 **true**를 반환하고 인수가 **true**이면 **false**를 반환합니다.  [**!** 연산자](functions/operators.md)를 사용할 수도 있습니다.
+**[Not](functions/function-logicals.md)** – 부울 논리 NOT입니다.  인수가 **false**이면 **true**를 반환하고 인수가 **true**이면 **false**를 반환합니다.  [ **!** 연산자](functions/operators.md)를 사용할 수도 있습니다.
 
 **[Notify](functions/function-showerror.md)** – 사용자에게 배너 메시지를 표시합니다.
 
 **[Now](functions/function-now-today-istoday.md)** – 현재 날짜/시간 값을 반환합니다.
 
 ## <a name="o"></a>O
-**[Or](functions/function-logicals.md)** – 부울 논리 OR입니다.  인수 중 **true**인 항목이 있으면 **true**를 반환합니다.  [**||** 연산자](functions/operators.md)를 사용할 수도 있습니다.
+**[Or](functions/function-logicals.md)** – 부울 논리 OR입니다.  인수 중 **true**인 항목이 있으면 **true**를 반환합니다.  [ **||** 연산자](functions/operators.md)를 사용할 수도 있습니다.
 
 ## <a name="p"></a>P
 **[Param](functions/function-param.md)** – 사용자가 열었을 때 앱에 전달된 매개 변수에 대한 액세스를 제공합니다.
@@ -254,7 +254,7 @@ ms.locfileid: "65940512"
 
 **[PlainText](functions/function-encode-decode.md)** – 문자열에서 HTML 및 XML 태그를 제거합니다.
 
-**[Power](functions/function-numericals.md)** – 숫자를 거듭제곱한 값을 반환합니다.  [**^** 연산자](functions/operators.md)를 사용할 수도 있습니다.
+**[Power](functions/function-numericals.md)** – 숫자를 거듭제곱한 값을 반환합니다.  [ **^** 연산자](functions/operators.md)를 사용할 수도 있습니다.
 
 **[Proper](functions/function-lower-upper-proper.md)** – 문자열에 있는 각 단어의 첫 문자를 대문자로 변환하고 나머지는 소문자로 변환합니다.
 
@@ -334,7 +334,6 @@ ms.locfileid: "65940512"
 **[Tan](functions/function-trig.md)** - 라디안으로 지정된 각도의 탄젠트를 반환합니다.
 
 **[Text](functions/function-text.md)** – 모든 값을 변환하고 숫자 또는 날짜/시간 값을 텍스트 문자열로 형식을 지정합니다.
-
 
 **[ThisItem](functions/operators.md#thisitem-operator)** – 갤러리 또는 Form에서 컨테이너에서 현재 항목에 대한 데이터를 반환합니다.
 

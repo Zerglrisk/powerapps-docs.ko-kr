@@ -7,29 +7,34 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 11/07/2015
+ms.date: 05/29/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 18bd89549aa330b5da333dccfd723887db38a36e
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: d375adeb8a20dfe2d9629a9c34944a8dcd80a8e7
+ms.sourcegitcommit: 562c7ed5fbb116be1cbb0f45e3f6e75e3e4cf011
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61553933"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66451448"
 ---
-# <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호 
-전 세계에서 사용자의 위치, 표시할 화면 등과 같이 앱 환경 관련 정보를 반환합니다.  
+# <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호
+
+전 세계에서 사용자의 위치, 표시할 화면 등과 같이 앱 환경 관련 정보를 반환합니다.
 
 ## <a name="description-and-syntax"></a>설명 및 구문
-모든 신호는 정보의 [레코드](../working-with-tables.md#records)를 반환합니다. 이 정보를 레코드로 사용 및 저장하거나, **.** [연산자](operators.md)를 사용하여 개별 속성을 추출할 수 있습니다.
+
+신호는 언제 든 지에 관계 없이 사용자 수는 앱과 상호 작용 하는 방법을 변경할 수 있는 값입니다. 자동으로 신호에 기반 하는 수식에는 이러한 값이 변경으로 다시 계산 합니다.
+
+신호는 일반적으로 반환 된 [레코드](../working-with-tables.md#records) 정보입니다. 이 정보를 레코드로 사용 및 저장하거나, **.** [연산자](operators.md)를 사용하여 개별 속성을 추출할 수 있습니다.
 
 > [!NOTE]
 > **Acceleration**과 **Compass** 함수는 iOS 또는 Android 같은 네이티브 플레이어에서는 정확한 값을 반환하지만, 브라우저에서 앱을 수정하거나 생성하게 되면 해당 함수들은 0 값을 반환합니다.
 
 ### <a name="acceleration"></a>Acceleration
+
 **가속** 신호는 디바이스의 화면에 상대적인 디바이스의 가속을 3차원으로 반환합니다. 가속은 9.81m/초<sup>2</sup> 또는 32.2피트/초<sup>2</sup>의 *g* 단위로 측정됩니다(지구 중력이 표면의 물체에 영향을 미치는 가속도).
 
 | 속성 | 설명 |
@@ -39,28 +44,14 @@ ms.locfileid: "61553933"
 | **Acceleration.Z** |위 및 아래.  위가 양수입니다. |
 
 ### <a name="app"></a>앱
-**앱** 신호는 실행 중인 앱 관련 정보를 반환합니다.
+
+다른 속성과 함께 합니다 **앱** 개체에 표시 되는 화면을 나타내는 표시를 포함 합니다.
 
 | 속성 | 설명 |
 | --- | --- |
-| **App.ActiveScreen** | 표시되는 화면입니다. 화면의 속성을 참조하거나, 다른 화면과 비교하여 표시할 화면을 결정하는 데 사용할 수 있는 화면 개체를 반환합니다. 표시 되는 화면을 변경 하려면 사용 합니다 **[다시](function-navigate.md)** 또는 **[탐색](function-navigate.md)** 함수입니다. |
-| **App.Width** | 앱 실행 되는 창의 너비를 반환 합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **너비** 응답성이 뛰어난 앱을 빌드하는 화면의 속성입니다.  |
-| **App.Height** | 앱 실행 되는 창의 높이 반환 합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 응답성이 뛰어난 앱을 빌드하는 화면의 속성입니다. |
-| **App.DesignWidth** | PowerApps Studio 앱의 너비를 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **너비** 응답성 있는 앱의 최소 너비를 확인 하려면 화면의 속성입니다.  |
-| **App.DesignHeight** | PowerApps Studio 앱의 높이 반환합니다. 설정한 경우 수식에서이 속성을 사용할 수 있습니다 합니다 **높이** 응답성 있는 앱의 최소 높이 확인 하려면 화면의 속성입니다.  |
-| **App.SizeBreakpoints** | 화면 크기를 구분 하는 숫자의 단일 열 테이블을 하는 범위를 [ **Screen.Size** ](../controls/control-screen.md) 속성 반환 합니다. 이 테이블의 값을 사용 하 여를 화면 앱의 모든 중단점에 맞게 변경할 수 있습니다.
+| **App.ActiveScreen** |표시 되는 화면입니다. 화면의 속성을 참조 하거나 화면 표시를 확인 하려면 다른 화면과 비교 하는 데 사용할 수 있는 화면 개체를 반환 합니다. 사용할 수는 **[다시](function-navigate.md)** 하거나 **[탐색](function-navigate.md)** 표시 되는 화면을 변경 하는 함수입니다. |
 
-또한 **앱** 개체에는 설정할 수 있는 [동작 수식](../working-with-formulas-in-depth.md)이 있습니다.
-
-| 속성  | 설명 |
-| --- | --- |
-| **App.OnStart** | 사용자가 앱을 시작할 때 앱의 동작입니다. 결정권자가 검색 하 고 사용 하 여 컬렉션으로 데이터를 캐시의 경우이 속성을 사용 합니다 **[수집](function-clear-collect-clearcollect.md)** 함수를 사용 하 여 변수를 설정 합니다 **[설정](function-set.md)** 함수를 사용 하 여 초기 화면에 이동 합니다 **[Navigate](function-navigate.md)** 함수입니다. 이 수식은 첫 번째 화면이 나타나기 전에 평가됩니다. 화면이 로드되지 않으므로 **[UpdateContext](function-updatecontext.md)** 함수로 컨텍스트 변수를 설정할 수 없습니다. 그러나 **Navigate** 함수를 사용하여 컨텍스트 변수를 전달할 수 있습니다. |
-
-**앱** 개체는 왼쪽 탐색 창에서 컨트롤의 계층적 목록 맨 위에서 표시되고, 화면의 컨트롤처럼 개체를 선택할 수 있습니다. 개체를 선택한 후에 수식 입력줄의 왼쪽 드롭다운 목록에서 해당 속성을 선택하면 해당 속성 중 하나를 편집하고 볼 수 있습니다.  
-
-**OnStart** 속성을 변경한 후, 왼쪽된 탐색 창에서 **앱** 개체를 마우스로 가리키고 나타나는 줄임표(...)를 선택한 다음 **Run OnStart**를 선택하여 테스트할 수 있습니다. 앱이 처음 로드될 때와 달리 기존 컬렉션과 변수가 미리 설정됩니다. 빈 컬렉션으로 시작하기 위해서는 **Collect** 함수 대신 **[ClearCollect](function-clear-collect-clearcollect.md)** 함수를 대신 사용합니다.
-
- ![OnStart 실행을 사용 하 여 앱 항목 상황에 맞는 메뉴](media/appobject-runonstart.png)
+자세한 정보는 [**앱** 개체](object-app.md) 설명서.
 
 ### <a name="compass"></a>Compass
 **나침반** 신호는 화면 맨 위의 나침반 방향을 반환합니다. 방향은 자기장의 북쪽을 기준으로 합니다.
@@ -87,8 +78,8 @@ ms.locfileid: "61553933"
 | 속성 | 설명 |
 | --- | --- |
 | **Location.Altitude** |피트 단위로 해발 고도를 표시하는 숫자를 반환합니다. |
-| **Location.Latitude** |적도로부터 도 단위로 측정되는 경도를 나타내는 숫자 -90~90을 반환합니다.  양수 값이 적도 북쪽의 지역을 나타냅니다. |
-| **Location.Longitude** |영국 그리니치로부터 도 단위로 측정되는 경도를 나타내는 숫자 0~180을 반환합니다.  |
+| **Location.Latitude** |적도로부터 도 단위로 측정되는 경도를 나타내는 숫자 -90~90을 반환합니다. 양수 값이 적도 북쪽의 지역을 나타냅니다. |
+| **Location.Longitude** |영국 그리니치로부터 도 단위로 측정되는 경도를 나타내는 숫자 0~180을 반환합니다. |
 
 ## <a name="examples"></a>예
 야구장에서, 투수는 마운드에서 홈 플레이트의 포수에게 휴대전화를 던집니다. 휴대전화는 그라운드에 평행하게 있다가 화면 위쪽이 포수를 향하고 투수가 회전을 더하지 않습니다. 이 위치에서 휴대전화에는 측정되는 셀룰러 네트워크 서비스가 있지만 WiFi는 없습니다. **PlayBall** 화면이 표시됩니다.   
