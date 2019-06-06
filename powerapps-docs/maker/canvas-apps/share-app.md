@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 34cf740bb029440480618a180ac45bc094c061d5
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: c1107fd96070e62ffc8df53ad756dea01da7c5f7
+ms.sourcegitcommit: db2d38f0351fd41f74fa44f7a1d80703a6b38527
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61539954"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66723989"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
@@ -52,8 +52,8 @@ ms.locfileid: "61539954"
 1. 앱을 공유하려는 Azure Active Directory의 사용자 또는 보안 그룹을 이름 또는 별칭으로 지정합니다.
 
     - 조직 전체에서 앱을 실행하는 것(하지만 수정이나 공유는 금지)을 허용하려면, 공유 패널에서 **Everyone**을 입력합니다.
-    - 항목을 세미콜론으로 구분하는 경우 별칭, 친숙한 이름 또는 이들의 조합(예를 들어 **Jane Doe &lt;jane.doe@contoso.com>**)을 사용하여 앱을 공유할 수 있습니다. 둘 이상의 사람이 동일한 이름을 갖지만 별칭이 다른 경우, 처음 발견된 사용자가 목록에 추가됩니다. 해당 이름이나 별칭이 이미 권한이 있는나 확인할 수 없는 경우에는 도구 설명이 표시됩니다. 
-    
+    - 항목을 세미콜론으로 구분하는 경우 별칭, 친숙한 이름 또는 이들의 조합(예를 들어 **Jane Doe &lt;jane.doe@contoso.com>** )을 사용하여 앱을 공유할 수 있습니다. 둘 이상의 사람이 동일한 이름을 갖지만 별칭이 다른 경우, 처음 발견된 사용자가 목록에 추가됩니다. 해당 이름이나 별칭이 이미 권한이 있는나 확인할 수 없는 경우에는 도구 설명이 표시됩니다. 
+
     ![사용자 및 공동 소유자를 지정 합니다.](./media/share-app/share-everyone.png)
 
     > [!NOTE]
@@ -62,7 +62,7 @@ ms.locfileid: "61539954"
 1. 앱을 편집하고 사용하고, 공유할 수 있는(실행 포함) 사용자를 허용하려는 경우,**공동 소유자** 확인란을 선택합니다.
 
     [솔루션 내에서 앱을 만든](add-app-solution.md) 경우 보안 그룹에 **공동 소유자** 권한을 부여할 수 없습니다 .
-    
+
     > [!NOTE]
     > 권한에 관계 없이 두 사람이 동시에 앱을 편집할 수 없습니다. 한 사용자가 편집을 위해 앱을 열면, 다른 사용자는 실행할 수 있지만 편집할 수는 없습니다.
 
@@ -70,7 +70,8 @@ ms.locfileid: "61539954"
 
     예를 들어, 앱은 Common Data Service 데이터베이스의 엔터티에 연결할 수 있습니다. 이러한 앱을 공유하는 경우, 공유 패널은 해당 엔터티에 대한 보안을 관리하라는 메시지를 표시합니다.
 
-    ![사용 권한 설정](./media/share-app/set-permissions.png)
+    > [!div class="mx-imgBorder"]
+    > ![보안 역할 할당](media/share-app/cds-assign-security-role.png)
 
     엔터티에 대한 보안을 관리하는 방법에 대한 자세한 내용은 뒷부분의 [엔터티 권한 관리](share-app.md#manage-entity-permissions)를 참조하세요.
 
@@ -95,6 +96,7 @@ ms.locfileid: "61539954"
 ## <a name="security-group-considerations"></a>보안 그룹 고려 사항
 
 - 보안 그룹과 앱을 공유한 경우 그룹의 기존 회원 및 가입하는 모든 회원이 해당 그룹에 지정된 사용 권한을 받습니다. 그룹을 떠난 사람은 액세스 권한이 있는 다른 그룹에 속하거나, 개인으로 사용 권한이 부여되지 않는 한 해당 사용 권한을 잃게 됩니다.
+
 - 보안 그룹의 모든 구성원은 앱에 대해 전체 그룹과 동일한 권한을 갖습니다. 하지만 해당 그룹의 한 명 또는 그 이상의 회원에게 더 많은 사용 권한을 지정하여 더 많은 액세스를 허용할 수 있습니다. 예를 들어, 보안 그룹 A에 앱을 실행하는 권한을 부여 하고, 그 그룹에 속하는 사용자 B에게 **공동 소유자** 권한을 제공할 수 있습니다. 보안 그룹의 모든 구성원은 앱을 실행할 수 있지만 사용자 B만 편집할 수 있습니다. **공동 소유자** 권한을 보안 그룹 A에 부여하고 사용자 B에게 앱 실행 권한을 부여해도, 해당 사용자는 여전히 앱을 편집할 수 있습니다.
 
 ## <a name="manage-entity-permissions"></a>엔터티 사용 권한 관리
@@ -104,47 +106,19 @@ ms.locfileid: "61539954"
 Common Data Service에 따라 앱을 만드는 경우 앱을 공유하는 사용자가 앱이 사용하는 엔터티에 대한 적절한 권한이 있는지 확인해야 합니다. 특히, 해당 사용자는 관련 레코드를 삭제하고 만들기, 읽기, 쓰기 등의 작업을 수행할 수 있는 보안 역할에 속해야 합니다. 많은 경우 사용자가 앱을 실행하는데 필요한 정확한 권한이 있는 하나 이상의 사용자 지정 보안 역할을 만들고자 할 것입니다. 그런 다음 적절하게 각 사용자에게 역할을 할당할 수 있습니다.
 
 > [!NOTE]
-> 이 문서의 작성 시점에서는, 보안 그룹이 아니라 개별 사용자에게 보안 역할을 할당할 수 있습니다.
+> 이 문서의 작성 시점 현재 Office 그룹 아니라 개별 사용자와 Azure Active Directory 보안 그룹에 보안 역할을 할당할 수 있습니다.
 
 #### <a name="prerequisite"></a>필수 조건
 
-다음 두 절차를 수행하려면, 반드시 Common Data Service 데이터베이스의 **시스템 관리자** 권한이 있어야 합니다.
+역할에 할당 하려면 있어야 **시스템 관리자에 게** Common Data Service 데이터베이스에 대 한 권한.
 
-#### <a name="create-a-security-role"></a>보안 역할 만들기
+#### <a name="assign-a-security-group-in-azure-ad-to-a-role"></a>역할에 Azure AD에서 보안 그룹에 할당
 
-1. 공유 패널에서, **데이터 권한** 아래의 **권한 설정**을 선택하여 **보안 역할** 링크를 선택합니다.
+1. 공유 패널에서 선택 **보안 역할 할당** 아래에서 **데이터 권한을**합니다.
 
-    ![보안 역할 열기](media/share-app/security-roles.png)
+1. 앱을 공유 하려는 Azure AD에서 사용자 또는 보안 그룹에 할당 하려는 Common Data Service에서 역할을 선택 합니다.
 
-1. **모든 역할**에서 **새로 만들기**를 선택한 다음, 만들려는 역할에 대한 이름을 입력하거나 붙여 넣습니다.
-
-    ![보안 역할 만들기](media/share-app/new-role.png)
-
-1. 앱에서 사용하는 엔터티를 찾을 수 있도록 하나 이상의 탭을 선택한 다음, 보안 역할을 부여하려는 사용 권한을 선택합니다.
-
-    예를 들어, 이 그래픽은 **거래처** 엔터티를 포함하는 **핵심 레코드** 탭에서, 사용자에게 해당 엔터티의 레코드를 만들기, 읽기, 쓰기 및 삭제할 수 있는 보안 역할이 부여된 것을 나타냅니다.
-
-    ![사용 권한 지정](media/share-app/grant-access.png)
-
-1. **저장 후 닫기**를 선택합니다.
-
-#### <a name="assign-a-user-to-a-role"></a>역할에 사용자 할당
-
-1. 공유 패널에서, **데이터 권한** 아래의 **권한 설정**을 선택하여 **사용자** 링크를 선택합니다.
-
-    ![사용자 링크](media/share-app/open-users.png)
-
-1. 오른쪽 위 모서리에서 역할에 할당하려는 사용자의 이름을 입력하거나 붙여넣고 검색 아이콘을 선택합니다.
-
-    ![사용자 검색](media/share-app/search-users.png)
-
-1. 검색 결과에서 원하는 결과를 가리켜 나타나는 확인란을 선택합니다.
-
-1. 위쪽 배너에서 **역할 관리**를 선택합니다.
-
-1. 대화 상자가 나타나면, **Common Data Service 사용자**와 사용자에게 필요한 앱에 대한 역할의 확인란을 선택하고 **확인**을 선택합니다.
-
-    ![역할에 사용자 할당](media/share-app/assign-users.png)
+    ![보안 역할 목록](media/share-app/cds-assign-security-role-list.png)
 
 ### <a name="common-data-service-previous-version"></a>Common Data Service(이전 버전)
 
