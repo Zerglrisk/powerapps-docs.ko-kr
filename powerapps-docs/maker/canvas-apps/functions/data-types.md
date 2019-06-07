@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f9acc04a9159349075647ca4e318f15939a230f7
-ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
+ms.openlocfilehash: 13001b3116c0d11224ea8b29a0bea6d1f8efcd4d
+ms.sourcegitcommit: 2084789802fc5134dbeb888e759cced46019a017
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66216640"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66736241"
 ---
 # <a name="data-types-in-canvas-apps"></a>캔버스 앱의 데이터 형식
 
@@ -29,13 +29,13 @@ ms.locfileid: "66216640"
 | 데이터 형식 | 설명 | 예 |
 |-----------|-------------|---------|
 | **Boolean** | A *true* 하거나 *false* 값입니다.  직접 사용할 수 있습니다 **하는 경우**를 **필터** 및 기타 기능을 비교 하지 않고 있습니다.  | *true* |
-| **하이퍼링크** | 하이퍼링크를 포함 하는 텍스트 문자열입니다. | **"http://powerapps.microsoft.com"** |
-| **통화** | 에서는 부동 소수점 숫자로 저장 되는 통화 값입니다. 통화 값은 통화 서식 지정 옵션을 사용 하 여 숫자 값과 동일 합니다.  | **123**<br>**4.56** |
-| **Image** | A [유니버설 리소스 식별자 (URI)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) .jpeg,.png,.svg,.gif 및 다른 일반적인 웹 이미지에서 이미지를 텍스트 문자열 형식을 지정 합니다. | **MyImage** 앱 리소스로 추가<br>**"https://northwindtraders.com/logo.jpg"**<br>**"appres://blobmanager/7b12ffa2..."** |
 | **Color** | 알파 채널을 포함 하 여 색 사양입니다. | **Color.Red**<br>**ColorValue( "#102030" )**<br>**RGBA( 255, 128, 0, 0.5 )** |
+| **통화** | 에서는 부동 소수점 숫자로 저장 되는 통화 값입니다. 통화 값은 통화 서식 지정 옵션을 사용 하 여 숫자 값과 동일 합니다.  | **123**<br>**4.56** |
 | **날짜** | 응용 프로그램 사용자의 표준 시간대에는 시간을 제외한 날짜가 있습니다. | **Date( 2019, 5, 16 )** |
 | **DateTime** | 응용 프로그램 사용자의 표준 시간대의 시간, 날짜입니다. | **DateTimeValue ("월 16 2019 년 1시 23분: 09 PM")** |
 | **GUID** | A [Globally Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier)합니다. | **GUID()**<br>**GUID( "123e4567-e89b-12d3-a456-426655440000" )** |
+| **하이퍼링크** | 하이퍼링크를 포함 하는 텍스트 문자열입니다. | **"http://powerapps.microsoft.com"** |
+| **Image** | A [유니버설 리소스 식별자 (URI)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) .jpeg,.png,.svg,.gif 또는 기타 일반적인 웹 이미지 형식에서 이미지를 텍스트 문자열입니다. | **MyImage** 앱 리소스로 추가<br>**"https://northwindtraders.com/logo.jpg"**<br>**"appres://blobmanager/7b12ffa2..."** |
 | **미디어** | 비디오 또는 오디오 녹음/녹화를 URI 텍스트 문자열입니다. | **MyVideo** 앱 리소스로 추가<br>**"https://northwindtraders.com/intro.mp4"**<br>**"appres://blobmanager/3ba411c..."** |
 | **수** | 부동 소수점 숫자입니다. | **123**<br>**-4.567**<br>**8.903e121** |
 | **옵션 집합** | 숫자에서 지 원하는 옵션의 집합에서 항목을 선택 합니다. 이 데이터 형식은 숫자 값을 지역화할 수 있는 텍스트 레이블을 결합합니다. 앱에서 레이블이 표시 되 고 숫자 값을 저장 되 고 비교에 사용 됩니다. | **ThisItem.OrderStatus** |

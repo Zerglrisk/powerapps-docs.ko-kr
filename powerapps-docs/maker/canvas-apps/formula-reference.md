@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ec035ca959f29832e2ba0bbb2250a24c11f1692e
-ms.sourcegitcommit: 562c7ed5fbb116be1cbb0f45e3f6e75e3e4cf011
+ms.openlocfilehash: f7cf23c03f68efc5e5b553a05d7f546373b636c9
+ms.sourcegitcommit: 2084789802fc5134dbeb888e759cced46019a017
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66451408"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66736210"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -187,7 +187,10 @@ ms.locfileid: "66451408"
 
 **[IsToday](functions/function-now-today-istoday.md)** – 날짜/시간 값이 오늘인지 확인합니다.
 
-**[IsType](functions/function-astype-istype.md)**  – 특정 엔터티 형식에 대 한 레코드 참조를 참조 하는지 여부를 확인 합니다.  
+**[IsType](functions/function-astype-istype.md)**  – 특정 엔터티 형식에 대 한 레코드 참조를 참조 하는지 여부를 확인 합니다.
+
+## <a name="j"></a>J
+**[JSON](functions/function-json.md)**  -테이블, 레코드 또는 값에 대 한 JSON 텍스트 문자열을 생성 합니다.
 
 ## <a name="l"></a>L
 **[Language](functions/function-language.md)** – 현재 사용자의 언어 태그를 반환합니다.
