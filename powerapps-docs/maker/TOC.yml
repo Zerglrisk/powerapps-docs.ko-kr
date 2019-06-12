@@ -82,18 +82,23 @@
             - name: 흐름 사용
               href: ../user/use-flows.md
 - name: 앱 만들기
-  href: index.md
   items:
+    - name: 개요
+      href: index.md
     - name: PowerApps에 로그인
       href: ./canvas-apps/intro-maker-portal.md
 - name: 캔버스 앱
-  href: ./canvas-apps/getting-started.md
   items:
+    - name: 캔버스 앱이란 무엇인가요?
+      href: ./canvas-apps/getting-started.md
     - name: '시스템 요구 사항, 제한 및 구성'
       href: ./canvas-apps/limits-and-config.md
+    - name: 바로 가기 키
+      href: ./canvas-apps/keyboard-shortcuts.md
     - name: 샘플 앱 살펴보기
-      href: ./canvas-apps/open-and-run-a-sample-app.md
       items:
+        - name: 샘플에서 캔버스 앱 만들기
+          href: ./canvas-apps/open-and-run-a-sample-app.md
         - name: 비용 보고서 앱
           href: ./canvas-apps/expense-report-install.md
         - name: 지원 센터 앱
@@ -129,8 +134,9 @@
     - name: 앱 디자인 및 빌드
       items:
         - name: 데이터에 연결
-          href: ./canvas-apps/connections-list.md
           items:
+            - name: 연결 목록
+              href: ./canvas-apps/connections-list.md
             - name: 가장 많이 사용되는 커넥터
               items:
                 - name: 일반 데이터 서비스
@@ -165,12 +171,18 @@
               href: ./canvas-apps/working-with-data-sources.md
             - name: 테이블 및 기록 이해
               href: ./canvas-apps/working-with-tables.md
+            - name: 레코드 참조 이해
+              href: ./canvas-apps/working-with-references.md
         - name: 인터페이스 설계
-          href: ./canvas-apps/add-configure-controls.md
           items:
-            - name: 화면 추가
-              href: ./canvas-apps/add-screen-context-variables.md
+            - name: 컨트롤 추가 및 구성
+              href: ./canvas-apps/add-configure-controls.md
+            - name: 화면 추가 및 구성
               items:
+                - name: 화면 추가
+                  href: ./canvas-apps/add-screen-context-variables.md
+                - name: 스크롤 화면 추가
+                  href: ./canvas-apps/add-scrolling-screen.md
                 - name: Office 365 화면 구성
                   items:
                     - name: 일정 화면 개요
@@ -189,16 +201,16 @@
                       href: ./canvas-apps/screen-templates/people-screen-overview.md
                     - name: 사용자 화면 참조
                       href: ./canvas-apps/screen-templates/people-screen-reference.md
-                - name: 스크롤 화면 추가
-                  href: ./canvas-apps/add-scrolling-screen.md
             - name: 항목 테이블 표시
-              href: ./canvas-apps/add-gallery.md
               items:
-                - name: 다른 높이의 아이템 표시
+                - name: 갤러리 추가
+                  href: ./canvas-apps/add-gallery.md
+                - name: 가변 높이 갤러리 추가
                   href: ./canvas-apps/gallery-dynamic-sizing.md
-            - name: 양식 추가
-              href: ./canvas-apps/add-form.md
+            - name: 양식 추가 및 구성
               items:
+                - name: 양식 추가
+                  href: ./canvas-apps/add-form.md
                 - name: 양식 이해
                   href: ./canvas-apps/working-with-forms.md
                 - name: 양식 레이아웃 이해
@@ -206,8 +218,9 @@
                 - name: 카드 이해
                   href: ./canvas-apps/working-with-cards.md
             - name: 목록 추가
-              href: ./canvas-apps/add-list-box-drop-down-list-radio-button.md
               items:
+                - name: '목록 상자, 드롭다운 목록 또는 라디오 단추 추가'
+                  href: ./canvas-apps/add-list-box-drop-down-list-radio-button.md
                 - name: 종속 드롭다운 목록 만들기
                   href: ./canvas-apps/dependent-drop-down-lists.md
             - name: 차트 추가
@@ -217,8 +230,9 @@
             - name: Power BI 데이터 추가
               href: ./canvas-apps/powerapps-custom-visual.md
             - name: 제어 참조
-              href: ./canvas-apps/reference-properties.md
               items:
+                - name: 컨트롤 및 속성 목록
+                  href: ./canvas-apps/reference-properties.md
                 - name: 사진 추가
                   href: ./canvas-apps/controls/control-add-picture.md
                 - name: 첨부 파일
@@ -302,8 +316,9 @@
                 - name: 웹 바코드 스캐너(실험적)
                   href: ./canvas-apps/controls/control-barcodescanner.md
         - name: 앱 기능 구성
-          href: ./canvas-apps/working-with-formulas.md
           items:
+            - name: 수식 시작
+              href: ./canvas-apps/working-with-formulas.md
             - name: 변수 이해
               href: ./canvas-apps/working-with-variables.md
             - name: 동작 수식 이해
@@ -319,8 +334,9 @@
             - name: 흐름 추가
               href: ./canvas-apps/using-logic-flows.md
             - name: 수식 참조
-              href: ./canvas-apps/formula-reference.md
               items:
+                - name: 개요
+                  href: ./canvas-apps/formula-reference.md
                 - name: Abs
                   href: ./canvas-apps/functions/function-numericals.md
                 - name: Acceleration
@@ -334,9 +350,11 @@
                 - name: And
                   href: ./canvas-apps/functions/function-logicals.md
                 - name: App
-                  href: ./canvas-apps/functions/signals.md
+                  href: ./canvas-apps/functions/object-app.md
                 - name: Asin
                   href: ./canvas-apps/functions/function-trig.md
+                - name: AsType
+                  href: ./canvas-apps/functions/function-astype-istype.md
                 - name: Atan
                   href: ./canvas-apps/functions/function-trig.md
                 - name: Atan2
@@ -391,6 +409,8 @@
                   href: ./canvas-apps/functions/function-table-counts.md
                 - name: CountRows
                   href: ./canvas-apps/functions/function-table-counts.md
+                - name: 데이터 유형
+                  href: ./canvas-apps/functions/data-types.md
                 - name: DataSourceInfo
                   href: ./canvas-apps/functions/function-datasourceinfo.md
                 - name: Date
@@ -463,6 +483,10 @@
                   href: ./canvas-apps/functions/function-isnumeric.md
                 - name: IsToday
                   href: ./canvas-apps/functions/function-now-today-istoday.md
+                - name: IsType
+                  href: ./canvas-apps/functions/function-astype-istype.md
+                - name: JSON
+                  href: ./canvas-apps/functions/function-json.md
                 - name: Language
                   href: ./canvas-apps/functions/function-language.md
                 - name: Last
@@ -641,11 +665,24 @@
                   href: ./canvas-apps/functions/function-datetime-parts.md
         - name: 솔루션에서 앱 만들기
           href: ./canvas-apps/add-app-solution.md
+        - name: 관계형 데이터를 사용하여 앱 만들기
+          items:
+            - name: 데이터 설치
+              href: ./canvas-apps/northwind-install.md
+            - name: 캔버스 앱 개요
+              href: ./canvas-apps/northwind-orders-canvas-overview.md
+            - name: 1 - 순서 갤러리 만들기
+              href: ./canvas-apps/northwind-orders-canvas-part1.md
+            - name: 2 - 요약 폼 만들기
+              href: ./canvas-apps/northwind-orders-canvas-part2.md
+            - name: 3 - 세부 갤러리 만들기
+              href: ./canvas-apps/northwind-orders-canvas-part3.md
         - name: 전역 앱 빌드
           href: ./canvas-apps/global-apps.md
         - name: 앱 액세스 허용
-          href: ./canvas-apps/accessible-apps.md
           items:
+            - name: 액세스 가능한 앱 만들기
+              href: ./canvas-apps/accessible-apps.md
             - name: 접근성 문제 찾기
               href: ./canvas-apps/accessibility-checker.md
             - name: 색을 사용하여 접근성 높이기
@@ -655,18 +692,21 @@
             - name: 라이브 영역을 사용하여 동적 변경 내용 알림
               href: ./canvas-apps/accessible-apps-live-regions.md
         - name: 실험적 기능 및 미리 보기 기능
-          href: ./canvas-apps/working-with-experimental.md
+          href: ./canvas-apps/working-with-experimental-preview.md
     - name: 저장 및 앱 게시
       href: ./canvas-apps/save-publish-app.md
-    - name: 앱 공유
-      href: ./canvas-apps/share-app.md
+    - name: 앱 및 해당 종속성 공유
       items:
+        - name: 앱 공유
+          href: ./canvas-apps/share-app.md
         - name: Excel 데이터 공유
           href: ./canvas-apps/share-app-data.md
         - name: 앱 리소스 공유
           href: ./canvas-apps/share-app-resources.md
         - name: Power BI에 앱 포함
           href: ./canvas-apps/embed-powerapps-powerbi.md
+        - name: 팀 앱 포함
+          href: ./canvas-apps/embed-teams-app.md
     - name: 앱 관리
       items:
         - name: 앱 편집
@@ -677,21 +717,23 @@
           href: ./canvas-apps/restore-an-app.md
         - name: 앱 이름 및 타일 변경
           href: ./canvas-apps/set-name-tile.md
-        - name: 화면 크기 및 방향 변경
-          href: ./canvas-apps/set-aspect-ratio-portrait-landscape.md
+        - name: 화면 관리
           items:
+            - name: 화면 크기 및 방향 변경
+              href: ./canvas-apps/set-aspect-ratio-portrait-landscape.md
             - name: 반응형 레이아웃 만들기
               href: ./canvas-apps/create-responsive-layout.md
     - name: SharePoint 목록 양식 사용자 지정
-      href: ./canvas-apps/customize-list-form.md
       items:
+        - name: 기본 변경
+          href: ./canvas-apps/customize-list-form.md
         - name: SharePoint 양식 통합 이해
           href: ./canvas-apps/sharepoint-form-integration.md
     - name: 다른 기술로 통합
       items:
         - name: SharePoint Online
           items:
-            - name: SharePoint Online 통합 개요
+            - name: 개요
               href: ./canvas-apps/sharepoint-scenario-intro.md
             - name: SharePoint Online 목록 설정
               href: ./canvas-apps/sharepoint-scenario-setup.md
@@ -716,8 +758,9 @@
         - name: InfoPath 양식을 PowerApps로 변환
           href: ./canvas-apps/transform-infopath.md
     - name: 개발자의 경우
-      href: ./canvas-apps/dev-enterprise-intro.md
       items:
+        - name: '엔터프라이즈 개발자, 파트너 및 ISV용 캔버스 앱'
+          href: ./canvas-apps/dev-enterprise-intro.md
         - name: 사용자 지정 커넥터 빌드 및 인증
           href: ./canvas-apps/register-custom-api.md
         - name: 웹사이트 및 다른 기술로 통합
@@ -727,7 +770,13 @@
         - name: 고객이 앱을 테스트해볼 수 있도록 하기
           href: ./canvas-apps/dev-appsource-test-drive.md
         - name: 구성 요소 만들기
-          href: ./canvas-apps/create-component.md
+          items:
+            - name: 개요
+              href: ./canvas-apps/create-component.md
+            - name: 동작 수식
+              href: ./canvas-apps/component-behavior.md
+        - name: 애플리케이션에 캔버스 앱 포함
+          href: ./canvas-apps/embedding-sdk.md
 - name: 모델 기반 앱
   href: ./model-driven-apps/model-driven-app-overview.md
   items:
@@ -767,8 +816,16 @@
                   items:
                     - name: 양식 만들기 또는 편집
                       href: ./model-driven-apps/create-and-edit-forms.md
+                    - name: '필드 추가, 이동 또는 삭제'
+                      href: ./model-driven-apps/add-move-or-delete-fields-on-form.md
+                    - name: '섹션 추가, 이동 또는 삭제'
+                      href: ./model-driven-apps/add-move-or-delete-sections-on-form.md
+                    - name: '탭 추가, 이동 또는 삭제'
+                      href: ./model-driven-apps/add-move-or-delete-tabs-on-form.md
                     - name: 양식 디자이너의 속성
                       href: ./model-driven-apps/form-designer-properties.md
+                    - name: 트리 뷰 사용
+                      href: ./model-driven-apps/using-tree-view-on-form.md
                 - name: 양식 유형
                   href: ./model-driven-apps/types-forms.md
                   items:
@@ -891,6 +948,8 @@
                   href: ./model-driven-apps/timer-control-legacy.md
             - name: 데이터 시각화에 사용자 지정 컨트롤 사용
               href: ./model-driven-apps/use-custom-controls-data-visualizations.md
+        - name: Excel 및 Word 템플릿 사용
+          href: ./model-driven-apps/templates-overview.md
         - name: 테마를 사용하여 조직 브랜딩 적용
           href: ./model-driven-apps/create-themes-organization-branding.md
     - name: 앱 유효성 검사 및 게시
@@ -918,6 +977,8 @@
           href: ./model-driven-apps/change-custom-entity-icons.md
         - name: 솔루션을 사용하여 앱 배포
           href: ./model-driven-apps/distribute-model-driven-app.md
+        - name: 단계별 도움말 만들기
+          href: ./model-driven-apps/create-guided-help-learning-path.md
     - name: PowerApps 앱 디자이너의 접근성
       href: ./model-driven-apps/Accessibility-app-designer-site-map-designer-my-apps-page.md
     - name: 개발자의 경우
@@ -1070,6 +1131,8 @@
           href: ./common-data-service/create-solution.md
         - name: 솔루션 레이어 보기
           href: ./common-data-service/solution-layers.md
+        - name: 솔루션 기록 보기
+          href: ./common-data-service/solution-history.md
         - name: 솔루션 검사기 사용
           href: ./common-data-service/use-powerapps-checker.md
         - name: 분할된 솔루션 사용
@@ -1095,10 +1158,13 @@
       href: ./common-data-service/import-translated-entity-field-text.md
     - name: 개발자의 경우
       href: ../developer/common-data-service/overview.md
+- name: AI 작성기
+  items:
+    - name: PowerApps에서 AI 작성기 사용
+      href: ../use-ai-builder.md
 - name: 다른 사용자에게 배우기
   items:
-    - name: |
-        웹 세미나
+    - name: 웹 세미나
       href: ./canvas-apps/webinars-listing.md
     - name: 블로그
       href: 'https://powerapps.microsoft.com/blog/'
