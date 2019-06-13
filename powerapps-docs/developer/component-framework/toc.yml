@@ -4,13 +4,27 @@
       href: overview.md
     - name: 사용자 지정 구성 요소란?
       href: custom-controls-overview.md
-    - name: 'Microsoft PowerApps CLI를 사용하여 사용자 지정 구성 요소 만들기, 디버그 및 배포'
-      href: create-custom-controls-using-pcf.md
-    - name: TypeScript에서 사용자 지정 구성 요소 구현
-      href: implementing-controls-using-typescript.md
-    - name: 기존 PowerApps 구성 요소 프레임워크 구성 요소를 새 도구 형식으로 업데이트
-      href: updating-existing-controls.md
-    - name: PowerApps 구성 요소 프레임워크의 제한 사항
+    - name: 도구 가져오기
+      href: get-powerapps-cli.md
+    - name: 자습서
+      items:
+        - name: 샘플 구성 요소 구현
+          href: implementing-controls-using-typescript.md
+    - name: 방법
+      items:
+        - name: 사용자 지정 구성 요소 생성 및 빌드
+          href: create-custom-controls-using-pcf.md
+        - name: 사용자 지정 구성 요소 디버깅
+          href: debugging-custom-controls.md
+        - name: 사용자 지정 구성 요소 패키지
+          href: import-custom-controls.md
+        - name: 엔터티 또는 필드에 구성 요소 추가
+          href: add-custom-controls-to-a-field-or-entity.md
+        - name: 기존 사용자 지정 구성 요소 업데이트
+          href: updating-existing-controls.md
+        - name: AppSource에 사용자 지정 구성 요소 게시
+          href: publish-components-app-source.md
+    - name: 제한 사항
       href: limitations.md
     - name: FAQ
       href: faq.md
