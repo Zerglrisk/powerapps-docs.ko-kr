@@ -70,16 +70,16 @@
   items:
     - name: LINQ로 쿼리 빌드(.NET 언어 통합 쿼리)
       href: build-queries-with-linq-net-language-integrated-query.md
-    - name: LINQ 쿼리 예제
-      href: linq-query-examples.md
+    - name: LINQ를 사용하여 쿼리 구성
+      href: use-linq-construct-query.md
+    - name: LINQ 쿼리와 함께 런타임에 바인딩된 엔터티 클래스 사용
+      href: use-late-bound-entity-class-linq-query.md
     - name: LINQ가 있는 엔터티 특성을 사용하여 결과 순서 지정
       href: order-results-entity-attributes-linq.md
     - name: LINQ로 큰 결과 집합 페이지 지정
       href: page-large-result-sets-linq.md
-    - name: LINQ 쿼리와 함께 런타임에 바인딩된 엔터티 클래스 사용
-      href: use-late-bound-entity-class-linq-query.md
-    - name: LINQ를 사용하여 쿼리 구성
-      href: use-linq-construct-query.md
+    - name: LINQ 쿼리 예제
+      href: linq-query-examples.md
 - name: 중복 데이터 검색
   href: detect-duplicate-data.md
 - name: 초기 바인딩된 프로그래밍에 대한 클래스 생성
