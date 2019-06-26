@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 08/31/2018
+ms.date: 06/17/2019
 ms.author: yingchin
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6406afad9079895a0da38c7f1f6e3961f2e37fa1
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: c0926c2c38adac6b3377de9a87eef4dd7d7a7cf7
+ms.sourcegitcommit: 9c4d95eeace85a3e91a00ef14fefe7cce0af69ec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61536411"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67349820"
 ---
 # <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
 Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상을 위해 최선을 다합니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.
@@ -79,10 +79,11 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 연락처 정보는 자주 변경되지 않으면 기본값과 사용자 정보도 변경되지 않습니다. 따라서 일반적으로 이 기술을 **기본값** 및 **사용자** 함수와 함께 사용할 수도 있습니다. 
 
 ## <a name="avoid-controls-dependency-between-screens"></a>화면 간 컨트롤 종속성 방지
-컨트롤 값이 다른 화면의 컨트롤 값에 따라 달라지는 경우 변수, 컬렉션 또는 데이터 원본 참조를 사용하여 데이터를 관리합니다.
+성능 향상을 위해 앱의 화면은 필요할 때만 메모리에 로드 됩니다. 예를 들어 화면 1 로드 되 고 해당 수식 중 하나로 2 화면에서 컨트롤의 속성을 사용 하는 경우이 최적화를 방해 수 있습니다. 이제 화면 2 1 화면을 표시 하려면 먼저 종속성을 충족 하려면 로드 되어야 합니다. 화면 2에는에 대 한 종속성 화면 3, 4, 화면 및 등의 다른 종속성이 있는 한다고 가정 합니다. 이 종속성 체인 로드 되도록 여러 화면이 발생할 수 있습니다.
 
-## <a name="use-global-variables"></a>글로벌 변수 사용
-한 화면에서 다른 화면으로 앱 상태를 전달하려면 **탐색** 및 **UpdateContext)** 함수를 사용하는 대신 [**Set**](functions/function-set.md) 함수를 사용하여 글로벌 변수 값을 만들거나 수정합니다.
+이러한 이유로 화면 간의 수식 종속성 하지 마세요. 경우에 따라 화면 간에 정보를 공유 전역 변수 또는 컬렉션을 사용할 수 있습니다.
+
+예외가 있습니다. 이전 예제에서 2 화면에서 이동 하 여 1 화면을 표시 하는 유일한 방법은 한다고 가정 합니다. 다음 화면 2는 이미 로드 된 메모리에 화면 1 로드할 때. 추가 작업 없이 화면 2에 대 한 종속성을 충족 해야 하는 하 고 따라서 성능 영향을 주지 않습니다.
 
 ## <a name="use-delegation"></a>위임 사용
 가능한 경우 처리를 위해 데이터를 로컬 디바이스로 검색하는 대신 데이터 처리를 데이터 원본에 위임하는 함수를 사용합니다. 앱이 로컬로 데이터를 처리해야 하는 경우 작업에 훨씬 더 많은 처리 능력, 메모리 및 네트워크 대역폭이 필요합니다(특히 데이터 집합이 큰 경우).
