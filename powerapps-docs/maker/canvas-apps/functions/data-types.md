@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 13001b3116c0d11224ea8b29a0bea6d1f8efcd4d
-ms.sourcegitcommit: 2084789802fc5134dbeb888e759cced46019a017
+ms.openlocfilehash: 85567e120754d4f82e13bd7d7dac9fa0f7c80cbd
+ms.sourcegitcommit: 982cab99d84663656a8f73d48c6fae03e7517321
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66736241"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "67456759"
 ---
 # <a name="data-types-in-canvas-apps"></a>캔버스 앱의 데이터 형식
 
@@ -171,7 +171,7 @@ SQL Server에 [ **Datetime**를 **Datetime2**, 및 기타 날짜/시간 데이�
 
 캔버스 앱에 포함 된 표준 시간대 정보를 사용 하 여 **Datetimeoffset** 필드 값을 앱의 내부 UTC 표현으로 변환 하는 경우. 앱은 항상 UTC 표준 시간대 (표준 시간대 오프셋 0)으로 사용 하면 데이터를 기록 합니다.
 
-캔버스 앱 읽기 및 쓰기의 값을 [ **시간** ](https://docs.microsoft.com/en-us/sql/t-sql/data-types/time-transact-sql) 문자열에는 SQL Server의 데이터 형식 합니다 [ISO 8601 기간 형식](https://en.wikipedia.org/wiki/ISO_8601#Durations)합니다. 이 문자열 형식을 구문 분석 하 고 사용 해야 예를 들어 합니다 [ **시간** ](function-date-time.md) 텍스트 문자열을 변환 하는 함수 **"PT2H1M39S"** 하는 **시간** 값:
+캔버스 앱 읽기 및 쓰기의 값을 [ **시간** ](https://docs.microsoft.com/sql/t-sql/data-types/time-transact-sql) 문자열에는 SQL Server의 데이터 형식 합니다 [ISO 8601 기간 형식](https://en.wikipedia.org/wiki/ISO_8601#Durations)합니다. 이 문자열 형식을 구문 분석 하 고 사용 해야 예를 들어 합니다 [ **시간** ](function-date-time.md) 텍스트 문자열을 변환 하는 함수 **"PT2H1M39S"** 하는 **시간** 값:
 
 ```powerapps-dot
 First(
