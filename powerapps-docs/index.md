@@ -9,12 +9,12 @@ featureFlags:
 ms.service: powerapps
 ms.custom:
 - powerapps-hub
-ms.openlocfilehash: 9ef852744a302ee502fdb9eadfaac7289537a4ab
-ms.sourcegitcommit: 444bd58ec52339516c45e49ea0f42447417faf4e
+ms.openlocfilehash: e22a8e4dd147e1e5dba102de12c5bc28dcde5efc
+ms.sourcegitcommit: dc4100c826085130fb1c5e841b8477be0d5c8ec7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "63769790"
+ms.lasthandoff: 06/26/2019
+ms.locfileid: "67395417"
 ---
 <div id="main"
    class="v2">
@@ -296,6 +296,7 @@ ms.locfileid: "63769790"
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/fields-overview">필드</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/cds-processes">비즈니스 논리 적용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/solutions-overview">솔루션</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/wp-security">Common Data Service의 보안</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="https://www.microsoft.com/en-us/download/details.aspx?id=57777">백서: 솔루션을 사용하는 ALM</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-powerbi-connector">Common Data Service 데이터에서 Power BI 보고서 작성</a></p>
                                  </div>
@@ -468,7 +469,7 @@ ms.locfileid: "63769790"
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/customize-visualizations-dashboards">시각화 및 대시보드 사용자 지정</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/client-scripting">클라이언트 스크립팅을 사용하여 비즈니스 논리 적용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/customize-commands-ribbon">명령 및 리본 사용자 지정</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/component-framework/overview">사용자 지정 컨트롤 빌드</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/component-framework/overview">사용자 지정 구성 요소 빌드(PowerApps 구성 요소 프레임워크)</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/create-manage-model-driven-apps-using-code">앱 만들기, 관리 및 게시</a></p>
                                  </div>
                               </div>
@@ -581,6 +582,7 @@ ms.locfileid: "63769790"
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/introduction-solutions">솔루션 사용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/compress-extract-solution-file-solutionpackager">SolutionPackager 도구</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/package-deployer/create-packages-package-deployer">패키지 배포자 도구</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/checker/webapi/overview">PowerApps 검사기 사용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/publish-app-appsource">AppSource에 앱 게시</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="https://www.microsoft.com/en-us/download/details.aspx?id=57777">백서: 솔루션을 사용하는 ALM</a></p>
                                  </div>

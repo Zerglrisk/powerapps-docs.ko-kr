@@ -81,6 +81,8 @@
               href: ../user/work-with-business-processes.md
             - name: 흐름 사용
               href: ../user/use-flows.md
+    - name: Dynamics 365 App for Outlook 사용
+      href: ../user/use-outlook-app.md
 - name: 앱 만들기
   items:
     - name: 개요
@@ -981,6 +983,8 @@
           href: ./model-driven-apps/create-guided-help-learning-path.md
     - name: PowerApps 앱 디자이너의 접근성
       href: ./model-driven-apps/Accessibility-app-designer-site-map-designer-my-apps-page.md
+    - name: Dynamics 365 App for Outlook 사용자 지정
+      href: ./model-driven-apps/app-for-outlook-customize.md
     - name: 개발자의 경우
       href: ../developer/model-driven-apps/overview.md
 - name: 일반 데이터 서비스
@@ -1156,6 +1160,8 @@
       href: ./common-data-service/export-customized-entity-field-text-translation.md
     - name: 번역된 엔터티 및 필드 텍스트를 앱으로 가져오기
       href: ./common-data-service/import-translated-entity-field-text.md
+    - name: Common Data Service의 보안
+      href: /power-platform/admin/wp-security
     - name: 개발자의 경우
       href: ../developer/common-data-service/overview.md
 - name: AI 작성기

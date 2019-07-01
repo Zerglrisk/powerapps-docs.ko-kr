@@ -26,8 +26,8 @@
       href: use-editable-grids.md
     - name: 조직 테마 쿼리 및 편집
       href: query-and-edit-an-organization-theme.md
-    - name: PowerApps 구성 요소 프레임워크를 사용하여 사용자 지정 컨트롤 빌드
-      href: /powerapps/developer/control-framework/overview
+    - name: PowerApps 구성 요소 프레임워크를 사용하여 사용자 지정 구성 요소 빌드
+      href: /powerapps/developer/component-framework/overview
 - name: 코드를 사용하여 데이터 시각화 적용
   href: customize-visualizations-dashboards.md
   items:
@@ -757,9 +757,9 @@
             - name: isAvailableOffline
               href: clientapi/reference/xrm-webapi/isAvailableOffline.md
             - name: 실행
-              href: clientapi/reference/xrm-webapi/execute.md
+              href: clientapi/reference/xrm-webapi/online/execute.md
             - name: executeMultiple
-              href: clientapi/reference/xrm-webapi/executeMultiple.md
+              href: clientapi/reference/xrm-webapi/online/executeMultiple.md
     - name: 모범 사례
       href: best-practices/business-logic/index.md
 - name: 명령 및 리본 사용자 지정

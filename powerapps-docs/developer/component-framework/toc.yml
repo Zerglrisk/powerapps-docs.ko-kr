@@ -52,6 +52,8 @@
           href: sample-controls/map-control.md
         - name: 탐색 API 구성 요소
           href: sample-controls/navigation-api-control.md
+        - name: React Facepile 구성 요소
+          href: sample-controls/react-facepile-control.md
         - name: 테이블 구성 요소
           href: sample-controls/table-control.md
         - name: 테이블 그리드 구성 요소
