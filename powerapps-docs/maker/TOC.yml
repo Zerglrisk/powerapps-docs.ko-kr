@@ -75,6 +75,18 @@
               href: ../user/export-excel-static-worksheet.md
             - name: Excel 피벗 테이블로 내보내기
               href: ../user/export-excel-pivottable.md
+        - name: 보고서
+          items:
+            - name: 보고서 사용
+              href: ../user/work-with-reports.md
+            - name: 보고서 마법사를 사용하여 보고서 만들기
+              href: ../user/create-report-with-wizard.md
+            - name: 기존 보고서 추가
+              href: ../user/add-existing-report.md
+            - name: 보고서의 기본 필터 편집
+              href: ../user/edit-report-filter.md
+            - name: 보고서 문제 해결
+              href: ../user/troubleshoot-reports.md
         - name: 프로세스 자동화
           items:
             - name: 비즈니스 프로세스를 사용하여 작업
@@ -883,19 +895,25 @@
                       href: ./model-driven-apps/configure-event-handlers-legacy.md
                     - name: 양식에서 자동 저장을 사용하지 않도록 설정하는 방법
                       href: ./model-driven-apps/manage-auto-save.md
-            - name: 양식에서 캔버스 앱 포함
+            - name: 모델 기반 양식에 캔버스 앱 포함
               href: ./model-driven-apps/embed-canvas-app-in-form.md
               items:
-                - name: 포함된 캔버스 앱에 현재 레코드 전달
-                  href: ./model-driven-apps/pass-current-embedded-canvas-app.md
-                - name: 포함된 캔버스 앱에 관련된 레코드 전달
-                  href: ./model-driven-apps/pass-related-embedded-canvas-app.md
+                - name: 포함된 캔버스 앱 추가
+                  href: ./model-driven-apps/embedded-canvas-app-add-classic-designer.md
+                - name: 포함된 캔버스 앱 편집
+                  href: ./model-driven-apps/embedded-canvas-app-edit-classic-designer.md
+                - name: 화면 크기 및 방향 사용자 지정
+                  href: ./model-driven-apps/embedded-canvas-app-customize-screen.md
                 - name: 호스트 양식에서 미리 정의된 작업 수행
                   href: ./model-driven-apps/embedded-canvas-app-actions.md
+                - name: ModelDrivenFormIntegration 컨트롤
+                  href: ./model-driven-apps/embedded-canvas-app-properties-actions.md
                 - name: 포함된 캔버스 앱 공유
                   href: ./model-driven-apps/share-embedded-canvas-app.md
                 - name: 포함된 캔버스 앱 지침
                   href: ./model-driven-apps/embedded-canvas-app-guidelines.md
+                - name: 공개 미리 보기에서 포함된 캔버스 마이그레이션
+                  href: ./model-driven-apps/embedded-canvas-app-migrate-from-preview.md
             - name: 양식에 Power BI 보고서 포함
               href: ./model-driven-apps/embed-powerbi-report-in-system-form.md
             - name: 보기 작업
@@ -954,6 +972,8 @@
           href: ./model-driven-apps/templates-overview.md
         - name: 테마를 사용하여 조직 브랜딩 적용
           href: ./model-driven-apps/create-themes-organization-branding.md
+        - name: 앱에 보고 추가
+          href: ./model-driven-apps/add-reporting-to-app.md
     - name: 앱 유효성 검사 및 게시
       href: ./model-driven-apps/validate-app.md
     - name: 앱 공유
