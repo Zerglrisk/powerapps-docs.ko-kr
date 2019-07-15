@@ -9,12 +9,12 @@ featureFlags:
 ms.service: powerapps
 ms.custom:
 - powerapps-hub
-ms.openlocfilehash: e22a8e4dd147e1e5dba102de12c5bc28dcde5efc
-ms.sourcegitcommit: dc4100c826085130fb1c5e841b8477be0d5c8ec7
+ms.openlocfilehash: a010515fcb928eb3b971ee6bb5eea918ced1901e
+ms.sourcegitcommit: 2fd158b88f0d88bae5d1c3aca1990bcc7a5b3204
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/26/2019
-ms.locfileid: "67395417"
+ms.lasthandoff: 07/13/2019
+ms.locfileid: "67866437"
 ---
 <div id="main"
    class="v2">
@@ -583,6 +583,8 @@ ms.locfileid: "67395417"
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/compress-extract-solution-file-solutionpackager">SolutionPackager 도구</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/package-deployer/create-packages-package-deployer">패키지 배포자 도구</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/checker/webapi/overview">PowerApps 검사기 사용</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/build-tools-overview">Azure DevOps 용 PowerApps 빌드 도구</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/isv-app-management">ISV 앱 관리 및 모니터링</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/publish-app-appsource">AppSource에 앱 게시</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="https://www.microsoft.com/en-us/download/details.aspx?id=57777">백서: 솔루션을 사용하는 ALM</a></p>
                                  </div>

@@ -321,6 +321,14 @@
               href: create-patches-simplify-solution-updates.md
             - name: 사용자 지정 파일을 편집하는 시기
               href: when-edit-customization-file.md
+    - name: Azure DevOps용 도구 빌드
+      items:
+        - name: 개요
+          href: build-tools-overview.md
+        - name: 작업
+          href: build-tools-tasks.md
+        - name: 자습서 및 FAQ
+          href: build-tools-tutorial-faq.md
     - name: SolutionPackager 도구
       href: compress-extract-solution-file-solutionpackager.md
       items:
@@ -361,6 +369,16 @@
           href: appendix-app-design-best-practices-checklist.md
         - name: '부록: 앱 인증 검사 목록'
           href: appendix-app-certification-checklist.md
+    - name: ISV 앱 관리 및 모니터링
+      items:
+        - name: ISV Studio 소개
+          href: isv-app-management.md
+        - name: 홈페이지
+          href: isv-app-management-homepage.md
+        - name: 앱 페이지
+          href: isv-app-management-apppage.md
+        - name: 테넌트 페이지
+          href: isv-app-management-tenantpage.md
 - name: 클라이언트 애플리케이션 만들기
   href: connect-cds.md
   items:
