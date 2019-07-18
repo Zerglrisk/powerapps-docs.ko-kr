@@ -26,6 +26,8 @@
           href: use-fetchxml-fiscal-date-older-datetime-query-operators.md
         - name: FetchXML에서 왼쪽 우선 외부 조인을 사용하여 "not in" 레코드 쿼리
           href: use-fetchxml-left-outer-join-query-records-not-in.md
+        - name: FetchXML로 큰 결과 집합 페이지 지정
+          href: org-service/page-large-result-sets-with-fetchxml.md
     - name: 저장된 쿼리
       href: saved-queries.md
     - name: 계층 구조 데이터 쿼리

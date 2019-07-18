@@ -46,8 +46,6 @@
               href: use-left-outer-join-queryexpression-query-records-not-in.md
             - name: QueryByAttribute 클래스 사용
               href: use-querybyattribute-class.md
-            - name: FetchXML로 큰 결과 집합 페이지 지정
-              href: page-large-result-sets-with-fetchxml.md
     - name: 엔터티 만들기
       href: entity-operations-create.md
     - name: 엔터티 검색
