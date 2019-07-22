@@ -9,12 +9,12 @@ featureFlags:
 ms.service: powerapps
 ms.custom:
 - powerapps-hub
-ms.openlocfilehash: b4832962165c9d275cbee9aa76ad1dc21e3d1d67
-ms.sourcegitcommit: ec05425ad7baf4102da95a071c11b5bb4381ed53
+ms.openlocfilehash: 62e6db1361664f8ccce38080e07908237aac5f50
+ms.sourcegitcommit: 9cce0d57113705254c109e6c38fc57a8bd4ef6cf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68229667"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68313316"
 ---
 <div id="main"
    class="v2">
@@ -215,7 +215,7 @@ ms.locfileid: "68229667"
                      class="cardsF">
                      <li>
                         <div class="container">
-                           <p>앱 제작자는 코드를 작성하지 않고도 사용자 지정 비즈니스 앱을 신속하게 만들어 조직의 중요 업무용 데이터를 관리할 수 있습니다. PowerApps에서 다음 두 가지 유형의 앱을 만들 수 있습니다. <strong>캔버스 앱</strong> 및 <strong>모델 기반 앱</strong>. <strong>Common Data Service</strong>는 비즈니스 앱에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있는 데이터 플랫폼입니다. 자세한 정보: <a href="/powerapps/maker">앱 만들기</a>.</p>
+                           <p>앱 제작자는 코드를 작성하지 않고도 사용자 지정 비즈니스 앱을 신속하게 만들어 조직의 중요 업무용 데이터를 관리할 수 있습니다. PowerApps에서는 세 가지 유형의 앱, <strong>캔버스 앱</strong>, <strong>모델 기반 앱</strong> 및 <strong>포털</strong>을 만들 수 있습니다. <strong>Common Data Service</strong>는 비즈니스 앱에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있는 데이터 플랫폼입니다. 자세한 정보: <a href="/powerapps/maker">앱 만들기</a>.</p>
                            <hr/>
                            <br/>
                         </div>
@@ -273,6 +273,28 @@ ms.locfileid: "68229667"
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/model-driven-apps/create-themes-organization-branding">브랜딩에 대한 테마 사용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/model-driven-apps/share-model-driven-app">앱 공유</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/model-driven-apps/distribute-model-driven-app">앱 배포</a></p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="cardSize">
+                           <div class="cardPadding">
+                              <div class="card">
+                                 <div class="cardImageOuter">
+                                    <div class="cardImage">
+                                       <img alt="Customize icon" src="media/index/i_portals.svg">
+                                    </div>
+                                 </div>
+                                 <div class="cardText">
+                                    <h3 style="font-size: 1.15rem">포털</h3>
+                                    <hr/>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/overview">PowerApps 포털이란?</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/create-portal">포털 만들기</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/manage-existing-portals">기존 포털 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/admin/admin-overview">포털 관리</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/faq">PowerApps 포털 FAQ</a></p>
                                  </div>
                               </div>
                            </div>

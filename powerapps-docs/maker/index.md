@@ -6,22 +6,23 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.date: 03/18/2018
+ms.date: 07/18/2018
 ms.author: anneta
 ms.reviewer: ''
-ms.openlocfilehash: 6a8432e93f854b1c0794512da42ef25c9aa02adc
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: cfc849574153ea4ab983112528a91974d80dea7f
+ms.sourcegitcommit: 1c0b01ab9c76ac353854f7b61d5a9ef13e8b093f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61528599"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68308742"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>PowerApps에서 앱 만들기 개요
 
-PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가지 주요 구성 요소가 있습니다.
+PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 다음과 같은 네 가지 주요 구성 요소가 있습니다.
 
 - [캔버스 앱](canvas-apps/getting-started.md)은 사용자 환경으로 시작되고, 빈 캔버스를 활용하여 매우 맞춤화된 인터페이스를 만들고, 200개의 데이터 원본 중 선택한 항목에 연결합니다. 웹, 모바일 및 태블릿 애플리케이션에 대한 캔버스 앱을 빌드할 수 있습니다.
 - [모델 기반 앱](model-driven-apps/model-driven-app-overview.md)은 데이터 모델로 시작되고, Common Data Service의 핵심 비즈니스 데이터와 프로세스의 모양을 기반으로 하여 양식, 뷰 및 기타 구성 요소를 모델링합니다. 모델 기반 앱은 여러 디바이스에서 뛰어난 반응 속도를 제공하는 우수한 UI를 자동으로 생성합니다.
+- [포털](portals/overview.md)은 조직 외부 사용자가 다양한 ID를 사용하여 로그인하거나, Common Data Service에서 데이터를 생성 및 보거나, 콘텐츠를 익명으로 찾아볼 수 있도록 하는 외부 연결 웹 사이트를 만들기 시작합니다.
 - [Common Data Service](common-data-service/data-platform-intro.md)는 PowerApps와 함께 제공되며 비즈니스 데이터를 저장하고 모델링할 수 있는 데이터 플랫폼입니다. 이는 Dynamics 365 애플리케이션이 기반을 둔 플랫폼입니다. Dynamics 고객인 경우 데이터는 이미 Common Data Service에 있습니다.
 
 첫 번째 앱을 쉽고 단순하게 만들 수 있습니다. 30일 평가판 계획 및 무료 커뮤니티 계획이 있습니다. 가장 적합한 것을 찾아서 시작하세요.
@@ -35,7 +36,7 @@ PowerApps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 세 가
 - [SharePoint 목록 사용](canvas-apps/app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online)
 - [Power BI 대시보드 사용](canvas-apps/embed-powerapps-powerbi.md)
 
-캔버스 앱을 만드는 것은 간단합니다. PowerApps를 사용하면 여러 가지 방법으로 앱을 찾고 만들 수 있습니다. 
+캔버스 앱을 만드는 것은 간단합니다. PowerApps를 사용하면 여러 가지 방법으로 앱을 찾고 만들 수 있습니다.
 
 - [데이터 사용](canvas-apps/app-from-sharepoint.md)
 - [샘플 사용](canvas-apps/open-and-run-a-sample-app.md)
