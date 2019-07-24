@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 52f97ce8360981b060500ce62da44a58002f4afa
-ms.sourcegitcommit: dd74c98f48587730466e6669fc94da250d5c631e
+ms.openlocfilehash: 4e0609ce53f88f5945409e688cfc65df39bd6b96
+ms.sourcegitcommit: 8f27a61ce2ec32b8d911845dd00708e3c87b86bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2019
-ms.locfileid: "66224810"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68428736"
 ---
 # <a name="transform-your-infopath-form-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 
@@ -50,7 +50,7 @@ PowerApps는 두 가지 방법으로 SharePoint 환경을 더 낫게 만들 수 
 
 사용자가 목록의 항목을 추가, 보기 또는 편집하는 방식을 사용자 정의하려는 경우 **SharePoint 양식 사용자 지정**이 매우 유용합니다. **양식 사용자 지정**을 클릭하면 컨텍스트에 따라 모드(새로 만들기/편집/보기)가 변경되는 단일 화면 &quot;양식 앱&quot;을 만듭니다. 이러한 앱은 SharePoint에서 관리하며, 해당 사용 권한은 편집/보기를 위한 목록 사용 권한과 동일합니다.
 
-**SharePoint에서 PowerApps 캔버스 앱 만들기**를 사용하면 모바일 디바이스에서 앱을 실행할 수 있습니다. 또한 SharePoint 페이지에 앱을 포함할 수 있습니다. 이 옵션을 클릭하면 3개 화면 앱(목록 찾아보기, 세부 정보 보기 및 항목 만들기/업데이트)이 생성됩니다. 이러한 앱에 대한 사용 권한/공유 모델은 SharePoint에 연결되지 않고 대신 PowerApps에서 관리됩니다.
+**SharePoint에서 PowerApps 캔버스 앱 만들기**를 사용하면 모바일 디바이스에서 앱을 실행할 수 있습니다. SharePoint 페이지에 앱을 포함할 수도 있습니다. 이 옵션을 클릭하면 3개 화면 앱(목록 찾아보기, 세부 정보 보기 및 항목 만들기/업데이트)이 생성됩니다. 이러한 앱에 대한 사용 권한/공유 모델은 SharePoint에 연결되지 않고 대신 PowerApps에서 관리됩니다.
 
 두 옵션 간의 차이를 이해했으므로 다음 섹션에서는 각 옵션의 사용에 대한 개요를 제공합니다.
 
@@ -87,7 +87,7 @@ PowerApps가 사용자 지정 가능한 앱을 빌드합니다.
 
 ![잠금 데이터 카드 표시 숨기기](./media/transform-infopath/hide-show-lock.png)
 
-편집할 수 있도록 오른쪽 창에서 **DefaultMode** 속성으로 스크롤합니다.
+오른쪽 창에서 편집할 수 있도록 **DisplayMode** 속성으로 스크롤합니다.
 
 ![If Else Statement 식](./media/transform-infopath/if-else-statement.png)
 
