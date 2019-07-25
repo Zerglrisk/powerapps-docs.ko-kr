@@ -13,31 +13,31 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 88e0a74d2c25d1d2f5f571f4d1850417d1aab9ca
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 54ab2ba2186f68fcb68b9aa59729933af5d04652
+ms.sourcegitcommit: 39b32abb19ad9fae98ca986ded6974bcbbb3cea7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63318426"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68473898"
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>PowerApps의 도형 컨트롤 및 아이콘 컨트롤
 모양 및 동작 속성을 구성할 수 있는 그래픽입니다.
 
 ## <a name="description"></a>설명
-이러한 컨트롤에는 fill, size 및 location 등의 속성을 구성할 수 있는 화살표, 기하학적 도형, 작업 아이콘 및 기호가 있습니다. 구성할 수도 있습니다 해당 **[OnSelect](properties-core.md)** 속성 앱이 사용자가 컨트롤을 선택 하는 경우 응답 수 있도록 합니다.
+이러한 컨트롤에는 fill, size 및 location 등의 속성을 구성할 수 있는 화살표, 기하학적 도형, 작업 아이콘 및 기호가 있습니다. 사용자가 컨트롤을 선택 하는 경우 앱이 응답 하도록 **[Onselect](properties-core.md)** 속성을 구성할 수도 있습니다.
 
 ## <a name="key-properties-icons-and-shapes"></a>키 속성 (아이콘 및 셰이프)
 **[Fill](properties-color-border.md)** - 컨트롤의 배경색입니다.
 
-**[OnSelect](properties-core.md)**  – 사용자가 컨트롤을 선택 하는 경우 앱이 응답 하는 방법입니다.
+**[Onselect](properties-core.md)** – 사용자가 컨트롤을 선택할 때 앱이 응답 하는 방식입니다.
 
-## <a name="key-properties-icons-only"></a>키 속성 (아이콘에만 해당)
+## <a name="key-properties-icons-only"></a>키 속성 (아이콘만 해당)
 
-**아이콘** -표시할 아이콘 유형 (예를 들어 **ArrowDown** 하거나 **ShoppingCart**). 
+**Icon** -표시할 아이콘의 유형 (예: **ArrowDown** 또는 **ShoppingCart**)입니다. 
 
-**회전** -아이콘 회전 각도 (도)의 수입니다. 
+**회전** -아이콘을 회전할 각도입니다. 
 
-**색** -이름이 나 RGBA 값으로 아이콘의 색입니다.
+**Color** -이름 또는 RGBA 값을 기준으로 아이콘의 색입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
@@ -52,9 +52,9 @@ ms.locfileid: "63318426"
 
 **[HoverFill](properties-color-border.md)** – 사용자가 해당 컨트롤에 마우스 포인터를 올려두는 경우 컨트롤의 배경색입니다.
 
-**[PressedBorderColor](properties-color-border.md)**  – 사용자가 해당 컨트롤을 선택 하면 컨트롤의 테두리 색입니다.
+**[PressedBorderColor](properties-color-border.md)** – 사용자가 해당 컨트롤을 선택 하는 경우 컨트롤의 테두리 색입니다.
 
-**[PressedFill](properties-color-border.md)**  – 사용자가 해당 컨트롤을 선택 하는 경우 컨트롤의 배경색입니다.
+**[보도 Sedfill](properties-color-border.md)** – 사용자가 컨트롤을 선택 하는 경우 컨트롤의 배경색입니다.
 
 **[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
@@ -82,7 +82,7 @@ ms.locfileid: "63318426"
 
   `Navigate(Target, ScreenTransition.Fade)`
   
-1. F5 키를 누른 다음을 선택 합니다 **셰이프** 제어 합니다.
+1. F5 키를 누른 다음 **셰이프** 컨트롤을 선택 합니다.
 
     **Target** 화면이 나타납니다.
 
@@ -110,19 +110,19 @@ ms.locfileid: "63318426"
 - **[HoverFill](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
 
 ### <a name="screen-reader-support"></a>화면 reader 지원
-- **[AccessibleLabel](properties-accessibility.md)**  그래픽이 단추로 사용 되거나 데코레이션에 뿐 아니라이 고 그렇지 않으면 비어 있지 않은 문자열로 설정 해야 합니다.
+- 그래픽이 단추로 사용 되는 경우 **[AccessibleLabel](properties-accessibility.md)** 는 비어 있지 않은 문자열로 설정 해야 하며 그렇지 않은 경우에는 장식이 아닌 문자열로 설정 해야 합니다.
 
-- **[AccessibleLabel](properties-accessibility.md)**  비어 있거나 빈 문자열 이어야 합니다 **""** 그래픽이 중복 정보를 제공 하거나 장식용 경우. 이 값 하면 화면 읽기 프로그램이 그래픽을 무시 합니다.
+- 그래픽이 중복 정보를 제공 하거나 장식에만 해당 되는 경우 **[AccessibleLabel](properties-accessibility.md)** 은 비어 있거나 빈 문자열 **""** 이어야 합니다. 이 값을 설정 하면 화면 판독기에서 그래픽을 무시 합니다.
 
-예를 들어, 설정할 수 있습니다 합니다 **[AccessibleLabel](properties-accessibility.md)** 속성을 **설정** 아이콘을 **설정**합니다. 이 아이콘은 단추로 사용 되지 않습니다. 옆에 **[레이블을](control-text-box.md)** 도 표시 된 **설정**합니다. 화면 판독기는 모두 아이콘으로 읽고 레이블을 읽습니다 **설정을**, 하는 경우 작업이 번거롭습니다. 아이콘 필요 하지 않습니다는 경우에  **[AccessibleLabel](properties-accessibility.md)** 합니다.
+예를 들어 **설정 아이콘의** **[AccessibleLabel](properties-accessibility.md)** 속성을 **설정**으로 설정할 수 있습니다. 이 아이콘은 단추로 사용 되지 않습니다. **설정**이라는 **[레이블](control-text-box.md)** 옆에 있습니다. 화면 읽기 권한자는 아이콘 및 레이블을 모두 불필요 한 자세한 정보 표시로 **설정**합니다. 이 경우 아이콘에는 **[AccessibleLabel](properties-accessibility.md)** 필요 하지 않습니다.
 
 > [!IMPORTANT]
-> **[AccessibleLabel](properties-accessibility.md)** 이 빈 문자열로 설정되고 **[TabIndex](properties-accessibility.md)** 가 0 이상으로 설정된 경우 화면 읽기 프로그램은 아이콘 또는 도형을 **버튼으로** 읽습니다. . 이러한 아이콘이나 도형은 버튼으로 렌더링됩니다. 
+> **[AccessibleLabel](properties-accessibility.md)** 이 빈 문자열로 설정 되 고 **[TabIndex](properties-accessibility.md)** 가 0 이상으로 설정 된 경우 화면 판독기는 아이콘이 나 모양을 **단추로** 읽습니다. 이러한 아이콘이나 도형은 버튼으로 렌더링됩니다. 
 
 ### <a name="keyboard-support"></a>키보드 지원
-- **[TabIndex](properties-accessibility.md)**  0 이어야 하며 그래픽이 단추로 사용 되는 경우에 큽니다. 아이콘 또는 셰이프에 대해이 값으로 설정한 경우 키보드 사용자가 탐색할 수 있습니다.
+- 그래픽이 단추로 사용 되는 경우 **[TabIndex](properties-accessibility.md)** 는 0 이상 이어야 합니다. 아이콘 또는 모양에 대해이 값을 설정 하면 키보드 사용자가이 값을 탐색할 수 있습니다.
 
-- 포커스 표시기는 명확 하 게 그래픽이 단추로 사용 되는 경우에 표시 되어야 합니다. 사용 하 여 **[FocusedBorderColor](properties-color-border.md)** 하 고 **[FocusedBorderThickness](properties-color-border.md)** 이 결과 얻을 수 있습니다.
+- 그래픽이 단추로 사용 되는 경우 포커스 표시기를 명확 하 게 표시 해야 합니다. 이 결과를 얻으려면 **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용 합니다.
 
     > [!NOTE]
-    > **[TabIndex](properties-accessibility.md)** 가 0 이상이면 아이콘 또는 도형이 단추로 렌더링됩니다. 모양을 변경 하지 않습니다 하지만 화면 읽기 프로그램 단추와 이미지를 올바르게 식별 됩니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 아이콘 또는 도형은 이미지로 식별됩니다.
+    > **[TabIndex](properties-accessibility.md)** 가 0 이상이면 아이콘 또는 도형이 단추로 렌더링됩니다. 모양은 변경 되지 않지만 화면 판독기는 이미지를 단추로 올바르게 식별 합니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 아이콘 또는 도형은 이미지로 식별됩니다.

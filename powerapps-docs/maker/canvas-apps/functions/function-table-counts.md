@@ -1,6 +1,6 @@
 ---
 title: Count, CountA, CountIf 및 CountRows 함수 | Microsoft Docs
-description: PowerApps의 Count, CountA, CounfIf 및 CountRows 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+description: PowerApps의 Count, CountA, CountIf 및 CountRows 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 717baab028b480063f76b799a1267155464d8ac3
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 8a904db98226152a5e485184e82461634902d6b9
+ms.sourcegitcommit: 39b32abb19ad9fae98ca986ded6974bcbbb3cea7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61543522"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68473935"
 ---
 # <a name="count-counta-countif-and-countrows-functions-in-powerapps"></a>PowerApps의 Count, CountA, CountIf 및 CountRows 함수
 [테이블](../working-with-tables.md)에 있는 모든 [레코드](../working-with-tables.md#records)의 수를 계산하거나 조건을 충족하는 모든 레코드의 수를 계산합니다.

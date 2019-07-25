@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 29de71e413a83a1c0939796f7b65bd42d4aca3c4
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 05d02dca1afe6eba0864e7a1da6281998f62b398
+ms.sourcegitcommit: 39b32abb19ad9fae98ca986ded6974bcbbb3cea7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61556652"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68474002"
 ---
 # <a name="overview-of-canvas-app-connectors-for-powerapps"></a>PowerApps용 캔버스 앱 커넥터의 개요
 데이터는 PowerApps에서 빌드하는 앱을 포함해 대부분 앱의 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. PowerApps에는 SharePoint, SQL Server, Office 365, Salesforce, Twitter를 비롯한 많은 인기 서비스 및 온-프레미스 데이터 원본용 커넥터가 있습니다. 캔버스 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
@@ -31,7 +31,7 @@ ms.locfileid: "61556652"
 
  ![일반 데이터 원본 항목 속성](./media/connections-list/ItemPropertyPlain.png)
 
-데이터를 표시하는 컨트롤의 **Items** 속성을 사용자 지정하여 앱에서 검색하는 데이터를 지정할 수 있습니다. 앞의 예제를 계속하면 **Search** 및 **SortByColumn** 함수의 인수로 해당 이름을 사용하여 **Lessons** 테이블의 데이터를 정렬하거나 필터링할 수 있습니다. 이 그래픽에서 **Items** 속성을 설정하는 서식은 **TextSearchBox1**의 텍스트를 기준으로 데이터가 정렬되고 필터링되도록 지정합니다. 
+데이터를 표시 하는 컨트롤의 **Items** 속성을 사용자 지정 하 여 앱이 검색 하는 데이터를 지정할 수 있습니다. 앞의 예제를 계속하면 **Search** 및 **SortByColumn** 함수의 인수로 해당 이름을 사용하여 **Lessons** 테이블의 데이터를 정렬하거나 필터링할 수 있습니다. 이 그래픽에서 **Items** 속성을 설정하는 서식은 **TextSearchBox1**의 텍스트를 기준으로 데이터가 정렬되고 필터링되도록 지정합니다. 
 
  ![확장된 데이터 원본 항목 속성](./media/connections-list/ItemPropertyExpanded.png)
 
@@ -45,7 +45,7 @@ ms.locfileid: "61556652"
   > [!NOTE]
   > Excel 통합 문서의 데이터에 연결하려면 OneDrive와 같은 클라우드 저장소 서비스에서 호스팅되어야 합니다. 자세한 내용은 [PowerApps에서 클라우드 저장소에 연결](connections/cloud-storage-blob-connections.md)을 참조하세요.
 
-## <a name="actions"></a>작업
+## <a name="actions"></a>동작
 
 커넥터가 작업을 제공하는 경우 이전과 마찬가지로 데이터 원본을 계속 선택해야 합니다. 그러나 다음 단계로 테이블을 선택하는 대신 데이터를 표시할 컨트롤의 **Items** 속성을 편집하여 수동으로 컨트롤을 작업에 연결합니다. **Items** 속성을 설정하는 수식은 데이터를 검색하는 작업을 지정합니다. 예를 들어 Yammer에 연결한 다음, **Items** 속성을 데이터 원본 이름으로 설정하면 앱에서 데이터를 검색하지 않습니다. 데이터로 컨트롤을 채우려면 **GetMessagesInGroup (5033622).messages**와 같은 작업을 지정합니다.
 

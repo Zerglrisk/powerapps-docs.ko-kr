@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e202ce052bf12f5f67715deb2e86b385c2e515a7
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 5d7443358216106776fae0d5daedb69b8091a00c
+ms.sourcegitcommit: 39b32abb19ad9fae98ca986ded6974bcbbb3cea7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61547086"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68473968"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.
@@ -48,9 +48,9 @@ ms.locfileid: "61547086"
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
 | **EndsWith( "Hello World", "world" )** |**"Hello World"** 가 **"world"** 로 끝나는지 테스트합니다.  이 테스트는 대/소문자를 구분하지 않습니다. |**true** |
-| **EndsWith( "Good bye", "good" )** |**"Good bye"** 가 **"good"** 으로 끝나는지 테스트합니다.  *EndText* 인수(**"good"**)가 텍스트에 나타나지만 끝에 나타나지는 않습니다. |**false** |
+| **EndsWith( "Good bye", "good" )** |**"Good bye"** 가 **"good"** 으로 끝나는지 테스트합니다.  *EndText* 인수( **"good"** )가 텍스트에 나타나지만 끝에 나타나지는 않습니다. |**false** |
 | **EndsWith( "Always say hello", "hello" )** |**"Always say hello"** 가 **"hello"** 로 끝나는지 테스트합니다. |**true** |
-| **Endswith( "Bye bye", "" )** |**"Bye bye"** 가 빈 텍스트 문자열(**Len**이 0을 반환함)로 끝나는지 테스트합니다.  **필터** 식에서 사용을 줄이면, 이런 경우 **EndsWith**가 **true**를 반환하도록 정의됩니다. |**true** |
+| **EndsWith ("Bye bye", "")** |**"Bye bye"** 가 빈 텍스트 문자열(**Len**이 0을 반환함)로 끝나는지 테스트합니다.  **필터** 식에서 사용을 줄이면, 이런 경우 **EndsWith**가 **true**를 반환하도록 정의됩니다. |**true** |
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ ms.locfileid: "61547086"
 
 이 데이터 원본을 컬렉션으로 만들려면 **[Button](../controls/control-button.md)** 컨트롤을 만들고 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
-**ClearCollect( Customers, Table( { Name: "Fred 가르시아", 회사: "Northwind Traders" }, { Name: "Cole Miller", 회사: "Contoso"}, {이름: "Glenda Johnson", 회사: "Contoso"}, {이름: "Mike Collins", 회사: "Adventure Works"}, {이름: "Colleen Jones", 회사: "Adventure Works"}))**
+**ClearCollect (Customers, Table ({Name: "Fred 가르시아 섬", 회사: "Northwind Traders"}, {이름: "Cole", 회사: "Contoso"}, {Name: "글 록 enda Johnson", 회사: "Contoso"}, {Name: "Mike Collins", 회사: "놀이 Works"}, {Name: "Colleen Jones", 회사: "어드벤처"})**
 
 이 예제에서와 같이 화면 하단의 [**갤러리 컨트롤**](../controls/control-gallery.md)에 레코드 목록을 표시할 수 있습니다. 사용자가 관심 있는 레코드를 지정할 수 있도록 화면 맨 위 가까이에 **SearchInput**이라는 [**텍스트 입력**](../controls/control-text-input.md) 컨트롤을 추가합니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "61547086"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Filter( Customers, StartsWith( Name, SearchInput.Text ) &#124;&#124; StartsWith( Company, SearchInput.Text ) )** |**Customers** 데이터 원본을 **Name** 열 또는 **Company** 열이 검색 문자열(예: **co**)로 시작하는 레코드로 필터링합니다.  **StartsWith** 함수 중 하나가 *true*이면 [**&#124;&#124;** 연산자](operators.md)는 *true*입니다. |<style> img { max-width: none } </style> ![](media/function-startswith/customers-all-co-startswith.png) |
+| **Filter( Customers, StartsWith( Name, SearchInput.Text ) &#124;&#124; StartsWith( Company, SearchInput.Text ) )** |**Customers** 데이터 원본을 **Name** 열 또는 **Company** 열이 검색 문자열(예: **co**)로 시작하는 레코드로 필터링합니다.  **StartsWith** 함수 중 하나가 *true*이면 [ **&#124;&#124;** 연산자](operators.md)는 *true*입니다. |<style> img { max-width: none } </style> ![](media/function-startswith/customers-all-co-startswith.png) |
 | **Filter( Customers, SearchInput.Text in Name &#124;&#124; SearchInput.Text in Company )** |**Customers** 데이터 원본을 **Name** 열 또는 **Company** 열에 검색 문자열(예: **co**)이 들어 있는 레코드로 필터링합니다. |<style> img { max-width: none } </style> ![](media/function-startswith/customers-all-co-contains.png) |
 | **Search( Customers, SearchInput.Text, "Name", "Company" )** |**in** 연산자를 사용하는 경우와 유사하게, **Search** 함수는 **Customers** 데이터 원본에서 **Name** 열 또는 **Company** 열에 검색 문자열(예: **co**)이 들어 있는 레코드를 검색합니다. 여러 열 및 다수의 **in** 연산자를 지정하는 경우 **Search** 함수가 **Filter**보다 읽고 쓰기 쉽습니다. 열 이름은 큰따옴표로 묶어야 합니다. |<style> img { max-width: none } </style> ![](media/function-startswith/customers-all-co-contains.png) |
 
