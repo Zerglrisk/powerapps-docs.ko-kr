@@ -5,7 +5,7 @@ author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
-ms.date: 07/09/2018
+ms.date: 11/16/2018
 ms.author: matp
 manager: kvivek
 ms.custom: ''
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: f72d4b5192bd30da676e65e232bc2a3090cb77bb
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.openlocfilehash: 31bef01ef46fd0fe2ed7bae30e63d53c169812db
+ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42832428"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "63321586"
 ---
 # <a name="run-an-app-in-a-web-browser"></a>웹 브라우저에서 앱 실행
 앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 항목에서는 [Dynamics 365 홈페이지](https://home.dynamics.com)에서 웹 브라우저로 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다.
@@ -30,8 +30,8 @@ ms.locfileid: "42832428"
 - PowerApps 라이선스 [PowerApps Plan 2 평가판](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps)이나 [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) 중 하나 또는 PowerApps가 포함된 [Dynamics 365](https://dynamics.microsoft.com/pricing/) 요금제와 같은 PowerApps 요금제로 제공됩니다. 
 - 또한, 자신이 빌드하거나 다른 사용자가 빌드하고 공유한 앱에 대한 액세스 권한
 - 지원되는 웹 브라우저 및 운영 체제에 대한 액세스 권한
-   - 캔버스 앱의 경우 [시스템 요구 사항, 제한 및 구성 값](../maker/canvas-apps/limits-and-config.md)을 참조하세요.
-   - 모델 기반 앱의 경우 [지원되는 웹 브라우저 및 모바일 장치](https://docs.microsoft.com/dynamics365/customer-engagement/admin/supported-web-browsers-and-mobile-devices)를 참조하세요.
+   - Canvas 앱의 경우 다음을 참조 하세요. [시스템 요구 사항, 제한 및 구성 값](../maker/canvas-apps/limits-and-config.md)
+   - 모델 기반 앱의 경우 다음을 참조 하세요. [지원 되는 웹 브라우저 및 모바일 장치](https://docs.microsoft.com/dynamics365/customer-engagement/admin/supported-web-browsers-and-mobile-devices)
 
 
 ## <a name="sign-in-to-dynamics-365"></a>Dynamics 365에 로그인
@@ -59,7 +59,7 @@ ms.locfileid: "42832428"
 ![](./media/run-app-browser/web-login.png)
 
 ## <a name="connect-to-data"></a>데이터에 연결
-앱에서 장치의 기능(예: 카메라 또는 위치 서비스)을 사용하기 위해 데이터 원본에 연결하거나 권한이 필요한 경우 이에 동의해야 앱을 사용할 수 있습니다. 일반적으로 처음에만 메시지가 표시됩니다.
+앱에서 디바이스의 기능(예: 카메라 또는 위치 서비스)을 사용하기 위해 데이터 원본에 연결하거나 권한이 필요한 경우 이에 동의해야 앱을 사용할 수 있습니다. 일반적으로 처음에만 메시지가 표시됩니다.
 
 ![연결](./media/run-app-browser/app-connection.png)
 
@@ -67,7 +67,8 @@ ms.locfileid: "42832428"
 앱을 닫으려면 Dynamics 365 홈페이지에서 로그아웃하거나 다른 앱을 엽니다.
 
 ## <a name="next-steps"></a>다음 단계
-이 항목에서는 웹 브라우저에서 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다. 모바일 장치에서 캔버스 앱을 실행하는 방법을 알아보려면 다음 항목을 계속 진행합니다.
+이 항목에서는 웹 브라우저에서 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다. 다음 방법에 대해 알아보세요.
+- 모바일 장치에서 캔버스 앱 실행을 참조 하세요. [모바일 장치에서 캔버스 앱 실행](run-app-client.md) 을 참조 하세요.
+- 모바일 장치에서 모델 기반 앱 실행은 [모바일 장치에서 모델 기반 앱 실행](run-app-client-model-driven.md) 을 참조 하세요.
+- 모델 기반 앱 사용은 [모델 기반 앱 사용](use-model-driven-apps.md) 을 참조 하세요.
 
-> [!div class="nextstepaction"]
-> [모바일 장치에서 캔버스 앱 실행](run-app-client.md)

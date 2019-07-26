@@ -17,11 +17,11 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: a5b55a2948ad176d9c30a11d8c6b6adf209e07f3
-ms.sourcegitcommit: a9f6bd07f414f43c50e0c05e5c7a4f1500c2d2fb
-ms.translationtype: HT
+ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2018
-ms.locfileid: "51941757"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "61544967"
 ---
 # <a name="discover-apps-via-appsource"></a>AppSource를 통한 앱 검색
 PowerApps로 빌드하고 게시한 앱은 웹의 Dynamics 365에서 검색되며 사용됩니다. 사용자가 사용을 구체적으로 지정한 앱(즉, 공유 이메일에서 시작 또는 AppSource에서 열기) 또는 관리자가 사용자를 위해 프로비전한 앱과 같이 사용자의 모든 앱이 표시됩니다. 여기에는 PowerApps의 모든 사용자 앱과 함께 Microsoft에서의 Dynamics 365 애플리케이션이 포함됩니다. 앱을 검색하고, 환경별로 필터링하고, 가장 자주 사용하는 앱을 페이지 상단에 고정할 수 있습니다.
