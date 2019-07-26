@@ -7,7 +7,7 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
 ms.reviewer: ''
-ms.date: 01/04/2019
+ms.date: 06/17/2019
 ms.author: kvivek
 search.audienceType:
 - maker
@@ -16,12 +16,12 @@ search.audienceType:
 - developer
 search.app:
 - PowerApps
-ms.openlocfilehash: 088804f429e23a8824c3c132c3011308935a5b66
-ms.sourcegitcommit: 826bde1eab3dd32d7bf9fa3f43ea069694845597
-ms.translationtype: HT
+ms.openlocfilehash: 88ad7ca8770520bdc45016a70af6a3623bcc7797
+ms.sourcegitcommit: b8fa5cafa443c2affa735f68b892039604579be4
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55290837"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67152634"
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 
@@ -36,11 +36,11 @@ ms.locfileid: "55290837"
 > [!NOTE]
 > 릴리스는 며칠 동안 배포됩니다. 새 기능 또는 업데이트된 기능이 즉시 나타나지 않을 수 있습니다.
 
-## <a name="release-notes"></a>릴리스 정보
+## <a name="release-plan"></a>릴리스 계획
 
 향후 몇 개월 동안 플랜에 사용할 수 있는 새로운 기능에 대한 자세한 내용은 다음을 참조하세요.
-- [2018년 10월 릴리스 정보](https://docs.microsoft.com/business-applications-release-notes/October18/powerapps/planned-features)
 - [2019년 4월 릴리스 정보](https://docs.microsoft.com/business-applications-release-notes/April19/microsoft-powerapps/planned-features)
+- [2019 릴리스 wave 2 요금제](https://docs.microsoft.com/power-platform-release-plan/2019wave2/microsoft-powerapps/planned-features)
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 

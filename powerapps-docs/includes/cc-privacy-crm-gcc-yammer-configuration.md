@@ -1,1 +1,9 @@
-Yammer를 활성화하면 외부 시스템과 데이터를 공유하는 데 동의하는 것입니다. 외부 시스템으로부터 Microsoft Dynamics 365 (온라인)으로 가져오는 데이터에는 [Microsoft 개인정보취급방침 및 쿠키](http://go.microsoft.com/fwlink/p/?LinkID=521839)가 적용됩니다.
+---
+ms.openlocfilehash: 8be3717deb4517407e12a6883ce57f3f18f13808
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67213038"
+---
+Yammer를 사용하도록 설정하여 외부 시스템과 데이터를 공유하는 데 동의합니다. 외부 시스템에서 Microsoft Dynamics 365(온라인)로 가져온 데이터에는 [Microsoft 개인정보처리방침](http://go.microsoft.com/fwlink/p/?LinkID=521839)이 적용됩니다.

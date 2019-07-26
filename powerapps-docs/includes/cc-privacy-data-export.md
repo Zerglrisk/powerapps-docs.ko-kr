@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: e9b0446c2fb09cad33f5a3ae4bb69103f7d07d70
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61579122"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67212641"
 ---
 Data Export Service를 사용하여 [!INCLUDE[pn_microsoftcrm](pn-microsoftcrm.md)] 내에서 데이터 내보내기 프로필을 활성화하면 프로필에 추가된 엔터티의 데이터가 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에 전송됩니다. 초기 동기화는 내보내기 프로필에 추가된 엔터티와 연결된 모든 데이터를 포함하지만 그 후에 동기화는 Data Export Service에 지속적으로 전송된 새 변경 내용만 포함합니다. Data Export Service로 전송된 데이터는 [!INCLUDE[pn_azure_service_bus](pn_azure_service_bus.md)] 및 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 스토리지에 일시적으로 저장되고, [!INCLUDE[pn_azure_service_fabric](pn_azure_service_fabric.md)]에서 처리되고, 마지막으로 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 구독에서 지정된 대상 데이터베이스로 동기화됩니다(삽입, 업데이트 또는 삭제). 데이터가 동기화된 후 [!INCLUDE[pn_azure_service_bus](pn_azure_service_bus.md)] 및 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 스토리지에서 삭제됩니다. 데이터 동기화 중에 오류가 있으면 엔터티 유형, 레코드 ID 및 동기화 타임스탬프에 해당하는 최소 데이터는 업데이트되지 않은 레코드의 목록을 다운로드할 수 있도록 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 스토리지에 저장됩니다.  
   

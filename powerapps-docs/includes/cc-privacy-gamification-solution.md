@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 747ea34b784b852261debe91f587d64ee3277804
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61574946"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67212506"
 ---
 [!INCLUDE[pn_gamification](pn-gamification.md)] 솔루션을 설치 및 활성화하면 활성화된 사용자의 계정 식별자(예: 이름, 성 및 이메일 주소)는 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에서 호스팅된 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 서비스를 사용하여 권한 부여를 허용하도록 [!INCLUDE[pn_gamification_shortest](pn-gamification-shortest.md)]에 저장됩니다. 이는 해당 관리자에 의해 [!INCLUDE[pn_gamification_shortest](pn-gamification-shortest.md)] 서비스에서 활성화된 모든 사용자에게 적용됩니다. [!INCLUDE[pn_gamification_shortest](pn-gamification-shortest.md)] 솔루션은 관리자가 구성한 KPI(핵심 성과 표시기) 데이터를 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 서비스에 보내고 해당 데이터는 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 구조화된 스토리지 및 Blob 스토리지에 저장됩니다.  각 사용자의 아바타, 사용자 지정 보상 및 회사 로고는 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에 저장되지만 정보는 [!INCLUDE[pn_crm_shortest](pn-crm-shortest.md)](으)로 반환되지 않습니다.  
   

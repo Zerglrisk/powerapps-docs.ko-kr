@@ -15,11 +15,11 @@ search.app:
 - PowerApps
 - Powerplatform
 ms.openlocfilehash: 1edaacc3a013646d8da0a286e28723926817ee71
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42843369"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "61528622"
 ---
 # <a name="export-and-import-resources"></a>리소스 내보내기 및 가져오기
 데이터베이스 및 앱 개발을 지원하기 위해 여러 환경을 만든 경우 한 환경에서 다른 환경으로 변경 사항을 이동해야 합니다. **리소스 내보내기** 및 **리소스 가져오기**를 사용하여 환경 간에 리소스를 이동할 수 있습니다.
@@ -66,7 +66,7 @@ ms.locfileid: "42843369"
 1. [관리 센터](https://admin.powerapps.com)의 탐색 창에서 **환경**을 클릭합니다.
 2. 대상 환경을 선택합니다.
 3. 오른쪽 위에서 **리소스 가져오기**를 클릭합니다.
-4. **업로드**를 클릭하고 로컬 저장소의 패키지 파일을 찾습니다.
+4. **업로드**를 클릭하고 로컬 스토리지의 패키지 파일을 찾습니다.
 5. **다음**을 클릭하여 최종 가져오기 페이지로 이동합니다.
 6. 가져오기 유효성 검사 오류 및 경고 해결:
    1. 리소스 **이름** 왼쪽에 있는 아이콘에 표시된 대로 경고 또는 오류를 찾습니다.
@@ -87,6 +87,6 @@ ms.locfileid: "42843369"
 * **사용자 지정 엔터티** – 사용자 지정 엔터티는 환경 간에 이동됩니다.
 * **사용자 지정 선택 목록** – 사용자 지정 선택 목록은 환경 간에 이동됩니다.
 
-## <a name="data"></a>데이터
+## <a name="data"></a>보기
 리소스 내보내기 및 가져오기의 일환으로 데이터베이스 데이터를 이동할 수 없습니다. 데이터를 이동하려면 Microsoft Excel을 사용할 수 있습니다. 
 

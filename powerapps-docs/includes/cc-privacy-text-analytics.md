@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 80997689e9d4ebca8eb4809cc3e94dab549482b5
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61577554"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67224724"
 ---
 Text Analytics 기능을 사용하여 고급 정보를 제공하는 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Cognitive Services Text Analytics API를 활용하는 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 내에서 종속 기능을 사용하도록 설정합니다. 이러한 종속 기능은 다음과 같습니다.  
   

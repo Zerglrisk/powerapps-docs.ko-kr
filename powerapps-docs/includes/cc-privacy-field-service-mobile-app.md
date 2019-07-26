@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: fe2aa8cc0002bdd2531b1e2014a2fb19cd122e4d
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61574983"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67225317"
 ---
 모바일 디바이스에 [!INCLUDE[pn_fieldservice_mobile_app_long](pn-fieldservice-mobile-app-long.md)] 모바일 앱을 설치하고 사용함으로써 사용자는 서비스 제공 및 소프트웨어의 라이센스가 적절한지 확인하기 위해 사용자 조직의 할당된 ID와 할당된 최종 사용자 ID 및 디바이스 ID를 Microsoft 및 Resco.net, Inc.에 전송하는 것에 동의합니다.  
 &nbsp;<br />
@@ -24,7 +24,7 @@ ms.locfileid: "61574983"
 
  -  사용자의 일정을 만들고 업데이트합니다. 사용자의 현재 위치에 대한 데이터는 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]의 필드 서비스 기능으로 전달되어 사용자의 일정을 만들고 업데이트합니다. 예를 들어 가장 가까운 기술자에게 작업을 할당합니다.  
   
-또한 모바일 디바이스에서 필드 서비스 모바일 앱을 사용하도록 설정하면 애플리케이션 오류와 같은 모바일 앱 사용 정보가 조직 인사이트에 대한 보안 연결을 통해 Microsoft로 전송되고 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Table Storage에 저장됩니다.  
+또한 모바일 장치에서 필드 서비스 모바일 앱을 사용하도록 설정하면 애플리케이션 오류와 같은 모바일 앱 사용 정보가 조직 인사이트에 대한 보안 연결을 통해 Microsoft로 전송되고 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Table Storage에 저장됩니다.  
   
 **참고:** 조직 인사이트는 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 조직의 시스템 관리자에게 조직 사용 방법에 대한 빠른 개요를 제공합니다. 시스템 관리자는 가장 활동적인 사용자, 시작 중인 SDK 요청 수 및 SDK 사용자가 보고 있는 수를 볼 수 있습니다.  
   

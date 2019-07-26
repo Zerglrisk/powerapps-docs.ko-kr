@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 80f59be59cfcbd12c6a75748f4110a87dfb385e9
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61577495"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67212110"
 ---
 리소스 일정 최적화를 활성화하여 일정 구성 정보 및 작업 순서 세부 정보(계정 주소 및 리소스 주소와 같은 위치 관련 주소 정보)를 포함하는 정보가 다음을 허용하도록 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에서 [!INCLUDE[pn_bing_maps](pn-bing-maps.md)]로 전송됩니다.  
   
