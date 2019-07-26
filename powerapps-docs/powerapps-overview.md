@@ -6,15 +6,15 @@ manager: annbe
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 03/18/2019
+ms.date: 07/15/2019
 ms.author: kvivek
 ms.reviewer: kvivek
-ms.openlocfilehash: eb90f35286098f27454e6cad883b0113a211af78
-ms.sourcegitcommit: 9b2648a9066fe5d3b27b3d893daacba9b18eb75e
+ms.openlocfilehash: c1d1f9b15c276b6092fca4a1d741812fda99628f
+ms.sourcegitcommit: 1c0b01ab9c76ac353854f7b61d5a9ef13e8b093f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "65609384"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68308546"
 ---
 # <a name="what-is-powerapps"></a>PowerApps란?
 
@@ -28,7 +28,7 @@ PowerApps를 사용하여 빌드된 앱은 수동 비즈니스 프로세스를 �
 
 ## <a name="powerapps-for-app-makerscreators"></a>앱 제작자/작성자용 PowerApps
 
-PowerApps를 사용하여 두 가지 유형(**캔버스** 및 **모델 기반**)의 앱을 만들 수 있습니다. 자세한 정보는 [PowerApps에서 앱 만들기 개요](maker/index.md).
+PowerApps를 사용 하 여 **캔버스**, **모델 기반**및 **포털**의 세 가지 유형의 앱을 만들 수 있습니다. 자세한 정보는 [PowerApps에서 앱 만들기 개요](maker/index.md).
 
 앱을 만들려면 [web.powerapps.com](https://web.powerapps.com)으로 시작합니다.
 

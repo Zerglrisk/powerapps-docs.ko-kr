@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 864bb7bde775f88cdf43ba5c453bd1ff02f81b85
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.openlocfilehash: 1f6d0eb19a8127e42f1d6a8da8d8c3a452782be0
+ms.sourcegitcommit: 982cab99d84663656a8f73d48c6fae03e7517321
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61577522"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "67456932"
 ---
 포함된 인텔리전스 기능인 관계 분석을 사용하면 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 사용자와 고객 사이의 관계 KPI를 계산하기 위해 사용자 식별이 가능한 정보를 포함한 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 고객 데이터가 Azure에서 실행되는 서비스로 전송되어 [!INCLUDE[pn_customerinsight_full](pn-customer-insights-full.md)]에 저장됩니다. 또한 데이터가 일시적으로 [!INCLUDE[pn_azure_service_fabric](pn-azure-service-fabric.md)]에 저장되고 관계 상태 및 추세와 같은 추가 출력을 위해 처리된 다음, 해당 정보가 [!INCLUDE[pn_customerinsight_short](pn-customer-insights-short.md)]로 반환된 후 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]로 반환됩니다.  
   
@@ -20,7 +20,7 @@ ms.locfileid: "61577522"
   
  [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에서 실행 중인 서비스인 [!INCLUDE[pn_customerinsight_short](pn-customer-insights-short.md)]는 관계 분석 기능에 대한 출력을 계산하기 위해 고객에 대한 개인 식별 정보를 포함하여 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 데이터를 저장합니다. [!INCLUDE[pn_customerinsight_short](pn-customer-insights-short.md)]의 미리 보기는 다음 [미리 보기 기능에 대한 보충 사용 약관](http://go.microsoft.com/fwlink/p/?LinkId=511446)의 적용을 받습니다.  
   
- [Customer Insights 미리 보기에 대해 자세히 알아봅니다](https://azure.microsoft.com/en-us/services/customer-insights/).  
+ [Customer Insights 미리 보기에 대해 자세히 알아봅니다](https://azure.microsoft.com/services/customer-insights/).  
   
  [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric/)  
   

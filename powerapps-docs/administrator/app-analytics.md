@@ -15,11 +15,11 @@ search.app:
 - PowerApps
 - Powerplatform
 ms.openlocfilehash: 0f376d8e6b86a7abf65e744275fc4e90beabde43
-ms.sourcegitcommit: 429b83aaa5a91d5868e1fbc169bed1bac0c709ea
-ms.translationtype: HT
+ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/24/2018
-ms.locfileid: "42850033"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "61526497"
 ---
 # <a name="view-analytics-reports-for-your-app"></a>사용자 앱에 대한 분석 보고서 보기
 앱을 빌드하고 조직과 공유해 본 적 있으세요?  매일 얼마나 많은 동료가 앱을 사용하고 있는지 궁금하신가요?
@@ -53,7 +53,7 @@ ms.locfileid: "42850033"
     ![차트 데이터를 다운로드합니다.](./media/app-analytics/analytics-download.png)
 
 ## <a name="are-there-going-to-be-any-other-reports"></a>다른 보고서도 있습니까?
-예. 실제로 앱 성능 및 오류 보고에 관한 유사한 보고서를 개발할 예정입니다.
+예로! 실제로 앱 성능 및 오류 보고에 관한 유사한 보고서를 개발할 예정입니다.
 
 특정 피드백, 질문 또는 요청이 있는 경우 [PowerApps 아이디어 포럼](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas)으로 알려주세요.
 

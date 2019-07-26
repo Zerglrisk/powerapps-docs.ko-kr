@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3041b6cb230aec72a5c3609ef1ea63443bd4a2cc
-ms.sourcegitcommit: a99f9458a50f6fa64706200bec97273aac20036d
+ms.openlocfilehash: 0ecf255ab6e710bf65bd60e39b6dc9b8023876f6
+ms.sourcegitcommit: 982cab99d84663656a8f73d48c6fae03e7517321
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "66034829"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "67457199"
 ---
 # <a name="use-microsoft-flow-to-automate-processes"></a>Microsoft Flow를 사용하여 프로세스 자동화
 
@@ -34,7 +34,7 @@ Microsoft Flow를 사용하여 자주 사용하는 앱과 서비스 간에 자�
 > [!NOTE]
 > 앱에서 Microsoft Flow를 관리하고 실행하려면 조직의 시스템 설정에서 Microsoft Flow가 활성화되어 있어야 합니다. 자세한 정보는  [조직의 흐름](https://docs.microsoft.com/flow/organization-q-and-a) 
   
-1. 명령 모음에서 선택 **흐름**합니다.  
+1. 명령 모음에서 **흐름**을 선택 합니다.  
   
    > [!div class="mx-imgBorder"]
    > ![Microsoft Flow 메뉴](media/flow.png "Microsoft Flow 메뉴") 
@@ -47,7 +47,7 @@ Microsoft Flow를 사용하여 자주 사용하는 앱과 서비스 간에 자�
   
    -   **플로우에 로그인**을 선택하면 Microsoft Flow에 연결하고 실행할 흐름을 표시할 수 있습니다. 이 옵션은 현재 Microsoft Flow에 로그인하지 않은 경우에만 표시됩니다.   
 
-    흐름을 만드는 방법은 [Microsoft Flow 시작](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/using-logic-flows#create-a-flow)을 참조하세요.  
+    흐름을 만드는 방법은 [Microsoft Flow 시작](https://docs.microsoft.com/powerapps/maker/canvas-apps/using-logic-flows#create-a-flow)을 참조하세요.  
     
  
     

@@ -17,11 +17,11 @@ search.app:
 - D365CE
 - D365CE
 ms.openlocfilehash: 37e9602d48bbfbb802afefa0f6d47fad241dc6f5
-ms.sourcegitcommit: 212d397284c431f5989dc7b39549e2fc170d447e
-ms.translationtype: HT
+ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "58491530"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "63321656"
 ---
 # <a name="import-data"></a>데이터 가져오기
 
@@ -53,12 +53,12 @@ ms.locfileid: "58491530"
 
     |**스프레드시트의 열 이름(맞춤법이 정확하게 일치해야 함)**|
     |---------|
-    |이름|  
+    |First Name|  
     |중간 이름|  
-    |성|  
+    |Last Name|  
     |회사 전화|  
     |휴대폰|  
-    |직위|  
+    |직함|  
     |회사 주소|  
     |회사 도시|  
     |회사 시/도|  

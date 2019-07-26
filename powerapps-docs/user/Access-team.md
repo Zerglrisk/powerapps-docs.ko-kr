@@ -16,11 +16,11 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: 7dd418db04f72310210925345611bc1a0b2a6f17
-ms.sourcegitcommit: 4db9c763455d141a7e1dd569a50c86bd9e50ebf0
-ms.translationtype: HT
+ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56444412"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "63318526"
 ---
 # <a name="share-records-using-access-team"></a>Access Team을 사용하여 레코드 공유
 
@@ -35,7 +35,7 @@ Access Team은 레코드 공유를 통해 레코드에 대한 액세스 권한�
   > [!div class="mx-imgBorder"]
   > ![내 활성 계정](media/AccessTeam1.png "내 활성 계정")
 
-3. **Access Team 구성원** 섹션에서 **기타 명령**(**…**) > **사용자 추가**를 선택합니다.
+3. **Access Team 구성원** 섹션에서 **기타 명령**( **…** ) > **사용자 추가**를 선택합니다.
 
   > [!div class="mx-imgBorder"]
   > ![Access Team에 사용자 추가](media/AccessTeam2.png "Access Team에 사용자 추가")

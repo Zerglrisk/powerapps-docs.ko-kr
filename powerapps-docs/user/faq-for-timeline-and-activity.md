@@ -15,18 +15,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e79412c79a3b2a6d5c7f7f51c8cfcad8e4f5cc78
-ms.sourcegitcommit: 826bde1eab3dd32d7bf9fa3f43ea069694845597
-ms.translationtype: HT
+ms.openlocfilehash: 08859f70e047d1c53379e8a79f56997d6beedc58
+ms.sourcegitcommit: 982cab99d84663656a8f73d48c6fae03e7517321
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55290959"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "67457017"
 ---
 # <a name="frequently-asked-questions-about-activities-and-the-timeline-wall"></a>활동 및 타임라인 월에 대한 질문과 대답  
 
 ## <a name="is-a-title-required-when-adding-a-new-note"></a>새 메모를 추가할 때 제목이 필요한가요?
 
-아닙니다. 활동에 메모를 추가할 때 제목 필드는 필수 필드로 표시되지만 필수가 아닙니다. 이 문제는 레거시 Web Client의 알려진 문제입니다.
+아니요. 활동에 메모를 추가할 때 제목 필드는 필수 필드로 표시되지만 필수가 아닙니다. 이 문제는 레거시 Web Client의 알려진 문제입니다.
 
 ## <a name="for-an-appointment-when-i-choose-the-option-to-save-as-draft-it-doesnt-show-that-the-appointment-has-been-saved-as-a-draft"></a>약속의 경우, *초안으로 저장* 옵션을 선택해도 약속이 초안으로 저장되었다고 표시되지 않습니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "55290959"
 
 ## <a name="are-html-tags-supported-in-notes"></a>HTML 태그가 **메모**에서 지원되나요?
 
-아닙니다. 레코드 또는 엔터티에 대한 메모 활동을 만들 때 HTML 태그는 지원되지 않습니다. 예를 들어 메모에 <TAG> </TAG>를 추가하면 필드가 <TAG_XXX="XX"> </TAG>로 표시됩니다.
+아니요. 레코드 또는 엔터티에 대한 메모 활동을 만들 때 HTML 태그는 지원되지 않습니다. 예를 들어 메모 필드에 `<TAG> </TAG>` 를 추가 하는 경우에는로 `<TAG_XXX="XX"> </TAG>`표시 됩니다.
 
 ## <a name="how-can-i-improve-performance-on-timeline-wall"></a>타임라인 월의 성능을 향상시키려면 어떻게 하나요?
 

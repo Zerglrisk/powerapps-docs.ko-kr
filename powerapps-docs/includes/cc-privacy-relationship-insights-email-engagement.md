@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 252f09737dbf55309a64ef5d02d479fde0e61c0e
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61577511"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67224849"
 ---
 포함된 인텔리전스 기능인 이메일 참여 기능을 사용하면, **Follow** 설정으로 표시된 이메일이 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에서 전송될 때 수신자 활동 KPI 및 "followed" 이메일에 대한 상호 작용을 계산하기 위해 받는 사람이 이메일과 상호 작용하는 정보가 수집되어 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에 저장됩니다.  
   
