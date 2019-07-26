@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 167d4e0362f7d3f1716bee5b7f2f0aa4068bfaee
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61577559"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67212172"
 ---
 로그인한 사용자에게 이메일 작업을 표시하려면 자동 캡처 기능을 사용하여 [!INCLUDE[pn_Exchange](pn-exchange.md)] 데이터를 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]로 검색하지만 저장하지는 않습니다. [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 사용 권한에서 구성한 것처럼 적절한 사용자와 공유하려면 사용자는 이러한 이메일을 명시적으로 '추적'하여 [!INCLUDE[pn_Exchange](pn-exchange.md)] 이메일을 이메일 작업으로 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에 복사할 수 있습니다.  
   

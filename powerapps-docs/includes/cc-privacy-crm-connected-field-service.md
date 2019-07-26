@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: ce9db35844f46e9779055ec30dcba0f9459c3a16
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61575527"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67225793"
 ---
 [!INCLUDE[pn_connected_field_service_msdyn365](pn-connected-field-service-msdyn365.md)]을(를) 설치하여 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 구독 정보를 제공할 때 필수 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 리소스가 배포되고 [!INCLUDE[pn_dynamics_crm_online](pn-dynamics-crm-online.md)] 인스턴스는 데이터(예: 명령 및 등록)를 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에 전송하여 디바이스를 등록한 다음, 등록된 디바이스에 명령을 보내고 받는 IoT 사용 시나리오를 활성화합니다. 관리자는 연결된 필드 서비스를 제거하여 기능을 제거한 다음, [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 포털로 이동하여 더 이상 필요하지 않은 관련된 모든 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] 서비스를 관리할 수 있습니다.  
   
@@ -26,7 +26,7 @@ ms.locfileid: "61575527"
   
  [IoT Hub](https://azure.microsoft.com/services/iot-hub/)  
   
- 연결된 필드 서비스는 IoT Hub를 사용하여 등록된 디바이스 및 자산의 상태를 관리합니다. 또한 IoT Hub는 명령 및 알림을 연결된 디바이스로 보내고 읽음 확인으로 메시지 배달을 추적합니다. 디바이스 메시지는 간헐적으로 연결되는 디바이스를 고려하여 지속적인 방식으로 전송됩니다.  
+ 연결된 필드 서비스는 IoT Hub를 사용하여 등록된 디바이스 및 자산의 상태를 관리합니다. 또한 IoT Hub는 명령 및 알림을 연결된 디바이스로 보내고 읽음 확인으로 메시지 배달을 추적합니다. 장치 메시지는 간헐적으로 연결 된 장치를 수용 하기 위해 지속적으로 전송 됩니다.  
   
  **시뮬레이터**  
   

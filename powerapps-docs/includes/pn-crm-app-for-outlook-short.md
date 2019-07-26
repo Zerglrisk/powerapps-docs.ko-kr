@@ -1,1 +1,9 @@
-Outlook용 Dynamics 365 앱
+---
+ms.openlocfilehash: 08e92b4f03bf178fbf83a0f94a441af49a88ee0b
+ms.sourcegitcommit: ad203331ee9737e82ef70206ac04eeb72a5f9c7f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "67234299"
+---
+Dynamics 365 App for Outlook
