@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 676ad765672e4fceff71c90fe07eb348b911508c
+ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "61526243"
+---
 # <a name="microsoft-powerapps-documentation"></a>Microsoft PowerApps 설명서
 
 **PowerApps**의 기술 제품 설명서에 대한 GitHub 리포지토리합니다. 이 설명서는 [https://docs.microsoft.com/powerapps](https://docs.microsoft.com/powerapps)에 게시됩니다.
@@ -10,4 +18,4 @@ Microsoft 제품 및 서비스에 대한 기술 콘텐츠의 홈인 [Docs.micros
 
 ## <a name="code-of-conduct"></a>준수 사항
 
-이 프로젝트는 [Microsoft 오픈 소스 준수 사항](https://opensource.microsoft.com/codeofconduct/)을 준수합니다. 자세한 내용은 [준수 사항 FAQ](https://opensource.microsoft.com/codeofconduct/faq/)를 참조하거나 추가 질문이나 의견이 있는 경우 [opencode@microsoft.com](mailto:opencode@microsoft.com)에 문의하세요.
+이 프로젝트는 [Microsoft 오픈 소스 준수 사항](https://opensource.microsoft.com/codeofconduct/)을 준수합니다. 자세한 내용은 [준수 사항 FAQ](https://opensource.microsoft.com/codeofconduct/faq/) 를 참조하고, 추가 질문이나 의견이 있는 경우 [opencode@microsoft.com](mailto:opencode@microsoft.com) 에 문의하세요.
