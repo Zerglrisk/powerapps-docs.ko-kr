@@ -822,6 +822,8 @@
                   href: ./model-driven-apps/create-site-map-app.md
                 - name: 앱 구성 요소 추가 또는 편집
                   href: ./model-driven-apps/add-edit-app-components.md
+                - name: 팀 엔터티를 조회 옵션으로 추가
+                  href: ./model-driven-apps/team-entity-lookup.md
             - name: 양식 작업
               href: ./model-driven-apps/create-design-forms.md
               items:
