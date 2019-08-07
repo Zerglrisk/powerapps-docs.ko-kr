@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 09/21/2019
+ms.date: 05/21/2019
 ms.author: anneta
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 23c5ead5e8dde0b781c0c83b366baea0a199a56e
-ms.sourcegitcommit: 0272fc5beac5bace5781b1de986a0e2703dd5ddc
+ms.openlocfilehash: 482a5a91c241aa9fd8c85dfb970cf692cd2ab1a3
+ms.sourcegitcommit: 38270060d2d0b784fe065164e6112c011b26e17c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "65974568"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68830469"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service"></a>Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -26,7 +26,7 @@ ms.locfileid: "65974568"
 
 Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Salesforce와 같은 데이터 원본에서와 마찬가지로 PowerApps에서 연결을 만들 필요가 없습니다. 앱에서 표시, 관리하려는 엔터티를 지정하기만 하면 됩니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>전제 조건
 
 - 앱을 처음부터 만들기 전에 [앱을 생성](data-platform-create-app.md)한 다음, 해당 앱의 [갤러리](customize-layout-sharepoint.md), [양식](customize-forms-sharepoint.md) 및 [카드](customize-card.md)를 사용자 지정하여 PowerApps 기본 사항에 익숙해지도록 합니다.
 - 샘플 데이터를 사용하여 데이터베이스를 만든 [환경으로 전환합니다](working-with-environments.md). 적절한 라이선스를 있는 경우 이 요구 사항이 충족되는 [환경을 만들 수 있습니다](../../administrator/create-environment.md).
@@ -92,7 +92,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
     ![양식의 Datasource 및 Item 속성 설정](./media/data-platform-create-app-scratch/form-datasource.png)
 
-1. 에 **속성** 선택 오른쪽 창의 탭 **필드 편집** 열려는 합니다 **필드** 창.
+1. 오른쪽 창의 **속성** 탭에서 **필드 편집** 을 선택 하 여 **필드** 창을 엽니다.
 
 1. **필드 추가**를 선택하고, 다음 필드에 대한 확인란을 선택합니다.
 
@@ -104,7 +104,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
     - **연간 수익**
 
     > [!NOTE]
-    > 이 시나리오에서는 외부에서 사용자 지정 필드를 선택 하 여 만들 수 있습니다 **새 필드**필요한 정보를 제공 하 고 선택한 다음 **수행**합니다. 자세한 정보는 [필드를 만들](../common-data-service/create-edit-field-portal.md#create-a-field)합니다.<br><br>![](media/data-platform-create-app-scratch/choose-or-add-fields.png "선택 하 고 필드를 추가 합니다.")
+    > 이 시나리오 외에서는 **새 필드**를 선택 하 고 필요한 정보를 제공한 다음 **완료**를 선택 하 여 사용자 지정 필드를 만들 수 있습니다. 자세한 정보는 [필드를 만듭니다](../common-data-service/create-edit-field-portal.md#create-a-field).<br><br>![](media/data-platform-create-app-scratch/choose-or-add-fields.png "필드 선택 및 추가")
 
 1. **추가**를 선택합니다.
 

@@ -51,6 +51,8 @@
               href: ../user/assign-or-share-records.md
             - name: Access Team을 사용하여 레코드 공유
               href: ../user/Access-team.md
+            - name: 연결 역할 추가
+              href: ../user/add-connection-role.md
             - name: 계정 또는 연락처 비활성화
               href: ../user/deactivate-activate-account-contact.md
             - name: 대시보드 및 차트를 사용하여 진행률 추적
@@ -1242,6 +1244,8 @@
           href: ./common-data-service/data-platform-complex-entities.md
         - name: Dynamics 365 라이선스를 요구하는 제한된 엔터티
           href: ./common-data-service/data-platform-restricted-entities.md
+    - name: 'SharePoint, OneNote 및 OneDrive 통합'
+      href: ./common-data-service/sharepoint-onedrive-onenote-intro.md
     - name: Power BI 보고서 만들기
       href: ./common-data-service/data-platform-powerbi-connector.md
     - name: 사용자 지정된 엔터티 및 필드 텍스트 번역
