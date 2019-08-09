@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 11/26/2018
+ms.date: 8/02/2019
 ms.author: mduelae
 ms.reviewer: ''
 ms.assetid: ''
@@ -15,14 +15,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 308e36938c673a5f6ba83be02591a7199af20432
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: 8f061078b4401ee1ea2db9a2e7e6a4443bd053b6
+ms.sourcegitcommit: 4e4f7945c3f24faf9bb8a856a5f3892cbfd113be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "61529460"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "68783750"
 ---
 # <a name="add-an-appointment-email-phone-call-note-or-task-activity-to-the-timeline"></a>타임라인에 약속, 메일, 전화 통화, 메모 또는 작업 활동 추가 
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 **타임라인** 월에 **활동**을 추가하여 고객 또는 지인과의 모든 커뮤니케이션을 추적합니다. 예를 들어, 메모를 남기고, 게시물을 추가하고, 작업을 추가하고, 메일을 보내고, 전화 통화 내용을 추가하고, 약속을 설정할 수 있습니다. 시스템에서 자동으로 모든 활동에 타임스탬프를 적용하고 활동을 만든 사람을 표시합니다. 팀원이라면 누구나 활동을 살펴보고 고객의 이력을 확인할 수 있습니다. 
 
@@ -30,6 +32,7 @@ ms.locfileid: "61529460"
 - 활동에서 **관련 항목** 필드를 설정한 경우, 활동이 연결된 레코드에 나타납니다. 
 - 필터 창을 선택하여 레코드 유형 및 날짜로 활동을 필터링할 수도 있습니다. 
 - 새 활동이 생성되면 **타임라인** 월에 **놓친 사항** 알림이 표시됩니다.
+- 첨부 된 이미지를 포함 하는 전자 메일이 전자 메일의 본문에 인라인으로 표시 됩니다.
 
   > [!div class="mx-imgBorder"]
   > ![PowerApps의 활동 타임라인 보기](media/TimelineViewOfActivity.png "PowerApps의 활동 타임라인 보기")  
@@ -95,6 +98,17 @@ ms.locfileid: "61529460"
 5. 메일 본문에서 템플릿을 사용하려면 명령 모음에서 **템플릿 삽입**을 클릭하고 원하는 템플릿을 선택합니다.   
   
 6. 양식을 모두 작성했으면 **보내기**를 선택합니다. 
+
+
+    > [!NOTE]
+    > 대화 보기에서 전자 메일을 나열 하려면 **설정** > **개인 설정 설정** > **전자 메일** 탭으로 이동한 다음, **타임 라인에서 대화로 메일 표시**를 선택 합니다. 개인 설정에 대 한 자세한 내용은 [개인 옵션 설정](set-personal-options.md)을 참조 하세요.
+
+   > [!div class="mx-imgBorder"]
+   > ![개인 옵션 설정](media/emailsettings1.png "개인 옵션 설정")
+   
+    > [!div class="mx-imgBorder"]
+    > ![개인 옵션 전자 메일 설정](media/emailsettings2.png "전자 메일에 대 한 개인 옵션 설정")
+
   
 ## <a name="add-an-appointment"></a>약속 추가  
 
@@ -118,10 +132,14 @@ ms.locfileid: "61529460"
 
 3. 양식을 모두 작성했으면 **메모 추가**를 선택하여 메모를 저장합니다.
 
+
+> [!NOTE]
+> **타임라인** 월의 왼쪽 상단에 있는 **더하기 기호**를 사용하여 메모를 추가할 수도 있습니다.
+
    > [!div class="mx-imgBorder"]
    > ![메모 추가](media/addnote.png "메모 추가")
 
-메모를 추가한 후에는 메모를 삭제하거나 편집할 수 있습니다. **타임라인** 월의 왼쪽 상단에 있는 **더하기 기호**를 사용하여 메모를 추가할 수도 있습니다.
+메모를 추가한 후에는 메모를 삭제하거나 편집할 수 있습니다.
 
 
 > [!div class="mx-imgBorder"]
@@ -154,17 +172,13 @@ ms.locfileid: "61529460"
 
 ## <a name="use-the-filter-pane"></a>필터 창 사용
 
-필터 창에서 레코드 유형 또는 활동 유형 및 날짜를 기준으로 타임라인 월에 표시되는 활동, 메모 또는 게시물을 빠르게 필터링할 수 있습니다.
+필터 창에서 레코드 유형 또는 활동 유형 및 날짜를 기준으로 타임라인 월에 표시되는 활동, 메모 또는 게시물을 빠르게 필터링할 수 있습니다. 여러 필터 및 필터 옵션을 동시에 선택할 수 있습니다. 활동 기한, 수정 된 날짜 또는 활동 상태를 기준으로 필터링 하 고 활동을 볼 수 있습니다.
 
-1. **타임라인** 월에서 ![자세히 보기 단추 ](media/MoreButton.png "자세히 보기 단추")를 선택하고 **필터 창 열기**를 선택합니다.
+- **타임 라인** 벽에서 **필터 창** 깔때기 아이콘 열기를 선택 합니다.
 
 > [!div class="mx-imgBorder"]
 > ![타임라인의 필터 창 ](media/filterpane.png "타임라인의 필터 창")
 
-2. 필터링된 정보를 본 후에 필터를 지우려면 **모든 필터 지우기** 깔때기 아이콘을 선택합니다. 이렇게 하면 필터가 재설정되고 타임라인 월에 모든 정보가 표시됩니다.
-
-> [!div class="mx-imgBorder"]
-> ![필터 재설정](media/resetfilter.png "필터 재설정")
 
 ## <a name="manage-activities"></a>활동 관리
 타임라인 월에서 직접 다른 사용자에게 활동을 할당하고, 활동을 삭제하거나 닫고, 활동을 큐에 추가하고, 연결된 레코드를 열고, 메모 및 게시물을 편집하는 등 활동을 관리할 수 있습니다.
