@@ -842,6 +842,8 @@
                       href: ./model-driven-apps/add-move-or-delete-tabs-on-form.md
                     - name: 양식 디자이너의 속성
                       href: ./model-driven-apps/form-designer-properties.md
+                    - name: 헤더 속성 구성 중
+                      href: ./model-driven-apps/form-designer-header-properties.md
                     - name: 트리 뷰 사용
                       href: ./model-driven-apps/using-tree-view-on-form.md
                 - name: 양식 유형
