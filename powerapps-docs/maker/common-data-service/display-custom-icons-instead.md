@@ -4,7 +4,7 @@ description: 보기에 사용자 지정 아이콘 그래픽을 표시하는 방�
 ms.custom: ''
 ms.date: 02/14/2019
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -104,7 +104,7 @@ search.app:
 > [!IMPORTANT]
 > 이 샘플에는 Dynamics 365 for Customer Engagement 앱에서 사용할 수 있는 영업 기회 엔터티가 필요합니다.
   
-```  
+```javascript
 function displayIconTooltip(rowData, userLCID) {      
     var str = JSON.parse(rowData);  
     var coldata = str.opportunityratingcode_Value;  

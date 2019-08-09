@@ -1,8 +1,8 @@
 ---
 title: Common Data Service에서 레코드를 참조할 대체 키 정의 | MicrosoftDocs
-description: Common Data Service에서 레코드를 참조하는 데 사용할 수 있는 대체 키를 정의하는 방법에 대해 설명합니다.
+description: Common Data Service에서 레코드 참조에 사용될 수 있는 대체 키를 정의하는 방법 알기
 ms.custom: ''
-ms.date: 06/06/2018
+ms.date: 06/04/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -75,6 +75,9 @@ search.app:
  - 소수
  - 정수(Integer)
  - 한 줄 텍스트(String)
+ - 날짜 및 시간
+ - 조회
+ - 옵션 집합
 
 ### <a name="number-of-keys"></a>키 수
 

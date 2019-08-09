@@ -2,7 +2,7 @@
 title: PowerApps의 솔루션 사용 | MicrosoftDocs
 description: 솔루션을 사용하여 앱을 만들거나 사용자 지정하는 방법 알아보기
 ms.custom: ''
-ms.date: 10/29/2018
+ms.date: 06/17/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -12,10 +12,10 @@ applies_to:
   - Dynamics 365 (online)
   - Dynamics 365 Version 9.x
   - powerapps
-author: Mattp123
+author: caburk
 ms.assetid: 72bacfbb-96a3-4daa-88ff-11bdaaac9a3d
 caps.latest.revision: 57
-ms.author: matp
+ms.author: caburk
 manager: kvivek
 search.audienceType:
   - maker
@@ -93,16 +93,17 @@ PowerApps의 왼쪽 탐색 창에서 **솔루션**을 선택한 다음 명령 �
 
 - 사용자 지정 커넥터는 솔루션에서 사용할 수 없습니다.
 - 연결을 업데이트하려면 솔루션을 가져온 후 캔버스 앱을 열어야 합니다.
-- 캔버스 앱이 관리형 솔루션에 패키지화 되어 있는 경우 대상 환경에서 계속 편집할 수 있습니다.
+- 캔버스 앱이 관리형 솔루션에 패키지화 되어 있는 경우 대상 환경에서 계속 편집할 수 있지만 다시 게시할 수는 없습니다.
 - 캔버스 앱에는 종속성을 사용할 수 없습니다.
 - 관리형 솔루션을 삭제해도 다른 캔버스 앱 버전으로 롤백되지 않습니다. 
 -   캔버스 앱 액세스(CRUD 및 보안)는 PowerApps에서 전적으로 관리되고 Common Data Service(Common Data Service) 데이터베이스는 사용되지 않습니다.
 -   캔버스 앱을 호출하는 Common Data Service API는 차단되고 아무것도 반환하지 않습니다 
--   솔루션에서 만든 캔버스 앱과 Flows를 AAD 보안 그룹에 대한 공동 소유자로 공유할 수 없습니다.
+-   솔루션에서 만든 캔버스 앱과 흐름을 AAD 보안 그룹에 대한 공동 소유자로 공유할 수 없습니다.
 -   기본 솔루션 탐색기에 캔버스 앱이 표시되지 않습니다.
-- 버튼 트리거 Flows는 솔루션에서 사용할 수 없습니다.
-- 캔버스 앱 트리거 Flows는 솔루션에서 사용할 수 없습니다.
+- 버튼 트리거 흐름은 솔루션에서 사용할 수 없습니다.
+- 캔버스 앱 트리거 흐름은 솔루션에서 사용할 수 없습니다.
 - SharePoint 및 Excel과 같은 Microsoft 365 응용 프로그램에서 트리거된 Flows는 솔루션에서 사용할 수 없습니다.
+- 솔루션의 흐름은 위임된 인증을 지원하지 않습니다. 예를 들어 흐름에 대한 액세스는 흐름이 만들어진 SharePoint 목록에 대한 액세스 권한을 기반으로 자동 부여되지 않습니다.
 
  솔루션에서 개별 솔루션 구성 요소를 사용자 지정하는 방법에 대한 자세한 내용은 다음 항목을 참조하십시오.  
   

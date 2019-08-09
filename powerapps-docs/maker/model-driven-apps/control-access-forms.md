@@ -2,7 +2,7 @@
 title: PowerApps에서 모델 기반 앱 양식에 대한 액세스 제어 | MicrosoftDocs
 description: 기본 양식 액세스를 제어하는 방법 알아보기
 ms.custom: ''
-ms.date: 03/07/2019
+ms.date: 06/18/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -71,11 +71,15 @@ search.app:
   
 <a name="BKMK_UseFormScripting"></a>   
 ## <a name="use-form-scripting"></a>양식 스크립팅 사용  
+클라이언트 API 양식 컨텍스트(formContext)는 현재 코드가 실행되는 양식 또는 양식의 항목(예: 빠른보기 컨트롤 또는 편집 가능한 표의 행)에 대한 참조를 제공합니다. 추가 정보: [클라이언트 API 양식 컨텍스트](/dynamics365/customer-engagement/developer/clientapi/clientapi-form-context)
 
- 마지막으로 웹 응용 프로그램에서 가능하지만 권장하지 않는, 개발자가 양식의 스크립트를 사용하여 [Xrm.Page.ui.formSelector.items 컬렉션](http://go.microsoft.com/fwlink/p/?LinkID=513300)을 사용하여 사용 가능한 양식을 쿼리하고 탐색 메서드를 사용하여 사용자에게 특정 양식을 안내하는 Onload 이벤트를 호출할 수 있습니다. [탐색 메서드](http://go.microsoft.com/fwlink/p/?LinkID=513301)는 양식을 다시 로드합니다(Onload 이벤트 다시 발생). 이벤트 처리기의 논리가 무한 루프를 피하거나 양식 사이를 이동하는 사용자 옵션을 불필요하게 제한하지 않도록 탐색 메서드를 사용하기 전에 항상 몇 가지 조건을 확인해야 합니다.  
+> [!IMPORTANT]
+> Dynamics 365 for Customer Engagement 앱 버전 9.0에서는 Xrm.Page 개체가 [더 이상 사용되지 않으며](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated) 전달된 실행 컨텍스트 개체의 [getFormContext](/dynamics365/customer-engagement/developer/clientapi/reference/executioncontext/getformcontext) 메서드를 사용하여 적절한 양식이나 양식의 항목에 대한 참조를 반환해야 합니다.
+<!-- 
+ Finally, in the web application it is possible, but not recommended, for a developer to use scripts in the form Onload event to use the [Xrm.Page.ui.formSelector.items collection](http://go.microsoft.com/fwlink/p/?LinkID=513300) to query available forms and use the navigate method to direct users to a specific form. Remember that the [navigate method](http://go.microsoft.com/fwlink/p/?LinkID=513301) will cause the form to load again (and the Onload event to occur again). Your logic in the event handler should always check some condition before you use the navigate method to avoid an endless loop or unnecessarily restrict users options to navigate between forms.  
   
- 이 방법은 여러 양식을 선택할 수 없으므로 Dynamics 365 for tablets에서 작동하지 않습니다.  
+ This approach will not work for Dynamics 365 for tablets because multiple forms are not available for selection.  -->
 
-### <a name="next-steps"></a>다음 단계  
+### <a name="see-also"></a>참조  
 
 [양식에 보안 역할 할당](https://docs.microsoft.com/dynamics365/customer-engagement/admin/assign-security-roles-form)

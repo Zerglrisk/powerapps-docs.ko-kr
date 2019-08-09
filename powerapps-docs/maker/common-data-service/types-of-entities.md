@@ -22,7 +22,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="types-of-entities"></a>엔터티 유형
+# <a name="types-of-entities"></a>엔터티 타입
 
 Common Data Service에서 엔터티를 만들거나 편집하기 전에 다른 유형의 엔터티가 있다는 것을 알고 있어야 합니다. 사용자 지정 엔터티를 만든 후에는 이러한 유형을 변경할 수 없습니다. 주요 두 부문은 엔터티 소유권 형태와 엔터티가 활동 엔터티인지 여부에 따라 달라집니다.  
   
@@ -56,10 +56,10 @@ Common Data Service에서 엔터티를 만들거나 편집하기 전에 다른 �
 |이름|설명|활동 메뉴에 표시|참조|
 |----------|-----------------|----------------|---------------|  
 |**약속**|시작/종료 시간 및 기간으로 시간 간격을 표시하는 약정입니다.|지원|[약속](/powerapps/developer/common-data-service/reference/entities/appointment)|
-|**Email**|전자 메일 프로토콜을 사용하여 배달된 활동입니다.|지원|[전자 메일](/powerapps/developer/common-data-service/reference/entities/email)|
+|**Email**|전자 메일 프로토콜을 사용하여 배달된 활동입니다.|지원|[Email](/powerapps/developer/common-data-service/reference/entities/email)|
 |**팩스**|팩스의 통화 결과 및 페이지 수를 추적하고 선택적으로 문서의 전자 복사본을 저장하는 활동입니다.|지원|[팩스](/powerapps/developer/common-data-service/reference/entities/fax)|
 |**편지**|편지 배달을 추적하는 활동입니다. 활동에는 편지 전자 사본이 포함될 수 있습니다.|지원|[편지](/powerapps/developer/common-data-service/reference/entities/letter)|
-|**전화 통화**|전화 통화를 추적하는 활동입니다.|지원|[PhoneCall ](/powerapps/developer/common-data-service/reference/entities/phonecall)|
+|**전화 통화**|전화 통화를 추적하는 활동입니다.|지원|[PhoneCall](/powerapps/developer/common-data-service/reference/entities/phonecall)|
 |**되풀이 약속**|되풀이 약속 시리즈의 마스터 약속입니다.|지원|[RecurringAppointmentMaster](/powerapps/developer/common-data-service/reference/entities/recurringappointmentmaster)|
 |**작업**|수행해야 할 작업을 나타내는 일반 활동입니다.|지원|[작업](/powerapps/developer/common-data-service/reference/entities/task)|
   

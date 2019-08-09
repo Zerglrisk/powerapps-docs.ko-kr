@@ -1,7 +1,7 @@
 ---
 title: 포함된 캔버스 앱 공유 | MicrosoftDocs
 ms.custom: ''
-ms.date: 01/07/2019
+ms.date: 06/25/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -24,8 +24,6 @@ search.app:
 ---
 
 # <a name="share-an-embedded-canvas-app"></a>포함된 캔버스 앱 공유
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 이 항목에서는 이미 만든 포함된 캔버스 앱을 공유하는 방법에 대해 설명합니다.
 
 포함된 캔버스 앱을 만들고 모델 기반 양식에 추가한 후에는 모델 기반 양식에 대한 액세스 권한이 있는 모든 사용자가 캔버스 앱 및 사용 하는 데이터에 액세스할 수 있는지 확인하는 단계를 수행해야 합니다. 다음 지침을 참조하십시오.
@@ -40,7 +38,10 @@ search.app:
 
 ## <a name="see-also"></a>참조
 [모델 기반 양식에 캔버스 앱 포함](embed-canvas-app-in-form.md) <br />
-[포함된 캔버스 앱을 사용하여 현재 레코드를 데이터 컨텍스트로 전달](pass-current-embedded-canvas-app.md) <br />
-[포함된 캔버스 앱을 사용하여 관련 레코드의 목록을 데이터 컨텍스트로 전달](pass-related-embedded-canvas-app.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱 추가](embedded-canvas-app-add-classic-designer.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱 편집](embedded-canvas-app-edit-classic-designer.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱의 화면 크기 및 방향 사용자 지정](embedded-canvas-app-customize-screen.md) <br />
 [포함된 캔버스 앱 내에서 호스트 양식에 대한 미리 정의된 작업 수행](embedded-canvas-app-actions.md) <br />
-[포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md)
+[ModelDrivenFormIntegration 컨트롤의 속성 및 동작](embedded-canvas-app-properties-actions.md) <br />
+[포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md) <br />
+[공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />

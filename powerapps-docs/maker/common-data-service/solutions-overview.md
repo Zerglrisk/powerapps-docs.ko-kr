@@ -2,7 +2,7 @@
 title: PowerApps의 솔루션 사용 | MicrosoftDocs
 description: 솔루션 배포 방법 알아보기
 ms.custom: ''
-ms.date: 01/28/2019
+ms.date: 05/28/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -37,7 +37,7 @@ search.app:
   
 -   솔루션 만들기는 선택 사항입니다. 솔루션을 만들지 않고 직접 PowerApps 환경에서 앱을 빌드하거나 사용자 지정할 수 있습니다.  
   
--   솔루션을 만들지 않고 PowerApps 환경을 직접 사용자 지정할 때 **Common Data Services 기본 솔루션**이라는 특별한 솔루션을 사용합니다. 이 솔루션에는 PowerApps 환경에서 수행하는 모든 사용자 지정이 포함되어 있습니다.  
+-   솔루션을 만들지 않고 PowerApps 환경을 직접 사용자 지정할 때 **Common Data Service 기본 솔루션**이라는 특별한 솔루션을 사용합니다. 이 솔루션에는 PowerApps 환경에서 수행하는 모든 사용자 지정이 포함되어 있습니다.  
   
 -   **기본 솔루션**이라는 또 다른 특별한 솔루션이 있습니다. 이 솔루션은 사용자 또는 다른 사용자가 만든 시스템의 모든 구성 요소를 포함합니다. **기본 솔루션**을 내보내 조직에 정의된 사용자 지정 항목의 백업을 만들 수 있습니다. 최악의 시나리오에서 변경 내용을 백업하는 것이 좋습니다.  
   

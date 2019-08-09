@@ -1,7 +1,7 @@
 ---
-title: 포함된 캔버스 앱 내에서 호스트 양식에 대한 작업 수행 | MicrosoftDocs
+title: 포함된 캔버스 앱 내에서 호스트 모델 기반 양식에 대한 작업 수행 | MicrosoftDocs
 ms.custom: ''
-ms.date: 03/29/2019
+ms.date: 06/25/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -23,17 +23,13 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="perform-predefined-actions-on-the-host-form-from-within-an-embedded-canvas-app"></a>포함된 캔버스 앱 내에서 호스트 양식에 대한 미리 정의된 작업 수행
-포함된 캔버스 앱은 호스트 양식에 대한 미리 정의된 작업을 수행하는 기능을 제공합니다. 이러한 작업을 통해 제조업체는 호스트 양식을 탐색하고, 새로 고치고, 저장할 수 있습니다. 이러한 작업을 사용하면 포함된 캔버스 앱이 양식과 모델 기반 앱의 더 중요한 부분으로 작용할 수 있습니다.  
+# <a name="perform-predefined-actions-on-the-host-model-driven-form-from-within-an-embedded-canvas-app"></a>포함된 캔버스 앱 내에서 호스트 모델 기반 양식에 대한 미리 정의된 작업 수행
+포함된 캔버스 앱은 호스트 모델 기반 양식에 대한 미리 정의된 작업을 수행하는 기능을 제공합니다. 이러한 작업을 통해 제조업체는 호스트 모델 기반 양식을 탐색하고, 새로 고치고, 저장할 수 있습니다. 이러한 작업을 사용하면 포함된 캔버스 앱이 모델 기반 양식과 모델 기반 앱의 더 중요한 부분으로 작용할 수 있습니다.  
 
-> [!NOTE]
-> 이 기능은 현지 미리 보기로 제공됩니다. <br />
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)] 
-
-**ModelDrivenFormIntegration** 개체에는 이제 제작자가 호스트 양식에서 작업을 수행할 수 있도록 하는 다음과 같은 새로운 메서드가 포함되어 있습니다.  
+**ModelDrivenFormIntegration** 개체에는 이제 제작자가 호스트 모델 기반 양식에서 작업을 수행할 수 있도록 하는 다음과 같은 새로운 메서드가 포함되어 있습니다.  
   
 ### <a name="navigatetomainformentityname-mainformname-recordid"></a>NavigateToMainForm(entityName, mainFormName, recordId)
-호스트 양식을 기본 양식으로 이동하고 지정된 레코드를 표시합니다.  
+호스트 모델 기반 양식을 기본 양식으로 이동하고 지정된 레코드를 표시합니다.  
 * **entityName** - 기본 양식의 상위 엔터티를 지정하는 필수 문자열 매개 변수입니다.  
 * **formName** - 탐색할 기본 양식의 이름을 지정하는 필수 문자열 매개 변수입니다.  
 * **recordId** - 기본 양식에 표시할 레코드의 ID를 지정하는 필수 문자열 매개 변수입니다.  
@@ -48,7 +44,7 @@ NavigateToMainForm 메서드를 호출하면 다음과 같은 오류 메시지�
   
   
 ### <a name="navigatetoviewentityname-viewname"></a>NavigateToView(entityName, viewName)
-보려는 호스트 양식으로 이동합니다.  
+보려는 호스트 모델 기반 양식으로 이동합니다.  
 * **entityName** - 보기의 상위 엔터티를 지정하는 필수 문자열 매개 변수입니다.  
 * **viewName** - 탐색할 기본 양식의 이름을 지정하는 필수 문자열 매개 변수입니다.  
  
@@ -72,8 +68,8 @@ OpenQuickCreateForm 메서드를 호출하면 다음과 같은 오류 메시지�
   
   
 ### <a name="refreshformshowprompt"></a>RefreshForm(showPrompt)  
-호스트 양식의 데이터를 새로 고칩니다.  
-* **showPrompt** - 호스트 양식에서 저장되지 않은 데이터를 저장하기 전에 사용자에게 확인 프롬프트를 표시할지 여부를 나타내는 필수 부울 매개 변수입니다. 값은 "true" 또는 "false"여야 합니다.
+호스트 모델 기반 양식의 데이터를 새로 고칩니다.  
+* **showPrompt** - 호스트 모델 기반 양식에서 저장되지 않은 데이터를 저장하기 전에 사용자에게 확인 프롬프트를 표시할지 여부를 나타내는 필수 부울 매개 변수입니다. 값은 "true" 또는 "false"여야 합니다.
  
 RefreshForm 메서드를 호출하면 다음과 같은 오류 메시지가 표시될 수 있습니다.
   
@@ -83,7 +79,7 @@ RefreshForm 메서드를 호출하면 다음과 같은 오류 메시지가 표�
   
   
 ### <a name="saveform"></a>SaveForm()  
-호스트 양식의 데이터를 저장합니다.  
+호스트 모델 기반 양식에 데이터를 저장합니다.  
 
 
 > [!NOTE]
@@ -91,7 +87,10 @@ RefreshForm 메서드를 호출하면 다음과 같은 오류 메시지가 표�
 
 ## <a name="see-also"></a>참조
 [모델 기반 양식에 캔버스 앱 포함](embed-canvas-app-in-form.md) <br />
-[포함된 캔버스 앱을 사용하여 현재 레코드를 데이터 컨텍스트로 전달](pass-current-embedded-canvas-app.md) <br />
-[포함된 캔버스 앱을 사용하여 관련 레코드의 목록을 데이터 컨텍스트로 전달](pass-related-embedded-canvas-app.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱 추가](embedded-canvas-app-add-classic-designer.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱 편집](embedded-canvas-app-edit-classic-designer.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱의 화면 크기 및 방향 사용자 지정](embedded-canvas-app-customize-screen.md) <br />
+[ModelDrivenFormIntegration 컨트롤의 속성 및 동작](embedded-canvas-app-properties-actions.md) <br />
 [포함된 캔버스 앱 공유](share-embedded-canvas-app.md) <br />
-[포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md)
+[포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md) <br />
+[공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />

@@ -1,5 +1,5 @@
 ---
-title: Common Data Service에서 OData v4 데이터 공급자 사용 | MicrosoftDocs
+title: Common Data Service에서 가상 엔터티 OData v4 데이터 공급자 사용 | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/04/2018
 ms.reviewer: ''
@@ -37,7 +37,7 @@ search.app:
 
 다음 표에는 Common Data Service 데이터 형식이 포함된 OData 엔터티 데이터 모델(EDM) 데이터 형식 매핑을 나열합니다. 
 
-|OData 데이터 형식|Common Data Service 데이터 유형  |
+|OData 데이터 형식|Common Data Service 데이터 형식  |
 |---------|---------|
 |`Edm.Boolean`|두 개의 옵션|
 |`Edm.DateTime`|날짜 및 시간|
@@ -52,9 +52,9 @@ search.app:
 
 ### <a name="odata-edm-data-types-that-are-not-supported-for-mapping-with-virtual-entities"></a>가상 엔터티와의 매핑에 지원되지 않는 OData EDM 데이터 형식 
 
-- `Edm.Binary `
+- `Edm.Binary`
 - `Edm.Time` 
-- `Edm.Float `
+- `Edm.Float`
 - `Edm.Single` 
 - `Edm.Int16` 
 - `Edm.Byte` 
@@ -69,7 +69,7 @@ search.app:
 1. 작업에서 **새로 만들기**를 클릭합니다.  
 1. **데이터 공급자 선택** 대화 상자에서 다음 데이터 원본에서 선택하고 **확인**을 클릭합니다.  
   
-    - **OData v4 데이터 공급자**. Common Data Service는 OData v4 개방형 표준을 지원하는 데이터 원본에 연결하는 데 사용할 수 있는 OData v4 데이터 공급자를 포함합니다.  
+    - **OData v4 데이터 공급자**. Common Data Service은 OData v4 개방형 표준을 지원하는 데이터 원본에 연결하는 데 사용할 수 있는 OData v4 데이터 공급자를 포함합니다.  
     - *사용자 지정 데이터 공급자*. 데이터 공급자 플러그 인을 가져온 경우 데이터 공급자가 여기에 표시됩니다. 추가 정보:  [개발자 설명서: 가상 엔터티 시작](/dynamics365/customer-engagement/developer/virtual-entities/get-started-ve)  
     
 1. **새 데이터 원본** 속성 페이지에서 다음 필드를 입력한 다음 레코드를 저장합니다.  

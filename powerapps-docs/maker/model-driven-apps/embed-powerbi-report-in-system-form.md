@@ -29,9 +29,9 @@ search.app:
 PowerApps 모델 기반 앱에서 Power BI 보고서를 사용하여 다양한 보고 및 분석을 시스템 양식으로 가져오고 사용자가 더 많은 것을 수행할 수 있도록 권한을 부여할 수 있습니다. 이를 통해 시스템 전체의 데이터를 집계하고 단일 레코드의 컨텍스트에 맞게 조정할 수 있습니다.
  
 ## <a name="prerequisites"></a>필수 구성 요소
-Power BI 콘텐츠를 포함하는 것은 선택적 기능이며 기본적으로 모든 환경에서 비활성화됩니다. Power BI 콘텐츠를 포함하기 전에 이 기능을 활성화해야 합니다. 추가 정보: [조직에서 Power BI 시각화를 활성화합니다](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-power-bi?#enable--visualizations-in-the-organization).
+Power BI 콘텐츠를 포함하는 것은 선택적 기능이며 기본적으로 모든 환경에서 비활성화됩니다. Power BI 콘텐츠를 포함하기 전에 이 기능을 활성화해야 합니다. 추가 정보: [조직에서 Power BI 시각화를 활성화합니다](https://docs.microsoft.com/dynamics365/customer-engagement/admin/use-power-bi?#enable--visualizations-in-the-organization).
 
-이 기능을 사용하려면 솔루션을 내보내고 xml 조각을 추가하도록 수정한 다음 환경으로 다시 가져오는 방법을 수정해야 합니다. 관리형 솔루션을 통해서만 대상 환경에 대한 변경 사항을 가져와야 합니다. 기존 관리형 솔루션에 대한 업데이트 설치 지침은 [솔루션 가져오기, 업데이트 및 내보내기](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/import-update-export-solutions)를 참조십시오.
+이 기능을 사용하려면 솔루션을 내보내고 xml 조각을 추가하도록 수정한 다음 환경으로 다시 가져오는 방법을 수정해야 합니다. 관리형 솔루션을 통해서만 대상 환경에 대한 변경 사항을 가져와야 합니다. 기존 관리형 솔루션에 대한 업데이트 설치 지침은 [솔루션 가져오기, 업데이트 및 내보내기](https://docs.microsoft.com/powerapps/maker/common-data-service/import-update-export-solutions)를 참조십시오.
 
 ## <a name="embed-without-contextual-filtering"></a>컨텍스트 필터링 없이 포함
 간단히 Power BI 보고서 및 타일을 포함하여 정확히 동일한 보고서를 얻을 수 있습니다. 이는 현재 모델 기반 양식에 컨텍스트를 포함하지 않으므로 엔터티의 모든 레코드에서 동일한 보고서나 타일을 얻게 됩니다. 예를 들어 다음 보고서는 모든 계정의 지리적 위치를 한 번에 보여주며 요약 정보를 표시하는 데 유용합니다.
@@ -90,7 +90,7 @@ XML의 `<sections>` 블록 내에 다음 코드 조각을 추가하여 시스템
         <PowerBIGroupId>00000000-0000-0000-0000-000000000000</PowerBIGroupId>
         <PowerBIReportId>544c4162-6773-4944-900c-abfd075f6081</PowerBIReportId>
         <TileUrl>https://xyz.powerbi.com/reportEmbed?reportId=544c4162-6773-4944-900c-abfd075f6081</TileUrl>
-        <PowerBIFilter>{"Filter": "[{\"$schema\":\"basic\",\"target\":{\"table\":\"My Active Accounts\",\"column\":\"Account Name\"},\"operator\":\"In\",\"values\":[$a],\"filterType\":1}]", "Alias": {"$a": "name"</PowerBIFilter>
+        <PowerBIFilter>{"Filter": "[{\"$schema\":\"basic\",\"target\":{\"table\":\"My Active Accounts\",\"column\":\"Account Name\"},\"operator\":\"In\",\"values\":[$a],\"filterType\":1}]", "Alias": {"$a": "name"}}</PowerBIFilter>
     </parameters>
 </control>
 ```
@@ -120,7 +120,7 @@ XML의 `<sections>` 블록 내에 다음 코드 조각을 추가하여 시스템
             }
     }
 
-이전 식의 대상 부분에서는 필터를 적용할 테이블과 열을 식별합니다. 연산자는 논리를 식별하고 값은 PowerApps 모델 기반 앱에서 전달된 데이터를 식별합니다. 일반적인 방식으로 매개 변수화하려면 값은 별칭으로 구성됩니다. 이전 식에서 계정의 **firstname** 및 **lastname** 값이 전달되고, 그 중 하나가 Power BI 보고서의 **계정 이름** 열에서 검색됩니다. **firstname** 및 **lastname**은 해당 값이 여기에 전달되는 거래처 엔터티의 고유 특성 이름입니다. 
+이전 식의 대상 부분에서는 필터를 적용할 테이블과 열을 식별합니다. 연산자는 논리를 식별하고 값은 PowerApps 모델 기반 앱에서 전달된 데이터를 식별합니다. 일반적인 방식으로 매개 변수화하려면 값은 별칭으로 구성됩니다. 이전 식에서 거래처의 **firstname** 및 **lastname** 값이 전달되고, 그 중 하나가 Power BI 보고서의 **거래처 이름** 열에서 검색됩니다. **firstname** 및 **lastname**은 해당 값이 여기에 전달되는 거래처 엔터티의 고유 특성 이름입니다. 
 
 [필터 구성](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#contructingfilters)에서 예제를 보고 $schema 및 filterType에 대한 적절한 값을 제공하여 보다 복잡한 필터 식을 만들 수 있습니다. JSON이 올바르게 생성되도록 *\"* 를 사용하여 필터 파트의 모든 리터럴을 이스케이프해야 합니다.
 
@@ -140,14 +140,14 @@ XML의 `<sections>` 블록 내에 다음 코드 조각을 추가하여 시스템
    > [!div class="mx-imgBorder"] 
    > ![](media/embed-powerbi/embed-powerbi-report-in-system-form-auth-3.png "Embed-powerbi-report-in-system-form-auth-3")
 
-5. PowerApps 내에 표시되는 보고서 데이터의 보기는 Power BI에서와 동일하며 PowerApps 보안 역할 및 권한은 표시되는 데이터에 영향을 주지 않습니다. 따라서 데이터는 Power BI 데이터 집합의 작성자가 보는 것과 본질적으로 동일합니다. PowerApps 보안 역할 및 팀과 유사한 데이터 액세스 제한을 적용하려면 RLS([행 수준 보안)](https://docs.microsoft.com/en-us/power-bi/service-admin-rls)를 Power BI와 함께 사용합니다.
+5. PowerApps 내에 표시되는 보고서 데이터의 보기는 Power BI에서와 동일하며 PowerApps 보안 역할 및 권한은 표시되는 데이터에 영향을 주지 않습니다. 따라서 데이터는 Power BI 데이터 집합의 작성자가 보는 것과 본질적으로 동일합니다. PowerApps 보안 역할 및 팀과 유사한 데이터 액세스 제한을 적용하려면 [RLS(행 수준 보안)를 Power BI와 함께 사용합니다](https://docs.microsoft.com/power-bi/service-admin-rls).
 6. 솔루션을 가져오고 사용자 지정 항목을 게시한 후 양식에 Power BI 보고서가 표시되지 않는 경우 모델 기반 양식 편집기에서 보고서를 열고 저장하여 양식 JSON이 다시 생성되도록 합니다.
 
 
 ### <a name="see-also"></a>참조
 
-[PowerApps 모델 기반 개인 대시보드에 Power BI 대시보드 포함](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)
+[PowerApps 모델 기반 개인 대시보드에 Power BI 대시보드 포함](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)
 
-[Dynamics 365 for Customer Engagement에서 Power BI 사용](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/use-power-bi)
+[Dynamics 365 for Customer Engagement를 Power BI와 통합](https://docs.microsoft.com/dynamics365/customer-engagement/admin/use-power-bi)
 
 [솔루션 가져오기, 업데이트 및 내보내기](../common-data-service/import-update-export-solutions.md)

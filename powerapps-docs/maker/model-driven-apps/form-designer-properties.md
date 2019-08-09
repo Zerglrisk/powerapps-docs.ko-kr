@@ -82,4 +82,4 @@ search.app:
 
 ## <a name="see-also"></a>참조
 [모델 기반 양식 디자이너 개요](form-designer-overview.md) <br />
-[양식 디자이너를 사용하여 양식 만들기 및 편집](create-and-edit-forms.md)
+[양식 디자이너를 사용하여 양식 만들기 또는 편집](create-and-edit-forms.md)

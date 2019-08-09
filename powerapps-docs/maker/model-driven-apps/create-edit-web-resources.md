@@ -4,7 +4,7 @@ description: 웹 리소스 생성 및 편집 방법 배우기
 ms.custom: ''
 ms.date: 06/02/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -38,7 +38,7 @@ search.app:
   
 예를 들어 HTML 페이지를 "new_myWebResource.htm" 웹 리소스로 만든 경우 다음과 같은 URL을 사용하여 브라우저에서 해당 페이지를 열 수 있습니다.  
  
-`<base URL>/WebResources/new_myWebResource.htm   `
+`<base URL>/WebResources/new_myWebResource.htm`
   
 여기서 *\<기본 URL>* 은 `dynamics.com`으로 끝나는 앱을 보는 데 사용하는 URL의 일부입니다. 웹 리소스가 시스템의 데이터이므로 조직에서 사용이 허가된 사용자만 이 방식으로 액세스할 수 있습니다. 일반적으로 웹 리소스는 직접 참조되기보다 양식에 포함되어 있습니다. 가장 일반적인 사용법은 양식 스크립트에 대해 JavaScript 라이브러리를 제공하는 것입니다.  
     

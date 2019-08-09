@@ -16,7 +16,7 @@ search.app:
   - D365CE
 ---
 
-# <a name="add-data-to-an-entity-in-common-data-service-by-using-power-query"></a>파워 쿼리를 사용하여 Common Data Service에서 엔터티에 데이터 추가
+# <a name="add-data-to-an-entity-in-common-data-service-by-using-power-query"></a>파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터 추가
 이 절차에서는 [Common Data Service](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드의 데이터로 해당 엔터티를 채웁니다. 동일한 기술을 사용하여 이러한 온라인 및 온-프레미스 소스의 데이터를 통합할 수 있습니다.
 
 * SQL Server
@@ -87,3 +87,6 @@ PowerApps 라이선스가 없는 경우 [무료로 가입](../signup-for-powerap
 이 기능에 대해 기쁘게 생각하며 사용자 의견을 들을 수 있길 기대하고 있습니다. 이 기능에 대해 [귀하의 제안 및 피드백을 보내주십시오](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)!
 
 [사용 권한에 대한 오류 메시지](data-platform-cds-newentity-troubleshooting-mashup.md)가 나타나면 관리자에 게 문의하십시오.
+
+> [!WARNING]
+> 이 기능을 사용하여 로드할 수 있는 실행 및 프로젝트당 50만 행의 제한이 있습니다.

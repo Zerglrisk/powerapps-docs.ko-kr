@@ -1,7 +1,7 @@
 ---
 title: 포함된 캔버스 앱을 사용하여 관련 레코드의 목록을 데이터 컨텍스트로 전달 | MicrosoftDocs
 ms.custom: ''
-ms.date: 12/17/2018
+ms.date: 06/25/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -24,12 +24,11 @@ search.app:
 ---
 
 # <a name="pass-a-list-of-related-records-as-data-context-to-an-embedded-canvas-app"></a>포함된 캔버스 앱을 사용하여 관련 레코드의 목록을 데이터 컨텍스트로 전달
+> [!IMPORTANT]
+> 모델 기반 양식에 포함된 캔버스 앱은 이제 미리 보기가 없이 일반적으로 사용할 수 있습니다. 아래 나열된 단계는 구식이며 모델 기반 양식에 포함된 캔버스 앱의 공개 미리 보기 릴리스에만 적용됩니다.
+> 최신 릴리스의 업데이트된 단계 목록은 [모델 기반 양식에 포함된 캔버스 앱 추가](embedded-canvas-app-add-classic-designer.md)를 참조하십시오.
 
 이 항목에서는 포함된 캔버스 앱을 추가하고 현재(기본 양식) 레코드와 관련된 레코드 목록을 포함된 캔버스 앱에 데이터 컨텍스트로 전달하는 방법에 대해 설명합니다.
-
-> [!NOTE]
-> 이 기능은 현지 미리 보기로 제공됩니다. <br />
-> [!INCLUDE [cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
 
 거래처 기본 양식의 포함된 캔버스 앱을 추가하고 현재 거래처 레코드와 관련된 연락처 목록을 포함된 캔버스 앱에 전달하려는 경우를 가정해 보겠습니다. 이렇게 하려면 다음 단계를 수행합니다.
 
@@ -80,7 +79,11 @@ search.app:
 
 ## <a name="see-also"></a>참조
 [모델 기반 양식에 캔버스 앱 포함](embed-canvas-app-in-form.md) <br />
-[포함된 캔버스 앱을 사용하여 현재 레코드를 데이터 컨텍스트로 전달](pass-current-embedded-canvas-app.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱 추가](embedded-canvas-app-add-classic-designer.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱 편집](embedded-canvas-app-edit-classic-designer.md) <br />
+[모델 기반 양식에 포함된 캔버스 앱의 화면 크기 및 방향 사용자 지정](embedded-canvas-app-customize-screen.md) <br />
 [포함된 캔버스 앱 내에서 호스트 양식에 대한 미리 정의된 작업 수행](embedded-canvas-app-actions.md) <br />
+[ModelDrivenFormIntegration 컨트롤의 속성 및 동작](embedded-canvas-app-properties-actions.md) <br />
 [포함된 캔버스 앱 공유](share-embedded-canvas-app.md) <br />
-[포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md)
+[포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md) <br />
+[공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />

@@ -2,8 +2,8 @@
 title: PowerApps의 모델 기반 통합 인터페이스 앱에 대한 속성 지정 | MicrosoftDocs
 description: 앱에 대한 표 제어를 구성하는 방법 알아보기
 keywords: ''
-ms.date: 06/06/2018
-ms.service: crm-online
+ms.date: 06/03/2019
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:
@@ -74,7 +74,8 @@ search.app:
 
     ![재배치 동작 편집](media/UnifiedInterface_ReadOnlyGrid_EditReflow.png "재배치 동작 편집")
 
-    b. **정적 옵션에 바인딩** 드롭다운에서 표 흐름 유형을 선택합니다.
+    b. **정적 옵션에 바인딩** 드롭다운에서 표 흐름 유형을 선택합니다. 
+
     |흐름 유형|설명|
     |--------------|--------------------|
     |**재배치**|표시 공간이 충분하지 않은 경우 표를 목록 모드로 렌더링하도록 합니다.|

@@ -26,7 +26,7 @@ search.app:
 ---
 # <a name="create-business-rules-and-recommendations-to-apply-logic-in-a-model-driven-app-form"></a>비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용
 
-이 항목에서는 비즈니스 규칙 및 추천을 만들어 JavaScript 코드를 작성하거나 플러그 인을 만들지 않고 모델 기반 앱에서 양식 논리를 적용할 수 있습니다. 비즈니스 규칙은 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 제공하는 방법을 보여줍니다. 기본 및 빨리 만들기 양식에 적용할 수 있으며 모델 기반 앱, Dynamics 365 Customer Engagement 웹 앱, Dynamics 365 for tablets 및 Dynamics 365 for Outlook(온라인 또는 오프 라인 모드)에서 작동합니다.
+이 항목에서는 비즈니스 규칙 및 추천을 만들어 JavaScript 코드를 작성하거나 플러그 인을 만들지 않고 모델 기반 앱에서 양식 논리를 적용할 수 있습니다. 비즈니스 규칙은 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 제공하는 방법을 보여줍니다. 기본 양식 및 빨리 만들기 양식에 적용할 수 있으며 모델 기반 앱, Dynamics 365 Customer Engagement 웹 앱, Dynamics 365 for tablets 및 Dynamics 365 for Outlook(온라인 또는 오프라인 모드)에서 작동합니다.
 
 > [!NOTE]
 > 모든 양식 및 서버에 적용되도록 엔터티에 대한 비즈니스 규칙을 정의하려면 [엔터티를 위한 비즈니스 규칙 만들기](/powerapps/maker/common-data-service/data-platform-create-business-rule)를 참조하십시오.
@@ -150,7 +150,14 @@ search.app:
      > [!div class="mx-imgBorder"] 
      > ![](media/account-name-on-form.png "양식의 거래처 이름 필드")
 
-## <a name="next-steps"></a>다음 단계  
+## <a name="frequently-asked-questions-faq"></a>질문과 대답(FAQ)
+*비즈니스 규칙이 읽기 전용 양식의 필드를 잠금 해제할 수 있습니까?*
+- 예, 비즈니스 규칙은 필드의 잠금을 해제하고 읽기 전용 양식으로 작업을 편집 할 수 있습니다.
+
+*작동하지 않는 비즈니스 규칙의 문제점을 해결하려면 어떻게 합니까?* 
+- 이 항목의 [비즈니스 규칙이 양식에 대해 실행되지 않습니까?](#is-your-business-rule-not-firing-for-a-form)를 참조하십시오.
+
+## <a name="see-also"></a>참조  
  [프로세스를 통해 사용자 지정 비즈니스 논리 만들기](guide-staff-through-common-tasks-processes.md)   
  [비즈니스 프로세스 흐름 만들기](/flow/create-business-process-flow)   
 

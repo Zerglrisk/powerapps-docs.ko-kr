@@ -49,7 +49,7 @@ search.app:
 ### <a name="custom"></a>사용자 지정
 
 구체적인 사용 사례가 있는 고급 제작자의 경우 자동 번호 매기기 필드의 원하는 형식을 완벽하게 사용자 지정하는 옵션을 제공합니다. 형식은 자동으로 증가 숫자, 서식이 지정된 날짜 또는 임의의 영숫자 시퀀스 등 문자열 상수로 구성될 수 있습니다.
-사용자 지정 형식을 정의하는 방법에 대한 자세한 내용은 [자동 번호 매기기 형식 옵션](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/developer/create-auto-number-attributes#autonumberformat-options)을 참조하십시오.
+사용자 지정 형식을 정의하는 방법에 대한 자세한 내용은 [자동 번호 매기기 형식 옵션](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-auto-number-attributes#autonumberformat-options)을 참조하십시오.
 
 ## <a name="seed-values"></a>시드 값
 
@@ -57,9 +57,7 @@ search.app:
 
 
 > [!IMPORTANT]
-> 현재 사용자 지정 초기값 지정은 새 자동 번호 매기기 필드를 만들때만 지원됩니다. 
->
-> 시드를 설정하면 현재 환경에서 지정된 특성의 현재 숫자 값만 변경됩니다. 이는 특성에 대한 일반적인 시작 값을 의미하지는 않습니다. 시드 값은 다른 환경에서 가져올 때 솔루션에 포함되지 않습니다. 
+> 시드를 설정하면 현재 환경에서 지정된 특성의 현재 숫자 값만 변경됩니다. 시드 값은 다른 환경에서 가져올 때 솔루션에 포함되지 않습니다. 
 
 ## <a name="create-an-autonumber-field"></a>자동 번호 매기기 필드 만들기
   
@@ -85,4 +83,4 @@ search.app:
 9. **완료**를 선택합니다.
 
 ## <a name="see-also"></a>참조
- [PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)
+ [PowerApps 포털을 사용한 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)

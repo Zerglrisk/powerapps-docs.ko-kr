@@ -1,11 +1,11 @@
 ---
 title: 'PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성 이해 | Microsoft Docs'
-description: 'PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성 알아보기'
+description: 'PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지를 사용한 모델 기반 앱에서 접근성 알아보기'
 keywords: '앱 디자이너, 사이트 맵 디자이너, 내 앱, Dynamics 365'
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.date: 06/18/2018
+ms.date: 05/20/2019
 ms.topic: article
 applies_to:
   - Dynamics 365 (online)
@@ -22,7 +22,8 @@ search.app:
 # <a name="accessibility-in-powerapps-app-designer-site-map-designer-and-my-apps-page"></a>PowerApps 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성
 
 Microsoft는 모든 사용자가 제품 및 서비스를 쉽게 사용할 수 있도록 최선을 다하고 있습니다. 추가 정보: [Microsoft 내게 필요한 옵션](http://www.microsoft.com/enable/default.aspx)  
-  
+ 
+이 주제에서는 모델 기반 앱에서 사용할 수 있는 내게 필요한 옵션 기능에 대해 설명합니다.  
   
 ## <a name="keyboard-shortcuts"></a>키보드 바로 가기 키  
 PowerApps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 않거나 지체 장애가 있는 사용자가 겪을 수 있는 문제를 해결합니다.  
@@ -103,6 +104,6 @@ PowerApps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 �
   
 -   [Google Chrome 내게 필요한 옵션 기술 문서](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
 
-## <a name="see-also"></a>참고 항목
+## <a name="see-also"></a>참조
 
-[Dynamics 365 Customer Engagement 응용 프로그램의 바로 가기 키 사용](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/keyboard-shortcuts)
+[Dynamics 365 Customer Engagement 응용 프로그램에서 키보드 단축키 사용](https://docs.microsoft.com/dynamics365/customer-engagement/basics/keyboard-shortcuts)

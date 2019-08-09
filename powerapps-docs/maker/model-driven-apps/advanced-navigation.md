@@ -6,7 +6,7 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.custom: ''
-ms.date: 04/11/2019
+ms.date: 05/14/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -64,11 +64,11 @@ search.app:
 먼저 ![설정 아이콘](media/powerapps-gear.png)  > **고급 사용자 지정** 메뉴에 필요한 설정이 있는지 확인합니다.
 
 **고급 사용자 지정**에서 사용할 수 없는 설정을 찾으려면 다음을 수행합니다.  
-1.  Dynamics 365 Administration Center에서 사용자 환경에 액세스합니다. 북미 지역에 있는 환경은 [https://port.crm.dynamics.com/G/instances/InstancePicker.aspx](https://port.crm.dynamics.com/G/instances/InstancePicker.aspx)로 이동합니다. 다른 위치에 대해서는 Dynamics 365 Administration Center에 직접 로그인을 참조하십시오.
-2.  원하는 환경을 선택한 다음 **열기**를 선택합니다.
+1.  PowerApps 모델 기반 앱의 앱 도구 모음에서 **설정** ![설정](../model-driven-apps/media/powerapps-gear.png)을 선택한 다음 **고급 설정**을 선택합니다. 
+2.  **설정**을 선택한 다음, 원하는 설정 영역을 선택합니다.
 
     > [!div class="mx-imgBorder"] 
-    > ![개방 환경](media/open-environment.png)
+    > ![설정 영역](media/settings-areas.png) 
 
 ## <a name="see-also"></a>참조
 [앱 디자이너를 사용하여 모델 기반 앱 만들기](create-edit-app.md)

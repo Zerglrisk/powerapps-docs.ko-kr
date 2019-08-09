@@ -2,7 +2,7 @@
 title: 모델 기반 앱을 사용하여 계층적 데이터 시각화 | MicrosoftDocs
 description: 계층적 관련 데이터 쿼리 및 시각화 방법 알아보기
 ms.custom: ''
-ms.date: 09/19/2018
+ms.date: 05/28/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''

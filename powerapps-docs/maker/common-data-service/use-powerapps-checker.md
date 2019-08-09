@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: cds
 ms.topic: article
-ms.date: 03/20/2019
+ms.date: 06/25/2019
 ms.author: matp
 search.audienceType:
   - maker
@@ -28,7 +28,8 @@ search.app:
 솔루션 검사기는 환경에서 내보낼 수 있는 비관리형 솔루션에서 작동합니다. 
 
 > [!NOTE]
-> 솔루션 검사기는 ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션에서 작동하지 않습니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
+> - 이 항목에서는 PowerApps 제조업체 포털에서 솔루션 검사기를 실행하는 방법에 대해 설명합니다. PowerShell 모듈을 사용하여 서비스와 직접 상호 작용할 수도 있습니다. Microsoft.PowerApps.Checker.PowerShell 모듈은 지원되는 버전의 온-프레미스 및 온라인 환경에서 관리되는 솔루션과 관리되지 않는 솔루션을 분석하거나 서비스를 빌드 및 릴리스 파이프 라인에 자동화하고 통합하는 데 사용할 수 있습니다. 추가 정보: [Microsoft.PowerApps.Checker.PowerShell Overview]( /powershell/powerapps/overview?view=pa-ps-latest#get-started-using-the-microsoftpowerappscheckerpowershell-module) 
+> - 솔루션 검사기는 ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션에서 작동하지 않습니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
 
 ## <a name="enable-the-solution-checker"></a>솔루션 검사 사용
 솔루션 검사기는 PowerApps 검사기 솔루션을 설치한 후 PowerApps의 솔루션 영역에서 사용할 수 있게 됩니다. 검색 또는 Microsoft AppSource에서 검색하여 찾을 수 없음을 확인합니다. 이를 설치하려면 다음 단계를 수행합니다.  
@@ -141,28 +142,39 @@ When you install the PowerApps checker these solution specific components are cr
 |플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-reg-no-속성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-no-attribute&client=PAChecker&source=featuredocs)  | Customer Engagement 플러그인 등록에 대한 Dynamics 365와 함께 필터링 특성을 포함합니다.    |
 |플러그 인 또는 사용자 지정 워크플로 활동   | [메타-회피-reg-검색](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-retrieve&client=PAChecker&source=featuredocs)  | Customer Engagement 플러그인에 대해 Dynamics 365에 주의하여 검색 및 RetrieveMultiple의 메시지를 등록합니다.    |
 |플러그 인 또는 사용자 지정 워크플로 활동   | [메타-제거-비활성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-inactive&client=PAChecker&source=featuredocs)    | Customer Engagement를 위해 Dynamics 365에서 비활성 구성을 제거합니다.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [window.top을 사용하지 마십시오](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-window-top&client=PAChecker&source=featuredocs)   | window.top을 사용하지 마십시오.    |
 |플러그 인 또는 사용자 지정 워크플로 활동   | [il-메타-방지-crm2011-depr-메시지](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-crm2011-depr-message&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 사용되지 않는 메시지를 사용해서는 안됩니다.     |
 |플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-crm4-이벤트](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-crm4-event&client=PAChecker&source=featuredocs) | Microsoft Dynamics CRM 4.0 플러그인 등록 스테이지를 사용하지 마십시오.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-전문화된 업데이트-ops](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-specialized-update-ops&client=PAChecker&source=featuredocs)  | Dynamics 365에서 Customer Engagement를 위해 전문화된 업데이트 작업 요청을 사용하지 마십시오.        |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-전문화된 업데이트-ops](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-specialized-update-ops&client=PAChecker&source=featuredocs)  | Dynamics 365에서 Customer Engagement를 위해 전문화된 업데이트 작업 요청을 사용하지 마십시오.    | 
+| 플러그 인 또는 사용자 지정 워크플로 활동 |  [il-use-autonumber-feature](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-use-autonumber-feature&client=PAChecker)  |사용자 지정 자동 번호 매기기 솔루션 대신 자동 번호 기능을 사용하십시오. | 
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-parallel-plugin](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-parallel-plugin&client=PAChecker)  | 병렬 패턴의 사용은 플러그인 내에서 피해야 합니다.  |
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-lock-plugin](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-lock-plugin&client=PAChecker)  | 플러그 인에서 정적 멤버를 잠그지 마십시오.  |
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [meta-avoid-retrievemultiple-annotation](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-retrievemultiple-annotation&client=PAChecker)  | 주석의 RetrieveMultiple에 플러그인을 등록하지 마십시오.  |
 |웹 리소스  | [웹-사용-async](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-async&client=PAChecker&source=featuredocs)  |  비동기적으로 HTTP 및 HTTPS 리소스와 상호작용 합니다.   |
 |웹 리소스  | [메타-제거-잘못된 양식-처리기](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-invalid-form-handler&client=PAChecker&source=featuredocs)  | Customer Engagement 양식 이벤트 등록에 대해 잘못된 Dynamics 365을 수정하거나 제거합니다.   |
 |웹 리소스  | [메타-분리-고아-양식-요소](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-orphaned-form-element&client=PAChecker&source=featuredocs)  | Customer Engagement 양식 이벤트 등록에 대해 분리된 Dynamics 365을 수정하거나 제거합니다.   |
 |웹 리소스  | [웹-방지-modals](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-modals&client=PAChecker&source=featuredocs)  | 모달 대화 상자를 사용하지 마십시오.   |
 |웹 리소스  | [웹-방지-crm2011-서비스-odata](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-odata&client=PAChecker&source=featuredocs)   | Microsoft Dynamics CRM 2011 OData 2.0 끝점을 대상으로 지정하지 마십시오.     |
 |웹 리소스  | [웹-방지-crm2011-서비스-soap](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-soap&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 SOAP 서비스를 대상으로 지정하지 마십시오.   |
-|웹 리소스  | [웹-방지-브라우저-전용-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-browser-specific-api&client=PAChecker&source=featuredocs) | Internet Explorer 레거시 APIs 또는 브라우저 플러그 인을 사용하지 마십시오.   |
+|웹 리소스  | [웹-방지-브라우저-전용-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-browser-specific-api&client=PAChecker&source=featuredocs) | Internet Explorer 레거시 API 또는 브라우저 플러그 인을 사용하지 마십시오.   |
 |웹 리소스  | [웹-방지-2011-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-2011-api&client=PAChecker&source=featuredocs)  | 사용되지 않는 Microsoft Dynamics CRM 2011 개체 모델을 사용해서는 안 됩니다.  |
-|웹 리소스  | [웹-사용-상대-uri](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-relative-uri&client=PAChecker&source=featuredocs)   | 절대 Common Data Service 엔드포인트 URL을 사용하지 마십시오.    |
+|웹 리소스  | [웹-사용-상대-uri](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-relative-uri&client=PAChecker&source=featuredocs)   | 절대 Common Data Service 끝점 URL을 사용하지 마십시오.    |
 |웹 리소스  | [웹-사용-클라이언트-컨텍스트](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-client-context&client=PAChecker&source=featuredocs)  | 클라이언트 컨텍스트를 사용하십시오.   |
 |웹 리소스  | [웹-사용-대화-api-변수](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-dialog-api-param&client=PAChecker&source=featuredocs)   | 대화 상자 API 매개 변수를 사용합니다.   |
 |웹 리소스  | [웹-사용-조직-설정](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-org-setting&client=PAChecker&source=featuredocs)   | 조직 설정을 사용하십시오.   |
 |웹 리소스  | [web-use-grid-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-grid-api&client=PAChecker&source=featuredocs)   | grid API를 사용하십시오.    |
 |웹 리소스  | [web-avoid-isActivityType](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-isActivityType&client=PAChecker&source=featuredocs)   | Xrm.Utility.isActivityType 매서드를 새로운 Xrm.Utility.getEntityMetadata로 대체하고 리본 규칙에서 사용하지 마십시오.    |
 |웹 리소스  | [meta-avoid-silverlight](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-silverlight&client=PAChecker&source=featuredocs)   | Silverlight 웹 리소스 사용은 더 이상 사용되지 않습니다.   |
+| 웹 리소스  | [web-remove-debug-script](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-remove-debug-script&client=PAChecker)  | 비 개발 환경에서 디버그 스크립트를 포함하지 마십시오.  | 
+| 웹 리소스  | [web-use-strict-mode](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-mode&client=PAChecker)  | 가능한 경우 엄격 모드를 사용하십시오.  | 
+| 웹 리소스  | [web-use-strict-equality-operators](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-equality-operators&client=PAChecker)  | 완전 항등 연산자를 사용하십시오.  | 
+| 웹 리소스  | [web-avoid-eval](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-eval&client=PAChecker)  | 'eval' 함수 또는 해당 기능을 사용하지 마십시오.  | 
+
+## <a name="limitations"></a>제한 사항
+
+현재 솔루션 검사기를 자동화할 수 없습니다. https://web.powerapps.com에서 실행해야 합니다. 추가 정보: [솔루션 검사기 실행](#run-the-solution-checker)
 
 
-## <a name="see-also"></a>참조
+### <a name="see-also"></a>참조
 [Common Data Service에 대한 모범 사례 및 지침](../../developer/common-data-service/best-practices/index.md)<br />
 [모델 기반 앱에 대한 모범 사례 및 지침](../../developer/model-driven-apps/best-practices/index.md)<br />
 [솔루션 검사기에 대한 일반적인 문제 및 해결 방법](common-issues-resolutions-solution-checker.md)<br />

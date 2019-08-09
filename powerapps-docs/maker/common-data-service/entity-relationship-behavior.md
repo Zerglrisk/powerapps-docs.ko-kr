@@ -1,5 +1,6 @@
 ---
-title: 엔터티 관계 동작(Common Data Service) | Microsoft Docs
+redirect_url: 'create-edit-entity-relationships#entity-relationship-behavior'
+title: 엔티티 관계 동작(Common Data Service) | Microsoft Docs
 description: <Description>
 ms.custom: ''
 ms.date: 08/01/2018
