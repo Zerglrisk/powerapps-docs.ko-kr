@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 8/14/2019
 ms.author: mduelae
 ms.reviewer: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 931efa2fcb2f30dcba7b1eef0118e734399e503e
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: f40a153ef20df0bccbdee915efe9af6aa88cb754
+ms.sourcegitcommit: f2ca557e43ab38c169eb3b754ac02c9321f9285f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "61563321"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69030562"
 ---
 #  <a name="enhanced-user-experience-with-the-unified-interface-for-model-driven-apps"></a>모델 기반 앱에 대 한 통합 인터페이스를 사용 하 여 향상 된 사용자 환경 
 
@@ -55,3 +55,7 @@ ms.locfileid: "61563321"
 
 ## <a name="accessibility"></a>액세스 가능성
 향상 된 접근성 환경에서는 화면 판독기를 사용 하 여 화면에 있는 정보를 가청 소리로 변환 하 고 더 많은 사람들이 앱을 사용할 수 있도록 브라유 점자 판독기로 인쇄할 수 있습니다. 자세한 내용은 [화면 판독기 사용](screen-reader.md)을 참조 하세요.
+
+##  <a name="unified-interface-community"></a>통합 인터페이스 커뮤니티
+
+통합 인터페이스 [커뮤니티 사이트로](https://community.dynamics.com/365/unified-interface/) 이동 하 여 통합 인터페이스에 대 한 원활한 전환을 계획 하 고 실행 하는 데 도움을 받고 블로그, 웹 세미나, 비디오, 이벤트 등에 대 한 전문가 및 동료와 협력 하세요.
