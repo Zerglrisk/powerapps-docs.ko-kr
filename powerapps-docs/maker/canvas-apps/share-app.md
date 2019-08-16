@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ecb3e7aa6db1100f33a3c80a0518166b035d2b32
-ms.sourcegitcommit: 988aa08353864f8177725262468c07abe75549f5
+ms.openlocfilehash: bfe5b35ebfddfe17cbf3898cc6f68f1a91d0b5e0
+ms.sourcegitcommit: 94ec67b283b9b03aa24cdc0ab43dd448b11b0547
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68961491"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530253"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
@@ -135,11 +135,11 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
 > [!NOTE]
 > 게스트에는 공유 된 앱에 대 한 **공동 소유자** 역할이 아닌 **사용자** 역할만 할당 될 수 있습니다.
 
-### <a name="prerequisites"></a>전제 조건
+### <a name="prerequisites"></a>필수 구성 요소
 1. Azure Active Directory (Azure AD)에서 테 넌 트에 대해 B2B 외부 공동 작업을 사용 하도록 설정 합니다. 자세한 정보는 [B2B 외부 공동 작업을 사용 하도록 설정 하 고 게스트를 초대할 수 있는 사람 관리](/azure/active-directory/b2b/delegate-invitations)
     - B2B 외부 공동 작업은 기본적으로 설정 되어 있습니다. 그러나 테 넌 트 관리자는 설정을 변경할 수 있습니다.  Azure AD B2B에 대 한 자세한 내용은 [AZURE AD b2b의 게스트 사용자 액세스 란?](/azure/active-directory/b2b/what-is-b2b) 을 참조 하세요.  
 2. Azure AD 테 넌 트에 게스트 사용자를 추가할 수 있는 계정에 대 한 액세스. 관리자 및 게스트 초대자 역할을 가진 사용자는 테 넌 트에 게스트를 추가할 수 있습니다.   
-3. 공유 중인 앱이 연결 된 테 넌 트에서 게스트 사용자에 게 PowerApps 라이선스를 할당 해야 합니다. Canvas 앱 게스트 액세스를 일반적으로 사용 하기 전에, 해당 홈 테 넌 트에 PowerApps 라이선스가 있는 게스트는 해당 테 넌 트의 라이선스를 할당할 필요가 없습니다.
+3. 공유 중인 앱이 연결 된 테 넌 트에서 게스트 사용자에 게 PowerApps 라이선스를 할당 해야 합니다. 아직 가능 하지는 않지만, canvas 앱 게스트 액세스를 일반적으로 사용 하기 전에 해당 홈 테 넌 트에 PowerApps 라이선스가 있는 게스트는 해당 테 넌 트의 라이선스를 할당할 필요가 없습니다.
 
 ### <a name="steps-to-grant-guest-access"></a>게스트 액세스 권한을 부여 하는 단계
 1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 자세한 정보는 [빠른 시작: Azure AD](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)에서 새 게스트 사용자를 추가 합니다.
