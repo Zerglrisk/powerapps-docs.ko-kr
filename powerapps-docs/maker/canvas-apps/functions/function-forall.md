@@ -7,24 +7,24 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 04/26/2016
+ms.date: 08/15/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f538d785b9655b94a44a79c3299e979bbfe88883
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: eae185fc52f368fa09ddbfe221553ddf6cc3a16d
+ms.sourcegitcommit: 9163abbe9a24298f216f15139f977adfd2c3f2ae
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63320951"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69550370"
 ---
 # <a name="forall-function-in-powerapps"></a>PowerApps의 ForAll 함수
 [테이블](../working-with-tables.md)의 모든 [레코드](../working-with-tables.md#records)에 대해 값을 계산하고 작업을 수행합니다.
 
 ## <a name="description"></a>설명
-**ForAll** 함수는 테이블의 모든 레코드에 대한 수식을 계산합니다.  수식은 값을 계산하고 데이터 수정이나 연결 작업과 같은 작업을 수행할 수 있습니다.
+**ForAll** 함수는 테이블의 모든 레코드에 대한 수식을 계산합니다.  수식은 값을 계산하고 데이터 수정이나 연결 작업과 같은 작업을 수행할 수 있습니다.  [ **With** 함수](function-with.md) 를 사용 하 여 단일 레코드에 대 한 수식을 계산 합니다.
 
 [!INCLUDE [record-scope](../../../includes/record-scope.md)]
 
@@ -36,9 +36,9 @@ ms.locfileid: "63320951"
 수식의 결과가 *공백* 값이면 해당 입력 레코드에 대한 결과 테이블에 레코드가 없습니다.  이런 경우 결과 테이블에는 원본 테이블보다 적은 레코드가 있습니다.
 
 ### <a name="taking-action"></a>작업 수행
-수식에는 작업(예: **[Patch](function-patch.md)** 및 **[Collect](function-clear-collect-clearcollect.md)** 함수를 사용하여 데이터 원본의 레코드를 수정하는 작업)을 수행하는 함수가 포함될 수 있습니다.  수식은 연결에 관한 메서드를 호출할 수도 있습니다.  [**;** 연산자](operators.md)를 사용하면 레코드당 여러 작업을 수행할 수 있습니다. **ForAll** 함수의 대상인 테이블은 수정할 수 없습니다.
+수식에는 작업(예: **[Patch](function-patch.md)** 및 **[Collect](function-clear-collect-clearcollect.md)** 함수를 사용하여 데이터 원본의 레코드를 수정하는 작업)을 수행하는 함수가 포함될 수 있습니다.  수식은 연결에 관한 메서드를 호출할 수도 있습니다.  [ **;** 연산자](operators.md)를 사용하면 레코드당 여러 작업을 수행할 수 있습니다. **ForAll** 함수의 대상인 테이블은 수정할 수 없습니다.
 
-수식을 작성할 때는 레코드가 임의의 순서로 처리될 수 있고 가능한 경우에는 병렬로 처리될 수 있음에 유의하십시오.  테이블의 첫 번째 레코드는 마지막 레코드 다음에 처리될 수 있습니다.  순서 종속성을 피하도록 주의하십시오.  이러한 이유로 인해, **ForAll** 함수 내에서 **[UpdateContext](function-updatecontext.md)**, **[Clear](function-clear-collect-clearcollect.md)** 및 **[ClearCollect](function-clear-collect-clearcollect.md)** 함수를 사용할 수 업습니다. 해당 함수는 이러한 효과에 영향을 받기 쉬운 변수를 보유하는 데 쉽게 사용될 수 있기 때문입니다.  **[Collect](function-clear-collect-clearcollect.md)** 를 사용할 수 있지만 레코드가 추가되는 순서는 정의되지 않습니다.
+수식을 작성할 때는 레코드가 임의의 순서로 처리될 수 있고 가능한 경우에는 병렬로 처리될 수 있음에 유의하십시오.  테이블의 첫 번째 레코드는 마지막 레코드 다음에 처리될 수 있습니다.  순서 종속성을 피하도록 주의하십시오.  이러한 이유로 인해, **ForAll** 함수 내에서 **[UpdateContext](function-updatecontext.md)** , **[Clear](function-clear-collect-clearcollect.md)** 및 **[ClearCollect](function-clear-collect-clearcollect.md)** 함수를 사용할 수 업습니다. 해당 함수는 이러한 효과에 영향을 받기 쉬운 변수를 보유하는 데 쉽게 사용될 수 있기 때문입니다.  **[Collect](function-clear-collect-clearcollect.md)** 를 사용할 수 있지만 레코드가 추가되는 순서는 정의되지 않습니다.
 
 데이터 원본을 수정하는 **Collect**, **Remove** 및 **Update**를 비롯한 몇 가지 함수는 변경된 데이터 원본을 반환 값으로 반환합니다.  이러한 반환 값이 **ForAll** 테이블의 모든 레코드에 대해 반환되면 커지고 상당한 리소스를 소비할 수 있습니다.  또한 이러한 반환 값이 필요한 값이 아닐 수도 있습니다. **ForAll**은 병렬 작업이 가능하고 이러한 함수의 파생 작업을 그 결과를 얻는 것으로부터 분리할 수 있기 때문입니다.  다행이 **ForAll**의 반환 값이 실제로 사용되지 않으면(데이터 수정 함수의 경우) 반환 값이 생성되지 않아서 리소스나 순서 관련 문제가 없습니다.  하지만 **ForAll**의 결과를 사용하고 데이터 원본을 반환하는 함수 중 하나를 사용하는 경우, 결과를 구조화하는 방법에 대해 신중히 생각하고, 작은 데이터 집합부터 먼저 시도해보십시오.  
 
