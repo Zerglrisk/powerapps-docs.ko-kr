@@ -169,7 +169,7 @@
                   href: canvas-apps/connections/connection-office365-outlook.md
                 - name: Excel
                   href: canvas-apps/connections/connection-excel.md
-                - name: 클라우드 저장소
+                - name: 클라우드 스토리지
                   href: canvas-apps/connections/cloud-storage-blob-connections.md
             - name: 연결 추가
               href: ./canvas-apps/add-data-connection.md
@@ -677,6 +677,8 @@
                   href: ./canvas-apps/functions/function-form.md
                 - name: Weekday
                   href: ./canvas-apps/functions/function-datetime-parts.md
+                - name: 사용
+                  href: ./canvas-apps/functions/function-with.md
                 - name: Year
                   href: ./canvas-apps/functions/function-datetime-parts.md
         - name: 솔루션에서 앱 만들기
@@ -842,7 +844,7 @@
                       href: ./model-driven-apps/add-move-or-delete-tabs-on-form.md
                     - name: 양식 디자이너의 속성
                       href: ./model-driven-apps/form-designer-properties.md
-                    - name: 헤더 속성 구성 중
+                    - name: 헤더 속성 구성
                       href: ./model-driven-apps/form-designer-header-properties.md
                     - name: 트리 뷰 사용
                       href: ./model-driven-apps/using-tree-view-on-form.md
