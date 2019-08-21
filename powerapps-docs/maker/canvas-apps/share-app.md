@@ -162,7 +162,7 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
 게스트 액세스를 위해 앱을 공유한 후 게스트가 공유의 일부로 전송 된 전자 메일에서 공유 하는 앱을 검색 하 고 액세스할 수 있습니다.
 
 > [!div class="mx-imgBorder"]  
-> ![게스트가 앱 공유 전자 메일을 받습니다] . (media/share-app/guest_access_doc_4.png "게스트가 앱 공유 전자 메일을 받습니다") .
+> ![게스트가 앱 공유 전자 메일을 받습니다](media/share-app/guest_access_doc_4.png "게스트가 앱 공유 전자 메일을 받습니다") .
 
 ### <a name="frequently-asked-questions"></a>질문과 대답
 
