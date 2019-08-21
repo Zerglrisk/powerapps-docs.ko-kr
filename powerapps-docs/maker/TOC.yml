@@ -1009,7 +1009,7 @@
           href: ./model-driven-apps/distribute-model-driven-app.md
         - name: 단계별 도움말 만들기
           href: ./model-driven-apps/create-guided-help-learning-path.md
-    - name: 전환 웹 클라이언트 애플리케이션
+    - name: 통합 인터페이스로 전환
       items:
         - name: 전환 빠른 시작
           href: ./model-driven-apps/transition-web-app.md
