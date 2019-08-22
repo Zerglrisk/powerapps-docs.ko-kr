@@ -1,42 +1,44 @@
 ---
 title: PowerApps의 일반적인 문제 및 해결 방법 | Microsoft Docs
 description: PowerApps의 일반적인 문제 및 해결 방법에 대한 목록입니다.
-author: AFTOwen
+author: KumarVivek
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 11/09/2018
-ms.author: anneta
+ms.date: 08/21/2019
+ms.author: kvivek
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3c3b559be5f27c6ead9a4ea2f02027637c8aea8e
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: ef5da72c39d06d021765500fb5d1e55299dfb1cc
+ms.sourcegitcommit: d6b7f98b4ae011a753c1e72d7708f0f8dfbfb1fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61551632"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69896244"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 
 이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.
 
-## <a name="added-after-february-2018"></a>2018년 2월 이후에 추가됨
+1. **인증자를 사용 하는 경우 특정 Android 모바일 장치에서 로그인 문제** (8 월 21 일, 2019)
 
-1. **Android 모바일 장치에서 카메라 문제** (2019 1 월 1 년)
+    특정 장치 및 시나리오에서 인증자를 사용 하는 경우 로그인 오류가 발생할 수 있습니다. 이는 OEM이이 기능을 제한 하기 때문입니다. 오류 및 가능한 완화 방법에 대 한 자세한 내용은 [여기](https://github.com/AzureAD/azure-activedirectory-library-for-android/wiki/ADALError:-BROKER_AUTHENTICATOR_NOT_RESPONDING)를 참조 하세요.    
 
-    카메라 컨트롤 Android 장치에서 작동 중지 하는 경우 앱을 다시 게시 및 장치에서 다시 합니다. Android 운영 체제의 변경에 대 한 응답에서 업데이트 되었습니다. 카메라 컨트롤을 다시 게시할 때 앱 업데이트 이점을 합니다.
+1. **Android 모바일 장치에서** 발생 하는 카메라 문제 (1 월 1 일, 2019)
 
-1. **유연한 높이 갤러리 스크롤** (11 월 27 2018 년 6)
+    카메라 컨트롤이 Android 장치에서 작동 중지 되 면 앱을 다시 게시 하 고 장치에서 다시 엽니다. Android 운영 체제의 변경에 대 한 응답으로 카메라 컨트롤이 업데이트 되었으며 앱은 다시 게시할 때 업데이트를 활용 합니다.
 
-    손가락으로 스크롤할 때 제한 사항에 실행 하면 들지 및 스크롤을 다시 시작 합니다.
+1. **유연한 높이 갤러리에서 스크롤** (11 월 27 일, 2018)
 
-1. **PowerApps에 대 한 Windows에 마우스 또는 터치 입력을 사용 하 여 드로잉을 부드러운 없는** (Sep. 24, 2018)
+    손가락으로 스크롤하면 제한이 발생 하면이를 리프트 하 고 다시 스크롤을 시작 합니다.
 
-    펜 컨트롤 Windows 앱의 입력에 터치 또는 마우스를 사용 하 여 그리기에 대 한 지원 부분에만 있습니다. 스트로크는 간헐적으로 발생 될 수 있습니다. 부드러운 그리기 펜을 사용 하거나 브라우저에서 앱을 실행 합니다.
+1. **Windows 용 PowerApps에서 마우스 또는 터치 입력을 사용 하 여 그리기는 자연스럽 게 안 됨** 2005. 24, 2018)
+
+    펜 컨트롤은 Windows 앱에서 마우스 또는 터치 입력을 사용한 그리기를 부분적 으로만 지원 합니다. 스트로크는 간헐적 일 수 있습니다. 부드러운 그리기의 경우 펜을 사용 하거나 브라우저에서 앱을 실행 합니다.
 
 1. **PowerApps Mobile의 여러 미디어 컨트롤**(2018년 8월 2일)
 
@@ -51,7 +53,7 @@ ms.locfileid: "61551632"
 
 1. <a name="out-of-memory"></a>**브라우저 메모리 부족**(2018년 7월 23일)
 
-    PowerApps를 사용 하는 동안 메모리 부족 하면 Chrome, Microsoft Edge 또는 Internet Explorer의 64 비트 버전을 다운로드를 고려 하세요.
+    PowerApps를 사용 하는 동안 메모리가 부족 한 경우 64 비트 버전의 Chrome, Microsoft Edge 또는 Internet Explorer를 다운로드 하는 것을 고려 하세요.
 
 1. **포함된 앱에서 웹 사이트 시작**(2018년 5월 10일)
 
@@ -72,8 +74,6 @@ ms.locfileid: "61551632"
 1. **SharePoint 폼의 레이아웃 변경**(2018년 3월 7일)
 
     특정 언어의 SharePoint 목록 폼을 사용자 지정하는 동안 레이아웃을 세로(기본값)에서 가로로 변경하려고 하면 앱에 여러 오류가 표시될 수 있습니다(컨트롤에 노란색 삼각형). 이러한 오류를 해결하고 가로 레이아웃을 유지하려면 **실행 취소**를 클릭합니다.
-
-## <a name="added-in-or-before-february-2018"></a>2018년 2월 이전에 추가
 
 1. **데이터 테이블 컨트롤**
 
@@ -151,7 +151,7 @@ ms.locfileid: "61551632"
 
 1. **Excel 데이터는 표 형식으로 작성되어야 합니다**.
 
-     Excel을 데이터 원본으로 사용할 때의 제한 사항에 대한 내용은 [클라우드 저장소 연결](connections/cloud-storage-blob-connections.md#known-limitations)을 참조하세요.
+     Excel을 데이터 원본으로 사용할 때의 제한 사항에 대한 내용은 [클라우드 스토리지 연결](connections/cloud-storage-blob-connections.md#known-limitations)을 참조하세요.
 
 1. **SharePoint 사용자 지정 목록은 있지만 라이브러리, 목록 열의 일부 유형, 또는 여러 개의 값이나 선택 영역을 지원하는 열은 지원되지 않습니다**.
 
