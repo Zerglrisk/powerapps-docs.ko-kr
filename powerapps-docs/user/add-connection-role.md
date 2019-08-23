@@ -1,5 +1,5 @@
 ---
-title: 에 연결 역할을 추가 하 여 레코드를 서로 연결 | MicrosoftDocs
+title: 서로 간에 레코드를 연결 하는 연결 역할 추가 | MicrosoftDocs
 ms.custom: ''
 author: mduelae
 manager: kvivek
@@ -15,14 +15,14 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: c606a7b809f1684cbe60b5e53e4b291f11b1d164
-ms.sourcegitcommit: 4e4f7945c3f24faf9bb8a856a5f3892cbfd113be
+ms.openlocfilehash: d824e76f6ffd5cc72f2f030f7009d3f4a140bf8a
+ms.sourcegitcommit: d6b7f98b4ae011a753c1e72d7708f0f8dfbfb1fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "68786904"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69896253"
 ---
-# <a name="add-a-connection-role-to-to-link-records-to-each-other"></a>에 연결 역할을 추가 하 여 레코드를 서로 연결 |
+# <a name="add-a-connection-role-to-link-records-to-each-other"></a>연결 역할을 추가 하 여 레코드를 서로 연결
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 

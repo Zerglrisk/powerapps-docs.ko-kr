@@ -5,7 +5,7 @@ author: Mattp123
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
-ms.date: 11/16/2018
+ms.date: 8/21/2019
 ms.author: matp
 manager: kvivek
 ms.custom: ''
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 31bef01ef46fd0fe2ed7bae30e63d53c169812db
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: 00b7d5dc7960429f7cc13215cd118e26e206d7d4
+ms.sourcegitcommit: d6b7f98b4ae011a753c1e72d7708f0f8dfbfb1fb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "63321586"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "69896191"
 ---
 # <a name="run-an-app-in-a-web-browser"></a>웹 브라우저에서 앱 실행
 앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 항목에서는 [Dynamics 365 홈페이지](https://home.dynamics.com)에서 웹 브라우저로 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다.
@@ -38,23 +38,15 @@ ms.locfileid: "63321586"
 [https://home.dynamics.com](https://home.dynamics.com)에서 Dynamics 365에 로그인합니다.
 
 ## <a name="find-an-app-on-the-home-page"></a>홈페이지에서 앱 찾기
-홈페이지에서는 여러 형식의 비즈니스 앱을 표시할 수 있지만 검색 상자에 해당 이름의 일부를 입력하여 특정 앱을 찾을 수 있습니다. 또한 PowerApps와 같은 특정 원본에서 만든 앱만 표시되도록 목록을 필터링할 수 있습니다. 이를 수행하려면 **필터**를 클릭하거나 탭한 다음, 원본을 선택합니다.
+홈페이지에서는 여러 형식의 비즈니스 앱을 표시할 수 있지만 검색 상자에 해당 이름의 일부를 입력하여 특정 앱을 찾을 수 있습니다. 또한 PowerApps와 같은 특정 원본에서 만든 앱만 표시되도록 목록을 필터링할 수 있습니다. 이렇게 하려면 **필터** 를 선택한 다음 원본을 선택 합니다.
 
-앱을 최근에 설치한 경우 앱 목록에 즉시 표시되지 않을 수 있습니다. **동기화**를 클릭하거나 탭하여 모든 앱을 표시합니다. 이 프로세스는 최대 1분 정도 걸릴 수 있습니다.
+앱을 최근에 설치한 경우 앱 목록에 즉시 표시되지 않을 수 있습니다. **동기화** 를 선택 하 여 모든 앱을 표시 합니다. 이 프로세스는 최대 1분 정도 걸릴 수 있습니다.
 
 ![](./media/run-app-browser/dynamics-365-home.png)
 
-## <a name="run-an-app-from-the-task-pane"></a>작업 창에서 앱 실행
-앱을 찾은 후에 쉽게 액세스할 수 있도록 작업 창에 고정할 수 있습니다. 앱을 고정하려면 앱 타일에서 줄임표(...)를 클릭하거나 누르고 **이 앱 고정**을 클릭하거나 누릅니다.
-
-![](./media/run-app-browser/homepage-pin.png)
-
-작업 창에서 고정된 앱을 실행하려면 왼쪽 위 모서리에서 **Dynamics 365**를 클릭하거나 탭하고 **내 앱**에서 앱을 찾은 다음, 클릭하거나 탭합니다.
-
-![](./media/run-app-browser/taskpane.png)
 
 ## <a name="run-an-app-from-a-url"></a>URL에서 앱 실행
-브라우저에 책갈피로 앱의 URL을 저장하고 책갈피를 선택하여 실행할 수 있습니다. 또는 URL을 이메일을 통해 링크로 보낼 수 있습니다. 다른 사용자가 앱을 만들고 이메일에서 사용자와 공유하는 경우 이메일의 링크를 클릭하거나 탭하여 앱을 실행할 수 있습니다. URL을 사용하여 앱을 실행하는 경우에 Azure Active Directory 자격 증명을 사용하여 로그인하라는 메시지가 표시될 수 있습니다.
+브라우저에 책갈피로 앱의 URL을 저장하고 책갈피를 선택하여 실행할 수 있습니다. 또는 URL을 이메일을 통해 링크로 보낼 수 있습니다. 다른 사용자가 앱을 만들고 전자 메일을 통해 공유 하는 경우 전자 메일의 링크를 선택 하 여 앱을 실행할 수 있습니다. URL을 사용하여 앱을 실행하는 경우에 Azure Active Directory 자격 증명을 사용하여 로그인하라는 메시지가 표시될 수 있습니다.
 
 ![](./media/run-app-browser/web-login.png)
 
