@@ -13,24 +13,24 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ee9ea62280b06b75bf71885c532659f0381e6d9a
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: HT
+ms.openlocfilehash: c66277cbd0d0ded3bfe0bee942e9160a650d2a98
+ms.sourcegitcommit: 6dea3559e012e56fde09b95ea8a2af2a81b89a91
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61555504"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70000093"
 ---
 # <a name="create-a-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
 
 표 형식의 Excel 데이터를 기반으로 처음부터 고유한 캔버스 앱을 만든 다음, 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 시간이 더 걸리지만 숙련된 앱 제작자는 이 방법으로 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>필수 구성 요소
 
 이 자습서의 단계를 정확하게 수행하려면 먼저 이 샘플 데이터를 사용하여 Excel 파일을 만듭니다.
 
 1. 이 데이터를 복사한 다음 Excel 파일에 붙여넣습니다.
 
-    | StartDay | StartTime | 자원 봉사자 | Backup |
+    | StartDay | StartTime | 자원 봉사자 | 백업 |
     | --- | --- | --- | --- |
     | 토요일 |오전 10시 정오 |Vasquez |Kumashiro |
     | 토요일 |정오~오후 2시 |Ice |Singhal |
@@ -43,7 +43,7 @@ ms.locfileid: "61555504"
 
     자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
 
-3. 파일을 **eventsignup.xls** 이름으로 저장한 다음, OneDrive와 같은 [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
+3. **Eventsignup. .xlsx**이름으로 파일을 저장 하 고 닫은 다음 [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)(예: OneDrive)에 업로드 합니다.
 
 > [!IMPORTANT]
 > 사용자의 Excel 파일을 사용할 수 있으며 일반 개념에 대해서만 이 자습서를 검토할 수 있습니다. 그러나 Excel 파일의 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
@@ -129,7 +129,7 @@ ms.locfileid: "61555504"
 
 1. 오른쪽 창의 **속성** 탭에서 **필드** 레이블 옆에 있는 **편집**을 선택합니다.
 
-1. **Title2** 상자에서 **자원 봉사자**를 선택합니다.
+1. **Title2** 상자에서 **지원자**를 선택 하 고, **Subtitle2** 상자에서 **Startday**를 선택 하 고, **Body1** 상자에서 **StartTime**을 선택 합니다.
 
 1. **데이터** 창의 오른쪽 위 모서리에서 닫기 아이콘(X)을 선택하여 창을 닫습니다.
 
