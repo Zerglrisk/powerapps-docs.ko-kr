@@ -1,6 +1,6 @@
 ---
 title: Excel 연결 개요 | Microsoft Docs
-description: 클라우드 저장소 계정으로 통합 문서를 저장한 다음 앱에서 데이터에 연결하여 Excel로 데이터를 표시하고 업데이트할 수 있습니다.
+description: 클라우드 스토리지 계정으로 통합 문서를 저장한 다음 앱에서 데이터에 연결하여 Excel로 데이터를 표시하고 업데이트할 수 있습니다.
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -26,14 +26,14 @@ ms.locfileid: "61545446"
 Excel은 연결의 *한 종류*입니다. 앱에서 Excel 데이터를 표시하려면 다음을 수행합니다.
 
 1. [Excel 데이터를 표로 서식 지정](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-E81AA349-B006-4F8A-9806-5AF9DF0AC664)합니다.
-2. Box, Dropbox, Google Drive, OneDrive 및 비즈니스용 OneDrive와 같은 클라우드 저장소 계정으로 Excel 파일을 저장합니다.
-3. [클라우드 저장소 계정에 연결](../add-manage-connections.md)한 다음, 데이터 원본으로 Excel 테이블을 추가합니다.
+2. Box, Dropbox, Google Drive, OneDrive 및 비즈니스용 OneDrive와 같은 클라우드 스토리지 계정으로 Excel 파일을 저장합니다.
+3. [클라우드 스토리지 계정에 연결](../add-manage-connections.md)한 다음, 데이터 원본으로 Excel 테이블을 추가합니다.
 4. [앱을 자동으로 생성](../get-started-create-from-data.md)하거나 **갤러리** 컨트롤 등을 추가하고 구성하여 앱에 이 정보를 표시합니다.
 
 > [!NOTE]
 > PowerApps의 Excel 테이블에 연결하면, PowerApps는 Excel 테이블의 각 행에 고유한 ID가 있는 **\_PowerAppsId_** 라고 하는 열을 만듭니다.
 
-[클라우드 저장소 연결 개요](cloud-storage-blob-connections.md)는 연결을 추가하고 Excel 표를 데이터 원본으로 저장하며 앱에서 Excel 데이터를 사용하는 방법을 보여줍니다.
+[클라우드 스토리지 연결 개요](cloud-storage-blob-connections.md)는 연결을 추가하고 Excel 표를 데이터 원본으로 저장하며 앱에서 Excel 데이터를 사용하는 방법을 보여줍니다.
 
 다른 종류의 데이터에 연결하는 방법에 대한 자세한 내용은 [PowerApps 연결 목록](../connections-list.md)을 참조하십시오.
 

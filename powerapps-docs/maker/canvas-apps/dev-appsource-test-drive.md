@@ -115,5 +115,5 @@ RemoveIf( SiteInspectorCollect, ID = record.ID )
 ## <a name="how-do-i-list-my-test-drive-solution-on-appsourcecom"></a>AppSource.com에 내 시험 사용 솔루션을 어떻게 게시하나요?
 이제 앱이 준비되었으므로 AppSource.com에 게시할 시간입니다. 이 프로세스를 시작하려면 PowerApps.com의 [신청서](https://powerapps.microsoft.com/partners/get-listed/)를 작성하세요.
 
-신청한 후 AppSource.com에 게시할 앱을 제출하는 방법에 대한 지침이 포함된 전자 메일을 받게 됩니다. 전체 종단 간 프로세스를 캡처하는 온보딩 설명서는 [여기](https://go.microsoft.com/fwlink/?linkid=851031)에서 다운로드할 수도 있습니다.
+신청한 후 AppSource.com에 게시할 앱을 제출하는 방법에 대한 지침이 포함된 전자 메일을 받게 됩니다. 전체 엔드투엔드 프로세스를 캡처하는 온보딩 설명서는 [여기](https://go.microsoft.com/fwlink/?linkid=851031)에서 다운로드할 수도 있습니다.
 

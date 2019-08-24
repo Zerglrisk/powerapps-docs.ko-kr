@@ -1,6 +1,6 @@
 ---
-title: 클라우드 저장소 연결 개요 | Microsoft Docs
-description: 클라우드 저장소 계정에 연결하고 앱에서 Excel 데이터를 표시하는 방법 참조
+title: 클라우드 스토리지 연결 개요 | Microsoft Docs
+description: 클라우드 스토리지 계정에 연결하고 앱에서 Excel 데이터를 표시하는 방법 참조
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -20,8 +20,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "61546074"
 ---
-# <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 저장소에 연결
-PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  
+# <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 스토리지에 연결
+PowerApps에서 여러 클라우드 스토리지 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  
 
 | **Azure Blob** | **Box** | **Dropbox** | **Google 드라이브** | **OneDrive** | **비즈니스용 <br>OneDrive** |
 | --- | --- | --- | --- | --- | --- |
@@ -45,7 +45,7 @@ PowerApps에서 여러 클라우드 저장소 연결을 제공합니다. 이러�
     ![사용자 이름 및 암호를 입력합니다.](./media/cloud-storage-blob-connections/signin.png)
    
     로그인하면 이 연결은 앱 내에서 사용할 준비가 된 것입니다.
-4. 앱에서 리본의 **보기** 탭에서 **데이터 원본**을 클릭하거나 탭합니다. 오른쪽 창에서 **데이터 원본 추가**를 클릭하거나 탭하고 클라우드 저장소 연결을 클릭하거나 누른 다음, Excel 표를 선택합니다.
+4. 앱에서 리본의 **보기** 탭에서 **데이터 원본**을 클릭하거나 탭합니다. 오른쪽 창에서 **데이터 원본 추가**를 클릭하거나 탭하고 클라우드 스토리지 연결을 클릭하거나 누른 다음, Excel 표를 선택합니다.
 5. **연결**을 선택합니다.
    
     표는 데이터 원본으로 나열됩니다.

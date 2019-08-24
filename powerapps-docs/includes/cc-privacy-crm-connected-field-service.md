@@ -22,7 +22,7 @@ ms.locfileid: "67225793"
   
  [Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)  
   
- 데이터에서 깊이 있는 통찰력의 잠금을 해제할 수 있도록 완전히 관리되는 실시간 이벤트 처리 엔진을 제공합니다. Stream Analytics를 사용하면 장치, 센서, 웹 사이트, 소셜 미디어, 애플리케이션, 인프라 시스템 등의 데이터 스트리밍에서 실시간 분석 계산을 쉽게 설정할 수 있습니다. [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에 선택적 IoT 경고를 보내는 깔때기로 작동합니다.  
+ 데이터에서 깊이 있는 통찰력의 잠금을 해제할 수 있도록 완전히 관리되는 실시간 이벤트 처리 엔진을 제공합니다. Stream Analytics를 사용하면 디바이스, 센서, 웹 사이트, 소셜 미디어, 애플리케이션, 인프라 시스템 등의 데이터 스트리밍에서 실시간 분석 계산을 쉽게 설정할 수 있습니다. [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에 선택적 IoT 경고를 보내는 깔때기로 작동합니다.  
   
  [IoT Hub](https://azure.microsoft.com/services/iot-hub/)  
   

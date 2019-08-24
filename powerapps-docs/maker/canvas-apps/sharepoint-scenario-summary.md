@@ -1,6 +1,6 @@
 ---
-title: SharePoint Online 통합 시나리오의 종단 간 연습 | Microsoft Docs
-description: 이 시리즈의 자습서에서 빌드한 종단 간 연습 시나리오를 수행합니다.
+title: SharePoint Online 통합 시나리오의 엔드투엔드 연습 | Microsoft Docs
+description: 이 시리즈의 자습서에서 빌드한 엔드투엔드 연습 시나리오를 수행합니다.
 author: NickWaggoner
 manager: kvivek
 ms.service: powerapps
@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "61531736"
 ---
-# <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 종단 간 연습
+# <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 엔드투엔드 연습
 > [!NOTE]
 > 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
 
@@ -158,7 +158,7 @@ ms.locfileid: "61531736"
     ![Microsoft Flow에서 보낸 경고 전자 메일](./media/sharepoint-scenario-summary/09-06-05-email-flow.png)
 6. 이제 보류 중인 프로젝트에 대한 정보가 있으므로 뒤로 돌아가서 확인해야 하는 항목을 승인할 수 있습니다.
 
-그러면 종단 간 연습 및 이 시리즈의 자습서를 완료할 수 있습니다. 다음 사이트에서 사용자 경험을 계속하는 것이 좋습니다.
+그러면 엔드투엔드 연습 및 이 시리즈의 자습서를 완료할 수 있습니다. 다음 사이트에서 사용자 경험을 계속하는 것이 좋습니다.
 
 * [PowerApps](http://www.powerapps.com/)
 * [Microsoft Flow](http://flow.microsoft.com)

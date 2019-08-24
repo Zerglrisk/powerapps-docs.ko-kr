@@ -25,7 +25,7 @@ ms.locfileid: "63321677"
 ---
 # <a name="add-an-app-to-microsoft-teams"></a>Microsoft Teams에 앱 추가
 
-Microsoft Teams는 Office 365 기술을 기반으로 구축된 채팅 기반 공동 작업 플랫폼입니다. PowerApps 캔버스 앱을 팀의 채널에 추가하여 Teams 환경을 사용자 지정할 수 있습니다. 이 항목에서는 팀 채널에 제품 소개 샘플 앱을 추가한 다음, 해당 채널에서 앱을 여는 방법을 알아봅니다. 
+Microsoft Teams는 Office 365 기술을 기반으로 구축된 채팅 기반 협업 플랫폼입니다. PowerApps 캔버스 앱을 팀의 채널에 추가하여 Teams 환경을 사용자 지정할 수 있습니다. 이 항목에서는 팀 채널에 제품 소개 샘플 앱을 추가한 다음, 해당 채널에서 앱을 여는 방법을 알아봅니다. 
 
 ![Microsoft 팀에 포함된 앱](./media/open-app-embedded-in-teams/embedded-app.png)
 

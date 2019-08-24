@@ -15,7 +15,7 @@ search.app:
 - PowerApps
 ms.openlocfilehash: ee9ea62280b06b75bf71885c532659f0381e6d9a
 ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "61555504"
@@ -43,7 +43,7 @@ ms.locfileid: "61555504"
 
     자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
 
-3. 파일을 **eventsignup.xls** 이름으로 저장한 다음, OneDrive와 같은 [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
+3. 파일을 **eventsignup.xls** 이름으로 저장한 다음, OneDrive와 같은 [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
 
 > [!IMPORTANT]
 > 사용자의 Excel 파일을 사용할 수 있으며 일반 개념에 대해서만 이 자습서를 검토할 수 있습니다. 그러나 Excel 파일의 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
@@ -72,9 +72,9 @@ ms.locfileid: "61555504"
 
 1. 화면 가운데에서 **데이터에 연결**을 선택합니다.
 
-1. **데이터** 창에서 연결이 표시되면 클라우드 저장소 계정에 대한 연결을 선택합니다. 연결이 표시되지 않으면 다음 단계에 따라 연결을 추가합니다.
+1. **데이터** 창에서 연결이 표시되면 클라우드 스토리지 계정에 대한 연결을 선택합니다. 연결이 표시되지 않으면 다음 단계에 따라 연결을 추가합니다.
 
-    1. **새 연결**을 선택하고 클라우드 저장소 계정의 타일을 선택한 다음, **만들기**를 선택합니다.
+    1. **새 연결**을 선택하고 클라우드 스토리지 계정의 타일을 선택한 다음, **만들기**를 선택합니다.
     2. 메시지가 표시되면 해당 계정에 대한 자격 증명을 입력합니다.
 
 1. **Excel 파일 선택**에서 **eventsignup**의 첫 문자를 입력하거나 붙여넣어 목록을 필터링한 다음, 업로드한 파일을 선택합니다.

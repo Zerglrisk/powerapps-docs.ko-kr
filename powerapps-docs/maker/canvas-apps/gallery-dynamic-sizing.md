@@ -39,7 +39,7 @@ ms.locfileid: "61554790"
 
     ![바닥재 제품](./media/gallery-dynamic-sizing/flooring-products.png)
 
-2. Excel 파일을 OneDrive, Dropbox 또는 Google Drive와 같은 클라우드 저장소 계정에 업로드합니다.
+2. Excel 파일을 OneDrive, Dropbox 또는 Google Drive와 같은 클라우드 스토리지 계정에 업로드합니다.
 
 3. PowerApps Studio에서 **파일** 메뉴에서 **새로 만들기**를 클릭하거나 탭합니다.
 

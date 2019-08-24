@@ -28,7 +28,7 @@ ms.locfileid: "63321437"
 
 - PowerApps에서 [컨트롤을 추가하고 구성](add-configure-controls.md)하는 방법을 알아봅니다.
 - 이 자습서에 대한 샘플 데이터를 포함하는 [이 Excel 파일](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx)을 다운로드합니다.
-- Excel 파일을 비즈니스용 OneDrive와 같은 [클라우드 저장소 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
+- Excel 파일을 비즈니스용 OneDrive와 같은 [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
 - 전화 앱을 열거나 만듭니다. Excel 파일에서 **FlooringEstimates** 테이블을 [연결 추가](add-data-connection.md)합니다.
 
     태블릿 앱에 폼을 추가할 수 있지만, 기본적으로 폼은 세 개 열을 가지므로 이 항목에서는 일치하지 않습니다.

@@ -16,7 +16,7 @@ ms.locfileid: "67225317"
 &nbsp;<br />
 앱에는 다른 Microsoft 서비스 및 타사 서비스에 대한 링크가 포함될 수 있으며, 개인정보처리방침 및 보안 관행이 [!include[](../includes/pn-microsoft-dynamics.md)] CRM 또는 [!include[](../includes/pn-dynamics-crm.md)]와 다를 수 있습니다.  사용자가 다른 Microsoft 서비스 또는 타사 서비스에 데이터를 전송하는 경우, 이러한 데이터는 해당 개인정보처리방침이 적용됩니다. 의심을 방지하기 위해 [!include[](../includes/pn-microsoft-dynamics.md)] CRM 또는 [!include[](../includes/pn-dynamics-crm.md)] 외부에서 공유하는 데이터는 사용자의 [!include[](../includes/pn-microsoft-dynamics.md)] CRM이나 [!include[](../includes/pn-dynamics-crm.md)] 계약 또는 해당 [!include[](../includes/pn-microsoft-dynamics.md)] 보안 센터에서 다루지 않습니다. Microsoft는 사용자에게 이러한 다른 개인정보처리방침을 검토할 것을 권장합니다.  
 &nbsp;<br />
-위치 기능이 활성화된 모바일 디바이스에서 [!INCLUDE[pn_fieldservice_mobile_app_long](pn-fieldservice-mobile-app-long.md)] 모바일 앱을 사용하도록 설정하면 실시간 위치 데이터가 [!INCLUDE[pn_bing_maps](pn-bing-maps.md)]로 전송되고 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에 저장됩니다. 사용자가 필드 서비스 모바일 앱을 설치하거나 사용하는 동안 실시간 위치 데이터의 흐름에 대한 사용 권한을 제공하라는 메시지가 표시됩니다. 장치에서 실시간 위치 데이터의 흐름을 비활성화하려면 사용자는 장치의 위치 기능을 비활성화하거나 애플리케이션을 제거해야 합니다.  
+위치 기능이 활성화된 모바일 디바이스에서 [!INCLUDE[pn_fieldservice_mobile_app_long](pn-fieldservice-mobile-app-long.md)] 모바일 앱을 사용하도록 설정하면 실시간 위치 데이터가 [!INCLUDE[pn_bing_maps](pn-bing-maps.md)]로 전송되고 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]에 저장됩니다. 사용자가 필드 서비스 모바일 앱을 설치하거나 사용하는 동안 실시간 위치 데이터의 흐름에 대한 사용 권한을 제공하라는 메시지가 표시됩니다. 디바이스에서 실시간 위치 데이터의 흐름을 비활성화하려면 사용자는 디바이스의 위치 기능을 비활성화하거나 애플리케이션을 제거해야 합니다.  
 &nbsp;<br />
 필드 서비스 모바일 앱에서 보낸 실시간 위치 데이터는 다음 시나리오를 지원하는 데 사용됩니다.  
 
@@ -24,7 +24,7 @@ ms.locfileid: "67225317"
 
  -  사용자의 일정을 만들고 업데이트합니다. 사용자의 현재 위치에 대한 데이터는 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)]의 필드 서비스 기능으로 전달되어 사용자의 일정을 만들고 업데이트합니다. 예를 들어 가장 가까운 기술자에게 작업을 할당합니다.  
   
-또한 모바일 장치에서 필드 서비스 모바일 앱을 사용하도록 설정하면 애플리케이션 오류와 같은 모바일 앱 사용 정보가 조직 인사이트에 대한 보안 연결을 통해 Microsoft로 전송되고 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Table Storage에 저장됩니다.  
+또한 모바일 디바이스에서 필드 서비스 모바일 앱을 사용하도록 설정하면 애플리케이션 오류와 같은 모바일 앱 사용 정보가 조직 인사이트에 대한 보안 연결을 통해 Microsoft로 전송되고 [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)] Table Storage에 저장됩니다.  
   
 **참고:** 조직 인사이트는 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 조직의 시스템 관리자에게 조직 사용 방법에 대한 빠른 개요를 제공합니다. 시스템 관리자는 가장 활동적인 사용자, 시작 중인 SDK 요청 수 및 SDK 사용자가 보고 있는 수를 볼 수 있습니다.  
   

@@ -43,7 +43,7 @@ ms.locfileid: "68474002"
   [PowerApps 테이블 및 레코드에 대한 이해](working-with-tables.md)
 
   > [!NOTE]
-  > Excel 통합 문서의 데이터에 연결하려면 OneDrive와 같은 클라우드 저장소 서비스에서 호스팅되어야 합니다. 자세한 내용은 [PowerApps에서 클라우드 저장소에 연결](connections/cloud-storage-blob-connections.md)을 참조하세요.
+  > Excel 통합 문서의 데이터에 연결하려면 OneDrive와 같은 클라우드 스토리지 서비스에서 호스팅되어야 합니다. 자세한 내용은 [PowerApps에서 클라우드 스토리지에 연결](connections/cloud-storage-blob-connections.md)을 참조하세요.
 
 ## <a name="actions"></a>동작
 
