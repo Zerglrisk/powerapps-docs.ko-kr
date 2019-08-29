@@ -6,26 +6,26 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 08/15/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4dff9fa391fcecd19b3cc3195d8353e342ef46b8
-ms.sourcegitcommit: 9163abbe9a24298f216f15139f977adfd2c3f2ae
+ms.openlocfilehash: c8d793fcfd2992a781f92d529002e22a34a9df5a
+ms.sourcegitcommit: 742a5a21e73a811e9cea353d8275f09c22366afc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69559263"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70130336"
 ---
 # <a name="with-function-in-powerapps"></a>PowerApps의 With 함수
 명명 된 값의 인라인 레코드를 포함 하 여 단일 [레코드](../working-with-tables.md#records)에 대 한 값을 계산 하 고 작업을 수행 합니다.
 
-## <a name="description"></a>설명
+## <a name="description"></a>Description
 
-**With** 함수는 단일 레코드에 대 한 수식을 계산 합니다.  수식은 값을 계산하고 데이터 수정이나 연결 작업과 같은 작업을 수행할 수 있습니다.  [ **ForAll** 함수](function-with.md) 를 사용 하 여 레코드 테이블의 모든 레코드에 대 한 수식을 평가할 수 있습니다.
+**With** 함수는 단일 레코드에 대 한 수식을 계산 합니다.  수식은 값을 계산하고 데이터 수정이나 연결 작업과 같은 작업을 수행할 수 있습니다.  [ **ForAll** 함수](function-forall.md) 를 사용 하 여 레코드 테이블의 모든 레코드에 대 한 수식을 평가할 수 있습니다.
 
 [!INCLUDE [record-scope](../../../includes/record-scope.md)]
 
@@ -57,7 +57,7 @@ With( { radius: 10,
 
 ### <a name="nested-with"></a>중첩 된
 
-![](media/function-with/interest-calculator.gif)
+![With 함수를 사용 하는 관련 계산기](media/function-with/interest-calculator.gif)
 
 ```powerapps-dot
 With( { AnnualRate: RateSlider/8/100,        // slider moves in 1/8th increments and convert to decimal
@@ -74,7 +74,7 @@ With( { AnnualRate: RateSlider/8/100,        // slider moves in 1/8th increments
 
 이 예에서는 함수로 중첩 하 여 [월별 담보 대출 지불](https://en.wikipedia.org/wiki/Mortgage_calculator#Monthly_payment_formula)을 위한 2 계층 계산을 만듭니다.  충돌이 발생 하지 않는 한 내부 내에서 명명 된 값 **을 포함** 하는 모든 외부를 사용할 수있습니다.
 
-슬라이더 컨트롤은 1만 큼 이동 될 수 있으므로 슬라이더를 분할 하거나 곱하여 사용자 지정 증가값을 효과적으로 만들 수 있습니다.  이자율의 경우 **RateSlider** 의 **Max** 속성이 **48**으로 설정 되 고 1/8 백분율 포인트 증분에 대해 8로 나눈 값과 비율을 10 진수로 변환 하 여 0.125% ~ 6%의 범위를 포함 하는 100로 나뉩니다.  대출 금액의 경우 **Amountslider** 는 해당 **Max** 속성이 60으로 설정 되 고 1만로 곱하여 범위 1만를 60만로 설정 합니다.
+슬라이더 컨트롤은 1만 큼 이동 될 수 있으므로 슬라이더를 분할 하거나 곱하여 사용자 지정 증가값을 효과적으로 만들 수 있습니다.  이자율의 경우 **RateSlider** 의 **Max** 속성이 **48**으로 설정 되 100 고 1/8 백분율 포인트 증분의 경우 8로 나누고% ~ 6%의 0.125 범위를 포함 하 여 백분율에서 10 진수로 변환 됩니다.  대출 금액의 경우 **Amountslider** 는 해당 **Max** 속성이 60으로 설정 되 고 1만로 곱하여 범위 1만를 60만로 설정 합니다.
 
 슬라이더가 이동 하 고 새 대출 지불을 표시 하면 **With** 가 자동으로 다시 계산 됩니다.  변수가 사용 되지 않으며 slider 컨트롤의 **OnChange** 속성을 사용할 필요가 없습니다.
 
@@ -85,7 +85,7 @@ With( { AnnualRate: RateSlider/8/100,        // slider moves in 1/8th increments
 3. 슬라이더 컨트롤의 오른쪽에 **레이블** 컨트롤을 추가 합니다.  **Text** 속성을 **RateSlider/8 & "&nbsp;%"** 수식으로 설정 합니다.
 3. 다른 **슬라이더** 컨트롤을 추가 하 고 이름을 **amountslider**로 추가 합니다.  **Max** 속성을 60로 설정 합니다.
 3. 이 슬라이더 컨트롤의 왼쪽에 **레이블** 컨트롤을 추가 합니다.  **Text** 속성을 **"Loan Amount:"** 로 설정 합니다. 
-3. 이 슬라이더 컨트롤의 오른쪽에 **레이블** 컨트롤을 추가 합니다.  **Text** 속성을 **Amountslider/8 * 1만** 수식으로 설정 합니다.
+3. 이 슬라이더 컨트롤의 오른쪽에 **레이블** 컨트롤을 추가 합니다.  **Text** 속성을 **Amountslider/8 * 1만**수식으로 설정 합니다.
 4. 다른 **슬라이더** 컨트롤을 추가 하 고 이름을 **YearsSlider**로 추가 합니다.  **Max** 속성을 40로 설정 합니다.
 3. 이 슬라이더 컨트롤의 왼쪽에 **레이블** 컨트롤을 추가 합니다.  **Text** 속성을 **"Number of Years:"** 로 설정 합니다. 
 3. 이 슬라이더 컨트롤의 오른쪽에 **레이블** 컨트롤을 추가 합니다.  **Text** 속성을 **YearsSlider**수식으로 설정 합니다.
