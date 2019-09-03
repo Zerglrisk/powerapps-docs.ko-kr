@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: ''
-ms.date: 03/15/2018
+ms.reviewer: tapanm
+ms.date: 08/30/2019
 ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bd4219a42b0674927370dfca1aa4ba681dd741bd
-ms.sourcegitcommit: e58a6d9c23445e6d00317ec990a8aa0c2650bf7f
+ms.openlocfilehash: 562811ebce59660d6033585868afd42da46442d5
+ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70201072"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70213937"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 
@@ -70,15 +70,30 @@ Power BI 보고서에서 PowerApps 사용자 지정 시각적 개체를 사용�
 
 ## <a name="limitations-of-the-powerapps-custom-visual"></a>PowerApps 사용자 지정 시각적 개체의 제한 사항
 
-PowerApps 사용자 지정 시각적 개체는 미리 보기에서 사용할 수 있으며 다음과 같은 제한 사항이 있습니다.
+PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항이 적용 됩니다.
 
-- PowerApps 사용자 지정 시각적 개체를 사용 하는 경우 앱을 만들고 수정 하 고 보는 방법은 Microsoft Edge 및 Google Chrome 브라우저 에서만 지원 됩니다. Power BI 서비스에 먼저 보고서를 게시하는 것이 좋습니다. 그런 다음, Microsoft Edge 또는 Google Chrome을 사용하여 앱을 만들고 업데이트합니다.
 - 시각적 개체와 연결된 데이터 필드를 변경하는 경우 줄임표(...)를 선택한 다음, **편집**을 선택하여 Power BI 서비스 내에서 앱을 편집해야 합니다. 그렇지 않으면 변경 내용은 PowerApps에 전파되지 않고, 앱은 예기치 않은 방식으로 작동합니다.
 - PowerApps 사용자 지정 시각적 개체는 Power BI Desktop 내에서 Power BI 보고서 및 Power BI 데이터 원본에 대 한 새로 고침을 트리거할 수 없습니다. 앱에서 보고서와 동일한 데이터 원본으로 데이터를 다시 작성 하는 경우 변경 내용은 Power BI Desktop에 즉시 반영 되지 않습니다. 변경 내용은 다음 예약된 새로 고침에서 반영됩니다.
 - PowerApps 사용자 지정 시각적 개체는 데이터를 필터링하거나 보고서로 데이터를 다시 보낼 수 없습니다.
 - 보고서와 별도로 PowerApps 앱을 공유해야 합니다. [PowerApps에서 앱 공유](share-app.md)에 대해 알아봅니다.
-- 이러한 기술은 PowerApps 사용자 지정 시각적 개체를 지원 하지 않습니다. Power BI Report Server, Power BI 및 Internet Explorer 용 모바일 앱입니다.
-- PowerBIIntegration. Refresh () 함수를 사용 하는 경우 [directquery](https://docs.microsoft.com/en-us/power-bi/desktop-directquery-data-sources) 를 지 원하는 원본을 사용 해야 하며 directquery 메서드를 사용 하 여 데이터 연결을 만들어야 합니다. 
+- Power BI Report Server 및 Power BI 용 모바일 앱은 PowerApps 사용자 지정 시각적 개체를 지원 하지 않습니다.
+- PowerBIIntegration. Refresh () 함수를 사용 하는 경우 [directquery](https://docs.microsoft.com/en-us/power-bi/desktop-directquery-data-sources) 를 지 원하는 원본을 사용 해야 하며 directquery 메서드를 사용 하 여 데이터 연결을 만들어야 합니다.
+
+> [!NOTE]
+> 먼저 Power BI 서비스에 보고서를 게시 한 다음 앱을 만들거나 수정 하는 것이 좋습니다.
+
+## <a name="browser-support"></a>브라우저 지원
+
+다음 표에서는 PowerApps 사용자 지정 시각적 개체의 보기, 만들기 및 수정 작업을 위한 브라우저 지원 가능성을 나열 합니다. 지원 되는 브라우저와 작업은 확인 표시 ( &check; )로 식별 됩니다.
+
+|브라우저|보기|만드십시오|변경
+|-|-|-|-
+|Microsoft Edge|&check;|&check;|&check;
+|Internet Explorer 11|&check;
+|Google Chrome|&check;|&check;|&check;
+|Safari|&check;
+|Mozilla Firefox
+|다른 모든 브라우저
 
 ## <a name="next-steps"></a>다음 단계
 

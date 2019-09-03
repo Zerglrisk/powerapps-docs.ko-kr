@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 10/20/2017
+ms.date: 08/28/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ed812fb8da85d36ff7c0790fe401b33043786cb8
-ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
+ms.openlocfilehash: 3ff359b80dd7129ec91f987a367c1635143d8e5e
+ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "64670371"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70213837"
 ---
 # <a name="integrate-canvas-apps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 캔버스 앱 통합
 작성하는 앱은 종종 사람들이 작업 수행에 바로 사용할 수 있을 때 가장 유용합니다. 캔버스 앱을 iframe에 포함하여 웹 사이트 및 Power BI 또는 SharePoint와 같은 다른 서비스에 해당 앱을 통합할 수 있습니다.
@@ -38,18 +38,23 @@ ms.locfileid: "64670371"
 포함하려는 앱이 있는 경우 첫 번째 단계는 iframe이 앱을 찾을 수 있는 위치를 알 수 있도록 URI(Uniform Resource Identifier)에 대한 매개 변수를 설정하는 것입니다. URI는 다음과 같은 형식입니다.
 
 ```
-https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/[AppID]
+https://apps.powerapps.com/play/[AppID]?source=iframe
 ```
 
-> [!NOTE]
-> URI가 페이지에 더 잘 표시되도록 줄 바꿈을 추가했습니다.
+> [!IMPORTANT]
+> 8 월 2019부터 URI 형식이에서 https://web.powerapps.com/webplayer 로 https://apps.powerapps.com/play 변경 되었습니다. 새 URI 형식을 사용 하려면 포함 된 iframe을 업데이트 하세요. 이전 형식에 대 한 참조는 호환성을 보장 하기 위해 새 URI로 리디렉션됩니다.
+>
+> 이전 형식:
+> 
+> https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/ AppID
 
 수행해야 하는 유일한 작업은 URI에서 [AppID]에 대한 앱 ID를 대체하는 것입니다('[' & ']' 포함). 해당 값을 가져오는 방법을 곧 보여 줄 예정이지만 먼저 URI에서 사용할 수 있는 모든 매개 변수는 다음과 같습니다.
 
-* **[appID]** - `/providers/Microsoft.PowerApps/apps/[AppID]`의 형식입니다. 실행할 앱의 ID를 제공합니다.
+* **[appID]** -실행할 응용 프로그램의 ID를 제공 합니다.
+* **tenantid** -게스트 액세스를 지원 하 고 앱을 열 테 넌 트를 결정 하는 선택적 매개 변수입니다. 
 * **screenColor** - 사용자를 위해 더 나은 앱 로딩 환경을 제공하는 데 사용됩니다. 이 매개 변수는 [RGBA(빨강 값, 녹색 값, 파랑 값, 알파)](../canvas-apps/functions/function-colors.md) 형식이며 앱이 로드하는 동안 화면 색상을 제어합니다. 앱의 아이콘과 동일한 색으로 설정하는 것이 좋습니다.
 * **source** - 앱에 영향을 주지 않지만 포함하는 원본을 참조하기 위해 설명이 포함된 이름을 추가하는 것이 좋습니다.
-* 마지막으로 [Param() 함수](../canvas-apps/functions/function-param.md)를 사용하여 원하는 사용자 지정 매개 변수를 추가할 수 있으며 해당 값을 앱에서 사용할 수 있습니다. `[AppID]&amp;param1=value1`과 같이 URI의 끝에 추가됩니다. 이러한 매개 변수는 앱 시작 동안에만 읽혀집니다. 변경해야 하는 경우 앱을 다시 시작해야 합니다.
+* 마지막으로 [Param() 함수](../canvas-apps/functions/function-param.md)를 사용하여 원하는 사용자 지정 매개 변수를 추가할 수 있으며 해당 값을 앱에서 사용할 수 있습니다. `[AppID]&amp;param1=value1`과 같이 URI의 끝에 추가됩니다. 이러한 매개 변수는 앱을 시작 하는 동안 읽기 전용입니다. 변경 해야 하는 경우 앱을 다시 열어야 합니다. [Appid] 다음의 첫 번째 항목에만 "?";이 있어야 합니다. 그 후에는 여기에 설명 된 대로 "&"을 사용 합니다. 
 
 ### <a name="get-the-app-id"></a>앱 ID 가져오기
 앱 ID는 powerapps.com에서 제공됩니다. 포함하려는 앱의 경우:
@@ -63,14 +68,14 @@ https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Mic
 1. URI에서 `[AppID]` 값을 대체합니다. 자산 순서 지정 앱의 경우 URI는 다음과 같습니다.
    
     ```
-    https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/76897698-91a8-b2de-756e-fe2774f114f2
+    https://apps.powerapps.com/play/76897698-91a8-b2de-756e-fe2774f114f2?source=iframe
     ```
 
 ## <a name="embed-your-app-in-a-website"></a>웹 사이트에 앱 포함
 앱을 포함하는 것은 이제 사이트(또는 Power BI 또는 SharePoint와 같은 iframe을 지원하는 다른 서비스)에 대한 HTML 코드에 iframe을 포함하는 것만큼 간단합니다.
 
 ```html
-<iframe width="[W]" height="[H]" src="https://web.powerapps.com/webplayer/iframeapp?source=website&screenColor=rgba(165,34,55,1)&appId=/providers/Microsoft.PowerApps/apps/[AppID]" allow="geolocation; microphone; camera"/>
+<iframe width="[W]" height="[H]" src="https://apps.powerapps.com/play/[AppID]?source=website&screenColor=rgba(165,34,55,1)" allow="geolocation; microphone; camera"/>
 ```
 
 iframe 너비 및 높이에 대한 값을 지정하고 `[AppID]`에 대해 앱의 ID를 대체합니다.

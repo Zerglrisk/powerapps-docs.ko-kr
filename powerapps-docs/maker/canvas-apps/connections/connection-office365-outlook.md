@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4f22f55b3c64d38cc274b0b69d8e7799c1a24f60
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 5ea7c9fc331d96b50d8623f4ca632859e09be7ab
+ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61545398"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70213677"
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>PowerApps에서 Office 365 Outlook연결
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
@@ -48,8 +48,11 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
    
     `Office365.GetEmails({fetchOnlyUnread:false})`
    
+    설정을 변경한 후 **레이아웃** **을 제목, 부제목, 본문**으로 변경 합니다.
+    
     갤러리 컨트롤에 일부 이메일이 자동으로 채워집니다.
-3. 갤러리에서 첫 번째 레이블의 **Text** 속성을 `ThisItem.From`로 설정합니다. 두 번째 레이블을 `ThisItem.Subject`로 설정합니다. 세 번째 레이블을 `ThisItem.Body`로 설정합니다. 레이블의 크기를 조정할 수도 있습니다.
+    
+3. 갤러리에서 첫 번째 레이블의 **Text** 속성을 `ThisItem.From`로 설정합니다. 두 번째 레이블을 `ThisItem.Subject`로 설정합니다. 세 번째 레이블을 `ThisItem.BodyPreview`로 설정합니다. 레이블의 크기를 조정할 수도 있습니다.
    
     갤러리 컨트롤에 새 속성이 자동으로 채워집니다.
 4. 이 함수에는 사용 가능한 몇 가지 선택적 매개 변수가 있습니다. 갤러리의 **Items** 속성을 다음 수식 중 하나로 설정합니다.
