@@ -840,14 +840,20 @@
                       href: ./model-driven-apps/create-and-edit-forms.md
                     - name: '필드 추가, 이동 또는 삭제'
                       href: ./model-driven-apps/add-move-or-delete-fields-on-form.md
+                    - name: '구성 요소 추가, 이동 또는 삭제'
+                      href: ./model-driven-apps/add-move-configure-or-delete-components-on-form.md
                     - name: '섹션 추가, 이동 또는 삭제'
                       href: ./model-driven-apps/add-move-or-delete-sections-on-form.md
                     - name: '탭 추가, 이동 또는 삭제'
                       href: ./model-driven-apps/add-move-or-delete-tabs-on-form.md
-                    - name: 양식 디자이너의 속성
-                      href: ./model-driven-apps/form-designer-properties.md
                     - name: 헤더 속성 구성
                       href: ./model-driven-apps/form-designer-header-properties.md
+                    - name: 하위 표 구성 요소 추가 및 구성
+                      href: ./model-driven-apps/form-designer-add-configure-subgrid.md
+                    - name: 빨리 보기 구성 요소 추가 및 구성
+                      href: ./model-driven-apps/form-designer-add-configure-quickview.md
+                    - name: 조회 구성 요소 구성
+                      href: ./model-driven-apps/form-designer-add-configure-lookup.md
                     - name: 트리 뷰 사용
                       href: ./model-driven-apps/using-tree-view-on-form.md
                 - name: 양식 유형
@@ -1069,8 +1075,12 @@
           href: ./portals/admin/change-base-url.md
         - name: 유지 관리 모드 사용
           href: ./portals/admin/enable-maintenance-mode.md
-        - name: Power BI 통합 설정
-          href: ./portals/admin/set-up-power-bi-integration.md
+        - name: Power BI 통합
+          items:
+            - name: Power BI 통합 설정
+              href: ./portals/admin/set-up-power-bi-integration.md
+            - name: 포털에서 웹 페이지에 Power BI 보고서 또는 대시보드 추가
+              href: ./portals/admin/add-powerbi-report.md
         - name: 포털 검사기 실행
           href: ./portals/admin/portal-checker.md
         - name: 포털 인증 키 갱신
@@ -1079,6 +1089,56 @@
           href: ./portals/admin/ip-address-restrict.md
         - name: PowerApps 포털 도메인으로 업데이트
           href: ./portals/admin/update-portal-domain.md
+        - name: 서버 쪽 캐시 지우기
+          href: ./portals/admin/clear-server-side-cache.md
+        - name: Dynamics 365 포털 구성 마이그레이션
+          href: ./portals/admin/migrate-portal-configuration.md
+    - name: 고급 포털 사용자 지정
+      items:
+        - name: Liquid 템플릿 사용
+          items:
+            - name: 개요
+              href: ./portals/liquid/liquid-overview.md
+            - name: 웹 템플릿을 사용하여 콘텐츠 저장
+              href: ./portals/liquid/store-content-web-templates.md
+            - name: Liquid 연산자 이해
+              href: ./portals/liquid/liquid-operators.md
+            - name: 사용 가능한 Liquid 유형
+              href: ./portals/liquid/liquid-types.md
+            - name: 사용 가능한 Liquid 조건 연산자
+              href: ./portals/liquid/liquid-conditional-operators.md
+            - name: 사용 가능한 Liquid 개체
+              href: ./portals/liquid/liquid-objects.md
+            - name: 사용 가능한 Liquid 태그
+              items:
+                - name: 사용 가능한 Liquid 태그
+                  href: ./portals/liquid/liquid-tags.md
+                - name: 제어 흐름 태그
+                  href: ./portals/liquid/control-flow-tags.md
+                - name: 반복 태그
+                  href: ./portals/liquid/iteration-tags.md
+                - name: 변수 태그
+                  href: ./portals/liquid/variable-tags.md
+                - name: 템플릿 태그
+                  href: ./portals/liquid/template-tags.md
+                - name: PowerApps Common Data Service 엔터티 태그
+                  href: ./portals/liquid/portals-entity-tags.md
+            - name: 사용 가능한 Liquid 필터
+              href: ./portals/liquid/liquid-filters.md
+            - name: 고급 템플릿 만들기
+              items:
+                - name: 사용자 지정 페이지 템플릿 만들기
+                  href: ./portals/liquid/create-custom-template.md
+                - name: 하이브리드 탐색을 사용하여 페이지 계층 구조 렌더링
+                  href: ./portals/liquid/hybrid-navigation-render-page-hierachy.md
+                - name: 페이지에 대한 엔터티 목록 렌더링
+                  href: ./portals/liquid/render-entity-list-current-page.md
+                - name: 사용자 지정 페이지 템플릿을 사용하여 RSS 피드 렌더링
+                  href: ./portals/liquid/render-rss-custom-page-template.md
+                - name: 사이트 헤더 및 기본 탐색 모음 렌더링
+                  href: ./portals/liquid/render-site-header-primary-navigation.md
+        - name: OAuth 2.0 암시적 허용 흐름
+          href: ./portals/oauth-implicit-grant-flow.md
     - name: 알려진 문제
       href: ./portals/known-issues.md
     - name: PowerApps 포털 FAQ
