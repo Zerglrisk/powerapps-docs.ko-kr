@@ -911,6 +911,8 @@
                       href: ./model-driven-apps/configure-event-handlers-legacy.md
                     - name: 양식에서 자동 저장을 사용하지 않도록 설정하는 방법
                       href: ./model-driven-apps/manage-auto-save.md
+                    - name: SharePoint 문서에 대한 탭을 추가하는 방법
+                      href: ./model-driven-apps/add-documents-tab-entity-main-form.md
             - name: 모델 기반 양식에 캔버스 앱 포함
               href: ./model-driven-apps/embed-canvas-app-in-form.md
               items:
