@@ -109,5 +109,6 @@ search.app:
 [양식 디자이너를 사용하여 양식에 필드 추가, 이동 또는 삭제](add-move-or-delete-fields-on-form.md)  
 [양식 디자이너를 사용하여 양식에 탭 추가, 이동 또는 삭제](add-move-or-delete-tabs-on-form.md)  
 [양식 디자이너에서 사용 가능한 속성](form-designer-properties.md)  
+[양식 디자이너에서 머리글 속성 구성](form-designer-header-properties.md)  
 [양식 디자이너에서 트리 보기 사용](using-tree-view-on-form.md)  
-[필드 만들기 및 편집](../common-data-service/create-edit-field-portal.md) 
+[필드 만들기 및 편집](../common-data-service/create-edit-field-portal.md)

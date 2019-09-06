@@ -3,7 +3,7 @@ title: PowerApps에서 모델 기반 앱의 자동 저장 비활성화 | Microso
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article

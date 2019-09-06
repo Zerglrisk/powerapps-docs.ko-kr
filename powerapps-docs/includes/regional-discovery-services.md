@@ -10,3 +10,4 @@
 |인도(IND)|`https://disco.crm8.dynamics.com/XRMServices/2011/Discovery.svc`|
 |캐나다|`https://disco.crm3.dynamics.com/XRMServices/2011/Discovery.svc`|
 |영국(UK)|`https://disco.crm11.dynamics.com/XRMServices/2011/Discovery.svc`|
+|프랑스|`https://disco.crm12.dynamics.com/XRMServices/2011/Discovery.svc`|

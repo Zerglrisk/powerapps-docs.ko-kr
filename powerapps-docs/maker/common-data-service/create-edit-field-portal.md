@@ -1,7 +1,7 @@
 ---
-title: PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
+title: PowerApps 포털을 사용한 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
 ms.custom: ''
-ms.date: 02/28/2019
+ms.date: 08/13/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -13,13 +13,14 @@ applies_to:
   - PowerApps
 ms.author: matp
 manager: kvivek
+author: Mattp123
 search.audienceType:
   - maker
 search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="create-and-edit-fields-for-common-data-service-using-powerapps-portal"></a>PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집
+# <a name="create-and-edit-fields-for-common-data-service-using-powerapps-portal"></a>PowerApps 포털을 사용한 Common Data Service에 대한 필드 만들기 및 편집
 
 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service에서 엔터티 필드를 쉽게 만들고 편집할 수 있습니다.
 
@@ -52,7 +53,7 @@ search.app:
  |속성|설명|
  |--|--|
  |**표시 이름**|사용자 인터페이스의 필드에 대해 표시되는 텍스트입니다.|
- |**이름**|환경에서 고유한 이름입니다. 입력한 표시 이름에 따라 이름이 생성되지만 저장하기 전에 편집할 수 있습니다. 필드를 만든 후에는 응용 프로그램이나 코드에서 참조될 수 있으므로 이름을 변경할 수 없습니다. 이 이름 앞에는 **Common Data Service 기본 게시자** 에 대한 사용자 지정 접두사가 붙습니다.|
+ |**이름**|환경에서 고유한 이름입니다. 입력한 표시 이름에 따라 이름이 생성되지만 저장하기 전에 편집할 수 있습니다. 필드를 만든 후에는 응용 프로그램이나 코드에서 참조될 수 있으므로 이름을 변경할 수 없습니다. 이 이름 앞에는 **Common Data Service 기본 게시자**에 대한 사용자 지정 접두사가 붙습니다.|
  |**데이터 형식**|값이 저장되는 방법 및 일부 응용 프로그램에서의 형식 지정 방법을 제어합니다. 필드가 저장되면 텍스트 필드를 자동 번호 매기기 필드로 변환하는 것을 제외하고는 데이터 형식을 변경할 수 없습니다.|
 
 선택한 **데이터 형식**에 따라 추가 옵션을 설정할 수 있습니다.
@@ -88,7 +89,7 @@ search.app:
 |데이터 형식|설명|
 |--|--|
 |**정수**|텍스트 상자에 표시되는 숫자 값입니다.|
-|**기간**|시간 간격이 포함된 드롭다운 목록으로 표시되는 숫자 값입니다. 사용자는 목록에서 값을 선택하거나 분 수를 나타내는 정수 값을 입력할 수 있습니다.|
+|**기간**|시간 간격이 포함된 드롭다운 목록으로 표시되는 숫자 값입니다. 사용자는 목록에서 값을 선택하거나 분 수를 나타내는 정수 값을 입력할 수 있습니다. 기간은 “x분”, “x시간” 또는 “x일” 서식으로 입력해야 합니다. 시간과 날짜는 “x.x일” 또는 “x.x일” 등 소수 자릿수를 사용하여 입력할 수도 있습니다. 입력한 값은 분 단위로 표현 가능해야 하며 분 미만 값은 가장 가까운 분으로 반올림됩니다.|
 |**표준 시간대**|시간대 목록이 포함된 드롭다운 목록으로 표시되는 숫자 값입니다.|
 |**언어**|환경에 활성화된 언어 목록이 포함된 드롭다운 목록으로 표시되는 숫자 값입니다. 활성화된 다른 언어가 없을 경우 유일한 옵션은 기본 언어입니다. 저장되는 값은 언어의 LCID(로캘 식별자) 값입니다.|
 

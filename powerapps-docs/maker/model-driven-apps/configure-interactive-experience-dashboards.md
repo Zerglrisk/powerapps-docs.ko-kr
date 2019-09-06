@@ -76,7 +76,7 @@ search.app:
  > ![단일 스트림 대시보드 레이아웃](media/interactive-dashboards-single-stream-layout.png "단일 스트림 대시보드 레이아웃")  
   
 <a name="BKMK_Enable"></a>   
-## <a name="configure-fiter-fields-and-security-roles-for-the-interactive-dashboards"></a>상호 작용 대시보드를 위한 필터 필드 및 보안 역할 구성  
+## <a name="configure-filter-fields-and-security-roles-for-the-interactive-dashboards"></a>대화식 대시보드를 위한 필터 필드 및 보안 역할 구성  
  상호 작용 대시보드를 구성할 때 첫 번째 작업은 필터 필드 및 보안 역할을 활성화하여 상호 작용 대시보드가 구성될 수 있도록 하는 것입니다. 기본적으로 모든 엔터티와 사용자 지정 엔터티에 대해 대화형 대시보드가 활성화됩니다. 
   
 ### <a name="configure-filter-fields"></a>필터 필드 구성  

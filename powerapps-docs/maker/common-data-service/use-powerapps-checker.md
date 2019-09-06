@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: cds
 ms.topic: article
-ms.date: 06/25/2019
+ms.date: 07/09/2019
 ms.author: matp
 search.audienceType:
   - maker
@@ -32,7 +32,7 @@ search.app:
 > - 솔루션 검사기는 ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션에서 작동하지 않습니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
 
 ## <a name="enable-the-solution-checker"></a>솔루션 검사 사용
-솔루션 검사기는 PowerApps 검사기 솔루션을 설치한 후 PowerApps의 솔루션 영역에서 사용할 수 있게 됩니다. 검색 또는 Microsoft AppSource에서 검색하여 찾을 수 없음을 확인합니다. 이를 설치하려면 다음 단계를 수행합니다.  
+솔루션 검사기는 모든 Common Data Service 환경에서 기본적으로 활성화되어 있습니다. **솔루션 검사기**메뉴 항목은 PowerApps의 **솔루션** 영역에서 관리되지 않는 솔루션을 선택하면 사용할 수 있습니다. **솔루션 검사기** 메뉴에서 **실행** 옵션을 사용할 수 없는 경우 PowerApps 검사기 솔루션을 설치하여 활성화할 수 있습니다. 이를 설치하려면 다음 단계를 수행합니다.   
 
 1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다.
@@ -43,12 +43,9 @@ search.app:
 
 4. AppSource 페이지에서 **무료 평가판**을 선택합니다. 
 
-
-<!--from editor: Should it be "solution checker" rather than "checker solution" in the following step?
-
-5. If you agree, accept the terms and conditions and select the environment to install the PowerApps checker solution. 
-6. When the installation is complete, refresh the **Solution** list on the PowerApps site to verify that the solution checker is available.  
-7. To check a solution, [Run the solution checker](#run-the-solution-checker).
+5. 동의하면 이용 약관에 동의하고 환경을 선택하여 PowerApps 검사기 솔루션을 설치합니다. 
+6. 설치가 완료되면 PowerApps 사이트에서 **솔루션** 목록을 새로 고쳐 솔루션 검사를 사용할 수 있는지 확인합니다.  
+7. 솔루션을 확인 하려면 솔루션 [검사를 실행](#run-the-solution-checker)합니다.
 
 
 <!-- ### Components created with the PowerApps checker
@@ -106,10 +103,19 @@ When you install the PowerApps checker these solution specific components are cr
 
 
 ## <a name="review-the-solution-checker-report"></a>솔루션 검사 보고서 검토
-솔루션 확인이 완료되면 웹 브라우저에서 분석 보고서를 다운로드할 수 있게 됩니다. 보고서는 [!INCLUDE [pn-excel-short](../../includes/pn-excel-short.md)] 형식이며 솔루션에서 검색된 각 문제의 영향, 유형 및 위치를 식별하는데 도움이 되는 여러 시각화 및 열을 포함 합니다. 이 문제를 해결하는 방법에 대한 자세한 지침에 대한 링크가 제공됩니다. 
+솔루션 검사가 완료되면 포털에서 분석 보고서를 보거나 웹 브라우저에서 보고서를 다운로드할 수 있습니다. 포털에는 **문제**, **위치** 또는 **심각도**를 기준으로 결과를 필터링하고 그룹화하며 솔루션에서 발견된 문제에 대한 자세한 정보를 보는 옵션이 있습니다. 
 
 1. 왼쪽 탐색 창에서 **솔루션**을 선택합니다.
-2. 솔루션 검사기 보고서를 다운로드할 비관리형 솔루션 옆의 **...** 을 선택합니다. **솔루션 검사기**를 가리킨 다음 **마지막 결과 다운로드**를 선택 합니다.  
+2. 솔루션 검사기 보고서를 보려는 비관리형 솔루션 옆의 **...** 을 선택합니다. **솔루션 검사기**를 가리킨 다음 **결과 보기**를 선택합니다.  
+3. 문제를 선택하여 해결 방법에 대한 세부 사항 및 지침을 봅니다.
+
+    > [!div class="mx-imgBorder"] 
+    > ![](media/solution-checker-viewresults.png "솔루션 검사기 보기 결과")
+
+솔루션 검사 결과를 다운로드할 수도 있습니다. 솔루션 검사기 zip 파일은 웹 브라우저에서 지정한 폴더로 다운로드됩니다. 다운로드 보고서는 [!INCLUDE [pn-excel-short](../../includes/pn-excel-short.md)] 형식이며 솔루션에서 감지된 각 문제의 영향, 유형 및 위치를 식별하는 데 도움이 되는 여러 시각화 및 열이 포함되어 있습니다. 이 문제를 해결하는 방법에 대한 자세한 지침에 대한 링크가 제공됩니다. 
+
+1. 왼쪽 탐색 창에서 **솔루션**을 선택합니다.
+2. 솔루션 검사기 보고서를 다운로드할 비관리형 솔루션 옆의 **...** 을 선택합니다. **솔루션 검사기**를 가리킨 다음 **결과 다운로드**를 선택합니다.  
 3. 솔루션 검사기 zip 파일이 웹 브라우저에서 지정한 폴더로 다운로드 됩니다.
 
 다음은 보고서의 각 열에 대한 요약입니다.
@@ -168,10 +174,6 @@ When you install the PowerApps checker these solution specific components are cr
 | 웹 리소스  | [web-use-strict-mode](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-mode&client=PAChecker)  | 가능한 경우 엄격 모드를 사용하십시오.  | 
 | 웹 리소스  | [web-use-strict-equality-operators](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-equality-operators&client=PAChecker)  | 완전 항등 연산자를 사용하십시오.  | 
 | 웹 리소스  | [web-avoid-eval](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-eval&client=PAChecker)  | 'eval' 함수 또는 해당 기능을 사용하지 마십시오.  | 
-
-## <a name="limitations"></a>제한 사항
-
-현재 솔루션 검사기를 자동화할 수 없습니다. https://web.powerapps.com에서 실행해야 합니다. 추가 정보: [솔루션 검사기 실행](#run-the-solution-checker)
 
 
 ### <a name="see-also"></a>참조
