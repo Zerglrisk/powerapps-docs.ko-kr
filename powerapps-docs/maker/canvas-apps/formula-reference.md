@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 11/14/2018
+ms.date: 08/15/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f7cf23c03f68efc5e5b553a05d7f546373b636c9
-ms.sourcegitcommit: 2084789802fc5134dbeb888e759cced46019a017
+ms.openlocfilehash: e0f40e6c04b776d2e8efb41353e0da8ced6fc7c5
+ms.sourcegitcommit: 07a0fcda31557ddbafba0ca0362765229ee2fdad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66736210"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008990"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -34,7 +34,7 @@ ms.locfileid: "66736210"
 * [컨트롤 및 해당 속성](reference-properties.md)
 * [데이터 형식](functions/data-types.md)
 
-## <a name="a"></a>A
+## <a name="a"></a>변수를 잠그기 위한
 **[Abs](functions/function-numericals.md)** – 숫자의 절대 값을 반환합니다.  
 
 **[Acceleration](functions/signals.md)** – 디바이스에서 가속 센서를 읽습니다.
@@ -47,11 +47,11 @@ ms.locfileid: "66736210"
 
 **[And](functions/function-logicals.md)** – 부울 논리 AND입니다.  모든 인수가 **true**이면 **true**를 반환합니다.  [ **&&** 연산자](functions/operators.md)를 사용할 수도 있습니다.
 
-**[앱](functions/object-app.md)**  – 현재 실행 중인 앱 및 앱의 동작을 제어 하는 방법에 대 한 정보를 제공 합니다.
+**[앱](functions/object-app.md)** – 현재 실행 중인 앱에 대 한 정보를 제공 하 고 앱 동작에 대 한 제어를 제공 합니다.
 
 **[Asin](functions/function-trig.md)** – 숫자의 아크사인을 라디안으로 반환합니다.
 
-**[AsType](functions/function-astype-istype.md)**  – 특정 엔터티 형식에 대 한 레코드 참조 취급 합니다.
+안 **[면 – 레코드](functions/function-astype-istype.md)** 참조를 특정 엔터티 형식으로 처리 합니다.
 
 **[Atan](functions/function-trig.md)** – 숫자의 아크탄젠트를 라디안으로 반환합니다.
 
@@ -187,10 +187,10 @@ ms.locfileid: "66736210"
 
 **[IsToday](functions/function-now-today-istoday.md)** – 날짜/시간 값이 오늘인지 확인합니다.
 
-**[IsType](functions/function-astype-istype.md)**  – 특정 엔터티 형식에 대 한 레코드 참조를 참조 하는지 여부를 확인 합니다.
+**[Istype](functions/function-astype-istype.md)** – 레코드 참조가 특정 엔터티 형식을 참조 하는지 여부를 확인 합니다.
 
 ## <a name="j"></a>J
-**[JSON](functions/function-json.md)**  -테이블, 레코드 또는 값에 대 한 JSON 텍스트 문자열을 생성 합니다.
+**[Json](functions/function-json.md)** -테이블, 레코드 또는 값에 대 한 json 텍스트 문자열을 생성 합니다.
 
 ## <a name="l"></a>L
 **[Language](functions/function-language.md)** – 현재 사용자의 언어 태그를 반환합니다.
@@ -218,7 +218,7 @@ ms.locfileid: "66736210"
 ## <a name="m"></a>M
 **[Match](functions/function-ismatch.md)** – 패턴에 따라 하위 문자열을 추출합니다.  정규식을 사용할 수 있습니다.
 
-**[MatchAll](functions/function-ismatch.md)**  – 패턴에 따라 여러 부분 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
+**[Matchall](functions/function-ismatch.md)** – 패턴을 기반으로 하 여 여러 부분 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
 
 **[Max](functions/function-aggregates.md)** – 테이블 식 또는 인수 집합의 최대값입니다.
 
@@ -305,6 +305,8 @@ ms.locfileid: "66736210"
 
 **[Set](functions/function-set.md)** – 전역 변수의 값을 설정합니다.
 
+**[SetFocus](functions/function-setfocus.md)** – 입력 포커스를 특정 컨트롤로 이동 합니다.
+
 **[ShowColumns](functions/function-table-shaping.md)** – 선택한 열만 포함하는 테이블을 반환합니다.
 
 **[Shuffle](functions/function-shuffle.md)** – 테이블의 레코드를 무작위로 다시 정렬합니다.
@@ -378,6 +380,8 @@ ms.locfileid: "66736210"
 
 ## <a name="w"></a>W
 **[Weekday](functions/function-datetime-parts.md)** – 날짜/시간 값의 요일 부분을 검색합니다.
+
+**[With](functions/function-with.md)** – 값을 계산 하 고 명명 된 값의 인라인 레코드를 포함 하 여 단일 레코드에 대 한 작업을 수행 합니다.
 
 ## <a name="y"></a>Y
 **[Year](functions/function-datetime-parts.md)** – 날짜/시간 값의 연도 부분을 검색합니다.  
