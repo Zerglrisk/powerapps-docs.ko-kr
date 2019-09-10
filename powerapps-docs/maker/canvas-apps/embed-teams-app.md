@@ -7,22 +7,22 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 05/29/2019
+ms.date: 09/09/2019
 ms.author: jimholtz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ca3430d6b639b7a4c3980f5bbb0ba202220f6d9e
-ms.sourcegitcommit: 935470edc7441b76533cc937e6f32229bfd6f11f
+ms.openlocfilehash: ba08437dc144fc81aa9748163b1005222735cb69
+ms.sourcegitcommit: 86ed3ad487f31721155758aa9d87134bb10f8437
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "70117803"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70842249"
 ---
 # <a name="embed-a-powerapps-app-in-teams"></a>팀에 PowerApps 앱 포함 
 
-Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습니다. 완료 되 면 사용자는 자신이 **+** 있는 팀의 팀 채널이 나 대화 에 앱을 추가 하도록 선택할 수 있습니다. 앱은 **팀의 탭 아래에**타일로 표시 됩니다. 
+Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습니다. 완료 되 면 사용자는 자신이 **+** **있는 팀의 팀 채널이** 나 대화에 앱을 추가 하도록 선택할 수 있습니다. 앱은 **팀의 탭 아래에**타일로 표시 됩니다. 
 
 관리자는 앱을 업로드 하 여 **모든 탭 섹션**아래에 있는 테 넌 트의 **모든** 팀에 표시 되도록 할 수 있습니다. [Microsoft 팀에서 앱 공유](https://docs.microsoft.com/en-us/power-platform/admin/embed-app-teams)를 참조 하세요.
 
@@ -92,7 +92,7 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
    > [!div class="mx-imgBorder"] 
    > ![정보 입력](./media/embed-teams-app/fill-in-info-about-app.png "정보 입력")
 
-   |필드  |Description  |
+   |필드  |설명  |
    |---------|---------|
    |**앱 이름** |    |
    |약식 이름     | 필수 요소. 앱에 대 한 짧은 표시 이름입니다. 30 자 제한        |
@@ -129,7 +129,7 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
    > [!div class="mx-imgBorder"] 
    > ![팀 탭 추가](./media/embed-teams-app/team-tab-add.png "팀 탭 추가")
 
-7. 다음 형식을 사용 하 여 "구성 URL" 입력 필드에 앱의 구성 URL을 추가 합니다.`https://web.powerapps.com/webplayer/teamsapptabsettings?appid=<PowerApp ID>`
+7. 다음 형식을 사용 하 여 "구성 URL" 입력 필드에 앱의 구성 URL을 추가 합니다.`https://apps.powerapps.com/teams/settings/<PowerApp ID>`
 
    을 `<PowerApp ID>` 위에서 기록한 앱 ID GUID로 바꿉니다.
 
