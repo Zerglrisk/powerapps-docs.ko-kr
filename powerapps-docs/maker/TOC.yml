@@ -1155,8 +1155,6 @@
           href: ./common-data-service/data-platform-create-entity.md
         - name: 구성 요소가 있는 사용자 지정 엔터티 만들기
           href: ./common-data-service/create-custom-entity.md
-        - name: 파워 쿼리를 사용하여 엔터티에 데이터 추가
-          href: ./common-data-service/data-platform-cds-newentity-pq.md
         - name: 엔터티 및 메타데이터
           href: ./common-data-service/create-edit-metadata.md
         - name: 엔터티 형식
@@ -1305,6 +1303,17 @@
           href: ./common-data-service/set-managed-properties-metadata.md
         - name: 변경 내용 게시
           href: ./common-data-service/publish-changes-for-use-customer-service-hub.md
+    - name: 데이터 흐름 작업
+      href: ./common-data-service/self-service-data-prep-with-dataflows.md
+      items:
+        - name: 데이터 흐름 만들기 및 사용
+          href: ./common-data-service/create-and-use-dataflows.md
+        - name: 파워 쿼리를 사용하여 엔터티에 데이터 추가
+          href: ./common-data-service/data-platform-cds-newentity-pq.md
+        - name: 데이터 흐름 저장소에 대한 Azure Data Lake 연결
+          href: ./common-data-service/connect-azure-data-lake-storage-for-dataflow.md
+        - name: 온-프레미스 데이터 게이트웨이 사용
+          href: ./common-data-service/using-dataflows-with-on-premises-data.md
     - name: 엔터티에 대한 라이선스 요구 사항
       href: ./common-data-service/data-platform-entity-licenses.md
       items:
