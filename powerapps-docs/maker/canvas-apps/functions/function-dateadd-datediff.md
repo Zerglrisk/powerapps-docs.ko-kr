@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b70026e84eb7dfee67583abe26665bf78a566b76
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: e2c90566f235093f25e3a8c35bc1700f2a61b348
+ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63321060"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71037977"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>PowerApps의 DateAdd, DateDiff 및 TimeZoneOffset 함수
 날짜/시간 값의 차이를 추가하거나 찾아서 현지 시간과 UTC 사이의 변환을 수행합니다.
@@ -34,20 +34,20 @@ ms.locfileid: "63321060"
 
 **DateAdd** 및 **TimeZoneOffset**을 사용하면 사용자의 현지 시간과 UTC(협정 세계시) 사이에서 변환이 가능합니다.  **TimeZoneOffset**을 추가하면 현지 시간이 UTC로 변환되고 빼면(음수를 추가)하면 UTC에서 현지 시간으로 변환됩니다.
 
-[날짜 및 시간 작업](../show-text-dates-times.md)에서도 자세한 내용을 참조하세요.
+또한 [날짜, 시간 및 날짜/시간 데이터 형식](/data-types#date-time-and-datetime) 및 자세한 내용은 날짜 [및 시간 작업](../show-text-dates-times.md) 을 참조 하세요.
 
 ## <a name="syntax"></a>구문
 **DateAdd**( *DateTime*, *Addition* [, *Units* ] )
 
 * *DateTime* - 필수 항목이며, 연산을 수행할 날짜/시간 값입니다.
 * *Addition* - 필수 항목입니다. *DateTime*에 추가할 *Units*에 해당하는 숫자입니다.
-* *Units* - 선택 사항입니다. 유형의 *단위* 추가 하려면: **밀리초**, **초**, **분**를 **시간**, **일**, **개월**,  **분기**, 또는 **년**합니다.  지정하지 않으면 **일**이 사용됩니다.
+* *Units* - 선택 사항입니다. 추가할 *단위* 유형입니다. **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기**또는 **년**입니다.  지정하지 않으면 **일**이 사용됩니다.
 
 **DateDiff**( *StartDateTime*, *EndDateTime* [, *Units* ] )
 
 * *StartDateTime* - 필수 항목입니다. 시작 날짜/시간 값입니다.
 * *EndDateTime* - 필수 항목입니다. 종료 날짜/시간 값입니다.
-* *Units* - 선택 사항입니다. 유형의 *단위* 추가 하려면: **밀리초**, **초**, **분**를 **시간**, **일**, **개월**,  **분기**, 또는 **년**합니다.  지정하지 않으면 **일**이 사용됩니다.
+* *Units* - 선택 사항입니다. 추가할 *단위* 유형입니다. **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기**또는 **년**입니다.  지정하지 않으면 **일**이 사용됩니다.
 
 **TimeZoneOffset**( [ *DateTime* ] )
 
@@ -89,7 +89,7 @@ UTC에서 변환하려면 주어진 시간에서 **TimeZoneOffset**을 뺍니다
 
 예를 들어 UTC 날짜 및 시간인 **July 15, 2013, 8:02 PM**이 **StartTime**이라는 변수에 저장되어 있다고 가정하겠습니다. 사용자의 표준 시간대를 조정하려면 다음을 사용합니다.
 
-* **DateAdd( StartTime, -TimeZoneOffset( StartTime ), Minutes )**
+* **DateAdd (starttime, &minus;TimeZoneOffset (starttime), Minutes)**
 
 오프셋을 추가하지 않고 빼기 위해 **TimeZoneOffset** 앞에 음수 기호가 있습니다.
 

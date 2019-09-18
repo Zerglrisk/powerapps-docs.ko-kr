@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 10/25/2016
+ms.date: 09/14/2019
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6fedff6d6ffc34fe390ec6978672d699480a7cb9
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: dceb9eee8eb5a0ed11a4b44fb2df6d63ba5e9cae
+ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61548734"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71038245"
 ---
 # <a name="screen-control-in-powerapps"></a>PowerApps의 화면 컨트롤
 
@@ -36,28 +36,21 @@ ms.locfileid: "61548734"
 
 ## <a name="additional-properties"></a>추가 속성
 
-**높이** -화면의 높이입니다. 앱이 응답 하는 경우 ([**에 맞게 크기 조정** ](../set-aspect-ratio-portrait-landscape.md#change-screen-size-and-orientation) 됩니다 **해제**) 및 앱이 실행 되는 장치는이 속성 보다 짧은, 화면을 세로로 스크롤할 수 있습니다.
+**Height** -화면의 높이입니다. 앱이 응답 하 고 ([**크기 조정**](../set-aspect-ratio-portrait-landscape.md#change-screen-size-and-orientation) 이 **꺼져**있음) 앱이 실행 되는 장치가이 속성 보다 짧으면 화면을 세로로 스크롤할 수 있습니다.
 
 **[ImagePosition](properties-visual.md)** – 이미지와 같은 크기가 아닌 경우 컨트롤 또는 화면에 있는 이미지의 위치입니다(**채우기**, **맞춤**, **늘이기**, **타일** 또는 **가운데**).
 
-**이름** -화면의 이름입니다.
+**이름** -화면 이름입니다.
 
 **OnHidden** – 사용자가 화면에서 나갈 때 앱의 동작입니다.
 
-**OnStart** – 사용자가 앱을 열 때 앱의 동작입니다.
+**OnVisible** – 사용자가 화면으로 들어올 때 앱의 동작입니다.  이 속성을 사용 하 여 화면에서 사용 하는 변수 및 미리 로드 데이터를 설정 합니다.  앱이 시작 될 때 한 번 설정 하려면 [**app.config**](../functions/object-app.md#onstart-property) 속성을 사용 합니다.
 
-- 이 속성이 설정된 수식은 앱의 첫 화면이 표시되기 전에 실행됩니다. [**Navigate**](../functions/function-navigate.md) 함수를 호출하여 앱을 시작할 때 처음 표시하는 화면을 변경합니다.
-- 아직 화면이 표시되지 않았으므로 [**UpdateContext**](../functions/function-updatecontext.md) 함수로 [컨텍스트 변수](../working-with-variables.md)를 설정할 수 없습니다. 그러나 **Navigate** 함수에서 컨텍스트 변수를 전달하고 [**Collect**](../functions/function-clear-collect-clearcollect.md) 함수를 사용하여 [컬렉션](../working-with-variables.md)을 만들고 채울 수 있습니다.
-- 앱을 업데이트하면 이 속성을 설정할 수식은 앱이 PowerApps Studio로 로드될 때 실행됩니다. 이 속성 변경의 결과를 확인하려면 앱을 저장하고 종료한 다음 다시 로드해야 합니다.
-- **OnStart** 속성은 실제로는 화면이 아닌 앱의 속성입니다. 편집 편의를 위해 이 속성을 앱의 첫 화면에서 속성처럼 보고 수정할 수 있습니다. 첫 화면을 제거하거나 화면 순서를 변경한 경우 이 속성을 찾기 어렵습니다. 이 경우 앱을 저장하고 닫은 다음 다시 로드하면 속성이 첫 화면의 속성으로 다시 표시됩니다.
+**방향** -화면의 방향입니다. **너비가** **높이**보다 큰 경우 방향은 **레이아웃이 됩니다. 가로**방향입니다. 그렇지 않으면 **레이아웃. 세로입니다.**
 
-**OnVisible** – 사용자가 화면으로 들어올 때 앱의 동작입니다.
+**Size** -화면 크기를 분류 하는 양의 정수입니다. 분류는 화면의 **Width** 속성을 [**app.config 중단점**](../functions/signals.md) 속성의 값과 비교 하 여 결정 됩니다. **ScreenSize** 형식은 1에서 4 까지의 정수에 해당 하는 4 개의 값 (**Small**, **Medium**, **Large**및 **ExtraLarge**)으로 구성 됩니다.
 
-**방향** -화면 방향입니다. 하는 경우 해당 **너비** 보다 크면 해당 **높이**, 방향이 됩니다 **Layout.Horizontal**고, 그렇지 않으면 됩니다 **Layout.Vertical** .
-
-**크기** -화면의 크기를 분류 하는 양의 정수입니다. 분류 화면을 비교 하 여 결정 됩니다 **너비** 속성의 값을 [ **App.SizeBreakpoints** ](../functions/signals.md) 속성입니다. **ScreenSize** 네 가지 값 형식으로 구성 됩니다 (**작은**를 **보통**, **대형**, 및 **ExtraLarge** )는 정수 1 ~ 4에 해당 하는 합니다.
-
-**너비** -화면의 너비입니다. 앱이 응답 하는 경우 ([**에 맞게 크기 조정** ](../set-aspect-ratio-portrait-landscape.md#change-screen-size-and-orientation) 됩니다 **해제**) 앱이 실행 되는 장치를이 속성 보다 좁은 화면 가로로 스크롤될 수 및 합니다.
+**Width** -화면의 너비입니다. 앱이 응답 하 고 ([**크기 조정**](../set-aspect-ratio-portrait-landscape.md#change-screen-size-and-orientation) 이 **꺼져**있음) 앱이 실행 되는 장치가이 속성 보다 좁은 경우 화면은 가로로 스크롤할 수 있습니다.
 
 ## <a name="related-functions"></a>관련된 함수
 

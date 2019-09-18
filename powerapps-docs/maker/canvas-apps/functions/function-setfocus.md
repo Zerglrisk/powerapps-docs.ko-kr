@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fce0148e77432aa136a6279eb7fb69c0ca3b0846
-ms.sourcegitcommit: de77b6d5f77e84961fff9a399622ba8eeb48d4c3
+ms.openlocfilehash: cdf34c3c4909697b70a105e5145620ab5bd31ea9
+ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "70037047"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71038145"
 ---
 # <a name="setfocus-function-in-powerapps"></a>PowerApps의 SetFocus 함수
 입력 포커스를 특정 컨트롤로 이동 합니다. 
@@ -33,7 +33,7 @@ ms.locfileid: "70037047"
 
 포커스가 있는 컨트롤은 [**FocusedBorderColor**](../controls/properties-color-border.md) 및 [**FocusedBorderThickness**](../controls/properties-color-border.md) 속성에 따라 시각적으로 달라질 수 있습니다.
 
-## <a name="limitatoins"></a>Atoins
+## <a name="limitations"></a>제한 사항
 
 **SetFocus** 는 다음에만 사용할 수 있습니다.
 - [**Button**](../controls/control-button.md) 컨트롤

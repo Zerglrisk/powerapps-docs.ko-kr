@@ -1,82 +1,82 @@
 ---
-title: 레코드 참조 및 다형 조회 이해 | Microsoft Docs
-description: 레코드 참조 및 캔버스 앱에서 다형 조회 작업
+title: 레코드 참조 및 다형성 조회 이해 | Microsoft Docs
+description: Canvas 앱에서 레코드 참조 및 다형성 조회 작업
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: anneta
-ms.date: 05/17/2019
+ms.date: 09/14/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 80755667a9c7c36eb47999f7f8b2f939eb032c69
-ms.sourcegitcommit: 93096dfa1aadba77159db1e5922f3d5528eecb7a
+ms.openlocfilehash: ebb7b9d5eb203a32ef0ec931a8f653125e8f5f26
+ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "65986439"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71037945"
 ---
-# <a name="understand-record-references-and-polymorphic-lookups-in-canvas-apps"></a>레코드 참조 및 다형 캔버스 앱 조회를 이해 합니다.
+# <a name="understand-record-references-and-polymorphic-lookups-in-canvas-apps"></a>Canvas 앱에서 레코드 참조 및 다형성 조회 이해
 
-학교에서 연구 논문을 작성 하는 경우 아마도 끝에 있는 참조의 목록을 제공 합니다. 누군가가 원본을 추적할 수 있도록 웹 링크를 대신, 책 제목, 작성자 또는 기타 정보 이지만 사용 하 여 실제 배경 자료의 복사본이 포함 되지 않았으면 합니다. 여러 종류의 소스를 단일 목록에서 적절 한 인용에 대 한 고유한 세부 정보와 함께 각 오디오 녹음 옆에 있는 신문 기사를 혼합 하는 경우. 예를 들어 Wikipedia 문서가 포함 종종를 [긴 참조 목록을](https://en.wikipedia.org/wiki/Microsoft#References)합니다.
+학교에서 리서치 문서를 작성 하는 경우 끝에 참조 목록이 제공 될 것입니다. 사용한 실제 배경 자료의 복사본을 포함 하는 것이 아니라 다른 사람이 원본 소스를 추적할 수 있도록 웹 링크, 책 제목, 저자 또는 기타 정보를 포함 하 고 있습니다. 서로 다른 종류의 소스를 단일 목록으로 혼합 하 고, 각각 적절 한 인용문에 대 한 고유한 세부 정보를 포함 하는 오디오 녹음 옆의 신문 문서를 사용할 수 있습니다. 예를 들어 위키백과 문서는 [긴 참조 목록을](https://en.wikipedia.org/wiki/Microsoft#References)포함 하는 경우가 많습니다.
 
-종종 캔버스 앱에서 데이터 원본에서 다운로드 하는 레코드의 복사본을 사용 하 여 작동 합니다. 사용 된 [ **조회** ](functions/function-filter-lookup.md) 하 고 [ **필터** ](functions/function-filter-lookup.md) 함수 및 [ **갤러리** ](controls/control-gallery.md) 컨트롤의 **선택한** 하려는 특정 레코드를 식별 하는 속성입니다. 모든 레코드가 **필터** 또는 **선택한** 단순 필드를 사용할 수 있도록 동일한 엔터티 형식의 됩니다. *필드* 표기법입니다. 이러한 복사본은 종종 참조 정보를 포함 시켜 서 사용할 수는 [ **패치** ](functions/function-patch.md) 원본 소스를 업데이트 하는 함수입니다.
+Canvas 앱에서 데이터 원본에서 다운로드 된 레코드의 복사본으로 작업 하는 경우가 많습니다. [**조회**](functions/function-filter-lookup.md) 및 [**필터**](functions/function-filter-lookup.md) 함수와 [**갤러리**](controls/control-gallery.md) 컨트롤의 **선택** 된 속성을 사용 하 여 원하는 특정 레코드를 식별할 수 있습니다. **필터** 또는 **선택** 된 모든 레코드는 동일한 엔터티 형식이 되므로 간단한로 필드를 사용할 수 있습니다. *필드* 표기법입니다. 이러한 복사본은 종종 참조 정보를 포함 하므로 [**Patch**](functions/function-patch.md) 함수를 사용 하 여 원래 원본을 업데이트할 수 있습니다.
 
-캔버스 앱도 지원 *레코드 참조*합니다. 훨씬 연구 논문 참조와 같은 레코드 참조는 전체 복사본을 포함 하지 않고에 레코드를 참조 합니다. 모든 엔터티의 레코드 참조를 참조할 수 있습니다. 또한 연구 논문 참조와 같은 단일 열에 서로 다른 엔터티에서 레코드를 혼합할 수 있습니다.
+Canvas 앱은 *레코드 참조*도 지원 합니다. 연구 문서와 마찬가지로 레코드 참조는 전체 복사본을 포함 하지 않고 레코드를 참조 합니다. 이러한 참조는 엔터티의 레코드를 참조할 수 있습니다. 또한 연구 용지 참조와 마찬가지로 단일 열에서 여러 엔터티의 레코드를 혼합할 수 있습니다.
 
-레코드 참조에서 많은 작업 레코드를 사용 하는 것과 동일 합니다. 레코드 참조 전체 레코드를 서로 비교할 수 있습니다. 레코드 참조의 값을 설정할 수 있습니다 합니다 **패치** 전체 레코드를 사용 하 여 조회 처럼 작동 합니다.
+레코드 참조에 대 한 많은 작업은 레코드 작업과 동일 합니다. 레코드 참조를 서로 비교 하 고 전체 레코드와 비교할 수 있습니다. 전체 레코드로 조회 하는 것 처럼 **Patch** 함수를 사용 하 여 레코드 참조의 값을 설정할 수 있습니다.
 
-한 가지 차이가 중요 사용: 첫 번째 설정 엔터티를 참조 하지 않고 레코드 참조의 필드를 직접 액세스할 수 없습니다. 캔버스 앱 필요한 수식을 작성 하는 경우 모든 형식을 알 수 때문입니다. 앱이 실행 될 때까지 레코드 참조의 유형을 알 수 없으므로, 간단한을 사용할 수 없습니다. *필드* 직접 표기법입니다. 먼저 동적으로 결정 인 엔터티 형식을 합니다 [ **IsType** ](functions/function-astype-istype.md) 함수를 사용 하 여. *필드* 표기법의 결과에 [ **AsType** ](functions/function-astype-istype.md) 함수입니다.
+한 가지 중요 한 사용 차이가 있습니다. 즉, 참조 하는 엔터티를 먼저 설정 하지 않고도 레코드 참조의 필드에 직접 액세스할 수 없습니다. 이는 캔버스 앱에서 수식을 작성할 때 모든 형식을 알 수 있어야 하기 때문입니다. 앱이 실행 될 때까지 레코드 참조의 형식을 알 수 없으므로 simple을 사용할 수 없습니다. 직접 *필드* 표기법입니다. 먼저 [**istype**](functions/function-astype-istype.md) 함수를 사용 하 여 엔터티 형식을 동적으로 확인 한 다음를 사용 해야 합니다. 표시 [**유형 함수 결과**](functions/function-astype-istype.md) 의 *필드* 표기법입니다.
 
-*엔터티 형식* 엔터티의 각 레코드의 스키마를 가리킵니다. 각 엔터티에 고유 이름 및 데이터 형식이 각기 다른 필드 집합이 있습니다. 각 레코드는 엔터티 상속 구조는 두 레코드는 동일한 엔터티를 동일한 엔터티 형식을 가집니다.
+*엔터티 형식은* 엔터티의 각 레코드 스키마를 나타냅니다. 각 엔터티에는 이름 및 데이터 형식이 다른 고유한 필드 집합이 있습니다. 엔터티의 각 레코드는 해당 구조를 상속 합니다. 동일한 엔터티에서 가져온 두 레코드는 동일한 엔터티 형식입니다.
 
 ## <a name="polymorphic-lookups"></a>다형 조회
 
-Common Data Service는 레코드 간의 관계를 지원합니다. 각 레코드는 **계정** 엔터티에 **기본 연락처** 에서 레코드를 조회 필드를 **연락처** 엔터티. 조회에서 레코드를 참조할 수 있습니다 **연락처** 예를 들어, 레코드를 참조할 수 없습니다 및 합니다 **팀** 엔터티. 마지막 정보는 항상 알고 있으므로 새로운 필드 조회에 제공 됩니다.
+Common Data Service 레코드 간의 관계를 지원 합니다. **Accounts** 엔터티의 각 레코드에는 **연락처** 엔터티의 레코드에 대 한 **기본 연락처** 조회 필드가 있습니다. 조회는 **연락처** 의 레코드만 참조할 수 있으며, 예를 들어 **팀** 엔터티 라는 레코드를 참조할 수 없습니다. 마지막 세부 정보는 조회에 사용할 수 있는 필드를 항상 알 수 있기 때문에 중요 합니다.
 
-Common Data Service는 또한 레코드 집합 내의 모든 엔터티를 참조할 수 있는 다형 조회를 지원 합니다. 예를 들어 합니다 **소유자** 필드에서 레코드를 참조할 수 있습니다 합니다 **사용자** 엔터티 또는 **팀** 엔터티. 동일한 조회 필드의 다른 레코드는 다른 엔터티의 레코드를 참조할 수 있습니다. 이 경우 항상 모르는 됩니다 필드 사용할 수 있습니다.
+Common Data Service는 집합에 있는 모든 엔터티의 레코드를 참조할 수 있는 다형 조회도 지원 합니다. 예를 들어, **소유자** 필드는 **사용자** 엔터티 또는 **팀** 엔터티의 레코드를 참조할 수 있습니다. 다른 레코드의 동일한 조회 필드는 다른 엔터티의 레코드를 참조할 수 있습니다. 이 경우 사용할 수 있는 필드를 항상 알 수는 없습니다.
 
-캔버스 레코드 참조 다형 조회를 사용 하 여 공통 데이터 서비스 작업에 대 한 설계 되었습니다. 또한 두 가지 개념이 어떻게 다른 지는이 컨텍스트 외부에서 레코드 참조를 사용할 수 있습니다.
+Canvas 레코드 참조는 Common Data Service에서 다형 조회를 사용 하도록 설계 되었습니다. 이 컨텍스트 외부에서 레코드 참조를 사용할 수도 있습니다 .이는 두 개념의 차이입니다.
 
-다음 섹션에서는 이러한 개념을 사용 하 여 탐색을 시작 합니다 **소유자** 조회 합니다.
+다음 섹션에서는 **소유자** 조회를 사용 하 여 이러한 개념을 탐색 하기 시작 합니다.
 
-## <a name="show-the-fields-of-a-record-owner"></a>소유자는 레코드의 필드를 표시 합니다.
+## <a name="show-the-fields-of-a-record-owner"></a>레코드 소유자의 필드를 표시 합니다.
 
-Common Data Service의 모든 엔터티에 포함 된 **소유자** 필드입니다. 이 필드를 제거할 수 없습니다, 다른 추가할 수 없습니다 및 값이 항상 필요 합니다.
+Common Data Service의 모든 엔터티는 **소유자** 필드를 포함 합니다. 이 필드는 제거할 수 없으며 다른 필드를 추가할 수 없으며 항상 값이 필요 합니다.
 
-에 있는 해당 필드를 표시 합니다 **계정** 엔터티:
+**계정** 엔터티에 해당 필드를 표시 하려면 다음을 수행 합니다.
 
-1. 오픈 [PowerApps 사이트가](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
-1. 왼쪽된 탐색 모음에서 선택 **데이터** > **엔터티**합니다.
-1. 엔터티 목록에서 선택 **계정**합니다.
-1. 오른쪽 위 모퉁이에서 필터 목록을 엽니다 (으로 설정 되는 **기본** 기본적으로)를 선택한 후 **모든**합니다.
-1. 될 때까지 아래로 스크롤하여 합니다 **소유자** 필드가 표시 됩니다.
+1. [이 PowerApps 사이트](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 엽니다.
+1. 왼쪽 탐색 모음에서 **데이터** > **엔터티**를 선택 합니다.
+1. 엔터티 목록에서 **계정**을 선택 합니다.
+1. 오른쪽 위 모서리에서 필터 목록을 열고 (기본적으로 **기본값으로** 설정 됨) **모두**를 선택 합니다.
+1. **소유자** 필드가 나타날 때까지 아래로 스크롤합니다.
 
  > [!div class="mx-imgBorder"]
- > ![계정 엔터티에 대해 소유자 필드](media/working-with-references/owner-field.png)
+ > ![계정 엔터티의 소유자 필드](media/working-with-references/owner-field.png)
 
-이 조회 필드 중 하나에서 레코드를 참조할 수는 **팀** 엔터티 또는 **사용자** 엔터티. 사용할 수 있는 권한이 이러한 엔터티의 모든 레코드는 **소유자**; 문제에 직면 하는 경우 지원 되는 역할을 확인 합니다.
+이 조회 필드는 **팀** 엔터티 또는 **사용자** 엔터티의 레코드를 참조할 수 있습니다. 이러한 엔터티의 일부 레코드에는 **소유자**가 될 수 있는 권한이 없습니다. 문제가 발생 하는 경우 지원 되는 역할을 확인 합니다.
 
-이 그림의 간단한 갤러리 **계정**여기서는 **계정** 엔터티를 데이터 원본으로 앱에 추가 되었습니다.
+이 **그래픽은 계정 엔터티가 앱** 에 데이터 원본으로 추가 된 간단한 **계정**갤러리를 보여줍니다.
 
 > [!div class="mx-imgBorder"]
-> ![갤러리 컨트롤에 표시 된 계정](media/working-with-references/accounts-gallery.png)
+> ![갤러리 컨트롤에 표시 되는 계정](media/working-with-references/accounts-gallery.png)
 
 > [!IMPORTANT]
-> 이 항목에서는 그래픽 일부 이름 및 Common Data Service를 사용 하 여 제공 되는 샘플 데이터의 일부가 아닌 다른 값을 표시 합니다. 단계에는 정확 하 게 특정 결과 대 한 제어를 구성 하는 방법을 보여 줍니다 하지만 환경을 조직에 대 한 데이터에 따라 달라 집니다.
+> 이 항목 전체에서 그래픽은 Common Data Service와 함께 제공 되는 샘플 데이터의 일부가 아닌 일부 이름 및 기타 값을 표시 합니다. 단계는 특정 결과에 대 한 컨트롤을 구성 하는 방법을 정확 하 게 보여 주지만 사용자의 환경은 조직의 데이터에 따라 달라 집니다.
 
-갤러리에서 각 계정의 소유자를 표시 하려면 수식을 사용 하 고 싶은 생각이 들 수 있습니다 **ThisItem.Owner.Name**합니다. 그러나 이름 필드에는 **Team** 엔터티가 **팀 이름**, 및 이름 필드에는 **사용자** 엔터티가 **전체 이름**합니다. 앱은 어떤 유형의 조회 사용 될 때까지 앱을 실행 하는 및의 레코드 간에 달라질 수 있습니다 알 수 없습니다는 **계정** 엔터티.
+갤러리에 각 계정의 소유자를 표시 하려면 **ThisItem.Owner.Name**수식을 사용 하는 것이 좋습니다. 그러나 **팀** 엔터티의 이름 필드는 **팀 이름이**고 **사용자** 엔터티의 이름 필드는 **전체 이름**입니다. 앱은 앱을 실행할 때까지 작업 중인 조회 유형을 알 수 없으며, **계정** 엔터티의 레코드 마다 다를 수 있습니다.
 
-이러한 차이에 적용할 수 있는 수식을 해야 합니다. 엔터티 형식에 대 한 데이터 원본을 추가 해야 **소유자** 될 수 있습니다 (이 예제의 경우 **사용자** 하 고 **팀**). 이러한 3 개의 데이터 원본을 앱에 추가 합니다.
+이러한 차이에 맞게 조정할 수 있는 수식이 필요 합니다. 또한 **소유자** 가 될 수 있는 엔터티 형식에 대 한 데이터 소스를 추가 해야 합니다 (이 경우 **사용자** 및 **팀**). 앱에 다음 세 가지 데이터 원본을 추가 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![데이터 창에서 계정, 팀 및 사용자 엔터티](media/working-with-references/accounts-datasources.png)
+> ![데이터 창의 계정, 팀 및 사용자 엔터티](media/working-with-references/accounts-datasources.png)
 
-이러한 데이터를 사용 하 여 원본 배치,이 수식을 사용 하 여 사용자 또는 팀의 이름을 표시 합니다.
+이러한 데이터 원본을 배치한 다음이 수식을 사용 하 여 사용자 또는 팀의 이름을 표시 합니다.
 
 ```powerapps-dot
 If( IsType( ThisItem.Owner, [@Teams] ),
@@ -85,20 +85,20 @@ If( IsType( ThisItem.Owner, [@Teams] ),
 ```
 
 > [!div class="mx-imgBorder"]
-> ![표시 된 소유자 필드를 사용 하 여 갤러리 컨트롤에 표시 된 계정](media/working-with-references/accounts-displayowner.png)
+> ![소유자 필드가 표시 된 갤러리 컨트롤에 표시 되는 계정](media/working-with-references/accounts-displayowner.png)
 
-이 수식에서의 **IsType** 테스트 함수를 **소유자** 에 대 한 필드를 **팀** 엔터티. 해당 엔터티 형식에는 합니다 **AsType** 함수를 캐스팅 하는 **팀** 레코드입니다. 이 시점에서의 모든 필드에 액세스할 수 있습니다는 **팀** 엔터티를 포함 하 여 **팀 이름**를 사용 하 여는 *합니다. 필드* 표기법입니다. 경우 **IsType** 확인 되는 **소유자** 에서 레코드 아닙니다를 **팀** 엔터티를 해당 필드의 레코드 여야 합니다를 **사용자** 엔터티 때문에 합니다 **소유자** 필드는 필수입니다 (이 하 여야 *빈*).
+이 수식에서 **istype** 함수는 **팀** 엔터티를 기준으로 **소유자** 필드를 테스트 합니다. 해당 엔터티 형식인 경우 **에는이 함수를** **팀** 레코드로 캐스팅 합니다. 이제를 사용 하 여 **팀 이름**등 **팀 엔터티의 모든** 필드에 액세스할 수 있습니다 *. 필드* 표기법입니다. **Istype** 수가 **소유자** 가 **팀** 엔터티의 레코드가 아닌 것으로 확인 되는 경우 **소유자** 필드가 필요 하므로 해당 필드는 **사용자** 엔터티의 레코드 여야 합니다 ( *비워*둘 수 없음).
 
-사용 하는 합니다 [글로벌 명확성 연산자](functions/operators.md#disambiguation-operator) 에 대 한 **[@Teams]** 및 **[@Users]** 전역 엔터티 형식을 사용 하는 경우를 확인 합니다. 이 경우에 필요 하지 않습니다 이지만 폼에 좋은 습관입니다. 다 관계는 종종 갤러리의 레코드 범위에서 충돌 하 고이 이렇게 혼동을 방지 합니다.
+**[]@Teams** **및[@Users]** 에 대 한 [전역 명확성 연산자](functions/operators.md#disambiguation-operator) 를 사용 하 여 전역 엔터티 형식을 사용 하 고 있는지 확인 합니다. 이 경우에는 필요 하지 않지만 폼을 작성 하는 것이 좋습니다. 일 대 다 관계가 갤러리의 레코드 범위에서 충돌 하는 경우가 많으며이 경우 혼동을 피할 수 있습니다.
 
-레코드 참조의 모든 필드를 사용 하려면 먼저 사용 해야 합니다 **AsType** 함수는 특정 엔터티 형식으로 캐스팅 해야 합니다. 필드에서 직접 액세스할 수 없습니다는 **소유자** 없으므로 시스템 엔터티 유형을 사용 하려는 필드입니다.
+레코드 참조의 필드를 사용 하려면 먼저 형식 지정 함수를 사용 하 여 특정 엔터티 형식으로 캐스팅 **해야 합니다.** 시스템에서 사용 하려는 엔터티 형식을 알 수 없으므로 **소유자** 필드에서 직접 필드에 액세스할 수 없습니다.
 
-**AsType** 경우 함수는 오류를 반환 합니다 **소유자** 필드 사용할 수 있도록 요청 되는 엔터티 형식 일치 하지 않습니다는 **IfError** 이 수식을 단순화 하는 함수입니다. 첫째, 실험적 기능을 설정 **수식 수준 오류 관리**:
+**Owner** 필드가 요청 중인 엔터티 형식과 일치 하지 않는 경우 **에는** **IfError** 함수를 사용 하 여이 수식을 간소화할 수 있습니다. 먼저 실험적 기능 **수식 수준 오류 관리**를 설정 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![수식 수준 오류 관리를 켜려면 실험적 스위치](media/working-with-references/accounts-iferror.png)
+> ![수식 수준 오류 관리를 켜는 실험적 스위치](media/working-with-references/accounts-iferror.png)
 
-그런 다음이 사용 하 여 앞의 수식은 바꿉니다.
+그런 다음 이전 수식을 다음과 같이 바꿉니다.
 
 ```powerapps-dot
 IfError(
@@ -108,49 +108,49 @@ IfError(
 
 ## <a name="filter-based-on-an-owner"></a>소유자를 기준으로 필터링
 
-축-레코드 참조를 사용 하는 가장 어려운 측면을 완료 했습니다. 다른 사용 사례 더 간단 하 게 되므로 레코드의 필드에 액세스 하지 않습니다. 사례에 점으로, 걸릴 필터링이 단원의 탐색입니다.
+축 하 합니다. 레코드 참조를 사용 하 여 가장 어려운 부분을 완료 했습니다. 다른 사용 사례는 레코드의 필드에 액세스 하지 않기 때문에 보다 간단 합니다. 해당 하는 경우이 섹션에서 살펴볼 필터링을 수행 합니다.
 
-추가 **콤보 상자** 갤러리 위에 제어 하 고 새 컨트롤의 이러한 속성을 설정 합니다.
+갤러리 위에 **콤보 상자** 컨트롤을 추가 하 고 새 컨트롤의 다음 속성을 설정 합니다.
 
 - **Items**: `Users`
-- **SelectMultiple**: `false`
+- **Selectmultiple**:`false`
 
 > [!div class="mx-imgBorder"]
-> ![사용자에 게 설정 하는 항목 속성을 사용 하 여 갤러리 위에 있는 콤보 상자 컨트롤 추가](media/working-with-references/filter-insert-combobox.png)
+> ![항목 속성이 사용자로 설정 된 갤러리 위에 콤보 상자 컨트롤을 추가 했습니다.](media/working-with-references/filter-insert-combobox.png)
 
-이 콤보 상자에서 선택한 특정 사용자가 갤러리를 필터링 하려면 갤러리의 설정 **항목** 속성을 다음이 수식:
+이 콤보 상자에서 선택한 특정 사용자가 갤러리를 필터링 하려면 갤러리의 **Items** 속성을 다음 수식으로 설정 합니다.
 
 ```powerapps-dot
 Filter( Accounts, Owner = ComboBox1.Selected )
 ```
 
 > [!div class="mx-imgBorder"]
-> ![콤보 상자 컨트롤에 설정 된 값에 따라 필터링 된 갤러리](media/working-with-references/filter-accounts.png)
+> ![콤보 상자 컨트롤에 설정 된 값을 기준으로 필터링 된 갤러리](media/working-with-references/filter-accounts.png)
 
 > [!IMPORTANT]
-> 이 항목의 지침에는 정확 하 게 하는 단계를 수행 하는 경우 정확 합니다. 그러나 컨트롤을 이름별으로 참조 되는 수식이 컨트롤 이름이 다른 경우 실패 합니다. 을 삭제 하 고 동일한 유형의 컨트롤을 추가 하는 경우 컨트롤의 이름 끝에 번호는 변경 됩니다. 오류를 표시 하는 모든 수식을 모든 컨트롤의 올바른 이름을 포함 되어 있는지 확인 합니다.
+> 이 항목의 지침은 단계를 정확 하 게 따르는 경우에 정확 합니다. 그러나 컨트롤에 다른 이름이 있는 경우 해당 이름을 기준으로 컨트롤을 참조 하는 수식이 실패 합니다. 동일한 형식의 컨트롤을 삭제 하 고 추가 하는 경우 컨트롤의 이름 끝에 있는 숫자가 변경 됩니다. 오류를 표시 하는 수식의 경우 모든 컨트롤의 올바른 이름이 포함 되어 있는지 확인 합니다.
 
-사용할 필요가 **IsType** 하거나 **AsType** 다른 레코드 참조로 또는 전체 레코드를 레코드 참조 비교 하기 때문에 있습니다. 앱의 엔터티 형식을 알고 **ComboBox1.Selected** 에서 파생 되기 때문에 **사용자** 엔터티. 계정 소유자는 팀이를 필터 조건과 일치 하지 않습니다.
+다른 레코드 **참조 또는 전체** 레코드에 대 한 레코드 참조를 비교 하 고 있으므로 **istype** 또는 고 지 수를 사용할 필요가 없습니다. 앱은 ComboBox1의 엔터티 형식을 알고 있습니다 .이 엔터티는 **Users** 엔터티에서 파생 되기 때문에 **선택 됩니다.** 소유자가 팀 인 계정이 필터 조건과 일치 하지 않습니다.
 
-사용자 또는 팀으로 필터링을 지원 하 여 좀 더 멋지게을 가져올 수 있습니다.
+사용자 또는 팀에서 필터링을 지원 하 여 약간의 fancier을 얻을 수 있습니다.
 
-1. 삽입 콤보 상자를 이동 및 갤러리 크기를 조정 하 여 화면 맨 위 근처 공간을 [ **라디오** 제어](controls/control-radio.md) 갤러리 위에 새 컨트롤에 대 한 이러한 속성을 설정한 후:
+1. 갤러리의 크기를 조정 하 고 콤보 상자를 이동 하 여 갤러리 위에 [ **라디오** 컨트롤](controls/control-radio.md) 을 삽입 하 고 새 컨트롤에 대해 이러한 속성을 설정 하 여 화면 위쪽 근처에 몇 가지 공간을 만듭니다.
 
     - **Items**: `[ "All", "Users", "Teams" ]`
-    - **레이아웃**: `Layout.Horizontal`
+    - **레이아웃**:`Layout.Horizontal`
 
-1. 에 대 한 합니다 **콤보 상자** 컨트롤을이 속성을 설정 (선택 콤보 상자 사라지면 **사용자** 라디오 컨트롤에서):
+1. **콤보 상자** 컨트롤의 경우이 속성을 설정 합니다. 콤보 상자가 사라지면 라디오 컨트롤의 **사용자** 를 선택 합니다.
 
-    - **표시**: `Radio1.Selected.Value = "Users"`
+    - **표시**:`Radio1.Selected.Value = "Users"`
 
-1. 복사 및 붙여넣기 합니다 **콤보 상자** 제어 복사본을 원래를 통해 직접 이동한 다음 복사본에 대 한이 속성을 설정 합니다.
+1. **콤보 상자** 컨트롤을 복사 하 여 붙여넣고 원본에서 직접 복사본을 이동한 다음 복사본에 대해 이러한 속성을 설정 합니다.
 
     - **Items**: `Teams`
-    - **표시**: `Radio1.Selected.Value = "Teams"`
+    - **표시**:`Radio1.Selected.Value = "Teams"`
 
-    앱에는 라디오 컨트롤의 상태에 따라 한 번에 하나의 콤보 상자가 표시 됩니다. 다른 바로 위에 이기 때문에 해당 콘텐츠를 변경 하는 동일한 컨트롤에 나타납니다.
+    앱은 라디오 컨트롤의 상태에 따라 한 번에 하나의 콤보 상자만 표시 합니다. 서로 바로 위에 있기 때문에 콘텐츠를 변경 하는 동일한 컨트롤로 표시 됩니다.
 
-1. 마지막으로 설정 합니다 **항목** 의 속성을 **갤러리** 컨트롤을 다음이 수식으로:
+1. 마지막으로 **갤러리** 컨트롤의 **Items** 속성을 다음 수식으로 설정 합니다.
 
     ```powerapps-dot
     Filter( Accounts,
@@ -161,60 +161,60 @@ Filter( Accounts, Owner = ComboBox1.Selected )
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![모든 레코드 또는 특정 사용자 또는 팀을 보여 주는 필터링 된 갤러리](media/working-with-references/filter-combobox.png)
+    > ![모든 레코드나 특정 사용자 또는 팀을 보여 주는 필터링 된 갤러리](media/working-with-references/filter-combobox.png)
 
-이러한 변화를 통해 모든 레코드를 표시 하거나 사용자 또는 팀을 기준으로 필터링 합니다.
-
-> [!div class="mx-imgBorder"]
-> ![다양 한 필터링 된 결과 보여 주는 애니메이션 기반 라디오 컨트롤 및 콤보 상자](media/working-with-references/filter-allthree.gif)
-
-공식은 완벽 하 게 위임할 수 있습니다. 라디오 단추의 값을 비교 하는 부분에서 모든 레코드는 상수 및 필터의 나머지는 Common Data Service에 전송 되기 전에 평가 됩니다.
-
-소유자의 형식에 따라 필터링 하려는 경우 사용할 수 있습니다 합니다 **IsType** 함수가 있지만 하지 아직 위임할 수 있습니다.
+이러한 변경으로 모든 레코드를 표시 하거나 사용자 또는 팀을 기준으로 필터링 할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![IsType를 사용 하 여 소유자 유형으로 필터링](media/working-with-references/filter-bytype.png)
+> ![라디오 컨트롤 및 콤보 상자를 기준으로 다양 한 필터링 된 결과를 보여 주는 애니메이션](media/working-with-references/filter-allthree.gif)
 
-## <a name="update-the-owner-by-using-patch"></a>패치를 사용 하 여 소유자를 업데이트 합니다.
+수식이 완전히 위임 가능한. 라디오 단추 값을 비교 하는 부분은 모든 레코드에서 상수 이며 나머지 필터는 Common Data Service 전송 되기 전에 계산 됩니다.
 
-업데이트할 수 있습니다 합니다 **소유자** 동일한 방식으로 다른 조회 필드입니다. 첫 번째 팀에 현재 선택한 계정 소유자를 설정:
+소유자 유형을 필터링 하려는 경우 **istype** 함수를 사용할 수 있지만 아직 되지 않습니다.
+
+> [!div class="mx-imgBorder"]
+> ![IsType를 사용 하 여 소유자 형식으로 필터링](media/working-with-references/filter-bytype.png)
+
+## <a name="update-the-owner-by-using-patch"></a>패치를 사용 하 여 소유자 업데이트
+
+다른 조회와 동일한 방식으로 **소유자** 필드를 업데이트할 수 있습니다. 현재 선택한 계정의 소유자를 첫 번째 팀으로 설정 하려면 다음을 수행 합니다.
 
 ```powerapps-dot
 Patch( Accounts, Gallery1.Selected, { Owner: First( Teams ) } )
 ```
 
-앱의 형식을 알고 있기 때문에이 방법은 일반적인 조회에서 다르지 않습니다 **첫 번째 (팀)** 합니다. 첫 번째 사용자를 대신 하려는 경우 해당 부분을 바꿉니다 **첫 번째 (사용자)** 합니다. 합니다 **패치** 한다는 사실을 알고 있으면 함수는 **소유자** 필드는 이러한 두 엔터티 형식 중 하나로 설정할 수 있습니다.
+앱이 **첫 번째 (팀)** 의 유형을 알고 있으므로이 접근 방식은 일반적인 조회와 다릅니다. 첫 번째 사용자를 대신 사용 하려면 해당 부분을 **첫 번째**사용자로 바꿉니다. **Patch** 함수는 **소유자** 필드를 이러한 두 엔터티 형식 중 하나로 설정할 수 있다는 것을 알고 있습니다.
 
-앱에이 기능을 추가 합니다.
+앱에이 기능을 추가 하려면 다음을 수행 합니다.
 
-1. 에 **트리 보기** 창 합니다 **라디오** 컨트롤과 두 **콤보 상자** 동시에 컨트롤입니다.
+1. **트리 뷰** 창에서 **라디오** 컨트롤 및 두 개의 **콤보 상자** 컨트롤을 동시에 선택 합니다.
 
-1. 줄임표 메뉴에서 선택 **이러한 항목을 복사할**합니다.
+1. 줄임표 메뉴에서 **다음 항목 복사**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![트리 뷰를 사용 하 여 여러 컨트롤의 복사본](media/working-with-references/patch-copy.png)
 
-1. 동일한 메뉴에서 선택 **붙여넣기**합니다.
+1. 동일한 메뉴에서 **붙여넣기**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![트리 뷰를 사용 하 여 여러 컨트롤 붙여넣기](media/working-with-references/patch-paste.png)
 
-1. 복사한 컨트롤 갤러리의 오른쪽으로 이동 합니다.
+1. 복사한 컨트롤을 갤러리의 오른쪽으로 이동 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![복사한 컨트롤 갤러리의 오른쪽으로 이동](media/working-with-references/patch-position.png)
+    > ![복사 된 컨트롤을 갤러리 오른쪽으로 이동](media/working-with-references/patch-position.png)
 
-1. 복사한 선택 **라디오** 를 제어 하 고 이러한 속성 변경:
+1. 복사한 **라디오** 컨트롤을 선택 하 고 다음 속성을 변경 합니다.
 
-    - 항목: `[ "Users", "Teams" ]`
-    - 기본값: `If( IsType( Gallery1.Selected.Owner, Users ), "Users", "Teams" )`
+    - 품목이`[ "Users", "Teams" ]`
+    - 기본`If( IsType( Gallery1.Selected.Owner, Users ), "Users", "Teams" )`
 
     > [!div class="mx-imgBorder"]
-    > ![모든 선택 라디오 컨트롤에서 제거](media/working-with-references/patch-noall.png) 
+    > ![라디오 컨트롤에서 모든 선택 항목을 제거 했습니다.](media/working-with-references/patch-noall.png) 
 
-1. 에 **라디오** 컨트롤을 선택 **사용자가** 있도록를 **콤보 상자** 사용자를 나열 하는 컨트롤이 표시 되는지 합니다.
+1. **라디오** 컨트롤에서 사용자를 나열 하는 **콤보 상자** 컨트롤이 표시 되도록 **사용자** 를 선택 합니다.
 
-1. 표시 된 선택 **콤보 상자** 컨트롤을 설정한 후 합니다 **DefaultSelectedItems** 속성을 다음이 수식:
+1. 표시 되는 **콤보 상자** 컨트롤을 선택 하 고 **DefaultSelectedItems** 속성을 다음 수식으로 설정 합니다.
 
     ```powerapps-dot
     If( IsType( Gallery1.Selected.Owner, Users ),
@@ -224,13 +224,13 @@ Patch( Accounts, Gallery1.Selected, { Owner: First( Teams ) } )
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![사용자가 콤보 상자에 대 한 기본 속성 설정](media/working-with-references/patch-default-users.png)
+    > ![사용자 콤보 상자에 설정 된 기본 속성](media/working-with-references/patch-default-users.png)
 
-1. 에 **라디오** 컨트롤을 선택 **팀** 있도록 합니다 **콤보 상자** 팀을 나열 하는 컨트롤이 표시 되는지 합니다.
+1. **라디오** 컨트롤 **에서 팀을 선택 하** 여 팀을 나열 하는 **콤보 상자** 컨트롤이 표시 되도록 합니다.
 
-1. 선택 된 **라디오** 지금 보이지 않는 있이 되려면 컨트롤 **콤보 상자** 사용자에 대 한 제어 합니다.
+1. 사용자를 위해 현재 보이지 않는 **콤보 상자** 컨트롤에서 선택 항목을 가져올 **라디오** 컨트롤을 선택 합니다.
 
-1. 표시 된 선택 **콤보 상자** 팀에 대 한 제어로 설정한 다음 해당 **DefaultSelectedItems** 속성을 다음이 수식:
+1. 팀에 표시 되는 **콤보 상자** 컨트롤을 선택 하 고 **DefaultSelectedItems** 속성을 다음 수식으로 설정 합니다.
 
     ```powerapps-dot
     If( IsType( Gallery1.Selected.Owner, Teams ),
@@ -240,11 +240,11 @@ Patch( Accounts, Gallery1.Selected, { Owner: First( Teams ) } )
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![기본 팀 콤보 상자에 대 한 속성 집합](media/working-with-references/patch-default-teams.png)
+    > ![팀 콤보 상자에 설정 된 기본 속성](media/working-with-references/patch-default-teams.png)
 
-1. 삽입을 **단추** 컨트롤을 아래로 이동 합니다 **콤보 상자** 컨트롤을 설정한 다음 단추의 **텍스트** 속성을 `"Patch Owner"`입니다.
+1. **Button** 컨트롤을 삽입 하 고, **콤보 상자** 컨트롤 아래로 이동한 다음, 단추의 **Text** 속성을로 `"Patch Owner"`설정 합니다.
 
-1. 설정 된 **OnSelect** 속성을 다음이 수식으로 단추:
+1. 단추의 **Onselect** 속성을 다음 수식으로 설정 합니다.
 
     ```powerapps-dot
     Patch( Accounts, Gallery1.Selected,
@@ -254,44 +254,44 @@ Patch( Accounts, Gallery1.Selected, { Owner: First( Teams ) } )
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![단추 컨트롤을 설정 하는 수식](media/working-with-references/patch-button.png)
+    > ![단추 컨트롤에 설정 되는 수식](media/working-with-references/patch-button.png)
 
-복사한 **라디오** 하 고 **콤보 상자** 컨트롤 갤러리에서 현재 선택한 계정에 대 한 소유자를 표시 합니다. 동일한 컨트롤을 사용 하 여 단추를 선택 하 여 팀 또는 사용자 계정의 소유자를 설정할 수 있습니다.
+복사한 **라디오** 및 **콤보 상자** 컨트롤은 갤러리에서 현재 선택한 계정에 대 한 소유자를 표시 합니다. 동일한 컨트롤을 사용 하 여 다음 단추를 선택 하 여 계정의 소유자를 팀 또는 사용자로 설정할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![사용자 또는 팀을 사용 하 여 소유자의 애니메이션 보여 주는 패치](media/working-with-references/patch-allthree.gif)
+> ![사용자 또는 팀과 소유자의 패치를 보여 주는 애니메이션](media/working-with-references/patch-allthree.gif)
 
-## <a name="show-the-owner-by-using-a-form"></a>소유자 폼을 사용 하 여 보여 줍니다.
+## <a name="show-the-owner-by-using-a-form"></a>폼을 사용 하 여 소유자 표시
 
-표시할 수 있습니다는 **소유자** 사용자 지정 카드를 추가 하 여 폼 내부 필드입니다. 이 문서의 작성 시점 현재 양식 컨트롤을 사용 하 여 필드의 값을 변경할 수 없습니다.
+사용자 지정 카드를 추가 하 여 양식 내에 **소유자** 필드를 표시할 수 있습니다. 이 문서를 작성할 때 양식 컨트롤을 사용 하 여 필드의 값을 변경할 수 없습니다.
 
-1. 삽입을 **편집 양식** 컨트롤 및 다음 크기를 조정 하 고 오른쪽 아래 모서리로 이동 합니다.
+1. **편집 양식** 컨트롤을 삽입 하 고 크기를 조정 하 여 오른쪽 아래 모서리로 이동 합니다.
 
-1. 에 **속성** 오른쪽 근처에서 열려 있는 화면의 탭의 **데이터 원본** 목록 및 선택한 **계정**합니다.
-
-    > [!div class="mx-imgBorder"]
-    > ![빈 값을 사용 하 여 추가 필드를 표시 하는 양식 컨트롤](media/working-with-references/form-insert.png)  
-
-1. 폼의 설정 **항목** 속성을 `Gallery1.Selected`입니다.
+1. 화면 오른쪽의 **속성** 탭에서 **데이터 원본** 목록을 열고 **계정**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![갤러리에서 선택한 항목에서 채워진 추가 필드가 표시 양식 컨트롤](media/working-with-references/form-item.png)
+    > ![빈 값이 있는 추가 필드를 표시 하는 폼 컨트롤](media/working-with-references/form-insert.png)  
 
-1. 에 **속성** 탭의 선택 화면 오른쪽 근방 **필드를 편집할**합니다.
-
-1. 에 **필드** 창에서 줄임표를 선택한 후 **사용자 지정 카드 추가**합니다.
+1. 폼의 **항목** 속성을로 `Gallery1.Selected`설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![사용자 지정 카드 추가 명령](media/working-with-references/form-customcard.png)
+    > ![갤러리에서 선택한 항목으로 채워진 추가 필드를 표시 하는 폼 컨트롤](media/working-with-references/form-item.png)
 
-    새 카드 양식 컨트롤의 맨 아래에 나타납니다.
+1. 화면 오른쪽의 **속성** 탭에서 **필드 편집**을 선택 합니다.
 
-1. 모든 텍스트를 표시 하는 데 필요한 대로 카드 크기를 조정 합니다.
+1. **필드** 창에서 줄임표를 선택 하 고 **사용자 지정 카드 추가**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![삽입 된 사용자 지정 카드 빈](media/working-with-references/form-inserted-customcard.png)
+    > ![사용자 지정 카드를 추가 하는 명령](media/working-with-references/form-customcard.png)
 
-1. 삽입 된 **레이블을** 사용자 지정 카드를 제어 하 고 설정한 다음 레이블의 **텍스트** 속성을 갤러리에는 수식:
+    새 카드가 양식 컨트롤의 맨 아래에 나타납니다.
+
+1. 모든 텍스트를 표시 하기 위해 필요에 따라 카드 크기를 조정 합니다.
+
+    > [!div class="mx-imgBorder"]
+    > ![삽입 된 사용자 지정 카드, 공백](media/working-with-references/form-inserted-customcard.png)
+
+1. **레이블** 컨트롤을 사용자 지정 카드에 삽입 한 다음 레이블의 **Text** 속성을 갤러리에서 사용한 수식으로 설정 합니다.
 
     ```powerapps-dot
     If( IsType( ThisItem.Owner, Teams ),
@@ -300,46 +300,46 @@ Patch( Accounts, Gallery1.Selected, { Owner: First( Teams ) } )
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![소유자 필드는 레이블 컨트롤에 표시 되는 사용자 지정 카드](media/working-with-references/form-displayowner.png)
+    > ![레이블 컨트롤의 소유자 필드를 표시 하는 사용자 지정 카드](media/working-with-references/form-displayowner.png)
 
-갤러리에서 선택한 각 항목에 대 한 레코드의 소유자를 포함 하 여 계정의 자세한 필드가 폼에 나타납니다. 사용 하 여 소유자를 변경 합니다 **패치** 단추를 폼 컨트롤에는 또한 해당 변경 내용을 보여 줍니다.
-
-> [!div class="mx-imgBorder"]
-> ![갤러리에서 변경 내용에 응답 하는 form 컨트롤을 보여 주는 애니메이션](media/working-with-references/form-allthree.gif)
-
-## <a name="show-the-fields-of-a-customer"></a>고객의 필드를 표시 합니다.
-
-Common Data Service에는 **고객** 조회 필드는 매우 비슷한 다른 다형 조회 **소유자**합니다.
-
-**소유자** 노드인 0 개 이상의 엔터티를 하지만 엔터티 하나씩 포함 될 수 있습니다 **고객** 조회 필드입니다. 합니다 **연락처** 시스템 엔터티를 포함 합니다 **회사 이름** 필드를 **고객** 조회 필드입니다.
+갤러리의 각 선택에 대해 레코드 소유자를 포함 하 여 계정에 대 한 추가 필드가 폼에 표시 됩니다. **패치** 단추를 사용 하 여 소유자를 변경 하는 경우 양식 컨트롤에도 해당 변경 내용이 표시 됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![연락처 회사 이름 필드는 필요 하지 않습니다 하는 고객 데이터 형식으로 표시 하는 엔터티](media/working-with-references/customer-companyname.png)
+> ![갤러리의 변경 내용에 응답 하는 양식 컨트롤을 보여 주는 애니메이션](media/working-with-references/form-allthree.gif)
 
-더 추가할 수 있습니다 **고객** 를 선택 하 여 엔터티에 조회 필드를 **고객** 새 필드에 대 한 데이터 형식입니다.
+## <a name="show-the-fields-of-a-customer"></a>고객의 필드 표시
 
-![필드를 만들 때 데이터 형식의 목록에서 고객 데이터 입력](media/working-with-references/customer-datatype.png)
+Common Data Service에서 **고객** 조회 필드는 **소유자**와 매우 유사한 또 다른 다형 조회입니다.
 
-A **고객** 조회 필드 중 하나에서 레코드를 참조할 수는 **계정** 엔터티 또는 **연락처** 엔터티. 사용 하 여는 **IsType** 하 고 **AsType** 이러한 엔터티를 사용 하 여 이제 기능은 데이터 원본으로 추가 하는 것이 좋습니다 (두어도 **팀** 및 **사용자**  진행에서).
+**Owner** 는 엔터티 당 하나로 제한 되지만 엔터티는 0 개 이상의 **고객** 조회 필드를 포함할 수 있습니다. Contact **system 엔터티는** **고객** 조회 필드인 **회사 이름** 필드를 포함 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![계정, 팀, 사용자 및 연락처 엔터티를 데이터 창에서](media/working-with-references/customer-datasources.png)
+> ![회사 이름 필드를 표시 하는 엔터티를 고객 데이터 형식으로 표시 하는 데 필요 하지 않습니다.](media/working-with-references/customer-companyname.png)
 
-처리를 **고객** 하 고 **소유자** 필드는 유사 하므로 앱 문자 그대로 복사할 수 있습니다 (**파일** > **다른이름으로**, 한 다음 다른 이름을 지정) 하 고 이러한 간단한 대체:
+새 필드에 대 한 **customer** 데이터 형식을 선택 하 여 더 많은 **고객** 조회 필드를 엔터티에 추가할 수 있습니다.
 
-| 위치 | **소유자** 샘플 | **고객** 샘플 |
+![필드를 만들 때 데이터 형식 목록의 고객 데이터 형식](media/working-with-references/customer-datatype.png)
+
+**고객** 조회 필드는 **Accounts** 엔터티 또는 **연락처** 엔터티의 레코드를 참조할 수 있습니다. 이러한 엔터티를 사용 하 여 **istype** **사용 하는** 것이 좋습니다. 이제이를 데이터 원본으로 추가 하는 것이 좋습니다. **팀** 과 **사용자** 를 그대로 둘 수 있습니다.
+
+> [!div class="mx-imgBorder"]
+> ![데이터 창의 계정, 팀, 사용자 및 연락처 엔터티](media/working-with-references/customer-datasources.png)
+
+**고객** 및 **소유자** 필드를 처리 하는 것은 응용 프로그램을 복사 하는 것과 유사 합니다 (**파일** > 이름**으로 저장**을 클릭 한 다음 다른 이름 지정).
+
+| 위치 | **Owner** 샘플 | **Customer** 샘플 |
 |----------|-----------|------------------|
-| 전체 | **소유자** | **' 고객 이름 '** |
-| 전체 | **사용자** | **계정** |
-| 전체 | **팀** | **연락처** |
-| 갤러리의 **항목** 속성 | **계정** | **연락처** |
-| 양식의 **항목** 속성 | **계정** | **연락처** |
-| 첫 번째 인수 **패치**<br>단추의 **OnSelect** 속성 | **계정** | **연락처** |
-| 라디오의 필터링 **항목** 속성 | **[&nbsp;"All",&nbsp;"Users",&nbsp;"Teams"&nbsp;]** | **[&nbsp;"All",&nbsp;"Accounts",&nbsp;"Contacts"&nbsp;]** |
-| 라디오의 패치 **항목** 속성 | **["Users", "팀"]** | **[ "Accounts", "Contacts" ]** |
-| 콤보 상자 **Visible** 속성 | **"사용자"** 고 **"팀"** | **[계정]** 고 **"Contacts"** |
+| 도중 | **소유자** | **' 고객 이름 '** |
+| 도중 | **못하게** | **계좌** |
+| 도중 | **팀** | **문의처** |
+| 갤러리의 **Items** 속성 | **계좌** | **문의처** |
+| 양식의 **Items** 속성 | **계좌** | **문의처** |
+| **패치의** 첫 번째 인수<br>단추의 **Onselect** 속성에서 | **계좌** | **문의처** |
+| 라디오 **항목** 필터 속성 | **[&nbsp;"All",&nbsp;"Users",&nbsp;"팀"&nbsp;]** | **[&nbsp;"모두",&nbsp;"계정",&nbsp;"연락처"&nbsp;]** |
+| Patch radio **Items** 속성 | **["사용자", "팀"]** | **["계정", "연락처"]** |
+| 콤보 상자의 **Visible** 속성 | **"사용자"** 및 **"팀"** | " **계정"** 및 **"연락처"** |
 
-예를 들어, 새 갤러리가 있어야 합니다 **항목** 속성:
+예를 들어 새 갤러리에는 다음 **항목** 속성이 있어야 합니다.
 
 ```powerapps-dot
 Filter( Contacts,
@@ -350,15 +350,15 @@ Filter( Contacts,
 ```
 
 > [!div class="mx-imgBorder"]
-> ![간단한 변경 내용 적용을 사용 하 여 소유자 앱에서 파생 하는 고객 앱](media/working-with-references/customer-simple-update.png)
+> ![간단한 변경 내용이 적용 된 소유자 앱에서 파생 된 고객 앱](media/working-with-references/customer-simple-update.png)
 
-두 가지 중요 한 차이점 **고객** 하 고 **소유자** 갤러리 및 양식 내에서 수식에 대 한 업데이트 필요:
+**Customer** 와 **Owner** 의 두 가지 중요 한 차이점에는 갤러리와 폼의 수식에 대 한 업데이트가 필요 합니다.
 
-1. 사이 일 대 다 관계 **계정을** 하 고 **연락처** 이러한 엔터티 형식 이름으로 참조 하는 경우 보다 우선적으로 적용 합니다. 대신 **계정을**를 사용 하 여  **\[ \@계정]**; 대신 **연락처**를 사용 하 여  **\[ \@ 연락처]** 합니다. 사용 하 여 합니다 [글로벌 명확성 연산자](functions/operators.md#disambiguation-operator), 엔터티 형식에 참조 하는 것이 해야 **IsType** 및 **AsType**합니다. 이 문제는 갤러리 및 양식 컨트롤의 레코드 컨텍스트에만 존재 합니다.
+1. **계정** 및 **연락처** 간의 일대다 관계는 이름으로 이러한 엔터티 형식을 참조할 때 우선적으로 적용 됩니다. **계정**대신  **\[ \@** 계정]을 사용 하 고 연락처 대신  **연락처]를사용합니다.\@ \[** [전역 명확성 연산자](functions/operators.md#disambiguation-operator)를 사용 하 여 **istype** 및 고 지 수에서 엔터티 형식을 참조 **하 고 있는지**확인 합니다. 이 문제는 갤러리 및 폼 컨트롤의 레코드 컨텍스트에서만 존재 합니다.
 
-1. 합니다 **소유자** 필드 값이 있어야 합니다. 하지만 **고객** 필드 수 *빈*합니다. 형식 이름이 없는 올바른 결과 표시 하려면 사용 하 여이 사례에 대 한 테스트를 [ **IsBlank** 함수](functions/function-isblank-isempty.md), 대신 빈 텍스트 문자열을 표시 합니다.
+1. **Owner** 필드에는 값이 있어야 하지만 **Customer** 필드는 *비워*둘 수 있습니다. 형식 이름이 없는 올바른 결과를 표시 하려면 [ **isblank** 함수](functions/function-isblank-isempty.md)를 사용 하 여이 사례를 테스트 하 고 대신 빈 텍스트 문자열을 표시 합니다.
 
-이러한 변경 내용의 둘 다에 동일한 수식에서와 같이 양식에서 사용자 지정 카드에 나타나는 합니다 **텍스트** 갤러리의 레이블 컨트롤의 속성:
+이러한 변경 내용에는 모두 폼의 사용자 지정 카드와 갤러리 레이블 컨트롤의 **Text** 속성에 표시 되는 동일한 수식이 있습니다.
 
 ```powerapps-dot
 If( IsBlank( ThisItem.'Company Name' ), "",
@@ -369,39 +369,32 @@ If( IsBlank( ThisItem.'Company Name' ), "",
 ```
 
 > [!div class="mx-imgBorder"]
-> ![갤러리에서 부제목 레이블 컨트롤의 Text 속성을 업데이트 합니다.](media/working-with-references/customer-update.png)
+> ![갤러리에서 자막 레이블 컨트롤의 Text 속성으로 업데이트](media/working-with-references/customer-update.png)
 
-이러한 변경으로 확인 하 고 변경할 수는 **회사 이름** 필드를 **연락처** 엔터티.
+이러한 변경 내용으로 **연락처** 엔터티에서 **회사 이름** 필드를 보고 변경할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![다른 컨트롤 및 폼 어떻게 변경 연락처 선택 보여 주는 애니메이션](media/working-with-references/customer-allthree.gif)
+> ![연락처를 선택 하 여 다른 컨트롤과 폼을 변경 하는 방법을 보여 주는 애니메이션](media/working-with-references/customer-allthree.gif)
 
-> [!NOTE]
-> 이 문서의 작성 시점 현재 **고객** 조회 이러한 제한 사항이 있습니다.
->
-> - 특정 레코드를 기준으로 목록을 필터링 할 수 없습니다는 **연락처** 하거나 **계정** 엔터티. 이전 예제에서 필터 라디오 단추 컨트롤 작동 하지 않습니다.
-> - 작동 하는 유일한 고객 필드는 시스템 정의 **' 회사 이름 '** 에 **연락처** 이전 예제에서 사용 된 엔터티. 사용자 지정 고객 필드를 추가 합니다. 아직 지원 되지 않습니다.
-> - 사용 하 여 고객 필드를 지울 수 없습니다 **패치** 로 설정 하려면 *빈*합니다.
+## <a name="understand-regarding-lookup-fields"></a>조회 필드 관련 이해
 
-## <a name="understand-regarding-lookup-fields"></a>조회 필드에 대 한 이해
+**관련** 조회 필드는이 항목에서 이미 작업 한 필드와는 약간 다릅니다. 먼저이 항목에서 설명 하는 패턴을 적용 한 다음 다른 트릭을 학습 합니다.
 
-합니다 **와 관련 하 여** 조회 필드에서 이미 작업을 했었다면이 항목에는 약간 다릅니다. 이 항목에서는 앞에서 설명한 패턴을 적용 하 여 먼저 및 다음 다른 유용한 정보를 배웁니다.
+간단히 **팩스** 엔터티를 사용 하 여 시작할 수 있습니다. 이 엔터티에는 **계정**, **연락처**및 기타 엔터티를 참조할 수 있는 조회 필드와 **관련** 된 다형성이 있습니다. 앱을 사용 하 여 **고객** 을 위해 앱을 수정 하 고 **팩스**를 수정할 수 있습니다.
 
-시작할 수 있습니다 단순히 합니다 **팩스** 엔터티. 이 엔터티는 다형성에 **에 대 한** 조회 필드를 참조할 수 있는 **계정**를 **연락처**, 및 기타 엔터티. 앱에 대해 수행할 수 있습니다 **고객이** 에 대 한 수정 **팩스**합니다.
-
-| 위치 | **고객** 샘플 | **팩스** 샘플 |
+| 위치 | **Customer** 샘플 | **팩스** 샘플 |
 |----------|-----------|------------------|
-| 전체 | **' 고객 이름 '** | **관련 항목** |
-| 갤러리의 **항목** 속성 | **연락처** | **팩스 수** |
-| 양식의 **항목** 속성 | **연락처** | **팩스 수** |
-| 첫 번째 인수 **패치**<br> 단추의 **OnSelect** 속성 | **연락처** | **팩스 수** |
+| 도중 | **' 고객 이름 '** | **관련** |
+| 갤러리의 **Items** 속성 | **문의처** | **없으며** |
+| 양식의 **Items** 속성 | **문의처** | **없으며** |
+| **패치의** 첫 번째 인수<br> 단추의 **Onselect** 속성에서 | **문의처** | **없으며** |
 
-데이터 소스를 추가 해야 하는 다시:에 대 한이 이번 **팩스**합니다. 에 **뷰** 탭을 선택 **데이터 원본**:
+이번에는 **팩스**에 대해 이번에는 데이터 원본을 추가 해야 합니다. **보기** 탭에서 **데이터 원본**을 선택 합니다.
 
 > [!div class="mx-imgBorder"]
 > ![계정, 팀, 사용자, 연락처 및 팩스 엔터티를 보여 주는 데이터 창](media/working-with-references/faxes-datasources.png)
 
-에 대 한 중요 한 차이점이 **에 관한** 제한 아니라는 점 **계정** 하 고 **연락처**합니다. 사실, 엔터티 목록을 사용자 지정 엔터티를 사용 하 여 확장 가능 합니다. 대부분 앱의 수정 없이이 시점에서 수용할 수 있지만 갤러리 및 폼에서 레이블에 대 한 수식을 업데이트 해야 합니다.
+**와 관련** 하 여 중요 한 차이점은 **계정** 및 **연락처**에 국한 되지 않는다는 것입니다. 실제로 엔터티 목록은 사용자 지정 엔터티로 확장할 수 있습니다. 대부분의 앱은 수정 없이이 지점을 수용할 수 있지만 갤러리와 폼의 레이블에 대 한 수식을 업데이트 해야 합니다.
 
 ```powerapps-dot
 If( IsBlank( ThisItem.Regarding ), "",
@@ -414,106 +407,100 @@ If( IsBlank( ThisItem.Regarding ), "",
 ```
 
 > [!div class="mx-imgBorder"]
-> ![조회에 대 한 자막 컨트롤에 대 한 업데이트 된 텍스트 속성](media/working-with-references/regarding-label.png)
+> ![조회와 관련 하 여 부제목 컨트롤의 업데이트 된 텍스트 속성](media/working-with-references/regarding-label.png)
 
-이러한 변경을 수행한 후 작업할 합니다 **에 대 한** 수행한 것 처럼 조회를 **소유자** 및 **고객** 조회.
-
-> [!div class="mx-imgBorder"]
-> ![다른 컨트롤 및 폼 어떻게 변경 갤러리에서 항목을 선택 하면 보여 주는 애니메이션](media/working-with-references/regarding-allthree.gif)
-
-> [!NOTE]
-> 이 문서의 작성 시점 현재 **와 관련 하 여** 조회 이러한 제한 사항이 있습니다.
->
-> - 특정 레코드를 기준으로 목록을 필터링 할 수 없습니다. 이전 예제에서 필터 라디오 단추 컨트롤 작동 하지 않습니다.
-> - 사용 하 여 관련 필드를 지울 수 없습니다 **패치** 로 설정 하려면 *빈*합니다.
-
-## <a name="understand-regarding-relationships"></a>관계에 대 한 이해
-
-**에 대 한** 에서 서로 다릅니다 **소유자** 및 **고객** 전자 다 대 일 관계 반하므로 합니다. 정의상, 역방향, 다 관계를 작성할 수 있습니다 **첫 번째 (계정). 팩스**합니다.
-
-보겠습니다를 백업 하 고 엔터티 정의 살펴봅니다. Common Data Service와 같은 엔터티 **팩스**, **작업**, **전자 메일**, **노트**를 **전화 통화**, **문자**, 및 **채팅** 으로 지정 된 [ *활동*](../../developer/common-data-service/activity-entities.md)합니다. 만들 수도 있습니다 고유한 [사용자 지정 활동 엔터티](../../developer/common-data-service/custom-activities.md)합니다. 작업 엔터티를 만들거나 보려면 아래 해당 설정이 표시 **더 많은 설정을**합니다.
-
-![엔터티를 만들 때 작업 엔터티 설정](media/working-with-references/activity-entitytype.png)
-
-활동 엔터티도 활성화 되어 있는 경우 다른 엔터티에 연결할 수 있습니다는 *활동 작업* 엔터티의 설정 합니다. **계정**, **연락처**, 및 다른 여러 표준 엔터티는 지정 된 (다시 아래 **더 많은 설정을**).
-
-![작업 작업 설정 엔터티를 만들 때](media/working-with-references/activity-entityuse.png)
-
-모든 활동 엔터티 및 작업-작업 엔터티 관계를 암시 된 경우 필터를 변경 하는 경우 **모든** 화면의 맨 위에 있는 선택 된 **팩스** 엔터티를 선택한 후는 **관계** 탭을 대상이될수있는모든엔터티 **와 관련 하 여** 조회 표시 합니다.
+이러한 변경을 수행한 후에는 **소유자** 와 **고객** 조회를 수행한 것 처럼 **관련** 조회를 사용 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![다 대 일 관계에 대 한 표시 팩스 엔터티의 관계](media/working-with-references/activity-manytoone.png)
+> ![갤러리에서 항목을 선택 하 여 다른 컨트롤과 폼을 변경 하는 방법을 보여 주는 애니메이션](media/working-with-references/regarding-allthree.gif)
 
-에 대 한 관계를 표시 하는 경우는 **계정** 엔터티의 원인이 될 수 있는 모든 엔터티를 **와 관련 하 여** 조회 필드를 표시 합니다.
+## <a name="understand-regarding-relationships"></a>관련 관계 이해
+
+와 **관련** 하 여은 다 대 일 관계를 포함 하기 때문에 **소유자** 와 **고객과** 다릅니다. 정의에 따라 역방향, 일 대 다 관계를 사용 하면 **첫 번째 (계정)을 작성할 수 있습니다. 팩스**.
+
+을 (를) 백업 하 고 엔터티 정의를 살펴보겠습니다. Common Data Service **팩스**, **작업**, **전자 메일**, **메모**, **전화 통화**, **문자**및 **채팅** 등의 엔터티는 [*활동*](../../developer/common-data-service/activity-entities.md)으로 지정 됩니다. [사용자 고유의 사용자 지정 활동 엔터티](../../developer/common-data-service/custom-activities.md)를 만들 수도 있습니다. 활동 엔터티를 보거나 만들 때 해당 설정이 **추가 설정**아래에 나타납니다.
+
+![엔터티를 만들 때 활동 엔터티 설정](media/working-with-references/activity-entitytype.png)
+
+다른 엔터티는 엔터티의 설정에서 *활동 작업* 으로 사용 하도록 설정 된 경우 활동 엔터티와 관련 될 수 있습니다. **계정**, **연락처**및 기타 많은 표준 엔터티는 다시 지정 됩니다 ( **더 많은 설정**에서).
+
+![엔터티를 만들 때의 작업 작업 설정](media/working-with-references/activity-entityuse.png)
+
+모든 활동 엔터티와 활동 태스크 엔터티에는 암시적인 관계가 있습니다. 화면 위쪽에서 필터를 **모두** 로 변경 하는 경우 **팩스** 엔터티를 선택 하 고 **관계** 탭을 선택 하면 **관련** 조회 대상이 될 수 있는 모든 엔터티가 표시 됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![1 대 다 관계에 대 한 표시: 계정 엔터티 관계](media/working-with-references/activity-onetomany.png)
+> ![다 대 일 관계를 보여 주는 팩스 엔터티의 관계](media/working-with-references/activity-manytoone.png)
 
-새로운 모든 평균 하는가?
+**계정** 엔터티에 대 한 관계를 표시 하는 경우 **관련** 조회 필드의 원본으로 사용할 수 있는 모든 엔터티가 표시 됩니다.
 
-- 수식에 작성할 때 작업 엔터티 목록을 수정 되지 않습니다 하 고 직접 만들 수 있습니다를 고려해 야 합니다. 수식이 예상 하지 않은 활동 엔터티를 처리 적절 하 게 해야 합니다.
-- 작업 활동 및 활동에는-일대다 관계가 있습니다. 계정에 관련 된 모든 팩스에 대 한 쉽게 요청할 수 있습니다.
+> [!div class="mx-imgBorder"]
+> ![일대다 관계와 관련 하 여 표시 되는 계정 엔터티의 관계](media/working-with-references/activity-onetomany.png)
 
-앱에서이 개념을 탐색:
+무엇을 의미 하나요?
+
+- 수식을 작성 하는 경우 활동 엔터티 목록이 고정 되지 않은 것을 고려해 야 하며, 직접 만들 수도 있습니다. 수식이 예상치 못한 활동 엔터티를 적절 하 게 처리 해야 합니다.
+- 활동 태스크와 활동에는 일 대 다 관계가 있습니다. 계정과 관련 된 모든 팩스를 쉽게 요청할 수 있습니다.
+
+앱에서이 개념을 탐색 하려면 다음을 수행 합니다.
 
 1. 다른 화면을 추가 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![빈 화면을 삽입 합니다.](media/working-with-references/activitypointer-newscreen.png)
+    > ![빈 화면 삽입](media/working-with-references/activitypointer-newscreen.png)
 
-1. 갤러리 컨트롤을 삽입 하 고 조정한 다음 화면의 왼쪽으로 이동 합니다.
+1. 갤러리 컨트롤을 삽입 하 고 크기를 조정한 다음 화면의 왼쪽으로 이동 합니다.
 
-1. 에 **속성** 화면의 오른쪽 근방 탭에서 갤러리의 **항목** 하 **계정**합니다.
-
-    > [!div class="mx-imgBorder"]
-    > ![속성 창에서 항목을 계정에 설정 합니다.](media/working-with-references/activitypointer-accounts.png)
-
-1. 갤러리의 레이아웃 설정 **제목**, 다음으로 제목 필드를 설정 하 고 **계정 이름**합니다.
+1. 화면 오른쪽의 **속성** 탭에서 갤러리의 **항목** 을 **계정**으로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![속성 창에서 갤러리 컨트롤에 대 한 레이아웃을 제목에 설정 합니다.](media/working-with-references/activitypointer-account-name.png)
+    > ![속성 창의 계정으로 항목 설정](media/working-with-references/activitypointer-accounts.png)
 
-1. 두 번째 갤러리를 추가 하 고 조정한 다음 화면 왼쪽에서 오른쪽으로 이동 합니다.
-
-1. 새 갤러리의 설정 **항목이** 속성을 `Gallery2.Selected.Faxes`입니다.
-
-    이 단계에는 지정된 된 계정에 대 한 팩스의 필터링 된 목록을 반환합니다.
+1. 갤러리의 레이아웃을 **제목**으로 설정 하 고 제목 필드를 **계정 이름**으로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![팩스를 보여 주는 갤러리의 Items 속성 설정](media/working-with-references/activitypointer-faxes.png)
+    > ![속성 창에서 갤러리 컨트롤의 레이아웃을 제목으로 설정](media/working-with-references/activitypointer-account-name.png)
 
-1. 갤러리의 레이아웃 설정 **제목 및 부제목**, 표시할 제목 필드를 설정한 후를 **주체** 필드 (소문자 수 있음 **주체**).
+1. 두 번째 갤러리를 추가 하 고 크기를 조정한 다음 화면 오른쪽으로 이동 합니다.
+
+1. 새 갤러리의 **Items** 속성을로 `Gallery2.Selected.Faxes`설정 합니다.
+
+    이 단계에서는 지정 된 계정에 대해 필터링 된 팩스 목록을 반환 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![제목 필드로 설정 제목](media/working-with-references/activitypointer-subject.png)
+    > ![팩스를 표시 하는 갤러리의 Items 속성 설정](media/working-with-references/activitypointer-faxes.png)
 
-계정 목록에서 항목을 선택 하면 해당 계정에만 팩스 팩스의 목록에 나타납니다.
+1. 갤러리의 레이아웃을 **제목 및 부제**로 설정 하 고 제목 필드를 표시 하도록 **제목 필드를** 설정 합니다 (소문자 **제목**).
+
+    > [!div class="mx-imgBorder"]
+    > ![제목 필드에 제목 설정](media/working-with-references/activitypointer-subject.png)
+
+계정 목록에서 항목을 선택 하면 팩스 목록에 해당 계정에 대 한 팩스도 표시 됩니다.
 
 > [!div class="mx-imgBorder"]
-> ![팩스 목록을 주행 계정 갤러리에서 선택 영역을 표시 하는 애니메이션](media/working-with-references/activitypointer-allthree.gif)
+> ![계정 갤러리의 선택 항목을 표시 하는 애니메이션 팩스 목록을 구동 합니다.](media/working-with-references/activitypointer-allthree.gif)
 
-## <a name="activity-entity"></a>작업 엔터티
+## <a name="activity-entity"></a>활동 엔터티
 
-이전 섹션에서 설명한 대로 계정의 모든 팩스를 표시할 수 있습니다. 그러나 팩스, 전자 메일 메시지, 전화 통화 및 기타 상호 작용을 포함 하는 계정에 대 한 모든 활동을 표시할 수 있습니다.
+이전 섹션에서 설명 하는 것 처럼 계정의 모든 팩스를 표시할 수 있습니다. 그러나 팩스, 전자 메일 메시지, 전화 통화 및 기타 상호 작용을 포함 하 여 계정에 대 한 모든 작업을 표시할 수도 있습니다.
 
-후자의 시나리오의 경우 사용 합니다 **활동** 엔터티. 설정 하 여이 엔터티를 표시할 수 있습니다 **모든** 엔터티 목록에서 필터를 제거 하려면 오른쪽 위 모퉁이에서.
-
-> [!div class="mx-imgBorder"]
-> ![작업 엔터티를 보여 주는 엔터티 목록](media/working-with-references/activitypointer-entity.png)
-
-합니다 **활동** 엔터티는 특별 합니다. 레코드를 추가할 때마다 합니다 **팩스** 엔터티를 시스템도에 레코드를 만듭니다 합니다 **활동** 모든 활동 엔터티 간에 공통 되는 필드를 사용 하 여 엔터티. 이러한 필드 중 **주체** 가장 흥미로운 부분 중 하나입니다.
-
-이전 예제에서 하나의 줄을 변경 하 여 모든 활동을 표시할 수 있습니다. 바꿉니다 `Gallery2.Selected.Faxes` 사용 하 여 `Gallery2.Selected.Activities`입니다.
+두 번째 시나리오에서는 **활동** 엔터티를 사용 합니다. 오른쪽 위 모서리에서 **모두** 를 설정 하 여이 엔터티를 표시 하 여 엔터티 목록에서 필터를 제거할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![팩스에서 활동을 변경 하 고 두 번째 갤러리 항목 속성 변경](media/working-with-references/activitypointer-gallery.png)
+> ![활동 엔터티를 표시 하는 엔터티 목록](media/working-with-references/activitypointer-entity.png)
 
-레코드에서 생성 되는 **활동** 엔터티를 사용할 수 있습니다 그럼에도 불구 하 고는 **IsType** 는 어떤 종류의 작업을 식별 하는 함수입니다. 다시 사용 하기 전에 **IsType** 엔터티 형식을 사용 하 여 데이터 소스를 추가 해야 합니다.
+**활동** 엔터티는 특수 합니다. **팩스** 엔터티에 레코드를 추가할 때마다 시스템은 모든 활동 엔터티에 공통 된 필드를 사용 하 여 **활동** 엔터티에 레코드를 만듭니다. 이러한 필드 중 **제목** 은 가장 흥미로운 항목 중 하나입니다.
+
+이전 예제에서 한 줄만 변경 하 여 모든 작업을 표시할 수 있습니다. 을 `Gallery2.Selected.Faxes` 로`Gallery2.Selected.Activities`바꿉니다.
+
+> [!div class="mx-imgBorder"]
+> ![팩스에서 작업으로 변경 하는 두 번째 갤러리의 항목 속성 변경](media/working-with-references/activitypointer-gallery.png)
+
+레코드는 **활동** 엔터티에서 가져오지만, 그럼에도 불구 하 고 **istype** 함수를 사용 하 여 해당 활동의 종류를 식별할 수 있습니다. 엔터티 형식에서 **istype** 를 사용 하기 전에 데이터 원본을 추가 해야 합니다.
 
 > [!div class="mx-imgBorder"]
 > ![IsType 함수에 필요한 모든 엔터티를 보여 주는 데이터 창](media/working-with-references/activity-datasources.png)
 
-이 수식은 사용 하 여 레이블 컨트롤을 갤러리 내에서 레코드 종류를 표시할 수 있습니다.
+이 수식을 사용 하 여 갤러리 내에서 레이블 컨트롤에 레코드 형식을 표시할 수 있습니다.
 
 ```powerapps-dot
 If( IsType( ThisItem, [@Faxes] ), "Fax",
@@ -525,9 +512,9 @@ If( IsType( ThisItem, [@Faxes] ), "Fax",
 ```
 
 > [!div class="mx-imgBorder"]
-> ![팩스, 전화 통화 및 기타 작업에 대 한 정보를 표시 하는 수식에 텍스트 속성을 설정 합니다.](media/working-with-references/activitypointer-type.png)
+> ![텍스트 속성을 수식으로 설정 하 여 팩스, 전화 통화 및 기타 작업에 대 한 정보를 표시 합니다.](media/working-with-references/activitypointer-type.png)
 
-사용할 수도 있습니다 **AsType** 특정 형식의 필드에 액세스할 수 있습니다. 예를 들어이 수식을 각 작업의 유형을 결정을 전화 통화, 전화 번호 및 호출 방향 표시 합니다 **전화번호** 엔터티:
+또한 형식 지정을 **사용 하 여 특정** 형식의 필드에 액세스할 수 있습니다. 예를 들어이 수식은 각 활동의 유형을 결정 하 고 전화 통화의 **경우 전화 번호 엔터티에서 전화** 번호와 통화 방향을 표시 합니다.
 
 ```powerapps-dot
 If( IsType( ThisItem, [@Faxes] ), "Fax",
@@ -542,38 +529,38 @@ If( IsType( ThisItem, [@Faxes] ), "Fax",
 ```
 
 > [!div class="mx-imgBorder"]
-> ![전화 통화에 대 한 자세한 정보를 사용 하 여 확장 된 텍스트 속성](media/working-with-references/activitypointer-phonecall.png)
+> ![전화 통화에 대 한 추가 정보가 포함 된 확장 된 텍스트 속성](media/working-with-references/activitypointer-phonecall.png)
 
-결과적으로, 앱 활동의 전체 목록을 보여 줍니다. 합니다 **주체** 수식을 고려 하 인지 여부를 모든 종류의 작업에 대 한 필드가 나타납니다. 활동에 대 한 사용자가 알고 있는 유형의 경우 해당 형식 이름 및 각 활동에 대 한 type 별 정보를 표시할 수 있습니다.
-
-> [!div class="mx-imgBorder"]
-> ![완료 작업의 종류에 대 한 정보를 보여 주는 화면](media/working-with-references/activitypointer-complete.png)
-
-## <a name="notes-entity"></a>엔터티 정보
-
-모든 지금 합니다 **에 대 한** 예제 토대로 작업을 하지만 **정보** 엔터티 다른 케이스를 나타냅니다.
-
-엔터티를 만든 경우에 첨부 파일을 사용할 수 있습니다.
+따라서 앱은 전체 활동 목록을 표시 합니다. **제목** 필드는 수식에서 해당 활동을 고려 하는지 여부에 관계 없이 모든 유형의 활동에 대해 표시 됩니다. 사용자가 알고 있는 활동 유형에 대해 해당 유형 이름과 각 활동에 대 한 유형별 정보를 표시할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![엔터티를 만들 때 첨부 파일 및 메모를 사용 하도록 설정](media/working-with-references/notes-entity.png)
+> ![여러 종류의 활동에 대 한 정보를 보여 주는 완료 된 화면](media/working-with-references/activitypointer-complete.png)
 
-만들어야 첨부 파일을 사용 하도록 설정 하는 것에 대 한 확인란을 선택 하면를 **에 대 한** 와 관계는 **메모** 엔터티를이 그래픽으로 보여 줍니다는 **계정** 엔터티:
+## <a name="notes-entity"></a>Notes 엔터티
+
+지금까지 모든 **관련** 예제는 활동을 기반으로 하지만 **Notes** 엔터티는 다른 사례를 나타냅니다.
+
+엔터티를 만들 때 첨부 파일을 사용 하도록 설정할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![1 대 다 관계를 통해 정보에 관계를 보여 주는: 계정 엔터티](media/working-with-references/notes-relationships.png)
+> ![엔터티를 만들 때 첨부 파일 및 메모 사용](media/working-with-references/notes-entity.png)
 
-사용이 차이 외는 **와 관련 하 여** 작업을 사용 하는 동일한 방식으로 조회 합니다. 첨부 파일을에 일 대 다 관계가 사용 되는 엔터티 **노트**이 예제와 같이:
+첨부 파일 사용 확인란을 선택 하는 경우이 그래픽이 **Accounts** 엔터티에 대해 보여 주는 것 처럼 **Notes** 엔터티와 **관련** 된 관계를 만듭니다.
+
+> [!div class="mx-imgBorder"]
+> ![일 대 다 관계를 통해 메모에 대 한 관계를 보여 주는 계정 엔터티](media/working-with-references/notes-relationships.png)
+
+이러한 차이를 제외 하 고 활동을 사용 하는 것과 동일한 방식으로 **관련** 조회를 사용 합니다. 첨부 파일에 대해 사용 하도록 설정 된 엔터티는 다음 예제와 같이 **메모**에 대 한 일 대 다 관계를 가집니다.
 
 `First( Accounts ).Notes`
 
 > [!NOTE]
-> 이 문서의 작성 시점 현재 합니다 **에 대 한** 조회에 사용할 수 없습니다는 **메모** 엔터티. 읽을 수 없습니다 또는 필터를 기반으로 합니다 **에 대 한** 필드를 사용 하 여 필드를 설정할 수 없습니다 **패치**합니다.
+> 이 문서를 작성할 당시 **Notes** 엔터티에 대 한 **관련** 조회는 사용할 수 없습니다. [ **관련** 항목] 필드를 기준으로 읽거나 필터링 할 수 없으며 **Patch**를 사용 하 여 필드를 설정할 수 없습니다.
 >
-> 그러나 반대 **노트** 에 일 대 다 관계 이므로 사용할 수 있는, 첨부 파일에 사용 되는 레코드에 대 한 정보 목록을 필터링 할 수 있습니다. 사용할 수도 있습니다는 [ **관련** ](functions/function-relate-unrelate.md) 레코드의 메모를 추가 하려면 함수 **메모** 테이블 이지만 먼저 만들어야,이 예제와 같이:
+> 그러나 역방향 **메모** 일 대 다 관계를 사용할 수 있으므로 첨부 파일이 활성화 된 레코드에 대 한 메모 목록을 필터링 할 수 있습니다. 또한 [**Relate**](functions/function-relate-unrelate.md) 함수를 사용 하 여 레코드의 **메모** 테이블에 메모를 추가할 수 있지만 다음 예제와 같이 메모를 먼저 만들어야 합니다.
 >
 >`Relate( ThisItem.Notes, Patch( Notes, Defaults( Notes ), { Title: "A new note" } ) )`
 
 ## <a name="activity-parties"></a>활동 당사자
 
-이 문서의 작성 시점 현재 캔버스 앱 활동 당사자를 지원 하지 않습니다.
+이 문서를 작성할 당시 캔버스 앱은 활동 당사자를 지원 하지 않습니다.
