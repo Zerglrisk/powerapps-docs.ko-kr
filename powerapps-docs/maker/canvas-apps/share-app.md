@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bfe5b35ebfddfe17cbf3898cc6f68f1a91d0b5e0
-ms.sourcegitcommit: 94ec67b283b9b03aa24cdc0ab43dd448b11b0547
+ms.openlocfilehash: 4a86f508950ad890ecaa4d3d5678e3e6f6e415dc
+ms.sourcegitcommit: 544af91dd596f2f6b6c4b9e1d08c16f43e2a7711
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530253"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71119037"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
@@ -136,16 +136,18 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
 > 게스트에는 공유 된 앱에 대 한 **공동 소유자** 역할이 아닌 **사용자** 역할만 할당 될 수 있습니다.
 
 ### <a name="prerequisites"></a>필수 구성 요소
-1. Azure Active Directory (Azure AD)에서 테 넌 트에 대해 B2B 외부 공동 작업을 사용 하도록 설정 합니다. 자세한 정보는 [B2B 외부 공동 작업을 사용 하도록 설정 하 고 게스트를 초대할 수 있는 사람 관리](/azure/active-directory/b2b/delegate-invitations)
+- Azure Active Directory (Azure AD)에서 테 넌 트에 대해 B2B 외부 공동 작업을 사용 하도록 설정 합니다. 자세한 정보는 [B2B 외부 공동 작업을 사용 하도록 설정 하 고 게스트를 초대할 수 있는 사람 관리](/azure/active-directory/b2b/delegate-invitations)
     - B2B 외부 공동 작업은 기본적으로 설정 되어 있습니다. 그러나 테 넌 트 관리자는 설정을 변경할 수 있습니다.  Azure AD B2B에 대 한 자세한 내용은 [AZURE AD b2b의 게스트 사용자 액세스 란?](/azure/active-directory/b2b/what-is-b2b) 을 참조 하세요.  
-2. Azure AD 테 넌 트에 게스트 사용자를 추가할 수 있는 계정에 대 한 액세스. 관리자 및 게스트 초대자 역할을 가진 사용자는 테 넌 트에 게스트를 추가할 수 있습니다.   
-3. 공유 중인 앱이 연결 된 테 넌 트에서 게스트 사용자에 게 PowerApps 라이선스를 할당 해야 합니다. 아직 가능 하지는 않지만, canvas 앱 게스트 액세스를 일반적으로 사용 하기 전에 해당 홈 테 넌 트에 PowerApps 라이선스가 있는 게스트는 해당 테 넌 트의 라이선스를 할당할 필요가 없습니다.
+- Azure AD 테 넌 트에 게스트 사용자를 추가할 수 있는 계정에 대 한 액세스. 관리자 및 게스트 초대자 역할을 가진 사용자는 테 넌 트에 게스트를 추가할 수 있습니다.   
+- 게스트 사용자에 게 다음 테 넌 트 중 하나를 통해 할당 된 PowerApps 라이선스가 있어야 합니다.
+    - 공유 되는 앱을 호스트 하는 테 넌 트입니다.
+    - 게스트 사용자의 홈 테 넌 트입니다.
 
 ### <a name="steps-to-grant-guest-access"></a>게스트 액세스 권한을 부여 하는 단계
 1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 자세한 정보는 [빠른 시작: Azure AD](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)에서 새 게스트 사용자를 추가 합니다.
     > [!div class="mx-imgBorder"] 
     > ![AZURE AD에서 게스트 추가](media/share-app/guest_access_doc_1.png "AZURE AD에서 게스트 추가")
-2. 게스트 사용자에 게 라이선스를 할당 합니다. 
+2. 게스트 사용자의 홈 테 넌 트에 라이선스가 아직 없는 경우 게스트 사용자에 게 라이선스를 할당 합니다.
    - Admin.microsoft.com에서 게스트 사용자를 할당 하려면 [한 사용자에 게 라이선스 할당](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)을 참조 하세요.
    - Portal.azure.com에서 게스트 사용자를 할당 하려면 [라이선스 할당 또는 제거](/azure/active-directory/fundamentals/license-users-groups)를 참조 하세요.
  
@@ -199,7 +201,6 @@ IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우
 #### <a name="what-license-must-be-assigned-to-my-guest-so-they-can-run-an-app-shared-with-them"></a>사용자가 공유 하는 앱을 실행할 수 있도록 게스트에 할당 해야 하는 라이선스는 무엇입니까?
 비 게스트에 앱을 실행 하는 데 필요한 것과 동일한 라이선스. 예를 들어 앱에서 premium connecters를 사용 하지 않는 경우 PowerApps P1 라이선스는 게스트에 할당할 수 있는 충분 합니다.  
 
-Canvas 앱 게스트 액세스 일반 공급 이전에는 해당 홈 테 넌 트에 PowerApps 라이선스가 있는 게스트가 게스트로 할당 될 필요가 없습니다.
 
 |                                 | SharePoint 사용자 지정 양식 | 비 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 모델 기반 앱 |
 |---------------------------------|----------------------------|----------------------------------------------------|------------------------------------------------|------------------|
@@ -210,8 +211,6 @@ Canvas 앱 게스트 액세스 일반 공급 이전에는 해당 홈 테 넌 트
 
 #### <a name="in-powerapps-mobile-how-does-a-guest-see-apps-for-their-home-tenant"></a>PowerApps Mobile에서 게스트는 홈 테 넌 트의 앱을 어떻게 볼 까 요?
 자신의 모바일 장치에서, 홈 테 넌 트가 아닌 Azure AD 테 넌 트에서 게시 된 캔버스 앱에 액세스 한 모든 사용자는 PowerApps에서 로그 아웃 하 고 PowerApps Mobile에 다시 로그인 해야 합니다.  
-
-Canvas 앱 게스트 액세스 일반 공급 이전에는 조직 선택기를 사용 하 여 사용자가 앱에서 명시적으로 로그 아웃 하지 않고도 로그인 한 Azure AD 테 넌 트를 변경할 수 있습니다.  
 
 #### <a name="must-a-guest-accept-the-azure-ad-guest-invitation-prior-to-sharing-an-app-with-the-guest"></a>게스트와 앱을 공유 하기 전에 게스트가 Azure AD 게스트 초대를 수락 해야 하나요?
 아니요. 게스트가 게스트 초대를 수락 하기 전에 공유 앱을 시작 하면 앱을 시작 하는 동안 로그인 환경의 일부로 초대를 수락 하 라는 메시지가 표시 됩니다.  
@@ -282,7 +281,7 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Inoreader                                         | 아니요                                                                     |
 | Intercom                                          | 아니요                                                                     |
 | JotForm                                           | 아니요                                                                     |
-| kintone                                           | 아니요                                                                     |
+| Kintone                                           | 아니요                                                                     |
 | LinkedIn                                          | 아니요                                                                     |
 | 마케팅 콘텐츠 허브                             | 아니요                                                                     |
 | 보통                                            | 아니요                                                                     |
