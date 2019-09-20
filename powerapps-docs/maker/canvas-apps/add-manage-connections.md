@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d2a7da93835e5fbe588a8683bbdb0393d5b76ee5
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: d230d38c8393540bc78fd003ecb167f1f3978b97
+ms.sourcegitcommit: fe18d82dbbd3972c472fd69f7feb3a35c3a31153
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61564306"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71150249"
 ---
 # <a name="manage-canvas-app-connections-in-powerapps"></a>PowerApps에서 캔버스 앱 연결 관리
 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 또는 해당 자격 증명을 업데이트합니다.
@@ -43,9 +43,9 @@ ms.locfileid: "61564306"
 
 데이터 원본의 가장 흔한 유형은 정보 검색 및 저장에 사용할 수 있는 테이블입니다. 데이터 원본에 대한 연결을 사용하여 데이터를 비즈니스용 OneDrive, DropBox, SQL Server 등과 같은 클라우드 서비스에 저장할 수 있는 Microsoft Excel 통합 문서, SharePoint 목록, SQL 테이블 및 다른 많은 형식으로 읽고 쓸 수 있습니다.
 
-전자 메일, 일정, Twitter 및 알림(출시 예정)과 같이 테이블이 아닌 다른 종류의 데이터 원본이 있습니다.
+전자 메일, 일정, twitter 및 알림과 같이 테이블이 아닌 다른 종류의 데이터 원본이 있습니다.
 
-**[갤러리](controls/control-gallery.md)**, **[폼 표시](controls/control-form-detail.md)** 및 **[폼 편집](controls/control-form-detail.md)** 컨트롤을 사용하면 데이터 원본의 데이터를 읽고 쓸 수 있는 앱을 손쉽게 만들 수 있습니다. 시작하려면 [데이터 폼 이해](working-with-forms.md)를 읽어 보세요.
+**[갤러리](controls/control-gallery.md)** , **[표시 양식](controls/control-form-detail.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤을 사용하면 데이터 원본의 데이터를 읽고 쓰는 앱을 쉽게 만들 수 있습니다. 시작하려면 [데이터 폼 이해](working-with-forms.md)를 읽어 보세요.
 
 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 연결을 만들고 관리하는 것 외에도 다음 작업을 수행할 때 연결을 만들 수 있습니다.
 
@@ -86,4 +86,5 @@ ms.locfileid: "61564306"
 
 * 연결에 대한 자격 증명을 업데이트하려면 키 아이콘을 클릭하거나 탭한 다음, 해당 연결에 대한 자격 증명을 제공합니다.
 * 연결을 삭제하려면 휴지통 아이콘을 클릭하거나 탭합니다.
+* 정보 아이콘을 클릭 하거나 탭 하 여 연결 정보를 확인 합니다.
 

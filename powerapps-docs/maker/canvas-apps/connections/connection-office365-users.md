@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 507bac0b57cdc1e348bd384d5544d7b664a3e0f5
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: c9f7f0184f70643417154f229c1e957ea6218b34
+ms.sourcegitcommit: fe18d82dbbd3972c472fd69f7feb3a35c3a31153
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61557387"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71150257"
 ---
 # <a name="connect-to-office-365-users-connection-from-powerapps"></a>PowerApps에서 Office 365 사용자 연결
 ![Office 365 사용자](./media/connection-office365-users/office365icon.png)
@@ -44,17 +44,24 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 1. **삽입** 메뉴에서 **레이블**을 선택합니다.
 2. 함수 막대에서 다음 수식 중 하나에 **[Text](../controls/properties-core.md)** 속성을 설정합니다.
 
-    `Office365Users.MyProfile().Department`  
-    `Office365Users.MyProfile().DisplayName`  
-    `Office365Users.MyProfile().GivenName`  
-    `Office365Users.MyProfile().Id`  
-    `Office365Users.MyProfile().JobTitle`  
-    `Office365Users.MyProfile().Mail`  
-    `Office365Users.MyProfile().MailNickname`  
-    `Office365Users.MyProfile().Surname`  
-    `Office365Users.MyProfile().TelephoneNumber`  
-    `Office365Users.MyProfile().UserPrincipalName`  
-    `Office365Users.MyProfile().AccountEnabled`  
+   `Office365Users.MyProfile().City`  
+   `Office365Users.MyProfile().CompanyName`  
+   `Office365Users.MyProfile().Country`  
+   `Office365Users.MyProfile().Department`  
+   `Office365Users.MyProfile().DisplayName`  
+   `Office365Users.MyProfile().GivenName`  
+   `Office365Users.MyProfile().Id`  
+   `Office365Users.MyProfile().JobTitle`  
+   `Office365Users.MyProfile().Mail`  
+   `Office365Users.MyProfile().MailNickname`  
+   `Office365Users.MyProfile().mobilePhone`  
+   `Office365Users.MyProfile().OfficeLocation`  
+   `Office365Users.MyProfile().PostalCode`  
+   `Office365Users.MyProfile().Surname`  
+   `Office365Users.MyProfile().TelephoneNumber`  
+   `Office365Users.MyProfile().UserPrincipalName`  
+   `Office365Users.MyProfile().AccountEnabled`  
+   `Office365Users.MyProfile().BusinessPhones`
 
 레이블에 현재 사용자에 대해 입력한 정보가 표시됩니다.
 
@@ -67,30 +74,45 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 
    * 다른 사용자에 대한 정보 표시:  
 
-       `Office365Users.UserProfile(InfoAbout.Text).Department`  
-       `Office365Users.UserProfile(InfoAbout.Text).DisplayName`  
-       `Office365Users.UserProfile(InfoAbout.Text).GivenName`  
-       `Office365Users.UserProfile(InfoAbout.Text).Id`  
-       `Office365Users.UserProfile(InfoAbout.Text).JobTitle`  
-       `Office365Users.UserProfile(InfoAbout.Text).Mail`  
-       `Office365Users.UserProfile(InfoAbout.Text).MailNickname`  
-       `Office365Users.UserProfile(InfoAbout.Text).Surname`  
-       `Office365Users.UserProfile(InfoAbout.Text).TelephoneNumber`  
-       `Office365Users.UserProfile(InfoAbout.Text).UserPrincipalName`  
-       `Office365Users.UserProfile(InfoAbout.Text).AccountEnabled`  
+     `Office365Users.UserProfile(InfoAbout.Text).City`  
+     `Office365Users.UserProfile(InfoAbout.Text).CompanyName`  
+     `Office365Users.UserProfile(InfoAbout.Text).Country`  
+     `Office365Users.UserProfile(InfoAbout.Text).Department`  
+     `Office365Users.UserProfile(InfoAbout.Text).DisplayName`  
+     `Office365Users.UserProfile(InfoAbout.Text).GivenName`  
+     `Office365Users.UserProfile(InfoAbout.Text).Id`  
+     `Office365Users.UserProfile(InfoAbout.Text).JobTitle`  
+     `Office365Users.UserProfile(InfoAbout.Text).Mail`  
+     `Office365Users.UserProfile(InfoAbout.Text).MailNickname`  
+     `Office365Users.UserProfile(InfoAbout.Text).mobilePhone`  
+     `Office365Users.UserProfile(InfoAbout.Text).OfficeLocation`  
+     `Office365Users.UserProfile(InfoAbout.Text).PostalCode`  
+     `Office365Users.UserProfile(InfoAbout.Text).Surname`  
+     `Office365Users.UserProfile(InfoAbout.Text).TelephoneNumber`  
+     `Office365Users.UserProfile(InfoAbout.Text).UserPrincipalName`  
+     `Office365Users.UserProfile(InfoAbout.Text).AccountEnabled`  
+     `Office365Users.UserProfile(InfoAbout.Text).BusinessPhones`
+
    * 다른 사용자의 관리자에 대한 정보 표시:  
 
-       `Office365Users.Manager(InfoAbout.Text).Department`  
-       `Office365Users.Manager(InfoAbout.Text).DisplayName`  
-       `Office365Users.Manager(InfoAbout.Text).GivenName`  
-       `Office365Users.Manager(InfoAbout.Text).Id`  
-       `Office365Users.Manager(InfoAbout.Text).JobTitle`  
-       `Office365Users.Manager(InfoAbout.Text).Mail`  
-       `Office365Users.Manager(InfoAbout.Text).MailNickname`  
-       `Office365Users.Manager(InfoAbout.Text).Surname`  
-       `Office365Users.Manager(InfoAbout.Text).TelephoneNumber`  
-       `Office365Users.Manager(InfoAbout.Text).UserPrincipalName`  
-       `Office365Users.Manager(InfoAbout.Text).AccountEnabled`  
+     `Office365Users.Manager(InfoAbout.Text).City`  
+     `Office365Users.Manager(InfoAbout.Text).CompanyName`  
+     `Office365Users.Manager(InfoAbout.Text).Country`  
+     `Office365Users.Manager(InfoAbout.Text).Department`  
+     `Office365Users.Manager(InfoAbout.Text).DisplayName`  
+     `Office365Users.Manager(InfoAbout.Text).GivenName`  
+     `Office365Users.Manager(InfoAbout.Text).Id`  
+     `Office365Users.Manager(InfoAbout.Text).JobTitle`  
+     `Office365Users.Manager(InfoAbout.Text).Mail`  
+     `Office365Users.Manager(InfoAbout.Text).MailNickname`  
+     `Office365Users.Manager(InfoAbout.Text).mobilePhone`  
+     `Office365Users.Manager(InfoAbout.Text).OfficeLocation`  
+     `Office365Users.Manager(InfoAbout.Text).PostalCode`  
+     `Office365Users.Manager(InfoAbout.Text).Surname`  
+     `Office365Users.Manager(InfoAbout.Text).TelephoneNumber`  
+     `Office365Users.Manager(InfoAbout.Text).UserPrincipalName`  
+     `Office365Users.Manager(InfoAbout.Text).AccountEnabled`  
+     `Office365Users.Manager(InfoAbout.Text).BusinessPhones`
 
 레이블에 지정한 사용자 또는 해당 사용자의 관리자에 대해 입력한 정보가 표시됩니다.
 
@@ -135,14 +157,14 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 
 | 함수 이름 | 설명 |
 | --- | --- |
-| [MyProfile](connection-office365-users.md#myprofile) |현재 사용자에 대한 프로필을 검색합니다. |
-| [UserProfile](connection-office365-users.md#userprofile) |특정 사용자 프로필을 검색합니다. |
-| [Manager](connection-office365-users.md#manager) |지정된 사용자의 관리자에 대한 사용자 프로필을 검색합니다. |
-| [DirectReports](connection-office365-users.md#directreports) |지정된 사용자의 직속 부하를 반환합니다. |
-| [SearchUser](connection-office365-users.md#searchuser) |사용자 프로필의 검색 결과를 검색합니다. |
+| [DirectReports](connection-office365-users.md#directreports) |지정 된 사용자에 대 한 부하 직원을 반환 합니다. |
+| [Manager](connection-office365-users.md#manager) |지정 된 사용자의 관리자에 대 한 사용자 프로필을 검색 합니다. |
+| [MyProfile](connection-office365-users.md#myprofile) |현재 사용자의 프로필을 검색 합니다. |
+| [SearchUser](connection-office365-users.md#searchuser) |사용자 프로필의 검색 결과를 검색 합니다. |
+| [UserProfile](connection-office365-users.md#userprofile) |특정 사용자 프로필을 검색 합니다. |
 
 ### <a name="myprofile"></a>MyProfile
-내 프로필 가져오기: 현재 사용자의 프로필을 검색합니다.
+내 프로필 가져오기: 현재 사용자의 프로필을 검색 합니다.
 
 #### <a name="input-properties"></a>입력 속성
 없음
@@ -151,117 +173,149 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
+| 대도시 | 문자열 |사용자의 구/군/시입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
+| 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
 | GivenName |문자열 |사용자의 지정된 이름입니다. |
-| ID입니다. |문자열 |사용자 ID입니다. |
-| JobTitle |문자열 |사용자의 직위입니다. |
+| ID입니다. |문자열 |사용자 id입니다. |
+| JobTitle |문자열 |사용자의 직함입니다. |
 | 메일 |문자열 |사용자의 전자 메일 ID입니다. |
 | MailNickname |문자열 |사용자의 애칭입니다. |
+| mobilePhone | 문자열 |사용자의 휴대폰입니다. |
+| 위치 | 문자열 |사용자의 사무실 위치입니다.|
+| postalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
+| BusinessPhones | 문자열 |사용자 회사의 전화 번호입니다.|
 
 ### <a name="userprofile"></a>UserProfile
-사용자 프로필 가져오기: 특정 사용자 프로필을 검색합니다.
+사용자 프로필 가져오기: 특정 사용자 프로필을 검색 합니다.
 
 #### <a name="input-properties"></a>입력 속성
 
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 ID입니다. |
+| ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 id입니다. |
 
 #### <a name="output-properties"></a>출력 속성
 
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
+| 대도시 | 문자열 |사용자의 구/군/시입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
+| 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
 | GivenName |문자열 |사용자의 지정된 이름입니다. |
-| ID입니다. |문자열 |사용자 ID입니다. |
-| JobTitle |문자열 |사용자의 직위입니다. |
+| ID입니다. |문자열 |사용자 id입니다. |
+| JobTitle |문자열 |사용자의 직함입니다. |
 | 메일 |문자열 |사용자의 전자 메일 ID입니다. |
 | MailNickname |문자열 |사용자의 애칭입니다. |
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
+| BusinessPhones | 문자열 |사용자 회사의 전화 번호입니다.|
 
 ### <a name="manager"></a>Manager
-관리자를 가져옵니다. 지정된 사용자의 관리자에 대한 사용자 프로필을 검색합니다.
+관리자 가져오기: 지정 된 사용자의 관리자에 대 한 사용자 프로필을 검색 합니다.
 
 #### <a name="input-properties"></a>입력 속성
 
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 ID입니다. |
+| ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 id입니다. |
 
 #### <a name="output-properties"></a>출력 속성
 
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
+| 대도시 | 문자열 |사용자의 구/군/시입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
+| 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
 | GivenName |문자열 |사용자의 지정된 이름입니다. |
-| ID입니다. |문자열 |사용자 ID입니다. |
-| JobTitle |문자열 |사용자의 직위입니다. |
+| ID입니다. |문자열 |사용자 id입니다. |
+| JobTitle |문자열 |사용자의 직함입니다. |
 | 메일 |문자열 |사용자의 전자 메일 ID입니다. |
 | MailNickname |문자열 |사용자의 애칭입니다. |
+| mobilePhone | 문자열 |사용자의 휴대폰입니다. |
+| 위치 | 문자열 |사용자의 사무실 위치입니다.|
+| postalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
+| BusinessPhones | 문자열 |사용자 회사의 전화 번호입니다.|
 
 ### <a name="directreports"></a>DirectReports
-부하 직원 가져오기: 부하 직원 가져오기
+부하 직원을 가져옵니다. 부하 직원을 가져옵니다.
 
 #### <a name="input-properties"></a>입력 속성
 
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 ID입니다. |
+| ID입니다. |문자열 |예 |사용자 계정 이름 또는 전자 메일 id입니다. |
 
 #### <a name="output-properties"></a>출력 속성
 
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
+| 대도시 | 문자열 |사용자의 구/군/시입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
+| 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
 | GivenName |문자열 |사용자의 지정된 이름입니다. |
-| ID입니다. |문자열 |사용자 ID입니다. |
-| JobTitle |문자열 |사용자의 직위입니다. |
+| ID입니다. |문자열 |사용자 id입니다. |
+| JobTitle |문자열 |사용자의 직함입니다. |
 | 메일 |문자열 |사용자의 전자 메일 ID입니다. |
 | MailNickname |문자열 |사용자의 애칭입니다. |
+| mobilePhone | 문자열 |사용자의 휴대폰입니다. |
+| 위치 | 문자열 |사용자의 사무실 위치입니다.|
+| postalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
+| BusinessPhones | 문자열 |사용자 회사의 전화 번호입니다.|
 
 ### <a name="searchuser"></a>SearchUser
-사용자를 검색 합니다. 사용자 프로필의 검색 결과를 검색합니다.
+사용자 검색: 사용자 프로필의 검색 결과를 검색 합니다.
 
 #### <a name="input-properties"></a>입력 속성
 
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| searchTerm |문자열 |아니요 |검색 문자열입니다. 적용 대상: 표시 이름, 지정된 이름, 성, 메일, 메일 애칭 및 사용자 계정 이름 |
+| searchTerm |문자열 |아니요 |검색 문자열입니다. 적용 대상: 표시 이름, 이름, 성, 메일, 메일 애칭 및 사용자 계정 이름입니다. |
 
 #### <a name="output-properties"></a>출력 속성
 
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
+| 대도시 | 문자열 |사용자의 구/군/시입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
+| 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
 | GivenName |문자열 |사용자의 지정된 이름입니다. |
-| ID입니다. |문자열 |사용자 ID입니다. |
-| JobTitle |문자열 |사용자의 직위입니다. |
+| ID입니다. |문자열 |사용자 id입니다. |
+| JobTitle |문자열 |사용자의 직함입니다. |
 | 메일 |문자열 |사용자의 전자 메일 ID입니다. |
 | MailNickname |문자열 |사용자의 애칭입니다. |
+| mobilePhone | 문자열 |사용자의 휴대폰입니다. |
+| 위치 | 문자열 |사용자의 사무실 위치입니다.|
+| postalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
 | AccountEnabled |부울 |플래그가 활성화된 계정입니다. |
+| BusinessPhones | 문자열 |사용자 회사의 전화 번호입니다.|
 
 ## <a name="helpful-links"></a>유용한 링크
 * [사용 가능한 연결](../connections-list.md)을 모두 보세요.
