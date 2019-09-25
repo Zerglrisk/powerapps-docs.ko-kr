@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 08/30/2019
+ms.date: 09/23/2019
 ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 562811ebce59660d6033585868afd42da46442d5
-ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
+ms.openlocfilehash: ea94b076126aca3bc3dd687a853393e20901eeb8
+ms.sourcegitcommit: f296922b8039b573e5adb81423a544f70c56c1ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70213937"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256126"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 
@@ -78,6 +78,7 @@ PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항
 - 보고서와 별도로 PowerApps 앱을 공유해야 합니다. [PowerApps에서 앱 공유](share-app.md)에 대해 알아봅니다.
 - Power BI Report Server 및 Power BI 용 모바일 앱은 PowerApps 사용자 지정 시각적 개체를 지원 하지 않습니다.
 - PowerBIIntegration. Refresh () 함수를 사용 하는 경우 [directquery](https://docs.microsoft.com/en-us/power-bi/desktop-directquery-data-sources) 를 지 원하는 원본을 사용 해야 하며 directquery 메서드를 사용 하 여 데이터 연결을 만들어야 합니다.
+- Power BI Desktop PowerApps는 편집 하는 동안은 제외 하 고 앱을 만들 때 PowerApps Studio 데이터를 제공 합니다. Power BI 웹을 사용 하 여 앱을 편집 하는 동안 데이터를 미리 봅니다.
 
 > [!NOTE]
 > 먼저 Power BI 서비스에 보고서를 게시 한 다음 앱을 만들거나 수정 하는 것이 좋습니다.
@@ -86,7 +87,7 @@ PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항
 
 다음 표에서는 PowerApps 사용자 지정 시각적 개체의 보기, 만들기 및 수정 작업을 위한 브라우저 지원 가능성을 나열 합니다. 지원 되는 브라우저와 작업은 확인 표시 ( &check; )로 식별 됩니다.
 
-|브라우저|보기|만드십시오|변경
+|브라우저|봅니다|만드십시오|변경
 |-|-|-|-
 |Microsoft Edge|&check;|&check;|&check;
 |Internet Explorer 11|&check;
@@ -95,7 +96,19 @@ PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항
 |Mozilla Firefox
 |다른 모든 브라우저
 
+## <a name="accessibility-support"></a>내게 필요한 옵션 지원
+
+키보드를 사용 하 여 PowerApps 시각적 개체를 탐색 하려면 다음 단계를 수행 합니다.
+
+1. 원하는 PowerApps 시각적 개체에 대 한 Power BI 보고서에서 포커스를 선택 합니다.
+2. 시각적 개체를 강조 표시할 때까지 키보드의 **Tab** 키를 사용 합니다.
+3. 키보드에서 **Ctrl + 오른쪽** 키를 사용 하 여 시각적 개체를 입력 합니다.
+3. 시각적 개체의 원하는 구성 요소가 선택 될 때까지 키보드의 **Tab** 키를 사용 합니다.
+
+자세한 내용은 다음을 참조 하세요. [Power BI 내게 필요한 옵션 설명서]( https://docs.microsoft.com/en-us/power-bi/desktop-accessibility)
+
+
 ## <a name="next-steps"></a>다음 단계
 
 * 간단한 [단계별 자습서](embed-powerapps-powerbi.md)로 진행합니다.
-* 우리의 [비디오](https://aka.ms/powerappscustomvisualvideo)를 확인합니다.
+* [비디오](https://aka.ms/powerappscustomvisualvideo)를 확인 하세요.

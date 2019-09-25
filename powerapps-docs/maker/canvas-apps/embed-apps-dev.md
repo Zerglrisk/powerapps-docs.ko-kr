@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3ff359b80dd7129ec91f987a367c1635143d8e5e
-ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
+ms.openlocfilehash: ac4699818c7f5b3a136db122fad9621d865bf5f1
+ms.sourcegitcommit: f296922b8039b573e5adb81423a544f70c56c1ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70213837"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256102"
 ---
 # <a name="integrate-canvas-apps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 캔버스 앱 통합
-작성하는 앱은 종종 사람들이 작업 수행에 바로 사용할 수 있을 때 가장 유용합니다. 캔버스 앱을 iframe에 포함하여 웹 사이트 및 Power BI 또는 SharePoint와 같은 다른 서비스에 해당 앱을 통합할 수 있습니다.
+사용자가 작업을 수행 하는 즉시 사용할 수 있는 경우 사용자가 작성 하는 앱이 가장 유용 합니다. Iframe에 캔버스 앱을 포함 하 여 해당 앱을 웹 사이트 및 Power BI 또는 SharePoint와 같은 다른 서비스에 통합할 수 있습니다.
 
 이 토픽에서는 앱 포함을 위해 매개 변수를 설정하는 방법을 보여 준 다음 웹 사이트에 자산 순서 지정 앱을 포함합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "70213837"
 - 동일한 테넌트의 PowerApps 사용자만 포함된 앱에 액세스할 수 있습니다.
 - Internet Explorer 11을 사용하여 PowerApps에 액세스하려면 호환성 보기를 해제해야 합니다.
 
-또한 iframe을 사용하지 않고 SharePoint Online에 캔버스 앱을 통합할 수 있습니다. 자세한 정보: [PowerApps 웹 파트 사용](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c).
+Iframe을 사용 하지 않고 캔버스 앱을 SharePoint Online에 통합할 수도 있습니다. 자세한 정보: [PowerApps 웹 파트를 사용](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c)합니다.
 
 ## <a name="set-uri-parameters-for-your-app"></a>앱에 대한 URI 매개 변수 설정
 포함하려는 앱이 있는 경우 첫 번째 단계는 iframe이 앱을 찾을 수 있는 위치를 알 수 있도록 URI(Uniform Resource Identifier)에 대한 매개 변수를 설정하는 것입니다. URI는 다음과 같은 형식입니다.
@@ -46,7 +46,7 @@ https://apps.powerapps.com/play/[AppID]?source=iframe
 >
 > 이전 형식:
 > 
-> https://web.powerapps.com/webplayer/iframeapp?source=iframe&appId=/providers/Microsoft.PowerApps/apps/ AppID
+> https\://web.powerapps.com/webplayer/iframeapp? source = iframe & appId =/providers/Microsoft.PowerApps/apps/[appid]
 
 수행해야 하는 유일한 작업은 URI에서 [AppID]에 대한 앱 ID를 대체하는 것입니다('[' & ']' 포함). 해당 값을 가져오는 방법을 곧 보여 줄 예정이지만 먼저 URI에서 사용할 수 있는 모든 매개 변수는 다음과 같습니다.
 
@@ -59,7 +59,7 @@ https://apps.powerapps.com/play/[AppID]?source=iframe
 ### <a name="get-the-app-id"></a>앱 ID 가져오기
 앱 ID는 powerapps.com에서 제공됩니다. 포함하려는 앱의 경우:
 
-1. [powerapps.com](https://powerapps.microsoft.com)의 **앱** 탭에서 줄임표( **. . .** )를 클릭하거나 탭한 다음 **세부 정보**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://powerapps.microsoft.com)의 **앱** 탭에서 줄임표( **. . .** )를 클릭하거나 탭합니다. 다음 **세부 정보**.
    
     ![앱 세부 정보로 이동](./media/embed-apps-dev/details.png)
 1. **앱 ID**를 복사합니다.

@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ba08437dc144fc81aa9748163b1005222735cb69
-ms.sourcegitcommit: 86ed3ad487f31721155758aa9d87134bb10f8437
+ms.sourcegitcommit: f296922b8039b573e5adb81423a544f70c56c1ee
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/09/2019
+ms.lasthandoff: 09/25/2019
 ms.locfileid: "70842249"
 ---
 # <a name="embed-a-powerapps-app-in-teams"></a>팀에 PowerApps 앱 포함 
@@ -29,7 +29,7 @@ Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습�
 > [!NOTE]
 > 사용자 지정 앱 업로드를 허용 하도록 팀 사용자 지정 앱 정책을 설정 해야 합니다. 팀에 앱을 포함할 수 없는 경우 관리자에 게 문의 하 여 [사용자 지정 앱 설정을](https://docs.microsoft.com/MicrosoftTeams/teams-custom-app-policies-and-settings#custom-app-policy-and-settings)설정 했는지 확인 합니다. 
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 - [PowerApps 라이선스 보유](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus)
 - 캔버스 앱 만들기
@@ -65,7 +65,7 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
    > [!div class="mx-imgBorder"] 
    > ![앱 스튜디오](./media/embed-teams-app/store-app-studio.png "앱 스튜디오")
 
-3. **설치**를 선택합니다. 
+3. **설치**를 선택 합니다. 
 
    > [!div class="mx-imgBorder"] 
    > ![앱 Studio 설치](./media/embed-teams-app/install-app-studio.png "앱 Studio 설치")
@@ -95,21 +95,21 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
    |필드  |설명  |
    |---------|---------|
    |**앱 이름** |    |
-   |약식 이름     | 필수 요소. 앱에 대 한 짧은 표시 이름입니다. 30 자 제한        |
+   |약식 이름     | 필수. 앱에 대 한 짧은 표시 이름입니다. 30 자 제한        |
    |긴 이름     | 전체 앱 이름이 30 자를 초과 하는 경우 사용 되는 앱의 전체 이름입니다.       | 
    |**등록**     |         |
-   |앱 ID     | 필수 요소. 이 앱에 대해 Microsoft에서 생성 된 고유한 식별자입니다.        |
-   |패키지 이름     | 필수 요소. 이 앱에 대 한 고유 식별자입니다. 역방향 도메인 표기를 사용 하는 것이 좋습니다. 예: com. 예: <AppName>.       |
-   |버전     | 필수 요소. 특정 응용 프로그램의 버전입니다. 매니페스트에서 항목을 업데이트 하는 경우 버전도 증가 해야 합니다.     |
+   |앱 ID     | 필수. 이 앱에 대해 Microsoft에서 생성 된 고유한 식별자입니다.        |
+   |패키지 이름     | 필수. 이 앱에 대 한 고유 식별자입니다. 역방향 도메인 표기를 사용 하는 것이 좋습니다. 예: com. 예: <AppName>.       |
+   |버전     | 필수. 특정 응용 프로그램의 버전입니다. 매니페스트에서 항목을 업데이트 하는 경우 버전도 증가 해야 합니다.     |
    |**기술**    |     |
-   | 간단한 설명    | 필수 요소. 공간이 제한 되는 경우 사용 되는 앱 환경에 대 한 간단한 설명입니다. 80 문자 제한   |
-   | 자세한 설명    | 필수 요소. 앱에 대 한 전체 설명입니다.     |
+   | 간단한 설명    | 필수. 공간이 제한 되는 경우 사용 되는 앱 환경에 대 한 간단한 설명입니다. 80 문자 제한   |
+   | 자세한 설명    | 필수. 앱에 대 한 전체 설명입니다.     |
    | **개발자 정보**    |     |
-   | 이름    | 필수 요소. 회사 또는 개발자에 대 한 표시 이름입니다.     |
-   | 웹 사이트    | 필수 요소. Powerapps.com을 통해 앱의 웹 사이트에 대 한 https://URL입니다. 누군가가 앱을 설치 하면 "앱 정보" 페이지가 표시 됩니다. Powerapps.com에서 앱의 웹 버전에 연결 해야 합니다.   |
+   | 이름    | 필수. 회사 또는 개발자에 대 한 표시 이름입니다.     |
+   | 사이트나    | 필수. Powerapps.com을 통해 앱의 웹 사이트에 대 한 https://URL입니다. 누군가가 앱을 설치 하면 "앱 정보" 페이지가 표시 됩니다. Powerapps.com에서 앱의 웹 버전에 연결 해야 합니다.   |
    | **앱 Url**    | 이러한 링크는 웹 사이트 URL과 함께 **정보** 페이지에 표시 됩니다.     |
-   | 개인정보 처리 방침    | 필수 요소. 개발자의 개인 정보 취급 방침에 대 한 https://URL입니다. [예:](https://go.microsoft.com/fwlink/p/?LinkID=698505)   |
-   | 서비스 계약    | 필수 요소. 개발자의 사용 약관에 대 한 https://URL입니다.  [예:](https://go.microsoft.com/fwlink/p/?LinkID=698507)  |
+   | 개인정보 처리 방침    | 필수. 개발자의 개인 정보 취급 방침에 대 한 https://URL입니다. [예:](https://go.microsoft.com/fwlink/p/?LinkID=698505)   |
+   | 사용 약관    | 필수. 개발자의 사용 약관에 대 한 https://URL입니다.  [예:](https://go.microsoft.com/fwlink/p/?LinkID=698507)  |
    | **브랜딩**    |     |
    | 전체 색    | 전체 색 192x192 PNG 아이콘의 상대 파일 경로입니다.    |
    | 투명 윤곽선    |투명 한 32x32 PNG 윤곽선 아이콘의 상대 파일 경로입니다.     |
@@ -171,6 +171,6 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
 > [!div class="mx-imgBorder"] 
 > ![앱을 탭으로](./media/embed-teams-app/app-as-tab.png "앱을 탭으로")
 
-### <a name="see-also"></a>참고자료
+### <a name="see-also"></a>참고 항목
 [Microsoft 팀 시작](https://docs.microsoft.com/MicrosoftTeams/teams-overview)<br />
 [관리자의 경우: Microsoft 팀에 앱 포함](https://docs.microsoft.com/power-platform/admin/share-app-teams)
