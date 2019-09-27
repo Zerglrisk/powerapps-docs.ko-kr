@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 8/14/2019
+ms.date: 9/23/2019
 ms.author: mduelae
 ms.reviewer: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: f40a153ef20df0bccbdee915efe9af6aa88cb754
-ms.sourcegitcommit: f2ca557e43ab38c169eb3b754ac02c9321f9285f
+ms.openlocfilehash: be255d4208b2926867ef0e4dec291d3435f64443
+ms.sourcegitcommit: 770906d6a559316b93873ee9b1dbceabcc54fc4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69030562"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71208170"
 ---
 #  <a name="enhanced-user-experience-with-the-unified-interface-for-model-driven-apps"></a>모델 기반 앱에 대 한 통합 인터페이스를 사용 하 여 향상 된 사용자 환경 
 
@@ -29,7 +29,12 @@ ms.locfileid: "69030562"
 > [!div class="mx-imgBorder"]
 > ![통합 인터페이스가 화면에 적응](media/Reflow.png "통합 인터페이스가 화면에 적응")
 
-## <a name="navigation"></a>탐색
+
+
+> [!NOTE]
+> 레거시 웹 클라이언트는 더 이상 사용 되지 않으며 고객은 2020 년 10 월 1 일 이전에 통합 인터페이스로 전환 해야 합니다. 자세한 내용은 [통합 인터페이스로 이동할 타임 라인 발표](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/announcing-the-timeline-to-move-to-unified-interface/)를 참조 하세요. 전환 방법에 대해 자세히 알아보려면 전환 [에 대 한 빠른 시작](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/transition-web-app)을 참조 하세요.
+
+## <a name="navigation"></a>내비게이션
 
 메뉴 옵션을 사용 하면 시스템에서 다양 한 앱을 빠르게 탐색할 수 있습니다. 최근 본 레코드 및 고정 된 즐겨찾기에 빠르게 액세스할 수 있도록 합니다. 
 
@@ -53,7 +58,7 @@ ms.locfileid: "69030562"
 ## <a name="business-process"></a>비즈니스 프로세스 
 도킹 메커니즘이 비즈니스 프로세스 흐름을 개선 했습니다. 비즈니스 프로세스 흐름에서 작업에 집중 하는 데 도움이 되도록 화면에 비즈니스 프로세스 단계를 도킹할 수 있습니다. 특히 프로세스의 단계를 완료 하는 데 복잡 한 단계가 있는 경우에 유용 합니다. 자세한 내용은 [비즈니스 프로세스](work-with-business-processes.md)에 대 한 작업을 참조 하세요.
 
-## <a name="accessibility"></a>액세스 가능성
+## <a name="accessibility"></a>내게
 향상 된 접근성 환경에서는 화면 판독기를 사용 하 여 화면에 있는 정보를 가청 소리로 변환 하 고 더 많은 사람들이 앱을 사용할 수 있도록 브라유 점자 판독기로 인쇄할 수 있습니다. 자세한 내용은 [화면 판독기 사용](screen-reader.md)을 참조 하세요.
 
 ##  <a name="unified-interface-community"></a>통합 인터페이스 커뮤니티
