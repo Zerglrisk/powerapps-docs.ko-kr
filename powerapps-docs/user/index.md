@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 79b6088a9b75a7ac4b41263a73d8ead58520f4dd
-ms.sourcegitcommit: d6b7f98b4ae011a753c1e72d7708f0f8dfbfb1fb
+ms.openlocfilehash: ab91653f26bc9ca177cc5841e7dbc158b13d7696
+ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "69896175"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71705295"
 ---
 # <a name="how-do-i-find-and-run-apps"></a>앱을 찾아 실행하려면 어떻게 해야 합니까?
 
@@ -31,7 +31,7 @@ ms.locfileid: "69896175"
 
 캔버스 앱은 본질적으로 무엇이든 될 수 있으므로 앱을 만든 후에 사용하는 방법에 대한 도움말 설명서는 많지 않습니다. 캔버스 앱 사용에 대한 도움이 필요한 경우 앱 제작자 또는 PowerApps 관리자에게 문의하세요.
 
-[모델 기반 앱](/powerapps/maker/model-driven-apps/model-driven-app-overview)은 응답성 및 액세스 가능한 디자인을 제공하는 [통합 인터페이스](unified-interface.md)를 사용합니다. 웹 브라우저나 인기 있는 모바일 디바이스에서 앱을 실행할 수 있습니다. 이 앱은 대시보드, 폼, 보기, 차트 및 비즈니스 프로세스를 포함한 여러 구성 요소를 함께 사용하여 앱을 쉽게 사용할 수 있게 합니다. 모델 기반 앱은 Microsoft Dynamics 365 Customer Engagement 프레임워크를 기반으로 빌드 및 모델링되므로, 사용자 환경은 Dynamics 365 Customer Engagement [앱](/dynamics365/customer-engagement/basics/business-apps-dynamics-365)과 유사합니다.
+[모델 기반 앱](/powerapps/maker/model-driven-apps/model-driven-app-overview)은 응답성 및 액세스 가능한 디자인을 제공하는 [통합 인터페이스](unified-interface.md)를 사용합니다. 웹 브라우저나 인기 있는 모바일 디바이스에서 앱을 실행할 수 있습니다. 이 앱은 대시보드, 폼, 보기, 차트 및 비즈니스 프로세스를 포함한 여러 구성 요소를 함께 사용하여 앱을 쉽게 사용할 수 있게 합니다.
 
 이 섹션에서는 다양한 위치에서 캔버스 및 모델 기반 앱을 찾아 실행하는 방법에 대한 정보를 제공합니다. 모델 기반 앱 내에서 탐색하고 작동하는 방법에 대한 정보도 제공합니다. [모델 기반 앱 사용](use-model-driven-apps.md).
 
