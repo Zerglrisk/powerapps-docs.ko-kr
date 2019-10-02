@@ -992,6 +992,15 @@
           href: ./model-driven-apps/create-themes-organization-branding.md
         - name: 앱에 보고 추가
           href: ./model-driven-apps/add-reporting-to-app.md
+          items:
+            - name: 보고서 고려 사항
+              href: ./model-driven-apps/reporting-considerations.md
+            - name: RDL 샌드박싱
+              href: ./model-driven-apps/rdl-sandboxing.md
+            - name: Power BI 사용
+              href: ./model-driven-apps/use-power-bi.md
+            - name: Power BI 콘텐츠 팩 사용자 지정
+              href: ./model-driven-apps/customize-power-bi-content-packs.md
     - name: 앱 유효성 검사 및 게시
       href: ./model-driven-apps/validate-app.md
     - name: 앱 공유
