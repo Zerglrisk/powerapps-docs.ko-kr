@@ -5,7 +5,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 10/03/2019
 ms.author: mkaur
 ms.reviewer: ''
 ms.assetid: ''
@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e563c1b17e7ef7628efcf51be2a312d3083bf187
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: a46698ddf454c9d0f563575a3553e874f3a7b109
+ms.sourcegitcommit: 9a16bb75c856f7c84cd385811b7135ab2804ae69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "61530937"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "71924518"
 ---
 #  <a name="basic-navigation-in-a-model-driven-app"></a>모델 기반 앱의 기본 탐색 
 
@@ -77,7 +77,7 @@ ms.locfileid: "61530937"
 
 양식에 표시되는 알림에는 다음과 같은 세 가지 형식이 있습니다. 정보, 경고 및 오류 알림은 항상 헤더 바로 위에 있는 양식의 맨 위에 제공됩니다.
 
-아래에 설명된 알림은 9.1.9.3010 버전에서 제공됩니다.
+오류 알림을 선택 하면 오류가 발생 한 폼의 필드로 이동 됩니다.
 
 ![알림의 예제](media/notifications.png "알림의 예제")
 
@@ -88,6 +88,10 @@ ms.locfileid: "61530937"
 둘 이상의 알림이 있으면 알림 수가 표시됩니다. 각 메시지를 보려면 펼침 단추를 선택합니다.
 
 ![다중 알림의 예제](media/multiple_notification.png "다중 알림의 예제")
+
+## <a name="grids"></a>배경
+
+통합 인터페이스의 표가 화면에 표시 될 수 있는 데이터의 양을 늘리기 위해 개선 되었습니다. 또한 그리드는 마지막 필터를 기억 하 고 순서를 정렬 하는 등의 필터링 옵션을 향상 시켰습니다. 향상 된 기능에 대 한 자세한 내용은이 블로그 게시물의 [통합 인터페이스 그리드에서 향상 된 기능](https://powerapps.microsoft.com/en-us/blog/enhanced-functionality-in-unified-interface-grids)을 참조 하세요.
 
 
 

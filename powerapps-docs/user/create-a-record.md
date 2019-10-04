@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/03/2019
 ms.author: mduelae
 ms.reviewer: ''
 ms.assetid: ''
@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: a45b19ef45c729d02d1fff418ca4a9103fe5725a
-ms.sourcegitcommit: 770906d6a559316b93873ee9b1dbceabcc54fc4e
+ms.openlocfilehash: a4d81b9adff165267fe3e3d4d08384133aeae032
+ms.sourcegitcommit: 9a16bb75c856f7c84cd385811b7135ab2804ae69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71208209"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "71924406"
 ---
 # <a name="create-a-new-record"></a>새 레코드 만들기
 
@@ -60,4 +60,5 @@ ms.locfileid: "71208209"
     > [!div class="mx-imgBorder"] 
     > ![새로 만들기 단추](media/newrecord3.png "새로 만들기 단추")
 
-    
+    > [!NOTE]
+    > 변경 내용을 저장 하지 않고 다른 레코드나 폼으로 이동 하려고 하면 **저장 되지 않은 변경 내용** 대화 상자가 표시 됩니다. **저장 및 계속**을 선택 하는 경우 정보를 저장 하 고 이동할 페이지를 엽니다. 저장 하 고 계속 하기를 선택 하 고 필드에 오류가 발생 하면 대화 상자가 닫히고 페이지에서 오류를 해결 하기 위해 계속 해 서 탐색을 수행할 수 있습니다.

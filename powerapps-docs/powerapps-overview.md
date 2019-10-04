@@ -12,12 +12,12 @@ ms.reviewer: kvivek
 searchScope:
 - GetStarted
 - PowerApps
-ms.openlocfilehash: 86a92e1e1723eba0f4d8f1b747a30df93314ca65
-ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
+ms.openlocfilehash: 34b2d24771feb246d234c0ce3bd1fc655e571296
+ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70213813"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71705269"
 ---
 # <a name="what-is-powerapps"></a>PowerApps란?
 
@@ -31,17 +31,17 @@ PowerApps를 사용하여 빌드된 앱은 수동 비즈니스 프로세스를 �
 
 ## <a name="powerapps-for-app-makerscreators"></a>앱 제작자/작성자용 PowerApps
 
-PowerApps를 사용 하 여 **캔버스**, **모델 기반**및 **포털**의 세 가지 유형의 앱을 만들 수 있습니다. 자세한 정보는 [PowerApps에서 앱 만들기 개요](maker/index.md).
+PowerApps를 사용 하 여 **캔버스**, **모델 기반**및 **포털**의 세 가지 유형의 앱을 만들 수 있습니다. 자세한 정보: [PowerApps에서 앱 만들기 개요](maker/index.md).
 
 앱을 만들려면 [web.powerapps.com](https://web.powerapps.com)으로 시작합니다.
 
-- **PowerApps Studio**는 캔버스 앱을 빌드하는 데 사용되는 디자이너입니다. 앱 디자이너는 Microsoft PowerPoint에서 슬라이드 모음을 빌드하는 것과 같은 느낌의 앱 만들기를 제공합니다. 자세한 정보는 [데이터에서 앱 생성](/powerapps/maker/canvas-apps/data-platform-create-app)  
+- **PowerApps Studio**는 캔버스 앱을 빌드하는 데 사용되는 디자이너입니다. 앱 디자이너는 Microsoft PowerPoint에서 슬라이드 모음을 빌드하는 것과 같은 느낌의 앱 만들기를 제공합니다. 자세한 정보: [데이터에서 앱 생성](/powerapps/maker/canvas-apps/data-platform-create-app)  
 
-- 모델 기반 앱용 **앱 디자이너**를 사용하면 사이트 맵을 정의하고 구성 요소를 추가하여 모델 기반 앱을 빌드할 수 있습니다. 자세한 정보는 [앱 디자이너를 사용하여 모델 기반 앱 디자인](maker/model-driven-apps/design-custom-business-apps-using-app-designer.md)
+- 모델 기반 앱용 **앱 디자이너**를 사용하면 사이트 맵을 정의하고 구성 요소를 추가하여 모델 기반 앱을 빌드할 수 있습니다. 자세한 정보: [앱 디자이너를 사용하여 모델 기반 앱 디자인](maker/model-driven-apps/design-custom-business-apps-using-app-designer.md)
 
 ## <a name="powerapps-for-app-users"></a>앱 사용자를 위한 PowerApps
 
-자신이 만든 앱을 실행하거나 다른 사용자가 만들고 공유한 앱을 브라우저나 모바일 디바이스(휴대폰 또는 태블릿)에서 실행할 수 있습니다. 자세한 정보는 [앱 찾기 및 실행](user/index.md)
+자신이 만든 앱을 실행하거나 다른 사용자가 만들고 공유한 앱을 브라우저나 모바일 디바이스(휴대폰 또는 태블릿)에서 실행할 수 있습니다. 자세한 정보: [앱 찾기 및 실행](user/index.md)
 
 ## <a name="powerapps-for-admins"></a>관리자용 PowerApps
 
@@ -49,17 +49,17 @@ PowerApps 관리자는 다음을 사용할 수 있습니다.
 
 - **PowerApps 관리 센터**([admin.powerapps.com](https://admin.powerapps.com))를 통해 환경, 사용자, 역할 및 데이터 손실 방지 정책을 만들고 관리합니다. 
 
-- **Power 플랫폼 관리 센터**([admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com))를 통해 환경을 관리하고 Dynamics 365 for Customer Engagement 앱, PowerApps 및 Microsoft Flow에 대한 자가 진단 권장 사항 및 지원을 실시간으로 받고 Common Data Service 분석을 볼 수 있습니다. 
+- [Admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com)( **전원 플랫폼 관리 센터** )를 통해 환경을 관리 하 고, PowerApps 및 Microsoft Flow에 대 한 실시간 자가 지원 권장 사항 및 지원을 받고, Common Data Service 분석을 볼 수 있습니다. 
 
-자세한 정보는 [PowerApps 관리](/power-platform/admin/admin-guide)
+자세한 정보: [PowerApps 관리](/power-platform/admin/admin-guide)
 
 ## <a name="powerapps-for-developers"></a>개발자용 PowerApps
 
-개발자는 비즈니스 앱 생성과 사용자 지정을 확장하는 코드를 작성할 수 있는 앱 제작자입니다. 개발자는 코드를 사용하여 데이터 및 메타데이터를 만들고, Azure 함수, 플러그 인 및 워크플로 확장을 사용하여 서버 사이드 논리를 적용하고, JavaScript를 사용하여 클라이언트 사이드 논리를 적용하고, 가상 엔터티 및 웹후크를 사용하여 외부 데이터와 통합하고, 사용자 지정 커넥터를 빌드하고, 통합 솔루션을 만들기 위해 웹 사이트 환경에 앱을 포함합니다. 자세한 정보는 [개발자용 PowerApps](/powerapps/#pivot=home&panel=developer)
+개발자는 비즈니스 앱 생성과 사용자 지정을 확장하는 코드를 작성할 수 있는 앱 제작자입니다. 개발자는 코드를 사용하여 데이터 및 메타데이터를 만들고, Azure 함수, 플러그 인 및 워크플로 확장을 사용하여 서버 사이드 논리를 적용하고, JavaScript를 사용하여 클라이언트 사이드 논리를 적용하고, 가상 엔터티 및 웹후크를 사용하여 외부 데이터와 통합하고, 사용자 지정 커넥터를 빌드하고, 통합 솔루션을 만들기 위해 웹 사이트 환경에 앱을 포함합니다. 자세한 정보: [개발자용 PowerApps](/powerapps/#pivot=home&panel=developer)
 
 ## <a name="powerapps-and-dynamics-365"></a>PowerApps 및 Dynamics 365
 
-Dynamics 365 for Sales, Dynamics 365 for Service, Dynamics 365 for Marketing과 같은 Dynamics 365 애플리케이션도 PowerApps에서 데이터 저장 및 보안을 위해 사용하는 기본 데이터 플랫폼(Common Data Service)을 사용합니다. 이렇게 하면 통합할 필요 없이 Dynamics 365 내에서 이미 사용되는 핵심 비즈니스 데이터에 대해 직접 PowerApps 및 Common Data Service를 사용하여 앱을 빌드할 수 있습니다. 자세한 정보는 [Dynamics 365 및 Common Data Service](maker/common-data-service/data-platform-intro.md#dynamics-365-and-the-common-data-service)
+Dynamics 365 for Sales, Dynamics 365 for Service, Dynamics 365 for Marketing과 같은 Dynamics 365 애플리케이션도 PowerApps에서 데이터 저장 및 보안을 위해 사용하는 기본 데이터 플랫폼(Common Data Service)을 사용합니다. 이렇게 하면 통합할 필요 없이 Dynamics 365 내에서 이미 사용되는 핵심 비즈니스 데이터에 대해 직접 PowerApps 및 Common Data Service를 사용하여 앱을 빌드할 수 있습니다. 자세한 정보: [Dynamics 365 및 Common Data Service](maker/common-data-service/data-platform-intro.md#dynamics-365-and-the-common-data-service)
 
 ## <a name="try-powerapps-for-free"></a>PowerApps 평가판 무료 사용
 

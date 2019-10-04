@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 8/02/2019
+ms.date: 10/03/2019
 ms.author: mduelae
 ms.reviewer: ''
 ms.assetid: ''
@@ -15,16 +15,15 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 8f061078b4401ee1ea2db9a2e7e6a4443bd053b6
-ms.sourcegitcommit: 4e4f7945c3f24faf9bb8a856a5f3892cbfd113be
+ms.openlocfilehash: 9ba051395e99dc6f2079d033c10a727a2e95da67
+ms.sourcegitcommit: 9a16bb75c856f7c84cd385811b7135ab2804ae69
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "68783750"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "71924584"
 ---
 # <a name="add-an-appointment-email-phone-call-note-or-task-activity-to-the-timeline"></a>타임라인에 약속, 메일, 전화 통화, 메모 또는 작업 활동 추가 
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 **타임라인** 월에 **활동**을 추가하여 고객 또는 지인과의 모든 커뮤니케이션을 추적합니다. 예를 들어, 메모를 남기고, 게시물을 추가하고, 작업을 추가하고, 메일을 보내고, 전화 통화 내용을 추가하고, 약속을 설정할 수 있습니다. 시스템에서 자동으로 모든 활동에 타임스탬프를 적용하고 활동을 만든 사람을 표시합니다. 팀원이라면 누구나 활동을 살펴보고 고객의 이력을 확인할 수 있습니다. 
 
@@ -101,13 +100,13 @@ ms.locfileid: "68783750"
 
 
     > [!NOTE]
-    > 대화 보기에서 전자 메일을 나열 하려면 **설정** > **개인 설정 설정** > **전자 메일** 탭으로 이동한 다음, **타임 라인에서 대화로 메일 표시**를 선택 합니다. 개인 설정에 대 한 자세한 내용은 [개인 옵션 설정](set-personal-options.md)을 참조 하세요.
+    > 대화 보기에서 전자 메일을 나열 하려면 **설정** >  개인 설정**설정** > **전자 메일** 탭으로 이동한 다음, **타임 라인에서 대화로 전자 메일 표시**를 선택 합니다. 개인 설정에 대 한 자세한 내용은 [개인 옵션 설정](https://docs.microsoft.com/en-us/powerapps/user/set-personal-options#email-tab-options)을 참조 하세요. 사용 하도록 설정 되 면 타임 라인이 포함 된 모든 폼을 열 수 있습니다. 그러면 전자 메일이 맨 위에 최신 전자 메일을 사용 하 여 대화 스레드로 그룹화 됩니다.
 
    > [!div class="mx-imgBorder"]
-   > ![개인 옵션 설정](media/emailsettings1.png "개인 옵션 설정")
+   > 개인 ![옵션]설정(media/emailsettings1.png "개인 옵션") 설정
    
     > [!div class="mx-imgBorder"]
-    > ![개인 옵션 전자 메일 설정](media/emailsettings2.png "전자 메일에 대 한 개인 옵션 설정")
+    > ![개인 옵션 전자]메일 설정(media/emailsettings2.png "전자 메일에 대 한 개인 옵션 설정")
 
   
 ## <a name="add-an-appointment"></a>약속 추가  

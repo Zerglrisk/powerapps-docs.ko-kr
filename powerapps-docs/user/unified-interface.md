@@ -15,24 +15,22 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: be255d4208b2926867ef0e4dec291d3435f64443
-ms.sourcegitcommit: 770906d6a559316b93873ee9b1dbceabcc54fc4e
+ms.openlocfilehash: 76241ae2e26752a98e32e7ad72c54780da3934ae
+ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71208170"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71705326"
 ---
-#  <a name="enhanced-user-experience-with-the-unified-interface-for-model-driven-apps"></a>모델 기반 앱에 대 한 통합 인터페이스를 사용 하 여 향상 된 사용자 환경 
+# <a name="enhanced-user-experience-with-the-unified-interface-for-model-driven-apps"></a>모델 기반 앱에 대 한 통합 인터페이스를 사용 하 여 향상 된 사용자 환경 
 
 모델 기반 앱에 대 한 통합 인터페이스는 데스크톱, 랩톱, 태블릿 또는 휴대폰에 상관 없이 장치 간에 일관 되 고 액세스 가능한 사용자 환경을 제공 합니다. 앱은 화면에서 구성 요소를 reflowing 하 여 크기를 조정 합니다. 응답성이 뛰어난 디자인은 화면 크기에 따라 사용자 환경에 적응 하므로 사용 가능한 공간이 더 많이 표시 될 수 있습니다.
 
 > [!div class="mx-imgBorder"]
 > ![통합 인터페이스가 화면에 적응](media/Reflow.png "통합 인터페이스가 화면에 적응")
 
-
-
 > [!NOTE]
-> 레거시 웹 클라이언트는 더 이상 사용 되지 않으며 고객은 2020 년 10 월 1 일 이전에 통합 인터페이스로 전환 해야 합니다. 자세한 내용은 [통합 인터페이스로 이동할 타임 라인 발표](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/announcing-the-timeline-to-move-to-unified-interface/)를 참조 하세요. 전환 방법에 대해 자세히 알아보려면 전환 [에 대 한 빠른 시작](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/transition-web-app)을 참조 하세요.
+> 레거시 웹 클라이언트는 더 이상 사용 되지 않으며 고객은 2020 년 10 월 1 일 이전에 통합 인터페이스로 전환 해야 합니다. 자세한 내용은 [Blog를 참조 하세요. 통합 인터페이스 @ no__t-0으로 이동할 타임 라인을 발표 합니다. 전환 방법에 대해 자세히 알아보려면 전환 [에 대 한 빠른 시작](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/transition-web-app)을 참조 하세요.
 
 ## <a name="navigation"></a>내비게이션
 
@@ -61,6 +59,11 @@ ms.locfileid: "71208170"
 ## <a name="accessibility"></a>내게
 향상 된 접근성 환경에서는 화면 판독기를 사용 하 여 화면에 있는 정보를 가청 소리로 변환 하 고 더 많은 사람들이 앱을 사용할 수 있도록 브라유 점자 판독기로 인쇄할 수 있습니다. 자세한 내용은 [화면 판독기 사용](screen-reader.md)을 참조 하세요.
 
-##  <a name="unified-interface-community"></a>통합 인터페이스 커뮤니티
+## <a name="create-a-unified-interface-app"></a>통합 인터페이스 앱 만들기
+통합 인터페이스에 대 한 사용자 고유의 환경을 만들기 위한 요구 사항이 있는 경우 앱 디자이너를 사용 하 여 모델 기반 앱을 만들 수 있습니다. [모델 기반 앱 빌드 개요를](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)참조 하세요.
+
+![새 통합 인터페이스 앱 만들기](media/uci-model-driven-app.png "새 통합 인터페이스 앱 만들기")
+
+## <a name="unified-interface-community"></a>통합 인터페이스 커뮤니티
 
 통합 인터페이스 [커뮤니티 사이트로](https://community.dynamics.com/365/unified-interface/) 이동 하 여 통합 인터페이스에 대 한 원활한 전환을 계획 하 고 실행 하는 데 도움을 받고 블로그, 웹 세미나, 비디오, 이벤트 등에 대 한 전문가 및 동료와 협력 하세요.
