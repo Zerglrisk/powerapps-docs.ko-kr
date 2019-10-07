@@ -8,17 +8,17 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 07/12/2017
 ms.author: lanced
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 405dcf432526206aa3a5f341a38e2ae5547cea1f
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 4eab4585a2abd8633704c76b57cde52702982e97
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61545703"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71994039"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>PowerApps에서 Microsoft Translator에 연결
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -50,7 +50,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 ### <a name="translate-text"></a>텍스트 번역
 1. **삽입** 메뉴에서 **텍스트**를 선택한 다음 **텍스트 입력**을 선택합니다. 텍스트 입력 컨트롤의 이름을 **Source**로 바꿉니다.  
 
-    ![이름 바꾸기](./media/connection-microsoft-translator/renametosource.png)
+    ![바꾸면](./media/connection-microsoft-translator/renametosource.png)
 2. **드롭다운** 목록(**삽입** 메뉴 > **컨트롤**)을 추가하고 이름을 **TargetLang**으로 변경한 다음, **Source** 아래로 이동합니다.
 3. **TargetLang**의 **[Items](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
 
@@ -75,7 +75,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 4. F5 키를 누르거나 미리 보기 단추(![](./media/connection-microsoft-translator/preview.png))를 선택합니다. 일부 텍스트를 **Source**에 입력하고 **TargetLang**에서 언어를 선택한 다음, 오디오 컨트롤에서 재생 단추를 선택합니다.
 
     앱은 사용자가 입력한 텍스트의 오디오 버전을 사용자가 선택한 언어로 재생합니다.
-5. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+5. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ### <a name="detect-the-source-language"></a>원본 언어 검색
 이러한 다음 단계는 동일한 **Source** 텍스트 입력 및 **Target** 텍스트 컨트롤을 사용합니다. 원하는 경우 새 컨트롤을 만들거나, 수식에서 이름을 업데이트할 수 있습니다.
@@ -108,7 +108,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| 코드 |문자열 |아니요 | |
+| Code |문자열 |아니요 | |
 | 이름 |문자열 |아니요 | |
 
 ### <a name="translate"></a>Translate
@@ -127,7 +127,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 없음
 
 ### <a name="detect"></a>검색
-언어를 검색 합니다. 지정된 텍스트의 원본 언어를 검색합니다.
+언어 검색: 지정된 텍스트의 원본 언어를 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -139,7 +139,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| 코드 |문자열 |아니요 | |
+| Code |문자열 |아니요 | |
 | 이름 |문자열 |아니요 | |
 
 ### <a name="speechlanguages"></a>SpeechLanguages
@@ -152,11 +152,11 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| 코드 |문자열 |아니요 | |
+| Code |문자열 |아니요 | |
 | 이름 |문자열 |아니요 | |
 
 ### <a name="texttospeech"></a>TextToSpeech
-텍스트 음성 변환: 지정된 텍스트를 웨이브 형식의 오디오 스트림 음성으로 변환합니다.
+텍스트를 음성으로 변환: 지정된 텍스트를 웨이브 형식의 오디오 스트림 음성으로 변환합니다.
 
 #### <a name="input-properties"></a>입력 속성
 

@@ -6,32 +6,32 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a7128ace53cc1e0754eb7247282b2ecae7642672
-ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
+ms.openlocfilehash: 4b12bb62011e24e2dfdb12d9d355432aa2bcadb6
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "65517415"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986592"
 ---
 # <a name="list-box-control-in-powerapps"></a>PowerApps의 목록 상자 컨트롤
 사용자가 하나 또는 여러 개의 항목을 선택할 수 있는 목록입니다.
 
 ## <a name="description"></a>설명
-**목록 상자** 컨트롤은 항상 사용 가능한 선택 항목을 모두 표시하며(**[드롭다운](control-drop-down.md)** 컨트롤과 다름) 이중에서 사용자가 한번에 둘 이상의 항목을 선택할 수 있습니다(**[라디오](control-radio.md)** 컨트롤과 다름).
+**목록 상자** 컨트롤은 항상 사용 가능한 선택 항목을 모두 표시하며( **[드롭다운](control-drop-down.md)** 컨트롤과 다름) 이중에서 사용자가 한번에 둘 이상의 항목을 선택할 수 있습니다( **[라디오](control-radio.md)** 컨트롤과 다름).
 
 ## <a name="key-properties"></a>주요 속성
 **[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
-**선택한** – 선택한 항목을 나타내는 데이터 레코드입니다.
+**Selected** – 선택한 항목을 나타내는 데이터 레코드입니다.
 
 갤러리, 목록 또는 차트를 추가할 경우 속성 목록은 새 컨트롤이 표시해야 하는 데이터를 쉽게 지정할 수 있는 **항목**을 기본적으로 보여줍니다. 예를 들어 갤러리의 **Items** 속성을 Salesforce의 **Account** 테이블, Excel에서 만들어 클라우드에 업로드한 **Inventory** 테이블 또는 **ConferenceSpeakers** SharePoint 목록 테이블로 설정할 수 있습니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "65517415"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -98,7 +98,7 @@ ms.locfileid: "65517415"
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
-**(사용 되지 않음) SelectedText** – 선택한 항목을 나타내는 하는 문자열 값입니다.
+**Selectedtext (사용 되지 않음)** – 선택한 항목을 나타내는 문자열 값입니다.
 
 **[SelectionColor](properties-color-border.md)** – 목록에서 선택한 항목의 텍스트 색 또는 펜 컨트롤에 있는 선택 도구의 색입니다.
 
@@ -144,9 +144,9 @@ ms.locfileid: "65517415"
      ![드롭다운 목록의 바닥재 이름](./media/control-list-box/flooring-names.png)
 4. 각 **[드롭다운](control-drop-down.md)** 컨트롤의 **[Visible](properties-core.md)** 속성을 다음 값 중에 하나로 설정합니다.
    
-   * CarpetList: **경우 ("카페트"에서 CategoryList.SelectedItems.Value, true)**
-   * HardwoodList: **경우 ("하드 우드에 어"에서 CategoryList.SelectedItems.Value, true)**
-   * TileList: **경우 ("타일" CategoryList.SelectedItems.Value, true)**
+   * CarpetList **If ("카펫"의 CategoryList, true)**
+   * HardwoodList **If ("하드 목재" (SelectedItems, true))**
+   * TileList **If ("Tile" in SelectedItems, true)**
      
      **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 5. F5 키를 누르고 **CategoryList**에서 여러 개의 항목을 선택합니다.

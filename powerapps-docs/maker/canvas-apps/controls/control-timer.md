@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5d20e2324f2efb4f866ed4fc183f289733c10a41
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 00863f00768a0c4eec95ecec778c2da219fd08d3
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61560470"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986200"
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -27,7 +27,7 @@ ms.locfileid: "61560470"
 타이머는 일정 시간이 지난 후 컨트롤이 표시되는 시간이나 컨트롤의 다른 속성 변경 등을 결정할 수 있습니다.
 
 > [!NOTE]
-> PowerApps Studio 타이머 미리 보기 모드에만 실행합니다.
+> PowerApps Studio에서 타이머는 미리 보기 모드 에서만 실행 됩니다.
 
 
 ## <a name="key-properties"></a>주요 속성
@@ -68,7 +68,7 @@ ms.locfileid: "61560470"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "61560470"
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
-**Start** – 타이머 시작 여부를 선택합니다.
+**시작** – 타이머 시작 여부를 선택합니다.
 
 **[Strikethrough](properties-text.md)** - 컨트롤에 표시되는 텍스트 중앙에 선을 표시할지 여부를 선택합니다.
 
@@ -142,33 +142,33 @@ ms.locfileid: "61560470"
 
     **[ColorFade](../functions/function-colors.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 
-5. 타이머 단추를 선택하여 애니메이션을 시작 또는 중지합니다. 레이블의 텍스트가 흰색으로 흐려졌다가 진한 색으로 돌아가는 프로세스를 반복합니다.
+5. 타이머 단추를 선택하여 애니메이션을 시작 또는 중지합니다. 레이블의 텍스트가 흰색으로 흐려지며 전체 강도로 돌아가는 프로세스를 반복합니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
-사용자와 상호 작용하는 경우라면 **타이머** 컨트롤에는 **[단추](control-button.md)** 컨트롤과 동일한 지침이 적용됩니다.
+사용자가 조작할 수 있는 경우 **[Button](control-button.md)** 컨트롤에 대 한 동일한 지침이 **타이머** 컨트롤에 적용 됩니다.
 
 ### <a name="background-timers"></a>백그라운드 타이머
-백그라운드 타이머는 자동으로 실행하고 숨겨집니다. 경과된 시간에 관심이 있는 경우 지원 역할로 백그라운드 타이머를 이용합니다. 예를 들어, 1분마다 데이터를 새로 고칠 수도 있고 특정 기간 동안만 알림 메시지를 표시할 수 있습니다.
+백그라운드 타이머는 자동으로 실행 되며 숨겨집니다. 사용자에 게는 경과 시간이 거의 필요 하지 않은 지원 역할에 사용 합니다. 예를 들어 1 분 마다 데이터를 새로 고치거 나 특정 기간 동안만 알림 메시지를 표시할 수 있습니다.
 
-백그라운드 타이머는 모든 사용자에게 숨기려면 **[Visible](properties-core.md)** 속성을 false로 설정해야 합니다.
+백그라운드 타이머는 모든 사용자가 숨길 수 있도록 **[Visible](properties-core.md)** 속성을 false로 설정 해야 합니다.
 
 ### <a name="timing-considerations"></a>타이밍 고려 사항
-**타이머**가 자동으로 실행되는 경우라면, 사용자가 콘텐츠를 읽고 사용하기에 충분한 시간이 있는지를 고려해야 합니다. 키보드 및 화면 읽기 프로그램 사용자는 시간 제한 이벤트에 반응하는 데 시간이 더 필요할 수 있습니다.
+**타이머가** 자동으로 실행 되는 경우 사용자가 콘텐츠를 읽고 사용할 수 있는 충분 한 시간이 있는지 여부를 고려 합니다. 키보드 및 화면 판독기 사용자는 시간 제한 이벤트에 반응 하는 데 시간이 더 필요할 수 있습니다.
 
-이러한 전략 중 하나라도 충분 합니다.
-* 시간 제한 이벤트를 취소할 수가 있습니다.
-* 시작 하기 전에 시간 제한을 조정할 수가 있습니다.
-* 시간 제한이 만료되기 20초 전에 경고하고 및 제한을 연장하는 쉬운 방법을 제공합니다.
+이러한 전략은 충분 합니다.
+* 사용자가 시간 제한 이벤트를 취소할 수 있도록 허용 합니다.
+* 사용자가 시작 하기 전에 시간 제한을 조정할 수 있습니다.
+* 시간 제한이 만료 되기 20 초 전에 경고 하 고 제한을 확장 하는 쉬운 방법을 제공 합니다.
 
 일부 시나리오는 이러한 요구 사항에서 제외됩니다. [WCAG 2.0 guideline for time limits](https://www.w3.org/TR/WCAG20/#time-limits)(시간 제한에 대한 WCAG 2.0 지침)에서 자세히 알아보세요.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
-* 타이머 트리거가 현재 화면에서 변경되면, 화면 읽기 프로그램 사용자에게 변경 내용을 알려주기 위해 [라이브 영역](../accessible-apps-live-regions.md)을 사용하세요.
+* 타이머에서 현재 화면에 대 한 변경 내용을 트리거하는 경우 [라이브 지역을](../accessible-apps-live-regions.md) 사용 하 여 화면 판독기 사용자에 게 변경 내용을 알립니다.
 
     > [!NOTE]
-    > 타이머가 표시 및 실행되는 경우, 화면 읽기 프로그램은 5초마다 경과된 시간을 알려줍니다.
+    > 타이머가 표시 되 고 실행 중인 경우 화면 판독기는 5 초 마다 경과 된 시간을 알립니다.
 
-* 시간에 민감하고 중요 정보에 대해서는 컨트롤의 **[Text](properties-core.md)** 속성을 사용하지 않습니다. 화면 읽기 프로그램은 **[Text](properties-core.md)** 속성의 변경 내용을 알리지 않습니다.
-* 대화형 타이머:
+* 시간이 중요 하 고 중요 한 정보를 보려면 컨트롤의 **[Text](properties-core.md)** 속성을 사용 하지 마세요. 화면 읽기 프로그램이 **[텍스트](properties-core.md)** 에 대 한 변경 내용을 알리지 않습니다.
+* 대화형 타이머의 경우:
     * **[Text](properties-core.md)** 가 있어야 합니다.
-    * 경과된 시간을 표시하기 위해서는 **[레이블](control-text-box.md)** 컨트롤을 추가하는 것이 좋습니다. 사용자에게 타이머를 시작하거나 중지하도록 알려주기 위해 타이머의 **[Text](properties-core.md)** 속성을 이용합니다.
+    * 경과 된 시간을 표시 하는 **[레이블](control-text-box.md)** 컨트롤을 추가 하는 것이 좋습니다. 타이머의 **[Text](properties-core.md)** 속성을 사용 하 여 타이머를 시작 하거나 중지 하도록 사용자에 게 지시 합니다.

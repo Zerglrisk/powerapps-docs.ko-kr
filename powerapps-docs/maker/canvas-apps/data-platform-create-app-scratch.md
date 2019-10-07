@@ -1,24 +1,24 @@
 ---
 title: Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기 | Microsoft Docs
 description: PowerApps에서 캔버스 앱을 생성하여 Common Data Service에서 레코드를 추가, 업데이트 및 삭제합니다.
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/21/2019
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 482a5a91c241aa9fd8c85dfb970cf692cd2ab1a3
-ms.sourcegitcommit: 38270060d2d0b784fe065164e6112c011b26e17c
+ms.openlocfilehash: c058e5f5710c090c39c2971974d57aacd40923a8
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68830469"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986008"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service"></a>Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -26,7 +26,7 @@ ms.locfileid: "68830469"
 
 Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Salesforce와 같은 데이터 원본에서와 마찬가지로 PowerApps에서 연결을 만들 필요가 없습니다. 앱에서 표시, 관리하려는 엔터티를 지정하기만 하면 됩니다.
 
-## <a name="prerequisites"></a>전제 조건
+## <a name="prerequisites"></a>필수 조건
 
 - 앱을 처음부터 만들기 전에 [앱을 생성](data-platform-create-app.md)한 다음, 해당 앱의 [갤러리](customize-layout-sharepoint.md), [양식](customize-forms-sharepoint.md) 및 [카드](customize-card.md)를 사용자 지정하여 PowerApps 기본 사항에 익숙해지도록 합니다.
 - 샘플 데이터를 사용하여 데이터베이스를 만든 [환경으로 전환합니다](working-with-environments.md). 적절한 라이선스를 있는 경우 이 요구 사항이 충족되는 [환경을 만들 수 있습니다](../../administrator/create-environment.md).
@@ -36,11 +36,11 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-1. **나만의 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
+1. **고유한 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
 
     ![비어 있는 앱 타일](./media/data-platform-create-app-scratch/blank-app.png)
 
-1. 앱의 이름을 지정하고, **전화**를 선택한 다음, **만들기**를 선택합니다.
+1. 앱의 이름을 지정하고, **휴대폰**을 선택한 다음, **만들기**를 선택합니다.
 
     태블릿용 앱을 처음부터 만들 수 있지만 이 항목에서는 전화용 앱을 만드는 방법을 설명합니다.
 
@@ -104,7 +104,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
     - **연간 수익**
 
     > [!NOTE]
-    > 이 시나리오 외에서는 **새 필드**를 선택 하 고 필요한 정보를 제공한 다음 **완료**를 선택 하 여 사용자 지정 필드를 만들 수 있습니다. 자세한 정보는 [필드를 만듭니다](../common-data-service/create-edit-field-portal.md#create-a-field).<br><br>![](media/data-platform-create-app-scratch/choose-or-add-fields.png "필드 선택 및 추가")
+    > 이 시나리오 외에서는 **새 필드**를 선택 하 고 필요한 정보를 제공한 다음 **완료**를 선택 하 여 사용자 지정 필드를 만들 수 있습니다. 자세한 정보: [필드를 만듭니다](../common-data-service/create-edit-field-portal.md#create-a-field).<br><br>![](media/data-platform-create-app-scratch/choose-or-add-fields.png "필드 선택 및 추가")
 
 1. **추가**를 선택합니다.
 

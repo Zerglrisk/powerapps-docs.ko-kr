@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 02e8477873adad476c65e513a470e027aee5cd5c
-ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
+ms.openlocfilehash: 4a838100398196c63ef948f8f2e94d098c03a373
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "65517381"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993431"
 ---
 # <a name="drop-down-control-in-powerapps"></a>PowerApps의 드롭다운 컨트롤
 사용자가 열지 않는 한 첫 번째 항목만 표시하는 목록입니다.
@@ -33,9 +33,9 @@ ms.locfileid: "65517381"
   
 **Value** - 컨트롤에 표시할 데이터 열입니다(예를 들어 데이터 원본에 여러 열이 있는 경우).
 
-**선택한** – 선택한 항목을 나타내는 데이터 레코드입니다.
+**Selected** – 선택한 항목을 나타내는 데이터 레코드입니다.
 
-**AllowEmptySelection** – 컨트롤이 선택 영역이 없는 항목은 선택 된 경우 표시 여부를 선택 합니다. 앱 사용자 빈 항목을 선택 하 여 선택 항목을 지울 수도 있습니다.
+**AllowEmptySelection** – 선택 된 항목이 없는 경우 컨트롤이 빈 선택 영역을 표시 하는지 여부입니다. 앱 사용자는 빈 항목을 선택 하 여 선택 항목을 지울 수도 있습니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다.
@@ -68,7 +68,7 @@ ms.locfileid: "65517381"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -100,7 +100,7 @@ ms.locfileid: "65517381"
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
-**(사용 되지 않음) SelectedText** – 선택한 항목을 나타내는 하는 문자열 값입니다.
+**Selectedtext (사용 되지 않음)** – 선택한 항목을 나타내는 문자열 값입니다.
 
 **[SelectionColor](properties-color-border.md)** – 목록에서 선택한 항목의 텍스트 색 또는 펜 컨트롤에 있는 선택 도구의 색입니다.
 
@@ -137,7 +137,7 @@ ms.locfileid: "65517381"
 1. Alt 키를 누른 채로 컨트롤의 아래쪽 화살표를 선택하여 목록에 항목을 표시합니다.
 
 ### <a name="list-from-a-data-source"></a>데이터 원본에서 나열
-이 절차의 원칙은 [테이블을 제공하는 모든 데이터 원본](../connections-list.md#tables)에 적용되지만 이러한 단계를 정확하게 수행하려면, Common Data Service 데이터베이스가 생성되고 샘플 데이터가 추가된 환경이 필요합니다.
+이 절차의 원칙은 [테이블을 제공 하는 모든 데이터 원본](../connections-list.md#tables) 에 적용 되지만 이러한 단계를 정확 하 게 수행 하려면 Common Data Service 데이터베이스를 만들고 예제 데이터를 추가한 환경을 열어야 합니다.
 
 1. [빈 앱을 연](../data-platform-create-app-scratch.md#open-a-blank-app) 다음, [**계정** 엔터티를 지정](../data-platform-create-app-scratch.md#specify-an-entity)합니다.
 

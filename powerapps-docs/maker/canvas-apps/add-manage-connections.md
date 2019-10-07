@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 03/09/2017
 ms.author: lanced
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d230d38c8393540bc78fd003ecb167f1f3978b97
-ms.sourcegitcommit: fe18d82dbbd3972c472fd69f7feb3a35c3a31153
+ms.openlocfilehash: ad7f01da3217faa1cd4c55b1d33acd03953434f5
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71150249"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71987337"
 ---
 # <a name="manage-canvas-app-connections-in-powerapps"></a>PowerApps에서 캔버스 앱 연결 관리
 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 또는 해당 자격 증명을 업데이트합니다.

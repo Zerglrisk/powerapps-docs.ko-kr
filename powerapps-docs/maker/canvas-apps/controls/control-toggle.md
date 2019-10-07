@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6ab5ddf93351547afb752e838ab4929c7138df87
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 4ec115eecc676a7ec5bea3b04b135eeb63268449
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61560441"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993260"
 ---
 # <a name="toggle-control-in-powerapps"></a>PowerApps의 토글 컨트롤
 핸들을 움직여 사용자가 켜거나 끌 수 있는 컨트롤입니다.

@@ -1,52 +1,52 @@
 ---
-title: AsType 및 IsType 함수에서 캔버스 앱 | Microsoft Docs
-description: 캔버스 앱 구문과 AsType 및 IsType 함수에 대 한 예제를 포함 한 참조 정보
+title: Canvas 앱에서의 유형 및 IsType 함수 | Microsoft Docs
+description: Canvas 앱의 정보 및 IsType 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 05/17/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 999653159f838e840f7f569aa9953633a6a70065
-ms.sourcegitcommit: 93096dfa1aadba77159db1e5922f3d5528eecb7a
+ms.openlocfilehash: 0ecb30a5a452a6ee092ccf9bc9d47f6182ef60ab
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "65986325"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992992"
 ---
-# <a name="astype-and-istype-functions-in-canvas-apps"></a>캔버스 앱의 AsType 및 IsType 함수
+# <a name="astype-and-istype-functions-in-canvas-apps"></a>Canvas 앱의 안 면 및 IsType 함수
 
-특정 엔터티 형식에 대 한 레코드 참조 확인 (**IsType**) 하 고 참조를 특정 형식으로 처리 (**AsType**).
+특정 엔터티 형식 (**istype**)에 대 한 레코드 참조를 확인 하 고 참조를 특정**형식 (예를 들어**)으로 처리 합니다.
 
 ## <a name="description"></a>설명
 
-읽기 [레코드 참조 및 다형 조회 이해](../working-with-references.md) 광범위 한 소개 및 자세한 정보에 대 한 합니다.
+광범위 한 소개 및 자세한 내용은 [레코드 참조 및 다형성 조회 이해](../working-with-references.md) 를 참조 하세요.
 
-일반적으로 조회 필드를 특정 엔터티의 레코드를 가리킵니다. 엔터티 형식을 잘 확립 된 이기 때문에 간단한 점 표기법을 사용 하 여 조회 필드를 액세스할 수 있습니다. 예를 들어 **첫 번째 (계정).' 기본 연락처 '.' 전체 이름 '** 에서 설명 합니다 **계정** 엔터티를를 **기본 연락처** 레코드를 **연락처** 엔터티와 추출을 **전체 이름**  필드입니다.
+조회 필드는 일반적으로 특정 엔터티의 레코드를 나타냅니다. 엔터티 형식이 제대로 설정 되었으므로 간단한 점 표기법을 사용 하 여 조회 필드에 액세스할 수 있습니다. 예를 들어 **첫 번째 (계정). 기본 연락처 '. ' 전체 이름 '** **Accounts** 엔터티에서 **담당자** 엔터티의 **기본 연락처** 레코드에 대해 안내 하 고 **전체 이름** 필드를 추출 합니다.
 
-Common Data Service는 또한 다음이 예제와 같이 엔터티 집합에서 레코드를 참조할 수는 다형 조회 필드를 지원 합니다.
+또한 Common Data Service는 다음 예와 같이 엔터티 집합의 레코드를 참조할 수 있는 다형 조회 필드도 지원 합니다.
 
 | 조회 필드 | 참조할 수 있습니다. |
 |--------------|--------------|
-| **소유자** | **사용자가** 또는 **팀** |
+| **소유자도** | **사용자** 또는 **팀** |
 | **고객** | **계정** 또는 **연락처** |
-| **관련 항목** | **계정**하십시오 **연락처**, **기술 항목**등. |
+| **관련** | **계정**, **연락처**, **기술 문서**등 |
 
 <!--note from editor: Change "Knowledge Articles" to "Knowledge Base articles" if that is what is being referenced.   -->
 
-캔버스 앱 수식에서 레코드 참조 다형 조회를 사용 하 여 작업을 사용할 수 있습니다. 다른 엔터티 레코드 참조를 참조할 수, 있으므로 모 르 수식을 작성할 때 어떤 필드가 제공 됩니다. *합니다. 필드* 표기법을 사용할 수 없습니다. 수식 실행 될 때 앱에서 발생 하는 레코드에 맞게 조정 해야 합니다.
+캔버스-앱 수식에서 레코드 참조를 사용 하 여 다형 조회 작업을 수행할 수 있습니다. 레코드 참조는 서로 다른 엔터티를 참조할 수 있으므로 수식을 작성할 때 어떤 필드를 사용할 수 있는지 알 수 없습니다. *입니다. 필드* 표기법을 사용할 수 없습니다. 이러한 수식은 앱이 실행 될 때 발생 하는 레코드에 맞게 조정 되어야 합니다.
 
-합니다 **IsType** 함수는 레코드 참조가 특정 엔터티 형식에 있는지 여부를 테스트 합니다. 함수는 부울 TRUE 또는 FALSE를 반환합니다.
+**Istype** 함수는 레코드 참조가 특정 엔터티 형식을 참조 하는지 여부를 테스트 합니다. 이 함수는 부울 TRUE 또는 FALSE를 반환 합니다.
 
-합니다 **AsType** 취급 라고도 특정 엔터티 형식으로 레코드 참조 *캐스팅*합니다. 엔터티의 레코드 것 처럼 결과 사용 하 여 하를 다시 사용할 수는 *합니다. 필드* 표기법의 모든 레코드의 필드에 액세스 합니다. 특정 유형의 참조가 없는 경우 오류가 발생 했습니다.
+고 **유형 함수는** 레코드 참조를 특정 엔터티 형식으로 처리 합니다 .이를 *캐스팅이*라고도 합니다. 엔터티 레코드 였던 것 처럼 결과를 사용 하 고를 다시 사용할 수 있습니다 *.* 해당 레코드의 모든 필드에 액세스 하는 필드 표기법입니다. 참조가 특정 형식이 아닌 경우 오류가 발생 합니다.
 
-레코드의 엔터티 형식을 먼저 테스트 하 여 필드를 사용할 수 있도록 해당 형식의 레코드로 처리 이러한 함수를 함께 사용 합니다.
+이러한 함수를 함께 사용 하 여 레코드의 엔터티 형식을 먼저 테스트 한 다음 필드를 사용할 수 있도록 해당 형식의 레코드로 처리 합니다.
 
 ```powerapps-dot
 If( IsType( First( Accounts ).Owner, Users ),
@@ -55,19 +55,19 @@ If( IsType( First( Accounts ).Owner, Users ),
 )
 ```
 
-레코드 참조의 필드에 액세스 하는 경우에 이러한 함수가 필요 합니다. 예를 들어, 레코드 참조를 사용할 수 있습니다 합니다 [ **필터** ](function-filter-lookup.md) 없이 작동할 **IsType** 하거나 **AsType**:
+레코드 참조의 필드에 액세스 하는 경우에만 이러한 함수가 필요 합니다. 예를 들어 [**필터**](function-filter-lookup.md) 함수에서 레코드 참조를 사용할 수 **있습니다**.
 
 ```powerapps-dot
 Filter( Accounts, Owner = First( Users ) )
 ```
 
-마찬가지로, 레코드 참조를 사용할 수 있습니다 합니다 [ **패치** ](function-patch.md) 함수:
+마찬가지로 [**Patch**](function-patch.md) 함수를 사용 하 여 레코드 참조를 사용할 수 있습니다.
 
 ```powerapps-dot
 Patch( Accounts, First( Accounts ), { Owner: First( Teams ) } )
 ```  
 
-내에서 같은 레코드 컨텍스트에서 사용 하는 경우는 [ **갤러리** ](../controls/control-gallery.md) 하거나 [ **편집 양식** ](../controls/control-form-detail.md) 컨트롤을 사용 하도록 해야 할 수는 [전역 명확성 연산자](operators.md#disambiguation-operator) 엔터티 유형을 참조할 수 있습니다. 예를 들어이 수식을 연락처 목록을 표시 하는 갤러리에 적용 될 위치 **회사 이름** 되는 **고객** 조회:
+[**갤러리**](../controls/control-gallery.md) 또는 [**편집 양식**](../controls/control-form-detail.md) 컨트롤에서와 같은 레코드 컨텍스트에서 사용 되는 경우에는 [전역 명확성 연산자](operators.md#disambiguation-operator) 를 사용 하 여 엔터티 형식을 참조 해야 할 수 있습니다. 예를 들어 다음 수식은 **회사 이름이** **고객** 조회 인 연락처 목록을 표시 하는 갤러리에 적용 됩니다.
 
 ```powerapps-dot
 If( IsType( ThisItem.'Company Name', [@Accounts] ),
@@ -76,61 +76,61 @@ If( IsType( ThisItem.'Company Name', [@Accounts] ),
 )
 ```
 
-두 함수 모두 엔터티에 연결 된 데이터 소스의 이름을 통해 형식을 지정 합니다. 작동 하려면 수식에 대 한 앱을 테스트 하거나 캐스팅에 원하는 모든 형식에 데이터 원본의도 추가 해야 합니다. 예를 들어 추가 해야 합니다 **사용자** 사용 하려는 경우 데이터 원본으로 엔터티 **IsType** 및 **AsType** 사용 하 여는 **소유자** 조회 및 레코드 해당 엔터티에서 합니다. 앱에서 실제로 사용 하는 데이터 원본만 추가할 수 있습니다. 조회를 참조할 수 있는 모든 엔터티를 추가할 필요가 없습니다.
+두 함수 모두 엔터티에 연결 된 데이터 소스의 이름을 통해 형식을 지정 합니다. 수식이 작동 하려면 테스트 하거나 캐스팅할 모든 형식의 응용 프로그램에 데이터 소스도 추가 해야 합니다. 예를 들어 **소유자** 조회와 해당 엔터티의 레코드 **를 사용 하 여** **istype** 사용 하려는 경우에는 **사용자** 엔터티를 데이터 원본으로 추가 해야 합니다. 앱에서 실제로 사용 하는 데이터 원본만 추가할 수 있습니다. 조회가 참조할 수 있는 모든 엔터티를 추가할 필요는 없습니다.
 
-레코드 참조 이면 *빈*, **IsType** FALSE를 반환 하 고 **AsType** 반환 *빈*합니다. 모든 필드를 *빈* 레코드가 *빈*합니다.
+레코드 참조가 *비어*있는 경우 **ISTYPE** 는 FALSE **를 반환 하 고,** 는 *빈*값을 반환 합니다. *빈* 레코드의 모든 필드가 *비어*있게 됩니다.
 
 ## <a name="syntax"></a>구문
 
-**AsType**( *RecordReference*, *EntityType* )
+고 유형 ( *recordreference*, *EntityType* )
 
-- *RecordReference* -필수 항목입니다. 레코드 참조 조회 필드의 여러 엔터티 레코드를 참조할 수 있는 경우가 많습니다.
-- *EntityType* -필수 항목입니다. 테스트 하려는 특정 엔터티.
+- *Recordreference* -필수 항목입니다. 레코드 참조, 종종 여러 엔터티의 레코드를 참조할 수 있는 조회 필드입니다.
+- *EntityType* -필수 항목입니다. 테스트할 특정 엔터티입니다.
 
-**IsType**( *RecordReference*, *EntityType* )
+**Istype**( *recordreference*, *EntityType* )
 
-- *RecordReference* -필수 항목입니다. 레코드 참조 조회 필드의 여러 엔터티 레코드를 참조할 수 있는 경우가 많습니다.
-- *EntityType* -필수 항목입니다. 레코드를 캐스팅 해야 할 특정 엔터티.
+- *Recordreference* -필수 항목입니다. 레코드 참조, 종종 여러 엔터티의 레코드를 참조할 수 있는 조회 필드입니다.
+- *EntityType* -필수 항목입니다. 레코드를 캐스팅할 특정 엔터티입니다.
 
 ## <a name="example"></a>예
 
-[레코드 참조 및 다형 조회 이해](../working-with-references.md) 광범위 한 예제가 포함 되어 있습니다.
+[레코드 참조 및 다형성 조회에 대 한 자세한 예제를 이해](../working-with-references.md) 합니다.
 
-1. 태블릿에 대 한 빈 캔버스 앱을 만듭니다.
+1. 태블릿 용 빈 캔버스 앱을 만듭니다.
 
-1. 에 **뷰** 탭을 선택 **데이터 원본**, 추가한 다음 합니다 **연락처** 및 **계정** 데이터 원본으로 엔터티.
+1. **보기** 탭에서 **데이터 원본**을 선택 하 고 **연락처** 및 **계정** 엔터티를 데이터 원본으로 추가 합니다.
     > [!div class="mx-imgBorder"]
-    > ![두 데이터 소스를 사용 하 여 비어 있는 앱: 계정 및 연락처](media/function-astype-istype/contacts-add-datasources.png)
+    > 두 개의 데이터 원본 (계정 및 연락처 @ no__t-1)이 있는 비어 있는 앱 @no__t
 
-1. 삽입을 **갤러리** 컨트롤을 **빈 세로** 방향입니다.
-
-    > [!div class="mx-imgBorder"]
-    > ![빈 세로 레이아웃을 사용 하 여 갤러리 컨트롤 삽입](media/function-astype-istype/contacts-customer-gallery.png)
-
-1. 에 **속성** 화면의 오른쪽 근방 탭에서 갤러리 **항목** 속성을 **연락처**합니다.
+1. **세로** 방향으로 **갤러리** 컨트롤을 삽입 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![속성 창에서 연락처 항목을 설정](media/function-astype-istype/contacts-customer-datasource.png)
+    > @no__t 빈 세로 레이아웃 @ no__t-1을 사용 하 여 갤러리 컨트롤을 삽입 합니다.
 
-1. 갤러리의 레이아웃 설정 **제목 및 부제목**합니다.
-
-    > [!div class="mx-imgBorder"]
-    > ![속성 창에서 레이아웃 선택기를 엽니다](media/function-astype-istype/contacts-customer-layout.png)
+1. 화면 오른쪽의 **속성** 탭에서 갤러리의 **Items** 속성을 contact로 설정 **합니다.**
 
     > [!div class="mx-imgBorder"]
-    > ![제목 및 부제목을 레이아웃을 설정 합니다.](media/function-astype-istype/contacts-customer-flyout.png)
+    > @no__t 속성 창에서 항목을 연락처로 설정 @ no__t-1
 
-1. 에 **데이터** 창 열기를 **Title1** 목록 및 선택한 **전체 이름**합니다.
-
-    > [!div class="mx-imgBorder"]
-    > ![제목 값 설정](media/function-astype-istype/contacts-customer-title.png)
-
-1. 선택 된 **Subtitle1** 레이블 컨트롤입니다.
+1. 갤러리의 레이아웃을 **제목 및 부제목**으로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![부제목 값 설정](media/function-astype-istype/contacts-customer-subtitle.png)
+    > @no__t 속성 창에서 레이아웃 선택 @ no__t-1을 엽니다.
 
-1. 설정 된 **텍스트** 속성을 **Subtitle1** 을 다음이 수식으로:
+    > [!div class="mx-imgBorder"]
+    > @no__t-레이아웃을 제목으로 설정 하 고 부제목 @ no__t-1로 설정 합니다.
+
+1. **데이터** 창에서 **Title1** 목록을 열고 **전체 이름**을 선택 합니다.
+
+    > [!div class="mx-imgBorder"]
+    > ![ 설정 제목 값 @ no__t-1
+
+1. **Subtitle1** label 컨트롤을 선택 합니다.
+
+    > [!div class="mx-imgBorder"]
+    > ![ 자막 값 설정 @ no__t-1
+
+1. **Subtitle1** 의 **Text** 속성을 다음 수식으로 설정 합니다.
 
     ```powerapps-dot
     If( IsBlank( ThisItem.'Company Name' ), "--",
@@ -141,11 +141,11 @@ If( IsType( ThisItem.'Company Name', [@Accounts] ),
     ```
 
     > [!div class="mx-imgBorder"]
-    > ![화면은 이제 전체 보여 주는 계정 및 연락처 갤러리에서 혼합](media/function-astype-istype/contacts-customer-complete.png)
+    > 이제 ![Screen이 완료 되었으며 갤러리 @ no__t-1에는 계정 및 연락처가 혼합 되어 표시 됩니다.
 
-    갤러리에서 부제목 이러한 값을 보여 줍니다.
-    - "-" 하는 경우는 **' 회사 이름 '** 됩니다 *빈*합니다.
-    - "계정:" 차례로 **계정 이름** 필드를 **계정** 엔터티 경우는 **회사 이름** 필드는 계정에 참조 합니다.
-    - "에 게 문의:" 차례로 **전체 이름** 필드를 **연락처** 엔터티 경우는 **회사 이름** 필드는 연락처를 참조 합니다.
+    갤러리의 부제는 다음 값을 표시 합니다.
+    - **' 회사 이름 '** 이 *비어*있는 경우 "--"입니다.
+    - **회사 이름** 필드가 계정을 참조 **하는 경우 계정 엔터티의** **계정 이름** 필드를 "account:"로 차례로 클릭 합니다.
+    - **회사 이름** 필드가 연락처를 참조 하는 경우에는 **연락처** 엔터티의 **전체 이름** 필드와 "contact:"를 차례로 클릭 합니다.
 
-    결과 다른 유형의 결과 표시 하도록 수정 된 샘플 데이터를 사용 하기 때문에이 항목에서 다 수 있습니다.
+    결과는 추가 결과 유형을 표시 하기 위해 수정 된 샘플 데이터를 사용 하기 때문에이 항목의 결과와 다를 수 있습니다.

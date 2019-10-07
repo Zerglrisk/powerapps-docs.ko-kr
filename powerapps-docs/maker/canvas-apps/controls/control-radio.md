@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 07/06/2018
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2b1527f8a7bf157c88b85ae9721626b6fc14f5a9
-ms.sourcegitcommit: 8d0ba2ec0c97be91d1350180dd6881c14dec8f2d
+ms.openlocfilehash: e3a1e1c5a62552f9ef034b6f4985213b65247627
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "65517359"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986378"
 ---
 # <a name="radio-control-in-powerapps"></a>PowerApps의 라디오 컨트롤
 
@@ -32,7 +32,7 @@ ms.locfileid: "65517359"
 
 ## <a name="key-properties"></a>주요 속성
 
-**[Default](properties-core.md) ** – 사용자가 변경하기 전의 컨트롤의 값입니다.
+**[Default](properties-core.md)**  – 사용자가 변경하기 전의 컨트롤의 값입니다.
 
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "65517359"
 
 **[Value](properties-core.md)** – 입력 컨트롤의 값입니다.
 
-**선택한** – 선택한 항목을 나타내는 데이터 레코드입니다.
+**Selected** – 선택한 항목을 나타내는 데이터 레코드입니다.
 
 ## <a name="all-properties"></a>모든 속성
 
@@ -70,7 +70,7 @@ ms.locfileid: "65517359"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -108,7 +108,7 @@ ms.locfileid: "65517359"
 
 **[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
 
-**(사용 되지 않음) SelectedText** – 선택한 항목을 나타내는 하는 문자열 값입니다.
+**Selectedtext (사용 되지 않음)** – 선택한 항목을 나타내는 문자열 값입니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 

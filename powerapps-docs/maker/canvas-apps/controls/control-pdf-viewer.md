@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 66813cf8c31fad82eeb25fd515acad4a5ea1f756
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 9fdd7f25a729fa71111e1fd5d82e04b7cea874f3
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61548803"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986426"
 ---
 # <a name="pdf-viewer-control-experimental-in-powerapps"></a>PowerApps의 PDF 뷰어 컨트롤(실험)
 PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
@@ -27,17 +27,17 @@ PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
 이 형식의 컨트롤을 추가하고, **Document** 속성을 표시하려는 파일의 URL(큰따옴표로 묶은)로 설정하여 PDF 파일에 있는 텍스트, 그래픽 및 기타 콘텐츠를 표시합니다.
 
 ## <a name="limitations"></a>제한 사항
-1. PowerApps의 보안 아키텍처는 PDF 뷰어 HTTP가 아닌 HTTPS 링크만 지원 하기 위해 필요 합니다.  
+1. PowerApps의 보안 아키텍처에서 HTTP가 아닌 HTTPS 링크만 지원 하려면 PDF 뷰어가 필요 합니다.  
 
-2. 합니다 **문서** 속성 PDF 파일에 직접 연결 해야 합니다. 서버 리디렉션 또는 문서의 HTML 뷰 지원 되지 않습니다.
+2. **문서** 속성은 PDF 파일에 직접 연결 해야 합니다. 문서에 대 한 서버 리디렉션 또는 HTML 보기가 지원 되지 않습니다.
 
-3. 문서를 호스팅하는 서버 인증을 요구 하지 해야 합니다.
+3. 문서를 호스트 하는 서버는 인증을 요구 하지 않아야 합니다.
 
-4. 문서에 제한적인 크로스-원본 자원 공유 (CORS) 설정 하는 서버에 있는 경우 앱에서 PDF 문서를 볼 수 있습니다. 이 문제를 해결 하려면 PDF 문서를 호스팅하는 서버는 powerapps.com에서 크로스-원본 요청을 허용 해야 합니다.
+4. 문서를 CORS (원본 간 리소스 공유) 설정이 제한적인 서버에 있는 경우 앱에서 PDF 문서를 볼 수 없습니다. 이 문제를 해결 하려면 PDF 문서를 호스트 하는 서버가 powerapps.com에서 원본 간 요청을 허용 해야 합니다.
 
-앱 사용자 컨트롤 문서를 열 수 없는 경우 표시 된 대로 이러한 제한 사항을 위반 외부 브라우저에서 PDF 문서를 열고 작업할 수 있습니다. 이 옵션은 모든 외부 문서에 대한 컨트롤 메뉴에서 사용할 수 있습니다.
+앱 사용자는 컨트롤에서 문서를 열 수 없는 경우 메시지가 표시 되 면 외부 브라우저에서 PDF 문서를 열어 이러한 제한을 해결할 수 있습니다. 이 옵션은 모든 외부 문서에 대한 컨트롤 메뉴에서 사용할 수 있습니다.
 
-앱 작성자는 앱에 미디어 리소스로 PDF 문서를 포함 하 여 이러한 제한을 해결할 수 있습니다. 이런 방식으로 PDF 뷰어 컨트롤은 문서를 항상 표시할 수 있습니다.
+앱 제작자는 PDF 문서를 앱에 미디어 리소스로 포함 하 여 이러한 제한 사항을 해결할 수 있습니다. 이런 방식으로 PDF 뷰어 컨트롤은 항상 문서를 표시할 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
 **Document** – PDF 파일의 URL(큰따옴표로 묶은)입니다.
@@ -109,9 +109,9 @@ PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
 
   **"https://blog.mozilla.org/security/files/2015/05/HTTPS-FAQ.pdf"**
 
-    The control shows the PDF file.
+컨트롤은 PDF 파일을 보여줍니다.
 
-    Don't know how to [add and configure a control](../add-configure-controls.md)?
+[컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 
@@ -120,4 +120,4 @@ PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
 [WCAG 2.0](https://www.w3.org/TR/WCAG-TECHS/pdf.html) 및 [PDF/UA](https://www.pdfa.org/pdfua-the-iso-standard-for-universal-accessibility/) 표준을 사용하여 접근성 있는 PDF 문서를 만드는 방법을 알아봅니다.
 
 ### <a name="screen-reader-support"></a>화면 판독기 지원
-* PDF 문서에 제목이 없는 경우 **[레이블](control-text-box.md)** 을 사용하여 제목을 추가하는 것이 좋습니다. 제목은 **PDF 뷰어** 바로 앞에 배치할 수 있습니다.
+* PDF 문서에 제목이 없는 경우 **[레이블](control-text-box.md)** 을 제목을 추가하는 것이 좋습니다. 제목은 **PDF 뷰어** 바로 앞에 배치할 수 있습니다.

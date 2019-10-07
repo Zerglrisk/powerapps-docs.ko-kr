@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 05/23/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b35f8efdc090cc899476a65d73fd8cb3a4200faf
-ms.sourcegitcommit: 9163abbe9a24298f216f15139f977adfd2c3f2ae
+ms.openlocfilehash: 50b5af342769b2153edbf91a7b5b28e3600f81b8
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69550379"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71988233"
 ---
 # <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
 
@@ -40,7 +40,7 @@ Excel 수식에서 하나 이상의 셀 참조를 인수로 사용하는 것처�
 ### <a name="records"></a>레코드
 각 레코드에는 사람, 장소 또는 사물에 대한 정보 범주가 하나 이상 포함됩니다. 위의 예제에서는 각 제품(**초콜릿**, **빵** 및 **음료수**)에 대한 레코드와 각 정보 범주에 대한 열(**Price**, **Quantity on Hand** 및 **Quantity on Order**)을 표시합니다.
 
-수식에서는 테이블의 컨텍스트 외부에 중괄호를 사용하여 레코드를 단독으로 참조할 수 있습니다. 예를 들어 다음 레코드 **는 {Name: "딸기", 가격: 7.99}** 은 (는) 테이블과 연결 되어 있지 않습니다. 이 예제에서 **Name** 및 **Price**와 같은 필드 이름은 큰따옴표로 묶지 않습니다.
+수식에서는 테이블의 컨텍스트 외부에 중괄호를 사용하여 레코드를 단독으로 참조할 수 있습니다. 예를 들어이 레코드 **{Name: "딸기", 가격: 7.99}** 은 테이블과 연결 되지 않습니다. 이 예제에서 **Name** 및 **Price**와 같은 필드 이름은 큰따옴표로 묶지 않습니다.
 
 ### <a name="fields"></a>필드
 필드는 레코드의 개별 정보 요소입니다. 이러한 종류의 필드를 특정 레코드에 대한 열의 값으로 시각화할 수 있습니다.
@@ -174,7 +174,7 @@ PowerApps는 동일한 방식으로 테이블에서 작동 하는 일련의 함�
 > [!NOTE]
 > **Subtitle1** 열의 이름은 **Subtitle2**이거나 이 항목에서 지정한 것과 다른 요소를 추가한 경우 유사할 수 있습니다.
 
-이제 선택한 레코드가 있으므로 **.** 연산자를 사용하여 해당 레코드에서 개별 필드를 추출할 수 설정합니다.
+이제 선택한 레코드가 있으므로 **.** 연산자를 사용하여 해당 레코드에서 개별 필드를 추출할 수 액세스합니다.
 
 1. **[Label](controls/control-text-box.md)** 컨트롤을 추가한 다음, 갤러리 및 단추 아래로 이동합니다.
 
@@ -399,7 +399,7 @@ Table(
 ## <a name="inline-value-tables"></a>인라인 값 테이블
 대괄호 안에 값을 지정하여 단일 열 테이블을 만들 수 있습니다. 결과 테이블에는 **Value**라는 단일 열이 있습니다.
 
-예 `[ 1, 2, 3, 4 ]` 를 들어는 `Table( { Value: 1 }, { Value: 2 }, { Value: 3 }, { Value: 4 } )` 와 같으며이 테이블을 반환 합니다.
+예를 들어 `[ 1, 2, 3, 4 ]`은 `Table( { Value: 1 }, { Value: 2 }, { Value: 3 }, { Value: 4 } )`과 같으며이 테이블을 반환 합니다.
 
 ![](media/working-with-tables/inline-table.png)
 

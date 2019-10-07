@@ -8,31 +8,31 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 04/23/2018
 ms.author: fikaradz
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9d24094bfbc596c232e7455ef3d8b8dcdfc5be5c
-ms.sourcegitcommit: 9b2648a9066fe5d3b27b3d893daacba9b18eb75e
+ms.openlocfilehash: bc46f2a01e76741ccb046f382b0dd2829d23b368
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "65609372"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71987015"
 ---
 # <a name="attachments-control-in-powerapps"></a>PowerApps의 첨부 파일 컨트롤
-사용자의 장치에 파일을 다운로드하는 것뿐만 아니라 업로드하고, SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 삭제할 수 있는 컨트롤입니다.
+사용자가 장치에 파일을 다운로드 하 고 SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 업로드 및 삭제할 수 있도록 하는 컨트롤입니다.
 
 ## <a name="limitations"></a>제한 사항
 첨부 파일 컨트롤에는 이러한 제한 사항이 있습니다.
-1. 첨부 파일은 SharePoint 목록 및 Common Data Service 엔터티를 지원 합니다.
+1. 첨부 파일은 SharePoint 목록 및 Common Data Service 엔터티에서 지원 됩니다.
 
-1. 업로드 하 고 양식 내 에서만 기능 작업을 삭제 합니다. 첨부 파일 컨트롤 나타나고 사용할 수 없는 경우 편집 모드에서 폼에 포함 되지 않은. 파일 추가 및 삭제를 저장 하려면 앱 사용자는 폼을 저장 해야 합니다. 이 제한 때문에 첨부 파일 컨트롤에서 사용할 수 없는 합니다 **삽입** 탭 형태로 첨부 양식 필드를 SharePoint 또는 Common Data Service 형태로 사용 하는 경우 하지만 나타납니다.
+1. 업로드 및 삭제 기능은 양식 내 에서만 작동 합니다. 첨부 파일 컨트롤은 편집 모드에 있을 때 폼 내에서 사용할 수 없는 상태로 표시 됩니다. 파일 추가 및 삭제를 저장 하려면 앱 사용자가 양식을 저장 해야 합니다. 이러한 제한으로 인해 첨부 파일 컨트롤은 **삽입** 탭에서 사용할 수 없지만 SharePoint 또는 Common Data Service 양식에서 첨부 파일 양식 필드를 사용 하도록 설정 하면 폼에 나타납니다.
 
-1. 10MB 있을 경우에 또는 더 작은 파일을 업로드할 수 있습니다.  
+1. 10mb 보다 작은 경우에만 파일을 업로드할 수 있습니다.  
 
 ## <a name="description"></a>설명
-**첨부 파일** 컨트롤을 사용하여 SharePoint 목록 또는 Common Data Service 엔터티에 파일을 추가하고, 열고, 삭제합니다.
+**첨부** 파일 컨트롤을 사용 하면 SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 열고 추가 하 고 삭제할 수 있습니다.
 
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)** – 다운로드할 수 있는 파일을 설명하는 소스입니다.
@@ -82,9 +82,9 @@ ms.locfileid: "65609372"
 
 
 ## <a name="example"></a>예
-1. SharePoint 목록을 데이터 원본으로 사용하여 데이터에서 앱을 만듭니다. 대안으로 앱에 폼을 추가하고, SharePoint 목록을 데이터 원본으로 설정합니다.
+1. SharePoint 목록을 데이터 원본으로 사용하여 데이터에서 앱을 만듭니다. 대안으로 앱에 양식을 추가하고, SharePoint 목록을 데이터 원본으로 설정합니다.
 
-2. 왼쪽의 트리 뷰에서 **폼** 컨트롤을 선택합니다.
+2. 왼쪽의 트리 뷰에서 **Form** 컨트롤을 선택합니다.
 
 3. 오른쪽의 옵션 패널에 있는 속성 탭에서 **데이터**를 클릭합니다.
 

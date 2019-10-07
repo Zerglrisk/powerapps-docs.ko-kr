@@ -6,22 +6,22 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: article
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 05/24/2018
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3174d959a2360b36e82cd7070c4401251ca9fe18
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: c6b94f636ebf6d373c3fc2117b589116b5a4a2fd
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61526266"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986355"
 ---
-# <a name="rich-text-editor-control-in-powerapps"></a>PowerApps에서 서식 있는 텍스트 편집기 컨트롤
-최종 사용자는 WYSIWYG 편집 영역 내에서 텍스트 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.
+# <a name="rich-text-editor-control-in-powerapps"></a>PowerApps의 서식 있는 텍스트 편집기 컨트롤
+최종 사용자가 WYSIWYG 편집 영역 내에서 텍스트의 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.
 
 ## <a name="description"></a>설명
 **서식 있는 텍스트 편집기** 컨트롤은 앱 사용자에게 텍스트의 서식을 지정하는 WYSIWYG 편집 영역을 제공합니다.  컨트롤의 입력 및 출력 형식은 HTML입니다.
@@ -72,4 +72,4 @@ ms.locfileid: "61526266"
 * 키보드 사용자가 탐색할 수 있도록 **[TabIndex](properties-accessibility.md)** 가 0 이상이어야 합니다.
 
 > [!TIP]
-> 다른 바로 가기 키에 대해 자세히 알아보려면 편집기 포커스가 있는 동안 **Alt+0**을 사용하세요.
+> 편집기에는 다른 바로 가기 키에 대 한 자세한 내용을 보려면 **Alt + 0** 을 사용 합니다.

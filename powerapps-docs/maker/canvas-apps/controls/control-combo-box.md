@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 09/13/2017
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e6d1b1083fcc7e865fa7c9cfe3f8966e20ed86a5
-ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
+ms.openlocfilehash: dbbff1f85ccc104a1a0f88c6b9670c45c0528592
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "64670914"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993484"
 ---
 # <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "64670914"
 ## <a name="key-properties"></a>주요 속성
 **[Items](properties-core.md)**  – 선택 항목을 만들 수 있는 데이터의 원본입니다.
 
-**DefaultSelectedItems** -초기 사용자 컨트롤과 상호 작용 하기 전에 항목을 선택 합니다.
+**DefaultSelectedItems** – 사용자가 컨트롤과 상호 작용 하기 전의 초기 선택 된 항목입니다.
 
 **SelectedItems** – 사용자 상호 작용을 통해 선택된 항목의 목록입니다.
 
@@ -84,19 +84,19 @@ ms.locfileid: "64670914"
 **[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
 
 ## <a name="example"></a>예
-1. 에 **삽입** 탭을 열고 합니다 **컨트롤** 메뉴를 선택한 후 **콤보 상자**합니다.  
+1. **삽입** 탭에서 **컨트롤** 메뉴를 열고 **콤보 상자**를 선택 합니다.  
 
-1. 에 **속성** 탭을 열고 오른쪽 창을 **데이터 원본을 선택** 목록 (옆에 **항목**), 한 다음 추가 하거나 데이터 원본을 선택 합니다.
+1. 오른쪽 창의 **속성** 탭에서 **데이터 원본 선택** 목록 ( **항목**옆에 있는)을 연 다음 데이터 원본을 추가 하거나 선택 합니다.
 
-1. 동일한 탭에서 선택 **편집할** (옆 **필드**).
+1. 동일한 탭에서 **편집** ( **필드**옆에 있는)을 선택 합니다.
 
-1. 에 **데이터** 창 열기를 **기본 텍스트** 목록 및 다음에 표시 하려는 열을 선택 합니다 **콤보 상자** 컨트롤입니다.
+1. **데이터** 창에서 **주 텍스트** 목록을 연 다음 **콤보 상자** 컨트롤에 표시 하려는 열을 선택 합니다.
 
-1. Alt 키를 누른 채를 열려면 아래쪽 화살표를 선택 합니다 **콤보 상자** 제어 합니다.
+1. Alt 키를 누른 채 아래쪽 화살표를 선택 하 여 **콤보 상자** 컨트롤을 엽니다.
 
-    컨트롤에서는 지정한 데이터 원본에 지정 된 열에서 데이터를 보여 줍니다.
+    컨트롤은 사용자가 지정한 데이터 원본에서 지정한 열의 데이터를 표시 합니다.
     
-1. (선택 사항) 기본적으로 첫 번째 레코드를 표시 하려면 설정 합니다 **DefaultSelectedItems** 속성을이 식으로 대체 *DataSource* 데이터 원본의 이름:
+1. 필드 기본적으로 첫 번째 레코드를 표시 하려면 **DefaultSelectedItems** 속성을이 식으로 설정 하 고 *DataSource* 를 데이터 원본 이름으로 바꿉니다.
 
     `First(DataSource)`
 

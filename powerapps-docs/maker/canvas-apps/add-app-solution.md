@@ -1,24 +1,24 @@
 ---
 title: 솔루션에서 캔버스 앱 만들기 | Microsoft Docs
 description: PowerApps에서 앱을 다른 환경에 배포할 수 있도록 솔루션에서 캔버스 앱을 만듭니다.
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: article
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/23/2018
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3703fc5e36b38c7894300bc2074453716ddd9946
-ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
+ms.openlocfilehash: c908e3d25530b52b103ef58989545e46b931e791
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71705079"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71987719"
 ---
 # <a name="create-a-canvas-app-from-within-a-solution"></a>솔루션 내에서 캔버스 앱 만들기
 

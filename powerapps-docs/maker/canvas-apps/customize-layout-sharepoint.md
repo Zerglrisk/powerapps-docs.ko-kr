@@ -1,26 +1,26 @@
 ---
 title: 자습서 - 생성된 앱에서 갤러리 사용자 지정 | Microsoft Docs
 description: 이 자습서에서는 갤러리에 표시되는 데이터와 PowerApps에 자동으로 생성된 앱의 다른 요소를 사용자 지정합니다.
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: tutorial
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 05/06/2018
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4ca9ed14f96dbad52fe6f7b0318f520dbdd33d10
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: d12f667c1ff1fbf8424840b887e0f9394197ee2c
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61561438"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986047"
 ---
-# <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
+# <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서 PowerApps에서 갤러리 사용자 지정
 
 이 자습서에서는 갤러리라고 하는 레코드의 목록을 사용자 지정하고 Microsoft PowerApps에서 자동으로 생성된 앱의 다른 내용을 변경합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
 
@@ -47,13 +47,13 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 ## <a name="prerequisites"></a>필수 조건
 
-Common Data service의 **계정**  엔터티에서 [앱을 생성](data-platform-create-app.md)합니다.
+Common Data Service의 **계정** 엔터티에서 [앱을 생성](data-platform-create-app.md) 합니다.
 
 ## <a name="open-the-generated-app"></a>생성된 앱 열기
 
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
 
-1. 생성한 앱을 찾고, 앱에 대한 줄임표 아이콘(**...**)을 선택한 다음, **편집**을 선택합니다.
+1. 생성한 앱을 찾고, 앱에 대한 줄임표 아이콘( **...** )을 선택한 다음, **편집**을 선택합니다.
 
     ![편집할 앱 열기](./media/customize-layout-sharepoint/open-app.png)
 
@@ -67,15 +67,15 @@ Common Data service의 **계정**  엔터티에서 [앱을 생성](data-platform
 
     ![갤러리 선택](media/customize-layout-sharepoint/select-gallery-1.png)
 
-1. 에 **속성** 탭의 오른쪽 창에서 옵션 목록을 엽니다 **레이아웃**, 제목만 표시 하는 옵션을 선택 하 고 합니다.
+1. 오른쪽 창의 **속성** 탭에서 **레이아웃**아래의 옵션 목록을 연 다음 제목만 표시 하는 옵션을 선택 합니다.
 
     ![제목 전용 레이아웃 선택](./media/customize-layout-sharepoint/choose-layout.png)
 
-1. 옆에 **필드**를 선택 **편집**, 한 다음 [제목] 상자에 대 한 아래쪽 화살표를 선택 합니다.
+1. **필드**옆에서 **편집**을 선택 하 고 제목 상자에 대해 아래쪽 화살표를 선택 합니다.
 
     이 컨트롤의 이름은 **Title1**과 같이 숫자로 끝납니다. 단, 숫자는 사용자가 수행한 다른 작업에 따라 달라질 수 있습니다.
 
-1. 옵션의 목록에서 선택 **계정 이름**, 한 다음 닫습니다 합니다 **데이터** 창.
+1. 옵션 목록에서 **계정 이름**을 선택 하 고 **데이터** 창을 닫습니다.
 
     갤러리에 각 계정의 이름이 표시됩니다.
 
@@ -126,7 +126,7 @@ Common Data service의 **계정**  엔터티에서 [앱을 생성](data-platform
 
     ![화면 제목 선택](./media/customize-layout-sharepoint/select-title.png)
 
-1. 속성 목록에 **텍스트**가 표시되는지 확인하고 수식 입력줄에서 **계정**을 **Browse**(큰따옴표 유지)로 바꿉니다.
+1. 속성 목록에 **텍스트**가 표시되는지 확인하고 수식 입력줄에서 **계정**을 **찾아보기**(큰따옴표 유지)로 바꿉니다.
 
     ![화면 제목 업데이트](./media/customize-layout-sharepoint/change-screen-title.png)
 
@@ -142,7 +142,7 @@ Common Data service의 **계정**  엔터티에서 [앱을 생성](data-platform
 
     ![갤러리 선택](./media/customize-layout-sharepoint/select-gallery-sorted.png)
 
-1. 갤러리의 설정 **스크롤 막대 표시** 속성을 **true**합니다.
+1. 갤러리의 **Scrollbar 표시** 속성을 **true**로 설정 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

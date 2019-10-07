@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 02/05/2017
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c37aa315981c51a446254473686c44501e72a96f
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 1412cdd79531f70a1c029d7657940200823e5ba0
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63321025"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992850"
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>PowerApps의 Filter, Search 및 LookUp 함수
 [테이블](../working-with-tables.md)에서 하나 이상의 [레코드](../working-with-tables.md#records)를 찾습니다.
@@ -78,7 +78,7 @@ ms.locfileid: "63321025"
 | **LookUp( IceCream, Flavor = "Chocolate", Quantity )** |적어도 하나가 있는 "Chocolate"과 같은 **Flavor**로 레코드를 검색합니다.  발견된 첫 번째 레코드의 경우 해당 레코드의 **Quantity**를 반환합니다. |100 |
 | **LookUp( IceCream, Quantity > 150, Quantity + OnOrder )** |여러 개가 있는 100보다 큰 **Quantity**로 레코드를 검색합니다.  "Vanilla" **Flavor**인 발견된 첫 번째 레코드의 경우 **Quantity** 및 **OnOrder** 열의 합계를 반환합니다. |250 |
 | **LookUp( IceCream, Flavor = "Pistachio", OnOrder )** |하나도 없는 "Pistachio"와 같은 **Flavor**로 레코드를 검색합니다.  아무 것도 발견되지 않았으므로 **Lookup**은 *공백*을 반환합니다. |*공백* |
-| **LookUp( IceCream, Flavor = "Vanilla" )** |적어도 하나가 있는 "Vanilla"와 같은 **Flavor**로 레코드를 검색합니다.  감소가 없는 수식이 제공됐으므로 전체 레코드가 반환됩니다. |{Flavor: "Vanilla", Quantity: 200, OnOrder: 75 } |
+| **LookUp( IceCream, Flavor = "Vanilla" )** |적어도 하나가 있는 "Vanilla"와 같은 **Flavor**로 레코드를 검색합니다.  감소가 없는 수식이 제공됐으므로 전체 레코드가 반환됩니다. |버전과 "바닐라", 수량: 200, OnOrder: 75} |
 
 ### <a name="search-user-experience"></a>검색 사용자 환경
 많은 앱에서 하나 이상의 문자를 검색 상자에 입력하면 큰 데이터 집합의 레코드 목록을 필터링할 수 있습니다. 입력하는 동안 검색 조건과 일치하는 레코드만 목록에 표시됩니다.
@@ -89,7 +89,7 @@ ms.locfileid: "63321025"
 
 이 데이터 원본을 컬렉션으로 만들려면 **[Button](../controls/control-button.md)** 컨트롤을 만들고 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
-**ClearCollect( Customers, Table( { Name: "Fred 가르시아", 회사: "Northwind Traders" }, { Name: "Cole Miller", 회사: "Contoso"}, {이름: "Glenda Johnson", 회사: "Contoso"}, {이름: "Mike Collins", 회사: "Adventure Works"}, {이름: "Colleen Jones", 회사: "Adventure Works"}))**
+**ClearCollect (Customers, Table ({Name: "Fred 가르시아 섬", 회사: "Northwind Traders"}, {이름: "Cole", 회사: "Contoso"}, {Name: "글 록 enda Johnson", 회사: "Contoso"}, {Name: "Mike Collins", 회사: "놀이 Works"}, {Name: "Colleen Jones", 회사: "놀이 Works"})**
 
 이 예제에서와 같이 화면 하단의 [**갤러리 컨트롤**](../controls/control-gallery.md)에 레코드 목록을 표시할 수 있습니다. 사용자가 관심 있는 레코드를 지정할 수 있도록 화면 맨 위 가까이에 **SearchInput**이라는 [**텍스트 입력**](../controls/control-text-input.md) 컨트롤을 추가합니다.
 
@@ -111,7 +111,7 @@ ms.locfileid: "63321025"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Filter( Customers, StartsWith( Name, SearchInput.Text ) &#124;&#124; StartsWith( Company, SearchInput.Text ) )** |**Customers** 데이터 원본을 **Name** 열 또는 **Company** 열이 검색 문자열(예: **co**)로 시작하는 레코드로 필터링합니다.  **StartsWith** 함수 중 하나가 *true*이면 [**&#124;&#124;** 연산자](operators.md)는 *true*입니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-all-co-startswith.png) |
+| **Filter( Customers, StartsWith( Name, SearchInput.Text ) &#124;&#124; StartsWith( Company, SearchInput.Text ) )** |**Customers** 데이터 원본을 **Name** 열 또는 **Company** 열이 검색 문자열(예: **co**)로 시작하는 레코드로 필터링합니다.  **StartsWith** 함수 중 하나가 *true*이면 [ **&#124;&#124;** 연산자](operators.md)는 *true*입니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-all-co-startswith.png) |
 | **Filter( Customers, SearchInput.Text in Name &#124;&#124; SearchInput.Text in Company )** |**Customers** 데이터 원본을 **Name** 열 또는 **Company** 열에 검색 문자열(예: **co**)이 들어 있는 레코드로 필터링합니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-all-co-contains.png) |
 | **Search( Customers, SearchInput.Text, "Name", "Company" )** |**in** 연산자를 사용하는 경우와 유사하게, **Search** 함수는 **Customers** 데이터 원본에서 **Name** 열 또는 **Company** 열에 검색 문자열(예: **co**)이 들어 있는 레코드를 검색합니다. 여러 열 및 다수의 **in** 연산자를 지정하는 경우 **Search** 함수가 **Filter**보다 읽고 쓰기 쉽습니다. 열 이름은 큰따옴표로 묶어야 합니다. |<style> img { max-width: none } </style> ![](media/function-filter-lookup/customers-all-co-contains.png) |
 

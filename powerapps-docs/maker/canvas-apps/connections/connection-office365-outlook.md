@@ -8,17 +8,17 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 10/20/2017
 ms.author: lanced
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5ea7c9fc331d96b50d8623f4ca632859e09be7ab
-ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
+ms.openlocfilehash: ba568cb34c12f8b63e8c59f5cb73aa1ed6cb9f02
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70213677"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993947"
 ---
 # <a name="connect-to-office-365-outlook-from-powerapps"></a>PowerApps에서 Office 365 Outlook연결
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
@@ -78,7 +78,7 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
     `Office365.SendEmail(inputTo.Text, inputSubject.Text, inputBody.Text)`
 5. 버튼을 움직여 모든 다른 컨트롤 아래 표시되게 하고 **[Text](../controls/properties-core.md)** 속성을 **"이메일 보내기"** 로 설정합니다.
 6. F5 키를 누르거나 미리 보기 단추(![미리 보기 단추](./media/connection-office365-outlook/preview.png))를 선택합니다. **inputTo**에 올바른 이메일 주소를 입력한 다음 다른 두 **텍스트 입력** 컨트롤을 표시할 순서를 입력합니다.
-7. **이메일 보내기**를 선택하여 메시지를 보냅니다. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+7. **이메일 보내기**를 선택하여 메시지를 보냅니다. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ## <a name="send-a-message-with-an-attachment"></a>첨부 파일이 있는 메시지 보내기
 예를 들어, 디바이스의 카메라를 사용하여 사진을 촬영한 다음 첨부 파일로 보내는 앱을 만들 수 있습니다. 사용자가 여러 종류의 파일을 이메일 앱에 첨부할 수도 있습니다.
@@ -118,7 +118,7 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
     
     > [!NOTE]
     > 그러면 받은 편지함에서 선택한 이메일이 삭제됩니다. 그러니 신중하게 선택해야 합니다.
-7. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+7. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ## <a name="mark-a-message-as-read"></a>메시지를 읽은 상태로 표시
 이 섹션에서는 [메시지 삭제](connection-office365-outlook.md#delete-a-message)와 같은 컨트롤을 사용합니다.
@@ -127,7 +127,7 @@ Office 365 Outlook 연결이 만들어지고 앱에 추가됩니다. 이제 사�
    
     `Office365.MarkAsRead(EmailID.Text)`
 2. F5 키를 누르거나 미리 보기 단추(![미리 보기 단추](./media/connection-office365-outlook/preview.png))를 선택합니다. 읽지 않은 메일 중 하나를 선택하 고 단추를 클릭합니다.
-3. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+3. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ## <a name="helpful-links"></a>유용한 링크
 * 모든 함수 및 매개 변수 목록은 [Office 365 Outlook 참조](https://docs.microsoft.com/connectors/office365connector/)에서 확인하세요.

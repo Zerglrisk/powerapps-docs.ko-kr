@@ -6,24 +6,24 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 03/11/2017
 ms.author: aneesa
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ee8573cb9ae4df5ac42deefad4ac67aede3a3502
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: a1bffa509f382c2f706c2163d89c5788f8607ec7
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61547831"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993055"
 ---
 # <a name="use-the-entity-form-control"></a>엔터티 양식 컨트롤 사용
 **엔터티 양식** 컨트롤을 사용하여 Common Data Service 엔터티에 대한 서식 있는 양식을 추가하여 앱을 보다 빠르게 만들 수 있습니다.
 
-에 대 한 소개는 **엔터티 양식** 제어이 블로그 게시물을 참조 하세요. [새 엔터티 양식 컨트롤 (실험적인 기능) Common Data Service에 대 한](https://powerapps.microsoft.com/blog/new-entity-form-control-experimental-feature-for-common-data-service/)합니다.
+**엔터티 양식** 컨트롤에 대 한 소개는이 블로그 게시물을 참조 하세요. [Common Data Service에 대 한 새 엔터티 양식 컨트롤 (실험적 기능)](https://powerapps.microsoft.com/blog/new-entity-form-control-experimental-feature-for-common-data-service/)입니다.
 
 > [!IMPORTANT]
 > 이 블로그 게시물에 요약된 대로 **엔터티 양식** 컨트롤의 실험적인 기능을 알아두고 적어도 지금은 프로덕션 앱에서 **엔터티 양식** 컨트롤 사용에 대해 주의하세요.
@@ -45,15 +45,15 @@ ms.locfileid: "61547831"
 **Item** – **엔터티 양식** 컨트롤이 표시해야 하는 데이터 원본의 레코드를 지정합니다. 이 속성은 **Pattern**이 **FormPattern.Details**로 설정되어 있는 경우에만 사용됩니다.
 
 **Selected** – 현재 선택된 레코드를 가져옵니다.  
-예: 경우는 **엔터티 양식** 컨트롤의 판매 주문 레코드 목록을 표시 합니다 **선택한** 속성은 현재 선택 된 레코드를 제공 합니다. 레코드 내의 필드에 액세스할 수도 있습니다. (예를 들어 선택한 레코드의 **Account** 필드의 값을 **Selected.Account**로 지정하세요.)
+예 들어 **엔터티 양식** 컨트롤에서 판매 주문 레코드 목록을 표시 하는 경우 **선택한** 속성은 현재 선택 된 레코드를 제공 합니다. 레코드 내의 필드에 액세스할 수도 있습니다. (예를 들어 선택한 레코드의 **Account** 필드의 값을 **Selected.Account**로 지정하세요.)
 
 **SelectableFields** – 링크로 나타나야 하는 필드를 지정합니다. 다음 구문을 사용하여 이 속성의 값을 지정합니다.  
 **{Field1Name : true, Field2Name : true}**  
-예: 하려는 경우는 **SalesOrderId** 하 고 **계정** 양식에서 링크로 표시할 필드를 설정 합니다 **SelectableFields** 이 값을 해당 폼의 속성:  
+예 들어 **SalesOrderId** 및 **Account** 필드가 폼에서 링크로 표시 되도록 하려면 해당 양식의 **SelectableFields** 속성을이 값으로 설정 합니다.  
 **{SalesOrderId : true, Account : true}**
 
 **SelectedField** – 클릭 또는 탭되는 필드를 결정합니다. **SelectableFields**로 지정된 필드에만 적용됩니다.  
-예: 설정한 경우에 **SelectableFields** 속성을 **{SalesOrderId: true, Account: true}** 사용자가 클릭 하거나 탭 하 고는 **계정** 필드  **SelectedField.Account** 설정을 true로 합니다.
+예 들어 **SelectableFields** 속성을 **{SalesOrderId: true, account: true}** 로 설정 하 고 사용자가 **계정** 필드인 **Selectedfield** 를 클릭 하거나 탭 합니다. account는 true로 설정 됩니다.
 
 **OnFieldSelect** – 사용자가 필드를 클릭하거나 탭할 때 앱이 응답하는 방식입니다. **SelectableFields**로 지정된 필드에만 적용됩니다.
 
@@ -190,7 +190,7 @@ ms.locfileid: "61547831"
 
 **SalesOrderId** 필드가 **SalesOrderDetailsScreen**으로 이동하도록 양식 사용자 지정 창을 사용했을 때 자동으로 설정되었습니다. 따라서, **SalesOrderId** 필드의 값이 링크로 나타납니다.
 
-**OnFieldSelect** 의 속성을 **SalesOrderListForm** 로 설정 됩니다는 [ **경우** ](functions/function-if.md) 사용자가 있는지 여부를 결정 하는 함수 또는 탭의 **판매 주문 ID** 필드: **SalesOrderListForm.SelectedField.SalesOrderId = true**.  
+**SalesOrderListForm** 의 **onfieldselect** 속성은 [**If**](functions/function-if.md) 함수로 설정 되며,이 함수는 사용자가 **판매 주문 ID** 필드를 클릭 하거나 탭 하는지 여부를 결정 합니다. **SalesOrderListForm SalesOrderId = true**입니다.  
 
 이 함수가 true로 평가되면 **SalesOrderDetailsScreen**은 앞부분에서 사용한 **NavigationContext** 이름의 컨텍스트 변수와 함께 열립니다.  
 

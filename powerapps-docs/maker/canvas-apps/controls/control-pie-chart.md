@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8c2a48941629e98f58ea6d6ac7894e6a244b5e69
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 7a7c69be8fea874a6d911fa26909a7b3ece0bce5
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61548090"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986395"
 ---
 # <a name="pie-chart-control-in-powerapps"></a>PowerApps의 원형 차트
 서로 비교하는 상대 값을 보여주는 컨트롤입니다.
@@ -26,7 +26,7 @@ ms.locfileid: "61548090"
 ## <a name="description"></a>설명
 맨 왼쪽 열의 레이블과 왼쪽에서 두 번째 열에 값을 포함한 표에서 상대적 데이터를 표시하려는 경우 **원형 차트** 컨트롤을 추가합니다.
 
-이 컨트롤은 세 가지 컨트롤 **[레이블](control-text-box.md)**(제목), 차트 그래픽 및 **범례**를 포함하는 그룹화된 컨트롤입니다.
+이 컨트롤은 세 가지 컨트롤 **[레이블](control-text-box.md)** (제목), 차트 그래픽 및 **범례**를 포함하는 그룹화된 컨트롤입니다.
 
 ## <a name="chart-key-properties"></a>차트 키 속성
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
@@ -82,7 +82,7 @@ ms.locfileid: "61548090"
 [**Max**( *DataSource*, *ColumnName* )](../functions/function-aggregates.md)
 
 ## <a name="example"></a>예
-1. **[단추](control-button.md)** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성에 이 수식을 설정합니다.<br>
+1. **[단추](control-button.md)** 컨트롤을 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>
    **Collect(Revenue2015, {Product:"Europa", Revenue:27000}, {Product:"Ganymede", Revenue:26300}, {Product:"Callisto", Revenue:29200})**
    
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?

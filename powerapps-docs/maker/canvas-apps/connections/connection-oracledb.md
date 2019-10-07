@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 04/14/2017
 ms.author: lanced
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f431373b2c36a84b54a3241ad2d49af019c37419
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 1ca519e4b082f45c03184510182fb8dce07b9eec
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61558081"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993930"
 ---
 # <a name="connect-to-an-oracle-database-from-powerapps"></a>PowerApps에서 Oracle 데이터베이스에 연결
 PowerApps에서 연결을 만들고 앱을 빌드한 후에 Oracle 데이터베이스에서 테이블을 나열하고 테이블 행을 만들고 읽으며 업데이트하고 삭제합니다. Oracle 데이터베이스 연결은 트리거 또는 저장 프로시저를 제외한 필터링, 정렬 및 기타 함수의 전체 위임을 지원합니다.

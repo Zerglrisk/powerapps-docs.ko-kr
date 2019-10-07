@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 07/12/2017
 ms.author: lanced
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 23a61dd1300fab71bed4d8c72b861c3c38a1cdea
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 476285021e6a65a32c2e16e4ff95c74be9da933a
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61557542"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71987228"
 ---
 # <a name="connect-to-twitter-from-powerapps"></a>PowerApps에서 Twitter 연결
 ![Twitter](./media/connection-twitter/twittericon.png)
@@ -114,7 +114,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 
        `Twitter.MyFollowing()`  
        `Twitter.MyFollowing({maxResults:3})`
-   * 다른 사용자가 팔 사용자를 표시 하려면 설정 합니다 **[항목](../controls/properties-core.md)** 을 다음 수식으로 갤러리의 속성:
+   * 다른 사용자가 수행 하는 사용자를 표시 하려면 갤러리의 **[Items](../controls/properties-core.md)** 속성을 다음 수식으로 설정 합니다.
 
        `Twitter.Following( *TwitterHandle* )`
 
@@ -173,7 +173,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 2. 단추를 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
     `Twitter.Tweet({tweetText: MyTweet.Text})`
 3. F5 키를 누르거나 미리 보기 단추(![](./media/connection-twitter/preview.png))를 선택합니다. **MyTweet**에 텍스트를 입력한 다음 단추를 선택하여 입력한 텍스트를 트윗합니다.
-4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+4. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ## <a name="view-the-available-functions"></a>사용할 수 있는 함수 보기
 이 연결에는 다음 함수가 포함됩니다.
@@ -233,7 +233,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | MediaUrls |배열 |아니요 | |
 
 ### <a name="searchtweet"></a>SearchTweet
-트 윗 검색: 특정 쿼리와 일치하는 관련 트윗 컬렉션 검색
+검색 트 윗: 특정 쿼리와 일치하는 관련 트윗 컬렉션 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -254,7 +254,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | MediaUrls |배열 |아니요 | |
 
 ### <a name="followers"></a>Followers
-팔로 워 가져오기: 지정된 사용자를 팔로우하는 사용자 검색
+팔로 워 받기: 지정된 사용자를 팔로우하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -277,7 +277,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="myfollowers"></a>MyFollowers
-내 팔로 워 가져오기: 나를 팔로우하는 사용자 검색
+내 팔로 워 받기: 나를 팔로우하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -299,7 +299,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="following"></a>Following
-팔로 잉 가져오기: 지정된 사용자가 팔로우하는 사용자 검색
+다음을 확인 하세요. 지정된 사용자가 팔로우하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -322,7 +322,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="myfollowing"></a>MyFollowing
-내 팔으로 잉 가져오기: 내가 팔로우하는 사용자 검색
+다음을 확인 하세요. 내가 팔로우하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -344,7 +344,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="user"></a>User
-사용자를 가져옵니다. 지정된 사용자의 세부 정보 검색(예: 사용자 이름, 설명, 팔로워 수)
+사용자 가져오기: 지정된 사용자의 세부 정보 검색(예: 사용자 이름, 설명, 팔로워 수)
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -382,7 +382,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | TweetId |문자열 |예 | |
 
 ### <a name="onnewtweet"></a>OnNewTweet
-새 트 윗 나타나는 경우: 검색 쿼리에 부합하는 새 트윗이 게시되었을 때 워크플로 트리거
+새 트 윗 표시 되는 경우: 검색 쿼리에 부합하는 새 트윗이 게시되었을 때 워크플로 트리거
 
 #### <a name="input-properties"></a>입력 속성
 

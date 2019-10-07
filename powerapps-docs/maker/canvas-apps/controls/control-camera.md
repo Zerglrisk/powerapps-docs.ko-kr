@@ -8,17 +8,17 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bffbc86dda86c0b179634d2f59e0fb4f5d063ecd
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 88b6b9faf8c4d7c14a09bfc89791a050e3c07ca2
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63321321"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986862"
 ---
 # <a name="camera-control-in-powerapps"></a>PowerApps의 카메라 컨트롤
 사용자가 디바이스에서 카메라를 사용하여 사진을 촬영할 수 있는 컨트롤입니다.

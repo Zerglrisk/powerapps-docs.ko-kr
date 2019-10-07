@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 04/03/2018
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b6e2fc48d931ccf702dd2711bdc00a484dc51018
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 5883e5f091d5454b00aead80a9daf919a2bcfc2c
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61549930"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71994286"
 ---
 # <a name="create-accessible-canvas-apps-in-powerapps"></a>PowerApps에서 액세스 가능한 캔버스 앱 만들기
 액세스 가능한 캔버스 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
@@ -38,27 +38,27 @@ ms.locfileid: "61549930"
 앱 접근성을 테스트할 때는 iOS 및 Android의 접근성 모드에서 키보드만으로 앱을 사용할 수 있는지 확인하고, 화면 판독기를 사용하도록 설정하고 앱을 탐색할 수 있는지도 확인하세요.
 
 화면 판독기 사용 여부와 관계없이 키보드 탐색을 위해서는 각 컨트롤의 **[TabIndex](controls/properties-accessibility.md)** 속성을 설정하여 Tab 키를 사용하여 입력 필드로 이동할 때 논리적 순서를 따라야 합니다.
-- 레이블, 이미지, 아이콘, 셰이프 컨트롤 - 대화형 요소(예, 단추)를 나타내는 경우 TabIndex를 0으로 설정하고, 장식 요소 또는 텍스트인 경우 TabIndex를 -1로 설정합니다.
+- 레이블, 이미지, 아이콘, 모양 컨트롤-대화형 요소 (예: 단추)를 나타내면 TabIndex를 0으로 설정 합니다. 장식 요소나 텍스트인 경우 TabIndex를-1로 설정 합니다.
 - 탭 인덱스를 0보다 크게 설정하지 마세요.
 
 ## <a name="screen-reader-support"></a>화면 판독기 지원
 다음 소프트웨어 조합은 PowerApps를 화면 판독기와 함께 사용할 때 지원되는 권장 사항입니다.
 
-- **Windows**: Microsoft Edge / Narrator
-- **macOS**: Safari / VoiceOver
-- **Android**: PowerApps 앱 / Talkback
-- **iOS**: PowerApps 앱 / VoiceOver
+- **Windows**: Microsoft Edge/내레이터
+- **Macos**: Safari/VoiceOver
+- **Android**: PowerApps 앱/Talkback
+- **iOS**: PowerApps 앱/VoiceOver
 
 만족스러운 화면 판독기 환경을 위해서는 다음을 수행하는 것이 좋습니다.
 
 - 모든 입력 컨트롤의 **[AccessibilityLabel](controls/properties-accessibility.md)** 속성을 설정해야 합니다.
 - 이미지의 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 을 적절한 설명으로 설정합니다.
-  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 읽기 프로그램에서 읽지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 이 비어 있거나 설정되어 있지 않아야 합니다.
+  - 사진이 단추 또는 링크로 사용되지 않고(즉, 아이콘이 장식용으로만 사용됨) 화면 판독기에서 일지 않아야 하는 경우 **[AccessibilityLabel](controls/properties-accessibility.md)** 이 비어 있거나 설정되어 있지 않아야 합니다.
   - 사진이나 아이콘이 단추로 사용되는 경우에는 **[TabIndex](controls/properties-accessibility.md)** 를 0으로, **[AccessibilityLabel](controls/properties-accessibility.md)** 을 링크 설명으로 설정합니다.
 
 
 ## <a name="multimedia"></a>멀티미디어
-모든 비디오에 자막이 있고 모든 오디오 녹음의 대본이 사용자에게 제공되는지 확인합니다.  **비디오** 컨트롤은 통해 WebVTT 형식의 선택 자막을 지원 합니다 **ClosedCaptionsUrl** 속성입니다.
+모든 비디오에 자막이 있고 모든 오디오 녹음의 대본이 사용자에게 제공되는지 확인합니다.  **비디오** 컨트롤은 **ClosedCaptionsUrl** 속성을 통해 WebVTT 형식의 폐쇄 캡션을 지원 합니다.
 
 화면 판독기를 사용하도록 설정한 경우 **타이머**에서 단추 텍스트를 알리지 않지만 경과된 시간은 알립니다.  타이머가 낮은 불투명도로 숨겨진 경우에도 알림을 끌 수 없습니다.
 

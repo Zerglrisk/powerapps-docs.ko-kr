@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 08/08/2017
 ms.author: kaagar
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a32dd9f483682ba462aae1d3bd9d257d3204b8f5
-ms.sourcegitcommit: c52c1869510a9a37d9f7b127e06f07583529588b
+ms.openlocfilehash: 22dfcb085c2de4aabd849e0a1fedc8a231f0e55f
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "64670439"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71987365"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
 푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
@@ -102,7 +102,7 @@ ms.locfileid: "64670439"
 | --- | --- |
 | SendPushNotification |알림에 대한 연결 설정에 지정된 앱에 푸시 알림을 보냅니다. |
 
-### <a name="parameters"></a>매개 변수
+### <a name="parameters"></a>변수의
 
 | 이름 | 유형 | 설명 |
 | --- | --- | --- |

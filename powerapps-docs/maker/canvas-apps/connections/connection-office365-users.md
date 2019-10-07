@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 06/07/2016
 ms.author: lanced
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c9f7f0184f70643417154f229c1e957ea6218b34
-ms.sourcegitcommit: fe18d82dbbd3972c472fd69f7feb3a35c3a31153
+ms.openlocfilehash: da6c30cc824f5bb6cf1f661d332831223c37d5b8
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71150257"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993894"
 ---
 # <a name="connect-to-office-365-users-connection-from-powerapps"></a>PowerApps에서 Office 365 사용자 연결
 ![Office 365 사용자](./media/connection-office365-users/office365icon.png)
@@ -174,7 +174,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| companyName | 문자열 |사용자의 회사입니다. |
+| CompanyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -185,7 +185,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | MailNickname |문자열 |사용자의 애칭입니다. |
 | mobilePhone | 문자열 |사용자의 휴대폰입니다. |
 | 위치 | 문자열 |사용자의 사무실 위치입니다.|
-| postalCode | 문자열 |사용자의 우편 번호입니다.|
+| PostalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
@@ -206,7 +206,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| companyName | 문자열 |사용자의 회사입니다. |
+| CompanyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -235,7 +235,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| companyName | 문자열 |사용자의 회사입니다. |
+| CompanyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -246,7 +246,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | MailNickname |문자열 |사용자의 애칭입니다. |
 | mobilePhone | 문자열 |사용자의 휴대폰입니다. |
 | 위치 | 문자열 |사용자의 사무실 위치입니다.|
-| postalCode | 문자열 |사용자의 우편 번호입니다.|
+| PostalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
@@ -267,7 +267,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| companyName | 문자열 |사용자의 회사입니다. |
+| CompanyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -278,7 +278,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | MailNickname |문자열 |사용자의 애칭입니다. |
 | mobilePhone | 문자열 |사용자의 휴대폰입니다. |
 | 위치 | 문자열 |사용자의 사무실 위치입니다.|
-| postalCode | 문자열 |사용자의 우편 번호입니다.|
+| PostalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |
@@ -299,7 +299,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| companyName | 문자열 |사용자의 회사입니다. |
+| CompanyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -310,7 +310,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | MailNickname |문자열 |사용자의 애칭입니다. |
 | mobilePhone | 문자열 |사용자의 휴대폰입니다. |
 | 위치 | 문자열 |사용자의 사무실 위치입니다.|
-| postalCode | 문자열 |사용자의 우편 번호입니다.|
+| PostalCode | 문자열 |사용자의 우편 번호입니다.|
 | Surname |문자열 |사용자의 성입니다. |
 | TelephoneNumber |문자열 |사용자의 전화 번호입니다. |
 | UserPrincipalName |문자열 |사용자 계정 이름입니다. |

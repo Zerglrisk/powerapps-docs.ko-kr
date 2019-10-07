@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b78f88941fce85b9e63427635cb946f944aa120a
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 271d37c5cbd68b41a2818441161572bd9386e107
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63319945"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986752"
 ---
 # <a name="export-control-and-import-control-in-powerapps"></a>PowerApps에서 컨트롤 내보내기 및 가져오기
 로컬 파일에 데이터를 내보내고 해당 데이터를 PowerApps의 다른 앱으로 가져오기 위한 컨트롤
@@ -66,7 +66,7 @@ ms.locfileid: "63319945"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 

@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 11/14/2018
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9415ab67b93ef64f5caa025af5ac685ca2363305
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: ea2668ca295d807bbc19f71c9aa9f477c3b96041
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61563133"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992667"
 ---
 # <a name="guid-function-in-powerapps"></a>PowerApps의 GUID 함수
 GUID([전역적으로 고유 식별자](https://en.wikipedia.org/wiki/Universally_unique_identifier)) 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.
@@ -28,14 +28,14 @@ GUID([전역적으로 고유 식별자](https://en.wikipedia.org/wiki/Universall
 
 전달된 문자열에는 대문자 또는 소문자가 포함될 수 있지만, 다음 형식 중 하나에는 32자리 16진수여야 합니다.
 
-- **"123e4567-e89b-12d3-a456-426655440000"**(표준 위치의 하이픈)
-- **"123e4567e89b12d3a456426655440000"**(하이픈 없음)
+- **"123e4567-e89b-12d3-a456-426655440000"** (표준 위치의 하이픈)
+- **"123e4567e89b12d3a456426655440000"** (하이픈 없음)
 
 인수를 지정하지 않으면 이 함수는 새 GUID를 만듭니다.
 
 GUID 값을 문자열로 변환하려면 문자열 컨텍스트에서 사용합니다. GUID 값은 하이픈과 소문자로 구성된 16진수 표현 문자열로 변환됩니다. 
 
-이 함수는 버전 4 만들려면 의사 (pseudo) 난수를 사용 하는 새 GUID를 생성 하는 경우 [IETF RFC 4122](https://www.ietf.org/rfc/rfc4122.txt) GUID입니다. GUID를 문자열로 변환할 때이 함수는 32 자리 16 진수 문자열을 수락 하 여 모든 GUID 버전을 지원 합니다.
+새 GUID를 생성 하는 경우이 함수는 의사 (pseudo) 난수를 사용 하 여 버전 4 [IETF RFC 4122](https://www.ietf.org/rfc/rfc4122.txt) GUID를 만듭니다. 문자열을 GUID로 변환 하는 경우이 함수는 32 자리의 16 진수 문자열을 허용 하 여 모든 GUID 버전을 지원 합니다.
 
 ## <a name="volatile-functions"></a>일시적 함수
 **GUID**는 인수 없이 사용되는 일시적 함수입니다. 이러한 함수는 평가될 때마다 다른 값을 반환합니다.  
@@ -69,7 +69,7 @@ GUID 값을 문자열로 변환하려면 문자열 컨텍스트에서 사용합�
 
 컨텍스트에서 사용하여 새 데이터베이스 레코드의 **상태** 필드를 잘 설정된 값으로 설정합니다.
 
-* **Patch (제품 (제품) 기본 {0} 상태: GUID( "F9168C5E-CEB2-4faa-B6BF-329BF39FA1E4" ) } )**
+* **Patch (제품, 기본 (제품), {상태: GUID ("F9168C5E-CEB2-4faa-B6BF-329BF39FA1E4")})**
 
 사용자에게 GUID를 표시하지 않을 수도 있지만 GUID를 사용하면 응용 프로그램을 디버그하는 데 도움이 될 수 있습니다. 이전 예에서 만든 레코드에서 **상태** 필드 값을 표시하려면 **레이블** 컨트롤의 **텍스트** 속성을 다음 수식으로 설정합니다.
 

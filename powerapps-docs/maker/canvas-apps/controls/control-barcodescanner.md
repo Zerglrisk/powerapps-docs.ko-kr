@@ -1,6 +1,6 @@
 ---
-title: '웹 바코드 스캐너 컨트롤: 참조 | Microsoft Docs'
-description: 바코드 스캐너 컨트롤에 대한 속성 및 예제를 포함한 정보
+title: '웹 바코드-스캐너 컨트롤: 참조 | Microsoft Docs'
+description: 속성 및 예제를 비롯 한 바코드 스캐너 컨트롤 정보
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -8,29 +8,29 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 787fa34bdfcabf6103fefd82f66e976b680544e2
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: d1162c0c9954e67196eb4d3e42b2c91bdc3bf804
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61544594"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986991"
 ---
-# <a name="web-barcode-scanner-control-experimental-in-powerapps"></a>PowerApps에서 (실험적) 웹 바코드 스캐너 컨트롤
+# <a name="web-barcode-scanner-control-experimental-in-powerapps"></a>PowerApps의 웹 바코드-스캐너 컨트롤 (실험적)
 
-레거시 바코드 스캔 하는 컨트롤에는 사용 되지 않습니다 하지만 웹 브라우저에서 코드를 스캔 하는 데 유용할 수 있습니다.
+사용 되지 않지만 웹 브라우저에서 코드를 검사 하는 데 유용할 수 있는 레거시 바코드 검색 컨트롤입니다.
 
 ## <a name="description"></a>설명
 
-컨트롤은 사용자는 모든 장치에서 바코드를 스캔할 수 있도록 앱에서 카메라 피드를 보여줍니다. 컨트롤은 성능 저하 및 모바일 인해 사용 되지 않습니다 **[바코드 스캐너](control-new-barcode-scanner.md)** 컨트롤이이 컨트롤을 대체 합니다.
+컨트롤은 사용자가 모든 장치에서 바코드를 검색할 수 있도록 앱의 카메라 피드를 표시 합니다. 컨트롤이 성능 저하로 인해 사용 되지 않으며 모바일 **[바코드 스캐너](control-new-barcode-scanner.md)** 컨트롤이이 컨트롤을 대체 합니다.
 
 ## <a name="key-properties"></a>주요 속성
 
-**Barcode scanner** – 둘 이상의 바코드 스캐너를 사용하는 디바이스에서 앱이 사용하는 바코드 스캐너의 숫자 ID입니다.
+**바코드 스캐너** – 둘 이상의 바코드 스캐너를 사용하는 디바이스에서 앱이 사용하는 바코드 스캐너의 숫자 ID입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 
@@ -76,11 +76,11 @@ ms.locfileid: "61544594"
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
-1. 추가 된 **레이블을** 컨트롤 및 해당 출력을 바코드 스캐너로 **텍스트** 속성.
+1. **레이블** 컨트롤을 추가 하 고 해당 출력을 바코드 스캐너의 **Text** 속성으로 설정 합니다.
 
-1. 설정 된 형식의 바코드를 스캔 **BarcodeType** 속성입니다.
+1. **BarcodeType** 속성에서 형식 집합의 바코드를 검색 합니다.
 
-    레이블이 스캔 된 바코드를 표시합니다.
+    레이블이 스캔 한 바코드를 표시 합니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 
@@ -93,4 +93,4 @@ ms.locfileid: "61544594"
 * **[AccessibleLabel](properties-accessibility.md)** 이 있어야 합니다.
 
     > [!NOTE]
-  > 새 바코드가 발견 되 면 화면 읽기 프로그램 공지. 값을 발표 하지 않습니다. 바코드가 보기를으로 화면 판독기는 동일한 바코드가 아직 식별 되는 5 초 마다를 사용자를 알립니다.
+  > 새 바코드를 발견 하면 화면 읽기 권한자에 게 알립니다. 값을 알리지 않습니다. 바코드가 보기 상태 이면 화면 읽기 권한자는 5 초 마다 사용자에 게 동일한 바코드를 확인 하는 것을 알립니다.

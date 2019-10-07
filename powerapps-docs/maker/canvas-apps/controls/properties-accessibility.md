@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 01/26/2017
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e1baf96ab96dc6fe783fccdf243c0ae4ba6d0c1d
-ms.sourcegitcommit: b4df7d781cda50dfe2f6609f1cc4d2b531428b3c
+ms.openlocfilehash: 2c11e05c93d5a505408948178bf3efbd31f2dbf7
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70161276"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986161"
 ---
 # <a name="accessibility-properties-for-canvas-apps"></a>Canvas 앱에 대 한 내게 필요한 옵션 속성
 
@@ -50,7 +50,7 @@ ms.locfileid: "70161276"
 | TabIndex 값 | 동작 | 기본 |
 |----------------|----------|-------------|
 | 0 | 컨트롤이 키보드 탐색에 참여 합니다. | [**단추**](control-button.md), [**텍스트 입력**](control-text-input.md), [**콤보 상자**](control-combo-box.md)및 기타 일반적으로 대화형 컨트롤입니다. |
-| &minus;1(sp1) | 컨트롤이 키보드 탐색에 참여 하지 않습니다. | [**레이블**](control-text-box.md), [**이미지**](control-image.md), [**아이콘**](control-shapes-icons.md)및 기타 일반적으로 비 대화형 컨트롤입니다. |
+| &minus;1 | 컨트롤이 키보드 탐색에 참여 하지 않습니다. | [**레이블**](control-text-box.md), [**이미지**](control-image.md), [**아이콘**](control-shapes-icons.md)및 기타 일반적으로 비 대화형 컨트롤입니다. |
 
 탐색 순서는 일반적으로 왼쪽에서 오른쪽으로 이동한 다음 위쪽에서 아래쪽으로 "Z" 패턴으로 이동 합니다. 순서는 컨트롤의 **X** 및 **Y** 속성 값을 기반으로 합니다. 예를 들어 타이머 나 기타 컨트롤을 기반으로 **X** 또는 **Y** 에 대 한 수식을 사용 하 여 컨트롤이 화면에서 동적으로 이동 하는 경우 탐색 순서는 동적으로 변경 됩니다.
 

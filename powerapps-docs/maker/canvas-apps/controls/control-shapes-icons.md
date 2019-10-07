@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 54ab2ba2186f68fcb68b9aa59729933af5d04652
-ms.sourcegitcommit: 39b32abb19ad9fae98ca986ded6974bcbbb3cea7
+ms.openlocfilehash: 46f1974b5ff32cf21d1e9f24c15362c24b44fbe3
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68473898"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986325"
 ---
 # <a name="shape-controls-and-icon-controls-in-powerapps"></a>PowerApps의 도형 컨트롤 및 아이콘 컨트롤
 모양 및 동작 속성을 구성할 수 있는 그래픽입니다.
@@ -78,7 +78,7 @@ ms.locfileid: "68473898"
 
 1. **[화면](control-screen.md)** 컨트롤을 추가하고 이름을 **Source**로 지정합니다.
 
-1. **Source**에서 **도형** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+1. **Source**에서 **도형** 컨트롤을 추가하고 다음 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.
 
   `Navigate(Target, ScreenTransition.Fade)`
   
@@ -100,11 +100,11 @@ ms.locfileid: "68473898"
 - **[Color](properties-color-border.md)** 및 **[Fill](properties-color-border.md)**
 - 기타 [표준 색 대비 요구 사항](../accessible-apps-color.md)이 적용됨(단추로 사용되는 경우)
 
-테두리가 있는 도형:
+테두리가 있는 셰이프:
 - **[BorderColor](properties-color-border.md)** 및 컨트롤 외부 색
 - **[FocusedBorderColor](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
 
-테두리가 없는 도형:
+테두리가 없는 셰이프:
 - **[Fill](properties-color-border.md)** 및 컨트롤 외부 색
 - **[PressedFill](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
 - **[HoverFill](properties-color-border.md)** 및 컨트롤 외부 색(단추로 사용되는 경우)
@@ -117,7 +117,7 @@ ms.locfileid: "68473898"
 예를 들어 **설정 아이콘의** **[AccessibleLabel](properties-accessibility.md)** 속성을 **설정**으로 설정할 수 있습니다. 이 아이콘은 단추로 사용 되지 않습니다. **설정**이라는 **[레이블](control-text-box.md)** 옆에 있습니다. 화면 읽기 권한자는 아이콘 및 레이블을 모두 불필요 한 자세한 정보 표시로 **설정**합니다. 이 경우 아이콘에는 **[AccessibleLabel](properties-accessibility.md)** 필요 하지 않습니다.
 
 > [!IMPORTANT]
-> **[AccessibleLabel](properties-accessibility.md)** 이 빈 문자열로 설정 되 고 **[TabIndex](properties-accessibility.md)** 가 0 이상으로 설정 된 경우 화면 판독기는 아이콘이 나 모양을 **단추로** 읽습니다. 이러한 아이콘이나 도형은 버튼으로 렌더링됩니다. 
+> **[AccessibleLabel](properties-accessibility.md)** 이 빈 문자열로 설정 되 고 **[TabIndex](properties-accessibility.md)** 가 0 이상으로 설정 된 경우 화면 판독기는 아이콘이 나 모양을 **단추로** 읽습니다. 이러한 아이콘이 나 도형은 단추로 렌더링 됩니다. 
 
 ### <a name="keyboard-support"></a>키보드 지원
 - 그래픽이 단추로 사용 되는 경우 **[TabIndex](properties-accessibility.md)** 는 0 이상 이어야 합니다. 아이콘 또는 모양에 대해이 값을 설정 하면 키보드 사용자가이 값을 탐색할 수 있습니다.
@@ -125,4 +125,4 @@ ms.locfileid: "68473898"
 - 그래픽이 단추로 사용 되는 경우 포커스 표시기를 명확 하 게 표시 해야 합니다. 이 결과를 얻으려면 **[FocusedBorderColor](properties-color-border.md)** 및 **[FocusedBorderThickness](properties-color-border.md)** 를 사용 합니다.
 
     > [!NOTE]
-    > **[TabIndex](properties-accessibility.md)** 가 0 이상이면 아이콘 또는 도형이 단추로 렌더링됩니다. 모양은 변경 되지 않지만 화면 판독기는 이미지를 단추로 올바르게 식별 합니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 아이콘 또는 도형은 이미지로 식별됩니다.
+    > **[TabIndex](properties-accessibility.md)** 가 0 이상이면 아이콘 또는 셰이프가 단추로 렌더링됩니다. 모양은 변경 되지 않지만 화면 판독기는 이미지를 단추로 올바르게 식별 합니다. **[TabIndex](properties-accessibility.md)** 가 0보다 작으면 아이콘 또는 셰이프가 이미지로 식별됩니다.

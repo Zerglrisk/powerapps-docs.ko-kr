@@ -8,23 +8,23 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9c290d28db7ae35d33f4ceb2cd56c3a3ad79b01c
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: d9595a466477f9fc8ac535b08f43fe352ea0fd8b
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61559383"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993494"
 ---
 # <a name="column-chart-and-line-chart-controls-in-powerapps"></a>PowerApps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
 데이터를 x 및 축이 있는 그래프로 표시하는 컨트롤입니다.
 
 ## <a name="description"></a>설명
-**세로 막대형 차트** 및 **꺾은선형 차트**는 그룹화된 컨트롤입니다. 각 그룹에는 세 가지 컨트롤 **[레이블](control-text-box.md)**(제목), 차트 그래픽 및 **범례**가 포함됩니다.
+**세로 막대형 차트** 및 **꺾은선형 차트**는 그룹화된 컨트롤입니다. 각 그룹에는 세 가지 컨트롤 **[레이블](control-text-box.md)** (제목), 차트 그래픽 및 **범례**가 포함됩니다.
 
 ## <a name="chart-key-properties"></a>차트 키 속성
 **[Items](properties-core.md)** – 갤러리, 목록 또는 차트와 같은 컨트롤에 표시되는 데이터 원본입니다.
@@ -116,7 +116,7 @@ ms.locfileid: "61559383"
 [**Max**( *DataSource*, *ColumnName* )](../functions/function-aggregates.md)
 
 ## <a name="example"></a>예
-1. **[단추](control-button.md)** 컨트롤을 추가하고 **[OnSelect](properties-core.md)** 속성에 이 수식을 설정합니다.<br>
+1. **[단추](control-button.md)** 컨트롤을 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>
    **Collect(Revenue, {Year:"2013", Europa:24000, Ganymede:22300, Callisto:21200}, {Year:"2014", Europa:26500, Ganymede:25700, Callisto:24700},{Year:"2014", Europa:27900, Ganymede:28300, Callisto:25600})**
    
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?

@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱에 텍스트, 날짜 및 시간 표시 | Microsoft Docs
 description: PowerApps에서 캔버스 앱에 텍스트, 날짜 및 시간 표시
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/16/2016
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 54712803d0cc119aa385162088df468e339a7298
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 2e0f365a5b41655188a3adfe02b721e6a5ef9bcd
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63318345"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71988623"
 ---
 # <a name="show-text-dates-and-times-in-powerapps"></a>PowerApps에서 텍스트, 날짜 및 시간 표시
 PowerApps에서 날짜와 시간을 캔버스 앱에 추가하고 형식을 지정하여 적절한 수준의 세부 정보를 표시하거나 로캘을 반영합니다. 두 날짜 사이의 시간을 계산하거나 지정한 날짜 이전 또는 이후의 특정 시간에 해당하는 날짜를 계산합니다. 날짜를 일, 월 및 연도에 대한 별도의 값으로 변환하고 시, 분 및 초에 대한 별도의 값으로 변환합니다.
@@ -125,7 +125,7 @@ PowerApps에서 날짜와 시간을 캔버스 앱에 추가하고 형식을 지�
 
 ## <a name="format-a-date-by-using-datevalue"></a>DateValue를 사용하여 날짜 서식 지정
 
-1. **ArrivalDate**라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 날짜를 입력합니다(예: **5/10/85** ).
+1. **ArrivalDate**라는 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가한 다음 날짜를 입력합니다(예: **5/10/85**).
 
 2. **FormatDate**라는 **[레이블](controls/control-text-box.md)** 컨트롤을 추가하고, **[Text](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
    <br>**DateValue(ArrivalDate.Text)**

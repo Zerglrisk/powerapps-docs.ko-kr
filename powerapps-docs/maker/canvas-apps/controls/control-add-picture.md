@@ -8,17 +8,17 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1cc2b7c1752abe4f12e76c30f59978fc753f4ac5
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 81c96c7a2a23a770acfcc1936147a3b466f8c86d
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61544663"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993867"
 ---
 # <a name="add-picture-control-in-powerapps"></a>PowerApps의 이미지 컨트롤 추가
 사진을 촬영하거나 로컬 디바이스에서 이미지를 로드 합니다.
@@ -63,7 +63,7 @@ ms.locfileid: "61544663"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -122,7 +122,7 @@ ms.locfileid: "61544663"
    
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 2. **열기** 대화 상자에서 이미지 파일을 클릭하거나 탭한 다음, **열기**를 클릭하거나 탭합니다.
-3. **[단추](control-button.md)** 컨트롤을 추가하여 **이미지 추가** 컨트롤 아래로 이동시키고 **[단추](control-button.md)** 컨트롤에 대한 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
+3. **[단추](control-button.md)** 컨트롤을 추가하고 **그림 추가** 컨트롤에서 이동하고 **[단추](control-button.md)** 컨트롤에 대한 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
    **Collect(MyPix, AddMediaButton1.Media)**
    
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?

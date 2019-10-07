@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 05/19/2017
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 03a6f9939f5de5e4eb3f4abd941a725ce24b46fb
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: ecbe46f28d7be215a5ec9d8efecebde5dc4656d4
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61550203"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993020"
 ---
 # <a name="edit-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 편집
 빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 캔버스 앱을 편집합니다. PowerApps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.

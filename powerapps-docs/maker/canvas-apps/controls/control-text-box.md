@@ -6,21 +6,21 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d909b41dd61fca079fc409b51373af0789a3db84
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: f62aa84867a3aa4eae582b3fde320e84becdeeff
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61548711"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71986295"
 ---
-# <a name="label-control-in-canvas-apps"></a>레이블 컨트롤에서 캔버스 앱
+# <a name="label-control-in-canvas-apps"></a>Canvas 앱의 레이블 컨트롤
 
 텍스트, 숫자, 날짜 또는 통화와 같은 데이터를 표시하는 상자입니다.
 
@@ -30,7 +30,7 @@ ms.locfileid: "61548711"
 
 ## <a name="key-properties"></a>주요 속성
 
-**[AutoHeight](properties-core.md)**  – 레이블을 모든 텍스트를 표시할 높이 자동 증가 허용 하려면 true로 설정 합니다. 텍스트를 할당된 높이로 자르려면 false로 설정합니다.
+**[Autoheight](properties-core.md)** – true로 설정 하면 레이블이 모든 텍스트를 표시 하도록 높이를 자동으로 증가 시킬 수 있습니다. 텍스트를 할당된 높이로 자르려면 false로 설정합니다.
 
 **[Color](properties-color-border.md)** – 컨트롤의 텍스트 색입니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "61548711"
 
 **[FocusedBorderThickness](properties-color-border.md)** – 컨트롤에 포커스가 있을 때 컨트롤의 테두리 두께입니다.
 
-**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -80,11 +80,11 @@ ms.locfileid: "61548711"
 
 **[LineHeight](properties-text.md)** - 예를 들어 텍스트 선 또는 목록의 항목 사이의 거리입니다.
 
-**[Live](properties-accessibility.md)**  – 화면 읽기 프로그램 발표 레이블의 값을 변경 하는 방법 **텍스트** 속성입니다.
+**[라이브](properties-accessibility.md)** – 화면 판독기가 레이블의 **Text** 속성 값을 변경 하는 방법을 알립니다.
 
-* 로 설정 하면 **해제**, 화면 판독기에서 변경 내용을 발표 하지 않습니다.
-* 로 설정 하면 **정중**, 화면 판독기는 화면 판독기가 말하는 동안 발생 한 모든 변경 사항을 발표 앞에서 이야기를 완료 합니다.
-* 로 설정 하면 **Assertive**, 화면 판독기를 중단 하는 화면 판독기가 말하는 동안 발생 한 변경 내용을 발표할 자체입니다.
+* **Off**로 설정 하면 화면 판독기가 변경 내용을 알리지 않습니다.
+* **처리 완료 후**로 설정 되 면 화면 판독기가 말하는 동안 발생 한 변경 내용을 알리기 전에 화면 판독기가 말하기를 마칩니다.
+* **Assertive**로 설정 되 면 화면 판독기에서 화면 판독기가 말하는 동안 발생 한 모든 변경 내용을 알리기 위해 자체적으로 중단 됩니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
@@ -104,7 +104,7 @@ ms.locfileid: "61548711"
 
 **[PressedFill](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 배경색입니다.
 
-**역할** -레이블 텍스트를 제목 1 등의 의미 체계 역할입니다. 레이블의 스타일을 변경 하지 않습니다 하지만 출력 화면 판독기에서 해석을 위한 의미 체계가 잘못 되었습니다.
+**Role** -레이블 텍스트의 의미 체계 역할 (예: 제목 1)입니다. 는 레이블의 스타일을 변경 하지 않지만 화면 판독기에서 해석 하기 위해 출력 의미 체계를 정확 하 게 만듭니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
@@ -136,7 +136,7 @@ ms.locfileid: "61548711"
 
 ### <a name="show-a-literal-string"></a>리터럴 문자열을 표시합니다.
 
-* 레이블을 추가하고 **[Text](properties-core.md)** 속성을 **"Hello, world"**(큰따옴표 포함)로 설정합니다.
+* 레이블을 추가하고 **[Text](properties-core.md)** 속성을 **"Hello, world"** (큰따옴표 포함)로 설정합니다.
   
     [컨트롤을 추가하고 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
@@ -154,7 +154,7 @@ ms.locfileid: "61548711"
 
 이 절차에서는 유럽의 다양한 도시의 인구에 대한 데이터가 포함된 **CityPopulations**라고 하는 컬렉션을 만듭니다. 다음으로, 세 개의 레이블이 포함된 갤러리에서 해당 데이터를 보여주며 각 레이블이 표시할 데이터 형식을 지정합니다.
 
-1. 단추 하나를 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+1. 단추 하나를 추가하고 이 수식에 **[OnSelect](properties-core.md)** 속성을 설정합니다.<br>
    **ClearCollect(CityPopulations, {City:"London", Country:"United Kingdom", Population:8615000}, {City:"Berlin", Country:"Germany", Population:3562000}, {City:"Madrid", Country:"Spain", Population:3165000}, {City:"Rome", Country:"Italy", Population:2874000}, {City:"Paris", Country:"France", Population:2273000}, {City:"Hamburg", Country:"Germany", Population:1760000}, {City:"Barcelona", Country:"Spain", Population:1602000}, {City:"Munich", Country:"Germany", Population:1494000}, {City:"Milan", Country:"Italy", Population:1344000})**
 2. F5 키를 누르고 단추를 선택한 다음, Esc 키를 누릅니다.
 3. 텍스트 갤러리를 추가하고 **[Items](properties-core.md)** 속성을 **CityPopulations**로 설정합니다.
@@ -178,7 +178,7 @@ ms.locfileid: "61548711"
 ### <a name="screen-reader-support"></a>화면 reader 지원
 
 * **[Text](properties-core.md)** 가 있어야 합니다.
-* **[Live(properties-accessibility.md](properties-accessibility.md)** 는 화면 읽기 프로그램이 레이블의 **Text** 속성의 값으로 변경 내용을 알려야 경우 **Polite** 또는 **Assertive**로 설정해야 합니다.
+* 화면 판독기가 **텍스트** 속성의 값에 대 한 변경 내용을 알리기 위해 **[Live](properties-accessibility.md)** 를 **처리 완료 후** 또는 **Assertive** 로 설정 해야 합니다.
 
   > [!NOTE]
   > 화면 읽기 프로그램은 **[TabIndex](properties-accessibility.md)** 가 0 이상이면 **레이블**을 단추로 처리합니다.

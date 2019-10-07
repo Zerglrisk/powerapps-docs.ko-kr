@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 09/14/2019
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dceb9eee8eb5a0ed11a4b44fb2df6d63ba5e9cae
-ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
+ms.openlocfilehash: 1b9f819ab7e047b68e60b9c78e6f7f000502abb8
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71038245"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993323"
 ---
 # <a name="screen-control-in-powerapps"></a>PowerApps의 화면 컨트롤
 
@@ -26,7 +26,7 @@ ms.locfileid: "71038245"
 
 ## <a name="description"></a>설명
 
-대부분의 앱에는 데이터를 표시하고 탐색을 지원하는 **[레이블](control-text-box.md)** 컨트롤, **[버튼](control-button.md)** 컨트롤 및 기타  컨트롤을 포함하는 여러 **화면** 컨트롤이 있습니다. 화면을 추가하고, 화면 순서를 변경하고, 탐색을 구성하는 방법에 대한 정보는 [화면 추가](../add-screen-context-variables.md)를 검토합니다.
+대부분의 **[레이블](control-text-box.md)** 컨트롤, **[버튼](control-button.md)** 컨트롤 및 기타 데이터를 표시하고 탐색을 지원하는 컨트롤 등을 포함하는 여러 **화면** 컨트롤이 있습니다. 화면을 추가 하 고, 화면 순서를 변경 하 고, 탐색을 구성 하는 방법에 대 한 자세한 내용은 [화면 추가](../add-screen-context-variables.md)를 참조 하세요.
 
 ## <a name="key-properties"></a>주요 속성
 
@@ -66,7 +66,7 @@ ms.locfileid: "71038245"
 
 1. 기본 **화면** 컨트롤의 이름을 **Source**로 지정한 다음, 다른 **화면** 컨트롤을 추가하고 이름을 **Target**으로 지정합니다.
 
-1. **Source** 화면에서 **[셰이프](control-shapes-icons.md)** 컨트롤(예: 화살표)을 추가하고 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+1. **소스**에서 **[셰이프](control-shapes-icons.md)** 컨트롤 (예: 화살표)을 추가 하 고 **[onselect](properties-core.md)** 속성을 다음 수식으로 설정 합니다.
 
     `Navigate(Target, ScreenTransition.Fade)`
 
@@ -80,17 +80,17 @@ ms.locfileid: "71038245"
 
     `If("Red" in ScreenFills.Selected.Value, RGBA(255, 0, 0, 1), RGBA(54, 176, 75, 1))`
 
-1. **Source** 화면을 선택한 다음, Alt 키를 누른 상태에서 **[라디오](control-radio.md)** 컨트롤의 옵션 중 하나를 선택하고 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택합니다.
+1. **원본** 화면을 선택 하 고 Alt 키를 누른 상태에서 **[라디오](control-radio.md)** 컨트롤의 옵션 중 하나를 선택한 다음 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택 합니다.
 
-    **Target**은 선택한 색상으로 표시됩니다.
+    선택한 색에 **대상** 이 표시 됩니다.
 
-1. **Target**에서 **Source**로 돌아가려면 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택합니다.
+1. **대상**에서 **원본**으로 반환할 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택 합니다.
 
-1. (선택 사항) **[라디오](control-radio.md)** 컨트롤에서 다른 옵션을 선택한 다음, **[셰이프](control-shapes-icons.md)** 컨트롤을 선택하여 **Target**이 다른 색상으로 표시되는지 확인합니다.
+1. 필드 **[라디오](control-radio.md)** 컨트롤에서 기타 옵션을 선택한 다음 **[셰이프](control-shapes-icons.md)** 컨트롤을 선택 하 여 해당 **대상이** 다른 색에 표시 되는지 확인 합니다.
 
-1. (선택 사항) 왼쪽 탐색 모음에서 **Target**을 마우스로 가리키고, 나타나는 줄임표를 선택한 후, **위로 이동**을 선택하여 화면을 다시 정렬합니다.
+1. 필드 왼쪽 탐색 모음에서 **Target** 을 마우스로 가리켜 표시 되는 줄임표를 선택한 다음 **위로 이동**을 선택 하 여 화면을 다시 정렬 합니다.
 
-    사용자 앱을 열면 **Target**이 먼저 표시됩니다.
+    사용자가 앱을 열 때 **대상이** 먼저 표시 됩니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 

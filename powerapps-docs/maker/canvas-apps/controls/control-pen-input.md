@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bad3dcf3b0268a8bb08036fec709281b2cbba253
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 1600f765e40849b47cb41b29c5d4c3fab86b4caf
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61546250"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993388"
 ---
 # <a name="pen-input-control-in-powerapps"></a>PowerApps의 펜 입력 컨트롤
 사용자가 그리고 삭제하고 이미지의 영역을 강조 표시할 수 있는 컨트롤입니다.
@@ -82,7 +82,7 @@ ms.locfileid: "61546250"
 3. **[단추](control-button.md)** 컨트롤의 **[OnSelect](properties-core.md)** 속성을 이 수식으로 설정합니다.<br>
    **Collect(Doodles, {Sketch:MyDoodles.Image})**
 4. **이미지 갤러리** 컨트롤을 추가하고 **[단추](control-button.md)** 컨트롤 아래로 이동한 다음, 세 개 항목이 표시될 때까지 **이미지 갤러리** 컨트롤의 너비를 축소합니다.
-5. **이미지 갤러리** 컨트롤의 **[Items](properties-core.md)** 속성을 **Doodles**로 설정하고 F5 키를 누릅니다.
+5. **이미지 갤러리** 컨트롤의 **[항목](properties-core.md)** 속성을 **Doodles**로 설정하고 F5 키를 누릅니다.
 6. **MyDoodles**에서 이미지를 그리고, **[단추](control-button.md)** 컨트롤을 클릭하거나 탭합니다.
    
     사용자가 그린 이미지가 **이미지 갤러리** 컨트롤에 나타납니다.

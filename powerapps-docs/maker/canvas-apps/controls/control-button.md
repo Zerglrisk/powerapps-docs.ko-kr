@@ -8,17 +8,17 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
 ms.author: fikaradz
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d4cde32e52240e04a3499444d2c1325d0105a945
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: a49e79da6821e814a918722e70daa1b005f28777
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63320599"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993824"
 ---
 # <a name="button-control-in-powerapps"></a>PowerApps의 단추 컨트롤
 사용자가 클릭하거나 탭하여 앱과 상호 작용할 수 있는 컨트롤입니다.
@@ -60,7 +60,7 @@ ms.locfileid: "63320599"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)**  – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -178,7 +178,7 @@ ms.locfileid: "63320599"
 
 * 만든 단추 중 하나의 **[HoverFill](properties-color-border.md)** 속성에서 **[ColorFade](../functions/function-colors.md)** 를 변경하고 결과를 확인합니다.
 
-**ColorValue("Red")** 에서처럼 **[ColorFade](../functions/function-colors.md)** 함수 대신 **[HoverFill](properties-color-border.md)** 속성을 **[ColorValue](../functions/function-colors.md)** 함수가 포함된 수식으로 설정하여 **단추** 색을 지정할 수도 있습니다. 
+**ColorValue("Red")** 에서처럼 **[ColorFade](../functions/function-colors.md)** 함수 대신 **[HoverFill](properties-color-border.md)** 속성을 **[ColorValue](../functions/function-colors.md)** 함수가 포함된 수식으로 설정하여 **단추** 색을 지정할 수도 있습니다.
 
 > [!NOTE]
 > 색 값은 이름 또는 16진 값의 CSS 색 정의가 될 수 있습니다.

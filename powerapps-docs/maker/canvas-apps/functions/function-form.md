@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 07/06/2017
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 930439325b60b60fefed18b66c22d9d4f97f55b7
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 20515a65a66dc3fea1236924d9c29574f63e16a8
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61550988"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992693"
 ---
 # <a name="editform-newform-submitform-resetform-and-viewform-functions-in-powerapps"></a>PowerApps의 EditForm, NewForm, SubmitForm, ResetForm 및 ViewForm 함수
 **[편집 양식](../controls/control-form-detail.md)** 컨트롤의 항목을 보거나 편집하거나 생성하고 콘텐츠를 저장하고 컨트롤을 다시 설정합니다.
@@ -59,10 +59,10 @@ Form 컨트롤의 변경 내용을 데이터 원본에 저장하려면 Button �
 **ResetForm** 함수는 사용자가 변경하기 전에 양식의 콘텐츠를 초기 값으로 다시 설정합니다. 양식이 **FormMode.New** 모드에 있으면, 양식이 **FormMode.Edit** 모드로 다시 설정됩니다. 양식 컨트롤의 **[OnReset](../controls/control-form-detail.md)** 동작도 실행됩니다.  **[Reset](function-reset.md)** 함수를 사용하여 개별 컨트롤을 다시 설정할 수도 있지만 양식 내에서만 가능합니다.
 
 ### <a name="viewform"></a>ViewForm
-**ViewForm** 함수는 Form 컨트롤의 모드를 **FormMode.View**로 변경합니다. 이 모드에서는 Form 컨트롤의 **[Item](../controls/control-form-detail.md)** 속성 내용을 사용하여 양식을 채웁니다.  합니다 **SubmitForm** 하 고 **ResetForm** 함수에이 모드에 영향을 주지 않습니다.
+**ViewForm** 함수는 Form 컨트롤의 모드를 **FormMode.View**로 변경합니다. 이 모드에서는 Form 컨트롤의 **[Item](../controls/control-form-detail.md)** 속성 내용을 사용하여 양식을 채웁니다.  **Submitform** 및 **resetform** 함수는이 모드에서 영향을 주지 않습니다.
 
 ### <a name="displaymode-property"></a>DisplayMode 속성
-현재 모드는 **Mode** 속성을 통해 읽을 수 있습니다.  모드는 양식 컨트롤 내 데이터 카드 및 컨트롤에 사용할 수 있는 **DisplayMode** 속성의 값도 결정합니다.  종종 데이터 카드의 **DisplayMode** 속성에 설정할 **Parent.DisplayMode** (양식 참조)로 컨트롤 **DisplayMode** (참조 속성 데이터 카드의 경우): 
+현재 모드는 **Mode** 속성을 통해 읽을 수 있습니다.  모드는 양식 컨트롤 내 데이터 카드 및 컨트롤에 사용할 수 있는 **DisplayMode** 속성의 값도 결정합니다.  데이터 카드의 **DisplayMode** 속성은 데이터 카드를 참조 하는 컨트롤의 **DisplayMode** 속성에 따라 **DisplayMode** (양식 참조)로 설정 됩니다. 
 
 | 모드 | DisplayMode | 설명 |
 | --- | --- | --- |

@@ -8,17 +8,17 @@ ms.topic: reference
 ms.component: canvas
 ms.date: 10/25/2016
 ms.author: gregli
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: cc4338e37b7ecde2e2e2e9ad5c5ac6e96d116b58
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: a1e9068e272d1da8a4e6b23b66d999f0688cbc00
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61559487"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993525"
 ---
 # <a name="card-control-in-powerapps"></a>PowerApps의 카드 컨트롤
 **[표시 폼](control-form-detail.md)** 또는 **[편집 폼](control-form-detail.md)** 컨트롤의 단일 필드에 대한 표시 및 편집 환경을 제공합니다.
@@ -43,7 +43,7 @@ ms.locfileid: "61559487"
 ## <a name="key-properties"></a>주요 속성
 **DataField** - 이 카드가 표시하고 편집하는 레코드 내부의 필드 이름입니다.
 
-* 이름을 수식이 아닌 큰따옴표로 묶은 단일 정적 문자열로 지정합니다(예: **"Name"**).
+* 이름을 수식이 아닌 큰따옴표로 묶은 단일 정적 문자열로 지정합니다(예: **"Name"** ).
 * **DataField** 속성을 *blank*로 설정하여 카드의 바인딩을 해제합니다. **Valid** 및 **Update** 속성은 바인딩 해제된 카드에는 무시됩니다.
 
 **[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
@@ -53,7 +53,7 @@ ms.locfileid: "61559487"
 **DisplayMode** – 값은 **Edit, View,** 또는 **Disabled**가 될 수 있습니다. 카드 내부의 컨트롤이 사용자 입력을 허용(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 구성합니다.  
 
 * 단일 카드를 기본적으로 양식의 동작에 연결되어 있는 이 속성을 구성하여 편집 및 보기 양식 모두에 사용할 수 있도록 허용합니다.
-* **보기** 모드에서 **[텍스트 입력](control-text-input.md)**, **[드롭다운](control-drop-down.md)**, **[날짜 선택기](control-date-picker.md)** 등의 자식 컨트롤은 텍스트 값만 표시하고 다른 대화형 요소 또는 장식을 렌더링하지 않습니다.
+* **보기** 모드에서 **[텍스트 입력](control-text-input.md)** , **[드롭다운](control-drop-down.md)** , **[날짜 선택기](control-date-picker.md)** 등의 자식 컨트롤은 텍스트 값만 표시하고 다른 대화형 요소 또는 장식을 렌더링하지 않습니다.
 
 **DisplayName** – 데이터 원본의 필드에 대한 사용자에게 친숙한 이름입니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "61559487"
 
 **[Width](properties-size-location.md)** – 컨트롤의 왼쪽 및 오른쪽 가장자리 사이의 간격입니다.
 
-**[WidthFit](properties-size-location.md)** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 폼 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
+**[WidthFit](properties-size-location.md)** – **[편집 양식](control-form-detail.md)** 컨트롤처럼 컨테이너 컨트롤의 빈 공간을 채우기 위해 컨트롤의 가로가 자동으로 커지는지 여부입니다. 여러 카드에서 이 속성이 **true**로 설정되면 카드 사이의 공간이 분할됩니다. 자세한 내용은 [데이터 양식 레이아웃 이해](../working-with-form-layout.md)를 참조하세요.
 
 ## <a name="additional-properties"></a>추가 속성
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.

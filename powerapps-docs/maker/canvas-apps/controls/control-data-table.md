@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 06/05/2017
 ms.author: jasongre
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fb7c2ac88c24197d014ebdc1b2b6a50e4802e0bf
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: f29b3a782ce62c475c80804225787a0a42e85a2c
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63319370"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993577"
 ---
 # <a name="data-table-control-in-powerapps"></a>PowerApps의 데이터 테이블 컨트롤
 테이블 형식으로 데이터 집합을 보여 줍니다.
@@ -83,8 +83,8 @@ PowerApps에는 2017년 5월 5일 **데이터 테이블**이 도입되었습니�
 * [**Y**](properties-size-location.md) – **데이터 테이블** 컨트롤의 맨 위 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면의 맨 위 가장자리) 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
-* [**Filter(DataSource, Formula)**](../functions/function-filter-lookup.md)(*DataSource*, *Formula*)
-* [**Search(DataSource, SearchString, Column)**](../functions/function-filter-lookup.md)(*DataSource*, *SearchString*, *Column*)
+* [**Filter(DataSource, Formula)** ](../functions/function-filter-lookup.md)(*DataSource*, *Formula*)
+* [**Search(DataSource, SearchString, Column)** ](../functions/function-filter-lookup.md)(*DataSource*, *SearchString*, *Column*)
 
 ## <a name="examples"></a>예
 ### <a name="basic-usage"></a>기본 사용법
@@ -103,7 +103,7 @@ PowerApps에는 2017년 5월 5일 **데이터 테이블**이 도입되었습니�
     ![데이터 원본에 대한 연결 선택](./media/control-data-table/choose-cds-data-table.png)
 6. 엔터티 목록에서 **Sales order**를 클릭하거나 탭하고 **연결**을 클릭하거나 탭합니다.
    
-    ![Sales order 엔터티 선택 ](./media/control-data-table/choose-so-data-table.png)
+    ![Sales order 엔터티 선택](./media/control-data-table/choose-so-data-table.png)
    
     **데이터 테이블** 컨트롤이 이제 **Sales order** 데이터 원본에 연결되었습니다. 이 기능을 지원하는 커넥터를 사용하고 있기 때문에 **데이터 테이블** 컨트롤에 몇 가지 초기 필드가 표시됩니다.
    

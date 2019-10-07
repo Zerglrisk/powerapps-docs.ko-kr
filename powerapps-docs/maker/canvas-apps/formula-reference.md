@@ -6,26 +6,26 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 08/15/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e0f40e6c04b776d2e8efb41353e0da8ced6fc7c5
-ms.sourcegitcommit: 07a0fcda31557ddbafba0ca0362765229ee2fdad
+ms.openlocfilehash: 8ba2d504cc731725d154d8141854373fbf67dc2a
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70008990"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992932"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
 
 * **함수**는 매개 변수를 받아 작업을 수행하고 값을 반환합니다. 예를 들어 **Sqrt(25)** 는 **5**를 반환합니다. 함수는 Microsoft Excel 함수를 본떠 만듭니다.  **SubmitForm**과 같은 일부 함수에는 파생 작업이 있으며 **Button.OnSelect**와 같은 [동작 수식](working-with-formulas-in-depth.md)에서만 적합합니다.
 * **신호**는 환경에 대한 정보를 반환합니다. 예를 들어 **[Location](functions/signals.md)** 는 디바이스의 현재 GPS 좌표를 반환합니다. 신호는 매개 변수를 받지 않거나 파생 작업이 있습니다.
-* **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[Color](functions/function-colors.md)** 는 **Color.Red**, **Color.Blue** 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
+* **열거형**은 미리 정의된 상수 값을 반환합니다. 예를 들어 **[색](functions/function-colors.md)** 은 **Color.Red**, **Color.Blue** 및 등에 대해 미리 정의된 값을 포함하는 열거형입니다.  공통 열거형은 여기에 포함되며 함수별 열거형이 함수와 함께 설명됩니다.
 * **[ThisItem](functions/operators.md#thisitem-operator)** 및 **[Parent](functions/operators.md#parent-operator)** 와 같은 **명명된 연산자**는 컨테이너 내에서 정보에 대한 액세스를 제공합니다.
 
 기타 요소는 다음과 같습니다.
@@ -34,7 +34,7 @@ ms.locfileid: "70008990"
 * [컨트롤 및 해당 속성](reference-properties.md)
 * [데이터 형식](functions/data-types.md)
 
-## <a name="a"></a>변수를 잠그기 위한
+## <a name="a"></a>A
 **[Abs](functions/function-numericals.md)** – 숫자의 절대 값을 반환합니다.  
 
 **[Acceleration](functions/signals.md)** – 디바이스에서 가속 센서를 읽습니다.
@@ -128,7 +128,7 @@ ms.locfileid: "70008990"
 
 **[Degrees](functions/function-trig.md)** - 라디안을 각도로 변환합니다.
 
-**[Disable](functions/function-enable-disable.md)** – GPS 판독 중에 **[Location](functions/signals.md)** 과 같은 신호를 사용하지 않습니다.
+**[Disable](functions/function-enable-disable.md)** – GPS 판독 중에 **[위치](functions/signals.md)** 와 같은 신호를 사용하지 않습니다.
 
 **[Distinct](functions/function-distinct.md)** – 테이블의 레코드를 요약하여 중복을 제거합니다.  
 
@@ -139,7 +139,7 @@ ms.locfileid: "70008990"
 ## <a name="e"></a>E
 **[EditForm](functions/function-form.md)** – 항목 편집을 위해 Form 컨트롤을 다시 설정합니다.
 
-**[Enable](functions/function-enable-disable.md)** – GPS 판독 중에 **[Location](functions/signals.md)** 과 같은 신호를 사용합니다.
+**[Enable](functions/function-enable-disable.md)** – GPS 판독 중에 **[위치](functions/signals.md)** 와 같은 신호를 사용합니다.
 
 **[EndsWith](functions/function-startswith.md)** – 텍스트 문자열이 다른 텍스트 문자열로 끝나는지 확인합니다.
 
@@ -151,7 +151,7 @@ ms.locfileid: "70008990"
 
 **[Exp](functions/function-numericals.md)** - *e*를 거듭제곱한 값을 반환합니다.
 
-## <a name="f"></a>F
+## <a name="f"></a>350
 **[Filter](functions/function-filter-lookup.md)** – 하나 이상의 조건에 따라 필터링된 테이블을 반환합니다.
 
 **[Find](functions/function-find.md)** – 한 문자열이 다른 문자열 내에 나타나는지 확인하고 위치를 반환합니다.
@@ -162,12 +162,12 @@ ms.locfileid: "70008990"
 
 **[ForAll](functions/function-forall.md)** – 테이블의 모든 레코드에 대해 값을 계산하고 작업을 수행합니다.
 
-## <a name="g"></a>G
+## <a name="g"></a>EXPRESS-G
 **[GroupBy](functions/function-groupby.md)** – 함께 그룹화된 레코드가 있는 테이블을 반환합니다.
 
 **[GUID](functions/function-guid.md)** - GUID 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.
 
-## <a name="h"></a>H
+## <a name="h"></a>넣기
 **[HashTags](functions/function-hashtags.md)** – 문자열에서 해시태그(#strings)를 추출합니다.
 
 **[Hour](functions/function-datetime-parts.md)** – 날짜/시간 값의 시간 부분을 반환합니다.
@@ -192,7 +192,7 @@ ms.locfileid: "70008990"
 ## <a name="j"></a>J
 **[Json](functions/function-json.md)** -테이블, 레코드 또는 값에 대 한 json 텍스트 문자열을 생성 합니다.
 
-## <a name="l"></a>L
+## <a name="l"></a>L-VALUE
 **[Language](functions/function-language.md)** – 현재 사용자의 언어 태그를 반환합니다.
 
 **[Last](functions/function-first-last.md)** – 테이블의 마지막 레코드를 반환합니다.
@@ -215,8 +215,8 @@ ms.locfileid: "70008990"
 
 **[Lower](functions/function-lower-upper-proper.md)** – 텍스트 문자열의 문자를 모두 소문자로 변환합니다.
 
-## <a name="m"></a>M
-**[Match](functions/function-ismatch.md)** – 패턴에 따라 하위 문자열을 추출합니다.  정규식을 사용할 수 있습니다.
+## <a name="m"></a>매
+**[Match](functions/function-ismatch.md)** – 패턴을 기반으로 부분 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
 
 **[Matchall](functions/function-ismatch.md)** – 패턴을 기반으로 하 여 여러 부분 문자열을 추출 합니다.  정규식을 사용할 수 있습니다.
 
@@ -232,7 +232,7 @@ ms.locfileid: "70008990"
 
 **[Month](functions/function-datetime-parts.md)** – 날짜/시간 값의 월 부분을 검색합니다.
 
-## <a name="n"></a>N
+## <a name="n"></a>개의
 **[Navigate](functions/function-navigate.md)** – 표시되는 화면을 변경합니다.
 
 **[NewForm](functions/function-form.md)** – 항목 생성을 위해 Form 컨트롤을 다시 설정합니다.
@@ -268,7 +268,7 @@ ms.locfileid: "70008990"
 
 **[Refresh](functions/function-refresh.md)** – 데이터 원본의 레코드를 새로 고칩니다.
 
-**[Relate](functions/function-relate-unrelate.md)** – 일대다 또는 다대다 관계를 통해 두 엔터티의 레코드를 연결합니다.
+**[Relate](functions/function-relate-unrelate.md)** – 일대다 또는 다대다 관계를 통해 두 엔터티의 레코드를 연결 합니다.
 
 **[Remove](functions/function-remove-removeif.md)** – 데이터 원본에서 하나 이상의 특정 레코드를 제거합니다.
 
@@ -294,7 +294,7 @@ ms.locfileid: "70008990"
 
 **[RoundUp](functions/function-round.md)** – 가장 작은 다음 숫자로 올림합니다.
 
-## <a name="s"></a>S
+## <a name="s"></a>삭제
 **[SaveData](functions/function-savedata-loaddata.md)** – PowerApps 사설 스토리지에 컬렉션을 저장합니다.
 
 **[Search](functions/function-filter-lookup.md)** – 해당 열 중 하나에 문자열을 포함하는 테이블의 레코드를 찾습니다.  
@@ -338,7 +338,7 @@ ms.locfileid: "70008990"
 
 **[Tan](functions/function-trig.md)** - 라디안으로 지정된 각도의 탄젠트를 반환합니다.
 
-**[Text](functions/function-text.md)** – 모든 값을 변환하고 숫자 또는 날짜/시간 값을 텍스트 문자열로 형식을 지정합니다.
+**[Text](functions/function-text.md)** – 값을 변환 하 고 숫자 또는 날짜/시간 값의 형식을 텍스트 문자열로 변환 합니다.
 
 **[ThisItem](functions/operators.md#thisitem-operator)** – 갤러리 또는 Form에서 컨테이너에서 현재 항목에 대한 데이터를 반환합니다.
 
@@ -357,7 +357,7 @@ ms.locfileid: "70008990"
 ## <a name="u"></a>U
 **[Ungroup](functions/function-groupby.md)** – 그룹화를 제거합니다.
 
-**[Unrelate](functions/function-relate-unrelate.md)** – 일대다 또는 다대다 관계에서 두 엔터티의 레코드의 연결을 해제합니다.
+**[인시던트와 관계 해제](functions/function-relate-unrelate.md)** – 일대다 또는 다 대 다 관계에서 두 엔터티의 레코드를 연결 하지 않습니다.
 
 **[Update](functions/function-update-updateif.md)** – 데이터 원본에서 레코드를 바꿉니다.
 
@@ -379,7 +379,7 @@ ms.locfileid: "70008990"
 **[ViewForm](functions/function-form.md)** – 기존 항목 보기를 위해 Form 컨트롤을 다시 설정합니다.
 
 ## <a name="w"></a>W
-**[Weekday](functions/function-datetime-parts.md)** – 날짜/시간 값의 요일 부분을 검색합니다.
+**[Weekday](functions/function-datetime-parts.md)** – R날짜/시간 값의 요일 부분을 검색합니다.
 
 **[With](functions/function-with.md)** – 값을 계산 하 고 명명 된 값의 인라인 레코드를 포함 하 여 단일 레코드에 대 한 작업을 수행 합니다.
 

@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 60340c3833f61be4acf4780a90d18e483c1dc010
-ms.sourcegitcommit: 26704369b17d2358a77cd4841bd70bbcca3384f2
+ms.openlocfilehash: b5b8e0b9bae3a7733a8499fb096c04e19c878045
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "65521036"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993264"
 ---
 # <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.
@@ -64,7 +64,7 @@ ms.locfileid: "65521036"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md) ** – 컨트롤의 텍스트의 가중치: **굵게**, **Semibold**, **정상**, 또는 **밝은**.
+**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
 
 **Format** – 사용자 입력이 숫자로만 제한되거나 어떤 텍스트라도 입력할 수 있는지 여부를 선택합니다.
 
@@ -124,7 +124,7 @@ ms.locfileid: "65521036"
 
 **[Underline](properties-text.md)** – 컨트롤에 표시되는 텍스트 아래에 선을 표시할지 여부를 선택합니다.
 
-**VirtualKeyboardMode** – 가상 키보드, 텍스트 또는 앱 사용자의 터치 스크린에 나타나는 숫자의 형식입니다. 합니다 **형식** 속성의 기본값을 결정 합니다. 장치 지원 달라 집니다. IOS를 실행 하는 장치에 하나 이상 있어야 12.2 버전입니다. 권장 되는 Android 버전이 9.0, 및 Android 장치에 숫자 키보드의 기능에 따라 달라 집니다. Windows 10이이 속성을 지원 하지 않습니다.  
+**VirtualKeyboardMode** – 앱 사용자의 터치 스크린에 표시 되는 가상 키보드, 텍스트 또는 숫자의 유형입니다. **Format** 속성은 기본값을 결정 합니다. 장치 지원은 다양 합니다. IOS를 실행 하는 장치에는 버전 12.2 이상이 있어야 합니다. Android의 권장 버전은 9.0이 고, 숫자 키보드의 기능은 Android 장치에 따라 다릅니다. Windows 10은이 속성을 지원 하지 않습니다.  
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
@@ -160,7 +160,7 @@ ms.locfileid: "65521036"
 
     **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 
-1. F5 키를 누르고 **inputPassword**에 **P@ssw0rd**를 입력합니다.
+1. F5 키를 누르고 **inputPassword**에 **P@ssw0rd** 를 입력합니다.
 
     암호 입력을 마치면 **Access denied**를 표시하는 레이블이 중지하고 **Access granted**를 표시하기 시작합니다.
 

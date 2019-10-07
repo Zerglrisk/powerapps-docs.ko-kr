@@ -8,17 +8,17 @@ ms.topic: reference
 ms.custom: canvas
 ms.date: 07/12/2016
 ms.author: lanced
-ms.reviewer: anneta
+ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 10a6178c63495b929eb6e5885ded9394b31a11ef
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: b89f23ac1dec941fcc2f5d7bd03f927c08691f77
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61546074"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71994063"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 스토리지에 연결
 PowerApps에서 여러 클라우드 스토리지 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  

@@ -6,55 +6,55 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 07/07/2016
 ms.author: fikaradz
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3e3b9902b535cc21d6e4b26959e9d5c4a0e56144
-ms.sourcegitcommit: b3fd824cf0d540b964b729686b198c7ccf2c2174
+ms.openlocfilehash: f258beee317fcdad46d71b504f9c8a3046bb3641
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "67316750"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71993373"
 ---
 # <a name="power-bi-tile-control-in-powerapps"></a>PowerApps의 Power BI 타일 컨트롤
 
 앱 내부에 있는 [Power BI](https://powerbi.microsoft.com) 타일을 보여주는 컨트롤입니다.
 
-Power BI가 없으십니까? [가입](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)하세요.
+Power BI 되지 않나요? [가입](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)하세요.
 
 ## <a name="description"></a>설명
 
-앱 내부에 있는 **[Power BI 타일](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** 을 표시하여 기존 데이터 분석 및 보고를 활용합니다. 옵션 패널의 **데이터** 탭에서 **작업 영역**, **대시보드** 및 **타일** 속성을 설정하여 표시하려는 타일을 지정합니다.
+앱 내부에 있는 **[Power BI 타일](https://docs.microsoft.com/power-bi/service-dashboard-tiles)** 을 표시하여 기존 데이터 분석 및 보고를 활용합니다. 옵션 패널의 **데이터** 탭에서 **Workspace**, **Dashboard** 및 **Tile** 속성을 설정하여 표시하려는 타일을 지정합니다.
 
 ## <a name="sharing-and-security"></a>공유 및 보안
 
 Power BI 콘텐츠가 포함된 앱을 공유하는 경우 타일을 제공하는 [대시보드](https://docs.microsoft.com/power-bi/service-how-to-collaborate-distribute-dashboards-reports)뿐만 아니라 앱 자체를 공유해야합니다. 그렇지 않은 경우 Power BI 콘텐츠는 앱을 여는 사용자에 대해서도 표시되지 않습니다. Power BI 콘텐츠가 포함된 앱에는 해당 콘텐츠에 대한 사용 권한을 적용합니다.
 
-## <a name="performance"></a>성능
+## <a name="performance"></a>성능도
 
 네 개 이상의 Power BI 타일을 앱 내에서 동시에 로드하지 않는 것이 좋습니다. **LoadPowerBIContent** 속성을 설정하여 타일 로드 및 언로드를 제어할 수 있습니다.
 
 ## <a name="pass-a-parameter"></a>매개 변수 전달
 
-앱에서 단일 매개 변수를 전달하여 Power BI 타일에 표시되는 결과를 필터링할 수 있습니다. 그러나 문자열 값과 같음 연산자만 지원되고, 테이블 이름 또는 열 이름에 공백이 포함된 경우 필터가 작동하지 않을 수 있습니다.
+앱에서 단일 매개 변수를 전달 하 여 Power BI 타일에 표시 되는 결과를 필터링 할 수 있습니다. 그러나 문자열 값과 equals 연산자도 지원 되며 테이블 이름 또는 열 이름에 공백이 포함 된 경우에는 필터가 작동 하지 않을 수 있습니다.
 
-단일 필터 값을 전달하려면 다음 구문과 같이 **TileURL** 속성 값을 변경합니다.
+단일 필터 값을 전달 하려면 다음 구문을 따르는 **TileURL** 속성의 값을 수정 합니다.
 
 ```
 "https://app.powerbi.com/embed?dashboardId=<DashboardID>&tileId=<TileID>&config=<SomeHash>"
 ```
 
-해당 값에 다음 구문을 추가합니다.
+이 값에 다음 구문을 추가 합니다.
 
 ```
 &$filter=<TableName>/<ColumnName> eq '<Value>'
 ```
 
-매개 변수 타일이 만들어진 보고서의 데이터 집합의 값을 필터링 됩니다.
+매개 변수는 타일이 생성 된 보고서의 데이터 집합에서 값을 필터링 합니다.
 
 ## <a name="key-properties"></a>주요 속성
 
@@ -106,4 +106,4 @@ Power BI 콘텐츠가 포함된 앱을 공유하는 경우 타일을 제공하�
 
 **Power BI 타일**은 단순히 Power BI 콘텐츠용 컨테이너입니다. 이러한 [Power BI 접근성 팁](https://docs.microsoft.com/power-bi/desktop-accessibility)을 사용하여 접근성 있는 콘텐츠를 만드는 방법을 알아봅니다.
 
-Power BI 콘텐츠에 제목이 없는 경우 **[레이블](control-text-box.md)** 컨트롤을 사용하여 제목을 추가하여 화면 리더를 지원할 수 있습니다. Power BI 타일 바로 앞에 레이블을 지정할 수 있습니다.
+Power BI 콘텐츠에 제목이 없는 경우 **[레이블](control-text-box.md)** 컨트롤을 사용하는 제목을 추가하고 화면 reader를 지원합니다. Power BI 타일 바로 앞에 레이블을 지정할 수 있습니다.

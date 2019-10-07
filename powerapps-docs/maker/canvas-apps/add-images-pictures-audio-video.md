@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 07/12/2017
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d5d8b8ebaa2a1d044a09a402a87998980e34f461
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: b544b03fbe181265599bab520eddc2a2a646c477
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63320507"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71994460"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 
@@ -69,7 +69,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 3. PowerApps의 **삽입 > 미디어**에서 **비디오** 컨트롤을 추가합니다.
 
-4. **Media** 속성을 복사한 URL로 설정합니다.
+4. **미디어** 속성을 복사한 URL로 설정합니다.
 
     이 그림에서 볼 수 있듯이 Azure Media Services가 지원하는 모든 스트리밍 URL을 선택할 수 있습니다.
 
@@ -146,7 +146,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
    4. **Drawings** 테이블을 선택한 다음 **연결**을 클릭하거나 탭합니다.
 
-       ![연결](./media/add-images-pictures-audio-video/savepen.png)  
+       ![연결할지](./media/add-images-pictures-audio-video/savepen.png)  
 
        이제 Drawings 테이블은 데이터 원본으로 나열됩니다.
 
@@ -154,7 +154,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 7. 새 컨트롤의 이름을 **MyPen**으로 변경합니다.  
 
-    ![이름 바꾸기](./media/add-images-pictures-audio-video/rename-mypen.png)
+    ![바꾸면](./media/add-images-pictures-audio-video/rename-mypen.png)
 
 8. **삽입** 탭에서 **단추** 컨트롤을 추가하고 이 수식에 해당 **OnSelect** 속성을 설정합니다.
 
