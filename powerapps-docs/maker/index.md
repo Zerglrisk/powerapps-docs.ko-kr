@@ -1,20 +1,20 @@
 ---
 title: 앱 만들기 개요 | Microsoft Docs
 description: 캔버스 또는 모델 기반 모드에서 앱을 만들고 Common Data Service를 통합하는 방법에 대한 개요
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.date: 07/18/2018
-ms.author: anneta
+ms.author: tapanm
 ms.reviewer: ''
-ms.openlocfilehash: cfc849574153ea4ab983112528a91974d80dea7f
-ms.sourcegitcommit: 1c0b01ab9c76ac353854f7b61d5a9ef13e8b093f
+ms.openlocfilehash: a0430ab6b3baebf1a4144c52c63526745cd13928
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68308742"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71987790"
 ---
 # <a name="overview-of-creating-apps-in-powerapps"></a>PowerApps에서 앱 만들기 개요
 
