@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 03/01/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a76b039ace1b323f7e1160e919722cc83bc6d091
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 7865b2123f0d179d5d132cca838684f0c83cfd31
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61558522"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71994803"
 ---
 # <a name="get-started-with-canvas-app-formulas-in-powerapps"></a>PowerApps에서 캔버스 앱 수식 시작
 
@@ -29,7 +29,7 @@ Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행�
 
 예를 들어, 사용자가 단추를 선택하거나, 슬라이더를 조정하거나, 다른 입력 값을 제공할 때 앱이 응답하는 방식을 결정하기 위한 수식을 작성합니다. 이러한 수식으로 다른 화면을 표시하거나 앱 외부의 데이터 원본을 앱에 업데이트하거나, 기존 표에 있는 데이터의 하위 집합을 포함하는 표를 만들 수 있습니다.
 
-다양한 시나리오에 대한 수식을 사용할 수 있습니다. 예를 들어 현재 위치를 표시하려면 디바이스의 GPS, 지도 컨트롤, 및 **Location.Logitude**와 **Location.Latitude**를 사용하는 수식을 사용할 수 있습니다. 지도는 사용자가 이동하는 대로 위치를 자동으로 추적합니다.
+다양한 시나리오에 대한 수식을 사용할 수 있습니다. 예를 들어 현재 위치를 표시하려면 GPS 디바이스, 지도 컨트롤, 및 **위치.위도**와 **위치.경도**를 사용하는 수식을 사용할 수 있습니다. 지도는 사용자가 이동하는 대로 위치를 자동으로 추적합니다.
 
 이 토픽에서는 수식 작업의 개요만을 다룹니다. 사용 가능한 함수, 연산자 및 기타 구성 요소에 대한 자세한 내용과 전체 목록은 [수식 참조](formula-reference.md)를 확인하세요.
 
@@ -40,10 +40,10 @@ Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행�
 
 ## <a name="show-a-simple-value"></a>간단한 값 표시
 
-Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이터를 셀에 입력할 수 있습니다. 해당 셀은 사용자가 입력한 대로 해당 데이터를 항상 표시합니다. 마찬가지로 PowerApps의 경우 레이블의 **[Text](controls/properties-core.md)** 속성을 큰따옴표로 묶인 정확한 문자 시퀀스로 설정하여 데이터의 일부가 변경되지 않도록 지정할 수 있습니다.
+Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 같단한 특정 데이터를 셀에 입력할 수 있습니다. 해당 셀은 사용자가 입력한 대로 해당 데이터를 항상 표시합니다. PowerApps의 경우 레이블의 **[텍스트](controls/properties-core.md)** 속성을 큰따옴표로 묶인 정확한 문자 시퀀스로 설정하여 데이터의 일부가 변경되지 않도록 지정할 수 있습니다.
 
 1. (화면의 왼쪽 가장자리에 있는) **파일** 메뉴에서 **새로 만들기**를 선택합니다.
-2. **앱 만들기** 아래에서 **빈 앱** 타일에 있는 **전화 레이아웃**을 선택합니다.
+2. **앱 만들기** 아래에서 **새 앱** 타일에 있는 **휴대폰 레이아웃**을 선택합니다.
 
     수식 입력줄이 화면 맨 위에 나타납니다.
 
@@ -51,10 +51,10 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이�
 
     이 입력줄은 다음 두 부분으로 구성됩니다.
 
-   * *속성 목록*:  각 컨트롤과 화면에는 [속성 집합](reference-properties.md)이 있습니다  이 목록을 사용하여 특정 속성을 선택합니다.  
-   * *수식*:  이 속성에 대해 계산할 수식으로 [값, 연산자 및 함수](formula-reference.md)로 이루어져 있습니다.
+   * *속성 목록*:  각 컨트롤 및 화면에는 [속성 집합이](reference-properties.md)있습니다.  이 목록을 사용하여 특정 속성을 선택합니다.  
+   * *수식*:  이 속성에 대해 계산 되는 수식으로, [값, 연산자 및 함수로](formula-reference.md)구성 됩니다.
 
-     수식 입력줄에서는 선택한 컨트롤 또는 선택한 컨트롤이 없다면 화면에 대한 속성을 확인하고 편집할 수 있습니다.  **콘텐츠** 탭에서 선택한 컨트롤의 이름을 볼 수 있습니다.
+     수식 입력줄에서는 선택한 컨트롤이 없다면 선택한 컨트롤 또는 화면에 대한 속성을 확인하고 편집할 수 있습니다.  **콘텐츠** 탭에서 선택한 컨트롤의 이름을 볼 수 있습니다.
 
      ![콘텐츠 막대에 현재 선택된 컨트롤이 표시됩니다.](./media/working-with-formulas/content-tab-selection.png)
 
@@ -64,7 +64,7 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이�
     ![텍스트 상자 컨트롤이 추가됩니다.](./media/working-with-formulas/add-a-label.png)
 
     레이블을 추가하면 속성 목록에 컨트롤이 표시하는 항목을 구동하는 **[Text](controls/properties-core.md)** 속성이 자동으로 표시됩니다. 기본적으로 이 속성의 값은 **"텍스트"** 입니다.  
-4. 수식 입력줄에 이중 따옴표로 묶은 문자열을 입력하여 **[Text](controls/properties-core.md)** 속성 값을 **"Hello World"** 로 설정합니다.
+4. 수식 입력줄에 이중 따옴표로 묶은 문자열을 입력하여 **[텍스트](controls/properties-core.md)** 속성 값을 **"Hello World"** 로 설정합니다.
 
     !["Hello World" 레이블 사용](./media/working-with-formulas/label-hello-world.png)
 
@@ -73,7 +73,7 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이�
     Excel의 경우 해당 숫자를 셀에 입력하거나 **=SUM(30,12)** 와 같이 해당 숫자가 나오는 수식을 입력하여 **42**와 같은 숫자를 표시할 수 있습니다. PowerApps에서는 레이블과 같은 컨트롤의 **Text** 속성을 **42** 또는 **Sum(30,12)** 에 설정하여 동일한 효과를 얻을 수 있습니다. 셀과 레이블은 워크시트 또는 앱의 변경에 관계 없이 항상 해당 숫자를 표시합니다.
 
     > [!NOTE]
-   > PowerApps의 경우도 Excel에서와 마찬가지로 등호 또는 더하기 기호는 수식 앞에 오지 않아야 합니다. 수식 입력줄은 입력하는 모든 내용을 기본적으로 수식으로 간주합니다. 또한 앞에서 텍스트 문자열을 지정한 것처럼 큰따옴표(")로 수식을 묶지 않아야 합니다.
+   > PowerApps의 경우도 Excel에서와 마찬가지로 등호 또는 더하기 기호가 있는 수식은 앞에 오지 않아야 합니다. 수식 입력줄은 입력하는 모든 내용은 기본적으로 수식으로 간주합니다. 또한 텍스트 문자열을 지정할 때 이전과 마찬가지로 큰따옴표(")로 수식을 묶지 않아야 합니다.
 5. 레이블의 **[Text](controls/properties-core.md)** 속성에서 **"Hello World"** 를 **Sum(1,2,3)** 으로 바꿉니다.
 
     ![닫는 괄호 없이 부분 함수 Sum(1,2,3을 입력하여 오류가 나타나는 경우](./media/working-with-formulas/label-sum-partial.png)
@@ -84,25 +84,25 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 특정 데이�
 
 ## <a name="change-a-value-based-on-input"></a>입력에 따라 값 변경
 
-Excel에서 입력 **= A1 + A2** 모든 셀 값의 합계를 표시 하려면 셀에 **A1** 및 **A2** 포함 합니다. 하나 또는 모든 셀의 값을 변경하면 수식이 포함된 셀은 업데이트된 결과를 자동으로 보여줍니다.
+Excel에서는 **= a1 + a2** 를 셀에 입력 하 여 **a1** 및 **a2** 셀에 포함 된 모든 값의 합계를 표시 합니다. 하나 또는 모든 셀의 값을 변경하면 수식이 포함된 셀은 업데이트된 결과를 자동으로 보여줍니다.
 
-![두 숫자의 합을 계산 하는 Excel의 애니메이션](./media/working-with-formulas/excel-recalc.gif)
+![Excel 애니메이션은 두 숫자의 합계를 계산 합니다.](./media/working-with-formulas/excel-recalc.gif)
 
-PowerApps에서 화면에 컨트롤을 추가하고 해당 속성을 설정하여 비슷한 결과 얻을 수 있습니다. 이 예제에서는 **Label1**이라는 이름의 레이블 컨트롤과 **TextInput1**, **TextInput2**으로 명명된 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 보여주고 있습니다.
+PowerApps에서 화면에 컨트롤을 추가 하 고 속성을 설정 하 여 비슷한 결과를 얻을 수 있습니다. 이 예제에서는 **TextInput1** 및 **TextInput2**라는 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤과 **Label1** 이라는 레이블 컨트롤을 보여 줍니다.
 
-![두 숫자의 합을 계산 하는 PowerApps의 그림](./media/working-with-formulas/recalc1.png)
+![두 숫자의 합계를 계산 하는 PowerApps의 그림](./media/working-with-formulas/recalc1.png)
 
 텍스트 입력 컨트롤에 어떤 숫자를 입력하든 **[Text](controls/properties-core.md)** 속성이 다음 수식으로 설정되어 있으므로 레이블에는 항상 해당 숫자의 합이 표시됩니다.
 
 `TextInput1 + TextInput2`
 
-![두 숫자의 합을 계산 하는 PowerApps의 애니메이션](./media/working-with-formulas/recalc2.gif)
+![PowerApps 애니메이션 두 숫자의 합계를 계산 합니다.](./media/working-with-formulas/recalc2.gif)
 
-Excel에서 예를 들어 음수 값은 빨간색으로 표시하는 등 조건부 서식 지정 수식을 사용할 수 있습니다. PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 서식과 같은 속성도 결정할 수 있습니다. 다음 예제에서는 레이블의 **[Color](controls/properties-color-border.md)** 속성을 위한 수식은  자동으로 음수 값을 빨간색으로 표시합니다. **[If](functions/function-if.md)** 함수는 Excel과 매우 비슷합니다.
+Excel에서는 조건부 서식 수식을 사용 하 여 빨간색의 음수 값을 표시할 수 있습니다. PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 서식과 같은 속성도 결정할 수 있습니다. 다음 예제에서는 레이블의 **[Color](controls/properties-color-border.md)** 속성에 대 한 수식이 자동으로 음수 값을 빨간색으로 표시 합니다. **[If](functions/function-if.md)** 함수는 Excel과 매우 친숙해야 합니다.
 
 `If( Value(Label1.Text) < 0, Red, Black )`
 
-![조건부 서식의 애니메이션](media/working-with-variables/recalc-color.gif)
+![조건부 서식 지정 애니메이션](media/working-with-variables/recalc-color.gif)
 
 ## <a name="change-a-color-based-on-user-input"></a>입력하는 사용자에 따라 색상 변경
 
@@ -114,14 +114,14 @@ Excel에서 예를 들어 음수 값은 빨간색으로 표시하는 등 조건�
 2. 슬라이더가 겹치지 않도록 정렬하고, 3개의 레이블을 추가한 다음 **빨간색**, **녹색**, **파란색**으로 표시되도록 구성합니다.
 
     ![슬라이더 정렬 후 각 색상의 구성 요소에 대한 레이블 추가](./media/working-with-formulas/three-sliders.png)
-3. 각 슬라이더의 **Max** 속성 값을 **[RGBA](functions/function-colors.md)** 함수에 대한 색상 구성 요소의 최대 값인 255로 설정합니다.
+3. 각 슬라이더의 **최대** 속성 값을 **[RGBA](functions/function-colors.md)** 함수에 대한 색상 구성 요소의 최대 값인 255로 설정합니다.
 
-    **콘텐츠** 탭 또는 속성 목록에서 **Max** 속성을 선택하여 값을 지정할 수 있습니다.
+    **콘텐츠** 탭 또는 속성 목록에서 **최대** 속성 값을 선택하여 지정할 수 있습니다.
 
     ![각 슬라이더의 최대 값 변경](./media/working-with-formulas/three-sliders-max.png)
-4. 어떤 컨트롤도 선택하지 않고 클릭하여 화면을 선택한 후 화면의 **[Fill](controls/properties-color-border.md)** 속성을 다음 수식으로 설정합니다.<br>**RGBA( Slider1.Value, Slider2.Value, Slider3.Value, 1 )**
+4. 모든 컨트롤에서 클릭하여 화면을 선택한 후 다음 수식으로 화면의 **[채우기](controls/properties-color-border.md)** 속성을 설정합니다.<br>**RGBA( Slider1.Value, Slider2.Value, Slider3.Value, 1 )**
 
-    앞서 설명한 대로 **.** 연산자를 사용하여 컨트롤 속성에 액세스합니다.  **Slider1.Value**는 **최소** 값과 **최대** 값 사이에 사용자가 슬라이더를 배치하도록 한 값을 반영하는 슬라이더의 **[Value](controls/properties-core.md)** 속성을 의미합니다. 이 수식을 입력하면, 포함된 각 컨트롤은 화면과 수식 입력줄 사이에서 색상이 코딩됩니다.
+    앞서 설명한 대로 **.** 연산자를 사용하여 컨트롤 속성에 액세스합니다.  **Slider1.Value**는 **최소** 값과 **최대** 값 사이에 사용자가 슬라이더를 배치하도록 반영한 값인 슬라이더의 **[값](controls/properties-core.md)** 속성을 의미합니다. 이 수식을 입력하면서 포함된 각 컨트롤은 화면과 수식 입력줄 사이에서 색상이 코딩됩니다.
 
     ![화면의 배경 채우기 색상에 대한 수식을 미완료 상태로 변경](./media/working-with-formulas/three-sliders-partial-rgba.png)
 

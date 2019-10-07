@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 09/13/2016
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6eab89f436bc00ae0c447494607b5c1bb0cec875
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: b29bce3f1237c6e98376989981f68e207439dc89
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61520002"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71984095"
 ---
 # <a name="acos-acot-asin-atan-atan2-cos-cot-degrees-pi-radians-sin-and-tan-functions-in-powerapps"></a>PowerApps에서 Acos, Acot, Asin, Atan, Atan2, Cos, Cot, Degrees, Pi, Radians, Sin 및 Tan 함수
 삼각 값을 계산합니다.
@@ -96,17 +96,17 @@ ms.locfileid: "61520002"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Cos(&nbsp;1.047197&nbsp;)** |1.047197라디안 또는 60도의 코사인을 반환합니다. |0.5 |
-| **Cot(&nbsp;Pi()/4&nbsp;)** |0.785398...라디안 또는 45도의 코탄젠트를 반환합니다. |1 |
-| **Sin(&nbsp;Pi()/2&nbsp;)** |1.570796...라디안 또는 90도의 사인을 반환합니다. |1 |
-| **Tan(&nbsp;Radians(60)&nbsp;)** |1.047197...라디안 또는 60도의 탄젠트를 반환합니다. |1.732050... |
-| **Acos(&nbsp;0.5&nbsp;)** |0.5의 아크코사인을 라디안으로 반환합니다. |1.047197... |
+| **Cos(&nbsp;1.047197&nbsp;)** |1\.047197라디안 또는 60도의 코사인을 반환합니다. |0.5 |
+| **Cot(&nbsp;Pi()/4&nbsp;)** |0\.785398...라디안 또는 45도의 코탄젠트를 반환합니다. |1 |
+| **Sin(&nbsp;Pi()/2&nbsp;)** |1\.570796...라디안 또는 90도의 사인을 반환합니다. |1 |
+| **Tan(&nbsp;Radians(60)&nbsp;)** |1\.047197...라디안 또는 60도의 탄젠트를 반환합니다. |1.732050... |
+| **Acos(&nbsp;0.5&nbsp;)** |0\.5의 아크코사인을 라디안으로 반환합니다. |1.047197... |
 | **Acot(&nbsp;1&nbsp;)** |1의 아크코탄젠트를 라디안으로 반환합니다. |0.785398... |
 | **Asin(&nbsp;1&nbsp;)** |1의 아크사인을 라디안으로 반환합니다. |1.570796... |
-| **Atan(&nbsp;1.732050&nbsp;)** |1.732050의 아크탄젠트를 라디안으로 반환합니다. |1.047197... |
+| **Atan(&nbsp;1.732050&nbsp;)** |1\.732050의 아크탄젠트를 라디안으로 반환합니다. |1.047197... |
 | **Atan2(&nbsp;5,&nbsp;3&nbsp;)** |*x*축에서 원점(0,0)과 좌표(5,3)를 지나는 선까지 각도(약 31도)의 아크탄젠트를 반환합니다. |0.540419... |
 | **Atan2(&nbsp;4,&nbsp;4&nbsp;)** |*x*축에서 원점(0,0)과 좌표(4,4)를 지나는 선까지 각도(정확히 &pi;/4라디안 또는 45도)의 아크탄젠트를 반환합니다. |0.785398... |
-| **Degrees(&nbsp;1.047197&nbsp;)** |1.047197라디안에 해당하는 각도(degree) 수를 반환합니다. |60 |
+| **Degrees(&nbsp;1.047197&nbsp;)** |1\.047197라디안에 해당하는 각도(degree) 수를 반환합니다. |60 |
 | **Pi()** |초월수 &pi;를 반환합니다. |3.141592... |
 | **Radians(&nbsp;15&nbsp;)** |15도에 해당하는 라디안 수를 반환합니다. |0.261799... |
 

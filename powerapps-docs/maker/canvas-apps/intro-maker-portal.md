@@ -1,24 +1,24 @@
 ---
 title: 처음으로 로그인 | Microsoft Docs
 description: 앱의 모든 제작자를 위한 새 홈입니다.
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 08/06/2018
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 735894f8e28d25777aa7f66146f5782da2ab2f3e
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: dd50652f0021079b4b9d4d23568ba148a8ce6a5b
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61553517"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71989986"
 ---
 # <a name="sign-in-to-powerapps-for-the-first-time"></a>PowerApps에 처음으로 로그인
 
@@ -26,11 +26,11 @@ ms.locfileid: "61553517"
 
 세 가지 일반 영역에서 옵션을 선택할 수 있습니다.
 
-- 페이지 맨 위에 있는 머리글
+- 페이지 맨 위에 있는 헤더
 
     ![헤더](media/intro-maker-portal/header.png)
 
-- 페이지 왼쪽 가장자리에 있는 탐색 모음
+- 페이지 왼쪽 가장자리를 있는 탐색 모음
 
     ![탐색 모음](media/intro-maker-portal/nav-bar.png)
 
@@ -42,9 +42,9 @@ ms.locfileid: "61553517"
 
 ## <a name="choose-an-environment"></a>환경 선택
 
-앱, 흐름, 데이터 연결 또는 공통 데이터 서비스의 엔터티를 만드는 경우 PowerApps에서 수행할 작업의 대부분은 특정 환경에 포함됩니다. 환경에서는 다양한 유형의 작업 간에 경계를 만듭니다. 예를 들어, 조직은 부서마다 별도의 환경이 있을 수 있습니다. 많은 조직에서 환경을 사용하여 광범위하게 사용할 준비가 된 앱에서 아직 개발 중인 앱을 분리합니다. 여러 환경 또는 하나의 환경에만 액세스할 수 있으며 적절한 사용 권한이 있는 경우 고유한 환경을 만들 수 있습니다.
+Common Data Service에서 앱, 흐름, 데이터 연결 또는 엔터티를 만드는 경우 PowerApps에서 수행 하는 작업은 대부분 특정 환경에 포함 됩니다. 환경에서는 다양한 유형의 작업 간에 경계를 만듭니다. 예를 들어, 조직은 부서마다 별도의 환경이 있을 수 있습니다. 많은 조직에서 환경을 사용하여 광범위하게 사용할 준비가 된 앱에서 아직 개발 중인 앱을 분리합니다. 여러 환경 또는 하나의 환경에만 액세스할 수 있으며 적절한 사용 권한이 있는 경우 고유한 환경을 만들 수 있습니다.
 
-어떤 환경에 속해 있는지 확인하려면 머리글의 오른쪽 근처에 있는 환경 전환기를 찾습니다.
+어떤 환경에 속해 있는지 확인하려면 헤더의 오른쪽 근처에 있는 환경 전환기를 찾습니다.
 
 ![환경 전환기](media/intro-maker-portal/environment-switcher.png)
 
@@ -60,9 +60,9 @@ ms.locfileid: "61553517"
 PowerApps에서 다음 유형의 앱을 만들고 실행할 수 있습니다.
 
 - **캔버스 앱**은 사용자 지정 UI를 디자인하고 다양한 소스의 데이터에 연결할 수 있도록 지원합니다.
-- **모델 기반 앱**은 표준 UI로 제공되며 Common Data Service 내 데이터에만 연결합니다. 그러나 보기, 대시보드 및 다양한 유형의 비즈니스 논리와 같은 다른 요소를 더 쉽게 만들 수 있습니다.
+- **모델 기반 앱** 은 표준 UI를 포함 하 고 Common Data Service의 데이터에만 연결 합니다. 그러나 보기, 대시보드 및 다양한 유형의 비즈니스 논리와 같은 다른 요소를 더 쉽게 만들 수 있습니다.
 
-Common Data Service 데이터베이스가 있는 환경을 선택 하면 동일한 **홈** 페이지에서 캔버스 또는 모델 기반 앱을 빌드할 수 있습니다.
+Common Data Service 데이터베이스를 포함 하는 환경을 선택 하는 경우 동일한 **홈** 페이지에서 캔버스 또는 모델 기반 앱을 빌드할 수 있습니다.
 
 ## <a name="play-or-edit-an-app"></a>앱 재생 또는 편집
 
@@ -97,9 +97,9 @@ Common Data Service 데이터베이스가 있는 환경을 선택 하면 동일�
 
 ## <a name="other-common-tasks"></a>기타 일반 작업
 
-머리글 및 왼쪽 탐색 모음에서 옵션을 선택하면 앱을 만들고 여는 것 이상을 수행할 수 있습니다.
+헤더 및 왼쪽 탐색 모음에서 옵션을 선택하면 앱을 만들고 여는 것 이상을 수행할 수 있습니다.
 
-### <a name="from-the-header"></a>머리글에서
+### <a name="from-the-header"></a>헤더에서
 
 - 앱을 실행할 수 있는 모바일 및 기타 클라이언트를 다운로드하려면 아래쪽 화살표를 선택합니다.
 
@@ -120,6 +120,6 @@ Common Data Service 데이터베이스가 있는 환경을 선택 하면 동일�
 
 다음 작업을 수행하여 앱의 기능을 확장합니다.
 
-- [Common Data Service](../common-data-service/data-platform-intro.md)에서 엔터티, 옵션 집합 및 데이터 통합을 관리합니다.
+- [Common Data Service](../common-data-service/data-platform-intro.md)에서 엔터티, 옵션 집합 및 데이터 통합을 관리 합니다.
 - [Microsoft Flow](https://docs.microsoft.com/flow/getting-started)에서 비즈니스 논리를 구성합니다.
 - [솔루션](../../developer/common-data-service/introduction-solutions.md) 작성, 패키지 및 유지 관리합니다.

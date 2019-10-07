@@ -6,25 +6,25 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 04/26/2016
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d2b4229cc39a84bcffa624be8352762bcdc7a47b
-ms.sourcegitcommit: 21163a6d77b784f4864fce4695776c9b4652cb29
+ms.openlocfilehash: 113d76a3b80c2ef68f5e267714e4f792c988d237
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2019
-ms.locfileid: "66225166"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71988890"
 ---
 # <a name="understand-data-cards-in-powerapps"></a>PowerApps의 데이터 카드 이해
 
 **[카드](controls/control-card.md)** 컨트롤은 캔버스 앱에서 **[편집 폼](controls/control-form-detail.md)** 및 **[표시 폼](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 폼은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
 
-디자인 작업 영역에서 폼 컨트롤을 선택하면 오른쪽 창에서 가장 쉽게 카드와 상호 작용할 수 있습니다. 해당 창에 표시할 필드, 각 필드를 표시하는 방법 및 필드를 표시할 순서를 선택할 수 있습니다. 이 예제에서는 **Assets**라고 하는 SharePoint 목록에서 빌드된 앱에 있는 **편집 폼** 컨트롤을 보여줍니다.
+디자인 작업 영역에서 양식 컨트롤을 선택하면 오른쪽 창에서 가장 쉽게 카드와 상호 작용할 수 있습니다. 해당 창에 표시할 필드, 각 필드를 표시하는 방법 및 필드를 표시할 순서를 선택할 수 있습니다. 이 예제에서는 **자산**이라고 하는 SharePoint 목록에서 빌드된 앱에 있는 **편집 양식** 컨트롤을 보여줍니다.
 
 ![첫 번째 화면](./media/working-with-cards/first-screen.png)
 
@@ -45,7 +45,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 ![](./media/working-with-cards/add-security-code.png)
 
 ## <a name="customize-a-card"></a>카드 사용자 지정
-카드는 다른 컨트롤을 구성합니다. **편집 폼** 컨트롤에서 사용자는 **삽입** 탭에서 추가한 표준 **[텍스트 입력](controls/control-text-input.md)** 컨트롤에 데이터를 입력합니다.  
+카드는 다른 컨트롤을 구성합니다. **편집 양식** 컨트롤에서 사용자는 **삽입** 탭에서 추가한 표준 **[텍스트 입력](controls/control-text-input.md)** 컨트롤에 데이터를 입력합니다.  
 
 컨트롤을 제어하여 카드의 모양을 변경하는 방법의 예제를 살펴보겠습니다.
 
@@ -68,7 +68,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 즉시 카드의 가장 중요한 속성 중 하나인 **[DataField](controls/control-card.md)** 속성을 확인합니다. 이 속성은 사용자가 확인하고 이 카드에서 편집할 수 있는 데이터 원본의 필드를 나타냅니다.  
 
-**고급** 탭에서 상단의 배너는 이 카드의 속성이 잠겨있음을 나타냅니다. 또한 잠금 아이콘은 **[DataField](controls/control-card.md)**, **[DisplayName](controls/control-card.md)** 및 **[Required](controls/control-card.md)** 속성 옆에 나타납니다. 오른쪽 창에서는 이러한 수식을 생성했다면 잠금은 이러한 속성을 실수로 변경하지 않도록 방지합니다.
+**고급** 탭에서 상단의 배너는 이 카드의 속성이 잠겨있음을 나타냅니다. 또한 잠금 아이콘은 **[DataField](controls/control-card.md)** , **[DisplayName](controls/control-card.md)** 및 **[Required](controls/control-card.md)** 속성 옆에 나타납니다. 오른쪽 창에서는 이러한 수식을 생성했다면 잠금은 이러한 속성을 실수로 변경하지 않도록 방지합니다.
 
 ![](./media/working-with-cards/lock-icons.png)
 
@@ -76,7 +76,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 ![](./media/working-with-cards/unlocked-card.png)
 
-**[DisplayName](controls/control-card.md)** 을 수정하여 **Asset**과 **ID** 간에 공백을 만들겠습니다. 이렇게 변경하여 생성된 내용을 변경하고 있습니다.  오른쪽 창의 이 카드에는 다른 레이블이 있습니다.
+**[DisplayName](controls/control-card.md)** 을 수정하여 **자산**과 **ID** 간에 공백을 만들겠습니다. 이렇게 변경하여 생성된 내용을 변경하고 있습니다.  오른쪽 창에서 이 카드에는 다른 레이블이 있습니다.
 
 ![](./media/working-with-cards/change-display-name.png)
 
@@ -101,7 +101,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 이제 이미지를 확인하고 해당 URL을 편집할 수 있습니다. **Parent.Default**를 **Image** 속성으로 사용했지만 사용자가 URL을 변경한 경우 업데이트되지 않습니다.
 
-이 앱의 두 번째 화면에서 동일한 작업을 수행할 수 있습니다. 여기서 **표시 폼** 컨트롤을 사용하여 레코드의 세부 정보를 표시합니다. 이 경우에 사용자가 해당 화면에서 URL을 편집하지 않기 때문에 레이블을 숨기는 것이 좋습니다(카드가 아닌 레이블의 **Visible** 속성을 **false**로 설정).
+이 앱의 두 번째 화면에서 동일한 작업을 수행할 수 있습니다. 여기서 **표시 양식** 컨트롤을 사용하여 레코드의 세부 정보를 표시합니다. 이 경우에 사용자가 해당 화면에서 URL을 편집하지 않기 때문에 레이블을 숨기는 것이 좋습니다(레이블의 **Visible** 속성을 카드가 아닌 **false**로 설정).
 
 ![](./media/working-with-cards/show-image-display.png)
 
@@ -136,7 +136,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 
 ![](./media/working-with-cards/dissect-card1.png)
 
-이 그래픽에서 데이터 카드 내의 컨트롤 레이블이 지정 되어 있습니다.
+이 그래픽에서 데이터 카드 내의 컨트롤에는 레이블이 지정 되어 있습니다.
 
 ![](./media/working-with-cards/dissect-card2.png)
 
@@ -159,7 +159,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 | **TextErrorMessage.Text** |**Parent.Error** |유효성 검사 문제가 발생한 경우 카드의 **오류** 속성은 해당 오류 메시지를 제공합니다. |
 
 > [!NOTE]
-> 합니다 **Parent.Error** 속성이 수식을 사용 하 여 설정할 수 없는 출력 전용 속성입니다. 이 속성 또는 왼쪽 위 모서리 근처에서 속성 목록에 나타나지는 따라서 합니다 **속성** 하거나 **고급** 탭 오른쪽 가장자리 근처 합니다. 수식 입력줄에서 속성을 참조할 수는 수식을 작성 하는 경우이 속성을 제안 합니다.
+> **Parent. Error** 속성은 수식을 사용 하 여 설정할 수 없는 출력 전용 속성입니다. 따라서이 속성은 왼쪽 위 모퉁이 근처의 속성 또는 오른쪽 가장자리 근처의 **속성** 또는 **고급** 탭에 있는 속성 목록에 표시 되지 않습니다. 속성을 참조 하는 수식을 작성 하는 경우 수식 입력줄에서이 속성을 제안 합니다.
 
 이러한 컨트롤에서 정보를 끌어오고 다시 데이터 원본에 푸시하기 위해 다음 키 수식이 필요합니다.
 

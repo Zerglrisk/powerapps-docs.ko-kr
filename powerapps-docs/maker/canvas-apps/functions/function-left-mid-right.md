@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 11/07/2015
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ca4fbaf18d7fa993a28f5cbb70f317b4ef5d42fd
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 81220ab8df16dcea74dbdc9db48e692e379e1b4d
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61563663"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992597"
 ---
 # <a name="left-mid-and-right-functions-in-powerapps"></a>PowerApps의 Left, Mid 및 Right 함수
 텍스트 문자열의 왼쪽, 가운데 또는 오른쪽 부분을 추출합니다.
@@ -39,13 +39,13 @@ ms.locfileid: "61563663"
 
 * *String* - 필수 항목이며, 결과를 추출할 문자열입니다.
 * *StartingPosition* - 필수 항목(**Mid** 전용)이며,  시작 위치입니다.  문자열의 첫 번째 문자는 위치 1입니다.
-* *NumberOfCharacters* -필수 항목 (**왼쪽** 하 고 **오른쪽** 만).  반환할 문자 수입니다.  에 대 한 생략 된 **Mid** 함수의 경우 함수 반환 부분 시작 위치에서 문자열의 끝까지.
+* *Numberofcharacters* -필수 (**왼쪽** 및 **오른쪽** 만)입니다.  반환할 문자 수입니다.  **Mid** 함수에서 생략 된 경우 함수는 문자열의 끝까지 시작 위치에서 부분을 반환 합니다.
 
 **Left**( *SingleColumnTable*, *NumberOfCharacters* )<br>**Mid**( *SingleColumnTable*, *StartingPosition*, *NumberOfCharacters* )<br>**Right**( *SingleColumnTable*, *NumberOfCharacters* )
 
 * *SingleColumnTable* - 필수 항목입니다. 결과를 추출할 문자열의 단일 열 테이블입니다.
 * *StartingPosition* - 필수 항목(**Mid** 전용)이며,  시작 위치입니다.  문자열의 첫 번째 문자는 위치 1입니다.
-* *NumberOfCharacters* -필수 항목 (**왼쪽** 하 고 **오른쪽** 만).  반환할 문자 수입니다.  에 대 한 생략 된 **Mid** 함수의 경우 함수 반환 부분 시작 위치에서 문자열의 끝까지.
+* *Numberofcharacters* -필수 (**왼쪽** 및 **오른쪽** 만)입니다.  반환할 문자 수입니다.  **Mid** 함수에서 생략 된 경우 함수는 문자열의 끝까지 시작 위치에서 부분을 반환 합니다.
 
 ## <a name="examples"></a>예
 ### <a name="single-string"></a>단일 문자열
@@ -55,7 +55,7 @@ ms.locfileid: "61563663"
 | --- | --- | --- |
 | **Left( Author.Text, 5 )** |문자열의 시작 부분에서 최대 5개 문자를 추출합니다. |"E. E." |
 | **Mid( Author.Text, 7, 4 )** |문자열에서 7번째 문자부터 최대 4개 문자를 추출합니다. |"Cumm" |
-| **Mid( Author.Text, 7 )** |문자열에서 7 번째 문자로 시작 하는 모든 문자를 추출 합니다. |"" |
+| **중간 (만든이, 텍스트 7)** |문자열에서 일곱 번째 문자부터 시작 하 여 모든 문자를 추출 합니다. |"Cummings" |
 | **Right( Author.Text, 5 )** |문자열의 끝 부분에서 최대 5개 문자를 추출합니다. |"mings" |
 
 ### <a name="single-column-table"></a>단일 열 테이블

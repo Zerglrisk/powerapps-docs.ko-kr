@@ -1,28 +1,28 @@
 ---
 title: 캔버스 앱용 온-프레미스 데이터 게이트웨이 이해 | Microsoft Docs
 description: PowerApps의 설치 및 문제 해결을 포함한 온-프레미스 데이터 게이트웨이에 대한 참조 정보
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 10/20/2017
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 095496aba49f722d439960a25242153b9daea382
-ms.sourcegitcommit: ea3ab5926541c60a9e7c17f52f937c9812d48c71
+ms.openlocfilehash: 4ac1df1d6a2901345436b899e3c7088f746eb2aa
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/05/2019
-ms.locfileid: "70310044"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71983331"
 ---
 # <a name="understand-on-premises-data-gateways-for-canvas-apps"></a>캔버스 앱용 온-프레미스 데이터 게이트웨이 이해
 ## <a name="installation-and-configuration"></a>설치 및 구성
-**필수 구성 요소**
+**필수 조건**
 
 최소:
 
@@ -91,14 +91,16 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 결과는 다음 예와 유사해야 합니다. **TcpTestSucceeded**가 **True**가 아니면 방화벽에 의해 차단될 수 있습니다.
 
-    ComputerName           : watchdog.servicebus.windows.net
-    RemoteAddress          : 70.37.104.240
-    RemotePort             : 5672
-    InterfaceAlias         : vEthernet (Broadcom NetXtreme Gigabit Ethernet - Virtual Switch)
-    SourceAddress          : 10.120.60.105
-    PingSucceeded          : False
-    PingReplyDetails (RTT) : 0 ms
-    TcpTestSucceeded       : True
+```
+ComputerName           : watchdog.servicebus.windows.net
+RemoteAddress          : 70.37.104.240
+RemotePort             : 5672
+InterfaceAlias         : vEthernet (Broadcom NetXtreme Gigabit Ethernet - Virtual Switch)
+SourceAddress          : 10.120.60.105
+PingSucceeded          : False
+PingReplyDetails (RTT) : 0 ms
+TcpTestSucceeded       : True
+```
 
 완전하게 보려면 **ComputerName** 및 **Port** 값을 이 항목 뒷부분에 있는 **포트 구성**에 나열된 값으로 대체합니다.
 
@@ -117,15 +119,15 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 
 게이트웨이에서 사용되는 정규화된 도메인 이름 목록은 다음과 같습니다.
 
-| 도메인 이름 | 아웃바운드 포트 | Description |
+| 도메인 이름 | 아웃바운드 포트 | 설명 |
 | --- | --- | --- |
-| *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
+| *.analysis.windows.net |443 |HTTP |
+| *.login.windows.net |443 |HTTP |
 | *.servicebus.windows.net |5671-5672 |AMQP(고급 메시지 큐 프로토콜) |
 | *.servicebus.windows.net |443, 9350-9354 |TCP를 통한 Service Bus Relay의 수신기(Access Control 토큰 획득에는 443 필요) |
-| *.frontend.clouddatahub.net |443 |HTTPS |
-| *.core.windows.net |443 |HTTPS |
-| \* login.microsoftonline.com |443 |HTTPS |
+| *.frontend.clouddatahub.net |443 |HTTP |
+| *.core.windows.net |443 |HTTP |
+| \* login.microsoftonline.com |443 |HTTP |
 | *.msftncsi.com |443 |게이트웨이가 Power BI 서비스에서 연결할 수 없는 경우 인터넷 연결을 테스트하는 데 사용됩니다. |
 
 **로그인 계정**
@@ -145,7 +147,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 테넌트 관리자가 다른 사용자가 설치 및 구성한 모든 게이트웨이를 관리할 수 있는 단일 장소는 없습니다.  테넌트 관리자인 경우 설치할 모든 게이트웨이에 관리자로 추가하도록 조직의 사용자에게 요청하는 것이 좋습니다. 이렇게 하면 게이트웨이 설정 페이지를 통해 또는 [PowerShell 명령](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)을 통해 조직의 모든 게이트웨이를 관리할 수 있습니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
-#### <a name="general"></a>일반
+#### <a name="general"></a>범주로
 **지원부** 게이트웨이가 지 원하는 데이터 원본은 무엇 인가요?  
 **대답할** 이 항목을 작성할 때:
 
@@ -154,7 +156,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 * Oracle
 * Informix
 * Filesystem
-* DB2
+* 용
 
 **지원부** SQL Azure와 같은 클라우드의 데이터 원본에 대 한 게이트웨이가 필요 한가요?  
 **대답할** 아니요. 게이트웨이는 온-프레미스 데이터 원본에만 연결됩니다.
@@ -211,7 +213,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 데이터 원본에 쿼리 추적을 위해 포함된 도구를 볼 수도 있습니다. 예를 들어 SQL Server 및 Analysis Services용 확장 이벤트 또는 SQL 프로파일러를 사용할 수 있습니다.
 
 ## <a name="how-the-gateway-works"></a>게이트웨이 작동 방식
-![작동 방법](./media/gateway-reference/gateway-arch.png)
+![작동 방식](./media/gateway-reference/gateway-arch.png)
 
 사용자가 온-프레미스 데이터 원본에 연결된 요소와 상호 작용할 때:  
 
@@ -231,7 +233,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 #### <a name="update-to-the-latest-version"></a>최신 버전으로 업데이트
 게이트웨이 버전이 만료되면 많은 문제가 발생할 수 있습니다.  최신 버전을 사용 중인지 확인하는 것이 가장 좋습니다.  한 달 이상 게이트웨이를 업데이트하지 않은 경우 최신 버전의 게이트웨이를 설치하고 문제를 재현할 수 있는지 확인하는 것이 좋습니다.
 
-#### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>오류: 사용자를 그룹에 추가 하지 못했습니다.  (-2147463168   PBIEgwService   Performance Log Users   )
+#### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>메시지가 사용자를 그룹에 추가 하지 못했습니다.  (-2147463168   PBIEgwService   Performance Log Users   )
 지원되지 않는 도메인 컨트롤러에 게이트웨이 설치하려는 경우 이 오류가 발생할 수 있습니다. 도메인 컨트롤러가 아닌 컴퓨터에 게이트웨이를 배포해야 합니다.
 
 ## <a name="tools"></a>도구

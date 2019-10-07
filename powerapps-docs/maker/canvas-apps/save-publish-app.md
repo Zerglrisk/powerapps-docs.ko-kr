@@ -1,24 +1,24 @@
 ---
 title: 캔버스 앱 저장 및 게시 | Microsoft Docs
 description: 앱 작성자를 위한 캔버스 앱 저장 및 게시에 대한 단계별 지침
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 09/14/2017
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c255daf93cdb4807572f1a663c7bb87be0bb39e1
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 19d793b879d42e9446cc8ad366bc08879162185d
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61536727"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71995770"
 ---
 # <a name="save-and-publish-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 저장 및 게시
 캔버스 앱에 대한 변경 내용을 저장할 때마다 사용자와 앱을 편집할 수 있는 권한이 있는 다른 모든 사람에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.
@@ -60,6 +60,6 @@ PowerApps는 정기적으로 2분마다 앱을 저장할 수 있습니다. 앱�
 최신 버전을 게시하려면 **이 버전 게시**를 클릭하거나 누른 다음 **게시** 대화 상자에서 **이 버전 게시**를 클릭하거나 누릅니다.
 
 ## <a name="next-steps"></a>다음 단계
-* 찾기 및 앱 실행을 [브라우저](../../user/run-app-browser.md) 또는 [phone](../../user/run-app-client.md)합니다.
+* [브라우저나](../../user/run-app-browser.md) [휴대폰](../../user/run-app-client.md)에서 앱을 찾아서 실행 합니다.
 * powerapps.com에서 [앱 이름 바꾸기](set-name-tile.md)
 * 앱의 여러 버전이 있는 경우 [앱 복원](restore-an-app.md)

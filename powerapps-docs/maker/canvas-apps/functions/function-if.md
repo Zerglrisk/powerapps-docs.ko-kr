@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 04/24/2017
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 40ac3089d3563d220ddac29197b0902f4de88a25
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: ff143e9d73de25b5ba2c0076fc4b02d5f101a85b
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61562902"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71984755"
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>PowerApps의 If 및 Switch 함수
 집합의 조건이 참 인지(**If**) 또는 수식의 결과가 집합의 값과 일치하는지(**Switch**) 확인한 다음, 결과를 반환하거나 작업을 실행합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "61562902"
 ## <a name="syntax"></a>구문
 **If**( *Condition*, *ThenResult* [, *DefaultResult* ] )<br>**If**( *Condition1*, *ThenResult1* [, *Condition2*, *ThenResult2*, ... [ , *DefaultResult* ] ] )
 
-* *Condition(s)* - 필수 항목입니다. **true**가 있는지 테스트할 수식입니다. 이러한 수식에는 일반적으로 비교 [연산자](operators.md)(예: **<**, **>** 및 **=**)와 **[IsBlank](function-isblank-isempty.md)** 및 **[IsEmpty](function-isblank-isempty.md)** 와 같은 테스트 함수가 포함됩니다.
+* *Condition(s)* - 필수 항목입니다. **true**가 있는지 테스트할 수식입니다. 이러한 수식에는 일반적으로 비교 [연산자](operators.md)(예: **<** , **>** 및 **=** )와 **[IsBlank](function-isblank-isempty.md)** 및 **[IsEmpty](function-isblank-isempty.md)** 와 같은 테스트 함수가 포함됩니다.
 * *ThenResult(s)* - 필수 항목입니다. **true**로 평가되는 조건에 대해 반환할 해당 값입니다.
 * *DefaultResult* - 선택 항목입니다. **true**로 평가되는 조건이 없는 경우 반환할 값입니다.  이 인수를 지정하지 않으면 *공백*이 반환됩니다.
 

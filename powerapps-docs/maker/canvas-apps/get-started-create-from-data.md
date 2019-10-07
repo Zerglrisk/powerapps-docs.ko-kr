@@ -1,24 +1,24 @@
 ---
 title: Excel에서 캔버스 앱 생성 | Microsoft Docs
 description: PowerApps를 사용하여 클라우드 스토리지 계정에 저장된 Excel 파일을 사용하는 캔버스 앱을 자동으로 생성
-author: AFTOwen
+author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
 ms.date: 01/14/2019
-ms.author: anneta
+ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7ab85f09ebf88c30b35c963242895cd74ca6a966
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 576e61e6e4ea1aad317fdec8f49f76bfcd1e0b6a
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61555042"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71990255"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>PowerApps의 Excel에서 캔버스 앱 생성
 
@@ -39,7 +39,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
-1. **나만의 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **만들기**를 선택합니다.
+1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 선택합니다.
 
     ![앱 만들기 옵션](./media/get-started-create-from-data/start-from-data.png)
 
@@ -67,21 +67,21 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 1. 검색 창에서 하나 이상의 문자를 입력하거나 붙여넣어 목록을 필터링합니다.
 
-    예를 들어, 입력 하거나 붙여 넣습니다 **Honey** 문자열 제품의 이름, 범주 또는 개요에 표시 되는지는 대 한 유일한 레코드를 표시 합니다.
+    예를 들어 제품 이름, 범주 또는 개요에 해당 문자열이 표시 되는 레코드만 표시 하려면 **허니** 를 입력 하거나 붙여 넣습니다.
 
     ![필터 예제](./media/get-started-create-from-data/filter-example.png)
 
-1. 레코드를 추가 합니다.
+1. 레코드 추가:
 
     1. 더하기 아이콘을 선택 합니다.
 
         ![더하기 아이콘](./media/get-started-create-from-data/plus-icon.png)
 
-    1. 원하는 모든 데이터를 추가 하 고 변경 내용을 저장 하려면 확인 표시 아이콘을 선택 합니다.
+    1. 원하는 모든 데이터를 추가한 다음 확인 표시 아이콘을 선택 하 여 변경 내용을 저장 합니다.
 
         ![저장 아이콘](./media/get-started-create-from-data/save-icon.png)
 
-1. 레코드를 편집 합니다.
+1. 레코드 편집:
 
     1. 편집 하려는 레코드의 화살표를 선택 합니다.
 
@@ -91,15 +91,15 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
         ![연필 아이콘](./media/get-started-create-from-data/pencil-icon.png)
 
-    1. 하나 이상의 필드를 업데이트 하 고 변경 내용을 저장 하려면 확인 표시 아이콘을 선택 합니다.
+    1. 하나 이상의 필드를 업데이트 한 다음 확인 표시 아이콘을 선택 하 여 변경 내용을 저장 합니다.
 
         ![저장 아이콘](./media/get-started-create-from-data/save-icon.png)
 
-        대신 변경 내용을 취소 하려면 취소 아이콘을 선택 합니다.
+        또는 취소 아이콘을 선택 하 여 변경 내용을 취소 합니다.
 
-1. 레코드를 삭제 합니다.
+1. 레코드 삭제:
 
-    1. 삭제 하려는 레코드에 대 한 다음 화살표를 선택 합니다.
+    1. 삭제할 레코드에 대 한 다음 화살표를 선택 합니다.
 
         ![다음 화살표](./media/get-started-create-from-data/next-arrow.png)
 
@@ -109,7 +109,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 ## <a name="next-steps"></a>다음 단계
 
-사용자의 요구 사항에 맞게 기본 찾아보기 화면을 사용자 지정합니다. 예를 들어, 정렬 하 고 범주 나 개요 아닌 제품 이름만으로 목록을 필터링 수 있습니다.
+사용자의 요구 사항에 맞게 기본 찾아보기 화면을 사용자 지정합니다. 예를 들어 범주 또는 개요가 아닌 제품 이름 으로만 목록을 정렬 하 고 필터링 할 수 있습니다.
 
 > [!div class="nextstepaction"]
 > [기본 찾아보기 화면을 사용자 지정합니다](customize-layout-sharepoint.md).

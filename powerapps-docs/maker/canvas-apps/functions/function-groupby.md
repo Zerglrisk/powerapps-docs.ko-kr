@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 04/26/2016
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5752781cf99a538d76e9dd9197aa4f8b8abce53e
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 6354862823122d332c7e70fba08829d3fc8147eb
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61563548"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71985046"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.
@@ -37,7 +37,7 @@ ms.locfileid: "61563548"
 그룹화를 기반으로 결과를 집계할 수도 있습니다.
 
 * **GroupBy** 함수를 사용합니다.
-* **[Sum](function-aggregates.md)**, **[Average](function-aggregates.md)** 및 기타 집계 함수와 함께 **[AddColumns](function-table-shaping.md)** 함수를 사용하여 그룹 테이블의 집계인 새 열을 추가합니다.
+* **[Sum](function-aggregates.md)** , **[Average](function-aggregates.md)** 및 기타 집계 함수와 함께 **[AddColumns](function-table-shaping.md)** 함수를 사용하여 그룹 테이블의 집계인 새 열을 추가합니다.
 * **[DropColumns](function-table-shaping.md)** 함수를 사용하여 그룹 테이블을 삭제합니다.
 
 **Ungroup**은 **GroupBy**에 공급된 레코드의 원래 순서를 유지하려고 합니다.  이것이 항상 가능하지는 않습니다(예: 원래 테이블에 *공백* 레코드가 있는 경우).

@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 11/07/2015
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 869c0fcff6e519281e527c832305d74f2e7fd78f
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: efd6e2cdea45f511a545ccfe2f38309bdf622110
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61551241"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71985234"
 ---
 # <a name="date-and-time-functions-in-powerapps"></a>PowerApps의 Date 및 Time 함수
 날짜 및 시간 구성 요소를 날짜/시간 값으로 변환합니다.
@@ -32,7 +32,7 @@ ms.locfileid: "61551241"
 
 **Time** 함수는 개별 시, 분, 초 값을 날짜/시간 값으로 변환합니다.  결과에는 연관된 날짜가 없습니다.
 
-문자열을 값으로 변환하는 방법에 대한 자세한 내용은 **[DateValue](function-datevalue-timevalue.md)**, **[TimeValue](function-datevalue-timevalue.md)** 및 **[DateTimeValue](function-datevalue-timevalue.md)** 함수를 참조하세요.  
+문자열을 값으로 변환하는 방법에 대한 자세한 내용은 **[DateValue](function-datevalue-timevalue.md)** , **[TimeValue](function-datevalue-timevalue.md)** 및 **[DateTimeValue](function-datevalue-timevalue.md)** 함수를 참조하세요.  
 
 [날짜 및 시간 작업](../show-text-dates-times.md)에서도 자세한 내용을 참조하세요.
 

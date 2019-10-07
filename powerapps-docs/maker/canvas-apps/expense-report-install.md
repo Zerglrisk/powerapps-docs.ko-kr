@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: sample
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 04/08/2018
 ms.author: yijw
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4f3ad6f91a7870a84cf5aa74cb49d2f5705f2a31
-ms.sourcegitcommit: 9ec2853aec74e92ccd1e4a7ca54707cdf8b8cdd3
+ms.openlocfilehash: bca1fb3760727278e42676c9f0a5ec501f9002e0
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "65535289"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71985780"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
@@ -34,7 +34,7 @@ ms.locfileid: "65535289"
 ![경비 보고서 PowerApps 시작 화면](./media/expense-report-install/expense-report-powerapp.png)
 
 > [!TIP]
-> 경비 보고서 샘플을 사용하는 방법을 보려면 [이](https://youtu.be/h6E9cdrOvMU) 비디오를 시청하세요.
+> 경비 보고서 샘플을 사용하는 방법을 보려면 [이](https://youtu.be/kJXZPILfbwU) 비디오를 시청하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 

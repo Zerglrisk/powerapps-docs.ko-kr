@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/21/2015
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a1a9a02917ed5202e24ce0228b8b581e2f45b8b9
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: dbf1c623b18bc244e62fd962625f1d7cde35f1e4
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61520709"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992440"
 ---
 # <a name="revert-function-in-powerapps"></a>PowerApps의 Revert 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 새로 고치고 오류를 지웁니다.
@@ -46,13 +46,13 @@ ms.locfileid: "61520709"
 다른 디바이스의 사용자가 **Strawberry** 레코드의 **Quantity** 속성을 **400**으로 변경합니다.  같은 시간에 다른 변경을 모르는 상태에서 같은 레코드의 동일한 속성을 **500**으로 변경합니다.
 
 **[Patch](function-patch.md)** 함수를 사용하여 레코드를 업데이트합니다.<br>
-**Patch( IceCream, First( Filter( IceCream, Flavor = "Strawberry" ) ), { Quantity: 500 } )**
+**Patch (IceCream, First (Filter (IceCream, 특색 = "Strawberry")), {Quantity: 500})**
 
 **[Errors](function-errors.md)** 테이블을 확인하고 오류를 찾습니다.
 
 | 레코드 | [열](../working-with-tables.md#columns) | 메시지 | 오류 |
 | --- | --- | --- | --- |
-| **{ ID: 1, 버전: "딸기", Quantity: 300 }** |*공백* |**"수정하려는 레코드를 다른 사용자가 수정했습니다.  레코드를 되돌린 후 다시 시도하십시오."** |**ErrorKind.Conflict** |
+| **{ID: 1, 버전: "Strawberry", 수량: 300}** |*공백* |**"수정하려는 레코드를 다른 사용자가 수정했습니다.  레코드를 되돌린 후 다시 시도하십시오."** |**ErrorKind.Conflict** |
 
 **오류** 열에 따라 **[OnSelect](../controls/properties-core.md)** 속성이 다음 수식으로 설정된 **다시 설정** 단추가 있습니다.<br>
 **Revert( IceCream, First( Filter( IceCream, Flavor = "Strawberry" ) ) )**

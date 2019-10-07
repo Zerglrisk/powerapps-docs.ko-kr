@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 06/02/2015
 ms.author: aorth
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a557c73863dc25acb69627b51613e6e25f229bdb
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 3a25654f0304fce9978ae1f7b1410cfb557ef32c
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63318355"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71995588"
 ---
 # <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 데이터 표시, 정렬 및 필터링
 갤러리를 만들어 여러 제품에 대한 이미지와 텍스트를 표시하고 해당 정보를 정렬 및 필터링합니다.
@@ -43,7 +43,7 @@ ms.locfileid: "63318355"
       
       ![][1]  
    2. 가져오기 컨트롤의 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
-      **Collect(Inventory, Import1.Data)**
+      **Collect (Inventory, Import1)**
       
       ![][12]  
    3. **데이터 가져오기** 단추를 선택하여 Windows 탐색기를 엽니다. *CreateFirstApp.zip*을 선택하고 **열기**를 선택합니다.
@@ -79,7 +79,7 @@ ms.locfileid: "63318355"
    > 
    > 
 8. 레이블의 **[Text](controls/properties-core.md)** 속성을 다음 식으로 설정합니다.  
-    **ThisItem.UnitsInStock** <br/>
+    **ThisItem. UnitsInStock** <br/>
    
     이렇게 하면 레이블에 각 제품의 재고 단위가 표시됩니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "63318355"
    ![][10]  
 6. **도형** 탭에서 **테두리 표시**를 선택한 다음, 수식 입력줄에 다음 수식을 입력합니다.  
    
-    **If(ThisItem.IsSelected, true)**
+    **If (ThisItem. IsSelected, true)**
    
     파란색 사각형이 갤러리에서 현재 선택한 항목을 둘러쌉니다. 몇 가지 갤러리 항목을 선택하여 선택한 각 항목 주위에 사각형이 표시되는지 확인합니다. 또한 **미리 보기** ![][2]를 열어 만들고 있는 항목을 보고 테스트할 수도 있습니다.
 

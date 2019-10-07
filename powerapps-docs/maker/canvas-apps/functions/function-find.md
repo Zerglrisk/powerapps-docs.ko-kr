@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 11/07/2015
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 04f257b40e778d3611203f2bdc17aad5554a4ac6
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: fbdd29ed1757301f076ab6bebea548fcd7a963cc
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61551034"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71984950"
 ---
 # <a name="find-function-in-powerapps"></a>PowerApps의 Find 함수
 다른 문자열 내에 텍스트 문자열이 있으면 찾습니다.

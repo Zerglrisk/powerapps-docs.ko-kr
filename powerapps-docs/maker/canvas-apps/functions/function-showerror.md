@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 06/05/2018
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3ceb6e0bcac83bbd79d78dac859a7ddb7acf42a8
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 5e18b64910bbc7efca8c460100163e1a0716a089
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61519771"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992149"
 ---
 # <a name="notify-function-in-powerapps"></a>PowerApps의 Notify 함수
 사용자에게 배너 메시지를 표시합니다.
@@ -45,7 +45,7 @@ PowerApps에서는 **Notify**와 완전히 다른 메커니즘을 사용하여 �
 
 **Notify**는 항상 *true*를 반환합니다.
 
-참고: 이 함수가 이전에 이름이 **ShowError** 경우 오류 메시지를 표시만 수 없습니다.
+두고 이 함수는 오류 메시지만 표시할 수 있는 경우 이전에 **Showerror** 로 이름이 지정 되었습니다.
 
 ## <a name="syntax"></a>구문
 **Notify**( *Message*, [ *NotificationType* ] )

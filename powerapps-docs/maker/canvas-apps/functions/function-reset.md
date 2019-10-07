@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 07/06/2017
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9c032c237018fbd564dd1143f20951dfb42d9795
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 4ab24458c1ce98c6b499bf2ba05d682568938079
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61520470"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71984059"
 ---
 # <a name="reset-function-in-powerapps"></a>PowerApps의 Reset 함수
 사용자 변경 내용을 삭제하면서 해당 기본값에 대한 컨트롤을 다시 설정합니다.  

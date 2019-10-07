@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 07/24/2017
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5d7443358216106776fae0d5daedb69b8091a00c
-ms.sourcegitcommit: 39b32abb19ad9fae98ca986ded6974bcbbb3cea7
+ms.openlocfilehash: 510e52e5f1711362116809d0870daafb32c9f266
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68473968"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71992168"
 ---
 # <a name="endswith-and-startswith-functions-in-powerapps"></a>PowerApps의 EndsWith 및 StartsWith 함수
 텍스트 문자열이 다른 텍스트 문자열로 시작되거나 끝나는지 테스트합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "68473968"
 
 이 데이터 원본을 컬렉션으로 만들려면 **[Button](../controls/control-button.md)** 컨트롤을 만들고 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
-**ClearCollect (Customers, Table ({Name: "Fred 가르시아 섬", 회사: "Northwind Traders"}, {이름: "Cole", 회사: "Contoso"}, {Name: "글 록 enda Johnson", 회사: "Contoso"}, {Name: "Mike Collins", 회사: "놀이 Works"}, {Name: "Colleen Jones", 회사: "어드벤처"})**
+**ClearCollect (Customers, Table ({Name: "Fred 가르시아 섬", 회사: "Northwind Traders"}, {이름: "Cole", 회사: "Contoso"}, {Name: "글 록 enda Johnson", 회사: "Contoso"}, {Name: "Mike Collins", 회사: "놀이 Works"}, {Name: "Colleen Jones", 회사: "놀이 Works"})**
 
 이 예제에서와 같이 화면 하단의 [**갤러리 컨트롤**](../controls/control-gallery.md)에 레코드 목록을 표시할 수 있습니다. 사용자가 관심 있는 레코드를 지정할 수 있도록 화면 맨 위 가까이에 **SearchInput**이라는 [**텍스트 입력**](../controls/control-text-input.md) 컨트롤을 추가합니다.
 

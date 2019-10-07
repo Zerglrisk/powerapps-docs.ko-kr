@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 06/17/2019
 ms.author: yingchin
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c0926c2c38adac6b3377de9a87eef4dd7d7a7cf7
-ms.sourcegitcommit: 9c4d95eeace85a3e91a00ef14fefe7cce0af69ec
+ms.openlocfilehash: 9943678815b53df048ad197e3cdcbd56f4070fa3
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349820"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71995793"
 ---
 # <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
 Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상을 위해 최선을 다합니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.
@@ -32,7 +32,7 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 ## <a name="limit-data-connections"></a>데이터 연결 제한 
 **동일한 앱에서 30개를 초과하는 데이터 원본에 연결하지 마세요**. 앱은 새로운 사용자가 각 커넥터에 로그인하도록 유도하므로 모든 추가 커넥터는 앱 시작 시간을 늘립니다. 앱을 실행하면 앱이 해당 소스의 데이터를 요청할 때 각 커넥터는 CPU 리소스, 메모리 및 네트워크 대역폭이 필요합니다. 
 
-앱을 실행하는 동안 [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 개발자 도구를 사용하도록 설정하여 앱의 성능을 빠르게 측정할 수 있습니다. 앱이 더 자주 Common Data Service, Azure SQL, SharePoint 및 OneDrive에서 Excel 같은 30 개 이상의 데이터 원본에서 데이터를 요청 하는 경우 데이터를 반환 하는 데 15 초 보다 오래 걸리기 때문입니다.  
+앱을 실행하는 동안 [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 개발자 도구를 사용하도록 설정하여 앱의 성능을 빠르게 측정할 수 있습니다. 앱은 Common Data Service, Azure SQL, SharePoint 및 OneDrive의 Excel과 같은 30 개 이상의 데이터 원본에서 데이터를 자주 요청 하는 경우 데이터를 반환 하는 데 15 초 보다 더 오래 걸릴 가능성이 높습니다.  
 
 ## <a name="limit-the-number-of-controls"></a>컨트롤 수 제한 
 **동일한 앱에 500개를 초과하는 컨트롤을 추가하지 마세요**. PowerApps는 각 컨트롤을 렌더링하는 HTML DOM을 생성합니다. 추가하는 컨트롤이 많을수록 PowerApps에 필요한 생성 시간이 늘어납니다. 
@@ -46,10 +46,12 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 
 **동시** 함수가 없으면 이 수식은 한 번에 하나씩 4개의 테이블을 로드합니다.
 
-    ClearCollect( Product, '[SalesLT].[Product]' );
-    ClearCollect( Customer, '[SalesLT].[Customer]' );
-    ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' );
-    ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )
+```
+ClearCollect( Product, '[SalesLT].[Product]' );
+ClearCollect( Customer, '[SalesLT].[Customer]' );
+ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' );
+ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' )
+```
 
 브라우저용 개발자 도구에서 이 동작을 확인할 수 있습니다.
 
@@ -57,12 +59,14 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
     
 **동시** 함수에 동일한 수식을 묶어서 작업에 필요한 전체 시간을 줄일 수 있습니다.
 
-    Concurrent( 
-        ClearCollect( Product, '[SalesLT].[Product]' ),
-        ClearCollect( Customer, '[SalesLT].[Customer]' ),
-        ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' ),
-        ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' ))
-        
+```
+Concurrent( 
+    ClearCollect( Product, '[SalesLT].[Product]' ),
+    ClearCollect( Customer, '[SalesLT].[Customer]' ),
+    ClearCollect( SalesOrderDetail, '[SalesLT].[SalesOrderDetail]' ),
+    ClearCollect( SalesOrderHeader, '[SalesLT].[SalesOrderHeader]' ))
+```
+
 이렇게 변경하면 앱이 테이블을 병렬로 가져옵니다. 
 
 ![병렬 ClearCollect](./media/performance-tips/perfconcurrent2.png)  
@@ -70,20 +74,22 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 ## <a name="cache-lookup-data"></a>조회 데이터 캐시
 **Set** 함수를 사용하여 소스에서 데이터를 반복적으로 검색하지 않도록 조회 테이블의 데이터를 로컬에 캐시합니다. 이 기술은 세션 중에 데이터가 변경되지 않을 가능성이 있는 경우 성능을 최적화합니다. 이 예에서와 같이 데이터는 소스에서 한 번 검색된 다음, 사용자가 앱을 닫을 때까지 로컬로 참조됩니다. 
 
-    Set(CustomerOrder, Lookup(Order, id = “123-45-6789”));
-    Set(CustomerName, CustomerOrder.Name);
-    Set(CustomerAddress, CustomerOrder.Address);
-    Set(CustomerEmail, CustomerOrder.Email);
-    Set(CustomerPhone, CustomerOrder.Phone);
+```
+Set(CustomerOrder, Lookup(Order, id = “123-45-6789”));
+Set(CustomerName, CustomerOrder.Name);
+Set(CustomerAddress, CustomerOrder.Address);
+Set(CustomerEmail, CustomerOrder.Email);
+Set(CustomerPhone, CustomerOrder.Phone);
+```
 
 연락처 정보는 자주 변경되지 않으면 기본값과 사용자 정보도 변경되지 않습니다. 따라서 일반적으로 이 기술을 **기본값** 및 **사용자** 함수와 함께 사용할 수도 있습니다. 
 
 ## <a name="avoid-controls-dependency-between-screens"></a>화면 간 컨트롤 종속성 방지
-성능 향상을 위해 앱의 화면은 필요할 때만 메모리에 로드 됩니다. 예를 들어 화면 1 로드 되 고 해당 수식 중 하나로 2 화면에서 컨트롤의 속성을 사용 하는 경우이 최적화를 방해 수 있습니다. 이제 화면 2 1 화면을 표시 하려면 먼저 종속성을 충족 하려면 로드 되어야 합니다. 화면 2에는에 대 한 종속성 화면 3, 4, 화면 및 등의 다른 종속성이 있는 한다고 가정 합니다. 이 종속성 체인 로드 되도록 여러 화면이 발생할 수 있습니다.
+성능을 향상 시키기 위해 응용 프로그램의 화면은 필요할 때만 메모리에 로드 됩니다. 예를 들어 화면 1이 로드 되 고 해당 수식 중 하나에서 화면 2의 컨트롤 속성을 사용 하는 경우이 최적화가 방해를 받을 수 있습니다. 이제 화면 1을 표시 하기 전에 종속성을 충족 하려면 화면 2를 로드 해야 합니다. 화면 2가 화면 4에 종속 되어 있다고 가정 합니다 .이는 화면 4에 다른 종속성이 있습니다. 이 종속성 체인으로 인해 많은 화면이 로드 될 수 있습니다.
 
-이러한 이유로 화면 간의 수식 종속성 하지 마세요. 경우에 따라 화면 간에 정보를 공유 전역 변수 또는 컬렉션을 사용할 수 있습니다.
+이러한 이유로 화면 간의 수식 종속성을 방지 합니다. 경우에 따라 전역 변수 또는 컬렉션을 사용 하 여 화면 간에 정보를 공유할 수 있습니다.
 
-예외가 있습니다. 이전 예제에서 2 화면에서 이동 하 여 1 화면을 표시 하는 유일한 방법은 한다고 가정 합니다. 다음 화면 2는 이미 로드 된 메모리에 화면 1 로드할 때. 추가 작업 없이 화면 2에 대 한 종속성을 충족 해야 하는 하 고 따라서 성능 영향을 주지 않습니다.
+예외가 있습니다. 이전 예제에서 화면 1을 표시 하는 유일한 방법은 화면 2에서 탐색 하는 것입니다. 그러면 화면 1이 로드 될 때 화면 2가 메모리에 이미 로드 된 것입니다. 화면 2에 대 한 종속성을 충족 하기 위해 추가 작업이 필요 하지 않으므로 성능에 영향을 주지 않습니다.
 
 ## <a name="use-delegation"></a>위임 사용
 가능한 경우 처리를 위해 데이터를 로컬 디바이스로 검색하는 대신 데이터 처리를 데이터 원본에 위임하는 함수를 사용합니다. 앱이 로컬로 데이터를 처리해야 하는 경우 작업에 훨씬 더 많은 처리 능력, 메모리 및 네트워크 대역폭이 필요합니다(특히 데이터 집합이 큰 경우).
@@ -103,14 +109,14 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 ## <a name="republish-apps-regularly"></a>앱을 정기적으로 다시 게시
 [앱을 다시 게시](https://powerapps.microsoft.com/blog/republish-your-apps-to-get-performance-improvements-and-additional-features/)(블로그 게시물)하여 PowerApps 플랫폼에서 성능 향상 및 추가 기능을 가져옵니다.
 
-## <a name="avoid-repeating-the-same-formula-in-multiple-places"></a>여러 위치에서 동일한 수식을 반복 방지
-여러 속성 (특히 경우 복잡 한)는 동일한 수식은 실행 하는 경우 한 번 설정 하 고 다음 후속 항목의 첫 번째 속성의 출력을 참조는 것이 좋습니다. 예를 들어, 설정 하지 않은 합니다 **DisplayMode** 같은 복잡 한 수식에 A, B, C, D 및 E 컨트롤의 속성입니다. 대신 집합 A의 **DisplayMode** 속성을 복잡 한 수식, 집합 B의 **DisplayMode** 속성을 A의 결과로 **DisplayMode** C, D 및 E에 대해 속성
+## <a name="avoid-repeating-the-same-formula-in-multiple-places"></a>여러 위치에서 동일한 수식 반복 방지
+여러 속성에 동일한 수식이 실행 되는 경우 (특히 복잡 한 경우), 한 번 설정 하 고 이후 첫 번째 속성의 출력을 참조 하는 것이 좋습니다. 예를 들어 컨트롤 A, B, C, D 및 E의 **DisplayMode** 속성을 동일한 복합 수식으로 설정 하지 마세요. 대신,의 **DisplayMode** 속성을 복잡 한 수식으로 설정 하 고, B의 **DisplayMode** 속성을 **DisplayMode** 속성의 결과로 설정 하 고, C, D 및 E에 대 한 식으로 설정 합니다.
 
-## <a name="enable-delayoutput-on-all-text-input-controls"></a>DelayOutput 모든 텍스트 입력된 컨트롤에서 사용 하도록 설정
-여러 수식 또는 규칙의 값을 참조 하는 경우는 **텍스트 입력** 컨트롤을 **DelayedOutput** 로 해당 컨트롤의 속성입니다. 합니다 **텍스트** 빠르게 연속적으로 입력 한 키 입력 활성화 한 후에 해당 컨트롤의 속성이 업데이트 됩니다. 규칙 또는 수식으로 여러 번 실행 되지 않습니다 및 앱 성능 향상 됩니다.
+## <a name="enable-delayoutput-on-all-text-input-controls"></a>모든 텍스트 입력 컨트롤에서 DelayOutput 사용
+**텍스트 입력** 컨트롤의 값을 참조 하는 수식이 나 규칙이 여러 개 있는 경우 해당 컨트롤의 **delayedoutput** 속성을 true로 설정 합니다. 해당 컨트롤의 **Text** 속성은 빠른 연속에서 입력 한 키 입력이 더 이상 없는 경우에만 업데이트 됩니다. 수식이 나 규칙은 여러 번 실행 되지 않으며, 앱 성능이 향상 됩니다.
 
-## <a name="avoid-using-formupdates-in-rules-and-formulas"></a>Form.Updates 규칙 및 수식에서 사용 하지 마십시오
-규칙 또는 수식에서 사용자 입력을 사용 하 여 참조 하는 경우는 **Form.Updates** 변수, 폼의 모든 데이터 카드를 반복 하 고 각 시간 레코드를 만듭니다. 더 효율적인 앱을 위해 데이터 카드 또는 컨트롤 값에서 직접 값을 참조 합니다.
+## <a name="avoid-using-formupdates-in-rules-and-formulas"></a>규칙 및 수식에서 Form. 업데이트 사용 방지
+**형식. Updates** 변수를 사용 하 여 규칙 또는 수식에서 사용자 입력 값을 참조 하는 경우 모든 폼의 데이터 카드를 반복 하 고 매번 레코드를 만듭니다. 앱을 보다 효율적으로 만들기 위해 데이터 카드나 컨트롤 값에서 직접 값을 참조 합니다.
 
 ## <a name="next-steps"></a>다음 단계
-검토 합니다 [코딩 표준](https://aka.ms/powerappscanvasguidelines) 앱 성능을 극대화 하 고 앱을 더 쉽게 유지 관리할 유지에 대 한 합니다.
+앱 성능을 극대화 하 고 앱을 더 쉽게 유지 관리할 수 있도록 [코딩 표준을](https://aka.ms/powerappscanvasguidelines) 검토 합니다.

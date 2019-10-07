@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/30/2016
 ms.author: archanan
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 85806799a5f5ea91a4671a27e71cf95daabcd01a
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 0f9b9c3104d407baa3cece76159d65c5be61ab79
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61553569"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71983400"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
 온-프레미스 게이트웨이를 설치하여 PowerApps에 빌드된 캔버스 앱 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같이 클라우드에 없는 데이터 원본 간에 데이터를 빠르고 안전하게 전송합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
@@ -30,12 +30,12 @@ ms.locfileid: "61553569"
 * Oracle
 * Informix
 * Filesystem
-* DB2
+* 용
 
 ## <a name="prerequisites"></a>필수 조건
 * PowerApps에 [등록](../signup-for-powerapps.md)하는 데 사용된 사용자 이름과 암호
-* 게이트웨이 대한 관리 권한 (설치한 각 게이트웨이에 대해 기본적으로 이 권한을 가지며, 다른 게이트웨이의 관리자가 해당 게이트웨이에 대한 이러한 권한을 사용자에게 부여할 수 있습니다.)
-* 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스. 자세한 내용은 [가격 책정 페이지](https://powerapps.microsoft.com/pricing/)의 "연결" 섹션을 참조하세요.
+* 게이트웨이 대한 관리 권한 설치한 각 게이트웨이에 대해 기본적으로 이 권한을 가지며, 다른 게이트웨이의 관리자가 해당 게이트웨이에 대한 이러한 권한을 사용자에게 부여할 수 있습니다.
+* 온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스 자세한 내용은 [가격 책정 페이지](https://powerapps.microsoft.com/pricing/)의 "연결" 섹션을 참조하세요.
 * 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
 
 ## <a name="install-a-gateway"></a>게이트웨이 설치
@@ -54,9 +54,9 @@ ms.locfileid: "61553569"
 
 2. **사용자**를 클릭하거나 탭하고, 사용자나 그룹을 지정한 후 권한 수준을 지정하여 게이트웨이에 사용자를 추가합니다.
 
-   * **사용할 수 있습니다**: 사용자 앱 및 흐름을 사용 하는 게이트웨이에서 연결을 만들 수 있지만 게이트웨이 공유할 수 없습니다. 앱을 실행하지만 공유하지 않는 사용자에 대해 이 권한을 사용합니다.
-   * **사용 가능 + 공유**: 연결 앱 및 흐름을 사용 하도록 게이트웨이를 만들려면 하 고 자동으로 앱을 공유할 때 게이트웨이 공유할 수 있는 사용자입니다. 다른 사용자 또는 조직과 앱을 공유해야 하는 사용자에 대해 이 권한을 사용합니다.
-   * **관리자**: 사용자 추가, 사용 권한 설정, 모든 사용 가능한 데이터 원본에 대 한 연결 만들기 및 게이트웨이 삭제를 포함 하 여 게이트웨이 완전히 제어할 수 있는 관리자입니다.
+   * 다음 **을 사용할 수 있습니다**. 게이트웨이에서 앱 및 흐름에 사용할 연결을 만들 수 있지만 게이트웨이를 공유할 수 없는 사용자입니다. 앱을 실행하지만 공유하지 않는 사용자에 대해 이 권한을 사용합니다.
+   * **사용할 수 있는 + 공유**: 앱 및 흐름에 사용 하기 위해 게이트웨이에 대 한 연결을 만들 수 있고 앱을 공유할 때 자동으로 게이트웨이를 공유 하는 사용자입니다. 다른 사용자 또는 조직과 앱을 공유해야 하는 사용자에 대해 이 권한을 사용합니다.
+   * **관리자**: 사용자 추가, 권한 설정, 사용 가능한 모든 데이터 원본에 대 한 연결 만들기 및 게이트웨이 삭제를 포함 하 여 게이트웨이에 대 한 모든 권한이 있는 관리자입니다.
 
 **사용 가능** 및 **사용 가능 + 공유** 권한 수준의 경우 사용자가 게이트웨이를 통해 연결할 수 있는 데이터 원본을 선택합니다.
 

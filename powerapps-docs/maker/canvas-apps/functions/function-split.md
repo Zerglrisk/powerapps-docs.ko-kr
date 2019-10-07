@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta anneta
+ms.reviewer: tapanm tapanm
 ms.date: 09/14/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fd331d5dd8503b072785573dc9400b8e2b581cb3
-ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
+ms.openlocfilehash: 72f92477cc8c942ee0274267c5bcb13094681873
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71038211"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71984135"
 ---
 # <a name="split-function-in-powerapps"></a>PowerApps의 Split 함수
 텍스트 문자열을 하위 문자열의 테이블로 분할합니다.

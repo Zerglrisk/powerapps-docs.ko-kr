@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 05/19/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 10c5ff9eaa709ab950fa3c3f0efce4f859a71dbc
-ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
+ms.openlocfilehash: 592399e6b5a95d27e5c0afe48541d04d444528bb
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71037982"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71985580"
 ---
 # <a name="data-types-in-canvas-apps"></a>Canvas 앱의 데이터 형식
 
@@ -28,27 +28,27 @@ ms.locfileid: "71037982"
 
 | 데이터 형식 | 설명 | 예 |
 |-----------|-------------|---------|
-| **Boolean** | *True* 또는 *false* 값입니다.  **If**, **Filter** 및 기타 함수를 비교 하지 않고 직접 사용할 수 있습니다.  | *true* |
-| **Color** | 알파 채널을 포함 하는 색 사양입니다. | **Color.Red**<br>**ColorValue ("#102030")**<br>**RGBA (255, 128, 0, 0.5)** |
+| **부울** | *True* 또는 *false* 값입니다.  **If**, **Filter** 및 기타 함수를 비교 하지 않고 직접 사용할 수 있습니다.  | *true* |
+| **색상** | 알파 채널을 포함 하는 색 사양입니다. | **Color.Red**<br>**ColorValue ("#102030")**<br>**RGBA (255, 128, 0, 0.5)** |
 | **통화** | 부동 소수점 숫자에 저장 된 통화 값입니다. 통화 값은 통화 형식 옵션을 사용 하는 숫자 값과 동일 합니다.  | **123**<br>**4.56** |
-| **Date** | 앱 사용자의 표준 시간대에 시간이 없는 날짜입니다. | **날짜 (2019, 5, 16)** |
+| **날** | 앱 사용자의 표준 시간대에 시간이 없는 날짜입니다. | **날짜 (2019, 5, 16)** |
 | **날짜** | 앱 사용자의 표준 시간대에 해당 하는 날짜입니다. | **DateTimeValue ("5 월 16 일, 2019 1:23:09 PM")** |
-| **GUID** | [Guid (Globally Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier))입니다. | **GUID ()**<br>**GUID ("123e4567-e89b-12d3-a456-426655440000")** |
-| **하이퍼링크** | 하이퍼링크를 포함 하는 텍스트 문자열입니다. | **"http://powerapps.microsoft.com"** |
-| **Image** | .Jpeg, .png, .jpeg, .gif 또는 기타 일반적인 웹 이미지 형식의 이미지에 대 한 [URI (Universal Resource Identifier)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) 텍스트 문자열입니다. | 앱 리소스로 추가 된 **Myimage**<br>**"https://northwindtraders.com/logo.jpg"**<br>**"appres://blobmanager/7b12ffa2"** |
-| **미디어** | 비디오 또는 오디오 기록에 대 한 URI 텍스트 문자열입니다. | 앱 리소스로 추가 된 **Myvideo**<br>**"https://northwindtraders.com/intro.mp4"**<br>**"appres://blobmanager/3ba411c"** |
+| **EID** | [Guid (Globally Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier))입니다. | **GUID ()**<br>**GUID ("123e4567-e89b-12d3-a456-426655440000")** |
+| **하이퍼링크로** | 하이퍼링크를 포함 하는 텍스트 문자열입니다. | **"http://powerapps.microsoft.com"** |
+| **이미지** | .Jpeg, .png, .jpeg, .gif 또는 기타 일반적인 웹 이미지 형식의 이미지에 대 한 [URI (Universal Resource Identifier)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) 텍스트 문자열입니다. | 앱 리소스로 추가 된 **Myimage**<br>**"https://northwindtraders.com/logo.jpg"**<br>**"appres://blobmanager/7b12ffa2"** |
+| **미디어만** | 비디오 또는 오디오 기록에 대 한 URI 텍스트 문자열입니다. | 앱 리소스로 추가 된 **Myvideo**<br>**"https://northwindtraders.com/intro.mp4"**<br>**"appres://blobmanager/3ba411c"** |
 | **수많은** | 부동 소수점 숫자입니다. | **123**<br>**-4.567**<br>**8.903e121** |
 | **옵션 집합** | 숫자에 의해 지원 되는 옵션 집합에서 선택 하는 항목입니다. 이 데이터 형식은 지역화 가능한 텍스트 레이블과 숫자 값을 결합 합니다. 레이블이 앱에 표시 되 고 숫자 값이 저장 되 고 비교에 사용 됩니다. | **ThisItem 상태** |
-| **기록은** | 데이터 값의 레코드입니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 자세한 정보는 [테이블 작업](../working-with-tables.md) | **회사가 "Northwind Traders",<br>직원: 35, <br>비영리: false}** |
-| **레코드 참조** | 엔터티에 있는 레코드에 대 한 참조입니다. 이러한 참조는 다형성 조회에 자주 사용 됩니다. 자세한 정보는 [참조 사용](../working-with-references.md)| **첫 번째 (계정). 소유자도** |
-| **테이블** | 레코드 테이블입니다.  모든 레코드는 동일한 데이터 형식의 필드에 대해 이름이 동일 해야 하며 생략 된 필드는 *공백으로*만 처리 됩니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 자세한 정보는 [테이블 작업](../working-with-tables.md) | **테이블 ({FirstName: "Sidney",<br>LastName: "고 ga"}, <br>{FirstName: "김소미",<br>LastName: "Anderson"})**
+| **기록은** | 데이터 값의 레코드입니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 자세한 정보: [테이블 작업](../working-with-tables.md) | **{Company: "Northwind Traders", <br> 직원: 35, <br>NonProfit: false}** |
+| **레코드 참조** | 엔터티에 있는 레코드에 대 한 참조입니다. 이러한 참조는 다형성 조회에 자주 사용 됩니다. 자세한 정보: [참조 사용](../working-with-references.md)| **첫 번째 (계정). 소유자도** |
+| **테이블** | 레코드 테이블입니다.  모든 레코드는 동일한 데이터 형식의 필드에 대해 이름이 동일 해야 하며 생략 된 필드는 *공백으로*만 처리 됩니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 자세한 정보: [테이블 작업](../working-with-tables.md) | **Table ({FirstName: "Sidney", <br>LastName: "Stga"}, <br> {FirstName: "김소미", <br>LastName: "Anderson"})**
 | **텍스트** | 유니코드 텍스트 문자열입니다. | **"Hello, 세계"** |
-| **Time** | 앱 사용자의 표준 시간대에 날짜가 없는 시간입니다. | **시간 (11, 23, 45)** |
+| **런타임** | 앱 사용자의 표준 시간대에 날짜가 없는 시간입니다. | **시간 (11, 23, 45)** |
 | **두 가지 옵션** | 부울 값으로 지원 되는 두 옵션 집합 중에서 선택 합니다. 이 데이터 형식은 지역화 가능한 텍스트 레이블과 부울 값을 결합 합니다. 레이블이 앱에 표시 되 고 부울 값이 저장 되 고 비교에 사용 됩니다. | **ThisItem. Taxable** |
 
 이러한 데이터 형식 대부분은 비슷하며 **텍스트**로 처리 되는 **하이퍼링크** 필드와 같은 기본 표현이 동일 합니다.  추가 데이터 형식은 폼 및 기타 컨트롤에서 더 나은 기본 환경을 제공 합니다.
 
-## <a name="blank"></a>비어 있음
+## <a name="blank"></a>Blank
 
 모든 데이터 형식의 값은 *공백* (즉, 값 없음)이 될 수 있습니다. "Null" 이라는 용어는 이러한 개념을 위해 데이터베이스에서 자주 사용 됩니다.  
 
@@ -80,7 +80,7 @@ ms.locfileid: "71037982"
 
 Canvas 앱은 클라우드에 있든, 앱 리소스로 추가 되는지에 관계 없이 URI 텍스트 문자열을 통해 각 이미지 또는 기타 미디어 파일을 참조 합니다.
 
-예를 들어 이미지 컨트롤의 **image** 속성은 앱 리소스 뿐만 아니라 웹의 이미지 (예: "https://northwindtraders.com/logo.jpg")에 대 한 링크도 허용 합니다. 또한 속성은 다음 예제와 같이 [데이터 URI 체계](https://en.wikipedia.org/wiki/Data_URI_scheme)를 사용 하는 인라인 이미지를 허용 합니다.
+예를 들어 이미지 컨트롤의 **image** 속성은 앱 리소스 뿐만 아니라 웹의 이미지 (예: "https://northwindtraders.com/logo.jpg")에 대 한 링크를 받습니다. 또한 속성은 다음 예제와 같이 [데이터 URI 체계](https://en.wikipedia.org/wiki/Data_URI_scheme)를 사용 하는 인라인 이미지를 허용 합니다.
 
 ```powerapps-dot
 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFAQMAAACtnVQoAAAABlBMVEUAAAB0J3UMNU6VAAAAAXRSTlMAQObYZgAAABRJREFUCNdjUGJgCGVg6GgAkkA2AA8/AffqCEBsAAAAAElFTkSuQmCC"
@@ -129,8 +129,8 @@ Canvas 앱은-9007199254740991 (– (2<sup>53</sup> – 1))과 9007199254740991 
 
 | 날짜/시간 형식 | 데이터베이스에 저장 된 값 | 값이 표시 되 고 UTC의 7 시간 서쪽에 입력 됨 | 값이 표시 되 고 4 시간 동부 UTC로 입력 됨 |
 |--------------------------|------------------------------|------------------------------|
-| **사용자 로컬** | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 | 토요일,&nbsp;2019&nbsp;년 5&nbsp;월 18 일<br>오후 9:00 | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 8:00 |
-| **표준 시간대 독립적** | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 | 
+| **사용자 로컬** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 토요일, &nbsp;은 @ no__t, &nbsp;2019<br>오후 9:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 8:00 |
+| **표준 시간대 독립적** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 
 
 **사용자 로컬** 날짜/시간에 대해 canvas 앱은 브라우저나 장치의 표준 시간대를 사용 하지만 모델 기반 앱은 Common Data Service에서 사용자의 설정을 사용 합니다. 이러한 설정은 일반적으로 일치 하지만 이러한 설정이 다를 경우 결과가 달라 집니다.
 
@@ -150,8 +150,8 @@ Canvas 앱이 데이터 원본에서 **표준 시간대 독립적** 값을 읽�
 
 | 날짜/시간 형식 | 데이터베이스에 저장 된 값 | 값이 표시 되 고 UTC의 7 시간 서쪽에 입력 됨 | **값** 함수 반환 |
 |--------------------------|------------------------------|------------------------------|
-| **사용자 로컬** | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 | 토요일,&nbsp;2019&nbsp;년 5&nbsp;월 18 일<br>오후 9:00 | 1558238400000<br> (일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 UTC) |
-| **표준 시간대 독립적** | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 | 일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 4:00 |1558263600000<br> (일요일,&nbsp;2019&nbsp;년 5&nbsp;월 19 일<br>오전 11:00 UTC) |
+| **사용자 로컬** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 토요일, &nbsp;은 @ no__t, &nbsp;2019<br>오후 9:00 | 1558238400000<br> (일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 UTC) |
+| **표준 시간대 독립적** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 |1558263600000<br> (일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 11:00 UTC) |
 
 ### <a name="converting-unix-times"></a>Unix 시간 변환
 

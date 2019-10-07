@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/21/2015
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3adb036a1619263d2b8cef1f649c2d2f97925ceb
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 711a15a93d1e3ed9839f5d51c0bfa32e00563852
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61543909"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71984338"
 ---
 # <a name="patch-function-in-powerapps"></a>PowerApps의 Patch 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 하나 이상 수정 또는 생성하거나 데이터 원본 외부의 레코드를 병합합니다.
@@ -76,7 +76,7 @@ ms.locfileid: "61543909"
 * *ChangeRecord(s)* – 필수 항목입니다.  *BaseRecord*에서 수정할 속성이 포함된 하나 이상의 레코드입니다.  변경 레코드는 인수 목록의 처음부터 끝까지 순서대로 처리되며, 이후 속성 값이 이전 속성 값보다 우선합니다.
 
 #### <a name="modify-or-create-a-set-of-records-in-a-data-source"></a>데이터 원본의 레코드 집합 수정 또는 만들기
-**Patch**( *DataSource*, *BaseRecordsTable*, *ChangeRecordTable1* [, *ChangeRecordTable2*, … ] )
+**Patch**( *DataSource*, *BaseRecordsTable*, *ChangeRecordTable1* [, *ChangeRecordTable2*, ... ] )
 
 * *DataSource* – 필수 항목입니다. 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
 * *BaseRecordTable* – 필수 항목입니다. 수정하거나 만들 레코드 테이블입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)** 의 결과가 사용되면 레코드가 생성됩니다.

@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 09/13/2016
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 95406bff477a4d84a6125225ffc1e158ffb8c19a
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 6e559f482c8ad151eb04057f3178b141150acc7d
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61544067"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71984414"
 ---
 # <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>Microsoft PowerApps의 Abs, Exp, Ln, Power 및 Sqrt 함수
 절대 값, 자연 로그, 제곱근 및 *e* 또는 지정된 숫자로 거듭제곱했을 때 결과를 계산합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "61544067"
 
 **Ln** 함수는 해당 인수의 자연 로그(밑 *e*)를 반환합니다.
 
-**Power** 함수는 숫자를 거듭제곱한 값을 반환합니다.  이 함수는 [**^** 연산자](operators.md)와 동일합니다.
+**Power** 함수는 숫자를 거듭제곱한 값을 반환합니다.  이 함수는 [ **^** 연산자](operators.md)와 동일합니다.
 
 **Sqrt** 함수는 해당 인수의 양의 제곱근을 계산하여 반환합니다.
 

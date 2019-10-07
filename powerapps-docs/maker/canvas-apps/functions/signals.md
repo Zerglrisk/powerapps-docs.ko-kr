@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 05/29/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d375adeb8a20dfe2d9629a9c34944a8dcd80a8e7
-ms.sourcegitcommit: 562c7ed5fbb116be1cbb0f45e3f6e75e3e4cf011
+ms.openlocfilehash: a06217470482eccdf368279eaabcd297bbf73ce5
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66451448"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71983358"
 ---
 # <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호
 
@@ -26,12 +26,12 @@ ms.locfileid: "66451448"
 
 ## <a name="description-and-syntax"></a>설명 및 구문
 
-신호는 언제 든 지에 관계 없이 사용자 수는 앱과 상호 작용 하는 방법을 변경할 수 있는 값입니다. 자동으로 신호에 기반 하는 수식에는 이러한 값이 변경으로 다시 계산 합니다.
+신호는 사용자가 앱과 상호 작용 하는 방법에 관계 없이 언제 든 지 변경 될 수 있는 값입니다. 이러한 값이 변경 되 면 신호를 기반으로 하는 수식이 자동으로 다시 계산 됩니다.
 
-신호는 일반적으로 반환 된 [레코드](../working-with-tables.md#records) 정보입니다. 이 정보를 레코드로 사용 및 저장하거나, **.** [연산자](operators.md)를 사용하여 개별 속성을 추출할 수 있습니다.
+신호는 일반적으로 정보 [레코드](../working-with-tables.md#records) 를 반환 합니다. 이 정보를 레코드로 사용 및 저장하거나, **.** [연산자](operators.md)를 사용하여 개별 속성을 추출할 수 있습니다.
 
 > [!NOTE]
-> **Acceleration**과 **Compass** 함수는 iOS 또는 Android 같은 네이티브 플레이어에서는 정확한 값을 반환하지만, 브라우저에서 앱을 수정하거나 생성하게 되면 해당 함수들은 0 값을 반환합니다.
+> **가속** 및 **나침반** 함수는 iOS 또는 Android 등의 기본 플레이어에서 정확한 값을 반환 하지만, 브라우저에서 앱을 만들거나 수정할 때 이러한 함수는 0 값을 반환 합니다.
 
 ### <a name="acceleration"></a>Acceleration
 
@@ -43,15 +43,15 @@ ms.locfileid: "66451448"
 | **Acceleration.Y** |앞으로 및 뒤로.  앞으로가 양수입니다. |
 | **Acceleration.Z** |위 및 아래.  위가 양수입니다. |
 
-### <a name="app"></a>앱
+### <a name="app"></a>App
 
-다른 속성과 함께 합니다 **앱** 개체에 표시 되는 화면을 나타내는 표시를 포함 합니다.
+다른 속성 중에서 **앱** 개체는 표시 되는 화면을 나타내는 신호를 포함 합니다.
 
 | 속성 | 설명 |
 | --- | --- |
-| **App.ActiveScreen** |표시 되는 화면입니다. 화면의 속성을 참조 하거나 화면 표시를 확인 하려면 다른 화면과 비교 하는 데 사용할 수 있는 화면 개체를 반환 합니다. 사용할 수는 **[다시](function-navigate.md)** 하거나 **[탐색](function-navigate.md)** 표시 되는 화면을 변경 하는 함수입니다. |
+| **App.ActiveScreen** |표시 되는 화면입니다. 화면의 속성을 참조 하거나 다른 화면을 비교 하 여 표시할 화면을 결정 하는 데 사용할 수 있는 화면 개체를 반환 합니다. **[뒤로](function-navigate.md)** 또는 **[탐색](function-navigate.md)** 함수를 사용 하 여 표시 되는 화면을 변경할 수 있습니다. |
 
-자세한 정보는 [**앱** 개체](object-app.md) 설명서.
+자세한 정보: [ **앱** 개체](object-app.md) 설명서입니다.
 
 ### <a name="compass"></a>Compass
 **나침반** 신호는 화면 맨 위의 나침반 방향을 반환합니다. 방향은 자기장의 북쪽을 기준으로 합니다.
@@ -82,18 +82,18 @@ ms.locfileid: "66451448"
 | **Location.Longitude** |영국 그리니치로부터 도 단위로 측정되는 경도를 나타내는 숫자 0~180을 반환합니다. |
 
 ## <a name="examples"></a>예
-야구장에서, 투수는 마운드에서 홈 플레이트의 포수에게 휴대전화를 던집니다. 휴대전화는 그라운드에 평행하게 있다가 화면 위쪽이 포수를 향하고 투수가 회전을 더하지 않습니다. 이 위치에서 휴대전화에는 측정되는 셀룰러 네트워크 서비스가 있지만 WiFi는 없습니다. **PlayBall** 화면이 표시됩니다.   
+야구 필드에서 물주 컵 야구장가 집의 집에서 포로 전화를 throw 합니다. 전화는 그라운드에 평행하게 있다가 화면 위쪽이 포수를 향하고 포수가 회전을 더하지 않습니다. 이 위치에서 휴대전화에는 측정은 되지만 WiFi는 없는 셀룰러 네트워크 서비스가 있습니다. **PlayBall** 화면이 표시됩니다.   
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Location.Latitude** |현재 위치의 위도를 반환합니다. 필드는 지도 좌표 47.591 N, 122.333 w입니다. |47.591<br><br>전화가 투수와 포수 사이를 이동하는 동안 위도는 지속적으로 바뀝니다. |
+| **Location.Latitude** |현재 위치의 위도를 반환합니다. 필드는 지도 좌표 47.591 N, 122.333 W에 있습니다. |47.591<br><br>전화가 투수와 포수 사이를 이동하는 동안 위도는 지속적으로 바뀝니다. |
 | **Location.Longitude** |현재 위치의 경도를 반환합니다. |122.333<br><br>전화가 투수와 포수 사이를 이동하는 동안 경도는 지속적으로 바뀝니다. |
 | **Location** |현재 위치의 위도 및 경도를 레코드로 반환합니다. |{&nbsp;Latitude:&nbsp;47.591, Longitude:&nbsp;122.333&nbsp;} |
-| **Compass.Heading** |화면 맨 위의 나침반 방향을 반환합니다. 이 필드를 홈 플레이트는 투 플레이트에서 약 남서쪽입니다. |230.25 |
+| **Compass.Heading** |화면 맨 위의 나침반 방향을 반환합니다. 이 필드에서 홈 플레이트는 물주 컵 야구장에서 약 남서쪽입니다. |230.25 |
 | **Acceleration.X** |디바이스의 측면 방향 가속도를 반환합니다. 투수가 화면 맨위에 대해 직선 방향으로 휴대전화를 던지므로 디바이스에는 측면 방향 가속도가 없습니다. |0 |
 | **Acceleration.Y** |디바이스의 전후 방향 가속도를 반환합니다. 투수가 처음에 디바이스를 던질 때는 디바이스에 높은 가속도가 부여되며 0.5초 안에 시간당 0에서 90마일(초당 132피트)로 가속됩니다. 디바이스가 공중에 오른 뒤 공기 마찰을 무시하고 디바이스는 더 이상 가속되지 않습니다. 포수가 디바이스를 잡을 때 디바이스가 가속이 줄어 멈추게 됩니다. |투수가 디바이스를 던지는 동안 8.2<br><br>디바이스가 공중에 있을 때 0<br><br>포수가 디바이스를 잡을 때 -8.2 |
 | **Acceleration.Z** |디바이스의 상하 방향 가속도를 반환합니다. 공중에 있는 동안 디바이스는 중력의 영향을 받습니다. |투수가 디바이스를 던지기 전 0<br><br>디바이스가 공중에 있을 때 1<br><br>포수가 디바이스를 잡은 후 0 |
-| **Acceleration** |가속을 레코드로 반환합니다. |{ X: 0, Y: 264, Z: 전화가 투 수로 0}의 장치를 throw합니다. |
+| **Acceleration** |가속을 레코드로 반환합니다. |.X 0, Y: 264, Z: 0} 컵이 장치를 throw 합니다. |
 | **Connection.Connected** |디바이스의 네트워크 연결 여부를 표시하는 부울 값을 반환합니다. |**true** |
 | **Connection.Metered** |연결의 측정 여부를 표시하는 부울 값을 반환합니다. |**true** |
 | **App.ActiveScreen = PlayBall** |**PlayBall** 표시 여부를 표시하는 부울 값을 반환합니다. |**true** |

@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: article
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 04/05/2018
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4e0609ce53f88f5945409e688cfc65df39bd6b96
-ms.sourcegitcommit: 8f27a61ce2ec32b8d911845dd00708e3c87b86bb
+ms.openlocfilehash: a5b9ddb2006a53796f782db3c620fa592f2a5aed
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68428736"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71994873"
 ---
 # <a name="transform-your-infopath-form-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 
@@ -48,7 +48,7 @@ InfoPath를 사용하면 일반적으로 단일 소스에서 가져온 데이터
 
 PowerApps는 두 가지 방법으로 SharePoint 환경을 더 낫게 만들 수 있는 뛰어난 도구입니다. SharePoint 목록에 대한 양식을 사용자 지정하거나 SharePoint 데이터를 사용해 작업하기 위한 독립 실행형 앱을 만들 수 있는 옵션이 있습니다.
 
-사용자가 목록의 항목을 추가, 보기 또는 편집하는 방식을 사용자 정의하려는 경우 **SharePoint 양식 사용자 지정**이 매우 유용합니다. **양식 사용자 지정**을 클릭하면 컨텍스트에 따라 모드(새로 만들기/편집/보기)가 변경되는 단일 화면 &quot;양식 앱&quot;을 만듭니다. 이러한 앱은 SharePoint에서 관리하며, 해당 사용 권한은 편집/보기를 위한 목록 사용 권한과 동일합니다.
+사용자가 목록의 항목을 추가, 보기 또는 편집하는 방식을 사용자 정의하려는 경우 **SharePoint 양식 사용자 지정**이 매우 유용합니다. **형식 사용자 지정**을 클릭하면 컨텍스트에 따라 모드(새로 만들기/편집/보기)가 변경되는 단일 화면 &quot;Forms 앱&quot;을 만듭니다. 이러한 앱은 SharePoint에서 관리하며, 해당 사용 권한은 편집/보기를 위한 목록 사용 권한과 동일합니다.
 
 **SharePoint에서 PowerApps 캔버스 앱 만들기**를 사용하면 모바일 디바이스에서 앱을 실행할 수 있습니다. SharePoint 페이지에 앱을 포함할 수도 있습니다. 이 옵션을 클릭하면 3개 화면 앱(목록 찾아보기, 세부 정보 보기 및 항목 만들기/업데이트)이 생성됩니다. 이러한 앱에 대한 사용 권한/공유 모델은 SharePoint에 연결되지 않고 대신 PowerApps에서 관리됩니다.
 
@@ -99,7 +99,7 @@ PowerApps가 사용자 지정 가능한 앱을 빌드합니다.
 
 읽기 전용으로 만드는 대신 카드를 숨기려면 **DisplayMode** 오른쪽 위에 있는 **Visible** 속성에 유사한 함수를 삽입합니다.
 
-또한, 예를 들어 사용자의 메일 주소가 승인자의 메일 주소와 일치하는 경우에만 승인 단추를 표시하도록 할 수도 있습니다. (힌트: **User().Email**을 사용하여 현재 사용자의 전자 메일 주소를 액세스할 수 있습니다.) 승인자의 메일 주소를 **YourDataCard**에 저장한 다음, 이 수식에 대한 단추의 **Visible** 속성을 다음과 같이 설정할 수 있습니다.
+또한, 예를 들어 사용자의 메일 주소가 승인자의 메일 주소와 일치하는 경우에만 승인 단추를 표시하도록 할 수도 있습니다. 힌트 **User ()를 사용 합니다. 전자 메일** 을 사용 하 여 현재 사용자의 전자 메일 주소에 액세스 합니다. 승인자의 메일 주소를 **YourDataCard**에 저장한 다음, 이 수식에 대한 단추의 **Visible** 속성을 다음과 같이 설정할 수 있습니다.
 
 ```If( YourDataCard.Text = User().Email, true, false )```
 
@@ -163,7 +163,7 @@ Microsoft Flow를 사용해 작성한 흐름에 앱을 연결하면 예를 들�
 
 ```Filter( Impacts, ddSelectType.Selected.Value in SCategory )```
 
-이제 계단식 드롭다운이 생성되었습니다. 자세한 내용은 PowerApps 팀의 이 게시물 [SharePoint: 쉬운 4단계의 계단식 드롭다운!](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248) 을 확인하세요. 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
+계단식 드롭다운이 있는 것처럼 설정합니다. 자세한 내용은 PowerApps 팀 [SharePoint에서이 게시물을 확인 하세요. 간단한 드롭다운 (4 단계)의 계단식 드롭다운. ](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248) 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
 
 **하나의 슈퍼 앱 빌드하지 않기**  
 PowerApps를 사용하면 한 앱에서 다른 앱을 호출할 수 있습니다. 따라서 대용량 InfoPath 양식을 대충 구성하여 사용하기보다는 서로 호출하고 데이터를 주고받기까지 하는 앱 그룹을 빌드할 수 있으므로 더욱 간단하게 개발할 수 있습니다.

@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/16/2016
 ms.author: jamesol
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 65a828d33add99bbee086f24c3a4892abfaae048
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 3348db5897b0c58d7addef775d2a871809fc491b
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61536966"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71995212"
 ---
 # <a name="share-excel-data-used-by-your-app"></a>앱에서 사용하는 Excel 데이터 공유
 OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connections.md)에서 앱 사용자와 Excel 데이터를 공유할 수 있습니다.
@@ -52,7 +52,7 @@ OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connecti
    > 비즈니스용 OneDrive에서 파일이 포함된 폴더가 아니라 파일 자체를 공유합니다.
 3. 대화 상자에서 **전자 메일**을 선택합니다.
    
-    ![메일을 통해 공유](./media/share-app-data/onedrive-email.png)
+    ![전자 메일로 공유](./media/share-app-data/onedrive-email.png)
 4. 앱 사용자가 OneDrive에 로그인하는 데 사용한 전자 메일 주소를 지정하고 **공유**를 선택합니다.  
    
     ![사용자 지정](./media/share-app-data/onedrive-perms.png)

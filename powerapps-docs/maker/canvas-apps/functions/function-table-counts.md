@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 11/07/2015
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8a904db98226152a5e485184e82461634902d6b9
-ms.sourcegitcommit: 39b32abb19ad9fae98ca986ded6974bcbbb3cea7
+ms.openlocfilehash: 70950a52050226a25270be7531f4589671f0d46f
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68473935"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71983891"
 ---
 # <a name="count-counta-countif-and-countrows-functions-in-powerapps"></a>PowerApps의 Count, CountA, CountIf 및 CountRows 함수
 [테이블](../working-with-tables.md)에 있는 모든 [레코드](../working-with-tables.md#records)의 수를 계산하거나 조건을 충족하는 모든 레코드의 수를 계산합니다.

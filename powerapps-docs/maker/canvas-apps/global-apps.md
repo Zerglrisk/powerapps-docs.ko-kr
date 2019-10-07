@@ -6,29 +6,29 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/25/2016
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9ca80511875ff8534e5b07c3a7844485ff70a4a5
-ms.sourcegitcommit: aa9f78c304fe46922aecfe3b3fadb6bda72dfb23
+ms.openlocfilehash: 8df786dfea77849f41992c704d69d214df73d13a
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "66216162"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71983240"
 ---
 # <a name="build-global-support-into-canvas-apps"></a>캔버스 앱에 글로벌 지원 빌드
 PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 캔버스 앱을 빌드하고 사용할 수 있습니다.
 
-앱을 빌드하고 실행하는 동안 PowerApps에서 표시되는 텍스트는 다양한 언어로 번역되었습니다.  따라서 메뉴 항목, 대화 상자, 리본 탭은 물론, 기타 텍스트를 모국어로 보게 될 것입니다.  날짜와 숫자의 입력과 표시도 특정 언어와 지역에 맞게 수정됩니다.  예를 들어, 전 세계의 일부 지역은 소수 구분 기호로 **.** (점 또는 마침표)를 사용하는 반면 다른 지역은 **,** (쉼표)를 사용합니다.  
+앱을 빌드하고 실행하는 동안 PowerApps에서 표시되는 텍스트는 다양한 언어로 번역되었습니다.  따라서 메뉴 항목, 대화 상자, 리본 탭은 물론, 기타 텍스트를 모국어로 보게 될 것입니다.  날짜와 숫자의 입력과 표시도 특정 언어와 지역에 맞게 수정됩니다.  예를 들어 전 세계의 일부 지역에서는를 사용 **합니다.** (점 또는 마침표)는 소수 구분 기호로, 다른 하나는 (쉼표) **를** 사용 합니다.  
 
-사용자가 만드는 앱도 전 세계적으로 알려질 수 있습니다.  **[Language](functions/function-language.md)**, **[Text](functions/function-text.md)**, **[Value](functions/function-value.md)**, **[DateValue](functions/function-datevalue-timevalue.md)** 및 기타 함수를 사용하여 다른 언어에서 입력으로 표시 및 사용되는 것을 변경합니다.   
+사용자가 만드는 앱도 전 세계적으로 알려질 수 있습니다.  **[Language](functions/function-language.md)** , **[Text](functions/function-text.md)** , **[Value](functions/function-value.md)** , **[DateValue](functions/function-datevalue-timevalue.md)** 및 기타 함수를 사용하여 다른 언어에서 입력으로 표시 및 사용되는 것을 변경합니다.   
 
 ## <a name="language-settings"></a>언어 설정
-네이티브 스튜디오 또는 플레이어를 사용할 경우 사용하는 언어는 호스트 운영 체제에서 제공합니다.  Windows의 경우 "모든 설정" 및 "시간 및 언어" 설정에서 제어할 수 있습니다.  Windows에서도 사용자가 소수 구분 기호에 사용할 문자를 지정하여 언어 설정을 재정의하도록 허용합니다.  
+네이티브 스튜디오 또는 플레이어를 사용할 경우 사용하는 언어는 호스트 운영 체제에서제공합니다.  Windows의 경우 "모든 설정" 및 "시간 및 언어" 설정에서 제어할 수 있습니다.  Windows에서도 사용자가 소수 구분 기호에 사용할 문자를 지정하여 언어 설정을 재정의하도록 허용합니다.  
 
 웹 환경을 사용할 경우 사용하는 언어는 브라우저에서 제공합니다.  대부분 브라우저는 호스트 운영 체제로 기본 설정되며 일부는 언어를 수동으로 설정할 수 있는 방법을 제공하기도 합니다.
 
@@ -38,17 +38,17 @@ PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 
 ### <a name="names-in-formulas"></a>수식의 이름
 대부분의 수식 요소는 항상 영어입니다.
 
-* 함수 이름: **If**, **Navigate**, **Collect**,...
-* 컨트롤 속성 이름: **Screen.Fill**, **Button.OnSelect**, **Textbox.Font**, ...
-* 열거형 이름: **Color.Aqua**, **DataSourceInfo.MaxValue**, **FontWeight.Bold**...
-* 신호 레코드: **Compass.Heading**, **Location. Latitude**, **App.ActiveScreen**, ...
-* 연산자: **Parent**, **in**, **exactIn**, ...
+* 함수 이름:인 경우 **탐색**, **수집**, ...
+* 컨트롤 속성 이름: **Screen. Fill**, **Button. onselect**, **Textbox. Font**, ...
+* 열거형 이름: **색. 바다색**, **Datasourceinfo. int32.maxvalue**, **FontWeight**...
+* 신호 레코드: **나침반. 제목**,  **위치. Latitude**, **App.ActiveScreen**, ...
+* 작업자 **Parent**, **in**, **exactIn**, ...
 
 제작 환경이 지역화되면 컨트롤 및 기타 개체 이름이 제작자의 모국어로 나타납니다.  스페인어에서 일부 컨트롤 이름은 다음과 같이 나타납니다.
 
 ![](media/global-apps/insert-controls-es.png)
 
-다음 중 하나를 앱에 삽입하면 해당 이름이 영어로 기본 지정됩니다.  이것은 컨트롤 속성 이름과 식의 나머지 부분의 일관성을 위해 수행됩니다.  예를 들어 위의 목록에 있는 **Casilla**는 **Checkbox1**으로 삽입됩니다.  
+다음 중 하나를 앱에 삽입하면 해당 이름이 영어로 기본 지정됩니다.  컨트롤 속성 이름과 식의 나머지 부분의 일관성을 위해 수행합니다.  예를 들어 위에 목록에 있는 **Casilla**는 **Checkbox1**으 삽입됩니다.  
 
 컨트롤을 삽입한 후 원하는 이름으로 변경할 수 있습니다.  선택된 상태에서 “콘텐츠” 리본의 맨 왼쪽은 컨트롤의 이름을 표시합니다.  이 이름을 선택하면 이름을 편집할 수 있는 텍스트 상자가 드롭다운됩니다.
 
@@ -70,21 +70,21 @@ PowerApps는 글로벌 제품입니다. 많은 다양한 언어와 지역에서 
 | **.** (점 또는 마침표) |**.** (점 또는 마침표) |**,** (쉼표) |**;** (세미콜론) |
 | **,** (쉼표) |**,** (쉼표) |**;** (세미콜론) |**;;** (이중 세미콜론) |
 
-PowerApps 목록 구분 기호에 변경 내용이 Excel 목록 구분 기호에 어떻게 부합 합니다.  이는 다음에 영향을 미칩니다.
+PowerApps 목록 구분 기호의 변경 내용은 Excel 목록 구분 기호와 일치 합니다.  미치는 영향:
 
 * 함수 호출의 인수
 * [레코드](working-with-tables.md#elements-of-a-table)의 필드
-* 에 기록 된 [테이블](working-with-tables.md#inline-value-tables)합니다.
+* [테이블](working-with-tables.md#inline-value-tables)의 레코드.
 
-예를 들어, 일본과 영국 같은 소수 구분 기호로 점 또는 마침표를 사용하는 언어나 지역에서는 다음 수식을 고려합니다.
+예를 들어 점 또는 마침표를 소수 구분 기호로 사용 하는 언어 및 지역으로 표현 되는 다음 수식 (예: 일본 또는 영국)을 살펴보겠습니다.
 
-![PowerApps 수식 오픈 괄호 slider1 점 값을 쉼표로 12 점 59 보다 큰 경우 알림 오픈 괄호 "유효!" 쉼표로 성공 닫기 괄호 열고 닫는 괄호 없음 "NextScreen" 쉼표로 괄호 세미콜론 탐색 쉼표로 알림 오픈 괄호 "잘못 된 경우 다시 시도" 쉼표로 오류 닫기 괄호 닫기 괄호](media/global-apps/operators-dot.png)
+![PowerApps 수식 open 괄호가 slider1.value dot 값 12 점 59 쉼표 알림 "Valid!" 쉼표 성공 닫는 괄호 세미 콜론 탐색 open 괄호 "NextScreen" 쉼표 없음 닫는 괄호 쉼표 알림 열기 "잘못 됨, 다시 시도" 쉼표 오류 닫는 괄호 닫는 괄호](media/global-apps/operators-dot.png)
 
-이제 프랑스, 스페인 같은 소수 구분 기호로 쉼표를 사용하는 언어나 지역에서의 동일한 수식을 봅니다.
+이제 프랑스어 또는 스페인과 같이 소수 구분 기호로 쉼표를 사용 하는 언어 및 지역에서이 동일한 수식을 볼 수 있습니다.
 
-![PowerApps 수식 오픈 괄호 slider1 점 값 12 쉼표로 세미콜론 59 보다 큰 경우 알림 오픈 괄호 "유효!" 세미콜론으로 성공 닫기 괄호 이중 세미콜론 탐색 열린 괄호 "NextScreen" None 닫기 괄호는 세미콜론으로 세미콜론으로 알림 오픈 괄호 "잘못 된 경우 다시 시도" 세미콜론 오류 닫기 괄호 닫기 괄호](media/global-apps/operators-comma.png)
+![PowerApps 수식 open 괄호가 slider1.value dot 값 12 쉼표 59를 초과 하는 경우 닫는 괄호 "Valid!" 세미콜론 (;)을 닫는 괄호 두 번 닫는 괄호 ("NextScreen")를 세미콜론으로 이동 하 여 닫는 괄호를 세미콜론으로 이동 합니다. 닫는 괄호 "잘못 됨, 다시 시도"](media/global-apps/operators-comma.png)
 
-강조 표시는 두 버전 간에 변경되는 연산자를 보여 줍니다.  **Slider1.Value**에서 속성 선택 연산자 **.** (점 또는 마침표)는 항상 소수 구분 기호와 상관 없이 동일합니다.
+강조 표시는 두 버전 간에 변경 되는 연산자를 보여 줍니다.  속성 선택 연산자 **.** **slider1.value** 의 (점 또는 마침표)는 소수 구분 기호가 무엇 인지에 관계 없이 항상 동일 합니다.
 
 내부적으로는 수식이 변경되지 않지만, 제작자가 표시 및 편집하는 방식이 변경 사항의 전부입니다.  두 가지 다른 언어를 사용하는 두 명의 제작자는 각각 자신의 언어에 대한 적합한 구분자와 연산자를 통해 같은 수식을 보고 편집할 수 있습니다.
 
@@ -125,17 +125,17 @@ PowerApps 목록 구분 기호에 변경 내용이 Excel 목록 구분 기호에
 ### <a name="reading-numbers-dates-and-times"></a>숫자, 날짜 및 시간 읽기
 사용자가 제공하는 숫자, 날짜 및 시간 읽기에 대한 4개의 함수가 있습니다.
 
-* **[Value](functions/function-value.md)**: 텍스트 문자열의 숫자를 숫자 값으로 변환합니다.
-* **[DateValue](functions/function-datevalue-timevalue.md)**: 텍스트 문자열의 날짜 값을 날짜/시간 값으로 변환합니다.  텍스트 문자열에서 지정한 시간은 무시됩니다.
-* **[TimeValue](functions/function-datevalue-timevalue.md)**: 텍스트 문자열의 시간 값을 날짜/시간 값으로 변환합니다.  텍스트 문자열에서 지정한 날짜는 무시됩니다.
-* **[DateTimeValue](functions/function-datevalue-timevalue.md)**: 텍스트 문자열의 날짜 및 시간 값을 날짜/시간 값으로 변환합니다.  
+* **[값](functions/function-value.md)** : 텍스트 문자열의 숫자를 숫자 값으로 변환 합니다.
+* **[DateValue](functions/function-datevalue-timevalue.md)** : 텍스트 문자열의 날짜 값을 날짜/시간 값으로 변환 합니다.  텍스트 문자열에서 지정한 시간은 무시됩니다.
+* **[TimeValue](functions/function-datevalue-timevalue.md)** : 텍스트 문자열의 시간 값을 날짜/시간 값으로 변환 합니다.  텍스트 문자열에서 지정한 날짜는 무시됩니다.
+* **[DateTimeValue](functions/function-datevalue-timevalue.md)** : 텍스트 문자열의 날짜 및 시간 값을 날짜/시간 값으로 변환 합니다.  
 
 Excel을 사용한 경우 이러한 모든 함수가 단일한 **Value** 함수로 통합됩니다.  PowerApps에는 날짜/시간 값과 숫자에 대해 별도의 값이 있으므로 여기에서는 나누었습니다.
 
 이러한 모든 함수에는 같은 인수가 있습니다.
 
-* *문자열, 필수*: 사용자로터 가져온 문자열입니다. 예를 들어 문자열을 **텍스트 입력** 컨트롤에 입력하고 **Text** 속성으로 컨트롤에서 읽습니다.
-* *언어, 선택적*: *문자열*을 해석할 언어입니다.  기본적으로 사용자의 언어 설정입니다.
+* *문자열, 필수*: 사용자의 문자열입니다. 예를 들어 문자열을 **텍스트 입력** 컨트롤에 입력하고 **Text** 속성으로 컨트롤에서 읽습니다.
+* *언어, 선택 사항*: *문자열*을 해석 하는 데 사용할 언어입니다.  기본적으로 사용자의 언어 설정입니다.
 
 예:
 

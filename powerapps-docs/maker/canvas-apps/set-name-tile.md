@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 10/16/2016
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bca875eb2160702c749f8556613b6ebe5a426cb4
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 68e6b4495c6f3c69b5a0b21f1ad8a5fc26e032de
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61536319"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71989083"
 ---
 # <a name="change-app-name-and-icon-for-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱의 앱 이름 및 아이콘 변경
 이름과 아이콘을 변경하여 캔버스 앱을 사용자 지정합니다.
@@ -29,7 +29,7 @@ ms.locfileid: "61536319"
 2. **파일** 메뉴에서 **앱 설정**을 클릭하거나 탭합니다.
 
 ## <a name="rename-an-app"></a>앱 이름 변경
-**앱 이름** 아래에서 **앱 이름 편집**을 클릭하거나 탭한 다음 다른 이름을 입력합니다.
+**앱 이름** 아래에서 **이 앱 이름 변경**을 클릭하거나 탭한 다음 다른 이름을 입력합니다.
 
 ![앱 닫기](./media/set-name-tile/rename-app.png)
 

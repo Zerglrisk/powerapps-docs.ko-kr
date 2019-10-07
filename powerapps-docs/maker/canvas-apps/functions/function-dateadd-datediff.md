@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 05/23/2017
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e2c90566f235093f25e3a8c35bc1700f2a61b348
-ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
+ms.openlocfilehash: 8108dbc1c78ba57e989f7bebeb8bd0f42f696360
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71037977"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71985138"
 ---
 # <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>PowerApps의 DateAdd, DateDiff 및 TimeZoneOffset 함수
 날짜/시간 값의 차이를 추가하거나 찾아서 현지 시간과 UTC 사이의 변환을 수행합니다.
@@ -89,7 +89,7 @@ UTC에서 변환하려면 주어진 시간에서 **TimeZoneOffset**을 뺍니다
 
 예를 들어 UTC 날짜 및 시간인 **July 15, 2013, 8:02 PM**이 **StartTime**이라는 변수에 저장되어 있다고 가정하겠습니다. 사용자의 표준 시간대를 조정하려면 다음을 사용합니다.
 
-* **DateAdd (starttime, &minus;TimeZoneOffset (starttime), Minutes)**
+* **DateAdd (StartTime, &minus;TimeZoneOffset (StartTime), Minutes)**
 
 오프셋을 추가하지 않고 빼기 위해 **TimeZoneOffset** 앞에 음수 기호가 있습니다.
 

@@ -6,19 +6,19 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 08/16/2018
 ms.author: audrie
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c11800767225f66520e1a5c368de5102219505d2
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 040ba26d486cb16830bfd895f1c09a4e273cfa07
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63321629"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71994763"
 ---
 # <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
 웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 메일로 전송됩니다. 
@@ -70,7 +70,7 @@ ms.locfileid: "63321629"
 **PowerApps 관리 | 질문과 대답**
 <br>작성자: Manas Maheshwari [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Administration-FAQ/m-p/127369#M44)
 
-**범용 감사 앱 내부: PowerApps 및 Flow 수 작성자: Paul Culmsee 참조**
+유니버설 감사 앱 내에서 **: Paul Culmsee @ no__t에 의해 지원 되는 PowerApps 및 Flow를 참조 하세요.
 <br>작성자: Paul Culmsee [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Inside-the-Universal-Audit-App-See-what-PowerApps-and-Flow-are/m-p/127370#M45)
 
 ## <a name="advanced-webinar-series"></a>고급자 웹 세미나 시리즈 ##
@@ -102,13 +102,13 @@ ms.locfileid: "63321629"
 **PowerApps에서 온-프레미스 데이터에 연결**
 <br>주체: Archana Nair 및 Dimah Zaidalkilani [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connecting-to-On-Premises-Data-from-PowerApps/m-p/116885)
 
-**커넥터 작업: 플래너 커넥터 사용**
+@no__t-커넥터 작업: Planner 커넥터를 사용 하 여 @ no__t-0
 <br> 작성자: Audrie Gordon [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Using-the-Planner-Connector/m-p/116886)
 
 **PowerApps를 통한 Office Graph의 힘**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/The-Power-of-Office-Graph-with-PowerApps/m-p/116888)
 
-**커넥터 작업: Project Online (PWA)**
+@no__t-커넥터 작업: Project Online (PWA) **
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connecting-to-Project-Online-PWA/m-p/116889)
 
 ## <a name="sharepoint-series"></a>SharePoint 시리즈 ##
@@ -150,5 +150,5 @@ ms.locfileid: "63321629"
 **PowerApps에서 대화 상자 또는 팝업 메시지 빌드**
 <br>작성자: Veronica Ward [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Dialogs-in-PowerApps-by-Veronica-Ward/m-p/117627#M39)
 
-**PowerApps 개발자 자세히 보기 템플릿 중 하나를 사용 하 여 커튼 뒷부분을 확인 합니다. Marie Hoeger**
+@no__t-PowerApps 개발자 중 하나를 사용 하 여 방식을를 확인 합니다. 템플릿을 자세히 살펴보세요. Marie Hoeger @ no__t-0
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Developer-Intro-and-Discussing-Templates/m-p/116848)

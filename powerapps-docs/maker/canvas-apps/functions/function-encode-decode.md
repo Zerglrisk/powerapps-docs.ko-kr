@@ -6,27 +6,27 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
-ms.reviewer: anneta
+ms.reviewer: tapanm
 ms.date: 11/07/2015
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9956332c35b4df2773b2634cb7f66d2ea96469e4
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: c21cae9e39e3a9a1461ac3fafe576f40b70c0818
+ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61551057"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "71985009"
 ---
 # <a name="encodeurl-and-plaintext-functions-in-powerapps"></a>PowerApps의 EncodeUrl 및 PlainText 함수
 문자열을 인코딩하고 디코딩합니다.
 
 ## <a name="description"></a>설명
-합니다 **EncodeUrl** 함수 % 및 16 진수 숫자로 사용 하 여 특정 영숫자가 아닌 문자를 대체 하는 URL 문자열을 인코딩합니다.  
+**EncodeUrl** 함수는 URL 문자열을 인코딩하고 영숫자가 아닌 특정 문자를% 및 16 진수로 바꿉니다.  
 
-합니다 **일반 텍스트** HTML 및 XML 태그에 특정 태그를 적절 한 기호로 같은 변환 함수를 제거 합니다.
+**PlainText** 함수는 HTML 및 XML 태그를 제거 하 여 다음과 같은 특정 태그를 적절 한 기호로 변환 합니다.
 
 * **&amp;nbsp;**
 * **&amp;quot;**
@@ -45,8 +45,12 @@ ms.locfileid: "61551057"
 ## <a name="examples"></a>예
 텍스트 갤러리에 RSS 피드를 표시한 다음, 해당 갤러리의 레이블에 있는 **[Text](../controls/properties-core.md)** 속성을 **ThisItem.description**으로 설정하면 레이블에 다음 예제와 같이 원시 HTML 또는 XML 코드가 표시됩니다.
 
+```html
     <p>We have done an unusually&nbsp;&quot;deep&quot; globalization and localization.<p>
+```
 
 레이블의 **[Text](../controls/properties-core.md)** 속성을 **PlainText(ThisItem.description)** 로 설정하면 텍스트가 다음 예제와 같이 나타납니다.
 
+```
     We have done an unusually "deep" globalization and localization.
+```
