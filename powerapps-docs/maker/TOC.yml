@@ -47,6 +47,10 @@
               items:
                 - name: 활동에 관한 FAQ
                   href: ../user/faq-for-timeline-and-activity.md
+            - name: 레코드에 조회 필드 사용
+              href: ../user/lookup-field.md
+            - name: 프로필 카드 보기
+              href: ../user/profile-cards.md
             - name: 레코드 할당 또는 공유
               href: ../user/assign-or-share-records.md
             - name: Access Team을 사용하여 레코드 공유
@@ -59,6 +63,8 @@
               href: ../user/track-your-progress-with-dashboard-and-charts.md
         - name: 레코드 검색
           items:
+            - name: 검색 및 찾기 옵션 비교
+              href: ../user/search-and-find.md
             - name: 레코드 검색
               href: ../user/search-records.md
             - name: 고급 찾기 사용
