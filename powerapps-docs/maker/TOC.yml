@@ -1050,7 +1050,7 @@
       href: ./model-driven-apps/app-for-outlook-customize.md
     - name: 개발자의 경우
       href: ../developer/model-driven-apps/overview.md
-- name: 포털(미리 보기)
+- name: 포털
   items:
     - name: PowerApps 포털이란?
       href: ./portals/overview.md
@@ -1058,9 +1058,9 @@
       items:
         - name: 포털 템플릿
           href: ./portals/portal-templates.md
-        - name: 포털 만들기
+        - name: 시작 포털 만들기
           href: ./portals/create-portal.md
-        - name: Dynamics 365 포털 만들기
+        - name: Dynamics 365 환경을 사용하여 포털 만들기
           href: ./portals/create-dynamics-portal.md
         - name: 포털 디자이너 분석
           href: ./portals/portal-designer-anatomy.md
@@ -1072,10 +1072,10 @@
           href: ./portals/compose-page.md
         - name: 템플릿 작업
           href: ./portals/work-with-templates.md
+        - name: CSS 편집
+          href: ./portals/edit-css.md
     - name: 기존 포털 관리
       href: ./portals/manage-existing-portals.md
-    - name: 사이트 설정 구성
-      href: ./portals/configure-site-settings.md
     - name: 고급 포털 관리
       items:
         - name: 개요
@@ -1108,8 +1108,16 @@
           href: ./portals/admin/update-portal-domain.md
         - name: 서버 쪽 캐시 지우기
           href: ./portals/admin/clear-server-side-cache.md
-        - name: Dynamics 365 포털 구성 마이그레이션
+        - name: 포털 구성 마이그레이션
           href: ./portals/admin/migrate-portal-configuration.md
+        - name: 포털 수명 주기 정보
+          href: ./portals/admin/portal-lifecycle.md
+    - name: 고급 포털 구성
+      items:
+        - name: 개요
+          href: ./portals/configure/configure-portal.md
+        - name: 사이트 설정 구성
+          href: ./portals/configure/configure-site-settings.md
     - name: 고급 포털 사용자 지정
       items:
         - name: Liquid 템플릿 사용
@@ -1156,6 +1164,18 @@
                   href: ./portals/liquid/render-site-header-primary-navigation.md
         - name: OAuth 2.0 암시적 허용 흐름
           href: ./portals/oauth-implicit-grant-flow.md
+    - name: 포털의 문서 저장소
+      items:
+        - name: 정보 구성
+          href: ./portals/configure-notes.md
+        - name: Azure Storage
+          items:
+            - name: Azure storage 사용
+              href: ./portals/enable-azure-storage.md
+            - name: 양식에 Azure Storage 웹 리소스 추가
+              href: ./portals/add-web-resource.md
+        - name: SharePoint 문서 관리
+          href: ./portals/manage-sharepoint-documents.md
     - name: 알려진 문제
       href: ./portals/known-issues.md
     - name: PowerApps 포털 FAQ
