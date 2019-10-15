@@ -30,7 +30,7 @@ ms.locfileid: "71705326"
 > ![통합 인터페이스가 화면에 적응](media/Reflow.png "통합 인터페이스가 화면에 적응")
 
 > [!NOTE]
-> 레거시 웹 클라이언트는 더 이상 사용 되지 않으며 고객은 2020 년 10 월 1 일 이전에 통합 인터페이스로 전환 해야 합니다. 자세한 내용은 [Blog를 참조 하세요. 통합 인터페이스 @ no__t-0으로 이동할 타임 라인을 발표 합니다. 전환 방법에 대해 자세히 알아보려면 전환 [에 대 한 빠른 시작](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/transition-web-app)을 참조 하세요.
+> 레거시 웹 클라이언트는 더 이상 사용 되지 않으며 고객은 2020 년 10 월 1 일 이전에 통합 인터페이스로 전환 해야 합니다. 자세한 내용은 [Blog를 참조 하세요. 통합 인터페이스 으로 이동할 타임 라인을 발표 합니다](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/announcing-the-timeline-to-move-to-unified-interface/). 전환 방법에 대해 자세히 알아보려면 전환 [에 대 한 빠른 시작](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/transition-web-app)을 참조 하세요.
 
 ## <a name="navigation"></a>내비게이션
 
