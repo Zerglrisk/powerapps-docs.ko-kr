@@ -52,7 +52,7 @@ ms.locfileid: "71995612"
 1. 앱을 공유 하려는 Azure Active Directory의 사용자 또는 보안 그룹을 이름 또는 별칭으로 지정 합니다.
 
     - 전체 조직에서 앱을 실행 (수정 하거나 공유 하지 않음) 할 수 있도록 하려면 공유 패널에 **Everyone** 을 입력 합니다.
-    - 항목이 세미콜론으로 구분 되는 경우 별칭, 이름 또는 이들의 조합 (예: **Jane Doe &lt; @ no__t >** )의 조합으로 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
+    - 항목이 세미콜론으로 구분 되는 경우 별칭, 이름 또는 이들의 조합 (예: **Jane Doe &lt; @ no__t >**)의 조합으로 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
 
     ![사용자 및 공동 소유자 지정](./media/share-app/share-everyone.png)
 
@@ -144,7 +144,7 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
     - 게스트 사용자의 홈 테 넌 트입니다.
 
 ### <a name="steps-to-grant-guest-access"></a>게스트 액세스 권한을 부여 하는 단계
-1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 자세한 정보: [빠른 시작: Azure AD @ no__t-0에 새 게스트 사용자를 추가 합니다.
+1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 자세한 정보: [빠른 시작: Azure AD 에 새 게스트 사용자를 추가 합니다](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
     > [!div class="mx-imgBorder"] 
     > Azure ad에서 ![게스트 추가](media/share-app/guest_access_doc_1.png "azure ad에서 게스트") 추가
 2. 게스트 사용자의 홈 테 넌 트에 라이선스가 아직 없는 경우 게스트 사용자에 게 라이선스를 할당 합니다.
@@ -190,7 +190,7 @@ Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드
 > [!div class="mx-imgBorder"]  
 > 게스트에 대 ![한 sharepoint에 캔버스 앱 포함]게스트에(media/share-app/guest_access_doc_5.PNG "대 한 sharepoint의 캔버스 앱 포함")
 
-IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 http://make.powerapps.com 으로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
+IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 http://make.powerapps.com으로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
 
 > [!div class="mx-imgBorder"]  
 > ![Canvas 앱 세부 정보](media/share-app/guest_access_doc_6.PNG "캔버스 앱 세부 정보")
