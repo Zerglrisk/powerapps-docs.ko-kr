@@ -2,9 +2,11 @@
   items:
     - name: 개요
       href: overview.md
-    - name: 사용자 지정 구성 요소란?
+    - name: 코드 구성 요소 정의
       href: custom-controls-overview.md
-    - name: 도구 가져오기
+    - name: Canvas 앱에 대 한 가용성
+      href: component-framework-for-canvas-apps.md
+    - name: PowerApps CLI 가져오기
       href: get-powerapps-cli.md
     - name: 자습서
       items:
@@ -12,22 +14,22 @@
           href: implementing-controls-using-typescript.md
     - name: 방법
       items:
-        - name: 사용자 지정 구성 요소 생성 및 빌드
+        - name: 코드 구성 요소 만들기 및 빌드
           href: create-custom-controls-using-pcf.md
-        - name: 사용자 지정 구성 요소 디버깅
-          href: debugging-custom-controls.md
-        - name: 사용자 지정 구성 요소 패키지
+        - name: 코드 구성 요소 패키지
           href: import-custom-controls.md
-        - name: 엔터티 또는 필드에 구성 요소 추가
+        - name: 코드 구성 요소 디버그
+          href: debugging-custom-controls.md
+        - name: 모델 기반 앱에 구성 요소 추가
           href: add-custom-controls-to-a-field-or-entity.md
-        - name: 기존 사용자 지정 구성 요소 업데이트
+        - name: Canvas 앱에 구성 요소 추가
+          href: 'component-framework-for-canvas-apps.md#add-components-to-a-canvas-app'
+        - name: 기존 코드 구성 요소 업데이트
           href: updating-existing-controls.md
-        - name: AppSource에 사용자 지정 구성 요소 게시
+        - name: AppSource에 코드 구성 요소 게시
           href: publish-components-app-source.md
     - name: 제한 사항
       href: limitations.md
-    - name: FAQ
-      href: faq.md
     - name: 샘플 구성 요소
       items:
         - name: 증분 구성 요소
@@ -80,17 +82,6 @@
               href: reference/conditionexpression.md
             - name: 컨텍스트
               href: reference/context.md
-            - name: 컨트롤
-              href: reference/control.md
-              items:
-                - name: 삭제
-                  href: reference/control/destroy.md
-                - name: getOutputs
-                  href: reference/control/getOutputs.md
-                - name: Init
-                  href: reference/control/init.md
-                - name: updateView
-                  href: reference/control/updateview.md
             - name: 데이터 세트
               href: reference/dataset.md
               items:
@@ -127,7 +118,22 @@
                   href: reference/device/pickfile.md
             - name: DateFormattingInfo
               href: reference/dateformattinginfo.md
-            - name: EntityReference
+            - name: 엔터티와의
+              href: reference/entity.md
+            - name: EntityFormOptions
+              href: reference/entityformoptions.md
+            - name: EntityRecord
+              href: reference/entityrecord.md
+              items:
+                - name: getFormattedValue
+                  href: reference/entityrecord/getformattedvalue.md
+                - name: getNamedreference
+                  href: reference/entityrecord/getnamedreference.md
+                - name: getRecordId
+                  href: reference/entityrecord/getrecordid.md
+                - name: getValue
+                  href: reference/entityrecord/getvalue.md
+            - name: Entityreference
               href: reference/entityreference.md
             - name: 팩터리
               href: reference/factory.md
@@ -136,13 +142,19 @@
                   href: reference/factory/getpopupservice.md
                 - name: requestRender
                   href: reference/factory/requestrender.md
-            - name: 연결 중
-              href: reference/linking.md
+            - name: FileObject
+              href: reference/fileobject.md
+            - name: 필터링
+              href: reference/filtering.md
               items:
-                - name: addLinkedEntity
-                  href: reference/linking/addlinkedentity.md
-                - name: getLinkedEntity
-                  href: reference/linking/getlinkedentities.md
+                - name: clearFilter
+                  href: reference/filtering/clearfilter.md
+                - name: getFilter
+                  href: reference/filtering/getfilter.md
+                - name: setFilter
+                  href: reference/filtering/setfilter.md
+            - name: FilterExpression
+              href: reference/filterexpression.md
             - name: 서식 지정
               href: reference/formatting.md
               items:
@@ -168,6 +180,15 @@
                   href: reference/formatting/formattime.md
                 - name: getWeekOfYear
                   href: reference/formatting/getweekofyear.md
+            - name: 연결 중
+              href: reference/linking.md
+              items:
+                - name: addLinkedEntity
+                  href: reference/linking/addlinkedentity.md
+                - name: getLinkedEntity
+                  href: reference/linking/getlinkedentities.md
+            - name: LookupOptions
+              href: reference/lookupoptions.md
             - name: 모드
               href: reference/mode.md
               items:
@@ -177,7 +198,7 @@
                   href: reference/mode/setfullscreen.md
                 - name: trackContainerResize
                   href: reference/mode/trackcontainerresize.md
-            - name: 탐색
+            - name: 내비게이션
               href: reference/navigation.md
               items:
                 - name: openAlertDialog
@@ -205,7 +226,7 @@
                   href: reference/paging/loadpreviouspage.md
                 - name: 다시 설정
                   href: reference/paging/reset.md
-                - name: setpageSize
+                - name: setPageSize
                   href: reference/paging/setpagesize.md
             - name: 팝업
               href: reference/popup.md
@@ -226,6 +247,10 @@
                   href: reference/popupservice/setpopupsid.md
                 - name: updatePopup
                   href: reference/popupservice/updatepopup.md
+            - name: 속성
+              href: reference/property.md
+            - name: RetrieveMultipleResponse
+              href: reference/retrievemultipleresponse.md
             - name: 리소스
               href: reference/resources.md
               items:
@@ -233,8 +258,21 @@
                   href: reference/resources/getresource.md
                 - name: getString
                   href: reference/resources/getstring.md
+            - name: SecurityValues
+              href: reference/securityvalues.md
             - name: SortStatus
               href: reference/sortstatus.md
+            - name: StandardControl
+              href: reference/control.md
+              items:
+                - name: 삭제
+                  href: reference/control/destroy.md
+                - name: getOutputs
+                  href: reference/control/getOutputs.md
+                - name: Init
+                  href: reference/control/init.md
+                - name: updateView
+                  href: reference/control/updateview.md
             - name: UserSettings
               href: reference/usersettings.md
             - name: 유틸리티
@@ -270,7 +308,7 @@
               href: manifest-schema-reference/css.md
             - name: 데이터 세트
               href: manifest-schema-reference/data-set.md
-            - name: html
+            - name: .html
               href: manifest-schema-reference/html.md
             - name: img
               href: manifest-schema-reference/img.md
@@ -288,3 +326,11 @@
               href: manifest-schema-reference/type.md
             - name: 그룹 유형
               href: manifest-schema-reference/type-group.md
+            - name: 기능 사용
+              href: manifest-schema-reference/feature-usage.md
+            - name: 사용-기능
+              href: manifest-schema-reference/uses-feature.md
+    - name: 커뮤니티 리소스
+      href: 'https://powerusers.microsoft.com/t5/PowerApps-Component-Framework/Community-content-sample-components-blogs-etc-Link-to-this-page/m-p/280710#M100'
+    - name: 피드백 공유
+      href: share-your-feedback-for-pcf.md

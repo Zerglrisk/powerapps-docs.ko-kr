@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 10/04/2019
+ms.date: 10/15/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 45790b7a3e6166366a751c812a5d470d5615c3a2
-ms.sourcegitcommit: 4c35aedde46380d5438687ae6f61a3b0cc7e7e2f
+ms.openlocfilehash: 0ce5218143a8283690cdaf7c1d9be2b1da3d629e
+ms.sourcegitcommit: 60a7dc7855d482b63719d121dbe5353e304d67f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71969294"
+ms.lasthandoff: 10/16/2019
+ms.locfileid: "72393138"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -30,6 +30,9 @@ ms.locfileid: "71969294"
 | iOS 9.3 이상 |최소 2GB의 RAM이 있는 iOS 10 이상 |
 | Android 5 이상 |최소 4GB의 RAM이 있는 Android 7 이상 |
 | Windows 8.1 이상(PC만 해당) |최소 8GB의 RAM이 있는 Windows 10 Fall Creators Update|
+
+> [!NOTE]
+> 현재 PowerApps 앱 용 Windows 플랫폼에서 새로운 기능을 지원 하지 않습니다. 이 플랫폼에서는 향상 된 Common Data Service 옵션 및 게스트 액세스와 같은 기능을 사용할 수 없습니다. Windows에서 웹 플레이어를 사용 하 여 전체 기능 집합을 활용 하는 것이 좋습니다. Windows 플랫폼용 PowerApps 앱에 대 한 업데이트는 나중에 발표 될 예정입니다.
 
 ## <a name="supported-browsers-for-running-canvas-apps"></a>캔버스 앱 실행에 지원되는 브라우저
 
@@ -94,11 +97,11 @@ PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하�
 | login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |http |ADAL |
 | graph.microsoft.com<br>graph.windows.net |http |Azure Graph-사용자 정보 (예: 프로필 사진)를 가져오는 데 사용 됩니다. |
 | gallery.azure.com |http |샘플 및 템플릿 앱 |
-| \*.azure-apim.net |http |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
-| \*.powerapps.com |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
-| \*.azureedge.net |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
-| \*.blob.core.windows.net |http | Blob 저장소 |
-| \*.flow.microsoft.com | http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
+| \* azure-apim.net |http |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
+| \* powerapps.com |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
+| \* azureedge.net |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
+| \* blob.core.windows.net |http | Blob 저장소 |
+| \* flow.microsoft.com | http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
 | vortex.data.microsoft.com |http |분석이 |
 | 호스트 | http | PowerApps Mobile
 
@@ -128,8 +131,8 @@ PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하�
 
 ### <a name="app-settings"></a>앱 설정
 
-![Canvas 앱 설정](./media/limits-and-config/app_settings.png "캔버스 앱 설정")
+![Canvas 앱 설정](./media/limits-and-config/app_settings.png "Canvas 앱 설정")
 
 ### <a name="pass-assignment"></a>통과 할당
 
-![Canvas 앱 설정 pass 할당](./media/limits-and-config/app_settings_pass_assignment.png "캔버스 앱 설정 패스 할당")
+![Canvas 앱 설정 패스 할당](./media/limits-and-config/app_settings_pass_assignment.png "Canvas 앱 설정 패스 할당")
