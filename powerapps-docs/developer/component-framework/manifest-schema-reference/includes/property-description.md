@@ -4,7 +4,7 @@ description: ''
 keywords: ''
 ms.author: nabuthuk
 manager: kvivek
-ms.date: 04/23/2019
+ms.date: 10/01/2019
 ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -13,11 +13,11 @@ applies_to:
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
 ms.assetid: 0966cc45-b8a7-47bc-ab13-126b17c60d5c
-ms.openlocfilehash: fae3a2b817f5c4b718599ef50f21552eb88340e0
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
-ms.translationtype: HT
+ms.openlocfilehash: 726e8c9d294040b1c7de71108e47eb45fdf44f78
+ms.sourcegitcommit: 63ea15e2f861d43333aacda19230cd8922d7bdfd
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63393627"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "72338531"
 ---
-속성 노드는 컨트롤이 Common Data Service에서 예상하는 특정 구성 가능한 데이터 부분을 정의합니다.
+속성 노드는 구성 요소가 Common Data Service에서 예상 하는 구성 가능한 특정 데이터 부분을 정의 합니다.

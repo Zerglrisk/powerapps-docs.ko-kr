@@ -4,7 +4,7 @@ description: ''
 keywords: ''
 ms.author: nabuthuk
 manager: kvivek
-ms.date: 04/23/2019
+ms.date: 10/01/2019
 ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -13,11 +13,11 @@ applies_to:
 - Dynamics 365 (online)
 - Dynamics 365 Version 9.x
 ms.assetid: 5e27ab35-adb7-4756-8b0e-2b2b48b371e2
-ms.openlocfilehash: 4330525e87527219bdf182f0c1418957a9afb8ca
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
-ms.translationtype: HT
+ms.openlocfilehash: bf295c811a6c64d1fdfabd579d948f57c220e4d6
+ms.sourcegitcommit: 63ea15e2f861d43333aacda19230cd8922d7bdfd
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63394110"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "72338416"
 ---
-데이터 세트의 열에 대한 메타데이터
+데이터 집합의 열 메타 데이터에 대 한 정보를 제공 합니다.
