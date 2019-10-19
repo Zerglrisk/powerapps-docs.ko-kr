@@ -14,15 +14,15 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ba08437dc144fc81aa9748163b1005222735cb69
-ms.sourcegitcommit: f296922b8039b573e5adb81423a544f70c56c1ee
+ms.sourcegitcommit: a560630f5ee83629a7236ae774fc0c8195b95efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
+ms.lasthandoff: 10/18/2019
 ms.locfileid: "70842249"
 ---
 # <a name="embed-a-powerapps-app-in-teams"></a>팀에 PowerApps 앱 포함 
 
-Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습니다. 완료 되 면 사용자는 자신이 **+** **있는 팀의 팀 채널이** 나 대화에 앱을 추가 하도록 선택할 수 있습니다. 앱은 **팀의 탭 아래에**타일로 표시 됩니다. 
+Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습니다. 완료 되 면 사용자는 **+** 를 선택 하 여 사용자가 **있는 팀의 팀 채널** 또는 대화에 앱을 추가할 수 있습니다. 앱은 **팀의 탭 아래에**타일로 표시 됩니다. 
 
 관리자는 앱을 업로드 하 여 **모든 탭 섹션**아래에 있는 테 넌 트의 **모든** 팀에 표시 되도록 할 수 있습니다. [Microsoft 팀에서 앱 공유](https://docs.microsoft.com/en-us/power-platform/admin/embed-app-teams)를 참조 하세요.
 
@@ -38,7 +38,7 @@ Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습�
 
 이후 단계에서 사용할 PowerApp의 GUID를 찾아 적어 둡니다.
 
-1. 에 [https://web.powerapps.com](https://web.powerapps.com)로그인 한 다음 메뉴에서 **앱** 을 선택 합니다.
+1. [@No__t_1](https://web.powerapps.com)에 로그인 한 다음 메뉴에서 **앱** 을 선택 합니다.
 
    > [!div class="mx-imgBorder"] 
    > ![앱 목록 표시](./media/embed-teams-app/file-apps2.png "앱 목록 표시")
@@ -129,9 +129,9 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
    > [!div class="mx-imgBorder"] 
    > ![팀 탭 추가](./media/embed-teams-app/team-tab-add.png "팀 탭 추가")
 
-7. 다음 형식을 사용 하 여 "구성 URL" 입력 필드에 앱의 구성 URL을 추가 합니다.`https://apps.powerapps.com/teams/settings/<PowerApp ID>`
+7. 다음 형식을 사용 하 여 "구성 URL" 입력 필드에 앱의 구성 URL을 추가 합니다. `https://apps.powerapps.com/teams/settings/<PowerApp ID>`
 
-   을 `<PowerApp ID>` 위에서 기록한 앱 ID GUID로 바꿉니다.
+   @No__t_0을 위에서 기록한 앱 ID GUID로 바꿉니다.
 
    앱이 표시 되는 [범위](https://docs.microsoft.com/microsoftteams/platform/concepts/tabs/tabs-overview#tab-scope) 를 선택 합니다. **업데이트 구성** 이 선택 되어 있는지 확인 하 고 **저장**을 선택 합니다.
 
@@ -161,7 +161,7 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
 
 ## <a name="add-the-app-as-a-tab"></a>탭으로 앱 추가
 
-채널 또는 대화에 탭으로 앱을 추가 하려면를 선택한 **+** 다음 **팀의 탭** 에서 앱을 선택 합니다. 
+채널 또는 대화에 탭으로 앱을 추가 하려면 **+** 를 선택 하 고 **팀에 대 한 탭** 에서 앱을 선택 합니다. 
 
 > [!div class="mx-imgBorder"] 
 > ![앱을 탭으로 추가](./media/embed-teams-app/add-app-as-tab.png "앱을 탭으로 추가")
@@ -173,4 +173,4 @@ App Studio가 이미 설치 되어 있는 경우에는 이러한 단계를 건�
 
 ### <a name="see-also"></a>참고 항목
 [Microsoft 팀 시작](https://docs.microsoft.com/MicrosoftTeams/teams-overview)<br />
-[관리자의 경우: Microsoft 팀에 앱 포함](https://docs.microsoft.com/power-platform/admin/share-app-teams)
+[관리자: Microsoft 팀에 앱 포함](https://docs.microsoft.com/power-platform/admin/share-app-teams)
