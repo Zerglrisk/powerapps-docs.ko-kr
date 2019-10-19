@@ -1,4 +1,5 @@
 ---
+redirect_url: https://docs.microsoft.com/power-platform/admin/powerapps-gdpr-export-dsr
 title: 리소스 내보내기 및 가져오기 | Microsoft Docs
 description: PowerApps에서 리소스를 내보내고 가져오는 방법 알아보기
 author: nimakms
@@ -14,12 +15,12 @@ search.app:
 - D365CE
 - PowerApps
 - Powerplatform
-ms.openlocfilehash: 1edaacc3a013646d8da0a286e28723926817ee71
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: ce01bf68e892b60fa1401ee9366d9d1d0acaecaf
+ms.sourcegitcommit: 6984ce43cc5653ccb957219d2a687907ebb5520c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "61528622"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72560960"
 ---
 # <a name="export-and-import-resources"></a>리소스 내보내기 및 가져오기
 데이터베이스 및 앱 개발을 지원하기 위해 여러 환경을 만든 경우 한 환경에서 다른 환경으로 변경 사항을 이동해야 합니다. **리소스 내보내기** 및 **리소스 가져오기**를 사용하여 환경 간에 리소스를 이동할 수 있습니다.
@@ -87,6 +88,6 @@ ms.locfileid: "61528622"
 * **사용자 지정 엔터티** – 사용자 지정 엔터티는 환경 간에 이동됩니다.
 * **사용자 지정 선택 목록** – 사용자 지정 선택 목록은 환경 간에 이동됩니다.
 
-## <a name="data"></a>보기
+## <a name="data"></a>데이터로
 리소스 내보내기 및 가져오기의 일환으로 데이터베이스 데이터를 이동할 수 없습니다. 데이터를 이동하려면 Microsoft Excel을 사용할 수 있습니다. 
 
