@@ -61,6 +61,8 @@
               href: ../user/deactivate-activate-account-contact.md
             - name: 대시보드 및 차트를 사용하여 진행률 추적
               href: ../user/track-your-progress-with-dashboard-and-charts.md
+            - name: Power BI 대시보드 추가
+              href: ../user/add-powerbi-dashboards.md
         - name: 레코드 검색
           items:
             - name: 검색 및 찾기 옵션 비교
