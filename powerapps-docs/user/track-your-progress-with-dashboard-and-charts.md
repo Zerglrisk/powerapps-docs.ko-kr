@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 11/16/2018
+ms.date: 10/4/2019
 ms.author: mduelae
 ms.reviewer: ''
 ms.assetid: ''
@@ -16,12 +16,12 @@ search.app:
 - PowerApps
 - D365CE
 - D365CE
-ms.openlocfilehash: e201e098ec8dc86a641a33ef851ed8627975a538
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: e9d046c49a2a91aaf5c65094d446ae09f41572f9
+ms.sourcegitcommit: 4c35aedde46380d5438687ae6f61a3b0cc7e7e2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "61552419"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71969099"
 ---
 # <a name="track-your-progress-with-dashboards-and-charts"></a>대시보드 및 차트를 사용하여 진행률 추적
 
@@ -52,7 +52,7 @@ ms.locfileid: "61552419"
 4. 대시보드의 각 영역에 원하는 항목을 추가 합니다. 예를 들어 차트를 추가 해 보겠습니다. 
 
    > [!div class="mx-imgBorder"]
-   > ![차트 추가](media/add_chart.png "차트 추가")
+   > 차트 ![추가](media/add_chart.png "차트") 추가
  
  5. 차트에 대 한 **레코드 종류** 를 선택 합니다.
  6. 차트의 데이터가 표시 되는 **보기** 를 선택 합니다.
@@ -67,11 +67,11 @@ ms.locfileid: "61552419"
 
 -   차트 위로 마우스를 가져가면 차트의 해당 영역에 대 한 빠른 정보를 제공 하는 도구 설명이 표시 됩니다.
 -   차트의 영역을 클릭 하면 차트의 데이터에 대 한 자세한 정보가 포함 된 그리드 보기가 표시 됩니다.
--   차트를 확장 하려면 차트 **확장**확장 차트![뷰](media/expandviewbutton.png " 차트 뷰 확장") 단추를 선택 합니다.
+-   차트를 확장 하려면 차트 **확장**확장 차트![뷰]차트 뷰(media/expandviewbutton.png "확장") 단추를 선택 합니다.
 -   차트에서 레코드를 보거나 차트를 새로 고치려면 더 많은 명령 ![](media/MoreButton.png "추가 명령을") 선택한 다음 작업을 선택 합니다. 레코드를 **새로 고치거** 나 **봅니다**.
      
      > [!div class="mx-imgBorder"]
-     > ![PowerApps의 차트 보기](media/ViewOfCharts.png "PowerApps의 차트 보기")  
+     > Powerapps 차트의 powerapps(media/ViewOfCharts.png "보기") ![에서 차트 보기]  
        
 
 **차트 뷰 변경**
@@ -81,10 +81,10 @@ ms.locfileid: "61552419"
 예를 들어 "모든 기회"를 선택한 다음 다른 보기를 선택 하면 차트와 눈금이 모두 새로 고쳐집니다.
 
 > [!div class="mx-imgBorder"]
-> ![PowerApps에서 차트 뷰 변경](media/ChangeChartView.png "PowerApps에서 차트 뷰 변경")
+> ![Powerapps에서 차트 뷰 변경](media/ChangeChartView.png "powerapps의 차트 뷰 변경")
 
-
-
+## <a name="known-issues"></a>알려진 문제  
+차트 디자이너에서 특정 계산 필드에 order by를 추가 하는 것은 지원 되지 않으며 오류가 발생 합니다.  이를 발생 시키는 계산 필드는 다른 계산 필드, 관련 엔터티 필드 또는 엔터티의 로컬 필드를 사용 합니다.
 
 
 

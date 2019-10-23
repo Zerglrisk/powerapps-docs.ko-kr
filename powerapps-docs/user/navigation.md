@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: a46698ddf454c9d0f563575a3553e874f3a7b109
-ms.sourcegitcommit: 9a16bb75c856f7c84cd385811b7135ab2804ae69
+ms.openlocfilehash: a53aaf84530935e525f1177d85f74e125711fc40
+ms.sourcegitcommit: 4c35aedde46380d5438687ae6f61a3b0cc7e7e2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "71924518"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71969153"
 ---
 #  <a name="basic-navigation-in-a-model-driven-app"></a>모델 기반 앱의 기본 탐색 
 
@@ -91,7 +91,36 @@ ms.locfileid: "71924518"
 
 ## <a name="grids"></a>배경
 
-통합 인터페이스의 표가 화면에 표시 될 수 있는 데이터의 양을 늘리기 위해 개선 되었습니다. 또한 그리드는 마지막 필터를 기억 하 고 순서를 정렬 하는 등의 필터링 옵션을 향상 시켰습니다. 향상 된 기능에 대 한 자세한 내용은이 블로그 게시물의 [통합 인터페이스 그리드에서 향상 된 기능](https://powerapps.microsoft.com/en-us/blog/enhanced-functionality-in-unified-interface-grids)을 참조 하세요.
+통합 인터페이스의 표가 화면에 표시 될 수 있는 데이터의 양을 늘리기 위해 개선 되었습니다. 또한 그리드는 마지막 필터를 기억 하 고 순서를 정렬 하는 등의 필터링 옵션을 향상 시켰습니다. 
 
+그리드 영역에서 데이터를 검색할 때 시스템이 데이터 검색에 대해 작동 하 고 있음을 알리는 로드 표시기가 표시 됩니다.
+
+주 그리드 페이지는 앞뒤로 이동할 때 필터, 정렬 및 페이지 상태를 기억 합니다. 여기에는 빠른 찾기, 열 필터링, 페이지 번호 등이 포함 됩니다. 페이지 외부의 탐색은 초기 상태로 열립니다.
+
+
+   > [!div class="mx-imgBorder"]
+   > ![표 상태](media/grid-remember-state-on-back-navigate.gif "표") 를 기억할 상태
+
+
+점프 막대는 첫 번째 정렬 된 필드를 사용 합니다. 정렬 변경이 수행 되지 않은 경우에는 기본 필드를 사용 하는 점프 막대가 표시 됩니다. 
+
+   > [!div class="mx-imgBorder"]
+   > ![표 상태](media/jumpbar-filter-on-sorted-column.gif "표") 를 기억할 상태
+   
+
+**작업 유형** 필드를 필터링 하 고 여러 필터링 유형을 선택할 수 있습니다. 또한 소유자, 상태, 이유 등의 관련 엔터티 필드도 필터링 할 수 있습니다.
+
+   > [!div class="mx-imgBorder"]
+   > ![표]필터링(media/grid-activity-type-column-filter.gif "표") 필터링
+   
+계층 구조 아이콘을 선택 하는 경우 계층 구조 폼으로 이동 합니다.
+
+   > [!div class="mx-imgBorder"]
+   > ![계층 아이콘](media/grid-row-hierarchy-icon.png "계층 구조 아이콘")
+   
+새 탭 또는 창에서 기본 필드 및 조회 필드를 열 수도 있습니다.
+
+   > [!div class="mx-imgBorder"]
+   > ![새 창에서 열기](media/newtab.png "[새 창에서 열기")
 
 

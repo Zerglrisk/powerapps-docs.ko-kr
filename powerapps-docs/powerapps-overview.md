@@ -12,12 +12,12 @@ ms.reviewer: kvivek
 searchScope:
 - GetStarted
 - PowerApps
-ms.openlocfilehash: 34b2d24771feb246d234c0ce3bd1fc655e571296
-ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
+ms.openlocfilehash: 23eb64171c1f339b423bdf56b53b186d2c9e14b5
+ms.sourcegitcommit: 073d8534d7ff0093370ee17a1b9b63c10c7f050c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71705269"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "72041310"
 ---
 # <a name="what-is-powerapps"></a>PowerApps란?
 
@@ -59,7 +59,7 @@ PowerApps 관리자는 다음을 사용할 수 있습니다.
 
 ## <a name="powerapps-and-dynamics-365"></a>PowerApps 및 Dynamics 365
 
-Dynamics 365 for Sales, Dynamics 365 for Service, Dynamics 365 for Marketing과 같은 Dynamics 365 애플리케이션도 PowerApps에서 데이터 저장 및 보안을 위해 사용하는 기본 데이터 플랫폼(Common Data Service)을 사용합니다. 이렇게 하면 통합할 필요 없이 Dynamics 365 내에서 이미 사용되는 핵심 비즈니스 데이터에 대해 직접 PowerApps 및 Common Data Service를 사용하여 앱을 빌드할 수 있습니다. 자세한 정보: [Dynamics 365 및 Common Data Service](maker/common-data-service/data-platform-intro.md#dynamics-365-and-the-common-data-service)
+Dynamics 365 Sales, Dynamics 365 Customer 365 Service 등 dynamics 365 응용 프로그램은 PowerApps에서 데이터를 저장 하 고 보호 하는 데 사용 하는 기본 데이터 플랫폼 (Common Data Service)도 사용 합니다. 이렇게 하면 통합할 필요 없이 Dynamics 365 내에서 이미 사용되는 핵심 비즈니스 데이터에 대해 직접 PowerApps 및 Common Data Service를 사용하여 앱을 빌드할 수 있습니다. 자세한 정보: [Dynamics 365 및 Common Data Service](maker/common-data-service/data-platform-intro.md#dynamics-365-and-common-data-service)
 
 ## <a name="try-powerapps-for-free"></a>PowerApps 평가판 무료 사용
 

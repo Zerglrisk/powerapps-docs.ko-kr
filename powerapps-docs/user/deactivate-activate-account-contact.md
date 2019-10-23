@@ -15,13 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: aa397d26d3a93812a72c6de1d1e7b996577c6bba
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: a0b4e125749d5b0179489677e9a1103cb14a0697
+ms.sourcegitcommit: 481a89e50c282f1e533a8526035dd3c38e3818a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "63318447"
----
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "72023304"
 ---
 # <a name="deactivate-or-activate-an-account-or-contact"></a>계정 또는 연락처 비활성화 또는 활성화
 
@@ -38,7 +37,7 @@ ms.locfileid: "63318447"
 2.  비활성화 하려는 활성 계정 또는 연락처를 선택 하 고 명령 모음에서 **비활성화**를 선택한 다음 비활성화를 확인 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![PowerApps에서 계정 비활성화](media/DeactiveAccounts.png "PowerApps에서 계정 비활성화")
+    > ![Powerapps의 계정 비활성화]powerapps(media/DeactiveAccounts.png "에서 계정") 비활성화
 
 
 ## <a name="activate-an-account-or-contact"></a>계정 또는 연락처 활성화  
@@ -54,7 +53,7 @@ ms.locfileid: "63318447"
 5.  **활성화**를 선택 하 고 활성화를 확인 합니다.  
 
     > [!div class="mx-imgBorder"]
-    > ![PowerApps에서 계정 활성화](media/ActiveAccounts.png "PowerApps에서 계정 활성화")  
+    > ![Powerapps에서 계정 활성화](media/ActiveAccounts.png "powerapps에서 계정 활성화")  
 
 
 
