@@ -1094,6 +1094,10 @@
           href: ./portals/admin/change-base-url.md
         - name: 유지 관리 모드 사용
           href: ./portals/admin/enable-maintenance-mode.md
+        - name: 사용자 지정 도메인 이름 추가
+          href: ./portals/admin/add-custom-domain.md
+        - name: 메타데이터 변환 가져오기
+          href: ./portals/admin/import-metadata-translation.md
         - name: Power BI 통합
           items:
             - name: Power BI 통합 설정
@@ -1120,6 +1124,24 @@
           href: ./portals/configure/configure-portal.md
         - name: 사이트 설정 구성
           href: ./portals/configure/configure-site-settings.md
+        - name: 포털 인증
+          items:
+            - name: 포털 인증 구성
+              href: ./portals/configure/configure-portal-authentication.md
+            - name: 인증 ID 설정
+              href: ./portals/configure/set-authentication-identity.md
+            - name: 포털에 대한 Azure AD B2C 공급자 설정
+              href: ./portals/configure/azure-ad-b2c.md
+            - name: OAuth2 공급자 설정 구성
+              href: ./portals/configure/configure-oauth2-settings.md
+            - name: OpenID 공급자 설정 구성
+              href: ./portals/configure/configure-openid-settings.md
+            - name: WS-Federation 공급자 설정 구성
+              href: ./portals/configure/configure-ws-federation-settings.md
+            - name: SAML 2.0 공급자 설정 구성
+              href: ./portals/configure/configure-saml2-settings.md
+            - name: Azure AD B2C로 ID 공급자 마이그레이션
+              href: ./portals/configure/migrate-identity-providers.md
     - name: 고급 포털 사용자 지정
       items:
         - name: Liquid 템플릿 사용
