@@ -14,15 +14,15 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 036de37aa2593254d6ae665f8546fe4038dd922d
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71994842"
 ---
 # <a name="understand-canvas-app-variables-in-powerapps"></a>PowerApps에서 캔버스 앱 변수 이해
 
-Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 다음을 요청할 수 있습니다. **변수는 어디에 있나요?** PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 캔버스 앱을 빌드할 때 변수에 도달 하는 대신 사용자에 게 문의 하세요. **Excel에서 수행할 수 있는 작업은 무엇 인가요?**
+Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?** 라고 물어볼 수 있습니다. PowerApps는 약간 다르며 다른 접근 방식이 필요합니다. 캔버스 앱을 빌드할 때 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?** 라고 물어보세요.
 
 다른 도구에서는 명시적으로 계산을 수행하여 결과를 변수에 저장했습니다. 그러나 PowerApps와 Excel에서는 모두 입력 데이터가 변경될 때 수식을 자동으로 다시 계산하므로 일반적으로 변수를 만들고 업데이트할 필요가 없습니다. 가능한 경우 언제든지 이 방법을 사용하면 앱을 더 쉽게 만들고, 이해하고, 유지 관리할 수 있습니다.
 
@@ -84,7 +84,7 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 
 | 표시가 | 설명 |
 |----|----|
-| <style>img {최대 너비: 없음}</style> @no__t-텍스트 입력 컨트롤, 레이블 및 두 개의 단추 @ no__t-2를 사용 하는 앱 | 앱이 시작 되 면 누계는 0입니다.<br><br>빨간색 점은 사용자가 **77**를 입력 하는 텍스트 입력 상자에 사용자의 손가락을 나타냅니다. |
+| <style>img {max-width: none}</style> ![App 텍스트 입력 컨트롤, 레이블 및 단추 두 개를 사용 하 여 ](media/working-with-variables/button-changes-state-1.png) | 앱이 시작 되 면 누계는 0입니다.<br><br>빨간색 점은 사용자가 **77**를 입력 하는 텍스트 입력 상자에 사용자의 손가락을 나타냅니다. |
 | ![텍스트 입력 컨트롤에 77이 포함 되어 있고 추가 단추가 눌러져 있습니다.](media/working-with-variables/button-changes-state-2.png) | 사용자가 **추가** 단추를 선택 합니다. |
 | ![합계는 77이 고 다른 77는 추가 됩니다.](media/working-with-variables/button-changes-state-3.png) | 77는 누계에 추가 됩니다.<br><br>사용자가 **추가** 단추를 다시 선택 합니다. |
 | ![합계는 지워지는 154입니다.](media/working-with-variables/button-changes-state-4.png) | 77이 실행 중인 합계에 다시 추가 되어 154가 발생 합니다.<br><br>사용자가 **지우기** 단추를 선택 합니다. |
@@ -195,7 +195,7 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 컨텍스트 변수의 작동 방식은 다음과 같습니다.
 
 * **[Updatecontext](functions/function-updatecontext.md)** 또는 **[Navigate](functions/function-navigate.md)** 함수를 사용 하 여 컨텍스트 변수를 암시적으로 설정 하 고 설정 합니다. 앱이 시작 되 면 모든 컨텍스트 변수의 초기 값이 *비어*있습니다.
-* 컨텍스트 변수는 레코드를 사용 하 여 업데이트 합니다. 다른 프로그래밍 도구에서는 일반적으로 "x = 1"에서와 같이 할당에 "="를 사용합니다. 컨텍스트 변수의 경우 **{x를 사용 합니다. 1}** 이 대신입니다. 컨텍스트 변수를 사용 하는 경우 레코드 구문 없이 해당 이름을 직접 사용 합니다.
+* 컨텍스트 변수는 레코드를 사용 하 여 업데이트 합니다. 다른 프로그래밍 도구에서는 일반적으로 "x = 1"에서와 같이 할당에 "="를 사용합니다. 컨텍스트 변수의 경우 **{ x: 1 }** 을 대신 사용합니다. 컨텍스트 변수를 사용 하는 경우 레코드 구문 없이 해당 이름을 직접 사용 합니다.
 * **[Navigate](functions/function-navigate.md)** 함수를 사용 하 여 화면을 표시 하는 경우에도 컨텍스트 변수를 설정할 수 있습니다. 화면을 일종의 프로시저 또는 서브루틴으로 생각 하는 경우이 방법은 다른 프로그래밍 도구에서 전달 하는 매개 변수와 비슷합니다.
 * **[Navigate](functions/function-navigate.md)** 를 제외하고 컨텍스트 변수는 단일 화면의 컨텍스트로 제한되며, 여기에서 컨텍스트 변수의 이름을 얻습니다. 이 컨텍스트 외부에서는 사용하거나 설정할 수 없습니다.
 * 컨텍스트 변수에는 문자열, 숫자, 레코드 및 [테이블](working-with-tables.md)을 포함한 모든 값이 포함될 수 있습니다.
@@ -208,9 +208,9 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 
 3. 사용자가 **추가** 단추를 선택할 때마다 누계를 업데이트하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
-    **Updatecontext ({RunningTotal: RunningTotal + TextInput1})**
+    **UpdateContext ({RunningTotal: RunningTotal + TextInput1})**
 
-    이 수식이 있으면 **+** 연산자로 인해 숫자가 포함 된 컨텍스트 변수로 **RunningTotal** 설정 됩니다. 이 화면에서 **RunningTotal** 를 참조할 수 있습니다. 사용자가이 앱을 열 때마다 **RunningTotal** 의 초기 값은 *비어*있습니다.
+    이 수식이 있으면 **+** 연산자 때문에 **RunningTotal** 가 숫자를 포함 하는 컨텍스트 변수로 설정 됩니다. 이 화면에서 **RunningTotal** 를 참조할 수 있습니다. 사용자가이 앱을 열 때마다 **RunningTotal** 의 초기 값은 *비어*있습니다.
 
     사용자가 처음으로 **추가** 단추를 선택 하 고 **[updatecontext](functions/function-updatecontext.md)** 를 실행 하는 경우 **RunningTotal** 는 **RunningTotal + TextInput1**값으로 설정 됩니다.
 
@@ -218,9 +218,9 @@ PowerApps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 
 4. 사용자가 **지우기** 단추를 선택할 때마다 누계를 **0**으로 설정하려면 **[OnSelect](controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
-    **Updatecontext ({RunningTotal: 0})**
+    **UpdateContext( { RunningTotal: 0 } )**
 
-    다시, **[Updatecontext](functions/function-updatecontext.md)** 는 **updatecontext ({RunningTotal: 0})** 입니다.
+    다시 말하지만 **[UpdateContext](functions/function-updatecontext.md)** 는 **UpdateContext( { RunningTotal: 0 } )** 수식과 함께 사용됩니다.
 
     ![Clear 단추의 OnSelect 속성](media/working-with-variables/context-variable-2.png)
 
