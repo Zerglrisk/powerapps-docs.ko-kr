@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: ae82166b9cc21de1e25f99f7606ce7b95b2152b9
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71993958"
 ---
 # <a name="connect-to-sharepoint-from-a-canvas-app"></a>캔버스 앱에서 SharePoint에 연결
@@ -40,34 +40,34 @@ SharePoint 사이트에 연결 하 여 사용자 지정 목록에서 자동으�
 
 ## <a name="create-a-connection"></a>연결 만들기
 
-1. [PowerApps에 로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하 여 왼쪽 탐색 모음에서 **데이터** > **연결** 을 선택 하 고 왼쪽 위 모서리 근처에서 **새 연결** 을 선택 합니다.
+1. [PowerApps에 로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하 고, 왼쪽 탐색 모음에서 **데이터**  > **연결** 을 선택한 다음, 왼쪽 위 모서리 근처에 있는 **새 연결** 을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t 왼쪽 탐색 모음에서 데이터 > 연결을 선택 하 고 왼쪽 위 모서리 근처에서 새 연결을 선택 합니다. ](./media/connection-sharepoint-online/new-connection.png)
+    > 왼쪽 탐색 모음에서 데이터 > 연결을 ![Select 다음 왼쪽 위 모서리 근처에서 새 연결을 선택 합니다. ](./media/connection-sharepoint-online/new-connection.png)
 
 1. 오른쪽 위 모서리 근처의 검색 상자에 **sharepoint**를 입력 하거나 붙여 넣은 다음 **sharepoint**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t-오른쪽 위 모서리 근처의 검색 상자에 SharePoint를 입력 하거나 붙여 넣은 다음 SharePoint를 선택 합니다. ](./media/connection-sharepoint-online/select-sharepoint.png)
+    > 오른쪽 위 모서리 근처에 있는 검색 상자 ![In SharePoint를 입력 하거나 붙여 넣은 다음 SharePoint를 선택 합니다. ](./media/connection-sharepoint-online/select-sharepoint.png)
 
 1. 다음 단계 중 하나를 수행 합니다.
 
     - SharePoint Online에 연결 하려면 **직접 연결 (클라우드 서비스)** 을 선택 하 고 **만들기**를 선택한 다음, 자격 증명을 제공 합니다 (메시지가 표시 되는 경우).
 
         > [!div class="mx-imgBorder"]
-        > ![ SharePoint Online에 연결 하려면 직접 연결 (클라우드 서비스) ](./media/connection-sharepoint-online/select-online.png)을 선택 합니다.
+        > SharePoint Online에 연결 ![To 직접 연결 (클라우드 서비스)을 선택 ](./media/connection-sharepoint-online/select-online.png)
 
         연결이 만들어지고, 기존 앱에 데이터를 추가 하거나 처음부터 앱을 빌드할 수 있습니다.
 
     - 온-프레미스 사이트에 연결 하려면 **온-프레미스 데이터 게이트웨이를 사용 하 여 연결**을 선택 합니다.
 
         > [!div class="mx-imgBorder"]
-        > @no__t 온-프레미스 사이트에 연결 하려면 * * 온-프레미스 데이터 게이트웨이를 사용 하 여 연결) ](./media/connection-sharepoint-online/select-onprem.png)을 선택 합니다.
+        > 온-프레미스 사이트에 연결 ![To * * 온-프레미스 데이터 게이트웨이를 사용 하 여 연결)을 선택 ](./media/connection-sharepoint-online/select-onprem.png)
 
         인증 유형으로 **Windows**를 지정한 다음 자격 증명을 지정합니다. 자격 증명에 도메인 이름이 포함된 경우 *도메인\별칭* 형식으로 지정합니다.
 
         > [!div class="mx-imgBorder"]
-        > ![ 자격 증명 지정 @ no__t-1
+        > ![Specify 자격 증명 ](./media/connection-sharepoint-online/specify-creds.png)
 
         **게이트웨이 선택**아래에서 사용 하려는 게이트웨이를 선택 하 고 **만들기**를 선택 합니다.
 
@@ -75,7 +75,7 @@ SharePoint 사이트에 연결 하 여 사용자 지정 목록에서 자동으�
         > 온-프레미스 데이터 게이트웨이를 설치 하지 않은 경우 [하나 설치](../gateway-reference.md)하 고 아이콘을 선택 하 여 게이트웨이 목록을 새로 고칩니다.
 
         > [!div class="mx-imgBorder"]
-        > ![Choose @ no__t-1을 선택 합니다.
+        > ![Choose 게이트웨이 ](./media/connection-sharepoint-online/choose-gateway.png)
 
         연결이 만들어지고, 기존 앱에 데이터를 추가 하거나 처음부터 앱을 빌드할 수 있습니다.
 
@@ -84,24 +84,24 @@ SharePoint 사이트에 연결 하 여 사용자 지정 목록에서 자동으�
 1. PowerApps Studio에서 업데이트할 앱을 열고 **보기** 탭을 선택한 다음 **데이터 원본**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 보기 탭에서 @no__t 하 고 데이터 원본 @ no__t-1을 선택 합니다.
+    > 보기 탭을 ![On 한 다음 데이터 소스를 선택 ](./media/connection-sharepoint-online/view-data-sources.png)
 
-1. **데이터** 창에서 **데이터 원본 추가** > **SharePoint**를 선택 합니다.
+1. **데이터** 창에서 **데이터 원본 추가**  > **SharePoint**를 선택 합니다.
 
 1. **SharePoint 사이트에 연결**아래에서 **최근에 사용한** 사이트 목록에서 항목을 선택 하거나 사용 하려는 사이트의 URL을 입력 하거나 붙여 넣은 다음 **연결**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Select @ no__t-1을 선택 합니다.
+    > ![Select 사이트 ](./media/connection-sharepoint-online/select-sp-site.png)
 
 1. **목록 선택**에서 사용 하려는 **문서** 또는 하나 이상의 목록에 대 한 확인란을 선택 하 고 **연결**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t 목록 선택에서 사용 하려는 문서 또는 하나 이상의 목록에 대 한 확인란을 선택 하 고 연결 @ no__t-1을 선택 합니다.
+    > 목록을 선택 ![Under 문서 또는 사용 하려는 하나 이상의 목록에 대 한 확인란을 선택 하 고 연결을 선택 ](./media/connection-sharepoint-online/select-sp-tables.png)
 
     일부 목록 형식은 기본적으로 표시되지 않습니다. PowerApps는 탬플릿 기반 목록이 아닌 사용자 지정 목록을 지원합니다. 사용할 목록의 이름이 표시 되지 않는 경우 아래쪽으로 스크롤한 다음 **사용자 지정 테이블 이름 입력**이 포함 된 상자에 목록 이름을 입력 합니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t 사용자 지정 목록 이름 입력이 포함 된 상자에 목록 이름을 입력 합니다. ](./media/connection-sharepoint-online/custom-list.png)
+    > 사용자 지정 목록 이름 입력이 포함 된 상자에 목록 이름을 ![Type 합니다. ](./media/connection-sharepoint-online/custom-list.png)
 
     데이터 원본이 앱에 추가 됩니다.
 
@@ -145,7 +145,7 @@ SharePoint 라이브러리에 이미지가 여러 개 있는 경우 사용자가
     라이브러리에 있는 이미지의 파일 이름이 **ImageList**에 표시 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 이미지 목록 @ no__t-1
+    > 이미지의 ![List ](./media/connection-sharepoint-online/dropdown-items.png)
 
 1. **이미지** 컨트롤을 추가 하 고 **image** 속성을 다음 식으로 설정 합니다.
 
@@ -156,7 +156,7 @@ SharePoint 라이브러리에 이미지가 여러 개 있는 경우 사용자가
     지정한 이미지가 표시 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Sample 이미지 @ no__t-1
+    > ![Sample 이미지 ](./media/connection-sharepoint-online/golden-honey.png)
 
 SharePoint 라이브러리에서 데이터를 표시 하는 더 복잡 한 방법을 보여 주는 [샘플 앱을 다운로드할](https://pwrappssamples.blob.core.windows.net/samples/spdoclib_blogapp.msapp) 수 있습니다.
 
@@ -174,13 +174,13 @@ SharePoint 라이브러리에서 데이터를 표시 하는 더 복잡 한 방�
 원하는 파일을 찾으면 해당 파일을 선택 하 여 오른쪽에 있는 **비디오**, **이미지**또는 **오디오** 컨트롤에 표시 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![Sample 이미지 @ no__t-1
+> ![Sample 이미지 ](./media/connection-sharepoint-online/library-app.png)
 
 ## <a name="known-issues"></a>알려진 문제
 
 ### <a name="lists"></a>표시
 
-PowerApps는 공백을 포함 하는 열 이름을 읽을 수 있지만 공백은 16 진수 이스케이프 코드 **"\_x0020 @ no__t-2"** 로 바뀝니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+PowerApps는 공백을 포함 하는 열 이름을 읽을 수 있지만 공백은 16 진수 이스케이프 코드 **"\_x0020 \_"** 로 바뀝니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
 
 모든 유형의 열이 지원 되는 것은 아니므로 모든 유형의 열이 모든 유형의 카드를 지 원하는 것은 아닙니다.
 
@@ -190,7 +190,7 @@ PowerApps는 공백을 포함 하는 열 이름을 읽을 수 있지만 공백�
 | 여러 줄 텍스트 |예 |보기 텍스트 |
 | 선택 |예 |보기 조회<br>편집 조회<br>다중 선택 보기<br>다중 선택 편집 |
 | 번호 |예 |보기 백분율<br>보기 등급<br>보기 텍스트 |
-| 통화 |예 |보기 백분율<br>보기 등급<br>텍스트 보기 |
+| 통화 |예 |보기 백분율<br>보기 등급<br>보기 텍스트 |
 | 날짜 및 시간 |예 |보기 텍스트 |
 | 조회 |예 |보기 조회<br>편집 조회<br>다중 선택 보기<br>다중 선택 편집 |
 | 부울(Yes/No) |예 |보기 텍스트<br>보기 설정/해제 |

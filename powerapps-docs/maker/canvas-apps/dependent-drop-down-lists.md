@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 57abde44541a2a1e40e3a8ffc55a89e37a8c6478
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71985743"
 ---
 # <a name="create-dependent-drop-down-lists-in-a-canvas-app"></a>캔버스 앱에서 종속 된 드롭다운 목록 만들기
@@ -34,7 +34,7 @@ ms.locfileid: "71985743"
 
 **위치** 목록은 각 위치의 부서를 표시 합니다.
 
-| Location | Department |
+| 위치 | Department |
 |----------------|------------------|
 | Eganville      | 빵집           |
 | Eganville      | Deli             |
@@ -51,7 +51,7 @@ ms.locfileid: "71985743"
 
 **인시던트** 목록에는 각 인시던트에 대 한 연락처 정보 및 정보가 표시 됩니다. 날짜 열을 **날짜** 열로 만들지만 다른 열을 **한 줄의 텍스트** 열로 만들어 구성을 단순화 하 고 Microsoft PowerApps에서 [위임](./delegation-overview.md) 경고를 방지 합니다.
 
-| 이름 | 성 | 전화 번호     | Location | Department | 설명       | Date      |
+| 이름 | 성 | 전화 번호     | 위치 | Department | 설명       | 날짜      |
 |------------|-----------|------------------|----------------|------------|-------------------------|-----------|
 | Tonya       | Cortez   | (206) 555-1022 | Eganville      | 생성할    | 다음에 문제가 있습니다.   | 2/12/2019 |
 | 프로그램인 moses     | Laflamme     | (425) 555-1044 | 가는 frew        | 흰꽃잎색     | 문제가 발생 했습니다. | 2/13/2019 |
@@ -66,7 +66,7 @@ ms.locfileid: "71985743"
 
 ## <a name="open-the-form"></a>양식 열기
 
-1. **인시던트** 목록을 열고 **PowerApps** > **양식 사용자 지정**을 선택 합니다.
+1. **인시던트** 목록을 열고 **PowerApps**  > **양식 사용자 지정**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![인시던트 목록을 열고 PowerApps > 양식 사용자 지정을 선택 합니다.](./media/dependent-drop-down-lists/open-form.png "인시던트 목록을 열고 PowerApps > 양식 사용자 지정을 선택 합니다.")
@@ -82,7 +82,7 @@ ms.locfileid: "71985743"
     추가한 필드만 포함 된 양식이 표시 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > 제목 및 첨부 파일 필드를 포함 하지 않는 @no__t @ no__t-1
+    > 제목 및 첨부 파일 필드가 없는 ![Form ](./media/dependent-drop-down-lists/default-form.png)
 
 ## <a name="replace-the-controls"></a>컨트롤 바꾸기
 
@@ -93,7 +93,7 @@ ms.locfileid: "71985743"
 1. **컨트롤 형식** 목록을 열고 **허용 된 값**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 허용 값 @ no__t-1
+    > ![Allowed 값 ](./media/dependent-drop-down-lists/change-control.png)
 
     입력 메커니즘이 **드롭다운** 컨트롤로 변경 됩니다.
 
@@ -101,19 +101,19 @@ ms.locfileid: "71985743"
 
 ## <a name="add-the-locations-list"></a>위치 목록 추가
 
-1. **보기** > **데이터**원본  > **데이터 원본 추가**를 선택 합니다.
+1. 데이터**원본 추가** >   > **데이터** 원본 **보기** 를 선택 합니다.
 
 1. SharePoint 연결을 선택 하거나 만든 다음 **위치** 목록이 포함 된 사이트를 지정 합니다.
 
 1. 해당 목록에 대 한 확인란을 선택 하 고 **연결**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 데이터 창 @ no__t-1
+    > ![Data 창 ](./media/dependent-drop-down-lists/select-list.png)
 
     연결 목록에는 양식의 기반이 되는 **인시던트** 목록과 양식에서 위치 및 부서를 식별 하는 **위치** 목록이 표시 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![SharePoint 데이터 원본 @ no__t-1
+    > 데이터 원본 ![SharePoint ](./media/dependent-drop-down-lists/data-sources.png)
 
 ## <a name="unlock-the-cards"></a>카드 잠금 해제
 
@@ -130,7 +130,7 @@ ms.locfileid: "71985743"
 1. 오른쪽 창의 위쪽에서 **Ddlocation**을 입력 하거나 붙여넣어 선택한 컨트롤의 이름을 바꿉니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 컨트롤 이름 바꾸기 @ no__t-1
+    > 컨트롤 ](./media/dependent-drop-down-lists/rename-control.png) ![Rename
 
 1. **부서** 카드의 이전 두 단계를 반복 하 여 **드롭다운** 컨트롤의 이름을 **dddepartment**로 바꿉니다.
 
@@ -154,7 +154,7 @@ ms.locfileid: "71985743"
 1. **일치 필드**의 위쪽 목록 **에서 위치를 선택 하** 고, 아래쪽 목록에서 **위치** 를 선택한 다음, **적용**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![은 링크 @ no__t-1에 종속 됩니다.
+    > 링크 ](./media/dependent-drop-down-lists/depends-on.png) ![Depends
 
     **Dddepartment** 의 **Items** 속성은 다음 수식으로 설정 됩니다.
 
@@ -167,7 +167,7 @@ ms.locfileid: "71985743"
     이 단계에서는 표시 텍스트를 SharePoint의 **위치** 목록에 있는 **부서** 열의 옵션으로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Department 값 @ no__t-1
+    > ![Department 값 ](./media/dependent-drop-down-lists/dept-value.png)
 
 ## <a name="test-the-form"></a>양식 테스트
 
@@ -176,11 +176,11 @@ Alt 키를 누른 채 위치 목록을 열고, 위치를 하나 선택 하 고, 
 위치 및 부서 목록은 SharePoint의 **위치** 목록에 있는 정보를 반영 합니다.
 
 > [!div class="mx-imgBorder"]
-> @no__t 위치 목록을 열고 선택 항목을 다시 시도 Frew에서 Pembroke으로 변경한 다음, 부서 @ no__t-1의 목록을 엽니다.
+> 위치 목록을 ![Open 하 고, 선택 항목을 다시 시도 하는 것에서 Pembroke으로 변경 하 고 부서 목록을 엽니다 ](./media/dependent-drop-down-lists/dropdowns.gif)
 
 ## <a name="save-and-open-the-form-optional"></a>양식을 저장 하 고 엽니다 (선택 사항).
 
-1. **파일** 메뉴를 열고 **저장** > **sharepoint에 게시** > **sharepoint에 게시**를 선택 합니다.
+1. **파일** 메뉴를 연 다음 **저장**  > **sharepoint에 게시**  > **sharepoint에**게시를 선택 합니다.
 
 1. 왼쪽 위 모퉁이에서 뒤로 화살표를 선택한 다음, **SharePoint로 돌아가기**를 선택합니다.
 
@@ -194,15 +194,15 @@ Alt 키를 누른 채 위치 목록을 열고, 위치를 하나 선택 하 고, 
 - 드롭다운 목록을 선택 하 고 오른쪽 창의 **속성** 탭에서 **값** 속성을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 변경 드롭다운 @ no__t-1
+    > ![Change 드롭다운 ](./media/dependent-drop-down-lists/drop-down-display-field.png)
 
 - 콤보 상자를 선택 하 고 기본 텍스트가 표시 하려는 필드 인지 확인 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 변경 콤보 상자 @ no__t-1
+    > ![Change 콤보 상자 ](./media/dependent-drop-down-lists/combo-box-display-field.png)
 
 **내 자식 드롭다운 목록에 중복 된 항목이 있습니다.**
-이 증상은 SharePoint에서 **조회** 열을 사용 하거나 PowerApps에서 **choice** 함수를 사용 하기 때문에 발생할 수 있습니다. 중복을 제거 하려면 적절 하 게 반환 되는 데이터를 중심으로 **고유한** 함수를 래핑합니다. 자세한 정보: [Distinct 함수](functions/function-distinct.md)
+이 증상은 SharePoint에서 **조회** 열을 사용 하거나 PowerApps에서 **choice** 함수를 사용 하기 때문에 발생할 수 있습니다. 중복을 제거 하려면 적절 하 게 반환 되는 데이터를 중심으로 **고유한** 함수를 래핑합니다. 추가 정보: [Distinct 함수](functions/function-distinct.md)
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 

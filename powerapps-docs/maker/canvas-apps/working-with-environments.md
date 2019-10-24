@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: d7783113c7102d9c8b292d0ee84d4329709eeaa7
-ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71705252"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>환경 및 Microsoft PowerApps 관련 작업하기
@@ -31,12 +31,12 @@ PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환�
 등록 하 고 처음으로 PowerApps에 로그인 하면 기본 환경에서 열립니다 .이 환경에서는 페이지의 오른쪽 위 모서리에서 식별할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![ 기본 환경 @ no__t-1
+> ![Default 환경 ](./media/working-with-environments/env-dropdown.png)
 
 조직의 모든 사용자가 기본 환경에 액세스할 수 있습니다. 이 환경에서 앱을 만들고 다른 사용자와 앱을 공유할 수 있습니다. 다른 환경에 대 한 액세스 권한이 [있는지 여부에](../../administrator/environments-administration.md) 관계 없이 다른 환경에 액세스할 수도 있습니다. 오른쪽 위 모서리에서 환경 목록을 열고 다른 환경을 선택 하 여 환경을 전환할 수 있습니다. 이 예제에서는 **Microsoft** 에서 **MyOwnEnv**로 전환 하는 방법을 보여 줍니다.
 
 > [!div class="mx-imgBorder"]
-> ![Switch 환경 @ no__t-1
+> ![Switch 환경 ](./media/working-with-environments/switch-environment.png)
 
 환경을 전환 하면 새 환경에 해당 환경에서 액세스 권한이 있는 모든 앱이 표시 됩니다.
 
