@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: c908e3d25530b52b103ef58989545e46b931e791
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71987719"
 ---
 # <a name="create-a-canvas-app-from-within-a-solution"></a>솔루션 내에서 캔버스 앱 만들기
@@ -42,17 +42,17 @@ ms.locfileid: "71987719"
 1. 왼쪽 탐색 모음에서 **솔루션**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > (./media/add-app-solution/left-nav.png "왼쪽 탐색 모음에 있는") ![왼쪽 탐색 모음 솔루션 옵션의 솔루션 옵션]
+    > ![왼쪽 탐색 모음의 솔루션 옵션](./media/add-app-solution/left-nav.png "왼쪽 탐색 모음의 솔루션 옵션")
 
 1. 제목 표시줄 아래의 배너에서 **새 솔루션**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![](./media/add-app-solution/banner-new-solution.png "배너의") new-solution 옵션 배너
+    > ![배너의 New-solution 옵션](./media/add-app-solution/banner-new-solution.png "배너의 New-solution 옵션")
 
 1. 표시 되는 창에서 솔루션에 대 한 표시 이름, 게시자 및 버전을 지정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > (./media/add-app-solution/configure-new-solution.png "새 솔루션에 대 한") ![새 솔루션 옵션 옵션]
+    > ![새 솔루션에 대 한 옵션](./media/add-app-solution/configure-new-solution.png "새 솔루션에 대 한 옵션")
 
     지정 하는 표시 이름에 따라 이름 (공백 없음)이 자동으로 생성 되지만, 원하는 경우 생성 된 이름을 사용자 지정할 수 있습니다. 사용자 환경에 대 한 기본 게시자를 지정 하 고 해당 영역에 특정 요구 사항이 없는 경우 버전 **1.0** 을 지정할 수 있습니다.
 
@@ -72,14 +72,14 @@ ms.locfileid: "71987719"
 1. 왼쪽 탐색 모음에서 **솔루션**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > (./media/add-app-solution/left-nav.png "왼쪽 탐색 모음에 있는") ![왼쪽 탐색 모음 솔루션 옵션의 솔루션 옵션]
+    > ![왼쪽 탐색 모음의 솔루션 옵션](./media/add-app-solution/left-nav.png "왼쪽 탐색 모음의 솔루션 옵션")
 
 1. 솔루션 목록에서 캔버스 앱을 만들려는 솔루션을 선택 합니다.
 
-1. 제목 표시줄 아래의 배너에서 **새로**만들기  > **앱** > **Canvas 앱**을 선택한 다음 만들려는 앱의 폼 팩터 (전화 또는 태블릿)를 선택 합니다.
+1. 제목 표시줄 아래의 배너에서 **새로** 만들기  > **app**  > **Canvas 앱**을 선택한 다음 만들려는 앱의 폼 팩터 (전화 또는 태블릿)를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 솔루션(./media/add-app-solution/new-option.png "에서 앱을 만들기 위한 솔루션 옵션") ![으로 앱을 만드는 옵션]
+    > ![솔루션에서 앱을 만드는 옵션](./media/add-app-solution/new-option.png "솔루션에서 앱을 만드는 옵션")
 
     PowerApps Studio 다른 브라우저 탭에서 빈 캔버스로 열립니다.
 
@@ -103,21 +103,21 @@ ms.locfileid: "71987719"
 1. 왼쪽 탐색 모음에서 **솔루션**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > (./media/add-app-solution/left-nav.png "왼쪽 탐색 모음에 있는") ![왼쪽 탐색 모음 솔루션 옵션의 솔루션 옵션]
+    > ![왼쪽 탐색 모음의 솔루션 옵션](./media/add-app-solution/left-nav.png "왼쪽 탐색 모음의 솔루션 옵션")
 
 1. 솔루션 목록에서 앱을 연결 하려는 솔루션을 선택 합니다.
 
-1. 제목 표시줄 아래의 배너에서 **추가 기존** > **앱** > **Canvas 앱**을 선택 합니다.
+1. 제목 표시줄 아래의 배너에서 기존  > **앱** **추가**  > **Canvas 앱**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 기존 앱(./media/add-app-solution/add-existing.png "배너 옵션을") 연결 하 여 기존 앱을 연결 ![하는 배너 옵션]
+    > ![기존 앱을 연결 하는 배너 옵션](./media/add-app-solution/add-existing.png "기존 앱을 연결 하는 배너 옵션")
 
     이 환경에서 솔루션 내에 생성 된 캔버스 앱 목록이 표시 됩니다.
 
 1. 앱 목록에서 솔루션에 연결 하려는 앱을 선택 하 고 **추가**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 추가 ![단추](./media/add-app-solution/add-button.png "추가 단추")
+    > ![단추 추가](./media/add-app-solution/add-button.png "단추 추가")
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 

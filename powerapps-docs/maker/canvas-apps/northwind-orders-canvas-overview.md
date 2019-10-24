@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 48966659ca12ada12448543492731fff8431fbde
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71995823"
 ---
 # <a name="overview-of-the-canvas-app-for-northwind-traders"></a>Northwind Traders 용 캔버스 앱 개요
@@ -33,24 +33,24 @@ ms.locfileid: "71995823"
 단일 화면에서 앱 사용자는 주문을 표시, 업데이트, 만들기 및 삭제할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![ 전체 캔버스 앱 @ no__t-1
+> ![Complete canvas 앱 ](media/northwind-orders-canvas-part1/orders-finished.png)
 
 ## <a name="explore-the-user-interface"></a>사용자 인터페이스 탐색
 
 ### <a name="order-gallery"></a>주문 갤러리
 
-앱의 왼쪽 가장자리에서 갤러리는 주문 번호, 상태, 고객 이름 및 주문의 총 비용을 포함 한 주문 목록을 표시 합니다. 사용자는 목록을 스크롤하여 주문을 찾은 다음 주문 화살표를 선택 하 여이에 대 한 자세한 정보를 표시할 수 있습니다. 자세한 정보: [주문 갤러리를 만듭니다](northwind-orders-canvas-part1.md).
+앱의 왼쪽 가장자리에서 갤러리는 주문 번호, 상태, 고객 이름 및 주문의 총 비용을 포함 한 주문 목록을 표시 합니다. 사용자는 목록을 스크롤하여 주문을 찾은 다음 주문 화살표를 선택 하 여이에 대 한 자세한 정보를 표시할 수 있습니다. 추가 정보: [주문 갤러리 만들기](northwind-orders-canvas-part1.md)
 
 ### <a name="summary-form"></a>요약 양식
 
-오른쪽 위 모서리에서 폼은 주문 갤러리에서 사용자가 선택한 순서를 요약 합니다. 요약에는 갤러리와 동일한 정보가 대부분 포함 되어 있지만 요약에는 주문이 생성 되 고 지불 된 날짜 뿐만 아니라 주문을 관리 하는 직원의 이름 및 사진이 표시 됩니다. 사용자는 제목 표시줄의 오른쪽 가장자리 근처에 있는 아이콘을 선택 하 여 양식의 데이터를 변경 하거나, 해당 변경 내용을 저장 하거나, 취소 하거나, 순서를 삭제할 수 있습니다. 자세한 정보: [요약 폼을 만듭니다](northwind-orders-canvas-part2.md).
+오른쪽 위 모서리에서 폼은 주문 갤러리에서 사용자가 선택한 순서를 요약 합니다. 요약에는 갤러리와 동일한 정보가 대부분 포함 되어 있지만 요약에는 주문이 생성 되 고 지불 된 날짜 뿐만 아니라 주문을 관리 하는 직원의 이름 및 사진이 표시 됩니다. 사용자는 제목 표시줄의 오른쪽 가장자리 근처에 있는 아이콘을 선택 하 여 양식의 데이터를 변경 하거나, 해당 변경 내용을 저장 하거나, 취소 하거나, 순서를 삭제할 수 있습니다. 추가 정보: [요약 양식을 만듭니다](northwind-orders-canvas-part2.md).
 
 ### <a name="detail-gallery"></a>세부 정보 갤러리
 
-오른쪽 아래 모서리에는 선택한 주문에 포함 된 제품 및 수량에 대 한 정보가 표시 됩니다. 이 갤러리의 각 항목을 주문 세부 정보 라고 합니다. 앱 사용자는 그 아래에 있는 컨트롤을 사용 하 여 갤러리의 모든 항목을 추가 하 고 삭제할 수 있습니다. 자세한 정보: [세부 정보 갤러리를 만듭니다](northwind-orders-canvas-part3.md).
+오른쪽 아래 모서리에는 선택한 주문에 포함 된 제품 및 수량에 대 한 정보가 표시 됩니다. 이 갤러리의 각 항목을 주문 세부 정보 라고 합니다. 앱 사용자는 그 아래에 있는 컨트롤을 사용 하 여 갤러리의 모든 항목을 추가 하 고 삭제할 수 있습니다. 추가 정보: [세부 정보 갤러리를 만듭니다](northwind-orders-canvas-part3.md).
 
 > [!div class="mx-imgBorder"]
-> 화면 영역의 ![ 정의 @ no__t-1
+> 화면 영역의 ![Definition ](media/northwind-orders-canvas-part1/orders-parts.png)
 
 ## <a name="explore-the-data-sources"></a>데이터 원본 탐색
 
