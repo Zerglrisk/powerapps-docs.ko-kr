@@ -357,6 +357,8 @@
               href: ./canvas-apps/sharepoint-lookup-fields.md
             - name: 흐름 추가
               href: ./canvas-apps/using-logic-flows.md
+            - name: 캔버스 앱에서 규칙 만들기
+              href: ./canvas-apps/working-with-rules.md
             - name: 수식 참조
               items:
                 - name: 개요
@@ -1348,6 +1350,8 @@
           href: ./common-data-service/navigate-specific-solution.md
         - name: 솔루션 만들기
           href: ./common-data-service/create-solution.md
+        - name: 환경 변수 사용
+          href: ./common-data-service/EnvironmentVariables.md
         - name: 솔루션 레이어 보기
           href: ./common-data-service/solution-layers.md
         - name: 솔루션 기록 보기
