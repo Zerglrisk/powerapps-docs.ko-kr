@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 0a56230539990ce51cc9270f71d8c2b7c9a1db73
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71992878"
 ---
 # <a name="concat-and-concatenate-functions-in-powerapps"></a>PowerApps의 Concat 및 Concatenate 함수
@@ -51,7 +51,7 @@ ms.locfileid: "71992878"
 
 - **FirstName** = "Jane"
 - **LastName** = "Doe"
-- **Products** =  @ no__t 2 개의 열과 4 개의 행 @ no__t-3이 포함 된 테이블
+- **Products** 는 두 개의 열과 4 개의 행이 있는![테이블을 = ](media/function-concatenate/products.png)
 
 앱에서 이러한 전역 변수를 만들려면 [**단추**](../controls/control-button.md) 컨트롤을 삽입 하 고 **onselect** 속성을 다음 수식으로 설정 합니다.
 
@@ -74,10 +74,10 @@ Alt 키를 누른 채 단추를 클릭 하 여 단추를 선택 합니다.
 
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| **연결 (&nbsp;LastName, &nbsp; ", &nbsp;", &nbsp;FirstName @ no__t)** | **LastName**의 값, 문자열 **","** (쉼표 뒤에 공백) 및 **FirstName**의 값을 연결 합니다. | "Doe, &nbsp; Jane" |
-| **LastName @ no__t @ no__t @ no__t @-3 ", &nbsp;" &nbsp; @ no__t-6 @ no__t-7FirstName** | 함수 대신 **&** 연산자를 사용 하는 경우를 제외 하 고 이전 예제와 동일 합니다. | "Doe, &nbsp; Jane" |
-| **연결 (&nbsp;FirstName, &nbsp; "&nbsp;", &nbsp;LastName @ no__t)** | **FirstName**의 값, 문자열 **""** (단일 공백) 및 **LastName**의 값을 연결 합니다. | "Jane @ no__t-0Doe" |
-| **FirstName @ no__t @ no__t @ no__t @ @ "&nbsp;" &nbsp; @ no__t-6 @ no__t-7LastName** | 이전 예제와 동일 합니다. 함수 대신 **&** 연산자를 사용 합니다. | "Jane @ no__t-0Doe" |
+| **연결 (&nbsp;LastName,&nbsp;",&nbsp;",&nbsp;FirstName&nbsp;)** | **LastName**의 값, 문자열 **","** (쉼표 뒤에 공백) 및 **FirstName**의 값을 연결 합니다. | "Doe,&nbsp;Jane" |
+| **LastName&nbsp;&&nbsp;",&nbsp;"&nbsp;&&nbsp;FirstName** | 함수 대신 **&** 연산자를 사용 하는 경우를 제외 하 고 이전 예제와 동일 합니다. | "Doe,&nbsp;Jane" |
+| **연결 (&nbsp;FirstName,&nbsp;"&nbsp;",&nbsp;LastName&nbsp;)** | **FirstName**의 값, 문자열 **""** (단일 공백) 및 **LastName**의 값을 연결 합니다. | "Jane&nbsp;Doe" |
+| **FirstName&nbsp;&&nbsp;"&nbsp;"&nbsp;&&nbsp;LastName** | 이전 예제와 동일 합니다. 함수 대신 **&** 연산자를 사용 합니다. | "Jane&nbsp;Doe" |
 
 ### <a name="concatenate-with-a-single-column-table"></a>단일 열 테이블을 사용 하 여 연결
 
@@ -85,7 +85,7 @@ Alt 키를 누른 채 단추를 클릭 하 여 단추를 선택 합니다.
 
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| **연결 ("Name: &nbsp;", &nbsp;Products.Name, ", &nbsp;Type: &nbsp;", &nbsp;Products. Type)** | **Products** 테이블의 각 레코드에 대해는 **"name:"** 문자열, 제품 이름, 문자열 **", 유형:"** 및 제품 유형을 연결 합니다.  | ![제품 표](media/function-concatenate/single-column.png) |
+| **연결 ("Name:&nbsp;",&nbsp;Products.Name, ",&nbsp;Type:&nbsp;",&nbsp;Products. Type)** | **Products** 테이블의 각 레코드에 대해는 **"name:"** 문자열, 제품 이름, 문자열 **", 유형:"** 및 제품 유형을 연결 합니다.  | ![제품 표](media/function-concatenate/single-column.png) |
 
 ### <a name="concat-function"></a>Concat 함수
 
@@ -93,8 +93,8 @@ Alt 키를 누른 채 단추를 클릭 하 여 단추를 선택 합니다.
 
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| **Concat (제품, 이름 & ",")** | 각 **제품** 레코드에 대해 식 **이름 & ","** 를 평가 하 고 결과를 하나의 텍스트 문자열로 연결 합니다.  | "바이올린, &nbsp;Cello, &nbsp;Trumpet, &nbsp;" |
-| **Concat (Filter (&nbsp; Products, &nbsp;Type @ no__t-3 @ no__t-4 @ no__t "String" &nbsp;), Name & ",")** | 필터 **유형 = "String"** 을 충족 하는 **제품** 의 각 레코드에 대해 수식 **이름 & ","** 을 계산 하 고 결과를 단일 텍스트 문자열로 연결 합니다.   | "바이올린, &nbsp;Cello, &nbsp;" |
+| **Concat (제품, 이름 & ",")** | 각 **제품** 레코드에 대해 식 **이름 & ","** 를 평가 하 고 결과를 하나의 텍스트 문자열로 연결 합니다.  | "바이올린,&nbsp;Cello,&nbsp;Trumpet,&nbsp;" |
+| **Concat (Filter (&nbsp;Products,&nbsp;형식&nbsp;=&nbsp;"String"&nbsp;), 이름 & ",")** | 필터 **유형 = "String"** 을 충족 하는 **제품** 의 각 레코드에 대해 수식 **이름 & ","** 을 계산 하 고 결과를 단일 텍스트 문자열로 연결 합니다.   | "바이올린,&nbsp;Cello,&nbsp;" |
 
 ### <a name="trimming-the-end"></a>끝 트리밍
 
@@ -106,8 +106,8 @@ Alt 키를 누른 채 단추를 클릭 하 여 단추를 선택 합니다.
 
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| **Left (Concat (&nbsp; Products, &nbsp;Name @ no__t-3 @ no__t-4 @ no__t ", &nbsp;" &nbsp;), Len (&nbsp;Concat (&nbsp;Products, 0Name @ no__t-11 @ no__t-12 @ no__t ", 4" 5) 6) 7 @ no__t-18 @ no__t-192)** | **Concat** 의 결과를 반환 하지만 불필요 한 구분 기호를 구성 하는 마지막 두 문자를 제거 합니다. | "바이올린, &nbsp;Cello, &nbsp;Trumpet" |
-| **Match (Concat (&nbsp; Products, &nbsp;Name @ no__t-3 @ no__t-4 @ no__t ", &nbsp;" &nbsp;), "^ (? &lt;trim @ no__t-9. *), @no__t-$10"). trim** | 텍스트 문자열 (^)의 시작 부분에서 끝 ($)으로의 **Concat** 문자를 반환 하지만 끝에 원치 않는 쉼표와 공백을 포함 하지 않습니다. | "바이올린, &nbsp;Cello, &nbsp;Trumpet" |
+| **Left (Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;), Len (&nbsp;Concat (&nbsp;Products,&nbsp;Name&nbsp;&" ,&nbsp;"&nbsp;)&nbsp;)&nbsp;-&nbsp;2)** | **Concat** 의 결과를 반환 하지만 불필요 한 구분 기호를 구성 하는 마지막 두 문자를 제거 합니다. | "바이올린,&nbsp;Cello,&nbsp;Trumpet" |
+| **Match (Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;), "^ (?&lt;trim&gt;. *),&nbsp;$ "). trim** | 텍스트 문자열 (^)의 시작 부분에서 끝 ($)으로의 **Concat** 문자를 반환 하지만 끝에 원치 않는 쉼표와 공백을 포함 하지 않습니다. | "바이올린,&nbsp;Cello,&nbsp;Trumpet" |
 
 ### <a name="split-and-matchall"></a>분할 및 MatchAll
 
@@ -117,5 +117,5 @@ Alt 키를 누른 채 단추를 클릭 하 여 단추를 선택 합니다.
 
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| **Split (Concat (&nbsp; Products, &nbsp;Name @ no__t-3 @ no__t-4 @ no__t ", &nbsp;" &nbsp;), ",")** | **","** 구분 기호를 사용 하 여 텍스트 문자열을 분할 합니다. 문자열이 쉼표와 공백으로 끝나지만 결과의 마지막 행은 빈 문자열입니다.  | ![Table](media/function-concatenate/split.png) |
-| **MatchAll (Concat (&nbsp; Products, &nbsp;Name @ no__t-3 @ no__t-4 @ no__t ", &nbsp;" &nbsp;), "[^ \s,] +"). FullMatch** | 공백이 나 쉼표가 아닌 문자를 기준으로 텍스트 문자열을 분할 합니다. 이 수식은 문자열의 끝에 있는 추가 쉼표와 공백을 제거 합니다. | ![Table](media/function-concatenate/matchall.png)
+| **Split (Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;), ",")** | **","** 구분 기호를 사용 하 여 텍스트 문자열을 분할 합니다. 문자열이 쉼표와 공백으로 끝나지만 결과의 마지막 행은 빈 문자열입니다.  | ![Table](media/function-concatenate/split.png) |
+| **MatchAll (Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;), "[^ \s,] +"). FullMatch** | 공백이 나 쉼표가 아닌 문자를 기준으로 텍스트 문자열을 분할 합니다. 이 수식은 문자열의 끝에 있는 추가 쉼표와 공백을 제거 합니다. | ![Table](media/function-concatenate/matchall.png)

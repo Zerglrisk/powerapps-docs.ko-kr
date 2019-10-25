@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 7d9ae4df7a4ad11a49b2a25ae78330d0cd807c9b
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71985237"
 ---
 # <a name="distinct-function-in-powerapps"></a>PowerApps의 Distinct 함수
@@ -56,7 +56,7 @@ ms.locfileid: "71985237"
     수식은 evaluatd이 고 수식 입력줄에서 **CityPopulations** 를 선택 하 여 표시할 수 있는 **CityPopulations** 컬렉션을 만듭니다.
 
     > [!div class="mx-imgBorder"]
-    > 결과 뷰 @ no__t-1에 표시 된 @no__t 0CityPopulations 컬렉션
+    > 결과 뷰에 표시 된 ![CityPopulations collection](media/function-distinct/citypopulations-create.png)
 
 1. [**데이터 테이블**](../controls/control-data-table.md) 컨트롤을 삽입 하 고 **Items** 속성을 다음 수식으로 설정 합니다.
 
@@ -67,12 +67,12 @@ ms.locfileid: "71985237"
     수식 입력줄에서 전체 수식을 선택 하 여이 수식의 결과를 볼 수 있습니다.
 
     > [!div class="mx-imgBorder"]
-    > 결과 뷰 @ no__t-1에 표시 된 Distinct 함수의 출력 @no__t
+    > 결과 뷰에 표시 된 고유한 함수의 출력을 ![](media/function-distinct/citypopulations-distinct.png)
 
 1. 데이터 테이블의 속성 창에서 **필드 편집** 링크를 사용 하 여 **결과** 열을 추가 합니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t-데이터 테이블 @ no__t-1에 표시 된 Distinct 함수의 출력
+    > 데이터 테이블에 표시 된 Distinct 함수의 출력을 ![](media/function-distinct/citypopulations-datatable.png)
 
 1. [**레이블**](../controls/control-text-box.md) 컨트롤을 삽입 하 고 **Text** 속성을 수식으로 설정 합니다.
 
@@ -83,6 +83,6 @@ ms.locfileid: "71985237"
     이 수식은 [**Sort**](function-sort.md) 함수를 사용 하 여 **Distinct** 의 결과를 정렬 하 고, [**첫**](function-first-last.md) 번째 함수를 사용 하 여 결과 테이블의 첫 번째 레코드를 가져온 다음, **결과** 필드를 추출 하 여 국가 이름만 가져옵니다.
 
     > [!div class="mx-imgBorder"]
-    > 첫 번째 국가를 이름 @ no__t로 표시 하는 Distinct 함수의 출력 (0-1) @no__t
+    > 이름으로 첫 번째 국가를 표시 하는 Distinct 함수의 출력을 ![](media/function-distinct/citypopulations-first.png)
 
      

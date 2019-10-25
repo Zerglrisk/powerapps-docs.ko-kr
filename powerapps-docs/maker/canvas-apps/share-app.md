@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: cb8c77b60caa1f1ddf07e12f50e3cd52df764627
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71995612"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
@@ -52,7 +52,7 @@ ms.locfileid: "71995612"
 1. 앱을 공유 하려는 Azure Active Directory의 사용자 또는 보안 그룹을 이름 또는 별칭으로 지정 합니다.
 
     - 전체 조직에서 앱을 실행 (수정 하거나 공유 하지 않음) 할 수 있도록 하려면 공유 패널에 **Everyone** 을 입력 합니다.
-    - 항목이 세미콜론으로 구분 되는 경우 별칭, 이름 또는 이들의 조합 (예: **Jane Doe &lt; @ no__t >**)의 조합으로 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
+    - 항목이 세미콜론으로 구분 되는 경우 별칭의 목록, 이름 또는 이러한 항목의 조합 (예: **Jane Doe &lt;jane.doe@contoso.com** )을 사용 하 여 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
 
     ![사용자 및 공동 소유자 지정](./media/share-app/share-everyone.png)
 
@@ -71,7 +71,7 @@ ms.locfileid: "71995612"
     예를 들어 앱이 Common Data Service 데이터베이스의 엔터티에 연결할 수 있습니다. 이러한 앱을 공유 하는 경우 공유 패널에 해당 엔터티에 대 한 보안을 관리 하 라는 메시지가 표시 됩니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 보안 역할 할당 @ no__t-1
+    > 보안 역할을 할당 ![](media/share-app/cds-assign-security-role.png)
 
     엔터티에 대 한 보안을 관리 하는 방법에 대 한 자세한 내용은이 항목의 뒷부분에 나오는 [엔터티 권한 관리](share-app.md#manage-entity-permissions) 를 참조 하세요.
 
@@ -136,7 +136,7 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
 > 게스트에는 공유 된 앱에 대 한 **공동 소유자** 역할이 아닌 **사용자** 역할만 할당 될 수 있습니다.
 
 ### <a name="prerequisites"></a>필수 조건
-- Azure Active Directory (Azure AD)에서 테 넌 트에 대해 B2B 외부 공동 작업을 사용 하도록 설정 합니다. 자세한 정보: [B2B 외부 공동 작업을 사용 하도록 설정 하 고 게스트를 초대할 수 있는 사람 관리](/azure/active-directory/b2b/delegate-invitations)
+- Azure Active Directory (Azure AD)에서 테 넌 트에 대해 B2B 외부 공동 작업을 사용 하도록 설정 합니다. 추가 정보: [B2B 외부 공동 작업을 사용 하도록 설정 하 고 게스트를 초대할 수 있는 사람 관리](/azure/active-directory/b2b/delegate-invitations)
     - B2B 외부 공동 작업은 기본적으로 설정 되어 있습니다. 그러나 테 넌 트 관리자는 설정을 변경할 수 있습니다.  Azure AD B2B에 대 한 자세한 내용은 [AZURE AD b2b의 게스트 사용자 액세스 란?](/azure/active-directory/b2b/what-is-b2b) 을 참조 하세요.  
 - Azure AD 테 넌 트에 게스트 사용자를 추가할 수 있는 계정에 대 한 액세스. 관리자 및 게스트 초대자 역할을 가진 사용자는 테 넌 트에 게스트를 추가할 수 있습니다.   
 - 게스트 사용자에 게 다음 테 넌 트 중 하나를 통해 할당 된 PowerApps 라이선스가 있어야 합니다.
@@ -144,9 +144,9 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
     - 게스트 사용자의 홈 테 넌 트입니다.
 
 ### <a name="steps-to-grant-guest-access"></a>게스트 액세스 권한을 부여 하는 단계
-1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 자세한 정보: [빠른 시작: Azure AD 에 새 게스트 사용자를 추가 합니다](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
+1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 추가 정보: [빠른 시작: AZURE AD에 새 게스트 사용자 추가](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
     > [!div class="mx-imgBorder"] 
-    > Azure ad에서 ![게스트 추가](media/share-app/guest_access_doc_1.png "azure ad에서 게스트") 추가
+    > ![Azure AD에서 게스트 추가](media/share-app/guest_access_doc_1.png "Azure AD에서 게스트 추가")
 2. 게스트 사용자의 홈 테 넌 트에 라이선스가 아직 없는 경우 게스트 사용자에 게 라이선스를 할당 합니다.
    - Admin.microsoft.com에서 게스트 사용자를 할당 하려면 [한 사용자에 게 라이선스 할당](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)을 참조 하세요.
    - Portal.azure.com에서 게스트 사용자를 할당 하려면 [라이선스 할당 또는 제거](/azure/active-directory/fundamentals/license-users-groups)를 참조 하세요.
@@ -155,23 +155,23 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
    > 게스트에 라이선스를 할당 하려면 Microsoft 365 관리 센터 미리 보기를 사용 하지 않도록 설정 해야 할 수 있습니다. 
 
 3. Canvas 앱을 공유 합니다. 
-    1. 에 로그인-0 https://make.powerapps.com  
+    1. https://make.powerapps.com 에 로그인  
     2. **앱**으로 이동 하 여 캔버스 앱을 선택한 다음 명령 모음에서 **공유**를 선택 합니다. 
-    3. Azure AD 테 넌 트에서 게스트 사용자에 대 한 전자 메일 주소를 입력 합니다. 자세한 정보: [Azure AD B2B에서 게스트 사용자 액세스 란 무엇 인가요?](/azure/active-directory/b2b/what-is-b2b)
+    3. Azure AD 테 넌 트에서 게스트 사용자에 대 한 전자 메일 주소를 입력 합니다. 추가 정보: [AZURE AD B2B에서 게스트 사용자 액세스 란 무엇 인가요?](/azure/active-directory/b2b/what-is-b2b)
           > [!div class="mx-imgBorder"] 
-          > 게스트 공유 ![와](media/share-app/guest_access_doc_2.png "게스트 공유")
+          > ![게스트와 공유](media/share-app/guest_access_doc_2.png "게스트와 공유")
  
 게스트 액세스를 위해 앱을 공유한 후 게스트가 공유의 일부로 전송 된 전자 메일에서 공유 하는 앱을 검색 하 고 액세스할 수 있습니다.
 
 > [!div class="mx-imgBorder"]  
-> ![게스트 수신 앱 공유 전자 메일](media/share-app/guest_access_doc_4.png "게스트 수신 앱 공유 전자 메일")
+> ![게스트가 앱 공유 전자 메일을 받습니다.](media/share-app/guest_access_doc_4.png "게스트가 앱 공유 전자 메일을 받습니다.")
 
 ### <a name="frequently-asked-questions"></a>질문과 대답
 
 #### <a name="whats-the-difference-between-canvas-app-guest-access-and-powerapps-portals"></a>Canvas 앱 게스트 액세스와 PowerApps 포털의 차이점은 무엇 인가요? 
-Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드를 작성 하지 않고도 비즈니스 프로세스를 디지타이징에 맞게 구성 하 여 앱을 빌드할 수 있습니다. Canvas 앱에 대 한 게스트 액세스를 사용 하면 다양 한 Microsoft 및 타사 소스와 통합 될 수 있는 동일한 앱 리소스에 액세스 하는 공통 비즈니스 프로세스에 참여 하는 다양 한 조직으로 구성 된 개인 팀이 가능 합니다. 자세한 정보: [PowerApps 용 캔버스-앱 커넥터 개요](/powerapps/maker/canvas-apps/connections-list).
+Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드를 작성 하지 않고도 비즈니스 프로세스를 디지타이징에 맞게 구성 하 여 앱을 빌드할 수 있습니다. Canvas 앱에 대 한 게스트 액세스를 사용 하면 다양 한 Microsoft 및 타사 소스와 통합 될 수 있는 동일한 앱 리소스에 액세스 하는 공통 비즈니스 프로세스에 참여 하는 다양 한 조직으로 구성 된 개인 팀이 가능 합니다. 추가 정보: [PowerApps 용 캔버스 앱 커넥터 개요](/powerapps/maker/canvas-apps/connections-list)
 
-[PowerApps 포털](/powerapps/maker/portals/overview) 은 외부 사용자가 Common Data Service에 저장 된 데이터와 상호 작용할 수 있도록 하는 낮은 코드의 응답성이 뛰어난 웹 사이트를 빌드하는 기능을 제공 합니다. 조직에서 조직 외부 사용자와 공유 하는 웹 사이트 (예: LinkedIn, Microsoft 계정 또는 기타 상업적 로그인 공급자)를 사용 하 여 익명으로 또는 선택한 로그인 공급자를 통해 공유할 수 있는 웹 사이트를 만들 수 있습니다. 
+[PowerApps 포털](/powerapps/maker/portals/overview) 외부 사용자가 Common Data Service에 저장 된 데이터와 상호 작용할 수 있도록 하는 낮은 코드의 응답성이 뛰어난 웹 사이트를 빌드하는 기능을 제공 합니다. 조직에서 조직 외부 사용자와 공유 하는 웹 사이트 (예: LinkedIn, Microsoft 계정 또는 기타 상업적 로그인 공급자)를 사용 하 여 익명으로 또는 선택한 로그인 공급자를 통해 공유할 수 있는 웹 사이트를 만들 수 있습니다. 
 
 다음 표에서는 PowerApps 포털 및 canvas 앱 간의 몇 가지 핵심 기능 차이점을 간략하게 설명 합니다.  
 
@@ -188,12 +188,12 @@ Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드
 예로. 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하는 PowerApps 라이선스가 필요 합니다. Microsoft PowerApps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
 
 > [!div class="mx-imgBorder"]  
-> 게스트에 대 ![한 sharepoint에 캔버스 앱 포함]게스트에(media/share-app/guest_access_doc_5.PNG "대 한 sharepoint의 캔버스 앱 포함")
+> ![게스트에 대 한 SharePoint에 캔버스 앱 포함](media/share-app/guest_access_doc_5.PNG "게스트에 대 한 SharePoint에 캔버스 앱 포함")
 
-IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 http://make.powerapps.com으로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
+IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 http://make.powerapps.com 로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
 
 > [!div class="mx-imgBorder"]  
-> ![Canvas 앱 세부 정보](media/share-app/guest_access_doc_6.PNG "캔버스 앱 세부 정보")
+> ![Canvas 앱 세부 정보](media/share-app/guest_access_doc_6.PNG "Canvas 앱 세부 정보")
 
 #### <a name="how-come-guests-can-launch-the-app-shared-with-them-but-connections-fail-to-be-created"></a>게스트가 공유 된 앱을 시작할 수 있는 방법 및 연결을 만들지 못함
 비 게스트와 마찬가지로, 앱에서 액세스 하는 기본 데이터 원본도 게스트에서 액세스할 수 있도록 설정 해야 합니다.
@@ -222,7 +222,7 @@ IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우
 아니요, Azure AD 게스트는 Microsoft Graph을 쿼리하여 해당 사용자가 게스트로 된 테 넌 트에 대 한 정보를 검색할 수 없습니다.
 
 #### <a name="what-intune-policies-apply-to-guests-using-my-powerapps"></a>PowerApps를 사용 하 여 게스트에 적용 되는 InTune 정책은 무엇 인가요?
-InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니다. 예를 들어 Alice@Contoso.com Vikram@Fabrikam.com을 사용 하 여 앱을 공유 하는 경우 InTune은 실행 하는 PowerApps에 관계 없이 Virkam의 장치에 계속 Fabrikam.com 정책을 적용 합니다.
+InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니다. 예를 들어 Alice@Contoso.com Vikram@Fabrikam.com와 앱을 공유 하는 경우 InTune은 실행 하는 PowerApps에 관계 없이 Virkam의 장치에 Fabrikam.com 정책을 계속 적용 합니다.
 
 #### <a name="what-connectors-support-guest-access"></a>게스트 액세스를 지 원하는 커넥터는 무엇 인가요?
 모든 종류의 Azure AD 인증을 수행 하지 않는 모든 커넥터는 게스트 액세스를 지원 합니다. 다음 표에서는 Azure AD 인증을 수행 하는 모든 커넥터 및 현재 게스트 액세스를 지 원하는 커넥터를 열거 합니다. 이러한 대부분은 일반 공급으로 업데이트 될 예정입니다.

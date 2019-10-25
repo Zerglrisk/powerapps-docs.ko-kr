@@ -12,10 +12,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: baf7e74581819b3ea21542f30f96a0a6f517c0d5
-ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
+ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
+ms.lasthandoff: 10/23/2019
 ms.locfileid: "71705041"
 ---
 # <a name="behavior-formulas-for-components"></a>구성 요소에 대 한 동작 수식
@@ -30,21 +30,21 @@ ms.locfileid: "71705041"
 구성 요소 마스터가 선택 된 상태에서 수식 입력줄의 왼쪽에 있는 속성의 드롭다운 목록에서 **Onreset** 을 선택 하 고 하나 이상의 수식을 입력 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![OnReset 예 @ no__t-1
+> ![OnReset 예제](./media/component-behavior/example-onreset.png)
 
 **Onreset**을 테스트 하려면 구성 요소를 다시 설정 하도록 컨트롤을 구성 합니다. 예를 들어 단추의 **Onselect** 속성을 다음 수식으로 설정 합니다. **Reset**(*ComponentName*).
 
 ### <a name="example---reset-timer"></a>예제-타이머 다시 설정
 
 > [!div class="mx-imgBorder"]
-> ![OnReset 예 @ no__t-1
+> ![OnReset 예제](./media/component-behavior/Resettimer.gif)
 
-이 시간 선택 구성 요소에는 시간 _selectedHour 및 _Selectedhour을 표시 하는 두 개의 변수가 사용 됩니다. 선택이 다시 설정 되 면 다음 변수를 기본값으로 다시 설정 해야 합니다 (예: 12: 10.  구성 요소의 OnReset 속성에는 다음 수식이 있습니다. **Set (_selectedHour, 12); Set (_selectedMinute, 12)**
+이 시간 선택 구성 요소에는 시간 _selectedHour 및 _Selectedhour을 표시 하는 두 개의 변수가 사용 됩니다. 선택이 다시 설정 되 면 이러한 변수를 기본값으로 다시 설정 해야 합니다 (예를 들어, 12:12).  구성 요소의 OnReset 속성에는 **Set (_selectedHour, 12) 수식이 있습니다. Set (_selectedMinute, 12)**
 
 재설정을 트리거하려면 화면으로 이동 하 여 구성 요소의 인스턴스를 삽입 합니다. 단추를 추가 하 고 **reset (TimerComponent_instance)** 을 호출 하 여 onselect을 트리거하는 단추의 onselect를 구성 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![Reset 단추 @ no__t-1
+> ![다시 설정 단추](./media/component-behavior/reset-button.png)
 
 ## <a name="update-onreset-using-custom-property"></a>사용자 지정 속성을 사용 하 여 OnReset 업데이트
 
@@ -55,7 +55,7 @@ ms.locfileid: "71705041"
 ### <a name="example"></a>예
 
 > [!div class="mx-imgBorder"]
-> ![OnReset 예 @ no__t-1
+> ![OnReset 예제](./media/component-behavior/updateordernumber2.gif)
 
 주문 번호를 검토 하 고 숫자를 업데이트 하는 예입니다. 숫자 위쪽 및 아래쪽 구성 요소는 주문 수를 늘리거나 줄이는 데 사용 됩니다. 왼쪽의 갤러리를 선택 하면 선택한 도구의 주문 번호를 표시 하도록 기본 숫자 위로 및 아래로 구성 요소가 다시 설정 됩니다. "**값이 변경 되 면 설정 다시 설정 발생**"을 통해 입력이 변경 될 때 기본값을 다시 설정할 수 있습니다. 
 
