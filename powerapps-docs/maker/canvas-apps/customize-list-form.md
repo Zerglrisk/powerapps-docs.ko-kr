@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 04/04/2019
+ms.date: 10/24/2019
 ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 60d4fb21bc2f298b1dd2ce37c3e25f5355e881cb
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: d50d9933eaaa79011a623bc643f4eda23ba8d745
+ms.sourcegitcommit: fa6ad01cf6d025d46564d755915caaa9db517c41
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993148"
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "72902409"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
 
@@ -27,7 +27,8 @@ ms.locfileid: "71993148"
 이 항목의 단계를 수행하기 위해 사용자 지정 작동 방식을 볼 수 있도록 간단한 목록을 만든 다음, 고유한 목록에 동일한 개념을 적용할 수 있습니다.
 
 > [!NOTE]
-> **양식 사용자 지정** 옵션을 사용할 수 없거나 목록에서 제대로 작동하지 않는 경우 [PowerApps에서 지원하지 않는](connections/connection-sharepoint-online.md#known-issues) 데이터 형식이 포함될 수 있습니다. 다른 목록 또는 [환경](working-with-environments.md)으로 양식을 전환할 수도 없습니다.
+> - **양식 사용자 지정** 옵션을 사용할 수 없거나 목록에서 제대로 작동하지 않는 경우 [PowerApps에서 지원하지 않는](connections/connection-sharepoint-online.md#known-issues) 데이터 형식이 포함될 수 있습니다. 다른 목록 또는 [환경](working-with-environments.md)으로 양식을 전환할 수도 없습니다. 
+> - 목록의 사용자 지정 양식은 제네릭 목록 에서만 지원 됩니다. 일반 문서 라이브러리에 대 한 지원이 곧 제공 될 예정입니다. 사용자 지정 목록 및 라이브러리 템플릿은 현재 지원 되지 않습니다. 알림, 연락처, 작업 등의 목록에 포함 되지만이에 국한 되지 않습니다.
 
 ## <a name="create-a-list"></a>목록 만들기
 
@@ -39,7 +40,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 - **색**(선택)
 
 > [!div class="mx-imgBorder"]
-> @no__t 사이트 콘텐츠 > 새 > 목록에서 선택 하 고, 목록 이름을 입력 한 다음, 만들기를 선택 합니다. 각 열에 대해 열 추가를 선택 하 고 목록 유형 (예/아니요, 통화, 날짜, 선택)을 지정한 다음 목록 이름 (세부 정보, 가격, 사용 가능, 색)을 지정 하 고 저장을 선택 합니다. ](./media/customize-list-form/create-list.gif)
+> 사이트 콘텐츠 > 새 > 목록 ![선택 하 고 목록 이름을 입력 한 다음 만들기를 선택 합니다. 각 열에 대해 열 추가를 선택 하 고 목록 유형 (예/아니요, 통화, 날짜, 선택)을 지정한 다음 목록 이름 (세부 정보, 가격, 사용 가능, 색)을 지정 하 고 저장을 선택 합니다.](./media/customize-list-form/create-list.gif)
 
 ## <a name="open-the-form"></a>양식 열기
 
@@ -50,7 +51,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 1. **PowerApps Studio 시작** 대화 상자가 열리면 **건너뛰기**를 선택합니다.
 
 > [!div class="mx-imgBorder"]
-> @no__t 명령 모음에서 PowerApps를 선택한 후 양식 사용자 지정을 선택 합니다. PowerApps Studio는 동일한 브라우저 탭에서 열립니다. PowerApps Studio 시작 대화 상자가 열리면 건너뛰기를 선택 합니다. ](./media/customize-list-form/create-form.gif)
+> 명령 모음에서 PowerApps를 선택 하 고 양식 사용자 지정을 선택 합니다. ![ PowerApps Studio는 동일한 브라우저 탭에서 열립니다. PowerApps Studio 시작 대화 상자가 열리면 건너뛰기를 선택 합니다.](./media/customize-list-form/create-form.gif)
 
 ## <a name="move-and-remove-a-field"></a>필드 이동 및 제거
 
@@ -63,7 +64,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
     지정한 필드가 폼에서 사라집니다.
 
 > [!div class="mx-imgBorder"]
-> @no__t 가용성 필드를 필드 목록의 아래쪽으로 끕니다. 첨부 파일 필드를 마우스로 가리키고, 표시 되는 줄임표 (...)를 선택한 다음, 제거를 선택 합니다. ](./media/customize-list-form/move-remove-fields.gif)
+> Availability 필드를 필드 목록의 맨 아래로 끌어 ![합니다. 첨부 파일 필드를 마우스로 가리키고, 표시 되는 줄임표 (...)를 선택한 다음, 제거를 선택 합니다.](./media/customize-list-form/move-remove-fields.gif)
 
 ## <a name="set-conditional-formatting"></a>조건부 서식 지정 설정
 
@@ -80,7 +81,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
     구성한 세 개의 필드가 표시되고 양식에서 사라집니다.
 
 > [!div class="mx-imgBorder"]
-> @no__t-왼쪽 탐색 모음에서 DataCardValue의 끝에 표시 되는 숫자를 확인 합니다. 색, 가용성 및 가격 카드의 Visibility 속성을이 수식으로 설정 합니다. Alt 키를 누른 상태에서 Details 컨트롤을 여러 번 선택 합니다. ](./media/customize-list-form/conditional-format.gif)
+> ![왼쪽 탐색 모음에서 DataCardValue의 끝에 표시 되는 숫자를 확인 합니다. 색, 가용성 및 가격 카드의 Visibility 속성을이 수식으로 설정 합니다. Alt 키를 누른 상태에서 세부 정보 컨트롤을 여러 번 선택 합니다.](./media/customize-list-form/conditional-format.gif)
 
 ## <a name="save-and-publish-the-form"></a>양식을 저장 하 고 게시 합니다.
 
@@ -89,7 +90,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 1. 왼쪽 위 모퉁이에서 뒤로 화살표를 선택한 다음, **SharePoint로 돌아가기**를 선택합니다.
 
 > [!div class="mx-imgBorder"]
-> @no__t 파일 메뉴를 열고 저장을 선택한 다음 SharePoint에 게시를 두 번 선택 합니다. 왼쪽 위 모서리에서 뒤로 화살표를 선택 하 고 SharePoint로 돌아가기를 선택 합니다. ](./media/customize-list-form/save-form.gif)
+> 파일 메뉴를 열고 저장을 선택한 다음 SharePoint에 게시를 두 번 선택 합니다. ![ 왼쪽 위 모서리에서 뒤로 화살표를 선택 하 고 SharePoint로 돌아가기를 선택 합니다.](./media/customize-list-form/save-form.gif)
 
 ## <a name="further-customize-your-form"></a>양식 사용자 지정
 
@@ -101,7 +102,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
     - [하나 이상의 카드를 사용자 지정](working-with-cards.md) 합니다 (예: 카드의 표시 텍스트 또는 입력 컨트롤 변경).
     - [조회 필드](sharepoint-lookup-fields.md)를 만듭니다.
 
-    자세한 정보: [SharePoint 양식 통합 이해](sharepoint-form-integration.md)
+    추가 정보: [SharePoint 양식 통합 이해](sharepoint-form-integration.md)
 
 ## <a name="use-the-default-form"></a>기본 양식 사용
 
@@ -129,43 +130,43 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
     ![사용자 지정 양식 삭제](./media/customize-list-form/use-default-sharepoint.png)
 
-## <a name="q--a"></a>Q &AMP; A
+## <a name="q--a"></a>Q & A
 
 ### <a name="forms-vs-apps"></a>양식 및 앱
 
-**대답** 사용자 지정 된 양식은 SharePoint 또는 PowerApps에서 만든 독립 실행형 앱과 어떻게 다릅니까?
+**Q:** 사용자 지정 양식이 SharePoint나 PowerApps에서 만드는 독립 실행형 앱과 다른 점은 무엇인가요?
 
-**은** SharePoint 목록에 대해 양식을 사용자 지정 하는 경우 양식이 PowerApps Studio 또는 PowerApps Mobile에서 앱으로 표시 되지 않습니다. 양식을 만든 목록에서만 해당 양식을 열 수 있습니다.
+**A:** SharePoint 목록에 대한 양식을 사용자 지정하는 경우 양식은 PowerApps Studio 또는 PowerApps Mobile에서 앱으로 표시되지 않습니다. 양식을 만든 목록에서만 해당 양식을 열 수 있습니다.
 
-**대답** SharePoint 목록에서 데이터를 관리 하기 위해 양식을 사용자 지정 해야 하는 경우 및 독립 실행형 앱을 만들어야 하는 경우는 언제 인가요?
+**Q:** 언제 양식을 사용자 지정하여 SharePoint 목록에서 데이터를 관리하고 독립 실행형 앱을 만들어야 하나요?
 
-**은** 사용자가 SharePoint를 떠나지 않고도 (예: 데스크톱 브라우저에서) 데이터를 관리 하도록 하려면 양식을 사용자 지정 합니다. 예를 들어 사용자가 모바일 디바이스에서 SharePoint 외부의 데이터를 관리하려는 경우 앱을 만듭니다.
+**A:** 예를 들어 사용자가 데스크톱 브라우저에서 SharePoint를 종료하지 않고 데이터를 관리하는 경우 양식을 사용자 지정합니다. 예를 들어 사용자가 모바일 디바이스에서 SharePoint 외부의 데이터를 관리하려는 경우 앱을 만듭니다.
 
-**대답** 양식을 사용자 지정 하 고 같은 목록에 대 한 앱을 만들 수 있나요?
+**Q:** 동일한 목록에 대해 양식을 사용자 지정하고 앱을 만들 수 있나요?
 
-**은** 예로.
+**A:** 예.
 
-**대답** 동일한 기능을 사용 하 여 목록을 사용자 지정 하 고 앱을 만들 수 있나요?
+**Q:** 동일한 기능을 사용하여 목록을 사용자 지정하고 앱을 만들 수 있나요?
 
-**은** 예로.
+**A:** 예.
 
-**대답** 내 조직의 기본 환경이 아닌 환경에서 양식을 사용자 지정할 수 있나요?
+**Q:** 내 조직의 기본 환경 이외의 환경에서 양식을 사용자 지정할 수 있나요?
 
-**은** 아니요.
+**A:** 아니요.
 
 ### <a name="manage-your-custom-form"></a>사용자 지정 양식 관리
 
-**대답** 내 양식을 다른 사용자와 쉽게 공유 하려면 어떻게 해야 하나요?
+**Q:** 다른 사용자와 내 양식을 쉽게 공유하려면 어떻게 할까요?
 
-**은** 양식을 열고 **링크 복사**를 선택한 다음 양식을 사용 하려는 모든 사용자에 게 링크를 보냅니다.
+**A:** 양식을 열고 **링크 복사**를 선택한 다음 양식을 사용 하려는 모든 사용자에 게 링크를 보냅니다.
 
-**대답** 내 변경 내용을 다른 사용자에 게 표시 하지 않고 양식을 업데이트할 수 있나요?
+**Q:** 내 변경 사항을 다른 사용자에게 보여주지 않고 내 양식을 업데이트할 수 있나요?
 
-**은** 예로. 원하는 만큼 양식을 변경하고 저장할 수 있지만 **SharePoint에 게시**를 두 번 선택하지 않으면 변경 내용이 다른 사용자에게 보이지 않습니다.
+**A:** 예. 원하는 만큼 양식을 변경하고 저장할 수 있지만 **SharePoint에 게시**를 두 번 선택하지 않으면 변경 내용이 다른 사용자에게 보이지 않습니다.
 
-**대답** 목록 양식을 사용자 지정 하 고 실수를 할 경우 이전 버전으로 되돌릴 수 있나요?
+**Q:** 목록 양식을 사용자 지정하다가 실수를 하면 이전 버전으로 되돌릴 수 있나요?
 
-**은** 예로.
+**A:** 예.
 
 1. 목록을 열고, 명령 모음에서 **PowerApps**를 선택한 다음, **양식 사용자 지정**을 선택합니다.
 
@@ -181,31 +182,31 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
     > [!NOTE]
     > 다른 사용자가 양식을 잠갔기 때문에 복원이 실패 했다는 오류 메시지가 표시 되 면 사용자가 양식의 잠금을 해제할 때까지 기다린 후 다시 시도 합니다.
 
-**대답** 내 폼을 한 목록에서 다른 목록으로 이동할 수 있나요?
+**Q:** 내 양식을 한 목록에서 다른 목록으로 이동할 수 있나요?
 
-**은** 아니요.
+**A:** 아니요.
 
 ### <a name="administer-your-custom-form"></a>사용자 지정 양식 관리
 
-**대답** 내 양식을 공유 어떻게 할까요??
+**Q:** 내 양식을 공유하려면 어떻게 할까요?
 
-**은** 양식을 공유할 필요가 없습니다. 양식은 SharePoint 목록에서 사용 권한을 상속 합니다. 사용자 지정을 완료한 후 [SharePoint에 다시 게시](customize-list-form.md#save-and-publish-the-form)만 하면 다른 사람이 사용할 수 있습니다.
+**A:** 양식을 공유할 필요가 없습니다. 양식은 SharePoint 목록에서 사용 권한을 상속 합니다. 사용자 지정을 완료한 후 [SharePoint에 다시 게시](customize-list-form.md#save-and-publish-the-form)만 하면 다른 사람이 사용할 수 있습니다.
 
-**대답** 누가 양식을 사용자 지정할 수 있나요?
+**Q:** 누가 양식을 사용자 지정할 수 있나요?
 
-**은** 연결 된 목록을 관리, 디자인 또는 편집할 수 있는 SharePoint 권한이 있는 사용자입니다.
+**A:** 연결된 목록을 관리, 디자인 또는 편집할 수 있는 SharePoint 권한을 가진 사람이면 가능합니다.
 
-**대답** 사용자 지정 목록 양식을 만들거나 사용 하려면 PowerApps 라이선스가 필요 한가요?
+**Q:** 사용자 지정 목록 양식을 만들거나 사용하는 데 PowerApps 라이선스가 필요한가요?
 
-**은** [PowerApps를 포함 하는 Office 365 요금제](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses)가 필요 합니다.
+**A:** [PowerApps가 포함된 Office 365 계획](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses)이 필요합니다.
 
-**대답** 게스트 사용자가 사용자 지정 양식이 있는 목록에 액세스 하면 어떻게 되나요?
+**Q:** 게스트 사용자가 사용자 지정 양식이 있는 목록에 액세스하면 어떻게 되나요?
 
-**은** PowerApps를 사용 하 여 사용자 지정 된 목록 형식에 액세스 하려고 하면 게스트 사용자에 게 오류 메시지가 표시 됩니다.
+**A:** PowerApps를 사용하여 사용자 지정된 목록 양식에 게스트 사용자가 액세스하려고 하면 오류 메시지가 표시됩니다.
 
-**대답** 관리자는 조직에서 사용자 지정 된 모든 양식 목록을 가져오는 방법
+**Q:** 관리자가 조직의 모든 사용자 지정 양식 목록을 얻으려면 어떻게 해야 하나요?
 
-**은** PowerApps에 대 한 테 넌 트 관리자 이거나 조직의 기본 PowerApps 환경에서 환경-관리자 권한이 있는 경우 다음을 수행 합니다.
+**A:** PowerApps의 테넌트 관리자이거나 조직의 기본 PowerApps 환경에 대해 환경 관리자 권한이 있는 경우 다음을 수행합니다.
 
 1. [PowerApps 관리 센터](https://admin.powerapps.com)의 환경 목록에서 조직의 기본 환경을 선택합니다.
 
