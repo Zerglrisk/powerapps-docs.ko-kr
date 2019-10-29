@@ -32,6 +32,8 @@
           items:
             - name: 프로필 보기
               href: ../user/view-your-user-profile.md
+            - name: 관리자 또는 지원 담당자 찾기
+              href: ../user/find-admin.md
             - name: 개인 옵션 설정
               href: ../user/set-personal-options.md
             - name: 화면 판독기 사용
@@ -85,6 +87,8 @@
               href: ../user/export-excel-static-worksheet.md
             - name: Excel 피벗 테이블로 내보내기
               href: ../user/export-excel-pivottable.md
+            - name: 중복 레코드 병합
+              href: ../user/merge-duplicate-records.md
         - name: 보고서
           items:
             - name: 보고서 사용
