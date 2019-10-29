@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 7d9ae4df7a4ad11a49b2a25ae78330d0cd807c9b
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71985237"
 ---
 # <a name="distinct-function-in-powerapps"></a>PowerApps의 Distinct 함수

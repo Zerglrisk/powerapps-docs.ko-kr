@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 351fede5be1e0f3db74bde065dd9663672afd08a
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71992917"
 ---
 # <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>PowerApps의 Collect, Clear 및 ClearCollect 함수
@@ -86,9 +86,9 @@ ms.locfileid: "71992917"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **ClearCollect( IceCream, {&nbsp;Flavor:&nbsp;"Strawberry",&nbsp;Quantity:&nbsp;300&nbsp;} )** |**IceCream** 컬렉션의 모든 데이터를 지운 다음 일정량의 Strawberry 아이스크림이 포함된 레코드를 추가합니다. |<style>img {max-width: none}</style> ![Table 레코드 하나 ](media/function-clear-collect-clearcollect/icecream-clearcollect.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
-| **Collect( IceCream, {&nbsp;Flavor:&nbsp;"Pistachio",&nbsp;Quantity:&nbsp;40&nbsp;}, {&nbsp;Flavor:&nbsp;"Orange",&nbsp;Quantity:&nbsp;200&nbsp;}  )** |Pistachio 및 주황색 아이스크림 수량을 포함 하는 **Icecream** 컬렉션에 두 개의 레코드를 추가 합니다. |두 레코드를 사용 하 여 ![Table ](media/function-clear-collect-clearcollect/icecream-collect.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
-| **Clear( IceCream )** |**IceCream** 컬렉션에서 모든 레코드를 제거합니다. |![Empty 테이블 ](media/function-clear-collect-clearcollect/icecream-clear.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
+| **ClearCollect( IceCream, {&nbsp;Flavor:&nbsp;"Strawberry",&nbsp;Quantity:&nbsp;300&nbsp;} )** |**IceCream** 컬렉션의 모든 데이터를 지운 다음 일정량의 Strawberry 아이스크림이 포함된 레코드를 추가합니다. |<style>img {max-width: none}</style> ![한 레코드가 있는 테이블](media/function-clear-collect-clearcollect/icecream-clearcollect.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
+| **Collect( IceCream, {&nbsp;Flavor:&nbsp;"Pistachio",&nbsp;Quantity:&nbsp;40&nbsp;}, {&nbsp;Flavor:&nbsp;"Orange",&nbsp;Quantity:&nbsp;200&nbsp;}  )** |Pistachio 및 주황색 아이스크림 수량을 포함 하는 **Icecream** 컬렉션에 두 개의 레코드를 추가 합니다. |두 레코드가 있는 ![테이블](media/function-clear-collect-clearcollect/icecream-collect.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
+| **Clear( IceCream )** |**IceCream** 컬렉션에서 모든 레코드를 제거합니다. |빈 테이블](media/function-clear-collect-clearcollect/icecream-clear.png) ![<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
 
 컬렉션을 만드는 방법에 대 한 단계별 예제는 [컬렉션 만들기 및 업데이트](../create-update-collection.md)를 참조 하세요.
 
@@ -98,7 +98,7 @@ ms.locfileid: "71992917"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **ClearCollect (IceCream, {&nbsp;Flavor: &nbsp; "초콜릿", &nbsp;Quantity: &nbsp;100 &nbsp;}, {&nbsp;Flavor: &nbsp; "바닐라", &nbsp;Quantity: &nbsp;200 0})** | 모든 데이터를 지우고 초콜릿 수량 및 바닐라 아이스크림을 포함 하는 **Icecream** 컬렉션에 두 개의 레코드를 추가 합니다.  추가할 레코드는 함수에 대 한 개별 인수로 제공 됩니다.| 컬렉션에 추가 된 ![Chocolate 및 바닐라 레코드 ](media/function-clear-collect-clearcollect/icecream.png) <br><br>**Icecream** 컬렉션도 수정 되었습니다. |
-| **ClearCollect (IceCream, 테이블 ({&nbsp;Flavor: &nbsp; "초콜릿", &nbsp;Quantity: &nbsp;100 &nbsp;}, {&nbsp;Flavor: &nbsp; "바닐라", &nbsp;Quantity: &nbsp;200 0}))** | 레코드가 테이블에 결합 되 고 단일 인수를 통해 전달 되는 경우를 제외 하 고 이전 예제와 동일 합니다. 테이블의 내용은 **Icecream** 컬렉션에 추가 되기 전에 레코드 별로 추출 됩니다. | 컬렉션에 추가 된 ![Chocolate 및 바닐라 레코드 ](media/function-clear-collect-clearcollect/icecream.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
-| **ClearCollect (IceCream, <br> {&nbsp;MyFavorites: Table ({&nbsp;Flavor: &nbsp; "초콜릿", &nbsp;Quantity: &nbsp;100 &nbsp;}, {&nbsp;Flavor: &nbsp; "바닐라", 0Quantity: 1200 2})})** | 테이블이 레코드에 래핑되는 점을 제외 하 고 이전 예제와 동일 합니다.  테이블의 레코드는 추출 되지 않고 대신 전체 테이블이 레코드의 하위 테이블로 추가 됩니다. | 컬렉션에 추가 된 ![Chocolate 및 바닐라 레코드 ](media/function-clear-collect-clearcollect/icecream-myfavorites.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
+| **ClearCollect (IceCream, {&nbsp;Flavor: &nbsp; "초콜릿", &nbsp;Quantity: &nbsp;100 &nbsp;}, {&nbsp;Flavor: &nbsp; "바닐라", &nbsp;Quantity: &nbsp;200 0})** | 모든 데이터를 지우고 초콜릿 수량 및 바닐라 아이스크림을 포함 하는 **Icecream** 컬렉션에 두 개의 레코드를 추가 합니다.  추가할 레코드는 함수에 대 한 개별 인수로 제공 됩니다.| 컬렉션에 추가 된 ![초콜릿 and 바닐라 레코드](media/function-clear-collect-clearcollect/icecream.png) <br><br>**Icecream** 컬렉션도 수정 되었습니다. |
+| **ClearCollect (IceCream, 테이블 ({&nbsp;Flavor: &nbsp; "초콜릿", &nbsp;Quantity: &nbsp;100 &nbsp;}, {&nbsp;Flavor: &nbsp; "바닐라", &nbsp;Quantity: &nbsp;200 0}))** | 레코드가 테이블에 결합 되 고 단일 인수를 통해 전달 되는 경우를 제외 하 고 이전 예제와 동일 합니다. 테이블의 내용은 **Icecream** 컬렉션에 추가 되기 전에 레코드 별로 추출 됩니다. | 컬렉션에 추가 된 ![초콜릿 and 바닐라 레코드](media/function-clear-collect-clearcollect/icecream.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
+| **ClearCollect (IceCream, <br> {&nbsp;MyFavorites: Table ({&nbsp;Flavor: &nbsp; "초콜릿", &nbsp;Quantity: &nbsp;100 &nbsp;}, {&nbsp;Flavor: &nbsp; "바닐라", 0Quantity: 1200 2})})** | 테이블이 레코드에 래핑되는 점을 제외 하 고 이전 예제와 동일 합니다.  테이블의 레코드는 추출 되지 않고 대신 전체 테이블이 레코드의 하위 테이블로 추가 됩니다. | 컬렉션에 추가 된 ![초콜릿 and 바닐라 레코드](media/function-clear-collect-clearcollect/icecream-myfavorites.png)<br><br>**Icecream** 컬렉션도 수정 되었습니다. |
 

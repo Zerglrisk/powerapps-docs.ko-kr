@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 4af851160ea8a2add22add9f79dcc181a734e715
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71994862"
 ---
 # <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>PowerApps에서 Color 열거 및 ColorFade, ColorValue 및 RGBA 함수
@@ -43,12 +43,12 @@ ms.locfileid: "71994862"
 Canvas 앱에서 다른 컨트롤 앞에 컨트롤을 계층화 하 고 그 뒤에 있는 모든 컨트롤에 대 한 컨트롤의 투명도를 지정할 수 있습니다. 따라서 색은 계층을 통해 혼합 됩니다. 예를 들어 다음 다이어그램에서는 세 가지 기본 색이 알파 설정인 50%를 혼합 하 여 보여 줍니다.
 
 > [!div class="mx-imgBorder"]
-> 알파 설정이 50% 인 기본 색을 ![Three ](media/function-colors/alpha-primary.png)
+> 알파 설정이 50% 인 세 가지 기본 색을 ![](media/function-colors/alpha-primary.png)
 
 알파 채널을 지 원하는 파일 형식으로 이미지를 혼합할 수도 있습니다. 예를 들어 .jpeg 파일을 혼합할 수는 없지만 .png 파일을 혼합할 수 있습니다. 다음 그림은 이전 예제와 동일한 빨간색, 녹색 및 파란색을 보여 주지만, 빨강 색은 50% 알파 채널이 있는 .png 파일에 원 대신 물결선으로 표시 됩니다.
 
 > [!div class="mx-imgBorder"]
-> 알파 설정 50%가 파란색 및 녹색 원 앞에 있는 물결선을 ![Red ](media/function-colors/alpha-image.png)
+> 알파 설정 50%가 파란색 및 녹색 원 앞에 있는 빨간색 물결선을 ![](media/function-colors/alpha-image.png)
 
 **색 열거형 값** 을 지정 하거나 색 이름이 나 6 자리 16 진수 값을 사용 하 여 **colorvalue** 수식을 작성 하는 경우 알파 설정은 완전히 불투명 한 100%입니다.
 

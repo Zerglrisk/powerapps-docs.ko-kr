@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 0a56230539990ce51cc9270f71d8c2b7c9a1db73
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71992878"
 ---
 # <a name="concat-and-concatenate-functions-in-powerapps"></a>PowerApps의 Concat 및 Concatenate 함수

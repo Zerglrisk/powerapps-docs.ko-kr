@@ -12,18 +12,18 @@ ms.custom:
 ms.topic: article
 ms.assetid: 7923e36d-3640-49f7-9f2f-c97358a632db
 ms.author: nabuthuk
-ms.openlocfilehash: dede052df8e760748da3dae6cfab645b071b21d7
-ms.sourcegitcommit: 2a3430bb1b56dbf6c444afe2b8eecd0e499db0c3
+ms.openlocfilehash: a9f157dfb3d0a7d29cebadee935c84826ae040d6
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2019
-ms.locfileid: "72345799"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73025674"
 ---
 # <a name="powerapps-component-framework-overview"></a>PowerApps 구성 요소 프레임 워크 개요
 
-PowerApps 구성 요소 프레임 워크를 사용 하 여 모델 기반 앱 및 캔버스 앱에 대 한 코드 구성 요소 만들기 (실험적 미리 보기)를 사용 하 여 사용자가 양식, 보기 및 대시보드의 데이터를 보고 작업할 수 있는 향상 된 사용자 환경을 제공 합니다. 예:
+PowerApps 구성 요소 프레임 워크는 전문 개발자와 앱 제작자가 모델 기반 앱 및 캔버스 앱에 대 한 코드 구성 요소를 만들 수 있도록 지원 합니다. (실험적 미리 보기) 사용자가 양식, 보기에서 데이터를 보고 작업할 수 있는 향상 된 사용자 환경을 제공 합니다. 및 대시보드. 예:
 
-- 숫자 텍스트 값을 표시 하는 필드를 `dial` 또는 `slider` 구성 요소로 바꿉니다.
+- 숫자 텍스트 값을 표시 하는 필드를 `dial` 또는 `slider` 코드 구성 요소로 바꿉니다.
 - 목록을 `Calendar` 또는 `Map` 같은 데이터 집합에 바인딩된 완전히 다른 시각적 환경으로 변환 합니다.
 
 > [!IMPORTANT]
@@ -33,10 +33,9 @@ PowerApps 구성 요소 프레임 워크를 사용 하 여 모델 기반 앱 및
 > - Canvas 앱은 *데이터 집합* 형식이 아닌 코드 구성 요소의 *필드* 형식만 지원 합니다.
 
 
-PowerApps 구성 요소 프레임 워크를 사용 하면 전문 개발자와 앱 제작자가 전체 PowerApps 기능 전반에서 사용할 수 있는 코드 구성 요소를 만들 수 있습니다. HTML 웹 리소스와 달리 코드 구성 요소는 동일한 컨텍스트의 일부로 렌더링 되 고 다른 구성 요소와 동시에 로드 되므로 사용자에 게 원활한 환경을 제공 합니다. 개발자는 모든 HTML, CSS 및 TypeScript 또는 JavaScript 파일을 단일 솔루션 패키지 파일에 묶을 수 있습니다. 코드 구성 요소는 여러 엔터티 및 폼에서 여러 번 다시 사용할 수 있습니다.
+Powerapps 구성 요소 프레임 워크를 사용 하 여 모든 다양 한 PowerApps 기능에서 사용할 수 있는 코드 구성 요소를 만듭니다. HTML 웹 리소스와 달리 코드 구성 요소는 동일한 컨텍스트의 일부로 렌더링 되 고 다른 구성 요소와 동시에 로드 되므로 사용자에 게 원활한 환경을 제공 합니다. 개발자는 모든 HTML, CSS 및 TypeScript 또는 JavaScript 파일을 단일 솔루션 패키지 파일에 묶을 수 있습니다. 코드 구성 요소는 여러 엔터티 및 폼에서 여러 번 다시 사용할 수 있습니다.
 
 코드 구성 요소는 구성 요소 수명 주기 관리, 상황별 데이터 및 메타 데이터 액세스, Web API를 통한 원활한 서버 액세스, 유틸리티 및 데이터 형식 지정 방법, 카메라와 같은 장치 기능 등을 제공 하는 풍부한 프레임 워크 Api 집합에 액세스할 수 있습니다. 대화 상자, 조회, 전체 페이지 렌더링 등의 호출 하기 쉬운 UX 요소와 함께 위치 및 마이크  
-
 
 개발자와 앱 제조업체는 최신 웹 사례를 사용 하 고 외부 라이브러리의 기능을 활용 하 여 고급 사용자 상호 작용을 만들 수 있습니다. 프레임 워크는 구성 요소 수명 주기를 자동으로 처리 하 고, 응용 프로그램 비즈니스 논리를 유지 하며, 성능을 위해 최적화 합니다 (비동기 Iframe 없음). 구성 요소 정의, 종속성 및 구성은 모두 [솔루션](https://docs.microsoft.com/dynamics365/customer-engagement/customize/solutions-overview) 으로 패키지 되 고 환경 간에 이동 될 수 있으며 [appsource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365)를 통해 제공 될 수 있습니다.  
 

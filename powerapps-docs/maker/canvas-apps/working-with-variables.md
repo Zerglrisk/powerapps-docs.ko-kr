@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 036de37aa2593254d6ae665f8546fe4038dd922d
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71994842"
 ---
 # <a name="understand-canvas-app-variables-in-powerapps"></a>PowerApps에서 캔버스 앱 변수 이해
@@ -84,7 +84,7 @@ PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 �
 
 | 표시가 | 설명 |
 |----|----|
-| <style>img {max-width: none}</style> ![App 텍스트 입력 컨트롤, 레이블 및 단추 두 개를 사용 하 여 ](media/working-with-variables/button-changes-state-1.png) | 앱이 시작 되 면 누계는 0입니다.<br><br>빨간색 점은 사용자가 **77**를 입력 하는 텍스트 입력 상자에 사용자의 손가락을 나타냅니다. |
+| 텍스트 입력 컨트롤, 레이블 및 단추 2 개가 포함 된 <style>img {max-width: none}</style> ![앱](media/working-with-variables/button-changes-state-1.png) | 앱이 시작 되 면 누계는 0입니다.<br><br>빨간색 점은 사용자가 **77**를 입력 하는 텍스트 입력 상자에 사용자의 손가락을 나타냅니다. |
 | ![텍스트 입력 컨트롤에 77이 포함 되어 있고 추가 단추가 눌러져 있습니다.](media/working-with-variables/button-changes-state-2.png) | 사용자가 **추가** 단추를 선택 합니다. |
 | ![합계는 77이 고 다른 77는 추가 됩니다.](media/working-with-variables/button-changes-state-3.png) | 77는 누계에 추가 됩니다.<br><br>사용자가 **추가** 단추를 다시 선택 합니다. |
 | ![합계는 지워지는 154입니다.](media/working-with-variables/button-changes-state-4.png) | 77이 실행 중인 합계에 다시 추가 되어 154가 발생 합니다.<br><br>사용자가 **지우기** 단추를 선택 합니다. |

@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 48966659ca12ada12448543492731fff8431fbde
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71995823"
 ---
 # <a name="overview-of-the-canvas-app-for-northwind-traders"></a>Northwind Traders 용 캔버스 앱 개요
@@ -33,7 +33,7 @@ ms.locfileid: "71995823"
 단일 화면에서 앱 사용자는 주문을 표시, 업데이트, 만들기 및 삭제할 수 있습니다.
 
 > [!div class="mx-imgBorder"]
-> ![Complete canvas 앱 ](media/northwind-orders-canvas-part1/orders-finished.png)
+> ![캔버스 앱](media/northwind-orders-canvas-part1/orders-finished.png) 완료
 
 ## <a name="explore-the-user-interface"></a>사용자 인터페이스 탐색
 
@@ -50,7 +50,7 @@ ms.locfileid: "71995823"
 오른쪽 아래 모서리에는 선택한 주문에 포함 된 제품 및 수량에 대 한 정보가 표시 됩니다. 이 갤러리의 각 항목을 주문 세부 정보 라고 합니다. 앱 사용자는 그 아래에 있는 컨트롤을 사용 하 여 갤러리의 모든 항목을 추가 하 고 삭제할 수 있습니다. 추가 정보: [세부 정보 갤러리를 만듭니다](northwind-orders-canvas-part3.md).
 
 > [!div class="mx-imgBorder"]
-> 화면 영역의 ![Definition ](media/northwind-orders-canvas-part1/orders-parts.png)
+> 화면 영역의 ![정의](media/northwind-orders-canvas-part1/orders-parts.png)
 
 ## <a name="explore-the-data-sources"></a>데이터 원본 탐색
 

@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: 0ecb30a5a452a6ee092ccf9bc9d47f6182ef60ab
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71992992"
 ---
 # <a name="astype-and-istype-functions-in-canvas-apps"></a>Canvas 앱의 안 면 및 IsType 함수
@@ -100,35 +100,35 @@ If( IsType( ThisItem.'Company Name', [@Accounts] ),
 
 1. **보기** 탭에서 **데이터 원본**을 선택 하 고 **연락처** 및 **계정** 엔터티를 데이터 원본으로 추가 합니다.
     > [!div class="mx-imgBorder"]
-    > 두 개의 데이터 원본 (계정 및 연락처)이 있는 ![Blank 앱 ](media/function-astype-istype/contacts-add-datasources.png)
+    > 두 개의 데이터 원본 (계정 및 연락처)이 있는 비어 있는 앱 ![](media/function-astype-istype/contacts-add-datasources.png)
 
 1. **세로** 방향으로 **갤러리** 컨트롤을 삽입 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 빈 세로 레이아웃을 사용 하 여 갤러리 컨트롤을 ![Insert ](media/function-astype-istype/contacts-customer-gallery.png)
+    > 빈 세로 레이아웃을 사용 하 여 갤러리 컨트롤을 삽입 ![](media/function-astype-istype/contacts-customer-gallery.png)
 
 1. 화면 오른쪽의 **속성** 탭에서 갤러리의 **Items** 속성을 contact로 설정 **합니다.**
 
     > [!div class="mx-imgBorder"]
-    > 속성 창에서 연락처에 항목을 ![Set ](media/function-astype-istype/contacts-customer-datasource.png)
+    > 속성 창에서 연락처에 항목을 설정 ![](media/function-astype-istype/contacts-customer-datasource.png)
 
 1. 갤러리의 레이아웃을 **제목 및 부제목**으로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 속성 창에서 레이아웃 선택기를 ![Open ](media/function-astype-istype/contacts-customer-layout.png)
+    > 속성 창에서 레이아웃 선택 ![엽니다](media/function-astype-istype/contacts-customer-layout.png)
 
     > [!div class="mx-imgBorder"]
-    > 제목 및 부제목으로 레이아웃 ![Set ](media/function-astype-istype/contacts-customer-flyout.png)
+    > 레이아웃을 제목 및 부제목으로 설정 ![](media/function-astype-istype/contacts-customer-flyout.png)
 
 1. **데이터** 창에서 **Title1** 목록을 열고 **전체 이름**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Set 제목 값 ](media/function-astype-istype/contacts-customer-title.png)
+    > ![제목 값을 설정](media/function-astype-istype/contacts-customer-title.png)
 
 1. **Subtitle1** label 컨트롤을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 자막 값 ![Set ](media/function-astype-istype/contacts-customer-subtitle.png)
+    > 자막 값 ![설정](media/function-astype-istype/contacts-customer-subtitle.png)
 
 1. **Subtitle1** 의 **Text** 속성을 다음 수식으로 설정 합니다.
 
@@ -141,7 +141,7 @@ If( IsType( ThisItem.'Company Name', [@Accounts] ),
     ```
 
     > [!div class="mx-imgBorder"]
-    > 이제 ![Screen는 갤러리에 있는 계정 및 연락처를 보여 줍니다 ](media/function-astype-istype/contacts-customer-complete.png)
+    > 이제 ![화면은 갤러리에 있는 계정과 연락처를 표시 하는 완료 되었습니다](media/function-astype-istype/contacts-customer-complete.png)
 
     갤러리의 부제는 다음 값을 표시 합니다.
     - **' 회사 이름 '** 이 *비어*있는 경우 "--"입니다.

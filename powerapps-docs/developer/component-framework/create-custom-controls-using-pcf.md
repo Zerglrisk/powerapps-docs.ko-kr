@@ -11,32 +11,33 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d2cbf58a-9112-45c2-b823-2c07a310714c
-ms.openlocfilehash: 286458da2ed7b7b94f92b86355bf8785161ef778
-ms.sourcegitcommit: 2a3430bb1b56dbf6c444afe2b8eecd0e499db0c3
+ms.openlocfilehash: 9a02b64321564b0a09e6b53223f13748358d76cf
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/12/2019
-ms.locfileid: "72347018"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73025790"
 ---
 # <a name="create-and-build-a-code-component"></a>코드 구성 요소 만들기 및 빌드
 
-이 항목에서는 PowerApps CLI를 사용 하 여 코드 구성 요소를 만들고 배포 하는 방법을 설명 합니다. [CLI Microsoft PowerApps](https://aka.ms/PowerAppsCLI)를 설치 했는지 확인 합니다.
+이 항목에서는 PowerApps CLI를 사용 하 여 코드 구성 요소를 만들고 배포 하는 방법을 보여 줍니다. [CLI Microsoft PowerApps](https://aka.ms/PowerAppsCLI)를 설치 했는지 확인 합니다.
 
 ## <a name="create-a-new-component"></a>새 구성 요소 만들기
 
 시작 하려면 PowerApps CLI를 설치한 후 **VS 2017에 대 한 개발자 명령 프롬프트** 를 엽니다.
 
-1. VS 2017에 대 한 개발자 명령 프롬프트에서 명령 `mkdir <Specify the folder name>`를 사용 하 여 로컬 컴퓨터에 새 폴더를 만듭니다. 예를 들어 *C:\Users\your name\Documents\My_PCF_Component 구성 요소* 를 만듭니다.
-2. @No__t_0 명령을 사용 하 여 새로 만든 폴더로 이동 합니다.
-3. 다음 명령을 실행 하 여 몇 가지 기본 매개 변수를 전달 하 여 새 구성 요소 프로젝트를 만듭니다.
+1. VS 2017에 대 한 개발자 명령 프롬프트에서 명령 `mkdir <Specify the folder name>`를 사용 하 여 로컬 컴퓨터에 새 폴더를 만듭니다 (예: *C:\Users\your Atedocumentss\my_code__l)* .
+2. `cd <specify your new folder path>`명령을 사용 하 여 새로 만든 폴더로 이동 합니다.
+3. 명령을 사용 하 여 몇 가지 기본 매개 변수를 전달 하 여 새 구성 요소 프로젝트를 만듭니다.
 
-    `pac pcf init --namespace <specify your namespace here> --name <put component name here> --template <component type>`
+    `pac pcf init --namespace <specify your namespace here> --name <Name of the code component> --template <component type>`
  
    > [!NOTE]
-   > 현재 PowerApps CLI는 두 가지 유형의 구성 요소인 **필드** 와 **데이터 집합**을 지원 합니다.  Canvas 앱의 경우에는이 실험적 미리 보기에 대해 **필드** 형식만 지원 됩니다.
+   > 현재 PowerApps CLI는 모델 기반 앱에 대 한 **필드** 와 **데이터 집합** 이라는 두 가지 유형의 구성 요소를 지원 합니다.  Canvas 앱의 경우에는이 실험적 미리 보기에 대해 **필드** 형식만 지원 됩니다.
 
 4. 모든 필수 프로젝트 종속성을 검색 하려면 `npm install` 명령을 실행 합니다.
-5. 선택한 개발자 환경에서 `C:\Users\<your name>\Documents\<My_PCF_Component>` 프로젝트 폴더를 열고 코드 구성 요소 개발을 시작 합니다. 시작 하는 가장 빠른 방법은 `C:\Users\<your name>\Documents\<My_PCF_Component>` 디렉터리에 있는 명령 프롬프트에서 `code .`를 실행 하는 것입니다. 이 명령은 Visual Studio Code 구성 요소 프로젝트를 엽니다.
+5. 선택한 개발자 환경에서 `C:\Users\<your name>\Documents\<My_code_Component>` 프로젝트 폴더를 열고 코드 구성 요소 개발을 시작 합니다. 시작 하는 가장 빠른 방법은 `C:\Users\<your name>\Documents\<My_code_Component>` 디렉터리에 있는 명령 프롬프트에서 `code .`를 실행 하는 것입니다. 이 명령은 Visual Studio Code 구성 요소 프로젝트를 엽니다.
+6. 매니페스트, 구성 요소 논리 및 스타일 지정과 같은 구성 요소에 필요한 아티팩트를 구현한 다음 구성 요소 프로젝트를 빌드합니다. 추가 정보: [샘플 구성 요소 구현](implementing-controls-using-typescript.md)
 
 ## <a name="build-your-component"></a>구성 요소 빌드
 

@@ -12,10 +12,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: baf7e74581819b3ea21542f30f96a0a6f517c0d5
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71705041"
 ---
 # <a name="behavior-formulas-for-components"></a>구성 요소에 대 한 동작 수식

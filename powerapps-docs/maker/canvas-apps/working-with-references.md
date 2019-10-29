@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: deea21dd97ee71a74973393b7d6714a8c55ba969
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71989458"
 ---
 # <a name="understand-record-references-and-polymorphic-lookups-in-canvas-apps"></a>Canvas 앱에서 레코드 참조 및 다형성 조회 이해

@@ -14,10 +14,10 @@ search.audienceType:
 search.app:
 - PowerApps
 ms.openlocfilehash: b0ab20ce5e0700337bb059644c458a2665d20f1e
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71983554"
 ---
 # <a name="app-object-in-powerapps"></a>PowerApps의 App 개체
@@ -31,7 +31,7 @@ ms.locfileid: "71983554"
 **앱** 개체의 일부 속성에 대 한 수식을 작성할 수 있습니다. **트리 뷰** 창 맨 위에서 다른 컨트롤이 나 화면과 같은 방식으로 **앱** 개체를 선택 합니다. 수식 입력줄의 왼쪽에 있는 드롭다운 목록에서 개체 속성을 선택 하 여 해당 속성 중 하나를 보고 편집 합니다.
 
 > [!div class="mx-imgBorder"]
-> 트리 뷰 창에서 App 개체를 ![The ](media/object-app/appobject.png)
+> 트리 뷰 창에서 앱 개체를 ![](media/object-app/appobject.png)
 
 ## <a name="activescreen-property"></a>App.activescreen 속성
 
@@ -54,7 +54,7 @@ ms.locfileid: "71983554"
 **OnStart** 속성을 변경한 후에는 **트리 뷰** 창에서 **앱** 개체를 마우스로 가리키고, 표시 되는 줄임표 (...)를 선택한 다음, **onstart 실행**을 선택 하 여 테스트 합니다. 앱을 처음 로드 하는 경우와 달리 기존 컬렉션 및 변수는 이미 설정 되어 있습니다. 빈 컬렉션으로 시작 하려면 **collect** 함수 대신 **[clearcollect](function-clear-collect-clearcollect.md)** 함수를 사용 합니다.
 
 > [!div class="mx-imgBorder"]
-> OnStart 실행을 위한 ![App 항목 바로 가기 메뉴 ](media/object-app/appobject-runonstart.png)
+> OnStart 실행을 위한 앱 항목 바로 가기 메뉴 ![](media/object-app/appobject-runonstart.png)
 
 ## <a name="confirmexit-properties"></a>로 거 종료 속성
 
@@ -108,7 +108,7 @@ ms.locfileid: "71983554"
     이 대화 상자는 사용자가 한 폼에서 데이터를 변경한 다음 해당 변경 내용을 저장 하지 않고 응용 프로그램을 닫으려고 하면 나타납니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Generic 확인 대화 상자 ](media/object-app/confirm-native.png)
+    > ![일반 확인 대화 상자](media/object-app/confirm-native.png)
 
 1. **앱** 개체의 **개체 속성을** 다음 수식으로 설정 합니다.
 
@@ -122,4 +122,4 @@ ms.locfileid: "71983554"
     이 대화 상자는 사용자가 계정 양식의 데이터를 변경한 다음 해당 변경 내용을 저장 하지 않고 앱을 닫으려고 하면 나타납니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Form 관련 확인 대화 상자 ](media/object-app/confirm-native-custom.png)
+    > ![양식 관련 확인 대화 상자](media/object-app/confirm-native-custom.png)
