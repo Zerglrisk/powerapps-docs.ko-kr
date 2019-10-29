@@ -449,7 +449,7 @@ ms.locfileid: "71991622"
 1. 이 컨트롤의 **기본** 속성을 **""** 로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 텍스트 입력 상자의 * * 기본값 * * 속성을 설정 ![](media/northwind-orders-canvas-part3/add-details-21.png)
+    > ![텍스트 입력 상자의 **기본값** 속성을 설정 ](media/northwind-orders-canvas-part3/add-details-21.png)
 
 1. **홈** 탭에서이 컨트롤의 텍스트 맞춤을 **오른쪽**으로 설정 합니다.
 

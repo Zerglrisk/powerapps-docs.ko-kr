@@ -239,7 +239,7 @@ ms.locfileid: "71995867"
 1. **컨트롤 형식** 목록을 엽니다.
 
     > [!div class="mx-imgBorder"]
-    > \* * 컨트롤 형식 * * 목록을 ![엽니다](media/northwind-orders-canvas-part2/alt-02.png)
+    > **컨트롤 형식** 목록을 ![엽니다](media/northwind-orders-canvas-part2/alt-02.png)
 
 1. 텍스트 데이터 **보기** 카드를 선택 합니다.
 
@@ -310,7 +310,7 @@ ms.locfileid: "71995867"
 
 ## <a name="add-a-save-icon"></a>저장 아이콘 추가
 
-1. **트리 뷰** 창에서 **Screen1**를 선택 하 고  > **아이콘** **삽입** ** >  선택**합니다.
+1. **트리 뷰** 창에서 **Screen1** 를 선택 하 고 ** > **아이콘** 삽입** ** >  선택**합니다.
 
     > [!div class="mx-imgBorder"]
     > ![삽입 확인 표시 아이콘](media/northwind-orders-canvas-part2/save-01.png)
