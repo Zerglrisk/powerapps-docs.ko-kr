@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1daf6ea280710043572a0685da6daeda78f9f620
-ms.sourcegitcommit: fa6ad01cf6d025d46564d755915caaa9db517c41
+ms.openlocfilehash: 68e702156b0a5b820dd23076551cf7970efc65a3
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72902422"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73025097"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -117,7 +117,7 @@ PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하�
 
 앱 요금제 당 PowerApps를 사용 하면 개별 사용자가 PowerApps의 전체 기능을 기반으로 하는 특정 비즈니스 시나리오에 대해 단일 포털에서 2 개의 응용 프로그램을 실행할 수 있습니다. 이 계획은 사용자가 보다 폭넓은 규모 도입 전에 플랫폼을 시작할 수 있는 쉬운 방법을 제공 합니다.
 
-관리자가 앱 계획 당 PowerApps를 환경에 할당 하면 앱을 공유할 때 기본적으로 사용자에 게 할당 됩니다.
+관리자가 앱 계획 당 PowerApps를 환경에 할당 하면 앱을 공유할 때 기본적으로 사용자에 게 할당 됩니다. 관리자가 앱 계획 별로 할당 하는 방법을 볼 [수 있습니다.](https://docs.microsoft.com/power-platform/admin/capacity-add-on)
 
 앱이 공유 될 때 사용자에 대 한 앱 요금제 할당을 해제 하려면 다음 단계를 수행 합니다.
 
