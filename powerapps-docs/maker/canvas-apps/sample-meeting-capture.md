@@ -1,24 +1,24 @@
 ---
 title: Meeting Capture 샘플 템플릿 | Microsoft Docs
 description: PowerApps의 Meeting Capture 샘플 템플릿에서 설정, 개요 및 앱을 빌드하는 방법에 대해 자세히 알아봅니다.
-author: mr-dang-msft
+author: matthewbolanos
 manager: kvivek
 ms.service: powerapps
 ms.topic: sample
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 07/03/2018
-ms.author: brdang
+ms.date: 10/29/2019
+ms.author: mabolan
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fa7d58e518343fc8541800dba1c84ffe0e19bcc7
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 28ec571fc167f7233abed5d1448e5e441c6913a0
+ms.sourcegitcommit: 0e7bdaea83adaa15da4d5c9ddbcd0b2bcbee01df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71989511"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73063371"
 ---
 # <a name="set-up-and-learn-about-the-meeting-capture-sample-template-in-powerapps"></a>PowerApps의 Meeting Capture 샘플 템플릿 설정 및 학습
 

@@ -135,7 +135,7 @@
           href: ./canvas-apps/sample-meeting-capture.md
     - name: 첫 번째 앱 만들기
       items:
-        - name: 1 - 데이터에서 앱 생성
+        - name: 1 - 데이터에서 앱을 만들기
           items:
             - name: Common Data Service 사용
               href: ./canvas-apps/data-platform-create-app.md
@@ -143,6 +143,8 @@
               href: ./canvas-apps/app-from-sharepoint.md
             - name: Excel 사용
               href: ./canvas-apps/get-started-create-from-data.md
+            - name: Azure SQL Database에서
+              href: ./canvas-apps/app-from-azure-sql-database.md
         - name: 2 - 기본 사용자 지정 수행
           items:
             - name: 1 - 갤러리
@@ -1422,6 +1424,8 @@
       href: ./canvas-apps/common-issues-and-resolutions.md
     - name: 세션 또는 앱 ID 가져오기
       href: ./canvas-apps/get-sessionid.md
+    - name: PowerApps의 시작 문제 해결
+      href: troubleshooting-startup-issues.md
     - name: 파워 쿼리 문제 해결
       href: ./common-data-service/data-platform-cds-newentity-troubleshooting-mashup.md
     - name: 지원
