@@ -28,13 +28,13 @@ search.app:
 솔루션 검사기는 환경에서 내보낼 수 있는 비관리형 솔루션에서 작동합니다. 
 
 > [!NOTE]
-> - 이 항목에서는 PowerApps 제조업체 포털에서 솔루션 검사기를 실행하는 방법에 대해 설명합니다. PowerShell 모듈을 사용하여 서비스와 직접 상호 작용할 수도 있습니다. Microsoft.PowerApps.Checker.PowerShell 모듈은 지원되는 버전의 온-프레미스 및 온라인 환경에서 관리되는 솔루션과 관리되지 않는 솔루션을 분석하거나 서비스를 빌드 및 릴리스 파이프 라인에 자동화하고 통합하는 데 사용할 수 있습니다. 추가 정보: [Microsoft.PowerApps.Checker.PowerShell Overview]( /powershell/powerapps/overview?view=pa-ps-latest#get-started-using-the-microsoftpowerappscheckerpowershell-module) 
+> - 이 항목에서는 PowerApps 제조업체 포털에서 솔루션 검사기를 실행하는 방법에 대해 설명합니다. PowerShell 모듈을 사용하여 서비스와 직접 상호 작용할 수도 있습니다. Microsoft.PowerApps.Checker.PowerShell 모듈은 지원되는 버전의 온-프레미스 및 온라인 환경에서 관리되는 솔루션과 관리되지 않는 솔루션을 분석하거나 서비스를 자동화하고 빌드 및 릴리스 파이프라인에 통합하는 데 사용할 수 있습니다. 추가 정보: [Microsoft.PowerApps.Checker.PowerShell Overview]( /powershell/powerapps/overview?view=pa-ps-latest#get-started-using-the-microsoftpowerappscheckerpowershell-module) 
 > - 솔루션 검사기는 ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션에서 작동하지 않습니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
 
 ## <a name="enable-the-solution-checker"></a>솔루션 검사 사용
-솔루션 검사기는 모든 Common Data Service 환경에서 기본적으로 활성화되어 있습니다. **솔루션 검사기**메뉴 항목은 PowerApps의 **솔루션** 영역에서 관리되지 않는 솔루션을 선택하면 사용할 수 있습니다. **솔루션 검사기** 메뉴에서 **실행** 옵션을 사용할 수 없는 경우 PowerApps 검사기 솔루션을 설치하여 활성화할 수 있습니다. 이를 설치하려면 다음 단계를 수행합니다.   
+솔루션 검사기는 모든 Common Data Service 환경에서 기본적으로 활성화되어 있습니다. **솔루션 검사기** 메뉴 항목은 PowerApps의 **솔루션** 영역에서 관리되지 않는 솔루션을 선택하면 사용할 수 있습니다. **솔루션 검사기** 메뉴에서 **실행** 옵션을 사용할 수 없는 경우 PowerApps 검사기 솔루션을 설치하여 활성화할 수 있습니다. 이를 설치하려면 다음 단계를 수행합니다.   
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
+1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다.
 3. 도구 모음에서 **솔루션 검사기**를 선택하고 **설치**를 선택하여 Microsoft AppSource 페이지를 엽니다. 브라우저에서 페이지가 열리지 않도록 차단하는 경우 팝업 창을 허용해야 합니다. 
 
@@ -59,7 +59,7 @@ When you install the PowerApps checker these solution specific components are cr
 - User principle: The **PowerApps Advisor** user is created that allows the checker to authenticate with your Common Data Service environment and assign the two security roles, Export Customizations and Solution Checker. The PowerApps Advisor is an application user and does not consume a license.  -->
 
 ## <a name="run-the-solution-checker"></a>솔루션 검사 실행
-환경에 PowerApps 검사기를 설치한 후에는 PowerApps의 **솔루션**영역에서 비관리형 솔루션을 선택하면 **솔루션 검사기** 메뉴 항목을 사용할 수 있습니다. 
+환경에 PowerApps 검사기를 설치한 후에는 PowerApps의 **솔루션** 영역에서 비관리형 솔루션을 선택하면 **솔루션 검사기** 메뉴 항목을 사용할 수 있습니다. 
 
 1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다. 
@@ -140,24 +140,24 @@ When you install the PowerApps checker these solution specific components are cr
 
 |솔루션 구성 요소  |규칙 이름  |규칙 설명  |
 |---------|---------|---------|
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-지정-열](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-specify-column&client=PAChecker&source=featuredocs)  | Customer Engagement 쿼리 APIs용 Dynamics 365을 통해 모든 열을 선택 하지 마십시오.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타 제거 dup-reg](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-dup-reg&client=PAChecker&source=featuredocs)     | Customer Engagement 플러그인 등록에 대한 중복 Dynamics 365을 피하십시오.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-턴-오프-keepalive](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-turn-off-keepalive&client=PAChecker&source=featuredocs)   | Customer Engagement 플러그인에 대한 Dynamics 365에서 외부 호스트와 상호 작용할 때 KeepAlive를 false로 설정합니다.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-unpub-메타 데이터](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-unpub-metadata&client=PAChecker&source=featuredocs)   | Customer Engagement 메타 데이터에 대해 게시되지 않은 Dynamics 365을 검색하지 마십시오.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-배치 플러그인](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-batch-plugin&client=PAChecker&source=featuredocs)   | Dynamics 365 Customer Engagement 플러그인 및 워크플로 작업에서 batch 요청 유형을 사용하지 마십시오.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-reg-no-속성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-no-attribute&client=PAChecker&source=featuredocs)  | Customer Engagement 플러그인 등록에 대한 Dynamics 365와 함께 필터링 특성을 포함합니다.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-회피-reg-검색](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-retrieve&client=PAChecker&source=featuredocs)  | Customer Engagement 플러그인에 대해 Dynamics 365에 주의하여 검색 및 RetrieveMultiple의 메시지를 등록합니다.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-제거-비활성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-inactive&client=PAChecker&source=featuredocs)    | Customer Engagement를 위해 Dynamics 365에서 비활성 구성을 제거합니다.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-지정-열](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-specify-column&client=PAChecker&source=featuredocs)  | Common Data Service 쿼리 API를 통해 모든 열을 선택하지 마십시오.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타 제거 dup-reg](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-dup-reg&client=PAChecker&source=featuredocs)     | 중복 Common Data Service 플러그 인 등록을 피하십시오.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-턴-오프-keepalive](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-turn-off-keepalive&client=PAChecker&source=featuredocs)   | Common Data Service 플러그 인에서 외부 호스트와 상호 작용할 때 KeepAlive를 false로 설정합니다.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-unpub-메타 데이터](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-unpub-metadata&client=PAChecker&source=featuredocs)   | 게시되지 않은 Common Data Service 메타데이터를 검색하지 마십시오.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-배치 플러그 인](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-batch-plugin&client=PAChecker&source=featuredocs)   | Common Data Service 플러그 인 및 워크플로 작업에서 batch 요청 유형을 사용하지 마십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-reg-no-속성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-no-attribute&client=PAChecker&source=featuredocs)  | Common Data Service 플러그 인 등록에 필터링 특성을 포함하십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-회피-reg-검색](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-retrieve&client=PAChecker&source=featuredocs)  | Retrieve 및 RetrieveMultiple 메시지에 등록된 Common Data Service 플러그 인을 주의하여 사용하십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-제거-비활성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-inactive&client=PAChecker&source=featuredocs)    | Common Data Service에서 비활성 구성을 제거합니다.    |
 |플러그 인 또는 사용자 지정 워크플로 활동   | [il-메타-방지-crm2011-depr-메시지](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-crm2011-depr-message&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 사용되지 않는 메시지를 사용해서는 안됩니다.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-crm4-이벤트](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-crm4-event&client=PAChecker&source=featuredocs) | Microsoft Dynamics CRM 4.0 플러그인 등록 스테이지를 사용하지 마십시오.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-전문화된 업데이트-ops](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-specialized-update-ops&client=PAChecker&source=featuredocs)  | Dynamics 365에서 Customer Engagement를 위해 전문화된 업데이트 작업 요청을 사용하지 마십시오.    | 
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-crm4-이벤트](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-crm4-event&client=PAChecker&source=featuredocs) | Microsoft Dynamics CRM 4.0 플러그 인 등록 스테이지를 사용하지 마십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-전문화된 업데이트-ops](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-specialized-update-ops&client=PAChecker&source=featuredocs)  | Common Data Service에서 특수화된 업데이트 작업 요청을 사용하지 마십시오.    | 
 | 플러그 인 또는 사용자 지정 워크플로 활동 |  [il-use-autonumber-feature](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-use-autonumber-feature&client=PAChecker)  |사용자 지정 자동 번호 매기기 솔루션 대신 자동 번호 기능을 사용하십시오. | 
-| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-parallel-plugin](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-parallel-plugin&client=PAChecker)  | 병렬 패턴의 사용은 플러그인 내에서 피해야 합니다.  |
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-parallel-plugin](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-parallel-plugin&client=PAChecker)  | 병렬 패턴의 사용은 플러그 인 내에서 피해야 합니다.  |
 | 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-lock-plugin](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-lock-plugin&client=PAChecker)  | 플러그 인에서 정적 멤버를 잠그지 마십시오.  |
-| 플러그 인 또는 사용자 지정 워크플로 활동  | [meta-avoid-retrievemultiple-annotation](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-retrievemultiple-annotation&client=PAChecker)  | 주석의 RetrieveMultiple에 플러그인을 등록하지 마십시오.  |
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [meta-avoid-retrievemultiple-annotation](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-retrievemultiple-annotation&client=PAChecker)  | 주석의 RetrieveMultiple에 플러그 인을 등록하지 마십시오.  |
 |웹 리소스  | [웹-사용-async](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-async&client=PAChecker&source=featuredocs)  |  비동기적으로 HTTP 및 HTTPS 리소스와 상호작용 합니다.   |
-|웹 리소스  | [메타-제거-잘못된 양식-처리기](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-invalid-form-handler&client=PAChecker&source=featuredocs)  | Customer Engagement 양식 이벤트 등록에 대해 잘못된 Dynamics 365을 수정하거나 제거합니다.   |
-|웹 리소스  | [메타-분리-고아-양식-요소](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-orphaned-form-element&client=PAChecker&source=featuredocs)  | Customer Engagement 양식 이벤트 등록에 대해 분리된 Dynamics 365을 수정하거나 제거합니다.   |
+|웹 리소스  | [메타-제거-잘못된 양식-처리기](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-invalid-form-handler&client=PAChecker&source=featuredocs)  | 유효하지 않은 Common Data Service 양식 이벤트 등록을 수정 또는 제거하십시오.   |
+|웹 리소스  | [메타-분리-고아-양식-요소](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-orphaned-form-element&client=PAChecker&source=featuredocs)  | 분리된 Common Data Service 양식 이벤트 등록을 수정 또는 제거하십시오.   |
 |웹 리소스  | [웹-방지-modals](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-modals&client=PAChecker&source=featuredocs)  | 모달 대화 상자를 사용하지 마십시오.   |
 |웹 리소스  | [웹-방지-crm2011-서비스-odata](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-odata&client=PAChecker&source=featuredocs)   | Microsoft Dynamics CRM 2011 OData 2.0 끝점을 대상으로 지정하지 마십시오.     |
 |웹 리소스  | [웹-방지-crm2011-서비스-soap](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-soap&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 SOAP 서비스를 대상으로 지정하지 마십시오.   |

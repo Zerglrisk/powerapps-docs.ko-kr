@@ -1,6 +1,6 @@
 ---
 title: PowerApps에서 모델 기반 앱 양식에 대한 액세스 제어 | MicrosoftDocs
-description: 기본 양식 액세스를 제어하는 방법 알아보기
+description: 기본 양식에 대한 액세스를 제어하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/18/2019
 ms.reviewer: ''
@@ -8,10 +8,6 @@ ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
-applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
 author: Mattp123
 ms.assetid: 15d123e0-b604-45dd-ab34-0b37787a04bb
 caps.latest.revision: 33
@@ -30,7 +26,7 @@ search.app:
   
 - **기본 양식 비활성 확인**  
   
-     활성 또는 비활성 속성을 기본 양식으로 설정할 수 없습니다. 이 기능은 Dynamics 365 Customer Engagement 조직에서 업그레이드할 때 포함되는 새 양식을 관리하기 위해 주로 포함되었지만 이 기능을 사용하여 사용자가 기본 양식을 사용할 수 없도록 할 수 있습니다.   
+     활성 또는 비활성 속성을 기본 양식으로 설정할 수 없습니다. 이 기능은 주로 Common Data Service 환경을 업그레이드할 때 포함된 새 양식을 관리하기 위해 포함되었지만 이를 사용하여 사용자가 모든 기본 양식을 사용할 수 없도록 할 수 있습니다.   
   
 - **기본 양식에 보안 역할 할당**  
   
@@ -74,7 +70,7 @@ search.app:
 클라이언트 API 양식 컨텍스트(formContext)는 현재 코드가 실행되는 양식 또는 양식의 항목(예: 빠른보기 컨트롤 또는 편집 가능한 표의 행)에 대한 참조를 제공합니다. 추가 정보: [클라이언트 API 양식 컨텍스트](/dynamics365/customer-engagement/developer/clientapi/clientapi-form-context)
 
 > [!IMPORTANT]
-> Dynamics 365 for Customer Engagement 앱 버전 9.0에서는 Xrm.Page 개체가 [더 이상 사용되지 않으며](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated) 전달된 실행 컨텍스트 개체의 [getFormContext](/dynamics365/customer-engagement/developer/clientapi/reference/executioncontext/getformcontext) 메서드를 사용하여 적절한 양식이나 양식의 항목에 대한 참조를 반환해야 합니다.
+> Xrm.Page 개체가 [더 이상 사용되지 않으며](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#some-client-apis-are-deprecated) 전달된 실행 컨텍스트 개체의 [getFormContext](/powerapps/developer/model-driven-apps/clientapi/reference/executioncontext/getformcontext) 메서드를 사용하여 적절한 양식이나 양식의 항목에 대한 참조를 반환해야 합니다.
 <!-- 
  Finally, in the web application it is possible, but not recommended, for a developer to use scripts in the form Onload event to use the [Xrm.Page.ui.formSelector.items collection](http://go.microsoft.com/fwlink/p/?LinkID=513300) to query available forms and use the navigate method to direct users to a specific form. Remember that the [navigate method](http://go.microsoft.com/fwlink/p/?LinkID=513301) will cause the form to load again (and the Onload event to occur again). Your logic in the event handler should always check some condition before you use the navigate method to avoid an endless loop or unnecessarily restrict users options to navigate between forms.  
   

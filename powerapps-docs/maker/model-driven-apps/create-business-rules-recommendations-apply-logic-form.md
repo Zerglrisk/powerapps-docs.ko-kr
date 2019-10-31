@@ -26,7 +26,7 @@ search.app:
 ---
 # <a name="create-business-rules-and-recommendations-to-apply-logic-in-a-model-driven-app-form"></a>비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용
 
-이 항목에서는 비즈니스 규칙 및 추천을 만들어 JavaScript 코드를 작성하거나 플러그 인을 만들지 않고 모델 기반 앱에서 양식 논리를 적용할 수 있습니다. 비즈니스 규칙은 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 제공하는 방법을 보여줍니다. 기본 양식 및 빨리 만들기 양식에 적용할 수 있으며 모델 기반 앱, Dynamics 365 Customer Engagement 웹 앱, Dynamics 365 for tablets 및 Dynamics 365 for Outlook(온라인 또는 오프라인 모드)에서 작동합니다.
+이 항목에서는 비즈니스 규칙 및 추천을 만들어 JavaScript 코드를 작성하거나 플러그 인을 만들지 않고 모델 기반 앱에서 양식 논리를 적용할 수 있습니다. 비즈니스 규칙은 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 제공하는 방법을 보여줍니다. 기본 양식 및 빨리 만들기 양식에 적용할 수 있으며 모델 기반 앱, 레거시 웹앱, 태블릿용 Dynamics 365 및 Dynamics 365 for Outlook(온라인 또는 오프라인 모드)에서 작동합니다.
 
 > [!NOTE]
 > 모든 양식 및 서버에 적용되도록 엔터티에 대한 비즈니스 규칙을 정의하려면 [엔터티를 위한 비즈니스 규칙 만들기](/powerapps/maker/common-data-service/data-platform-create-business-rule)를 참조하십시오.

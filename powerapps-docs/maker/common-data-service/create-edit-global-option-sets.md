@@ -1,5 +1,5 @@
 ---
-title: Common Data Service의 전역 옵션 집합(선택 목록) 만들기 및 편집 개요 | MicrosoftDocs
+title: Common Data Service용 전역 옵션 집합(선택 목록) 만들기 및 편집 개요 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/26/2018
 ms.reviewer: ''
@@ -14,7 +14,8 @@ applies_to:
 ms.assetid: f06b8941-8dca-4601-b965-341cfb6fc3b2
 caps.latest.revision: 11
 ms.author: matp
-manager: brycho
+manager: kvivek
+author: Mattp123
 search.audienceType:
   - maker
 search.app:

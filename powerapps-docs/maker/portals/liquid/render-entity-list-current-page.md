@@ -1,24 +1,19 @@
 ---
-title: 포털에서 현재 페이지와 연결 된 엔터티 목록 렌더링 | MicrosoftDocs
-description: 포털에서 현재 페이지와 연결 된 엔터티 목록을 렌더링 하는 샘플 코드입니다.
+title: 포털에 현재 페이지와 연관된 엔터티 목록 렌더링 | MicrosoftDocs
+description: 포털에 현재 페이지와 연관된 엔터티 목록을 렌더링하는 샘플 코드입니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: ''
-ms.date: 10/07/2019
+ms.custom: null
+ms.date: 08/30/2019
 ms.author: shjais
-ms.reviewer: ''
-ms.openlocfilehash: e31f83efb7cedfa42b6c4c9e7da83280b261d9c8
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72974877"
+ms.reviewer: null
 ---
-# <a name="render-the-entity-list-associated-with-the-current-page"></a>현재 페이지와 연결 된 엔터티 목록을 렌더링 합니다.
 
-현재 페이지와 연결 된 엔터티 목록을 페이지가 매겨진 정렬 가능한 테이블로 렌더링 합니다. [Entitylist](liquid-objects.md#entitylist), [entitylist](liquid-objects.md#entityview), [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md), [페이지](liquid-objects.md#page)및 [요청](liquid-objects.md#request) 매개 변수를 사용 하 고 검색 및 다중 뷰 선택을 포함 합니다.  
+# <a name="render-the-entity-list-associated-with-the-current-page"></a>현재 페이지와 연관된 엔터티 목록 렌더링
+
+현재 페이지와 연관된 엔터티 목록을 페이지가 매겨진 정렬 가능한 테이블로 렌더링합니다. [entitylist](liquid-objects.md#entitylist), [entityview](liquid-objects.md#entityview), [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md), [page](liquid-objects.md#page), [request](liquid-objects.md#request) 매개 변수를 사용하며, 검색 및 여러 보기 선택 사항을 포함합니다.  
 
 ```xml
 {% entitylist id:page.adx_entitylist.id %}
@@ -240,9 +235,9 @@ ms.locfileid: "72974877"
 {% endentitylist %}
 ```
 
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참조
 
-[액체 및 웹 템플릿 페이지 템플릿을 사용 하 여 사용자 지정 페이지 템플릿 만들기](create-custom-template.md)  
-[RSS 피드를 렌더링 하는 사용자 지정 페이지 템플릿 만들기](render-rss-custom-page-template.md)  
-[웹 사이트 헤더 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)  
-[하이브리드 탐색을 사용 하 여 최대 3 수준까지 페이지 계층 구조 렌더링](hybrid-navigation-render-page-hierachy.md)
+[유동과 웹 템플릿 페이지 템플릿을 사용하여 사용자 지정 페이지 템플릿을 만드십시오.](create-custom-template.md)  
+[RSS 피드를 렌더링하기 위해 사용자 지정 페이지 템플릿 만들기](render-rss-custom-page-template.md)  
+[웹사이트 머리글 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)  
+[하이브리드 탐색을 사용하여 최대 3 레벨의 페이지 계층을 렌더링하기](hybrid-navigation-render-page-hierachy.md)

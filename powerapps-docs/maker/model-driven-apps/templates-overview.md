@@ -26,7 +26,7 @@ search.app:
    
 # <a name="use-excel-and-word-templates"></a>Excel 및 Word 템플릿 사용
 
-템플릿을 다양한 방식으로 사용하여 작업 속도를 높이고 일관성을 개선할 수 있습니다. Excel 템플릿을 사용하면 사용자 정의 분석을 쉽게 작성하고 조직의 다른 사용자와 공유할 수 있습니다. Word 템플릿을 사용하여 Customer Engagement 앱 데이터로 자동으로 채워진 표준화된 문서를 만들 수 있습니다.
+템플릿을 다양한 방식으로 사용하여 작업 속도를 높이고 일관성을 개선할 수 있습니다. Excel 템플릿을 사용하면 사용자 지정 분석을 쉽게 작성하고 조직의 다른 사용자와 공유할 수 있습니다. Word 템플릿을 사용하여 Common Data Service 데이터로 자동으로 채워진 표준화된 문서를 만들 수 있습니다.
 
 ## <a name="enable-and-work-with-excel-and-word-templates"></a>Excel 및 Word 템플릿 활성화 및 사용
 
@@ -51,7 +51,7 @@ search.app:
    > [!div class="mx-imgBorder"] 
    > ![](media/document-templates.png "문서 템플릿") 
 
-템플릿 사용에 대한 자세한 내용은 다음 Customer Engagement 설명서를 참조하십시오.
+템플릿 사용에 대한 자세한 내용은 다음 설명서를 참조하십시오.
 
 - Word 템플릿: [Word 템플릿을 사용하여 표준화된 문서 만들기](https://docs.microsoft.com/dynamics365/customer-engagement/admin/using-word-templates-dynamics-365)
 - Excel 템플릿: [Excel 템플릿을 사용하여 데이터 분석 및 공유](https://docs.microsoft.com/dynamics365/customer-engagement/admin/analyze-your-data-with-excel-templates)

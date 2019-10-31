@@ -1,12 +1,12 @@
 ---
-title: PowerApps 계획 2 라이선스가 필요한 복합 엔터티 | Microsoft Docs
-description: PowerApps 계획 2 라이선스가 필요한 Common Data Service의 복합 엔터티 목록입니다.
+title: PowerApps 플랜 2 라이선스가 필요한 복합 엔터티 | Microsoft Docs
+description: PowerApps 플랜 2 라이선스가 필요한 Common Data Service의 복합 엔터티 목록입니다.
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
 ms.component: cds
 ms.topic: reference
-ms.date: 07/17/2018
+ms.date: 09/26/2019
 ms.author: lanced
 search.audienceType:
   - maker
@@ -16,21 +16,25 @@ search.app:
 ---
 
 # <a name="complex-entities-and-licensing"></a>복합 엔터티 및 라이선스
-다음과 같은 복잡한 서버측 논리를 포함하는 엔터티에는 이러한 엔터티를 사용하는 앱 또는 플로우 사용자에게 PowerApps 계획 2 또는 Microsoft Flow 계획 2 라이선스가 있어야 합니다.
 
-* 코드 플러그 인. 추가 정보: [플러그 인 개발](https://docs.microsoft.com/dynamics365/customer-engagement/developer/plugin-development)
-* 실시간 워크플로입니다. 추가 정보: [워크플로 프로세스](https://docs.microsoft.com/dynamics365/customer-engagement/customize/workflow-processes)
+> [!IMPORTANT]
+> 이 항목은 최신 버전이 아니며 2019년 10월 1일부터 적용 가능한 최신 라이선스 변경 사항을 반영하여 곧 업데이트될 예정입니다. 엔터티의 라이선스 요구 사항에 대한 최신 정보는 [PowerApps 라이선스 가이드](https://go.microsoft.com/fwlink/?linkid=2085130)를 참조하십시오.
+
+다음과 같은 복잡한 서버 쪽 논리를 포함하는 엔터티에는 이러한 엔터티를 사용하는 앱 또는 흐름 사용자에게 PowerApps 플랜 2 또는 Microsoft Flow 플랜 2 라이선스가 있어야 합니다.
+
+* 코드 플러그 인. 추가 정보: [플러그 인 개발](/powerapps/developer/common-data-service/plug-ins)
+* 실시간 워크플로입니다. 추가 정보: [워크플로 프로세스](/flow/workflow-processes)
 
     > [!IMPORTANT]
-    >  실시간 워크플로로 변환된 워크플로만 실시간 및 동기식으로 간주됩니다. 백그라운드에서 실행되는 워크플로는 적절한 PowerApps 계획에 계속 사용할 수 있으며 추가 라이선스가 필요하지 않습니다.
+    >  실시간 워크플로로 변환된 워크플로만 실시간 및 동기식으로 간주됩니다. 백그라운드에서 실행되는 워크플로는 적절한 PowerApps 플랜에 계속 사용할 수 있으며 추가 라이선스가 필요하지 않습니다.
 
 엔터티에 복잡한 비즈니스 논리를 추가했는지 여부를 확인 하려면 사용자 환경에서 구성된 플러그 인 어셈블리 및 워크플로 목록을 검토합니다.
 
-## <a name="complex-entities-installed-with-dynamics-365"></a>Dynamics 365을 사용하여 설치된 복합 엔터티
-다음 표에는 Dynamics 365 응용 프로그램 설치의 일부로서 기본으로 복합 서버 쪽 논리가 포함된 엔터티가 나열되어 있습니다. 이 목록은 가이드로 사용됩니다. 사용자 환경에 설치된 Dynamics 365 응용 프로그램 및 버전에 따라 복합 엔터티 목록이 달라질 수 있습니다.
+## <a name="complex-entities-installed-with-dynamics-365-apps"></a>Dynamics 365 앱을 사용하여 설치된 복합 엔터티
+다음 표에는 Dynamics 365 Sales 및 Dynamics 365 Customer Service와 같이 Dynamics 365의 모델 기반 애플리케이션 설치의 일부로 기본 제공되는 복잡한 서버 쪽 논리를 포함하는 엔터티가 나와 있습니다. 이 목록은 가이드로 사용됩니다. 사용자 환경에 설치된 Dynamics 365 앱 및 버전에 따라 복합 엔터티 목록이 달라질 수 있습니다.
 
 > [!NOTE]
->  Common Data Service를 사용 중이고 Dynamics 365 응용 프로그램 또는 타사 솔루션을 설치하지 않은 경우 환경에 복합 서버 쪽 논리가 포함된 엔터티가 없습니다.
+>  Common Data Service를 사용 중이고 Dynamics 365 애플리케이션 또는 타사 솔루션을 설치하지 않은 경우 환경에 복합 서버 쪽 논리가 포함된 엔터티가 없습니다.
 
 * 거래처
 * 계약

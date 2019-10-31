@@ -4,7 +4,7 @@ description: 기본 양식을 디자인하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -27,7 +27,7 @@ search.app:
 
 기본 양식은 사용자가 사용자의 데이터를 보고 상호 작용하는 기본 사용자 인터페이스입니다. 기본 양식은 광범위한 옵션을 제공하며 Dynamics 365 for phones를 제외한 모델 기반 앱에서 사용할 수 있습니다.  
   
- 기본 양식의 주요 디자인 목표 중 하나는 한 번 디자인해서 어디에나 배포할 수 있다는 것입니다. 모델 기반 앱이나 Dynamics 365 Customer Engagement 웹 응용 프로그램에 대해 디자인하는 기본 양식도 Dynamics 365 for Outlook 및 Dynamics 365 for tablets에 사용됩니다. 이러한 방식의 장점은 변경 내용을 여러 양식에 통합할 필요가 없다는 것입니다. 하지만 이러한 양식을 디자인할 때 고려해야 할 몇 가지 중요한 요소가 있습니다.  
+ 기본 양식의 주요 디자인 목표 중 하나는 한 번 디자인해서 어디에나 배포할 수 있다는 것입니다. 모델 기반 앱에 대해 디자인하는 기본 양식도 Dynamics 365 for Outlook 및 태블릿용 Dynamics 365에 사용됩니다. 이러한 방식의 장점은 변경 내용을 여러 양식에 통합할 필요가 없다는 것입니다. 하지만 이러한 양식을 디자인할 때 고려해야 할 몇 가지 중요한 요소가 있습니다.  
   
 <a name="BKMK_CustomFormsForGroups"></a>   
 

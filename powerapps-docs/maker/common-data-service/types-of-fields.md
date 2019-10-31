@@ -2,7 +2,7 @@
 title: Common Data Service의 필드 데이터 유형 | MicrosoftDocs
 description: 앱에 사용할 수 있는 다양한 필드 데이터 유형 이해
 keywords: ''
-ms.date: 06/27/2018
+ms.date: 09/30/2019
 ms.service: powerapps
 ms.custom: null
 ms.topic: article
@@ -23,7 +23,7 @@ search.app:
   - PowerApps
   - D365CE
 ---
-# <a name="types-of-fields"></a>필드 유형
+# <a name="types-of-fields"></a>필드 타입
 
 형식에 사용되는 이름은 사용되는 디자이너에 따라 달라집니다. [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서는 데이터의 형식이 지정되는 방식을 포함하는 규칙을 사용합니다. 솔루션 탐색기 형식은 형식 한정자가 있는 데이터베이스 데이터 형식과 일치하는 이름을 사용합니다. 다음 표에는 해당 `AttributeTypeDisplayName`API 유형이 나와 있습니다.
 
@@ -155,11 +155,14 @@ API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내
 
 응용 프로그램에서 레코드 당 하나의 이미지를 표시하려면 이미지 필드를 사용합니다. 각 엔터티에는 하나의 이미지 필드를 사용할 수 있습니다. 이미지 필드를 사용자 지정 엔터티에는 추가할 수 있지만 표준 엔터티에는 추가할 수 없습니다. 일부 표준 엔터티에는 정의된 이미지 필드가 있습니다.
   
-엔터티에 이미지 필드가 있어도 모델 기반 앱에 해당 이미지를 표시하려면 추가 단계가 필요합니다. 엔터티 정의에서 **기본 이미지** 필드 값은 **[없음]** 또는 **엔터티 이미지**입니다. **엔터티 이미지**를 선택하여 응용 프로그램에 이미지를 표시합니다.  
+엔터티에 이미지 필드가 있어도 모델 기반 앱에 해당 이미지를 표시하려면 두 가지 설정을 활성화해야 합니다. 
+- 표준 엔터티 정의 **기본 이미지**속성 값을 **기본 이미지**로 설정해야 합니다. 사용자 지정 엔터티에는 사용자 지정 이미지 필드가 필요합니다. 그런 다음 해당 이미지 필드를 사용자 지정 엔터티 정의의 **기본 이미지** 값으로 선택합니다.  
+- 이미지가 표시될 엔터티 양식은 **양식에 이미지 표시** 속성이 활성화되어야 합니다.  
   
-엔터티에 대한 이미지 표시가 활성화되면 이미지가 없는 다른 레코드는 자리 표시자 이미지를 표시합니다. 예를 들면 다음과 같습니다.
+엔터티에 대한 이미지 표시가 활성화되면 이미지가 없는 다른 레코드는 자리 표시자 이미지를 표시합니다. 예:
 
-![자리 표시자 이미지](../common-data-service/media/lead-entity-form.PNG)
+> [!div class="mx-imgBorder"] 
+> ![기본 엔터티 이미지](../common-data-service/media/account-record-default-image.png "기본 거래처 엔터티 이미지")
   
 사용자는 기본 이미지를 선택하여 컴퓨터에서 사진을 업로드할 수 있습니다. 이미지는 5120KB 미만이어야 하고 다음 형식 중 하나여야 합니다.  
   
@@ -175,6 +178,40 @@ API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내
   
 이미지를 업로드하면 최대 144x144 픽셀로 크기가 조정됩니다. 사용자는 이 크기를 사용하여 이미지를 잘 표시하도록 업로드하기 전에 크기를 조정하거나 잘라내야 합니다. 모든 이미지는 정사각형으로 잘립니다. 양쪽 모두 144픽셀보다 작은 이미지의 경우 이미지는 작은 쪽 크기에 맞게 정사각형으로 잘립니다.  
 
+### <a name="add-image-support-for-a-form-in-a-custom-entity-using-solution-explorer"></a>솔루션 탐색기를 사용하여 사용자 지정 엔터티에서 양식에 대한 이미지 지원 추가
+1. [솔루션 탐색기](../model-driven-apps/advanced-navigation.md#solution-explorer)를 엽니다. 
+2. 왼쪽 탐색 창에서 **엔터티**를 확장한 다음 원하는 엔터티를 확장하고 **필드**를 선택합니다. 
+3. 도구 모음에서 **새로 만들기**를 선택합니다. 
+4. **데이터 형식** 드롭다운 목록의 **유형** 섹션에서 **이미지**를 선택합니다. 
+5. **사용자 지정 엔터티 이미지**와 같은 *표시 이름*을 입력합니다. 
+6. 나머지 필드를 적절히 작성하십시오. **이름**, **필드 요구 사항**, **검색 가능** 필드는 변경할 수 없습니다. **저장 후 닫기**를 선택합니다. 
+7. **기본 이미지** 속성 옆에 있는 엔터티 정의에서 값이 이전 단계에서 작성한 사용자 지정 이미지로 설정되어 있는지 확인하십시오. 그렇지 않다면 선택하십시오.  
+    ![기본 이미지 속성이 선택됨](media/primary-image-property.png)
+
+8.  엔터티 기본 양식과 같이 이미지 지원을 원하는 양식을 여십시오. 
+9.  양식 편집기 리본에서 **양식 속성**을 선택합니다. 
+10. **양식 속성** 페이지에서 **표시** 탭을 선택하고 **양식에 이미지 표시**를 선택한 다음, **확인**을 선택합니다. 
+
+    > [!div class="mx-imgBorder"] 
+    > ![양식 설정에서 이미지 표시](media/show-image-on-form.png "양식 설정에서 이미지 표시")
+
+11. 양식 편집기 리본에서 **저장**을 선택한 다음 **게시**를 선택합니다. 양식 편집기를 닫습니다. 
+
+앱 사용자는 이제 양식에 표시할 이미지를 선택할 수 있습니다. 앱 사용자가 레코드 양식을 열면 양식에 표시할 이미지를 선택할 수 있습니다. 
+
+> [!IMPORTANT]
+> 레코드가 저장되지 않은 새 레코드인 경우 이미지를 변경하려고 하면 잘못된 인수 오류가 반환됩니다. 
+
+#### <a name="change-the-image-for-a-record"></a>레코드 이미지 변경
+1. 엔터티 양식이 포함된 앱을 열고 양식에서 이미지를 선택하십시오. 
+   > [!div class="mx-imgBorder"] 
+   > ![기본 엔터티 이미지](../common-data-service/media/default-entity-image-on-form.png "기본 엔터티 이미지")
+
+2. **이미지 업로드**를 선택하고 엔터티 양식에 표시할 이미지를 찾아서 선택한 다음 **변경**을 선택합니다. 이미지가 레코드에 나타납니다. 
+   > [!div class="mx-imgBorder"] 
+   > ![변경된 이미지를 레코드에 저장](../common-data-service/media/custom-entity-icon-record.png "변경된 이미지를 레코드에 저장")
+
+
 이미지 데이터로 작업하는 개발자를 위한 추가 정보:
 - [엔터티 메타데이터 > 엔터티 이미지](/powerapps/developer/common-data-service/entity-metadata#entity-images)
-- [Dynamics 365 Customer Engagement 개발자 가이드: 이미지 속성](/dynamics365/customer-engagement/developer/image-attributes)
+- [이미지 특성](/powerapps/developer/common-data-service/image-attributes)

@@ -28,7 +28,7 @@ search.app:
 웹 리소스는 웹 개발에 사용되는 파일을 사용하는 앱 확장을 위해 개발자들이 전형적으로 사용합니다. 앱 사용자는 개발자 또는 디자이너에 의해 제공되는 웹 리소스를 관리할 필요가 있습니다.  
 
 > [!TIP]
-> 웹 리소스에 대한 자세한 내용은 [개발자 설명서: Customer Engagement용 웹 리소스](/dynamics365/customer-engagement/developer/web-resources)를 참조하십시오.<br /> PowerApps에 추가된 웹 리소스 종속성에 대한 자세한 내용은 [개발자 설명서: 웹 리소스 종속성](/dynamics365/customer-engagement/developer/web-resources)을 참조하십시오.
+> 웹 리소스에 대한 자세한 내용은 [개발자 설명서: 모델 기반 앱용 웹 리소스](/powerapps/developer/model-driven-apps/web-resources)를 참조하십시오.<br /> PowerApps에 추가된 웹 리소스 종속성에 대한 자세한 내용은 [개발자 설명서: 웹 리소스 종속성](/dynamics365/customer-engagement/developer/web-resources)을 참조하십시오.
    
 <a name="BKMK_WhatAreWebResources"></a>
 
@@ -72,9 +72,9 @@ search.app:
 |**표시 이름**|웹 리소스 목록을 볼 경우 표시되는 이름입니다.|  
 |**설명**|웹 리소스에 대한 설명입니다.|  
 |**유형**|*필수 특성*: 웹 리소스의 유형입니다. 웹 리소스를 저장한 후에는 변경할 수 없습니다.|  
-|**텍스트 편집기**|웹 리소스가 텍스트 파일을 표현할 경우 이 버튼을 눌러 페이지를 열고 텍스트 편집기를 사용해 컨텐츠를 편집합니다.<br />추가 정보: [텍스트 편집기 적절하게 사용](#use-the-text-editor-appropriately)| 
+|**텍스트 편집기**|웹 리소스가 텍스트 파일을 표현할 경우 이 버튼을 눌러 페이지를 열고 텍스트 편집기를 사용해 콘텐츠를 편집합니다.<br />추가 정보: [텍스트 편집기 적절하게 사용](#use-the-text-editor-appropriately)| 
 |**언어**|언어를 선택할 수 있습니다. 이 옵션은 웹 리소스 데이터를 저장하는 레코드를 태깅합니다. 웹 리소스의 동작은 변하지 않습니다.|  
-|**파일 업로드**|**검색…** 선택 웹 리소스로 업로드할 파일을 선택합니다.<br />&bull; 새 웹 리소스를 만들거나 기존 웹 리소스를 덮어쓸 때 파일을 업로드할 수 있습니다.<br />&bull; 파일의 파일 확장명은 허용된 파일 확장명과 일치해야 합니다.<br />&bull;기본적으로 웹 리소스로 업로드할 수 있는 최대 파일 크기는 5MB입니다. 이 값은 **시스템 설정** > **이메일** 탭 > **첨부 파일 사이즈 제한 설정** 설정을 사용해 Dynamics 365 customer engagement에서 수정될 수 있습니다. 추가 정보: [시스템 설정 대화 상자 - 전자 메일 탭](https://docs.microsoft.com/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab) |  
+|**파일 업로드**|**검색…** 선택 웹 리소스로 업로드할 파일을 선택합니다.<br />&bull; 새 웹 리소스를 만들거나 기존 웹 리소스를 덮어쓸 때 파일을 업로드할 수 있습니다.<br />&bull; 파일의 파일 확장명은 허용된 파일 확장명과 일치해야 합니다.<br />&bull;기본적으로 웹 리소스로 업로드할 수 있는 최대 파일 크기는 5MB입니다. 이 값은 **시스템 설정** > **전자 메일** 탭 > **첨부 파일의 크기 제한 설정** 설정을 사용하여 수정할 수 있습니다. 추가 정보: [시스템 설정 대화 상자 - 전자 메일 탭](https://docs.microsoft.com/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab) |  
 |**URL**|웹 리소스를 저장한 후 웹 리소스에 대한 URL이 여기에 표시됩니다. 귀하의 브라우저에서 웹 리소스를 보려면 이 링크를 선택합니다.|  
   
 변경 내용을 추가한 후 **저장**을 클릭하고 **게시**를 선택합니다.  
@@ -127,8 +127,8 @@ search.app:
 ### <a name="publish"></a>게시
 
 사용자 지정 작업을 완료했으면 사용자 지정 항목을 게시합니다.
-- 현재 편집하는 구성요소를 사용자지정하여 게시하려면, 내비게이션 창에서 작업한 엔터티를 선택하고  **게시**를 선택합니다.
-- 한번에 모두 게시되지 않은 구성요소를 사용자지정 게시하려면 내비게이션 창에서  **엔터티**를 선택하고 **동작** 툴바에서 **모든 사용자 지정 게시**를 선택합니다.
+- 현재 편집하는 구성 요소를 사용자 지정하여 게시하려면, 탐색 창에서 작업한 엔터티를 선택하고 **게시**를 선택합니다.
+- 한번에 모두 게시되지 않은 구성 요소를 사용자 지정 게시하려면 탐색 창에서 **엔터티**를 선택하고 **작업** 도구 모음에서 **모든 사용자 지정 게시**를 선택합니다.
    
   
 ### <a name="see-also"></a>참조  
@@ -136,4 +136,4 @@ search.app:
 [웹 리소스 속성](web-resource-properties-legacy.md) <br /> 
 [양식 만들기 및 디자인](create-design-forms.md) <br />
 [모델 기반 앱 구성 요소 이해](model-driven-app-components.md) <br /> 
-[개발자 설명서: Customer Engagement용 웹 리소스](/dynamics365/customer-engagement/developer/web-resources)
+[개발자 설명서: 모델 기반 앱의 웹 리소스](/powerapps/developer/model-driven-apps/web-resources)

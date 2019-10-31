@@ -1,12 +1,7 @@
 ---
 title: PowerApps에서 모델 기반 앱 기본 양식 이벤트 처리기 구성 | MicrosoftDocs
-description: Customer Engagement용 Dynamics 365에서 이벤트 처리기를 구성하는 방법 이해
-Keywords: 기본 양식; 이벤트 처리기 구성; Dynamics 365
+description: 이벤트 처리기를 구성하는 방법 이해
 author: Mattp123
-applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 06/27/2018

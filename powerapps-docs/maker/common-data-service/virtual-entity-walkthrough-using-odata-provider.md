@@ -26,7 +26,7 @@ search.app:
 
 # <a name="virtual-entity-walkthrough-using-the-odata-v4-data-provider"></a>OData v4 데이터 공급자를 사용 는 가상 엔터티 연습
 
-Dynamics 365 for Customer Engagement의 모델 기반 앱 또는 서비스 영역 내에서 외부 데이터 원본의 티켓 정보에 액세스하려는 경우를 가정해 보겠습니다. 이 간단한 연습에서는 런타임에 OData 웹 서비스에서 티켓 데이터를 검색하는 외부 스키마에 매핑된 필드가 있는 가상 엔터티를 모델링합니다.
+모델 기반 앱 내에서 외부 데이터 원본의 티켓 정보에 액세스하려는 경우를 가정해 보겠습니다. 이 간단한 연습에서는 런타임에 OData 웹 서비스에서 티켓 데이터를 검색하는 외부 스키마에 매핑된 필드가 있는 가상 엔터티를 모델링합니다.
 
 ## <a name="data-source-details"></a>데이터 원본 정보
 
@@ -152,7 +152,7 @@ OASIS 개방형 데이터 프로토콜(OData) 샘플 웹 서비스를 사용하�
     ![모든 사용자 지정 항목 게시](media/publishall.png)
 1. 모든 사용자 지정 항목을 게시한 후 솔루션 탐색기 창을 닫습니다.
 
-## <a name="view-the-virtual-entity-in-action-with-dynamics-365-customer-engagement"></a>Dynamics 365 Customer Engagement를 통한 실제 가상 엔터티 보기
+## <a name="view-the-virtual-entity-in-action-with-dynamics-365"></a>Dynamics 365를 통한 실제 가상 엔터티 보기
 
 1. **서비스** > **확장** > **티켓**으로 이동합니다.
     

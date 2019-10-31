@@ -15,6 +15,7 @@ ms.assetid: d88677fa-2caf-47b0-aec6-10a25a7ec9c3
 caps.latest.revision: 55
 ms.author: matp
 manager: kvivek
+author: Mattp123
 search.audienceType:
   - maker
 search.app:
@@ -43,7 +44,7 @@ Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 �
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 
-다음 요구 사항 중 하나를 해결해야 하는 경우 PowerApps 포털을 사용하여 Common Data Service에 대한 필드를 만들고 편집해야 합니다.
+다음 요구 사항 중 하나를 해결해야 하는 경우가 아니면 PowerApps 포털을 사용하여 Common Data Service에 대한 필드를 만들고 편집해야 합니다.
 
 - 고객 조회 필드 만들기. 
    - 추가 정보: [조회의 다른 유형](types-of-fields.md#different-types-of-lookups)
@@ -76,7 +77,7 @@ Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 �
 > 커뮤니티 도구는 Microsoft의 제품이 아니며 커뮤니티 도구에 대해 지원을 확장하지 않습니다. 도구와 관련된 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)
 
 ### <a name="see-also"></a>참조  
-[PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)<br />
+[PowerApps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)<br />
 [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [필드 유형 및 필드 데이터 형식](types-of-fields.md)<br />
 [개발자 설명서: 속성 메타데이터 작업](/dynamics365/customer-engagement/developer/org-service/work-attribute-metadata)

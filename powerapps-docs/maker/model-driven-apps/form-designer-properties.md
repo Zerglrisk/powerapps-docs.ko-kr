@@ -1,7 +1,7 @@
 ---
 title: 양식 디자이너에서 사용 가능한 속성 | MicrosoftDocs
 ms.custom: ''
-ms.date: 02/19/2019
+ms.date: 08/26/2019
 ms.reviewer: ''
 ms.service: crm-online
 ms.suite: ''
@@ -25,13 +25,12 @@ search.app:
 
 # <a name="properties-available-in-the-form-designer"></a>양식 디자이너에서 사용 가능한 속성
 
-모델 기반 양식 디자이너의 오른쪽 창에 있는 속성 창에서 미리 보기나 탐색 창에서 선택한 요소의 속성을 빠르게 보고 업데이트할 수 있습니다. 
+모델 기반 양식 디자이너의 오른쪽 창에 있는 속성 창에서 미리 보기나 트리 보기에서 선택한 요소의 속성을 빠르게 보고 업데이트할 수 있습니다. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/form-designer-property-pane.png "양식 디자이너 속성 창")
 
 ## <a name="form-properties"></a>양식 속성
-
 
 |이름  |설명  |
 |---------|---------|
@@ -52,8 +51,8 @@ search.app:
 | **표시 옵션**      | **휴대폰에서 숨기기**     |  휴대폰 화면에서 이 양식의 압축된 버전의 경우 탭을 숨길 수 있습니다.     |
 | **서식**   | **레이아웃**     |  탭은 열을 최대 3개까지 사용할 수 있습니다. 이러한 옵션을 사용하여 채워야 하는 탭 수와 전체 너비의 비율을 설정할 수 있습니다.      |
 
-## <a name="section-properties"></a>섹션 속성
 
+## <a name="section-properties"></a>섹션 속성
 
 |영역형   |이름  |설명  |
 |---------|---------|---------|
@@ -67,7 +66,6 @@ search.app:
 
 ## <a name="field-properties"></a>필드 속성
 
-
 |영역형  |이름  |설명  |
 |---------|---------|---------|
 |**표시 옵션**     | **필드 레이블**    | 기본적으로 레이블은 필드의 표시 이름과 일치합니다. 여기에서 다른 레이블을 입력하여 양식의 이름을 재정의할 수 있습니다.       |
@@ -77,15 +75,17 @@ search.app:
 |**표시 옵션**     |  **필드 잠금**   |  제거되지 않도록 하려면 이 필드를 잠급니다.     |
 |**표시 옵션**     |  **필드 숨기기**     | 이 항목을 선택하면 필드는 기본적으로 숨겨지며 코드를 사용하여 표시할 수 있습니다.      |
 |**표시 옵션**     |  **휴대폰에서 숨기기**    | 휴대폰 화면에서 이 양식의 압축된 버전의 경우 필드를 숨길 수 있습니다.         |
-|**표시 옵션**     | **필드 너비**      |  필드를 포함하는 섹션에 둘 이상의 열이 있으면 섹션에 사용된 열 수까지 차지하도록 필드를 설정할 수 있습니다.       |
-
+|**서식**     | **필드 너비**      |  필드를 포함하는 섹션에 둘 이상의 열이 있으면 섹션에 사용된 열 수까지 차지하도록 필드를 설정할 수 있습니다.       |
 
 ## <a name="see-also"></a>참조
 [모델 기반 양식 디자이너 개요](form-designer-overview.md)  
-[양식 디자이너를 사용하여 양식 만들기 또는 편집](create-and-edit-forms.md)  
-[양식 디자이너를 사용하여 양식에 필드 추가, 이동 또는 삭제](add-move-or-delete-fields-on-form.md)  
-[양식 디자이너를 사용하여 양식에 섹션 추가, 이동 또는 삭제](add-move-or-delete-sections-on-form.md)  
-[양식 디자이너를 사용하여 양식에 탭 추가, 이동 또는 삭제](add-move-or-delete-tabs-on-form.md)  
+[양식 디자이너를 사용하여 양식 만들기, 편집 또는 구성](create-and-edit-forms.md)  
+[양식의 필드 추가, 구성, 이동 또는 삭제](add-move-or-delete-fields-on-form.md)  
+[양식의 구성 요소 추가, 구성, 이동 또는 삭제](add-move-configure-or-delete-components-on-form.md)  
+[양식의 섹션 추가, 구성, 이동 또는 삭제](add-move-or-delete-sections-on-form.md)  
+[양식의 탭 추가, 구성, 이동 또는 삭제](add-move-or-delete-tabs-on-form.md)  
 [양식 디자이너에서 머리글 속성 구성](form-designer-header-properties.md)  
+[양식에 하위 표 구성 요소 추가 또는 구성](form-designer-add-configure-subgrid.md)  
+[양식에 빠른 보기 구성 요소 추가 또는 구성](form-designer-add-configure-quickview.md)  
 [양식 디자이너에서 트리 보기 사용](using-tree-view-on-form.md)  
-[필드 만들기 및 편집](../common-data-service/create-edit-field-portal.md)
+[필드 만들기 및 편집](../common-data-service/create-edit-field-portal.md)  

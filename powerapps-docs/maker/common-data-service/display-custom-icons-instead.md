@@ -1,5 +1,5 @@
 ---
-title: PowerApps를 사용하여 목록 보기에서 값과 함께 사용자 지정 아이콘 표시 | MicrosoftDocs
+title: PowerApps의 목록 보기에서 값과 함께 사용자 지정 아이콘 표시 | MicrosoftDocs
 description: 보기에 사용자 지정 아이콘 그래픽을 표시하는 방법 알아보기
 ms.custom: ''
 ms.date: 02/14/2019
@@ -94,7 +94,7 @@ search.app:
 <a name="SampleJavascript"></a>   
 
 ### <a name="sample-javascript-function"></a>JavaScript 함수 예제  
- 사용자 지정 아이콘 및 도구 설명을 표시하기 위한 JavaScript 함수는 layoutxml에서 지정된 전체 행 개체 및 사용자의 로캘 ID(LCID) 호출의 두 개의 인수를 필요로 합니다. LCID 매개 변수를 사용하면 여러 언어의 도구 설명 텍스트를 지정할 수 있습니다. 환경에서 지원되는 언어에 대한 자세한 내용은 [언어 활성화](/dynamics365/customer-engagement/admin/enable-languages) 및 [Dynamics 365 for Customer Engagement용 언어 팩 설치 또는 업그레이드](/dynamics365/customer-engagement/on-premises/install-or-upgrade-language-packs)를 참조하십시오. 코드에서 사용할 수 있는 로캘 ID(LCID) 값 목록은 [Microsoft에서 할당한 로캘 ID](https://go.microsoft.com/fwlink/?linkid=829588)를 참조하십시오.
+ 사용자 지정 아이콘 및 도구 설명을 표시하기 위한 JavaScript 함수는 layoutxml에서 지정된 전체 행 개체 및 사용자의 로캘 ID(LCID) 호출의 두 개의 인수를 필요로 합니다. LCID 매개 변수를 사용하면 여러 언어의 도구 설명 텍스트를 지정할 수 있습니다. 환경에서 지원되는 언어에 대한 자세한 내용은 [언어 활성화](/dynamics365/customer-engagement/admin/enable-languages) 및 [언어 팩 설치 또는 업그레이드](/dynamics365/customer-engagement/on-premises/install-or-upgrade-language-packs)를 참조하십시오. 코드에서 사용할 수 있는 로캘 ID(LCID) 값 목록은 [Microsoft에서 할당한 로캘 ID](https://go.microsoft.com/fwlink/?linkid=829588)를 참조하십시오.
 
   
  제한적인 미리 정의된 옵션을 가진 속성의 옵션 집합 유형에 대한 사용자 지정 아이콘을 추가하는 경우 지역화 문제를 방지하려면 레이블 대신 옵션의 정수 값을 사용해야 합니다.  
@@ -102,7 +102,7 @@ search.app:
  다음 샘플 코드는 opportunityratingcode(등급) 특성의 다음 세 값(1: 관심 높음, 2: 관심 있음, 3: 관심 낮음) 중 하나를 기준으로 아이콘 및 도구 설명을 표시합니다. 샘플 코드에서 지역화된 도구 설명 텍스트를 표시하는 방법도 보여줍니다. 이 샘플에서 작업하려면 new_Hot, new_Warm 및 new_Cold과 같은 이름의 16x16 이미지를 사용하여 세 개의 이미지 웹 리소스를 만들어야 합니다.  
 
 > [!IMPORTANT]
-> 이 샘플에는 Dynamics 365 for Customer Engagement 앱에서 사용할 수 있는 영업 기회 엔터티가 필요합니다.
+> 이 샘플에는 Dynamics 365 Sales 앱에서 사용할 수 있는 영업 기회 엔터티가 필요합니다.
   
 ```javascript
 function displayIconTooltip(rowData, userLCID) {      

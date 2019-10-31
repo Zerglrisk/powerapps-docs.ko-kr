@@ -1,7 +1,6 @@
 ---
-title: PowerApps에서 모델 기반 앱 양식 편집기 사용자 인터페이스 개요 | MicrosoftDocs
+title: PowerApps용 모델 기반 앱 양식 편집기 사용자 인터페이스 개요 | MicrosoftDocs
 description: PowerApps에서 양식을 편집하는 양식 편집기 사용자 인터페이스 알아보기
-keywords: 양식; 메인 양식; 통합 인터페이스 앱; Dynamics 365 for customer engagement
 author: Mattp123
 applies_to:
   - Dynamics 365 (online)
@@ -75,7 +74,7 @@ search.app:
 - **옵션** 기본 디스플레이 설정을 변경하여 기본 솔루션 속성을 개인 설정하고 전자 메일 템플릿을 관리합니다.
     - 일반
     - 동기화
-    - 활동 
+    - 활동
     - 형식
     - 전자 메일 템플릿
     - 전자 메일 서명
@@ -137,8 +136,8 @@ search.app:
 ||**IFRAME**|IFRAME을 양식에 추가하여 양식 안에 다른 웹 사이트의 콘텐츠를 통합할 수 있습니다.| 
 ||**타임라인**|폼에 타임 라인 컨트롤을 삽입합니다. 이 컨트롤은 양식의 엔터티와 관련된 활동의 타임라인을 보여줍니다.|  
 ||**탐색 링크**|이 옵션을 사용하면 양식 탐색에 링크를 삽입할 수 있습니다.|  
-||**타이머**|타이머 컨트롤을 엔터티 양식에 삽입하여 SLA에 대한 시간을 추적 추가 정보: [타이머 컨트롤 추가](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/add-timer-control-case-form-track-time-against-sla)|
-||**참조 자료 검색**|참조 문서를 검색하는 데 사용할 수 있는 검색 컨트롤을 삽입합니다. 추가 정보: [참조 자료 검색 컨트롤](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customer-service/add-knowledge-base-search-control-forms).|  
+||**타이머**|타이머 컨트롤을 엔터티 양식에 삽입하여 SLA에 대한 시간을 추적 추가 정보: [타이머 컨트롤 추가](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/add-timer-control-case-form-track-time-against-sla)|
+||**참조 자료 검색**|참조 문서를 검색하는 데 사용할 수 있는 검색 컨트롤을 삽입합니다. 추가 정보: [참조 자료 검색 컨트롤](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/add-knowledge-base-search-control-forms).|  
 ||**관계 도우미**|이 옵션을 사용하여, 양식에 관계 도우미 컨트롤을 삽입할 수 있습니다.|
 
 >[!Note] 

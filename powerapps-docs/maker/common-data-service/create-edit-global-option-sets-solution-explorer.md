@@ -12,7 +12,8 @@ applies_to:
   - Dynamics 365 Version 9.x
   - PowerApps
 ms.author: matp
-manager: brycho
+manager: kvivek
+author: Mattp123
 search.audienceType:
   - maker
 search.app:
@@ -23,8 +24,8 @@ search.app:
 
 솔루션 탐색기를 통해 Common Data Service의 전역 옵션 집합을 만들고 편집할 수 있습니다.
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능합니다. <br />추가 정보: 
-- [Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)
+[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
+- [Common Data Service용 전역 옵션 집합 만들기 또는 편집](create-edit-global-option-sets.md)
 - [옵션 집합 만들기](custom-picklists.md)
 
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
@@ -81,7 +82,7 @@ search.app:
   
 ### <a name="see-also"></a>참조
  
-[Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)<br />
+[Common Data Service용 전역 옵션 집합 만들기 또는 편집](create-edit-global-option-sets.md)<br />
 [옵션 집합 만들기](custom-picklists.md)<br />
 [필드 만들기 및 편집](create-edit-fields.md)<br />
 [개발자 설명서: 전역 옵션 집합 사용자 지정](/dynamics365/customer-engagement/developer/org-service/customize-global-option-sets)

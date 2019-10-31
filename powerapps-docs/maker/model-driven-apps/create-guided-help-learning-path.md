@@ -1,12 +1,10 @@
 ---
-title: 고객을 위해 직접 안내 도우미(학습 경로) 만들기(Dynamics 365 for Customer Engagement 앱) | MicrosoftDocs
+title: 나만의 안내 도움말 만들기(학습 경로)(모델 중심 앱) | MicrosoftDocs
 description: ''
 keywords: null
 ms.date: 04/30/2019
-ms.service: dynamics-365
+ms.service: powerapps
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 8ee3c432-5f76-4086-b9cc-6cd467ae056b
 author: Mattp123
 ms.author: matp
@@ -15,7 +13,7 @@ topic-status: Drafting
 search.audienceType:
   - customizer
 search.app:
-  - D365CE
+  - PowerApps
 ---
 
 # <a name="create-guided-help-learning-path-for-your-app"></a>앱을 위해 안내 도우미(학습 경로) 만들기
@@ -36,7 +34,7 @@ search.app:
 
  학습 경로 콘텐츠를 만들려면 다음이 필요합니다.  
 
-- PowerApps 또는 [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)] 사용 중입니다.  
+- PowerApps 또는 [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]을 사용 중입니다.  
 
 - 학습 경로를 사용하도록 설정했어야 합니다. 이 설정은 기본적으로 켜져 있지만 꺼져 있을 수도 있습니다.  
 
@@ -56,7 +54,7 @@ search.app:
 ## <a name="turn-on-learning-path-for-your-organization"></a>조직에 대한 학습 경로 사용하기  
  학습 경로는 조직에 대해 켜거나 끌 수 있는 옵션 기능입니다. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 포함된 학습 경로 콘텐츠를 표시하거나 사용자를 위해 직접 학습 경로 콘텐츠를 만들 수 있습니다.  
 
-1. 관리자 계정으로 [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
+1. 관리자 계정으로 [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
 
 2. **설정**으로 이동한 다음 **시스템** 아래에 있는 **관리**를 선택합니다. 추가 정보: [설정](/powerapps/maker/model-driven-apps/advanced-navigation#settings)
 
@@ -100,10 +98,11 @@ search.app:
  학습 경로 콘텐츠를 게시할 때 게시 환경을 사용하여 콘텐츠를 게시할 테넌트와 관련된 조직을 제어할 수 있습니다. 여러 조직에 다른 콘텐츠를 게시하려면 게시 환경을 여러 개 만들고 각 조직에 하나 이상 추가합니다.  
 
 <a name="SecurityRoles"></a>   
-## <a name="learning-path-and-dynamics-365-for-customer-engagement-apps-security-roles"></a>학습 경로 및 Dynamics 365 for Customer Engagement 앱 보안 역할  
- [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]는 보안 역할을 사용하여 사용자가 도움말 단추를 선택하거나, 페이지로 이동하거나, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 정의된 동작을 수행할 때 표시되는 학습 경로를 결정합니다.  
+## <a name="learning-path-and-common-data-service-security-roles"></a>학습 경로 및 Common Data Service 보안 역할 
+ 
+ Common Data Service는 보안 역할을 사용하여 사용자가 도움말 단추를 선택하거나, 페이지로 이동하거나, Common Data Service에 정의된 동작을 수행할 때 표시되는 학습 경로를 결정합니다.  
 
- 학습 경로에 사용되는 역할은 보안 및 데이터 액세스를 위한 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 조직에 사용된 역할과 동일하나, [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 보안 역할 일부 또는 전부에 대한 학습 경로 콘텐츠를 만들 수 있습니다.  일반적으로 학습 경로 디자이너의 보안 역할이 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 인스턴스의 보안 역할과 일치해야 할 것입니다. 그러나 디자이너에서 일부 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 보안 역할을 숨겨 디자이너의 사용자 인터페이스를 단순화할 수 있습니다. 나중에 학습 경로에서 삭제한 보안 역할을 사용하도록 설정하면 학습 경로 및 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]의 역할을 동기화할 수 있습니다.  
+ 학습 경로에 사용되는 역할은 보안 및 데이터 액세스를 위한 Common Data Service 조직에 사용된 역할과 동일하나, Common Data Service 보안 역할 일부 또는 전부에 대한 학습 경로 콘텐츠를 만들 수 있습니다.  일반적으로 학습 경로 디자이너의 보안 역할이 Common Data Service 환경의 보안 역할과 일치해야 할 것입니다. 그러나 디자이너에서 일부 Common Data Service 보안 역할을 숨겨 디자이너의 사용자 인터페이스를 단순화할 수 있습니다. 나중에 학습 경로에서 삭제한 보안 역할을 사용하도록 설정하면 학습 경로 및 Common Data Service의 역할을 동기화할 수 있습니다.  
 
  조직에 여러 사업부가 있다면 보안 역할은 상위/하위 관계를 가질 수 있습니다. 루트 비즈니스 단위의 보안 역할만 동기화됩니다.  
 
@@ -115,7 +114,7 @@ search.app:
 
  학습 경로에 포함된 각 역할은 숫자 값을 갖습니다. 목록에서 첫 번째 역할의 우선 순위가 가장 높으며 아래의 역할은 우선 순위가 더 낮습니다. 사용자에게 학습 경로 콘텐츠 표시를 트리거하는 역할이 할당되면 사용자에게 콘텐츠와 연관되지 않은 낮은 우선 순위의 역할이 할당되었더라도 콘텐츠가 표시됩니다. 예를 들어 사용자가 우선 순위 1 및 우선 순위 20의 역할을 할당 받은 경우 우선 순위 1의 역할에 대해 정의된 학습 경로 콘텐츠만 표시됩니다.  
 
- 동일한 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 페이지나 화면에서 여러 역할에 대한 다른 콘텐츠를 만들면 사용자는 우선 순위가 높은 역할과 관련된 콘텐츠를 볼 수 있습니다.  
+ 동일한 모델 기반 앱 페이지나 화면에서 여러 역할에 대한 다른 콘텐츠를 만들면 사용자는 우선 순위가 높은 역할과 관련된 콘텐츠를 볼 수 있습니다.  
 
 <a name="ManageRoles"></a>   
 ### <a name="manage-security-roles-and-precedence"></a>보안 역할 및 우선 순위 관리  
@@ -124,13 +123,13 @@ search.app:
 <a name="ConfigureRoles"></a>   
 #### <a name="configure-security-roles"></a>보안 역할 구성  
 
-1. 학습 경로 작성 권한이 있는 거래처의 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
+1. 학습 경로 작성 권한이 있는 거래처의 PowerApps에 로그인합니다.  
 
 2. **콘텐츠 라이브러리**를 엽니다.  
 
 3. 화면 위쪽에서 **구성**을 선택합니다.  
 
-4. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 보안 역할과 보안 역할을 동기화하려면 **역할 동기화**를 선택합니다.  
+4. Common Data Service 보안 역할과 보안 역할을 동기화하려면 **역할 동기화**를 선택합니다.  
 
 5. 학습 경로에서 사용하는 역할에 대한 우선 순위를 설정하려면 위쪽 또는 아래쪽 화살표를 사용하여 목록에서 역할을 위나 아래로 이동합니다.  
 
@@ -154,7 +153,7 @@ search.app:
 
 1. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
 
-2. 브라우저에 표시된 URL에서 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 조직에 대한 서버 이름을 복사합니다(예: *<https://contososales.crm.dynamics.com/>*).  
+2. 브라우저에 표시된 URL에서 Common Data Service 조직에 대한 서버 이름을 복사합니다(예: *<https://contososales.crm.dynamics.com/>*).  
 
     .com 다음에 슬래시(/)를 포함해야 합니다.  
 
@@ -196,7 +195,7 @@ search.app:
 
 -   사이트 맵의 **교육** 타일을 선택한 다음 **콘텐츠 라이브러리**를 선택합니다.  
 
-     ![Dynamics 365 for Customer Engagement 사이트맵의 콘텐츠 라이브러리 아이콘](media/lp-sitemap-content-library.png "Dynamics 365 for Customer Engagement 사이트맵의 콘텐츠 라이브러리 아이콘")  
+     ![모델 중심 앱 사이트 맵의 콘텐츠 라이브러리 아이콘](media/lp-sitemap-content-library.png "모델 중심 앱 사이트 맵의 콘텐츠 라이브러리 아이콘")  
 
 **모바일 앱 인터페이스 시뮬레이터에서 콘텐츠 라이브러리를 열려면 다음과 같이 하십시오.**  
 
@@ -278,7 +277,7 @@ search.app:
    |          **폼 팩터**           |                                                                                                                                                                       표시되는 폼 팩터는 콘텐츠를 만드는 인터페이스에 따라 달라집니다. 웹 클라이언트 인터페이스를 사용하는 경우 **데스크톱** 및 **태블릿**이 표시됩니다. 웹 클라이언트에 대해 선택하면 **태블릿**은 모바일 앱이 아니라 태블릿 장치에서 실행되는 브라우저를 가리킵니다.<br /><br /> 모바일 앱 인터페이스에 대한 컨트롤을 만드는 경우 **태블릿**이 표시됩니다. 이는 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 모바일 앱을 실행하는 장치를 가리키지만 태블릿에서만 지원됩니다.<br /><br /> 대화식 서비스 허브를 사용하는 경우 **데스크톱**이 표시됩니다. **중요:** 학습 경로는 [!INCLUDE[pn_crm_shortest](../../includes/pn-dyn-365-phones.md)]에서 지원되지 않습니다.                                                                                                                                                                        |
    |     **다음에 단계별 작업 열기**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                              **페이지 로드** 시 또는 **링크가 클릭됨** 시 단계별 작업을 표시할지 여부를 선택합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
    |        **수명 주기 스테이지**         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        이 설정은 내부 전용입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-   |   **Dynamics 365 for Customer Engagement 앱 보안 역할**   |                                                                                                                                                                                                                                                                                                                                                                                                  단계별 작업을 표시하고자 하는 보안 역할을 선택합니다. 원하는 수만큼 역할을 선택할 수 있습니다. 이 항목의 앞부분에서 설명한 것처럼 사용자에게 둘 이상의 역할이 할당된 경우 단계별 작업은 우선 순위가 높은 역할에 대해서만 표시됩니다.                                                                                                                                                                                                                                                                                                                                                                                                   |
+   |   **Common Data Service 보안 역할**   |                                                                                                                                                                                                                                                                                                                                                                                                  단계별 작업을 표시하고자 하는 보안 역할을 선택합니다. 원하는 수만큼 역할을 선택할 수 있습니다. 이 항목의 앞부분에서 설명한 것처럼 사용자에게 둘 이상의 역할이 할당된 경우 단계별 작업은 우선 순위가 높은 역할에 대해서만 표시됩니다.                                                                                                                                                                                                                                                                                                                                                                                                   |
    |             **상태**             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                단계별 작업의 상태가 표시됩니다. 상태는 게시하기 전까지 **초안**입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
    |        **고급 옵션**        | 단계별 작업을 저장한 후 이 옵션을 사용할 수 있습니다. **고급 옵션** 아래에서 다음 설정을 사용할 수 있습니다.<ul><li>**오류 단계별 작업으로 설정**: 다른 단계별 작업 관련 오류가 발생할 때만 이 단계별 작업을 표시하려면 이 확인란을 선택합니다.</li><li>**지원되는 언어**: 이 단계별 작업의 언어와 가져오고 내보낼 언어를 선택합니다.</li><li>**작성자**: 이 단계별 작업에 대해 정의된 작성자를 변경합니다.</li><li>**태그**: 이 단계별 작업에 적용된 태그를 추가 또는 제거합니다. 태그를 사용하여 쉽게 콘텐츠 라이브러리에서 콘텐츠를 검색하거나 콘텐츠를 분류할 수 있습니다.</li></ul><br />**정보 게시** 아래에서 다음을 설정할 수도 있습니다.<ul><li>**앱 버전**: 콘텐츠와 관련된 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 버전을 설정합니다.</li><li>**버전**: 만드는 콘텐츠의 버전을 설정합니다.</li><li>**작성 그룹**: 만든 콘텐츠에 대한 작성 그룹을 설정합니다.</li><li>**게시 그룹**: 이 콘텐츠에 대한 게시 그룹을 선택합니다.</li></ul> |
 
@@ -375,7 +374,7 @@ search.app:
    |         **폼 팩터**         |                                                  표시되는 폼 팩터는 콘텐츠를 만드는 인터페이스에 따라 달라집니다. 웹 클라이언트 인터페이스를 사용하는 경우 **데스크톱** 및 **태블릿**이 표시됩니다. 웹 클라이언트에 대해 선택하면 **태블릿**은 모바일 앱이 아니라 태블릿 장치에서 실행되는 브라우저를 가리킵니다.<br /><br /> 모바일 앱 인터페이스에 대한 컨트롤을 만드는 경우 **태블릿**이 표시됩니다. 이는 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] 모바일 앱을 실행하는 장치를 가리키지만 태블릿에서만 지원됩니다.<br /><br /> 대화식 서비스 허브를 사용하는 경우 **데스크톱**이 표시됩니다.                                                  |
    |     **다음에 사이드바 열기**      |                                                                                                                                                                                                                                                                                               페이지 로드 시 또는 사용자가 페이지의 링크 또는 단추를 선택할 때 사이드바를 표시할지 여부를 선택합니다.                                                                                                                                                                                                                                                                                               |
    |       **수명 주기 스테이지**       |                                                                                                                                                                                                                                                                                                                                              이는 내부 전용입니다.                                                                                                                                                                                                                                                                                                                                               |
-   | **Dynamics 365 for Customer Engagement 앱 보안 역할** |                                                                                                                                                                                                                  사용자에게 사이드바를 표시하고자 하는 역할을 하나 또는 다수 선택합니다. 원하는 수만큼 역할을 선택할 수 있습니다. 이 항목의 앞부분에서 설명한 것처럼 사용자에게 둘 이상의 역할이 할당된 경우 사이드바는 우선 순위가 높은 역할에 대해서만 표시됩니다.                                                                                                                                                                                                                   |
+   | **Common Data Service 보안 역할** |                                                                                                                                                                                                                  사용자에게 사이드바를 표시하고자 하는 역할을 하나 또는 다수 선택합니다. 원하는 수만큼 역할을 선택할 수 있습니다. 이 항목의 앞부분에서 설명한 것처럼 사용자에게 둘 이상의 역할이 할당된 경우 사이드바는 우선 순위가 높은 역할에 대해서만 표시됩니다.                                                                                                                                                                                                                   |
    |          **템플릿**           |                                                                                                                                                                                                                                                                                       사이드바에 사용할 템플릿을 **한 개의 열** 또는 **두 개의 열** 중에서 선택합니다. 기본 템플릿은 단일 열 사이드바입니다.                                                                                                                                                                                                                                                                                        |
    |           **상태**            |                                                                                                                                                                                                                                                                                                              사이드바의 상태를 나타냅니다. 상태는 사이드바를 게시하기 전까지 **초안**입니다.                                                                                                                                                                                                                                                                                                              |
    |      **고급 옵션**       |                                                                         이 옵션은 사이드바를 저장해야 사용할 수 있습니다. 다음의 **고급 옵션** 설정을 사용할 수 있습니다.<ul><li>**사이드바 머리글 사용 안 함**</li><li>**사이드바 제목 사용 안 함**</li><li>**사이드바 바닥글 사용 안 함**</li><li>**작성자**: 이 사이드바에 대해 정의된 작성자를 변경합니다.</li><li>**태그**: 이 사이드바에 적용된 태그를 추가 또는 제거합니다. 태그를 사용하여 쉽게 콘텐츠 라이브러리에서 콘텐츠를 검색하거나 콘텐츠를 분류할 수 있습니다.</li><li>**지원되는 언어**: 이 사이드바의 언어와 가져오고 내보낼 언어를 선택합니다.</li></ul>                                                                         |

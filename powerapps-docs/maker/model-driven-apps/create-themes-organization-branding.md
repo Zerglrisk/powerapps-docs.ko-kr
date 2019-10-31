@@ -1,5 +1,5 @@
 ---
-title: 조직의 브랜드와 일치하도록 색 구성표를 변경하거나 로고를 추가  | MicrosoftDocs
+title: 조직의 브랜드와 일치하도록 색 구성표를 변경하거나 로고 추가 | MicrosoftDocs
 ms.custom: ''
 ms.date: 02/19/2019
 ms.reviewer: ''
@@ -72,7 +72,7 @@ search.app:
 
 2.  **모델 기반**(왼쪽 아래). 
 
-3.  ![설정 아이콘](../model-driven-apps/media/powerapps-gear.png)(오른쪽 상단) > **고급 사용자 정의**를 선택합니다. 
+3.  ![설정 아이콘](../model-driven-apps/media/powerapps-gear.png)(오른쪽 상단) > **고급 사용자 지정**를 선택합니다. 
 
 4. **테마**에서 **모든 테마**를 선택합니다. 
 
@@ -116,7 +116,7 @@ search.app:
 ### <a name="theme-contrast"></a>테마 대비  
  다음과 같은 방법을 사용하여 대비 색상을 제공하는 것이 좋습니다.  
   
--   대비 색상을 신중하게 선택합니다. Common Data Service 기본 제공 테마에는 최적의 사용을 위해 올바른 대시 비율로 되어 있습니다. 새로운 테마에 유사한 비율을 사용합니다.  
+-   대비 색상을 신중하게 선택합니다. Common Data Service 기본 제공 테마에는 최적의 사용을 위해 올바른 대비 비율로 되어 있습니다. 새로운 테마에 유사한 비율을 사용합니다.  
   
 -   고대비 모드의 경우 기본 색 설정을 사용합니다.  
   
@@ -141,7 +141,7 @@ search.app:
   
 -   사이트 맵 노드의 색은 사용자 지정할 수 없습니다.  
   
-## <a name="see-also"></a>참고 항목  
+## <a name="see-also"></a>참조  
          
- [비디오: Dynamics 365 Customer Engagement의 테마](http://go.microsoft.com/fwlink/p/?LinkId=529568) [조직 테마 쿼리 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/query-and-edit-an-organization-theme)
+ [비디오: 테마](http://go.microsoft.com/fwlink/p/?LinkId=529568) [조직 테마 쿼리 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/query-and-edit-an-organization-theme)
 

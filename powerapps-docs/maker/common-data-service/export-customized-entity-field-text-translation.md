@@ -1,10 +1,10 @@
 ---
-title: PowerApps로 변환할 사용자 지정 엔터티 및 필드 텍스트 내보내기 | MicrosoftDocs
+title: PowerApps에서 변환을 위해 사용자 지정 엔터티 및 필드 텍스트 내보내기 | MicrosoftDocs
 description: 변환을 위해 엔터티 및 필드 텍스트를 내보내는 방법 알아보기
 ms.custom: ''
 ms.date: 06/19/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -36,7 +36,7 @@ search.app:
 
 ## <a name="community-tools"></a>커뮤니티 도구
 
-[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)는 XrmToolBox 커뮤니티가 Dynamics 365 Customer Engagement를 위해 개발한 도구입니다. Easy Translator를 사용하여 문맥 정보로 번역을 내보내고 가져옵니다. 
+[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)는 XrmToolBox 커뮤니티가 PowerApps용으로 개발한 도구입니다. Easy Translator를 사용하여 문맥 정보로 번역을 내보내고 가져옵니다. 
 
 > [!NOTE]
 > 커뮤니티 도구는 Microsoft에서 지원되지 않습니다. 도구에 대해 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)

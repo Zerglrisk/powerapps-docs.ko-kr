@@ -25,7 +25,7 @@ search.app:
 ---
 # <a name="approaching-a-user-experience-and-unified-interface-transition"></a>사용자 경험 및 통합 인터페이스 전환 접근
 
-이 비즈니스 중심 백서에서는 PowerApps 플랫폼의 모델 중심 응용 프로그램에서 사용자 경험 변화에 접근할 때 고려해야 할 계획, 거버넌스 및 관리 원칙을 간략하게 설명합니다. 이 백서는 특히 Dynamics 365 for Sales 및 Dynamics 365 for Service 같은 Dynamics 365 for Customer Engagement 응용 프로그램에 중점을 두고 통합 인터페이스를 채택했지만 모든 사용자 환경 업데이트에 많은 주제가 적용됩니다.
+이 비즈니스 중심 백서에서는 PowerApps 플랫폼의 모델 중심 응용 프로그램에서 사용자 경험 변화에 접근할 때 고려해야 할 계획, 거버넌스 및 관리 원칙을 간략하게 설명합니다. 이 백서는 특히 Dynamics 365 Sales 및 Dynamics 365 Customer Service 같은 Dynamics 365 for 애플리케이션에 중점을 두고 통합 인터페이스를 채택했지만 모든 사용자 환경 업데이트에 많은 주제가 적용됩니다.
 
 요약하면 이 가이드는 다음과 같은 도움을 줍니다.
 - 통합 인터페이스 배치.

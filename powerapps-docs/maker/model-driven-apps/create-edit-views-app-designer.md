@@ -26,7 +26,7 @@ search.app:
   - D365CE
 ---
 
-# <a name="create-and-edit-public-or-system-model-driven-app-views"></a>공용 또는 시스템 모델 기반 앱 보기 만들기 및 편집 
+# <a name="create-and-edit-public-or-system-model-driven-app-views"></a>공용 또는 시스템 모델 기반 앱 보기 만들기 및 편집
 
 이 항목에서는 공용 보기 만들기, 앱에 기존 보기 추가, 보기의 열, 필터 및 정렬 순서 변경과 같은 보기 작업에 필요한 몇 가지 작업을 수행합니다.
 
@@ -44,7 +44,7 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 추가 정보: [보기 이해](create-edit-views.md)
 
 ## <a name="create-a-public-view-in-powerapps"></a>PowerApps에서 공용 보기 만들기
-앱 메이커로서 PowerApps를 사용하여 공용 보기를 만들고 편집할 수 있습니다.
+앱 제조업체는 PowerApps를 사용하여 공용 보기를 만들고 편집할 수 있습니다.
 1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
@@ -79,7 +79,7 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 ### <a name="open-and-add-a-view-in-the-app-designer"></a>앱 디자이너에서 보기를 열고 추가합니다.
 
 다음 단계에서는 앱 디자이너에서 보기를 열고 추가하는 방법에 대해 설명합니다.
-1. 왼쪽 탐색 창의 PowerApps에서 **앱**을 선택하고 원하는 앱 옆의 **...** 를 선택한 다음 **편집**을 선택합니다. 
+1. PowerApps의 왼쪽 탐색 창에서 **앱**을 선택하고 원하는 앱 옆의 **...** 를 선택한 다음 **편집**을 선택합니다. 
 
 2. 앱 디자이너 **엔터티 보기** 섹션에서 **보기**를 선택합니다.
 
@@ -176,9 +176,9 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 
 
 ## <a name="community-tools"></a>커뮤니티 도구
-**보기 레이아웃 복제기** 및 **보기 디자이너**는 XrmToolBox 커뮤니티가 Dynamics 365 Customer Engagement를 위해 개발한 도구입니다.
+**레이아웃 복제기 보기**및 **디자이너 보기**는 XrmToolBox 커뮤니티가 PowerApps용으로 개발한 도구입니다.
 
-추가 정보: [개발자 도구 ](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools).
+추가 정보: [개발자 도구 ](/powerapps/developer/common-data-service/developer-tools).
 
 > [!NOTE]
 > 이러한 도구는 XrmToolBox에서 제공하며 Microsoft에서 지원하지 않습니다. 도구와 관련된 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com/) 

@@ -6,10 +6,6 @@ ms.date: 05/19/2019
 ms.service: powerapps
 ms.custom: null
 ms.topic: article
-applies_to:
-  - Dynamics 365 for Customer Engagement (online)
-  - Dynamics 365 for Customer Engagement Version 9.x
-  - powerapps
 ms.assetid: null
 author: Mattp123
 ms.author: matp
@@ -39,7 +35,7 @@ search.app:
      > ![](media/solution-history-sitemap.png "솔루션 기록 영역")
 
      > [!NOTE]
-     > PowerApps 통합 인터페이스 모델 기반 응용 프로그램에서 **설정** 영역으로 이동하려면 응용 프로그램 도구 모음에서 **설정** ![설정](../model-driven-apps/media/powerapps-gear.png)을 선택한 다음 **고급 설정**을 클릭합니다. 
+     > PowerApps 통합 인터페이스 모델 기반 앱에서 **설정** 영역으로 이동하려면 앱 도구 모음에서 **설정** ![설정](../model-driven-apps/media/powerapps-gear.png)을 선택한 다음 **고급 설정**을 클릭합니다. 
 
 2. 기본적으로 **사용자 지정 솔루션 기록** 보기가 표시됩니다. 다음 보기는 **솔루션 기록** 영역에서 사용할 수 있습니다. 
 - **모든 솔루션 기록**. 내부 시스템 및 사용자 지정 솔루션 모두에 대한 솔루션 기록을 표시합니다. 

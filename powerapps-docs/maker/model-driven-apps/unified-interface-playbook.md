@@ -2,7 +2,7 @@
 title: 통합 인터페이스 플레이북 | MicrosoftDocs
 description: 기존 웹 클라이언트에서 통합 인터페이스로 전환을 계획하고 실행하는 방법에 대해 알아보십시오.
 ms.custom: ''
-ms.date: 07/24/2019
+ms.date: 08/29/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -40,4 +40,6 @@ search.app:
 |[통합 인터페이스 플레이북 개요](http://download.microsoft.com/download/A/F/3/AF3D45A7-4F38-41BE-8956-1DF7A4A5AFDB/dynamics365unifiedinterfaceplaybook.pdf)      |   PDF      |
 |[1장: 시작](http://download.microsoft.com/download/A/F/3/AF3D45A7-4F38-41BE-8956-1DF7A4A5AFDB/playbook-ch1-initiate.pptx)     |  PowerPoint       |
 |[2장: 탐색](http://download.microsoft.com/download/A/F/3/AF3D45A7-4F38-41BE-8956-1DF7A4A5AFDB/playbook-ch-2-explore.pptx)     |  PowerPoint       |
+| [3장: 전환](https://download.microsoft.com/download/A/F/3/AF3D45A7-4F38-41BE-8956-1DF7A4A5AFDB/playbook-ch3-transition.pptx)|  PowerPoint     |
+| [4장: 최적화](https://download.microsoft.com/download/A/F/3/AF3D45A7-4F38-41BE-8956-1DF7A4A5AFDB/playbook-ch4-optimize.pptx)  | PowerPoint  |
 

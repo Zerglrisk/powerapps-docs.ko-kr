@@ -1,28 +1,23 @@
 ---
-title: 포털에 액체 유형 사용 | MicrosoftDocs
-description: 포털에서 사용 가능한 액체 형식에 대해 알아봅니다.
+title: 포털에 대한 유동 유형 사용 | MicrosoftDocs
+description: 포털에서 사용 가능한 유동 유형에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: ''
-ms.date: 10/07/2019
+ms.custom: null
+ms.date: 08/30/2019
 ms.author: shjais
-ms.reviewer: ''
-ms.openlocfilehash: dd6da4788f6563c2026f57914c8156caedfadad3
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72974946"
+ms.reviewer: null
 ---
-# <a name="available-liquid-types"></a>사용 가능한 Liquid 유형
 
-액체 개체는 **문자열**, **숫자**, **부울**, **배열**, **사전**, **DateTime**또는 **Null**의 7 가지 기본 형식 중 하나를 반환할 수 있습니다. **할당** 또는 **캡처** 태그를 사용 하 여 액체 변수를 초기화할 수 있습니다.
+# <a name="available-liquid-types"></a>사용 가능한 유동 유형
+
+유동 개체는 **문자열**, **숫자**, **부울**, **배열**, **사전**, **날짜/시간**, 또는 **Null**의 7가지 기본 형식 중 하나를 반환할 수 있습니다. 유동 변수는 **할당** 또는 **캡처** 태그를 사용하여 초기화할 수 있습니다.
 
 ## <a name="string"></a>문자열
 
-문자열은 작은따옴표 또는 큰따옴표로 텍스트를 래핑하여 선언 됩니다.
+문자열은 텍스트를 단일 또는 이중 따옴표 안에 배치하여 선언합니다.
 
 ```
 {% assign string_a = Hello World! %}
@@ -30,7 +25,7 @@ ms.locfileid: "72974946"
 {% assign string_b = 'Single quotes work too.' %}
 ```
 
-Size 속성을 사용 하 여 문자열의 문자 수를 가져옵니다.
+크기 속성을 가진 문자열의 문자 수를 가져옵니다.
 
 ```
 {{ string_a.size }} <!-- Output: 12 -->
@@ -38,7 +33,7 @@ Size 속성을 사용 하 여 문자열의 문자 수를 가져옵니다.
 
 ## <a name="number"></a>번호
 
-숫자는 정수 또는 부동 소수점 일 수 있습니다.
+숫자는 정수 또는 부동 소수점일 수 있습니다.
 
 ```
 {% assign pi = 3.14 %}
@@ -50,7 +45,7 @@ This page has a long title.
 {% endif %}
 ```
 
-## <a name="boolean"></a>부울
+## <a name="boolean"></a>Boolean
 
 부울은 true 또는 false입니다.
 
@@ -66,9 +61,9 @@ This will be rendered, because x is true.
 {% endif %}
 ```
 
-## <a name="array"></a>배열과
+## <a name="array"></a>배열
 
-배열에는 모든 형식의 값 목록이 포함 됩니다. \[ \]를 사용 하 여 (0부터 시작) 인덱스를 사용 하 여 지정 된 항목에 액세스 하 고 **for 태그**를 사용 하 여 해당 항목을 반복 하 고 size 속성을 사용 하 여 배열의 항목 수를 가져올 수 있습니다.
+배열은 모든 형식의 값에 대한 목록을 담고 있습니다. \[ \]을(를) 사용하여 (0부터 시작하는) 색인으로 주어진 항목에 액세스하고, **for 태그**를 사용하여 항목들을 반복하고, 크기 속성을 사용하여 배열의 항목 수를 얻을 수 있습니다.
 
 ```
 {% for view in entitylist.views %}
@@ -86,9 +81,9 @@ This entity list has {{ entitylist.views.size }} views.
 {% endif %}
 ```
 
-## <a name="dictionary"></a>사전순
+## <a name="dictionary"></a>사전
 
-사전은 문자열 키로 액세스할 수 있는 값의 컬렉션을 포함 합니다. \[ \]를 사용 하 여 문자열 키로 지정 된 항목에 액세스 하 고 **for 태그**를 사용 하 여 해당 항목을 반복 하 고 size 속성을 사용 하 여 사전에 있는 항목 수를 가져올 수 있습니다.
+사전은 문자열 키를 사용하여 액세스할 수 있는 값 모음을 담고 있습니다. \[ \]을(를) 사용하여 문자열 키로 주어진 항목에 액세스하고, **for 태그**를 사용하여 항목들을 반복하고, 크기 속성을 사용하여 사전의 항목 수를 얻을 수 있습니다.
 
 ```
 {{ request.params[ID] }}
@@ -102,15 +97,15 @@ The request parameters collection contains some items.
 
 ## <a name="datetime"></a>DateTime
 
-DateTime 개체는 특정 날짜와 시간을 나타냅니다.
+날짜/시간 개체는 특정 날짜 및 시간을 나타냅니다.
 
 ```
 {{ page.modifiedon | date: 'f' }}
 ```
 
-## <a name="null"></a>N
+## <a name="null"></a>Null
 
-Null은 비어 있거나 존재 하지 않는 값을 나타냅니다. Null 값을 반환 하려고 시도 하는 모든 출력은 아무 것도 렌더링 하지 않습니다. 조건에서 false로 처리 됩니다.
+null은 비어 있거나 존재하지 않는 값을 나타냅니다. null 값에 대한 반환을 시도하면 어떤 출력도 렌더링되지 않습니다. 조건에서 false로 간주됩니다.
 
 ```
 {% if request.params[ID] %}
@@ -120,11 +115,11 @@ This will render if the ID request parameter is NOT null.
 {% endif %}
 ```
 
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참조
 
-[웹 템플릿을 사용 하 여 원본 콘텐츠 저장](store-content-web-templates.md)  
-[액체 연산자 이해](liquid-operators.md)  
-[Defined](liquid-conditional-operators.md)  
-[액체 개체](liquid-objects.md)  
-[액체 태그](liquid-tags.md)  
-[액체 필터](liquid-filters.md)  
+[웹 템플릿을 이용하여 소스 콘텐츠 저장](store-content-web-templates.md)  
+[유동 연산자의 이해](liquid-operators.md)  
+[조건부](liquid-conditional-operators.md)  
+[유동 개체](liquid-objects.md)  
+[유동 태그](liquid-tags.md)  
+[유동 필터](liquid-filters.md)  

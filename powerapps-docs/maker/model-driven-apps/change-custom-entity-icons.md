@@ -27,7 +27,7 @@ search.app:
 ---
 # <a name="change-model-driven-app-custom-entity-icons"></a>모델 기반 앱 사용자 지정 엔터티 아이콘 변경 
 
-사용자 지정 엔터티를 만들면 자동으로 기본 아이콘이 할당됩니다. 모든 사용자 지정 엔터티는 기본적으로 동일한 아이콘을 사용합니다. 사용자 정의 아이콘을 사용하여 사용자 지정 엔터티의 모양을 구분할 수 있습니다. 시스템 엔터티에 할당된 아이콘은 수정할 수 없습니다.  
+사용자 지정 엔터티를 만들면 자동으로 기본 아이콘이 할당됩니다. 모든 사용자 지정 엔터티는 기본적으로 동일한 아이콘을 사용합니다. 사용자 지정 아이콘을 사용하여 사용자 지정 엔터티의 모양을 구분할 수 있습니다. 시스템 엔터티에 할당된 아이콘은 수정할 수 없습니다.  
   
  각 사용자 지정 엔터티에 세 가지 유형의 엔터티 아이콘을 업로드할 수 있습니다. 
 
@@ -63,7 +63,7 @@ search.app:
   
 ## <a name="community-tools"></a>커뮤니티 도구
 
-**[Iconator](https://www.xrmtoolbox.com/plugins/MscrmTools.Iconator/)** 는 XrmToolBox 커뮤니티가 Dynamics 365 Customer Engagement를 위해 개발한 도구입니다. 커뮤니티 개발 도구에 대한 [Common Data Service에 대한 개발자 도구](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools) 항목을 참조하십시오.
+**[Iconator](https://www.xrmtoolbox.com/plugins/MscrmTools.Iconator/)** 는 XrmToolbox 커뮤니티가 PowerApps용으로 개발한 도구입니다. 커뮤니티 개발 도구에 대해서는 [Common Data Service용 개발자 도구](/powerapps/developer/common-data-service/developer-tools) 항목을 참조하십시오.
 
 > [!NOTE]
 > 커뮤니티 도구는 Microsoft의 제품이 아니며 커뮤니티 도구에 대해 지원을 확장하지 않습니다. 도구와 관련된 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)

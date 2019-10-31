@@ -1,28 +1,23 @@
 ---
-title: 포털에 대 한 제어 흐름 태그 사용 | MicrosoftDocs
-description: 포털에서 사용할 수 있는 제어 흐름 태그에 대해 알아봅니다.
+title: 포털에 대한 제어 흐름 태그 사용 | MicrosoftDocs
+description: 포털에서 사용 가능한 제어 흐름 태그에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: ''
-ms.date: 10/07/2019
+ms.custom: null
+ms.date: 08/30/2019
 ms.author: shjais
-ms.reviewer: ''
-ms.openlocfilehash: 77fcc7db0adf68cd6decbcc95e11d8e803761535
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72975107"
+ms.reviewer: null
 ---
-# <a name="control-flow-tags"></a>제어 흐름 태그
 
-제어 흐름 태그는 실행할 코드 블록과 지정 된 조건에 따라 렌더링 해야 하는 콘텐츠를 결정 합니다. 조건은 사용 가능한 [액체 연산자](liquid-operators.md)를 사용 하 여 작성 되거나 지정 된 [값의 참 또는 falsehood](liquid-conditional-operators.md)을 기준으로 작성 됩니다.  
+# <a name="control-flow-tags"></a>흐름 통제 태그
 
-## <a name="if"></a>때
+제어 흐름 태그는 주어진 조건에 따라 실행해야 할 코드의 블록과 렌더링할 콘텐츠를 결정합니다. 조건은 사용 가능한 [유동 연산자](liquid-operators.md)를 사용하여, 또는 단지 [주어진 값의 진실 또는 허위](liquid-conditional-operators.md)에 따라 구축됩니다.  
 
-지정 된 조건이 충족 되는 경우 코드 블록을 실행 합니다.
+## <a name="if"></a>if
+
+주어진 조건이 충족되면 코드 블록을 실행합니다.
 
 ```
 {% if user.fullname == 'Dave Bowman' %}
@@ -32,9 +27,9 @@ Hello, Dave.
 {% endif %}
 ```
 
-## <a name="unless"></a>하지 않는 한
+## <a name="unless"></a>unless
 
-If는 지정 된 조건이 충족**되지 않는** 경우 코드 블록을 실행 한다는 점을 제외 하 고는와 같습니다.
+if처럼, 주어진 조건이 충족되지 **않으면** 코드 블록을 실행하는 경우를 제외.
 
 ```
 {% unless page.title == 'Home' %}
@@ -46,7 +41,7 @@ This is not the Home page.
 
 ## <a name="elsifelse"></a>elsif/else
 
-블록에 조건이 추가 되 면이 고, 그렇지 않으면입니다.
+if 또는 unless 블록에 더 많은 조건을 추가합니다.
 
 ```
 {% if user.fullname == 'Dave Bowman' %}
@@ -66,7 +61,7 @@ Hello, stranger.
 
 ## <a name="casewhen"></a>case/when
 
-변수를 서로 다른 값과 비교 하 고 각 값에 대해 다른 코드 블록을 실행 하는 switch 문입니다.
+변수를 다른 값들과 비교하여 각 값에 대해 다른 블록의 코드를 실행시키는 전환 명령.
 
 ```
 {% case user.fullname %}
@@ -86,9 +81,9 @@ Hello, stranger.
 {% endcase %}
 ```
 
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참조
 
 [반복 태그](iteration-tags.md)<br>
 [변수 태그](variable-tags.md)<br>
 [템플릿 태그](template-tags.md)<br>
-[PowerApps common data service 엔터티 태그](portals-entity-tags.md)
+[PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md)

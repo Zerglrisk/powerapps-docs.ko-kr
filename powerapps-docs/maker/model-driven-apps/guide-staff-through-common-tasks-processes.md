@@ -45,7 +45,7 @@ search.app:
 
 ## <a name="flows"></a>흐름  
   
-Microsoft Flow 에는 여러 가지 유형의 프로세스가 있고, 각각은 다른 목적을 위해 설계되었습니다.  
+Microsoft Flow에는 여러 유형의 프로세스가 있고, 각각은 다른 목적을 위해 설계되었습니다.  
 
 -   자동 흐름 이벤트에 의해 트리거된 후 하나 이상의 작업을 자동으로 수행하는 흐름을 만듭니다. 추가 정보: [흐름 만들기](/flow/get-started-logic-flow)
     
@@ -55,7 +55,7 @@ Microsoft Flow 에는 여러 가지 유형의 프로세스가 있고, 각각은 
   
 -   비즈니스 프로세스 흐름  비즈니스 프로세스 흐름을 만들어 사용자들이 앱에서 작업할 때마다 데이터를 일관되게 입력하고 동일한 단계를 따르도록 합니다. 추가 정보: [비즈니스 프로세스 흐름 개요](/flow/business-process-flows-overview)
 
--   워크플로 및 작업. Dynamics 365 Customer Engagement 사용자 지정자는 Common Data Service의 클래식 프로세스, 즉 워크플로 및 작업에 익숙할 수 있습니다. 자세한 내용: [워크플로 프로세스 사용](/flow/workflow-processes) 및 [작업 개요](/flow/actions)
+-   워크플로 및 작업. Dynamics 365 사용자 지정자는 클래식 Common Data Service 프로세스, 즉 워크플로 및 작업에 익숙할 수 있습니다. 자세한 내용: [워크플로 프로세스 사용](/flow/workflow-processes) 및 [작업 개요](/flow/actions)
   
 ## <a name="next-step"></a>다음 단계
 
@@ -63,4 +63,4 @@ Microsoft Flow 에는 여러 가지 유형의 프로세스가 있고, 각각은 
 
 ### <a name="see-also"></a>참조
 
-[Common Data Service로 비즈니스 논리 적용](../common-data-service/cds-processes.md)
+[Common Data Service에 비즈니스 논리 적용](../common-data-service/cds-processes.md)

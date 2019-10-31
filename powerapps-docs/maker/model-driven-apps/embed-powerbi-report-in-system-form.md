@@ -140,7 +140,7 @@ XML의 `<sections>` 블록 내에 다음 코드 조각을 추가하여 시스템
    > [!div class="mx-imgBorder"] 
    > ![](media/embed-powerbi/embed-powerbi-report-in-system-form-auth-3.png "Embed-powerbi-report-in-system-form-auth-3")
 
-5. PowerApps 내에 표시되는 보고서 데이터의 보기는 Power BI에서와 동일하며 PowerApps 보안 역할 및 권한은 표시되는 데이터에 영향을 주지 않습니다. 따라서 데이터는 Power BI 데이터 집합의 작성자가 보는 것과 본질적으로 동일합니다. PowerApps 보안 역할 및 팀과 유사한 데이터 액세스 제한을 적용하려면 [RLS(행 수준 보안)를 Power BI와 함께 사용합니다](https://docs.microsoft.com/power-bi/service-admin-rls).
+5. PowerApps 내에 표시되는 보고서 데이터의 보기는 Power BI에서와 동일하며 PowerApps 보안 역할 및 권한은 표시되는 데이터에 영향을 주지 않습니다. 따라서 데이터는 Power BI 데이터 집합의 작성자가 보는 것과 본질적으로 동일합니다. PowerApps 보안 역할 및 팀과 유사한 데이터 액세스 제한을 적용하려면 [Power BI에 RLS(행 수준 보안)](https://docs.microsoft.com/power-bi/service-admin-rls)를 사용합니다.
 6. 솔루션을 가져오고 사용자 지정 항목을 게시한 후 양식에 Power BI 보고서가 표시되지 않는 경우 모델 기반 양식 편집기에서 보고서를 열고 저장하여 양식 JSON이 다시 생성되도록 합니다.
 
 
@@ -148,6 +148,6 @@ XML의 `<sections>` 블록 내에 다음 코드 조각을 추가하여 시스템
 
 [PowerApps 모델 기반 개인 대시보드에 Power BI 대시보드 포함](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)
 
-[Dynamics 365 for Customer Engagement를 Power BI와 통합](https://docs.microsoft.com/dynamics365/customer-engagement/admin/use-power-bi)
+[Dynamics 365 앱에 Power BI 사용](https://docs.microsoft.com/dynamics365/customer-engagement/admin/use-power-bi)
 
 [솔루션 가져오기, 업데이트 및 내보내기](../common-data-service/import-update-export-solutions.md)

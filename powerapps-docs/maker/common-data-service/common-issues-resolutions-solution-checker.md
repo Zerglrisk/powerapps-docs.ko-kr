@@ -33,7 +33,7 @@ search.app:
 
 ![오류 메시지 막대](media/solution-checker-missing-roles-error.png)
 
-분석을 백그라운드에서 처리하는 동안 발생하는 오류는 **'완료 할 수 없습니다'** 상태로 실패하고 PowerApps 포털에서 오류 메시지를 반환하고 요청자에게 전자 메일 알림을 보냅니다. 
+분석을 백그라운드에서 처리하는 동안 발생하는 오류는 **'완료할 수 없습니다'** 상태로 실패하고 PowerApps 오류 메시지를 반환하고 요청자에게 전자 메일 알림을 보냅니다. 
 
 ![오류 상태](media/solution-checker-exception-status.png)
 
@@ -45,7 +45,7 @@ search.app:
 
 솔루션 검사기는 PowerApps 검사기 앱에서 활성화되는 기능입니다.  **1.0.0.47** 이전 버전의 PowerApps 검사기 앱 버전이 설치된 경우 솔루션 검사기 실행이 성공적으로 완료되지 않을 수 있습니다. [!INCLUDE [pn-dyn-365-admin-center](../../includes/pn-dyn-365-admin-center.md)]에서 PowerApps 검사기 버전을 업그레이드해야 합니다. 
 
-그러나 PowerApps 검사기 버전이 설치된 **1.0.0.45** 보다 이전 버전인 경우에는 솔루션을 삭제하고 다시 설치하는 것이 좋습니다. 최근의 스키마 변경으로 인해 **1.0.0.45** 이전 버전의 PowerApps 검사기 업그레이드가 실패할 수 있습니다.
+그러나 PowerApps 검사기 버전이 설치된 **1.0.0.45** 버전보다 이전 버전인 경우에는 솔루션을 삭제하고 다시 설치하는 것이 좋습니다. 최근의 스키마 변경으로 인해 **1.0.0.45** 이전 버전의 PowerApps 검사기 업그레이드가 실패할 수 있습니다.
 
 솔루션 검사기의 과거 결과를 유지하려면 이전 실행의 결과를 내보내거나 데이터 [Excel로 데이터 내보내기](../../user/export-data-excel.md)를 사용하여 모든 솔루션 검사기 데이터를 내보내 다음 엔터티에서 데이터를 내보냅니다.
 
@@ -56,7 +56,7 @@ search.app:
 
 ### <a name="how-to-uninstall-powerapps-checker"></a>PowerApps 검사기를 제거하는 방법
 
-PowerApps 검사기 솔루션을 제거하려면 다음을 수행합니다.
+PowerApps 검사기 솔루션을 제거하려면:
 
 1. 시스템 관리자 또는 시스템 사용자 지정자의 경우 https://web.powerapps.com/environments로 이동하여 PowerApps 포털을 엽니다.
 2. **솔루션**을 선택합니다.
@@ -72,7 +72,7 @@ Common Data Service 환경에 PowerApps 검사기를 다시 설치하려면:
 
 ## <a name="solution-checker-cant-access-organizations-in-administration-mode"></a>솔루션 검사기가 관리 모드에서 조직에 액세스할 수 없음
 
-[관리 모드](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-sandbox-instances#administration-mode)에 배치된 조직은 시스템 관리자 및 시스템 사용자 지정자 역할을 가진 사용자에게만 액세스를 의도적으로 제한합니다. PowerApps 검사기 응용 프로그램 ID에는 이러한 역할이 기본적으로 할당되어 있지 않으므로이 모드로 작동하는 조직에 액세스할 수 없습니다.
+[관리 모드](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-sandbox-instances#administration-mode)에 배치된 조직은 시스템 관리자 및 시스템 사용자 지정자 역할을 가진 사용자에게만 액세스를 의도적으로 제한합니다. PowerApps 검사기 응용 프로그램 ID에는 이러한 역할이 기본적으로 할당되어 있지 않으므로 이 모드로 작동하는 조직에 액세스할 수 없습니다.
 
 이 조직에서 솔루션 검사기를 사용하려면 관리 모드를 사용하지 않아야 합니다.
 
@@ -80,7 +80,7 @@ Common Data Service 환경에 PowerApps 검사기를 다시 설치하려면:
 
 조직 인스턴스에 대한 관리 모드를 비활성화하려면:
 
-1. Dynamics 365 for Customer Engagement 앱 인스턴스 선택기를 엽니다. https://port.crm.dynamics.com/G/Instances/InstancePicker.aspx
+1. Dynamics 365 인스턴스 선택기를 엽니다. https://port.crm.dynamics.com/G/Instances/InstancePicker.aspx
 2. 솔루션 검사기를 실행하는 데 문제가 있는 조직 인스턴스를 선택합니다.
 3. **ADMIN**을 선택합니다.<br/>
 ![인스턴스 관리자](media/solution-checker-instance-admin.png)
@@ -92,14 +92,14 @@ Common Data Service 환경에 PowerApps 검사기를 다시 설치하려면:
 
 ## <a name="solution-checker-fails-due-to-missing-security-roles"></a>보안 역할이 누락되어 솔루션 검사기가 실패
 
-솔루션 검사기의 응용 프로그램 사용자는 Common Data Service 조직과 통신하는 데 필요한 권한을 제공하기 위해 할당된 두 가지 보안 역할이 필요합니다. 이러한 역할 중 하나가 사용자 **'PowerApps 검사기'** 에게 할당되지 않은 경우 분석 실행, 결과 다운로드 및 취소 실행 시도가 실패합니다. 이는 예기치 않은 사용자로부터 보안 역할을 제거하는 자동화 기능을 고객이 가지고 있는 경우에 가장 자주 발생합니다. 다음 보안 역할에는 최소한의 필요한 사용 권한이 포함되어 있습니다.
+솔루션 검사기의 응용 프로그램 사용자는 Common Data Service 조직과 통신하는 데 필요한 권한을 제공하기 위해 할당된 두 가지 보안 역할이 필요합니다. 이러한 역할 중 하나가 사용자 **'PowerApps 검사기'** 에 할당되지 않은 경우 분석 실행, 결과 다운로드 및 취소 실행 시도가 실패합니다. 이는 예기치 않은 사용자로부터 보안 역할을 제거하는 자동화 기능을 고객이 가지고 있는 경우에 가장 자주 발생합니다. 다음 보안 역할에는 최소한의 필요한 사용 권한이 포함되어 있습니다.
 
 - 사용자 지정 항목 내보내기
 - 솔루션 검사기
 
 ### <a name="how-to-assign-missing-security-roles"></a>누락된 보안 역할을 할당하는 방법
 
-누락된 보안 역할을 PowerApps 검사기 사용자에게 할당하려면 다음과 같이 하십시오.
+누락된 보안 역할을 PowerApps 검사기 사용자에게 할당하려면:
 
 1. Common Data Service 조직을 열고 **설정** > **보안** > **사용자**로 이동합니다.
 2. 사용자 목록에서 **'PowerApps 검사기'** 사용자를 선택합니다.

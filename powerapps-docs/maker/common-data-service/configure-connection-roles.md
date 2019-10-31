@@ -12,7 +12,8 @@ applies_to:
   - Dynamics 365 Version 9.x
   - PowerApps
 ms.author: matp
-manager: brycho
+manager: kvivek
+author: Mattp123
 search.audienceType:
   - maker
 search.app:
@@ -49,11 +50,11 @@ Common Data Service에 이미 구성된 여러 표준 연결 역할이 있습니
 
 [!INCLUDE [cc_navigate-solution-from-powerapps-portal](../../includes/cc_navigate-solution-from-powerapps-portal.md)]
 
-**설정** 영역에서 볼 수 있는 대부분의 연결 역할은 *내부* **기본 솔루션**( **Common Data Services 기본 솔루션**과 혼동되어서는 안 됨) 내에서 정의됩니다. 이 내부 **기본 솔루션**에는 시스템의 모든 사용자 지정이 포함되어 있습니다. **기본 솔루션**을 보려면 **모든 솔루션 - 내부** 보기를 선택합니다.
+**설정** 영역에서 볼 수 있는 대부분의 연결 역할은 *내부* **기본 솔루션**(**Common Data Service의 기본 솔루션**과 혼동되어서는 안 됨) 내에서 정의됩니다. 이 내부 **기본 솔루션**에는 시스템의 모든 사용자 지정이 포함되어 있습니다. **기본 솔루션**을 보려면 **모든 솔루션 - 내부** 보기를 선택합니다.
 
 ## <a name="add-connection-roles-to-a-solution"></a>솔루션에 연결 역할 추가
 
-일반적으로 내부 **기본 솔루션**의 구성 요소는 편집하지 않는 것이 좋습니다. **Common Data Services 기본 솔루션** 또는 작업을 위해 만든 솔루션 내에서 **기존 추가** 명령을 사용하여 솔루션에 기본 연결 역할을 가져올 수 있습니다.
+일반적으로 내부 **기본 솔루션**의 구성 요소는 편집하지 않는 것이 좋습니다. **Common Data Service의 기본 솔루션** 또는 작업을 위해 만든 솔루션 내에서 **기존 추가** 명령을 사용하여 솔루션에 기본 연결 역할을 가져올 수 있습니다.
 
 ![기존 연결 역할 추가](media/add-existing-connection-role.png)
 
@@ -91,7 +92,7 @@ Common Data Service에 이미 구성된 여러 표준 연결 역할이 있습니
 - 영업 팀
 - 서비스
 
-**범주** 전역 옵션 집합을 편집하여 새 범주를 추가하거나 기존 범주를 수정할 수 있습니다. 자세한 내용: [Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)
+**범주** 전역 옵션 집합을 편집하여 새 범주를 추가하거나 기존 범주를 수정할 수 있습니다. 추가 정보: [Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)
 
 ### <a name="select-record-types"></a>레코드 종류 선택
 
@@ -125,7 +126,7 @@ Common Data Service에 이미 구성된 여러 표준 연결 역할이 있습니
 ### <a name="see-also"></a>참조
 <!-- This is in the basics guide. It needs to be migrated -->
 [레코드 간의 관계를 정의하고 보도록 연결 레코드 만들기](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records)<br />
-[Common Data Service(선택 목록)에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets.md)<br />
+[Common Data Service용 전역 옵션 집합(선택 목록) 만들기 또는 편집](create-edit-global-option-sets.md)<br />
 [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)
 
 

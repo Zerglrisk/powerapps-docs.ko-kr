@@ -3,7 +3,7 @@ title: PowerApps에서 모델 기반 앱 양식 편집기 열기 | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -55,9 +55,9 @@ search.app:
   
 4.  **양식 편집기**를 선택합니다.  
 
-## <a name="access-the-form-editor-from-within-dynamics-365-customer-engagement"></a>Dynamics 365 Customer Engagement 내에서 양식 편집기 액세스
+## <a name="access-the-form-editor-from-within-app"></a>앱 내에서 양식 편집기 액세스
   
- 엔터티에 따라 명령 모음 또는 리본을 통해 Dynamics 365 Customer Engagement에서 양식 편집기에 액세스할 수 있습니다. 이러한 방법은 둘 다 기본 솔루션의 컨텍스트에서 양식을 엽니다. 
+ 엔터티에 따라 명령 모음 또는 리본을 통해 양식 편집기에 액세스할 수 있습니다. 이러한 방법은 둘 다 기본 솔루션의 컨텍스트에서 양식을 엽니다. 
 
 ## <a name="access-the-form-editor-for-an-unmanaged-solution"></a>비관리형 솔루션의 양식 편집기에 액세스  
   

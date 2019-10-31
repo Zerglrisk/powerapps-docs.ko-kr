@@ -1,27 +1,22 @@
 ---
-title: 포털에서 웹 사이트 헤더 및 기본 탐색 모음 렌더링 | MicrosoftDocs
-description: 포털에서 웹 사이트 헤더 및 기본 탐색 모음을 렌더링 하는 지침 및 샘플 코드입니다.
+title: 포털에서 웹 사이트 머리글 및 기본 탐색 모음 렌더링 | MicrosoftDocs
+description: 포털에서 웹 사이트 헤더 및 기본 탐색 모음을 렌더링하는 지침 및 예제 코드입니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: ''
-ms.date: 10/07/2019
+ms.custom: null
+ms.date: 08/30/2019
 ms.author: shjais
-ms.reviewer: ''
-ms.openlocfilehash: 3cfd5ced4da80cae70b4f51d81e30b0d909a81c3
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72974440"
+ms.reviewer: null
 ---
-# <a name="render-a-website-header-and-primary-navigation-bar"></a>웹 사이트 헤더 및 기본 탐색 모음 렌더링
 
-포털 설정, 코드 조각, weblinks 및 sitemarkers를 사용 하 여 웹 사이트 헤더 및 기본 탐색 모음을 렌더링 합니다. [웹 템플릿을 사용 하 여 소스 콘텐츠 [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] 저장](store-content-web-templates.md)  
+# <a name="render-a-website-header-and-primary-navigation-bar"></a>웹 사이트 머리글 및 기본 탐색 모음 렌더링
+
+포털 설정, 조각, 웹 링크 및 사이트 마커를 사용하여 웹 사이트 머리글 및 기본 탐색 모음을 렌더링합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [웹 템플릿을 이용하여 소스 콘텐츠 저장](store-content-web-templates.md)  
 
 > [!Note]
-> 이 항목의 예제는 응용 프로그램에 대 한 교차 요청 헤더 캐싱이 사용 되지 않도록 설정 된 경우에만 제대로 작동 합니다. 버전 7.0.0019 이상에서 기본적으로 사용 하도록 설정 되어 있습니다. Header/OutputCache/Enabled 라는 사이트 설정을 만들고 해당 값을 false로 설정 하 여 사용 하지 않도록 설정할 수 있습니다.
+> 이 주제의 예시는 응용 프로그램에서 교차 요청 머리글 캐싱이 비활성화된 경우에만 적용됩니다. 7.0.0019 버전 및 그 이상에서만 기본적으로 활성화됩니다. Header/OutputCache/Enabled라는 사이트 설정을 만들고, 이 값을 false로 설정하여 비활성화할 수 있습니다.
 
 
 ```xml
@@ -193,10 +188,10 @@ ms.locfileid: "72974440"
 </div>
 ```
 
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참조
 
-[액체 및 웹 템플릿 페이지 템플릿을 사용 하 여 사용자 지정 페이지 템플릿 만들기](create-custom-template.md)  
-[RSS 피드를 렌더링 하는 사용자 지정 페이지 템플릿 만들기](render-rss-custom-page-template.md)  
-[현재 페이지와 연결 된 엔터티 목록을 렌더링 합니다.](render-entity-list-current-page.md)  
-[하이브리드 탐색을 사용 하 여 최대 3 수준까지 페이지 계층 구조 렌더링](hybrid-navigation-render-page-hierachy.md)  
+[유동과 웹 템플릿 페이지 템플릿을 사용하여 사용자 지정 페이지 템플릿을 만드십시오.](create-custom-template.md)  
+[RSS 피드를 렌더링하기 위해 사용자 지정 페이지 템플릿 만들기](render-rss-custom-page-template.md)  
+[현재 페이지와 연관된 엔터티 목록 렌더링](render-entity-list-current-page.md)  
+[하이브리드 탐색을 사용하여 최대 3 레벨의 페이지 계층을 렌더링하기](hybrid-navigation-render-page-hierachy.md)  
 

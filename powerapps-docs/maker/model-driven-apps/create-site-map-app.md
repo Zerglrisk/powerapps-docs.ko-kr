@@ -3,7 +3,7 @@ title: PowerApps에서 앱에 대한 모델 기반 앱 사이트 맵 만들기 |
 description: 앱에 대한 사이트 맵을 만드는 방법 알아보기
 keywords: ''
 ms.date: 05/29/2018
-ms.service: crm-online
+ms.service: powerapps
 ms.custom: null
 ms.topic: article
 applies_to:
@@ -194,11 +194,11 @@ search.app:
   
     - **추가 설명**: 조직에서 여러 언어를 사용하는 경우 설명의 언어를 선택하고 하위 영역의 설명을 입력한 다음 **추가**를 선택합니다. 조직이 사용하는 언어 개수대로 설명을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 설명만 있을 수 있습니다.  
   
-    - **SKU**: 이 하위 영역을 표시하는 Dynamics 365 Customer Engagement 버전을 선택합니다.  
+    - **SKU**: 이 하위 영역을 표시하는 Dynamics 365 버전을 선택합니다.  
   
     - **클라이언트**: 이 하위 영역을 표시하는 클라이언트의 유형을 선택합니다.  
   
-    - **Outlook 바로가기**: Dynamics 365 for Outlook에 표시할 아이콘을 선택합니다.  
+    - **Outlook 바로 가기**: Dynamics 365 for Outlook에서 표시할 아이콘을 선택합니다.  
   
     - **오프라인 사용 가능**: 이 확인란을 선택하면 사용자가 Dynamics 365 for Outlook에서 오프라인 상태일 때 이 하위 영역을 사용할 수 있습니다.  
   
@@ -228,9 +228,9 @@ search.app:
  
 |사이트 맵|지원되는 클라이언트|  
 |---------------|-----------------------|  
-|새 응용 프로그램| 통합 인터페이스 및 Dynamics 365 Customer Engagement 웹 앱 |  
-|Dynamics 365에 대한 사이트 맵 - 사용자 지정 앱 | Dynamics 365 Customer Engagement 웹 앱 및 Dynamics 365 for Outlook |  
-|기본 비즈니스 앱(Sales, 영업 허브, Customer Service, Customer Service 허브, Field Service, Project Service Automation)| Dynamics 365 Customer Engagement 웹 앱 및 통합 인터페이스|  
+|새 응용 프로그램| 통합 인터페이스 |  
+|Dynamics 365에 대한 사이트 맵 - 사용자 지정 앱 | 레거시 웹 앱 및 Dynamics 365 for Outlook |  
+|모델 기반 앱(Sales, 영업 허브, Customer Service, 고객 서비스 허브, Field Service, Project Service Automation)| 레거시 웹 앱 및 통합 인터페이스|  
  
   
 ### <a name="next-steps"></a>다음 단계  

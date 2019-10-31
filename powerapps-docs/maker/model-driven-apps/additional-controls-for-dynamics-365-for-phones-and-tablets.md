@@ -149,7 +149,7 @@ search.app:
  웹 사이트 미리 보기 컨트롤을 사용하여 URL 필드를 매핑하고 웹 사이트의 미리 보기를 표시합니다.  
   
 > [!IMPORTANT]
->  이 컨트롤을 활성화함으로써 사용자가 외부 시스템과 특정한 식별 가능한 장치 정보를 공유하는 것에 동의하는 것입니다. 외부 시스템에서 PowerApps 앱 또는 Dynamics 365 Customer Engagement로 가져온 데이터는 [Microsoft 개인 정보 및 쿠키](http://go.microsoft.com/fwlink/p/?LinkId=521839)의 개인 정보 취급 방침의 적용을 받습니다.  
+>  이 컨트롤을 활성화함으로써 사용자가 외부 시스템과 특정한 식별 가능한 장치 정보를 공유하는 것에 동의하는 것입니다. 외부 시스템에서 PowerApps 앱 또는 Dynamics 365 Sales 또는 Dynamics 365 Customer Service와 같은 Dynamics 365 앱으로 가져온 데이터는 [Microsoft 개인정보처리방침](http://go.microsoft.com/fwlink/p/?LinkId=521839)의 개인정보처리방침의 적용을 받습니다.  
 >   
 >  [개인정보취급방침](use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   
@@ -210,7 +210,7 @@ search.app:
   
 -   오디오 스트림  
   
- [개인정보취급방침](use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
+ [개인 정보 취급 방침](use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   
 |속성|설명|  
 |--------------|-----------------|  

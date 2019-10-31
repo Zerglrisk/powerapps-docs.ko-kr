@@ -1,28 +1,23 @@
 ---
-title: 하이브리드 탐색을 사용 하 여 포털에 대 한 페이지 계층 구조 렌더링 | MicrosoftDocs
-description: 하이브리드 탐색을 사용 하 여 포털의 페이지 계층을 렌더링 하는 방법에 대 한 지침입니다.
+title: 하이브리드 탐색을 사용하여 포털의 페이지 계층 구조 렌더링 | MicrosoftDocs
+description: 하이브리드 탐색을 사용하여 페이지 계층 구조를 렌더링하는 지침입니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: ''
-ms.date: 10/07/2019
+ms.custom: null
+ms.date: 08/30/2019
 ms.author: shjais
-ms.reviewer: ''
-ms.openlocfilehash: aace949be3cc191af5edd95c461e422b9c3217f5
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
-ms.translationtype: MT
-ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72975038"
+ms.reviewer: null
 ---
-# <a name="render-up-to-three-levels-of-page-hierarchy-by-using-hybrid-navigation"></a>하이브리드 탐색을 사용 하 여 최대 3 수준까지 페이지 계층 구조 렌더링
 
-이 예제에서는 포털 사이트 맵을 기반으로 하는 하이브리드 탐색 유형을 렌더링 하 여 최대 3 개의 페이지 계층 수준을 렌더링 합니다. 이 구성 요소에 대 한 규칙은 다음과 같습니다.
+# <a name="render-up-to-three-levels-of-page-hierarchy-by-using-hybrid-navigation"></a>하이브리드 탐색을 사용하여 최대 3 레벨의 페이지 계층을 렌더링하기
 
-* 현재 페이지의 상위 페이지는 홈 페이지에 다시 표시 되 고, 선택적 깊이\_offset 매개 변수로 지정 된 최대 깊이에 표시 됩니다. 
-* 현재 페이지에 자식이 있으면 해당 자식 페이지가 표시 됩니다.
-* 현재 페이지에 자식이 없는 경우 현재 페이지의 형제 항목이 표시 됩니다.
+이 예는 최대 3개 수준의 페이지 계층을 렌더링하는 포털 사이트 맵에 근거하여 일종의 하이브리드 탐색을 렌더링합니다. 이 구성 요소의 규칙:
+
+* 현재 페이지의 상위 페이지들이 홈 페이지까지(또는 선택적인 depth\_offset 매개 변수에 의해 지정된 최대 깊이까지) 표시됩니다. 
+* 현재 페이지에 하위 페이지들이 있는 경우에는 그러한 하위 페이지들이 표시됩니다.
+* 현재 페이지에 하위 페이지들이 없는 경우에는 현재 페이지의 형제 페이지들이 표시됩니다.
 
 ```xml
 {% assign depth_offset = depth_offset | default: 0 %}
@@ -251,9 +246,9 @@ ms.locfileid: "72975038"
   }
 </style>
 ```
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참조
 
-[액체 및 웹 템플릿 페이지 템플릿을 사용 하 여 사용자 지정 페이지 템플릿 만들기](create-custom-template.md)  
-[RSS 피드를 렌더링 하는 사용자 지정 페이지 템플릿 만들기](render-rss-custom-page-template.md)  
-[현재 페이지와 연결 된 엔터티 목록을 렌더링 합니다.](render-entity-list-current-page.md)  
-[웹 사이트 헤더 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)  
+[유동과 웹 템플릿 페이지 템플릿을 사용하여 사용자 지정 페이지 템플릿을 만드십시오.](create-custom-template.md)  
+[RSS 피드를 렌더링하기 위해 사용자 지정 페이지 템플릿 만들기](render-rss-custom-page-template.md)  
+[현재 페이지와 연관된 엔터티 목록 렌더링](render-entity-list-current-page.md)  
+[웹 사이트 머리글 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)  

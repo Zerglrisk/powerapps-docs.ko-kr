@@ -106,4 +106,4 @@ PowerApps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 �
 
 ## <a name="see-also"></a>참조
 
-[Dynamics 365 Customer Engagement 응용 프로그램에서 키보드 단축키 사용](https://docs.microsoft.com/dynamics365/customer-engagement/basics/keyboard-shortcuts)
+[PowerApps에서 바로 가기 키 사용](/powerapps/user/keyboard-shortcuts)
