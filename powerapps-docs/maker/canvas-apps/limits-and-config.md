@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 10/24/2019
+ms.date: 10/30/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 68e702156b0a5b820dd23076551cf7970efc65a3
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 2a1696437f434063b4297df220f1cb406bc993f8
+ms.sourcegitcommit: 98f6ce1531e69e2aae1000eda7548434d77cafe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73025097"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73142597"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -27,8 +27,8 @@ ms.locfileid: "73025097"
 
 | **필요한 최소 사항** | **권장** |
 | --- | --- |
-| iOS 9.3 이상 |최소 2GB의 RAM이 있는 iOS 10 이상 |
-| Android 5 이상 |최소 4GB의 RAM이 있는 Android 7 이상 |
+| iOS 12 이상 |iOS 12 이상|
+| Android 7 이상 |Android 7 이상 |
 | Windows 8.1 이상(PC만 해당) |최소 8GB의 RAM이 있는 Windows 10 Fall Creators Update|
 
 > [!NOTE]

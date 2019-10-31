@@ -7,27 +7,27 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 01/09/18
+ms.date: 01/09/2018
 ms.author: stepsic
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d41807bedf85c151c8e115456b9fb3e23756629d
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 9dc1fa02737b49261dc76a06e208cea578e80dea
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61538246"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73182597"
 ---
 # <a name="create-a-flow-to-manage-project-approvals"></a>프로젝트 승인을 관리하는 흐름 만들기
 > [!NOTE]
-> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
+> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 작업에서는 프로젝트 승인 프로세스를 구동하는 흐름을 만듭니다. Microsoft Flow는 SharePoint와 통합되어 있으므로 목록에서 직접 흐름을 쉽게 만들 수 있습니다. **프로젝트 요청** 목록에 항목을 추가할 때 만드는 흐름이 트리거됩니다. 흐름은 프로젝트 승인자에게 전자 메일을 보내고, 프로젝트 승인자는 전자 메일에서 직접 요청을 승인하거나 거부합니다. 그런 다음 승인 요청 또는 거부 전자 메일을 프로젝트 요청자에게 보내고, SharePoint 목록을 적절하게 업데이트합니다.
 
-## <a name="step-1-configure-the-flow-template"></a>1 단계: 흐름 템플릿 구성
-1. **프로젝트 요청** 목록에서 **Flow**, **흐름 만들기**를 차례로 클릭하거나 탭합니다.
+## <a name="step-1-configure-the-flow-template"></a>1단계: 흐름 템플릿 구성
+1. **프로젝트 요청** 목록에서 **흐름**, **흐름 만들기**를 차례로 클릭하거나 탭합니다.
    
     ![흐름 만들기](./media/sharepoint-scenario-approval-flow/03-01-01-create-flow.png)
 2. 오른쪽 창에서 **새 항목이 추가되면 승인 시작**을 클릭하거나 탭합니다.
@@ -40,15 +40,15 @@ ms.locfileid: "61538246"
     이제 이 흐름에 대한 템플릿이 표시되며 작업을 수행할 준비가 되었습니다. 흐름의 상자는 단계를 나타냅니다. 제공하는 입력뿐만 아니라 이전 단계의 입력도 가져옵니다. 그런 다음 각 단계에서 후속 단계로 출력을 제공할 수 있습니다.
    
     ![승인 템플릿](./media/sharepoint-scenario-approval-flow/03-01-04-template.png)
-4. **Assigned To** 상자에서 테넌트에 유효한 이름을 입력합니다.
+4. **할당 대상** 상자에서 테넌트에 유효한 이름을 입력합니다.
    
     ![승인 전자 메일 연락처](./media/sharepoint-scenario-approval-flow/03-01-05-approval-email.png)
    
-    흐름의 다음 상자는 프로젝트 승인자의 결정에 응답하고 *분기* 두 가지 중 하나로 흐름을 라우팅합니다:  **예인 경우** 또는 **아니요인 경우**.
+    흐름의 다음 상자에서는 프로젝트 승인자의 결정에 응답하고 흐름을 두 개의 '분기'(**예인 경우** 또는 **아니요인 경우**) 중 하나로 라우팅합니다.
    
     ![승인 조건](./media/sharepoint-scenario-approval-flow/03-01-06-condition.png)
 
-## <a name="step-2-create-actions-for-approve--yes"></a>2단계: 승인 작업 생성 = 예
+## <a name="step-2-create-actions-for-approve--yes"></a>2단계: 승인 = 예 작업 만들기
 기본적으로 이 분기에서는 요청자에게 승인 전자 메일을 보냅니다. 또한 프로젝트가 승인되었으므로 **프로젝트 요청** 목록을 업데이트하고 **프로젝트 세부 정보** 목록에 항목을 추가합니다.
 
 1. **예인 경우** 분기에서 **항목 작성자에게 승인 알림**, **편집**을 차례로 클릭하거나 탭하여 요청자에게 보낸 전자 메일에 대한 기본 옵션을 확인합니다.
@@ -96,7 +96,7 @@ ms.locfileid: "61538246"
     
     ![항목 만들기 완료](./media/sharepoint-scenario-approval-flow/03-01-11-yes-create-complete.png)
 
-## <a name="step-3-review-action-for-approve--no"></a>3단계: 승인 작업 검토 = 아니요
+## <a name="step-3-review-action-for-approve--no"></a>3단계: 승인 = 아니요 작업 검토
 기본적으로 이 분기에서는 요청자에게 거부 전자 메일을 보냅니다. 또한 **프로젝트 요청** 목록을 업데이트합니다. 프로젝트가 진행되지 않으므로 **프로젝트 세부 정보** 목록에 항목을 추가하지 않습니다.
 
 1. **아니요인 경우** 분기에서 **항목 작성자에게 거부 알림**, **편집**을 차례로 클릭하거나 탭하여 요청자에게 보낸 전자 메일에 대한 기본 옵션을 확인합니다.
@@ -140,7 +140,7 @@ ms.locfileid: "61538246"
 
    * **Description** = "Megan은 24" 모니터가 필요합니다."
 
-   * **ProjectType** = "새 하드웨어"
+   * **ProjectType** = "New hardware"
 
    * **RequestDate** = "02/03/2017"
 
@@ -148,7 +148,7 @@ ms.locfileid: "61538246"
 
    * **EstimatedDays** = "1"
 
-   * **Approved** = "보류 중"
+   * **Approved** = "Pending"
 
      ![목록에 추가된 항목](./media/sharepoint-scenario-approval-flow/03-02-01-list-add.png)
 2. 완료되면 페이지 위쪽의 **완료**를 클릭합니다.
