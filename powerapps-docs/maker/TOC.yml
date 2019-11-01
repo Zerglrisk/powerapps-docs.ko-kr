@@ -741,7 +741,7 @@
           href: ./canvas-apps/share-app-resources.md
         - name: Power BI에 앱 포함
           href: ./canvas-apps/embed-powerapps-powerbi.md
-        - name: 팀 앱 포함
+        - name: Teams에 앱 포함
           href: ./canvas-apps/embed-teams-app.md
     - name: 앱 관리
       items:
