@@ -16,10 +16,10 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: 9ba051395e99dc6f2079d033c10a727a2e95da67
-ms.sourcegitcommit: 9a16bb75c856f7c84cd385811b7135ab2804ae69
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71924584"
 ---
 # <a name="add-an-appointment-email-phone-call-note-or-task-activity-to-the-timeline"></a>타임라인에 약속, 메일, 전화 통화, 메모 또는 작업 활동 추가 
@@ -34,16 +34,16 @@ ms.locfileid: "71924584"
 - 첨부 된 이미지를 포함 하는 전자 메일이 전자 메일의 본문에 인라인으로 표시 됩니다.
 
   > [!div class="mx-imgBorder"]
-  > ![PowerApps의 활동 타임라인 보기](media/TimelineViewOfActivity.png "PowerApps의 활동 타임라인 보기")  
+  > ![PowerApps의 활동에 대 한 타임 라인 보기](media/TimelineViewOfActivity.png "PowerApps의 활동에 대 한 타임 라인 보기")  
  
 ## <a name="add-an-activity-from-the-nav-bar"></a>탐색 모음에서 활동 추가
  
 활동을 추가하는 가장 빠른 방법은 탐색 모음의 바로 가기를 사용한 다음 레코드에 연결하는 것입니다. 예를 들어, 전화 통화 활동을 만든 다음 **관련 항목** 필드를 사용하여 시스템에 있는 연락처에 연결할 수 있습니다.
 
-1. 탐색 모음에서 **더하기 기호** ![레코드 만들기 단추](media/create-record-button.png "레코드 만들기 단추")를 선택하고 **활동**을 선택합니다. 
+1. 탐색 모음에서 **더하기 기호** ![레코드 만들기 단추](media/create-record-button.png "레코드 만들기 단추")를 선택한 다음 **활동**을 선택 합니다. 
 
    > [!div class="mx-imgBorder"]
-   > ![PowerApps에서 활동을 추가하는 바로 가기](media/QuickCreate.png "PowerApps에서 활동을 추가하는 바로 가기")  
+   > ![PowerApps에서 작업을 추가 하는 바로 가기입니다.](media/QuickCreate.png "PowerApps에서 작업을 추가 하는 바로 가기입니다.")  
  
 2. 추가하려는 활동의 유형을 선택합니다.
 
@@ -100,13 +100,13 @@ ms.locfileid: "71924584"
 
 
     > [!NOTE]
-    > 대화 보기에서 전자 메일을 나열 하려면 **설정** >  개인 설정**설정** > **전자 메일** 탭으로 이동한 다음, **타임 라인에서 대화로 전자 메일 표시**를 선택 합니다. 개인 설정에 대 한 자세한 내용은 [개인 옵션 설정](https://docs.microsoft.com/en-us/powerapps/user/set-personal-options#email-tab-options)을 참조 하세요. 사용 하도록 설정 되 면 타임 라인이 포함 된 모든 폼을 열 수 있습니다. 그러면 전자 메일이 맨 위에 최신 전자 메일을 사용 하 여 대화 스레드로 그룹화 됩니다.
+    > 대화 보기에서 전자 메일을 나열 하려면 **설정** > 개인 설정 **설정** > **전자 메일** 탭으로 이동한 다음, **타임 라인에서 대화로 전자 메일 표시**를 선택 합니다. 개인 설정에 대 한 자세한 내용은 [개인 옵션 설정](https://docs.microsoft.com/en-us/powerapps/user/set-personal-options#email-tab-options)을 참조 하세요. 사용 하도록 설정 되 면 타임 라인이 포함 된 모든 폼을 열 수 있습니다. 그러면 전자 메일이 맨 위에 최신 전자 메일을 사용 하 여 대화 스레드로 그룹화 됩니다.
 
    > [!div class="mx-imgBorder"]
-   > 개인 ![옵션]설정(media/emailsettings1.png "개인 옵션") 설정
+   > ![개인 옵션 설정](media/emailsettings1.png "개인 옵션 설정")
    
     > [!div class="mx-imgBorder"]
-    > ![개인 옵션 전자]메일 설정(media/emailsettings2.png "전자 메일에 대 한 개인 옵션 설정")
+    > ![개인 옵션 전자 메일 설정](media/emailsettings2.png "전자 메일에 대 한 개인 옵션 설정")
 
   
 ## <a name="add-an-appointment"></a>약속 추가  
@@ -163,10 +163,10 @@ ms.locfileid: "71924584"
 
 타임라인을 새로 고침하여 최신 정보를 볼 수 있습니다.
 
-**타임라인** 월에서 ![자세히 보기 단추 ](media/MoreButton.png "자세히 보기 단추")를 선택하고 **타임라인 새로 고침**을 선택합니다.
+**타임 라인** 벽에서 ![자세히 단추](media/MoreButton.png "자세히 단추") 를 선택한 다음, **타임 라인 새로 고침**을 선택 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![타임라인 새로 고침 ](media/refresh.png "타임라인 새로 고침")
+> ![타임 라인 새로 고침](media/refresh.png "타임 라인 새로 고침")
 
 
 ## <a name="use-the-filter-pane"></a>필터 창 사용
@@ -176,7 +176,7 @@ ms.locfileid: "71924584"
 - **타임 라인** 벽에서 **필터 창** 깔때기 아이콘 열기를 선택 합니다.
 
 > [!div class="mx-imgBorder"]
-> ![타임라인의 필터 창 ](media/filterpane.png "타임라인의 필터 창")
+> ![타임 라인의 필터 창](media/filterpane.png "타임 라인의 필터 창")
 
 
 ## <a name="manage-activities"></a>활동 관리
@@ -184,7 +184,7 @@ ms.locfileid: "71924584"
 
 
 > [!div class="mx-imgBorder"]
-> ![Manage Activities.png](media/ManageActivities.png "ManageActivities.png")
+> ![작업 .png를 관리 합니다.](media/ManageActivities.png "ManageActivities")
 
 
 

@@ -16,10 +16,10 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: 76241ae2e26752a98e32e7ad72c54780da3934ae
-ms.sourcegitcommit: 60fd1792430b9f3da08ec161cb2277506d795e3a
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71705326"
 ---
 # <a name="enhanced-user-experience-with-the-unified-interface-for-model-driven-apps"></a>모델 기반 앱에 대 한 통합 인터페이스를 사용 하 여 향상 된 사용자 환경 
@@ -30,7 +30,7 @@ ms.locfileid: "71705326"
 > ![통합 인터페이스가 화면에 적응](media/Reflow.png "통합 인터페이스가 화면에 적응")
 
 > [!NOTE]
-> 레거시 웹 클라이언트는 더 이상 사용 되지 않으며 고객은 2020 년 10 월 1 일 이전에 통합 인터페이스로 전환 해야 합니다. 자세한 내용은 [Blog를 참조 하세요. 통합 인터페이스 으로 이동할 타임 라인을 발표 합니다](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/announcing-the-timeline-to-move-to-unified-interface/). 전환 방법에 대해 자세히 알아보려면 전환 [에 대 한 빠른 시작](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/transition-web-app)을 참조 하세요.
+> 레거시 웹 클라이언트는 더 이상 사용 되지 않으며 고객은 2020 년 10 월 1 일 이전에 통합 인터페이스로 전환 해야 합니다. 자세한 내용은 [블로그: 통합 인터페이스로 이동할 타임 라인 발표](https://cloudblogs.microsoft.com/dynamics365/it/2019/09/10/announcing-the-timeline-to-move-to-unified-interface/)를 참조 하세요. 전환 방법에 대해 자세히 알아보려면 전환 [에 대 한 빠른 시작](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/transition-web-app)을 참조 하세요.
 
 ## <a name="navigation"></a>내비게이션
 

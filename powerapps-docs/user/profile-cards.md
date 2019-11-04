@@ -16,10 +16,10 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: 67441e506ba2715a9994f6b81cd08426e37e0fc8
-ms.sourcegitcommit: 7c46e7ce889e2f1c5352ed2e705b0bb8968f2a89
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71950913"
 ---
 # <a name="view-the-profile-card-for-a-contact-or-user"></a>연락처 또는 사용자에 대 한 프로필 카드 보기
@@ -41,7 +41,7 @@ ms.locfileid: "71950913"
 4. 자세한 내용을 보려면 자세히 **표시** 를 선택 하 여 연락처의 프로필을 확장 합니다.
  
     > [!div class="mx-imgBorder"] 
-    > ![연락처 프로필 카드 세부]정보 확장(media/profile1.png "연락처 프로필 카드 세부 정보") 를 확장 합니다.
+    > ![연락처 프로필 카드 세부 정보 확장](media/profile1.png "연락처 프로필 카드 세부 정보를 확장 합니다.")
    
  ## <a name="view-a-users-profile"></a>사용자의 프로필 보기
  
@@ -51,7 +51,7 @@ ms.locfileid: "71950913"
 4.  사용자와의 메일 및 공유 파일 같은 자세한 정보를 보려면 **자세히 표시** 를 선택 하 여 연락처의 프로필을 확장 합니다.
  
     > [!div class="mx-imgBorder"] 
-    > ![사용자 프로필 카드 세부]정보 확장(media/profile2.png "사용자 프로필 카드 세부 정보")
+    > ![사용자 프로필 카드 세부 정보 확장](media/profile2.png "사용자 프로필 카드 세부 정보 확장")
 
 
  ## <a name="faqs"></a>질문과

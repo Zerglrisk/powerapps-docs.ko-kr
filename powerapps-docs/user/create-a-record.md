@@ -16,10 +16,10 @@ search.app:
 - PowerApps
 - D365CE
 ms.openlocfilehash: a4d81b9adff165267fe3e3d4d08384133aeae032
-ms.sourcegitcommit: 9a16bb75c856f7c84cd385811b7135ab2804ae69
+ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2019
+ms.lasthandoff: 10/29/2019
 ms.locfileid: "71924406"
 ---
 # <a name="create-a-new-record"></a>새 레코드 만들기
@@ -31,7 +31,7 @@ ms.locfileid: "71924406"
 > [!NOTE]
 > **빨리 만들기** 옵션은 관리자가 사용할 수 있는 레코드에만 사용할 수 있습니다.
     
-1. 탐색 모음에서 **더하기 기호**![레코드 만들기 단추](media/create-record-button.png "레코드 만들기 단추")를 선택한 다음, 원하는 항목을 선택합니다.  
+1. 탐색 모음에서 **더하기 기호** ![레코드 만들기 단추](media/create-record-button.png "레코드 만들기 단추")를 선택한 다음 원하는 항목을 선택 합니다.  
 
     > [!div class="mx-imgBorder"] 
     > ![레코드 만들기 단추](media/newrecord1.png "레코드 만들기 단추")
@@ -42,9 +42,9 @@ ms.locfileid: "71924406"
      > ![레코드 저장](media/quick_create.png "레코드 저장")
   
 > [!NOTE]
-> 화면의 필드 옆에 있는 별표 ![필수 필드 단추](media/required-field-button.png "필수 필드 단추")는 필수 필드임을 의미합니다. 필수 필드를 입력하기 전에 **저장 후 닫기**를 선택하면 오류 메시지가 표시됩니다. 또는 정보를 입력하고 **취소**를 선택하면 경고가 표시됩니다.
+> 화면에서 필드 옆에 있는 별표 ![필수 필드 단추](media/required-field-button.png "필수 필드 단추") 는 필드가 필요 함을 의미 합니다. 필수 필드를 입력하기 전에 **저장 후 닫기**를 선택하면 오류 메시지가 표시됩니다. 또는 정보를 입력하고 **취소**를 선택하면 경고가 표시됩니다.
 >   
-> 화면의 필드 옆에 있는 더하기 기호 ![권장 필드 단추](media/recommended-field-button.png "권장 필드 단추")는 조직에서 필드를 입력하도록 권장했음을 의미합니다.  
+> 화면에서 필드 옆에 있는 더하기 기호 ![권장 필드 단추](media/recommended-field-button.png "권장 필드 단추") 를 사용 하면 조직에서 필드를 입력 하는 것이 좋습니다.  
 
 
 ## <a name="create-a-new-record-using-the-new-button"></a>새로 만들기 단추를 사용 하 여 새 레코드 만들기 
