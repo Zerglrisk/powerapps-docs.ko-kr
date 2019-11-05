@@ -9,19 +9,19 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: ece59cff6ae75206a473ddc27f2e657201e0f436
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
+ms.openlocfilehash: 59ed66842874414737b7bdc04f0f4dfa51d212c8
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72977177"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542862"
 ---
 # <a name="configure-notes-for-entity-forms-and-web-forms-on-portals"></a>포털에서 엔터티 양식 및 web forms에 대 한 메모 구성
 
 하위 표를 사용 하는 것과 마찬가지로 포털에서 관리 되는 양식에 메모를 추가 하는 것은 [양식 디자이너](../model-driven-apps/create-design-forms.md) 를 통해 모델 드라이브 앱 양식에 메모 컨트롤을 추가 하 고 완료 한&mdash;쉽습니다. 메타 데이터를 사용 하 여 메모 컨트롤의 동작을 구성할 수 있습니다.
 
 > [!Note]                                                           
-> 포털에 모든 메모를 표시 하려면 명시적 [엔터티 권한이](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/assign-entity-permissions) 필요 합니다. 읽기 및 편집의 경우 읽기 및 쓰기 권한을 부여 해야 합니다. 만들기의 경우 두 가지 권한이 있어야 합니다. 참고 (주석) 엔터티에 대 한 만들기 및 추가 권한이 있는 사용 권한을 부여 해야 합니다. 참고로 연결 되는 엔터티 형식에 대 한 두 번째 사용 권한은 부여 된 추가 권한을 부여 해야 합니다. 엔터티 권한을 적용 하려면 해당 엔터티 양식이 나 웹 양식 단계에서 **엔터티 권한 사용** 확인란을 선택 해야 합니다.
+> 포털에 모든 메모를 표시 하려면 명시적 [엔터티 권한이](configure/assign-entity-permissions.md) 필요 합니다. 읽기 및 편집의 경우 읽기 및 쓰기 권한을 부여 해야 합니다. 만들기의 경우 두 가지 권한이 있어야 합니다. 참고 (주석) 엔터티에 대 한 만들기 및 추가 권한이 있는 사용 권한을 부여 해야 합니다. 참고로 연결 되는 엔터티 형식에 대 한 두 번째 사용 권한은 부여 된 추가 권한을 부여 해야 합니다. 엔터티 권한을 적용 하려면 해당 엔터티 양식이 나 웹 양식 단계에서 **엔터티 권한 사용** 확인란을 선택 해야 합니다.
 
 ## <a name="notes-configuration-for-entity-forms"></a>엔터티 형식에 대 한 메모 구성
 
@@ -34,7 +34,7 @@ ms.locfileid: "72977177"
 7. 적절 한 값을 입력 하 여 필드를 채웁니다. [특성](#attributes)을 [!include[](../../includes/proc-more-information.md)] 하 고, [대화 상자](#create-dialog-options)옵션을 만들고, 대화 상자 옵션을 [편집](#edit-dialog-options)하 고, [대화 상자 옵션 삭제](#delete-dialog-options)
 8. 양식을 저장합니다.
 
-    ![엔터티 형식에 대 한 메모 구성 추가](media/add-note-configuration.png "엔터티 양식에 대 한 메모 추가 구성")  
+    ![엔터티 양식에 대 한 메모 구성 추가](media/add-note-configuration.png "엔터티 양식에 대 한 메모 구성 추가")  
 
     구성 추가 후에는 포털에서 사용 하도록 설정 된 적절 한 옵션을 사용 하 여 메모 컨트롤이 렌더링 됩니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "72977177"
 | 오류 메시지         | 메모 목록을 로드 하는 동안 오류가 발생할 때 표시 되는 메시지를 재정의 합니다.                                                                     |
 | 액세스 거부 메시지 | 사용자에 게 메모 목록을 볼 수 있는 권한이 없는 경우 표시 되는 메시지를 재정의 합니다.                                                    |
 | 빈 메시지         | 현재 엔터티에 볼 수 있는 노트가 없는 경우 표시 되는 메시지를 재정의 합니다.                                                              |
-| 주문 나열           | 노트가 표시 되는 순서를 설정할 수 있습니다. 주문 나열 설정을 사용 하 여 다음을 설정할 수 있습니다. <ul><li>Attribute: 정렬 하려는 열의 논리적 이름입니다.</li><li>Alias: 쿼리의 특성에 대 한 별칭입니다.</li><li>방향: 오름차순 (오름차순, 오름차순 또는 first to last) 또는 내림차순 (가장 큰 값에서 가장 작은 값 또는 첫 번째 끝까지).</li></ul> ![목록 순서에 대 한 특성 설정]정렬 규칙을 추가 하려면(media/set-attributes-list-orders.png "주문 나열의 특성을 설정") 하 고 "열" (4)을 선택한 다음 세부 정보를 입력 합니다. 목록 순서는 우선 순위가 가장 높은 목록의 맨 위에서 순서 대로 처리 됩니다.|
+| 주문 나열           | 노트가 표시 되는 순서를 설정할 수 있습니다. 주문 나열 설정을 사용 하 여 다음을 설정할 수 있습니다. <ul><li>Attribute: 정렬 하려는 열의 논리적 이름입니다.</li><li>Alias: 쿼리의 특성에 대 한 별칭입니다.</li><li>방향: 오름차순 (오름차순, 오름차순 또는 first to last) 또는 내림차순 (가장 큰 값에서 가장 작은 값 또는 첫 번째 끝까지).</li></ul> ![주문 목록 특성 설정](media/set-attributes-list-orders.png "S목록 주문에 대 한 et 특성) 정렬 규칙을 추가 하려면 "열" (4)을 선택 하 고 세부 정보를 입력 합니다. 목록 순서는 우선 순위가 가장 높은 목록의 맨 위에서 순서 대로 처리 됩니다.|
 ||
 
 
@@ -149,11 +149,11 @@ ms.locfileid: "72977177"
 
     ![엔터티 권한 추가](media/entity-permission.png "엔터티 권한 추가")
 
-    ![엔터티 권한에 웹 역할 추가](media/entity-permission-web-roles.png "엔터티 권한에 웹 역할 추가")
+    ![엔터티 권한으로 웹 역할 추가](media/entity-permission-web-roles.png "엔터티 권한으로 웹 역할 추가")
 
 사용자 지정 양식을 만들고 메모 섹션을 추가한 경우 표시 하려는 기본 탭으로 **메모** 를 선택 해야 합니다.
 
-사용자 지정 양식(media/notes-activities-tab.png "에서") ![사용자 지정 양식 메모의 메모]
+![사용자 지정 양식의 메모](media/notes-activities-tab.png "사용자 지정 양식의 메모")
 
 ## <a name="notes-configuration-for-web-forms"></a>Web forms에 대 한 메모 구성
 

@@ -13,22 +13,22 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f03240e2fb2e850df0f1b18fb126833fb5759326
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 7a979944d25d683c5b2b4c772cd6859e6ac52f0e
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71989719"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541580"
 ---
 # <a name="create-a-canvas-app-from-a-sample-in-powerapps"></a>PowerApps의 샘플에서 캔버스 앱 만들기
 이 빠른 시작에서 디자인 가능성을 알아보고 사용자 고유의 캔버스 앱을 개발할 때 적용할 수 있는 개념을 검색할 수 있도록 샘플에서 캔버스 앱을 만듭니다.
 
 각 샘플은 실제 업무 시나리오를 보여주지만 가상 데이터를 사용합니다. 이 데이터를 저장하기 위해 Dropbox, Google Drive 또는 OneDrive와 같은 클라우드 스토리지 계정이 필요합니다.
 
-PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
+PowerApps에 대한 라이선스가 없는 경우 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
 ## <a name="open-a-sample-app"></a>샘플 앱 열기
-1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 1. 샘플 앱 목록에서 샘플 앱(예: **비용 계산기**)을 마우스로 가리킵니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2a1696437f434063b4297df220f1cb406bc993f8
-ms.sourcegitcommit: 98f6ce1531e69e2aae1000eda7548434d77cafe0
+ms.openlocfilehash: 69d29136f5184ed50be6380ee1a91847d4506d6a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73142597"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541207"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
@@ -98,10 +98,10 @@ PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하�
 | graph.microsoft.com<br>graph.windows.net |http |Azure Graph-사용자 정보 (예: 프로필 사진)를 가져오는 데 사용 됩니다. |
 | gallery.azure.com |http |샘플 및 템플릿 앱 |
 | \* azure-apim.net |http |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
-| \* powerapps.com |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
-| \* azureedge.net |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
+| \* powerapps.com |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
+| \* azureedge.net |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
 | \* blob.core.windows.net |http | Blob 저장소 |
-| \* flow.microsoft.com | http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 web.powerapps.com |
+| \* flow.microsoft.com | http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
 | *. dynamics.com | http | Common Data Service |
 | vortex.data.microsoft.com |http |분석이 |
 | 호스트 | http | PowerApps Mobile

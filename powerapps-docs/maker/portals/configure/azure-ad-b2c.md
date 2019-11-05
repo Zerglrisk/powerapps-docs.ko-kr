@@ -9,14 +9,14 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: aead447bbab7f6e5758cdea0a9c6be5c0e8f41e2
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: 5f902dd900e074c2e6b3f08f8848475dcd907ee4
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72978396"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542837"
 ---
-# <a name="azure-ad-b2c-provider-settings-for-portals"></a>포털에 대 한 Azure AD B2C 공급자 설정
+# <a name="azure-ad-b2c-provider-settings-for-portals"></a>포털에 대한 Azure AD B2C 공급자 설정
 
 [!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory (Azure AD)는 직원 또는 내부 인증을 위해 Office 365 및 Dynamics 365 서비스를 구동 합니다. [!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory B2C는 로컬 자격 증명을 통해 외부 고객이 로그인 할 수 있도록 하는 해당 인증 모델을 확장 하 고 다양 한 일반적인 소셜 id 공급자와의 페더레이션을 제공 합니다.
 
@@ -497,7 +497,7 @@ Common Data Service에 없는 새 고객이 프로 비전 되는 경우 인바�
 
 **형식**: attribute1 = claim1, attribute2 = claim2, attribute3 = claim3
 
-예: firstname =<http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle>
+예: firstname =<https://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=https://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle>
 
 > [!NOTE]
 > 전자 메일 주소를 연락처의 기본 전자 메일 (emailaddress1)에 매핑 했는지 확인 합니다. 연락처 레코드에 보조 전자 메일 (emailaddress2) 또는 대체 전자 메일 (emailaddress3)을 추가 하 고 전자 메일에 매핑한 경우 id 정보는 연락처에 추가 되지 않으며에 등록 집합에 사용 되는 전자 메일 주소를 사용 하 여 새로 생성 됩니다. 기본 전자 메일 (emailaddress1)입니다.
@@ -512,7 +512,7 @@ Id 공급자의 Common Data Service 및 데이터는 직접 연결 되지 않으
 
 **형식**: attribute1 = claim1, attribute2 = claim2, attribute3 = claim3
 
-예: firstname =<http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle> 
+예: firstname =<https://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=https://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle> 
 
 클레임 이름은 로그인 정책 응용 프로그램 클레임에서 특성 옆에 나열 된 클레임 유형 필드입니다.
 

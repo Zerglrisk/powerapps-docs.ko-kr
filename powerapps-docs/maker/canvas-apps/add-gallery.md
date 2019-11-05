@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3df6227ed33c5154e1e5dd700e6a87c3e8305f01
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 6d48b7b6ef1d9d691b733bea9af6ce74d0f2b07a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987560"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540919"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
 
@@ -34,7 +34,7 @@ ms.locfileid: "71987560"
     2. Excel 파일을 비즈니스용 OneDrive와 같은 [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
 
 - 빈 앱을 엽니다.
-    1. [PowerApps에 로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+    1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 
     1. **고유한 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
 

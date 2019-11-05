@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ea94b076126aca3bc3dd687a853393e20901eeb8
-ms.sourcegitcommit: f296922b8039b573e5adb81423a544f70c56c1ee
+ms.openlocfilehash: 54d8ac3d347c0f60f82fdd73949eb2fd8545519c
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256126"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541468"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 
@@ -77,7 +77,7 @@ PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항
 - PowerApps 사용자 지정 시각적 개체는 데이터를 필터링하거나 보고서로 데이터를 다시 보낼 수 없습니다.
 - 보고서와 별도로 PowerApps 앱을 공유해야 합니다. [PowerApps에서 앱 공유](share-app.md)에 대해 알아봅니다.
 - Power BI Report Server 및 Power BI 용 모바일 앱은 PowerApps 사용자 지정 시각적 개체를 지원 하지 않습니다.
-- PowerBIIntegration. Refresh () 함수를 사용 하는 경우 [directquery](https://docs.microsoft.com/en-us/power-bi/desktop-directquery-data-sources) 를 지 원하는 원본을 사용 해야 하며 directquery 메서드를 사용 하 여 데이터 연결을 만들어야 합니다.
+- PowerBIIntegration. Refresh () 함수를 사용 하는 경우 [directquery](https://docs.microsoft.com/power-bi/desktop-directquery-data-sources) 를 지 원하는 원본을 사용 해야 하며 directquery 메서드를 사용 하 여 데이터 연결을 만들어야 합니다.
 - Power BI Desktop PowerApps는 편집 하는 동안은 제외 하 고 앱을 만들 때 PowerApps Studio 데이터를 제공 합니다. Power BI 웹을 사용 하 여 앱을 편집 하는 동안 데이터를 미리 봅니다.
 
 > [!NOTE]
@@ -85,7 +85,7 @@ PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항
 
 ## <a name="browser-support"></a>브라우저 지원
 
-다음 표에서는 PowerApps 사용자 지정 시각적 개체의 보기, 만들기 및 수정 작업을 위한 브라우저 지원 가능성을 나열 합니다. 지원 되는 브라우저와 작업은 확인 표시 ( &check; )로 식별 됩니다.
+다음 표에서는 PowerApps 사용자 지정 시각적 개체의 보기, 만들기 및 수정 작업을 위한 브라우저 지원 가능성을 나열 합니다. 지원 되는 브라우저와 작업은 확인 표시 (&check;)로 식별 됩니다.
 
 |브라우저|봅니다|만드십시오|변경
 |-|-|-|-
@@ -105,7 +105,7 @@ PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항
 3. 키보드에서 **Ctrl + 오른쪽** 키를 사용 하 여 시각적 개체를 입력 합니다.
 3. 시각적 개체의 원하는 구성 요소가 선택 될 때까지 키보드의 **Tab** 키를 사용 합니다.
 
-자세한 내용은 다음을 참조 하세요. [Power BI 내게 필요한 옵션 설명서]( https://docs.microsoft.com/en-us/power-bi/desktop-accessibility)
+자세한 내용은 [Power BI 내게 필요한 옵션 설명서]( https://docs.microsoft.com/power-bi/desktop-accessibility) 를 참조 하세요.
 
 
 ## <a name="next-steps"></a>다음 단계

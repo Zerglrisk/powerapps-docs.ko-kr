@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f201d1fbad574174e4427698ae28439f26419514
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
-ms.translationtype: HT
+ms.openlocfilehash: 7b6f1056a6d2b5ceaf1fcefe1ccc7d583470450c
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63318371"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541710"
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>이미지를 Excel 파일에 저장한 다음 앱에 추가하는 방법
 
@@ -56,7 +56,7 @@ ms.locfileid: "63318371"
    이제 Drawings 테이블이 데이터 원본으로 나열됩니다.
 3. **삽입** 메뉴에서 **텍스트**를 선택한 다음, **펜 입력**을 선택합니다. 이름을 **MyPen**으로 바꿉니다.  
    
-   ![이름 바꾸기](./media/tutorial-working-with-images-in-excel/rename-mypen.png)
+   ![바꾸면](./media/tutorial-working-with-images-in-excel/rename-mypen.png)
 4. **단추** 컨트롤(**삽입** 메뉴)을 추가하고, **OnSelect** 속성을 다음 수식으로 설정합니다.  
    `Patch(Drawings, Defaults(Drawings), {Image:MyPen.Image})`
 5. **이미지 갤러리** 컨트롤(**삽입** 메뉴 > **갤러리**)을 추가하고 **Items** 속성을 `Drawings`로 설정합니다. 갤러리 컨트롤의 **Image** 속성은 자동으로 `ThisItem.Image`로 설정됩니다.
@@ -74,12 +74,12 @@ ms.locfileid: "63318371"
 ## <a name="add-the-image-in-an-excel-file-to-your-app"></a>Excel 파일의 이미지를 앱에 추가
 또 다른 예로, 클라우드 스토리지 계정에 이미지를 저장한 다음, 앱에서 Excel 테이블을 사용하여 이미지를 표시할 수 있습니다.
 
-이 예제에서는 일부 .jpeg 파일이 포함된 [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
+이 예제에서는 일부 .jpeg 파일이 포함된 [CreateFirstApp.zip](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
 
 > [!NOTE]
 > Excel 파일의 이미지를 표시할 때 이러한 이미지에 대한 경로에는 슬래시를 사용해야 합니다. PowerApps에서 이미지를 Excel 테이블에 저장하면(이전 단계와 마찬가지로) 경로에는 백슬래시가 사용됩니다. 따라서 이전 예제의 **SavePen_images**를 사용할 수도 있습니다. 이 경우 Excel 테이블의 경로에서 백슬래시 대신 슬래시를 사용하도록 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
 
-1. [CreateFirstApp.zip](http://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 스토리지 계정에 압축 해제합니다.
+1. [CreateFirstApp.zip](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 스토리지 계정에 압축 해제합니다.
 2. Excel 스프레드시트에서 다음과 비슷한 테이블을 만듭니다.
    
     ![Jackets 테이블](./media/tutorial-working-with-images-in-excel/jackets.png)
@@ -89,13 +89,13 @@ ms.locfileid: "63318371"
    
     ![항목 속성](./media/tutorial-working-with-images-in-excel/items-jackets.png)
    
-    갤러리가 해당 이미지로 자동으로 업데이트됩니다.  
+    갤러리는 이미지로 자동으로 업데이트됩니다.  
    
     ![Jacket 이미지](./media/tutorial-working-with-images-in-excel/images.png)
 
 Items 속성을 설정하면 Excel 테이블이 **PowerAppsId**라는 새 열로 자동으로 업데이트됩니다.
 
-Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있습니다. 클라우드 스토리지 계정에 [바닥재 견적](http://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx) 샘플 파일을 다운로드하고, 앱에서 `FlooringEstimates` 테이블을 데이터 원본으로 추가한 다음, 갤러리 컨트롤을 `FlooringEstimates`로 설정합니다. 갤러리가 해당 이미지로 자동으로 업데이트됩니다.
+Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있습니다. 클라우드 스토리지 계정에 [바닥재 견적](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx) 샘플 파일을 다운로드하고, 앱에서 `FlooringEstimates` 테이블을 데이터 원본으로 추가한 다음, 갤러리 컨트롤을 `FlooringEstimates`로 설정합니다. 갤러리가 해당 이미지로 자동으로 업데이트됩니다.
 
 ## <a name="learn-more"></a>자세한 정보
 [이미지, 비디오 또는 사운드 추가](add-images-pictures-audio-video.md)  

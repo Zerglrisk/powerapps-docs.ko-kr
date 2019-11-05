@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 49023d1eb0fadacb62ab985d0fe13e55e28a8da5
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 191bd21b84bfa4a4c1b6c2822a8c957e15164435
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71995734"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541461"
 ---
 # <a name="restore-a-canvas-app-to-a-previous-version-in-powerapps"></a>캔버스 앱을 PowerApps에서 이전 버전으로 복원
 이 문서에서는 PowerApps 계정에서 클라우드로 저장된 이전 버전으로 캔버스 앱을 복원하는 방법을 보여 줍니다.
 
 ## <a name="restore-an-app-from-your-account"></a>사용자 계정에서 앱 복원
-1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 연 다음, 왼쪽 탐색 표시줄에서 **앱**을 클릭하거나 누릅니다.
+1. [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 연 다음, 왼쪽 탐색 표시줄에서 **앱**을 클릭하거나 누릅니다.
 
     ![왼쪽 탐색 표시줄](./media/restore-an-app/file-apps.png)
 

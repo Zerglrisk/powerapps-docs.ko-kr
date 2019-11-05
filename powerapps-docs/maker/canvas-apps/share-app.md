@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 22260480d24cea999128f3c85cdf99e839d5f740
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: c78057118a1546c781ea813552650045ab357321
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73025907"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541371"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
@@ -37,7 +37,7 @@ ms.locfileid: "73025907"
 
 ## <a name="share-an-app"></a>앱 공유
 
-1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
 
     ![앱 목록 표시](./media/share-app/file-apps.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "73025907"
 
 1. 공유 패널의 아래쪽에서 **공유**를 선택 합니다.
 
-    앱을 공유 하는 모든 사용자는 모바일 장치의 PowerApps Mobile에서 또는 브라우저의 [Dynamics 365](https://home.dynamics.com) 에 대 한 appsource에서 실행할 수 있습니다. 공동 소유자는 [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 편집 하 고 공유할 수 있습니다.
+    앱을 공유 하는 모든 사용자는 모바일 장치의 PowerApps Mobile에서 또는 브라우저의 [Dynamics 365](https://home.dynamics.com) 에 대 한 appsource에서 실행할 수 있습니다. 공동 소유자는 [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 편집 하 고 공유할 수 있습니다.
 
     전자 메일 초대를 보낸 경우 앱을 공유한 모든 사람이 초대의 링크를 선택 하 여 실행할 수 있습니다.
 
@@ -125,11 +125,7 @@ Common Data Service 기반으로 앱을 만드는 경우 앱을 공유 하는 �
 이전 버전의 Common Data Service 기반으로 하는 앱을 공유 하는 경우 서비스에 대 한 런타임 권한을 별도로 공유 해야 합니다. 이 작업을 수행할 수 있는 권한이 없으면 환경 관리자에 게 문의 하세요.
 
 ## <a name="share-with-guests"></a>게스트와 공유
-
-> [!IMPORTANT]
-> - 미리 보기 기능은 프로덕션 용도로 사용되지 않으며 기능이 제한될 수 있습니다. 이러한 기능은 공식 릴리스 전에 사용할 수 있으므로 고객이 미리 액세스하고 피드백을 제공할 수 있습니다. 
-> - 미리 보기 기능은 Microsoft 지원에 의해 제한적으로 지원 되며 선택한 지리적 영역 에서만 사용할 수 있습니다. 
-
+ 
 PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용자와 공유할 수 있습니다. 이를 통해 외부 비즈니스 파트너, 계약자 및 제 3 자가 회사의 캔버스 앱을 실행할 수 있습니다. 
 
 > [!NOTE]
@@ -190,7 +186,7 @@ Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드
 > [!div class="mx-imgBorder"]  
 > ![게스트에 대 한 SharePoint에 캔버스 앱 포함](media/share-app/guest_access_doc_5.PNG "게스트에 대 한 SharePoint에 캔버스 앱 포함")
 
-IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 http://make.powerapps.com 로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
+IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 https://make.powerapps.com 로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
 
 > [!div class="mx-imgBorder"]  
 > ![Canvas 앱 세부 정보](media/share-app/guest_access_doc_6.PNG "Canvas 앱 세부 정보")
@@ -199,7 +195,7 @@ IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우
 비 게스트와 마찬가지로, 앱에서 액세스 하는 기본 데이터 원본도 게스트에서 액세스할 수 있도록 설정 해야 합니다.
 
 #### <a name="what-license-must-be-assigned-to-my-guest-so-they-can-run-an-app-shared-with-them"></a>사용자가 공유 하는 앱을 실행할 수 있도록 게스트에 할당 해야 하는 라이선스는 무엇입니까?
-비 게스트에 앱을 실행 하는 데 필요한 것과 동일한 라이선스. 예를 들어 앱에서 premium connecters를 사용 하지 않는 경우 PowerApps P1 라이선스는 게스트에 할당할 수 있는 충분 합니다.  
+비 게스트에 앱을 실행 하는 데 필요한 것과 동일한 라이선스. 예를 들어 앱에서 premium connecters를 사용 하는 경우 앱 계획 당 PowerApps 나 사용자 요금제 별 PowerApps를 게스트에 할당 해야 합니다.  
 
 |                                 | SharePoint 사용자 지정 양식 | 비 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 모델 기반 앱 |
 |---------------------------------|----------------------------|----------------------------------------------------|------------------------------------------------|------------------|

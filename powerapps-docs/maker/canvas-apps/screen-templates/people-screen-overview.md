@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: da7f7c037010df0da30e0363f988ac616f9fb6cc
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: e4c688232e275cee1e285b22dd4885ea2126e7ad
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71995679"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541396"
 ---
 # <a name="overview-of-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿 개요
 
@@ -42,11 +42,11 @@ Canvas 앱에서 사용자가 조직 내에서 사용자를 검색할 수 있는
 
 템플릿에서 사용자 화면을 추가 하려면 다음을 수행 합니다.
 
-1. PowerApps에 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
+1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
 
     이 항목은 휴대폰 앱을 표시 하지만 동일한 개념은 태블릿 앱에도 적용 됩니다.
 
-1. 리본의 **홈** 탭에서 **새 화면**@no__t 2**명의 사용자**를 선택 합니다.
+1. 리본의 **홈** 탭에서 **새 화면** > **사용자**를 선택 합니다.
 
     기본적으로 화면은 다음과 같이 표시 됩니다.
 
@@ -72,7 +72,7 @@ Canvas 앱에서 사용자가 조직 내에서 사용자를 검색할 수 있는
 
 1. **UserBrowseGallery**에서 수정할 레이블을 선택 하거나 하나 추가 하 고 선택 된 상태로 유지 합니다.
 
-1. **텍스트** 속성을 선택 하 고 수식 입력줄에서 내용을 `ThisItem.`로 바꿉니다.
+1. **텍스트** 속성을 선택 하 고 수식 입력줄에서 내용을 `ThisItem.` 바꿉니다.
 
     IntelliSense는 선택할 수 있는 필드 목록을 표시 합니다.
 
@@ -88,7 +88,7 @@ Canvas 앱에서 사용자가 조직 내에서 사용자를 검색할 수 있는
 
 사용자 화면은 **MyPeople** collection에서 사용자가 선택한 항목을 캐시 합니다. 비즈니스 시나리오에서 사용자 조회를 호출 해야 하는 경우이 컬렉션을 사용 하는 방법을 알고 있어야 합니다. 여기서는이 화면을 기본적인 전자 메일 화면에 연결 하 고 **MyPeople** collection의 사용자에 게 전자 메일을 보내는 방법을 안내 합니다. 또한 [전자 메일 화면이](./email-screen-overview.md) 작동 하는 방식을 파악할 수 있습니다.
 
-1. **보기** 탭을 선택 하 고 **, 데이터 소스 @no__t-** 2**데이터 소스 추가**를 선택 하 고, office 365 Outlook 커넥터를 검색 하 여 office 365 outlook 데이터 원본을 앱에 추가 합니다. **새 연결** 을 선택 하 여 찾을 수 있습니다.
+1. **보기** 탭을 선택 하 **고 데이터** **소스 > 데이터 소스를 추가**하 고 office 365 Outlook 커넥터를 검색 하 여 office 365 outlook 데이터 원본을 앱에 추가 합니다. **새 연결** 을 선택 하 여 찾을 수 있습니다.
 1. 사용자 화면을 삽입 한 후 빈 화면을 새로 삽입 합니다. 이 화면에서 뒤로 화살표 아이콘, 두 개의 텍스트 상자 및 송신 아이콘을 추가 합니다.
 1. 화면 이름을 **Emailscreen**로, 뒤로 화살표 아이콘을 **backicon**으로, 한 텍스트 입력 상자를 **선**으로, 기타를 **Messagebody**로, 송신 아이콘을 **sendicon**으로 바꿉니다.
 1. **Backicon** 의 **onselect** 속성을 `Back()`로 설정 합니다.
@@ -102,8 +102,8 @@ Canvas 앱에서 사용자가 조직 내에서 사용자를 검색할 수 있는
     )
     ```
     
-    여기서는 Outlook 커넥터를 사용 하 여 전자 메일을 보냅니다. @No__t-0을 수신자 목록으로 전달 합니다. 이 수식은 **MyPeople** collection의 모든 전자 메일 주소를 세미콜론으로 구분 하 여 단일 문자열로 연결 합니다. 이는 선호 하는 전자 메일 클라이언트의 "대상" 줄에서 세미콜론으로 구분 된 전자 메일 주소 문자열을 작성 하는 것과 다르지 않습니다.
-    * @No__t-0을 메시지의 제목으로 전달 하 고 `MessageBody.Text`을 메시지의 본문으로 전달 합니다.
+    여기서는 Outlook 커넥터를 사용 하 여 전자 메일을 보냅니다. 이 `Concat(MyPeople, UserPrincipalName & ";")` 받는 사람 목록으로 전달 합니다. 이 수식은 **MyPeople** collection의 모든 전자 메일 주소를 세미콜론으로 구분 하 여 단일 문자열로 연결 합니다. 이는 선호 하는 전자 메일 클라이언트의 "대상" 줄에서 세미콜론으로 구분 된 전자 메일 주소 문자열을 작성 하는 것과 다르지 않습니다.
+    * 메시지의 제목으로 `SubjectLine.Text`를 전달 하 고 `MessageBody.Text` 메시지의 본문으로 전달 합니다.
 1. 사용자 화면의 오른쪽 위 모서리에서 **메일** 아이콘을 삽입 합니다.
    아이콘 색을 원하는 대로 변경 합니다.
 1. **Sendicon** 의 **onselect** 속성을 `Navigate( EmailScreen, None )`로 설정 합니다.

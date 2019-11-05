@@ -13,22 +13,22 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ef5da72c39d06d021765500fb5d1e55299dfb1cc
-ms.sourcegitcommit: d6b7f98b4ae011a753c1e72d7708f0f8dfbfb1fb
+ms.openlocfilehash: 2c093adb4b63b5374de118d8d7dbb3421e352f46
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "69896244"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541067"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 
 이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.
 
-1. **인증자를 사용 하는 경우 특정 Android 모바일 장치에서 로그인 문제** (8 월 21 일, 2019)
+1. **인증자를 사용 하는 경우 특정 Android 모바일 장치에서 로그인 문제** (2019 년 8 월 21 일)
 
     특정 장치 및 시나리오에서 인증자를 사용 하는 경우 로그인 오류가 발생할 수 있습니다. 이는 OEM이이 기능을 제한 하기 때문입니다. 오류 및 가능한 완화 방법에 대 한 자세한 내용은 [여기](https://github.com/AzureAD/azure-activedirectory-library-for-android/wiki/ADALError:-BROKER_AUTHENTICATOR_NOT_RESPONDING)를 참조 하세요.    
 
-1. **Android 모바일 장치에서** 발생 하는 카메라 문제 (1 월 1 일, 2019)
+1. **Android 모바일 장치에 대 한 카메라 문제** (Jan. 1, 2019)
 
     카메라 컨트롤이 Android 장치에서 작동 중지 되 면 앱을 다시 게시 하 고 장치에서 다시 엽니다. Android 운영 체제의 변경에 대 한 응답으로 카메라 컨트롤이 업데이트 되었으며 앱은 다시 게시할 때 업데이트를 활용 합니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "69896244"
 
     손가락으로 스크롤하면 제한이 발생 하면이를 리프트 하 고 다시 스크롤을 시작 합니다.
 
-1. **Windows 용 PowerApps에서 마우스 또는 터치 입력을 사용 하 여 그리기는 자연스럽 게 안 됨** 2005. 24, 2018)
+1. Windows 용 PowerApps (9 월 24 일, 2018) **에서 마우스 또는 터치 입력으로 그리기는 자연스럽 게 진행 되지 않습니다** .
 
     펜 컨트롤은 Windows 앱에서 마우스 또는 터치 입력을 사용한 그리기를 부분적 으로만 지원 합니다. 스트로크는 간헐적 일 수 있습니다. 부드러운 그리기의 경우 펜을 사용 하거나 브라우저에서 앱을 실행 합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "69896244"
 
 1. **포함된 앱에서 웹 사이트 시작**(2018년 5월 10일)
 
-    Internet Explorer와 Microsoft Edge 브라우저는 보호 모드에 있거나 앱이 로드된 웹 사이트보다 보안이 낮은 영역에 있는 URL 또는 웹 사이트의 시작을 차단할 수 있습니다. 이 문제를 해결하려면 사용하는 브라우저에 맞게 [보안 및 개인 정보 설정을 변경](https://support.microsoft.com/en-us/help/17479/windows-internet-explorer-11-change-security-privacy-settings)하세요.
+    Internet Explorer와 Microsoft Edge 브라우저는 보호 모드에 있거나 앱이 로드된 웹 사이트보다 보안이 낮은 영역에 있는 URL 또는 웹 사이트의 시작을 차단할 수 있습니다. 이 문제를 해결하려면 사용하는 브라우저에 맞게 [보안 및 개인 정보 설정을 변경](https://support.microsoft.com/help/17479/windows-internet-explorer-11-change-security-privacy-settings)하세요.
 
 1. **갤러리의 콤보 상자 컨트롤**(2018년 5월 3일)
 
@@ -65,7 +65,7 @@ ms.locfileid: "69896244"
 
 1. **사용자 지정 이미지를 앱 아이콘으로 사용**(2018년 4월 11일)
 
-    Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.
+    Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.
 
 1. **앱 간에 화면 복사 및 붙여넣기**(2018년 4월 4일)
 
@@ -101,7 +101,7 @@ ms.locfileid: "69896244"
 
 1. **Windows 8.1에서 앱 실행**
 
-    [이 Windows 8.1용 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치하는 경우 해당 운영 체제에서 PowerApps Studio로 여는 앱을 실행할 수 없습니다. 하지만 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Mobile로 여는 앱은 계속 실행할 수 있습니다.
+    [이 Windows 8.1용 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치하는 경우 해당 운영 체제에서 PowerApps Studio로 여는 앱을 실행할 수 없습니다. 하지만 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Mobile로 여는 앱은 계속 실행할 수 있습니다.
 
 1. **공백이 포함된 열 이**
 
@@ -157,7 +157,7 @@ ms.locfileid: "69896244"
 
      자세한 내용은 [SharePoint Online](connections/connection-sharepoint-online.md#known-issues)을 참조하세요.
 
-1. **공동 작성은 지원되지 않습니다. 한 번에 한 명의 작성자만 작성하세요**.
+1. **공동 작성은 지원 되지 않습니다. 한 번에 하나의 작성자를 만드세요**.
 
      여러 명이 동시에 수정하면 앱이 손상되거나 다른 사용자의 변경 내용으로 작성될 수 있습니다. 다른 사용자가 편집하기 전에 앱을 닫습니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 576e61e6e4ea1aad317fdec8f49f76bfcd1e0b6a
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: cb1757da9a5b0a99dad22a43ac844b192651f6df
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71990255"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541309"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>PowerApps의 Excel에서 캔버스 앱 생성
 
@@ -26,7 +26,7 @@ ms.locfileid: "71990255"
 
 Excel 파일은 OneDrive, Google Drive 또는 Dropbox와 같은 클라우드 스토리지 계정에 있어야 합니다. 이 항목에서는 비즈니스용 OneDrive를 사용합니다.
 
-PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
+PowerApps에 대한 라이선스가 없는 경우 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -37,7 +37,7 @@ PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-p
 
 ## <a name="generate-the-app"></a>앱 생성
 
-1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 선택합니다.
 

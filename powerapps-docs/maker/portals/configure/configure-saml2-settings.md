@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: a9e3f9398d8fdeadc9f5a6f7c57bbedbf972ef62
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: af5b0ae8eddb68127c7271fccb4696a23fedfc60
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72978166"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542734"
 ---
 # <a name="configure-saml-20-provider-settings-for-portals"></a>포털에 대 한 SAML 2.0 공급자 설정 구성
 
-외부 인증을 제공 하려면 하나 이상의 [SAML 2.0](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)호환 id 공급자 (IdP)를 추가할 수 있습니다. 이 문서에서는 다양 한 id 공급자를 설정 하 여 서비스 공급자 역할을 하는 포털과 통합 하는 방법에 대해 설명 합니다.  
+외부 인증을 제공 하려면 하나 이상의 [SAML 2.0](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html)호환 id 공급자 (IdP)를 추가할 수 있습니다. 이 문서에서는 다양 한 id 공급자를 설정 하 여 서비스 공급자 역할을 하는 포털과 통합 하는 방법에 대해 설명 합니다.  
 
 ## <a name="ad-fs-idp"></a>AD FS (IdP)
 
@@ -88,7 +88,7 @@ ms.locfileid: "72978166"
 
 > [!Note]
 > 표준 [!include[](../../../includes/pn-adfs-short.md)] (IdP) 구성은 Authentication/SAML2/ADFS/MetadataAddress Address를 사용 하는 다음 설정 (예제 값)만 사용 합니다.  
-> - Authentication/SAML2/ADFS/AuthenticationType- http://adfs.contoso.com/adfs/services/trust    
+> - Authentication/SAML2/ADFS/AuthenticationType- https://adfs.contoso.com/adfs/services/trust    
 >   -   페더레이션 메타 데이터의 루트 요소에 있는 **entityID** 특성의 값을 사용 합니다 (위의 사이트 설정 값을 브라우저에서 **metadataaddress URL** 열기). 
 > - Authentication/SAML2/ADFS/ServiceProviderRealm- https://portal.contoso.com/  
 > - Authentication/SAML2/ADFS/AssertionConsumerServiceUrl- https://portal.contoso.com/signin-saml2  
@@ -102,7 +102,7 @@ ms.locfileid: "72978166"
 |---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 인증/등록/ExternalLoginEnabled              | 외부 계정 로그인 및 등록을 사용 하거나 사용 하지 않도록 설정 합니다. 기본값: true                                                                                                                                                                                                                                                                                                                                                            |
 | Authentication/SAML2/[provider]/MetadataAddress             | 필수. STS ([!include[](../../../includes/pn-adfs-short.md)]) 서버의 [ws-federation](https://msdn.microsoft.com/library/bb498017.aspx) 메타 데이터 URL입니다. 일반적으로/Federationmetadata.xml/2007-06/Federationmetadata.xml 경로로 끝납니다. 예: `https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml`. [!include[](../../../includes/proc-more-information.md)] [WsFederationAuthenticationOptions 주소](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.metadataaddress.aspx) |  
-| Authentication/SAML2/[provider]/AuthenticationType          | 필수. OWIN authentication 미들웨어 유형입니다. 페더레이션 메타 데이터 XML의 루트에 있는 [entityID](https://docs.microsoft.com/azure/active-directory/develop/active-directory-federation-metadata) 특성의 값을 지정 합니다. 예: `http://adfs.contoso.com/adfs/services/trust`. [!include[](../../../includes/proc-more-information.md)] [Authenticationoptions. AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx)                                                            |  
+| Authentication/SAML2/[provider]/AuthenticationType          | 필수. OWIN authentication 미들웨어 유형입니다. 페더레이션 메타 데이터 XML의 루트에 있는 [entityID](https://docs.microsoft.com/azure/active-directory/develop/active-directory-federation-metadata) 특성의 값을 지정 합니다. 예: `https://adfs.contoso.com/adfs/services/trust`. [!include[](../../../includes/proc-more-information.md)] [Authenticationoptions. AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx)                                                            |  
 | Authentication/SAML2/[provider]/ServiceProviderRealm<br>또는 <br>Authentication/SAML2/[provider]/Wtrealm                      | 필수. [!include[](../../../includes/pn-adfs-short.md)] 신뢰 당사자 식별자입니다. 예: `https://portal.contoso.com/`. [!include[](../../../includes/proc-more-information.md)] [WsFederationAuthenticationOptions Wtrealm](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wtrealm.aspx)                       |  
 | Authentication/SAML2/[provider]/AssertionConsumerServiceUrl<br>또는<br>Authentication/SAML2/[provider]/Wreply                       | 필수. [!include[](../../../includes/pn-adfs-short.md)] SAML 소비자 어설션 끝점입니다. 예: https://portal.contoso.com/signin-saml2. [!include[](../../../includes/proc-more-information.md)] [WsFederationAuthenticationOptions Wreply](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.wreply.aspx)                                                                                                                                                                                                  |  
 | Authentication/SAML2/[provider]/캡션                     | 바람직하지. 사용자가 로그인 사용자 인터페이스에 표시할 수 있는 텍스트입니다. 기본값: [provider]. [!include[](../../../includes/proc-more-information.md)] [WsFederationAuthenticationOptions](https://msdn.microsoft.com/library/microsoft.owin.security.wsfederation.wsfederationauthenticationoptions.caption.aspx)                |  
@@ -118,7 +118,7 @@ ms.locfileid: "72978166"
 
 ### <a name="idp-initiated-sign-in"></a>IdP-시작 된 로그인
 
-[!include[](../../../includes/pn-adfs-short.md)]는 SAML 2.0 [사양의](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline) [SSO (IdP Single Sign-On](https://technet.microsoft.com/library/jj127245.aspx) ) 프로필을 지원 합니다. 포털 (서비스 공급자)이 IdP에서 시작 된 SAML 요청에 적절히 응답 하려면 [RelayState](http://blogs.technet.com/b/askds/archive/2012/09/27/ad-fs-2-0-relaystate.aspx) 매개 변수를 올바르게 인코딩해야 합니다.  
+[!include[](../../../includes/pn-adfs-short.md)]는 SAML 2.0 [사양의](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline) [SSO (IdP Single Sign-On](https://technet.microsoft.com/library/jj127245.aspx) ) 프로필을 지원 합니다. 포털 (서비스 공급자)이 IdP에서 시작 된 SAML 요청에 적절히 응답 하려면 [RelayState](https://blogs.technet.com/b/askds/archive/2012/09/27/ad-fs-2-0-relaystate.aspx) 매개 변수를 올바르게 인코딩해야 합니다.  
 
 SAML RelayState 매개 변수로 인코딩될 기본 문자열 값은 **ReturnUrl =/content/sub-content/** 형식 이어야 합니다. 여기서 **/content/sub-content/** 는 포털 (서비스 공급자)에서 이동 하려는 웹 페이지의 경로입니다. 경로는 포털의 유효한 웹 페이지로 바꿀 수 있습니다. 문자열 값은 인코딩된 다음 **rpid =&lt;url로 인코딩된 rpid&gt;& RelayState =&lt;url 인코딩된 RelayState&gt;** 형식의 컨테이너 문자열에 배치 됩니다. 이 전체 문자열을 다시 인코딩한 후 **<https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=&lt;URL> 인코딩된 RPID/RelayState&gt;** 형식의 다른 컨테이너에 추가 했습니다.
 
@@ -221,7 +221,7 @@ Write-Output $idpInitiatedUrl
     이는 **Serviceproviderrealm** (Wtrealm) 사이트 설정 값에 해당 합니다.
 5. 이때 새 응용 프로그램이 만들어집니다. 메뉴의 **구성** 섹션으로 이동 합니다.
 
-    **Single Sign-On** 섹션에서 첫 번째 **회신 url** 항목을 업데이트 하 여 url http://portal.contoso.com/signin-azure-ad 에 경로를 포함 합니다.
+    **Single Sign-On** 섹션에서 첫 번째 **회신 url** 항목을 업데이트 하 여 url https://portal.contoso.com/signin-azure-ad 에 경로를 포함 합니다.
 
     이는 **AssertionConsumerServiceUrl** (Wreply) 사이트 설정 값에 해당 합니다.
 
@@ -283,7 +283,7 @@ Location 특성은**AssertionConsumerServiceUrl** (Wreply) 설정에 해당 합�
 
 ### <a name="idp-initiated-sign-in"></a>IdP-시작 된 로그인
 
-Shibboleth는 SAML 2.0 [사양의](http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline) [IdP 시작 SSO](https://wiki.shibboleth.net/confluence/display/SHIB2/IdPUnsolicitedSSO) 프로필을 지원 합니다. 포털 (서비스 공급자)이 IdP에서 시작 된 SAML 요청에 적절히 응답 하려면 RelayState 매개 변수를 올바르게 인코딩해야 합니다.  
+Shibboleth는 SAML 2.0 [사양의](https://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0-cd-02.html#5.1.4.IdP-Initiated%20SSO:%20POST%20Binding|outline) [IdP 시작 SSO](https://wiki.shibboleth.net/confluence/display/SHIB2/IdPUnsolicitedSSO) 프로필을 지원 합니다. 포털 (서비스 공급자)이 IdP에서 시작 된 SAML 요청에 적절히 응답 하려면 RelayState 매개 변수를 올바르게 인코딩해야 합니다.  
 
 SAML RelayState 매개 변수로 인코딩될 기본 문자열 값은 **ReturnUrl =/content/sub-content/** 형식 이어야 합니다. 여기서 **/content/sub-content/** 는 포털 (서비스 공급자)에서 이동 하려는 웹 페이지의 경로입니다. 경로는 포털의 유효한 웹 페이지로 바꿀 수 있습니다. 전체 IdP 시작 된 SSO URL은 인코딩된 <https://idp.contoso.com/idp/profile/SAML2/Unsolicited/SSO?providerId=&lt;URL> 공급자 ID&gt;& target =&lt;URL 인코딩된 반환 경로&gt;형식 이어야 합니다.
 
@@ -410,17 +410,17 @@ $issuanceTransformRules = @'
 
 @RuleName = Transform [!INCLUDE[pn-ms-windows-short](../../../includes/pn-ms-windows-short.md)] Account Name to Name ID claim
 
-c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"]
+c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname"]
 
-=> issue(Type = "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType, Properties["http://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format"] = "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent");
+=> issue(Type = "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier", Issuer = c.Issuer, OriginalIssuer = c.OriginalIssuer, Value = c.Value, ValueType = c.ValueType, Properties["https://schemas.xmlsoap.org/ws/2005/05/identity/claimproperties/format"] = "urn:oasis:names:tc:SAML:2.0:nameid-format:persistent");
 
 @RuleTemplate = LdapClaims
 
 @RuleName = Send LDAP Claims
 
-c:[Type == "http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"]
+c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname", Issuer == "AD AUTHORITY"]
 
-=> issue(store = "[!INCLUDE[pn-active-directory](../../../includes/pn-active-directory.md)]", types = ("http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname", "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"), query = ";givenName,sn,mail;{{0}}", param = c.Value);
+=> issue(store = "[!INCLUDE[pn-active-directory](../../../includes/pn-active-directory.md)]", types = ("https://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname", "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname", "https://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"), query = ";givenName,sn,mail;{{0}}", param = c.Value);
 
 '@ -f $identityProviderValue
 
@@ -428,7 +428,7 @@ $issuanceAuthorizationRules = @'
 
 @RuleTemplate = AllowAllAuthzRule
 
-=> issue(Type = http://schemas.microsoft.com/authorization/claims/permit, Value = true);
+=> issue(Type = https://schemas.microsoft.com/authorization/claims/permit, Value = true);
 
 '@
 

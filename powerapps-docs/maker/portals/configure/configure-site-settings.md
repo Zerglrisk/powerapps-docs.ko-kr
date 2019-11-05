@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 339a8b221474bd9d98ed8e425f730bab1dbb1e0a
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: 19dca44c26565bc55dcfaace48987b69dd0a195f
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72978327"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542723"
 ---
 # <a name="configure-site-settings-for-portals"></a>포털에 대 한 사이트 설정 구성
 
@@ -64,10 +64,10 @@ PowerApps 포털 설치와 함께 제공 되는 샘플 포털에는 배경 스�
 |검색/사용|TRUE|검색을 사용할 수 있는지 여부를 나타내는 부울 값입니다.|
 |검색/필터|콘텐츠: adx_webpage; 이벤트: adx_event, adx_eventschedule;<br>블로그: adx_blog, adx_blogpost, adx_blogpostcomment;<br>포럼: adx_communityforum, adx_communityforumthread, adx_communityforumpost;<br>아이디어: adx_ideaforum, adx_idea, adx_ideacomment;<br>문제: adx_issueforum, adx_issue, adx_issuecomment; 지원 센터: 인시던트|검색 논리 이름 필터 옵션의 컬렉션입니다. 여기에서 값을 정의 하면 드롭다운 필터 옵션이 사이트 전체 검색에 추가 됩니다. 이 값은 이름/값 쌍의 형식 이어야 하며, 이름 및 값은 콜론으로 구분 하 고 쌍은 세미콜론으로 구분 해야 합니다.<br>예: "포럼: adx_communityforum, adx_communityforumthread, adx_communityforumpost; 블로그: adx_blog, adx_blogpost, adx_blogpostcomment ".|
 |검색/IndexQueryName|포털 검색|포털 검색 쿼리에서 사용 되는 시스템 뷰의 이름입니다. 기본값: 포털 검색|
-|검색/쿼리|\+ (@Query) _title: (@Query) _logicalname: adx_webpage ~ 0.9 ^ 0.2<br> -_logicalname: adx_webfile ~ 0.9 adx_partialurl@Query)<br> _logicalname: adx_blogpost ~ 0.9 ^ 0.1-_logicalname: adx_communityforumthread ~ 0.9|사이트 검색에 대 한 쿼리를 재정의 하 여 추가 가중치 및 필터를 적용 합니다. @Query은 사용자가 입력 한 쿼리 텍스트입니다. Lucene 쿼리 구문 참조: [http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html](http://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html)| 
+|검색/쿼리|\+ (@Query) _title: (@Query) _logicalname: adx_webpage ~ 0.9 ^ 0.2<br> -_logicalname: adx_webfile ~ 0.9 adx_partialurl@Query)<br> _logicalname: adx_blogpost ~ 0.9 ^ 0.1-_logicalname: adx_communityforumthread ~ 0.9|사이트 검색에 대 한 쿼리를 재정의 하 여 추가 가중치 및 필터를 적용 합니다. @Query은 사용자가 입력 한 쿼리 텍스트입니다. Lucene 쿼리 구문 참조: [https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html](https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html)| 
 |검색/형태소 분석기|영어|포털 검색의 형태소 분석 알고리즘에서 사용 하는 언어입니다. 기본값: 영어|
 |CustomerSupport/Displayalluseractivonetimeline|허위| |
-|인증/[프로토콜]/[공급자]/AllowContactMappingWithEmail| |전자 메일을 기반으로 하는 연락처 레코드에 자동 연결을 허용 합니다. 자세한 내용을 보려면 [여기](https://docs.microsoft.com/en-us/dynamics365/portals/azure-ad-b2c#allow-auto-association-to-a-contact-record-based-on-email)를 클릭 하세요.|
+|인증/[프로토콜]/[공급자]/AllowContactMappingWithEmail| |전자 메일을 기반으로 하는 연락처 레코드에 자동 연결을 허용 합니다. 자세한 내용을 보려면 [여기](azure-ad-b2c.md#allow-auto-association-to-a-contact-record-based-on-email)를 클릭 하세요.|
 |||
 
 다양 한 포털 기능과 관련 된 사이트 설정은 다음을 참조 하세요.
@@ -79,10 +79,9 @@ PowerApps 포털 설치와 함께 제공 되는 샘플 포털에는 배경 스�
 - [WS-FEDERATION](configure-ws-federation-settings.md)
 - [SAML 2.0](configure-saml2-settings.md)
 - [Azure AD B2C로 id 공급자 마이그레이션](migrate-identity-providers.md)
-- [파일 첨부 콘텐츠 내에서 검색](https://docs.microsoft.com/dynamics365/customer-engagement/portals/search-file-attachment)
-- [날짜 및 시간 필드의 동작 및 형식](https://docs.microsoft.com/dynamics365/customer-engagement/portals/behavior-format-date-time-field)
-- [지리적 위치 추가](https://docs.microsoft.com/dynamics365/customer-engagement/portals/add-geolocation)
-- [필드 서비스 통합](https://docs.microsoft.com/dynamics365/customer-engagement/portals/integrate-field-service)
+- [파일 첨부 콘텐츠 내에서 검색](search-file-attachment.md)
+- [날짜 및 시간 필드의 동작 및 형식](behavior-format-date-time-field.md)
+- [지리적 위치 추가](add-geolocation.md)
 - [일반 데이터 보호 규정 구현](https://docs.microsoft.com/dynamics365/customer-engagement/portals/implement-gdpr)
 - [머리글 및 바닥글 출력 캐싱 사용](https://docs.microsoft.com/dynamics365/customer-engagement/portals/enable-header-footer-output-caching)
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2e0f365a5b41655188a3adfe02b721e6a5ef9bcd
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: fdaf242dec8500f1f50603e5ccb981b12197e2da
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71988623"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541754"
 ---
 # <a name="show-text-dates-and-times-in-powerapps"></a>PowerApps에서 텍스트, 날짜 및 시간 표시
 PowerApps에서 날짜와 시간을 캔버스 앱에 추가하고 형식을 지정하여 적절한 수준의 세부 정보를 표시하거나 로캘을 반영합니다. 두 날짜 사이의 시간을 계산하거나 지정한 날짜 이전 또는 이후의 특정 시간에 해당하는 날짜를 계산합니다. 날짜를 일, 월 및 연도에 대한 별도의 값으로 변환하고 시, 분 및 초에 대한 별도의 값으로 변환합니다.
@@ -27,7 +27,7 @@ PowerApps에서 날짜와 시간을 캔버스 앱에 추가하고 형식을 지�
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 * PowerApps에서 앱을 만들거나 기존 앱을 엽니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 

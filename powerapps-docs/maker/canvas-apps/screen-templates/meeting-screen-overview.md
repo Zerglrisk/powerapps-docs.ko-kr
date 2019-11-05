@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c53857acfdcb44faa26b2ec3e04b904e25c09aee
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 2b300b0d90803ae08aaf262dde5642f4d448c05f
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71995641"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541427"
 ---
 # <a name="overview-of-the-meeting-screen-template-for-canvas-apps"></a>캔버스 앱에 대 한 모임 화면 템플릿 개요
 
@@ -38,7 +38,7 @@ Canvas 앱에서 사용자가 Office 365 Outlook 계정에서 모임 요청을 �
 
 템플릿에서 모임 화면을 추가 하려면 다음을 수행 합니다.
 
-1. PowerApps에 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
+1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
 
     이 항목은 휴대폰 앱을 표시 하지만 동일한 개념은 태블릿 앱에도 적용 됩니다.
 

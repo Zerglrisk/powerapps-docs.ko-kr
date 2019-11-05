@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 470aa0671eddc5f4d3621c4dbdd8d81036c358e4
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 9ca7e5f14508a2dcd70967e77b29989819bfe7ba
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71989400"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541591"
 ---
 # <a name="overview-of-the-calendar-screen-template-for-canvas-apps"></a>Canvas 앱에 대 한 달력 화면 템플릿 개요
 
@@ -42,11 +42,11 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
 
 템플릿에서 일정 화면을 추가 하려면 다음을 수행 합니다.
 
-1. PowerApps에 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
+1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
 
     이 항목은 휴대폰 앱을 표시 하지만 동일한 개념은 태블릿 앱에도 적용 됩니다.
 
-1. 리본의 **홈** 탭에서 **새 화면** > **일정**을 선택 합니다.
+1. 리본의 **홈** 탭에서 **새 화면** > **달력**을 선택 합니다.
 
     기본적으로 화면은 다음과 같이 표시 됩니다.
 
@@ -150,7 +150,7 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
 
 기본적으로 **CalendarEventsGallery**라는 달력 아래 갤러리에는 시작 시간, 기간, 제목 및 각 이벤트의 위치가 표시 됩니다. [Office 365 커넥터가](https://docs.microsoft.com/connectors/office365/#calendareventclientreceive) 지 원하는 필드 (예: 구성 도우미)를 표시 하도록 갤러리를 구성할 수 있습니다.
 
-1. **CalendarEventsGallery**에서 새 또는 기존 레이블의 **Text** 속성을 `ThisItem`로 설정 하 고 마침표를 설정 합니다.
+1. **CalendarEventsGallery**에서 새 또는 기존 레이블의 **Text** 속성을 `ThisItem` 다음에 마침표를 설정 합니다.
 
     IntelliSense는 선택할 수 있는 필드를 나열 합니다.
 
@@ -249,7 +249,7 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
 
 ### <a name="show-event-attendees"></a>이벤트 참석자 표시
 
-@No__t-0 작업은 세미콜론으로 구분 된 필수 및 선택적 참석자 집합을 포함 하 여 각 이벤트에 대 한 다양 한 필드를 검색 합니다. 이 절차에서는 각 참석자 집합을 구문 분석 하 고, 조직 내에 있는 참석자를 확인 하 고, 모든 사용자의 Office 365 프로필을 검색 합니다.
+`Office365.GetEventsCalendarViewV2` 작업은 세미콜론으로 구분 된 필수 및 선택적 참석자 집합을 포함 하 여 각 이벤트에 대 한 다양 한 필드를 검색 합니다. 이 절차에서는 각 참석자 집합을 구문 분석 하 고, 조직 내에 있는 참석자를 확인 하 고, 모든 사용자의 Office 365 프로필을 검색 합니다.
 
 1. 앱에 Office 365 사용자 커넥터가 없는 경우 [추가](../add-data-connection.md)합니다.
 
@@ -306,11 +306,11 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
     ```
     이 수식에서는 참석자가 조직에 있는지 여부를 대략적으로 확인 합니다. **_Userdomain** 의 정의는 앱을 실행 하는 사용자의 메일 주소에 있는 도메인 URL 일 뿐입니다. 이 줄은 **AttendeeEmailsTemp** 컬렉션에 **inorg**라는 추가 true/false 열을 만듭니다. **Userdomain** 이 **AttendeeEmailsTemp**의 특정 행에 있는 전자 메일 주소의 도메인 URL과 동일한 경우이 열에 **true** 가 포함 됩니다.
 
-    이 접근 방식은 항상 정확한 것은 아니지만 매우 가깝습니다. 예를 들어 조직의 특정 참석자는 Jane@OnContoso.com과 같은 전자 메일 주소를 사용할 수 있지만 **_Userdomain** 은 Contoso.com입니다. 앱 사용자와 Jane은 동일한 회사에서 작동할 수 있지만 전자 메일 주소에는 약간의 차이가 있습니다. 이와 같은 경우에는 다음 수식을 사용할 수 있습니다.
+    이 접근 방식은 항상 정확한 것은 아니지만 매우 가깝습니다. 예를 들어 조직의 특정 참석자는 Jane@OnContoso.com와 같은 전자 메일 주소를 가질 수 있습니다. 반면 **_Userdomain** 은 Contoso.com입니다. 앱 사용자와 Jane은 동일한 회사에서 작동할 수 있지만 전자 메일 주소에는 약간의 차이가 있습니다. 이와 같은 경우에는 다음 수식을 사용할 수 있습니다.
 
     `Upper(_userDomain) in Upper(Right(Result, Len(Result) - Find("@", Result)))`
 
-    그러나이 수식은 Contoso.com와 같은 **_Userdomain** 과 Jane@NotTheContosoCompany.com과 같은 전자 메일 주소를 찾지만 이러한 사용자는 같은 회사에서 작동 하지 않습니다.
+    그러나이 수식은 Contoso.com와 같은 **_Userdomain** 과 Jane@NotTheContosoCompany.com 같은 전자 메일 주소를 찾지만 이러한 사용자는 같은 회사에서 작동 하지 않습니다.
 
 - ClearCollect (MyPeople)
 

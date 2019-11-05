@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6c9195bb9256c3d977300e61efe3f2cc88cfbf67
-ms.sourcegitcommit: 0e7bdaea83adaa15da4d5c9ddbcd0b2bcbee01df
+ms.openlocfilehash: dd5d8b8e6757b18feb5da03c503b19e689ca3efe
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73063417"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541241"
 ---
 # <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
 
@@ -40,7 +40,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 ## <a name="prerequisites"></a>필수 조건
 
-- PowerApps에 [등록](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+- PowerApps에 [등록](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 - 올바른 SharePoint Online 라이선스 및 목록을 만들 수 있는 권한이 있어야 합니다.
 
 ## <a name="create-the-helpdesk-sharepoint-list"></a>지원 센터 SharePoint 목록 만들기
@@ -140,11 +140,11 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 ## <a name="download-the-app"></a>앱 다운로드
 
-1.  PowerApps 패키지를 [다운로드](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip)하여 컴퓨터에 저장합니다.
+1.  PowerApps 패키지를 [다운로드](https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip)하여 컴퓨터에 저장합니다.
 
 ## <a name="create-connections"></a>연결 만들기
 
-1.  웹 브라우저에서 [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)으로 이동합니다.
+1.  웹 브라우저에서 [make.powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)로 이동 합니다.
 2.  등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
 3.  왼쪽 메뉴에서 **데이터**를 선택한 다음, **연결**을 선택합니다.
     
@@ -174,7 +174,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 ## <a name="import-the-app"></a>앱 가져오기
 
-1. 웹 브라우저에서 https://web.powerapps.com 으로 이동합니다.
+1. 웹 브라우저에서 https://make.powerapps.com 으로 이동합니다.
 2. 등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
 3. 왼쪽 메뉴에서 **앱**을 선택합니다. 
 4. **패키지 가져오기(미리 보기)** 를 클릭합니다.

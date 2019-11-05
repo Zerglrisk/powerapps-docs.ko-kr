@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ac6586067105d5f6cd1ce2aab5568450804fe4c6
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 03411202ecc9c4c04713f7eb9cf6286809109684
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71990974"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541525"
 ---
 # <a name="create-an-order-gallery-in-a-canvas-app"></a>캔버스 앱에서 주문 갤러리 만들기
 
@@ -38,7 +38,7 @@ ms.locfileid: "71990974"
 
 ## <a name="create-a-blank-app"></a>빈 앱 만들기
 
-1. [PowerApps에 로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음 빈 태블릿 앱을 만듭니다.
+1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음 빈 태블릿 앱을 만듭니다.
 
     > [!div class="mx-imgBorder"]
     > 빈 타일에서 캔버스 앱 ![](media/northwind-orders-canvas-part1/start-01.png)

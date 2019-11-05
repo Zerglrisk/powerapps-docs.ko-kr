@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 25a26e6298fa3257f3db6d04ffd2937e8e71d3a1
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: be576425067079549d3174e6d6306814a6ddb13a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72978534"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542815"
 ---
 # <a name="configure-oauth2-provider-settings-for-portals"></a>포털에 대 한 OAuth2 공급자 설정 구성
 
@@ -31,7 +31,7 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
 
 ## <a name="create-oauth-applications"></a>OAuth 응용 프로그램 만들기
 
-일반적으로 OAuth 공급자가 리디렉션 URI 값을 요구 하는 앱 설정을 사용 하는 경우 공급자가 리디렉션 URI 유효성 검사를 수행 하는 방법에 따라 [공급자\] http://portal.contoso.com/signin-\<http://portal.contoso.com/or> 지정 합니다. 일부 공급자는와 함께 전체 URL 경로를 지정 해야 합니다. 도메인 이름). 리디렉션 URI에서 \[공급자\] 대신 공급자 이름을 대체 합니다.
+일반적으로 OAuth 공급자가 리디렉션 URI 값을 요구 하는 앱 설정을 사용 하는 경우 공급자가 리디렉션 URI 유효성 검사를 수행 하는 방법에 따라 [공급자\] https://portal.contoso.com/signin-\<https://portal.contoso.com/or> 지정 합니다. 일부 공급자는와 함께 전체 URL 경로를 지정 해야 합니다. 도메인 이름). 리디렉션 URI에서 \[공급자\] 대신 공급자 이름을 대체 합니다.
 
 ### <a name="google"></a>로그
 
@@ -46,8 +46,8 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
     - **저장**을 선택 합니다.
 5. **Api & auth** &gt;**자격 증명** 으로 이동 하 여 새 클라이언트 ID를 만듭니다.
    - 응용 프로그램 유형:**웹 응용 프로그램**
-   - 권한 있는 [!INCLUDE[pn-javascript](../../../includes/pn-javascript.md)] 원본: http://portal.contoso.com
-   - 권한 있는 리디렉션 Uri: http://portal.contoso.com/signin-google 
+   - 권한 있는 [!INCLUDE[pn-javascript](../../../includes/pn-javascript.md)] 원본: https://portal.contoso.com
+   - 권한 있는 리디렉션 Uri: https://portal.contoso.com/signin-google 
    - **클라이언트 ID 만들기**를 선택 합니다.
 
 ### <a name="facebook-app-settings"></a>Facebook 앱 설정
@@ -64,7 +64,7 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
     - 앱 도메인 (선택 사항): portal.contoso.com 
     - 담당자 전자 메일: *선택한&gt;전자 메일 주소&lt;* 
     - **플랫폼 추가**를 선택 하 고 **웹 사이트**를 선택 합니다. 
-    - 사이트 URL: http://portal.contoso.com/ 또는 http://portal.contoso.com/signin-facebook
+    - 사이트 URL: https://portal.contoso.com/ 또는 https://portal.contoso.com/signin-facebook
 
 6. **변경 내용 저장**을 선택 합니다.
 7. **상태 & 검토** &gt; **상태** 탭으로 이동 합니다.
@@ -75,7 +75,7 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
 1. [[!INCLUDE[cc-microsoft](../../../includes/cc-microsoft.md)] 계정 개발자 센터](https://account.live.com/developers/applications/index) 열기  
 2. **응용 프로그램 만들기** 를 선택 하 고 **응용 프로그램 이름을**지정 합니다.
 3. **동의** 함을 선택 하 여 사용 약관에 동의 합니다.
-4. **설정** &gt;**API 설정**으로 이동한 후 리디렉션 URL을으로 설정 http://portal.contoso.com/signin-microsoft 
+4. **설정** &gt;**API 설정**으로 이동한 후 리디렉션 URL을으로 설정 https://portal.contoso.com/signin-microsoft 
 
 ### <a name="twitter-apps-settings"></a>Twitter 앱 설정
 
@@ -83,8 +83,8 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
 2. **새 앱 만들기**를 선택 합니다.
 
     - 앱에 대 한 **이름** 및 **설명을** 지정 합니다.
-    - 웹 사이트 URL을 http://portal.contoso.com 로 설정 합니다.
-    - 콜백 URL을 http://portal.contoso.com 또는 http://portal.contoso.com/signin-twitter 로 설정 합니다.
+    - 웹 사이트 URL을 https://portal.contoso.com 로 설정 합니다.
+    - 콜백 URL을 https://portal.contoso.com 또는 https://portal.contoso.com/signin-twitter 로 설정 합니다.
 
 3. **Twitter 응용 프로그램 만들기**를 선택 합니다.
 
@@ -94,9 +94,9 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
 2. **새 응용 프로그램 추가**를 선택 합니다.
 
     - **응용 프로그램 이름**, **설명**등을 지정 합니다.
-    - 웹 사이트 URL을 http://portal.contoso.com 로 설정 합니다.
+    - 웹 사이트 URL을 https://portal.contoso.com 로 설정 합니다.
     - OAuth 사용자 계약/기본 범위를 설정 합니다. r\_basicprofie 및 r\_emailaddress
-    - OAuth 2.0 리디렉션 url 설정: http://portal.contoso.com/signin-linkedin.
+    - OAuth 2.0 리디렉션 url 설정: https://portal.contoso.com/signin-linkedin.
 
 3. **응용 프로그램 추가**를 선택 합니다.
 

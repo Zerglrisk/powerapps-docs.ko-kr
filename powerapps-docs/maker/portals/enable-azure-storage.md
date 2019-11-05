@@ -9,18 +9,18 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: c9201f02074920b65fdf904c5dbe81826114f4c6
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
+ms.openlocfilehash: 3da40cfdcb88726384218c4b1df370c301f8ac16
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72975475"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542552"
 ---
 # <a name="enable-azure-storage"></a>Azure Storage 사용
 
 포털에 대 한 Azure Storage 통합을 사용 하면 동일한 인터페이스를 사용 하 고 기본 파일 첨부 파일과 동일한 사용자 환경을 제공 하는 Azure의 더 큰 파일 저장소 기능을 활용할 수 있습니다. 이 기능은 웹 파일, 엔터티 양식 및 web forms에 대해 지원 됩니다.
 
-**리소스 관리자** 를 사용 하 여 배포 모델로 저장소 계정을 만들어야 합니다. [!include[More information](../../includes/proc-more-information.md)] [Azure storage 계정을 만듭니다](https://docs.microsoft.com/en-us/azure/storage/storage-create-storage-account#create-a-storage-account).
+**리소스 관리자** 를 사용 하 여 배포 모델로 저장소 계정을 만들어야 합니다. [!include[More information](../../includes/proc-more-information.md)] [Azure storage 계정을 만듭니다](https://docs.microsoft.com/azure/storage/storage-create-storage-account#create-a-storage-account).
 
 저장소 계정이 실행 된 후에는 응용 프로그램에 저장소 계정을 찾는 방법을 알려 주는 특정 전역 설정이 포털에 필요 합니다. 포털 관리 앱에서 **설정** > **새로 만들기**로 이동 하 고 **FileStorage/cloudstorageaccount**라는 새 설정을 추가 합니다.
 
@@ -35,13 +35,13 @@ FileStorage/CloudStorageAccount에 대 한 값을 찾으려면 [!include[Azure p
 
 3. **액세스 키**를 선택 합니다.
 
-    ![에서 연결 문자열의 값을 찾아](media/key-azure-storage.png "Azure Portal에서 연결 문자열의 값을 찾습니다") Azure Portal
+    ![Azure Portal에서 연결 문자열의 값을 찾습니다.](media/key-azure-storage.png "Azure Portal에서 연결 문자열의 값을 찾습니다.")
 
 4. 결과 창에서 **연결 문자열**이라는 레이블이 지정 된 필드를 찾습니다. 값을 복사 해야 하는 필드 옆에 있는 **복사** 아이콘을 선택 하 고 해당 값을 새 설정에 붙여넣습니다.
 
     ![기본 연결 문자열 값](media/primary-connection-string-azure-storage.png "기본 연결 문자열 값")
 
-    (media/portal-site-setting-cloud-storage-account.png "클라우드 저장소 계정에 대 한") ![클라우드 저장소 계정 포털 설정 포털 설정]
+    ![클라우드 저장소 계정에 대 한 포털 설정](media/portal-site-setting-cloud-storage-account.png "클라우드 저장소 계정에 대 한 포털 설정")
 
 ## <a name="specify-the-storage-container"></a>저장소 컨테이너 지정
 
@@ -49,7 +49,7 @@ FileStorage/CloudStorageAccount에 대 한 값을 찾으려면 [!include[Azure p
 
 [포털 관리 앱](configure/configure-portal.md)에서 **설정** > **새로 만들기**로 이동 하 고 컨테이너의 이름을 값으로 사용 하 여 **FileStorage/CloudStorageContainerName**라는 새 설정을 추가 합니다.
 
-(media/portal-site-setting-cloud-storage-container.png "클라우드 저장소 컨테이너에 대 한") ![클라우드 저장소 컨테이너 포털 설정 포털 설정]
+![클라우드 저장소 컨테이너에 대 한 포털 설정](media/portal-site-setting-cloud-storage-container.png "클라우드 저장소 컨테이너에 대 한 포털 설정")
 
 ## <a name="add-cors-rule"></a>CORS 규칙 추가
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 90a0bd777e808bb3aaab10b249d4fd765fbad654
-ms.sourcegitcommit: 6984ce43cc5653ccb957219d2a687907ebb5520c
+ms.openlocfilehash: 54d8fb369cb63721de16c5bf280660dbd15796b5
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72560923"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541291"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "72560923"
 
 ## <a name="view-and-manage-gateway-permissions"></a>게이트웨이 권한 보기 및 관리
 
-1. [Powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
+1. [Powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
 
 2. **사용자**를 클릭하거나 탭하고, 사용자나 그룹을 지정한 후 권한 수준을 지정하여 게이트웨이에 사용자를 추가합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "72560923"
 
 ## <a name="view-and-manage-gateway-connections"></a>게이트웨이 연결 보기 및 관리
 
-1. [Powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
+1. [Powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서, **게이트웨이**를 클릭하거나 탭한 후, 게이트웨이를 클릭하거나 탭합니다.
 
 2. **연결**을 클릭하거나 탭한 다음, 연결을 클릭하거나 탭하여 해당 세부 정보를 보거나 설정을 편집 또는 삭제합니다.
 

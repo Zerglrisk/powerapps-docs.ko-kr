@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ad7f01da3217faa1cd4c55b1d33acd03953434f5
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: e8f40f9cd3b15dddfd9fdadbcd15495e33464967
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987337"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540913"
 ---
 # <a name="manage-canvas-app-connections-in-powerapps"></a>PowerApps에서 캔버스 앱 연결 관리
-[powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 또는 해당 자격 증명을 업데이트합니다.
+[powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 또는 해당 자격 증명을 업데이트합니다.
 
 캔버스 앱의 데이터 연결은 SharePoint, SQL Server, Office 365, 비즈니스용 OneDrive, Salesforce, Excel 및 기타 [데이터 원본](connections-list.md)에 연결할 수 있습니다.
 
@@ -36,7 +36,7 @@ ms.locfileid: "71987337"
 
 ## <a name="prerequisites"></a>필수 조건
 1. PowerApps에 [등록](../signup-for-powerapps.md)합니다.
-2. 등록 시 사용한 동일한 자격 증명을 사용하여 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+2. 등록 시 사용한 동일한 자격 증명을 사용하여 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 ## <a name="background-on-data-connections"></a>데이터 연결에 대한 배경
 대부분의 PowerApps 앱은 클라우드 서비스에 저장된 **데이터 원본**이라는 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스할 수 있습니다.
@@ -45,19 +45,19 @@ ms.locfileid: "71987337"
 
 전자 메일, 일정, twitter 및 알림과 같이 테이블이 아닌 다른 종류의 데이터 원본이 있습니다.
 
-**[갤러리](controls/control-gallery.md)** , **[표시 양식](controls/control-form-detail.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤을 사용하면 데이터 원본의 데이터를 읽고 쓰는 앱을 쉽게 만들 수 있습니다. 시작하려면 [데이터 폼 이해](working-with-forms.md)를 읽어 보세요.
+**[갤러리](controls/control-gallery.md)** , **[폼 표시](controls/control-form-detail.md)** 및 **[폼 편집](controls/control-form-detail.md)** 컨트롤을 사용하면 데이터 원본의 데이터를 읽고 쓸 수 있는 앱을 손쉽게 만들 수 있습니다. 시작하려면 [데이터 폼 이해](working-with-forms.md)를 읽어 보세요.
 
-[powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 연결을 만들고 관리하는 것 외에도 다음 작업을 수행할 때 연결을 만들 수 있습니다.
+[powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 연결을 만들고 관리하는 것 외에도 다음 작업을 수행할 때 연결을 만들 수 있습니다.
 
 * 사용자 지정 SharePoint 목록과 같은 [데이터에서 앱](app-from-sharepoint.md)을 자동으로 생성합니다.
 * 기존 앱을 업데이트하거나, [연결 추가](add-data-connection.md)에서 설명하는 대로 처음부터 다시 만듭니다.
 * 다른 사용자가 생성하여 [사용자와 공유](share-app.md)한 앱을 엽니다.
 
 > [!NOTE]
-> 대신 PowerApps Studio를 사용하려는 경우 **파일** 메뉴를 열고 **연결**을 클릭하거나 탭하면 사용자가 연결을 만들고 관리할 수 있는 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)이 열립니다.
+> 대신 PowerApps Studio를 사용하려는 경우 **파일** 메뉴를 열고 **연결**을 클릭하거나 탭하면 사용자가 연결을 만들고 관리할 수 있는 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)이 열립니다.
 
 ## <a name="create-a-new-connection"></a>새 연결 만들기
-1. 아직 수행하지 않은 경우 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. 아직 수행하지 않은 경우 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 2. 왼쪽 탐색 표시줄에서 **연결**을 클릭하거나 탭합니다.
    
     ![연결 관리](./media/add-manage-connections/open-connections.png)

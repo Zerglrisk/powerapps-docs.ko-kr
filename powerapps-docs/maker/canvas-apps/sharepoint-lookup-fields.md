@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8b7b718564ec62d9a7fa2ca78d52727831635c1c
-ms.sourcegitcommit: dd74c98f48587730466e6669fc94da250d5c631e
+ms.openlocfilehash: 2c1cce350c394d2809de4c3354b7b471af987236
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/26/2019
-ms.locfileid: "66224947"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541398"
 ---
 # <a name="how-to-link-sharepoint-lists-using-a-lookup-field-in-powerapps"></a>PowerApps에서 조회 필드를 사용하여 SharePoint 목록을 연결하는 방법
 
-이 자습서에서는 캔버스 앱에서 두 개의 SharePoint 목록을 조회 필드와 연결하는 방법을 보여줍니다.
+이 자습서에서는 캔버스 앱의 두 개의 SharePoint 목록을 조회 필드와 연결하는 방법을 보여줍니다.
 
 ## <a name="overview"></a>개요
 
@@ -77,17 +77,17 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 ### <a name="define-the-assets-list"></a>자산 목록을 정의합니다.
 1. SharePoint 사이트에서 새 **자산** 목록을 만듭니다.
 
-2. 더하기 기호를 클릭하거나 누르고 **더 보기...** 를 선택합니다.
+2. 더하기 기호를 클릭하거나 누르고 **자세히**를 선택합니다.
 
     ![](./media/sharepoint-lookup-fields/choose-more-type.png)
 
-3. **선택** 형식의 *AssetType* 필드를 추가하고, **각 선택 사항을 별도 줄에 입력** 텍스트 상자에 선택 메뉴에 표시하려는 값을 입력합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
+3. **선택** 형식의 *AssetType* 필드를 추가하고, **별도 줄에 각 선택 사항 입력** 텍스트 상자의 선택 메뉴에 표시하려는 값을 입력합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
 
     ![](./media/sharepoint-lookup-fields/define-choice-column.png)
 
 4. 2단계처럼 다른 필드를 추가하기 시작합니다. 더하기 기호를 클릭하거나 누르고 **자세히**를 선택합니다.
 
-5. **조회** 형식의 *RepairShop* 필드를 추가하고, **정보를 가져올 대상** 텍스트 상자에서 **RepairShop**을 선택하고, **열 선택** 텍스트 상자에서 *ContactEmail*을 선택합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
+5. **조회** 형식의 *RepairShop* 필드를 추가하고, **정보를 가져오는 위치** 텍스트 상자에서 **RepairShop**을 선택하고, **이 열에서** 텍스트 상자에서 *ContactEmail*을 선택합니다. 그런 다음 **확인**을 클릭하거나 누릅니다.
 
     ![](./media/sharepoint-lookup-fields/setup-lookup-column.png)
 
@@ -96,7 +96,7 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 ## <a name="create-an-app-from-the-assets-list"></a>자산 목록에서 앱 만들기
 이 앱을 사용하여 **자산** 목록에 데이터를 추가합니다.
 
-1. [PowerApps Studio에 로그인합니다](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). PowerApps을 처음 접하는 경우 조직 이메일 주소를 사용하여 [체험 등록](https://powerapps.microsoft.com)합니다.
+1. [PowerApps Studio에 로그인합니다](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). PowerApps을 처음 접하는 경우 조직 이메일 주소를 사용하여 [체험 등록](https://powerapps.microsoft.com)합니다.
 
 2. **파일** 메뉴(왼쪽 모서리를 따라)에서 **새로 만들기**를 클릭하거나 누른 다음 **SharePoint**를 클릭하거나 누릅니다.
 
@@ -132,7 +132,7 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 
 7. (선택 사항) 목록에 항목을 원하는 만큼 추가하려면 이 절차를 반복합니다.
 
-8. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+8. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ## <a name="for-more-information"></a>자세한 내용은 다음을 참조하세요.
 * [조회 및 새 샘플 앱에 대한 지원 소개](https://powerapps.microsoft.com/blog/support-for-lookups/)

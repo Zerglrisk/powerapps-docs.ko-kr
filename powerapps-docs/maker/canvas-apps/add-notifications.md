@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 22dfcb085c2de4aabd849e0a1fedc8a231f0e55f
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 4a72fc689fa9b4d7d84f554745e5a04ee2812b70
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987365"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541166"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
 푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
@@ -60,7 +60,7 @@ ms.locfileid: "71987365"
 ## <a name="send-a-notification-from-an-app"></a>앱에서 알림 보내기
 하나의 앱에서 다른 앱으로 또는 동일한 앱으로 푸시 알림을 보낼 수 있습니다.
 
-1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 푸시 알림을 보내려는 앱으로 이동합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 푸시 알림을 보내려는 앱으로 이동합니다.
 2. **세부 정보** 탭에서 해당 앱의 **앱 ID**를 복사합니다.
 
     ![앱 ID 가져오기](./media/add-notifications/grab-id.png)

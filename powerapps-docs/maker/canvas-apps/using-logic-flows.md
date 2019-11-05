@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1e5c90fcc6e4f8d4c8e1d73eadc9a31fdbfe48ef
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: bb39701a61bcfb75c6fd66e90fc7a5002efcc410
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71988317"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541643"
 ---
 # <a name="start-a-flow-in-a-canvas-app"></a>캔버스 앱에서 흐름 시작
 
@@ -34,7 +34,7 @@ Microsoft Flow를 사용하여 캔버스 앱에서 이벤트가 발생할 때 �
 
 ## <a name="create-a-flow"></a>흐름 만들기
 
-1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 1. 왼쪽 탐색 모음에서 **비즈니스 논리**를 선택 하 고 **흐름**을 선택 합니다.
 

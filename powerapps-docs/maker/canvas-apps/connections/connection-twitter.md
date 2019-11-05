@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 476285021e6a65a32c2e16e4ff95c74be9da933a
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: f58f8e15d1bd522bd9c24d7e3e1dfe9a69b4d257
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987228"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541024"
 ---
 # <a name="connect-to-twitter-from-powerapps"></a>PowerApps에서 Twitter 연결
 ![Twitter](./media/connection-twitter/twittericon.png)
@@ -172,7 +172,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 1. 텍스트 입력 컨트롤을 추가하고 이름을 **MyTweet**으로 변경합니다.
 2. 단추를 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.  
     `Twitter.Tweet({tweetText: MyTweet.Text})`
-3. F5 키를 누르거나 미리 보기 단추(![](./media/connection-twitter/preview.png))를 선택합니다. **MyTweet**에 텍스트를 입력한 다음 단추를 선택하여 입력한 텍스트를 트윗합니다.
+3. F5를 누르거나 미리 보기 단추(![](./media/connection-twitter/preview.png))를 선택합니다. **MyTweet**에 텍스트를 입력한 다음 단추를 선택하여 입력한 텍스트를 트윗합니다.
 4. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 ## <a name="view-the-available-functions"></a>사용할 수 있는 함수 보기
@@ -192,7 +192,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | [OnNewTweet](connection-twitter.md#onnewtweet) |검색 쿼리에 부합하는 새 트윗이 게시되었을 때 워크플로 트리거 |
 
 ### <a name="usertimeline"></a>UserTimeline
-사용자 타임 라인 가져오기: 지정된 사용자가 게시한 가장 최근의 트윗 컬렉션 검색
+사용자 타임라인 가져오기: 지정된 사용자가 게시한 가장 최근의 트윗 컬렉션 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -213,7 +213,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | MediaUrls |배열 |아니요 | |
 
 ### <a name="hometimeline"></a>HomeTimeline
-홈 타임 라인 가져오기: 나와 내 팔로워가 게시한 가장 최근의 트윗과 리트윗 검색
+홈 타임라인 가져오기: 나와 내 팔로워가 게시한 가장 최근의 트윗과 리트윗 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -233,13 +233,13 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | MediaUrls |배열 |아니요 | |
 
 ### <a name="searchtweet"></a>SearchTweet
-검색 트 윗: 특정 쿼리와 일치하는 관련 트윗 컬렉션 검색
+트윗 검색: 특정 쿼리와 일치하는 관련 트윗 컬렉션 검색
 
 #### <a name="input-properties"></a>입력 속성
 
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| SearchQuery |문자열 |예 |쿼리 텍스트(Twitter가 지원하는 모든 쿼리 연산자 사용 가능: http://www.twitter.com/search) |
+| SearchQuery |문자열 |예 |쿼리 텍스트(Twitter가 지원하는 모든 쿼리 연산자 사용 가능: https://www.twitter.com/search) |
 | maxResults |정수 |아니요 |검색할 최대 트윗 수(예: {maxResults:5}) |
 
 #### <a name="output-properties"></a>출력 속성
@@ -254,7 +254,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | MediaUrls |배열 |아니요 | |
 
 ### <a name="followers"></a>Followers
-팔로 워 받기: 지정된 사용자를 팔로우하는 사용자 검색
+팔로워 가져오기: 지정된 사용자를 팔로우하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -268,7 +268,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | 전체 이름 |문자열 |예 | |
-| Location |문자열 |예 | |
+| 위치 |문자열 |예 | |
 | ID입니다. |정수 |아니요 | |
 | UserName |문자열 |예 | |
 | FollowersCount |정수 |아니요 | |
@@ -277,7 +277,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="myfollowers"></a>MyFollowers
-내 팔로 워 받기: 나를 팔로우하는 사용자 검색
+내 팔로워 가져오기: 나를 팔로우하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -290,7 +290,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | 전체 이름 |문자열 |예 | |
-| Location |문자열 |예 | |
+| 위치 |문자열 |예 | |
 | ID입니다. |정수 |아니요 | |
 | UserName |문자열 |예 | |
 | FollowersCount |정수 |아니요 | |
@@ -299,7 +299,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="following"></a>Following
-다음을 확인 하세요. 지정된 사용자가 팔로우하는 사용자 검색
+팔로잉 가져오기: 지정된 사용자가 팔로우하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -313,7 +313,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | 전체 이름 |문자열 |예 | |
-| Location |문자열 |예 | |
+| 위치 |문자열 |예 | |
 | ID입니다. |정수 |아니요 | |
 | UserName |문자열 |예 | |
 | FollowersCount |정수 |아니요 | |
@@ -322,7 +322,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="myfollowing"></a>MyFollowing
-다음을 확인 하세요. 내가 팔로우하는 사용자 검색
+내 팔로잉 가져오기: 내가 팔로워하는 사용자 검색
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -335,7 +335,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | 전체 이름 |문자열 |예 | |
-| Location |문자열 |예 | |
+| 위치 |문자열 |예 | |
 | ID입니다. |정수 |아니요 | |
 | UserName |문자열 |예 | |
 | FollowersCount |정수 |아니요 | |
@@ -357,7 +357,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | 속성 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
 | 전체 이름 |문자열 |예 | |
-| Location |문자열 |예 | |
+| 위치 |문자열 |예 | |
 | ID입니다. |정수 |아니요 | |
 | UserName |문자열 |예 | |
 | FollowersCount |정수 |아니요 | |
@@ -366,7 +366,7 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | FriendsCount |정수 |아니요 | |
 
 ### <a name="tweet"></a>트윗
-새 트 윗을 게시 합니다. 트윗
+새 트윗 게시: 트윗
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -382,13 +382,13 @@ Twitter 연결이 만들어지고 앱에 추가됩니다. 이제 사용할 수 �
 | TweetId |문자열 |예 | |
 
 ### <a name="onnewtweet"></a>OnNewTweet
-새 트 윗 표시 되는 경우: 검색 쿼리에 부합하는 새 트윗이 게시되었을 때 워크플로 트리거
+새 트윗이 표시될 때: 검색 쿼리에 부합하는 새 트윗이 게시되었을 때 워크플로 트리거
 
 #### <a name="input-properties"></a>입력 속성
 
 | 이름 | 데이터 형식 | 필수 | 설명 |
 | --- | --- | --- | --- |
-| SearchQuery |문자열 |예 |쿼리 텍스트(Twitter가 지원하는 모든 쿼리 연산자 사용 가능: http://www.twitter.com/search) |
+| SearchQuery |문자열 |예 |쿼리 텍스트(Twitter가 지원하는 모든 쿼리 연산자 사용 가능: https://www.twitter.com/search) |
 
 #### <a name="output-properties"></a>출력 속성
 

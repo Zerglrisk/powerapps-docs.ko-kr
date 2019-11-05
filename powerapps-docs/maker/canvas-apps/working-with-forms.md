@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 401d32f3d3cacee4b9b1a23a5fceb7d159623086
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 476964166a57bea23469baf0c1e7497be10ab73f
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994912"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541660"
 ---
 # <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Microsoft PowerApps의 캔버스 앱 폼 이해
 
@@ -38,7 +38,7 @@ ms.locfileid: "71994912"
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 
 ## <a name="explore-a-generated-app"></a>생성된 앱 탐색
@@ -137,7 +137,7 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 
 ![제작 환경에서 선택한 편집 카드 및 카드 컨트롤](./media/working-with-forms/afd-edit-card-controls.png)
 
-이전 이미지에서 선택한 카드는 **AssetID** 필드를 표시하고 사용자가 해당 필드의 값을 편집할 수 있도록 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 포함하고 있습니다. (반대로 세부 정보 화면은 읽기 전용인 **[레이블](controls/control-text-box.md)** 컨트롤에 있는 동일한 필드를 표시합니다.) **[텍스트 입력](controls/control-text-input.md)** 컨트롤에는 **Parent.Default**로 설정된 **[Default](controls/properties-core.md)** 속성이 있습니다. 사용자가 레코드를 편집하는 대신 레코드를 만든 경우 해당 컨트롤은 사용자가 새 레코드에 대해 변경할 수 있는 초기 값을 표시합니다.
+이전 이미지에서 선택한 카드는 **AssetID** 필드를 표시하고 사용자가 해당 필드의 값을 편집할 수 있도록 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 포함하고 있습니다. 이와 대조적으로 세부 정보 화면에는 읽기 전용 **[레이블](controls/control-text-box.md)** 컨트롤의 동일한 필드가 표시 됩니다. **[텍스트 입력](controls/control-text-input.md)** 컨트롤에는 **Parent. default**로 설정 된 **[기본](controls/properties-core.md)** 속성이 있습니다. 사용자가 레코드를 편집하는 대신 레코드를 만든 경우 해당 컨트롤은 사용자가 새 레코드에 대해 변경할 수 있는 초기 값을 표시합니다.
 
 오른쪽 창에서 각 카드를 표시하거나, 숨기거나, 다시 정렬하거나, 다른 유형의 컨트롤에 있는 필드를 표시하도록 구성할 수 있습니다.
 
@@ -334,7 +334,7 @@ PowerApps가 데이터에서 생성한 앱에서 찾아보기 화면의 위쪽�
 
 ![찾아보기 화면에서 컨트롤 정렬 및 검색](./media/working-with-forms/afd-browse-search-sort.png)
 
-사용자가 정렬 단추를 선택하면 갤러리의 정렬 순서가 반대로 바뀝니다. 이 동작을 만들려면 '컨텍스트 변수'를 사용하여 갤러리가 정렬되는 방향을 추적합니다. 사용자가 단추를 선택하면 변수가 업데이트되고 방향이 반대로 바뀝니다. 정렬 단추의 **[Onselect](controls/properties-core.md)** 속성이 다음 수식으로 설정 됩니다. **UpdateContext ({SortDescending1:! SortDescending1})**
+사용자가 정렬 단추를 선택하면 갤러리의 정렬 순서가 반대로 바뀝니다. 이 동작을 만들려면 '컨텍스트 변수'를 사용하여 갤러리가 정렬되는 방향을 추적합니다. 사용자가 단추를 선택하면 변수가 업데이트되고 방향이 반대로 바뀝니다. 정렬 단추의 **[OnSelect](controls/properties-core.md)** 속성이 **UpdateContext( {SortDescending1: !SortDescending1} )** 수식으로 설정됩니다.
 
 **SortDescending1** 컨텍스트 변수가 아직 없으면 **[UpdateContext](functions/function-updatecontext.md)** 함수에서 이 변수를 만듭니다. 이 함수는 변수의 값을 읽고 **!** 연산자를 사용하여 논리적 반대로 설정합니다. 액세스합니다. 값이 'true'이면 'false'가 됩니다. 값이 'false'이면 'true'가 됩니다.
 

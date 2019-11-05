@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3c061d43a766bfdcd0a560c5959756f79751a7f2
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 48605d97a8b311f806ff3556474d9bc5f32260e1
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61547511"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541095"
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>PowerApps에서 Dynamics 365 연결
 PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을 신속하게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.
@@ -29,7 +29,7 @@ PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을
 이 자습서를 따르려면 Dynamics 365 플랜이 포함된 Microsoft Office 365 계정이 필요합니다.
 
 ## <a name="create-a-connection"></a>연결 만들기
-1. [PowerApps에 로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 2. 왼쪽 탐색 창에서 **연결**을 클릭합니다.
    
     ![파일 메뉴의 연결 옵션](./media/connection-dynamics-crmonline/file-connections.png)
@@ -47,7 +47,7 @@ PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을
     연결이 만들어집니다.
 
 ## <a name="generate-an-app-automatically"></a>자동으로 앱 생성
-1. [PowerApps에 로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음, 왼쪽 아래 모서리 근처에서 **새 앱**을 클릭합니다.
+1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음, 왼쪽 아래 모서리 근처에서 **새 앱**을 클릭합니다.
    
     ![새 앱](./media/connection-dynamics-crmonline/new-app.png)
 2. **데이터를 통해 시작**에서 **Dynamics 365** 타일의 **전화 레이아웃**을 클릭합니다.

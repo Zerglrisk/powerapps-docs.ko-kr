@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9204c26cc54f4230496943d48934af75d21c5319
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 2841da7f5d7b19cd727f169c6fe89588f69bf1ec
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71995201"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541686"
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>PowerApps에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시
 
@@ -35,10 +35,10 @@ PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. �
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 * [템플릿](get-started-test-drive.md), [데이터](get-started-create-from-data.md)에서 앱을 만들거나 [처음부터](get-started-create-from-blank.md)만듭니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
-* 샘플 데이터가 XML 파일로 포함된 [ChartData.zip](http://pwrappssamples.blob.core.windows.net/samples/ChartData.zip)을 다운로드합니다. 이 항목의 단계를 수행하여 앱에 직접 가져옵니다. 대신 .zip 파일의 압축을 풀고, Excel에서 XML 파일을 열고, [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.
+* 샘플 데이터가 XML 파일로 포함된 [ChartData.zip](https://pwrappssamples.blob.core.windows.net/samples/ChartData.zip)을 다운로드합니다. 이 항목의 단계를 수행하여 앱에 직접 가져옵니다. 대신 .zip 파일의 압축을 풀고, Excel에서 XML 파일을 열고, [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.
 
 ## <a name="import-the-sample-data"></a>샘플 데이터 가져오기
 이 단계에서는 **ProductRevenue**라는 컬렉션에 샘플 데이터를 가져옵니다.
@@ -62,7 +62,7 @@ PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. �
     ![][1]  
 
    > [!NOTE]
-   > Excel과 같은 데이터를 가져오고 컬렉션을 만드는 데 가져오기 컨트롤을 사용합니다. 가져오기 컨트롤은 앱을 만들고 앱을 미리 볼 때 데이터를 가져옵니다. 현재는 앱을 게시할 때 가져오기 컨트롤에서 데이터를 가져오지 않습니다.
+   > 가져오기 컨트롤은 Excel과 같은 데이터를 가져와서 컬렉션을 만드는 데 사용됩니다. 가져오기 컨트롤은 앱을 만들고 앱을 미리 볼 때 데이터를 가져옵니다. 현재 가져오기 컨트롤은 앱을 게시할 때는 데이터를 가져오지 않습니다.
    >
 
 6. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7865b2123f0d179d5d132cca838684f0c83cfd31
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 715f82a1db2c8a4bb495e41b45a3911182024158
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994803"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541625"
 ---
 # <a name="get-started-with-canvas-app-formulas-in-powerapps"></a>PowerApps에서 캔버스 앱 수식 시작
 
@@ -35,7 +35,7 @@ Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행�
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 
 ## <a name="show-a-simple-value"></a>간단한 값 표시
@@ -51,8 +51,8 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 같단한 특�
 
     이 입력줄은 다음 두 부분으로 구성됩니다.
 
-   * *속성 목록*:  각 컨트롤 및 화면에는 [속성 집합이](reference-properties.md)있습니다.  이 목록을 사용하여 특정 속성을 선택합니다.  
-   * *수식*:  이 속성에 대해 계산 되는 수식으로, [값, 연산자 및 함수로](formula-reference.md)구성 됩니다.
+   * *속성 목록*: 각 컨트롤과 화면에는 [속성 집합](reference-properties.md)이 있습니다.  이 목록을 사용하여 특정 속성을 선택합니다.  
+   * *수식*: 수식은 이 속성에 따라 계산되며 [값, 연산자 및 함수](formula-reference.md)로 구성됩니다.
 
      수식 입력줄에서는 선택한 컨트롤이 없다면 선택한 컨트롤 또는 화면에 대한 속성을 확인하고 편집할 수 있습니다.  **콘텐츠** 탭에서 선택한 컨트롤의 이름을 볼 수 있습니다.
 

@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dd50652f0021079b4b9d4d23568ba148a8ce6a5b
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: f4babe6356ab0be34b6b08a3d158462b58cbb0cd
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71989986"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541222"
 ---
 # <a name="sign-in-to-powerapps-for-the-first-time"></a>PowerApps에 처음으로 로그인
 
-[PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하면 사이트에서 자체 앱을 만들고, 다른 사용자가 만든 앱을 열거나 관련 작업을 수행하기 위한 다양한 옵션을 제공합니다. 이러한 작업은 액세스 권한을 제공하는 라이선스 또는 라이선스의 식별과 같은 가장 간단한 작업부터 특정 데이터 원본에 대한 사용자 지정 연결 생성과 같은 고급 기능에 이르기까지 다양합니다.
+[PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하면 사이트에서 자체 앱을 만들고, 다른 사용자가 만든 앱을 열거나 관련 작업을 수행하기 위한 다양한 옵션을 제공합니다. 이러한 작업은 액세스 권한을 제공하는 라이선스 또는 라이선스의 식별과 같은 가장 간단한 작업부터 특정 데이터 원본에 대한 사용자 지정 연결 생성과 같은 고급 기능에 이르기까지 다양합니다.
 
 세 가지 일반 영역에서 옵션을 선택할 수 있습니다.
 

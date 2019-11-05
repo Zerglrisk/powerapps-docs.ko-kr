@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ca79c60e90c330f21af6ed8a12b98c3667535bb8
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: bcadf4abfd55a317cf67196c9ba2158a001a015a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987411"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541131"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>PowerApps에서 SQL Server 연결
 ![SQL Server 아이콘](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -27,7 +27,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* PowerApps에 [등록](../../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 * 기본 키와 함께 최소 1개 이상의 테이블을 포함한 데이터베이스에 대한 다음 정보를 수집합니다.
   
   * 데이터베이스 이름
@@ -68,7 +68,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 8. 먼저 앱 레이아웃 바꾸기부터 시작하여 [Excel에서 앱 만들기](../get-started-create-from-data.md)에서 설명한 것과 비슷한 기법을 사용하여 앱을 사용자 지정합니다.
 
 ## <a name="build-an-app-from-scratch"></a>앱을 처음부터 빌드
-1. PowerApps 가입에 사용한 것과 동일한 계정으로 [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. PowerApps 가입에 사용한 것과 동일한 계정으로 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 2. 왼쪽 탐색 모음에서 **연결**을 클릭하거나 탭합니다.  
    
     ![연결 관리](./media/connection-azure-sqldatabase/manage-connections.png)

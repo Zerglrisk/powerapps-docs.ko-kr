@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d7783113c7102d9c8b292d0ee84d4329709eeaa7
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 9cff6054c9c238aeceaff63b5f178f5db3b16727
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71705252"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542318"
 ---
 # <a name="working-with-environments-and-microsoft-powerapps"></a>환경 및 Microsoft PowerApps 관련 작업하기
 PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환할 수 있습니다. 환경 개요에 대한 내용은 환경을 사용하는 이유와 환경을 만들고 관리하는 방법이 자세히 설명된 [환경 개요](../../administrator/environments-overview.md)를 참조하세요. 이 문서의 범위에서는 환경에 대해 다음 토픽을 다룹니다.
@@ -45,13 +45,13 @@ PowerApps를 통해 다양한 환경에서 작업하고 환경을 쉽게 전환�
 
 올바른 환경에서 앱을 만들려면 다음을 수행 합니다.
 
-1. [PowerApps에 로그인](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 
 1. 이전 섹션에서 설명 하는 것 처럼 앱을 만들 환경을 선택 합니다.
 
 1. 왼쪽 가장자리 근처에서 **앱** 을 선택한 다음, **앱 만들기**를 선택 합니다.
 
 ## <a name="view-apps-in-the-right-environment"></a>적합한 환경에서 앱 보기
-[powerapps.com](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Studio에서 작업 중인지와 관계없이 보이는 앱 목록, 연결 등은 항상 드롭다운 목록에서 선택된 환경에 따라 필터링됩니다. 원하는 앱이 표시 되지 않는 경우 항상 올바른 환경을 선택 했는지 확인 합니다.
+[powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Studio에서 작업 중인지와 관계없이 보이는 앱 목록, 연결 등은 항상 드롭다운 목록에서 선택된 환경에 따라 필터링됩니다. 원하는 앱이 표시 되지 않는 경우 항상 올바른 환경을 선택 했는지 확인 합니다.
 
 환경에 대한 자세한 내용은 [이 개요](../../administrator/environments-overview.md)를 참조하세요.

@@ -9,18 +9,18 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 12e85a0233ca596fa5daf09a05b111564c2a7a24
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: b285ce6e3a93efb72ed867149ce0740f7ee96579
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72977959"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542754"
 ---
 # <a name="configure-portal-authentication"></a>포털 인증 구성
 
 포털 응용 프로그램에서 인증 된 포털 사용자는 연락처 또는 시스템 사용자와 연결 됩니다. 기본 포털 구성은 연락처 기반입니다. 로그인 하려면 연락처에 적절 한 웹 인증 정보가 구성 되어 있어야 합니다. 인증 되지 않은 사용자 이상의 권한을 얻으려면 포털 사용자를 웹 역할에 할당 해야 합니다. 웹 역할에 대 한 사용 권한을 구성 하려면 해당 웹 페이지 액세스 및 웹 사이트 액세스 제어 규칙을 구성 합니다.
 
-최신 포털 인증 환경을 통해 포털 사용자는 로컬 연락처 구성원 자격 공급자 기반 계정 또는 [ASP.NET Identity](http://www.asp.net/identity)기반으로 하는 외부 계정 중에서 선택 하 여 로그인 할 수 있습니다.   
+최신 포털 인증 환경을 통해 포털 사용자는 로컬 연락처 구성원 자격 공급자 기반 계정 또는 [ASP.NET Identity](https://www.asp.net/identity)기반으로 하는 외부 계정 중에서 선택 하 여 로그인 할 수 있습니다.   
 
 - **로컬 인증**: 로컬 인증은 인증을 위해 Common Data Service 환경의 연락처 레코드를 사용 하는 일반적인 폼 기반 인증입니다. 개발자는 사용자 지정 인증 환경을 빌드하기 위해 ASP.Net Identity API를 사용 하 여 사용자 지정 로그인 페이지 및 도구를 만들 수 있습니다.
 - **외부 인증**: 외부 인증은 ASP.NET Identity API를 통해 제공 됩니다. 이 경우, 계정 자격 증명 및 암호 관리는 타사 id 공급자에 의해 처리 됩니다. 여기에는 Yahoo!와 같은 Openid connect 기반 공급자가 포함 됩니다. Twitter, Facebook, [!INCLUDE[cc-microsoft](../../../includes/cc-microsoft.md)]등의 Google 및 OAuth 2.0 기반 공급자를 제공 합니다. 사용자는 포털에 등록할 외부 id를 선택 하 여 포털에 등록 합니다. 등록 된 외부 id는 로컬 계정과 동일한 기능에 액세스할 수 있습니다. 

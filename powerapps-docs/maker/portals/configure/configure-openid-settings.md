@@ -9,21 +9,21 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 0dba1794f15a710e43feaec3ca6d4d2dbc9c5fc3
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: 2b4d31165ccd12b2cb5c8c2a4c8ec6f9dd04a7c7
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72978488"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542779"
 ---
 # <a name="configure-open-id-connect-provider-settings-for-portals"></a>포털에 대 한 Open ID Connect 공급자 설정 구성
 
-[Openid connect connect](http://openid.net/connect/) 외부 id 공급자는 Open ID connect [사양을](http://openid.net/developers/specs/)준수 하는 서비스입니다. 공급자를 통합 하려면 공급자와 연결 된 인증 기관 (또는 발급자) URL을 찾아야 합니다. 구성 URL은 인증 워크플로 중에 필요한 메타 데이터를 제공 하는 기관에서 확인할 수 있습니다. 공급자 설정은 [Openidconnectauthenticationoptions](https://msdn.microsoft.com/library/microsoft.owin.security.openidconnect.openidconnectauthenticationoptions.aspx) 클래스의 속성을 기반으로 합니다.
+[Openid connect connect](https://openid.net/connect/) 외부 id 공급자는 Open ID connect [사양을](https://openid.net/developers/specs/)준수 하는 서비스입니다. 공급자를 통합 하려면 공급자와 연결 된 인증 기관 (또는 발급자) URL을 찾아야 합니다. 구성 URL은 인증 워크플로 중에 필요한 메타 데이터를 제공 하는 기관에서 확인할 수 있습니다. 공급자 설정은 [Openidconnectauthenticationoptions](https://msdn.microsoft.com/library/microsoft.owin.security.openidconnect.openidconnectauthenticationoptions.aspx) 클래스의 속성을 기반으로 합니다.
 
 권한 Url의 예는 다음과 같습니다.
 
 - [Google](https://developers.google.com/identity/protocols/OpenIDConnect): <https://accounts.google.com/><https://accounts.google.com/.well-known/openid-configuration>
-- [[!INCLUDE[pn-azure-active-directory](../../../includes/pn-azure-active-directory.md)]](https://msdn.microsoft.com/library/azure/mt168838.aspx): [https://login.microsoftonline.com/&lt ; AD 응용 프로그램&gt;[!INCLUDE[pn-azure-shortest](../../../includes/pn-azure-shortest.md)]/](https://login.microsoftonline.com/contoso.onmicrosoft.com/.well-known/openid-configuration)
+- [[!INCLUDE[pn-azure-active-directory](../../../includes/pn-azure-active-directory.md)]](https://msdn.microsoft.com/library/azure/mt168838.aspx): [https://login.microsoftonline.com/&lt ; AD 응용 프로그램&gt;[!INCLUDE[pn-azure-shortest](../../../includes/pn-azure-shortest.md)] /](https://login.microsoftonline.com/contoso.onmicrosoft.com/.well-known/openid-configuration)
 
 각 Openid connect Connect 공급자는 응용 프로그램 (OAuth 2.0 공급자와 유사)을 등록 하 고 클라이언트 Id를 가져오는 작업도 수행 합니다. 인증 기관 URL과 생성 된 응용 프로그램 클라이언트 Id는 포털 및 id 공급자 간에 외부 인증을 사용 하도록 설정 하는 데 필요한 설정입니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "72978488"
 4. 로그온 **URL** 및 **앱 ID URI**에 대해 두 필드 모두에 대 한 포털의 url을 지정 https://portal.contoso.com/
 5. 이때 새 응용 프로그램이 만들어집니다. 메뉴의 **구성** 섹션으로 이동 합니다.
 
-    **Single Sign-On** 섹션에서 첫 번째 **회신 url** 항목을 업데이트 하 여 url: http://portal.contoso.com/signin-azure-ad 에 경로를 포함 합니다. 이는 **Redirecturi** 사이트 설정 값에 해당 합니다.
+    **Single Sign-On** 섹션에서 첫 번째 **회신 url** 항목을 업데이트 하 여 url: https://portal.contoso.com/signin-azure-ad 에 경로를 포함 합니다. 이는 **Redirecturi** 사이트 설정 값에 해당 합니다.
 
 6. **속성** 섹션에서 **클라이언트 ID** 필드를 찾습니다. 이 값은 **ClientId** 사이트 설정 값에 해당 합니다.
 7. 바닥글 메뉴에서 **끝점 보기** 를 선택 하 고 **페더레이션 메타 데이터 문서** 필드를 확인 합니다.
@@ -94,13 +94,13 @@ URL의 왼쪽 부분은 **기관** 값 이며 다음 형식 중 하나입니다.
 |       인증/OpenIdConnect/\[공급자\]/NameClaimType        |                                                                                                                                                                              ClaimsIdentity에서 이름 클레임을 저장 하는 데 사용 하는 클레임 유형입니다.                                                                                                                                                                              |
 |       인증/OpenIdConnect/\[공급자\]/RoleClaimType        |                                                                                                                                                                              ClaimsIdentity에서 역할 클레임을 저장 하는 데 사용 하는 클레임 유형입니다.                                                                                                                                                                              |
 |   인증/OpenIdConnect/\[공급자\]/RequireExpirationTime    |                                                                                                                                                                              토큰에 ' 만료 ' 값이 있어야 하는지 여부를 나타내는 값입니다.                                                                                                                                                                              |
-|    Authentication/OpenIdConnect/\[공급자\]/RequireSignedTokens     |                                                                                                                               서명 되지 않은 경우 System.identitymodel. xmlns =<http://ddue.schemas.microsoft.com/authoring/2003/5>를 사용할 수 있는지 여부를 나타내는 값입니다.                                                                                                                                |
+|    Authentication/OpenIdConnect/\[공급자\]/RequireSignedTokens     |                                                                                                                               서명 되지 않은 경우 System.identitymodel. xmlns =<https://ddue.schemas.microsoft.com/authoring/2003/5>를 사용할 수 있는지 여부를 나타내는 값입니다.                                                                                                                                |
 |      인증/OpenIdConnect/\[공급자\]/SaveSigninToken       |                                                                                                                                                                        세션이 만들어질 때 원본 토큰이 저장 되는지 여부를 제어 하는 부울입니다.                                                                                                                                                                        |
 |       Authentication/OpenIdConnect/\[공급자\]/ValidateActor        |                                                                                                                                                            System.identitymodel. JwtSecurityToken의 유효성을 검사 해야 하는지 여부를 나타내는 값입니다.                                                                                                                                                            |
 |      인증/OpenIdConnect/\[공급자\]/ValidateAudience 대상      |                                                                                                                                                                       토큰 유효성 검사를 수행 하는 동안 대상 그룹의 유효성을 검사할지 여부를 제어 하는 부울입니다.                                                                                                                                                                        |
 |       인증/OpenIdConnect/\[공급자\]/ValidateIssuer       |                                                                                                                                                                        토큰 유효성 검사 중 발급자의 유효성을 검사할지 여부를 제어 하는 부울입니다.                                                                                                                                                                         |
 |      인증/OpenIdConnect/\[공급자\]/ValidateLifetime      |                                                                                                                                                                       토큰 유효성 검사 중 수명의 유효성을 검사할지 여부를 제어 하는 부울입니다.                                                                                                                                                                        |
-|  인증/OpenIdConnect/\[공급자\]/ValidateIssuerSigningKey  |                                                                                                                  SecurityToken xmlns =<http://ddue.schemas.microsoft.com/authoring/2003/5> 서명 된 System.identitymodel 키의 유효성 검사가 호출 되는지 여부를 제어 하는 부울입니다.                                                                                                                  |
+|  인증/OpenIdConnect/\[공급자\]/ValidateIssuerSigningKey  |                                                                                                                  SecurityToken xmlns =<https://ddue.schemas.microsoft.com/authoring/2003/5> 서명 된 System.identitymodel 키의 유효성 검사가 호출 되는지 여부를 제어 하는 부울입니다.                                                                                                                  |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
 ## <a name="enable-authentication-using-a-multi-tenant-azure-active-directory-application"></a>다중 테 넌 트 Azure Active Directory 응용 프로그램을 사용 하 여 인증 활성화

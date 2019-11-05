@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a104638ad365ae58a1c3b8c5fbd0c7fef5b2b792
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 8b352cb4a30c090d01b2ec1b34fa8ba119265204
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71990168"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73541279"
 ---
 # <a name="what-are-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱이란 무엇인가요?
 C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고도 Microsoft PowerApps의 캔버스에서 비즈니스 앱을 설계하고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 디바이스에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.
@@ -33,7 +33,7 @@ C# 같은 일반적인 프로그래밍 언어로 코드를 작성하지 않고�
 - [SharePoint](app-from-sharepoint.md)
 - [Excel](get-started-create-from-data.md)
 
-PowerApps 사이트에 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음, **데이터로 시작** 또는 샘플 앱(예: **서비스 데스크** 또는 **예산 추적기**)을 선택합니다.
+PowerApps 사이트에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음, **데이터로 시작** 또는 샘플 앱(예: **서비스 데스크** 또는 **예산 추적기**)을 선택합니다.
 
 ![PowerApps 사이트](./media/getting-started/create-page-samples.png)
 
@@ -58,5 +58,5 @@ Windows, [웹 브라우저](../../user/run-app-browser.md) 또는 [iOS 또는 An
 
 ## <a name="next-steps"></a>다음 단계
 - [무료 라이선스에 등록합니다.](../signup-for-powerapps.md)
-- [PowerApps에 로그인합니다.](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
+- [PowerApps에 로그인합니다.](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
 - [샘플 앱을 엽니다.](open-and-run-a-sample-app.md)
