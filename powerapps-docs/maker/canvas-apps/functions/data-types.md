@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 592399e6b5a95d27e5c0afe48541d04d444528bb
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 3147308c52439f250f8f65a81d91d99f30ae1481
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985580"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540296"
 ---
 # <a name="data-types-in-canvas-apps"></a>Canvas 앱의 데이터 형식
 
@@ -34,14 +34,14 @@ ms.locfileid: "71985580"
 | **날** | 앱 사용자의 표준 시간대에 시간이 없는 날짜입니다. | **날짜 (2019, 5, 16)** |
 | **날짜** | 앱 사용자의 표준 시간대에 해당 하는 날짜입니다. | **DateTimeValue ("5 월 16 일, 2019 1:23:09 PM")** |
 | **EID** | [Guid (Globally Unique Identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier))입니다. | **GUID ()**<br>**GUID ("123e4567-e89b-12d3-a456-426655440000")** |
-| **하이퍼링크로** | 하이퍼링크를 포함 하는 텍스트 문자열입니다. | **"http://powerapps.microsoft.com"** |
+| **하이퍼링크로** | 하이퍼링크를 포함 하는 텍스트 문자열입니다. | **"https://powerapps.microsoft.com"** |
 | **이미지** | .Jpeg, .png, .jpeg, .gif 또는 기타 일반적인 웹 이미지 형식의 이미지에 대 한 [URI (Universal Resource Identifier)](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) 텍스트 문자열입니다. | 앱 리소스로 추가 된 **Myimage**<br>**"https://northwindtraders.com/logo.jpg"**<br>**"appres://blobmanager/7b12ffa2"** |
 | **미디어만** | 비디오 또는 오디오 기록에 대 한 URI 텍스트 문자열입니다. | 앱 리소스로 추가 된 **Myvideo**<br>**"https://northwindtraders.com/intro.mp4"**<br>**"appres://blobmanager/3ba411c"** |
 | **수많은** | 부동 소수점 숫자입니다. | **123**<br>**-4.567**<br>**8.903e121** |
 | **옵션 집합** | 숫자에 의해 지원 되는 옵션 집합에서 선택 하는 항목입니다. 이 데이터 형식은 지역화 가능한 텍스트 레이블과 숫자 값을 결합 합니다. 레이블이 앱에 표시 되 고 숫자 값이 저장 되 고 비교에 사용 됩니다. | **ThisItem 상태** |
-| **기록은** | 데이터 값의 레코드입니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 자세한 정보: [테이블 작업](../working-with-tables.md) | **{Company: "Northwind Traders", <br> 직원: 35, <br>NonProfit: false}** |
-| **레코드 참조** | 엔터티에 있는 레코드에 대 한 참조입니다. 이러한 참조는 다형성 조회에 자주 사용 됩니다. 자세한 정보: [참조 사용](../working-with-references.md)| **첫 번째 (계정). 소유자도** |
-| **테이블** | 레코드 테이블입니다.  모든 레코드는 동일한 데이터 형식의 필드에 대해 이름이 동일 해야 하며 생략 된 필드는 *공백으로*만 처리 됩니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 자세한 정보: [테이블 작업](../working-with-tables.md) | **Table ({FirstName: "Sidney", <br>LastName: "Stga"}, <br> {FirstName: "김소미", <br>LastName: "Anderson"})**
+| **기록은** | 데이터 값의 레코드입니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 추가 정보: [테이블 작업](../working-with-tables.md) | **{Company: "Northwind Traders",<br>직원: 35, <br>비영리: false}** |
+| **레코드 참조** | 엔터티에 있는 레코드에 대 한 참조입니다. 이러한 참조는 다형성 조회에 자주 사용 됩니다. 추가 정보: [참조 사용](../working-with-references.md)| **첫 번째 (계정). 소유자도** |
+| **테이블** | 레코드 테이블입니다.  모든 레코드는 동일한 데이터 형식의 필드에 대해 이름이 동일 해야 하며 생략 된 필드는 *공백으로*만 처리 됩니다. 이 복합 데이터 형식에는이 항목에 나열 된 다른 데이터 형식의 인스턴스가 포함 되어 있습니다. 추가 정보: [테이블 작업](../working-with-tables.md) | **Table ({FirstName: "Sidney",<br>LastName: "Anderson"}, <br>{FirstName: "김소미",<br>LastName: ""})**
 | **텍스트** | 유니코드 텍스트 문자열입니다. | **"Hello, 세계"** |
 | **런타임** | 앱 사용자의 표준 시간대에 날짜가 없는 시간입니다. | **시간 (11, 23, 45)** |
 | **두 가지 옵션** | 부울 값으로 지원 되는 두 옵션 집합 중에서 선택 합니다. 이 데이터 형식은 지역화 가능한 텍스트 레이블과 부울 값을 결합 합니다. 레이블이 앱에 표시 되 고 부울 값이 저장 되 고 비교에 사용 됩니다. | **ThisItem. Taxable** |
@@ -80,7 +80,7 @@ ms.locfileid: "71985580"
 
 Canvas 앱은 클라우드에 있든, 앱 리소스로 추가 되는지에 관계 없이 URI 텍스트 문자열을 통해 각 이미지 또는 기타 미디어 파일을 참조 합니다.
 
-예를 들어 이미지 컨트롤의 **image** 속성은 앱 리소스 뿐만 아니라 웹의 이미지 (예: "https://northwindtraders.com/logo.jpg")에 대 한 링크를 받습니다. 또한 속성은 다음 예제와 같이 [데이터 URI 체계](https://en.wikipedia.org/wiki/Data_URI_scheme)를 사용 하는 인라인 이미지를 허용 합니다.
+예를 들어 이미지 컨트롤의 **image** 속성은 앱 리소스 뿐만 아니라 웹의 이미지에 대 한 링크 (예: "https://northwindtraders.com/logo.jpg")도 허용 합니다. 또한 속성은 다음 예제와 같이 [데이터 URI 체계](https://en.wikipedia.org/wiki/Data_URI_scheme)를 사용 하는 인라인 이미지를 허용 합니다.
 
 ```powerapps-dot
 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFAQMAAACtnVQoAAAABlBMVEUAAAB0J3UMNU6VAAAAAXRSTlMAQObYZgAAABRJREFUCNdjUGJgCGVg6GgAkkA2AA8/AffqCEBsAAAAAElFTkSuQmCC"
@@ -92,7 +92,7 @@ Canvas 앱은 클라우드에 있든, 앱 리소스로 추가 되는지에 관�
 
 이미지 컨트롤의 **이미지** 속성을 카메라 컨트롤의 **Photo** 속성으로 설정 하는 경우 [**카메라**](../controls/control-camera.md) 컨트롤에 캡처된 최신 이미지를 표시할 수 있습니다. 앱은 메모리에 이미지를 보관 하 고, 카메라 컨트롤의 **Photo** 속성은 이미지에 대 한 URI 참조를 반환 합니다. 예를 들어 사진을 사용 하 고 카메라의 **Photo** 속성은 **"appres://blobmanager/7b12ffa2ea4547e5b3812cb1c7b0a2a0/1"** 를 반환할 수 있습니다.
 
-URI를 사용 하 여 데이터베이스에 저장 된 이미지 또는 다른 미디어 파일을 참조 합니다. 이런 방식으로 앱은 실제로 필요할 때까지 실제 데이터를 검색 하지 않습니다. 예를 들어 Common Data Service 엔터티의 첨부 파일은 **"appres://datasources/Contacts/table/"** 를 반환 합니다. 카메라 예제와 같이 이미지 컨트롤의 **image** 속성을이 참조로 설정 하 여이 이미지를 표시할 수 있습니다 .이 참조는 이진 데이터를 검색 합니다.
+URI를 사용 하 여 데이터베이스에 저장 된 이미지 또는 다른 미디어 파일을 참조 합니다. 이런 방식으로 앱은 실제로 필요할 때까지 실제 데이터를 검색 하지 않습니다. 예를 들어 Common Data Service 엔터티의 첨부 파일은 카메라 예제와 같이 **"appres://datasources/Contacts/table/..."** 를 반환할 수 있습니다. 이미지 컨트롤의 **image** 속성을이 참조로 설정 하 여이 이미지를 표시할 수 있습니다. 이진 데이터를 검색 합니다.
 
 이미지와 같은 미디어 데이터 형식을 데이터베이스에 저장 하면 앱에서 URI 참조가 아닌 실제 이미지 또는 미디어 데이터를 보냅니다.
 
@@ -122,15 +122,15 @@ Canvas 앱은-9007199254740991 (– (2<sup>53</sup> – 1))과 9007199254740991 
 
 날짜/시간 값은 다음 범주에 속합니다.
 
-- **사용자 로컬**: 이러한 값은 [utc (협정 세계시)](https://en.wikipedia.org/wiki/Coordinated_Universal_Time)로 저장 되지만 앱 사용자의 표준 시간대는 앱이 이러한 값을 표시 하는 방법과 앱 사용자가 앱을 지정 하는 방법에 영향을 줍니다. 예를 들어 일본의 사용자에 게 표시 되는 것과 동일한 순간은 캐나다의 사용자와 다르게 표시 됩니다.
-- **표준 시간대 독립적**: 앱은 동일한 방식으로 이러한 값을 표시 하 고, 앱 사용자는 표준 시간대에 관계 없이 동일한 방식으로 지정 합니다. 일본의 사용자와 마찬가지로 캐나다 사용자에 게 동일한 순간이 표시 됩니다. 앱이 서로 다른 표준 시간대에서 실행 될 것으로 생각 하지 않는 앱 작성자는 전체적으로 더 간단 하기 때문에 이러한 값을 사용 합니다.
+- **사용자 로컬**: 이러한 값은 [Utc (협정 세계시)](https://en.wikipedia.org/wiki/Coordinated_Universal_Time)로 저장 되지만 앱 사용자의 표준 시간대는 앱이 이러한 값을 표시 하는 방법과 앱 사용자가 앱을 지정 하는 방법에 영향을 줍니다. 예를 들어 일본의 사용자에 게 표시 되는 것과 동일한 순간은 캐나다의 사용자와 다르게 표시 됩니다.
+- **표준 시간대 독립적**: 앱은 동일한 방식으로 이러한 값을 표시 하 고, 앱 사용자는 표준 시간대에 관계 없이 동일한 방식으로 이러한 값을 지정 합니다. 일본의 사용자와 마찬가지로 캐나다 사용자에 게 동일한 순간이 표시 됩니다. 앱이 서로 다른 표준 시간대에서 실행 될 것으로 생각 하지 않는 앱 작성자는 전체적으로 더 간단 하기 때문에 이러한 값을 사용 합니다.
 
 다음 표에서는 몇 가지 예를 보여 줍니다.
 
 | 날짜/시간 형식 | 데이터베이스에 저장 된 값 | 값이 표시 되 고 UTC의 7 시간 서쪽에 입력 됨 | 값이 표시 되 고 4 시간 동부 UTC로 입력 됨 |
 |--------------------------|------------------------------|------------------------------|
-| **사용자 로컬** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 토요일, &nbsp;은 @ no__t, &nbsp;2019<br>오후 9:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 8:00 |
-| **표준 시간대 독립적** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 
+| **사용자 로컬** | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 4:00 | 토요일,&nbsp;&nbsp;18&nbsp;2019<br>오후 9:00 | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 8:00 |
+| **표준 시간대 독립적** | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 4:00 | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 4:00 | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 4:00 | 
 
 **사용자 로컬** 날짜/시간에 대해 canvas 앱은 브라우저나 장치의 표준 시간대를 사용 하지만 모델 기반 앱은 Common Data Service에서 사용자의 설정을 사용 합니다. 이러한 설정은 일반적으로 일치 하지만 이러한 설정이 다를 경우 결과가 달라 집니다.
 
@@ -150,8 +150,8 @@ Canvas 앱이 데이터 원본에서 **표준 시간대 독립적** 값을 읽�
 
 | 날짜/시간 형식 | 데이터베이스에 저장 된 값 | 값이 표시 되 고 UTC의 7 시간 서쪽에 입력 됨 | **값** 함수 반환 |
 |--------------------------|------------------------------|------------------------------|
-| **사용자 로컬** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 토요일, &nbsp;은 @ no__t, &nbsp;2019<br>오후 9:00 | 1558238400000<br> (일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 UTC) |
-| **표준 시간대 독립적** | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 | 일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 4:00 |1558263600000<br> (일요일, &nbsp;May 월 @ no__t, &nbsp;2019<br>오전 11:00 UTC) |
+| **사용자 로컬** | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 4:00 | 토요일,&nbsp;&nbsp;18&nbsp;2019<br>오후 9:00 | 1558238400000<br> (일요일,&nbsp;는 19&nbsp;수 있습니다.&nbsp;2019<br>오전 4:00 UTC) |
+| **표준 시간대 독립적** | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 4:00 | 일요일,&nbsp;는 19&nbsp;수&nbsp;2019<br>오전 4:00 |1558263600000<br> (일요일,&nbsp;는 19&nbsp;수 있습니다.&nbsp;2019<br>오전 11:00 UTC) |
 
 ### <a name="converting-unix-times"></a>Unix 시간 변환
 

@@ -13,19 +13,19 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 758d986660137d4e513919911589cbbc0dc304a2
-ms.sourcegitcommit: 7016ff837eff2cb0985fc71edab95cbf99335677
+ms.openlocfilehash: 8456e82cfd2680fcbb722c8b4b2b5b32ef73dbde
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71160191"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540289"
 ---
 # <a name="container-control-in-powerapps-experimental"></a>PowerApps의 컨테이너 컨트롤 (실험적)
 계층을 만드는 기능을 제공 합니다.
 
 > [!IMPORTANT]
 > 이는 실험적 기능입니다. 실험적 기능은 급진적으로 변하거나 언제라도 완전히 사라질 수 있습니다.
-> 자세한 내용은 [PowerApps의 실험적 및 미리 보기 기능 이해](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-experimental-preview)를 참조 하세요.
+> 자세한 내용은 [PowerApps의 실험적 및 미리 보기 기능 이해](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-experimental-preview)를 참조 하세요.
 
 ## <a name="description"></a>설명
  컨테이너는 컨트롤 집합을 보유할 수 있으며 고유한 속성을 가집니다. 
@@ -49,7 +49,7 @@ ms.locfileid: "71160191"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다. 
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다. 
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다. 
 
 
 ## <a name="known-limitations"></a>알려진 제한 사항

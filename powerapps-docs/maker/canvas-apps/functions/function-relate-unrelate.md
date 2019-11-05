@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d8ba0cef60b268caafb57e18ae80a522905ba45b
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: ca0b81cb1150fb744251b3dfca30c9b6ed8f90a5
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992751"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73537095"
 ---
 # <a name="relate-and-unrelate-functions-in-powerapps"></a>PowerApps의 Relate 함수 및 인시던트와 관계 해제 함수
 
@@ -102,7 +102,7 @@ ms.locfileid: "71992751"
 
 1. **보기**에서 **데이터 원본**을 선택합니다.
 
-1. **데이터** 창에서 **데이터 원본 추가** > **Common Data Service** > **제품** > **연결**을 선택 합니다.  
+1. **데이터** 창에서 **데이터 원본 추가** 를 선택 하 > **Common Data Service** > **제품** > **연결**을 선택 합니다.  
 
     Products 엔터티는 위에서 로드 한 샘플 데이터의 일부입니다.
 
@@ -172,7 +172,7 @@ ms.locfileid: "71992751"
 
 1. **보기**에서 **데이터 원본**을 선택합니다.
 
-1. **데이터** 창에서 **데이터 원본 추가** > **Common Data Service** > **예약** > **연결**을 선택 합니다.
+1. **데이터** 창에서 **데이터 원본 추가** 를 선택 하 > **Common Data Service** > **예약** > **연결**을 선택 합니다.
 
 1. **프로그램도 있습니다**에서 **NextArrow2** 에 대 한 **onselect** 수식을 다음 수식으로 설정 합니다.
 
@@ -211,7 +211,7 @@ ms.locfileid: "71992751"
 
 샘플 데이터는 다 대 다 관계를 포함 하지 않지만 Products 엔터티와 contact 엔터티 사이에 하나를 만듭니다. 사용자는 각 제품을 둘 이상의 연락처에 연결 하 고 각 연락처를 둘 이상의 제품에 연결할 수 있습니다.
 
-1. [이 페이지](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 모음에서 **데이터** 를 선택한 다음 **엔터티**를 선택 합니다.
+1. [이 페이지](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 모음에서 **데이터** 를 선택한 다음 **엔터티**를 선택 합니다.
 
     ![엔터티 목록 열기](media/function-relate-unrelate/entity-list.png)
 
@@ -225,7 +225,7 @@ ms.locfileid: "71992751"
 
     ![Product 엔터티에 대 한 관계 탭](media/function-relate-unrelate/entity-relationships.png)
 
-1. **관계 추가** > **다 대 다를**선택 합니다.
+1. **다 대 다** > **관계 추가** 를 선택 합니다.
 
     ![다 대 다 관계 추가](media/function-relate-unrelate/entity-manytomany.png)
 
@@ -273,7 +273,7 @@ ms.locfileid: "71992751"
 
 1. **보기**에서 **데이터 원본**을 선택합니다.
 
-1. **데이터** 창에서 **데이터 원본 추가** > **Common Data Service** > **연락처** > **연결**을 선택 합니다.
+1. **데이터** 창에서 **데이터 원본 추가** 를 선택 하 > **Common Data Service** > **연락처** > **연결**을 선택 합니다.
 
 1. **프로그램도 있습니다**아래에서 **콤보 상자** 컨트롤을 추가 하 고 이름이 **ComboBox1**인지 확인 한 다음 **Items** 속성을 contact로 설정 합니다 **.**
 

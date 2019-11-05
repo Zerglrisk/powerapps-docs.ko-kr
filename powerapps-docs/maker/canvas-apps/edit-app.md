@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ecbe46f28d7be215a5ec9d8efecebde5dc4656d4
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 71cb3318ceb83b5c18ebce621a07be08fc60e9c8
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993020"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73536981"
 ---
 # <a name="edit-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 편집
 빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 캔버스 앱을 편집합니다. PowerApps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.
 
 ## <a name="verify-your-permissions"></a>사용 권한 확인
-1. [PowerApps](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, **파일** 메뉴(왼쪽 모서리)에서 **앱**을 클릭하거나 탭합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, **파일** 메뉴(왼쪽 모서리)에서 **앱**을 클릭하거나 탭합니다.
    
     ![파일 메뉴의 앱 옵션](./media/edit-app/file-apps.png)
 

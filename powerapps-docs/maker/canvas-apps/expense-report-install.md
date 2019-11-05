@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 20b49aee68b7c8c357b49dac2218d994153da230
-ms.sourcegitcommit: 0e7bdaea83adaa15da4d5c9ddbcd0b2bcbee01df
+ms.openlocfilehash: afdeb89b0bd026b20e0c940b05be60d4d3238b81
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73063373"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540213"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
@@ -204,13 +204,13 @@ ms.locfileid: "73063373"
 
 1. 웹 브라우저에서 다음 링크로 이동합니다.
 
-    [http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip](http://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip).
+    [https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip](https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip).
 
 2. 경비 보고서 PowerApps 샘플 패키지를 다운로드하고 머신에 저장합니다.
 
 ## <a name="create-connections"></a>연결 만들기
 
-1.  웹 브라우저에서 [web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)으로 이동합니다.
+1.  웹 브라우저에서 [make.powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)로 이동 합니다.
 2.  등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
 3.  왼쪽 메뉴에서 **연결**을 선택합니다.
 
@@ -239,7 +239,7 @@ ms.locfileid: "73063373"
 
 ## <a name="import-the-app"></a>앱 가져오기
 
-1. 웹 브라우저에서 https://web.powerapps.com 으로 이동합니다.
+1. 웹 브라우저에서 https://make.powerapps.com 으로 이동합니다.
 1. 등록 시 사용한 동일한 자격 증명을 제공하여 로그인합니다.
 1. 왼쪽 탐색 모음에서 **앱**을 선택하고 **패키지 가져오기(미리보기)** 를 선택합니다.
 

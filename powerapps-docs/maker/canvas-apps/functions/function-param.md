@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c6fb3c5ef002ed0355cc8061603e4f4b1f438e6e
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 15bef0fc30c2efe90647d9f190cf8917de11a109
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992487"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73536932"
 ---
 # <a name="download-launch-and-param-functions-in-canvas-apps"></a>Canvas 앱에서 Download, Launch 및 Param 함수
 매개 변수를 사용하여 웹 페이지 또는 앱을 다운로드하거나 시작합니다.  
@@ -28,7 +28,7 @@ ms.locfileid: "71992487"
 
 **Launch** 함수는 웹 페이지 또는 앱을 시작합니다.  이 함수는 필요에 따라 매개 변수를 앱에 전달할 수 있습니다.
 
-Internet Explorer 및 Microsoft Edge에서 **Launch** 함수는 보안 설정이 함수를 포함 하는 앱과 같거나 높은 경우에만 웹 사이트 또는 앱을 엽니다. 예를 들어 **신뢰할 수 있는 사이트** 보안 영역에서 실행 되는 앱에 **시작** 함수를 추가 하는 경우 함수를 열려는 웹 사이트 또는 앱이 **신뢰할 수 있는 사이트** 또는 **로컬 인트라넷** 영역 **에 있는지 확인 합니다. 제한 된 사이트**). 자세한 정보: [Internet Explorer 11에 대 한 보안 및 개인 정보 설정을 변경](https://support.microsoft.com/en-us/help/17479/windows-internet-explorer-11-change-security-privacy-settings)합니다.  
+Internet Explorer 및 Microsoft Edge에서 **Launch** 함수는 보안 설정이 함수를 포함 하는 앱과 같거나 높은 경우에만 웹 사이트 또는 앱을 엽니다. 예를 들어 **신뢰할 수 있는 사이트** 보안 영역에서 실행 되는 앱에 **시작** 함수를 추가 하는 경우 함수를 열려는 웹 사이트 또는 앱이 **신뢰할 수 있는 사이트** 또는 **로컬 인트라넷** 영역 **에 있는지 확인 합니다. 제한 된 사이트**). 추가 정보: [Internet Explorer 11에 대 한 보안 및 개인 정보 설정을 변경](https://support.microsoft.com/help/17479/windows-internet-explorer-11-change-security-privacy-settings)합니다.  
 
 **Param** 함수는 앱이 시작될 때 해당 앱에 전달된 매개 변수를 검색합니다. 명명된 매개 변수가 전달되지 않은 경우 **Param**에서 *공백*을 반환합니다.
 

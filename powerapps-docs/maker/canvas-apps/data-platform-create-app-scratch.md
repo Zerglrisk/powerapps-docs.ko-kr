@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c058e5f5710c090c39c2971974d57aacd40923a8
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: bec8524ac6afc265eba5d9a6edf381c5ebf2c340
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986008"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540379"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service"></a>Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
@@ -34,7 +34,7 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 
 ## <a name="open-a-blank-app"></a>비어 있는 앱 열기
 
-1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 1. **고유한 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
 
@@ -97,14 +97,14 @@ Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Sale
 1. **필드 추가**를 선택하고, 다음 필드에 대한 확인란을 선택합니다.
 
     - **계정 이름**
-    - **주소 1: 번지 1**
-    - **주소 1: 시/군/구**
+    - **주소 1: 번 지 1**
+    - **주소 1: 도시**
     - **주소 1: 우편 번호**
     - **직원 수**
     - **연간 수익**
 
     > [!NOTE]
-    > 이 시나리오 외에서는 **새 필드**를 선택 하 고 필요한 정보를 제공한 다음 **완료**를 선택 하 여 사용자 지정 필드를 만들 수 있습니다. 자세한 정보: [필드를 만듭니다](../common-data-service/create-edit-field-portal.md#create-a-field).<br><br>![](media/data-platform-create-app-scratch/choose-or-add-fields.png "필드 선택 및 추가")
+    > 이 시나리오 외에서는 **새 필드**를 선택 하 고 필요한 정보를 제공한 다음 **완료**를 선택 하 여 사용자 지정 필드를 만들 수 있습니다. 추가 정보: [필드 만들기](../common-data-service/create-edit-field-portal.md#create-a-field)<br><br>![](media/data-platform-create-app-scratch/choose-or-add-fields.png "Select and add a field")
 
 1. **추가**를 선택합니다.
 

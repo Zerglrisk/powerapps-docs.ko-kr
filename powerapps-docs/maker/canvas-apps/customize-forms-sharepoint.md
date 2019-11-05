@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 67e7e0074259731bb1d3c50474e8020e3f4fcf1b
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: ccaa918bc0bd1e4ca666e62094fa137e31d3243f
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993180"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540251"
 ---
 # <a name="customize-a-canvas-app-form-in-powerapps"></a>PowerApps에서 캔버스 앱 양식 사용자 지정
 
@@ -34,27 +34,27 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
 
 ## <a name="show-and-hide-cards"></a>카드 표시 및 숨기기
 
-1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 한 다음 생성 하 고 사용자 지정한 앱을 엽니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 한 다음 생성 하 고 사용자 지정한 앱을 엽니다.
 
 1. 왼쪽 탐색 모음에서 검색 표시줄에 **D** 를 입력 하거나 붙여 넣어 요소 목록을 필터링 한 다음 **DetailForm1**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 세부 정보 화면 @ no__t-1을 선택 합니다.
+    > 세부 정보 화면을 선택 ![](./media/customize-forms-sharepoint/select-detailform.png)
 
 1. 오른쪽 창의 **속성** 탭에서 **필드 편집**을 선택하여 **필드** 창을 엽니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 열 필드 @ no__t-1
+    > 필드 창을 열 ![](./media/customize-forms-sharepoint/edit-fields.png)
 
 1. **설명**등을 마우스로 가리켜 표시 되는 줄임표 (...)를 선택한 다음 **제거**를 선택 하 여 필드를 숨깁니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 필드 목록 @ no__t-1
+    > 필드 목록 ![](./media/customize-forms-sharepoint/hide-fields.png)
 
 1. 필드 **추가**를 선택 하 고, 검색 상자에 필드 이름의 처음 몇 글자를 입력 하거나 붙여 넣은 다음, 필드의 확인란을 선택 하 고 **추가**를 선택 하 여 필드를 표시 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 필드 목록 @ no__t-1
+    > 필드 목록 ![](./media/customize-forms-sharepoint/show-field.png)
 
 ## <a name="reorder-the-cards"></a>카드 재정렬
 
@@ -63,7 +63,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
     **DetailForm1** 의 카드는 변경 내용을 반영 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![으로 정렬 되는 카드 @ no__t-1
+    > 카드를 다시 정렬 ![](./media/customize-forms-sharepoint/reordered-card.png)
 
 1. 필드 다른 카드를이 순서로 다시 정렬 합니다.
 
@@ -71,9 +71,9 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
     - 직원 수
     - 연간 수익
     - 기본 전화
-    - 주소 1: 번지 1
+    - 주소 1: 나머지 주소
     - 주소 1: 번 지 2
-    - 주소 1: 대도시
+    - 주소 1: 구/군/시
     - 주소 1: 우편 번호
 
 1. 왼쪽 탐색 모음에서 검색 표시줄에 **Ed** 를 입력 하거나 붙여 넣은 다음 **EditForm1** 를 선택 하 여 선택 합니다.
@@ -87,37 +87,37 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
 1. F5 키를 누르거나 오른쪽 위 모서리의 **미리 보기** 아이콘을 선택하여 미리 보기 모드를 실행합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Preview 아이콘 @ no__t-1
+    > ![미리 보기 아이콘](./media/customize-forms-sharepoint/open-preview.png)
 
 1. 오른쪽 위 모서리에서 더하기 아이콘을 선택 하 여 **EditScreen1**에 레코드를 추가 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 레코드 추가 @ no__t-1
+    > 레코드 추가 ![](./media/customize-forms-sharepoint/add-record.png)
 
 1. 원하는 모든 데이터를 추가한 다음 오른쪽 위 모퉁이에 있는 확인 표시 아이콘을 선택 하 여 변경 내용을 저장 하 고 **BrowseScreen1**로 돌아갑니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 레코드 저장 @ no__t-1
+    > 레코드 저장 ![](./media/customize-forms-sharepoint/save-record.png)
 
 1. **DetailScreen1**에 해당 항목에 대 한 세부 정보를 표시 하기 위해 방금 만든 항목에 대 한 화살표를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 오른쪽 화살표 @ no__t-1
+    > ![오른쪽 화살표](./media/customize-forms-sharepoint/right-arrow.png)
 
 1. 오른쪽 위 모서리에서 편집 아이콘을 선택 하 여 **EditScreen1**의 레코드를 업데이트 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 레코드 편집 @ no__t-1
+    > 레코드 편집 ![](./media/customize-forms-sharepoint/edit-record.png)
 
 1. 하나 이상의 필드에서 정보를 변경한 다음 오른쪽 위 모퉁이에 있는 확인 표시를 선택 하 여 변경 내용을 저장 하 고 **DetailScreen1**로 돌아갑니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 변경 내용 저장 @ no__t-1
+    > 변경 내용 저장 ![](./media/customize-forms-sharepoint/save-record.png)
 
 1. 오른쪽 위 모서리 근처에서 휴지통 아이콘을 선택 하 여 방금 업데이트 한 레코드를 삭제 하 고 **BrowseScreen1**로 돌아갑니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 레코드 삭제 @ no__t-1
+    > 레코드 삭제 ![](./media/customize-forms-sharepoint/delete-record.png)
 
 1. Esc 키를 누르거나 왼쪽 위 모서리 근처의 닫기 아이콘을 선택 하 여 미리 보기 모드를 닫습니다.
 

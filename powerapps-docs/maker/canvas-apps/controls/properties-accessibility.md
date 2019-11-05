@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2c11e05c93d5a505408948178bf3efbd31f2dbf7
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 2e11de4af02347154c65500659df94a6b2183540
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986161"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73539428"
 ---
 # <a name="accessibility-properties-for-canvas-apps"></a>Canvas 앱에 대 한 내게 필요한 옵션 속성
 
@@ -43,7 +43,7 @@ ms.locfileid: "71986161"
 - 대화형 인 컨트롤에는 탭 정지만 있습니다.
 - 직관적인 전체를 수행 하 고 "Z" 순서 또는 아래쪽으로 이동 하 여 "역방향-N" 순서를 따릅니다.
 
-위의 요구 사항은 기본 **TabIndex** 값을 사용 하 여 충족 되며 변경 하지 않는 것이 좋습니다.  기본값은 대부분의 사용자가 시각적으로 필요로 하며 화면 판독기에서 잘 작동 하는 것입니다.  그러나 기본값을 재정의 하는 경우가 있을 수 있습니다.  **TabIndex** 속성 및 [ **고급 그룹** 컨트롤](https://powerapps.microsoft.com/en-us/blog/enhanced-group-experimental-control-with-layout-control-and-nesting/) (실험적)을 사용 하 여 탐색 순서를 조정 합니다.  
+위의 요구 사항은 기본 **TabIndex** 값을 사용 하 여 충족 되며 변경 하지 않는 것이 좋습니다.  기본값은 대부분의 사용자가 시각적으로 필요로 하며 화면 판독기에서 잘 작동 하는 것입니다.  그러나 기본값을 재정의 하는 경우가 있을 수 있습니다.  **TabIndex** 속성 및 [ **고급 그룹** 컨트롤](https://powerapps.microsoft.com/blog/enhanced-group-experimental-control-with-layout-control-and-nesting/) (실험적)을 사용 하 여 탐색 순서를 조정 합니다.  
 
 **TabIndex** 속성에는 두 가지 권장 값이 있습니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "71986161"
 
 탐색 순서는 일반적으로 왼쪽에서 오른쪽으로 이동한 다음 위쪽에서 아래쪽으로 "Z" 패턴으로 이동 합니다. 순서는 컨트롤의 **X** 및 **Y** 속성 값을 기반으로 합니다. 예를 들어 타이머 나 기타 컨트롤을 기반으로 **X** 또는 **Y** 에 대 한 수식을 사용 하 여 컨트롤이 화면에서 동적으로 이동 하는 경우 탐색 순서는 동적으로 변경 됩니다.
 
-[ **고급 그룹** 컨트롤](https://powerapps.microsoft.com/en-us/blog/enhanced-group-experimental-control-with-layout-control-and-nesting/) (실험적)을 사용 하 여 함께 탐색 해야 하는 컨트롤을 번들로 가져오거나 "역방향 N" 패턴으로 열을 만들 수 있습니다.  다음 예의 맨 위에는 이름 필드가 확장 된 그룹 컨트롤 내에 포함 되어 있으므로 이동 하기 전에 탐색을 계속 진행 합니다.  예의 맨 아래에는 그룹 컨트롤이 사용 되지 않으며,이 경우에는 컨트롤 그룹화를 사용 하 여 직관적이 지 않으며 정상적으로 탐색이 진행 됩니다. 
+[ **고급 그룹** 컨트롤](https://powerapps.microsoft.com/blog/enhanced-group-experimental-control-with-layout-control-and-nesting/) (실험적)을 사용 하 여 함께 탐색 해야 하는 컨트롤을 번들로 가져오거나 "역방향 N" 패턴으로 열을 만들 수 있습니다.  다음 예의 맨 위에는 이름 필드가 확장 된 그룹 컨트롤 내에 포함 되어 있으므로 이동 하기 전에 탐색을 계속 진행 합니다.  예의 맨 아래에는 그룹 컨트롤이 사용 되지 않으며,이 경우에는 컨트롤 그룹화를 사용 하 여 직관적이 지 않으며 정상적으로 탐색이 진행 됩니다. 
 
 ![위로 이동 하기 전에 그룹 내에서 탐색을 수행 하는 향상 된 그룹 컨트롤을 보여 주는 애니메이션](media/properties-accessibility/enhanced-group.gif)
 

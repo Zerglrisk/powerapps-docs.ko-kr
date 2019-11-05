@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b89f23ac1dec941fcc2f5d7bd03f927c08691f77
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 41536592493a2f17b187829fb778d2a6ca94134a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994063"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540787"
 ---
 # <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 스토리지에 연결
 PowerApps에서 여러 클라우드 스토리지 연결을 제공합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  
@@ -37,7 +37,7 @@ PowerApps에서 여러 클라우드 스토리지 연결을 제공합니다. 이�
   4. 변경 내용을 저장합니다.
 
 ## <a name="connect-to-the-cloud-storage-connection"></a>클라우드 스토리지 연결에 연결합니다.
-1. [powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **관리**를 확장하고 **연결**을 선택합니다.  
+1. [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **관리**를 확장하고 **연결**을 선택합니다.  
    
     ![연결 선택](./media/cloud-storage-blob-connections/connections.png)
 2. **새 연결**을 선택하고 클라우드 스토리지 연결을 선택합니다. 예를 들어 **OneDrive**를 선택합니다.

@@ -1,26 +1,31 @@
 ---
-title: 포털에 대한 유동 개체 사용 | MicrosoftDocs
-description: 포털에서 사용 가능한 유동 개체에 대해 알아봅니다.
+title: 포털에 액체 개체 사용 | MicrosoftDocs
+description: 포털에서 사용 가능한 액체 개체에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 857c65097800420662aafe825f61333037b4e31c
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543184"
 ---
+# <a name="available-liquid-objects"></a>사용 가능한 Liquid 개체
 
-# <a name="available-liquid-objects"></a>사용 가능한 유동 개체
+액체 개체는 페이지에 동적 콘텐츠를 출력 하는 특성을 포함 합니다. 예를 들어 page 개체에는 현재 페이지의 제목을 출력 하는 데 사용할 수 있는 title 이라는 특성이 있습니다.
 
-유동 개체는 페이지에 동적 콘텐츠를 출력하는 특성을 포함합니다. 예를 들어, 페이지 개체는 현재 페이지의 제목을 출력하는 데 쓰일 수 있는 제목이라 불리는 특성을 가집니다.
-
-이름으로 개체 특성에 액세스하려면 점을 사용하십시오. 템플릿에서 개체의 특성을 렌더링하려면 {{ 및 }} 사이에 배치하십시오.
+이름으로 개체 특성에 액세스 하려면 점을 사용 합니다. 템플릿에서 개체의 특성을 렌더링 하려면 {{및}} (으)로 줄 바꿈 합니다.
 
 ```
 {{ page.title }}
 ```
-개체의 특성은 문자열 이름과 \[\]을 사용하여 액세스할 수도 있습니다. 특성의 이름이 . 구문을 사용할 때 원하는 특성을 동적으로 확인할 때나 유효하지 않은 문자, 공백, 특수 문자 등을 포함하는 경우 유용합니다.
+문자열 이름 및 \[\]를 사용 하 여 개체의 특성에 액세스할 수도 있습니다. 이 기능은 원하는 특성을 동적으로 결정 하거나 특성 이름에 문자, 공백, 특수 문자 등을 포함 하는 경우에 유용 합니다. 구문과.
 
 ```
 {{ page[title] }}
@@ -30,30 +35,30 @@ ms.reviewer: null
 {{ object[attribute_name] }}
 ```
 
-다음 개체는 어디서든, 어느 템플릿에서든 사용하고 액세스할 수 있습니다.
+다음 개체는 임의의 템플릿에서 사용 하 고 액세스할 수 있습니다.
 
 
-|   개체    |                                                                                                                                                                                          설명                                                                                                                                                                                           |
+|   개체가    |                                                                                                                                                                                          설명                                                                                                                                                                                           |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  엔터티   |                                                                                                 ID로 모든 PowerApps 엔터티를 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [엔터티](#entities)                                                                                                 |
-|     지금     |                                          템플릿이 렌더링될 때 현재 UTC 시간을 나타내는 날짜/시간 개체입니다.<br>**참고**: 이 값은 포털 웹 앱에 의해 캐싱되며 매번 새로 고쳐지지 않습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [날짜 필터](liquid-filters.md#date-filters)                                          |
-|    페이지     | 현재 포털 요청 페이지를 참조합니다. 페이지 개체는 현재 페이지의 이동 경로, 현재 페이지의 제목 또는 URL, 그리고 기본 PowerApps 레코드의 기타 특성 또는 관련된 엔터티에 대한 액세스를 제공합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [페이지](#page) |
-|   params    |                                                                                                                             request.params에 대한 편리한 바로 가기입니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [요청](#request)                                                                                                                              |
-|   요청   |                                                                                                                        현재 HTTP 요청에 대한 정보가 담겨 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [요청](#request)                                                                                                                        |
-|  설정   |                                                                                                            이름을 사용하여 모든 [사이트 설정](../configure-site-settings.md)을 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [설정](#settings)                                                                                                            |
-|   sitemap   |                                                                                                                               포털 사이트 맵에 대한 액세스를 허용합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [사이트 맵](#sitemap)                                                                                                                                |
-| 사이트 마커 |                                                                                                                        이름을 사용하여 모든 사이트 마커를 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [sitemarkers](#sitemarkers)                                                                                                                        |
-|  조각   |                                                                                                         이름으로 [콘텐츠 조각](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/customize-content-snippets)을 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [코드 조각](#snippets)                                                                                                         |
-|    사용자     |                             현재 포털 사용자를 참조하여 기본 PowerApps 연락처 레코드의 모든 특성에 액세스할 수 있습니다. 로그인한 사용자가 없으면 이 변수는 [null](liquid-types.md#null)입니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [사용자](#user)                              |
-|  웹 링크   |                                                                                                                        이름 또는 ID로 모든 웹 링크 집합을 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [웹 링크](#weblinks)                                                                                                                        |
-|   웹 사이트   |                                                      포털 웹 사이트 레코드를 참조하여 포털에 대한 PowerApps 웹 사이트(adx\_website) 레코드의 모든 특성에 액세스할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [웹 사이트](#website)                                                       |
+|  엔터티   |                                                                                                 ID 별로 PowerApps 엔터티를 로드할 수 있습니다. [엔터티](#entities) [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)]                                                                                                 |
+|     지금은     |                                          템플릿이 렌더링 되는 시점의 현재 UTC 시간을 참조 하는 날짜/시간 개체입니다.<br>**참고**:이 값은 포털 웹 앱에서 캐시 되며 매번 새로 고쳐지지 않습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [날짜 필터](liquid-filters.md#date-filters)                                          |
+|    페이지     | 현재 포털 요청 페이지를 참조 합니다. Page 개체는 현재 페이지의 이동 경로, 현재 페이지의 제목 또는 URL, 기본 PowerApps 레코드의 기타 특성 또는 관련 된 엔터티와 같은 항목에 대 한 액세스를 제공 합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [페이지](#page) |
+|   params    |                                                                                                                             요청. params의 편리한 바로 가기입니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [요청](#request)                                                                                                                              |
+|   요구   |                                                                                                                        현재 HTTP 요청에 대 한 정보를 포함 합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [요청](#request)                                                                                                                        |
+|  설정   |                                                                                                            모든 [사이트 설정을](../configure/configure-site-settings.md) 이름으로 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [설정](#settings)                                                                                                            |
+|   web.sitemap   |                                                                                                                               포털 사이트 맵에 대 한 액세스를 허용 합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [사이트 맵](#sitemap)                                                                                                                                |
+| sitemarkers |                                                                                                                        모든 사이트 표식을 이름으로 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [sitemarkers](#sitemarkers)                                                                                                                        |
+|  조각은   |                                                                                                         모든 [콘텐츠 조각을](../configure/customize-content-snippets.md) 이름으로 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [코드 조각](#snippets)                                                                                                         |
+|    정의     |                             기본 PowerApps 연락처 레코드의 모든 특성에 대 한 액세스를 허용 하는 현재 포털 사용자를 참조 합니다. 로그인 한 사용자가 없는 경우이 변수는 [null](liquid-types.md#null)이 됩니다. [사용자](#user) [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)]                              |
+|  weblinks   |                                                                                                                        이름 또는 ID로 설정 된 웹 링크를 로드할 수 있습니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [weblinks](#weblinks)                                                                                                                        |
+|   사이트나   |                                                      포털의 PowerApps 웹 사이트 (adx\_웹 사이트)의 모든 특성에 대 한 액세스를 허용 하는 포털 웹 사이트 레코드를 참조 합니다. [웹 사이트](#website) [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)]                                                       |
 
-## <a name="ads"></a>광고
+## <a name="ads"></a>통한
 
 
-광고에 액세스하고 광고를 렌더링하는 기능을 제공합니다.
+Ad에 액세스 하 고 렌더링 하는 기능을 제공 합니다.
 
-광고 개체를 사용하여 특정 광고 또는 광고 배치를 선택할 수 있습니다.
+Ads 개체를 사용 하 여 특정 광고 또는 광고 배치를 선택할 수 있습니다.
 
 ```
 <div>
@@ -73,58 +78,58 @@ ms.reviewer: null
 
 ### <a name="ads-attributes"></a>광고 특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| placements        | 광고 배치 개체를 반환합니다.    |
-| \[광고 이름 또는 ID\] | 이름 또는 ID 속성으로 어느 광고에든 액세스할 수 있습니다. <br> `{% assign ad = ads[Ad Name] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
+| 소재        | Adplacements 개체를 반환 합니다.    |
+| \[ad 이름 또는 id\] | 이름 또는 Id 속성을 사용 하 여 모든 ad에 액세스할 수 있습니다. <br> `{% assign ad = ads[Ad Name] %}`<br>`{% assign ad = ads["da8b8a92-2ee6-476f-8a21-782b047ff460"] %}`  |
 
 
 ### <a name="ad-placements-attributes"></a>광고 배치 특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| \[광고 배치 이름 또는 ID\] | 이름 또는 ID 속성으로 어느 광고 배치에든 액세스할 수 있습니다.<br>`{% assign placement = ads.placements[Placement Name or Id] %}`<br>`{% assign placement = ads.placements[2423d713-abb3-44c3-8a7d-c445e16fccad] %}`  |
+| \[ad 배치 이름 또는 id\] | 이름 또는 Id 속성으로 adplacement에 액세스할 수 있습니다.<br>`{% assign placement = ads.placements[Placement Name or Id] %}`<br>`{% assign placement = ads.placements[2423d713-abb3-44c3-8a7d-c445e16fccad] %}`  |
 
 ### <a name="ad-placement-attributes"></a>광고 배치 특성
 
-광고 배치는 아래에 나열된 특성 이외에 모두 동일한 특성을 가진 엔터티 개체입니다.
+광고 배치는 아래에 나열 된 특성과 함께 동일한 특성을 모두 포함 하는 엔터티 개체입니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 광고            | 배치와 연관된 광고 개체 모음을 반환합니다.  [반복 태그](iteration-tags.md) 및 [배열 필터](liquid-filters.md#array-filters)는 이 모음과 함께 사용할 수 있습니다.  |  
-| 이름           | 광고 배치의 이름 필드를 반환합니다.                                                                |
-| placement\_url | 템플릿으로 완전히 렌더링된 광고 배치를 검색하는 데 사용할 수 있는 URL입니다.                         |
-| random\_url    | 템플릿으로 완전히 렌더링된 배치에서 무작위로 광고를 검색하는 데 사용할 수 있는 URL입니다.           |
+| 통한            | 배치와 연결 된 ad 개체의 컬렉션을 반환 합니다.  [반복 태그](iteration-tags.md) 와 [배열 필터](liquid-filters.md#array-filters) 를이 컬렉션에 사용할 수 있습니다.  |  
+| 이름           | 광고 배치의 이름 필드를 반환 합니다.                                                                |
+| 배치\_url | 템플릿에 의해 완전히 렌더링 된 광고 배치를 검색 하는 데 사용할 수 있는 URL입니다.                         |
+| 임의\_url    | 템플릿에 의해 완전히 렌더링 된 배치에서 임의 광고를 검색 하는 데 사용할 수 있는 URL입니다.           |
 
-### <a name="ad-attributes"></a>광고 특성
+### <a name="ad-attributes"></a>Ad 특성
 
 > [!Note]
-> 광고는 아래에 나열된 특성 이외에 모두 동일한 특성을 가진 엔터티 개체입니다.
+> Ad는 아래에 나열 된 특성과 동일한 특성을 모두 포함 하는 엔터티 개체입니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| ad\_url |  템플릿으로 완전히 렌더링된 광고를 검색하는 데 사용할 수 있는 URL입니다.   |
-| 복사| 광고의 복사 필드를 반환합니다.|
-| image| 광고의 이미지 개체(있는 경우)를 반환합니다.|
-| 이름| 광고의 이름 필드를 반환합니다.|
-| open\_in\_new\_window | redirect\_url이 지정한 URL이 새 창에서 열리는 경우 true를 반환합니다. |
-| redirect\_url| 사용자가 광고를 선택했을 때 리디렉션되는 URL입니다.|
+| ad\_url |  템플릿에서 완전히 렌더링 된 광고를 검색 하는 데 사용할 수 있는 URL입니다.   |
+| 복사| 광고에 대 한 복사 필드를 반환 합니다.|
+| 이미지로| 광고에 대 한 이미지 개체 (있는 경우)를 반환 합니다.|
+| 이름| 광고에 대 한 이름 필드를 반환 합니다.|
+| \_새\_창에서\_열기 | 리디렉션\_url에 지정 된 URL을 새 창에서 열어야 하는 경우 true를 반환 합니다. |
+| \_url 리디렉션| Ad를 선택 하 여 사용자가 리디렉션되는 URL입니다.|
 
-### <a name="ad-image-attributes"></a>광고 이미지 특성
+### <a name="ad-image-attributes"></a>Ad 이미지 특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| alternate\_text | 태그의 대체 특성에 나타내고자 하는 텍스트를 반환합니다. |
-| height          | 이미지의 높이를 픽셀로 반환합니다.                             |
-| URL             | 이미지에 대한 URL 원본을 반환합니다.                                  |
-| width           | 이미지의 너비를 픽셀로 반환합니다.                              |
+| 대체\_텍스트 | 태그의 alt 특성에 표시 되는 텍스트를 반환 합니다. |
+| height          | 이미지의 높이 (픽셀)를 반환 합니다.                             |
+| url             | 이미지에 대 한 URL 원본을 반환 합니다.                                  |
+| width           | 이미지의 너비 (픽셀)를 반환 합니다.                              |
 
 
-## <a name="blogs"></a>blogs
+## <a name="blogs"></a>블로그
 
-블로그 및 블로그 게시물에 액세스하고 렌더링할 수 있는 기능을 제공합니다.
+블로그 및 블로그 게시물에 액세스 하 고 렌더링 하는 기능을 제공 합니다.
 
-블로그 개체는 특정 블로그 또는 블로그 게시물의 선택을 가능하게 합니다.
+블로그 개체를 사용 하면 특정 블로그 또는 블로그 게시물을 선택할 수 있습니다.
 
 ```
 {% assign posts = blogs.posts | paginate: 0,4 %}
@@ -194,16 +199,16 @@ ms.reviewer: null
 </div>
 ```
 
-### <a name="blogs-object"></a>blogs 개체
+### <a name="blogs-object"></a>블로그 개체
 
-블로그 개체를 통해 포털의 특정 블로그에 액세스하거나 (블로그에 관계 없이) 포털의 모든 블로그 게시물에 액세스할 수 있습니다.
+블로그 개체를 사용 하 여 포털의 특정 블로그에 액세스 하거나 블로그의 모든 블로그 게시물에 액세스할 수 있습니다 (블로그에 관계 없음).
 
-다음 표는 블로그 개체와 관련된 특성을 설명합니다.
+다음 표에서는 블로그 개체와 관련 된 특성을 설명 합니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| posts               | 포털의 모든 블로그 게시물을 포함하는 블로그 게시물 개체를 반환합니다.     |
-| \[블로그 이름 또는 ID\] | 이름 또는 ID 속성으로 어떤 블로그에든 액세스할 수 있습니다.                   
+| 게시물과               | 포털의 모든 블로그 게시물을 포함 하는 blogposts 개체를 반환 합니다.     |
+| \[블로그 이름 또는 id\] | 이름 또는 Id 속성을 사용 하 여 블로그에 액세스할 수 있습니다.                   
 
 ```
 {% assign blog = blogs[Blog Name] %}                             
@@ -211,50 +216,50 @@ ms.reviewer: null
 {% assign blog = blogs[da8b8a92-2ee6-476f-8a21-782b047ff460] %}  |
 ```
 
-### <a name="blog-object"></a>blog 개체
+### <a name="blog-object"></a>블로그 개체
 
-블로그 개체를 통해 단일 블로그로 작업하여 해당 블로그를 위한 게시물에 액세스할 수 있습니다.
+블로그 개체를 사용 하면 단일 블로그를 사용 하 여 해당 블로그의 게시물에 액세스할 수 있습니다.
 
-다음 표는 blog 개체와 관련된 다양한 특성을 설명합니다.
+다음 표에서는 블로그 개체와 관련 된 다양 한 특성을 설명 합니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| posts | 블로그를 위한 모든 블로그 게시물을 포함하는 블로그 게시물 개체를 반환합니다. |
-| 이름  | 블로그의 이름.                                              |
-| title | 블로그의 제목.                                             |
-| URL   | 블로그의 URL.                                               |
+| 게시물과 | 블로그의 모든 블로그 게시물을 포함 하는 blogposts 개체를 반환 합니다. |
+| 이름  | 블로그의 이름입니다.                                              |
+| 제목과 | 블로그의 제목입니다.                                             |
+| url   | 블로그의 URL입니다.                                               |
 
 ### <a name="blogposts-object"></a>blogposts 개체
 
-블로그 게시물 개체를 사용하여 블로그 게시물 개체 모음에 액세스할 수 있습니다. 블로그 게시물의 순서를 정하고 페이지를 매기며 유동 필터를 사용할 수 있습니다.
+Blogposts 개체를 사용 하 여 블로그 게시물 개체의 컬렉션에 액세스할 수 있습니다. 액체 필터를 사용 하는 것 외에도 블로그 게시물을 주문 하 고 페이지 매김을 수행할 수 있습니다.
 
-{% assign blogposts = blogs.posts | order\_by “adx\_name”, “desc” | paginate: 0,4 | all %} blogs.posts.all 또한 모든 블로그 게시물 blogs.posts를 가져오는 유효한 방법 | from\_index: 0 | take: 2 또한 가능
+{% assign blogposts = 블로그. 게시물 | 주문\_"adx\_name", "desc" | 매김: 0, 4 | 모든%} 블로그 게시물도 모든 블로그 게시물 블로그 게시물을 가져오는 유효한 방법입니다. 게시물 | from\_인덱스: 0 | take: 2도 가능 합니다.
 
-다음 표는 blogposts 개체와 관련된 다양한 특성을 설명합니다.
+다음 표에서는 blogposts 개체와 연결 된 다양 한 특성을 설명 합니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 모두 | 컬렉션에 있는 모든 블로그 게시물 개체를 반환합니다. |
+| 모두가 | 컬렉션의 모든 블로그 게시물 개체를 반환 합니다. |
 
-### <a name="blogpost-object"></a>blogpost 개체
+### <a name="blogpost-object"></a>블로그 게시물 개체
 
-단일 블로그 게시물을 지칭합니다.
+단일 블로그 게시물을 참조 합니다.
 
-다음 표는 blogpost 개체와 관련된 다양한 특성을 설명합니다.
+다음 표에서는 블로그 게시물 개체와 연결 된 다양 한 특성을 설명 합니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| url            | 게시물의 URL.                                                                |
-| content        | 게시물의 콘텐츠 필드를 반환합니다.                                             |
-| content        | 게시물의 콘텐츠 필드를 반환합니다.                                             |
-| author         | 게시물의 작성자(단순히 연락처 엔터티 개체)를 반환합니다.          |
-| title          | 게시물의 제목.                                                              |
-| comment\_count | 특정 게시물에 달린 댓글 수의 정수값을 반환합니다. |
-| publish\_date  | 게시물이 게시된 날짜.                                           |
+| url            | 게시물의 URL입니다.                                                                |
+| 콘텐트가        | 게시물의 콘텐츠 필드를 반환 합니다.                                             |
+| 콘텐트가        | 게시물의 콘텐츠 필드를 반환 합니다.                                             |
+| 자신이         | 게시물의 기관 f를 반환 합니다 (단순히 연락처 엔터티 개체).          |
+| 제목과          | 게시물의 제목입니다.                                                              |
+| 주석\_개수 | 지정 된 게시물에 대 한 주석 수의 정수 값을 반환 합니다. |
+| 게시\_날짜  | 게시가 게시 된 날짜입니다.                                           |
 
 ## <a name="entities"></a>엔터티
 
-ID로 모든 PowerApps 엔터티를 로드할 수 있습니다. 엔터티가 존재하는 경우, 엔터티 개체가 반환될 것입니다. 주어진 ID의 엔터티가 발견되지 않으면 [null](liquid-types.md#null)이 반환될 것입니다.  
+ID 별로 PowerApps 엔터티를 로드할 수 있습니다. 엔터티가 있으면 엔터티 개체가 반환 됩니다. 지정 된 ID를 가진 엔터티를 찾을 수 없으면 [null](liquid-types.md#null) 이 반환 됩니다.  
 
 ```
 {% assign account = entities.account['936DA01F-9ABD-4d9d-80C7-02AF85C822A8'] %}
@@ -276,236 +281,236 @@ ID로 모든 PowerApps 엔터티를 로드할 수 있습니다. 엔터티가 존
 {% endif %}
 ```
 
-### <a name="entity"></a>Entity
+### <a name="entity"></a>엔터티와의
 
-엔터티 개체는 PowerApps 엔터티 레코드의 특성에 대한 접근 권한을 제공합니다.
+엔터티 개체는 PowerApps 엔터티 레코드의 특성에 대 한 액세스를 제공 합니다.
 
 
-|             특성              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|             특성도              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                 Id                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    문자열로서의 엔터티의 GUID ID. 예: 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-|           logical\_name            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   엔터티의 PowerApps 논리적 이름입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|               메모                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             엔터티와 연계된 메모(annotation)를 이전부터 최신의 순서로 로드합니다(createdon). 메모는 메모 개체로 반환됩니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|            권한             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             엔터티에 대한 엔터티 권한 주장 결과를 로드합니다. 결과는 권한 개체로 반환됩니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|                URL                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    엔터티에 대한 PowerApps 포털 콘텐츠 관리 시스템 URL 경로를 반환합니다. 엔터티가 현재 웹사이트에 유효한 URL을 갖고 있지 않는 경우 null을 반환합니다. 귀하가 응용 프로그램에서 URL 공급자를 맞춤화하지 않은 한 일반적으로 이것은 포털 CMS 에 통합된 특정 엔터티 타입을 위한 값만 반환할 것입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| \[특성 또는 관계 이름\] | 논리적 이름으로 PowerApps 엔터티의 특성에 액세스할 수 있습니다. `{{ entity.createdon }}{% assign attribute_name = 'name' %}{{ entity[attribute_name] }}` <br>대부분의 엔터티 특성들의 값은 직접 [유동 유형](liquid-types.md)에 매핑됩니다. 두 옵션 필드는 부울에, 텍스트 필드는 문자열에, 숫자/통화 필드는 숫자에, 날짜/시간 필드는 날짜 개체에 매핑됩니다. 그러나 일부 특성 유형은 다음 개체로 반환됩니다.<ul><li>조회(엔터티 참조) 필드는 엔터티 참조 개체로 반환됩니다.</li><li>옵션 설정/픽리스트 필드는 옵션 설정값 개체로 반환됩니다.</li><li>관련된 엔터티를 관계 스키마 이름에 의해서도 로드할 수 있습니다.</li>`{{ page.adx_webpage_entitylist.adx_name }}`관계가 재귀 관계(즉, 자가 참조적)인 경우에는 재귀 관계 개체가 반환될 것입니다. (그렇지 않으면, 결과가 애매모호할 것입니다.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**참고**: 단일 템플릿에서 큰 수의 관련 엔터티를 로드하거나 큰 수의 관계에 액세스하는 것은 템플릿 렌더링 수행에 부정적 영향을 미칠 수 있습니다. 한 루프 내에서 연속으로 각 항목의 관련 엔터티 로드를 피하십시오. 가능하면 엔터티 모음을 로드하기 위해 [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md)를 사용하십시오. |
+|                 ID입니다.                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    엔터티의 GUID ID (문자열)입니다. 예: 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|           논리적\_이름            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   엔터티의 PowerApps 논리적 이름입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|               참고                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             엔터티와 연결 된 모든 메모 (주석)를 가장 오래 된 것부터 최신 (adventureworks.createdon) 순서로 로드 합니다. 메모는 메모 개체로 반환 됩니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|            권한에             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             엔터티에 대 한 엔터티 권한 어설션 결과를 로드 합니다. 결과는 사용 권한 개체로 반환 됩니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    엔터티에 대 한 PowerApps 포털 콘텐츠 관리 시스템 URL 경로를 반환 합니다. 엔터티에 현재 웹 사이트에 유효한 URL이 없으면 null을 반환 합니다. 일반적으로 응용 프로그램에서 URL 공급자를 사용자 지정한 경우를 제외 하 고는 포털 CMS에 통합 된 특정 엔터티 형식에 대 한 값만 반환 합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| \[특성 또는 관계 이름\] | PowerApps 엔터티의 특성에는 논리적 이름을 사용 하 여 액세스할 수 있습니다. `{{ entity.createdon }}{% assign attribute_name = 'name' %}{{ entity[attribute_name] }}` <br>대부분의 엔터티 특성 값은 [액체 형식](liquid-types.md)에 직접 매핑됩니다. 두 개의 옵션 필드는 부울, 텍스트 필드는 문자열, 숫자/통화 필드는 숫자, 날짜/시간 필드는 날짜 개체에 매핑됩니다. 하지만 일부 특성 유형은 개체로 반환 됩니다.<ul><li>조회 (엔터티 참조) 필드는 엔터티 참조 개체로 반환 됩니다.</li><li>옵션 집합/선택 목록 필드는 옵션 집합 값 개체로 반환 됩니다.</li><li>관계 스키마 이름을 기준으로 관련 엔터티를 로드할 수도 있습니다.</li>`{{ page.adx_webpage_entitylist.adx_name }}`관계가 반사 되는 경우 (즉, 자체 참조) 재귀 관계 개체가 반환 됩니다. 그렇지 않으면 결과는 모호 합니다.`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**참고**: 많은 수의 관련 엔터티를 로드 하거나 단일 템플릿에서 많은 수의 관계에 액세스 하면 템플릿 렌더링 성능에 부정적인 영향을 줄 수 있습니다. 루프 내에서 배열의 각 항목에 대 한 관련 엔터티를 로드 하지 마십시오. 가능 하면 [PowerApps common data service 엔터티 태그](portals-entity-tags.md) 를 사용 하 여 엔터티 컬렉션을 로드 합니다. |
 
 ### <a name="entity-reference"></a>엔터티 참조
 
-특성 조회 값은 다음 특성을 가진 엔터티 참조 개체로 반환됩니다.
+조회 특성 값은 다음 특성을 가진 엔터티 참조 개체로 반환 됩니다.
 
 
-|   특성   |                                                설명                                                |
+|   특성도   |                                                설명                                                |
 |---------------|-----------------------------------------------------------------------------------------------------------|
-|      Id       | 문자열로서의 참조된 엔터티의 GUID ID. <br> 예: 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
-| logical\_name |  참조된 엔터티의 PowerApps 논리적 이름입니다.   |
-|     이름      |                           참조된 엔터티의 기본 이름 특성.                            |
+|      ID입니다.       | 참조 된 엔터티의 GUID ID (문자열)입니다. <br> 예: 936DA01F-9ABD-4d9d-80C7-02AF85C822A8 |
+| 논리적\_이름 |  참조 된 엔터티의 PowerApps 논리적 이름입니다.   |
+|     이름      |                           참조 된 엔터티의 기본 이름 특성입니다.                            |
 
-### <a name="note"></a>메모
+### <a name="note"></a>참고
 
-메모는 주석 레코드의 특성과 관계에 대한 접근 권한을 제공하는 엔터티 개체입니다. 엔터티 개체의 모든 특성뿐만 아니라 메모는 다음 추가 특성을 갖습니다.
+참고는 주석 레코드의 특성 및 관계에 대 한 액세스를 제공 하는 엔터티 개체입니다. 엔터티 개체의 모든 특성 외에도 메모에는 다음과 같은 추가 특성이 있습니다.
 
 
-|  특성   |                                                                                                                                                                                                                                  설명                                                                                                                                                                                                                                  |
+|  특성도   |                                                                                                                                                                                                                                  설명                                                                                                                                                                                                                                  |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| documentbody | 메모 주석 레코드의 documentbody 특성을 Base64 인코딩 문자열로 로드합니다. 이 특성의 콘텐츠가 클 수 있기 때문에 나머지 메모 특성과 함께 로드되지 않고 요구 시에만 로드됩니다. <br> **참고**: documentbody 특성 사용은 템플릿 렌더링 성능에 부정적 영향을 미칠 수 있으므로 조심해서 사용해야 합니다.<br>그 대신에 가능하면 url 특성을 사용하여 메모 첨부의 링크를 제공하십시오. |
-|     URL      |                                                                                                                                   내장된 포털 주석 첨부 핸들러를 위한 URL 경로를 반환합니다. 사용자에게 권한이 있고 메모에 첨부 파일이 있는 경우, 이 URL 요청은 메모 파일 첨부를 다운로드할 것입니다.                                                                                                                                    |
+| documentbody | B a s e 64로 인코딩된 문자열로 메모 주석 레코드의 documentbody 특성을 로드 합니다. 이 특성의 콘텐츠는 클 수 있기 때문에 나머지 메모 특성과 함께 로드 되지 않으므로 요청 시에만 로드 됩니다. <br> **참고**: documentbody 특성을 사용 하면 템플릿 렌더링 성능에 부정적인 영향을 줄 수 있으므로 주의 해 서 수행 해야 합니다.<br>가능 하면 url 특성을 사용 하 여 메모 첨부 파일에 대 한 링크를 제공 합니다. |
+|     url      |                                                                                                                                   기본 제공 포털 주석 첨부 파일 처리기의 URL 경로를 반환 합니다. 사용자에 게 권한이 있고 메모에 첨부 파일이 있는 경우이 URL에 대 한 요청은 참고 파일 첨부 파일을 다운로드 합니다.                                                                                                                                    |
 
 >[!Note]
 > [추가 필터](liquid-filters.md#additional-filters)                     
 
 ### <a name="option-set-value"></a>옵션 집합 값
 
-옵션 설정/픽리스트 특성 값은 다음 특성을 가진 엔터티 참조 개체로 반환됩니다.
+옵션 집합/선택 목록 특성 값은 다음 특성을 가진 엔터티 참조 개체로 반환 됩니다.
 
-| 특성 | 설명                                                     |
+| 특성도 | 설명                                                     |
 |-----------|-----------------------------------------------------------------|
-| 레이블     | 옵션 설정/픽리스트 특성 값의 현지화된 레이블. 예: 활성|
-| 값     | 옵션 설정/픽리스트 특성 값의 정수 값. 예: 0                                                           |
+| 레이블     | 옵션 집합/선택 목록 특성 값의 지역화 된 레이블입니다. 예: 활성|
+| Value     | 옵션 집합/선택 목록 특성 값의 정수 값입니다. 예를 들면 0입니다.                                                           |
 
 ### <a name="entity-permissions"></a>엔터티 권한
 
-엔터티 권한 개체는 엔터티에 대한 총합 권한 주장 결과에 대한 액세스 권한을 제공합니다.
+엔터티 권한 개체는 엔터티에 대 한 집계 된 사용 권한 어설션 결과에 대 한 액세스를 제공 합니다.
 
-| 특성       | 설명                                                                                                                                                                                                              |
+| 특성도       | 설명                                                                                                                                                                                                              |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| can\_append     | 레코드를 이 레코드 관계에 첨부할 권한이 현재의 사용자에게 있는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                              |
-| can\_append\_to | 이 레코드를 다른 엔터티 관계에 첨부할 권한이 현재의 사용자에게 있는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                      |
-| can\_create     | 이 엔터티 타입의 새 레코드를 생성할 권한이 현재의 사용자에게 있는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                                      |
-| can\_delete     | 이 레코드를 삭제할 권한이 현재의 사용자에게 있는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                                                          |
-| can\_read       | 이 레코드를 읽을 권한이 현재의 사용자에게 있는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                                                            |
-| can\_write      | 이 레코드를 업데이트할 권한이 현재의 사용자에게 있는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                                                          |
-| rules\_exist    | 이 개체가 대표하는 권한 결과가 명시적으로 정의된 권한 규칙의 결과인 경우 true를 반환합니다. 명시적으로 정의된 권한이 없을 때 기본 결과인 경우 false를 반환합니다. |
+| 추가\_가능     | 현재 사용자에 게이 레코드의 관계에 레코드를 추가할 수 있는 권한이 있는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                              |
+| 에\_추가\_수 있습니다. | 현재 사용자에 게이 레코드를 다른 엔터티의 관계에 추가할 수 있는 권한이 있는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                      |
+| \_만들 수 있습니다.     | 현재 사용자에 게이 엔터티 형식의 새 레코드를 만들 수 있는 권한이 있는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                                      |
+| 삭제할 수\_     | 현재 사용자에 게이 레코드를 삭제할 수 있는 권한이 있는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                                                          |
+| \_읽을 수 있음       | 현재 사용자에 게이 레코드를 읽을 수 있는 권한이 있는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                                                            |
+| 쓰기\_가능      | 현재 사용자에 게이 레코드를 업데이트할 수 있는 권한이 있는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                                                          |
+| 규칙\_있음    | 이 개체가 나타내는 권한 결과가 명시적으로 정의 된 권한 규칙의 결과인 경우 true를 반환 합니다. 명시적으로 정의 된 권한이 없으면 false를 반환 합니다. |
 
-### <a name="reflexive-relationship"></a>재귀 관계
+### <a name="reflexive-relationship"></a>반사 관계
 
-엔터티에 대한 재귀(즉, 자가 참조적)인 관계를 로드하려는 시도는 다음 특성을 가진 개체로 반환됩니다.
+엔터티에 대 한 재귀 (즉, 자체 참조) 관계 로드 시도는 다음 특성을 가진 개체로 반환 됩니다.
 
-| 특성     | 설명                                                                                                   |
+| 특성도     | 설명                                                                                                   |
 |---------------|---------------------------------------------------------------------------------------------------------------|
-| is\_reflexive | true를 반환합니다. 관계가 반환한 개체가 재귀 관계 개체인 경우인지 테스트하는 데 사용될 수 있습니다. |
-| referenced    | 특정 관계에 대해 참조된 엔터티 전체를 반환합니다.                                           |
-| referencing   | 특정 관계에 대해 참조된 엔터티를 반환합니다. 참조 엔터티가 존재하지 않는 경우 null을 반환합니다. 관계가 다수 대 다수(N:N)인 경우, 참조 엔터티 전체를 반환합니다.                          
+| \_재귀 | True를 반환 합니다. 관계에서 반환 하는 개체가 반사 관계 개체 인지 여부를 테스트 하는 데 사용할 수 있습니다. |
+| 참조    | 지정 된 관계에 대 한 참조 되는 엔터티의 배열을 반환 합니다.                                           |
+| 고   | 지정 된 관계에 대 한 참조 엔터티를 반환 합니다. 참조 엔터티가 없으면 null을 반환 합니다. Relationship이 다대다 (N:N) 인 경우 참조 하는 엔터티의 배열을 반환 합니다.                          
 
 ## <a name="entitylist"></a>entitylist
 
-엔터티 목록 개체는 [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md) 내에서 사용됩니다. 주어진 엔터티 목록의 모든 특성에 대한 액세스를 제공합니다.  
+Entitylist 개체는 [PowerApps common data service 엔터티 태그](portals-entity-tags.md)내에서 사용 됩니다. 지정 된 엔터티 목록의 모든 특성에 대 한 액세스를 제공 합니다.  
 
 > [!Note]                                                       
-> [현재 페이지와 연관된 엔터티 목록 렌더링](render-entity-list-current-page.md)
+> [현재 페이지와 연결 된 엔터티 목록을 렌더링 합니다.](render-entity-list-current-page.md)
 
 ### <a name="attributes"></a>특성
 
 > [!Note]
-> [entities](#entities)
+> [엔터티](#entities)
 
-|               특성               |                                                                                                                            설명                                                                                                                            |
+|               특성도               |                                                                                                                            설명                                                                                                                            |
 |---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            create\_enabled            |                                                                                엔터티 목록을 위해 새 레코드 만들기가 구성된 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                |
-|              create\_url              |                                                                                          엔터티 목록의 만들기 링크/단추를 위해 구성된 URL 경로를 반환합니다.                                                                                          |
-|            detail\_enabled            |                                                                         개별 레코드의 세부 정보 보기가 엔터티 목록을 위해 구성되어 있는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                          |
-|         detail\_id\_parameter         |               레코드 세부 정보 보기 URL을 작성할 때 레코드 ID에 사용할 쿼리 문자열 매개 변수 이름을 반환합니다. 유동 필터를 사용하여 URL을 작성하는 데 대한 자세한 내용은 [URL 필터](liquid-filters.md#url-filters)를 참조하십시오. 예: id                |
-|             detail\_label             |                                                                                     엔터티 목록의 세부 정보 보기 링크/단추를 위해 구성된 지역화된 레이블을 반환합니다.                                                                                     |
-|              detail\_url              |                                                                                       엔터티 목록의 세부 정보 보기 링크/단추를 위해 구성된 URL 경로를 반환합니다.                                                                                        |
-|           empty\_list\_text           |                                                                                엔터티 목록 보기에 결과가 반환되지 않을 때 표시하도록 구성된 지역화된 텍스트를 반환합니다.                                                                                |
-|      enable\_entity\_permissions      |                                                                               엔터티 권한 필터링이 이 엔터티 목록에 사용된 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                               |
-|         entity\_logical\_name         |                                                 이 엔터티 목록으로 표시되는 레코드의 PowerApps 엔터티 논리 이름을 반환합니다. 예: contact                                                 |
-|   filter\_account\_attribute\_name    |                                            현재 포털 사용자의 상위 계정으로 결과 레코드를 필터링하는 데 사용할 거래처에 대한 조회를 위해 특성 논리 이름을 반환합니다. 예: accountid                                            |
-|         filter\_apply\_label          |                                                            엔터티 목록 결과에 고급 특성 필터를 적용하는 링크/단추에 사용하도록 구성된 지역화된 레이블을 반환합니다.                                                            |
-|          filter\_definition           |                      엔터티 목록의 JSON 특성 필터 정의를 반환합니다. metafilters 유동 필터를 사용하여 이 정의를 처리하는 방법에 대한 자세한 내용은 [엔터티 목록 필터](liquid-filters.md#entity-list-filters)를 참조하십시오.                       |
-|            filter\_enabled            |                                                                               고급 특성 필터링이 엔터티 목록에 사용되는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                               |
-| filter\_portal\_user\_attribute\_name |                                                 현재 포털 사용자의 거래처로 결과 레코드를 필터링하는 데 사용할 연락처에 대한 조회를 위해 특성 논리 이름을 반환합니다. 예: contactid                                                  |
-|   filter\_website\_attribute\_name    |                                              현재 포털 웹 사이트로 결과 레코드를 필터링하는 데 사용할 adx\_website에 대한 조회를 위해 특성 논리 이름을 반환합니다. 예: adx\_websiteid                                              |
-|            language\_code             |                                               이 엔터티 목록의 모든 지역화된 레이블을 선택하는 데 사용될 PowerApps 정수 언어 코드를 반환합니다.                                                |
-|              page\_size               |                                                                                                   엔터티 목록의 구성된 결과 페이지 크기를 반환합니다.                                                                                                    |
-|          primary\_key\_name           |                                                                                  이 엔터티 목록으로 표시되는 레코드의 기본 키 특성 논리 이름을 반환합니다.                                                                                  |
-|            search\_enabled            |                                                                                         검색이 이 엔터티 목록에 사용된 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                          |
-|          search\_placeholder          |                                                                                        엔터티 목록 검색 필드 자리 표시자를 위해 구성된 지역화된 텍스트를 반환합니다.                                                                                        |
-|            search\_tooltip            |                                                                                             엔터티 목록 검색 도구 설명을 위해 구성된 지역화된 텍스트를 반환합니다.                                                                                             |
-|                 보기                 |                                                                                           엔터티 목록 보기 개체로서 엔터티 목록에 사용할 수 있는 보기를 반환합니다.                                                                                           |
-|      \[특성 논리적 이름\]       | [entity](liquid-objects.md#entity) 개체와 동일하게 논리적 이름별로 엔터티 목록(adx\_entitylist) PowerApps 레코드의 특성에 액세스할 수 있습니다. 예: {{ entitylist.adx\_name }} |
+|            만들기\_사용            |                                                                                새 레코드를 만들 때 엔터티 목록에 대해 구성 된 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                |
+|              \_url 만들기              |                                                                                          엔터티 목록에 대 한 만들기 링크/단추의 구성 된 URL 경로를 반환 합니다.                                                                                          |
+|            세부\_사용            |                                                                         개별 레코드의 자세히 보기가 엔터티 목록에 대해 구성 된 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                          |
+|         세부\_id\_매개 변수         |               레코드 세부 정보 보기 URL을 생성할 때 레코드 ID에 사용할 쿼리 문자열 매개 변수 이름을 반환 합니다. Url 생성에 액체 필터를 사용 하는 방법에 대 한 자세한 내용은 [url 필터](liquid-filters.md#url-filters) 를 참조 하세요. 예: id                |
+|             세부\_레이블             |                                                                                     엔터티 목록의 자세히 보기 링크/단추에 대해 구성 된 지역화 된 레이블을 반환 합니다.                                                                                     |
+|              세부\_url              |                                                                                       엔터티 목록의 자세히 보기 링크/단추에 대해 구성 된 URL 경로를 반환 합니다.                                                                                        |
+|           빈\_목록\_텍스트           |                                                                                엔터티 목록 뷰에서 결과가 반환 되지 않을 때 표시 되는 구성 된 지역화 된 텍스트를 반환 합니다.                                                                                |
+|      \_엔터티\_사용 권한 사용      |                                                                               이 엔터티 목록에 대해 엔터티 권한 필터링을 사용 하는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                               |
+|         엔터티\_논리적\_이름         |                                                 이 엔터티 목록에서 표시할 레코드의 PowerApps 엔터티 논리적 이름을 반환 합니다. 예: 연락처                                                 |
+|   \_계정\_특성\_이름 필터링    |                                            현재 포털 사용자의 부모 계정으로 결과 레코드를 필터링 하는 데 사용 되는 조회에 대 한 특성의 논리적 이름을 반환 합니다. 예: accountid                                            |
+|         \_레이블 필터\_적용          |                                                            엔터티 목록 결과에 고급 특성 필터를 적용 하는 링크/단추에 사용할 구성 된 지역화 된 레이블을 반환 합니다.                                                            |
+|          필터\_정의           |                      엔터티 목록에 대 한 JSON 특성 필터 정의를 반환 합니다. Metafilters 액체 필터를 사용 하 여이 정의를 처리 하는 방법에 대 한 자세한 내용은 [엔터티 목록 필터](liquid-filters.md#entity-list-filters) 를 참조 하세요.                       |
+|            필터\_사용            |                                                                               엔터티 목록에 대해 고급 특성 필터링을 사용 하는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                               |
+| \_포털\_사용자\_특성\_이름 필터링 |                                                 현재 포털 사용자의 연락처에의 한 결과 레코드를 필터링 하는 데 사용 되는 연락처 조회에 대 한 특성 논리적 이름을 반환 합니다. 예: contactid                                                  |
+|   \_웹 사이트\_특성\_이름 필터링    |                                              현재 포털 웹 사이트에서 결과 레코드를 필터링 하는 데 사용 되는 adx\_웹 사이트로 조회에 대 한 특성 논리적 이름을 반환 합니다. 예: adx\_websiteid&gt                                              |
+|            언어\_코드             |                                               이 엔터티 목록에 대해 지역화 된 모든 레이블을 선택 하는 데 사용 되는 PowerApps 정수 언어 코드를 반환 합니다.                                                |
+|              페이지\_크기               |                                                                                                   엔터티 목록에 대해 구성 된 결과 페이지 크기를 반환 합니다.                                                                                                    |
+|          기본\_키\_이름           |                                                                                  이 엔터티 목록에서 표시할 레코드의 기본 키 특성 논리적 이름을 반환 합니다.                                                                                  |
+|            검색\_사용            |                                                                                         이 엔터티 목록에 대해 검색을 사용 하는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                                                          |
+|          \_자리 표시자 검색          |                                                                                        엔터티 목록 검색 필드 자리 표시자에 대해 구성 된 지역화 된 텍스트를 반환 합니다.                                                                                        |
+|            \_도구 설명 검색            |                                                                                             엔터티 목록 검색 도구 설명에 대해 구성 된 지역화 된 텍스트를 반환 합니다.                                                                                             |
+|                 레이아웃                 |                                                                                           엔터티 목록에 엔터티 목록 뷰 개체로 사용할 수 있는 뷰를 반환 합니다.                                                                                           |
+|      \[특성 논리적 이름\]       | 엔터티 목록 (adx\_entitylist) PowerApps 레코드의 모든 특성에는 [엔터티](liquid-objects.md#entity) 개체와 동일한 방식으로 논리적 이름별로 액세스할 수 있습니다. 예: {{entitylist. adx\_name}} |
 
-### <a name="entity-list-view-attributes"></a>엔터티 목록 보기 특성
+### <a name="entity-list-view-attributes"></a>엔터티 목록 뷰 특성
 
-|          Attribute(특성)          |                                                                                     설명                                                                                     |
+|          특성도          |                                                                                     설명                                                                                     |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|           columns           |                                                         엔터티 목록 보기 열 개체로서 해당 보기의 열을 반환합니다.                                                         |
-|    entity\_logical\_name    |               보기에 포함된 레코드의 PowerApps 엔터티 논리 이름을 반환합니다. 예: contact                |
-|             Id              |                                                                          보기의 GUID ID를 반환합니다.                                                                           |
-|       language\_code        | 보기에 대해 모든 지역화된 레이블(열 머리글 등)을 선택하는 데 사용될 PowerApps 정수 언어 코드를 반환합니다. |
-|            이름             |                                          보기의 PowerApps 디스플레이 이름을 반환합니다.                                          |
-| primary\_key\_logical\_name |        보기에 포함된 레코드의 PowerApps 엔터티 기본 키 논리 이름을 반환합니다. 예: contactid         |
-|      sort\_expression       |                                               보기의 기본 정렬 식을 반환합니다. 예: name ASC, createdon DESC                                               |
+|           세로           |                                                         뷰 열을 엔터티 목록 뷰 열 개체로 반환 합니다.                                                         |
+|    엔터티\_논리적\_이름    |               뷰에 포함 된 레코드의 PowerApps 엔터티 논리적 이름을 반환 합니다. 예: 연락처                |
+|             ID입니다.              |                                                                          뷰의 GUID ID를 반환 합니다.                                                                           |
+|       언어\_코드        | 뷰의 모든 지역화 된 레이블 (열 머리글 등)을 선택 하는 데 사용 되는 PowerApps 정수 언어 코드를 반환 합니다. |
+|            이름             |                                          뷰의 PowerApps 표시 이름을 반환 합니다.                                          |
+| 기본\_키\_논리적\_이름 |        뷰에 포함 된 레코드의 PowerApps 엔터티 기본 키 논리적 이름을 반환 합니다. 예: contactid         |
+|      정렬\_식       |                                               뷰의 기본 정렬 식을 반환 합니다. 예: name ASC, adventureworks.createdon DESC                                               |
 
-### <a name="entity-list-view-column-attributes"></a>엔터티 목록 보기 열 특성
+### <a name="entity-list-view-column-attributes"></a>엔터티 목록 뷰 열 특성
 
-|    특성     |                                                                                    설명                                                                                    |
+|    특성도     |                                                                                    설명                                                                                    |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| attribute\_type  | 열의 PowerApps 특성 유형 이름을 문자열로 반환합니다. 예: Lookup, Picklist, String, Boolean, DateTime |
-|  logical\_name   |                       열의 PowerApps 특성 논리 이름을 반환합니다. 예: createdon                       |
-|       이름       |                      열의 지역화된 PowerApps 디스플레이 이름을 반환합니다. 예: Created On                       |
-| sort\_ascending  |                                      열을 오름차순으로 정렬하기 위한 정렬 식 문자열을 반환합니다. 예: createdon ASC                                       |
-| sort\_descending |                                     열을 내림차순으로 정렬하기 위한 정렬 식 문자열을 반환합니다. 예: createdon DESC                                      |
-|  sort\_disabled  |                                                   열에서 정렬을 사용하지 않는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                    |
-|  sort\_enabled   |                                                    열에서 정렬을 사용하는 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                    |
-|      width       |                                                              열의 구성된 너비를 픽셀 단위로 반환합니다.                                                              |
+| 특성\_형식  | 열의 PowerApps 특성 형식 이름을 문자열로 반환 합니다. 예: Lookup, Picklist, String, Boolean, DateTime |
+|  논리적\_이름   |                       열에 대 한 PowerApps 특성의 논리적 이름을 반환 합니다. 예: adventureworks.createdon                       |
+|       이름       |                      열에 대 한 지역화 된 PowerApps 표시 이름을 반환 합니다. 예를 들면에서 만들었습니다.                       |
+| 오름차순 정렬\_  |                                      열을 오름차순으로 정렬 하기 위한 정렬 식 문자열을 반환 합니다. 예: adventureworks.createdon ASC                                       |
+| 내림차순\_정렬 |                                     열을 내림차순으로 정렬 하기 위한 정렬 식 문자열을 반환 합니다. 예: adventureworks.createdon DESC                                      |
+|  정렬\_사용 안 함  |                                                   열에 대해 정렬을 사용할 수 없으면 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                    |
+|  정렬\_사용   |                                                    열에 대해 정렬을 사용 하는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.                                                    |
+|      width       |                                                              열에 대해 구성 된 너비 (픽셀)를 반환 합니다.                                                              |
 
 ## <a name="entityview"></a>entityview
 
-entityview 개체는 엔터티 보기 태그 내에서 사용되며, 결과 레코드 보기를 포함한 보기에 대한 메타데이터에 대한 액세스를 제공합니다.
+Entityview 개체는 entityview 태그 내에서 사용 되며 보기의 메타 데이터에 대 한 액세스를 제공 하 고 결과 레코드를 볼 수 있습니다.
 
 ### <a name="attributes"></a>특성
 
-|          특성          |                                                                               설명                                                                                |
+|          특성도          |                                                                               설명                                                                                |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|           columns           |                         [엔터티 보기 열 개체](liquid-objects.md#entity-list-view-column-attributes)로서 해당 보기에 열을 반환합니다.                          |
-| entity\_permission\_denied  | 현재 사용자에게 충분한 엔터티 권한이 없기 때문에 결과 보기에 대한 액세스가 거부된 경우 true를 반환합니다. 결과 보기에 대한 읽기 액세스 권한이 부여되면 false를 반환합니다. |
-|    entity\_logical\_name    |                   결과 보기 레코드의 PowerApps 엔터티 논리 이름입니다. 예: contact                   |
-|         first\_page         |                 결과 보기 첫 페이지의 페이지 번호입니다. 반환된 결과가 없는 경우 1이며, 이 경우 null입니다.                  |
-|             Id              |                            이 entityview를 정의하는 PowerApps 보기의 GUID ID입니다.                             |
-|       language\_code        |             현재 보기에 대해 현지화된 레이블을 로드하는 데 사용되는 PowerApps 정수 언어 코드입니다.              |
-|         last\_page          |                                 결과 보기 마지막 페이지의 페이지 번호입니다. 반환된 결과가 없다면 null입니다.                                  |
-|            이름             |              이 entityview를 정의하는 PowerApps 보기의 이름입니다(예: 활성 연락처).               |
-|         next\_page          |                                결과 보기의 다음 페이지의 페이지 번호입니다. 다음 페이지의 결과가 없는 경우 null입니다.                                 |
-|            페이지             |                                                           결과 보기의 현재 페이지의 페이지 번호입니다.                                                           |
-|            모든 페이지            |                                          현재 보기에 대해 모든 페이지 결과를 포함하는 페이지 번호의 배열을 반환합니다.                                          |
-|         page\_size          |                                                      현재 보기에 대해 페이지당 반환되는 결과의 수입니다.                                                       |
-|       previous\_page        |                              결과 보기의 다음 페이지의 페이지 번호입니다. 이전 페이지의 결과가 없는 경우 null입니다.                               |
-| primary\_key\_logical\_name |  이 보기에 대한 결과 엔터티의 기본 키 특성의 PowerApps 논리 이름입니다. 예: contactid   |
-|           레코드           |                                                   엔터티 개체로서 해당 보기에 대한 결과 레코드의 현재 페이지입니다.                                                    |
-|      sort\_expression       |                                             보기에 대한 기본 정렬 식입니다. 예: nameASC, createdon DESC                                              |
-|        total\_pages         |                                                              보기에 대한 총 결과 페이지 수입니다.                                                              |
-|       total\_records        |                                                       (모든 페이지에 걸친) 보기에 대한 총 결과 수입니다.                                                       |
+|           세로           |                         뷰의 열을 [엔터티 뷰 열 개체로](liquid-objects.md#entity-list-view-column-attributes)반환 합니다.                          |
+| 엔터티\_권한\_거부 됨  | 현재 사용자에 대 한 엔터티 권한 부족으로 인해 결과 보기에 대 한 액세스가 거부 된 경우 true를 반환 합니다. 결과 보기에 대 한 읽기 권한이 부여 된 경우 false를 반환 합니다. |
+|    엔터티\_논리적\_이름    |                   결과 레코드 보기의 PowerApps 엔터티 논리적 이름입니다. 예: 연락처                   |
+|         첫 번째\_페이지         |                 결과 보기의 첫 페이지에 대 한 페이지 번호입니다. 반환 된 결과가 없는 경우 1이 됩니다 .이 경우 null이 됩니다.                  |
+|             ID입니다.              |                            이 entityview를 정의 하는 PowerApps 뷰의 GUID ID입니다.                             |
+|       언어\_코드        |             현재 뷰에 대해 지역화 된 레이블을 로드 하는 데 사용 되는 PowerApps 정수 언어 코드입니다.              |
+|         마지막\_페이지          |                                 결과 보기의 마지막 페이지에 대 한 페이지 번호입니다. 반환 된 결과가 없으면 null이 됩니다.                                  |
+|            이름의             |              이 entityview를 정의 하는 PowerApps 보기의 이름입니다 (예: 활성 연락처).               |
+|         다음\_페이지          |                                결과 보기의 다음 페이지에 대 한 페이지 번호입니다. 결과의 다음 페이지가 없으면 null이 됩니다.                                 |
+|            페이지             |                                                           보기 결과의 현재 페이지에 대 한 페이지 번호입니다.                                                           |
+|            마주보            |                                          현재 보기에 대 한 모든 결과 페이지를 포함 하는 페이지 번호의 배열을 반환 합니다.                                          |
+|         페이지\_크기          |                                                      현재 보기에 대해 페이지당 반환 된 결과의 수입니다.                                                       |
+|       이전\_페이지        |                              결과 보기의 다음 페이지에 대 한 페이지 번호입니다. 이전 결과 페이지가 없으면 null이 됩니다.                               |
+| 기본\_키\_논리적\_이름 |  이 보기에 대 한 결과 엔터티의 기본 키 특성에 대 한 PowerApps 논리적 이름입니다. 예를 들면 contactid입니다.   |
+|           Records           |                                                   보기에 대 한 결과 레코드의 현재 페이지 (엔터티 개체)입니다.                                                    |
+|      정렬\_식       |                                             뷰의 기본 정렬 식입니다. 예를 들면 Nam c, adventureworks.createdon DESC가 있습니다.                                              |
+|        전체\_페이지         |                                                              보기에 대 한 총 결과 페이지 수입니다.                                                              |
+|       총\_레코드        |                                                       모든 페이지에서 보기에 대 한 총 결과 수입니다.                                                       |
 
-## <a name="events"></a>events
+## <a name="events"></a>이벤트
 
-이벤트에 액세스하고 이벤트를 렌더링하는 기능을 제공합니다. events 개체를 사용하여 특정 이벤트 또는 모든 이벤트를 선택할 수 있습니다.
+이벤트에 액세스 하 고 렌더링 하는 기능을 제공 합니다. Events 개체를 사용 하 여 특정 이벤트 또는 모든 이벤트를 선택할 수 있습니다.
 
 ### <a name="events-object"></a>events 개체
 
-events 개체로 (이벤트에 관계 없이) 포털에서 특정 이벤트 또는 모든 이벤트에 액세스할 수 있습니다.
+Events 개체를 사용 하면 포털의 특정 이벤트에 액세스 하거나 이벤트에 관계 없이 포털의 모든 이벤트에 액세스할 수 있습니다.
 
-events 개체에는 다음과 같은 특성이 있습니다.
+Events 개체에는 다음과 같은 특성이 있습니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-|occurences |포털에 모든 이벤트 항목을 포함하는 eventoccurancessobject를 반환합니다. |
-|[이벤트 이름 또는 ID] |이름 또는 ID 속성으로 어떤 이벤트에든 액세스할 수 있습니다.<br>{% assign event = events[&quot;Event Name&quot;] %}<br>{% assign event = events[&quot;da8b8a92-2ee6-476f-8a21-782b047ff460&quot;] %} |
+|끝냄 |포털에서 모든 이벤트 발생을 포함 하는 eventoccurancessobject를 반환 합니다. |
+|[이벤트 이름 또는 id] |해당 이름 또는 Id 속성을 사용 하 여 이벤트에 액세스할 수 있습니다.<br>{% assign event = events [&quot;이벤트 이름&quot;]%}<br>{% assign event = events [&quot;da8b8a92-2ee6-476f-8a21-782b047ff460&quot;]%} |
 
-### <a name="event-object"></a>event 개체
+### <a name="event-object"></a>이벤트 개체
 
-event 개체를 사용하여 특정 이벤트의 일정 및 항목에 액세스하는 등 단일 이벤트에 대한 조작이 가능합니다.
+이벤트 개체를 사용 하면 단일 이벤트를 사용 하 여 해당 이벤트의 일정 및 발생에 액세스할 수 있습니다.
 
-event 개체에는 다음과 같은 특성이 있습니다.
+이벤트 개체에는 다음과 같은 특성이 있습니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 번 발생 | 이벤트에 대해 모든 항목을 포함하는 eventoccurrencesobject를 반환합니다. |
-| 이름       | 이벤트의 이름입니다.                                                     |
-| URL        | 이벤트의 URL입니다.                                                      |
+| 항목과 | 이벤트에 대 한 모든 항목을 포함 하는 eventoccurrencesobject를 반환 합니다. |
+| 이름의       | 이벤트의 이름입니다.                                                     |
+| url        | 이벤트의 URL입니다.                                                      |
 
 ### <a name="eventoccurences-object"></a>eventoccurences 개체
 
-eventoccurrences 개체를 사용하여 이벤트 항목 개체의 모음에 액세스할 수 있습니다. 유동 필터를 사용하여 이벤트 항목을 정렬하고, 검색할 항목들에 대한 날짜 범위를 지정하고, 페이지를 찾을 수도 있습니다.
+Eventoccurrences 개체를 사용 하면 이벤트 발생 개체의 컬렉션에 액세스할 수 있습니다. 이벤트 발생 순서를 지정 하 고 검색할 발생에 대 한 날짜 범위를 지정 하 고, 액체 필터를 사용 하 여 페이지 매김을 달성할 수 있습니다.
 
 ```
 {% assign occurances = event.occurrences.from[today].to[advance_date] %}
 ```
 
-다음 사항에 주의하십시오.
+다음 사항에 유의 하십시오.
 
 ```
 {% assign occurances = event.occurrences.min[today].max[advance_date] %}
 ```
 
-또한 가능합니다.
+도 가능 합니다.
 
-다음의 특성들은 eventoccurrences 개체와 연관됩니다.
+다음 특성은 eventoccurrences 개체와 연결 됩니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 모두 | 컬렉션에 있는 모든 eventoccurance 개체를 반환합니다. |
+| 모두가 | 컬렉션에 있는 모든 eventoccurance 개체를 반환 합니다. |
 
 ### <a name="eventoccurence-object"></a>eventoccurence 개체
 
-단일 이벤트 항목을 나타냅니다. 관련된 특성은 다음과 같습니다.
+단일 이벤트 발생을 나타냅니다. 연결 된 특성은 다음과 같습니다.
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| URL                 | 항목의 URL입니다.    |
-| is\_all\_day\_event | 하루 종일 진행되는 이벤트입니까?     |
-| start\_time         | 이벤트의 시작 시간입니다. |
-| end\_time           | 이벤트의 종료 시간입니다.   |
+| url                 | 발생 한 URL입니다.    |
+| 모든\_day\_이벤트\_ | 종일 이벤트 인가요?     |
+| 시작\_시간         | 이벤트의 시작 시간입니다. |
+| 종료\_시간           | 이벤트의 종료 시간입니다.   |
 
 
 ## <a name="forloop"></a>forloop
 
-[for](iteration-tags.md#for) 루프 블록 내에서 유용하게 사용되는 속성을 포함하고 있습니다.  
+For 루프 블록 내에서 유용한 속성 [을](iteration-tags.md#for) 포함 합니다.  
 
 > [!Note]
-> forloop는 [for](iteration-tags.md#for) 태그 내에서만 사용할 수 있습니다.
+> forloop는 [for](iteration-tags.md#for) 태그 내 에서만 사용할 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {% for child in page.children %}
@@ -535,22 +540,22 @@ This is child page number 3.
 
 ### <a name="attributes"></a>특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 첫째   | 루프의 첫 번째 반복인 경우 true를 반환합니다. 첫 번째 반복이 아닌 경우 false를 반환합니다.       |
-| 색인   | 모음에서 현재 항목의 위치, 이 때 첫 번째 항목은 1의 위치를 갖습니다.                   |
-| index0  | 모음에서 현재 항목의 위치, 이 때 첫 번째 항목은 0의 위치를 갖습니다.                   |
-| 마지막    | 루프의 마지막 반복인 경우 true를 반환합니다. 마지막 반복이 아닌 경우 false를 반환합니다.         |
-| length  | 모음에서 반복되고 있는 항목의 수, 즉, 루프에 대한 반복의 수를 반환합니다. |
-| rindex  | 루프(길이 - 지수)에 남아 있는 항목의 수, 이 때 1은 마지막 항목의 지수입니다.              |
-| rindex0 | 루프(길이 - 지수)에 남아 있는 항목의 수, 이 때 0은 마지막 항목의 지수입니다.              |
+| 기본   | 루프의 첫 번째 반복 인 경우 true를 반환 합니다. 첫 번째 반복이 아닌 경우 false를 반환 합니다.       |
+| 인덱싱할   | 컬렉션에서 첫 번째 항목의 위치가 1 인 현재 항목의 위치입니다.                   |
+| index0  | 컬렉션에서 첫 번째 항목의 위치가 0 인 현재 항목의 위치입니다.                   |
+| Last    | 루프의 마지막 반복 인 경우 true를 반환 합니다. 마지막 반복이 아닌 경우 false를 반환 합니다.         |
+| 길이  | 반복 되는 컬렉션의 항목 수를 ߝ 루프의 반복 횟수를 반환 합니다. |
+| rindex  | 루프 (길이-인덱스)에 남아 있는 항목의 수입니다. 여기서 1은 마지막 항목의 인덱스입니다.              |
+| rindex0 | 루프 (길이-인덱스)에 남아 있는 항목의 수입니다. 여기서 0은 마지막 항목의 인덱스입니다.              |
 
 
-## <a name="forums"></a>forums
+## <a name="forums"></a>포럼이
 
-포럼 및 포럼 스레드에 액세스하고 렌더링하는 기능을 제공합니다. 유동을 사용하여 포럼 데이터를 렌더링하는 기능을 게시물에도 사용할 수 있지만 새 게시물 또는 스레드를 만들기 위해서는 언급된 내장 기능(기본 포럼 스레드, 포럼 게시 페이지 템플릿 등)이 있는 ASP.NET 웹 양식 페이지 템플릿을 사용해야 합니다.
+포럼 및 포럼 스레드를 액세스 하 고 렌더링 하는 기능을 제공 합니다. 수냉를 사용 하 여 포럼 데이터를 렌더링 하는 기능은 게시물로 확장 되지만 새 게시물 또는 스레드를 만들려면 기본 제공 된 기능 (예: 기본 포럼 스레드 및 포럼 게시 페이지 템플릿)과 함께 ASP.NET web forms 페이지 템플릿을 사용 해야 합니다.
 
-포럼 개체를 사용하여 포럼 또는 포럼 스레드를 선택할 수 있습니다.
+포럼 개체를 사용 하 여 포럼 또는 포럼 스레드를 선택할 수 있습니다.
 
 ```
 <div class=content-panel panel panel-default>
@@ -600,11 +605,11 @@ This is child page number 3.
 
 ### <a name="forums-object"></a>포럼 개체
 
-포럼 개체로 포털의 특정 포럼에 액세스하거나 (이벤트에 관계 없이) 포털의 모든 포럼 스레드에 액세스할 수 있습니다.
+포럼 개체를 사용 하 여 포털의 특정 포럼에 액세스 하거나 포털의 모든 포럼 스레드에 액세스할 수 있습니다 (포럼에 관계 없음).
 
-forum 개체를 사용하여 단일 포럼에서 작업할 수 있으며 해당 포럼의 스레드에 액세스할 수 있습니다.
+포럼 개체를 사용 하면 단일 포럼으로 작업 하 여 해당 포럼의 스레드에 액세스할 수 있습니다.
 
-forumthreads 개체를 사용하여 forumthread 개체의 모음에 액세스할 수 있습니다. 유동 필터를 사용하여 포럼 스레드를 정렬하고 페이지 번호도 지정할 수 있습니다.
+Forumthreads 개체를 사용 하 여 forumthreads 개체의 컬렉션에 액세스할 수 있습니다. 액체 필터를 사용 하 여 포럼 스레드를 정렬 하 고 페이지 매김을 수행할 수 있습니다.
 
 ```
 {% assign threads = forum.threads | order_by adx_name, desc | paginate: 0,4 | all %}
@@ -612,94 +617,94 @@ forumthreads 개체를 사용하여 forumthread 개체의 모음에 액세스할
 
 단일 포럼 스레드
 
-forumposts 개체를 사용하여 forumpost 개체 컬렉션에 액세스할 수 있습니다.
+Forumposts 개체를 사용 하 여 forumposts 개체의 컬렉션에 액세스할 수 있습니다.
 
 ### <a name="attributes"></a>특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| threads              | 포털의 모든 forumthread 개체를 포함하는 forumthreads 개체를 반환합니다.             |
-| 모두                  | 포털의 모든 forum 개체를 반환합니다. 또한 website.forums도 등가입니다.    |
-| thread\_count        | 전체 웹 사이트에 있는 스레드 수의 정수 값을 반환합니다. |
-| post\_count          | 포털에 있는 총 게시물 수의 정수 값을 반환합니다.                       |
-| \[포럼 이름 또는 ID\] | 이름 또는 ID 속성으로 어떤 포럼에든 액세스할 수 있습니다. <br>`{% assign forum = forums[Forum Name] %}<br>{% assign forum = forums[da8b8a92-2ee6-476f-8a21-782b047ff460] %} 
+| 임계값              | 포털의 모든 forumthreads 개체를 포함 하는 forumthreads 개체를 반환 합니다.             |
+| 모두가                  | 포털의 모든 포럼 개체를 반환 합니다. 웹 사이트. 포럼도 동일 합니다.    |
+| 스레드\_개수        | 전체 웹 사이트에 있는 스레드 수의 정수 값을 반환 합니다. |
+| \_수 게시          | 포털에 있는 총 게시물 수의 정수 값을 반환 합니다.                       |
+| \[포럼 이름 또는 id\] | 이름 또는 Id 속성을 사용 하 여 포럼에 액세스할 수 있습니다. <br>' {% assign 포럼 = 포럼 [포럼 이름]%}<br>{% assign 포럼 = 포럼 [da8b8a92-2ee6-476f-8a21-782b047ff460]%} 
 
-### <a name="forum-object"></a>forum 개체
+### <a name="forum-object"></a>포럼 개체
 
 ### <a name="attributes"></a>특성
 
 > [!Note]
 > [엔터티](#entities)
 
-|Attribute(특성)   |설명   |
+|특성도   |설명   |
 |---|---|
-| threads       | 포럼의 모든 포럼 스레드를 포함하는 forumthreads 개체를 반환합니다.               |
+| 임계값       | 포럼의 모든 포럼 스레드를 포함 하는 forumthreads 개체를 반환 합니다.               |
 | 이름          | 포럼의 이름입니다.                                                                  |
-| thread\_count | 포럼에 있는 스레드 수의 정수 값을 반환합니다.      |
-| post\_count   | 전체 포럼에 있는 게시물 수의 정수 값을 반환합니다. |
+| 스레드\_개수 | 포럼에 있는 스레드 수의 정수 값을 반환 합니다.      |
+| \_수 게시   | 전체 포럼에 있는 게시물 수의 정수 값을 반환 합니다. |
 
 ### <a name="forumthreads-object"></a>forumthreads 개체
 
 ### <a name="attributes"></a>특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 모두 | 컬렉션에 있는 모든 forumthread 개체를 반환합니다. |
+| 모두가 | 컬렉션의 모든 forumthread 개체를 반환 합니다. |
 
 ### <a name="forumthread-object"></a>forumthread 개체
 
 ### <a name="attributes"></a>특성
 
 > [!Note]
-> [entities](#entities)
+> [엔터티](#entities)
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| posts        | 스레드의 모든 포럼 게시물을 포함하는 forumposts 개체를 반환합니다.            |
-| author       | 스레드의 작성자(단순히 연락처 엔터티 개체)를 반환합니다.      |
-| latest\_post | 스레드의 최신 게시물을 반환합니다.                                            |
-| first\_post  | 스레드의 첫 번째 게시물을 반환합니다.                                             |
-| post\_count  | 스레드에 있는 게시물 수의 정수 값을 반환합니다. |
-| is\_answered | 스레드가 답변되었습니까?                                                    |
-| is\_sticky   | 스레드가 고정 스레드입니까?                                                    |
+| 게시물과        | 스레드에 대 한 모든 포럼 게시를 포함 하는 forumposts 개체를 반환 합니다.            |
+| 자신이       | 스레드에 대 한 작성자 (단순히 연락처 엔터티 개체)를 반환 합니다.      |
+| 최신\_게시물 | 스레드의 최신 게시를 반환 합니다.                                            |
+| 첫 번째\_게시  | 스레드의 첫 번째 게시를 반환 합니다.                                             |
+| \_수 게시  | 스레드에 있는 게시물 수의 정수 값을 반환 합니다. |
+| \_답변 됨 | 스레드가 응답 하 고 있습니까?                                                    |
+| \_고정 되어 있습니다.   | 스레드에 고정 스레드가 있나요?                                                    |
 
 ### <a name="forumposts-object"></a>forumposts 개체
 
 ### <a name="attributes"></a>특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 모두 | 컬렉션에 있는 모든 forumthread 개체를 반환합니다. |
+| 모두가 | 컬렉션의 모든 forumthread 개체를 반환 합니다. |
 
 단일 포럼 게시물
 
 ### <a name="attributes"></a>특성
 
 > [!Note] 
-> [entities](#entities)
+> [엔터티](#entities)
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| author     | 게시물의 작성자(단순히 연락처 엔터티 개체)를 반환합니다. |
-| content    | 게시물의 내용입니다.                                                   |
-| is\_answer | 이 게시물이 스레드에 대한 답입니까?                                      |
+| 자신이     | 게시물의 작성자를 반환 합니다 (단순히 연락처 엔터티 개체). |
+| 콘텐트가    | 게시물의 내용입니다.                                                   |
+| \_대답 | 이에 대 한 답을 스레드에 게시 합니까?                                      |
 
 
-## <a name="knowledge"></a>지식
+## <a name="knowledge"></a>자료가
 
-PowerApps 참조 자료 및 범주 엔터티 레코드에 대한 액세스를 제공하여 포털에서 기사와 범주를 렌더링합니다.
+포털에서 아티클과 범주를 렌더링 하기 위해 PowerApps knowledgearticle 및 범주 엔터티 레코드에 대 한 액세스를 제공 합니다.
 
 ### <a name="attributes"></a>특성
 
-|특성|설명|
+|특성도|설명|
 |---|---|
-|기사|포털에서 사용할 수 있는 참조 문서 엔터티 레코드에 대한 기사 개체가 포함된 기사 개체를 반환합니다.|
-|범주|포털에서 사용할 수 있는 범주 엔터티 레코드에 대한 범주 개체가 포함된 범주 개체를 반환합니다.|
+|아티클을|포털에서 사용할 수 있는 knowledgearticle 엔터티 레코드에 대 한 아티클 개체가 포함 된 아티클 개체를 반환 합니다.|
+|범주|포털에서 사용할 수 있는 범주 엔터티 레코드에 대 한 범주 개체를 포함 하는 categories 개체를 반환 합니다.|
 |||
 
-### <a name="articles-object"></a>기사 개체
+### <a name="articles-object"></a>아티클 개체
 
-기사 개체를 사용하여 기사 개체 모음에 액세스할 수 있습니다. 유동 필터를 사용하여 기사를 정렬하고 페이지 번호도 지정할 수 있습니다.
+아티클 개체를 사용 하 여 아티클 개체의 컬렉션에 액세스할 수 있습니다. 액체 필터를 사용 하 여 문서를 정렬 하 고 페이지 매김을 달성할 수 있습니다.
 
 ```
 {% assign count = count | default: 3 %}
@@ -719,16 +724,16 @@ PowerApps 참조 자료 및 범주 엔터티 레코드에 대한 액세스를 �
 
 ### <a name="attributes"></a>특성
 
-|특성|설명|
+|특성도|설명|
 |---|---|
-|인기 |가장 많은 뷰가 포함된 기사 개체의 모음을 반환합니다. `{% assign popular_articles = knowledge.articles.popular %}` |
-|최근 |최근 수정일이 포함된 기사 개체의 모음을 반환합니다. `{% assign recent_articles = knowledge.articles.recent %}` |
-|최고 |최고 등급이 포함된 기사 개체의 모음을 반환합니다. `{% assign top_articles = knowledge.articles.top  %}` |
+|다양 |가장 많은 뷰를 포함 하는 아티클 개체의 컬렉션을 반환 합니다. `{% assign popular_articles = knowledge.articles.popular %}` |
+|문서 |마지막으로 수정 된 날짜를 포함 하는 아티클 개체의 컬렉션을 반환 합니다. `{% assign recent_articles = knowledge.articles.recent %}` |
+|top |최고 등급을 포함 하는 아티클 개체의 컬렉션을 반환 합니다. `{% assign top_articles = knowledge.articles.top  %}` |
 | | |
 
-### <a name="filters"></a>필터
+### <a name="filters"></a>필터나
 
-다음 필터는 페이지 크기 및 언어에 대한 선택적 항목을 수락할 수 있습니다. 첫 번째 항목은 검색할 숫자 또는 레코드입니다. 기본 페이지 크기는 5입니다. 두 번째 항목은 특정 언어에 대한 기사를 검색하기 위한 언어 코드입니다. 필터는 다른 [유동 필터](liquid-filters.md)와 결합될 수 있습니다.
+다음 필터는 페이지 크기 및 언어에 대 한 선택적 매개 변수를 사용할 수 있습니다. 첫 번째 매개 변수는 검색할 레코드 수입니다. 기본 페이지 크기는 5입니다. 두 번째 매개 변수는 지정 된 언어에 대 한 문서를 검색 하는 언어의 코드입니다. 필터를 다른 [액체 필터](liquid-filters.md)와 결합할 수 있습니다.
 
 ```
 {% assign page_size = 5 %}
@@ -736,16 +741,16 @@ PowerApps 참조 자료 및 범주 엔터티 레코드에 대한 액세스를 �
 {% assign recent_articles = knowledge.articles | recent: page_size, language_code %}
 ```
 
-|특성|설명|
+|특성도|설명|
 |---|---|
-|인기 |가장 많은 뷰가 포함된 기사 개체의 모음을 반환합니다. `{% assign popular_articles = knowledge.articles \| popular: 10, en-US %}` |
-|최근 |최근 수정일이 포함된 기사 개체의 모음을 반환합니다. `{% assign recent_articles = knowledge.articles \| recent: 5 %}` |
-|최고 |최고 등급이 포함된 기사 개체의 모음을 반환합니다. `{% assign top_articles = knowledge.articles \| top: 3, en-US %}` |
+|다양 |가장 많은 뷰를 포함 하는 아티클 개체의 컬렉션을 반환 합니다. `{% assign popular_articles = knowledge.articles \| popular: 10, en-US %}` |
+|문서 |마지막으로 수정 된 날짜를 포함 하는 아티클 개체의 컬렉션을 반환 합니다. `{% assign recent_articles = knowledge.articles \| recent: 5 %}` |
+|top |최고 등급을 포함 하는 아티클 개체의 컬렉션을 반환 합니다. `{% assign top_articles = knowledge.articles \| top: 3, en-US %}` |
 | | |
 
-### <a name="categories-object"></a>범주 개체
+### <a name="categories-object"></a>categories 개체
 
-범주 개체를 사용하여 범주 개체 모음에 액세스할 수 있습니다. 유동 필터를 사용하여 범주의 순서를 정하고 페이지를 매길 수도 있습니다.
+Categories 개체를 사용 하면 category 개체의 컬렉션에 액세스할 수 있습니다. 액체 필터를 사용 하 여 범주를 정렬 하 고 페이지 매김을 달성할 수 있습니다.
 
 ```
 {% assign category_url = sitemarkers['Category'].url %}
@@ -764,69 +769,69 @@ PowerApps 참조 자료 및 범주 엔터티 레코드에 대한 액세스를 �
 
 ### <a name="attributes"></a>특성
 
-|특성|설명|
+|특성도|설명|
 |---|---|
-|최근 |최근 수정일이 포함된 범주 개체의 모음을 반환합니다. |
-|top_level |상위 범주가 없는 범주 개체의 모음을 반환합니다. |
+|문서 |마지막으로 수정 된 날짜를 포함 하는 category 개체의 컬렉션을 반환 합니다. |
+|top_level |부모 범주가 없는 category 개체의 컬렉션을 반환 합니다. |
 |||
 
-### <a name="filters"></a>필터
+### <a name="filters"></a>필터나
 
-다음 필터는 페이지 크기를 표시하는 선택적 항목을 수락할 수 있습니다. 기본 페이지 크기는 5입니다. 필터는 다른 [유동 필터](liquid-filters.md)와 결합될 수 있습니다.
+다음 필터는 페이지 크기를 나타내는 선택적 매개 변수를 사용할 수 있습니다. 기본 페이지 크기는 5입니다. 필터를 다른 [액체 필터](liquid-filters.md)와 결합할 수 있습니다.
 
 ```
 {% assign page_size = 5 %}
 {% assign recent_categories = knowledge.categories | recent: page_size %}
 ```
 
-|특성|설명|
+|특성도|설명|
 |---|---|
-|최근 |최근 수정일이 포함된 범주 개체의 모음을 반환합니다. 매개 변수 `{% assign recent_categories = knowledge.categories \| recent: 10 %}`을(를) 제공할 수 있습니다. |
-|top_level |상위 범주가 없는 범주 개체의 모음을 반환합니다. `{% assign root_categories = knowledge.categories \| top_level %}` |
+|문서 |마지막으로 수정 된 날짜를 포함 하는 category 개체의 컬렉션을 반환 합니다. 매개 변수를 제공할 수 있습니다 `{% assign recent_categories = knowledge.categories \| recent: 10 %}` |
+|top_level |부모 범주가 없는 category 개체의 컬렉션을 반환 합니다. `{% assign root_categories = knowledge.categories \| top_level %}` |
 |||
 
-### <a name="article-object"></a>기사 개체
+### <a name="article-object"></a>article 개체
 
-기사 개체를 사용하면 단일 참조 자료로 작업하여 포털에서 해당 기사의 세부 사항을 표시할 수 있습니다.
+Article 개체를 사용 하면 단일 knowledgearticle 작업 하 여 포털에서 해당 아티클의 세부 정보를 표시할 수 있습니다.
 
 ### <a name="attributes"></a>특성
 
-기사는 아래에 나열된 속성 이외에 모두 동일한 속성을 가진 [엔터티](#entity) 개체입니다.
+article은 아래에 나열 된 특성과 함께 동일한 특성을 모두 포함 하는 [엔터티](#entity) 개체입니다.
 
-|특성|설명|
+|특성도|설명|
 |---|---|
-|article_public_number| 기사의 공개 번호.|
-|comment_count| 특정 기사에 달린 댓글 수의 정수값을 반환합니다.|
-|content|기사 내용.|
-|current_user_can_comment|현재 사용자가 기사에 대한 코멘트를 추가할 수 있는지의 여부를 나타내는 부울 값을 반환합니다.|
-|is_rating_enabled|기사의 등급이 활성화되는지의 여부를 나타내는 부울 값을 반환합니다.|
-|키워드|기사의 키워드.|
-|이름|기사의 제목에 대한 대체 별칭.|
-|등급|기사의 10진수 등급 값.|
-|title|문서의 제목입니다.|
-|view_count|기사가 열람된 횟수의 정수값.|
+|article_public_number| 아티클의 Public Number 문서입니다.|
+|comment_count| 지정 된 아티클에 대 한 설명 수의 정수 값입니다.|
+|콘텐트가|아티클의 내용입니다.|
+|current_user_can_comment|현재 사용자가 아티클에 주석을 추가할 수 있는지 여부를 나타내는 부울 값을 반환 합니다.|
+|is_rating_enabled|아티클의 등급이 사용 되는지 여부를 나타내는 부울 값을 반환 합니다.|
+|어|문서에 대 한 키워드입니다.|
+|이름의|아티클의 제목에 대 한 대체 별칭입니다.|
+|점수|아티클의 소수 등급 값입니다.|
+|제목과|아티클의 제목입니다.|
+|view_count|아티클이 표시 된 횟수의 정수 값입니다.|
 |||
 
-### <a name="category-object"></a>범주 개체
+### <a name="category-object"></a>category 개체
 
-범주 개체를 사용하면 단일 범주로 작업하여 포털에서 그 세부 사항을 표시할 수 있습니다.
+Category 개체를 사용 하면 단일 범주를 사용 하 여 포털에서 세부 정보를 표시할 수 있습니다.
 
 ### <a name="attributes"></a>특성
 
-범주는 아래에 나열된 속성 이외에 모두 동일한 속성을 가진 [엔터티](#entity) 개체입니다.
+category는 아래에 나열 된 특성과 함께 동일한 특성을 모두 포함 하는 [엔터티](#entity) 개체입니다.
 
-|특성|설명|
+|특성도|설명|
 |---|---|
-|범주 번호|범주의 번호.|
-|이름|범주의 제목에 대한 대체 별칭.|
-|title|범주의 제목.|
+|categorynumber|범주의 범주 번호입니다.|
+|이름의|범주 제목의 대체 별칭입니다.|
+|제목과|범주의 제목입니다.|
 |||
 
 ## <a name="page"></a>페이지
 
-현재 포털 요청 페이지를 참조합니다. 이 개체는 [sitemap](#sitemap)과 현재 요청 [entities](#entities)(일반적으로 웹 페이지)의 특성을 결합합니다.  
+현재 포털 요청 페이지를 참조 합니다. 이 개체는 [사이트](#sitemap) 및 현재 요청 [엔터티](#entities) (일반적으로 웹 페이지)의 특성을 결합 합니다.  
 
-페이지 개체는 현재 페이지의 이동 경로, 현재 페이지의 제목 또는 URL, 그리고 기본 PowerApps 레코드의 기타 특성 또는 관련된 엔터티에 대한 액세스를 제공합니다.
+Page 개체는 현재 페이지의 이동 경로, 현재 페이지의 제목 또는 URL, 기본 PowerApps 레코드의 기타 특성 또는 관련 된 엔터티와 같은 항목에 대 한 액세스를 제공 합니다.
 
 ```
 <ul class=breadcrumb>
@@ -873,22 +878,22 @@ PowerApps 참조 자료 및 범주 엔터티 레코드에 대한 액세스를 �
 ### <a name="page-attributes"></a>페이지 특성
 
 > [!Note]  
-> [entities](#entities)
+> [엔터티](#entities)
 
-|             특성              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|             특성도              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      설명                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            breadcrumbs             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 사이트 맵 루트 노드에서 시작하여 상위에서 끝나는 페이지에 대한 이동 경로 사이트 맵 노드 개체를 반환합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|              children              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 페이지에 대한 하위 사이트 맵 노드 개체를 반환합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|               parent               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           페이지에 대한 상위 사이트 맵 노드를 반환합니다. 페이지가 홈 페이지인 경우 상위는 null이 됩니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|               title                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                페이지의 제목입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-|                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 페이지 URL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| \[특성 또는 관계 이름\] | 논리 이름으로 페이지의 기본 PowerApps 레코드의 모든 특성에 액세스할 수 있습니다.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>대부분의 엔터티 특성들의 값은 직접 [유동 유형](liquid-types.md)에 매핑됩니다. 두 옵션 필드는 부울에, 텍스트 필드는 문자열에, 숫자/통화 필드는 숫자에, 날짜/시간 필드는 날짜 개체에 매핑됩니다. 그러나 일부 특성 유형은 다음 개체로 반환됩니다.<ul><li>조회(엔터티 참조) 필드는 [엔터티 참조 개체](#entity-reference)로 반환됩니다.</li><li>옵션 설정/픽리스트 필드는 [옵션 설정값 개체](#option-set-value)로 반환됩니다.</li> 관련된 엔터티를 관계 스키마 이름에 의해서도 로드할 수 있습니다. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>재귀 관계인 경우(즉, 자체 참조) [entities](#entities) 개체가 반환됩니다. (그렇지 않으면, 결과가 애매모호할 것입니다.)`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**참고**: 단일 템플릿에서 큰 수의 관련 엔터티를 로드하거나 큰 수의 관계에 액세스하는 것은 템플릿 렌더링 수행에 부정적 영향을 미칠 수 있습니다. 한 루프 내에서 연속으로 각 항목의 관련 엔터티 로드를 피하십시오. 가능하면 엔터티 모음을 로드하기 위해 [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md)를 사용하는 것이 좋습니다. |
+|            이동 경로             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 사이트 맵 루트 노드에서 시작 하 여 부모에서 끝나는 페이지의 이동 경로 탐색 사이트 맵 노드 개체를 반환 합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|              객체              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 페이지의 자식 사이트 맵 노드 개체를 반환 합니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|               부모               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           페이지의 부모 사이트 맵 노드를 반환 합니다. 페이지가 홈페이지 이면 부모는 null입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|               제목과                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                페이지의 제목입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|                url                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 페이지의 URL입니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| \[특성 또는 관계 이름\] | 논리적 이름을 기준으로 페이지의 기본 PowerApps 레코드 특성에 액세스할 수 있습니다.<br>`{{ page.createdon }}`<br>`{% assign attribute_name = 'name' %}`<br>`{{ page[attribute_name] }}`<br>대부분의 엔터티 특성 값은 [액체 형식](liquid-types.md)에 직접 매핑됩니다. 두 개의 옵션 필드는 부울, 텍스트 필드는 문자열, 숫자/통화 필드는 숫자, 날짜/시간 필드는 날짜 개체에 매핑됩니다. 하지만 일부 특성 유형은 개체로 반환 됩니다.<ul><li>조회 (엔터티 참조) 필드는 [엔터티 참조 개체로](#entity-reference)반환 됩니다.</li><li>옵션 집합/선택 목록 필드는 [옵션 집합 값 개체로](#option-set-value)반환 됩니다.</li> 관계 스키마 이름을 기준으로 관련 엔터티를 로드할 수도 있습니다. <br> `{{ page.adx_webpage_entitylist.adx_name }}`<br>관계가 반사 되는 경우 (즉, 자체 참조) [엔터티](#entities) 개체가 반환 됩니다. 그렇지 않으면 결과는 모호 합니다.`{{ page.adx_webpage_webpage.referencing.adx_name }}` <br>**참고**: 많은 수의 관련 엔터티를 로드 하거나 단일 템플릿에서 많은 수의 관계에 액세스 하면 템플릿 렌더링 성능에 부정적인 영향을 줄 수 있습니다. 루프 내에서 배열의 각 항목에 대 한 관련 엔터티를 로드 하지 마십시오. 가능 하면 [PowerApps common data service 엔터티 태그](portals-entity-tags.md) 를 사용 하 여 엔터티 컬렉션을 로드 하는 것이 좋습니다. |
 
-## <a name="polls"></a>polls
+## <a name="polls"></a>순차적
 
-설문 조사에 액세스하고 렌더링하는 기능을 제공합니다.
+폴링에 액세스 하 고 렌더링 하는 기능을 제공 합니다.
 
-polls 개체를 사용하면 특정 설문 조사 또는 설문 조사 배치를 선택할 수 있습니다.
+설문 조사 개체를 사용 하면 특정 폴링 또는 설문 조사 배치를 선택할 수 있습니다.
 
 ```
 <div>
@@ -916,62 +921,62 @@ polls 개체를 사용하면 특정 설문 조사 또는 설문 조사 배치를
 
 ### <a name="polls-attributes"></a>설문 조사 특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| placements          | pollplacements 개체를 반환합니다.                                      |
-| \[설문 조사 이름 또는 ID\] | 이름 또는 ID 속성으로 어떤 설문 조사에든 액세스할 수 있습니다. `{% assign poll = polls[Poll Name] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
+| 소재          | Pollplacements 개체를 반환 합니다.                                      |
+| \[폴링 이름 또는 id\] | 이름 또는 Id 속성을 사용 하 여 모든 폴링에 액세스할 수 있습니다. `{% assign poll = polls[Poll Name] %}`<br>`{% assign poll = polls["41827a5c-33de-49b8-a0c7-439e6a02eb98"] %}`  |
 
-### <a name="poll-placements-attributes"></a>설문 조사 배치 특성
+### <a name="poll-placements-attributes"></a>폴링 배치 특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| \[설문 조사 배치 이름 또는 ID\] | 이름 또는 ID 속성으로 어느 설문 조사 배치에든 액세스할 수 있습니다.`{% assign placement = polls.placements[Placement Name or Id] %}`<br>`{% assign placement = polls.placements[7677c5d4-406e-4b6c-907c-916ac17dba0f] %} `|
+| \[폴링 배치 이름 또는 id\] | 이름 또는 Id 속성을 사용 하 여 모든 폴링 배치에 액세스할 수 있습니다.`{% assign placement = polls.placements[Placement Name or Id] %}`<br>`{% assign placement = polls.placements[7677c5d4-406e-4b6c-907c-916ac17dba0f] %} `|
 
-### <a name="poll-placement-attributes"></a>설문 조사 배치 특성
+### <a name="poll-placement-attributes"></a>폴링 배치 특성
 
 > [!Note] 
 > [엔터티](#entities)                                       
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 이름           | 설문 조사 배치를 위한 이름 필드를 반환합니다.                            
-| placement\_url | 템플릿으로 완전히 렌더링된 설문 조사 배치를 검색하는 데 사용할 수 있는 URL입니다.                       |
-| 설문 조사          | 배치와 관련된 poll 개체의 컬렉션을 반환합니다. [반복 태그](iteration-tags.md) 및 [배열 필터](liquid-filters.md#array-filters)는 이 모음과 함께 사용할 수 있습니다.  |  
-| random\_url    | 템플릿으로 완전히 렌더링된 배치에서 무작위 설문을 검색하는 데 사용할 수 있는 URL입니다.         |
-| submit\_url    | 완료된 설문이 전송되는 URL입니다.                                                             |
+| 이름           | 폴링 배치의 이름 필드를 반환 합니다.                            
+| 배치\_url | 템플릿에 의해 완전히 렌더링 된 폴링 배치를 검색 하는 데 사용할 수 있는 URL입니다.                       |
+| 순차적          | 배치와 연결 된 폴링 개체의 컬렉션을 반환 합니다. [반복 태그](iteration-tags.md) 와 [배열 필터](liquid-filters.md#array-filters) 를이 컬렉션에 사용할 수 있습니다.  |  
+| 임의\_url    | 템플릿에 의해 완전히 렌더링 된 배치에서 임의 폴링을 검색 하는 데 사용할 수 있는 URL입니다.         |
+| \_url 제출    | 완료 된 폴링이 제출 되는 URL입니다.                                                             |
 
 ### <a name="poll-attributes"></a>설문 조사 특성
 
 > [!Note] 
-> [entities](#entities)                                          
+> [엔터티](#entities)                                          
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| has\_user\_voted       | 현재 사용자(로그인했거나 익명)가 이미 이 설문 조사에 투표한 경우 true를 반환합니다.         |
-| 이름                   | 설문 조사의 이름 필드를 반환합니다.                                                              |
-| options                | 설문 조사와 관련된 설문 조사 옵션 개체의 컬렉션을 반환합니다. [반복 태그](iteration-tags.md) 및 [entities](#entities)는 이 모음과 함께 사용할 수 있습니다.  |  
-| poll\_url              | 템플릿으로 완전히 렌더링된 설문 조사를 검색하는 데 사용할 수 있는 URL입니다.                       |
-| 질문               | 설문 조사를 위한 질문 필드를 반환합니다.                                                          |
-| submit\_button\_label  | 설문 조사를 위한 제출 단추 레이블을 다시 정의하는 데 사용할 수 있는 문자열을 반환합니다.               |
-| submit\_url            | 완료된 설문이 전송되는 URL입니다.                                                   |
-| user\_selected\_option | (이미 투표한 경우)사용자가 선택한 polloption 개체를 반환합니다.                  |
-| votes                  | 설문 조사를 위해 표로 만들어진 투표의 수를 반환합니다.                                |
+| \_사용자\_투표 했습니다.       | 현재 사용자 (로그인 또는 익명)가 이미이 설문에서 투표 된 경우 true를 반환 합니다.         |
+| 이름                   | 폴링에 대 한 이름 필드를 반환 합니다.                                                              |
+| 옵션                | 폴링에 연결 된 폴링 옵션 개체의 컬렉션을 반환 합니다. [반복 태그](iteration-tags.md) 및 [엔터티](#entities) 는이 컬렉션과 함께 사용할 수 있습니다.  |  
+| 폴링\_url              | 템플릿에 의해 완전히 렌더링 된 폴링을 검색 하는 데 사용할 수 있는 URL입니다.                       |
+| 지원부               | 설문 조사에 대 한 질문 필드를 반환 합니다.                                                          |
+| \_제출 단추\_레이블  | 설문 조사에 대 한 제출 단추 레이블을 재정의 하는 데 사용할 수 있는 문자열을 반환 합니다.               |
+| \_url 제출            | 완료 된 폴링이 제출 되는 URL입니다.                                                   |
+| 사용자\_선택\_옵션 | 사용자가 선택한 polloption 개체 (이미 투표 한 경우)를 반환 합니다.                  |
+| 얻은                  | 설문 조사를 위해 정리 된 투표의 수를 반환 합니다.                                |
 
-### <a name="poll-option-attributes"></a>설문 조사 옵션 특성
+### <a name="poll-option-attributes"></a>폴링 옵션 특성
 
 >[!Note]
-> [entities](#entities)                                         
+> [엔터티](#entities)                                         
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| answer     | 설문 조사를 위한 답변 필드를 반환합니다. |
-| percentage | 옵션에 대한 설문 조사에서 투표의 비율을 0~100의 10진수로 반환합니다. |
-| votes      | 옵션을 위해 표로 만들어진 투표의 수를 반환합니다.                              |
+| 대답할     | 폴링에 대 한 대답 필드를 반환 합니다. |
+| 나타낸 | 옵션에 대 한 폴링의 응답 비율을 0에서 100 사이의 10 진수 값으로 반환 합니다. |
+| 얻은      | 옵션에 대해 정리 된 투표의 수를 반환 합니다.                              |
 
 
-## <a name="request"></a>요청
+## <a name="request"></a>요구
 
-현재 HTTP 요청에 대한 정보가 담겨 있습니다.
+현재 HTTP 요청에 대 한 정보를 포함 합니다.
 
 ```
 {% assign id = request.params['id'] %}
@@ -980,22 +985,22 @@ polls 개체를 사용하면 특정 설문 조사 또는 설문 조사 배치를
 ```
 
 > [!Note]
-> URL 필터를 이용하여 동적으로 유동 URL을 구축할 수 있습니다. 
+> URL 필터를 사용 하 여 동적으로 액체에서 Url을 빌드할 수 있습니다. 
 
 ### <a name="attributes"></a>특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| params           | 현재 요청에 대한 명명된 매개 변수 값입니다. params는 URL 쿼리 연산자 매개 변수, 양식 게시물 매개 변수, 그리고 쿠키의 조합입니다.  |
-| 경로             | 현재 요청 URL의 경로입니다. <br> /profile/|
-| path\_and\_query | 현재 요청 URL의 경로 및 쿼리입니다.<br> /profile/?foo=1&bar=something|
-| 쿼리            | 현재 요청 URL의 쿼리 일부입니다. <br> ?foo=1&bar=something |
-| URL              | 현재 요청의 전체 URL입니다.<br>  http://www.example.com/profile/?foo=1&bar=something  |
+| params           | 현재 요청에 대 한 명명 된 매개 변수 값입니다. params는 URL 쿼리 문자열 매개 변수, 폼 게시 매개 변수 및 쿠키의 조합입니다.  |
+| path             | 현재 요청 URL의 경로입니다. <br> /profile/|
+| 경로\_및\_쿼리 | 현재 요청 URL의 경로와 쿼리입니다.<br> /profile/? foo = 1 & bar = 항목|
+| 쿼리            | 현재 요청 URL의 쿼리 부분입니다. <br> ? foo = 1 & bar = 항목 |
+| url              | 현재 요청의 전체 URL입니다.<br>  https://www.example.com/profile/?foo=1&bar=something  |
 
 
-## <a name="searchindex"></a>색인 검색
+## <a name="searchindex"></a>searchindex
 
-searchindex 개체는 [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md) 내에서 사용되며, 쿼리 결과 접근권을 제공합니다.  
+Searchindex 개체는 [PowerApps common data service 엔터티 태그](portals-entity-tags.md)내에서 사용 되 고 쿼리 결과에 대 한 액세스를 제공 합니다.  
 
 ```
 {% searchindex query: 'support', page: params.page, page_size: 10 %}
@@ -1031,32 +1036,32 @@ searchindex 개체는 [PowerApps Common Data Service 엔터티 태그](portals-e
 
 ### <a name="attributes"></a>특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| approximate\_total\_hits | 색인 쿼리에 일치하는 총 적중의 대략 수를 반환합니다. 보안 필터링 및 기타 설계 요인과 관련하여 검색 색인이 작동하는 방식으로 인해, 이 숫자는 대략일 뿐이며 일부 상황에서는 현재 사용자에게 제공되는 결과의 총 수와 정확하게 일치하지 않을 수 있습니다.  |
-| 페이지                     | 현재 쿼리의 페이지 수를 반환합니다.                                                                                                                                                                                                           |
-| page\_size               | 현재 쿼리의 최대 페이지 크기를 반환합니다. 현재 페이지에 대해 반환된 결과의 실제 수를 보기 원하는 경우(이것이 표시된 최대 페이지 크기보다 작을 수 있으므로) results.size를 사용하십시오.                                                                                           |
-| 결과                  | 검색 색인 결과 개체로서의 쿼리 결과 페이지를 반환합니다.                                                                                                                                                                                          |
+| 대략적인\_총\_적중 | 인덱스 쿼리와 일치 하는 총 적중 횟수를 반환 합니다. 검색 인덱스가 보안 필터링 및 다른 디자인 요소와 관련 하 여 작동 하는 방식으로 인해이 숫자는 근사값 이며 일부 상황에서 현재 사용자가 사용할 수 있는 총 결과 수와 정확 하 게 일치 하지 않을 수 있습니다.  |
+| 페이지                     | 현재 쿼리의 페이지 번호를 반환 합니다.                                                                                                                                                                                                           |
+| 페이지\_크기               | 현재 쿼리의 최대 페이지 크기를 반환 합니다. 현재 페이지에 대해 실제 결과 수를 반환 하려면 (지정 된 최대 페이지 크기 보다 적을 수 있음) 결과 크기를 사용 합니다.                                                                                           |
+| 검색                  | 쿼리 결과 페이지를 검색 인덱스 결과 개체로 반환 합니다.                                                                                                                                                                                          |
 
-### <a name="search-index-results"></a>검색 색인 결과
+### <a name="search-index-results"></a>검색 인덱스 결과
 
-|   특성   |                                                                                                                                                설명                                                                                                                                                 |
+|   특성도   |                                                                                                                                                설명                                                                                                                                                 |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|    엔터티     |                                                                                                                            결과의 기저 [entities](#entities).                                                                                                                            |
-|   fragment    | &lt;em&gt; HTML 태그를 사용하여 강조 표시된 지정된 쿼리와 일치하는 조건을 포함한 결과에 대한 관련 짧은 텍스트 조각. 특정 타입의 쿼리는 강조 표시된 조각을 지원하지 않습니다, 예컨대 퍼지 쿼리(~) 및 와일드카드 쿼리(\*). 그러한 경우에 이 속성은 널값입니다. |
-|      Id       |                                                             문자열로서의 결과를 위한 기저 레코드의 PowerApps 엔터티 ID. 예: 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                              |
-| logical\_name |                                                                           결과를 위한 기저 레코드의 PowerApps 엔터티 논리적 이름. 예: adx\_webpage                                                                           |
-|    번호     |                                                            모든 결과 페이지에 걸친 결과의 수, 1에서 시작. 예컨대, 페이지 크기가 10인 결과의 두 번째 페이지의 첫 번째 결과의 경우, 이 값은 11입니다.                                                             |
-|     score     |                                                                                                 부동점 값으로서의 결과의 루씬 점수. 결과는 이 값 순서로 반환됩니다.                                                                                                 |
-|     title     |                                                                                                                                          결과의 제목.                                                                                                                                          |
-|      URL      |                                                            결과의 URL. 이는 전체 URL이기 보다는 일반적으로 현재 응용 프로그램의 절대 경로이지만 반드시 그렇지는 않습니다. 예: /articles/article1/                                                             |
+|    엔터티와의     |                                                                                                                            결과에 대 한 기본 [엔터티입니다](#entities) .                                                                                                                            |
+|   Don't    | &lt;em&gt; HTML 태그를 사용 하 여 강조 표시 된 지정 된 쿼리와 일치 하는 용어를 사용 하 여 결과에 대 한 관련 짧은 텍스트 단편입니다. 특정 유형의 쿼리에서는 유사 항목 쿼리 (~) 및 와일드 카드 쿼리 (\*)와 같은 강조 표시 된 조각을 지원 하지 않습니다. 이러한 경우이 속성은 null입니다. |
+|      ID입니다.       |                                                             결과에 대 한 기본 레코드의 PowerApps 엔터티 ID (문자열)입니다. 예: 936DA01F-9ABD-4d9d-80C7-02AF85C822A8                                                              |
+| 논리적\_이름 |                                                                           결과에 대 한 기본 레코드의 PowerApps 엔터티 논리적 이름입니다. 예: adx\_웹 페이지                                                                           |
+|    숫자     |                                                            모든 결과 페이지에서 1부터 시작 하는 결과의 번호입니다. 예를 들어 페이지 크기가 10 인 결과의 두 번째 페이지에 대 한 첫 번째 결과의 경우이 값은 11입니다.                                                             |
+|     점수     |                                                                                                 결과의 Lucene 점수 이며, 부동 소수점 값입니다. 결과는이 값으로 정렬 되어 반환 됩니다.                                                                                                 |
+|     제목과     |                                                                                                                                          결과의 제목입니다.                                                                                                                                          |
+|      url      |                                                            결과의 URL입니다. 이는 일반적으로 전체 URL이 아닌 현재 응용 프로그램에 대 한 절대 경로가&mdash;되지만 반드시&mdash;반드시 필요한 것은 아닙니다. 예:/articles/article1/                                                             |
 
 ## <a name="settings"></a>설정
 
-이름을 사용하여 모든 [사이트 설정](../configure-site-settings.md)을 로드할 수 있습니다. 주어진 이름의 설정을 찾지 못한 경우 [null](liquid-types.md#null) 이 반환됩니다.  
+모든 [사이트 설정을](../configure/configure-site-settings.md) 이름으로 로드할 수 있습니다. 지정 된 이름의 설정을 찾을 수 없으면 [null](liquid-types.md#null) 이 반환 됩니다.  
 
 > [!Note]
-> 설정은 [문자열](liquid-types.md#string) 유형으로 반환되지만 [유형 필터](liquid-filters.md#type-filters)를 사용하여 다른 유형으로 변환할 수도 있습니다.
+> 설정은 [문자열로](liquid-types.md#string)반환 되지만 [형식 필터](liquid-filters.md#type-filters) 를 사용 하 여 다른 형식으로 변환할 수 있습니다.
 
 ```
 {{ settings[My Setting] }}
@@ -1079,12 +1084,12 @@ Page size is greater than 10.
 ```
 
 > [!Note]
-> [웹사이트 머리글 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)
+> [웹 사이트 헤더 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)
 
 
-## <a name="sitemap"></a>sitemap
+## <a name="sitemap"></a>web.sitemap
 
-포털 사이트 맵에 대한 액세스를 허용합니다.
+포털 사이트 맵에 대 한 액세스를 허용 합니다.
 
 ```
 <h1>{{ sitemap.root.title }}</h1>
@@ -1124,29 +1129,29 @@ It's also possible to load a site map node by URL path:
 
 ### <a name="site-map-attributes"></a>사이트 맵 특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| 현재 | 현재 페이지에 대한 사이트 맵 노드 개체를 반환합니다.                    |
-| 루트    | 웹 사이트의 루트(홈) 페이지에 대한 사이트 맵 노드 개체를 반환합니다. |
+| 현재 | 현재 페이지에 대 한 사이트 맵 노드 개체를 반환 합니다.                    |
+| 루트가    | 웹 사이트의 루트 (홈) 페이지에 대 한 사이트 맵 노드 개체를 반환 합니다. |
 
 ### <a name="site-map-node-attributes"></a>사이트 맵 노드 특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |-------|-------|
-| 이동 경로           | 사이트 맵 루트 노드에서 시작하여 상위에서 끝나는 노드에 대한 이동 경로 사이트 맵 노드 개체를 반환합니다. |
-| 하위              | 노드에 대한 하위 사이트 맵 노드 개체를 반환합니다.                                                                  |
-| 설명           | 노드에 대한 설명/요약 내용입니다. (이 필드는 HTML을 포함할 수 있습니다.)                                          |
-| 엔터티                | 노드의 기본 [entities](#entities)를 반환합니다. 노드에 기본 엔터티가 없는 경우, 이 값은 null입니다.                                                         |
-| is\_sitemap\_ancestor | 사이트 맵 노드가 현재 노드의 상위인 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                                         |
-| is\_sitemap\_current  | 사이트 맵 노드가 현재 노드인 경우 true를 반환합니다. 그렇지 않은 경우 false를 반환합니다.                                                                                                         |
-| 상위                | 노드에 대한 상위 사이트 맵 노드를 반환합니다. 노드가 루트 노드인 경우 상위는 null입니다.                                                                     |
-| 직책                 | 노드의 제목입니다.                                                                                                |
-| URL                   | 노드의 URL입니다.                                                                                                  |
+| 이동 경로           | 사이트 맵 루트 노드에서 시작 하 여 부모에서 끝나는 노드의 breadcrumb 사이트 맵 노드 개체를 반환 합니다. |
+| 객체              | 노드의 자식 사이트 맵 노드 개체를 반환 합니다.                                                                  |
+| 설명           | 노드에 대 한 설명/요약 내용입니다. 이 필드는 HTML을 포함할 수 있습니다.                                          |
+| 엔터티와의                | 노드의 기본 [엔터티](#entities) 를 반환 합니다. 노드에 내부 엔터티가 없으면이 값은 null이 됩니다.                                                         |
+| \_사이트\_상위 항목입니다. | 사이트 맵 노드가 현재 노드의 상위 항목이 면 true를 반환 하 고 그렇지 않으면 false를 반환 합니다.                                                                                                         |
+| \_사이트 맵\_현재  | 사이트 맵 노드가 현재 노드이거나 false 이면 true를 반환 하 고, 그렇지 않으면 false를 반환 합니다.                                                                                                         |
+| 부모                | 노드의 부모 사이트 맵 노드를 반환 합니다. 노드가 루트 노드인 경우 부모는 null입니다.                                                                     |
+| Title                 | 노드의 제목입니다.                                                                                                |
+| url                   | 노드의 URL입니다.                                                                                                  |
 
 
-## <a name="sitemarkers"></a>사이트 마커
+## <a name="sitemarkers"></a>sitemarkers
 
-이름을 사용하여 모든 사이트 마커를 로드할 수 있습니다. 사이트 마커가 존재하는 경우 사이트 마커 개체가 반환됩니다. 주어진 이름의 사이트 마커를 찾지 못한 경우 [null](liquid-types.md#null) 이 반환됩니다.  
+모든 사이트 표식을 이름으로 로드할 수 있습니다. Sitemarker가 있으면 sitemarker 개체가 반환 됩니다. 지정 된 이름의 sitemarker을 찾을 수 없으면 [null](liquid-types.md#null) 이 반환 됩니다.  
 
 ```
 {{ sitemarkers[Login].url }}
@@ -1165,18 +1170,18 @@ Site marker My Site Marker does not exist.
 ```
 
 > [!Note]
-> [웹사이트 머리글 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)  
+> [웹 사이트 헤더 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md)  
 
-### <a name="sitemarker-attributes"></a>사이트 마커 특성
+### <a name="sitemarker-attributes"></a>Sitemarker 특성
 
-|         특성          |                                                                                    설명                                                                                    |
+|         특성도          |                                                                                    설명                                                                                    |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            URL             |                                                                         사이트 마커 대상의 URL입니다.                                                                         |
-| \[특성 논리적 이름\] | 논리 이름을 사요아여 사이트 마커 대상 PowerApps 레코드의 모든 특성에 액세스할 수 있습니다. 예: {{ sitemarker.adx\_name }} |
+|            url             |                                                                         Sitemarker 대상의 URL입니다.                                                                         |
+| \[특성 논리적 이름\] | 논리적 이름으로 sitemarker 대상 PowerApps 레코드의 모든 특성에 액세스할 수 있습니다. 예: {{sitemarker\_name}} |
 
-## <a name="snippets"></a>조각
+## <a name="snippets"></a>조각은
 
-콘텐츠 조각을 이름에 의해 로드할 수 있습니다. 주어진 이름의 조각이 발견되지 않으면 [null](liquid-types.md#null)이 반환될 것입니다.  
+모든 콘텐츠 조각을 이름으로 로드할 수 있습니다. 지정 된 이름의 코드 조각을 찾을 수 없으면 [null](liquid-types.md#null) 이 반환 됩니다.  
 
 ```
 {{ snippets[Header] }}
@@ -1197,32 +1202,32 @@ No footer snippet was found.
 
 ## <a name="tablerowloop"></a>tablerowloop
 
-[반복 태그](iteration-tags.md) 루프 블록 내에서 유용하게 사용되는 속성을 포함하고 있습니다.  
+[반복 태그](iteration-tags.md) 루프 블록 내에서 유용한 속성을 포함 합니다.  
 
 > [!Note] 
-> tablerowloop는 [반복 태그](iteration-tags.md) 태그 내에서만 사용할 수 있습니다.
+> tablerowloop는 [반복 태그](iteration-tags.md) 태그 내 에서만 사용할 수 있습니다.
 
 ### <a name="attributes"></a>특성
 
-|특성   |설명   |
+|특성도   |설명   |
 |---|---|
-| col        | 1에서 시작하여 현재 행의 색인을 반환합니다.                                                       |
-| col0       | 0에서 시작하여 현재 행의 색인을 반환합니다.                                                       |
-| col\_first | 현재 열이 행의 첫 번째 열인 경우 true를 반환하고, 그렇지 않은 경우에는 false를 반환합니다.               |
-| col\_last  | 현재 열이 행의 마지막 열인 경우 true를 반환하고, 그렇지 않은 경우에는 false를 반환합니다.                |
-| 처음      | 루프의 첫 번째 반복인 경우 true를 반환합니다. 첫 번째 반복이 아닌 경우 false를 반환합니다.       |
-| 인덱스      | 모음에서 현재 항목의 위치, 이 때 첫 번째 항목은 1의 위치를 갖습니다.                   |
-| index0     | 모음에서 현재 항목의 위치, 이 때 첫 번째 항목은 0의 위치를 갖습니다.                   |
-| 마지막       | 루프의 마지막 반복인 경우 true를 반환합니다. 마지막 반복이 아닌 경우 false를 반환합니다.         |
-| 길이     | 모음에서 반복되고 있는 항목의 수, 즉, 루프에 대한 반복의 수를 반환합니다. |
-| rindex     | 루프(길이 - 지수)에 남아 있는 항목의 수, 이 때 1은 마지막 항목의 지수입니다.              |
-| rindex0    | 루프(길이 - 지수)에 남아 있는 항목의 수, 이 때 0은 마지막 항목의 지수입니다.              |
+| Col        | 1에서 시작 하 여 현재 행의 인덱스를 반환 합니다.                                                       |
+| col0       | 0부터 시작 하 여 현재 행의 인덱스를 반환 합니다.                                                       |
+| 먼저 col\_ | 현재 열이 행의 첫 번째 열인 경우 true를 반환 하 고, 그렇지 않으면 false를 반환 합니다.               |
+| 마지막 열\_  | 현재 열이 행의 마지막 열인 경우 true를 반환 하 고, 그렇지 않으면 false를 반환 합니다.                |
+| First      | 루프의 첫 번째 반복 인 경우 true를 반환 합니다. 첫 번째 반복이 아닌 경우 false를 반환 합니다.       |
+| 인덱싱할      | 컬렉션에서 첫 번째 항목의 위치가 1 인 현재 항목의 위치입니다.                   |
+| index0     | 컬렉션에서 첫 번째 항목의 위치가 0 인 현재 항목의 위치입니다.                   |
+| Last       | 루프의 마지막 반복 인 경우 true를 반환 합니다. 마지막 반복이 아닌 경우 false를 반환 합니다.         |
+| 길이     | 반복 되는 컬렉션의 항목 수를 ߝ 루프의 반복 횟수를 반환 합니다. |
+| rindex     | 루프 (길이-인덱스)에 남아 있는 항목의 수입니다. 여기서 1은 마지막 항목의 인덱스입니다.              |
+| rindex0    | 루프 (길이-인덱스)에 남아 있는 항목의 수입니다. 여기서 0은 마지막 항목의 인덱스입니다.              |
 
 
 
-## <a name="user"></a>user
+## <a name="user"></a>정의
 
-현재 포털 사용자를 참조하여 기본 PowerApps 연락처 레코드의 모든 특성에 액세스할 수 있습니다. 로그인한 사용자가 없으면 이 변수는 [null](liquid-types.md#null)입니다.  
+기본 PowerApps 연락처 레코드의 모든 특성에 대 한 액세스를 허용 하는 현재 포털 사용자를 참조 합니다. 로그인 한 사용자가 없는 경우이 변수는 [null](liquid-types.md#null)이 됩니다.  
 
 사용자가 [엔터티](#entity) 개체입니다.  
 
@@ -1240,20 +1245,20 @@ Hello, anonymous user!
 
 ### <a name="attributes"></a>특성
 
-[entity](#entity) 개체의 모든 특성 외에도 user에는 다음과 같은 특성이 있습니다.
+[엔터티](#entity) 개체의 특성을 모두 포함 하는 것 외에도 사용자에 게는 다음과 같은 특성이 있습니다.
 
 
-|    특성     |                                                                                                                                                                                     설명                                                                                                                                                                                     |
+|    특성도     |                                                                                                                                                                                     설명                                                                                                                                                                                     |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|      역할       |                                                      사용자가 속한 역할을 [배열](liquid-types.md#array)로 반환합니다.<br>`{% if user.roles contains 'Administrators' %} User is an administrator. {% endif %}`<br>**참고**: `has_role` 필터를 사용하여 개별 역할 구성원 자격을 테스트할 수도 있습니다.                                                       |
-| basic_badges_url | 사용자의 배지를 검색하는 서비스 url을 반환합니다.<br>사용자에 대 한 배지를 렌더링하려면 "데이터-배지" 및 "데이터-uri" 특성을 가진 태그를 포함해야 합니다. 현재 사용자의 배지를 렌더링하려면 다음을 수행합니다.<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>id(가변 userid)별로 사용자 배치를 렌더링하려면:<br>\`<div data-badge data-uri='{{user.basic_badges_url |
+|      역할       |                                                      사용자가 속한 역할을 [배열로](liquid-types.md#array)반환 합니다.<br>`{% if user.roles contains 'Administrators' %} User is an administrator. {% endif %}`<br>**참고**: `has_role` 필터를 사용 하 여 개별 역할 멤버 자격을 테스트할 수도 있습니다.                                                       |
+| basic_badges_url | 사용자의 배지를 검색 하기 위한 서비스 url을 반환 합니다.<br>사용자에 대 한 배지를 렌더링 하려면 "data-배지" 및 "데이터 uri" 특성이 포함 된 태그를 포함 해야 합니다. 현재 사용자의 배지를 렌더링 하려면:<br>`<div data-badge data-uri='{{user.basic_badges_url }}'></div>`<br>Id로 사용자의 배지를 렌더링 하려면 (변수 userid):<br>\`< div 데이터-배지 데이터-uri = ' {{basic_badges_url |
 |                  |                                                                                                                                                                                                                                                                                                                                                                                     |
 
-## <a name="weblinks"></a>웹 링크
+## <a name="weblinks"></a>weblinks
 
-이름 또는 ID로 모든 웹 링크를 로드할 수 있습니다.  
+이름 또는 ID를 사용 하 여 weblinks를 로드할 수 있습니다.  
 
-웹 링크 세트가 존재하는 경우, [웹 링크 세트 개체](#web-link-set-attributes)가 반환될 것입니다. 주어진 이름 또는 ID의 웹 링크 세트가 발견되지 않으면 [null](liquid-types.md#null)이 반환될 것입니다.
+웹 링크 집합이 있으면 [웹 링크 집합 개체가](#web-link-set-attributes) 반환 됩니다. 지정 된 이름이 나 ID로 설정 된 웹 링크를 찾을 수 없는 경우 [null](liquid-types.md#null) 이 반환 됩니다.
 
 
 ```
@@ -1297,60 +1302,60 @@ Hello, anonymous user!
 ```
 
 > [!Note]
-> [웹 사이트 머리글 및 기본 탐색 모음 렌더링](render-site-header-primary-navigation.md) |  
+> [웹 사이트 헤더 및 기본 탐색 모음 | 렌더링](render-site-header-primary-navigation.md)  
 
-### <a name="web-link-set-attributes"></a>웹 링크 세트 특성
+### <a name="web-link-set-attributes"></a>웹 링크 집합 특성
 
 > [!Note]
-> 웹 링크는 아래에 나열된 속성 이외에 모두 동일한 속성을 가진 [엔터티](#entity) 개체입니다.                                         
+> 웹 링크 집합은 아래에 나열 된 특성과 함께 동일한 특성을 모두 포함 하는 [엔터티](#entity) 개체입니다.                                         
 
-|         특성          |                                                                                 설명                                                                                  |
+|         특성도          |                                                                                 설명                                                                                  |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|            복사            |                                                                      웹 링크 세트의 HTML 사본.                                                                      |
-|            이름            |                                                                        웹 링크 세트의 이름.                                                                         |
-|           직책            |                                                                        웹 링크 세트의 제목.                                                                        |
-|          웹 링크          |                                                       웹 링크 세트와 연계된 웹 링크 개체군.                                                        |
-| \[특성 논리적 이름\] | 논리적 이름으로 웹 링크 세트 PowerApps 레코드의 특성에 액세스할 수 있습니다. 예: {{ weblinkset.createdon }} |
+|            복사            |                                                                      웹 링크 집합의 HTML 복사본입니다.                                                                      |
+|            이름            |                                                                        웹 링크 집합의 이름입니다.                                                                         |
+|           Title            |                                                                        웹 링크 집합의 제목입니다.                                                                        |
+|          weblinks          |                                                       웹 링크 집합과 연결 된 웹 링크 개체의 배열입니다.                                                        |
+| \[특성 논리적 이름\] | 웹 링크의 특성에 액세스 하 여 PowerApps 레코드를 논리적 이름으로 설정할 수 있습니다. 예: {{weblinkset}} |
 
 ### <a name="web-link-attributes"></a>웹 링크 특성
 
 > [!Note]
-> 웹 링크는 아래에 나열된 속성 이외에 모두 동일한 속성을 가진 [엔터티](#entity) 개체입니다.
+> 웹 링크는 아래에 나열 된 특성과 함께 동일한 특성을 모두 포함 하는 [엔터티](#entity) 개체입니다.
 
-|          특성          |                                                                              설명                                                                              |
+|          특성도          |                                                                              설명                                                                              |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|         설명         |                                                                 웹 링크의 HTML 설명.                                                                 |
-|    display\_image\_only     |                              웹 링크를 링크 텍스트 없이 이미지로서만 표시해야 하는지의 여부를 나타내는 부울 특성.                               |
-| display\_page\_child\_links |            웹 링크가 하위 링크로서의 링크된 페이지의 [*사이트 맵*](#sitemap) 하위 페이지에 대한 링크를 표시해야 하는지의 여부를 나타내는 부울 특성.             |
-|            이미지            |                                     이 링크를 위한 웹 링크 이미지 개체. 이미지가 존재하지 않는 경우 이 특성은 널값입니다.                                      |
-|        is\_external         |                 웹 링크의 목표 URL이 (내부 포털 페이지에 대한 것이 아닌) 외부 사이트에 대한 것인지의 여부를 나타내는 부울 특성.                  |
-|    is\_sitemap\_ancestor    |                                웹 링크의 URL이 현재 사이트 맵 노드의 상위를 참조하는 경우 true를 반환하고, 그렇지 않으면 false를 반환합니다.                                 |
-|    is\_sitemap\_current     |                                        웹 링크의 URL이 현재 사이트 맵 노드를 참조하는 경우 true를 반환하고, 그렇지 않으면 false를 반환합니다.                                        |
-|            이름             |                                                                    웹 링크의 이름/제목.                                                                    |
-|          nofollow           |                                         웹 링크를 rel=nofollow로 표시해야 하는지의 여부를 나타내는 부울 특성.                                         |
-|    open\_in\_new\_window    |                             웹 링크를 선택했을 때 새 브라우저 창/탭에서 열지 여부를 나타내는 부울 특성.                             |
-|           도구 설명           |                                                                    웹 링크의 툴팁 제목.                                                                     |
-|             URL             |                                                                       웹 링크의 URL.                                                                        |
-|          웹 링크           |                                                   웹 링크와 연계된 하위 웹 링크 개체군.                                                   |
-| \[특성 논리적 이름\]  | 논리적 이름으로 웹 링크 PowerApps 레코드의 특성에 액세스할 수 있습니다. 예: {{ weblink.createdon }} |
+|         설명         |                                                                 웹 링크에 대 한 HTML 설명입니다.                                                                 |
+|    이미지\_\_표시     |                              링크 텍스트 없이 웹 링크를 이미지만 표시할지 여부를 나타내는 부울 특성입니다.                               |
+| 자식\_링크\_\_페이지 표시 |            웹 링크에서 링크 된 페이지의 [*사이트 맵*](#sitemap) 자식 페이지에 대 한 링크를 하위 링크로 표시할지 여부를 나타내는 부울 특성입니다.             |
+|            이미지            |                                     이 링크에 대 한 웹 링크 이미지 개체입니다. 이미지가 없는 경우이 특성은 null입니다.                                      |
+|        외부\_         |                 웹 링크의 대상 URL이 내부 포털 페이지가 아닌 외부 사이트에 대 한 것인지 여부를 나타내는 부울 특성입니다.                  |
+|    \_사이트\_상위 항목입니다.    |                                Weblink의 URL이 현재 사이트 맵 노드의 상위 항목을 참조 하면 true를 반환 하 고, 그렇지 않으면 false를 반환 합니다.                                 |
+|    \_사이트 맵\_현재     |                                        Weblink의 URL이 현재 사이트 맵 노드를 참조 하면 true를 반환 하 고, 그렇지 않으면 false를 반환 합니다.                                        |
+|            이름             |                                                                    웹 링크의 이름/제목입니다.                                                                    |
+|          Nofollow           |                                         웹 링크를 rel = nofollow로 표시할지 여부를 나타내는 부울 특성입니다.                                         |
+|    \_새\_창에서\_열기    |                             웹 링크를 선택할 때 새 브라우저 창/탭에서 열지 여부를 나타내는 부울 특성입니다.                             |
+|           놓으면           |                                                                    웹 링크에 대 한 도구 설명 텍스트입니다.                                                                     |
+|             url             |                                                                       웹 링크의 URL입니다.                                                                        |
+|          weblinks           |                                                   웹 링크와 연결 된 자식 웹 링크 개체의 배열입니다.                                                   |
+| \[특성 논리적 이름\]  | 논리적 이름을 기준으로 웹 링크 PowerApps 레코드의 모든 특성에 액세스할 수 있습니다. 예: {{weblink. adventureworks.createdon}} |
 
 ### <a name="web-link-image-attributes"></a>웹 링크 이미지 특성
 
-| alternate\_text | 이미지에 대한 대체 텍스트.                                                                                       |
+| 대체\_텍스트 | 이미지에 대 한 대체 텍스트입니다.                                                                                       |
 |-----------------|---------------------------------------------------------------------------------------------------------------------|
-| 높이          | 이미지의 지정된 높이를 포함하는 정수. 높이 값이 제공되지 않은 경우, 이 특성은 널값입니다. |
-| URL             | 이미지의 URL.                                                                                               |
-| 너비           | 이미지의 지정된 너비를 포함하는 정수. 너비 값이 제공되지 않은 경우, 이 특성은 널값입니다.   |
+| Height          | 지정 된 이미지 높이를 포함 하는 정수입니다. 높이 값이 제공 되지 않은 경우이 특성은 null입니다. |
+| url             | 이미지의 URL입니다.                                                                                               |
+| 너비           | 지정 된 이미지 너비를 포함 하는 정수입니다. 너비 값이 제공 되지 않은 경우이 특성은 null입니다.   |
 
 
-## <a name="website"></a>웹 사이트
+## <a name="website"></a>사이트나
 
-포털 웹 사이트를 참조하여 포털에 대한 PowerApps 웹 사이트(adx\_website) 레코드의 모든 특성에 액세스할 수 있습니다.  
+포털에 대 한 PowerApps 웹 사이트 (adx\_웹 사이트)의 모든 특성에 대 한 액세스를 허용 하는 포털 웹 사이트를 참조 합니다.  
 
 > [!Note]
-> 웹 사이트는 동일한 특성을 가진 [엔터티](#entity) 개체입니다.
+> 웹 사이트는 동일한 특성이 모두 포함 된 [엔터티](#entity) 개체입니다.
 
-**코드**
+**Code**
 
 ```
 {{ website.adx_name }} ({{ website.id }})
@@ -1363,8 +1368,8 @@ Community Portal (936DA01F-9ABD-4d9d-80C7-02AF85C822A8)
 ```
 
 
-### <a name="see-also"></a>참조
+### <a name="see-also"></a>참고 항목
 
-[유동 유형](liquid-types.md)  
-[유동 태그](liquid-tags.md)  
-[유동 필터](liquid-filters.md)  
+[액체 유형](liquid-types.md)  
+[액체 태그](liquid-tags.md)  
+[액체 필터](liquid-filters.md)  

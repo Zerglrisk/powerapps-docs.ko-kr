@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ba852093da05c3fa69cc47b219a0bef65908c170
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 13219dad84e693582ee649a11013d78b6fc69544
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71992628"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73538920"
 ---
 # <a name="json-function-in-powerapps"></a>PowerApps의 JSON 함수
 
@@ -26,7 +26,7 @@ ms.locfileid: "71992628"
 
 ## <a name="description"></a>설명
 
-**Json** 함수는 네트워크를 통해 저장 하거나 전송 하는 데 적합 하도록 데이터 구조의 JAVASCRIPT OBJECT NOTATION (json) 표현을 텍스트로 반환 합니다. [ECMA-404](http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf) 및 [IETF RFC 8259](https://tools.ietf.org/html/rfc8259) 은 JavaScript 및 기타 프로그래밍 언어에서 널리 사용 되는 형식을 설명 합니다.
+**Json** 함수는 네트워크를 통해 저장 하거나 전송 하는 데 적합 하도록 데이터 구조의 JAVASCRIPT OBJECT NOTATION (json) 표현을 텍스트로 반환 합니다. [ECMA-404](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf) 및 [IETF RFC 8259](https://tools.ietf.org/html/rfc8259) 은 JavaScript 및 기타 프로그래밍 언어에서 널리 사용 되는 형식을 설명 합니다.
 
 Canvas 앱은이 테이블에 표시 되는 [데이터 형식을](data-types.md) 텍스트 표현에 대 한 세부 정보와 함께 지원 합니다.
 

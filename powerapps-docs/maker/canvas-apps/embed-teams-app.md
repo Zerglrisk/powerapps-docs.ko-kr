@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 42075fbaee40ec98bec0d47e6bfd3c00dc6f9ef6
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: e2cce61533bf86063d907882024a5a83c2e03fb7
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73182523"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73538991"
 ---
-# <a name="embed-an-app-in-teams"></a>팀에 앱 포함
+# <a name="embed-an-app-in-teams"></a>Teams에 앱 포함
 
 Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습니다. 완료 되 면 사용자는 **+** 를 선택 하 여 사용자가 **있는 팀의 팀 채널** 또는 대화에 앱을 추가할 수 있습니다. 앱은 **팀의 탭 아래에**타일로 표시 됩니다.
 
@@ -36,7 +36,7 @@ Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습�
 
 ## <a name="download-the-app"></a>앱 다운로드
 
-1. [Web.powerapps.com](https://web.powerapps.com)에 로그인 한 다음 메뉴에서 **앱** 을 선택 합니다.
+1. [Make.powerapps.com](https://make.powerapps.com)에 로그인 한 다음 메뉴에서 **앱** 을 선택 합니다.
 
     ![앱 목록 표시](./media/embed-teams-app/file-apps2.png "앱 목록 표시")
 

@@ -13,20 +13,20 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 375c4f19ed7715eed662c8456c539d5590c9f1ec
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 1c930c233f96a481700748960f90d731be397af0
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993200"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540331"
 ---
 # <a name="create-and-update-a-collection-in-a-canvas-app"></a>Canvas 앱에서 컬렉션 만들기 및 업데이트
 
-컬렉션을 사용 하 여 사용자가 앱에서 관리할 수 있는 데이터를 저장 합니다. 컬렉션은 제품 목록의 제품과 같이 유사한 항목의 그룹입니다. 컬렉션과 같은 다양 한 형식의 변수에 대 한 자세한 내용은 다음과 같습니다. [캔버스 앱 변수를 이해](working-with-variables.md)합니다.
+컬렉션을 사용 하 여 사용자가 앱에서 관리할 수 있는 데이터를 저장 합니다. 컬렉션은 제품 목록의 제품과 같이 유사한 항목의 그룹입니다. 컬렉션과 같은 다양 한 형식의 변수에 대 한 자세한 내용은 [canvas-앱 변수 이해](working-with-variables.md)를 확인 하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
-- PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+- PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 - PowerApps에서 앱을 만들거나 기존 앱을 엽니다.
 - PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 
@@ -128,7 +128,7 @@ ms.locfileid: "71993200"
 
 1. 필드 만든 컬렉션을 미리 보려면 **파일** 메뉴에서 **컬렉션** 을 선택 합니다.
 
-갤러리에서 SharePoint 목록의 데이터를 표시 하는 방법에 대 한 정보 (예: 날짜, 선택 및 사용자) [갤러리에 목록 열을 표시](connections/connection-sharepoint-online.md#show-list-columns-in-a-gallery)합니다. 양식에 데이터를 표시 하는 방법에 대 한 자세한 내용은 드롭다운 목록, 날짜 선택기 및 사용자 선택 (선택)을 사용 합니다. [편집 양식 및 표시 양식 컨트롤](controls/control-form-detail.md)
+갤러리에서 SharePoint 목록의 데이터를 표시 하는 방법에 대 한 자세한 내용은 [갤러리에서 목록 열 표시](connections/connection-sharepoint-online.md#show-list-columns-in-a-gallery)를 선택 합니다. 폼에 데이터를 표시 하는 방법에 대 한 자세한 내용 (드롭다운 목록, 날짜 선택기 및 사용자 선택기 사용): [양식 편집 및 표시 양식 컨트롤](controls/control-form-detail.md)
 
 ## <a name="next-steps"></a>다음 단계
 

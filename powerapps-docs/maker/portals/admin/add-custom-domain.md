@@ -6,15 +6,15 @@ manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 10/21/2019
+ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 2e8cd720f4ad5d1ff285a6414e99f4322b60b7b0
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: cd015b656c90ec2707f3654e02b4e1a5ef65e7d2
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72978511"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543104"
 ---
 # <a name="add-a-custom-domain-name"></a>사용자 지정 도메인 이름 추가
 
@@ -51,6 +51,6 @@ ms.locfileid: "72978511"
 7. **마침** 을 선택 하 여 마법사를 닫습니다.
 
     > [!Note]
-    > 기존 사용자 지정 도메인 이름을 변경 하려면 새 SSL 인증서를 업로드 하 고 [여기](#link-your-portal-to-a-custom-domain)에 설명 된 대로 마법사의 단계를 수행 해야 합니다.
+    > 기존 사용자 지정 도메인 이름을 변경 하려면 새 SSL 인증서를 업로드 하 고이 섹션에 설명 된 단계를 수행 해야 합니다.
     
 

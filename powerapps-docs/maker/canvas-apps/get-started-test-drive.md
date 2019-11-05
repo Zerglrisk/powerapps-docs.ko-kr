@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b0199e39c4e0220358e107905bdf62308147e67d
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: e127aa75d0d99a80fab5532efd555eb00b7262de
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71983294"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73537006"
 ---
 # <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>PowerApps의 템플릿에서 캔버스 앱 만들기
 
@@ -26,11 +26,11 @@ ms.locfileid: "71983294"
 
 템플릿에서 앱을 만들려면 템플릿의 샘플 데이터를 저장할 클라우드 스토리지 계정(예: DropBox, OneDrive 또는 Google Drive)이 필요합니다.
 
-PowerApps에 대한 라이선스가 없으면 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
+PowerApps에 대한 라이선스가 없는 경우 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
 
 ## <a name="create-an-app"></a>앱 만들기
 
-1. [PowerApps](http://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 1. **나만의 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **만들기**를 클릭하거나 탭합니다.
 

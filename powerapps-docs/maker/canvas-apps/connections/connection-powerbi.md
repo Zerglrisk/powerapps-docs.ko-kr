@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5efcc877de7a16524c57121a91488189d4058437
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 100b69583593bd506cb6860890ee3dfcfc82ebdf
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987149"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540452"
 ---
 # <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
@@ -28,7 +28,7 @@ Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스
 이 토픽에서는 앱에서 Power BI 연결을 사용하는 방법과 사용할 수 있는 함수를 나열합니다.
 
 ## <a name="prerequisites"></a>필수 조건
-* [등록](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
+* [등록](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
 * Power BI [연결](https://powerapps.microsoft.com/tutorials/add-manage-connections/)을 추가합니다.
 * [템플릿](https://powerapps.microsoft.com/tutorials/get-started-test-drive/), [데이터](https://powerapps.microsoft.com/tutorials/get-started-create-from-data/)에서 앱을 만들거나 [처음부터](https://powerapps.microsoft.com/tutorials/get-started-create-from-blank/)만듭니다.
 
@@ -44,7 +44,7 @@ Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스
 ### <a name="view-the-status-of-an-alert"></a>경고 상태 보기
 경고 상태를 보려면 위의 단계에서 받은 경고 ID로 CheckAlertStatus 함수를 호출합니다.
 
-경고 ID는 GetAlerts() 호출(예: Gallery1.Selected.alertId)을 사용하여 채워진 갤러리 섹션에 리터럴 문자열(예: "1234") 또는 참조로 전달됩니다.
+경고 ID는 리터럴 문자열 (예: "1234") 또는 GetAlerts () 호출을 사용 하 여 채워진 갤러리 섹션에 대 한 참조로 전달할 수 있습니다 (예: Gallery1.selected. alertId).
 
 계속 진행하려면 레이블을 추가하고 해당 [텍스트](../controls/properties-core.md) 속성을 이러한 수식 중 하나로 설정합니다.
 

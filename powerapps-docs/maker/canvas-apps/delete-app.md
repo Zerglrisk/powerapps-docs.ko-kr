@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: afc0e231fbc645b0fd1c597ae2776b7b90d28c1b
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: f1f8e2edd92d36ce4c3a2b08b5ae9d2481c339ec
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993107"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73540237"
 ---
 # <a name="delete-a-canvas-app-from-powerapps"></a>PowerApps에서 캔버스 앱 삭제
 이 문서에서는 PowerApps 계정과 앱을 공유하는 사람의 계정에서 캔버스 앱을 삭제하는 방법을 보여줍니다.
 
 ## <a name="delete-an-app-from-your-account"></a>사용자 계정에서 앱 삭제
-1. [Powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 연 다음 왼쪽 **트리 뷰** 창에서 **앱** 을 선택 합니다.
+1. [Powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 연 다음 왼쪽 **트리 뷰** 창에서 **앱** 을 선택 합니다.
    
     ![](./media/delete-app/file-apps.png)
 2. (선택 사항) 왼쪽 위 모서리 근처에서 앱 목록을 필터링하여 사용자가 소유한 앱 또는 사용자가 참여한 앱만 표시합니다.

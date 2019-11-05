@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9d16e4c7b8d15611b06644520c0ee39417fd3ee0
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 29fcc240bdf0dbe926acb702c26d535fb4536c16
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994713"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73537134"
 ---
 # <a name="add-and-configure-a-canvas-app-control-in-powerapps"></a>PowerApps에서 캔버스 앱 컨트롤 추가 및 구성
 
@@ -26,7 +26,7 @@ ms.locfileid: "71994713"
 
 ## <a name="prerequisites"></a>필수 조건
 
-1. PowerApps 라이선스가 아직 없는 경우 [등록](../signup-for-powerapps.md)하 고 [로그인](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+1. PowerApps 라이선스가 아직 없는 경우 [등록](../signup-for-powerapps.md)하 고 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 1. **자신의 앱 만들기**에서 **캔버스 앱을 빈 위치에서**마우스로 가리킨 다음 **이 앱 만들기**를 선택 합니다.
 1. 소개 둘러보기를 수행 하 라는 메시지가 표시 되 면 **다음** 을 선택 하 여 PowerApps 인터페이스의 주요 영역을 파악 합니다 (또는 **건너뛰기**를 선택).
 

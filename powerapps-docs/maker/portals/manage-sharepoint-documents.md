@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: ab51a2b1a309921e32949a806adb4a7bf3273ccf
-ms.sourcegitcommit: 5338e01d2591f76d71f09b1fb229d405657a0c1c
+ms.openlocfilehash: f94dee983d5d2d9cedf417f2843a2c10c46b82c1
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72974693"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543344"
 ---
 # <a name="manage-sharepoint-documents"></a>SharePoint 문서 관리
 
@@ -38,7 +38,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
 ## <a name="step-1-enable-document-management-functionality-in-model-driven-apps-in-dynamics-365"></a>1 단계: Dynamics 365의 모델 기반 앱에서 문서 관리 기능 사용
 
-서버 기반 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하 여 Dynamics 365의 모델 기반 앱에서 문서 관리 기능을 사용 하도록 설정 해야 합니다. 서버 기반 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하면 Dynamics 365 및 [!INCLUDE[pn-microsoft-sharepoint-online](../../includes/pn-microsoft-sharepoint-online.md)]에서 모델 기반 앱을 사용 하 여 서버 간 연결을 수행할 수 있습니다. 포털에서 기본 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 사이트 레코드를 사용 합니다. Dynamics 365의 모델 기반 앱에서 문서 관리 기능을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [dynamics 365에서 모델 기반 앱 설정을 참조 하 여 SharePoint Online을 사용](https://docs.microsoft.com/en-us/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online)합니다.
+서버 기반 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하 여 Dynamics 365의 모델 기반 앱에서 문서 관리 기능을 사용 하도록 설정 해야 합니다. 서버 기반 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하면 Dynamics 365 및 [!INCLUDE[pn-microsoft-sharepoint-online](../../includes/pn-microsoft-sharepoint-online.md)]에서 모델 기반 앱을 사용 하 여 서버 간 연결을 수행할 수 있습니다. 포털에서 기본 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 사이트 레코드를 사용 합니다. Dynamics 365의 모델 기반 앱에서 문서 관리 기능을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [dynamics 365에서 모델 기반 앱 설정을 참조 하 여 SharePoint Online을 사용](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online)합니다.
 
 ## <a name="step-2-set-up-sharepoint-integration-from-powerapps-portals-admin-center"></a>2 단계: PowerApps 포털 관리 센터에서 SharePoint 통합 설정
 
@@ -49,10 +49,10 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
 1. [PowerApps 포털 관리 센터](admin/admin-overview.md)를 엽니다.
 
-2.  **[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합 설정** 으로 이동 하 > **[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하도록**설정 합니다.
+2.  **[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합 설정** 으로 이동 하 >  **[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하도록**설정 합니다.
 
     > [!div class=mx-imgBorder]
-    > Sharepoint ![통합]사용(media/enable-sharepoint-integration.png "sharepoint 통합") 사용
+    > ![SharePoint 통합 사용](media/enable-sharepoint-integration.png "SharePoint 통합 사용")
 
 3.  확인 창에서 **사용** 을 선택 합니다. 이렇게 하면 포털이 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]와 통신할 수 있습니다. [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하도록 설정 하는 동안 포털이 다시 시작 되 고 몇 분 동안 사용할 수 없게 됩니다. [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합이 사용 하도록 설정 된 경우 메시지가 표시 됩니다.
 
@@ -61,12 +61,12 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 - **[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합 사용 안 함**: 포털에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하지 않도록 설정할 수 있습니다. [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하지 않도록 설정 하는 동안 포털이 다시 시작 되 고 몇 분 동안 사용할 수 없게 됩니다. [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하지 않도록 설정 하면 메시지가 표시 됩니다.
 
     > [!div class=mx-imgBorder]
-    > Sharepoint ![통합]사용 안 함(media/disable-sharepoint-integration.png "sharepoint 통합") 사용 안 함
+    > ![SharePoint 통합 사용 안 함](media/disable-sharepoint-integration.png "SharePoint 통합 사용 안 함")
 
 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용 하거나 사용 하지 않도록 설정 하면 포털에 대 한 [!INCLUDE[pn-azure-active-directory](../../includes/pn-azure-active-directory.md)] ([!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] AD) 응용 프로그램을 업데이트 하 고 필요한 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 권한을 각각 추가 하거나 제거 합니다. 또한 [!INCLUDE[pn-azure-shortest](../../includes/pn-azure-shortest.md)] AD 응용 프로그램에서 변경 내용을 적용 하는 데 대 한 동의를 제공 하도록 리디렉션됩니다. 
 
 > [!div class=mx-imgBorder]
-> Sharepoint ![통합]사용 안 함(media/sharepoint-integration-consent.png "sharepoint 통합") 사용 안 함
+> ![SharePoint 통합 사용 안 함](media/sharepoint-integration-consent.png "SharePoint 통합 사용 안 함")
 
 사용자의 동의를 제공 하지 않는 경우:
 
@@ -76,7 +76,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
 
 ## <a name="step-3-enable-document-management-for-entities"></a>3 단계: 엔터티에 문서 관리 사용
-엔터티에 대 한 문서 관리를 사용 하도록 설정 하 여 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]에서 엔터티 레코드와 관련 된 문서를 저장 해야 합니다. 엔터티에 대해 문서 관리를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [특정 엔터티에 대해 SharePoint 문서 관리 사용](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/enable-sharepoint-document-management-specific-entities)을 참조 하세요.
+엔터티에 대 한 문서 관리를 사용 하도록 설정 하 여 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]에서 엔터티 레코드와 관련 된 문서를 저장 해야 합니다. 엔터티에 대해 문서 관리를 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [특정 엔터티에 대해 SharePoint 문서 관리 사용](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-sharepoint-document-management-specific-entities)을 참조 하세요.
 
 ## <a name="step-4-configure-the-appropriate-form-to-display-documents"></a>4 단계: 문서를 표시 하는 적절 한 양식 구성
 
@@ -155,7 +155,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
         d. 폼에서 **만든 설정** 필드를 선택 하 고 **삽입** 탭에서 **하위 그리드**를 선택 합니다.
 
          > [!div class=mx-imgBorder]
-         > ![Subgrid을 웹 편집 사례 폼에 추가]하 여(media/add-sub-grid.png "웹 편집 사례 폼에 subgrid 추가")
+         > ![웹 편집 사례 폼에 subgrid 추가](media/add-sub-grid.png "웹 편집 사례 폼에 subgrid 추가")
     
         e. **설정 속성** 대화 상자에서 다음 속성을 설정 하 고 **확인**을 선택 합니다.
 
@@ -168,7 +168,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
          - **기본 보기**: 활성 문서 위치
 
          > [!div class=mx-imgBorder]
-         > ![Subgrid properties](media/sub-grid-properties.png "Subgrid 속성")
+         > ![Subgrid 속성](media/sub-grid-properties.png "Subgrid 속성")
 
         350. 폼 편집기에서 **저장** 을 선택한 다음 **게시**를 선택 합니다.
 
@@ -189,7 +189,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
          - **엔터티 권한**: 사용
     
          > [!div class=mx-imgBorder]
-         > ![고객 서비스-대/소문자 편집 폼](media/customer-service-edit-case-form.png "고객 서비스-편집 사례 양식")
+         > ![고객 서비스-사례 편집 양식](media/customer-service-edit-case-form.png "고객 서비스-사례 편집 양식")
     
         d. 양식을 변경한 경우 **저장**을 선택 합니다.
 

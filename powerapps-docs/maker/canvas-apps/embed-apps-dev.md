@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ac4699818c7f5b3a136db122fad9621d865bf5f1
-ms.sourcegitcommit: f296922b8039b573e5adb81423a544f70c56c1ee
+ms.openlocfilehash: 99594d99aa0ab1ae4971f3ec2eb1987bb7dcfbcc
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256102"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73539018"
 ---
 # <a name="integrate-canvas-apps-into-websites-and-other-services"></a>웹 사이트 및 기타 서비스로 캔버스 앱 통합
 사용자가 작업을 수행 하는 즉시 사용할 수 있는 경우 사용자가 작성 하는 앱이 가장 유용 합니다. Iframe에 캔버스 앱을 포함 하 여 해당 앱을 웹 사이트 및 Power BI 또는 SharePoint와 같은 다른 서비스에 통합할 수 있습니다.
@@ -32,7 +32,7 @@ ms.locfileid: "71256102"
 - 동일한 테넌트의 PowerApps 사용자만 포함된 앱에 액세스할 수 있습니다.
 - Internet Explorer 11을 사용하여 PowerApps에 액세스하려면 호환성 보기를 해제해야 합니다.
 
-Iframe을 사용 하지 않고 캔버스 앱을 SharePoint Online에 통합할 수도 있습니다. 자세한 정보: [PowerApps 웹 파트를 사용](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c)합니다.
+Iframe을 사용 하지 않고 캔버스 앱을 SharePoint Online에 통합할 수도 있습니다. 추가 정보: [PowerApps 웹 파트를 사용](https://support.office.com/article/use-the-powerapps-web-part-6285f05e-e441-408a-99d7-aa688195cd1c)합니다.
 
 ## <a name="set-uri-parameters-for-your-app"></a>앱에 대한 URI 매개 변수 설정
 포함하려는 앱이 있는 경우 첫 번째 단계는 iframe이 앱을 찾을 수 있는 위치를 알 수 있도록 URI(Uniform Resource Identifier)에 대한 매개 변수를 설정하는 것입니다. URI는 다음과 같은 형식입니다.
@@ -42,11 +42,11 @@ https://apps.powerapps.com/play/[AppID]?source=iframe
 ```
 
 > [!IMPORTANT]
-> 8 월 2019부터 URI 형식이에서 https://web.powerapps.com/webplayer 로 https://apps.powerapps.com/play 변경 되었습니다. 새 URI 형식을 사용 하려면 포함 된 iframe을 업데이트 하세요. 이전 형식에 대 한 참조는 호환성을 보장 하기 위해 새 URI로 리디렉션됩니다.
+> 8 월 2019부터 URI 형식이 https://make.powerapps.com/webplayer 에서 https://apps.powerapps.com/play 로 변경 되었습니다. 새 URI 형식을 사용 하려면 포함 된 iframe을 업데이트 하세요. 이전 형식에 대 한 참조는 호환성을 보장 하기 위해 새 URI로 리디렉션됩니다.
 >
 > 이전 형식:
 > 
-> https\://web.powerapps.com/webplayer/iframeapp? source = iframe & appId =/providers/Microsoft.PowerApps/apps/[appid]
+> https\://make.powerapps.com/webplayer/iframeapp? source = iframe & appId =/providers/Microsoft.PowerApps/apps/[AppID]
 
 수행해야 하는 유일한 작업은 URI에서 [AppID]에 대한 앱 ID를 대체하는 것입니다('[' & ']' 포함). 해당 값을 가져오는 방법을 곧 보여 줄 예정이지만 먼저 URI에서 사용할 수 있는 모든 매개 변수는 다음과 같습니다.
 
