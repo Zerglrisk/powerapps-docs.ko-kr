@@ -1,24 +1,24 @@
 ---
 title: '바코드-스캐너 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯 한 바코드 스캐너 컨트롤 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.date: 11/25/2018
-ms.author: fikaradz
+ms.author: chmoncay
 ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 56d8ca116b4b683d7096ef08f550dfa11c32d3c6
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: c7c3079ebbdeea0097f50acc2ce7f5d4e4089947
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986439"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73650413"
 ---
 # <a name="barcode-scanner-control-for-canvas-apps"></a>Canvas 앱에 대 한 바코드 스캐너 컨트롤
 
@@ -73,7 +73,7 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
 **[단추](control-button.md)** 컨트롤에 대 한 동일한 지침은 스캔을 시작 하는 단추인 **바코드 스캐너** 컨트롤에 적용 됩니다.

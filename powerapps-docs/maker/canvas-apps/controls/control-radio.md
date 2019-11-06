@@ -1,24 +1,24 @@
 ---
 title: '라디오 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 라디오 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: tapanm
 ms.date: 07/06/2018
-ms.author: fikaradz
+ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e3a1e1c5a62552f9ef034b6f4985213b65247627
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: cba6b072721efa04ce28606cd027939823c2f7c9
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986378"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73649763"
 ---
 # <a name="radio-control-in-powerapps"></a>PowerApps의 라디오 컨트롤
 
@@ -70,7 +70,7 @@ ms.locfileid: "71986378"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
+**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -80,19 +80,19 @@ ms.locfileid: "71986378"
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
-**[LineHeight](properties-text.md)** - 예를 들어 텍스트 선 또는 목록의 항목 사이의 거리입니다.
+**[LineHeight](properties-text.md)** - 텍스트 선 또는 목록의 항목 등, 항목 사이의 거리입니다.
 
 **[OnChange](properties-core.md)** – 사용자가 컨트롤의 값을 변경할 때(예: 슬라이더 조절) 앱이 응답하는 방식입니다.
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
 
 **[PressedColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 텍스트 색입니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "71986378"
 
 **RadioSize** – 라디오 단추 컨트롤에서 원의 직경입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
 **Selectedtext (사용 되지 않음)** – 선택한 항목을 나타내는 문자열 값입니다.
 
@@ -126,7 +126,7 @@ ms.locfileid: "71986378"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 
@@ -134,13 +134,13 @@ ms.locfileid: "71986378"
 
 ## <a name="example"></a>예
 
-1. **라디오** 컨트롤을 추가하고 이름을 **Pricing**으로 지정한 후, **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+1. **라디오** 컨트롤을 추가하고 이름을 **Pricing**으로 지정한 다음 **[Items](properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
     **["Standard", "Premium"]**
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
 
-2. **[레이블](control-text-box.md)** 컨트롤을 추가하고 **라디오** 컨트롤 아래로 이동한 후, **[레이블](control-text-box.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
+2. **[레이블](control-text-box.md)** 컨트롤을 추가하고 **라디오** 컨트롤 아래로 이동한 다음 **[레이블](control-text-box.md)** 컨트롤의 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.
 
     **If("Premium" in Pricing.Selected.Value, "$200 per day", "$150 per day")**
 

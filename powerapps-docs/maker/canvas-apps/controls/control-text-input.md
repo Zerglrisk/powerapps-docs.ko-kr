@@ -1,24 +1,24 @@
 ---
 title: '텍스트 입력 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 텍스트 입력 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: tapanm
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b5b8e0b9bae3a7733a8499fb096c04e19c878045
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: e17f580a98013f385080ea1189281607825ce7a8
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993264"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73649885"
 ---
 # <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.
@@ -64,7 +64,7 @@ ms.locfileid: "71993264"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
+**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
 
 **Format** – 사용자 입력이 숫자로만 제한되거나 어떤 텍스트라도 입력할 수 있는지 여부를 선택합니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "71993264"
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
-**[LineHeight](properties-text.md)** - 예를 들어 텍스트 선 또는 목록의 항목 사이의 거리입니다.
+**[LineHeight](properties-text.md)** - 텍스트 선 또는 목록의 항목 등, 항목 사이의 거리입니다.
 
 **MaxLength** – 사용자가 텍스트 입력 컨트롤에 입력할 수 있는 문자 수입니다.
 
@@ -90,13 +90,13 @@ ms.locfileid: "71993264"
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
@@ -112,7 +112,7 @@ ms.locfileid: "71993264"
 
 **[RadiusTopRight](properties-size-location.md)** – 컨트롤 오른쪽 위 모서리의 둥근 정도입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
@@ -132,7 +132,7 @@ ms.locfileid: "71993264"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**DateTimeValue**( *String* )](../functions/function-datevalue-timevalue.md)
@@ -164,11 +164,11 @@ ms.locfileid: "71993264"
 
     암호 입력을 마치면 **Access denied**를 표시하는 레이블이 중지하고 **Access granted**를 표시하기 시작합니다.
 
-1. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+1. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 1. (선택 사항) 화살표와 같은 컨트롤을 추가하고, 다른 화면으로 이동하도록 구성하며 사용자가 암호를 입력한 후에만 표시합니다.
 
-1. (선택 사항) 단추를 추가하고 **Sign in**을 표시하도록 **[Text](properties-core.md)** 속성을 구성하며 사용자가 잘못된 암호를 입력한 다음, **Sign in** 단추를 클릭하거나 탭할 경우 일정 시간 동안 입력 텍스트 컨트롤을 비활성화합니다.
+1. (선택 사항) 단추를 추가하고 **Sign in**을 표시하도록 **[Text](properties-core.md)** 속성을 구성하며 사용자가 잘못된 암호를 입력한 다음 **Sign in** 단추를 클릭하거나 탭할 경우 일정 시간 동안 입력 텍스트 컨트롤을 비활성화합니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

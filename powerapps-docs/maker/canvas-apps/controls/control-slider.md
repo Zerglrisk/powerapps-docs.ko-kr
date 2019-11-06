@@ -1,24 +1,24 @@
 ---
 title: '슬라이더 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 슬라이더 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: tapanm
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4c0d108f6aac4df7d0e10a316ba51f6f35ee3338
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 45314238783e4cbf53332e8531bc0d76c679265f
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993294"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73649855"
 ---
 # <a name="slider-control-in-powerapps"></a>PowerApps의 슬라이더 컨트롤
 사용자가 핸들을 끌어 값을 지정할 수 있는 컨트롤입니다.
@@ -29,7 +29,7 @@ ms.locfileid: "71993294"
 ## <a name="key-properties"></a>주요 속성
 **[Default](properties-core.md)** – 사용자가 컨트롤을 변경하기 전의 초기 값입니다.
 
-**Max** – 사용자가 슬라이더 또는 등급을 설정할 수 있는 최대 값입니다.
+**Max** – 사용자가 슬라이더 또는 등급을 설정할 수 있는 최대값입니다.
 
 **Min** – 사용자가 슬라이더를 설정할 수 있는 최소 값입니다.
 
@@ -74,21 +74,21 @@ ms.locfileid: "71993294"
 
 **RailFill** – 토글 컨트롤의 값이 **false**일 때 해당 컨트롤의 사각형 배경색이거나 슬라이더 컨트롤에 있는 핸들 오른쪽의 선 색입니다.
 
-**RailHoverFill** – 토글 컨트롤이나 슬라이더에 마우스를 가져가면 값이 **false**일 때 토글 컨트롤의 직사각형 배경색이거나 슬라이더 컨트롤에서 핸들 오른쪽의 라인 색입니다.
+**RailHoverFill** – 토글 컨트롤 또는 슬라이더에 마우스를 가져가는 경우, 토글 컨트롤의 값이 **false**일 때 해당 컨트롤의 사각형 배경색이거나 슬라이더 컨트롤에 있는 핸들 오른쪽의 선 색입니다.
 
 **ReadOnly** – 사용자가 슬라이더 또는 등급 컨트롤의 값을 변경할 수 있는지 여부입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
-**ShowValue** – 사용자가 해당 값을 변경하거나 마우스로 컨트롤을 가리킬 때 슬라이더 또는 등급의 값을 표시하는지 여부입니다.
+**ShowValue** – 사용자가 해당 값을 변경하거나 컨트롤을 마우스로 가리킬 때 슬라이더 또는 등급의 값이 나타나는지 여부를 선택합니다.
 
 **[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
 **[Tooltip](properties-core.md)** – 사용자가 마우스로 컨트롤을 가리킬 때 표시되는 설명 텍스트입니다.
 
-**ValueFill** – 값이 **true**일 때 토글 컨트롤의 직사각형 배경색이거나 슬라이더 컨트롤에서 핸들 왼쪽의 라인 색입니다.
+**ValueFill** – 토글 컨트롤의 값이 **true**일 때 해당 컨트롤의 사각형 배경색이거나 슬라이더 컨트롤에 있는 핸들 왼쪽의 선 색입니다.
 
-**ValueHoverFill** – 토글 컨트롤 또는 슬라이더 위에 마우스 포인터를 두고 있는 경우, 토글 컨트롤의 값이 **true**일 때 해당 컨트롤의 사각형 배경색이거나 슬라이더 컨트롤에 있는 핸들 왼쪽의 선 색입니다.
+**ValueHoverFill** – 토글 컨트롤이나 슬라이더에 마우스 포인터를 두고 있으면 값이 **true**일 때 토글 컨트롤의 직사각형 배경색이거나 슬라이더 컨트롤에서 핸들 왼쪽의 라인 색입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "71993294"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Sum**( *Value1*, *Value2* )](../functions/function-aggregates.md)
@@ -115,7 +115,7 @@ ms.locfileid: "71993294"
    **Filter(CityPopulations, Population > MinPopulation)**
 6. 갤러리의 첫 항목에서 맨 위 레이블의 **[Text](properties-core.md)** 속성을 **ThisItem.City**로 설정하고 맨 아래 레이블의 **[Text](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br> **Text(ThisItem.Population, "##,###")**
 7. F5 키를 누르고 사용자가 지정한 값보다 큰 인구가 있는 도시만 표시하도록 **MinPopulation**을 조정합니다.
-8. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+8. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

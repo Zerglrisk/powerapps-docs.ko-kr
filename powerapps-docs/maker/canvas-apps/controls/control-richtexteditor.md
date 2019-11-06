@@ -1,24 +1,24 @@
 ---
 title: '서식 있는 텍스트 편집기 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 서식 있는 텍스트 편집기 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: article
 ms.custom: canvas
 ms.reviewer: tapanm
 ms.date: 05/24/2018
-ms.author: fikaradz
+ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c6b94f636ebf6d373c3fc2117b589116b5a4a2fd
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: ec991f54ff4b395026c9a869c315f75a549da79e
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986355"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73649785"
 ---
 # <a name="rich-text-editor-control-in-powerapps"></a>PowerApps의 서식 있는 텍스트 편집기 컨트롤
 최종 사용자가 WYSIWYG 편집 영역 내에서 텍스트의 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.

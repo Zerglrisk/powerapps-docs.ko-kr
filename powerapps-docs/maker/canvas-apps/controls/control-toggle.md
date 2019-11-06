@@ -1,24 +1,24 @@
 ---
 title: '토글 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 토글 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: tapanm
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4ec115eecc676a7ec5bea3b04b135eeb63268449
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: be21e2b0c24d7b4aaf9da12b0793899fd95acd06
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993260"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73649807"
 ---
 # <a name="toggle-control-in-powerapps"></a>PowerApps의 토글 컨트롤
 핸들을 움직여 사용자가 켜거나 끌 수 있는 컨트롤입니다.
@@ -76,7 +76,7 @@ ms.locfileid: "71993260"
 
 **RailHoverFill** – 토글 컨트롤 또는 슬라이더에 마우스를 가져가는 경우, 토글 컨트롤의 값이 **false**일 때 해당 컨트롤의 사각형 배경색이거나 슬라이더 컨트롤에 있는 핸들 오른쪽의 선 색입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
 **ShowLabel** – 토글 컨트롤 옆에 텍스트 레이블을 표시할지 여부입니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "71993260"
 
 **ValueFill** – 토글 컨트롤의 값이 **true**일 때 해당 컨트롤의 사각형 배경색이거나 슬라이더 컨트롤에 있는 핸들 왼쪽의 선 색입니다.
 
-**ValueHoverFill** – 토글 컨트롤 또는 슬라이더 위에 마우스 포인터를 두고 있는 경우, 토글 컨트롤의 값이 **true**일 때 해당 컨트롤의 사각형 배경색이거나 슬라이더 컨트롤에 있는 핸들 왼쪽의 선 색입니다.
+**ValueHoverFill** – 토글 컨트롤이나 슬라이더에 마우스 포인터를 두고 있으면 값이 **true**일 때 토글 컨트롤의 직사각형 배경색이거나 슬라이더 컨트롤에서 핸들 왼쪽의 라인 색입니다.
 
 **[Visible](properties-core.md)** – 컨트롤을 표시하거나 숨길지 여부를 선택합니다.
 
@@ -102,7 +102,7 @@ ms.locfileid: "71993260"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**If**( *Condition*, *Result* )](../functions/function-if.md)
@@ -118,7 +118,7 @@ ms.locfileid: "71993260"
 3. F5 키를 누르고 **MemberDiscount**의 값을 변경합니다.
 
     레이블에 **MemberDiscount**의 설정 여부에 따라 다른 가격이 표시됩니다.
-4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+4. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

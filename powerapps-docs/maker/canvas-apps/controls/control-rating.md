@@ -1,24 +1,24 @@
 ---
 title: '등급 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 등급 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.reviewer: tapanm
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 774b5294f9d03564caa658a04aff0f682a7bb43f
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 212fc44b6c1cec981f17d134f4cd8f8131b7af9a
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993351"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73649932"
 ---
 # <a name="rating-control-in-powerapps"></a>PowerApps의 등급 컨트롤
 1과 사용자가 지정하는 최대 숫자 사이의 값을 나타낼 수 있는 컨트롤입니다.
@@ -56,11 +56,11 @@ ms.locfileid: "71993351"
 
 **RatingFill** – 등급 컨트롤에서 별의 색입니다.
 
-**ReadOnly** – 사용자가 슬라이더 또는 등급 컨트롤을 변경할 수 있는지 여부를 선택합니다.
+**ReadOnly** – 사용자가 슬라이더 또는 등급 컨트롤의 값을 변경할 수 있는지 여부입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
-**ShowValue** – 사용자가 해당 값을 변경하거나 마우스로 컨트롤을 가리킬 때 슬라이더 또는 등급의 값을 표시하는지 여부입니다.
+**ShowValue** – 사용자가 해당 값을 변경하거나 컨트롤을 마우스로 가리킬 때 슬라이더 또는 등급의 값이 나타나는지 여부를 선택합니다.
 
 **[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "71993351"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**평균**(*Value1*, *Value2,* ... )](../functions/function-aggregates.md)
@@ -92,7 +92,7 @@ ms.locfileid: "71993351"
 5. **Quantitative**에서 4개 미만의 별을 클릭하거나 탭합니다.
    
     **[텍스트 입력](control-text-input.md)** 컨트롤의 힌트 텍스트가 변경되어 낮은 등급을 반영합니다.
-6. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+6. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
