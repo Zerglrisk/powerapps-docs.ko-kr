@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 3904de43a8e27ca555545cccdf23532970b02edd
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: 44b45a019b786da01dc686ecb69f068ce1d7eef8
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72978143"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73542666"
 ---
 # <a name="set-authentication-identity-for-a-portal"></a>포털에 대 한 인증 id 설정
 
-포털은 [ASP.NET Identity](http://www.asp.net/identity) API에 구축 된 인증 기능을 제공 합니다. ASP.NET Identity는 인증 시스템의 중요 한 구성 요소인 [OWIN](http://www.asp.net/aspnet/overview/owin-and-katana) 프레임 워크를 기반으로 합니다. 제공 되는 서비스는 다음과 같습니다.
+포털은 [ASP.NET Identity](https://www.asp.net/identity) API에 구축 된 인증 기능을 제공 합니다. ASP.NET Identity는 인증 시스템의 중요 한 구성 요소인 [OWIN](https://www.asp.net/aspnet/overview/owin-and-katana) 프레임 워크를 기반으로 합니다. 제공 되는 서비스는 다음과 같습니다.
 
 - 로컬 (사용자 이름/암호) 사용자 로그인
 - 타사 id 공급자를 통한 외부 (소셜 공급자) 사용자 로그인
@@ -92,7 +92,7 @@ ms.locfileid: "72978143"
 
 **관련 프로세스:** 초대 보내기
 
-포털의 사용 초대 페이지에 대 한 URL을 사용 하 여이 워크플로에서 보낸 전자 메일을 사용자 지정 해야 합니다. http://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation 코드 (초대)}
+포털의 사용 초대 페이지에 대 한 URL을 사용 하 여이 워크플로에서 보낸 전자 메일을 사용자 지정 해야 합니다. https://portal.contoso.com/register/?returnurl=%2f&invitation={Invitation 코드 (초대)}
 
 1. 새 연락처에 대 한 초대를 만듭니다.
 
@@ -202,7 +202,7 @@ ms.locfileid: "72978143"
 | 인증/등록/ResetPasswordRequiresConfirmedEmail |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               확인 전자 메일 주소에 대해서만 암호 재설정을 사용 하거나 사용 하지 않도록 설정 합니다. 사용 하도록 설정 하면 확인 되지 않은 전자 메일 주소를 사용 하 여 암호 재설정 지침을 보낼 수 없습니다. 기본값: false                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |   인증/등록/TriggerLockoutOnFailedPassword    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          실패 한 암호 시도 기록을 사용 하거나 사용 하지 않도록 설정 합니다. 사용 하지 않도록 설정 된 경우 사용자 계정이 잠기지 않습니다. 기본값: true                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |             Authentication/Registration/IsDemoMode              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          개발 또는 시연 환경 에서만 사용 되는 데모 모드 플래그를 사용 하거나 사용 하지 않도록 설정 합니다. 프로덕션 환경에서는이 설정을 사용 하지 마십시오. 또한 데모 모드에서는 웹 브라우저가 웹 응용 프로그램 서버에서 로컬로 실행 되 고 있어야 합니다. 데모 모드를 사용 하는 경우 빠른 액세스를 위해 암호 재설정 코드와 두 번째 단계 코드가 사용자에 게 표시 됩니다. 기본값: false                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|    인증/등록/LoginButtonAuthenticationType    | 포털에 모든 인증을 처리 하기 위한 단일 외부 id 공급자만 필요한 경우에는 헤더 탐색 모음의 **로그인** 단추를 사용 하 여 해당 외부 id 공급자의 로그인 페이지에 직접 연결할 수 있습니다 (대신 중간에 연결). 로컬 로그인 양식 및 id 공급자 선택 페이지). 이 작업에는 단일 id 공급자만 선택할 수 있습니다. 공급자의 [AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx) 값을 지정 합니다.<br>Azure Active Directory B2C 사용과 같이 OpenIdConnect를 사용 하는 Single Sign-On 구성의 경우 사용자는 권한을 제공 해야 합니다.<br>OAuth2 기반 공급자의 경우 허용 되는 값은 `Facebook, Google, Yahoo, [!INCLUDE[cc-microsoft](../../../includes/cc-microsoft.md)], LinkedIn, Yammer,` 또는 `Twitter`입니다.<br>WS-FEDERATION 기반 공급자의 경우 `Authentication/WsFederation/ADFS/AuthenticationType` 및 `Authentication/WsFederation/[!INCLUDE[pn-azure-shortest](../../../includes/pn-azure-shortest.md)]/\[provider\]/AuthenticationType` 사이트 설정에 지정 된 값을 사용 합니다. 예: http://adfs.contoso.com/adfs/services/trust , Facebook-0123456789, Google, Yahoo!, uri:[!INCLUDE[pn-ms-windows-short](../../../includes/pn-ms-windows-short.md)] LiveID. |
+|    인증/등록/LoginButtonAuthenticationType    | 포털에 모든 인증을 처리 하기 위한 단일 외부 id 공급자만 필요한 경우에는 헤더 탐색 모음의 **로그인** 단추를 사용 하 여 해당 외부 id 공급자의 로그인 페이지에 직접 연결할 수 있습니다 (대신 중간에 연결). 로컬 로그인 양식 및 id 공급자 선택 페이지). 이 작업에는 단일 id 공급자만 선택할 수 있습니다. 공급자의 [AuthenticationType](https://msdn.microsoft.com/library/microsoft.owin.security.authenticationoptions.authenticationtype.aspx) 값을 지정 합니다.<br>Azure Active Directory B2C 사용과 같이 OpenIdConnect를 사용 하는 Single Sign-On 구성의 경우 사용자는 권한을 제공 해야 합니다.<br>OAuth2 기반 공급자의 경우 허용 되는 값은 `Facebook, Google, Yahoo, [!INCLUDE[cc-microsoft](../../../includes/cc-microsoft.md)], LinkedIn, Yammer,` 또는 `Twitter`입니다.<br>WS-FEDERATION 기반 공급자의 경우 `Authentication/WsFederation/ADFS/AuthenticationType` 및 `Authentication/WsFederation/[!INCLUDE[pn-azure-shortest](../../../includes/pn-azure-shortest.md)]/\[provider\]/AuthenticationType` 사이트 설정에 지정 된 값을 사용 합니다. 예: https://adfs.contoso.com/adfs/services/trust , Facebook-0123456789, Google, Yahoo!, uri:[!INCLUDE[pn-ms-windows-short](../../../includes/pn-ms-windows-short.md)] LiveID. |
 |                                                                 |                                                                                                                                                                                                                                                                                                  |
 
 ## <a name="enable-or-disable-user-registration"></a>사용자 등록 사용 또는 사용 안 함
