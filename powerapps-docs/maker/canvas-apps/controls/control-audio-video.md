@@ -1,24 +1,24 @@
 ---
 title: '오디오 및 동영상 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯하여 오디오 및 동영상 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: aab2b0bb7b236fe8cc6d7f18beb7a5c8ea8246ae
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 3b8c5ea5ee2784bc1ab97d6943045cee8da6a52f
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993856"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73650775"
 ---
 # <a name="audio-and-video-controls-in-powerapps"></a>PowerApps의 오디오 및 동영상
 오디오 파일, 동영상 파일 또는 YouTube의 동영상을 재생하는 컨트롤입니다.
@@ -31,16 +31,16 @@ ms.locfileid: "71993856"
 ## <a name="key-properties"></a>주요 속성
 **Loop** – 재생을 마치는 즉시 오디오 또는 동영상 클립이 자동으로 시작할지 여부를 선택합니다.
 
-**Media** – 오디오 또는 동영상 컨트롤이 재생하는 클립에 대한 식별자입니다.
+**Media** – 오디오 또는 비디오 컨트롤에서 재생하는 클립에 대한 식별자입니다.
 
 **ShowControls** - 오디오 또는 비디오 플레이어에서 재생 단추, 볼륨 슬라이더 등을 표시하는지 및 펜 컨트롤에서 그리기, 삭제 및 지우기 아이콘 등을 표시하는지 여부입니다.
 
 ## <a name="additional-properties"></a>추가 속성
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 비디오 또는 오디오 클립의 제목이어야 합니다.
 
-**AutoPause** – 사용자가 다른 화면으로 이동하는 경우 오디오 또는 비디오 클립을 자동으로 일시 중지할지 여부입니다.
+**AutoPause** – 사용자가 다른 화면으로 이동할 경우 오디오 또는 동영상 클립을 자동으로 일시 중지할지 여부를 선택합니다.
 
-**AutoStart** - 사용자가 해당 컨트롤이 포함된 화면으로 이동할 때 오디오 또는 비디오 컨트롤에서 클립을 자동으로 재생할지 여부입니다.
+**자동 시작** - 사용자가 해당 컨트롤이 있는 화면으로 이동할 때 오디오 또는 동영상 컨트롤이 클립 재생을 자동으로 시작할지 여부를 선택합니다.
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
@@ -72,9 +72,9 @@ ms.locfileid: "71993856"
 
 **Paused** – 미디어 재생 컨트롤이 현재 일시 중지되면 *True*이고 그렇지 않으면 *false*입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
-**Start** – 오디오 또는 동영상 클립의 재생 여부를 선택합니다.
+**Start** – 오디오 또는 비디오 클립의 재생 여부입니다.
 
 **StartTime** – 클립이 재생을 시작할 때 오디오 또는 동영상 클립의 시작 후 시간입니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "71993856"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**First**( *TableName* )](../functions/function-first-last.md)

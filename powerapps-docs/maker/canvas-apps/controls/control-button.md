@@ -1,24 +1,24 @@
 ---
 title: '단추 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 단추 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a49e79da6821e814a918722e70daa1b005f28777
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 750b02bdd3363f03ad0f32ae1fcbc59d7c5c3f3e
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993824"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73650729"
 ---
 # <a name="button-control-in-powerapps"></a>PowerApps의 단추 컨트롤
 사용자가 클릭하거나 탭하여 앱과 상호 작용할 수 있는 컨트롤입니다.
@@ -60,7 +60,7 @@ ms.locfileid: "71993824"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
+**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -72,13 +72,13 @@ ms.locfileid: "71993824"
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
 
 **Pressed** – 컨트롤을 누른 상태이면 *True*, 그렇지 않으면 *false*입니다.
 
@@ -114,7 +114,7 @@ ms.locfileid: "71993824"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 **[Navigate( *ScreenName*, *ScreenTransitionValue* )](../functions/function-navigate.md)**
@@ -171,7 +171,7 @@ ms.locfileid: "71993824"
    
    * 4개 **[Radius](properties-size-location.md)** 값을 모두 **150**으로 설정하여 원을 만듭니다.
    * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **300**으로 설정하여 리프형 **단추**를 만듭니다.
-   * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100**으로 설정하여 탭 모양 단추를 만듭니다.
+   * **[RadiusTopLeft](properties-size-location.md)** 및 **[RadiusTopRight](properties-size-location.md)** 의 값을 **300**, **[RadiusBottomLeft](properties-size-location.md)** 및 **[RadiusBottomRight](properties-size-location.md)** 의 값을 **100** 으로 설정하여 탭 모양 단추를 만듭니다.
 
 #### <a name="change-a-buttons-color-when-you-hover-over-it"></a>마우스로 가리킬 때 단추의 색 변경
 기본적으로 **단추** 컨트롤의 채우기 색은 마우스로 가리킬 때 20% 흐려집니다. **[ColorFade](../functions/function-colors.md)** 함수를 사용하는 **[HoverFill](properties-color-border.md)** 속성을 변경하여 이 동작을 조정할 수 있습니다. **[ColorFade](../functions/function-colors.md)** 수식을 양의 백분율로 설정하면 마우스를 단추에 가져갔을 때 색이 더 밝아지며 음수로 설정하면 더 어두워집니다.

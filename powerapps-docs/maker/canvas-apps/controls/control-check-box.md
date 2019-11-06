@@ -1,24 +1,24 @@
 ---
 title: '확인란 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 비롯한 확인란 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d943eacabaab8d9542352ee0b1c092244c171d86
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 2a89f2afcceedada0ffdda53628e9253433e8f95
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986805"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73650695"
 ---
 # <a name="check-box-control-in-powerapps"></a>PowerApps의 확인란 컨트롤
 사용자가 값을 **true** 또는 **false**로 설정하기 위해 선택 또는 지울 수 있는 컨트롤입니다.
@@ -66,7 +66,7 @@ ms.locfileid: "71986805"
 
 **[Font](properties-text.md)** – 텍스트가 표시되는 글꼴의 제품군 이름입니다.
 
-**[FontWeight](properties-text.md)** – 컨트롤의 텍스트 가중치입니다. **Bold**, **Semibold**, **Normal**또는 **가벼운**입니다.
+**[FontWeight](properties-text.md)** - 컨트롤의 텍스트 굵기입니다. **Bold**, **Semibold**, **Normal** 또는 **Lighter**로 설정합니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
@@ -84,13 +84,13 @@ ms.locfileid: "71986805"
 
 **OnUncheck** - 확인란의 값이나 토글이 **false**로 변경되었을 때 앱이 응답하는 방식입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
@@ -98,7 +98,7 @@ ms.locfileid: "71986805"
 
 **[PressedFill](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 배경색입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
@@ -118,7 +118,7 @@ ms.locfileid: "71986805"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**If**( *Condition*, *Result* )](../functions/function-if.md)
@@ -134,7 +134,7 @@ ms.locfileid: "71986805"
 3. F5 키를 누르고 **chkReserve**를 클릭하거나 탭하여 **[Value](properties-core.md)** 속성을 **true**로 설정한 다음, **chkReserve**를 다시 클릭하거나 탭하여 **[Value](properties-core.md)** 속성을 **false**로 설정합니다.
    
     **[날짜 선택기](control-date-picker.md)** 는 **chkReserve**의 **[Value](properties-core.md)** 속성이 **false**가 아닌 **true**인 경우에 나타납니다.
-4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+4. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

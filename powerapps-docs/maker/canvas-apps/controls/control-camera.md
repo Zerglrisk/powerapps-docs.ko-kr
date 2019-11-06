@@ -1,24 +1,24 @@
 ---
 title: '카메라 컨트롤: 참조 | Microsoft Docs'
 description: 속성 및 예제를 포함한 카메라 컨트롤에 관한 정보
-author: fikaradz
+author: chmoncay
 manager: kvivek
 ms.service: powerapps
 ms.topic: reference
 ms.custom: canvas
 ms.date: 10/25/2016
-ms.author: fikaradz
+ms.author: chmoncay
 ms.reviewer: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 88b6b9faf8c4d7c14a09bfc89791a050e3c07ca2
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 14f802a899171dce052c8975f9fc63b07e448afc
+ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986862"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73650712"
 ---
 # <a name="camera-control-in-powerapps"></a>PowerApps의 카메라 컨트롤
 사용자가 디바이스에서 카메라를 사용하여 사진을 촬영할 수 있는 컨트롤입니다.
@@ -58,7 +58,7 @@ ms.locfileid: "71986862"
 
 **Stream** – **StreamRate** 속성에 따라 자동으로 업데이트되는 이미지입니다.
 
-**StreamRate** – **Stream** 속성에서 이미지를 업데이트하는 빈도(밀리초 단위)를 선택합니다.  이 값의 범위는 100(1초의 1/10)에서 3,600,000(1시간)까지입니다.
+**StreamRate** – **Stream** 속성에서 이미지를 업데이트하는 빈도(밀리초 단위)를 선택합니다.  이 값의 범위는 100(1초의 10분의 1)에서 3,600,000(1시간)입니다.
 
 **[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
@@ -70,14 +70,14 @@ ms.locfileid: "71986862"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
 [**Patch**( *DataSource*, *BaseRecord*, *ChangeRecord* )](../functions/function-patch.md)
 
 ## <a name="example"></a>예
 ### <a name="add-photos-to-an-image-gallery-control"></a>이미지 갤러리 컨트롤에 사진 추가
-1. **카메라** 컨트롤을 추가하고 이름을 **MyCamera**로 지정한 후, **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+1. **카메라** 컨트롤을 추가하고 이름을 **MyCamera**로 지정한 다음 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **Collect(MyPix, MyCamera.Photo)**
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
