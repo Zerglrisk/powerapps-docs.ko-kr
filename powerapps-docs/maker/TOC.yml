@@ -1006,6 +1006,8 @@
           href: ./model-driven-apps/templates-overview.md
         - name: 테마를 사용하여 조직 브랜딩 적용
           href: ./model-driven-apps/create-themes-organization-branding.md
+        - name: 앱에 대한 단계별 도움말 만들기
+          href: ./common-data-service/create-custom-help-pages.md
         - name: 앱에 보고 추가
           href: ./model-driven-apps/add-reporting-to-app.md
           items:
@@ -1042,6 +1044,8 @@
           href: ./model-driven-apps/change-custom-entity-icons.md
         - name: 솔루션을 사용하여 앱 배포
           href: ./model-driven-apps/distribute-model-driven-app.md
+        - name: 사용자 지정 가능한 도움말 사용
+          href: ./model-driven-apps/use-customizable-help.md
         - name: 단계별 도움말 만들기
           href: ./model-driven-apps/create-guided-help-learning-path.md
     - name: 통합 인터페이스로 전환
@@ -1056,6 +1060,8 @@
           href: ./model-driven-apps/approaching-unified-interface.md
         - name: 'Checklist: 통합 인터페이스 전환'
           href: ./model-driven-apps/checklist-transition-unified-interface.md
+        - name: 'FAQ: 통합 인터페이스 전환'
+          href: ./model-driven-apps/faqs-transition-unified-interface.md
     - name: PowerApps 앱 디자이너의 접근성
       href: ./model-driven-apps/Accessibility-app-designer-site-map-designer-my-apps-page.md
     - name: Dynamics 365 App for Outlook 사용자 지정
