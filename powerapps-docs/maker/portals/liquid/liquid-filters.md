@@ -1,40 +1,45 @@
 ---
-title: 포털에 대한 유동 필터 사용 | MicrosoftDocs
-description: 포털에서 사용 가능한 유동 필터에 대해 알아봅니다.
+title: 포털에 액체 필터 사용 | MicrosoftDocs
+description: 포털에서 사용 가능한 액체 필터에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 996b31766641376e9a01cbefc876f3eb2b7aabc7
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543251"
 ---
+# <a name="available-liquid-filters"></a>사용 가능한 Liquid 필터
 
-# <a name="available-liquid-filters"></a>사용 가능한 유동 필터
-
-유동 필터는 문자열, 숫자, 변수 및 개체의 출력을 수정하는 데 사용됩니다. 이 필터는 |에 의해 적용되는 값에서 분리됩니다.
+액체 필터는 문자열, 숫자, 변수 및 개체의 출력을 수정 하는 데 사용 됩니다. 이러한 값은 |에서 적용 되는 값과 구분 됩니다.
 
 `{{ 'hal 9000' | upcase }} <!-- Output: HAL 9000 -->`
 
-일부 필터는 매개 변수를 허용합니다. 또한 필터는 조합이 가능하며 왼쪽에서 오른쪽 순서로 적용됩니다.
+일부 필터는 매개 변수를 허용 합니다. 필터를 결합 하 여 왼쪽에서 오른쪽 순서로 적용할 수도 있습니다.
 
 ```
 {{ 2 | times: 2 | minus: 1 }} <!-- Output: 3 -->
 
 {{ "Hello, " | append: user.firstname }} <!-- Output: Hello, Dave -->
 ```
-아래 섹션에서는 다양한 필터에 대해 설명합니다. 
+다음 섹션에서는 다양 한 필터에 대해 설명 합니다. 
 
 ## <a name="array-filters"></a>배열 필터
 
-배열 필터는 [배열](liquid-types.md#array)에 대한 작업을 수행하기 위해 사용됩니다.  
+배열 필터는 배열 작업에 사용 [됩니다.](liquid-types.md#array)  
 
-### <a name="batch"></a>batch
+### <a name="batch"></a>처리
 
-배열을 주어진 크기의 여러 배열로 나눕니다.
+배열을 지정 된 크기의 여러 배열로 나눕니다.
 
-**코드**
+**Code**
 
 ```
 {% assign batches = entityview.records | batch: 2 %}
@@ -74,13 +79,13 @@ ms.reviewer: null
 </ul>
 ```
 
-### <a name="concat"></a>concat
+### <a name="concat"></a>사용한
 
-두 배열을 새 단일 배열로 연결합니다.
+두 배열을 하나의 새 배열에 연결 합니다.
 
-단일 항목이 매개 변수로 주어졌을 때 concat은 주어진 항목을 마지막 요소로 하는 원본 배열로 구성된 새 배열을 반환합니다.
+단일 항목이 매개 변수로 지정 된 경우 concat는 지정 된 항목을 마지막 요소로 사용 하 여 원래 배열로 구성 된 새 배열을 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 Group #1: {{ group1 | join: ', ' }}
@@ -104,11 +109,11 @@ Group #1 + Group #2: John, Pete, Hannah, Joan, Bill
 Group #1 + Leslie: John, Pete, Hannah, Leslie
 ```
 
-### <a name="except"></a>except
+### <a name="except"></a>남기고
 
-주어진 특성이 주어진 값을 가지지 않는 배열의 모든 개체를 선택합니다. (**where**의 반대 필터입니다.)
+지정 된 특성에 지정 된 값이 없는 배열에서 모든 개체를 선택 합니다. 이는**where**와 반대입니다.
 
-**코드**
+**Code**
 
 ```
 {% assign redmond = entityview.records | except: 'address1_city', 'Redmond' %}
@@ -126,13 +131,13 @@ Group #1 + Leslie: John, Pete, Hannah, Leslie
 Jack Robinson
 ```
 
-### <a name="first"></a>첫째
+### <a name="first"></a>기본
 
-배열의 첫 요소를 반환합니다.
+배열의 첫 번째 요소를 반환 합니다.
 
-first는 태그 안에 사용되어야 하는 경우 특수 점 표기법으로 사용할 수도 있습니다.
+첫 번째는 태그 내에서 사용 해야 하는 경우 특별 한 점 표기법으로 사용할 수도 있습니다.
 
-**코드**
+**Code**
 
 ```
 {% assign words = This is a run of text | split:   %}
@@ -156,9 +161,9 @@ The first word is This.
 
 ### <a name="group_by"></a>group_by
 
-배열의 항목을 주어진 특성으로 그룹화합니다.
+지정 된 특성에 따라 배열의 항목을 그룹화 합니다.
 
-**코드**
+**Code**
 
 ```
 {% assign groups = entityview.records | group_by: 'address1_city' %}
@@ -192,11 +197,11 @@ New York:
 Jack Robinson
 ```
 
-### <a name="join"></a>join
+### <a name="join"></a>조인
 
-매개 변수로 전달된 문자를 가진 배열의 요소들을 결합합니다. 결과는 단일 문자열입니다.
+배열의 요소와 매개 변수로 전달 된 문자를 조인 합니다. 결과는 단일 문자열입니다.
 
-**코드**
+**Code**
 
 ```
 {% assign words = This is a run of text | split:   %}
@@ -210,13 +215,13 @@ Jack Robinson
 This, is, a, run, of, text
 ```
 
-### <a name="last"></a>마지막
+### <a name="last"></a>최신
 
-배열의 마지막 요소를 반환합니다.
+배열의 마지막 요소를 반환 합니다.
 
-last는 태그 안에 사용되어야 하는 경우 특수 점 표기법으로 사용할 수도 있습니다.
+마지막은 태그 내에서 사용 해야 하는 경우 특별 한 점 표기법으로 사용할 수도 있습니다.
 
-**코드**
+**Code**
 
 ```
 {% assign words = This is a run of text | split:   -%}
@@ -238,13 +243,13 @@ text
 The last word is text.
 ```
 
-### <a name="order_by"></a>order\_by
+### <a name="order_by"></a>주문\_
 
-배열의 요소들의 주어진 특성 순으로 정렬된 배열의 요소를 반환합니다.
+배열 요소의 지정 된 특성을 기준으로 정렬 된 배열의 요소를 반환 합니다.
 
-선택적으로 desc를 두 번째 매개 변수로 제공하여 오름차순이 아닌 내림차순으로 요소를 정렬할 수 있습니다.
+필요에 따라 desc를 두 번째 매개 변수로 제공 하 여 오름차순이 아닌 내림차순으로 요소를 정렬할 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ entityview.records | order_by: 'fullname' | join: ', ' }}
@@ -260,11 +265,11 @@ Dave Thomas, Jack Robinson, Jake Johnson, John Smith
 John Smith, Jake Johnson, Jack Robinson, Dave Thomas
 ```
 
-### <a name="random"></a>random
+### <a name="random"></a>임의
 
-배열에서 임의로 선택된 단일 항목을 반환합니다.
+임의로 선택 된 단일 항목을 배열에서 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ group1 | join: ', ' }}
@@ -280,11 +285,11 @@ John, Pete, Hannah
 Pete
 ```
 
-### <a name="select"></a>select
+### <a name="select"></a>선택
 
-배열의 각 항목에 대해 주어진 특성의 값을 선택하여 이 값을 배열로 반환합니다.
+배열의 각 항목에 대해 지정 된 특성의 값을 선택 하 고 이러한 값을 배열로 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ entityview.records | select: 'address1_city' | join: ', ' }}
@@ -296,11 +301,11 @@ Pete
 Redmond, New York
 ```
 
-### <a name="shuffle"></a>shuffle
+### <a name="shuffle"></a>섞기
 
-배열에 적용되며, 임의의 순서대로 같은 항목에 대한 새 배열을 반환합니다.
+배열에 적용 되 고, 동일한 항목을 사용 하 여 임의 순서로 새 배열을 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ group1 | join: ', ' }}
@@ -316,13 +321,13 @@ John, Pete, Hannah
 Hannah, John, Pete
 ```
 
-### <a name="size"></a>size
+### <a name="size"></a>크기가
 
-배열의 항목 수를 반환합니다.
+배열의 항목 수를 반환 합니다.
 
-size는 태그 안에 사용되어야 하는 경우 특수 점 표기법으로 사용할 수도 있습니다.
+태그 내에서 사용 해야 하는 경우에는 특수 점 표기법으로 크기를 사용할 수도 있습니다.
 
-**코드**
+**Code**
 
 ```
 {% assign words = This is a run of text | split:   -%}
@@ -344,11 +349,11 @@ The text contains 6 words.
 The text contains 6 words.
 ```
 
-### <a name="skip"></a>skip
+### <a name="skip"></a>킵
 
-배열에서 주어진 수의 항목을 건너뛴 나머지를 반환합니다.
+배열에서 지정 된 수의 항목을 건너뛰고 나머지를 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 {% assign words = This is a run of text | split:   %}
@@ -362,11 +367,11 @@ The text contains 6 words.
 run, of, text
 ```
 
-### <a name="take"></a>take
+### <a name="take"></a>노트
 
-주어진 수의 항목을 배열에서 가져와서 반환합니다.
+배열에서 지정 된 수의 항목을 가져와 가져온 항목을 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 {% assign words = This is a run of text | split:   %}
@@ -380,13 +385,13 @@ run, of, text
 This, is, a
 ```
 
-### <a name="then_by"></a>then\_by
+### <a name="then_by"></a>그런 다음\_
 
-**order\_by**로 이미 정렬된 배열에 정렬을 추가합니다.
+**는에 의해\_순서 대로**정렬 된 배열에 후속 순서를 추가 합니다.
 
-선택적으로 desc를 두 번째 매개 변수로 제공하여 오름차순이 아닌 내림차순으로 요소를 정렬할 수 있습니다.
+필요에 따라 desc를 두 번째 매개 변수로 제공 하 여 오름차순이 아닌 내림차순으로 요소를 정렬할 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ entityview.records | order_by: 'address1_city' | then_by: 'fullname' | join: ', ' }}
@@ -402,11 +407,11 @@ Dave Thomas, Jack Robinson, Jake Johnson, John Smith
 John Smith, Jake Johnson, Jack Robinson, Dave Thomas
 ```
 
-### <a name="where"></a>where
+### <a name="where"></a>위치
 
-주어진 특성이 주어진 값을 가진 배열의 모든 개체를 선택합니다.
+지정 된 특성에 지정 된 값이 있는 배열의 모든 개체를 선택 합니다.
 
-**코드**
+**Code**
 
 ```
 {% assign redmond = entityview.records | where: 'address1_city', 'Redmond' %}
@@ -431,17 +436,17 @@ Jake Johnson
 
 ## <a name="date-filters"></a>날짜 필터
 
-날짜 필터는 날짜를 산술하거나 여러 형식으로 날짜/시간 값을 변환하는 데 사용할 수 있습니다.
+날짜 계산에 날짜 필터를 사용 하거나 DateTime 값을 다양 한 형식으로 변환할 수 있습니다.
 
-### <a name="date"></a>날짜
+### <a name="date"></a>날
 
-.NET 형식 문자열을 사용하여 날짜/시간 값의 형식을 설정합니다.
+.NET 형식 문자열을 사용 하 여 DateTime 값의 서식을 지정 합니다.
 
-[표준 날짜 및 시간 형식 문자열](https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings)  
+[표준 날짜 및 시간 형식 문자열](https://docs.microsoft.com/dotnet/standard/base-types/standard-date-and-time-format-strings)  
 
-[사용자 지정 날짜 및 시간 형식 문자열](https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings)  
+[사용자 지정 날짜 및 시간 형식 문자열](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings)  
 
-**코드**
+**Code**
 
 ```
 {{ now | date: 'g' }}
@@ -457,11 +462,11 @@ Jake Johnson
 May 07, 2018
 ```
 
-### <a name="date_add_days"></a>date\_add\_days
+### <a name="date_add_days"></a>날짜\_추가\_일
 
-전체 또는 일부 날짜에 대해 지정된 수를 날짜/시간 값에 추가합니다. 매개 변수는 양수이거나 음수일 수 있습니다.
+DateTime 값에 지정 된 정수 및 소수로 계산 된 날짜 수를 더 합니다. 매개 변수는 양수 또는 음수일 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ now }}
@@ -481,11 +486,11 @@ May 07, 2018
 5/4/2018 7:20:46 PM
 ```
 
-### <a name="date_add_hours"></a>date\_add\_hours
+### <a name="date_add_hours"></a>날짜\_\_시간 추가
 
-전체 또는 일부 시간에 대해 지정된 수를 날짜/시간 값에 추가합니다. 매개 변수는 양수이거나 음수일 수 있습니다.
+정수 및 소수로 계산 된 지정 된 시간 수를 DateTime 값에 추가 합니다. 매개 변수는 양수 또는 음수일 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ now }}
@@ -505,11 +510,11 @@ May 07, 2018
 5/7/2018 4:50:46 AM
 ```
 
-### <a name="date_add_minutes"></a>date\_add\_minutes
+### <a name="date_add_minutes"></a>날짜\_추가\_분
 
-전체 또는 일부 분에 대해 지정된 수를 날짜/시간 값에 추가합니다. 매개 변수는 양수이거나 음수일 수 있습니다.
+DateTime 값에 지정 된 정수 및 소수로 계산 된 분 수를 더 합니다. 매개 변수는 양수 또는 음수일 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ now }}
@@ -530,11 +535,11 @@ May 07, 2018
 5/7/2018 7:18:16 AM
 ```
 
-### <a name="date_add_months"></a>date\_add\_months
+### <a name="date_add_months"></a>날짜\_추가\_월
 
-전체 달에 대해 지정된 수를 날짜/시간 값에 추가합니다. 매개 변수는 양수이거나 음수일 수 있습니다.
+DateTime 값에 지정 된 개월 수를 더 합니다. 매개 변수는 양수 또는 음수일 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ now }}
@@ -554,11 +559,11 @@ May 07, 2018
 3/7/2018 7:20:46 AM
 ```
 
-### <a name="date_add_seconds"></a>date\_add\_seconds
+### <a name="date_add_seconds"></a>날짜\_\_초 추가
 
-전체 또는 일부 초에 대해 지정된 수를 날짜/시간 값에 추가합니다. 매개 변수는 양수이거나 음수일 수 있습니다.
+정수 및 소수로 계산 된 초 수를 DateTime 값에 추가 합니다. 매개 변수는 양수 또는 음수일 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ now }}
@@ -578,11 +583,11 @@ May 07, 2018
 5/7/2018 7:20:45 AM
 ```
 
-### <a name="date_add_years"></a>date\_add\_years
+### <a name="date_add_years"></a>날짜\_\_년 추가
 
-전체 연도에 대해 지정된 수를 날짜/시간 값에 추가합니다. 매개 변수는 양수이거나 음수일 수 있습니다.
+DateTime 값에 지정 된 연도 수를 더 합니다. 매개 변수는 양수 또는 음수일 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ now }}
@@ -602,11 +607,11 @@ May 07, 2018
 5/7/2016 7:20:46 AM
 ```
 
-### <a name="date_to_iso8601"></a>date\_to\_iso8601
+### <a name="date_to_iso8601"></a>iso8601\_에 대 한 날짜\_
 
-[ISO 8601](http://en.wikipedia.org/wiki/ISO_8601) 표준에 따라 날짜/시간 값의 형식을 지정합니다. [*Atom 피드*](http://tools.ietf.org/html/rfc4287) 또는 HTML5 &lt;time&gt; 요소를 만들 때 유용합니다.  
+[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 표준에 따라 DateTime 값의 서식을 지정 합니다. [*Atom 피드*](https://tools.ietf.org/html/rfc4287)또는 HTML5 &lt;time&gt; 요소를 만들 때 유용 합니다.  
 
-**코드**
+**Code**
 
 ```
 {{ now | date_to_iso8601 }}
@@ -618,11 +623,11 @@ May 07, 2018
 2018-05-07T07:20:46Z
 ```
 
-### <a name="date_to_rfc822"></a>date\_to\_rfc822
+### <a name="date_to_rfc822"></a>rfc822\_에 대 한 날짜\_
 
-[RFC 822](https://www.ietf.org/rfc/rfc0822.txt) 표준에 따라 날짜/시간 값의 형식을 지정합니다. [*RSS 피드*](http://cyber.law.harvard.edu/rss/rss.html)를 만들 때 유용합니다.  
+[RFC 822](https://www.ietf.org/rfc/rfc0822.txt) 표준에 따라 DateTime 값의 서식을 지정 합니다. [*RSS 피드*](https://cyber.law.harvard.edu/rss/rss.html)를 만들 때 유용 합니다.  
 
-**코드**
+**Code**
 
 ```
 {{ now | date_to_rfc822 }}
@@ -637,13 +642,13 @@ Mon, 07 May 2018 07:20:46 Z
 
 ## <a name="entity-list-filters"></a>엔터티 목록 필터
 
-엔터티 목록 필터는 특정 [entitylist](liquid-objects.md#entitylist) 특성 값으로 작업하기 위해 그리고 엔터티 목록 보기를 생성하기 위해 사용됩니다.  
+엔터티 목록 필터는 특정 [entitylist](liquid-objects.md#entitylist) 특성 값을 사용 하 여 작업 하 고 엔터티 목록 뷰를 만드는 데 사용 됩니다.  
 
-### <a name="current_sort"></a>current\_sort
+### <a name="current_sort"></a>현재\_정렬
 
-정렬 식이 주어지면 주어진 특성에 대한 현재의 정렬 방향을 반환합니다.
+정렬 식이 지정 된 경우 지정 된 특성에 대 한 현재 정렬 방향을 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'name ASC, createdon DESC' | current_sort: 'createdon' }}
@@ -657,11 +662,11 @@ DESC
 
 ### <a name="metafilters"></a>metafilters
 
-[entitylist](liquid-objects.md#entitylist) filter\_definition JSON 값을 필터 옵션 그룹 개체로 구문 분석합니다.  
+[Entitylist](liquid-objects.md#entitylist) 필터\_정의 JSON 값을 필터 옵션 그룹 개체로 구문 분석 합니다.  
 
-현재의 특성 필터 쿼리 및 현재의 [entitylist](liquid-objects.md#entitylist)와 함께 metafilters를 제공하여, 반환된 필터 개체에 선택 또는 선택 해제로 플래그 표시할 수 있습니다.
+metafilters은 현재 특성 필터 쿼리 및 현재 [entitylist](liquid-objects.md#entitylist)를 사용 하 여 선택적으로 제공할 수 있으므로 반환 된 필터 개체를 선택 하거나 선택 하지 않은 상태로 플래그가 지정 될 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {% assign filters = entitylist | metafilters: params.mf, entityview %}
@@ -716,11 +721,11 @@ DESC
 {% endif %}
 ```
 
-### <a name="reverse_sort"></a>reverse\_sort
+### <a name="reverse_sort"></a>역순\_정렬
 
-정렬 방향이 주어지면 반대 정렬 방향을 반환합니다.
+정렬 방향이 지정 된 경우에는 반대 정렬 방향을 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 <!-- Sort direction is not case-sensitive -->
@@ -741,11 +746,11 @@ ASC
 
 ## <a name="math-filters"></a>수학 필터
 
-수학 필터를 사용하면 [numbers](liquid-types.md#number)에 대해 수학 연산을 수행할 수 있습니다.  
+수학 필터를 사용 하 여 [숫자](liquid-types.md#number)에 대 한 수치 연산을 수행할 수 있습니다.  
 
-다른 모든 필터와 마찬가지로, 수학 필터는 연결이 가능하며 왼쪽에서 오른쪽 순서로 적용됩니다.
+모든 필터와 마찬가지로 수학 필터를 연결 하 고 왼쪽에서 오른쪽 순서로 적용할 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ 10 | times: 2 | minus: 5 | divided_by: 3 }}
@@ -759,9 +764,9 @@ ASC
 
 ### <a name="ceil"></a>ceil
 
-값을 가장 가까운 정수로 반올림합니다.
+값을 가장 가까운 정수로 반올림 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 4.6 | ceil }}
@@ -777,11 +782,11 @@ ASC
 5
 ```
 
-### <a name="divided_by"></a>divided\_by
+### <a name="divided_by"></a>분할 된\_
 
 숫자를 다른 숫자로 나눕니다.
 
-**코드**
+**Code**
 
 ```
 {{ 10 | divided_by: 2 }}
@@ -801,11 +806,11 @@ ASC
 3.333333
 ```
 
-### <a name="floor"></a>floor
+### <a name="floor"></a>평면
 
-값을 가장 가까운 정수로 반내림합니다.
+값을 가장 가까운 정수로 반올림 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 4.6 | floor }}
@@ -821,11 +826,11 @@ ASC
 4
 ```
 
-### <a name="minus"></a>minus
+### <a name="minus"></a>음수
 
-숫자에서 다른 숫자를 뺍니다.
+숫자를 다른 숫자에서 뺍니다.
 
-**코드**
+**Code**
 
 ```
 <!-- entityview.page = 11 -->
@@ -847,11 +852,11 @@ ASC
 9.1
 ```
 
-### <a name="modulo"></a>modulo
+### <a name="modulo"></a>나눈
 
-숫자를 다른 숫자로 나누고 나머지를 반환합니다.
+숫자를 다른 숫자로 나누고 나머지를 반환 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 12 | modulo: 5 }}
@@ -863,11 +868,11 @@ ASC
 2
 ```
 
-### <a name="plus"></a>plus
+### <a name="plus"></a>더하기
 
-숫자를 다른 숫자에 추가합니다.
+숫자를 다른 숫자에 추가 합니다.
 
-**코드**
+**Code**
 
 ```
 <!-- entityview.page = 11 -->
@@ -889,11 +894,11 @@ ASC
 11.1
 ```
 
-### <a name="round"></a>round
+### <a name="round"></a>둥근
 
-값을 가장 가까운 정수나 지정된 소수 자릿수로 반올림합니다.
+값을 가장 가까운 정수나 지정 된 소수 자릿수로 반올림 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 4.6 | round }}
@@ -913,11 +918,11 @@ ASC
 4.56
 ```
 
-### <a name="times"></a>times
+### <a name="times"></a>곱한
 
-숫자에 다른 숫자를 곱합니다.
+숫자를 다른 숫자에 곱합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 10 | times: 2 }}
@@ -940,13 +945,13 @@ ASC
 
 ## <a name="string-filters"></a>문자열 필터
 
-[strings](liquid-types.md#string)를 조작하는 문자열 필터입니다.  
+문자열 필터는 [문자열](liquid-types.md#string)을 조작 합니다.  
 
-### <a name="append"></a>추가
+### <a name="append"></a>추가할
 
-문자열을 다른 문자열의 끝에 추가합니다.
+문자열을 다른 문자열의 끝에 추가 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'filename' | append: '.js' }}
@@ -958,11 +963,11 @@ ASC
 filename.js
 ```
 
-### <a name="capitalize"></a>**capitalize**
+### <a name="capitalize"></a>**투자**
 
-문자열의 첫 글자를 대문자로 시작합니다.
+문자열에서 첫 번째 단어를 대문자로 바꿉니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'capitalize me' | capitalize }}
@@ -974,11 +979,11 @@ filename.js
 Capitalize Me
 ```
 
-### <a name="downcase"></a>**downcase**
+### <a name="downcase"></a>**다운 사례**
 
-문자열을 소문자로 변환합니다.
+문자열을 소문자로 변환 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'MIxed Case TExt' | downcase }}
@@ -990,11 +995,11 @@ Capitalize Me
 mixed case text
 ```
 
-### <a name="escape"></a>**escape**
+### <a name="escape"></a>**이스케이프**
 
-문자열을 HTML-이스케이프합니다.
+HTML-문자열을 이스케이프 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ '<p>test</p>' | escape }}
@@ -1006,11 +1011,11 @@ mixed case text
 &lt;p&gt;test&lt;/p&gt;
 ```
 
-### <a name="newline_to_br"></a>**newline\_to\_br**
+### <a name="newline_to_br"></a>**\_br로 줄 바꿈\_**
 
-문자열에서 각 줄 바꿈 위치에 &lt;br /&gt; 줄 바꿈 HTML 태그를 삽입합니다.
+문자열의 각 줄 바꿈에 &lt;br/&gt; 줄 바꿈 HTML 태그를 삽입 합니다.
 
-**코드**
+**Code**
 
 ```
 {% capture text %}
@@ -1036,11 +1041,11 @@ B<br />
 C<br />
 ```
 
-### <a name="prepend"></a>**prepend**
+### <a name="prepend"></a>**추가할지**
 
-문자열을 다른 문자열의 앞에 추가합니다.
+문자열을 다른 문자열의 시작 부분에 앞에 추가할 수 있습니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'Jane Johnson' | prepend: 'Dr. ' }}
@@ -1052,11 +1057,11 @@ C<br />
 Dr. Jane Johnson
 ```
 
-### <a name="remove"></a>**remove**
+### <a name="remove"></a>**삭제**
 
-문자열에서 모든 부분 문자열을 제거합니다.
+문자열에서 부분 문자열의 모든 항목을 제거 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'Hello, Dave. How are you, Dave?' | remove: 'Dave' }}
@@ -1068,11 +1073,11 @@ Dr. Jane Johnson
 Hello, . How are you, ?
 ```
 
-### <a name="remove_first"></a>**remove\_first**
+### <a name="remove_first"></a>**먼저\_제거**
 
-문자열에서 첫 부분 문자열을 제거합니다.
+문자열에서 맨 처음 발견 되는 부분 문자열을 제거 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'Hello, Dave. How are you, Dave?' | remove_first: 'Dave' }}
@@ -1084,11 +1089,11 @@ Hello, . How are you, ?
 Hello, . How are you, Dave?
 ```
 
-### <a name="replace"></a>**replace**
+### <a name="replace"></a>**바꾸십시오**
 
-모든 문자열을 부분 문자열로 바꿉니다.
+문자열의 모든 항목을 하위 문자열로 바꿉니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'Hello, Dave. How are you, Dave?' | replace: 'Dave', 'John' }}
@@ -1100,11 +1105,11 @@ Hello, . How are you, Dave?
 Hello, John. How are you, John?
 ```
 
-### <a name="replace_first"></a>**replace\_first**
+### <a name="replace_first"></a>**\_를 먼저 바꿉니다.**
 
-첫 문자열을 부분 문자열로 바꿉니다.
+문자열의 처음 발견 되는 부분 문자열을 바꿉니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'Hello, Dave. How are you, Dave?' | replace_first: 'Dave', 'John' }}
@@ -1116,11 +1121,11 @@ Hello, John. How are you, John?
 Hello, John. How are you, Dave?
 ```
 
-### <a name="split"></a>**split**
+### <a name="split"></a>**분리할**
 
-부문 문자열에 매개 변수로 작용하는 split 필터입니다. 부분 문자열은 문자열을 배열로 나누는 구분 기호로서 사용됩니다.
+분할 필터는 하위 문자열을 매개 변수로 사용 합니다. 부분 문자열을 구분 기호로 사용 하 여 문자열을 배열로 나눕니다.
 
-**코드**
+**Code**
 
 ```
 {% assign words = This is a demo of the split filter | split: ' ' %}
@@ -1150,11 +1155,11 @@ Last word: filter
 All words: This, is, a, demo, of, the, split, filter
 ```
 
-### <a name="strip_html"></a>**strip\_html**
+### <a name="strip_html"></a>**줄무늬\_html**
 
-문자열에서 모든 HTML 태그를 제거합니다.
+문자열에서 모든 HTML 태그를 제거 합니다.
 
-**코드**
+**Code**
 
 ```
 <p>Hello</p>
@@ -1166,11 +1171,11 @@ All words: This, is, a, demo, of, the, split, filter
 Hello
 ```
 
-### <a name="strip_newlines"></a>**strip\_newlines**
+### <a name="strip_newlines"></a>**줄무늬\_줄바꿈**
 
-문자열에서 모든 줄 바꿈을 제거합니다.
+문자열에서 줄 바꿈을 제거 합니다.
 
-**코드**
+**Code**
 
 ```
 {% capture text %}
@@ -1192,11 +1197,11 @@ C
 ABC
 ```
 
-### <a name="text_to_html"></a>**text\_to\_html**
+### <a name="text_to_html"></a>**html\_\_텍스트**
 
-일반 텍스트 문자열을 단순 HTML 형식으로 설정합니다. 모든 텍스트는 HTML로 인코딩되고, 줄 공백으로 구분된 텍스트 블록은 문단 내에 &lt;p&gt; 태그로 줄 바꿈되며, 단일 줄 바꿈은 &lt;br&gt;로 교체되고, URL은 하이퍼링크로 변환됩니다.
+일반 텍스트 문자열을 간단한 HTML로 서식 지정 합니다. 모든 텍스트는 HTML로 인코딩됩니다. 빈 줄로 구분 된 텍스트 블록은 단락 &lt;p&gt; 태그로 래핑됩니다. 한 줄 바꿈는 &lt;br&gt;로 바뀌고 Url은 하이퍼링크로 변환 됩니다.
 
-**코드**
+**Code**
 
 ```
 {{ note.notetext | text_to_html }}
@@ -1205,16 +1210,16 @@ ABC
 **출력**
 
 ```
-<p>This is the first paragraph of notetext. It contains a URL: <a href="http://example.com/" rel="nofollow">http://example.com</a></p>
+<p>This is the first paragraph of notetext. It contains a URL: <a href="https://example.com/" rel="nofollow">https://example.com</a></p>
 
 <p>This is a second paragraph.</p>
 ```
 
-### <a name="truncate"></a>**truncate**
+### <a name="truncate"></a>**잘라내야**
 
-주어진 문자 수로 문자열을 자릅니다. 줄임표(...)가 문자열에 추가되고 문자 수에 포함됩니다.
+문자열을 지정 된 문자 수 만큼 아래로 자릅니다. 문자열에 줄임표 (...)가 추가 되 고 문자 수에 포함 됩니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'This is a long run of text.' | truncate: 10 }}
@@ -1226,11 +1231,11 @@ ABC
 This is...
 ```
 
-### <a name="truncate_words"></a>**truncate\_words**
+### <a name="truncate_words"></a>**\_단어 잘림**
 
-주어진 단어 수로 문자열을 자릅니다. 줄임표(...)가 잘린 문자열에 추가됩니다.
+문자열을 지정 된 단어 수까지 자릅니다. 잘린 문자열에 줄임표 (...)가 추가 됩니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'This is a long run of text.' | truncate_words: 3 }}
@@ -1244,9 +1249,9 @@ This is a...
 
 ### <a name="upcase"></a>**upcase**
 
-문자열을 대문자로 변환합니다.
+문자열을 대문자로 변환 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'MIxed Case TExt' | upcase }}
@@ -1258,11 +1263,11 @@ This is a...
 MIXED CASE TEXT
 ```
 
-### <a name="url_escape"></a>**url\_escape**
+### <a name="url_escape"></a>**url\_이스케이프**
 
-URL에 포함하기 위해 문자열을 URI-이스케이프합니다.
+URL에 포함 될 문자열을 URI 이스케이프 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ 'This & that//' | url_escape }}
@@ -1274,11 +1279,11 @@ URL에 포함하기 위해 문자열을 URI-이스케이프합니다.
 This+%26+that%2F%2F
 ```
 
-### <a name="xml_escape"></a>**xml\_escape**
+### <a name="xml_escape"></a>**xml\_이스케이프**
 
-XML 출력에 포함하기 위해 문자열을 XML-이스케이프합니다.
+Xml 출력에 포함 하기 위해 문자열을 이스케이프 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ '<p>test</p>' | xml_escape }}
@@ -1291,17 +1296,17 @@ XML 출력에 포함하기 위해 문자열을 XML-이스케이프합니다.
 ```
 
 
-## <a name="type-filters"></a>타입 필터
+## <a name="type-filters"></a>유형 필터
 
-타입 필터를 통해 한 타입의 값을 다른 타입으로 전환할 수 있습니다.
+형식 필터를 사용 하면 한 형식의 값을 다른 형식으로 변환할 수 있습니다.
 
-### <a name="boolean"></a>**boolean**
+### <a name="boolean"></a>**부울**
 
-문자열 값을 부울 값으로 전환 시도. 값이 이미 부울 값인 경우에는 바뀌지 않고 반환됩니다. 값을 부울 값으로 전환할 수 없는 경우에는 null이 반환됩니다.
+문자열 값을 부울로 변환 하려고 합니다. 값이 이미 부울 인 경우 변경 되지 않은 상태로 반환 됩니다. 값을 부울로 변환할 수 없는 경우 null이 반환 됩니다.
 
-이 필터는 또한 켜짐, 활성화, 또는 예를 true로, 꺼짐, 비활성화, 및 아니요를 false로 수락할 것입니다.
+이 필터는 또한 설정, 사용 또는 예를 true로, 해제, 사용 안 함 및 아니요를 false로 허용 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ true | boolean }}
@@ -1325,11 +1330,11 @@ true
 false
 ```
 
-### <a name="decimal"></a>**decimal**
+### <a name="decimal"></a>**진수가**
 
-문자열 값을 10진수로 전환 시도. 값이 이미 10진수인 경우에는 바뀌지 않고 반환됩니다. 값을 10진수로 전환할 수 없는 경우에는 null이 반환됩니다.
+문자열 값을 10 진수로 변환 하려고 합니다. 값이 이미 10 진수 이면 변경 되지 않은 상태로 반환 됩니다. 값을 10 진수로 변환할 수 없는 경우 null이 반환 됩니다.
 
-**코드**
+**Code**
 
 ```
 {{ 10.1 | decimal }}
@@ -1349,11 +1354,11 @@ false
 3.14
 ```
 
-### <a name="integer"></a>**integer**
+### <a name="integer"></a>**값**
 
-문자열 값을 정수로 전환 시도. 값이 이미 정수인 경우에는 바뀌지 않고 반환됩니다. 값을 정수로 전환할 수 없는 경우에는 null이 반환됩니다.
+문자열 값을 정수로 변환 하려고 합니다. 값이 이미 정수인 경우 변경 되지 않은 상태로 반환 됩니다. 값을 정수로 변환할 수 없는 경우 null이 반환 됩니다.
 
-**코드**
+**Code**
 
 ```
 {{ 10 | integer }}
@@ -1376,26 +1381,26 @@ false
 2
 ```
 
-### <a name="string"></a>**string**
+### <a name="string"></a>**문자열**
 
-값을 문자열 표현으로 전환 시도. 값이 이미 문자열인 경우에는 바뀌지 않고 반환됩니다. 값이 null인 경우에는 null이 반환됩니다.
+값을 해당 문자열 표현으로 변환 하려고 합니다. 값이 이미 문자열이 면 변경 되지 않은 상태로 반환 됩니다. 값이 null 이면 null이 반환 됩니다.
 
 
 
 ## <a name="url-filters"></a>URL 필터
 
-URL 필터를 사용하면 URL의 일부를 빌드 또는 추출할 수 있습니다.
+URL 필터를 사용 하 여 url의 일부를 빌드하거나 추출할 수 있습니다.
 
-### <a name="add_query"></a>**add\_query**
+### <a name="add_query"></a>**\_쿼리 추가**
 
-URL에 쿼리 문자열 매개 변수를 추가합니다. 매개 변수가 이미 URL에 존재할 경우, 매개 변수 값이 업데이트됩니다.
+URL에 쿼리 문자열 매개 변수를 추가 합니다. 매개 변수가 이미 URL에 있으면 매개 변수 값이 업데이트 됩니다.
 
-이 필터가 전체 절대 URL에 적용된 경우, 업데이트된 절대 URL이 결과값이 됩니다. 경로에 적용된 경우, 업데이트된 경로가 결과값이 됩니다.
+이 필터가 전체 절대 URL에 적용 되는 경우 업데이트 된 절대 URL이 결과로 반환 됩니다. 경로에 적용 되는 경우 업데이트 된 경로가 반환 됩니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?page=1' | add_query: 'foo', 'bar' }}
+{{ 'https://example.com/path?page=1' | add_query: 'foo', 'bar' }}
 
 {{ '/path?page=1' | add_query: 'page', 2 }}
 ```
@@ -1403,35 +1408,35 @@ URL에 쿼리 문자열 매개 변수를 추가합니다. 매개 변수가 이�
 **출력**
 
 ```
-http://example.com/path?page=1&foo=bar
+https://example.com/path?page=1&foo=bar
 
 /path?page=2
 ```
 
-### <a name="base"></a>**base**
+### <a name="base"></a>**하단**
 
-주어진 URL의 기본 URL을 가져옵니다.
+지정 된 URL의 기본 URL을 가져옵니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | base }}
+{{ 'https://example.com/path?foo=bar&page=2' | base }}
 ```
 
 **출력**
 
 ```
-http://example.com
+https://example.com
 ```
 
-### <a name="host"></a>**host**
+### <a name="host"></a>**호스팅하기**
 
-URL의 호스트 부분을 가져옵니다.
+URL의 호스트 파트를 가져옵니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | host }}
+{{ 'https://example.com/path?foo=bar&page=2' | host }}
 ```
 
 **출력**
@@ -1444,10 +1449,10 @@ example.com
 
 URL의 경로 부분을 가져옵니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | path }}
+{{ 'https://example.com/path?foo=bar&page=2' | path }}
 
 {{ '/path?foo=bar&page=2' | path }}
 ```
@@ -1460,14 +1465,14 @@ URL의 경로 부분을 가져옵니다.
 /path
 ```
 
-### <a name="path_and_query"></a>**path\_and\_query**
+### <a name="path_and_query"></a>**경로\_및\_쿼리**
 
 URL의 경로 및 쿼리 부분을 가져옵니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | path_and_query }}
+{{ 'https://example.com/path?foo=bar&page=2' | path_and_query }}
 
 {{ '/path?foo=bar&page=2' | path_and_query }}
 ```
@@ -1480,14 +1485,14 @@ URL의 경로 및 쿼리 부분을 가져옵니다.
 /path?foo=bar&page=2
 ```
 
-### <a name="port"></a>**port**
+### <a name="port"></a>**포트인**
 
 URL의 포트 번호를 가져옵니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | port }}
+{{ 'https://example.com/path?foo=bar&page=2' | port }}
 
 {{ 'https://example.com/path?foo=bar&page=2' | port }}
 
@@ -1504,16 +1509,16 @@ URL의 포트 번호를 가져옵니다.
 9000
 ```
 
-### <a name="remove_query"></a>**remove\_query**
+### <a name="remove_query"></a>**\_쿼리 제거**
 
-URL에서 쿼리 문자열 매개 변수를 제거합니다. 매개 변수가 URL에 존재하지 않는 경우, URL이 변경되지 않은 상태로 반환됩니다.
+URL에서 쿼리 문자열 매개 변수를 제거 합니다. URL에 매개 변수가 없는 경우에는 URL이 변경 되지 않은 상태로 반환 됩니다.
 
-이 필터가 전체 절대 URL에 적용된 경우, 업데이트된 절대 URL이 결과값이 됩니다. 경로에 적용된 경우, 업데이트된 경로가 결과값이 됩니다.
+이 필터가 전체 절대 URL에 적용 되는 경우 업데이트 된 절대 URL이 결과로 반환 됩니다. 경로에 적용 되는 경우 업데이트 된 경로가 반환 됩니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?page=1' | remove_query: 'page' }}
+{{ 'https://example.com/path?page=1' | remove_query: 'page' }}
 
 {{ '/path?page=1' | remove_query: 'page' }}
 ```
@@ -1521,19 +1526,19 @@ URL에서 쿼리 문자열 매개 변수를 제거합니다. 매개 변수가 UR
 **출력**
 
 ```
-http://example.com/path
+https://example.com/path
 
 /path
 ```
 
-### <a name="scheme"></a>**scheme**
+### <a name="scheme"></a>**체계가**
 
 URL의 스키마 부분을 가져옵니다.
 
-**코드**
+**Code**
 
 ```
-{{ 'http://example.com/path?foo=bar&page=2' | scheme }}
+{{ 'https://example.com/path?foo=bar&page=2' | scheme }}
 
 {{ 'https://example.com/path?foo=bar&page=2' | scheme }}
 ```
@@ -1549,13 +1554,13 @@ https
 
 ## <a name="additional-filters"></a>추가 필터
 
-이러한 필터는 유용한 일반 기능을 제공합니다.
+이러한 필터는 유용한 일반 기능을 제공 합니다.
 
-### <a name="default"></a>**default**
+### <a name="default"></a>**기본**
 
-할당된 값이 없는 모든 변수에 대해 기본값을 반환합니다(예: null).
+할당 된 값이 없는 모든 변수에 대 한 기본값을 반환 합니다 (즉, null).
 
-**코드**
+**Code**
 
 ```
 {{ snippets[Header] | default: 'My Website' }}
@@ -1569,13 +1574,13 @@ https
 My Website
 ```
 
-### <a name="file_size"></a>**file\_size**
+### <a name="file_size"></a>**파일\_크기**
 
-바이트 수를 나타내는 숫자 값에 적용되어, 적절한 크기의 형식이 지정된 파일 크기를 반환합니다.
+바이트 수를 나타내는 숫자 값에 적용 되며 적절 한 소수 자릿수 단위의 형식이 지정 된 파일 크기를 반환 합니다.
 
-필요에 따라 정밀도 매개 변수는 결과의 소수 자릿수를 제어하기 위해 전달될 수 있습니다. 기본 자릿수는 1입니다.
+필요에 따라 전체 자릿수 매개 변수를 전달 하 여 결과의 소수 자릿수를 제어할 수 있습니다. 기본 전체 자릿수는 1입니다.
 
-**코드**
+**Code**
 
 ```
 {{ 10000000 | file_size }}
@@ -1595,11 +1600,11 @@ My Website
 207.14 KB
 ```
 
-### <a name="has_role"></a>**has\_role**
+### <a name="has_role"></a>**\_역할 있음**
 
-[user](liquid-objects.md#user)에 적용되며, 사용자가 주어진 역할에 속한 경우 true를 반환합니다. 그렇지 않으면 false를 반환합니다.  
+사용자에 게 적용 [되며, 사용자](liquid-objects.md#user)가 지정 된 역할에 속하는 경우 true를 반환 합니다. 그렇지 않으면 false를 반환 합니다.  
 
-**코드**
+**Code**
 
 ```
 {% assign is_admin = user | has_role: 'Administrators' %}
@@ -1613,22 +1618,22 @@ User is an administrator.
 
 ### <a name="liquid"></a>**liquid**
 
-유동 코드로서 문자열을 렌더링합니다. 이 코드는 현재 유동 실행 컨텍스트(변수 등)에 액세스할 수 있습니다.
+문자열을 액체 코드로 렌더링 합니다. 이 코드는 현재 액체 실행 컨텍스트 (변수 등)에 액세스할 수 있습니다.
 
 > [!Note] 
-> 이 필터는 신중하게 사용해야 하며 일반적으로 포털 콘텐츠 작성자 또는 유동 코드를 작성할 수 있는 신뢰할 수 있는 다른 사용자가 단독으로 제어하는 값에만 적용되어야 합니다.
+> 이 필터는 주의 해 서 사용 해야 하며, 일반적으로 포털 콘텐츠 작성자의 단독 제어 아래에 있는 값 또는 액체 코드를 작성 하는 데 신뢰할 수 있는 다른 사용자에만 적용 해야 합니다.
 
-**코드**
+**Code**
 
 ```
 {{ page.adx_copy | liquid }}
 ```
 
-### <a name="see-also"></a>참조
+### <a name="see-also"></a>참고 항목
 
-[웹 템플릿을 이용하여 소스 콘텐츠 저장](store-content-web-templates.md)  
-[유동 연산자 이해](liquid-operators.md) 
-[유동 유형](liquid-types.md)  
-[유동 개체](liquid-objects.md)  
-[유동 태그](liquid-tags.md)  
-[유동 필터](liquid-filters.md)  
+[웹 템플릿을 사용 하 여 원본 콘텐츠 저장](store-content-web-templates.md)  
+액체 [형식](liquid-types.md) 
+[액체 연산자 이해](liquid-operators.md)  
+[액체 개체](liquid-objects.md)  
+[액체 태그](liquid-tags.md)  
+[액체 필터](liquid-filters.md)  
