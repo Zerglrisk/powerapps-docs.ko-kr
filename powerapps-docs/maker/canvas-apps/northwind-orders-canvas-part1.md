@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 04/25/2019
+ms.date: 11/06/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 03411202ecc9c4c04713f7eb9cf6286809109684
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: bbc6111800a817ecb71eec60fdba1d2dabd6c698
+ms.sourcegitcommit: 32542f1d17fee757dcdaf9c247f4051f59b86434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541525"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73741601"
 ---
 # <a name="create-an-order-gallery-in-a-canvas-app"></a>캔버스 앱에서 주문 갤러리 만들기
 
@@ -53,39 +53,22 @@ ms.locfileid: "73541525"
     > [!div class="mx-imgBorder"]
     > ![PowerApps Studio](media/northwind-orders-canvas-part1/start-03.png)
 
-1. 수식 입력줄에서 직접 수식의 결과를 표시 하기 위한 [실험적 기능](working-with-experimental.md) 을 사용 하도록 설정 합니다.
-
-    1. **파일** 메뉴에서 **앱 설정**을 선택한 다음 **고급 설정**을 선택 합니다.
-    1. 기능 목록의 아래쪽으로 스크롤한 다음 **수식 입력줄 결과 뷰 사용**을 설정 합니다.
-
-        > [!div class="mx-imgBorder"]
-        > ![실험적 기능 목록](media/northwind-orders-canvas-part1/start-04.png)
-
-1. 왼쪽 위 모서리에서 뒤로 화살표를 선택 하 여 빈 캔버스로 돌아갑니다.
-
 ## <a name="add-the-data"></a>데이터 추가
 
-1. **보기** 탭에서 **데이터 원본**을 선택 하 고 **데이터** 창에서 **데이터 원본 추가** 를 선택 합니다.
+1. **보기** 탭에서 **데이터 원본**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![보기, 데이터 원본, 데이터 원본 추가를 선택](media/northwind-orders-canvas-part1/datasource-01.png)
 
-1. **Common Data Service**를 선택 합니다.
-
-    연결 목록에 **Common Data Service** 표시 되지 않으면 **새 연결**을 선택 하 고 추가를 선택 합니다.
+1. 검색 상자에 **orders** 를 입력 합니다.
 
     > [!div class="mx-imgBorder"]
     > 연결 ![목록](media/northwind-orders-canvas-part1/datasource-02.png)
 
-1. **엔터티 선택**에서 **orders**를 입력 한 다음 **orders** 확인란을 선택 하 고 **연결**을 선택 합니다.
+1. 앱에서 사용할 **주문** 데이터 원본을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 엔터티 목록 ![](media/northwind-orders-canvas-part1/datasource-03.png)
-
-    앱에 **주문** 데이터 원본을 추가 했습니다.
-
-    > [!div class="mx-imgBorder"]
-    > 데이터 창 ![](media/northwind-orders-canvas-part1/datasource-04.png)
 
     **Orders** 엔터티에는 다양 한 형식의 여러 필드가 포함 되어 있습니다.
 
@@ -94,7 +77,7 @@ ms.locfileid: "73541525"
 
     각 필드에는 논리적 이름이 라고도 하는 **표시 이름과** **이름이**있습니다. 두 이름 모두 동일한 작업을 참조 합니다. 일반적으로 앱을 빌드할 때 표시 이름을 사용 하지만 일부 경우에는 절차에서 설명한 것 처럼 더 복잡 한 **이름이**필요 합니다.
 
-1. PowerApps Studio에서 오른쪽 위 모퉁이에 있는 닫기 아이콘 (x)을 선택 하 여 **데이터** 창을 닫습니다.
+1. 화면 및 컨트롤 작업을 수행할 때,에서 3 개의 누적 사각형 아이콘을 눌러 왼쪽의 **트리 뷰로** 다시 전환 PowerApps Studio. 원통 아이콘을 눌러 언제 든 지 **데이터 원본** 으로 돌아갈 수 있습니다.
 
 ## <a name="create-the-order-gallery"></a>주문 갤러리 만들기
 
@@ -103,7 +86,13 @@ ms.locfileid: "73541525"
     > [!div class="mx-imgBorder"]
     > ![삽입, 갤러리, 빈 세로](media/northwind-orders-canvas-part1/orders-01.png)
 
-1. 수식 입력줄에서 갤러리의 **Items** 속성을 다음 수식으로 설정 합니다.
+    컨트롤이 캔버스에 배치 되 고, 연결 하려는 데이터 원본을 묻는 플라이 아웃 대화 상자가 표시 됩니다.  
+
+
+    > [!div class="mx-imgBorder"]
+    > 갤러리의 ![항목 설정 속성](media/northwind-orders-canvas-part1/orders-02.png)
+
+1. 여기서는 **주문** 에 직접 연결할 수 있지만 대신 갤러리의 정렬 순서를 제어 하려고 합니다.  플라이 아웃 대화 상자를 무시 하 고 수식 입력줄에서 갤러리의 **Items** 속성을 다음 수식으로 설정 합니다.
 
     ```powerapps-dot
     Sort( Orders, 'Order Number', Descending )
@@ -112,7 +101,12 @@ ms.locfileid: "73541525"
     Sort 함수는 가장 높은 주문 번호가 있는 가장 먼저 표시 되도록 목록을 [**정렬**](functions/function-sort.md) 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 갤러리의 ![항목 설정 속성](media/northwind-orders-canvas-part1/orders-02.png)
+    > 갤러리의 ![항목 설정 속성](media/northwind-orders-canvas-part1/orders-02b.png)
+
+1. 몇 분 후에 결과 보기가 수식 입력줄 아래에 표시 됩니다.  왼쪽에 있는 화살표를 끌어 수식의 결과를 확인 합니다.  오른쪽으로 스크롤하여 **주문 번호** 열을 확인 하 고 원하는 방식으로 정렬 되었는지 확인 합니다 (최고에서 가장 낮음).  
+
+    > [!div class="mx-imgBorder"]
+    > 갤러리의 ![항목 설정 속성](media/northwind-orders-canvas-part1/orders-02c.png)
 
 1. 오른쪽 가장자리 근처의 **속성** 탭에서 **레이아웃** 목록을 엽니다.
 
@@ -126,7 +120,10 @@ ms.locfileid: "73541525"
 
     갤러리의 템플릿에 두 개의 [**Label**](controls/control-text-box.md) 컨트롤이 추가 됩니다. 기본적으로 이러한 컨트롤은 **Orders** 엔터티의 두 열을 표시 하며,이는 다음에 변경 됩니다. 갤러리의 템플릿은 엔터티의 각 레코드에 대해 세로로 복제 됩니다.
 
-1. **데이터** 창을 닫은 경우 오른쪽 가장자리 근처의 **속성** 탭에서 **편집** ( **필드**옆에 있는)을 선택 합니다.
+1. 오른쪽 가장자리 근처에 있는 **속성** 탭에서 **필드**옆에 있는 **편집** 을 선택 합니다.
+
+    > [!div class="mx-imgBorder"]
+    > 레이아웃을 선택 ![](media/northwind-orders-canvas-part1/orders-04b.png)
 
 1. **데이터** 창에서 **Title1** 를 선택 하거나 갤러리 템플릿에서 위쪽 레이블을 선택 합니다.
 
@@ -261,7 +258,7 @@ ms.locfileid: "73541525"
 
     이 수식은 Common Data Service 복잡 한 집계 함수 (예: 곱셈의 합계)의 위임을 지원 하지 않으므로 파란색 밑줄과 [위임 경고](delegation-overview.md) 를 표시 합니다. 이 예제에는 500 개 이상의 줄 항목이 포함 되지 않으므로이 정보를 무시할 수 있습니다. 다른 앱에 필요한 경우 **앱 설정**에서이 제한을 늘릴 수 있습니다.
 
-    이 수식의 [**텍스트**](functions/function-text.md) 함수는 통화 기호를 추가 하 고 천 단위 및 소수 구분 기호를 사용 하 여 결과의 서식을 지정 합니다. 작성 된 대로 수식에는 미국 영어 ( **[$-en-us]** ) 및 달러 기호 ( **$** )의 언어 태그가 포함 됩니다. 언어 태그를 제거 하는 경우 언어 설정에 따라 하나로 바뀌고 레이블에 해당 태그에 대 한 적절 한 형식이 표시 됩니다. 달러 기호를 벗어나면 레이블의 사용자 설정에 따라 적절 한 통화 기호가 표시 됩니다. 그러나 달러 기호를 원하는 것으로 바꿔 다른 기호를 강제로 표시할 수 있습니다.
+    이 수식의 [**텍스트**](functions/function-text.md) 함수는 통화 기호를 추가 하 고 천 단위 및 소수 구분 기호를 사용 하 여 결과의 서식을 지정 합니다. 작성 된 대로 수식에는 미국 영어 (**[$-en-us]**) 및 달러 기호 (**$**)의 언어 태그가 포함 됩니다. 언어 태그를 제거 하는 경우 언어 설정에 따라 하나로 바뀌고 레이블에 해당 태그에 대 한 적절 한 형식이 표시 됩니다. 달러 기호를 벗어나면 레이블의 사용자 설정에 따라 적절 한 통화 기호가 표시 됩니다. 그러나 달러 기호를 원하는 것으로 바꿔 다른 기호를 강제로 표시할 수 있습니다.
 
 1. **홈** 탭에서 최신 레이블의 글꼴 크기를 20 포인트로 변경 하 고 텍스트를 오른쪽 맞춤 합니다.
 

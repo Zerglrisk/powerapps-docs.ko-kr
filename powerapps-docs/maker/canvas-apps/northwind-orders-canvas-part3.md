@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 04/25/2019
+ms.date: 11/06/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7a975669d1e22289b7152b830808631992389a1f
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 010d567369e9c580b57a55ad251ac5ef01da3597
+ms.sourcegitcommit: 32542f1d17fee757dcdaf9c247f4051f59b86434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71991622"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73741336"
 ---
 # <a name="create-a-detail-gallery-in-a-canvas-app"></a>캔버스 앱에서 세부 정보 갤러리 만들기
 
@@ -47,7 +47,7 @@ ms.locfileid: "71991622"
 1. 다음 방법 중 하나를 수행 하 여 복사본에서 텍스트를 제거 합니다.
 
     - 텍스트를 두 번 클릭 하 여 선택한 다음 Delete 키를 누릅니다.
-    - 레이블의 **Text** 속성을 빈 문자열 ( **""** )로 설정 합니다.
+    - 레이블의 **Text** 속성을 빈 문자열 (**""**)로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![제목 표시줄 복사본에서 텍스트를 제거](media/northwind-orders-canvas-part3/details-02.png)
@@ -64,7 +64,7 @@ ms.locfileid: "71991622"
     > [!div class="mx-imgBorder"]
     > 주문 세부 정보 갤러리의 기본 위치를 ![](media/northwind-orders-canvas-part3/details-04.png)
 
-1. **데이터** 창을 닫은 다음 크기를 조정 하 고 세부 정보 갤러리를 새 제목 표시줄 아래의 오른쪽 아래 모서리로 이동 합니다.
+1. 바로 이동 데이터 원본 대화 상자를 닫은 다음 크기를 조정 하 고 세부 정보 갤러리를 새 제목 표시줄 아래의 오른쪽 아래 모서리로 이동 합니다.
 
     > [!div class="mx-imgBorder"]
     > 주문 세부 정보 갤러리의 최종 위치를 ![](media/northwind-orders-canvas-part3/details-05.png)
@@ -183,7 +183,7 @@ ms.locfileid: "71991622"
     Text( ThisItem.'Unit Price', "[$-en-US]$ #,###.00" )
     ```
 
-    언어 태그 ( **[$-en-us]** )를 포함 하지 않는 경우 해당 언어와 지역에 따라 추가 됩니다. 다른 언어 태그를 사용 하는 경우 닫는 대괄호 ( **]** ) 바로 다음에 **$** 를 제거한 다음 해당 위치에 통화 기호를 추가 합니다.
+    언어 태그 (**[$-en-us]**)를 포함 하지 않는 경우 해당 언어와 지역에 따라 추가 됩니다. 다른 언어 태그를 사용 하는 경우 닫는 대괄호 (**]**) 바로 다음에 **$** 를 제거한 다음 해당 위치에 통화 기호를 추가 합니다.
 
     > [!div class="mx-imgBorder"]
     > 단가](media/northwind-orders-canvas-part3/details-15.png) 표시 ![
@@ -201,7 +201,7 @@ ms.locfileid: "71991622"
     Text( ThisItem.Quantity * ThisItem.'Unit Price', "[$-en-US]$ #,###.00" )
     ```
 
-    언어 태그 ( **[$-en-us]** )를 포함 하지 않으면 언어와 지역에 따라 추가 됩니다. 태그가 다른 경우 닫는 대괄호 ( **]** ) 바로 다음에 **$** 대신 사용자 고유의 통화 기호를 사용 하는 것이 좋습니다.
+    언어 태그 (**[$-en-us]**)를 포함 하지 않으면 언어와 지역에 따라 추가 됩니다. 태그가 다른 경우 닫는 대괄호 (**]**) 바로 다음에 **$** 대신 사용자 고유의 통화 기호를 사용 하는 것이 좋습니다.
 
     > [!div class="mx-imgBorder"]
     > ![확장 된 가격](media/northwind-orders-canvas-part3/details-17.png) 표시
@@ -320,32 +320,6 @@ ms.locfileid: "71991622"
     > [!div class="mx-imgBorder"]
     > 레이블의 채우기 ![연한 파랑](media/northwind-orders-canvas-part3/add-details-03.png) 변경 합니다.
 
-## <a name="add-the-order-details-data-source"></a>주문 정보 데이터 원본 추가
-
-1. **보기** 탭에서 **데이터 원본**을 선택 하 고 **데이터** 창에서 **데이터 원본 추가** 를 선택 합니다.
-
-    > [!div class="mx-imgBorder"]
-    > 데이터 원본 ![추가](media/northwind-orders-canvas-part3/add-details-04.png)
-
-1. **Common Data Service**선택:
-
-    > [!div class="mx-imgBorder"]
-    > Common Data Service 선택 ![](media/northwind-orders-canvas-part3/add-details-05.png)
-
-1. **데이터** 창의 맨 위에 있는 검색 상자에 **order** 를 입력 하 고 **order Details** 확인란을 선택한 다음 창의 맨 아래에서 **연결** 을 선택 합니다.
-
-    > [!div class="mx-imgBorder"]
-    > 주문 정보 엔터티를 지정 ![](media/northwind-orders-canvas-part3/add-details-06.png)
-
-    앱에 다른 데이터 소스를 추가 했습니다.
-
-    > [!div class="mx-imgBorder"]
-    > 데이터 원본 ![목록](media/northwind-orders-canvas-part3/add-details-07.png)
-
-    앱이 일 대 다 관계를 통해 읽을 수 있지만 응용 프로그램에서 변경 내용을 다시 쓸 수 없기 때문에이 데이터 원본을 추가 해야 합니다. 앱에서 관련 엔터티를 직접 변경 해야 합니다.
-
-1. **데이터** 창을 닫습니다.
-
 ## <a name="select-a-product"></a>제품 선택
 
 1. **삽입** 탭에서 **컨트롤**  > **콤보 상자**를 선택 합니다.
@@ -355,23 +329,12 @@ ms.locfileid: "71991622"
 
     [**콤보 상자**](controls/control-combo-box.md) 컨트롤이 왼쪽 위 모퉁이에 나타납니다.
 
-1. 콤보 상자의 **Items** 속성을 다음 수식으로 설정 합니다.
-
-    ```powerapps-dot
-    Choices( 'Order Details'.Product )
-    ```
+1. 플라이 아웃 대화 상자에서 **주문 제품** 데이터 원본을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![콤보 상자의 Items 속성을 설정](media/northwind-orders-canvas-part3/add-details-09.png)
 
-    [**Choice**](functions/function-choices.md) 함수는 **Order Details** 엔터티의 **Product** 필드에 사용할 수 있는 모든 값의 테이블을 반환 합니다. 이 필드는 다 대 일 관계에서 조회 이므로 **선택 항목** 은 **Order Products** 엔터티의 모든 레코드를 반환 합니다.
-
-    > [!NOTE]
-    > 옵션 집합과 함께 **선택 항목** 을 사용 하 여 모든 옵션의 테이블을 반환할 수도 있습니다. 단계는이 접근 방식을 언급 하지 않았지만 요약 양식에 **주문 상태** 를 표시 하는 콤보 상자를 추가할 때 이미 사용 했습니다.
-
-1. **데이터** 창에서 **주 텍스트** 목록을 열고 **nwind_productname**를 선택 합니다. 
-
-1. **Searchfield** 목록을 열고 **nwind_productname**를 선택 합니다.
+1. 콤보 상자의 **속성** 탭에서 **필드**옆에 있는 **편집** 을 선택 하 여 **데이터** 창을 엽니다.  **주 텍스트** 및 **searchfield** 가 **nwind_productname**으로 설정 되어 있는지 확인 합니다.
 
     이 경우 **데이터** 창에서 표시 이름을 지원 하지 않으므로 논리적 이름을 지정 합니다.
 
@@ -449,7 +412,7 @@ ms.locfileid: "71991622"
 1. 이 컨트롤의 **기본** 속성을 **""** 로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![텍스트 입력 상자의 **기본값** 속성을 설정 ](media/northwind-orders-canvas-part3/add-details-21.png)
+    > 텍스트 입력 상자의 * * 기본값 * * 속성을 설정 ![](media/northwind-orders-canvas-part3/add-details-21.png)
 
 1. **홈** 탭에서이 컨트롤의 텍스트 맞춤을 **오른쪽**으로 설정 합니다.
 

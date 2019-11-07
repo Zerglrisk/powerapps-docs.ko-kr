@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 04/25/2019
+ms.date: 11/06/2019
 ms.author: gregli
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d151249caebdb2a6f142943074a409bc626ff662
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 6f49057e55ea52dac98c92109752a05276eec831
+ms.sourcegitcommit: 32542f1d17fee757dcdaf9c247f4051f59b86434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71995867"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73741717"
 ---
 # <a name="create-a-summary-form-in-a-canvas-app"></a>Canvas 앱에서 요약 양식 만들기
 
@@ -94,16 +94,15 @@ ms.locfileid: "71995867"
     > [!div class="mx-imgBorder"]
     > 편집 양식 컨트롤을 이동 하 고 크기를 조정 ![](media/northwind-orders-canvas-part2/form-03.png)
 
-1. 수식 입력줄에서 양식의 **DataSource** 속성을이 값으로 설정 합니다.
+1. **속성** 창에서 **데이터 원본** 드롭다운을 선택 합니다.
 
-    ```powerapps-dot
-    Orders
-    ```
+    > [!div class="mx-imgBorder"]
+    > 편집 양식 컨트롤의 DataSource 속성을 설정 ![](media/northwind-orders-canvas-part2/form-04a.png)
+
+1. **Orders** 데이터 원본을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 편집 양식 컨트롤의 DataSource 속성을 설정 ![](media/northwind-orders-canvas-part2/form-04.png)
-
-    오른쪽 가장자리 근처의 **속성** 탭에서 동일한 속성을 설정할 수 있지만,이 방법은 폼에 필요 하지 않은 필드를 추가 합니다. 수식 입력줄을 사용 하는 경우 양식이 비어 있는 상태로 유지 됩니다.
 
 ## <a name="add-and-arrange-fields"></a>필드 추가 및 정렬
 
@@ -112,10 +111,15 @@ ms.locfileid: "71995867"
     > [!div class="mx-imgBorder"]
     > 필드 창을 열 ![](media/northwind-orders-canvas-part2/form-05.png)
 
-1. **필드** 창에서 **필드 추가**를 선택 하 고 **Customer** 및 **Employee** 필드의 확인란을 선택 합니다.
+1. **필드** 창이 비어 있지 않으면 이미 삽입 된 필드를 제거 합니다.  
 
     > [!div class="mx-imgBorder"]
-    > 편집 양식 컨트롤에 Customer 및 Employee 필드를 추가 ![](media/northwind-orders-canvas-part2/form-06.png)
+    > 필드 창을 열 ![](media/northwind-orders-canvas-part2/form-06a.png)
+
+1. 필드 목록이 비어 있으면 **필드 추가**를 선택한 다음 **Customer** 및 **Employee** 필드의 확인란을 선택 합니다.
+
+    > [!div class="mx-imgBorder"]
+    > 편집 양식 컨트롤에 Customer 및 Employee 필드를 추가 ![](media/northwind-orders-canvas-part2/form-06b.png)
 
 1. 이러한 필드가 나타날 때까지 아래로 스크롤한 다음 해당 확인란을 선택 합니다.
 
@@ -126,11 +130,14 @@ ms.locfileid: "71995867"
     - **유료 날짜**
 
     > [!div class="mx-imgBorder"]
-    > 편집 양식 컨트롤에 5 개 이상의 필드를 추가 ![](media/northwind-orders-canvas-part2/form-07.png)
+    > 편집 양식 컨트롤에 5 개 이상의 필드를 추가 ![](media/northwind-orders-canvas-part2/form-06c.png)
+
+    > [!div class="mx-imgBorder"]
+    > 편집 양식 컨트롤에 5 개 이상의 필드를 추가 ![](media/northwind-orders-canvas-part2/form-06d.png)
 
 1. **필드** 창 맨 아래에서 **추가**를 선택 하 고 **필드** 창을 닫습니다.
 
-    이 폼에는 7 개의 필드가 표시 됩니다.
+    이 폼에는 다른 순서로 표시 될 수 있는 7 개 필드가 표시 됩니다.
 
     > [!div class="mx-imgBorder"]
     > 편집 양식 컨트롤 ![7 개의 필드를 표시](media/northwind-orders-canvas-part2/form-08.png)
@@ -239,7 +246,7 @@ ms.locfileid: "71995867"
 1. **컨트롤 형식** 목록을 엽니다.
 
     > [!div class="mx-imgBorder"]
-    > **컨트롤 형식** 목록을 ![엽니다](media/northwind-orders-canvas-part2/alt-02.png)
+    > * * 컨트롤 형식 * * 목록을 ![엽니다](media/northwind-orders-canvas-part2/alt-02.png)
 
 1. 텍스트 데이터 **보기** 카드를 선택 합니다.
 
@@ -310,7 +317,7 @@ ms.locfileid: "71995867"
 
 ## <a name="add-a-save-icon"></a>저장 아이콘 추가
 
-1. **트리 뷰** 창에서 **Screen1** 를 선택 하 고 ** > **아이콘** 삽입** ** >  선택**합니다.
+1. **트리 뷰** 창에서 **Screen1**를 선택 하 고  > **아이콘** **삽입** ** >  선택**합니다.
 
     > [!div class="mx-imgBorder"]
     > ![삽입 확인 표시 아이콘](media/northwind-orders-canvas-part2/save-01.png)
