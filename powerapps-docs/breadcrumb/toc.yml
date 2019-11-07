@@ -2,48 +2,49 @@
   href: /
   topicHref: /
   items:
-    - name: PowerApps
-      tocHref: /powerapps/
-      topicHref: /powerapps/
+    - name: Power 플랫폼
+      href: /power-platform/
+      topichref: /power-platform/
       items:
-        - name: 앱 만들기
-          tocHref: /powerapps/maker/common-data-service/
-          topicHref: /powerapps/maker/index
-        - name: 앱 만들기
-          tocHref: /powerapps/maker/model-driven-apps/
-          topicHref: /powerapps/maker/index
-        - name: 앱 만들기
-          tocHref: /powerapps/maker/canvas-apps/
-          topicHref: /powerapps/maker/index
-        - name: 앱 만들기
-          tocHref: /powerapps/developer/common-data-service/
-          topicHref: /powerapps/maker/index
+        - name: PowerApps
+          tocHref: /powerapps/
+          topicHref: /powerapps/
           items:
-            - name: 일반 데이터 서비스
+            - name: 앱 만들기
+              tocHref: /powerapps/maker/common-data-service/
+              topicHref: /powerapps/maker/index
+            - name: 앱 만들기
+              tocHref: /powerapps/maker/model-driven-apps/
+              topicHref: /powerapps/maker/index
+            - name: 앱 만들기
+              tocHref: /powerapps/maker/canvas-apps/
+              topicHref: /powerapps/maker/index
+            - name: 앱 만들기
               tocHref: /powerapps/developer/common-data-service/
-              topicHref: /powerapps/maker/common-data-service/index
+              topicHref: /powerapps/maker/index
               items:
-                - name: Developer
+                - name: 일반 데이터 서비스
                   tocHref: /powerapps/developer/common-data-service/
-                  topicHref: /powerapps/developer/common-data-service/index
+                  topicHref: /powerapps/maker/common-data-service/index
                   items:
-                    - name: 조직 서비스
-                      tocHref: /powerapps/developer/common-data-service/org-service/
-                      topicHref: /powerapps/developer/common-data-service/org-service/index
-                    - name: Web API
-                      tocHref: /powerapps/developer/common-data-service/webapi/
-                      topicHref: /powerapps/developer/common-data-service/webapi/index
-        - name: 앱 만들기
-          tocHref: /powerapps/developer/model-driven-apps/
-          topicHref: /powerapps/maker/index
-          items:
-            - name: 모델 기반 앱
+                    - name: Developer
+                      tocHref: /powerapps/developer/common-data-service/
+                      topicHref: /powerapps/developer/common-data-service/index
+                      items:
+                        - name: 조직 서비스
+                          tocHref: /powerapps/developer/common-data-service/org-service/
+                          topicHref: /powerapps/developer/common-data-service/org-service/index
+                        - name: Web API
+                          tocHref: /powerapps/developer/common-data-service/webapi/
+                          topicHref: /powerapps/developer/common-data-service/webapi/index
+            - name: 앱 만들기
               tocHref: /powerapps/developer/model-driven-apps/
-              topicHref: /powerapps/maker/model-driven-apps/index
+              topicHref: /powerapps/maker/index
               items:
-                - name: Developer
+                - name: 모델 기반 앱
                   tocHref: /powerapps/developer/model-driven-apps/
-                  topicHref: /powerapps/developer/model-driven-apps/index
-        - name: 학습 도우미
-          tocHref: /powerapps/guided-learning/
-          topicHref: /powerapps/guided-learning/index
+                  topicHref: /powerapps/maker/model-driven-apps/index
+                  items:
+                    - name: Developer
+                      tocHref: /powerapps/developer/model-driven-apps/
+                      topicHref: /powerapps/developer/model-driven-apps/index
