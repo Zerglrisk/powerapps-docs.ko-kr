@@ -5,7 +5,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 10/28/2019
+ms.date: 11/06/2019
 ms.author: mkaur
 ms.reviewer: ''
 ms.assetid: ''
@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e2f267e0dd0b61324da381a3f7f7e13677b997ee
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: c37e6e9e2b540dcad2c166a4ebf9d71d3b503978
+ms.sourcegitcommit: 10b2798d8f4acd01da15412a2e9fc872d1212d7c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73025965"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73728398"
 ---
 #  <a name="use-the-lookup-field-on-a-record"></a>레코드에 조회 필드 사용
 
@@ -61,6 +61,9 @@ Lookup을 사용 하면 관련 엔터티에서 레코드를 선택할 수 있습
  
 ## <a name="most-recently-used-record-type-images"></a>가장 최근에 사용한 레코드 형식 이미지
 가장 최근에 사용 된 레코드 목록에는 레코드 유형을 구분 하는 데 도움이 되는 이미지가 표시 됩니다.
+
+>[!NOTE] 
+>최근 레코드는 검색어 또는 선택한 보기를 기준으로 필터링 되지 않습니다.
 
   > [!div class="mx-imgBorder"]
   > ![조회 필드가 이미지를 표시 합니다.](media/Lookup_03-MRU_Entity_Images_56[1].png "조회 필드가 이미지를 표시 합니다.")  

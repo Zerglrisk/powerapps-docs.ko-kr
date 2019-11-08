@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: a53aaf84530935e525f1177d85f74e125711fc40
-ms.sourcegitcommit: 4c35aedde46380d5438687ae6f61a3b0cc7e7e2f
+ms.openlocfilehash: f0b095b3cb69eb7b6fd373b28eb2255291c7893a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71969153"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543520"
 ---
 #  <a name="basic-navigation-in-a-model-driven-app"></a>모델 기반 앱의 기본 탐색 
 
@@ -47,7 +47,7 @@ ms.locfileid: "71969153"
 2. 최근 목록에서 항목 옆에 있는 고정 아이콘을 선택하면 고정된 목록에 추가됩니다.
 
    > [!div class="mx-imgBorder"]
-   > ![고정된 레코드](media/pinnedrecords.png "고정된 레코드")
+   > ![고정 된 레코드](media/pinnedrecords.png "고정 된 레코드")
 
 ## <a name="unpin-records-items-or-view"></a>레코드, 항목 또는 보기 고정 해제
 
@@ -61,7 +61,7 @@ ms.locfileid: "71969153"
 미리 설정된 보기 및 쿼리를 사용하여 여러 레코드를 탐색합니다. 레코드에 초점을 맞춘 탐색은 사용자가 목록에서 레코드 간을 이동하고 해당 작업 목록의 손실 없이 다시 쉽게 탐색할 수 있도록 하여 생산성을 개선시킵니다.
 
 > [!div class="mx-imgBorder"]
-> ![레코드 세트 탐색](media/recordset.png "레코드 세트 탐색")
+> ![레코드 집합 탐색](media/recordset.png "레코드 세트 탐색")
 
 ## <a name="reference-panel"></a>참조 패널
 참조 패널은 현재 화면을 이동하지 않고 작업을 완료하는 좋은 방법입니다. 다른 화면으로 이동하지 않고 보고 있는 레코드의 컨텍스트 내에서 계정의 사례 또는 기회와 같은 다른 관련된 항목을 조회할 수 있습니다.
@@ -71,23 +71,23 @@ ms.locfileid: "71969153"
 
  참조 패널에 대해 자세히 알아보려면 이 비디오를 시청하세요.
 
-<div class="embeddedvideo"><iframe src="https://www.microsoft.com/en-us/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
+<div class="embeddedvideo"><iframe src="https://www.microsoft.com/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708" frameborder="0" allowfullscreen=""></iframe></div>
 
 ## <a name="notifications"></a>알림 
 
-양식에 표시되는 알림에는 다음과 같은 세 가지 형식이 있습니다. 정보, 경고 및 오류 알림은 항상 헤더 바로 위에 있는 양식의 맨 위에 제공됩니다.
+양식에 표시 되는 알림 유형은 정보, 경고 및 오류의 세 가지입니다. 알림은 항상 헤더 바로 위에 있는 양식의 맨 위에 제공됩니다.
 
 오류 알림을 선택 하면 오류가 발생 한 폼의 필드로 이동 됩니다.
 
-![알림의 예제](media/notifications.png "알림의 예제")
+![알림 예제](media/notifications.png "알림 예제")
 
 알림이 한 개이면 단일 줄로 표시됩니다.
 
-![단일 알림의 예제](media/single_notification.png "단일 알림의 예제")
+![단일 알림의 예](media/single_notification.png "단일 알림의 예")
 
 둘 이상의 알림이 있으면 알림 수가 표시됩니다. 각 메시지를 보려면 펼침 단추를 선택합니다.
 
-![다중 알림의 예제](media/multiple_notification.png "다중 알림의 예제")
+![여러 알림의 예](media/multiple_notification.png "여러 알림의 예")
 
 ## <a name="grids"></a>배경
 
@@ -99,24 +99,24 @@ ms.locfileid: "71969153"
 
 
    > [!div class="mx-imgBorder"]
-   > ![표 상태](media/grid-remember-state-on-back-navigate.gif "표") 를 기억할 상태
+   > ![표 상태 기억을](media/grid-remember-state-on-back-navigate.gif "표 상태 기억을")
 
 
 점프 막대는 첫 번째 정렬 된 필드를 사용 합니다. 정렬 변경이 수행 되지 않은 경우에는 기본 필드를 사용 하는 점프 막대가 표시 됩니다. 
 
    > [!div class="mx-imgBorder"]
-   > ![표 상태](media/jumpbar-filter-on-sorted-column.gif "표") 를 기억할 상태
+   > ![표 상태 기억을](media/jumpbar-filter-on-sorted-column.gif "표 상태 기억을")
    
 
 **작업 유형** 필드를 필터링 하 고 여러 필터링 유형을 선택할 수 있습니다. 또한 소유자, 상태, 이유 등의 관련 엔터티 필드도 필터링 할 수 있습니다.
 
    > [!div class="mx-imgBorder"]
-   > ![표]필터링(media/grid-activity-type-column-filter.gif "표") 필터링
+   > ![표 필터링](media/grid-activity-type-column-filter.gif "표 필터링")
    
 계층 구조 아이콘을 선택 하는 경우 계층 구조 폼으로 이동 합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![계층 아이콘](media/grid-row-hierarchy-icon.png "계층 구조 아이콘")
+   > ![계층 아이콘](media/grid-row-hierarchy-icon.png "계층 아이콘")
    
 새 탭 또는 창에서 기본 필드 및 조회 필드를 열 수도 있습니다.
 

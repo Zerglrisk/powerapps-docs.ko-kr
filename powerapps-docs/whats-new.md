@@ -19,12 +19,12 @@ search.app:
 searchScope:
 - GetStarted
 - PowerApps
-ms.openlocfilehash: f5d2fc5d493dd46eb6e0bed2bc8d7af754cff0dd
-ms.sourcegitcommit: 25a85b462515cb64f3f2b114864a682abf803f4a
+ms.openlocfilehash: dc170445349e2c3b2bcca02b855914f7644bd685
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70213866"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543366"
 ---
 # <a name="whats-new-in-powerapps"></a>PowerApps의 새로운 기능
 
@@ -34,7 +34,7 @@ ms.locfileid: "70213866"
 
 지난 몇 주 동안 릴리스된 새로운 기능, 수정 및 향상된 기능에 대한 자세한 내용은 [Microsoft PowerApps용 릴리스 버전](https://docs.microsoft.com/business-applications-release-notes/powerplatform/released-versions/powerapps)을 참조하세요.
 
-주간 릴리스 정보에서 정보를 찾는 방법에 대한 자세한 내용을 보려면 이 [블로그 게시물](https://powerapps.microsoft.com/en-us/blog/stay-tuned-with-the-latest-features-and-fixes-through-powerapps-weekly-release-notes/)을 읽어보세요.
+주간 릴리스 정보에서 정보를 찾는 방법에 대한 자세한 내용을 보려면 이 [블로그 게시물](https://powerapps.microsoft.com/blog/stay-tuned-with-the-latest-features-and-fixes-through-powerapps-weekly-release-notes/)을 읽어보세요.
 
 > [!NOTE]
 > 릴리스는 며칠 동안 배포됩니다. 새 기능 또는 업데이트된 기능이 즉시 나타나지 않을 수 있습니다.

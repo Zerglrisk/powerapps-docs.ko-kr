@@ -16,12 +16,12 @@ search.app:
 - PowerApps
 - D365CE
 - D365CE
-ms.openlocfilehash: 555a587a3c0eeb599439f713c9a99a7ace6b205a
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: c8ef71753fd743788b52b4f3578f829f153c0898
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "61545123"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543445"
 ---
 # <a name="use-a-screen-reader"></a>화면 판독기 사용 
 
@@ -29,7 +29,7 @@ ms.locfileid: "61545123"
 화면 판독기를 사용 하면 시력이 낮거나 없는 사용자가 모델 기반 앱에 액세스할 수 있게 되거나 눈 피로 같은 임시 시나리오에 대 한 추가 지원이 필요할 수 있습니다. 내레이터, JAWS 및 NVDA와 같은 일반적으로 사용 되는 화면 판독기가 지원 됩니다. 
 
 - [Microsoft 내레이터 사용에 대 한 자세한 정보](https://support.microsoft.com/help/22798)
-- [JAWS 사용에 대 한 자세한 정보](http://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
+- [JAWS 사용에 대 한 자세한 정보](https://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
 
 
 - [NVDA 사용에 대 한 자세한 정보](https://www.nvaccess.org/get-help/)
@@ -43,7 +43,7 @@ ms.locfileid: "61545123"
 2.  열려는 응용 프로그램의 이름 (예: "Sales")이 표시 될 때까지 **tab** 키를 누릅니다. **Enter** 키를 눌러 앱을 엽니다.
 
 ### <a name="use-scan-mode-in-narrator"></a>내레이터에서 스캔 모드 사용
-검색 모드를 사용 하 여 화살표 키와 일반 바로 가기 키를 사용 하 여 앱을 신속 하 게 탐색할 수 있습니다. 이 모드에서 제목, 링크, 랜드마크, 폼 필드, 컨트롤 및 테이블로 빠르게 이동 합니다. **Caps lock + 스페이스바**를 눌러 검색 모드를 켜고 끕니다. 자세한 정보는 [검색 모드 사용](https://support.microsoft.com/en-us/help/22809/windows-10-narrator-using-scan-mode)
+검색 모드를 사용 하 여 화살표 키와 일반 바로 가기 키를 사용 하 여 앱을 신속 하 게 탐색할 수 있습니다. 이 모드에서 제목, 링크, 랜드마크, 폼 필드, 컨트롤 및 테이블로 빠르게 이동 합니다. **Caps lock + 스페이스바**를 눌러 검색 모드를 켜고 끕니다. 추가 정보: [검색 모드 사용](https://support.microsoft.com/help/22809/windows-10-narrator-using-scan-mode)
 
 ### <a name="find-your-way-around-the-app"></a>앱에 대 한 방법 찾기
 
@@ -74,7 +74,7 @@ Tab 키와 Caps lock + 화살표 키를 사용 하 여 대시보드 차트를 �
 
 
 > [!NOTE]
-> 차트에 대 한 모든 접근성 기능을 사용 하려면 최신 [Windows 10](http://www.microsoft.com/enable/products/windows10/default.aspx) 업데이트를 설치 해야 합니다.
+> 차트에 대 한 모든 접근성 기능을 사용 하려면 최신 [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx) 업데이트를 설치 해야 합니다.
 
 #### <a name="interactive-dashboard-streams"></a>대화형 대시보드 스트림
 **Tab** 키 또는 **Shift + tab** 키를 사용 하 여 계정 대시보드에 있는 것과 같은 대화형 대시보드 스트림 간에 이동 하거나 "제목"을 듣고 **tab** 키를 사용 하 여 빠르게 이동할 때까지 탐색 모드를 변경할 수 있습니다. 대시보드 스트림.

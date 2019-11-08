@@ -6,7 +6,7 @@ manager: kvivek
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: conceptual
-ms.date: 10/25/2019
+ms.date: 10/31/2019
 ms.author: mduelae
 ms.reviewer: ''
 ms.assetid: ''
@@ -15,16 +15,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 5a14662d25a7c2dda79f2399b863b959f9f70cc5
-ms.sourcegitcommit: 79ac9decef3d5aab40fbf3bc95f8f4ba03f9b3df
+ms.openlocfilehash: c0811645429c9f1e7570ceeaf316a5217e440ae4
+ms.sourcegitcommit: bee698ca0d11524377b67813a65e1a022d08c05e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2019
-ms.locfileid: "72959327"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "73609880"
 ---
 # <a name="merge-duplicate-records"></a>중복 레코드 병합 
 
-중복 레코드는 사용자 또는 다른 사용자가 데이터를 수동으로 입력 하거나 데이터를 대량으로 가져올 때 데이터를 증가 시킬 수 있습니다. Common Data Service는 계정 및 연락처에 대해 중복 검색 기능을 제공 하 여 잠재적 중복을 해결 하는 데 도움이 됩니다. 관리자는 다른 상황에 대 한 중복 검색 규칙도 설정할 수도 있습니다.  
+중복 레코드는 사용자 또는 다른 사용자가 데이터를 수동으로 입력 하거나 데이터를 대량으로 가져올 때 데이터를 증가 시킬 수 있습니다. Common Data Service는, 계정 및 연락처와 같은 활성 레코드에 대해 중복 검색 기능을 제공 하 여 잠재적 중복을 해결 하는 데 도움이 됩니다. 레코드를 병합 하는 경우 관련 된 레코드나 자식 레코드도 병합 됩니다. 관리자는 다른 상황에 대 한 중복 검색 규칙도 설정할 수도 있습니다.  
   
 예를 들어 연락처 레코드를 휴대 전화 번호와 함께 연락처 레코드를 입력 하는 경우를 가정해 보겠습니다.  중복 검색 규칙은 이미 유사한 레코드가 있음을 검색 하 고이 대화 상자를 표시 합니다.  
   

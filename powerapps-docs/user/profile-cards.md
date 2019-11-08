@@ -15,19 +15,19 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 67441e506ba2715a9994f6b81cd08426e37e0fc8
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 276c7d3cbf95947306fab768da8af3c4c66b33e0
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71950913"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543390"
 ---
 # <a name="view-the-profile-card-for-a-contact-or-user"></a>연락처 또는 사용자에 대 한 프로필 카드 보기
 
-프로필 카드를 사용 하 여 연락처 또는 사용자에 대 한 빠른 정보를 가져옵니다. Dynamics 365 Sales 및 Dynamics 365 Customer Service와 같이 Dynamics 365의 모델 기반 앱에서 연락처 또는 사용자 필드를 선택 하면 해당 프로필 카드에서 관련 정보를 찾을 수 있습니다. 프로필 카드에 대 한 자세한 내용은 [Office 365의 프로필 카드](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501)를 참조 하세요.
+프로필 카드를 사용 하 여 연락처 또는 사용자에 대 한 빠른 정보를 가져옵니다. Dynamics 365 Sales 및 Dynamics 365 Customer Service와 같이 Dynamics 365의 모델 기반 앱에서 연락처 또는 사용자 필드를 선택 하면 해당 프로필 카드에서 관련 정보를 찾을 수 있습니다. 프로필 카드에 대 한 자세한 내용은 [Office 365의 프로필 카드](https://support.office.com/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501)를 참조 하세요.
 
 > [!NOTE]
->  - **연락처** 및 **사용자** 엔터티에 대해 프로필 카드를 사용할 수 있습니다. 자세한 내용은 [프로필 카드 사용 (관리자 용)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/enable-profile-card)을 참조 하세요.
+>  - **연락처** 및 **사용자** 엔터티에 대해 프로필 카드를 사용할 수 있습니다. 자세한 내용은 [프로필 카드 사용 (관리자 용)](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-profile-card)을 참조 하세요.
 >  - Azure Active Directory에서 Office Delve 서비스에 대해 multi-factor authentication이 설정 된 경우 Common Data Service의 프로필 카드가 표시 되지 않습니다.
 
 ## <a name="view-a-contacts-profile"></a>연락처의 프로필 보기
@@ -62,7 +62,7 @@ ms.locfileid: "71950913"
 ### <a name="where-is-information-shown-in-the-profile-card-coming-from"></a>프로필 카드에 표시 되는 정보는 어디에서 확인할 수 있나요?
 연락처 프로필 카드에 표시 되는 정보는 Microsoft Exchange가 아닌 Common Data Service에서 인출 됩니다. 즉, 연락처 세부 정보는 Dynamics 365에서 제공 됩니다.
 
-사용자 프로필 카드에 표시 되는 정보는 Office 365 (Azure Active Directory)에서 인출 됩니다. 자세한 내용은 [Office 365의 프로필 카드 (관리 섹션)](https://support.office.com/en-us/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501)를 참조 하세요.
+사용자 프로필 카드에 표시 되는 정보는 Office 365 (Azure Active Directory)에서 인출 됩니다. 자세한 내용은 [Office 365의 프로필 카드 (관리 섹션)](https://support.office.com/article/Profile-cards-in-Office-365-e80f931f-5fc4-4a59-ba6e-c1e35a85b501)를 참조 하세요.
 
 ### <a name="how-can-i-customize-the-fields-shown-on-the-profile-card"></a>프로필 카드에 표시 되는 필드를 사용자 지정 하려면 어떻게 해야 하나요?
 현재는 프로필 카드에 표시 되는 필드 목록이 사용자 지정을 위해 열려 있지 않습니다.

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 9ba051395e99dc6f2079d033c10a727a2e95da67
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: dee8b918efc60fed57cc6d8ca407e6cafe2b8060
+ms.sourcegitcommit: bee698ca0d11524377b67813a65e1a022d08c05e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71924584"
+ms.lasthandoff: 11/05/2019
+ms.locfileid: "73609891"
 ---
 # <a name="add-an-appointment-email-phone-call-note-or-task-activity-to-the-timeline"></a>타임라인에 약속, 메일, 전화 통화, 메모 또는 작업 활동 추가 
 
@@ -100,7 +100,7 @@ ms.locfileid: "71924584"
 
 
     > [!NOTE]
-    > 대화 보기에서 전자 메일을 나열 하려면 **설정** > 개인 설정 **설정** > **전자 메일** 탭으로 이동한 다음, **타임 라인에서 대화로 전자 메일 표시**를 선택 합니다. 개인 설정에 대 한 자세한 내용은 [개인 옵션 설정](https://docs.microsoft.com/en-us/powerapps/user/set-personal-options#email-tab-options)을 참조 하세요. 사용 하도록 설정 되 면 타임 라인이 포함 된 모든 폼을 열 수 있습니다. 그러면 전자 메일이 맨 위에 최신 전자 메일을 사용 하 여 대화 스레드로 그룹화 됩니다.
+    > 대화 보기에서 전자 메일을 나열 하려면 **설정** > 개인 설정 **설정** > **전자 메일** 탭으로 이동한 다음, **타임 라인에서 대화로 전자 메일 표시**를 선택 합니다. 개인 설정에 대 한 자세한 내용은 [개인 옵션 설정](https://docs.microsoft.com/powerapps/user/set-personal-options#email-tab-options)을 참조 하세요. 사용 하도록 설정 되 면 타임 라인이 포함 된 모든 폼을 열 수 있습니다. 그러면 전자 메일이 맨 위에 최신 전자 메일을 사용 하 여 대화 스레드로 그룹화 됩니다.
 
    > [!div class="mx-imgBorder"]
    > ![개인 옵션 설정](media/emailsettings1.png "개인 옵션 설정")
@@ -112,6 +112,9 @@ ms.locfileid: "71924584"
 ## <a name="add-an-appointment"></a>약속 추가  
 
 레코드에 약속 활동을 추가하려면 먼저 활동을 추가할 레코드를 저장해야 합니다.  
+
+> [!NOTE]
+> 휴대폰 웹 브라우저에서 모델 기반 앱 웹 클라이언트를 실행 하는 경우, Outlook 용 Dynamics 365 앱, 휴대폰 앱에 대 한 dynamics 365 앱에서 되풀이 약속이 지원 되지 않습니다.
   
 1. 활동을 추가하려는 레코드를 엽니다. 예를 들어, 연락처 레코드를 열 수 있습니다.
   

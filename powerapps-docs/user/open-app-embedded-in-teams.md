@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: dc13524f4f567365cdcb6bf9898b62fcb6eac4c4
-ms.sourcegitcommit: 7a96b693e320d0fced7a82987c012b80002cfd84
+ms.openlocfilehash: 62a7166f228545f2a200570186ee23c868650b79
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70848219"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73543487"
 ---
 # <a name="add-an-app-to-microsoft-teams"></a>Microsoft Teams에 앱 추가
 
@@ -29,15 +29,15 @@ Microsoft Teams는 Office 365 기술을 기반으로 구축된 채팅 기반 협
 
 ![Microsoft 팀에 포함된 앱](./media/open-app-embedded-in-teams/embedded-app.png)
 
-PowerApps에 등록하지 않은 경우 시작하기 전에 [무료로 등록합니다](https://web.powerapps.com/signup?redirect=marketing&email=).
+PowerApps에 등록하지 않은 경우 시작하기 전에 [무료로 등록합니다](https://make.powerapps.com/signup?redirect=marketing&email=).
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>필수 조건
 
 이 절차를 수행하려면 [Office 365 구독](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) 및 [Teams의 채널](https://www.youtube.com/watch?v=he2f1quaR7M)이 필요합니다.
 
 ## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
 
-[https://web.powerapps.com](https://web.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에 로그인합니다.
+[https://make.powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에 로그인합니다.
 
 ## <a name="add-an-app"></a>앱 추가
 
@@ -84,7 +84,7 @@ Microsoft Teams의 데스크톱 앱:
 
 * 앱은 보안(https) 연결을 통해 이미지 및 .pdf 파일과 같은 콘텐츠를 로드해야 합니다.
 * **가속**, **나침반** 및 **위치**와 같은 일부 센서가 지원됩니다.
-* 이러한 오디오 형식만 지원 됩니다. AAC, H264, OGG Vorbis 및 WAV.
+* AAC, H264, OGG Vorbis 및 WAV 오디오 형식만 지원됩니다.
 
 ## <a name="clean-up-resources"></a>리소스 정리
 
