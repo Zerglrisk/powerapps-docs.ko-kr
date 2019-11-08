@@ -1,6 +1,7 @@
-- name: '시작하기: PowerApps란?'
-  href: ../powerapps-overview.md
+- name: 시작
   items:
+    - name: PowerApps란?
+      href: ../powerapps-overview.md
     - name: 30일 평가판 등록
       href: signup-for-powerapps.md
     - name: 커뮤니티 플랜 등록
@@ -23,13 +24,15 @@
     - name: AppSource에서
       href: ../user/app-source.md
     - name: 모델 기반 앱 사용
-      href: ../user/use-model-driven-apps.md
       items:
+        - name: 개요
+          href: ../user/use-model-driven-apps.md
         - name: 통합된 인터페이스
           href: ../user/unified-interface.md
         - name: 탐색 및 기본 사항
-          href: ../user/navigation.md
           items:
+            - name: 개요
+              href: ../user/navigation.md
             - name: 프로필 보기
               href: ../user/view-your-user-profile.md
             - name: 관리자 또는 지원 담당자 찾기
@@ -814,8 +817,9 @@
         - name: 애플리케이션에 캔버스 앱 포함
           href: ./canvas-apps/embedding-sdk.md
 - name: 모델 기반 앱
-  href: ./model-driven-apps/model-driven-app-overview.md
   items:
+    - name: 모델 기반 앱이란?
+      href: ./model-driven-apps/model-driven-app-overview.md
     - name: 샘플 앱 살펴보기
       href: ./model-driven-apps/overview-model-driven-samples.md
     - name: 첫 번째 앱 만들기
@@ -1289,11 +1293,13 @@
     - name: PowerApps 포털 FAQ
       href: ./portals/faq.md
 - name: 일반 데이터 서비스
-  href: ./common-data-service/data-platform-intro.md
   items:
+    - name: Common Data Service란 무엇인가요?
+      href: ./common-data-service/data-platform-intro.md
     - name: 엔터티 작업
-      href: ./common-data-service/entity-overview.md
       items:
+        - name: 엔터티 개요
+          href: ./common-data-service/entity-overview.md
         - name: 엔터티 만들기
           href: ./common-data-service/data-platform-create-entity.md
         - name: 구성 요소가 있는 사용자 지정 엔터티 만들기
