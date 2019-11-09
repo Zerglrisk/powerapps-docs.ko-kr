@@ -13,25 +13,25 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 89c22bec8972c0d58c559a09d4e9f0a8a8e3b7f5
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: b8495c22a703a267cd3ab888247e5cbf6ef6a81d
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61537474"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73900418"
 ---
 # <a name="set-up-data-alerts-for-the-power-bi-dashboard"></a>Power BI 대시보드에 대한 데이터 경고 설정
 > [!NOTE]
-> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
+> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 작업에서는 보류 중인 프로젝트를 승인하는 데 너무 오래 걸리는지를 알리는 Power BI의 경고 및 해당 경고가 발생할 때 응답하는 흐름을 추가합니다. 경고에 대한 자세한 내용은 [Power BI 서비스의 데이터 경고](https://docs.microsoft.com/power-bi/service-set-data-alerts)를 참조하세요.
 
-## <a name="step-1-create-an-alert"></a>1 단계: 경고 만들기
+## <a name="step-1-create-an-alert"></a>1단계: 경고 만들기
 1. Power BI 서비스에서는 최근 작업에서 만든 대시보드를 엽니다.
-2. 단일 숫자를 포함하는 카드에서 줄임표(**...**)를 클릭하거나 누릅니다.
+2. 단일 숫자를 포함하는 카드에서 줄임표( **...** )를 클릭하거나 누릅니다.
    
     ![최대 승인 보류 일 수 카드](./media/sharepoint-scenario-alerts-flow/07-01-01-tile-ellipsis.png)
-3. 종 모양 아이콘 ![클릭하거나 누릅니다.](./media/sharepoint-scenario-alerts-flow/icon-bell.png)을 클릭하거나 탭합니다.
+3. 연필 편집 아이콘을 ![클릭하거나 누릅니다.](./media/sharepoint-scenario-alerts-flow/icon-bell.png)줄임표(...)를 클릭한 다음
    
     ![타일 메뉴](./media/sharepoint-scenario-alerts-flow/07-01-02-tile-bell.png)
 4. 오른쪽 창에서 **경고 규칙 추가**를 클릭하거나 누릅니다.
@@ -43,12 +43,12 @@ ms.locfileid: "61537474"
 
 56이 25라는 임계값을 초과하더라도 경고가 지금 바로 발생하지 않습니다. 데이터가 업데이트될 때 발생합니다. 이것은 [시나리오를 끝까지 실행](sharepoint-scenario-summary.md)할 때 표시됩니다.
 
-경고가 발생한 경우 Power BI는 경고의 작성자에게 전자 메일을 보냅니다. 다음 단계에서는 Microsoft Flow를 사용하여 추가 메일을 전송하는 방법을 살펴봅니다.
+경고가 발생 하면 Power BI는 경고 작성자에 게 전자 메일을 보내고, 다음 단계에서 전원 자동화를 사용 하 여 추가 메일을 전송 하는 방법을 알아봅니다.
 
-## <a name="step-2-create-a-flow-that-responds-to-the-alert"></a>2 단계: 경고에 응답 하는 흐름 만들기
+## <a name="step-2-create-a-flow-that-responds-to-the-alert"></a>2단계: 경고에 응답하는 흐름 만들기
 1. flow.microsoft.com에 로그인하고, **서비스** 및 **Power BI**를 클릭하거나 누릅니다.
    
-    ![Microsoft Flow의 Power BI](./media/sharepoint-scenario-alerts-flow/07-01-05-power-bi.png)
+    ![전원 자동화의 Power BI](./media/sharepoint-scenario-alerts-flow/07-01-05-power-bi.png)
 2. **Power BI 데이터 경고가 트리거될 때 모든 대상에게 전자 메일 보내기**를 클릭하거나 누릅니다.
    
     ![Power BI 데이터 경고가 트리거될 때 전자 메일 보내기](./media/sharepoint-scenario-alerts-flow/07-01-06-alert-flow.png)
@@ -69,7 +69,7 @@ ms.locfileid: "61537474"
    
     ![완료 단추](./media/sharepoint-scenario-alerts-flow/07-01-12-done.png)
 
-[시나리오를 끝까지 실행](sharepoint-scenario-summary.md)할 때 이 흐름 실행을 확인합니다. 이제 이 시나리오의 마지막 작업인 Power BI 보고서를 SharePoint에 포함하기로 이동합니다.
+[시나리오를 끝까지 실행](sharepoint-scenario-summary.md)할 때 이 흐름 실행을 확인합니다. 이제 Power BI 보고서를 SharePoint에 포함 시나리오에서 최근 작업으로 이동합니다.
 
 ## <a name="next-steps"></a>다음 단계
 이 자습서 시리즈의 다음 단계에서는 [SharePoint Online에서 Power BI 프로젝트 보고서를 포함합니다](sharepoint-scenario-embed-report.md).

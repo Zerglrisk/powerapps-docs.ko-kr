@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bb39701a61bcfb75c6fd66e90fc7a5002efcc410
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 636e9f853ada9816e87232348e5ce7ef6df2cedc
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541643"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73898320"
 ---
 # <a name="start-a-flow-in-a-canvas-app"></a>캔버스 앱에서 흐름 시작
 
-Microsoft Flow를 사용하여 캔버스 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 흐름을 시작하도록 앱에서 모든 컨트롤을 구성하여 PowerApps를 닫은 경우에도 계속 실행되도록 할 수 있습니다.
+Power 자동화를 사용 하 여 캔버스 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행 하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 흐름을 시작하도록 앱에서 모든 컨트롤을 구성하여 PowerApps를 닫은 경우에도 계속 실행되도록 할 수 있습니다.
 
 > [!NOTE]
 > 사용자가 앱 내에서 흐름을 실행 하는 경우 해당 사용자에 게 흐름에 지정 된 작업을 수행할 수 있는 권한이 있어야 합니다. 그렇지 않으면 흐름이 실패 합니다.

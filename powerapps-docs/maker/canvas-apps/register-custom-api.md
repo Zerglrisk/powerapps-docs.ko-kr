@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 206a28c15b4bb23d46acb0a707bda5072a43cced
-ms.sourcegitcommit: 4042388fa5e7ef50bc59f9e35df330613fea29ae
+ms.openlocfilehash: 7beb08afe2e7a6fa68f5017ff70f95f5dcee75f8
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "61540155"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73899842"
 ---
 # <a name="custom-connectors-for-canvas-apps"></a>캔버스 앱용 사용자 지정 커넥터
 
-코드를 작성하지 않고도 [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps), [Microsoft Flow](https://flow.microsoft.com) 및 [PowerApps](https://powerapps.microsoft.com)를 사용하여 워크플로 및 캔버스 앱을 빌드할 수 있습니다. 데이터와 비즈니스 프로세스를 통합하기 위해 이러한 서비스는 GitHub, Salesforce 및 Twitter와 같은 다른 서비스뿐만 아니라 Microsoft 서비스 및 제품에 대해 [180개 이상의 커넥터](https://docs.microsoft.com/connectors/)를 제공합니다.
+코드를 작성 하지 않고도 [Azure Logic Apps](https://azure.microsoft.com/services/logic-apps), [파워 자동화](https://flow.microsoft.com)및 [PowerApps](https://powerapps.microsoft.com)를 사용 하 여 워크플로 및 캔버스 앱을 빌드할 수 있습니다. 데이터와 비즈니스 프로세스를 통합하기 위해 이러한 서비스는 GitHub, Salesforce 및 Twitter와 같은 다른 서비스뿐만 아니라 Microsoft 서비스 및 제품에 대해 [180개 이상의 커넥터](https://docs.microsoft.com/connectors/)를 제공합니다.
 
 그러나 경우에 따라 미리 빌드된 커넥터로 사용할 수 없는 API, 서비스 및 시스템을 호출하는 것이 좋습니다. 더 조정된 시나리오를 지원하기 위해 해당 트리거 및 작업에서 *사용자 지정 커넥터*를 작성할 수 있습니다. 커넥터 설명서 사이트에서 사용자 지정 커넥터에 대한 일련의 기본 및 고급 자습서가 있습니다. [사용자 지정 커넥터 개요](https://docs.microsoft.com/connectors/custom-connectors/)를 시작하는 것이 좋지만 특정 영역에 대한 자세한 내용은 다음 항목으로 바로 이동할 수도 있습니다.
 

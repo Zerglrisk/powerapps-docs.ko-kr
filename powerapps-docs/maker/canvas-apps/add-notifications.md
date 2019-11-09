@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4a72fc689fa9b4d7d84f554745e5a04ee2812b70
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: d55245a6fba0383ce897030e87ccf5c4e7c6749d
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541166"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73897933"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
 푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
@@ -41,7 +41,7 @@ ms.locfileid: "73541166"
 > [!NOTE]
 > 흐름에서 푸시 알림을 트리거하는 경우 현재 한 번에 한 명의 사용자 또는 보안 그룹에만 알림을 보낼 수 있습니다.
 
-1. [Microsoft Flow](https://flow.microsoft.com)에서 푸시 알림이 전송되는 시기를 지정하는 트리거를 만듭니다.
+1. [전원 자동화](https://flow.microsoft.com)에서 푸시 알림이 전송 되는 시기를 지정 하는 트리거를 만듭니다.
 
     예를 들어, 레코드가 Common Data Service의 **사례** 엔터티에 추가될 때 알림을 보낼 수 있습니다.
 
@@ -140,7 +140,7 @@ PowerAppsNotification.SendPushNotification(
 * 현재 알림은 Windows Phone용 PowerApps Mobile에 표시되지 않습니다.
 * 현재 웹 브라우저에서만 앱을 실행하는 사용자에게 푸시 알림을 제공하지 않습니다.
 * 알림은 특정 앱 아이콘 대신 일반 PowerApps 아이콘을 표시합니다.
-* Microsoft Flow를 사용하면 한 번에 한 명의 받는 사람에게만 푸시 알림을 보낼 수 있습니다.
+* 전원 자동화를 사용 하는 경우 한 번에 한 명의 받는 사람에 게 푸시 알림을 보낼 수 있습니다.
 
 참조 정보는 [PowerApps 알림 참조](https://docs.microsoft.com/connectors/powerappsnotification/)를 참조하세요.
 

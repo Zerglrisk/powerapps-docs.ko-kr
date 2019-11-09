@@ -13,20 +13,20 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 43e95b88cdf305e7c4b768def83a6b41fa0fcae7
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 4bb09a9aefd3db1981727642d766f308ad9d0ede
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63319338"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73900033"
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Power BI 프로젝트 보고서 게시 및 대시보드 만들기
 > [!NOTE]
-> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악해야 합니다.
+> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 작업에서는 데이터 세트를 게시하고 Power BI 서비스에 보고합니다. 그런 다음, 보고서를 기반으로 하여 대시보드를 만듭니다. 대부분의 경우 보고서에는 많은 수의 시각화가 있으며, 대시보드에는 하위 집합만 사용됩니다. 여기서는 네 가지 시각화를 모두 대시보드에 추가합니다.
 
-## <a name="step-1-publish-the-dataset-and-report"></a>1 단계: 데이터 집합 및 보고서 게시
+## <a name="step-1-publish-the-dataset-and-report"></a>1단계: 데이터 세트 및 보고서 게시
 1. Power BI Desktop의 **홈** 탭에서 **게시**를 클릭하거나 탭합니다.
    
     ![데이터 세트 및 보고서 게시](./media/sharepoint-scenario-publish-report/06-01-01-publish.png)
@@ -48,7 +48,7 @@ ms.locfileid: "63319338"
    
     게시할 때 Power BI Desktop에서 데이터 세트 **(d)** 와 보고서 **(c)** 를 업로드했음을 알 수 있습니다. Power BI Desktop이 아닌 서비스에서 대시보드를 만든 경우 이 작업 영역에는 아직 대시보드 **(b)** 가 없습니다. 곧 대시보드를 만들겠습니다.
 
-## <a name="step-2-configure-credentials-for-refresh"></a>2단계: 새로 고침에 대 한 자격 증명 구성
+## <a name="step-2-configure-credentials-for-refresh"></a>2단계: 새로 고침에 대한 자격 증명 구성
 1. 서비스의 오른쪽 위 모서리에서 ![기어 아이콘](./media/sharepoint-scenario-publish-report/icon-gear.png), **설정**을 차례로 클릭하거나 탭합니다.
 2. **데이터 세트**,**프로젝트 분석**을 차례로 클릭하거나 탭합니다.
    
@@ -71,7 +71,7 @@ ms.locfileid: "63319338"
 
 1. 보고서를 다시 가져오려면 **보고서** 아래에서 **project-analysis**를 클릭하거나 탭합니다.
 
-1. 왼쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘을 클릭하거나](./media/sharepoint-scenario-publish-report/icon-pin.png)을 클릭하거나 탭합니다.
+1. 왼쪽 위의 차트를 클릭하거나 탭한 다음 ![핀 고정 아이콘을 클릭하거나](./media/sharepoint-scenario-publish-report/icon-pin.png)줄임표(...)를 클릭한 다음
    
     ![차트 고정](./media/sharepoint-scenario-publish-report/06-01-12-pin-projected.png)
 2. 고정하려는 대시보드에 대한 이름을 입력한 다음 **핀 고정**을 클릭하거나 탭합니다.

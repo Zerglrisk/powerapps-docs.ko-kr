@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a5b9ddb2006a53796f782db3c620fa592f2a5aed
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 505ddf8bee3108b91ef8e4ca4683ce5fe44172e8
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994873"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73899290"
 ---
 # <a name="transform-your-infopath-form-to-powerapps"></a>InfoPath 양식을 PowerApps로 변환
 
@@ -40,7 +40,7 @@ PowerApps는 다른 추가 작업 없이 웹, SharePoint, Dynamics 365, Teams, P
 PowerApps를 사용하여 사용자의 모바일 디바이스의 강점을 활용할 수 있습니다. 앱 내에서 가속, 카메라, 나침반, 연결 정보 및 위치 신호 모두에 대한 액세스 권한이 있습니다. 이를 통해 앱을 빌드하기 위한 모든 가능성의 세계를 열어 작업을 완수합니다. 물론, 터치 기능은 PowerApps에서 자동이며 앱을 빌드할 때 코드에 별도로 아무것도 추가하지 않습니다.
 
 **기본 제공 가져오기**  
-InfoPath를 사용하면 일반적으로 단일 소스에서 가져온 데이터로 작업합니다. 그러나 다른 소스(예: 다른 사이트 컬렉션의 SharePoint 목록)를 업데이트하거나 외부 서비스에 연결하려는 경우 일이 복잡해집니다. 숨김 코드와 같은 개념은 문제를 더 어렵게 만듭니다. 하지만 PowerApps는 하나의 앱에서 여러 데이터 원본 및 서비스 연결을 사용하여 작업할 수 있도록 설계되었습니다. 현재 [200개 이상의 커넥터](connections-list.md#all-standard-connectors)가 Microsoft Office 365 및 Azure 서비스(예: Microsoft Flow 및 Dynamics 365)를 포함하여 온-프레미스 및 클라우드 데이터의 조합을 지원합니다. 또한 Dropbox, Google, Salesforce, Slack 및 기타 널리 사용되는 서비스 등 여러 타사 서비스에 연결할 수도 있습니다.
+InfoPath를 사용하면 일반적으로 단일 소스에서 가져온 데이터로 작업합니다. 그러나 다른 소스(예: 다른 사이트 컬렉션의 SharePoint 목록)를 업데이트하거나 외부 서비스에 연결하려는 경우 일이 복잡해집니다. 숨김 코드와 같은 개념은 문제를 더 어렵게 만듭니다. 하지만 PowerApps는 하나의 앱에서 여러 데이터 원본 및 서비스 연결을 사용하여 작업할 수 있도록 설계되었습니다. 현재 [200 개 이상의 커넥터](connections-list.md#all-standard-connectors) 는 Microsoft Office 365 및 Azure 서비스 (예: 전원 자동화 및 Dynamics 365)를 비롯 한 온-프레미스 및 클라우드 데이터의 조합을 지원 합니다. 또한 Dropbox, Google, Salesforce, Slack 및 기타 널리 사용되는 서비스 등 여러 타사 서비스에 연결할 수도 있습니다.
 
 이제 원본 데이터가 존재했던 위치가 아니라 사용자가 귀하를 데려가는 위치의 크기를 조정하기 위한 솔루션을 빌드할 수 있습니다.
 
@@ -62,7 +62,7 @@ PowerApps를 사용하여 목록 양식을 네이티브 기능으로 사용자 �
 
 ![SharePoint 통합](./media/transform-infopath/sharepoint-integration.png)
 
-PowerApps의 또 다른 중요한 특징은 같은 양식에서 다른 환경 또는 다른 SharePoint 사이트 컬렉션에 쉽게 연결하는 기능입니다. 예를 들어 SharePoint Online 및 SharePoint 온-프레미스 환경에서 동시에 데이터를 업데이트하고 표시하는 한 가지 양식을 만들기를 원합니까? 문제 없어요. [온-프레미스 데이터 게이트웨이](gateway-management.md)를 설치하면 몇 분 이내로 온-프레미스 데이터와 PowerApps, Power BI, Microsoft Flow 및 Azure Logic Apps의 연결을 실행합니다. 방화벽 규칙을 변경할 필요가 없습니다. 이 앱을 Microsoft Flow와 연결하면 한 단계 더 앞서 나갈 수 있습니다.
+PowerApps의 또 다른 중요한 특징은 같은 양식에서 다른 환경 또는 다른 SharePoint 사이트 컬렉션에 쉽게 연결하는 기능입니다. 예를 들어 SharePoint Online 및 SharePoint 온-프레미스 환경에서 동시에 데이터를 업데이트하고 표시하는 한 가지 양식을 만들기를 원합니까? 문제 없어요. 온 [-프레미스 데이터 게이트웨이](gateway-management.md)를 설치 하는 경우 몇 분 이내에 PowerApps, Power BI, 파워 자동화 및 Azure Logic Apps를 온-프레미스 데이터와 연결 하는 중입니다. 방화벽 규칙을 변경할 필요가 없습니다. 이 앱을 전원 자동화로 연결 하 여 단계를 더 진행할 수 있습니다.
 
 ## <a name="a-standalone-sharepoint-app"></a>독립 실행형 SharePoint 앱
 
@@ -99,7 +99,7 @@ PowerApps가 사용자 지정 가능한 앱을 빌드합니다.
 
 읽기 전용으로 만드는 대신 카드를 숨기려면 **DisplayMode** 오른쪽 위에 있는 **Visible** 속성에 유사한 함수를 삽입합니다.
 
-또한, 예를 들어 사용자의 메일 주소가 승인자의 메일 주소와 일치하는 경우에만 승인 단추를 표시하도록 할 수도 있습니다. 힌트 **User ()를 사용 합니다. 전자 메일** 을 사용 하 여 현재 사용자의 전자 메일 주소에 액세스 합니다. 승인자의 메일 주소를 **YourDataCard**에 저장한 다음, 이 수식에 대한 단추의 **Visible** 속성을 다음과 같이 설정할 수 있습니다.
+또한, 예를 들어 사용자의 메일 주소가 승인자의 메일 주소와 일치하는 경우에만 승인 단추를 표시하도록 할 수도 있습니다. (힌트: **User ()를 사용 합니다. 전자 메일** 을 사용 하 여 현재 사용자의 전자 메일 주소에 액세스 합니다. 따라서 사람의 전자 메일 **주소를 해당 위치에 저장** 한 후 단추의 **표시** 속성을 다음 수식으로 설정할 수 있습니다.
 
 ```If( YourDataCard.Text = User().Email, true, false )```
 
@@ -124,17 +124,17 @@ Active Directory 그룹을 사용하여 앱에 있는 단추 또는 양식에 �
 **앱에서 이메일 보내기**  
 많은 방법으로 PowerApps에서 메일 메시지를 보낼 수 있지만 가장 쉬운 방법은 Office 365 Outlook 커넥터를 사용하는 것입니다. 이 커넥터를 통해 앱에서 직접 메시지를 보낼 수 있습니다. 사서함과 상호 작용하는 이메일 메시지 및 기타 작업을 가져올 수도 있습니다. 메일을 보내는 방법이 나와 있는 [설명서](connections/connection-office365-outlook.md) 또는 커뮤니티 [비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/Send-an-email-from-PowerApps/m-p/74349)도 준비되어 있습니다.
 
-Microsoft Flow를 사용해 작성한 흐름에 앱을 연결하면 예를 들어, SharePoint 승인 워크플로의 일부로 보다 복잡한 메시지를 보낼 수 있습니다. 앱을 Microsoft Flow에 연결하면 PowerApps가 외부 데이터 및 서비스에 매끄럽게 연결되는 것처럼 워크플로 엔진의 모든 역량을 활용하는 것입니다. PowerApps 및 Microsoft Flow 연결 방법에 대한 자세한 내용은 [설명서](using-logic-flows.md)를 확인하세요.
+Power 자동화를 사용 하 고 앱을 만든 흐름에 연결 하 여 더 복잡 한 메시지 (예: SharePoint 승인 워크플로의 일부로)를 보낼 수 있습니다. 앱을 전원 자동화에 연결 하면 PowerApps와 같은 워크플로 엔진의 전체 기능을 외부 데이터 및 서비스에 매우 잘 연결 했습니다. PowerApps 및 전원 자동화를 연결 하는 방법에 대 한 자세한 내용은이 [설명서](using-logic-flows.md)를 확인 하세요.
 
 원하는 메일 옵션을 아직 찾지 못한 경우 Benchmark Email, Gmail, MailChimp, Outlook.com, SendGrid 또는 SMTP에 대한 PowerApps 커넥터를 활용할 수 있습니다. PowerApps의 장점은 연결입니다.
 
 **워크플로**  
-워크플로 엔진 없이 비즈니스 논리 및 비즈니스 앱에 대해 설명하기는 어렵습니다. 좋은 소식은 PowerApps 팀이 휠을 새로 바꾸지 않고 다른 워크플로 엔진을 제공했다는 것입니다. 대신 Microsoft Flow 서비스에 강력한 커넥터를 제공합니다. 사용하기 쉬운 워크플로 엔진을 통해 [200개가 넘는 다양한 서비스](https://flow.microsoft.com/connectors/)에서 프로세스 및 작업을 자동화할 수 있습니다. PowerApps 및 Microsoft Flow 연결 방법에 대한 자세한 내용은 [설명서](using-logic-flows.md)를 확인하세요.
+워크플로 엔진 없이 비즈니스 논리 및 비즈니스 앱에 대해 설명하기는 어렵습니다. 좋은 소식은 PowerApps 팀이 휠을 새로 바꾸지 않고 다른 워크플로 엔진을 제공했다는 것입니다. 대신, 강력한 커넥터를 전원 자동화 서비스에 제공 합니다. 사용하기 쉬운 워크플로 엔진을 통해 [200개가 넘는 다양한 서비스](https://flow.microsoft.com/connectors/)에서 프로세스 및 작업을 자동화할 수 있습니다. PowerApps 및 전원 자동화를 연결 하는 방법에 대 한 자세한 내용은이 [설명서](using-logic-flows.md)를 확인 하세요.
 
 **PowerApps를 사용한 변수**  
 솔루션을 빌드할 때는 변수 사용을 고려하는 것은 당연합니다. PowerApps는 여러 유형의 변수를 제공하지만 필요한 경우에만 사용합니다. 데이터를 가져와 변수에 데이터를 저장하고 해당 변수를 참조하는 것보다는 데이터를 직접 참조하는 방법을 고려해 보세요. Excel과 비교하면 이 모델을 더 잘 이해할 수 있습니다. Excel에서 총계는 변수가 아니라 다른 필드의 합계입니다. 따라서 시트의 다른 곳에 해당 값을 사용하려는 경우 총계를 계산한 셀을 지정합니다. 이 모든 내용에 대한 자세한 설명이 [설명서](working-with-variables.md)에 잘 나와 있습니다. 다른 사고 프로세스에 개방적이어야 합니다.
 
-변수가 필요한 경우(변수가 필요한 경우가 많음) 이 설명서는 다양한 옵션을 이해하는 데 도움이 될 것입니다. PowerApps를 사용하면 변수를 정의할 필요 없다는 점을 잊지 마세요. 저장할 이름 및 값을 지정하는 함수를 사용하면 변수가 생성됩니다. **보기** 탭에서 **변수**를 선택하면 만든 변수를 확인할 수 있습니다. 변수는 메모리에 보관되고 해당 값은 앱을 닫을 때 손실 됩니다. 다음과 같은 유형의 변수를 만들 수 있습니다.
+변수가 필요한 경우(변수가 필요한 경우가 많음) 이 설명서는 다양한 옵션을 이해하는 데 도움이 될 것입니다. PowerApps를 사용하면 변수를 정의할 필요 없다는 점을 잊지 마세요. 저장할 이름 및 값을 지정하는 함수를 사용하면 변수가 생성됩니다. **보기** 탭에서 **변수** 를 선택 하 여 만든 변수를 볼 수 있습니다. 변수는 메모리에 저장 되며 해당 값은 앱을 닫을 때 손실 됩니다. 다음과 같은 유형의 변수를 만들 수 있습니다.
 
 - 전역 변수는 가장 일반적으로 먼저 떠올리는 것입니다. [Set](functions/function-set.md) 함수를 사용하여 전역 변수 값을 지정하고 앱 전체에서 사용 가능하도록 설정합니다.
 
@@ -163,7 +163,7 @@ Microsoft Flow를 사용해 작성한 흐름에 앱을 연결하면 예를 들�
 
 ```Filter( Impacts, ddSelectType.Selected.Value in SCategory )```
 
-계단식 드롭다운이 있는 것처럼 설정합니다. 자세한 내용은 PowerApps 팀 [SharePoint에서이 게시물을 확인 하세요. 간단한 드롭다운 (4 단계)의 계단식 드롭다운. ](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248) 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
+계단식 드롭다운이 있는 것처럼 설정합니다. 자세한 내용은 PowerApps 팀 [SharePoint: Cascading Dropdowns in 4 Easy Steps!](https://powerusers.microsoft.com/t5/PowerApps-Community-Blog/SharePoint-Cascading-Dropdowns-in-4-Easy-Steps/ba-p/16248)(간단한 4단계 계단식 드롭다운!) 게시물 또는 이 [커뮤니티 비디오](https://powerusers.microsoft.com/t5/Video-Webinar-Gallery/PowerApps-Cascading-Dropdown/m-p/92813)를 참조하세요. 걱정하지 마세요. SharePoint 없이 쉽게 해낼 수 있습니다.
 
 **하나의 슈퍼 앱 빌드하지 않기**  
 PowerApps를 사용하면 한 앱에서 다른 앱을 호출할 수 있습니다. 따라서 대용량 InfoPath 양식을 대충 구성하여 사용하기보다는 서로 호출하고 데이터를 주고받기까지 하는 앱 그룹을 빌드할 수 있으므로 더욱 간단하게 개발할 수 있습니다.

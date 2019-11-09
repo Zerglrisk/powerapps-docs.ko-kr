@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ed4b729926cc8a818f8c2d47b98656c91b934788
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 76d4a1ffdc569a3ccfc2567229c99136e744191a
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73542498"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73899306"
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 엔드투엔드 연습
 > [!NOTE]
-> 이 문서는 SharePoint Online에서 PowerApps, Microsoft Flow 및 Power BI를 사용하는 방법에 대한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 시리즈의 자습서에서는 캔버스 앱 및 흐름 빌드부터 보고서 생성 및 SharePoint에 포함에 이르기까지 막대한 양의 정보를 설명했습니다. 지금까지 많은 내용을 알아보고 이러한 기술을 통합하는 방법을 충분히 알아보았으므로 고유한 필요에 따라 SharePoint에 캔버스 앱, 흐름 및 보고서를 통합할 수 있습니다. 마무리하기 전에 시나리오를 끝까지 살펴보고 모든 파트가 함께 작동하는 방법을 확인하려고 합니다.
 
@@ -155,13 +155,13 @@ ms.locfileid: "73542498"
     ![Power BI에서 보낸 경고 전자 메일](./media/sharepoint-scenario-summary/09-06-04-email-powerbi.png)
 5. 데이터 경고 흐름에 추가한 사용자에 대한 받은 편지함을 확인합니다(이 경우에 Allan DeYoung임).
    
-    ![Microsoft Flow에서 보낸 경고 전자 메일](./media/sharepoint-scenario-summary/09-06-05-email-flow.png)
+    ![전원 자동화의 경고 전자 메일](./media/sharepoint-scenario-summary/09-06-05-email-flow.png)
 6. 이제 보류 중인 프로젝트에 대한 정보가 있으므로 뒤로 돌아가서 확인해야 하는 항목을 승인할 수 있습니다.
 
 그러면 엔드투엔드 연습 및 이 시리즈의 자습서를 완료할 수 있습니다. 다음 사이트에서 사용자 경험을 계속하는 것이 좋습니다.
 
 * [PowerApps](https://www.powerapps.com/)
-* [Microsoft Flow](https://flow.microsoft.com)
+* [전원 자동화](https://flow.microsoft.com)
 * [Power BI](https://www.powerbi.com)
 * [Power Users Community](https://powerusers.microsoft.com/)
 * [SharePoint](https://sharepoint.microsoft.com)

@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1a5e27b59f1b19460933b61bb92b312a4b12b6f5
-ms.sourcegitcommit: 6984ce43cc5653ccb957219d2a687907ebb5520c
+ms.openlocfilehash: 60f8fb3c0c6d28bb30140017c2af07040d5ade7f
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72561037"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73898208"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 란 무엇 인가요?
 
-온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 (클라우드에 없는 데이터)와 여러 Microsoft 클라우드 서비스 간에 빠르고 안전한 데이터 전송을 제공 하는 브리지 역할을 합니다. 이러한 클라우드 서비스는 Power BI, PowerApps, Microsoft Flow, Azure Analysis Services 및 Azure Logic Apps를 포함 합니다. 조직은 게이트웨이를 사용 하 여 온-프레미스 네트워크에 데이터베이스 및 기타 데이터 원본을 보관할 수 있지만 클라우드 서비스에서 해당 온-프레미스 데이터를 안전 하 게 사용할 수 있습니다.
+온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 (클라우드에 없는 데이터)와 여러 Microsoft 클라우드 서비스 간에 빠르고 안전한 데이터 전송을 제공 하는 브리지 역할을 합니다. 이러한 클라우드 서비스에는 Power BI, PowerApps, 파워 자동화, Azure Analysis Services 및 Azure Logic Apps가 포함 됩니다. 조직은 게이트웨이를 사용 하 여 온-프레미스 네트워크에 데이터베이스 및 기타 데이터 원본을 보관할 수 있지만 클라우드 서비스에서 해당 온-프레미스 데이터를 안전 하 게 사용할 수 있습니다.
 
 ## <a name="how-the-gateway-works"></a>게이트웨이 작동 방식
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f4babe6356ab0be34b6b08a3d158462b58cbb0cd
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 06dad46643a3de8b8727d890865c9b6f847a825f
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541222"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73899243"
 ---
 # <a name="sign-in-to-powerapps-for-the-first-time"></a>PowerApps에 처음으로 로그인
 
@@ -121,5 +121,5 @@ Common Data Service 데이터베이스를 포함 하는 환경을 선택 하는 
 다음 작업을 수행하여 앱의 기능을 확장합니다.
 
 - [Common Data Service](../common-data-service/data-platform-intro.md)에서 엔터티, 옵션 집합 및 데이터 통합을 관리 합니다.
-- [Microsoft Flow](https://docs.microsoft.com/flow/getting-started)에서 비즈니스 논리를 구성합니다.
+- [Power 자동화](https://docs.microsoft.com/flow/getting-started)에서 비즈니스 논리를 구성 합니다.
 - [솔루션](../../developer/common-data-service/introduction-solutions.md) 작성, 패키지 및 유지 관리합니다.

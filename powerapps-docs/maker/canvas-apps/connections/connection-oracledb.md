@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c8db848e0d6874fd44fedbe9b84539e548867e76
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: df9ad0aead9681d3458d70f44f929c15c073f35a
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541049"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73897805"
 ---
 # <a name="connect-to-an-oracle-database-from-powerapps"></a>PowerApps에서 Oracle 데이터베이스에 연결
 PowerApps에서 연결을 만들고 앱을 빌드한 후에 Oracle 데이터베이스에서 테이블을 나열하고 테이블 행을 만들고 읽으며 업데이트하고 삭제합니다. Oracle 데이터베이스 연결은 트리거 또는 저장 프로시저를 제외한 필터링, 정렬 및 기타 함수의 전체 위임을 지원합니다.
@@ -32,7 +32,7 @@ PowerApps에서 연결을 만들고 앱을 빌드한 후에 Oracle 데이터베�
 ### <a name="install-an-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 설치
 게이트웨이를 설치하려면 [이 자습서](../gateway-management.md)의 단계를 따릅니다.
 
-온-프레미스 데이터 게이트웨이는 온-프레미스 데이터(클라우드에 없는 데이터)와 Power BI, Microsoft Flow, Logic Apps, PowerApps 서비스 사이에 빠르고 안전한 데이터 전송을 제공하면서 다리 역할을 합니다. 여러 서비스 및 여러 데이터 원본과 동일한 게이트웨이를 사용할 수 있습니다. 자세한 내용은 [게이트웨이 이해](../gateway-reference.md)를 참조하세요.
+온-프레미스 데이터 게이트웨이는 온-프레미스 데이터 (클라우드에 없는 데이터)와 Power BI, 파워 자동화, Logic Apps 및 PowerApps 서비스 간에 빠르고 안전한 데이터 전송을 제공 하는 브리지 역할을 합니다. 여러 서비스 및 여러 데이터 원본과 동일한 게이트웨이를 사용할 수 있습니다. 자세한 내용은 [게이트웨이 이해](../gateway-reference.md)를 참조하세요.
 
 ### <a name="install-oracle-client"></a>Oracle 클라이언트 설치
 온-프레미스 데이터 게이트웨이와 동일한 컴퓨터에 [Windows x64용 64비트 ODAC 12c 릴리스 4(12.1.0.2.4)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)를 설치합니다. 그렇지 않은 경우, 알려진 문제의 목록에 설명된 대로 연결을 만들거나 사용하려고 하면 오류가 나타납니다.
