@@ -31,9 +31,9 @@ ms.locfileid: "71986718"
 **[갤러리](control-gallery.md)** 컨트롤을 추가하면 데이터 원본에 테이블을 표시하도록 구성한 다음 사용자가 갤러리에서 선택한 레코드를 표시하도록 양식을 구성할 수 있습니다. 사용자가 편집 저장 및 취소, 레코드 만들기를 선택할 수 있는 **[단추](control-button.md)** 컨트롤을 하나 이상 추가할 수도 있습니다. 컨트롤을 함께 사용하여 [완벽한 솔루션을 만들 수](../working-with-forms.md) 있습니다.
 
 ### <a name="record-selection"></a>레코드 선택
-어떤 양식 종류에서나 **DataSource** 속성을 레코드 테이블로 설정하고 양식의 **Item** 속성은 해당 테이블의 특정 레코드를 표시하도록 설정합니다. 예를 들어 양식의 **Item** 속성은 **[갤러리](control-gallery.md)** 컨트롤의 **SelectedItem** 속성으로 설정할 수 있습니다. 갤러리에서 레코드를 선택할 때 양식이 더 많은 필드를 표시할 수 있는 경우를 제외하고 양식에 동일한 레코드가 표시됩니다. 사용자가 갤러리로 돌아와 다른 레코드를 선택하면 갤러리의 **SelectedItem** 속성이 변경됩니다. 이렇게 변경하면 양식의 **Item** 속성이 업데이트되어 최근에 선택한 레코드를 표시합니다.
+어떤 양식 종류에서나 **DataSource** 속성을 레코드 테이블로 설정하고 양식의 **Item** 속성은 해당 테이블의 특정 레코드를 표시하도록 설정합니다. 예를 들어 양식의 **Item** 속성은갤러리 **[ 컨트롤의 ](control-gallery.md)SelectedItem** 속성으로 설정할 수 있습니다. 갤러리에서 레코드를 선택할 때 양식이 더 많은 필드를 표시할 수 있는 경우를 제외하고 양식에 동일한 레코드가 표시됩니다. 사용자가 갤러리로 돌아와 다른 레코드를 선택하면 갤러리의 **SelectedItem** 속성이 변경됩니다. 이렇게 변경하면 양식의 **Item** 속성이 업데이트되어 최근에 선택한 레코드를 표시합니다.
 
-[Show, edit, or add a record](../add-form.md)(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 **Lookup** 또는 **First** 같은 함수를 사용하여 양식의 **Item** 속성을 설정할 수도 있습니다. 예를 들어 **항목** 속성을 이러한 수식 중 하나로 설정 하 여 Common Data Service의 **Accounts** 엔터티에 Fabrikam 항목을 표시할 수 있습니다.
+**Show, edit, or add a record**(레코드 표시, 편집 또는 추가)의 설명대로 **드롭다운** 컨트롤을 사용하거나 [Lookup](../add-form.md) 또는 **First** 같은 함수를 사용하여 양식의 **Item** 속성을 설정할 수도 있습니다. 예를 들어 **항목** 속성을 이러한 수식 중 하나로 설정 하 여 Common Data Service의 **Accounts** 엔터티에 Fabrikam 항목을 표시할 수 있습니다.
 
 ```First(Accounts)```
 
@@ -48,13 +48,13 @@ ms.locfileid: "71986718"
 
 예를 들어, 단추의 **[Text](properties-core.md)** 속성을 **새로 만들기**로 표시하고 그 **[OnSelect](properties-core.md)** 속성은 **[NewForm](../functions/function-form.md)** 함수를 포함하는 수식으로 설정할 수 있습니다. 사용자가 해당 단추를 선택하면 **새로 만들기** 모드로 전환되어 사용자가 알고 있는 값으로 레코드를 만들 수 있습니다.
 
-**[ResetForm](../functions/function-form.md)** 함수나 **[SubmitForm](../functions/function-form.md)** 함수가 성공적으로 실행된 경우 양식이 다시 **편집** 모드로 전환됩니다.
+ResetForm **[ 함수나 ](../functions/function-form.md)** SubmitForm **[ 함수가 성공적으로 실행된 경우 양식이 다시 ](../functions/function-form.md)편집** 모드로 전환됩니다.
 
 * 단추의 **[Text](properties-core.md)** 속성을 **취소**로 표시하고 그 **[OnSelect](properties-core.md)** 속성은 **[ResetForm](../functions/function-form.md)** 함수를 포함하는 수식으로 설정할 수 있습니다. 사용자가 해당 단추를 선택하면 진행 중인 변경 내용이 무시되며 양식의 값은 다시 데이터 원본의 기본값과 일치하게 됩니다.
 * 단추의 **[Text](properties-core.md)** 속성을 **변경 내용 저장**으로 표시하고 그 **[OnSelect](properties-core.md)** 속성은 **[SubmitForm](../functions/function-form.md)** 함수를 포함하는 수식으로 설정할 수 있습니다. 사용자가 해당 단추를 선택하고 데이터 원본이 업데이트되면 양식의 값이 데이터 원본의 기본값으로 재설정됩니다.
 
 ### <a name="save-changes"></a>변경 내용 저장
-앞 섹션에서 설명한 것처럼 **변경 내용 저장** 단추를 만들면 사용자가 해당 단추를 선택하여 레코드를 만들거나 업데이트한 다음, 변경 내용을 데이터 원본에 저장할 수 있습니다. 또는 **[SubmitForm](../functions/function-form.md)** 함수를 사용하여 구성하기만 한다면 **[이미지](control-image.md)** 컨트롤이나 다른 컨트롤이 동일한 작업을 수행하도록 구성할 수 있습니다. 어느 경우에나 **Error**, **ErrorKind**, **OnSuccess** 및 **OnFailure** 속성은 결과에 대한 피드백을 제공합니다.
+앞 섹션에서 설명한 것처럼 **변경 내용 저장** 단추를 만들면 사용자가 해당 단추를 선택하여 레코드를 만들거나 업데이트한 다음 변경 내용을 데이터 원본에 저장할 수 있습니다. 또는 **[SubmitForm](control-image.md)** 함수를 사용하여 구성하기만 한다면 **[이미지](../functions/function-form.md)** 컨트롤이나 다른 컨트롤이 동일한 작업을 수행하도록 구성할 수 있습니다. 어느 경우에나 **Error**, **ErrorKind**, **OnSuccess** 및 **OnFailure** 속성은 결과에 대한 피드백을 제공합니다.
 
 **[SubmitForm](../functions/function-form.md)** 함수가 실행되면 먼저 사용자가 제출하려는 데이터의 유효성을 검사합니다. 필수 필드에 값이 없거나 다른 값이 어떤 제약 조건에 부합하지 않는 경우 **ErrorKind** 속성이 설정되고 **OnFailure** 수식이 실행됩니다. 데이터가 올바른 경우에만(즉 양식의 **Valid** 속성이 **true**인 경우) 사용자가 선택할 수 있게 **변경 내용 저장** 단추 또는 기타 컨트롤을 구성할 수 있습니다. 사용자는 문제를 해결할 뿐 아니라 **변경 내용 저장** 단추를 다시 선택하여(또는 앞서 설명한 대로 **취소** 단추를 선택하여 변경 내용 취소) **Error** 및 **ErrorKind** 속성을 다시 설정해야 합니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "71986718"
 일부 데이터 원본에서 두 사람이 동시에 동일한 레코드 업데이트를 시도하는 것을 탐지할 수 있습니다. 이 경우 **ErrorKind**가 **ErrorKind.Conflict**로 설정되며 다른 사용자의 변경 내용으로 데이터 원본을 새로 고친 다음, 해당 사용자의 변경 내용을 다시 적용하는 조치를 취합니다.
 
 > [!TIP]
-> 사용자가 진행 중인 변경 내용을 취소할 수 있게 양식에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-navigate.md)** 함수를 포함한다 하더라도 **[ResetForm](../functions/function-form.md)** 함수를 단추의 **[OnSelect](properties-core.md)** 속성에 추가합니다. 그렇지 않으면 양식이 사용자의 변경 내용을 유지합니다.
+> 사용자가 진행 중인 변경 내용을 취소할 수 있게 양식에 **취소** 단추를 제공할 경우, 이 속성이 화면 변경을 위한 **[Navigate](../functions/function-form.md)** 함수를 포함한다 하더라도 **[ResetForm](properties-core.md)** 함수를 단추의 **[OnSelect](../functions/function-navigate.md)** 속성에 추가합니다. 그렇지 않으면 양식이 사용자의 변경 내용을 유지합니다.
 
 ### <a name="layout"></a>레이아웃
 기본적으로 카드는 전화 앱의 한 열, 테이블 앱의 세 열에 놓입니다. 양식을 구성할 때 양식에 있는 열 수와, 카드가 해당 값에 맞출지 여부를 지정할 수 있습니다. 이 설정은 카드의 **X**, **Y** 및 **Width** 속성을 설정하는 데만 사용되므로 속성으로 노출되지 않습니다.
@@ -152,12 +152,12 @@ ms.locfileid: "71986718"
 
 * 이 속성은 **편집 양식** 컨트롤에만 적용됩니다.
 * 이 속성을 사용하여 컨트롤 내의 카드에서 필드 값을 추출합니다.  그런 다음 이 값을 사용하여 **[Patch](../functions/function-patch.md)** 함수 호출이나 연결에서 노출된 다른 메서드로 데이터 원본을 수동으로 업데이트할 수 있습니다.  **[SubmitForm](../functions/function-form.md)** 함수를 사용하는 경우 이 속성이 필요하지 않습니다.
-* 이 속성은 값 레코드를 반환합니다.  예를 들어 양식 컨트롤에 **Name** 및 **Quantity** 필드에 대 한 카드 컨트롤이 포함 되어 있고 해당 카드의 **[업데이트](control-card.md)** 속성 값이 각각 "Widget" 및 10을 반환 하는 경우 양식 컨트롤의 **Updates** 속성 는 @no__t를 반환 합니다. "위젯", 수량: 10} **
+* 이 속성은 값 레코드를 반환합니다.  예를 들어 양식 컨트롤에 **Name** 및 **Quantity** 필드의 카드 컨트롤이 있고 이 카드에 대한 **[Update](control-card.md)** 속성이 각각 "Widget"과 10이라면 양식 컨트롤에 대한 **Updates** 속성은 **{ Name: "Widget", Quantity: 10 }** 를 반환합니다.
 
 **Valid** – **[Card](control-card.md)** 또는 **Edit form** 컨트롤에 올바른 항목이 있고 데이터 원본에 제출할 수 있는지의 여부입니다.
 
 * 이 속성은 **편집 양식** 컨트롤에만 적용됩니다.
-* **양식** 컨트롤의 **Valid** 속성은 양식의 모든 **[카드](control-card.md)** 컨트롤에 있는 **Valid** 속성을 집계합니다. 양식의 **Valid** 속성은 양식의 모든 카드에 있는 데이터가 올바른 경우에만 **true**이며 그 밖의 경우 양식의 **Valid** 속성은 **false**입니다.
+* **양식** 컨트롤의 **Valid** 속성은 양식의 모든카드 **[ 컨트롤에 있는 ](control-card.md)Valid** 속성을 집계합니다. 양식의 **Valid** 속성은 양식의 모든 카드에 있는 데이터가 올바른 경우에만 **true**이며 그 밖의 경우 양식의 **Valid** 속성은 **false**입니다.
 * 양식의 데이터가 올바르지만 아직 제출되지 않았을 때만 변경 내용을 저장하는 단추를 사용하려면 단추의 **DisplayMode** 속성을 다음 수식으로 설정합니다.
   
     **SubmitButton.DisplayMode = If(IsBlank( Form.Error ) || Form.Valid, DisplayMode.Edit, DisplayMode.Disabled)**
@@ -179,7 +179,7 @@ ms.locfileid: "71986718"
 
 **[X](properties-size-location.md)** – 컨트롤의 왼쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 왼쪽 가장자리 사이의 거리입니다.
 
-**[Y](properties-size-location.md)** – 컨트롤의 위쪽 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 위쪽 가장자리 사이의 거리입니다.
+**[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="more-information"></a>자세한 정보
 양식이 작동하는 방법에 대한 포괄적인 개요는 [데이터 양식 이해](../working-with-forms.md)를 참조하세요.

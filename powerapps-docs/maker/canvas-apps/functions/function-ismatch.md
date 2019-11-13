@@ -34,7 +34,7 @@ ms.locfileid: "71992664"
 
 | 열 | 유형 | 설명 |
 |----|----|----|
-| *명명 된&#8209;하위 일치 또는&#8209;하위 항목 일치* | Text | 각 명명 된 하위 항목에는 자체 열이 있습니다. **(? @No__t-1*이름*&gt;** ...을 사용 하 여 명명 된 하위 일치 항목을 만듭니다. 정규식의 명명 된 하위 일치가 미리 정의 된 열 (아래) 중 하 나와 동일한 이름을 가진 경우 하위 일치가 우선적으로 적용 되 고 경고가 생성 됩니다. 이 경고를 방지 하려면 하위 항목의 이름을 바꿉니다. |
+| *명명 된&#8209;하위 일치 또는&#8209;하위 항목 일치* | Text | 각 명명 된 하위 항목에는 자체 열이 있습니다. **(?&lt;*name*&gt;** 를 사용 하 여 명명 된 하위 일치를 만듭니다. 정규식의 명명 된 하위 일치가 미리 정의 된 열 (아래) 중 하 나와 동일한 이름을 가진 경우 하위 일치가 우선적으로 적용 되 고 경고가 생성 됩니다. 이 경고를 방지 하려면 하위 항목의 이름을 바꿉니다. |
 | **FullMatch** | Text | 일치 된 모든 텍스트 문자열입니다. |
 | **StartMatch** | 번호 | 입력 텍스트 문자열 내에서 일치 항목의 시작 위치입니다. 문자열의 첫 번째 문자는 1을 반환 합니다. | 
 | **부분 일치** | 텍스트의 단일 열 테이블 (열 **값**) | 정규식에 표시 되는 순서 대로 명명 된 하위 항목 및 명명 되지 않은 하위 항목의 테이블입니다. 일반적으로 명명 된 하위 일치는와 함께 사용 하기 쉬우며 권장 됩니다. [**ForAll**](function-forall.md) 함수 또는 [**Last**](function-first-last.md)( [**firstn**](function-first-last.md) **(...)) 함수** 를 사용 하 여 개별 하위 항목에 대 한 작업을 수행할 수 있습니다. 정규식에 정의 된 하위 일치가 없는 경우이 테이블은 표시 되지만 비어 있습니다. |
@@ -54,14 +54,14 @@ ms.locfileid: "71992664"
 * **Letter**, **MultipleDigits** 또는 **Email**과 같은 미리 정의된 패턴 (**Match** 열거는 이러한 패턴을 정의합니다.)
 * **"\D + \s + \d +"** 또는 **"[a-z] +"** 와 같은 일반 식 코드
 
-문자열 연결 연산자를 사용 하 여 이러한 요소를 결합 합니다 [ **&** ](operators.md). 예를 들어, **"abc" & Digit & "\s+"** 는 "a", "b" 및 "c", 그 뒤에 0~9의 숫자, 그 뒤에 최소 하나의 공백 문자가 오는 문자와 일치하는 유효한 패턴입니다.
+[ **&** 문자열 연결 연산자 ](operators.md)를 사용 하 여 이러한 요소를 결합 합니다. 예를 들어, **"abc" & Digit & "\s+"** 는 "a", "b" 및 "c", 그 뒤에 0~9의 숫자, 그 뒤에 최소 하나의 공백 문자가 오는 문자와 일치하는 유효한 패턴입니다.
 
 ### <a name="ordinary-characters"></a>일반 문자
 가장 간단한 패턴은 정확히 일치되는 일반 문자의 시퀀스입니다.
 
 예를 들어 **IsMatch** 함수와 함께 사용 하는 경우 문자열 "hello"는 패턴 **"hello"** 와 정확히 일치 합니다. 그 이상 그 이하도 아닙니다. 문자열 "hello!" 는 끝에 느낌표가 오고 문자 "h"에 대 한 대/소문자가 잘못 되었기 때문에 패턴과 일치 하지 않습니다. (이 동작을 수정하는 방법은 [MatchOptions](#match-options)를 참조하세요.)
 
-패턴 언어에서 특정 문자는 특별한 용도로 예약되어 있습니다. 이러한 **@no__t** 문자를 사용 하려면 문자를 문자 그대로 사용 하거나이 항목의 뒷부분에서 설명 하는 미리 정의 된 패턴 중 하나를 사용 하 여 문자를 문자 그대로 사용 하거나이 항목의 뒷부분에 설명 된 미리 정의 된 패턴 중 하나를 사용 합니다. 이 테이블은 특수 문자를 나열합니다.
+패턴 언어에서 특정 문자는 특별한 용도로 예약되어 있습니다. 이러한 **\\** 문자를 사용 하려면 문자를 문자 그대로 사용 하거나,이 항목의 뒷부분에 설명 된 미리 정의 된 패턴 중 하나를 사용 하 여 문자를 문자 그대로 사용 하거나,이 항목의 뒷부분에서 설명 하는 미리 정의 된 패턴 중 하나를 사용 이 테이블은 특수 문자를 나열합니다.
 
 | 특수 문자 | 설명 |
 | --- | --- |
@@ -80,7 +80,7 @@ ms.locfileid: "71992664"
 예를 들어 "Hello?"를 찾아 볼 수 있습니다. 패턴을 사용 하 여 **"Hello\\?"** 물음표 앞에 백슬래시와.
 
 ### <a name="predefined-patterns"></a>미리 정의된 패턴
-미리 정의 된 패턴은 문자 집합 또는 여러 문자 시퀀스 중 하나를 일치 시키는 간단한 방법을 제공 합니다. [문자열 연결 연산자 **&** ](operators.md) 를 사용 하 여 사용자 고유의 텍스트 문자열을 **Match** 열거형의 멤버와 결합 합니다.
+미리 정의 된 패턴은 문자 집합 또는 여러 문자 시퀀스 중 하나를 일치 시키는 간단한 방법을 제공 합니다. [문자열 연결 연산자 **&** ](operators.md) 를 사용 하 여 사용자 고유의 텍스트 문자열을 **Match** 열거형의 멤버와 결합할 수 있습니다.
 
 | 열거형 일치 | 설명 | 정규식 |
 | --- | --- | --- |
@@ -113,8 +113,8 @@ ms.locfileid: "71992664"
 
 정규식은 다양 한 언어로 제공 되며 PowerApps는 JavaScript 언어의 변형을 사용 합니다. 구문에 대 한 소개는 [정규식 구문](https://msdn.microsoft.com/library/1400241x.aspx) 을 참조 하세요. 명명 된 하위 일치 (간혹 명명 된 캡처 그룹 이라고 함)가 지원 됩니다.
 
-- 명명 된 하위 일치: **(? &lt;*name*&gt; ...)**
-- 명명 된 역참조: **\\k @ no__t-2*이름*&gt;**
+- 명명 된 하위 일치: **(?&lt;*name*&gt; ...)**
+- 명명 된 역참조: **\\k&lt;*이름*&gt;**
 
 이 항목의 앞부분에 나오는 enum enum 표에서 각 **열거형은 해당** 정규식과 동일한 행에 표시 됩니다.
 
@@ -124,7 +124,7 @@ ms.locfileid: "71992664"
 | MatchOptions 열거형 | 설명 | 정규식에 대 한 영향 |
 | --- | --- | --- |
 | **BeginsWith** |패턴은 텍스트의 시작 부분에서 일치해야 합니다. |**^** 를 정규식의 시작 부분에 추가합니다. |
-| **Complete** |**IsMatch**에 대 한 기본값입니다. 패턴은 전체 텍스트 문자열을 시작부터 끝까지 일치 해야 합니다. |시작에 **^** 을 추가 하 고 정규식의 끝에 **$** 을 추가 합니다. |
+| **Complete** |**IsMatch**에 대 한 기본값입니다. 패턴은 전체 텍스트 문자열을 시작부터 끝까지 일치 해야 합니다. |시작 부분에 **^** 을 추가 하 고 정규식의 끝에 **$** 를 추가 합니다. |
 | **Contains** |**Match** 및 **matchall**에 대 한 기본값입니다. 패턴은 텍스트의 어딘가에 나타나야 하지만 시작 또는 끝일 필요가 없습니다. |정규식을 수정하지 않습니다. |
 | **EndsWith** |패턴은 텍스트 문자열의 끝과 일치 해야 합니다. |**$** 를 정규식의 끝 부분에 추가합니다. |
 | **IgnoreCase** |는 대 문자와 소문자를 동일 하 게 처리 합니다. 기본적으로 일치는 대/소문자 구분입니다. |정규식을 수정하지 않습니다. 이 옵션은 정규식에 대 한 표준 "i" 한정자와 동일 합니다.  |
@@ -189,10 +189,10 @@ ms.locfileid: "71992664"
 
 | 수식 | 설명 | 결과 |
 |--------|------------|-----------|
-| `Match( "Bob Jones <bob.jones@contoso.com>", "<(?<email>" & Match.Email & ")>"` | 연락처 정보의 전자 메일 부분만 추출 합니다.  | {<br>전자 메일: &nbsp; "bob.jones@contoso.com",<br>FullMatch: &nbsp; "&lt; @ no__t >",<br>부분 일치: &nbsp; [&nbsp; "bob.jones@contoso.com" &nbsp;],<br>StartMatch: pt<br>}  
+| `Match( "Bob Jones <bob.jones@contoso.com>", "<(?<email>" & Match.Email & ")>"` | 연락처 정보의 전자 메일 부분만 추출 합니다.  | {<br>전자 메일:&nbsp;"bob.jones@contoso.com",<br>FullMatch:&nbsp;"&lt;bob.jones@contoso.com>",<br>부분 일치:&nbsp;[&nbsp;"bob.jones@contoso.com"&nbsp;],<br>StartMatch: 11<br>}  
 | `Match( "Bob Jones <InvalidEmailAddress>", "<(?<email>" & Match.Email & ")>"` | 연락처 정보의 전자 메일 부분만 추출 합니다. 올바른 주소 (@ 기호가 없음)를 찾을 수 없으므로 함수는 *blank*를 반환 합니다. | *공백* |  
-| `Match( Language(), "(<language>\w{2})(?:-(?<script>\w{4}))?(?:-(?<region>\w{2}))?" )` | **[언어 함수에서](function-language.md)** 반환 하는 언어 태그의 언어, 스크립트 및 영역 부분을 추출 합니다. 이러한 결과는 미국을 반영 합니다. 더 많은 예제는 [ **언어** 함수 설명서](function-language.md) 를 참조 하세요.  **(?:** 연산자는 다른 하위 일치를 만들지 않고 문자를 그룹화 합니다. | {<br>언어: "en",<br>script: *blank*, <br>국가별 "US",<br>FullMatch: "en-us", <br>부분 일치: ["en", "", "US"], <br>StartMatch: 1<br>} 
-| `Match( "PT2H1M39S", "PT(?:<hours>\d+)H)?(?:(?<minutes>\d+)M)?(?:(?<seconds>\d+)S)?" )` | ISO 8601 기간 값에서 시간, 분 및 초를 추출 합니다. 추출 된 숫자는 여전히 텍스트 문자열에 있습니다. 수치 연산을 수행 하기 전에 [**값**](function-value.md) 함수를 사용 하 여 숫자로 변환 합니다.  | {<br> 시간의 "2",<br>내 "1",<br>까지의 "39",<br>FullMatch: "PT2H1M39S",<br>부분 일치: &nbsp; [&nbsp; "2", &nbsp; "1", &nbsp; "39" &nbsp;],<br>StartMatch: 1<br>} |
+| `Match( Language(), "(<language>\w{2})(?:-(?<script>\w{4}))?(?:-(?<region>\w{2}))?" )` | **[언어 함수에서](function-language.md)** 반환 하는 언어 태그의 언어, 스크립트 및 영역 부분을 추출 합니다. 이러한 결과는 미국을 반영 합니다. 더 많은 예제는 [ **언어** 함수 설명서](function-language.md) 를 참조 하세요.  **(?:** 연산자는 다른 하위 일치를 만들지 않고 문자를 그룹화 합니다. | {<br>언어: "en",<br>script: *blank*, <br>지역: "US",<br>FullMatch: "en-us", <br>부분 일치: ["en", "", "US"], <br>StartMatch: 1<br>} 
+| `Match( "PT2H1M39S", "PT(?:<hours>\d+)H)?(?:(?<minutes>\d+)M)?(?:(?<seconds>\d+)S)?" )` | ISO 8601 기간 값에서 시간, 분 및 초를 추출 합니다. 추출 된 숫자는 여전히 텍스트 문자열에 있습니다. 수치 연산을 수행 하기 전에 [**값**](function-value.md) 함수를 사용 하 여 숫자로 변환 합니다.  | {<br> 시간: "2",<br>분: "1",<br>초: "39",<br>FullMatch: "PT2H1M39S",<br>부분 일치:&nbsp;[&nbsp;"2",&nbsp;"1",&nbsp;"39"&nbsp;],<br>StartMatch: 1<br>} |
 
 마지막 예제를 자세히 살펴보겠습니다. **[Time](function-date-time.md)** 함수를 사용 하 여이 문자열을 날짜/시간 값으로 변환 하려면 명명 된 하위 일치 항목을 개별적으로 전달 해야 합니다. 이렇게 하려면 **일치** 하는 레코드에 대해 작동 하는 **[With](function-with.md)** 함수를 사용 하면 됩니다.
 
@@ -211,11 +211,11 @@ Set( pangram, "The quick brown fox jumps over the lazy dog." )
  
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| `Match( pangram, "THE", IgnoreCase )` | 텍스트 문자열에서 "the"와 일치 **하는 모든** 항목을 찾습니다. 문자열에 두 개의 일치 항목이 포함 되어 있지만 **Match** 를 사용 하 고 **matchall**을 사용 하지 않으므로 첫 번째만 반환 됩니다. 하위 일치가 정의 되지 않았기 때문에 일치 하는 열이 비어 있습니다.  | {<br>FullMatch: "The",<br>부분 일치: [&nbsp;],<br>StartMatch: 32<br>} |
+| `Match( pangram, "THE", IgnoreCase )` | 텍스트 문자열에서 "the"와 일치 **하는 모든** 항목을 찾습니다. 문자열에 두 개의 일치 항목이 포함 되어 있지만 **Match** 를 사용 하 고 **matchall**을 사용 하지 않으므로 첫 번째만 반환 됩니다. 하위 일치가 정의 되지 않았기 때문에 일치 하는 열이 비어 있습니다.  | {<br>FullMatch: "the",<br>부분 일치: [&nbsp;],<br>StartMatch: 32<br>} |
 | `MatchAll( pangram, "the" )` | 텍스트 문자열에서 "the"와 일치 **하는 모든** 항목을 찾습니다. 테스트는 대/소문자를 구분 하므로 "the"의 두 번째 인스턴스만 찾을 수 있습니다. 하위 일치가 정의 되지 않았기 때문에 일치 하는 열이 비어 있습니다.  | <style> img { max-width: none } </style> ![](media/function-ismatch/pangram-the-one.png) |
 | `MatchAll( pangram, "the", IgnoreCase )` | 텍스트 문자열에서 "the"와 일치 **하는 모든** 항목을 찾습니다. 이 경우 테스트는 대/소문자를 구분 하지 않으므로 단어의 두 인스턴스를 모두 찾을 수 있습니다. 하위 일치가 정의 되지 않았기 때문에 일치 하는 열이 비어 있습니다.  | <style> img { max-width: none } </style> ![](media/function-ismatch/pangram-the-two.png) |
 | `MatchAll( pangram, "\b\wo\w\b" )` | 가운데에 "o"가 있는 세 문자 단어를 모두 찾습니다. "갈색"은 세 문자로 된 단어가 아니므로 "\b" (단어 경계)와 일치 하지 않기 때문에 제외 됩니다.  | <style> img { max-width: none } </style> ![](media/function-ismatch/pangram-fox-dog.png) |
-| `Match( pangram, "\b\wo\w\b\s\*(?<between>\w.+\w)\s\*\b\wo\w\b" )` | "Fox"와 "dog" 사이의 모든 문자를 찾습니다. | {<br>between: &nbsp; "은 @ no__t를 통해 @ no__t를 점프 합니다. @ no__t-3lazy",<br>FullMatch: &nbsp; "fox @ no__t-1jumps @ no__t-2over @ no__t-3the @ no__t-4lazy @ no__t-5dog",<br>부분 일치: ["lazy를 위로 이동"],<br>StartMatch: 17@@<br> } |
+| `Match( pangram, "\b\wo\w\b\s\*(?<between>\w.+\w)\s\*\b\wo\w\b" )` | "Fox"와 "dog" 사이의 모든 문자를 찾습니다. | {<br>between:&nbsp;"&nbsp;지연&nbsp;&nbsp;점프 합니다.<br>FullMatch:&nbsp;"fox&nbsp;는&nbsp;lazy&nbsp;dog"를 통해&nbsp;를&nbsp;합니다.<br>부분 일치: ["lazy를 위로 이동"],<br>StartMatch: 17<br> } |
 
 갤러리에서 **Matchall** 의 결과를 보려면 다음을 수행 합니다.
 
