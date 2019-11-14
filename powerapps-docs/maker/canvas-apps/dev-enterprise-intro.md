@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ad4a55c2b86285434dd33fcd02e26d7e81f5a5d6
-ms.sourcegitcommit: 3c97d577ca7a2b5a91e8f9b6eb4ae23749b2c1b9
+ms.openlocfilehash: 824ce3d3767ada450d9590d9b14e539ce66cf4e7
+ms.sourcegitcommit: da16207fe9bf4e2382a9a25463b2ee8c3a680a3b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71198170"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "74086475"
 ---
 # <a name="canvas-apps-for-enterprise-developers-partners-and-isvs"></a>엔터프라이즈 개발자, 파트너 및 ISV용 캔버스 앱
 
@@ -30,11 +30,11 @@ ms.locfileid: "71198170"
 
 - **사용자 지정 커넥터 빌드**: 조직의 데이터 및 웹 서비스에 연결 하는 사용자 지정 커넥터를 개발 합니다. [자세히 알아보기](https://docs.microsoft.com/connectors/custom-connectors/)
 
-- **빌드 Azure Functions**: 사용자 지정 서버 쪽 논리를 사용하여 앱을 확장하도록 Azure Functions를 개발합니다. [자세히 알아보기](https://docs.microsoft.com/azure/azure-functions/functions-powerapps-scenario)
+- **Azure Functions 빌드**: 사용자 지정 서버 쪽 논리를 사용하여 앱을 확장하도록 Azure Functions를 개발합니다. [자세히 알아보기](https://docs.microsoft.com/azure/azure-functions/app-service-export-api-to-powerapps-and-flow)
 
 - **앱 포함**: 이미 조직 내 사람들이 작업을 수행하고 있는 앱을 표시하는, 통합된 솔루션을 만들도록 웹 사이트 환경에 직접 앱을 포함합니다. [자세히 알아보기](embed-apps-dev.md)
 
-- **오프 라인 지원 앱 빌드**: 온라인에 있든 오프라인에 있든 사용자 생산성을 유지할 수 있도록 오프라인에서 사용 가능한 앱을 개발합니다. [자세히 알아보기](offline-apps.md)
+- **오프라인에서 사용 가능한 앱 빌드**: 온라인에 있든 오프라인에 있든 사용자 생산성을 유지할 수 있도록 오프라인에서 사용 가능한 앱을 개발합니다. [자세히 알아보기](offline-apps.md)
 
 ## <a name="canvas-apps-for-isvs-and-microsoft-partners"></a>Isv 및 Microsoft 파트너를 위한 캔버스 앱
 
@@ -42,6 +42,6 @@ Microsoft 파트너 또는 ISV(독립 소프트웨어 공급 업체)로써, 고�
 
 - **사용자 지정 커넥터 빌드 및 인증**: PowerApps가 사용자 서비스와 통신할 수 있도록 하는 커넥터를 빌드하여 Microsoft 클라우드로 제품을 가져옵니다. [자세히 알아보기](https://docs.microsoft.com/connectors/custom-connectors/submit-certification)
 
-- **AppSource에 솔루션 나열**: PowerApps를 사용하여 앱을 빌드하고, 새 고객이 평가판을 사용해 볼 수 있도록 AppSource에 게시함으로써 비즈니스의 새로운 우위를 만듭니다. [자세히 알아보기](dev-appsource-test-drive.md)
+- **AppSource에 대한 솔루션 나열**: PowerApps를 사용하여 앱을 빌드하고, 새 고객이 평가판을 사용해 볼 수 있도록 AppSource에 게시함으로써 비즈니스의 새로운 우위를 만듭니다. [자세히 알아보기](dev-appsource-test-drive.md)
 
-- **지금 무료로 시작**하기: PowerApps 커뮤니티 계획에 무료로 등록하고 전용 개별 환경에서 앱 빌드를 시작합니다. [자세히 알아보기](../dev-community-plan.md)
+- **무료로 지금 시작**: PowerApps 커뮤니티 계획에 무료로 등록하고 전용 개별 환경에서 앱 빌드를 시작합니다. [자세히 알아보기](../dev-community-plan.md)
