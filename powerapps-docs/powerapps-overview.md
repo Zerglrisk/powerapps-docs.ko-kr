@@ -12,12 +12,12 @@ ms.reviewer: kvivek
 searchScope:
 - GetStarted
 - PowerApps
-ms.openlocfilehash: 625629826d2fb0d39c0569b2a757fbfc46118acc
-ms.sourcegitcommit: 133c51f10fc4fe6cd105c2a6af83fc15634143d7
+ms.openlocfilehash: 69322a21510289f5db92f3969ef524fbcd8421c8
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73068767"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73899258"
 ---
 # <a name="what-is-powerapps"></a>PowerApps란?
 
@@ -49,7 +49,7 @@ PowerApps 관리자는 다음을 사용할 수 있습니다.
 
 - **PowerApps 관리 센터**([admin.powerapps.com](https://admin.powerapps.com))를 통해 환경, 사용자, 역할 및 데이터 손실 방지 정책을 만들고 관리합니다. 
 
-- [Admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com)( **전원 플랫폼 관리 센터** )를 통해 환경을 관리 하 고, PowerApps 및 Microsoft Flow에 대 한 실시간 자가 지원 권장 사항 및 지원을 받고, Common Data Service 분석을 볼 수 있습니다. 
+- [Admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com)( **전원 플랫폼 관리 센터** )를 통해 환경을 관리 하 고, PowerApps 및 파워 자동화에 대 한 실시간 자가 지원 권장 사항 및 지원을 받고, Common Data Service 분석을 볼 수 있습니다. 
 
 추가 정보: [PowerApps 관리](/power-platform/admin/admin-guide)
 

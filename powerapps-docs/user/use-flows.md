@@ -1,5 +1,5 @@
 ---
-title: Microsoft Flow를 사용하여 모델 기반 앱에서 프로세스 자동화| MicrosoftDocs
+title: 전원 자동화를 사용 하 여 모델 기반 앱에서 프로세스 자동화 | MicrosoftDocs
 ms.custom: ''
 author: mduelae
 manager: kvivek
@@ -15,39 +15,39 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 0ecf255ab6e710bf65bd60e39b6dc9b8023876f6
-ms.sourcegitcommit: 982cab99d84663656a8f73d48c6fae03e7517321
+ms.openlocfilehash: 784a12d7ab9c525ee8bb9f68ed8fc2188433d103
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "67457199"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73900395"
 ---
-# <a name="use-microsoft-flow-to-automate-processes"></a>Microsoft Flow를 사용하여 프로세스 자동화
+# <a name="use-power-automate-to-automate-processes"></a>전원 자동화를 사용 하 여 프로세스 자동화
 
-Microsoft Flow를 사용하여 자주 사용하는 앱과 서비스 간에 자동화된 프로세스를 만들 수 있습니다. 앱에서 하나 이상의 레코드에서 흐름을 실행할 수 있습니다. 
+전원 자동화를 사용 하면 즐겨 사용 하는 앱과 서비스 간에 자동화 된 프로세스를 만들 수 있습니다. 앱에서 하나 이상의 레코드에서 흐름을 실행할 수 있습니다. 
 
-또한, 앱에서 Microsoft Flow를 열고 새 흐름을 보거나 편집하거나 만들 수 있습니다.  자세한 정보는 [Microsoft Flow 시작](https://docs.microsoft.com/flow/getting-started)
+또한 앱에서 전원 자동화를 열어 새 흐름을 보거나 편집 하거나 만들 수 있습니다.  추가 정보: [전원 자동화 시작](https://docs.microsoft.com/flow/getting-started)
 
 ## <a name="manage-your-flows"></a>Flow 관리 
-앱에서 Microsoft Flow를 연결하여 흐름을 관리합니다.
+앱에서 전원 자동화로 연결 하 여 흐름을 관리 합니다.
   
 > [!NOTE]
-> 앱에서 Microsoft Flow를 관리하고 실행하려면 조직의 시스템 설정에서 Microsoft Flow가 활성화되어 있어야 합니다. 자세한 정보는  [조직의 흐름](https://docs.microsoft.com/flow/organization-q-and-a) 
+> 앱에서 전원 자동화를 관리 하 고 실행 하려면 조직의 시스템 설정에서 전원 자동화를 사용 하도록 설정 해야 합니다. 추가 정보: [조직의 흐름](https://docs.microsoft.com/flow/organization-q-and-a) 
   
 1. 명령 모음에서 **흐름**을 선택 합니다.  
   
    > [!div class="mx-imgBorder"]
-   > ![Microsoft Flow 메뉴](media/flow.png "Microsoft Flow 메뉴") 
+   > ![전원 자동화 메뉴](media/flow.png "전원 자동화 메뉴") 
   
 2. 다음과 같은 옵션이 나타납니다.  
   
-   -   **흐름 만들기**를 선택하면 새 브라우저 탭이 열리고 Microsoft Flow 사이트로 이동합니다. Microsoft Flow 페이지에서 기존 템플릿을 사용하려면 **계속**을 선택하고, 템플릿을 닫거나 선택하거나 새로 만들려면 **X**를 선택합니다.  
+   -   **흐름 만들기** 를 선택 하 여 새 브라우저 탭을 열고 전원 자동화 사이트로 이동 합니다. 전원 자동화 페이지에서 **계속** 기존 템플릿 또는 X를 사용 하 여 다른 템플릿 또는 **X** 를 사용 하 여 닫거나 다른 항목을 선택 하거나 만듭니다.  
   
-   -   **흐름 표시**를 선택하면 새 브라우저 탭이 열리고 Microsoft Flow 사이트로 이동합니다. 여기에 Flow 환경에 있는 모든 흐름이 표시됩니다.  
+   -   흐름 **보기** 를 선택 하 여 새 브라우저 탭을 열고 흐름 환경의 흐름이 표시 되는 전원 자동화 사이트로 이동 합니다.  
   
-   -   **플로우에 로그인**을 선택하면 Microsoft Flow에 연결하고 실행할 흐름을 표시할 수 있습니다. 이 옵션은 현재 Microsoft Flow에 로그인하지 않은 경우에만 표시됩니다.   
+   -   전원 자동화를 사용 하 여 연결 하도록 하려면 **로그인을** 선택 하 고, 실행할 수 있는 흐름을 표시 합니다. 이는 현재 전원 자동화에 로그인 하지 않은 경우에만 표시 됩니다.   
 
-    흐름을 만드는 방법은 [Microsoft Flow 시작](https://docs.microsoft.com/powerapps/maker/canvas-apps/using-logic-flows#create-a-flow)을 참조하세요.  
+    흐름을 만드는 방법에 대 한 자세한 내용은 [전원 자동화 시작](https://docs.microsoft.com/powerapps/maker/canvas-apps/using-logic-flows#create-a-flow) 을 참조 하세요.  
     
  
     
