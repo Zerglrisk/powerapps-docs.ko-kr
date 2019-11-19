@@ -22,7 +22,7 @@ ms.locfileid: "73540919"
 ---
 # <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
 
-**[갤러리](controls/control-gallery.md)** 컨트롤을 캔버스 앱에 추가하여 모든 데이터 원본에서 항목 목록을 표시합니다. 이 토픽에서는 데이터 원본으로 Excel을 사용합니다. **[텍스트 입력](controls/control-text-input.md)** 컨트롤의 필터 조건과 일치하는 항목만 표시하도록 **갤러리** 컨트롤을 구성하여 목록을 필터링합니다.
+**[갤러리](controls/control-gallery.md)** 컨트롤을 캔버스 앱에 추가하여 모든 데이터 원본에서 항목 목록을 표시합니다. 이 토픽에서는 데이터 원본으로 Excel을 사용합니다. 텍스트 입력 **[ 컨트롤의 필터 조건과 일치하는 항목만 표시하도록 ](controls/control-text-input.md)갤러리** 컨트롤을 구성하여 목록을 필터링합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -42,7 +42,7 @@ ms.locfileid: "73540919"
 
     1. **PowerApps Studio 시작** 대화 상자에서 **건너뛰기**를 선택합니다.
 
-    1. Excel 파일의 **FlooringEstimates** 테이블에 [연결을 추가](add-data-connection.md)합니다.
+    1. Excel 파일의 [FlooringEstimates](add-data-connection.md) 테이블에 **연결을 추가**합니다.
 
 ## <a name="add-a-gallery-to-a-blank-screen"></a>빈 화면에 갤러리 추가
 
@@ -92,11 +92,11 @@ ms.locfileid: "73540919"
     ![최종 갤러리](./media/add-gallery/final-gallery.png)
 
 ## <a name="filter-and-sort-a-gallery"></a>갤러리 필터링 및 정렬
-**갤러리** 컨트롤의 **[Items](controls/properties-core.md)** 속성은 표시하는 항목을 결정합니다. 이 절차에서는 필터 조건을 기반으로 표시 되는 레코드와 순서를 결정 하도록 해당 속성을 구성 합니다.
+**갤러리[ 컨트롤의 ](controls/properties-core.md)** Items 속성은 표시하는 항목을 결정합니다. 이 절차에서는 필터 조건을 기반으로 표시 되는 레코드와 순서를 결정 하도록 해당 속성을 구성 합니다.
 
 ![검색 상자 및 정렬 아이콘](./media/add-gallery/text-search-box.png)
 
-1. **갤러리** 컨트롤의 **[Items](controls/properties-core.md)** 속성을 이 수식으로 설정합니다.
+1. **갤러리[ 컨트롤의 ](controls/properties-core.md)** Items 속성을 이 수식으로 설정합니다.
 
     ```powerapps-dot
     Sort

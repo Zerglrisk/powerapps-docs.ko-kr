@@ -191,7 +191,7 @@ ms.locfileid: "73537095"
 
 1. 필드 **프로그램도 있습니다**위에 레이블을 추가한 경우 해당 레이블에 대해 앞의 두 단계를 반복 합니다.
 
-1. **프로그램도 있습니다** 의 복제본 이름이 **Gallery2_1**인지 확인 하 고 **Items** 속성을 다음 수식으로 설정 합니다.
+1. 중복 **프로그램도 있습니다** 의 이름이 **Gallery2_1**인지 확인 하 고 **Items** 속성을 다음 수식으로 설정 합니다.
 
     ```powerapps-dot
     Filter( Reservations, IsBlank( 'Product Reservation' ) )
@@ -199,9 +199,9 @@ ms.locfileid: "73537095"
 
     위임 경고가 표시 되지만이 예에서는 적은 양의 데이터를 사용 하는 것은 중요 하지 않습니다.
 
-    ![Gallery2_1의 Items 속성 설정](media/function-relate-unrelate/reservations-lost.png)
+    ![Gallery2_1의 Items 속성을 설정 합니다.](media/function-relate-unrelate/reservations-lost.png)
 
-이와 같이 변경 하면 사용자가 제품을 예약 하지 않은 경우 연락처에 대 한 **ComboBox1** 에서 선택을 지울 수 있습니다. 제품을 예약 하지 않은 연락처는 사용자가 제품에 각 연락처를 할당할 수 있는 **Gallery2_1** 에 표시 됩니다.
+이와 같이 변경 하면 사용자가 제품을 예약 하지 않은 경우 연락처에 대 한 **ComboBox1** 에서 선택을 지울 수 있습니다. 제품을 예약 하지 않은 연락처는 사용자가 제품에 각 연락처를 할당할 수 있는 **Gallery2_1** 표시 됩니다.
 
    ![일대다 앱에서 Relate 및 인시던트와 관계 해제 함수 시연](media/function-relate-unrelate/reservations-lostandfound.gif)
 
@@ -312,27 +312,27 @@ ms.locfileid: "73537095"
 
 1. 중복 된 **Screen1**입니다.
 
-    중복은 이름이 **Screen1_1** 으로 지정 되 고 연락처 측의 관계를 확인 하기 위한 기본을 형성 합니다.
+    중복 된 **Screen1_1** 이름이 지정 되 고 연락처 측의 관계를 확인 하는 기준이 형성 됩니다.
 
     ![화면 복제](media/function-relate-unrelate/contacts-duplicate.png)
 
-1. 역방향 뷰를 만들려면 **Screen1_1**의 컨트롤에서 다음 수식을 변경 합니다.
+1. 역방향 뷰를 만들려면 **Screen1_1**의 컨트롤에서 이러한 수식을 변경 합니다.
 
-    - Screen1_1 = `Refresh( Contacts )`
+    - Screen1_1. OnVisible = `Refresh( Contacts )`
     - Gallery1_1 = `Contacts`
     - Title1_1 = `ThisItem.'Full Name'`
     - Label1_1 = `"Selected Contact Products"`
     - Gallery2_1 = `Gallery1_1.Selected.Products`
     - Title2_1 = `ThisItem.Name`
-    - Icon1_1 = `Unrelate( Gallery1_1.Selected.Products, ThisItem )`
+    - Icon1_1. OnSelect = `Unrelate( Gallery1_1.Selected.Products, ThisItem )`
     - ComboBox1_1 = `Products`
-    - Icon2_1 = `Relate( Gallery1_1.Selected.Products, ComboBox1_1.Selected )`
+    - Icon2_1. OnSelect = `Relate( Gallery1_1.Selected.Products, ComboBox1_1.Selected )`
 
     결과는 이전 화면과 매우 유사 하지만 **연락처** 측의 관계에서 제공 됩니다.
 
     ![연락처에서 시작 하 여 다 대 다 관계 표시](media/function-relate-unrelate/reverse-screen.png)
 
-1. **화살표** 스핀 아이콘을 삽입 하 고 **Onselect** 속성을 **Navigate (Screen1, None)** 로 설정 합니다.  수식 **탐색 (Screen1_1, 없음)** 을 사용 하 여 **Screen1** 에서 동일한 작업을 수행 합니다.
+1. **화살표** 스핀 아이콘을 삽입 하 고 **Onselect** 속성을 **Navigate (Screen1, None)** 로 설정 합니다.  **Navigate (Screen1_1, None)** 수식을 사용 하 여 **Screen1** 에서 동일한 작업을 수행 합니다.
 
     ![화면 간 탐색 추가](media/function-relate-unrelate/reverse-navigate.png)
 
