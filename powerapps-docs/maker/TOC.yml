@@ -1140,6 +1140,8 @@
           href: ./portals/admin/migrate-portal-configuration.md
         - name: 포털 수명 주기 정보
           href: ./portals/admin/portal-lifecycle.md
+        - name: 포털 업그레이드
+          href: ./portals/admin/upgrade-portal.md
     - name: 고급 포털 구성
       items:
         - name: 개요
@@ -1188,12 +1190,22 @@
           href: ./portals/configure/place-child-nodes.md
         - name: 날짜 및 시간 필드의 동작 및 형식
           href: ./portals/configure/behavior-format-date-time-field.md
+        - name: 포털 타임라인에서 메일 레코드 보기
+          href: ./portals/configure/view-email-in-timeline.md
+        - name: 웹 페이지 평가
+          href: ./portals/configure/rate-webpage.md
+        - name: 포털에서 머리글 및 바닥글 출력 캐싱 사용
+          href: ./portals/configure/enable-header-footer-output-caching.md
         - name: 포털의 웹 페이지에 차트 추가
           href: ./portals/configure/add-chart.md
         - name: 엔터티 양식 작업
           href: ./portals/configure/entity-forms.md
         - name: 엔터티 목록 작업
           href: ./portals/configure/entity-lists.md
+        - name: 웹 사이트 관리
+          href: ./portals/configure/websites.md
+        - name: 웹 사이트 바인딩 만들기 및 관리
+          href: ./portals/configure/website-bindings.md
         - name: 웹 양식 작업
           items:
             - name: 웹 양식 속성 정의
@@ -1216,6 +1228,8 @@
               href: ./portals/configure/configure-web-form-subgrid.md
             - name: 지리적 위치 추가
               href: ./portals/configure/add-geolocation.md
+        - name: 포털에서 GDPR 구현
+          href: ./portals/configure/implement-gdpr.md
     - name: 고급 포털 사용자 지정
       items:
         - name: Liquid 템플릿 사용
@@ -1262,6 +1276,8 @@
                   href: ./portals/liquid/render-site-header-primary-navigation.md
         - name: OAuth 2.0 암시적 허용 흐름
           href: ./portals/oauth-implicit-grant-flow.md
+        - name: 웹 페이지 관리
+          href: ./portals/configure/web-page.md
     - name: 포털의 사용자 관리 및 보안
       items:
         - name: 연락처 구성
@@ -1446,6 +1462,8 @@
           href: ./common-data-service/solution-history.md
         - name: 솔루션 검사기 사용
           href: ./common-data-service/use-powerapps-checker.md
+        - name: '일반적인 문제 및 해결 방법: 솔루션 검사기'
+          href: ./common-data-service/common-issues-resolutions-solution-checker.md
         - name: 분할된 솔루션 사용
           href: ./common-data-service/use-segmented-solutions-patches-simplify-updates.md
         - name: 솔루션 게시자 접두사 변경
