@@ -11,7 +11,7 @@ ms.author: shjais
 ms.reviewer: ''
 ms.openlocfilehash: 59ed66842874414737b7bdc04f0f4dfa51d212c8
 ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2019
 ms.locfileid: "73542862"
@@ -62,7 +62,7 @@ ms.locfileid: "73542862"
 | 오류 메시지         | 메모 목록을 로드 하는 동안 오류가 발생할 때 표시 되는 메시지를 재정의 합니다.                                                                     |
 | 액세스 거부 메시지 | 사용자에 게 메모 목록을 볼 수 있는 권한이 없는 경우 표시 되는 메시지를 재정의 합니다.                                                    |
 | 빈 메시지         | 현재 엔터티에 볼 수 있는 노트가 없는 경우 표시 되는 메시지를 재정의 합니다.                                                              |
-| 주문 나열           | 노트가 표시 되는 순서를 설정할 수 있습니다. 주문 나열 설정을 사용 하 여 다음을 설정할 수 있습니다. <ul><li>Attribute: 정렬 하려는 열의 논리적 이름입니다.</li><li>Alias: 쿼리의 특성에 대 한 별칭입니다.</li><li>방향: 오름차순 (오름차순, 오름차순 또는 first to last) 또는 내림차순 (가장 큰 값에서 가장 작은 값 또는 첫 번째 끝까지).</li></ul> ![주문 목록 특성 설정](media/set-attributes-list-orders.png "S목록 주문에 대 한 et 특성) 정렬 규칙을 추가 하려면 "열" (4)을 선택 하 고 세부 정보를 입력 합니다. 목록 순서는 우선 순위가 가장 높은 목록의 맨 위에서 순서 대로 처리 됩니다.|
+| 주문 나열           | 노트가 표시 되는 순서를 설정할 수 있습니다. 주문 나열 설정을 사용 하 여 다음을 설정할 수 있습니다. <ul><li>Attribute: 정렬 하려는 열의 논리적 이름입니다.</li><li>Alias: 쿼리의 특성에 대 한 별칭입니다.</li><li>방향도 오름차순 (오름차순, 오름차순 또는 first to last) 또는 내림차순 (가장 큰 값에서 가장 작은 값으로 또는 마지막에서 첫 번째까지).</li></ul> ![주문 목록 특성 설정](media/set-attributes-list-orders.png "S목록 주문에 대 한 et 특성) 정렬 규칙을 추가 하려면 "열" (4)을 선택 하 고 세부 정보를 입력 합니다. 목록 순서는 우선 순위가 가장 높은 목록의 맨 위에서 순서 대로 처리 됩니다.|
 ||
 
 
