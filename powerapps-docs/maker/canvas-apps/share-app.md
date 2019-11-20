@@ -13,19 +13,19 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fa86d8027775bc74178699a18371fc9e2cef2917
-ms.sourcegitcommit: 32542f1d17fee757dcdaf9c247f4051f59b86434
+ms.openlocfilehash: 2fdf5577f907e2beb7ead5eef3c4d7b06aeaa9c5
+ms.sourcegitcommit: 01fefd7a06bf5d6509acd0bb54ea6479208cbbc8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73741293"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74177877"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
 비즈니스 요구를 해결하는 캔버스 앱을 빌드한 후에 조직의 어떤 사용자가 앱을 실행하고 수정하며 심지어 다시 공유할 수 있는지 지정합니다. 이름으로 각 사용자를 지정하거나, Azure Active Directory의 보안 그룹을 지정합니다. 모든 사용자가 앱의 이점을 누리는 경우 조직 전체가 실행할 수 있도록 지정합니다.
 
 > [!IMPORTANT]
-> 공유 앱이 원하는 대로 작동 하려면 [Common Data Service](#common-data-service) 또는 [Excel](share-app-data.md)과 같이 앱의 기반이 되는 데이터 원본 또는 원본에 대 한 권한도 관리 해야 합니다. 또한, 앱이 종속된 [기타 리소스](share-app-resources.md)(예: 흐름, 게이트웨이 또는 연결)도 공유해야 합니다.
+> For a shared app to function as you expect, you must also manage permissions for the data source or sources on which the app is based, such as [Common Data Service](#common-data-service) or [Excel](share-app-data.md). 또한, 앱이 종속된 [기타 리소스](share-app-resources.md)(예: 흐름, 게이트웨이 또는 연결)도 공유해야 합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -41,199 +41,199 @@ ms.locfileid: "73741293"
 
     ![앱 목록 표시](./media/share-app/file-apps.png)
 
-1. 해당 아이콘을 선택 하 여 공유 하려는 앱을 선택 합니다.
+1. Select the app that you want to share by selecting its icon.
 
-    ![앱 선택](./media/share-app/select-app.png)
+    ![Select an app](./media/share-app/select-app.png)
 
-1. 배너에서 **공유**를 선택 합니다.
+1. In the banner, select **Share**.
 
     ![공유 화면 열기](./media/share-app/banner-share.png)
 
-1. 앱을 공유 하려는 Azure Active Directory의 사용자 또는 보안 그룹을 이름 또는 별칭으로 지정 합니다.
+1. Specify by name or alias the users or security groups in Azure Active Directory with which you want to share the app.
 
-    - 전체 조직에서 앱을 실행 (수정 하거나 공유 하지 않음) 할 수 있도록 하려면 공유 패널에 **Everyone** 을 입력 합니다.
-    - 항목이 세미콜론으로 구분 되는 경우 별칭의 목록, 이름 또는 이러한 항목의 조합 (예: **Jane Doe &lt;jane.doe@contoso.com**)을 사용 하 여 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
+    - To allow your entire organization to run the app (but not modify or share it), type **Everyone** in the sharing panel.
+    - You can share an app with a list of aliases, friendly names, or a combination of those (for example, **Jane Doe &lt;jane.doe@contoso.com** ) if the items are separated by semi-colons. If more than one person has the same name but different aliases, the first person found will be added to the list. A tooltip appears if a name or alias already has permission or can't be resolved. 
 
-    ![사용자 및 공동 소유자 지정](./media/share-app/share-everyone.png)
-
-    > [!NOTE]
-    > 조직의 메일 그룹이 나 조직 외부의 사용자 또는 그룹과 앱을 공유할 수 없습니다.
-
-1. 앱을 공유 하는 앱을 공유 하는 사용자가 앱을 공유 하는 것을 허용 하려는 경우 **공동 소유자** 확인란을 선택 합니다.
-
-    [솔루션 내에서 앱을 만든](add-app-solution.md)경우에는 보안 그룹에 대 한 **공동 소유자** 권한을 부여할 수 없습니다.
+    ![Specify users and co-owners](./media/share-app/share-everyone.png)
 
     > [!NOTE]
-    > 사용 권한에 관계 없이 두 사람이 동시에 앱을 편집할 수 없습니다. 한 사람이 편집을 위해 앱을 여는 경우 다른 사용자가 앱을 실행할 수 있지만 편집할 수는 없습니다.
+    > You can't share an app with a distribution group in your organization or with a group outside your organization.
 
-1. 앱이 사용자가 액세스 권한을 필요로 하는 데이터에 연결 하는 경우 해당 데이터를 지정 합니다.
+1. If you want to allow those with whom you're sharing the app to edit and share it (in addition to running it), select the **Co-owner** check box.
 
-    예를 들어 앱이 Common Data Service 데이터베이스의 엔터티에 연결할 수 있습니다. 이러한 앱을 공유 하는 경우 공유 패널에 해당 엔터티에 대 한 보안을 관리 하 라는 메시지가 표시 됩니다.
+    You can't grant **Co-owner** permission to a security group if you [created the app from within a solution](add-app-solution.md).
+
+    > [!NOTE]
+    > Regardless of permissions, no two people can edit an app at the same time. If one person opens the app for editing, other people can run it but not edit it.
+
+1. If your app connects to data for which users need access permissions, specify them.
+
+    For example, your app might connect to an entity in a Common Data Service database. When you share such an app, the sharing panel prompts you to manage security for that entity.
 
     > [!div class="mx-imgBorder"]
-    > 보안 역할을 할당 ![](media/share-app/cds-assign-security-role.png)
+    > ![Assign a security role](media/share-app/cds-assign-security-role.png)
 
-    엔터티에 대 한 보안을 관리 하는 방법에 대 한 자세한 내용은이 항목의 뒷부분에 나오는 [엔터티 권한 관리](share-app.md#manage-entity-permissions) 를 참조 하세요.
+    For more information about managing security for an entity, see [Manage entity permissions](share-app.md#manage-entity-permissions) later in this topic.
 
-1. 사용자가 앱을 찾는 데 도움이 되도록 하려면 **새 사용자에 게 전자 메일 초대 보내기** 확인란을 선택 합니다.
+1. If you want to help people find your app, select the **Send an email invitation to new users** check box.
 
-1. 공유 패널의 아래쪽에서 **공유**를 선택 합니다.
+1. At the bottom of the share panel, select **Share**.
 
-    앱을 공유 하는 모든 사용자는 모바일 장치의 PowerApps Mobile에서 또는 브라우저의 [Dynamics 365](https://home.dynamics.com) 에 대 한 appsource에서 실행할 수 있습니다. 공동 소유자는 [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 편집 하 고 공유할 수 있습니다.
+    Everyone with whom you shared the app can run it in PowerApps Mobile on a mobile device or in AppSource on [Dynamics 365](https://home.dynamics.com) in a browser. Co-owners can edit and share the app in [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 
-    전자 메일 초대를 보낸 경우 앱을 공유한 모든 사람이 초대의 링크를 선택 하 여 실행할 수 있습니다.
+    If you sent an email invitation, everyone with whom you shared the app can run it by selecting a link in the invitation.
 
-    - 사용자가 모바일 장치에서 링크를 선택 하면 PowerApps Mobile에서 앱이 열립니다.
-    - 사용자가 데스크톱 컴퓨터에서 링크를 선택 하면 앱이 브라우저에서 열립니다.
+    - If a user selects the link on a mobile device, the app opens in PowerApps Mobile.
+    - If a user selects the link on a desktop computer, the app opens in a browser.
 
-    초대를 받는 공동 소유자는 PowerApps Studio에서 편집 하기 위해 앱을 여는 다른 링크를 받습니다.
+    Co-owners who receive an invitation get another link that opens the app for editing in PowerApps Studio.
 
-사용자 또는 보안 그룹의 이름을 선택 하 고 다음 단계 중 하나를 수행 하 여 사용자 또는 보안 그룹에 대 한 권한을 변경할 수 있습니다.
+You can change permissions for a user or a security group by selecting their name and then performing either of these steps:
 
-- 공동 소유자가 앱을 실행할 수 있지만 더 이상 편집 하거나 공유 하지 않으려면 **공동 소유자** 확인란의 선택을 취소 합니다.
-- 해당 사용자 또는 그룹과 앱 공유를 중지 하려면 제거 (x) 아이콘을 선택 합니다.
+- To allow co-owners to run the app but no longer edit or share it, clear the **Co-owner** check box.
+- To stop sharing the app with that user or group, select the Remove (x) icon.
 
 ## <a name="security-group-considerations"></a>보안 그룹 고려 사항
 
 - 보안 그룹과 앱을 공유한 경우 그룹의 기존 회원 및 가입하는 모든 회원이 해당 그룹에 지정된 사용 권한을 받습니다. 그룹을 떠난 사람은 액세스 권한이 있는 다른 그룹에 속하거나, 개인으로 사용 권한이 부여되지 않는 한 해당 사용 권한을 잃게 됩니다.
 
-- 보안 그룹의 모든 구성원은 앱에 대해 전체 그룹과 동일한 권한을 갖습니다. 하지만 해당 그룹의 한 명 또는 그 이상의 회원에게 더 많은 사용 권한을 지정하여 더 많은 액세스를 허용할 수 있습니다. 예를 들어 보안 그룹에 앱을 실행할 수 있는 권한을 부여할 수 있지만, 해당 그룹에 속한 사용자 B, **공동 소유자** 권한을 제공할 수도 있습니다. 보안 그룹의 모든 구성원은 앱을 실행할 수 있지만 사용자 B만 편집할 수 있습니다. 앱을 실행할 수 있는 보안 그룹에 **공동 소유자** 권한 및 사용자 B 권한을 부여 하는 경우 해당 사용자는 여전히 앱을 편집할 수 있습니다.
+- 보안 그룹의 모든 구성원은 앱에 대해 전체 그룹과 동일한 권한을 갖습니다. 하지만 해당 그룹의 한 명 또는 그 이상의 회원에게 더 많은 사용 권한을 지정하여 더 많은 액세스를 허용할 수 있습니다. For example, you can give Security Group A permission to run an app, but you can also give User B, who belongs to that group, **Co-owner** permission. 보안 그룹의 모든 구성원은 앱을 실행할 수 있지만 사용자 B만 편집할 수 있습니다. If you give Security Group A **Co-owner** permission and User B permission to run the app, that user can still edit the app.
 
 ## <a name="manage-entity-permissions"></a>엔터티 사용 권한 관리
 
 ### <a name="common-data-service"></a>Common Data Service
 
-Common Data Service 기반으로 앱을 만드는 경우 앱을 공유 하는 사용자에 게 앱이 사용 하는 엔터티 또는 엔터티에 대 한 적절 한 권한이 있는지 확인 해야 합니다. 특히 해당 사용자는 관련 레코드 만들기, 읽기, 쓰기 및 삭제와 같은 태스크를 수행할 수 있는 보안 역할에 속해야 합니다. 대부분의 경우 사용자가 앱을 실행 하는 데 필요한 정확한 권한을 사용 하 여 사용자 지정 보안 역할을 하나 이상 만들 수 있습니다. 그러면 각 사용자에 게 적절 하 게 역할을 할당할 수 있습니다.
+If you create an app based on Common Data Service, you must also ensure that the users with whom you share the app have the appropriate permissions for the entity or entities on which the app relies. Specifically, those users must belong to a security role that can perform tasks such as creating, reading, writing, and deleting relevant records. In many cases, you'll want to create one or more custom security roles with the exact permissions that users need to run the app. You can then assign a role to each user as appropriate.
 
 > [!NOTE]
-> 이 문서를 작성할 당시에는 Azure Active Directory에서 개별 사용자와 보안 그룹에 보안 역할을 할당할 수 있지만 Office 그룹에는 할당할 수 없습니다.
+> As of this writing, you can assign security roles to individual users and security groups in Azure Active Directory but not to Office groups.
 
 #### <a name="prerequisite"></a>필수 조건
 
-역할을 할당 하려면 Common Data Service 데이터베이스에 대 한 **시스템 관리자** 권한이 있어야 합니다.
+To assign a role, you must have **System administrator** permissions for a Common Data Service database.
 
-#### <a name="assign-a-security-group-in-azure-ad-to-a-role"></a>Azure AD의 보안 그룹을 역할에 할당
+#### <a name="assign-a-security-group-in-azure-ad-to-a-role"></a>Assign a security group in Azure AD to a role
 
-1. 공유 패널의 **데이터 권한**에서 **보안 역할 할당** 을 선택 합니다.
+1. In the sharing panel, select **Assign a security role** under **Data permissions**.
 
-1. 앱을 공유 하려는 Azure AD의 보안 그룹 또는 사용자에 게 할당할 Common Data Service에서 역할을 하나 이상 선택 합니다.
+1. Select the role or roles in Common Data Service that you want to assign to the user or the security group in Azure AD with which you want to share the app.
      > [!div class="mx-imgBorder"] 
-     > ![보안 역할 목록](media/share-app/cds-assign-security-role-list.png "보안 역할 목록")
+     > ![Security role list](media/share-app/cds-assign-security-role-list.png "Security role list")
 
 ### <a name="common-data-service-previous-version"></a>Common Data Service(이전 버전)
 
-이전 버전의 Common Data Service 기반으로 하는 앱을 공유 하는 경우 서비스에 대 한 런타임 권한을 별도로 공유 해야 합니다. 이 작업을 수행할 수 있는 권한이 없으면 환경 관리자에 게 문의 하세요.
+When you share an app that's based on an older version of Common Data Service, you must share the runtime permission to the service separately. If you don’t have permission to do this, see your environment administrator.
 
-## <a name="share-with-guests"></a>게스트와 공유
+## <a name="share-with-guests"></a>Share with guests
  
-PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용자와 공유할 수 있습니다. 이를 통해 외부 비즈니스 파트너, 계약자 및 제 3 자가 회사의 캔버스 앱을 실행할 수 있습니다. 
+PowerApps canvas apps can be shared with guest users of an Azure Active Directory tenant. This enables inviting external business partners, contractors, and third parties to run your company’s canvas apps. 
 
 > [!NOTE]
-> 게스트에는 공유 된 앱에 대 한 **공동 소유자** 역할이 아닌 **사용자** 역할만 할당 될 수 있습니다.
+> Guests may only be assigned the **User** role, and not the **Co-owner** role, for apps shared with them.
 
 ### <a name="prerequisites"></a>필수 조건
-- Azure Active Directory (Azure AD)에서 테 넌 트에 대해 B2B 외부 공동 작업을 사용 하도록 설정 합니다. 추가 정보: [B2B 외부 공동 작업을 사용 하도록 설정 하 고 게스트를 초대할 수 있는 사람 관리](/azure/active-directory/b2b/delegate-invitations)
-    - B2B 외부 공동 작업은 기본적으로 설정 되어 있습니다. 그러나 테 넌 트 관리자는 설정을 변경할 수 있습니다.  Azure AD B2B에 대 한 자세한 내용은 [AZURE AD b2b의 게스트 사용자 액세스 란?](/azure/active-directory/b2b/what-is-b2b) 을 참조 하세요.  
-- Azure AD 테 넌 트에 게스트 사용자를 추가할 수 있는 계정에 대 한 액세스. 관리자 및 게스트 초대자 역할을 가진 사용자는 테 넌 트에 게스트를 추가할 수 있습니다.   
-- 게스트 사용자에 게 다음 테 넌 트 중 하나를 통해 할당 된 PowerApps 라이선스가 있어야 합니다.
-    - 공유 되는 앱을 호스트 하는 테 넌 트입니다.
-    - 게스트 사용자의 홈 테 넌 트입니다.
+- In Azure Active Directory (Azure AD), enable B2B external collaboration for the tenant. More information: [Enable B2B external collaboration and manage who can invite guests](/azure/active-directory/b2b/delegate-invitations)
+    - Enable B2B external collaboration is on by default. However, the settings can be changed by a tenant admin.  For more information about Azure AD B2B, see [What is guest user access in Azure AD B2B?](/azure/active-directory/b2b/what-is-b2b)  
+- Access to an account that can add guest users to an Azure AD tenant. Admins and users with the Guest Inviter role can add guests to a tenant.   
+- The guest user must have a license with Power Apps use rights that matches the capability of the app assigned through one of the following tenants:
+    - The tenant hosting the app being shared.
+    - The home tenant of the guest user.
 
-### <a name="steps-to-grant-guest-access"></a>게스트 액세스 권한을 부여 하는 단계
-1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 추가 정보: [빠른 시작: AZURE AD에 새 게스트 사용자 추가](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
+### <a name="steps-to-grant-guest-access"></a>Steps to grant guest access
+1. Select **New guest user** to add guest users in Azure AD. More information: [Quickstart: Add a new guest user in Azure AD](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
     > [!div class="mx-imgBorder"] 
-    > ![Azure AD에서 게스트 추가](media/share-app/guest_access_doc_1.png "Azure AD에서 게스트 추가")
-2. 게스트 사용자의 홈 테 넌 트에 라이선스가 아직 없는 경우 게스트 사용자에 게 라이선스를 할당 합니다.
-   - Admin.microsoft.com에서 게스트 사용자를 할당 하려면 [한 사용자에 게 라이선스 할당](/office365/admin/subscriptions-and-billing/assign-licenses-to-users)을 참조 하세요.
-   - Portal.azure.com에서 게스트 사용자를 할당 하려면 [라이선스 할당 또는 제거](/azure/active-directory/fundamentals/license-users-groups)를 참조 하세요.
+    > ![Add guest in Azure AD](media/share-app/guest_access_doc_1.png "Add guest in Azure AD")
+2. If the guest user doesn't already have a license in their home tenant, assign a license to the guest user.
+   - To assign guest users from admin.microsoft.com, see [Assign licenses to one user](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
+   - To assign guest users from portal.azure.com, see [Assign or remove licenses](/azure/active-directory/fundamentals/license-users-groups).
  
    > [!IMPORTANT]
-   > 게스트에 라이선스를 할당 하려면 Microsoft 365 관리 센터 미리 보기를 사용 하지 않도록 설정 해야 할 수 있습니다. 
+   > You may need to disable the Microsoft 365 admin center preview to assign a license to a guest. 
 
-3. Canvas 앱을 공유 합니다. 
-    1. https://make.powerapps.com에 로그인  
-    2. **앱**으로 이동 하 여 캔버스 앱을 선택한 다음 명령 모음에서 **공유**를 선택 합니다. 
-    3. Azure AD 테 넌 트에서 게스트 사용자에 대 한 전자 메일 주소를 입력 합니다. 추가 정보: [AZURE AD B2B에서 게스트 사용자 액세스 란 무엇 인가요?](/azure/active-directory/b2b/what-is-b2b)
+3. Share the canvas app. 
+    1. Sign in to https://make.powerapps.com  
+    2. Go to **Apps**, select a canvas app, and then on the command bar select **Share**. 
+    3. Enter an email address for a guest user from an Azure AD tenant. More information: [What is guest user access in Azure AD B2B?](/azure/active-directory/b2b/what-is-b2b)
           > [!div class="mx-imgBorder"] 
-          > ![게스트와 공유](media/share-app/guest_access_doc_2.png "게스트와 공유")
+          > ![Share with guest](media/share-app/guest_access_doc_2.png "Share with guest")
  
-게스트 액세스를 위해 앱을 공유한 후 게스트가 공유의 일부로 전송 된 전자 메일에서 공유 하는 앱을 검색 하 고 액세스할 수 있습니다.
+After you share an app for guest access, guests can discover and access apps shared with them from the email sent to them as part of sharing.
 
 > [!div class="mx-imgBorder"]  
-> ![게스트가 앱 공유 전자 메일을 받습니다.](media/share-app/guest_access_doc_4.png "게스트가 앱 공유 전자 메일을 받습니다.")
+> ![Guests receive app share email](media/share-app/guest_access_doc_4.png "Guests receive app share email")
 
-### <a name="frequently-asked-questions"></a>질문과 대답
+### <a name="frequently-asked-questions"></a>Frequently Asked Questions
 
-#### <a name="whats-the-difference-between-canvas-app-guest-access-and-powerapps-portals"></a>Canvas 앱 게스트 액세스와 PowerApps 포털의 차이점은 무엇 인가요? 
-Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드를 작성 하지 않고도 비즈니스 프로세스를 디지타이징에 맞게 구성 하 여 앱을 빌드할 수 있습니다. Canvas 앱에 대 한 게스트 액세스를 사용 하면 다양 한 Microsoft 및 타사 소스와 통합 될 수 있는 동일한 앱 리소스에 액세스 하는 공통 비즈니스 프로세스에 참여 하는 다양 한 조직으로 구성 된 개인 팀이 가능 합니다. 추가 정보: [PowerApps 용 캔버스 앱 커넥터 개요](/powerapps/maker/canvas-apps/connections-list)
+#### <a name="whats-the-difference-between-canvas-app-guest-access-and-powerapps-portals"></a>What’s the difference between canvas app guest access and PowerApps Portals? 
+Canvas apps enable building an app, tailored to digitizing a business processes, without writing code in a traditional programming language such as C#. Guest access for canvas apps enables teams of individuals made up of different organizations participating in a common business process to access the same app resources that may be integrated with a wide variety of Microsoft and third-party sources. More information: [Overview of canvas-app connectors for PowerApps](/powerapps/maker/canvas-apps/connections-list).
 
-[PowerApps 포털](/powerapps/maker/portals/overview) 외부 사용자가 Common Data Service에 저장 된 데이터와 상호 작용할 수 있도록 하는 낮은 코드의 응답성이 뛰어난 웹 사이트를 빌드하는 기능을 제공 합니다. 조직에서 조직 외부 사용자와 공유 하는 웹 사이트 (예: LinkedIn, Microsoft 계정 또는 기타 상업적 로그인 공급자)를 사용 하 여 익명으로 또는 선택한 로그인 공급자를 통해 공유할 수 있는 웹 사이트를 만들 수 있습니다. 
+[PowerApps Portals](/powerapps/maker/portals/overview) provide the ability to build low-code, responsive websites that allow external users to interact with the data stored in Common Data Service. It allows organizations to create websites that can be shared with users external to their organization either anonymously or through the login provider of their choice, such as LinkedIn, Microsoft Account, or other commercial login providers. 
 
-다음 표에서는 PowerApps 포털 및 canvas 앱 간의 몇 가지 핵심 기능 차이점을 간략하게 설명 합니다.  
+The following table outlines a few core capability differences between PowerApps Portals and canvas apps.  
 
-| | 인터페이스 | 인증은 | 액세스 가능한 데이터 원본 |
+| | 인터페이스 | Authentication | Accessible data sources |
 |------|--------|----------|-------------------|
-| PowerApps 포털 | 브라우저 전용 환경 | 익명 및 인증 된 액세스 허용 | Common Data Service |
-| 캔버스 앱 | 브라우저 및 모바일 앱 | Azure AD를 통한 인증 필요 | 모든 ~ 150 기본 커넥터 및 사용자 지정 커넥터  |
+| PowerApps Portals | Browser only experience | Allows anonymous and authenticated access | Common Data Service |
+| 캔버스 앱 | Browser and mobile apps | Requires authentication via Azure AD | Any ~150 out-of-box connectors and any custom connector  |
 ||
 
-#### <a name="can-guests-access-customized-forms-in-sharepoint"></a>게스트가 SharePoint에서 사용자 지정 된 양식에 액세스할 수 있나요?
-예로. 사용자 지정 된 양식을 사용 하 여 SharePoint 목록에 액세스할 수 있는 모든 사용자는 PowerApps 라이선스 없이 양식을 사용 하 여 목록에서 항목을 만들고 편집할 수 있습니다.
+#### <a name="can-guests-access-customized-forms-in-sharepoint"></a>Can guests access customized forms in SharePoint?
+Yes. Any user that can access a SharePoint list with a customized form can create and edit items in the list, using the form, without any Power Apps license.
 
-#### <a name="can-guests-access-apps-embedded-in-sharepoint"></a>게스트가 SharePoint에 포함 된 앱에 액세스할 수 있나요? 
-예로. 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하는 PowerApps 라이선스가 필요 합니다. Microsoft PowerApps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
-
-> [!div class="mx-imgBorder"]  
-> ![게스트에 대 한 SharePoint에 캔버스 앱 포함](media/share-app/guest_access_doc_5.PNG "게스트에 대 한 SharePoint에 캔버스 앱 포함")
-
-IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 https://make.powerapps.com로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
+#### <a name="can-guests-access-apps-embedded-in-sharepoint"></a>Can guests access apps embedded in SharePoint? 
+Yes. Though, access to canvas standalone apps require a license with Power Apps use rights that matches the capability of the app, including apps that are embedded. When embedding a canvas app in SharePoint via the Microsoft PowerApps embed control, enter the app id. To do this, enter the app ID in the **App web link or ID** box. 
 
 > [!div class="mx-imgBorder"]  
-> ![Canvas 앱 세부 정보](media/share-app/guest_access_doc_6.PNG "Canvas 앱 세부 정보")
+> ![Embed canvas app in SharePoint for guests](media/share-app/guest_access_doc_5.PNG "Embed canvas app in SharePoint for guests")
 
-#### <a name="how-come-guests-can-launch-the-app-shared-with-them-but-connections-fail-to-be-created"></a>게스트가 공유 된 앱을 시작할 수 있는 방법 및 연결을 만들지 못함
-비 게스트와 마찬가지로, 앱에서 액세스 하는 기본 데이터 원본도 게스트에서 액세스할 수 있도록 설정 해야 합니다.
+When embedding a canvas app in SharePoint via the iFrame HTML tag, reference the app using the full web URL. To find the URL, go to https://make.powerapps.com, select an app, select the **Details** tab, and the URL is displayed under **Web link**.
 
-#### <a name="what-license-must-be-assigned-to-my-guest-so-they-can-run-an-app-shared-with-them"></a>사용자가 공유 하는 앱을 실행할 수 있도록 게스트에 할당 해야 하는 라이선스는 무엇입니까?
-비 게스트에 앱을 실행 하는 데 필요한 것과 동일한 라이선스. 예를 들어 앱에서 premium connecters를 사용 하는 경우 앱 계획 당 PowerApps 나 사용자 요금제 별 PowerApps를 게스트에 할당 해야 합니다.  
+> [!div class="mx-imgBorder"]  
+> ![Canvas app details](media/share-app/guest_access_doc_6.PNG "Canvas app details")
 
-|                                 | SharePoint 사용자 지정 양식 | 비 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 모델 기반 앱 |
+#### <a name="how-come-guests-can-launch-the-app-shared-with-them-but-connections-fail-to-be-created"></a>How come guests can launch the app shared with them but connections fail to be created?
+As with non-guests, the underlying data source(s) accessed by the app must also be made accessible to the guest.
+
+#### <a name="what-license-must-be-assigned-to-my-guest-so-they-can-run-an-app-shared-with-them"></a>What license must be assigned to my guest so they can run an app shared with them?
+The same license that’s required for non-guests to run an app. For instance, if the app uses premium connecters then a PowerApps Per App Plan or a PowerApps Per User Plan must be assigned to the guest.  
+
+|                                 | SharePoint customized form | Standalone canvas app using non-premium connectors | Standalone canvas app using premium connectors | Model driven app |
 |---------------------------------|----------------------------|----------------------------------------------------|------------------------------------------------|------------------|
-| SharePoint 사용자 (PA 라이선스 없음) | x                          |                                                    |                                                |                  |
-| W/Office가 포함 된 PowerApps    | x                          | x                                                  |                                                |                  |
-| 앱 요금제 별 PowerApps          | x                          | x                                                  | x                                              | x                |
-| 사용자 요금제 별 PowerApps         | x                          | x                                                  | x                                              | x                |
+| SharePoint user (no PA license) | x                          |                                                    |                                                |                  |
+| Power Apps Included w/ Office    | x                          | x                                                  |                                                |                  |
+| Power Apps Per App Plan          | x                          | x                                                  | x                                              | x                |
+| Power Apps Per User Plan         | x                          | x                                                  | x                                              | x                |
 
 
-#### <a name="in-powerapps-mobile-how-does-a-guest-see-apps-for-their-home-tenant"></a>PowerApps Mobile에서 게스트는 홈 테 넌 트의 앱을 어떻게 볼 까 요?
-자신의 모바일 장치에서, 홈 테 넌 트가 아닌 Azure AD 테 넌 트에서 게시 된 캔버스 앱에 액세스 한 모든 사용자는 PowerApps에서 로그 아웃 하 고 PowerApps Mobile에 다시 로그인 해야 합니다.  
+#### <a name="in-powerapps-mobile-how-does-a-guest-see-apps-for-their-home-tenant"></a>In PowerApps Mobile, how does a guest see apps for their home tenant?
+Any user that has accessed an canvas app, on their mobile device, that’s published in an Azure AD tenant that isn’t their home tenant must sign-out of PowerApps and sign back in to PowerApps Mobile.  
 
-#### <a name="must-a-guest-accept-the-azure-ad-guest-invitation-prior-to-sharing-an-app-with-the-guest"></a>게스트와 앱을 공유 하기 전에 게스트가 Azure AD 게스트 초대를 수락 해야 하나요?
-아니요. 게스트가 게스트 초대를 수락 하기 전에 공유 앱을 시작 하면 앱을 시작 하는 동안 로그인 환경의 일부로 초대를 수락 하 라는 메시지가 표시 됩니다.  
+#### <a name="must-a-guest-accept-the-azure-ad-guest-invitation-prior-to-sharing-an-app-with-the-guest"></a>Must a guest accept the Azure AD guest invitation prior to sharing an app with the guest?
+No. If a guest launches an app shared with them prior to accepting a guest invitation the guest will be prompted to accept the invitation as part of the sign-in experience while launching the app.  
 
-#### <a name="what-azure-ad-tenant-are-connections-for-a-guest-user-created-in"></a>에서 생성 된 게스트 사용자에 대 한 연결을 Azure AD 테 넌 트 란?
-앱에 대 한 연결은 항상 앱이 연결 된 Azure AD 테 넌 트의 컨텍스트에서 만들어집니다. 예를 들어 Contoso 테 넌 트에서 앱을 만든 경우 contoso 내부 및 게스트 사용자에 대 한 연결은 Contoso 테 넌 트의 컨텍스트에서 수행 됩니다.
+#### <a name="what-azure-ad-tenant-are-connections-for-a-guest-user-created-in"></a>What Azure AD tenant are connections for a guest user created in?
+Connections for an app are always made in the context of the Azure AD tenant the app is associated. For instance, if an app is created in the Contoso tenant then connections made for Contoso internal and guest users are made in the context of the Contoso tenant.
 
-#### <a name="can-guests-use-microsoft-graph-via-microsoft-security-graph-connector-or-a-custom-connector-using-microsoft-graph-apis"></a>게스트가 Microsoft Graph Api를 사용 하 여 Microsoft Security Graph 커넥터 또는 사용자 지정 커넥터를 통해 Microsoft Graph를 사용할 수 있나요?
-아니요, Azure AD 게스트는 Microsoft Graph을 쿼리하여 해당 사용자가 게스트로 된 테 넌 트에 대 한 정보를 검색할 수 없습니다.
+#### <a name="can-guests-use-microsoft-graph-via-microsoft-security-graph-connector-or-a-custom-connector-using-microsoft-graph-apis"></a>Can guests use Microsoft Graph via Microsoft Security Graph connector or a custom connector using Microsoft Graph APIs?
+No, Azure AD guests can't query Microsoft Graph to retrieve information for a tenant in which they’re a guest.
 
-#### <a name="what-intune-policies-apply-to-guests-using-my-powerapps"></a>PowerApps를 사용 하 여 게스트에 적용 되는 InTune 정책은 무엇 인가요?
-InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니다. 예를 들어 Alice@Contoso.com Vikram@Fabrikam.com와 앱을 공유 하는 경우 InTune은 실행 하는 PowerApps에 관계 없이 Virkam의 장치에 Fabrikam.com 정책을 계속 적용 합니다.
+#### <a name="what-intune-policies-apply-to-guests-using-my-powerapps"></a>What InTune policies apply to guests using my PowerApps?
+InTune only applies policies of a user’s home tenant. For instance, if Alice@Contoso.com shares an app with Vikram@Fabrikam.com, InTune continues to apply Fabrikam.com policies on Virkam’s device regardless of the PowerApps he runs.
 
-#### <a name="what-connectors-support-guest-access"></a>게스트 액세스를 지 원하는 커넥터는 무엇 인가요?
-모든 종류의 Azure AD 인증을 수행 하지 않는 모든 커넥터는 게스트 액세스를 지원 합니다. 다음 표에서는 Azure AD 인증을 수행 하는 모든 커넥터 및 현재 게스트 액세스를 지 원하는 커넥터를 열거 합니다. 이러한 대부분은 일반 공급으로 업데이트 될 예정입니다.
+#### <a name="what-connectors-support-guest-access"></a>What connectors support guest access?
+All connectors that do not perform Azure AD authentication of any type supports guest access. The following table enumerates all connectors that perform Azure AD authentication and which connectors currently support guest access. Many of these will be updated leading up to general availability.
 
-| **커넥터**                                     | **게스트 액세스 지원**                                              |
+| **Connector**                                     | **Supports guest access**                                              |
 |---------------------------------------------------|------------------------------------------------------------------------|
 | 10to8 Appointment Scheduling                      | 아니요                                                                     |
 | Adobe Creative Cloud                              | 아니요                                                                     |
 | Adobe Sign                                        | 아니요                                                                     |
 | Asana                                             | 아니요                                                                     |
-| AtBot 관리자                                       | 아니요                                                                     |
-| AtBot 논리                                       | 아니요                                                                     |
+| AtBot Admin                                       | 아니요                                                                     |
+| AtBot Logic                                       | 아니요                                                                     |
 | Azure AD                                          | 예                                                                    |
 | Azure Automation                                  | 예                                                                    |
-| Azure 컨테이너 인스턴스                          | 예                                                                    |
+| Azure Container Instance                          | 예                                                                    |
 | Azure Data Factory                                | 예                                                                    |
 | Azure Data Lake                                   | 예                                                                    |
 | Azure DevOps                                      | 아니요                                                                     |
@@ -248,25 +248,25 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Bitly                                             | 아니요                                                                     |
 | bttn                                              | 아니요                                                                     |
 | Buffer                                            | 아니요                                                                     |
-| 비즈니스 중부                                  | 아니요                                                                     |
+| Business Central                                  | 아니요                                                                     |
 | CandidateZip                                      | 아니요                                                                     |
 | Capsule CRM                                       | 아니요                                                                     |
-| 클라우드 PKI 관리                              | 아니요                                                                     |
+| Cloud PKI Management                              | 아니요                                                                     |
 | Cognito Forms                                     | 아니요                                                                     |
 | Common Data Service                               | 아니요                                                                     |
-| Common Data Service (레거시)                      | 아니요                                                                     |
-| D & B 최적화 프로그램                                     | 아니요                                                                     |
-| DerSIGNL4                                    | 아니요                                                                     |
+| Common Data Service (Legacy)                      | 아니요                                                                     |
+| D&B Optimizer                                     | 아니요                                                                     |
+| Derdack SIGNL4                                    | 아니요                                                                     |
 | Disqus                                            | 아니요                                                                     |
-| 문서 병합                                    | 아니요                                                                     |
+| Document Merge                                    | 아니요                                                                     |
 | Dynamics 365                                      | 아니요                                                                     |
-| 판매에 대 한 Dynamics 365 AI                         | 예                                                                    |
-| Fin & Ops 용 Dynamics 365                        | 아니요                                                                     |
-| Enadoc my workspace                                            | 아니요                                                                     |
+| Dynamics 365 AI for Sales                         | 예                                                                    |
+| Dynamics 365 for Fin & Ops                        | 아니요                                                                     |
+| Enadoc                                            | 아니요                                                                     |
 | Eventbrite                                        | 아니요                                                                     |
 | Excel Online (Business)                           | 아니요                                                                     |
 | Excel Online (OneDrive)                           | 아니요                                                                     |
-| 만료 알림                               | 아니요                                                                     |
+| Expiration Reminder                               | 아니요                                                                     |
 | FreshBooks                                        | 아니요                                                                     |
 | GoToMeeting                                       | 아니요                                                                     |
 | GoToTraining                                      | 아니요                                                                     |
@@ -279,17 +279,17 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | JotForm                                           | 아니요                                                                     |
 | kintone                                           | 아니요                                                                     |
 | LinkedIn                                          | 아니요                                                                     |
-| 마케팅 콘텐츠 허브                             | 아니요                                                                     |
-| 중간                                            | 아니요                                                                     |
+| Marketing Content Hub                             | 아니요                                                                     |
+| Medium                                            | 아니요                                                                     |
 | Metatask                                          | 아니요                                                                     |
 | Microsoft Forms                                   | 아니요                                                                     |
 | Microsoft Forms Pro                               | 아니요                                                                     |
-| Microsoft Graph 보안                          | 아니요                                                                     |
+| Microsoft Graph Security                          | 아니요                                                                     |
 | Microsoft Kaizala                                 | 아니요                                                                     |
-| Microsoft School 데이터 동기화                        | 아니요                                                                     |
+| Microsoft School Data Sync                        | 아니요                                                                     |
 | Microsoft StaffHub                                | 아니요                                                                     |
 | Microsoft Teams                                   | 예                                                                    |
-| Microsoft 할 일 (비즈니스)                        | 아니요                                                                     |
+| Microsoft To-Do (Business)                        | 아니요                                                                     |
 | Muhimbi PDF                                       | 아니요                                                                     |
 | NetDocuments                                      | 아니요                                                                     |
 | Office 365 그룹                                 | 예                                                                    |
@@ -304,14 +304,14 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Outlook.com                                       | 아니요                                                                     |
 | Paylocity                                         | 아니요                                                                     |
 | Planner                                           | 아니요                                                                     |
-| Plumsail 양식                                    | 아니요                                                                     |
+| Plumsail Forms                                    | 아니요                                                                     |
 | Power BI                                          | 예                                                                    |
 | Project Online                                    | 아니요                                                                     |
-| ProjectWise 디자인 통합                    | 아니요                                                                     |
-| Projectwise 공유                                 | 아니요                                                                     |
+| ProjectWise Design Integration                    | 아니요                                                                     |
+| Projectwise Share                                 | 아니요                                                                     |
 | SharePoint                                        | 예                                                                    |
-| 지금 sign                                           | 아니요                                                                     |
-| 비즈니스용 Skype Online                         | 아니요                                                                     |
+| SignNow                                           | 아니요                                                                     |
+| Skype for Business Online                         | 아니요                                                                     |
 | Soft1                                             | 아니요                                                                     |
 | Stormboard                                        | 아니요                                                                     |
 | Survey123                                         | 아니요                                                                     |
@@ -319,6 +319,6 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Toodledo                                          | 아니요                                                                     |
 | Typeform                                          | 아니요                                                                     |
 | Vimeo                                             | 아니요                                                                     |
-| Webex 팀                                       | 아니요                                                                     |
-| Windows Defender ATP (Advanced Threat Protection) | 아니요                                                                     |
-| 온라인 Word (비즈니스)                            | 아니요                                                                     |
+| Webex Teams                                       | 아니요                                                                     |
+| Windows Defender Advanced Threat Protection (ATP) | 아니요                                                                     |
+| Word Online (Business)                            | 아니요                                                                     |
