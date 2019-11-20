@@ -1,27 +1,33 @@
 ---
 title: Dynamics 365 App for Outlook 배포 | MicrosoftDocs
 ms.custom: ''
-ms.date: '2017-04-20'
+ms.date: 2017-04-20
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
+- Dynamics 365 (online)
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
 author: jimholtz
 ms.author: jimholtz
 manager: brycho
+ms.openlocfilehash: 2df69eb2823726116ca08e893acf384afffdd957
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2754130"
 ---
 # <a name="deploy-dynamics-365-app-for-outlook"></a>Dynamics 365 App for Outlook 배포
-데스크톱, 웹, 또는 태블릿에서 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]을 사용할 때 [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]을 사용하여 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]를 활용할 수 있습니다. 예를 들어, 전자 메일 또는 약속에 대한 정보를 보거나 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 전자 메일 또는 약속을 영업 기회, 거래처나 서비스 케이스 같은 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] 레코드에 대한 링크로 연결할 수 있습니다. [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]이 무엇을 제안하는지 자세히 알아보려면, [Dynamics 365 App for Outlook 사용자 가이드](http://go.microsoft.com/fwlink/p/?LinkID=613099)를 참조하십시오.  
+데스크톱, 웹, 또는 태블릿에서 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]을 사용할 때 [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]을 사용하여 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]를 활용할 수 있습니다. 예를 들어, 전자 메일 또는 약속에 대한 정보를 보거나 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)] 전자 메일 또는 약속을 영업 기회, 거래처나 서비스 케이스 같은 [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] 레코드에 대한 링크로 연결할 수 있습니다. [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]이 무엇을 제안하는지 자세히 알아보려면, [Dynamics 365 App for Outlook 사용자 가이드](https://go.microsoft.com/fwlink/p/?LinkID=613099)를 참조하십시오.  
   
 > [!IMPORTANT]
->  [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]은 [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]과 같지 않습니다. [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] 기준으로, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]과 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]을 통합하기 위해 [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]와 [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]를 사용하는 것이 권장되는 방법입니다. **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] 및 [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]를 동일한 사용자가 함께 사용할 때 활동 추적은 지원되지 않습니다.** [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] 추가 기능에 대한 정보는 [Dynamics 365 for Outlook 사용자 가이드](http://go.microsoft.com/fwlink/p/?LinkID=524751)를 참조하십시오.  
+>  [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]은 [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]과 같지 않습니다. [!INCLUDE[pn_crm_8_2_0_both](../includes/pn-crm-8-2-0-both.md)] 기준으로, [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]과 [!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]을 통합하기 위해 [!INCLUDE[pn_ms_dyn_crm_app_for_outlook](../includes/pn-ms-dyn-crm-app-for-outlook.md)]와 [!INCLUDE[cc_server_side_synch](../includes/cc-server-side-synch.md)]를 사용하는 것이 권장되는 방법입니다. **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] 및 [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)]를 동일한 사용자가 함께 사용할 때 활동 추적은 지원되지 않습니다.** [!INCLUDE[pn_crm_for_outlook_short](../includes/pn-crm-for-outlook-short.md)] 추가 기능에 대한 정보는 [Dynamics 365 for Outlook 사용자 가이드](https://go.microsoft.com/fwlink/p/?LinkID=524751)를 참조하십시오.  
 >   
->  [위임된 사용자](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540)는 [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]을 사용하여 전자 메일을 추적할 수 없습니다. 위임된 사용자에 대해 [폴더 수준 추적 또는 자동 추적](https://www.microsoft.com/en-us/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx)을 사용하는 것이 좋습니다.  
+>  [위임된 사용자](https://support.office.com/article/Allow-someone-else-to-manage-your-mail-and-calendar-9684B670-7588-4EEA-8717-9E5799047540)는 [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]을 사용하여 전자 메일을 추적할 수 없습니다. 위임된 사용자에 대해 [폴더 수준 추적 또는 자동 추적](https://www.microsoft.com/dynamics/crm-customer-center/overview-of-tracking-records-in-dynamics-365-for-outlook.aspx)을 사용하는 것이 좋습니다.  
   
 <a name="BKMK_Compare"></a>   
 ## <a name="comparing-dynamics-365-app-for-outlook-with-dynamics-365-for-outlook"></a>Dynamics 365 App for Outlook과 Dynamics 365 for Outlook 비교  
@@ -226,12 +232,12 @@ manager: brycho
   
 #### <a name="to-have-users-install-the-app-themselves"></a>사용자가 앱을 직접 설치하도록 하려면  
   
-1.  사용자는 **설정** 단추 ![설정 단추](media/mp-ua-r16-settings.png "설정 단추"), **Dynamics 365용 앱**을 차례로 클릭합니다.  
+1.  사용자는 **설정** 단추 ![설정 단추](media/mp-ua-r16-settings.png "설정 단추")를 클릭한 다음 **Dynamics 365용 앱**을 클릭합니다.  
   
 2.  **Dynamics 365용 앱** 화면의 **[!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)]** 아래에서 **[!INCLUDE[pn_Outlook_short](../includes/pn-outlook-short.md)]에 앱 추가**를 클릭합니다.  
   
 > [!NOTE]
->  필요한 경우 사용자가 추가 기능을 사용하지 않도록 설정하거나 제거할 수도 있습니다. 자세한 내용은 [Dynamics 365 App for Outlook 사용자 가이드](http://go.microsoft.com/fwlink/p/?LinkID=613099)를 참조하십시오.  
+>  필요한 경우 사용자가 추가 기능을 사용하지 않도록 설정하거나 제거할 수도 있습니다. 자세한 내용은 [Dynamics 365 App for Outlook 사용자 가이드](https://go.microsoft.com/fwlink/p/?LinkID=613099)를 참조하십시오.  
   
 <a name="BKMK_DeployOnprem"></a>   
 ## <a name="to-deploy-to-dynamics-365-on-premises-users"></a>Dynamics 365 온-프레미스 사용자에게 배포하려면  
@@ -247,12 +253,12 @@ manager: brycho
   
 <a name="BKMK_Explore"></a>   
 ## <a name="explore-the-users-guide-and-train-your-users"></a>사용자 가이드 탐색 및 사용자 교육  
- [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] 사용 방법을 알아보려면, [Dynamics 365 App for Outlook 사용자 가이드](http://go.microsoft.com/fwlink/p/?LinkID=613099)를 참조하십시오.  
+ [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] 사용 방법을 알아보려면, [Dynamics 365 App for Outlook 사용자 가이드](https://go.microsoft.com/fwlink/p/?LinkID=613099)를 참조하십시오.  
   
  ![Dynamics 365 App for Outlook 사용자 가이드 페이지](media/dynamics-365-app-for-outlook-user-s-guide-page.png "Dynamics 365 App for Outlook 사용자 가이드 페이지")  
   
 ## <a name="see-also"></a>참고 항목  
- [Dynamics 365 App for Outlook 사용자 가이드](http://go.microsoft.com/fwlink/p/?LinkID=613099)   
+ [Dynamics 365 App for Outlook 사용자 가이드](https://go.microsoft.com/fwlink/p/?LinkID=613099)   
  [이 블로그에서 지원되는 클라이언트에 대한 자세한 내용을 보려면 Dynamics 365 App for Outlook 지원 매트릭스를 확인하십시오.](https://blogs.msdn.microsoft.com/crm/2016/12/13/dynamics-365-app-for-outlook-support-matrix/)   
  [전자 메일, 약속, 연락처 및 작업의 서버 쪽 동기화 설정](../Topic/Set%20up%20server-side%20synchronization%20of%20email,%20appointments,%20contacts,%20and%20tasks.md)   
  [사용자, 라이선스 및 보안 역할 추가](https://msdn.microsoft.com/23612155-f92d-4871-a109-186419d5c19d)   

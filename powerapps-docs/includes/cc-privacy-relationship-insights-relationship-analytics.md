@@ -10,7 +10,7 @@
   
  **[!INCLUDE[pn_customerinsight_full](pn-customer-insights-full.md)]**  
   
- [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에서 실행 중인 서비스인 [!INCLUDE[pn_customerinsight_short](pn-customer-insights-short.md)]는 관계 분석 기능을 위한 출력을 계산할 목적으로 고객에 대한 개인 식별 가능한 정보를 포함한 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 데이터를 저장합니다. [!INCLUDE[pn_customerinsight_short](pn-customer-insights-short.md)]의 미리 보기는 이러한 [미리 보기에 대한 보충 사용 약관](http://go.microsoft.com/fwlink/p/?LinkId=511446)이 적용됩니다.  
+ [!INCLUDE[pn_azure_shortest](pn-azure-shortest.md)]에서 실행 중인 서비스인 [!INCLUDE[pn_customerinsight_short](pn-customer-insights-short.md)]는 관계 분석 기능을 위한 출력을 계산할 목적으로 고객에 대한 개인 식별 가능한 정보를 포함한 [!INCLUDE[pn_dynamics_crm](pn-dynamics-crm.md)] 데이터를 저장합니다. [!INCLUDE[pn_customerinsight_short](pn-customer-insights-short.md)]의 미리 보기는 이러한 [미리 보기에 대한 보충 사용 약관](https://go.microsoft.com/fwlink/p/?LinkId=511446)이 적용됩니다.  
   
  [Customer Insights의 미리 보기에 대해 자세히 알아보십시오.](https://azure.microsoft.com/services/customer-insights/)  
   

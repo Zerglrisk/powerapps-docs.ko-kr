@@ -1,1 +1,1 @@
-언어 코드는 4-5자리 로캘 ID입니다. 유효한 로캘 ID 값은 [로캘 ID(LCID) 차트](http://go.microsoft.com/fwlink/?LinkId=122128)에서 확인할 수 있습니다.
+언어 코드는 4-5자리 로캘 ID입니다. 유효한 로캘 ID 값은 [로캘 ID(LCID) 차트](https://go.microsoft.com/fwlink/?LinkId=122128)에서 확인할 수 있습니다.

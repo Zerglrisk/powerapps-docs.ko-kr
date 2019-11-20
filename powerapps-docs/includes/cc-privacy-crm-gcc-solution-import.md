@@ -1,1 +1,1 @@
-솔루션을 활성화하면 외부 시스템과 데이터를 공유하는 데 동의하는 것입니다. 외부 시스템으로부터 Microsoft Dynamics 365 (online)으로 가져오는 데이터에는 [Microsoft 개인정보취급방침 및 쿠키](http://go.microsoft.com/fwlink/p/?LinkID=521839)가 적용됩니다.
+솔루션을 활성화하면 외부 시스템과 데이터를 공유하는 데 동의하는 것입니다. 외부 시스템으로부터 Microsoft Dynamics 365 (online)로 가져오는 데이터에는 [Microsoft 개인정보취급방침 및 쿠키](https://go.microsoft.com/fwlink/p/?LinkID=521839)가 적용됩니다.

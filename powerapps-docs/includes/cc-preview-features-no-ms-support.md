@@ -1,1 +1,1 @@
-Microsoft는 이 미리 보기 기능에 대한 지원을 제공하지 않습니다. Microsoft Dynamics 365 기술 지원은 문제 또는 질문과 관련하여 도움을 제공할 수 없습니다. 미리 보기 기능은 생산용으로 만들어진 것이 아니므로 별도의 [보충 사용 약관](http://go.microsoft.com/fwlink/p/?LinkId=511446)이 적용됩니다.
+Microsoft는 이 미리 보기 기능에 대한 지원을 제공하지 않습니다. Microsoft Dynamics 365 기술 지원은 문제 또는 질문과 관련하여 도움을 제공할 수 없습니다. 미리 보기 기능은 생산용으로 만들어진 것이 아니므로 별도의 [보충 사용 약관](https://go.microsoft.com/fwlink/p/?LinkId=511446)이 적용됩니다.

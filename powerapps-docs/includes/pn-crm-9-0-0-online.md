@@ -1,1 +1,1 @@
-Dynamics 365(온라인), 버전 9.0
+Dynamics 365 (online) 버전 9.0
