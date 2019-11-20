@@ -1,1 +1,1 @@
-플러그인 등록 도구를 다운로드하려면 [NuGet에서 도구 다운로드](../developer/common-data-service/download-tools-nuget.md)를 참조하십시오.
+플러그 인 등록 도구를 다운로드하려면 [NuGet에서 도구 다운로드](../developer/common-data-service/download-tools-nuget.md)를 참조하십시오.
