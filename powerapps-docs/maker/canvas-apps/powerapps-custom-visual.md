@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 09/23/2019
+ms.date: 11/20/2019
 ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 54d8ac3d347c0f60f82fdd73949eb2fd8545519c
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 422cbc151b6ee5c4adfd295800bf9747519132cf
+ms.sourcegitcommit: 6c91c6dae20437f263e4eb827c6b938d6aa1b6a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541468"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74262107"
 ---
 # <a name="powerapps-custom-visual-for-power-bi"></a>Power BI용 PowerApps 사용자 지정 시각적 개체
 
@@ -92,9 +92,11 @@ PowerApps 사용자 지정 시각적 개체에는 다음과 같은 제한 사항
 |Microsoft Edge|&check;|&check;|&check;
 |Internet Explorer 11|&check;
 |Google Chrome|&check;|&check;|&check;
-|Safari|&check;
+|Safari \*|&check;
 |Mozilla Firefox
 |다른 모든 브라우저
+
+Safari에서 \* 사이트 간 추적 (**기본 설정** > **개인 정보 보호**및 **사이트 간 추적 방지**사용 안 함)을 사용 하도록 설정 하 여 PowerApps 사용자 지정 시각적 개체를 볼 수 있습니다.
 
 ## <a name="accessibility-support"></a>내게 필요한 옵션 지원
 

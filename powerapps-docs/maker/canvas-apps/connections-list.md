@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 08/28/2017
+ms.date: 11/19/2019
 ms.author: lanced
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 907ac3cf53709edd5a8b523479ec99816c6eec9c
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: 1fda14b7117334290c67d4d5727d93484ded7471
+ms.sourcegitcommit: 6c91c6dae20437f263e4eb827c6b938d6aa1b6a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73897826"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74262033"
 ---
 # <a name="overview-of-canvas-app-connectors-for-powerapps"></a>PowerApps용 캔버스 앱 커넥터의 개요
 데이터는 PowerApps에서 빌드하는 앱을 포함해 대부분 앱의 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. PowerApps에는 SharePoint, SQL Server, Office 365, Salesforce, Twitter를 비롯한 많은 인기 서비스 및 온-프레미스 데이터 원본용 커넥터가 있습니다. 캔버스 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
@@ -66,11 +66,15 @@ ms.locfileid: "73897826"
 
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
 | --- | --- | --- | --- | --- |
-| ![Common Data Service](./media/connections-list/cdm.png) |[**Common Data Service**](../common-data-service/data-platform-intro.md) |&nbsp; |![Office 365 Outlook](./media/connections-list/office365.png) |[**Office 365 Outlook**](connections/connection-office365-outlook.md) |
-| ![SharePoint](./media/connections-list/sharepoint.png) |[**SharePoint**](connections/connection-sharepoint-online.md) |&nbsp; |![Excel](./media/connections-list/excel.png) |[**Excel**](connections/connection-excel.md) |
-| ![SQL Server](./media/connections-list/sql.png) |[**SQL Server**](connections/connection-azure-sqldatabase.md) |&nbsp; |![비즈니스용 OneDrive](./media/connections-list/onedrive.png) |[**비즈니스용 OneDrive**](connections/cloud-storage-blob-connections.md) |
-| ![Dynamics 365](./media/connections-list/dynamics-365.png) |[**Dynamics 365**](connections/connection-dynamics-crmonline.md) |&nbsp; |![OneDrive](./media/connections-list/onedrive.png) |[**OneDrive**](connections/cloud-storage-blob-connections.md) |
-| ![Office 365 사용자](./media/connections-list/office365.png) |[**Office 365 사용자**](connections/connection-office365-users.md) |&nbsp; |![Dropbox](./media/connections-list/dropbox.png) |[**Dropbox**](connections/cloud-storage-blob-connections.md) |
+| ![Common Data Service](./media/connections-list/cdm.png) |[**Common Data Service**](connections/connection-common-data-service.md) |&nbsp; |![클라우드 저장소](./media/connections-list/onedrive.png) |[**클라우드 저장소**](connections/cloud-storage-blob-connections.md) ** |
+| ![Dynamics 365](./media/connections-list/dynamics-365.png) |[**Dynamics 365**](connections/connection-dynamics-crmonline.md) |&nbsp; | ![Dynamics AX](./media/connections-list/dynamics-ax.png) |[**Dynamics AX**](connections/connection-dynamicsax.md) |
+|![Excel](./media/connections-list/excel.png) |[**Excel**](connections/connection-excel.md) |&nbsp; |![Microsoft Translator](./media/connections-list/microsoft-translator.png) |[**Microsoft Translator**](connections/connection-microsoft-translator.md) |
+|![Office 365 Outlook](./media/connections-list/office365.png) |[**Office 365 Outlook**](connections/connection-office365-outlook.md) |&nbsp; | ![Office 365 사용자](./media/connections-list/office365.png) |[**Office 365 사용자**](connections/connection-office365-users.md) |
+| ![Oracle](./media/connections-list/oracle-icon.png) |[**Oracle**](connections/connection-oracledb.md) |&nbsp; | ![Power BI](./media/connections-list/powerbi.png) |[**Power BI**](connections/connection-powerbi.md) |
+| ![SharePoint](./media/connections-list/sharepoint.png) |[**SharePoint**](connections/connection-sharepoint-online.md) |&nbsp; | ![SQL Server](./media/connections-list/sql.png) |[**SQL Server**](connections/connection-azure-sqldatabase.md) 
+|![Twitter](./media/connections-list/twitter.png) |[**Twitter**](connections/connection-twitter.md)
+
+\* * Azure Blob, Box, Dropbox, Google Drive, OneDrive 및 비즈니스용 OneDrive에 적용 됩니다.
 
 ## <a name="standard-and-custom-connectors"></a>표준 및 사용자 지정 커넥터
 PowerApps는 위에 나열된 것과 같이 일반적으로 사용되는 많은 데이터 원본에 대해 *표준* 커넥터를 제공합니다. PowerApps에 사용하려는 데이터 원본 유형에 대한 표준 커넥터가 있는 경우 해당 커넥터를 사용해야 합니다. 빌드한 서비스와 같은 다른 유형의 데이터 원본에 연결하려면 [사용자 지정 커넥터 등록 및 사용](../canvas-apps/register-custom-api.md)을 참조합니다.
