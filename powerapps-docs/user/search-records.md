@@ -1,5 +1,5 @@
 ---
-title: 모델 기반 앱에서 레코드 검색 | MicrosoftDocs
+title: Search for records in model-driven apps| MicrosoftDocs
 ms.custom: ''
 author: mduelae
 manager: kvivek
@@ -15,188 +15,191 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 26903543232025f43f935a403800ed27170e3123
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 18440a61eb4224c751824eaa62386615a8ad6165
+ms.sourcegitcommit: 6c91c6dae20437f263e4eb827c6b938d6aa1b6a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71940841"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74262116"
 ---
-# <a name="search-for-records-in-an-app"></a>앱에서 레코드 검색
+# <a name="search-for-records-in-an-app"></a>Search for records in an app
 
-Common Data Service에서 관련성 검색 또는 항목별 검색을 사용 하 여 여러 엔터티 간에 레코드를 검색할 수 있습니다. 
+You can search for records across multiple entities by using Relevance search or Categorized search in Common Data Service. 
 
-- 관련성 검색은 단일 목록에서 관련성을 기준으로 정렬 된 여러 엔터티에 대해 빠르고 포괄적인 결과를 제공 합니다. Common Data Service ([!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]) 외부의 전용 검색 서비스를 사용 하 여 검색 성능을 향상 시킵니다. 
-- 항목별 검색은 계정, 연락처, 잠재 고객 등의 엔터티 유형별로 그룹화 된 검색 결과를 반환 합니다.
+- Relevance search delivers fast and comprehensive results across multiple entities, in a single list, sorted by relevance. It uses a dedicated search service external to Common Data Service (powered by [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)]) to boost search performance. 
+- Categorized search returns search results grouped by entity types, such as accounts, contacts or leads.
 
-일반적으로 분류 된 검색은 기본 검색 옵션입니다. 그러나 조직에서 관련성 검색을 사용 하도록 설정 하면 기본 검색 환경이 됩니다.  
+Normally, Categorized search is the default search option. However, if Relevance search is enabled by your organization, it becomes the default search experience.  
+  
+## <a name="quick-find-entity-specific-quick-find-or-multi-entity-categorized-search"></a>Quick Find (entity-specific Quick Find or multi-entity Categorized Search) 
 
-한 유형의 레코드만 찾으려면 엔터티의 그리드에서 빠른 찾기 보기를 사용할 수 있습니다.
-  
-## <a name="normal-quick-find-categorized-search"></a>표준 빠른 찾기 (분류 된 검색) 
+To find records of one type only, you can use the Quick Find View in the entity's grid.
 
-분류를 사용 하면 특정 단어로 시작 하는 레코드를 검색 하거나 와일드 카드를 사용할 수 있습니다.
+With Categorized Search (also called multi-entity quick find), you can search records that begin with a specific word or use a wildcard.
   
-- **시작**: 결과는 특정 단어로 시작 하는 레코드를 포함 합니다. 예를 들어 "알파인 스키 집"을 검색 하려는 경우 검색 상자에 **alp** 를 입력 합니다. **ski**를 입력 하면 레코드가 표시 되지 않습니다.  
+- **Begins with**: Results include records that begin with a specific word. For example, if you want to search for “Alpine Ski House,” type **alp** in the search box; if you type **ski**, the record won’t show up.  
   
-- **와일드 카드**: 예를 들면 * ski 또는 * ski\*입니다. 
-  
-## <a name="relevance-search"></a>관련성 검색
-  
-  관련성 검색은 이미 익숙한 다른 Common Data Service 검색 외에도 사용할 수 있습니다. 엔터티 그리드 또는 다중 엔터티 빠른 찾기 (관련성 검색을 사용 하는 경우 항목별 검색 이라고 함)에서 단일 엔터티 빠른 찾기를 계속 사용할 수 있습니다. 보다 포괄적이 고 빠른 결과를 위해 관련성 검색을 사용 하는 것이 좋습니다.  
+- **Wildcard**: For example, *ski or *ski\*. 
 
- 관련성 검색은 다음과 같은 향상 된 기능 및 이점을 제공 합니다.  
+  > [!NOTE]
+  >  Using a wildcard at the beginning of your Quick Find (single or multi-entity) search query may result in slower performance.
   
-- 외부 인덱싱 및 [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] 검색 기술을 사용 하 여 성능을 향상 시킵니다.  
+## <a name="relevance-search"></a>Relevance search
   
-- 엔터티의 모든 필드에서 검색 용어의 모든 단어와 일치 하는 항목을 찾습니다. 일치 항목에는 **스트림**, **스트리밍**, 스트리밍 등 굴절 형 단어가 포함 될 수 **있습니다.**  
-  
-- 일치 하는 단어 수 또는 텍스트의 서로 근접 한 단어 수와 같은 요소에 따라 관련성을 기준으로 정렬 된 단일 목록에 있는 모든 검색 가능한 엔터티의 결과를 반환 합니다.  
-  
-- 결과 목록에서 일치 항목을 강조 표시 합니다.  
+  Relevance Search is available in addition to other Common Data Service searches you are already familiar with. You can continue using single-entity Quick Find on the entity grid or Multi-Entity Quick Find (called Categorized Search, if you have Relevance Search enabled). For more comprehensive and faster results, we recommend using Relevance Search.  
 
-- 노트의 텍스트, 전자 메일 첨부 파일 또는 약속을 포함 하 여 Common Data Service에 저장 된 문서에서 텍스트에 대 한 검색 결과를 찾을 수 있습니다. 다음 파일 형식은 검색에 대해 지원 됩니다. PDF, Microsoft Office 문서, HTML, XML, ZIP, EML, 일반 텍스트 및 JSON입니다.  
+ Relevance Search brings the following enhancements and benefits:  
   
-- 사용자가 공유한 레코드와 사용자가 소유한 레코드를 검색할 수 있습니다.  
+- Improves performance with external indexing and [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)] search technology.  
+  
+- Finds matches to any word in the search term in any field in the entity. Matches can include inflectional words like **stream**, **streaming**, or **streamed**.  
+  
+- Returns results from all searchable entities in a single list sorted by relevance, based on factors like number of words matched or their proximity to each other in the text.  
+  
+- Highlights matches in the result list.  
+
+- You'll find search results for text in a document that is stored in Common Data Service, including text in notes, email attachments, or appointments. The following file formats are supported for search: PDF, Microsoft Office documents, HTML, XML, ZIP, EML, plain text, and JSON.  
+  
+- You can search for records that are shared with you and records that you own.  
   
   > [!NOTE]
-  >  계층적 보안 모델은 지원 되지 않습니다.  계층 보안을 통해 액세스할 수 있기 때문에 Common Data Service 행이 표시 되는 경우에도 관련성 검색에서 결과가 표시 되지 않습니다.  
+  >  Hierarchical security models aren't supported.  Even if you see a row in Common Data Service because you have access to it through hierarchical security, you won't see the result in Relevance Search.  
   
-- 옵션 집합 및 조회를 검색할 수도 있습니다. 예를 들어 이름에 **Pharmaceuticals** 이 있는 소매점 계정을 찾으려고 한다고 가정해 보겠습니다. **제약 Retail**을 검색할 때 검색 가능한 옵션 집합인 산업 필드와 일치 하는 항목이 있기 때문에 결과를 찾을 수 있습니다.  
+- You can also search for option sets  and lookups. For example, let's say you want to find a retail store account that has **Pharmaceuticals** in the name. When you search for **Pharmaceutical Retail**, you'll find the result because there's a match to the Industry field, which is a searchable option set.  
   
-  결과가 여러 엔터티를 포함할 수 있기 때문에 **필터 사용** 드롭다운 목록에서 엔터티를 선택 하 여 특정 엔터티로 검색 결과의 범위를 좁힐 수 있습니다. 특정 레코드 유형을 필터링 할 때 검색 결과에 선택한 레코드와 관련 된 활동 및 메모를 포함할 수 있습니다. 이렇게 하려면 **필터 사용** 드롭다운 목록의 오른쪽에 있는 **선택한 레코드에 대 한 작업 및 메모 검색** 확인란을 선택 합니다. **필터 사용** 드롭다운 목록에서 레코드를 선택 하면 확인란이 선택 됩니다. **필터 사용** 목록에서 엔터티를 선택 하지 않은 경우에는 선택이 취소 됩니다. 활동 및 메모는 최상위 수준 결과로 반환 됩니다.
+  Because your results might include a mix of entities, you can narrow your search results to a specific entity by selecting an entity in the **Filter with** drop-down list. When you filter on a specific record type, you can include activities and notes related to the selected record in your search results. To do that, select the **Search activities and notes for selected records** check box to the right of the **Filter with** drop-down list. The check box is selected after you select a record in the **Filter with** drop-down list; it is cleared if you didn't select an entity in the **Filter with** list. The activities and notes are returned as top-level results.
   
   > [!NOTE]
-  > - 관련성 검색은 기본적으로 사용 되지 않습니다. 관리자가 조직에 대해 사용 하도록 설정 해야 합니다. 관련성 검색을 사용 하도록 설정한 후에는 앱에 대 한 관련성 검색 결과가 표시 되기 전에 조직의 규모에 따라 최대 1 시간 이상 기다려야 할 수 있습니다. 인덱싱된 데이터의 더 작은 변경 내용은 시스템에 표시 되는 데 최대 15 분이 걸릴 수 있습니다.
-  > - 관련성 검색을 사용 하면 조직의 모든 사용자가이를 사용할 수 있습니다.  
-  > - 관련성 검색은 텍스트를 기반으로 하며 한 줄의 텍스트, 여러 줄의 텍스트, 옵션 집합 또는 조회만 검색할 수 있습니다. Numeric 또는 Date 데이터 형식의 필드에 대 한 검색은 지원 하지 않습니다. 
+  > - Relevance Search is disabled by default. Your administrator needs to enable it for the organization. After Relevance Search is enabled, you might have to wait up to an hour or more, depending on the size of your organization, before you start seeing Relevance Search results for your apps. Smaller changes in indexed data can take up to 15 minutes to show up in your system.
+  > - Enabling Relevance Search allows all users in the organization to use it.  
+  > - Relevance search is text-based, and can search only on fields of type Single Line of Text, Multiple Lines of Text, Option Sets, or Lookups. It doesn't support searching in fields of Numeric or Date data type. 
   
- 관련성 검색은 엔터티의 모든 필드에 있는 검색 용어의 단어와 일치 하는 항목을 찾기는 하지만 전체 텍스트 검색을&mdash;사용 하도록 설정한 경우에도 검색 용어의 모든 단어를 하나의 필드에&mdash;합니다.  
+ Although Relevance Search finds matches to any word in the search term in any field in an entity, in Quick Find&mdash;even with full-text search enabled&mdash;all words from the search term must be found in one field.  
   
- 관련성 검색에서 일치 하는 항목이 클수록 결과가 결과에 표시 됩니다. 검색 용어의 단어를 서로 근접 하 게 찾으면 일치 항목의 관련성이 높아집니다. 검색 단어를 찾을 수 있는 텍스트 양이 작을수록 관련성이 높아집니다. 예를 들어 회사 이름 및 주소에서 검색 단어를 찾으면 많은 문서에 있는 것과 동일한 단어 보다 더 일치 하는 항목을 찾을 수 있습니다. 결과는 단일 목록으로 반환 되므로 계정, 기회, 잠재 고객 등의 여러 레코드를 표시 하는 것을 볼 수 있습니다. 목록에서 일치 하는 단어가 강조 표시 됩니다.  
+ In Relevance Search, the better the match, the higher it appears in the results. A match has a higher relevancy if more words from the search term are found in close proximity to each other. The smaller the amount of text where the search words are found, the higher the relevancy. For example, if you find the search words in a company name and address, it might be a better match than the same words found in a large article, far apart from each other. Because the results are returned in a single list, you can see a mix of records displayed one after another, such as accounts, opportunities, leads, and so on. The matched words in the list are highlighted.  
   
- 검색 용어에서 구문을 사용 하 여 원하는 결과를 얻을 수 있습니다. 예를 들어 검색 결과에 검색 용어의 단어에 대 한 일치 항목을 포함 하려면 **car 실버 2-도어** 를 입력 합니다. 세 단어를 모두 포함 하는 일치 항목만 찾으려면 **car + 실버 +2-도어** 를 입력 합니다. 차량 **&#124;&#124;실버 2-도어** 를 입력 하 여 **자동차** 또는 **실버** 또는 **2 문이나**세 단어를 모두 포함 하는 결과를 가져옵니다. 검색 쿼리에서 사용할 수 있는 구문에 대 한 자세한 내용: [Azure Search의 단순 쿼리 구문](https://docs.microsoft.com/rest/api/searchservice/simple-query-syntax-in-azure-search)
+ Use syntax in your search term to get the results you want. For example, type **car silver 2-door** to include matches for any word in the search term in the search results. Type **car+silver+2-door** to find only matches that include all three words. Type **car&#124;silver&#124;2-door** to  get results that contain **car** or **silver** or **2-door**, or all three words. More information about syntax you can use in your search queries: [Simple query syntax in Azure Search](https://docs.microsoft.com/rest/api/searchservice/simple-query-syntax-in-azure-search)
 
 
 > [!NOTE]
-> 검색 용어가 앱에서 용어와 일치 하는 경우 적중 항목이 강조 표시 됩니다. 적중 하이라이트는 검색 결과에 굵게 표시 되 고 기울임꼴 텍스트로 표시 됩니다. 이러한 값은 일치 하는 용어만 강조 표시 되므로 필드에 전체 값의 일부로 반환 되는 경우가 많습니다. 
+> You'll see hit highlights when your search term matches a term in your app. The hit highlights appear as bold and italicized text in your search results. These are often returned as a portion of the full value in a field because only the matched terms are highlighted. 
   
   
 <a name=" #BKMK_DefaultOption "></a>
-## <a name="switch-between-relevance-and-categorized-search"></a>관련성 및 범주화 된 검색 간 전환
+## <a name="switch-between-relevance-and-categorized-search"></a>Switch between Relevance and Categorized search
 
-조직에서 두 검색 옵션 (관련성 및 항목별 검색)을 모두 켠 경우 둘 사이를 전환할 수 있습니다.
+If your organization has turned on both search options (Relevance and Categorized search), then you can switch between the two.
 
-1. 검색 형식 간을 전환 하려면 탐색 모음에서 **검색** 단추를 선택 합니다.
+1. To switch between search types, on the navigation bar, select the **Search** button.
 
-2. 왼쪽에서 드롭다운 메뉴를 선택 하 여 **관련성 검색** 또는 **항목별 검색**사이를 전환 합니다.
+2. On the left, select the drop-down menu to switch between **Relevance Search** or **Categorized Search**.
 
    > [!div class="mx-imgBorder"]
-   > ![관련성 및 범주화 된 검색 간 전환](media/switch-search.png "관련성 및 범주화 된 검색 간 전환") 
+   > ![Switch between Relevance and Categorized search](media/switch-search.png "Switch between Relevance and Categorized search") 
     
-### <a name="set-a-default-experience"></a>기본 환경 설정
+### <a name="set-a-default-experience"></a>Set a default experience
 
-조직에서 두 검색 옵션을 모두 켠 경우 개인 설정에서 기본 검색 환경을 선택할 수 있습니다.
+If your organization has turned on both search options then you can select a default search experience in your personal settings.
 
-1. 페이지의 오른쪽 위에서 **설정** 을 선택한 후 **개인**설정을 선택 합니다.  
+1. In the upper-right corner of the page, select **Settings** and then select **Personalization Settings**.  
   
    > [!div class="mx-imgBorder"]
-   > ![기본 검색 환경 선택](media/relevance-search-personal-settings.png "기본 검색 환경 선택")  
+   > ![Select default search experience](media/relevance-search-personal-settings.png "Select default search experience")  
 
-2. **일반** 탭의 **기본 검색 환경 선택** 섹션에서 기본 **검색 환경을**선택 하 고 기본 환경을 선택 합니다. 
+2. On the **General** tab, in the **Select the default search experience** section, for the **Default Search Experience**, select your default experience. 
 
    > [!div class="mx-imgBorder"]
-   > ![기본 검색 환경 선택](media/default.png "기본 검색 환경 선택")  
+   > ![Select default search experience](media/default.png "Select default search experience")  
  
 
 
-## <a name="start-a-search"></a>검색 시작 
+## <a name="start-a-search"></a>Start a search 
  
-1.  위쪽 탐색 모음에서 **검색** 단추를 선택 합니다.  
+1.  From the top nav bar, select the **Search** button.  
   
-2.  검색 상자에 검색 단어를 입력 하 고 **검색** 단추를 선택 합니다.   
+2.  Type your search words in the search box and then select **Search** button.   
 
     > [!div class="mx-imgBorder"]
-    > ![검색 옵션](media/search-option.png "검색 옵션")  
+    > ![Search option](media/search-option.png "Search option")  
   
-## <a name="filter-categorized-search-results"></a>분류 된 검색 결과 필터링 
+## <a name="filter-categorized-search-results"></a>Filter Categorized Search results 
   
--   한 레코드 종류를 기준으로 결과를 필터링 하려면 검색 화면의 **필터 기준:** 드롭다운 상자에서 레코드 형식을 선택 합니다.  
+-   To filter results by one record type, on the search screen, choose a record type from the **Filter with:** drop-down box.  
   
--   모든 레코드 유형을 검색 하려면 **필터 사용:** 드롭다운 상자에서 **없음** 을 선택 합니다.  
+-   To search against all record types, choose **None** in the **Filter with:** drop-down box.  
 
     > [!div class="mx-imgBorder"]
-    > ![필터 검색](media/filter-search.png "필터 검색")  
+    > ![Filter Search](media/filter-search.png "Filter Search")  
 
-## <a name="filter-records-with-facets-works-with-relevance-search"></a>패싯을 사용 하 여 레코드 필터링 (관련성 검색에서 작동)  
- 이제 Common Data Service를 사용 하 여 패싯 및 필터를 사용 하 여 검색 결과를 구체화할 수 있습니다. 왼쪽 창에서 패싯을 사용할 수 있습니다. 검색을 수행한 직후에는 다음의 글로벌 패싯을 4 개의 공통 필드에 사용할 수 있습니다.  
+## <a name="filter-records-with-facets-works-with-relevance-search"></a>Filter records with facets (works with Relevance Search)  
+ With Common Data Service, you can now refine your search results by using facets and filters. Facets are available in the left pane. Immediately after you perform a search, the following global facets are available for four common fields:  
   
--   레코드 유형  
+-   Record Type  
   
 -   소유자  
   
--   만든 시기  
+-   Created On  
   
--   수정한 날짜  
+-   Modified On  
   
-### <a name="record-type-facets"></a>레코드 유형 패싯  
- 특정 엔터티로 검색 결과의 범위를 좁히려면 **레코드 유형** 섹션 아래에서 엔터티를 선택 합니다.  
+### <a name="record-type-facets"></a>Record Type facets  
+ To narrow your search results to a specific entity, select the entity under the **Record Type** section.  
  
   > [!div class="mx-imgBorder"]
-  > ![검색 결과의 범위를 좁히는 레코드 유형 패싯](media/relevance-search-record-type-facet.png "검색 결과의 범위를 좁히는 데 사용 되는 레코드 유형 패싯")  
+  > ![Record Type facet to narrow the search results](media/relevance-search-record-type-facet.png "Record Type facet used to narrow search results")  
   
- 특정 레코드 종류를 필터링 할 때 검색 결과에서 선택한 레코드와 관련 된 활동과 메모를 포함할 수 있습니다. 이렇게 하려면 **관련 메모 & 작업** 확인란을 선택 합니다. 활동 및 메모는 최상위 결과에 표시 됩니다.  
+ When you filter on a specific record type, you can include activities and notes that are related to the selected record in your search results. To do that, select the **Related Notes & Activities** check box. The activities and notes will appear in top-level results.  
   
  
   > [!div class="mx-imgBorder"]
-  > ![검색 결과에서 레코드 유형과 관련 된 메모 및 활동 포함](media/relevance-search-record-type-facet-related-notes-activities.png "검색 결과에서 레코드 유형과 관련 된 메모 및 활동 포함")  
+  > ![Include notes and activities related to a record type in the search results](media/relevance-search-record-type-facet-related-notes-activities.png "Include notes and activities related to a record type in the search results")  
   
- 전자 메일 첨부 파일 또는 약속 엔터티에 있는 검색 결과는 해당 부모 레코드 (전자 메일 또는 약속)의 검색 결과에 표시 됩니다.  
+ Search results that are found in email attachments or appointment entities  are shown in the search results under their parent record, either Email or Appointment.  
   
- 레코드 유형으로 구체화 하는 경우 패싯 범위는 선택한 엔터티로 전환 되 고 해당 엔터티와 관련 된 최대 4 개의 패싯이 표시 됩니다. 예를 들어 계정 엔터티를 선택 하는 경우 전역 패싯 외에도 **기본 연락처** 패싯이 표시 됩니다.  
+ When you refine by record type, the facet scope switches to the selected entity, and up to four facets that are specific to the entity are shown. For example, if you select the Account entity, you'll see the **Primary Contact** facet in addition to the global facets.  
   
- **개인 옵션 설정** 대화 상자에서 시스템 관리자나 고객이 사용 하도록 설정한 다른 패싯을 선택할 수도 있습니다. 사용자 설정이 기본 설정을 재정의 합니다. [검색에 대 한 패싯 및 필터 구성](#BKMK_ConfigureFacets) [!INCLUDE[proc_more_information](../includes/proc-more-information.md)]  
+ In the **Set Personal Options** dialog box, you can also choose other facets from the ones that your system administrator or customer has made available to you. The user setting overrides the default setting. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Configure facets and filters for the search](#BKMK_ConfigureFacets)  
   
-### <a name="text-based-facets"></a>텍스트 기반 패싯  
- 모든 조회, 옵션 집합 및 레코드 형식은 텍스트 기반 패싯입니다. 예를 들어 텍스트 기반 패싯 소유자는 필드 값 목록과 해당 하는 개수로 구성 됩니다.  
+### <a name="text-based-facets"></a>Text-based facets  
+ All lookups, option sets, and record types are text-based facets. For example, the text-based facet Owner consists of a list of field values and their corresponding counts.  
  
   > [!div class="mx-imgBorder"]
-  > ![관련성 검색의 텍스트 기반 패싯](media/relevance-search-text-based-facets.png "관련성 검색의 텍스트 기반 패싯")  
+  > ![Text-based facet in Relevance Search](media/relevance-search-text-based-facets.png "Text-based facet in Relevance Search")  
   
- 이러한 패싯의 필터는 개수에 따라 내림차순으로 정렬 됩니다. 위쪽 네 패싯 값이 기본적으로 표시 됩니다. 패싯 값이 네 개 이상일 경우 목록을 확장 하 고 최대 15 개의 상위 패싯 값을 표시 하도록 선택할 수 있는 **자세히 표시** 링크가 표시 됩니다. 필드에 선택한 값이 있는 레코드만 표시 하도록 검색 결과를 필터링 하려면 각 값을 선택 합니다. 예를 들어 **최 차장 Abercrombie**를 선택 하면 소유자가 최 차장 인 모든 레코드가 검색 결과에 표시 됩니다. 조회 또는 옵션 집합 패싯 값을 선택 하면 지정 된 값을 가진 레코드만 포함 하도록 검색 결과가 필터링 됩니다.  
+ Filters in these facets are sorted in descending order by count. The top four facet values are displayed by default. When there are more than four facet values, you'll see a **SHOW MORE** link that you can select to expand the list and see up to 15 top facet values. Select each value to filter the search results to show only records where the field has the value you've selected. For example, if you select **Kim Abercrombie**, the search results will show all records where the owner is Kim Abercrombie. When you select a Lookup or Option Set facet value, search results are filtered to only include records with the value that you specified.  
   
-### <a name="date-and-time-facets"></a>날짜 및 시간 패싯  
- 다른 패싯 처럼 날짜 및 시간 패싯을 사용 하 여 특정 시간에 대 한 검색 결과를 필터링 하 고 볼 수 있습니다. 값 범위를 선택 하려면 슬라이더를 끌거나 세로 열 중 하나를 선택 합니다.  
+### <a name="date-and-time-facets"></a>Date and time facets  
+ Like other facets, you can use date and time facets to filter and see search results for a specific time. To select a range of values, drag the slider or select one of the vertical columns.  
  
   > [!div class="mx-imgBorder"]
-  > ![관련성 검색에 대 한 날짜 및 시간 패싯](media/relevance-search-date-time-facets.png "관련성 검색에 대 한 날짜 및 시간 패싯")  
+  > ![Date and time facets for Relevance Search](media/relevance-search-date-time-facets.png "Date and time facets for Relevance Search")  
   
 <a name="BKMK_ConfigureFacets"></a>   
-### <a name="configure-facets-and-filters-for-the-search"></a>검색에 대 한 패싯 및 필터 구성  
- 패싯 및 필터를 사용 하면 검색 용어를 반복적으로 구체화 하지 않고도 현재 검색의 결과를 드릴 하 고 탐색할 수 있습니다. **개인 옵션 설정** 대화 상자에서 원하는 패싯 및 필터를 구성 합니다.  
+### <a name="configure-facets-and-filters-for-the-search"></a>Configure facets and filters for the search  
+ Facets and filters let you drill into and explore the results of your current search without having to repeatedly refine your search term. Configure the facets and filters you want in the **Set Personal Options** dialog box.  
   
 > [!NOTE]
->  시스템 사용자 지정 자가 모든 엔터티에 대 한 기본 환경을 설정할 수 있지만 사용자 고유의 패싯 및 필터를 구성할 수 있습니다.  
+>  The system customizer can set the default experience for all entities, but you can configure your own facets and filters.  
   
-#### <a name="to-configure-facets-for-yourself"></a>자신에 대 한 패싯을 구성 하려면  
+#### <a name="to-configure-facets-for-yourself"></a>To configure facets for yourself  
   
-1. 페이지의 오른쪽 위에서 **설정** 을 선택한 후 **개인**설정을 선택 합니다.  
+1. In the upper-right corner of the page, select **Settings** and then select **Personalization Settings**.  
   
    > [!div class="mx-imgBorder"]
-   > ![기본 검색 환경 선택](media/relevance-search-personal-settings.png "기본 검색 환경 선택")  
+   > ![Select default search experience](media/relevance-search-personal-settings.png "Select default search experience")  
   
-2. **일반** 탭의 **기본 검색 환경 선택** 섹션에서 **패싯 및 필터** 필드에 대해 **구성**을 선택 합니다.  
+2. On the **General** tab, in the **Select the default search experience** section, for the **Facets and Filters** field, select **Configure**.  
   
-3. **패싯 및 필터 구성** 대화 상자에서 엔터티에 대해 보려는 패싯을 지정 합니다. 시스템 관리자나 사용자 지정 자가 모든 엔터티에 대 한 기본 환경을 설정할 수 있지만 여기에서 직접 설정할 수 있습니다.  
+3. In the **Configure Facets and Filters** dialog box, specify the facets you'd like to see for an entity. Your system administrator or customizer can set a default experience for all entities, but you can set your own here.  
   
-   - **엔터티 선택** 드롭다운 목록에서 패싯을 구성 하려는 엔터티를 선택 합니다. 이 드롭다운 목록에는 관련성 검색을 사용 하도록 설정 된 엔터티만 포함 됩니다.  
+   - In the **Select Entity** drop-down list, select an entity you want to configure facets for. This drop-down list contains only the entities that are enabled for Relevance Search.  
   
-   - 선택한 엔터티에 대해 최대 4 개의 패싯 필드를 선택 합니다. 기본적으로 선택한 엔터티에 대 한 **빠른 찾기** 보기에서 처음 4 개의 패싯 가능 필드가 목록에서 선택 됩니다. 언제 든 지 네 개의 필드만 패싯으로 선택할 수 있습니다.  
+   - For the selected entity, select up to four facet fields. By default, the first four facetable fields in the **Quick Find** view for the selected entity are selected in the list. At any time, you can only have four fields selected as facets.  
   
-     한 번에 여러 엔터티를 업데이트할 수 있습니다. **확인**을 선택 하면 구성한 모든 엔터티에 대 한 변경 내용이 저장 됩니다. 이전에 구성한 엔터티의 기본 동작으로 되돌리려면 **기본값**을 선택 합니다.  
+     You can update multiple entities at one time. When you select **OK**, the changes for all entities that you've configured are saved. To revert to the default behavior for an entity that you previously configured, select **Default**.  
   
    > [!NOTE]
-   > - 시스템 사용자 지정자에서 필드를 삭제 하거나 더 이상 검색할 수 없게 하 고 해당 필드에 대 한 패싯을 저장 한 경우 더 이상 패싯으로 표시 되지 않습니다.  
-   >   -   기본 솔루션에는 있고 시스템 사용자 지정자에 의해 검색 가능으로 구성 된 필드만 표시 됩니다.  
+   > - If a system customizer deletes a field or makes it no longer searchable, and you've saved a facet for that field, it will no longer show up as a facet.  
+   >   -   You'll only see the fields that exist in the default solution and that are configured as searchable by your system customizer.  
   
  
