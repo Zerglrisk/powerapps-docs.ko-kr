@@ -20,7 +20,7 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 10/24/2019
 ms.locfileid: "72822104"
 ---
-# <a name="create-a-rule-in-canvas-apps"></a>Canvas 앱에서 규칙 만들기
+# <a name="create-a-rule-in-canvas-apps"></a>캔버스 앱에서 규칙 만들기
 지정된 조건에 따라 앱을 자동으로 수정하는 규칙을 만듭니다. 예를 들어 상태에 따라 빨강, 노랑 또는 녹색으로 목록 항목을 표시하거나 특정 사용자(예: 관리자)에 대한 승인 단추를 표시합니다. 다양한 컨트롤에 규칙을 추가할 수 있습니다. **슬라이더** 컨트롤의 값이 70보다 큰 경우 이 항목에서 **레이블** 컨트롤의 텍스트 색을 변경하는 규칙을 추가합니다.
 
 > [!IMPORTANT]

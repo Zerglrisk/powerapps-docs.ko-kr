@@ -44,14 +44,14 @@ ms.locfileid: "71985909"
 1. 필드 목록에서 **직원 수**에 대 한 아래쪽 화살표를 선택 하 고 **컨트롤 유형**아래에서 목록을 엽니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t-숫자 카드 @ no__t-1의 옵션 드롭다운 목록
+    > 숫자 카드에 대 한 옵션 드롭다운 목록 ![](./media/customize-card/card-selector.png)
 
 1. **편집 슬라이더**를 선택 합니다.
 
     화면은 변경 내용을 반영합니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t 슬라이더 컨트롤 @ no__t-1을 사용 하 여 0 편집 Form1
+    > 슬라이더 컨트롤을 사용 하 여 EditForm1 ![](./media/customize-card/add-slider.png)
 
 ## <a name="unlock-and-customize-a-card"></a>카드 잠금 해제 및 사용자 지정
 
@@ -60,22 +60,22 @@ ms.locfileid: "71985909"
 1. **EditForm1**에서 **직원 수** 카드의 **슬라이더** 컨트롤을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > @no__t 슬라이더 @ no__t-1을 선택 합니다.
+    > 슬라이더 ![선택](./media/customize-card/select-slider.png)
 
 1. 오른쪽 창의 **고급** 탭에서 잠금 아이콘을 선택 하 여 카드의 잠금을 해제 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![Unlock 1의 잠금 해제 카드 @ no__t-1
+    > 카드 잠금 해제 ![](./media/customize-card/lock-icon.png)
 
 1. **슬라이더** 컨트롤의 **Max** 속성을 1만로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
-    > 고급 탭의 ![Max 속성 @ no__t-1
+    > 고급 탭에서 Max 속성 ![](./media/customize-card/max-property.png)
 
     **슬라이더** 컨트롤은 보다 정확한 값을 표시 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![ 슬라이더 범위: 0-10000 @ no__t-0
+    > ![슬라이더 범위: 0 ~ 10000](./media/customize-card/final-slider.png)
 
 ## <a name="next-steps"></a>다음 단계
 

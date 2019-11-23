@@ -31,7 +31,7 @@ ms.locfileid: "71991819"
 PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산되는 수식을 기반으로 합니다.  컨텍스트 변수는 이러한 이점이 활용되지 않기 때문에 앱을 만들고 이해하기 어려울 수 있습니다.  컨텍스트 변수를 사용하기 전에 [변수 작업](../working-with-variables.md)을 검토하세요.
 
 ## <a name="description"></a>설명
-컨텍스트 변수를 만들거나 업데이트하려면 **UpdateContext** 함수에 단일 [레코드](../working-with-tables.md#records)를 전달합니다. 각 레코드에 변수 이름을 정의하거나 일치시키는 [열](../working-with-tables.md#columns)의 이름과 해당 변수를 설정할 값을 지정합니다.
+컨텍스트 변수를 만들거나 업데이트하려면 [UpdateContext](../working-with-tables.md#records) 함수에 단일 **레코드**를 전달합니다. 각 레코드에 변수 이름을 정의하거나 일치시키는 [열](../working-with-tables.md#columns)의 이름과 해당 변수를 설정할 값을 지정합니다.
 
 * 이전에 정의한 변수의 이름을 지정하면 **UpdateContext**는 변수 값을 지정한 값으로 설정합니다.
 * 아직 존재하지 않는 변수의 이름을 지정하면 **UpdateContext**는 해당 이름의 변수를 만들고 해당 변수의 값을 사용자가 지정한 값으로 설정합니다.
@@ -62,11 +62,11 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 
 * *UpdateRecord* – 필수. 하나 이상의 열 및 해당 열에 대한 값을 포함하는 레코드입니다. 사용자가 지정한 각 열과 값에 대해 컨텍스트 변수를 만들거나 업데이트합니다.
 
-**Updatecontext**({ *ContextVariable1*: *Value1* [, *ContextVariable2*: *Value2* [, ...] ] } )
+**UpdateContext**( { *ContextVariable1*: *Value1* [, *ContextVariable2*: *Value2* [, ... ] ] } )
 
 * *ContextVariable1* - 필수.  만들거나 업데이트할 컨텍스트 변수의 이름입니다.
 * *Value1* - 필수.  컨텍스트 변수에 할당할 값입니다.
-* *ContextVariable2*: *Value2*, ...-선택 사항입니다. 만들거나 업데이트할 추가 컨텍스트 변수 및 값입니다.
+* *ContextVariable2*: *Value2*, ... - 선택 사항. 만들거나 업데이트할 추가 컨텍스트 변수 및 값입니다.
 
 ## <a name="examples"></a>예
 
@@ -76,13 +76,13 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 | **UpdateContext( {&nbsp;Counter:&nbsp;2&nbsp;} )** |앞 예제의 **Counter** 컨텍스트 변수 값을 **2**로 설정합니다. |**Counter**의 값은 **2**입니다. |
 | **UpdateContext( {&nbsp;Name:&nbsp;"Lily",&nbsp;Score:&nbsp;10&nbsp;} )** |컨텍스트 변수 **Name** 및 **Score**를 생성하거나 수정하고 값을 각각 **Lily** 및 **10**으로 설정합니다. |**Name**에는 **Lily** 값이 있고 **Score**에는 **10** 값이 있습니다. |
 | **UpdateContext( {&nbsp;Person:&nbsp;{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}&nbsp;} )** |컨텍스트 변수 **Person**을 생성하거나 수정하고 값을 레코드로 설정합니다. 이 레코드는 **Name**과 **Address**라는 두 개의 열을 포함합니다. **Name** 열의 값은 **Milton**이고 **Address** 열의 값은 **1 Main St**입니다. |**Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"1&nbsp;Main&nbsp;St"&nbsp;}&nbsp;}** 라는 레코드입니다.<br><br>이 레코드 전체를 **Person**이라는 이름으로 참조하거나 이 레코드의 개별 열을 **Person.Name** 또는 **Person.Address**로 참조합니다. |
-| **Updatecontext ({&nbsp; 명: Patch (&nbsp;Person, &nbsp; {Address: &nbsp; "2 @ no__t-3Main @ no__t-4St" &nbsp;} &nbsp;)} &nbsp;)** |**[Patch](function-patch.md)** 함수로 **Address** 열의 값을 **2 Main St**로 설정하여 **Person** 컨텍스트 변수를 업데이트합니다. |이제 **Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;}** 라는 레코드입니다. |
+| **UpdateContext( {&nbsp;Person: Patch(&nbsp;Person,&nbsp;{Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;) }&nbsp;)** |**[Patch](function-patch.md)** 함수로 **Address** 열의 값을 **2 Main St**로 설정하여 **Person** 컨텍스트 변수를 업데이트합니다. |이제 **Person**의 값은 **{&nbsp;Name:&nbsp;"Milton", Address:&nbsp;"2&nbsp;Main&nbsp;St"&nbsp;}&nbsp;}** 라는 레코드입니다. |
 
 ### <a name="step-by-step-example"></a>단계별 예제
 1. 기본 화면 이름을 **Source**로 지정하고 다른 화면을 추가한 후 이름을 **Target**으로 지정합니다.
 2. **Source** 화면에서 단추 두 개를 추가하고 해당 **[Text](../controls/properties-core.md)** 속성을 하나는 **English**로, 다른 하나는 **Spanish**로 설정합니다.
-3. **English** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"English"})**
-4. **Spanish** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"Spanish"})**
+3. **English[ 단추의 ](../controls/properties-core.md)** OnSelect 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"English"})**
+4. **Spanish[ 단추의 ](../controls/properties-core.md)** OnSelect 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"Spanish"})**
 5. **Target** 화면에서 레이블을 추가하고 해당 **[Text](../controls/properties-core.md)** 속성을 이 식으로 설정합니다.<br>**If(Language="English", "Hello!", "Hola!")**
 6. **Target** 화면의 **Insert** 탭에서 **Shapes**를 선택한 후 뒤로 화살표를 선택합니다.
 7. 뒤로 화살표의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**Navigate(Source, ScreenTransition.Fade)**
@@ -92,7 +92,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 9. 뒤로 화살표를 선택하여 **Source** 화면으로 돌아간 후 다른 언어에 대한 단추를 선택합니다.
 
     **Target** 화면에 선택한 단추에 해당하는 언어로 레이블이 나타납니다.
-10. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
+10. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
 [또 다른 예](../add-screen-context-variables.md)
 

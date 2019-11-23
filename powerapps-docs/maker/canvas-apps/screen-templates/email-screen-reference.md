@@ -52,8 +52,8 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
 
 앱 사용자는 **추가 아이콘** 컨트롤을 사용 하 여 조직 내에 없는 사용자를 구성 된 전자 메일의 받는 사람 목록에 추가할 수 있습니다.
 
-* 속성 **되**<br>
-    기본값 사용자가 검색 상자에 유효한 전자 메일 주소를 입력 하는 경우에만 컨트롤을 표시 하는 논리입니다.
+* 속성: **표시**<br>
+    값: 사용자가 검색 상자에 유효한 전자 메일 주소를 입력 하는 경우에만 컨트롤을 표시 하는 논리입니다.
 
     ```powerapps-dot
     !IsBlank( TextSearchBox.Text ) &&
@@ -66,8 +66,8 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
     * **Textsearchbox** 의 텍스트는 유효한 전자 메일 주소입니다.
     * **Textsearchbox** 의 텍스트는 **MyPeople** 컬렉션에 이미 존재 하지 않습니다.
 
-* 속성 **OnSelect**<br>
-    기본값 이를 선택 하면 유효한 전자 메일 주소가 **MyPeople** 컬렉션에 추가 됩니다. 이 컬렉션은 화면에서 받는 사람 목록으로 사용 됩니다.
+* 속성: **Onselect**<br>
+    값:이를 선택 하면 유효한 전자 메일 주소가 **MyPeople** 컬렉션에 추가 됩니다. 이 컬렉션은 화면에서 받는 사람 목록으로 사용 됩니다.
 
     ```powerapps-dot
     Collect( MyPeople,
@@ -86,8 +86,8 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
 
    ![PeopleBrowseGallery 컨트롤](media/email-screen/email-browse-gall.png)
 
-* 속성 **품목이**<br>
-    기본값 **Textsearchbox** 컨트롤에 입력 된 검색 텍스트의 상위 15 개 검색 결과:
+* 속성: **항목**<br>
+    값: **Textsearchbox** 컨트롤에 입력 된 검색 텍스트의 상위 15 개 검색 결과:
     
     ```powerapps-dot
     If( !IsBlank( Trim(TextSearchBox.Text ) ), 
@@ -95,21 +95,21 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
     )
     ```
 
-  이 갤러리의 항목은 [Office365 사용자](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업에서 검색 결과로 채워집니다. 작업은 검색 용어로 `Trim(TextSearchBox)`의 텍스트를 사용 하 고 해당 검색을 기준으로 상위 15 개 결과를 반환 합니다.
+  이 갤러리의 항목은 [Office365 사용자](https://docs.microsoft.com/connectors/office365users/#searchuser) 작업에서 검색 결과로 채워집니다. 작업은 `Trim(TextSearchBox)`의 텍스트를 검색 용어로 사용 하 고 해당 검색을 기준으로 상위 15 개 결과를 반환 합니다.
   
-  공백에 대 한 사용자 검색이 잘못 되었으므로 **Textsearchbox** 가 `Trim()` 함수에 래핑됩니다. @No__t-0 연산은 `If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 함수에 래핑됩니다. 즉, 검색 상자에 사용자가 입력 한 텍스트가 포함 된 경우에만 작업이 수행 됩니다. 이렇게 하면 성능이 향상 됩니다. 
+  공백에 대 한 사용자 검색이 잘못 되었으므로 **Textsearchbox** 가 `Trim()` 함수에 래핑됩니다. `Office365Users.SearchUser` 작업은 `If(!IsBlank(Trim(TextSearchBox.Text)) ... )` 함수에서 래핑됩니다. 즉, 검색 상자에 사용자가 입력 한 텍스트가 포함 된 경우에만 작업이 수행 됩니다. 이렇게 하면 성능이 향상 됩니다. 
 
 ### <a name="people-browse-gallery-title-control"></a>사용자 찾아보기 갤러리 제목 컨트롤
 
    ![PeopleBrowseGallery Title 컨트롤](media/email-screen/email-browse-gall-title.png)
 
-* 속성 **텍스트**<br>
+* 속성: **텍스트**<br>
     값: `ThisItem.DisplayName`
 
   Office 365 프로필의 사용자 표시 이름을 표시 합니다.
 
-* 속성 **OnSelect**<br>
-    기본값 사용자를 앱 수준 컬렉션에 추가 하는 코드를 만든 다음 사용자를 선택 합니다.
+* 속성: **Onselect**<br>
+    값: 앱 수준 컬렉션에 사용자를 추가 하는 코드를 만든 다음 사용자를 선택 합니다.
 
     ```powerapps-dot
     Concurrent(
@@ -122,7 +122,7 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
     ```
 이 컨트롤을 선택 하면 세 가지 작업을 동시에 수행 합니다.
 
-   * **_Selecteduser** 변수를 선택한 항목으로 설정 합니다.
+   * **_SelectedUser** 변수를 선택한 항목으로 설정 합니다.
    * **Textsearchbox**에서 검색 단어를 다시 설정 합니다.
    * **MyPeople** 컬렉션에 선택한 항목을 추가 합니다 .이 컬렉션에는 전자 메일 화면에서 받는 사람 집합으로 사용 하는 선택한 모든 사용자의 컬렉션이 추가 됩니다.
 
@@ -130,13 +130,13 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
 
    ![EmailPeopleGallery 컨트롤](media/email-screen/email-people-gall.png)
 
-* 속성 **품목이**<br>
+* 속성: **항목**<br>
     값: `MyPeople`
 
   **PeopleBrowseGallery Title** 컨트롤을 선택 하 여에 초기화 되거나 추가 되는 사용자의 컬렉션입니다.
 
-* 속성 **높이로**<br>
-    기본값 현재 갤러리에 있는 항목 수에 따라 높이를 설정 하는 논리:
+* 속성: **Height**<br>
+    값: 현재 갤러리에 있는 항목 수에 따라 높이를 설정 하는 논리입니다.
 
     ```powerapps-dot
     Min( 
@@ -148,9 +148,9 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
 
   이 갤러리의 높이는 갤러리의 항목 수로 조정 되며 최대 높이는 304입니다.
   
-  **EmailPeopleGallery**의 단일 행에 대 한 총 높이로 `TemplateHeight + TemplatePadding * 2`을 사용 하 고 행 수를 곱합니다. @No__t-0 이므로 true 행의 수는-1 @no__t.
+  **EmailPeopleGallery**의 단일 행에 대 한 총 높이로 `TemplateHeight + TemplatePadding * 2`를 사용 하 고 행 수를 곱합니다. `WrapCount = 2`있으므로 true 행의 수는 `RoundUp(CountRows(EmailPeopleGallery.AllItems) / 2, 0)`됩니다.
 
-* 속성 **ShowScrollbar**<br>
+* 속성: **Showscrollbar**<br>
     값: `EmailPeopleGallery.Height >= 304`
   
   갤러리의 높이가 304에 도달 하면 스크롤 막대가 표시 됩니다.
@@ -159,24 +159,24 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
 
    ![EmailPeopleGallery Title 컨트롤](media/email-screen/email-people-gall-text.png)
 
-* 속성 **OnSelect**<br>
+* 속성: **Onselect**<br>
     값: `Set(_selectedUser, ThisItem)`
 
-  **_Selecteduser** 변수를 **EmailPeopleGallery**에서 선택한 항목으로 설정 합니다.
+  **_SelectedUser** 변수를 **EmailPeopleGallery**에서 선택한 항목으로 설정 합니다.
 
 ### <a name="email-people-gallery-iconremove-control"></a>전자 메일 사용자 갤러리 아이콘 제거 컨트롤
 
    ![MonthDayGallery 제목 컨트롤](media/email-screen/email-people-gall-delete.png)
 
-* 속성 **OnSelect**<br>
+* 속성: **Onselect**<br>
     값: `Remove( MyPeople, LookUp( MyPeople, UserPrincipalName = ThisItem.UserPrincipalName ) )`
 
   **MyPeople** collection에서 레코드를 조회 합니다. 여기서 **UserPrincipalName** 는 선택한 항목의 **UserPrincipalName** 와 일치 하 고 컬렉션에서 해당 레코드를 제거 합니다.
 
 ## <a name="mail-icon"></a>메일 아이콘
 
-* 속성 **OnSelect**<br>
-    기본값 사용자의 전자 메일 메시지를 보내는 논리:
+* 속성: **Onselect**<br>
+    값: 사용자의 전자 메일 메시지를 보내는 논리:
 
     ```powerapps-dot
     Set( _emailRecipientString, Concat( MyPeople, Mail & ";" ) );
@@ -191,14 +191,14 @@ PowerApps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
     ```
 
   전자 메일 메시지를 보내려면 세미콜론으로 구분 된 전자 메일 주소 문자열이 필요 합니다. 위의 코드에서 다음을 수행 합니다.
-  1. 코드의 첫 번째 줄은 **MyPeople** 컬렉션에 있는 모든 행의 **메일** 필드를 가져와 세미콜론으로 구분 된 단일 문자열의 전자 메일 주소로 연결 하 고 **_emailRecipientString** 변수를 해당 문자열로 설정 합니다. 기본값.
+  1. 첫 번째 코드 줄은 **MyPeople** 컬렉션에 있는 모든 행의 **메일** 필드를 가져와 세미콜론으로 구분 된 단일 문자열의 전자 메일 주소로 연결 하 고 **_emailRecipientString** 변수를 해당 문자열 값으로 설정 합니다.
 
   1. 그런 다음 [Office365. SendEmail](https://docs.microsoft.com/connectors/office365/#sendemail) 작업을 사용 하 여 받는 사람에 게 전자 메일을 보냅니다.
-    작업에는 세 가지 필수 매개 변수인 **To**, **Subject**및 **Body**와 하나의 선택적 매개 변수--**중요도**가 있습니다. 위의 코드에서 **_emailRecipientString**, **TextEmailSubject**입니다. 텍스트, **TextEmailMessage** Text 및 **Normal**의 각각에 해당 합니다.
+    작업에는 세 가지 필수 매개 변수인 **To**, **Subject**및 **Body**와 하나의 선택적 매개 변수--**중요도**가 있습니다. 위의 코드에서는 **_emailRecipientString** **TextEmailSubject**입니다. 텍스트, **TextEmailMessage** Text 및 **Normal**의 각각에 해당 합니다.
   1. 마지막으로 **TextEmailSubject** 및 **TextEmailMessage** 컨트롤을 다시 설정 하 고 **MyPeople** 컬렉션을 지웁니다.
 
-* 속성 **DisplayMode**<br>
-    기본값 @no__t 전자 메일을 보낼 수 있도록 전자 메일 제목 줄에 텍스트가 있어야 하 고 받는 사람 (**MyPeople**) 컬렉션이 비어 있지 않아야 합니다.
+* 속성: **DisplayMode**<br>
+    값: 보낼 전자 메일에 대 한 `If( Len( Trim( TextEmailSubject.Text ) ) > 0 && !IsEmpty( MyPeople ), DisplayMode.Edit, DisplayMode.Disabled )` 전자 메일 제목 줄에 텍스트가 있어야 하 고 받는 사람 (**MyPeople**) 컬렉션이 비어 있지 않아야 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

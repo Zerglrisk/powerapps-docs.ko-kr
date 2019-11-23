@@ -11,7 +11,7 @@ ms.author: shjais
 ms.reviewer: ''
 ms.openlocfilehash: af5b0ae8eddb68127c7271fccb4696a23fedfc60
 ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2019
 ms.locfileid: "73542734"
@@ -64,7 +64,7 @@ ms.locfileid: "73542734"
    > - 인덱스: 해당 없음 (0)                                              
    > - URL: **https://portal.contoso.com/signin-saml2**
 
-8. Id 구성: https://portal.contoso.com/ 을 지정 하 고 **추가**를 선택한 후 **다음**을 선택 합니다.
+8. Id 구성: https://portal.contoso.com/을 지정 하 고 **추가**를 선택한 후 **다음**을 선택 합니다.
    해당 하는 경우 각 추가 신뢰 당사자 포털에 대 한 id를 더 추가할 수 있습니다. 사용자는 사용 가능한 id 중 일부 또는 모두에 대해 인증할 수 있습니다.
 9. 발급 권한 부여 규칙 선택: **모든 사용자가이 신뢰 당사자에 액세스 하도록 허용**을 선택 하 고 **다음**을 선택 합니다.
 10. 트러스트 추가 준비 완료: **다음**을 선택 합니다.
@@ -87,7 +87,7 @@ ms.locfileid: "73542734"
 위의 [!include[](../../../includes/pn-adfs-short.md)] 신뢰 당사자 트러스트를 참조 하는 포털 사이트 설정을 적용 합니다.
 
 > [!Note]
-> 표준 [!include[](../../../includes/pn-adfs-short.md)] (IdP) 구성은 Authentication/SAML2/ADFS/MetadataAddress Address를 사용 하는 다음 설정 (예제 값)만 사용 합니다.  
+> 표준 [!include[](../../../includes/pn-adfs-short.md)] (IdP) 구성은 Authentication/SAML2/ADFS/MetadataAddress Address를 사용 하는 다음 설정 (예제 값)만 사용 합니다.<https://adfs.contoso.com/FederationMetadata/2007-06/FederationMetadata.xml>  
 > - Authentication/SAML2/ADFS/AuthenticationType- https://adfs.contoso.com/adfs/services/trust    
 >   -   페더레이션 메타 데이터의 루트 요소에 있는 **entityID** 특성의 값을 사용 합니다 (위의 사이트 설정 값을 브라우저에서 **metadataaddress URL** 열기). 
 > - Authentication/SAML2/ADFS/ServiceProviderRealm- https://portal.contoso.com/  
@@ -217,11 +217,11 @@ Write-Output $idpInitiatedUrl
 1.  디렉터리의**응용 프로그램** 메뉴에서 **추가**를 선택 합니다.
 2.  **내 조직에서 개발 중인 응용 프로그램 추가를**선택 합니다.
 3.  응용 프로그램에 대 한 사용자 지정 이름을 지정 하 고 **웹 응용 프로그램 및/또는 WEB API**유형을 선택 합니다.
-4.  로그온 **URL** 및**앱 ID URI**의 경우 https://portal.contoso.com/ 두 필드 모두에 대 한 포털의 URL을 지정 합니다.
+4.  로그온 **URL** 및**앱 ID URI**의 경우 https://portal.contoso.com/두 필드 모두에 대 한 포털의 URL을 지정 합니다.
     이는 **Serviceproviderrealm** (Wtrealm) 사이트 설정 값에 해당 합니다.
 5. 이때 새 응용 프로그램이 만들어집니다. 메뉴의 **구성** 섹션으로 이동 합니다.
 
-    **Single Sign-On** 섹션에서 첫 번째 **회신 url** 항목을 업데이트 하 여 url https://portal.contoso.com/signin-azure-ad 에 경로를 포함 합니다.
+    **Single Sign-On** 섹션에서 첫 번째 **회신 url** 항목을 업데이트 하 여 url https://portal.contoso.com/signin-azure-ad에 경로를 포함 합니다.
 
     이는 **AssertionConsumerServiceUrl** (Wreply) 사이트 설정 값에 해당 합니다.
 
@@ -241,7 +241,7 @@ Write-Output $idpInitiatedUrl
 
 ## <a name="shibboleth-identity-provider-3"></a>Shibboleth Id 공급자 3
 
-[Shibboleth Id 공급자](https://wiki.shibboleth.net/confluence/display/IDP30/Home) 를 IdP 서비스로 올바르게 구성 하려면 다음 지침을 따르십시오. 다음은 IdP가 도메인 https://idp.contoso.com 호스트 되는 것으로 가정 합니다.  
+[Shibboleth Id 공급자](https://wiki.shibboleth.net/confluence/display/IDP30/Home) 를 IdP 서비스로 올바르게 구성 하려면 다음 지침을 따르십시오. 다음은 IdP가 도메인 https://idp.contoso.com호스트 되는 것으로 가정 합니다.  
 
 페더레이션 메타 데이터 URL은 https://idp.contoso.com/idp/shibboleth
 

@@ -11,7 +11,7 @@ ms.author: shjais
 ms.reviewer: ''
 ms.openlocfilehash: be576425067079549d3174e6d6306814a6ddb13a
 ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2019
 ms.locfileid: "73542815"
@@ -31,7 +31,7 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
 
 ## <a name="create-oauth-applications"></a>OAuth 응용 프로그램 만들기
 
-일반적으로 OAuth 공급자가 리디렉션 URI 값을 요구 하는 앱 설정을 사용 하는 경우 공급자가 리디렉션 URI 유효성 검사를 수행 하는 방법에 따라 [공급자\] https://portal.contoso.com/signin-\<https://portal.contoso.com/or> 지정 합니다. 일부 공급자는와 함께 전체 URL 경로를 지정 해야 합니다. 도메인 이름). 리디렉션 URI에서 \[공급자\] 대신 공급자 이름을 대체 합니다.
+일반적으로 OAuth 공급자가 리디렉션 URI 값을 요구 하는 앱 설정을 사용 하는 경우 공급자가 리디렉션 URI 유효성 검사를 수행 하는 방법에 따라 [공급자\] https://portal.contoso.com/signin-\<https://portal.contoso.com/or> 지정 합니다. 일부 공급자는 도메인 이름과 함께 전체 URL 경로를 지정 해야 합니다. 리디렉션 URI에서 \[공급자\] 대신 공급자 이름을 대체 합니다.
 
 ### <a name="google"></a>로그
 
@@ -83,8 +83,8 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
 2. **새 앱 만들기**를 선택 합니다.
 
     - 앱에 대 한 **이름** 및 **설명을** 지정 합니다.
-    - 웹 사이트 URL을 https://portal.contoso.com 로 설정 합니다.
-    - 콜백 URL을 https://portal.contoso.com 또는 https://portal.contoso.com/signin-twitter 로 설정 합니다.
+    - 웹 사이트 URL을 https://portal.contoso.com로 설정 합니다.
+    - 콜백 URL을 https://portal.contoso.com 또는 https://portal.contoso.com/signin-twitter로 설정 합니다.
 
 3. **Twitter 응용 프로그램 만들기**를 선택 합니다.
 
@@ -94,7 +94,7 @@ OAuth 2.0 기반 외부 id 공급자는 "응용 프로그램"을 타사 서비�
 2. **새 응용 프로그램 추가**를 선택 합니다.
 
     - **응용 프로그램 이름**, **설명**등을 지정 합니다.
-    - 웹 사이트 URL을 https://portal.contoso.com 로 설정 합니다.
+    - 웹 사이트 URL을 https://portal.contoso.com로 설정 합니다.
     - OAuth 사용자 계약/기본 범위를 설정 합니다. r\_basicprofie 및 r\_emailaddress
     - OAuth 2.0 리디렉션 url 설정: https://portal.contoso.com/signin-linkedin.
 

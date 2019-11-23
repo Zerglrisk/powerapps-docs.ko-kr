@@ -63,16 +63,16 @@ ms.locfileid: "71992381"
 
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| **Replace ("abcdefghijk", &nbsp;6, &nbsp;5, &nbsp; "*")** | "Abcdefghijk"에서 5 개 문자를 단일 "*" 문자로 바꿉니다 (6 번째 문자 ("f")로 시작). | "abcde...z * k" |
-| **Replace (&nbsp; "2019", &nbsp;3, &nbsp;2, &nbsp; "20" &nbsp;)** | "2019"의 마지막 두 문자를 "20"으로 바꿉니다. | "2020" |
-| **Replace (&nbsp; "123456", &nbsp;1, &nbsp;3, &nbsp; "_" &nbsp;)** | "123456"의 처음 세 문자를 단일 "_" 문자로 바꿉니다. | "_456" | 
-| **대체 (&nbsp; "Sales @ no__t-2Data", &nbsp; "Sales", &nbsp; "Cost" &nbsp;)** | "Cost" 문자열을 "Sales"로 대체 합니다. | "비용 데이터" | 
-| **대체 ("Quarter @ no__t-11, &nbsp;2018", "1", "2", 1)** | 네 번째 인수 (*InstanceNumber*)가 1과 함께 제공 되므로 "1"의 첫 번째 인스턴스만 "2"로 대체 합니다. |  "사분기 2, 2018" |
-| **대체 ("Quarter @ no__t-11, &nbsp;2011", "1", "2", 3)** | 네 번째 인수 (*InstanceNumber*)가 3과 함께 제공 되므로 "1"의 세 번째 인스턴스만 "2"로 대체 합니다. | "Quarter 1, 2012" |
-| **대체 ("Quarter @ no__t-11, &nbsp;2011", "1", "2")** | 네 번째 인수 (*InstanceNumber*)가 제공 되지 않았기 때문에 "1"의 모든 인스턴스를 "2"로 대체 합니다. | "사분기 2, 2022" |
-| **Replace (<br> [&nbsp; "Quarter @ no__t-31, &nbsp;2018", <br> "Quarter @ no__t-62, &nbsp;2011", <br> "Quarter @ no__t-94, 02019"], 19, 1, "3")** | 단일 열 테이블의 각 레코드에서 아홉 번째 문자를 "3"으로 바꿉니다. | [&nbsp; "Quarter @ no__t-13, &nbsp;2018",<br>"Quarter @ no__t-03, &nbsp;2011",<br>"Quarter @ no__t-03, &nbsp;2019" &nbsp;] |
-| **대체 (<br> [&nbsp; "분기 @ no__t-31, &nbsp;2018", <br> "Quarter @ no__t-61, &nbsp;2011", <br> "Q1, &nbsp;2019" 0], 1 "1", "3", 1)** | 네 번째 인수 (*InstanceNumber*)는 값 1과 함께 제공 되므로 단일 열 테이블의 각 레코드에서 "1"의 첫 번째 인스턴스만 "3"으로 대체 합니다. | [&nbsp; "분기 @ no__t, &nbsp;2018",<br>"Quarter @ no__t-03, &nbsp;2011",<br>"Q3, &nbsp;2019" &nbsp;] |
-| **대체 (<br> [&nbsp; "분기 @ no__t-31, &nbsp;2018", <br> "Quarter @ no__t-61, &nbsp;2011", <br> "Q1, &nbsp;2019" 0], 1 "1", "3")** | 네 번째 인수 (*InstanceNumber*)가 제공 되지 않으므로는 단일 열 테이블의 각 레코드에서 "1"의 모든 인스턴스를 "3"으로 대체 합니다. | [&nbsp; "분기 @ no__t, &nbsp;2038",<br>"Quarter @ no__t-03, &nbsp;2033",<br>"Q3, &nbsp;2039" &nbsp;] |  
+| **Replace ("abcdefghijk",&nbsp;6,&nbsp;5,&nbsp;"*")** | "Abcdefghijk"에서 5 개 문자를 단일 "*" 문자로 바꿉니다 (6 번째 문자 ("f")로 시작). | "abcde...z * k" |
+| **Replace (&nbsp;"2019",&nbsp;3,&nbsp;2,&nbsp;"20"&nbsp;)** | "2019"의 마지막 두 문자를 "20"으로 바꿉니다. | "2020" |
+| **Replace (&nbsp;"123456",&nbsp;1,&nbsp;3,&nbsp;"_"&nbsp;)** | "123456"의 처음 세 문자를 단일 "_" 문자로 바꿉니다. | "_456" | 
+| **대체 (&nbsp;"Sales&nbsp;Data",&nbsp;"Sales",&nbsp;"Cost"&nbsp;)** | "Cost" 문자열을 "Sales"로 대체 합니다. | "비용 데이터" | 
+| **대체 ("Quarter&nbsp;1,&nbsp;2018", "1", "2", 1)** | 네 번째 인수 (*InstanceNumber*)가 1과 함께 제공 되므로 "1"의 첫 번째 인스턴스만 "2"로 대체 합니다. |  "사분기 2, 2018" |
+| **대체 ("Quarter&nbsp;1,&nbsp;2011", "1", "2", 3)** | 네 번째 인수 (*InstanceNumber*)가 3과 함께 제공 되므로 "1"의 세 번째 인스턴스만 "2"로 대체 합니다. | "Quarter 1, 2012" |
+| **대체 ("Quarter&nbsp;1,&nbsp;2011", "1", "2")** | 네 번째 인수 (*InstanceNumber*)가 제공 되지 않았기 때문에 "1"의 모든 인스턴스를 "2"로 대체 합니다. | "사분기 2, 2022" |
+| **Replace (<br>[&nbsp;"Quarter&nbsp;1,&nbsp;2018",<br>"Quarter&nbsp;2,&nbsp;2011",<br>"Quarter&nbsp;4,&nbsp;2019"],<br>9, 1, "3")** | 단일 열 테이블의 각 레코드에서 아홉 번째 문자를 "3"으로 바꿉니다. | [&nbsp;"Quarter&nbsp;3,&nbsp;2018",<br>"Quarter&nbsp;3,&nbsp;2011",<br>"Quarter&nbsp;3,&nbsp;2019"&nbsp;] |
+| **대체 (<br>[&nbsp;"분기&nbsp;1,&nbsp;2018",<br>"Quarter&nbsp;1,&nbsp;2011",<br>"Q1,&nbsp;2019"&nbsp;],<br>"1", "3", 1)** | 네 번째 인수 (*InstanceNumber*)는 값 1과 함께 제공 되므로 단일 열 테이블의 각 레코드에서 "1"의 첫 번째 인스턴스만 "3"으로 대체 합니다. | [&nbsp;"분기&nbsp;3,&nbsp;2018",<br>"Quarter&nbsp;3,&nbsp;2011",<br>"Q3,&nbsp;2019"&nbsp;] |
+| **대체 (<br>[&nbsp;"분기&nbsp;1,&nbsp;2018",<br>"Quarter&nbsp;1,&nbsp;2011",<br>"Q1,&nbsp;2019"&nbsp;],<br>"1", "3")** | 네 번째 인수 (*InstanceNumber*)가 제공 되지 않으므로는 단일 열 테이블의 각 레코드에서 "1"의 모든 인스턴스를 "3"으로 대체 합니다. | [&nbsp;"분기&nbsp;3,&nbsp;2038",<br>"Quarter&nbsp;3,&nbsp;2033",<br>"Q3,&nbsp;2039"&nbsp;] |  
  
 
 
