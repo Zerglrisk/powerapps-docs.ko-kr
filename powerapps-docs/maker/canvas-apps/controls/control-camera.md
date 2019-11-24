@@ -58,7 +58,7 @@ ms.locfileid: "73650712"
 
 **Stream** – **StreamRate** 속성에 따라 자동으로 업데이트되는 이미지입니다.
 
-**StreamRate** – **Stream** 속성에서 이미지를 업데이트하는 빈도(밀리초 단위)를 선택합니다.  이 값의 범위는 100(1초의 10분의 1)에서 3,600,000(1시간)입니다.
+**StreamRate** – **Stream** 속성에서 이미지를 업데이트하는 빈도(밀리초 단위)를 선택합니다.  이 값의 범위는 100(1초의 1/10)에서 3,600,000(1시간)까지입니다.
 
 **[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "73650712"
 
 ## <a name="example"></a>예
 ### <a name="add-photos-to-an-image-gallery-control"></a>이미지 갤러리 컨트롤에 사진 추가
-1. **카메라** 컨트롤을 추가하고 이름을 **MyCamera**로 지정한 다음 **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
+1. **카메라** 컨트롤을 추가하고 이름을 **MyCamera**로 지정한 후, **[OnSelect](properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **Collect(MyPix, MyCamera.Photo)**
 
     [컨트롤을 추가, 이름을 지정하고, 구성](../add-configure-controls.md)하는 방법을 모르시나요?
@@ -85,8 +85,8 @@ ms.locfileid: "73650712"
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 2. F5 키를 누른 뒤 **MyCamera**를 클릭하거나 터치하여 사진을 촬영합니다.
 3. **[세로 갤러리](control-gallery.md)** 컨트롤을 추가한 다음, **[이미지](control-image.md)** 컨트롤, 템플릿 및 **이미지 갤러리** 컨트롤 자체의 크기를 화면에 맞게 조정합니다.
-4. **이미지 갤러리** 컨트롤의 **[Items](properties-core.md)** 속성을 다음으로 설정합니다.<br>**MyPix**.
-5. 갤러리에서 **이미지** 컨트롤의 **[Items](properties-visual.md)** 속성을 이 식으로 설정합니다.<br>
+4. **이미지 갤러리[ 컨트롤의 ](properties-core.md)** Items 속성을 다음으로 설정합니다.<br>**MyPix**.
+5. 갤러리에서 **이미지[ 컨트롤의 ](properties-visual.md)** Items 속성을 이 식으로 설정합니다.<br>
    **ThisItem.Url**
 
     사용자가 촬영한 사진이 **이미지 갤러리** 컨트롤에 나타납니다.

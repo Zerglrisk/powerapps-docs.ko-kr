@@ -132,4 +132,4 @@ ms.locfileid: "73650539"
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
-**내보내기** 및 **가져오기**는 특수화된 단추이므로 **[단추](control-button.md)** 에 대한 동일한 지침이 적용됩니다.
+**내보내기[ 및 ](control-button.md)가져오기**는 특수화된 단추이므로단추에 대한 동일한 지침이 적용됩니다.
