@@ -4,9 +4,9 @@ description: 기본 양식에 대한 섹션 속성 이해
 Keywords: 기본 양식; 섹션 속성; Dynamics 365
 author: Mattp123
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 06/06/2018
@@ -14,10 +14,16 @@ ms.service: powerapps
 ms.topic: article
 ms.assetid: 2d3af6e9-e8a4-4129-b708-383b2740c015
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 45764a992215c697361f77da656182bdbb0e7783
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2755010"
 ---
 # <a name="model-driven-app-form-section-properties"></a>모델 기반 앱 양식 섹션 속성
 
@@ -28,7 +34,7 @@ search.app:
  머리글 및 바닥글은 섹션과 비슷하지만 제거할 수 없습니다. 내용이 없으면 아무 것도 표시되지 않습니다. 
 
 PowerApps 사이트에서 **섹션 속성**에 액세스할 수 있습니다. 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다. 
 
@@ -51,7 +57,7 @@ PowerApps 사이트에서 **섹션 속성**에 액세스할 수 있습니다.
 ||**필드 레이블 위치**|섹션 내에서 필드의 레이블은 필드의 옆이나 위쪽에 배치할 수 있습니다.|  
 
 
-**참조 패널**이라고 불리우는 섹션의 신규 유형이 또한 추가될 수 있습니다. 참조 패널은 단일 칼럼 섹션입니다. 하위 표, 빠른 보기 제어, 또는 기술 자료 검색 제어를 참조 패널 섹션 안에 삽입할 수 있습니다. 귀하가 참조 패널에서 추가한 각 제어는 런타임에서 패널 내에 수직 탭으로 보입니다. 참조패널 섹션에서  다양한 제어를 드래그앤드롭할 수 있습니다. 런타임에 기본 탭은 참조 패널에 추가되는 첫 번째 컨트롤입니다. 다른 탭은 양식 편집기에 추가되는 순서로 나타납니다. 탭을 삭제하려면 키보드의 Delete 키를 사용합니다.  
+**참조 패널**이라고 불리우는 섹션의 신규 유형이 또한 추가될 수 있습니다. 참조 패널은 단일 칼럼 섹션입니다. 하위 표, 빠른 보기 제어, 또는 기술 자료 검색 제어를 참조 패널 섹션 안에 삽입할 수 있습니다. 귀하가 참조 패널에서 추가한 각 제어는 런타임에서 패널 내에 수직 탭으로 보입니다. 참조패널 섹션에서 다양한 제어를 드래그앤드롭할 수 있습니다. 런타임에 기본 탭은 참조 패널에 추가되는 첫 번째 컨트롤입니다. 다른 탭은 양식 편집기에 추가되는 순서로 나타납니다. 탭을 삭제하려면 키보드의 Delete 키를 사용합니다.  
   
 참조 패널을 삽입하면 기본적으로 탭의 가장 마지막 섹션으로 추가됩니다. 양식 당 하나의 참조 패널만 추가할 수 있습니다.  
   

@@ -1,6 +1,6 @@
 ---
 title: Common Data Service란? | Microsoft Docs
-description: 'Common Data Service에 대한 소개, 엔터티, 서버 측 논리, 보안 및 개발자 기능.'
+description: Common Data Service에 대한 소개, 엔터티, 서버 측 논리, 보안 및 개발자 기능.
 author: clwesene
 manager: kvivek
 ms.service: powerapps
@@ -10,16 +10,21 @@ ms.date: 06/21/2019
 ms.reviewer: matp
 ms.author: matp
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8c912ca78a15f080801d841e4dbbb03ad5d193df
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2755538"
 ---
-
 # <a name="what-is-common-data-service"></a>Common Data Service란?
-Common Data Service를 사용하면 비즈니스 응용 프로그램에서 사용한 데이터를 안전하게 저장하고 관리할 수 있습니다. Common Data Service 내의 데이터는 엔터티 집합 내에 저장됩니다. *엔터티*는 테이블에서 데이터베이스에 데이터를 저장하는 방식과 비슷하게 데이터를 저장하는 데 사용되는 레코드 집합입니다. Common Data Service에는 일반적인 시나리오를 포괄하는 표준 엔터티의 기본 집합이 포함되어 있지만 조직에 특정한 사용자 지정 엔터티를 만들고 파워 쿼리를 사용하여 데이터로 채울 수도 있습니다. 그런 다음 앱 제작자는 PowerApps를 사용하여 이 데이터로 풍부한 응용 프로그램을 빌드할 수 있습니다.
+Common Data Service를 사용하면 비즈니스 응용 프로그램에서 사용한 데이터를 안전하게 저장하고 관리할 수 있습니다. Common Data Service 내의 데이터는 엔터티 집합 내에 저장됩니다. *엔터티*는 테이블에서 데이터베이스에 데이터를 저장하는 방식과 비슷하게 데이터를 저장하는 데 사용되는 레코드 집합입니다. Common Data Service에는 일반적인 시나리오를 포괄하는 표준 엔터티의 기본 집합이 포함되어 있지만 조직에 특정한 사용자 지정 엔터티를 만들고 파워 쿼리를 사용하여 데이터로 채울 수도 있습니다. 그런 다음 앱 제작자는 PowerApps를 사용하여 이 데이터로 풍부한 애플리케이션을 빌드할 수 있습니다.
 
-![비즈니스 응용 프로그램 플랫폼의 개요를 보여주는 스크린샷입니다. ](./media/data-platform-cds-intro/platform.png "플랫폼 개요")
+![비즈니스 애플리케이션 플랫폼의 개요를 보여주는 스크린샷](./media/data-platform-cds-intro/platform.png "플랫폼 개요")
 
 Common Data Service 계획을 구매하는 방법에 대한 자세한 내용은 [가격 책정 정보](../../administrator/pricing-billing-skus.md)를 참조하십시오.
 
@@ -28,27 +33,27 @@ Common Data Service 내의 표준 및 사용자 지정 엔터티는 데이터에
 
 * **관리 용이** &ndash; 메타데이터와 데이터가 모두 클라우드에 저장됩니다. 저장되는 방법에 대한 세부 사항에 대해 염려할 필요가 없습니다.
 * **보안 용이**&ndash; 데이터는 사용자가 액세스 권한을 부여한 경우에만 볼 수 있도록 안전하게 저장됩니다. 역할 기반 보안을 사용하면 조직 내의 여러 사용자에 대해 엔터티에 대한 액세스를 제어할 수 있습니다.
-* **Dynamics 365 Data**에 액세스 &ndash; Dynamics 365 응용 프로그램의 데이터는 Common Data Service 내에도 저장되어 Dynamics 365 데이터를 활용하는 앱을 빨리 빌드하고 PowerApps를 사용하여 앱을 확장할 수 있습니다.
+* **Dynamics 365 데이터에 액세스** &ndash; Dynamics 365 애플리케이션의 데이터는 Common Data Service 내에도 저장되어 Dynamics 365 데이터를 활용하는 앱을 빨리 빌드하고 PowerApps를 사용하여 앱을 확장할 수 있습니다.
 * **풍부한 메타데이터** &ndash; 데이터 형식 및 관계는 PowerApps 내에서 직접 활용됩니다.
 * **논리 및 유효성 검사** &ndash; 데이터 품질을 보장하고 비즈니스 프로세스를 구동하기 위해 계산된 필드, 비즈니스 규칙, 워크플로 및 비즈니스 프로세스 흐름을 정의합니다.
 * **생산성 도구** &ndash; 엔터티는 Microsoft Excel용 추가 기능에서 생산성을 높이고 데이터 액세스 가능성을 보장하는 데 사용할 수 있습니다.
 
-## <a name="dynamics-365-and-the-common-data-service"></a>Dynamics 365 및 Common Data Service
+## <a name="dynamics-365-and-common-data-service"></a>Dynamics 365 및 Common Data Service
 
-또한 Dynamics 365 for Sales, Service 또는 Talent 등의 Dynamics 365 응용 프로그램은 Common Data Service를 사용하여 응용 프로그램이 사용하는 데이터를 저장하고 보호합니다. 이렇게 하면 통합이 필요 없이 Dynamics 365 내에서 이미 사용되는 핵심 비즈니스 데이터에 대해 직접 PowerApps 및 Common Data Service를 사용하여 앱을 빌드할 수 있습니다.
+Dynamics 365 Sales, Dynamics 365 Customer Service 또는 Dynamics 365 Talent 등의 Dynamics 365 애플리케이션 또한 Common Data Service를 사용하여 애플리케이션에서 사용하는 데이터를 저장하고 보호합니다. 이렇게 하면 통합이 필요 없이 Dynamics 365 내에서 이미 사용되는 핵심 비즈니스 데이터에 대해 직접 PowerApps 및 Common Data Service를 사용하여 앱을 빌드할 수 있습니다.
 
-* **Dynamics 365 Data에 따라 앱 빌드** &ndash; PowerApps 내에서 또는 Pro Developer SDK를 사용하여 비즈니스 데이터에 따라 빨리 앱을 빌드합니다.
-* **다시 사용할 수 있는 비즈니스 로직 및 규칙 관리** &ndash; 이미 Dynamics 365 엔터티에서 이미 정의된 규칙 관리 및 로직은 PowerApps에 적용되어 사용자의 데이터 액세스 방법에 관계없이 데이터 일관성을 유지합니다.
-* **Dynamics 365 및 PowerApps 전체의 다시 사용할 수 있는 기술** &ndash; 이전에 PowerApps 또는 Dynamics 365에서 기술이 있었던 사용자는 이제 새 Common Data Service 플랫폼 전체에서 그러한 기술을 활용할 수 있습니다. 이제 응용 프로그램 전체에서 엔터티, 양식, 차트 등을 만드는 것이 일반적입니다.
+* **Dynamics 365 데이터로 앱 빌드** &ndash; PowerApps 내에서 또는 Pro Developer SDK를 사용하여 비즈니스 데이터로 신속하게 앱을 빌드합니다.
+* **다시 사용할 수 있는 비즈니스 논리 및 규칙 관리** &ndash; 이미 Dynamics 365 엔터티에서 이미 정의된 규칙 관리 및 논리는 PowerApps에 적용되어 사용자의 데이터 액세스 방법에 관계없이 데이터 일관성을 유지합니다.
+* **Dynamics 365 및 PowerApps에서 다시 사용할 수 있는 기술** &ndash; 이전에 PowerApps 또는 Dynamics 365에서 기술을 보유했던 사용자는 이제 새 Common Data Service 플랫폼 전체에서 그러한 기술을 활용할 수 있습니다. 이제 응용 프로그램 전체에서 엔터티, 양식, 차트 등을 만드는 것이 일반적입니다.
 
     > [!NOTE]
-    > Dynamics 365 for Finance and Operations는 현재 데이터 통합 업체의 구성을 필요로 하여 재무 및 운영 부서의 비즈니스 데이터를 Common Data Service에서 사용할 수 있도록 합니다.
+    > Common Data Service에서 사용할 수 있는 Finance and Operations 앱의 비즈니스 데이터를 사용하려면 현재 Finance and Operations 앱에서 [데이터 통합자](/power-platform/admin/data-integrator)를 구성해야 합니다.
 
 ## <a name="integrating-data-into-the-common-data-service"></a>데이터를 Common Data Service에 통합
 
-앱을 빌드하는 작업에는 일반적으로 둘 이상의 소스에 있는 데이터가 포함되지만 응용 프로그램 수준에서 데이터를 통합하는 경우도 있으며 이 데이터를 공통 저장소로 결합 하여 앱 구축 환경을 쉽게 만들 수 있고 단일 집합의 데이터를 통해 유지 관리하고 작동하는 논리입니다. Common Data Service를 사용하면 데이터를 여러 소스에서 단일 저장소로 통합하여 Dynamics 365 응용 프로그램에서 이미 사용할 수 있는 데이터와 함께 PowerApps, Flow 및 Power BI에서 사용할 수 있습니다.
+앱을 빌드하는 작업에는 일반적으로 둘 이상의 소스에 있는 데이터가 포함되지만 응용 프로그램 수준에서 데이터를 통합하는 경우도 있으며 이 데이터를 공통 저장소로 결합 하여 앱 구축 환경을 쉽게 만들 수 있고 단일 집합의 데이터를 통해 유지 관리하고 작동하는 논리입니다. Common Data Service를 사용하면 데이터를 여러 소스에서 단일 저장소로 통합하여 Dynamics 365 애플리케이션에서 이미 사용할 수 있는 데이터와 함께 PowerApps, Flow 및 Power BI에서 사용할 수 있습니다.
 
-* **다른 시스템과의 예약 통합** &ndash; 보관되는 다른 시스템 데이터와의 예약 통합은 PowerApps에서 다른 응용 프로그램 데이터를 활용할 수 있도록 Common Data Service와 정기적으로 동기화할 수 있습니다.
+* **다른 시스템과의 예약 통합** &ndash; 보관되는 다른 시스템 데이터와의 예약 통합은 PowerApps에서 다른 애플리케이션 데이터를 활용할 수 있도록 Common Data Service와 정기적으로 동기화할 수 있습니다.
 * **PowerQuery를 사용한 데이터 변환 및 가져오기** &ndash; Common Data Service로 가져올 때 데이터를 변환하는 것은 여러 온라인 데이터 원본에서 Excel과 Power BI 전체에서 사용되는 일반 도구인 PowerQuery를 통해서 할 수 있습니다.
 * **한 번 데이터 가져오기** &ndash; Excel 및 CSV 파일의 단순한 가져오기 및 내보내기는 Common Data Service.에 한 번 또는 자주 데이터를 가져오는 데 사용할 수 있습니다.
 
@@ -57,13 +62,13 @@ Common Data Service 내의 표준 및 사용자 지정 엔터티는 데이터에
 ## <a name="interacting-with-entities"></a>엔터티와의 상호 작용
 앱을 개발할 때 표준 엔터티, 사용자 지정 엔터티 또는 둘 다 사용할 수 있습니다. Common Data Service는 기본적으로 표준 엔터티를 제공합니다. 이는 모범 사례에 따라 조직 내에서 가장 일반적인 개념과 시나리오를 캡처하기 위해 설계되었습니다.
 
-![엔터티 목록을 보여 주는 스크린샷입니다. ](./media/data-platform-cds-intro/entitylist.png "엔터티 목록")
+![엔터티 목록을 보여 주는 스크린샷.](./media/data-platform-cds-intro/entitylist.png "엔터티 목록")
 
 엔터티의 전체 목록은 [엔터티 참조](https://docs.microsoft.com/powerapps/developer/common-data-service/reference/about-entity-reference)를 참조하십시오.
 
 조직에 고유한 정보를 저장하기 위해 하나 이상의 사용자 지정 엔터티를 만들어 표준 엔터티의 기능을 확장할 수 있습니다. 자세한 내용은 [사용자 지정 엔터티 만드는 방법](create-custom-entity.md)을 참조하십시오.
 
-## <a name="logic-and-validation"></a>로직 및 유효성 검사
+## <a name="logic-and-validation"></a>논리 및 유효성 검사
 Common Data Service 내의 엔터티는 다양한 서버측 논리 및 유효성 검사를 활용하여 데이터 품질을 보장하고 엔터티 내에서 데이터를 만들고 사용하는 각 앱의 반복적인 코드를 줄일 수 있습니다.
 
 * **비즈니스 규칙**은 데이터를 만드는 데 사용되는 앱에 관계없이 여러 필드 및 엔터티에 대한 데이터의 유효성을 검사하고 경고 및 오류 메시지를 제공합니다. 자세한 내용은 [비즈니스 규칙 만들기](./data-platform-create-business-rule.md)를 참조하십시오.
@@ -75,7 +80,7 @@ Common Data Service 내의 엔터티는 다양한 서버측 논리 및 유효성
 Common Data Service는 효율적인 데이터 액세스 및 공동 작업을 촉진하면서 사용자의 데이터 무결성 및 개인 정보를 보호하는 풍부한 보안 모델을 제공합니다. 사업부, 역할 기반 보안, 레코드 기반 보안 및 필드 기반 보안을 조합하여 사용자가 Common Data Service 환경에서 보유하는 정보에 대한 전체 액세스 권한을 정의할 수 있습니다. 추가 정보: [Common Data Service의 보안](/power-platform/admin/wp-security) 
 
 ## <a name="developer-capabilities"></a>개발자 기능
-[PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 포털을 통해 사용할 수 있는 기능 외에도 Common Data Service에는 프로그래밍 방식으로 메타데이터 및 데이터에 액세스하여 엔터티와 비즈니스 논리를 만들고, 데이터가 상호 작용할 수 있는 기능이 포함되어 있습니다. 자세한 내용은 [Common Data Service 개발자 개요](../../developer/common-data-service/overview.md)를 참조하십시오.
+[PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 포털을 통해 사용할 수 있는 기능 외에도 Common Data Service에는 프로그래밍 방식으로 메타데이터 및 데이터에 액세스하여 엔터티와 비즈니스 논리를 만들고, 데이터가 상호 작용할 수 있는 기능이 포함되어 있습니다. 자세한 내용은 [Common Data Service 개발자 개요](../../developer/common-data-service/overview.md)를 참조하십시오.
 
 ## <a name="next-steps"></a>다음 단계
 Common Data Service 시작 준비:

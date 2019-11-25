@@ -1,5 +1,5 @@
 ---
-title: Common Data Service에서 비즈니스 규칙 만들기 | Microsoft Docs
+title: Common Data Service에서 비즈니스 규칙 만들기 | MicrosoftDocs
 description: Common Data Service에서 비즈니스 규칙을 만드는 방법에 대한 단계별 지침입니다.
 author: lancedMicrosoft
 manager: kfile
@@ -9,12 +9,17 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: lanced
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 45d0d4ce80d1552ace70ae5b25a67e570141d261
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2754746"
 ---
-
 # <a name="create-a-business-rule-for-an-entity"></a>엔터티를 위한 비즈니스 규칙 만들기
 
 비즈니스 규칙 및 추천을 만들어 코드를 작성하거나 플러그 인을 만들지 않고 논리 및 유효성 검사를 적용할 수 있습니다. 비즈니스 규칙은 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 제공합니다.
@@ -46,7 +51,7 @@ search.app:
 
 ## <a name="create-a-business-rule"></a>비즈니스 규칙 만들기
   
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음 왼쪽 가장자리 근처의 **데이터**에 대해 아래쪽 화살표를 클릭하거나 탭합니다.
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음 왼쪽 가장자리 근처에 있는 **데이터**의 아래쪽 화살표를 클릭하거나 탭합니다.
 
 2. 표시되는 목록에서 **엔터티**를 클릭하거나 탭합니다.
   
@@ -91,7 +96,7 @@ search.app:
   
     1. **구성 요소** 탭에서 작업 구성 요소를 끌어 **조건** 구성 요소 옆의 더하기 기호에 놓습니다. 조건이 충족될 때 비즈니스 규칙이 수행되도록 하려면 확인 표시 옆의 더하기 기호에 동작을 끌어놓습니다. 조건이 충족되지 않을 때 비즈니스 규칙이 수행되도록 하려면 x 옆의 더하기 기호에 놓습니다.
   
-        ![비즈니스 규칙에 작업 끌어오기](./media/data-platform-cds-create-business-rule/drag-an-action-business-rule.png "비즈니스 규칙에 작업 끌어오기")  
+        ![비즈니스 규칙에 동작 끌어오기](./media/data-platform-cds-create-business-rule/drag-an-action-business-rule.png "비즈니스 규칙에 동작 끌어오기")  
   
     2. 동작의 속성을 설정하려면 디자이너 창의 **동작** 구성 요소를 클릭한 다음 **속성** 탭에서 속성을 설정합니다.  
   

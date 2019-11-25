@@ -3,17 +3,23 @@ title: PowerApps용 모델 기반 앱 양식 편집기 사용자 인터페이스
 description: PowerApps에서 양식을 편집하는 양식 편집기 사용자 인터페이스 알아보기
 author: Mattp123
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.author: matp
 manager: kvivek
 ms.assetid: 146f8035-4fcd-4572-8e71-4270cd150495
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 512156d6ffd4f1817fa06a1e8865386e637bfa24
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2701846"
 ---
 # <a name="overview-of-the-model-driven-app-form-editor-user-interface"></a>모델 기반 앱 양식 편집기 사용자 인터페이스 개요
 
@@ -74,7 +80,7 @@ search.app:
 - **옵션** 기본 디스플레이 설정을 변경하여 기본 솔루션 속성을 개인 설정하고 전자 메일 템플릿을 관리합니다.
     - 일반
     - 동기화
-    - 활동
+    - 활동 
     - 형식
     - 전자 메일 템플릿
     - 전자 메일 서명

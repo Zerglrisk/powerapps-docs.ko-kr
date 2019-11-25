@@ -9,24 +9,30 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
-ms.assetid: null
+ms.assetid: ''
 caps.latest.revision: 25
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: e39cb11b9883e93d341232bcdcbb43dc17fa491a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759783"
 ---
 # <a name="quick-start-for-using-an-existing-environment-to-validate-your-legacy-web-client-app-with-the-unified-interface"></a>기존 환경을 사용하여 통합 인터페이스로 기존 웹 클라이언트 앱의 유효성을 검사하기 위한 빠른 시작
 이 빠른 시작 항목은 기존 환경을 사용하여 현재 구성 또는 기본 솔루션을 기반으로 통합 인터페이스 응용 프로그램을 만드는 방법을 보여줍니다. 이를 통해 기존 레거시 웹 클라이언트 애플리케이션을 병렬로 실행하면서 통합 인터페이스를 탐색하고 테스트할 수 있습니다. 그런 다음 사용자는 나란히 보기 위해 환경 간에 전환할 수 있습니다. 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3JzyI]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3JzyI]
 
 테스트를 분리하고 통합 인터페이스 환경만 보는 새로운 샌드박스 환경을 만드는 방법을 보여주는 유사한 지침은 다음을 참조하십시오. [Dynamics 365 레거시 웹 클라이언트 애플리케이션을 통합 인터페이스로 전환하기 위한 빠른 시작](transition-web-app.md)을 참조하십시오.
 
@@ -40,7 +46,7 @@ search.app:
 ## <a name="overview"></a>개요 
 이 항목은 현재 통합 인터페이스로의 전환을 계획하고 실행해야 하는 레거시 웹 클라이언트 애플리케이션을 사용 중인 기존 고객을 위한 것입니다. 병렬 환경을 설정하려면 현재 기본 솔루션을 기반으로 새 응용 프로그램을 만듭니다. 이는 기존 작업에 영향을 주지 않고 현재 개발 샌드박스 환경에서 수행할 수 있습니다.
 
-이 문서의 단계를 완료한 후 적절한 역할을 가진 사용자는 Dynamics 365 드롭다운 앱 목록 또는 Dynamics 365 홈 페이지(http://home.dynamics.com)의 앱 목록에서 새 앱을 볼 수 있습니다.
+이 문서의 단계를 완료한 후 적절한 역할을 가진 사용자는 Dynamics 365 드롭다운 앱 목록 또는 Dynamics 365 홈 페이지(https://home.dynamics.com)의 앱 목록에서 새 앱을 볼 수 있습니다.
 
 ![앱 목록](media/app-list.png)
 
@@ -119,7 +125,7 @@ PowerApps 제조업체 포털 **솔루션** 영역을 사용하여 브라우저 
     > 모든 사용자에게 **모델 중심 앱**에 대한 **읽기** 액세스 권한이 포함된 보안 역할이 하나 이상 부여되어 있는지 확인하십시오. 이 권한은 보안 역할 내의 사용자 지정 탭에서 찾을 수 있습니다. 이 권한이 없는 사용자는 모델 기반 앱을 열 때 오류가 발생합니다.  시스템 관리자 및 시스템 사용자 지정자 보안 역할에는 이 권한이 이미 설정되어 있습니다. 
  
    > [!div class="mx-imgBorder"] 
-   > ![모델 중심 앱 권한](media/model-driven-app-privilege.png "모델 중심 앱 권한")
+   > ![모델 기반 앱 권한](media/model-driven-app-privilege.png "모델 기반 앱 권한")
 
 5. 선택적으로 **역할 관리** 창에서 **앱 URL 접미사**를 확장하여 모델 중심 앱의 친숙한 URL을 사용자 지정할 수 있습니다. 대부분의 항목을 지정할 수 있습니다. 예를 들어, 미리 보기에 URL *https://YourEnvironment.crm.dynamics.com/apps/new*이 표시되도록 *새로* 입력합니다.   
 
@@ -130,7 +136,7 @@ PowerApps 제조업체 포털 **솔루션** 영역을 사용하여 브라우저 
 
 6. **저장**을 선택합니다. 
 
-이제 적절한 역할을 가진 사용자는 Dynamics 365 드롭다운 앱 목록 또는 Dynamics 365 홈 페이지(http://home.dynamics.com)의 앱 목록에서 새 앱을 볼 수 있습니다. 
+이제 적절한 역할을 가진 사용자는 Dynamics 365 드롭다운 앱 목록 또는 Dynamics 365 홈 페이지(https://home.dynamics.com)의 앱 목록에서 새 앱을 볼 수 있습니다. 
   
    ![앱 목록](media/app-list.png "앱 목록")
 

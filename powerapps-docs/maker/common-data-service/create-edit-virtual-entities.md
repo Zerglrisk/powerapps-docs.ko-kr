@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.assetid: 44834893-0bf6-4a64-8f06-7583fe08330d
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: ecb0731d3cbba030f3b819e2b2744cb6a7b29c20
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2706906"
 ---
 # <a name="create-and-edit-virtual-entities-that-contain-data-from-an-external-data-source"></a>외부 데이터 원본에서 데이터를 포함하는 가상 엔터티 만들기 및 편집
 
@@ -49,7 +55,7 @@ Common Data Service에는 외부 데이터에 액세스하는 OData v4 웹 서�
   
 ## <a name="add-a-data-source-to-use-for-virtual-entities"></a>가상 엔터티에 사용할 데이터 원본 추가 
  
- 개발자는 가상 엔터티에 대해 데이터 공급자로 사용할 사용자 지정 플러그 인을 만들 수 있습니다.  또는 제공된 OData v4 데이터 공급자를 사용할 수 있습니다. 추가 정보: [OData v4 데이터 공급자 구성, 요구 사항 및 모범 사례](virtual-entity-odata-provider-requirements.md)  
+ 개발자는 가상 엔터티에 대해 데이터 공급자로 사용할 사용자 지정 플러그 인을 만들 수 있습니다. 또는 제공된 OData v4 데이터 공급자를 사용할 수 있습니다. 추가 정보: [OData v4 데이터 공급자 구성, 요구 사항 및 모범 사례](virtual-entity-odata-provider-requirements.md)  
   
 1. **[설정](../model-driven-apps/advanced-navigation.md#settings)** > **관리** > **가상 엔터티 데이터 원본**으로 이동합니다.  
 1. 작업 도구 모음에서 **새로 만들기**를 선택합니다.  
@@ -143,7 +149,7 @@ Common Data Service에는 외부 데이터에 액세스하는 OData v4 웹 서�
 - 가상 엔터티는 조직 소유이며 행 수준 Common Data Service 보안 개념을 지원하지 않습니다. 외부 데이터 원본에 대한 사용자 고유의 보안 모델을 구현하는 것이 좋습니다.  
 - 고급 검색에서 가상 엔터티를 사용할 때 단일 데이터 원본을 대상으로 하는 것이 좋습니다. 예를 들어 Common Data Service 네이티브 데이터와 가상 엔터티 외부 데이터 간에 연결을 만드는 상세하게 찾기를 만드는 것은 지원되지 않습니다.  
 - 업데이트 시 유효성을 검사하는 필드 메타데이터 속성은 가상 엔터티에 적용되지 않습니다. 예를 들어 가상 엔터티 필드의 정수 필드의 최소값을 0으로 설정할 수 있습니다. 그러나 값이 외부 데이터 원본에서 가져온 것이므로 가상 엔터티에서 검색할 때 쿼리는 0보다 작은 값을 반환합니다.  최소 값 속성은 쿼리에 포함되지 않습니다.  원하는 경우 값을 0보다 크게 필터링해야 할 수 있습니다.
-- 가상 엔터티는 변경 내용 추적을 지원하지 않으며 Data Export Service와 같은 Common Data Service 기능을 사용하여 동기화할 수 없습니다.
+- 가상 엔터티는 변경 내용 추적을 지원하지 않으며 데이터 내보내기 서비스와 같은 Common Data Service 기능을 사용하여 동기화할 수 없습니다.
   
 ### <a name="see-also"></a>참조  
 

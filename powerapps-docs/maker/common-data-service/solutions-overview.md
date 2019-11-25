@@ -9,26 +9,31 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: ece68f5f-ad40-4bfa-975a-3e5bafb854aa
 caps.latest.revision: 55
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 391220159917462833afac204183cdc68a94f898
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759035"
 ---
-   
 # <a name="solutions-overview"></a>솔루션 개요  
 
   PowerApps에서 솔루션을 활용하여 한 환경에서 다른 환경의 앱 및 구성 요소를 전송하거나 기존 앱에 사용자 지정 집합을 적용합니다. 솔루션에는 사이트 맵, 엔터티, 프로세스, 웹 리소스, 옵션 집합 등과 같은 다른 구성 요소뿐만 아니라 하나 이상의 앱이 포함될 수 있습니다.  [AppSource](https://appsource.microsoft.com/) 또는 ISV(독립 소프트웨어 공급업체)로부터 솔루션을 얻을 수 있습니다.
   
-추가 정보: [백서: 솔루션 수명 주기 관리](https://www.microsoft.com/en-us/download/details.aspx?id=57777)  
+추가 정보: [백서: 솔루션 수명 주기 관리](https://www.microsoft.com/download/details.aspx?id=57777)  
   
 > [!NOTE]
 >  배포할 앱을 만드는 ISV일 경우 솔루션을 사용해야 합니다. 솔루션 사용에 대한 자세한 내용은 [개발자 가이드: 솔루션 소개](/powerapps/developer/common-data-service/introduction-solutions)를 참조하십시오.  
@@ -38,6 +43,8 @@ search.app:
 ### <a name="components"></a>구성 요소  
  구성 요소는 잠재적으로 사용자 지정할 수 있는 요소를 나타냅니다. 솔루션에 포함될 수 있는 모든 요소가 구성 요소입니다. 다음은 솔루션에서 볼 수 있는 구성 요소 목록입니다.  
   
+-   AI 모델
+
 -   응용 프로그램 리본  
   
 -   문서 템플릿  
@@ -51,6 +58,8 @@ search.app:
 -   연결 역할  
   
 -   계약 템플릿  
+
+-   사용자 지정 커넥터
  
 -   사용자 지정 컨트롤
   
@@ -61,6 +70,8 @@ search.app:
 -   엔터티  
   
 -   엔터티 관계  
+
+-   환경 변수
   
 -   필드  
   
@@ -121,7 +132,7 @@ search.app:
 ### <a name="how-solutions-are-applied"></a>솔루션 적용 방법  
  모든 솔루션은 앱에서 실제로 수행하는 요소를 결정하는 레이어로 평가됩니다. 다음 다이어그램은 관리형 솔루션과 비관리형 솔루션이 어떻게 평가되는지와 솔루션의 변경 내용이 환경에서 어떻게 표시되는지 보여 줍니다.  
   
- ![솔루션 레이어](media/solution-layering.png "솔루션 레이어")  
+ ![솔루션 계층](media/solution-layering.png "솔루션 계층")  
   
  맨 아래서 시작하여 맨 위까지 작업:  
   
@@ -150,5 +161,5 @@ search.app:
   
 ## <a name="next-steps"></a>다음 단계  
 [솔루션 가져오기, 업데이트 및 내보내기](import-update-export-solutions.md) <br/>
-[특정 솔루션으로 이동](navigate-specific-solution.md)
+[특정 솔루션으로 찾아가기](navigate-specific-solution.md)
  

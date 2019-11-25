@@ -4,28 +4,33 @@ description: 앱에 대한 사이트 맵을 만드는 방법 알아보기
 keywords: ''
 ms.date: 05/29/2018
 ms.service: powerapps
-ms.custom: null
+ms.custom: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 2461bd71-6cb4-46b7-8d1f-6a0aa3dca809
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 caps.latest.revision: 18
 topic-status: Drafting
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 852cacde56cc76dfd166471b9985f28b5b995c13
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2700658"
 ---
-
 # <a name="tutorial-create-a-model-driven-app-site-map-for-an-app-using-the-site-map-designer"></a>자습서: 사이트 맵 디자이너를 사용하여 앱에 대한 모델 기반 앱 사이트 맵 만들기
 
 이 자습서에서는 새 사이트 맵 만들기, 지역, 그룹 및 하위 영역을 추가하는 등의 여러 사이트 맵 작업을 수행합니다.
@@ -97,7 +102,7 @@ search.app:
 <a name="bkmk_AddArea"></a>   
 ## <a name="add-an-area-to-the-site-map"></a>사이트 맵에 영역 추가  
   
-1.  사이트 맵 디자이너 캔버스에서 **추가** ![디자이너의 추가 단추](media/dynamics365-designer-addbutton.PNG "디자이너의 추가 단추"), **영역**을 차례로 선택합니다.  
+1.  사이트 맵 디자이너 캔버스에서 **추가** ![디자이너의 추가 단추](media/dynamics365-designer-addbutton.PNG "디자이너에 단추 추가"), **영역**을 차례로 선택합니다.  
   
      또는  
   
@@ -121,7 +126,7 @@ search.app:
   
     - **추가 제목**: 조직에서 여러 언어를 사용하는 경우 제목에 대한 언어(로캘)를 선택하고 제목을 입력한 다음 **추가** ![사이트 맵 디자이너의 추가 단추](media/add-icon-sitemap-designer.png "사이트 맵 디자이너의 추가 단추")를 선택합니다. 조직이 사용하는 언어 개수대로 제목을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 제목만 있을 수 있습니다.  
   
-    - **추가 설명**: 조직에서 여러 언어를 사용하는 경우 설명에 대한 언어를 선택하고 설명을 입력한 다음 **추가** ![사이트 맵 디자이너의 추가 단추](media/add-icon-sitemap-designer.png "사이트 맵 디자이너의 추가 단추")를 선택합니다. 조직이 사용하는 언어 개수대로 설명을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 설명만 있을 수 있습니다.  
+    - **추가 설명**: 조직에서 여러 언어를 사용하는 경우 설명의 언어를 선택하고 설명을 입력한 다음 **추가** ![사이트 맵 디자이너의 추가 단추](media/add-icon-sitemap-designer.png "사이트 맵 디자이너의 추가 단추")를 선택합니다. 조직이 사용하는 언어 개수대로 설명을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 설명만 있을 수 있습니다.  
   
     - **URL**: 영역을 나타내는 Dynamics 365 for Outlook 폴더를 렌더링할 URL을 입력합니다.  
   
@@ -129,7 +134,7 @@ search.app:
 ## <a name="add-a-group-to-the-site-map"></a>사이트 맵에 그룹 추가  
   
 1.  사이트 맵 디자이너 캔버스에서 그룹을 추가하고자 하는 영역을 선택합니다.  
-2.  **추가** ![디자이너의 추가 단추](media/dynamics365-designer-addbutton.PNG "디자이너의 추가 단추")를 선택한 다음 **그룹**을 선택합니다.  
+2.  **추가** ![디자이너의 추가 단추](media/dynamics365-designer-addbutton.PNG "디자이너에 단추 추가")를 선택한 다음 **그룹**을 선택합니다.  
   
      또는  
   
@@ -147,9 +152,9 @@ search.app:
   
      **고급**에서 다음을 수행합니다.  
   
-    - **추가 제목**: 조직에서 여러 언어를 사용하는 경우 제목에 대한 언어(로캘)를 선택하고 그룹에 대한 제목을 입력한 다음 **추가** ![사이트 맵 디자이너의 추가 단추](media/add-icon-sitemap-designer.png "사이트 맵 디자이너의 추가 단추")를 선택합니다. 조직이 사용하는 언어 개수대로 제목을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 제목만 있을 수 있습니다.  
+    - **추가 제목**: 조직에서 여러 언어를 사용하는 경우 제목에 대한 언어(로캘)를 선택하고 그룹의 제목을 입력한 다음 **추가** ![사이트 맵 디자이너의 추가 단추](media/add-icon-sitemap-designer.png "사이트 맵 디자이너의 추가 단추")를 선택합니다. 조직이 사용하는 언어 개수대로 제목을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 제목만 있을 수 있습니다.  
   
-    - **추가 설명**: 조직에서 여러 언어를 사용하는 경우 설명에 대한 언어를 선택하고 그룹에 대한 설명을 입력한 다음 **추가** ![사이트 맵 디자이너의 추가 단추](media/add-icon-sitemap-designer.png "사이트 맵 디자이너의 추가 단추")를 선택합니다. 조직이 사용하는 언어 개수대로 설명을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 설명만 있을 수 있습니다.  
+    - **추가 설명**: 조직에서 여러 언어를 사용하는 경우 설명의 언어를 선택하고 그룹에 대한 설명을 입력한 다음 **추가** ![사이트 맵 디자이너의 추가 단추](media/add-icon-sitemap-designer.png "사이트 맵 디자이너의 추가 단추")를 선택합니다. 조직이 사용하는 언어 개수대로 설명을 만들고, 편집 또는 삭제할 수 있습니다. 그러나 언어당 하나의 설명만 있을 수 있습니다.  
   
     - **URL**: 그룹을 나타내는 Dynamics 365 for Outlook 폴더를 렌더링할 URL을 입력합니다.  
   
@@ -158,7 +163,7 @@ search.app:
 <a name="bkmk_AddSubarea"></a>   
 ## <a name="add-a-subarea-to-a-group-in-the-site-map"></a>사이트 맵의 그룹에 하위 영역 추가  
   
-1.  사이트 맵 디자이너 캔버스에서 **추가** ![디자이너의 추가 단추](media/dynamics365-designer-addbutton.PNG "디자이너의 추가 단추"), **하위 영역**을 차례로 선택합니다.  
+1.  사이트 맵 디자이너 캔버스에서 **추가** ![디자이너의 추가 단추](media/dynamics365-designer-addbutton.PNG "디자이너에 단추 추가"), **하위 영역**을 차례로 선택합니다.  
   
      또는  
   

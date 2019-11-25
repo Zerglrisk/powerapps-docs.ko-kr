@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.assetid: 0d6064cd-4d38-4fc2-a564-735cb453a4b2
 caps.latest.revision: 8
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: b34354a1bc0bdfb3556acc6ca999a1e0e8dcec74
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2756043"
 ---
 # <a name="use-custom-controls-for-model-driven-app-data-visualizations"></a>모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용
 
@@ -30,7 +36,7 @@ search.app:
 사용자 지정 컨트롤을 사용하면 전통적으로 텍스트를 포함하는 필드나 보기와 같은 앱 사용자 인터페이스 구성 요소를 시각화로 변환할 수 있습니다. 필드, 양식, 대시보드, 보기 및 표에 사용자 지정 컨트롤을 구성할 수 있습니다. 예를 들어 숫자 필드에 슬라이더 트롤을 구성할 수 있습니다.
 
    > [!div class="mx-imgBorder"] 
-   > ![사용자 지정 슬라이더 컨트롤](media/slider-control.PNG "필드용 슬라이더 컨트롤")
+   > ![사용자 지정 슬라이더 컨트롤](media/slider-control.PNG "필드의 슬라이더 컨트롤")
 
 또는 편집 가능한 표 컨트롤을 보기에 구성할 수 있습니다. 
 
@@ -42,7 +48,7 @@ Dynamics 365 휴대폰이나 태블릿 모바일 앱에 다른 사용자 지정 
 ## <a name="use-a-custom-control-to-add-visualizations-to-a-field"></a>사용자 지정 컨트롤을 사용하여 필드에 시각화 추가  
  이 절차의 단계에 따라 **예산 금액** 필드의 기본 레이블 및 텍스트 상자 필드를 영업 기회 엔터티의 슬라이더 사용자 지정 컨트롤로 변경합니다. 비슷한 단계를 사용하여 기존 필드를 사용자 지정 컨트롤로 바꾸거나 사용자 지정 필드에 대한 사용자 지정 컨트롤을 구성할 수 있습니다.  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
      
 
@@ -68,7 +74,7 @@ Dynamics 365 휴대폰이나 태블릿 모바일 앱에 다른 사용자 지정 
     - **태블릿**. 사용자 지정 컨트롤을 Dynamics 365 for tablets를 실행하는 태블릿 기기에서 사용할 수 있도록 하려면 컨트롤 옆의 **태블릿** 옵션을 선택합니다.  
   
    > [!div class="mx-imgBorder"] 
-   > ![사용자 지정 컨트롤을 표시할 클라이언트 앱 선택](media/choose-client.png "사용자 지정 컨트롤을 표시할 클라이언트 앱 선택")  
+   > ![클라이언트 앱을 선택하여 사용자 지정 컨트롤 보기](media/choose-client.png "클라이언트 앱을 선택하여 사용자 지정 컨트롤 보기")  
   
 7.  **최소**, **최대**, **단계** 옆의 ![사용자 지정 컨트롤 속성 편집 아이콘](media/ccf-pencil-icon.png "사용자 지정 컨트롤 속성 편집 아이콘") 연필 아이콘을 선택하고 속성 옵션을 아래에 설명한 대로 설정한 다음 **확인**을 선택합니다.  
   

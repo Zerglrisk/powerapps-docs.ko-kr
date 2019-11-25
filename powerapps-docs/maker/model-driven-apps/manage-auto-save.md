@@ -8,18 +8,24 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
 author: Mattp123
 ms.assetid: 2e7f75dd-7a3f-4716-b995-b626929c0501
 caps.latest.revision: 14
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: fda8a194a47101eb26d000ea60ede5b38b0f235d
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759475"
 ---
 # <a name="disable-auto-save-in-a-model-driven-app"></a>모델 기반 앱의 자동 저장 비활성화
 
@@ -55,9 +61,9 @@ search.app:
  특정 엔터티 양식에 자동 저장 기능을 사용하지 않으려면 엔터티의 `OnSave` 이벤트에 코드를 추가할 수 있습니다.  
   
 > [!NOTE]
->  해당 양식에 대해 자동 저장 기능이 비활성화되지만 오른쪽 아래에 있는 ![자동 저장 단추](media/auto-save-icon.png "자동 저장 단추") 단추를 선택하면 데이터가 계속 저장됩니다. 데이터가 변경된 양식을 벗어나거나 닫으려고 하면 해당 변경 사항을 저장해야 양식을 벗어나거나 닫을 수 있다는 메시지가 나타납니다.  
+>  해당 양식에 대해 자동 저장 기능이 비활성화되지만 오른쪽 아래에 있는 ![자동 저장 단추](media/auto-save-icon.png "A자동 저장 단추") 단추를 선택하면 데이터가 계속 저장됩니다. 데이터가 변경된 양식을 벗어나거나 닫으려고 하면 해당 변경 사항을 저장해야 양식을 벗어나거나 닫을 수 있다는 메시지가 나타납니다.  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다.  
   
@@ -118,7 +124,7 @@ search.app:
   
          **처리기 속성** 대화 상자는 다음과 같습니다. 사용자 지정 접두사: "new_"는 조직의 기본 게시자에 설정된 사용자 지정 접두사에 따라 다양합니다.  
   
- ![Dynamics 365에서 자동 저장을 방지하기 위한 OnSave 이벤트 처리기](media/prevent-auto-save-script.png "Dynamics 365에서 자동 저장을 방지하기 위한 OnSave 이벤트 처리기")  
+         ![Dynamics 365에서 자동 저장을 방지하기 위한 OnSave 이벤트 처리기](media/prevent-auto-save-script.png "Dynamics 365에서 자동 저장을 방지하기 위한 OnSave 이벤트 처리기")  
   
     7.  **확인**을 클릭하여 **처리기 속성** 대화를 닫습니다.  
   

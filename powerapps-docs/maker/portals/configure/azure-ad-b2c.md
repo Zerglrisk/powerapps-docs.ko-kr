@@ -1,6 +1,6 @@
 ---
-title: 포털에 대 한 Azure AD B2C 공급자 설정 | MicrosoftDocs
-description: 포털에 대 한 Azure AD B2C 공급자 설정을 사용 하도록 설정 하는 지침입니다.
+title: 포털을 위한 Azure AD B2C 공급자 설정 | MicrosoftDocs
+description: 포털을 위한 Azure AD B2C 공급자 설정을 가능하게 하는 지침.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
@@ -11,129 +11,129 @@ ms.author: shjais
 ms.reviewer: ''
 ms.openlocfilehash: 5f902dd900e074c2e6b3f08f8848475dcd907ee4
 ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2019
-ms.locfileid: "73542837"
+ms.locfileid: "2755494"
 ---
 # <a name="azure-ad-b2c-provider-settings-for-portals"></a>포털에 대한 Azure AD B2C 공급자 설정
 
-[!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory (Azure AD)는 직원 또는 내부 인증을 위해 Office 365 및 Dynamics 365 서비스를 구동 합니다. [!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory B2C는 로컬 자격 증명을 통해 외부 고객이 로그인 할 수 있도록 하는 해당 인증 모델을 확장 하 고 다양 한 일반적인 소셜 id 공급자와의 페더레이션을 제공 합니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory(Azure AD)는 직원 또는 내부 인증을 위해 Office 365 및 Dynamics 365 서비스에 권한을 제공합니다. [!include[Azure](../../../includes/pn-azure-shortest.md)] Active Directory B2C는 그 인증 모델의 확장으로서 로컬 자격 증명을 통해 외부 고객 로그인을 가능하게 하고 다양한 소셜 ID 공급자들과의 연대를 가능하게 합니다.
 
-포털 소유자는 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 id 공급자로 허용 하도록 포털을 구성할 수 있습니다. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C는 페더레이션을 위한 Open ID Connect를 지원 합니다.
+포털 담당자는 포털이 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 ID 공급자로 받아들이도록 구성할 수 있습니다. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C는 연대를 위한 오픈 ID 연결을 지원합니다.
 
-포털에 대 한 id 공급자로 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 구성 하는 과정에서 나중에 포털을 구성 하는 동안 사용할 수 있는 여러 값이 생성 됩니다. 다음 표에서 이러한 값을 확인할 수 있습니다. 포털을 구성 하는 동안 변수 이름을 여기에 적어 둔 값으로 바꿉니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 포털을 위한 ID 공급자로 구성하는 과정에서 나중에 포털을 구성할 때 사용할 여러 값이 생성됩니다. 다음 표에서 이러한 값을 확인할 수 있습니다. 포털을 구성하는 동안 변수 이름을 여기에 기록해 둔 값으로 교체합니다.
 
-| 변수 이름     | Value | 설명                                                           |
+| 변수 이름     | 값 | 설명                                                           |
 |-------------------|-------|-----------------------------------------------------------------------|
-| 응용 프로그램 이름  |       | 포털을 신뢰 당사자로 나타내는 응용 프로그램의 이름입니다. |
-| 응용 프로그램 ID    |       | Azure Active Directory B2C에서 만든 응용 프로그램에 연결 된 응용 프로그램 ID입니다.  |
-| 정책-로그인-URL |       | 메타 데이터 끝점에 정의 된 발급자 (iss) URL입니다.                |
-| 페더레이션 이름   |       | ' B2C '과 같은 페더레이션 공급자의 유형을 식별 하는 고유 이름입니다. 이는이 특정 공급자에 대 한 구성 설정을 그룹화 하기 위해 사이트 설정 이름에 사용 됩니다.                                                                      |
+| 응용 프로그램-이름  |       | 신뢰 당사자로서의 포털을 나타내는 응용 프로그램의 이름 |
+| 응용 프로그램-ID    |       | Azure Active Directory B2C에서 생성된 응용 프로그램과 연계된 응용 프로그램 ID.  |
+| 정책-로그인-URL |       | 메타데이터 종점에 정의된 발급자(iss) URL.                |
+| 연대 이름   |       | ‘B2C’ 같은 연대 공급자의 타입을 나타내는 고유 이름. 이것은 이 특정 공급자의 구성 설정을 분류하는 사이트 설정 이름에 사용됩니다.                                                                      |
 | | | |
 
-### <a name="use-azure-ad-b2c-as-an-identity-provider-for-your-portal"></a>포털에 대 한 id 공급자로 Azure AD B2C 사용
+### <a name="use-azure-ad-b2c-as-an-identity-provider-for-your-portal"></a>Azure AD B2C를 포털을 위한 ID 공급자로 사용
 
-1. [Azure Portal](https://portal.azure.com/)에 로그인 합니다.
-2. [Azure AD B2C 테 넌 트를 만듭니다](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
-3. 맨 왼쪽 탐색 모음에서 **[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C** 를 선택 합니다.
-4. [Azure 응용 프로그램을 만듭니다](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
+1. [Azure 포털](https://portal.azure.com/)에 로그인합니다.
+2. [Azure AD B2C 테넌트를 만듭니다](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-get-started).
+3. 탐색 모음 가장 왼쪽의 **[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C**를 선택합니다.
+4. [Azure 응용 프로그램 생성](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-app-registration#register-a-web-application).
 
    > [!Note]
-   > **암시적 흐름 허용** 필드에 대해 **예** 를 선택 하 고 **회신 url** 필드에서 포털 url을 지정 해야 합니다. **회신 URL** 필드의 값은 [portal 도메인]/Signin-[페더레이션-이름] 형식 이어야 합니다. 예를 들어 `https://contosocommunity.microsoftcrmportals.com/signin-B2C`합니다.
+   > **묵시적 흐름 허용** 필드의 경우 **예**를 선택하고 **회신 URL** 필드에 포털 URL을 지정해야 합니다. **회신 URL** 필드의 값은 [포털 도메인]/signin-[페더레이션-이름] 형식이어야 합니다. `https://contosocommunity.microsoftcrmportals.com/signin-B2C`을 예로 들 수 있습니다.
 
-5. 응용 프로그램 이름을 복사 하 고 앞의 표에 있는 응용 프로그램 이름 값으로 입력 합니다.
-6. 응용 프로그램 ID를 복사 하 고 앞의 표에 있는 응용 프로그램 ID의 값으로 입력 합니다.
-7. [등록 또는 로그인 정책을 만듭니다](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies#create-a-sign-up-or-sign-in-policy).
-8. 정책을 선택한 다음 **편집**을 선택 합니다.
-9. **토큰, 세션 & SSO 구성을**선택 합니다.
-10. **발급자 (iss) 클레임** 목록에서 해당 경로에 **/TFP** 이 있는 URL을 선택 합니다.
-11. 정책을 저장 합니다.
-12. **이 정책에 대 한 메타 데이터 끝점** 필드에서 URL을 선택 합니다.
-13. 발급자 필드의 값을 복사 하 고 앞의 표에 있는 정책-로그인 URL 값으로 입력 합니다. 
+5. 응용 프로그램 이름을 복사하여 앞의 표에서 응용 프로그램-이름의 값으로 입력합니다.
+6. 응용 프로그램 ID를 복사하여 앞의 표에서 응용 프로그램-ID의 값으로 입력합니다.
+7. [가입 또는 로그인 정책 생성](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-reference-policies#create-a-sign-up-or-sign-in-policy)
+8. 정책을 선택한 다음, **편집**을 선택합니다.
+9. **토큰, 세션 및 SSO 구성**을 선택합니다.
+10. **발급자(iss) 클레임** 목록에서 해당 경로에 **/tfp**가 있는 URL을 선택합니다.
+11. 정책을 저장합니다.
+12. 이 정책 **필드의** 메타데이터 종점에서 URL을 선택합니다.
+13. 발급자 필드의 값을 복사하여 앞의 표에서 정책-로그인-URL 값으로 입력합니다. 
 
 ## <a name="portal-configuration"></a>포털 구성
 
-[!include[Azure](../../../includes/pn-azure-shortest.md)]에서 B2C 테 넌 트를 만들고 구성한 후에는 Open ID Connect 프로토콜을 사용 하 여 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C와 페더레이션 하도록 포털을 구성 해야 합니다. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C&mdash;에 대 한 페더레이션에 대 한 고유 이름을 만들어야 합니다. 예를 들어 B2C&mdash;하 고 위의 표에 있는 *페더레이션 이름* 변수의 값으로 저장 해야 합니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)]에서 B2C 테넌트를 만들고 구성한 후에는 오픈 ID 연결 프로토콜을 사용하여 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C와 연대할 포털을 구성해야 합니다. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C에 연대하기 위한 고유 이름&mdash;예컨대, B2C&mdash;를 생성하여 위의 표에서 *페더레이션-이름* 변수의 값으로 저장해야 합니다.
 
 ### <a name="configure-your-portal"></a>포털 구성
 1. 포털 관리 앱을 엽니다.
-2. **포털** > **Websites**로 이동 합니다.
-3. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 사용 하도록 설정 해야 하는 웹 사이트 레코드를 선택 합니다.
-4. **사이트 설정**으로 이동 합니다.
-5. 다음 사이트 설정을 만듭니다.
-   -   **이름**: Authentication/OpenIdConnect/[페더레이션 이름]/Authority
+2. **포털** > **엡사이트**로 이동합니다.
+3. [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 활성화해야 하는 웹사이트 레코드를 선택합니다.
+4. **사이트 설정**으로 이동합니다.
+5. 다음 사이트 설정값을 만듭니다.
+   -   **이름**: Authentication/OpenIdConnect/[페더레이션-이름]/Authority
 
        **값**: [정책-로그인-URL]
-   -   **이름**: Authentication/OpenIdConnect/[페더레이션 이름]/clientid
+   -   **이름**: Authentication/OpenIdConnect/[페더레이션-이름]/ClientId
 
-       **값**: [응용 프로그램 ID]
-   -   **이름**: Authentication/OpenIdConnect/[페더레이션 이름]/RedirectUri
+       **값**: [응용 프로그램-ID]
+   -   **이름**: Authentication/OpenIdConnect/[페더레이션-이름]/RedirectUri
 
-       **값**: [portal 도메인]/Signin-[페더레이션 이름]
+       **값**: [포털 도메인/]/signin-[페더레이션-이름]
 
-       예를 들어 `https://mysite.com/signin-b2c` 
-6. 페더레이션된 로그 아웃을 지원 하려면 다음 사이트 설정을 만듭니다.
-   - **이름**: Authentication/OpenIdConnect/[페더레이션 이름]/ExternalLogoutEnabled
+       `https://mysite.com/signin-b2c`을 예로 들 수 있습니다. 
+6. 연대된 로그아웃을 지원하려면 다음 사이트 설정을 만듭니다.
+   - **이름**: Authentication/OpenIdConnect/[페더레이션-이름]/ExternalLogoutEnabled
 
-     **값**: true
-7. 단일 id 공급자로 포털을 하드 코딩 하려면 다음 사이트 설정을 만듭니다.
-   - **이름**: Authentication/Registration/LoginButtonAuthenticationType
+     **값**: 참
+7. 포털을 단일 ID 공급자로 하드코딩하려면 다음 사이트 설정을 만듭니다.
+   - **이름**: 인증/등록/로그인 버튼 인증 타입
 
      **값**: [정책-로그인-URL]
 
-8. 암호 재설정을 지원 하려면 [여기](#password-reset)에 설명 된 필수 사이트 설정을 만드세요.
-9. 클레임 매핑을 지원 하려면 [여기](#claims-mapping)에 설명 된 필수 사이트 설정을 만드세요.
+8. 암호 재설정을 지원하려면 [여기에](#password-reset) 설명된 필수 사이트 설정을 만듭니다.
+9. 클레임 매핑을 지원하려면 [여기에](#claims-mapping) 설명된 필수 사이트 설정을 만듭니다.
 
-관련 사이트 설정의 전체 목록은 [여기](#related-site-settings)를 참조 하십시오.
+관련 사이트 설정의 전체 목록을 보려면 [여기를](#related-site-settings) 참조하십시오.
 
-### <a name="password-reset"></a>암호 재설정
+### <a name="password-reset"></a>암호 다시 설정
 
-[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 로컬 계정을 사용 하 여 암호 재설정을 지원 하려면 다음 사이트 설정이 필요 합니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 로컬 계정으로 암호 재설정을 지원하려는 경우 다음 사이트 설정이 요구됩니다.
 
 | 사이트 설정                                                        | 설명                                                                                                          |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Authentication/OpenIdConnect/[페더레이션-이름/PasswordResetPolicyId | 암호 재설정 정책의 ID입니다.                                                                                     |
-| Authentication/OpenIdConnect/[페더레이션 이름]/ValidIssuers         | [정책-로그인 URL] 및 암호 재설정 정책의 발급자를 포함 하는 발급자를 쉼표로 구분한 목록입니다. |
-|Authentication/OpenIdConnect/[페더레이션 이름]/DefaultPolicyId | 로그인 또는 등록 정책의 ID입니다.|
+| Authentication/OpenIdConnect/[페더레이션-이름]/PasswordResetPolicyId | 암호 재설정 정책의 ID.                                                                                     |
+| Authentication/OpenIdConnect/[페더레이션-이름]/ValidIssuers         | [정책-로그인-URL]과 암호 재설정 정책의 발급자를 포함하는 발급자들의 쉼표로 구분된 목록. |
+|Authentication/OpenIdConnect/[페더레이션-이름]/DefaultPolicyId | 로그인 또는 가입 정책의 ID입니다.|
 |||
 
-### <a name="related-site-settings"></a>관련 사이트 설정
+### <a name="related-site-settings"></a>관련된 사이트 설정값
 
-포털에서 다음 사이트 설정을 만들거나 구성 하 여 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 id 공급자로 지원할 수 있습니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C를 ID 공급자로 지원하기 위해 포털에서 다음 사이트 설정을 생성하거나 구성할 수 있습니다.
 
 
 | 사이트 설정                                                         | 설명                                                                                                                                                                                                                                                        |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 인증/등록/프로 파일링 및 Directenabled                   | 성공적으로 로그인 한 후 포털이 프로필 페이지로 사용자를 리디렉션할 수 있는지 여부를 지정 합니다. 기본적으로 true로 설정 됩니다.                                                                                                                                            |
-| 인증/등록/EmailConfirmationEnabled                 | 전자 메일 유효성 검사가 필요한 지 여부를 지정 합니다. 기본적으로 true로 설정 됩니다.                                                                                     |
-| 인증/등록/LocalLoginEnabled                        | 로컬 로그인이 필요한 지 여부를 지정 합니다. 기본적으로 true로 설정 됩니다.                                                                        |
-| 인증/등록/ExternalLoginEnabled                     | 외부 인증을 사용 하거나 사용 하지 않도록 설정 합니다.       |
-| 인증/등록/AzureADLoginEnabled                      | 외부 id 공급자로 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD를 사용 하거나 사용 하지 않도록 설정 합니다. 기본적으로 true로 설정 됩니다.                                                                                                                                                                      |
-| Authentication/OpenIdConnect/[페더레이션 이름]/ExternalLogoutEnabled | 페더레이션된 로그 아웃을 사용 하거나 사용 하지 않도록 설정 합니다. True로 설정 하면 사용자가 포털에서 로그 아웃할 때 페더레이션된 로그 아웃 사용자 환경으로 리디렉션됩니다. False로 설정 하면 사용자가 포털 에서만 로그 아웃 됩니다. 기본적으로 false로 설정 됩니다.               |
-| 인증/LoginTrackingEnabled                                  | 사용자의 마지막 로그인 추적을 사용 하거나 사용 하지 않도록 설정 합니다. True로 설정 하면 연락처 레코드의 **마지막으로 성공한 로그인** 필드에 날짜 및 시간이 표시 됩니다. 기본적으로이는 false로 설정 됩니다.                                                            |
-| 인증/OpenIdConnect/[페더레이션 이름]/Shenabled   | 기존 id 공급자에 대 한 등록 요구 사항을 사용 하거나 사용 하지 않도록 설정 합니다. True로 설정 하면 사이트 설정 인증/등록/사용이 true로 설정 된 경우에만 기존 공급자에 대해 등록이 사용 됩니다. 기본적으로 true로 설정 됩니다. |
-|Authentication/OpenIdConnect/[페더레이션 이름]/postlogoutredirecturi |사용자가 로그 아웃 한 후 리디렉션할 포털 내 URL을 지정 합니다. |
+| 인증/등록/프로필 리디렉션 활성화                   | 로그인에 성공한 후 포털이 사용자를 프로필 페이지로 리디렉션할 수 있는지의 여부를 지정합니다. 기본적으로는 참으로 설정됩니다.                                                                                                                                            |
+| 인증/등록/이메일 확인 활성화                 | 이메일 유효성 검사가 요구되는지의 여부를 지정합니다. 기본적으로는 참으로 설정됩니다.                                                                                     |
+| Authentication/Registration/LocalLoginEnabled                        | 로컬 로그인이 요구되는지의 여부를 지정합니다. 기본적으로는 참으로 설정됩니다.                                                                        |
+| Authentication/Registration/ExternalLoginEnabled                     | 외부 인증을 활성화 또는 비활성화합니다.       |
+| 인증/등록/Azure AD 로그인 활성화                      | [!include[Azure](../../../includes/pn-azure-shortest.md)] AD를 외부 ID 공급자로 활성화하거나 비활성화합니다. 기본적으로는 참으로 설정됩니다.                                                                                                                                                                      |
+| Authentication/OpenIdConnect/[페더레이션-이름]/ExternalLogoutEnabled | 페더레이션된 로그아웃을 활성화하거나 비활성화합니다. 참으로 설정하면 사용자가 포털에서 로그아웃할 때 연대 로그아웃 사용자 환경으로 리디렉션됩니다. 거짓으로 설정하면 사용자가 포털에서만 로그아웃됩니다. 기본적으로는 거짓으로 설정됩니다.               |
+| 인증/로그인 추적 활성화                                  | 사용자의 마지막 로그인 추적을 활성화 또는 비활성화합니다. 참으로 설정하면 접촉 레코드의 **마지막 성공한 로그인** 필드에 날짜와 시간이 표시됩니다. 기본적으로 이것은 거짓으로 설정되어 있습니다.                                                            |
+| Authentication/OpenIdConnect/[페더레이션-이름]/RegistrationEnabled   | 기존 ID 공급자에 대한 등록 요건을 활성화하거나 비활성화합니다. 참으로 설정하면 사이트 설정 인증/등록/활성화도 참으로 설정된 경우에만 기존 공급자의 등록이 활성화됩니다. 기본적으로는 참으로 설정됩니다. |
+|Authentication/OpenIdConnect/[페더레이션-이름]/PostLogoutRedirectUri |사용자가 로그인한 후 리디렉션할 포털 내의 URL을 지정합니다. |
 | | |
 
 ### <a name="related-content-snippet"></a>관련 콘텐츠 조각
 
-사용자가 초대를 보낸 후 사용자에 대해 등록을 사용 하지 않도록 설정한 경우 다음 콘텐츠 코드 조각을 사용 하 여 메시지를 표시 합니다.
+사용자가 초대를 사용한 후에 사용자의 등록이 비활성화된 경우 다음 콘텐츠 조각을 사용하여 메시지를 표시합니다.
 
-**이름**: Account/Register/RegistrationDisabledMessage
+**이름**: 계정/등록/등록 비활성화 메시지
 
-**값**: 등록이 사용 하지 않도록 설정 되었습니다.
+**값**: 등록이 비활성화됨.
 
 ## <a name="customize-the-includeazureincludespn-azure-shortestmd-ad-b2c-user-interface"></a>[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 사용자 인터페이스 사용자 지정
 
-[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 사용자 인터페이스 사용자 지정을 지원 합니다. 등록 및 로그인 시나리오에 대 한 사용자 환경을 사용자 지정할 수 있습니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C는 사용자 인터페이스 사용자 지정을 지원합니다. 가입 및 로그인 시나리오에 대한 사용자 환경을 사용자 지정할 수 있습니다.
 
-### <a name="step-1-create-a-web-template"></a>1 단계: 웹 템플릿 만들기
-다음 값을 사용 하 여 웹 템플릿을 만듭니다.
+### <a name="step-1-create-a-web-template"></a>단계 1: 웹 템플릿 만들기
+다음 값을 사용하여 웹 템플릿을 만듭니다.
 
-**이름**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 사용자 지정 페이지
+**이름**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 맞춤 페이지
 
-**원본**: 다음 샘플 웹 템플릿 소스 HTML을 사용 합니다.
+**소스**: 다음 샘플 웹 템플릿 소스 HTML을 사용합니다.
 
 ```html
 <!DOCTYPE html>
@@ -438,88 +438,88 @@ ms.locfileid: "73542837"
   </body>
 </html>
 ```
-### <a name="step-2-create-a-page-template"></a>2 단계: 페이지 템플릿 만들기
+### <a name="step-2-create-a-page-template"></a>단계 2: 페이지 템플릿 만들기
 
 다음 페이지 템플릿을 만듭니다.
-- **이름**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 사용자 지정 페이지
-- **형식**: 웹 템플릿
-- **웹 템플릿**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 사용자 지정 페이지
-- **웹 사이트 머리글 및 바닥글 사용**:이 확인란의 선택을 취소 합니다.
+- **이름**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 맞춤 페이지
+- **타입**: 웹 템플릿
+- **웹 템플릿**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 맞춤 페이지
+- **웹사이트 머리글 및 바닥글 사용**: 이 확인란 선택을 취소합니다
 
-### <a name="step-3-create-a-webpage"></a>3 단계: 웹 페이지 만들기
+### <a name="step-3-create-a-webpage"></a>단계 3: 웹페이지 만들기
 
 다음 웹 페이지를 만듭니다.
 - **이름**: 로그인
-- **부모** 페이지: 홈
-- **부분 Url**: azure-b2c-로그인
-- **페이지 템플릿**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 사용자 지정 페이지
-- **게시 상태**: 게시 됨
+- **상위** 페이지: 홈
+- **부분 URL**: azure-ad-b2c-sign-in
+- **페이지 템플릿**: [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 맞춤 페이지
+- **게시 상태**: 게시
 
-### <a name="step-4-create-site-settings"></a>4 단계: 사이트 설정 만들기
+### <a name="step-4-create-site-settings"></a>단계 4: 사이트 설정 만들기
 
-사이트 설정은 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C에서 사용자 지정 페이지를 요청 하 고 로그인 또는 등록 사용자 인터페이스를 삽입할 수 있도록 CORS (원본 간 리소스 공유)를 구성 하는 데 필요 합니다. 다음 사이트 설정을 만듭니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C가 맞춤 페이지를 요청하고 로그인 또는 가입 사용자 인터페이스를 주입할 수 있도록 교차 기원 리소스 공유(CORS)를 구성하기 위해서는 사이트 설정이 요구됩니다. 다음 사이트 설정을 만듭니다.
 
-| 이름                              | Value                             |
+| 이름                              | 값                             |
 |-----------------------------------|-----------------------------------|
-| HTTP/액세스 제어-허용 메서드 | 가져오기, 옵션                      |
-| HTTP/액세스 제어-허용-원본  | `https://login.microsoftonline.com` |
+| HTTP/액세스-제어-허용-방법 | 받기, 옵션                      |
+| HTTP/액세스-제어-허용-기원  | `https://login.microsoftonline.com` |
 | | |
 
-다른 CORS 설정의 전체 목록은 [cors 프로토콜 지원](../add-web-resource.md#cors-protocol-support)을 참조 하세요.
+기타 CORS 설정의 전체 목록은 [CORS 프로토콜 지원](../add-web-resource.md#cors-protocol-support)을 참조하십시오.
 
-### <a name="step-5-includeazureincludespn-azure-shortestmd-configuration"></a>5 단계: 구성 [!include[Azure](../../../includes/pn-azure-shortest.md)]
+### <a name="step-5-includeazureincludespn-azure-shortestmd-configuration"></a>단계 5: [!include[Azure](../../../includes/pn-azure-shortest.md)] 구성
 
-1. [!include[Azure portal](../../../includes/pn-azure-portal.md)]에 로그인 합니다.
-2. **[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 테 넌 트 관리** 블레이드로 이동 합니다.
-3. **설정** > **등록 또는 로그인 정책**으로 이동 합니다. 사용 가능한 정책 목록이 표시 됩니다.
-4. 편집 하려는 정책을 선택 합니다.
-5. **편집**을 선택 합니다.
-6. **정책 편집** > **페이지 UI 사용자 지정** > **통합 등록 또는 로그인 페이지를** 선택 합니다.
-7. **사용자 지정 페이지 사용** 을 **예**로 설정 합니다.
-8. **사용자 지정 페이지 URI** 를이 절차의 3 단계에서 만든 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 사용자 지정 페이지 웹 페이지의 URL로 설정 합니다. 예를 들어 `https://mydomain.com/azure-ad-b2c-sign-in`합니다.
+1. [!include[Azure portal](../../../includes/pn-azure-portal.md)]에 로그인합니다.
+2. **[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 테넌트 관리** 블레이드로 이동합니다.
+3. **설정** > **가입 또는 로그인 정책**으로 이동합니다. 가용 정책의 목록이 표시됩니다.
+4. 편집할 정책을 선택합니다.
+5. **편집**을 선택합니다.
+6. **정책 편집** > **페이지 UI 사용자 지정** > **통합 가입 또는 로그인 페이지**를 선택합니다
+7. **맞춤 페이지 사용**을 **예**로 설정합니다.
+8. **맞춤 페이지 URI**를 이 절차의 단계 3에서 생성한 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 맞춤 페이지 웹페이지의 URL로 설정합니다. `https://mydomain.com/azure-ad-b2c-sign-in`을 예로 들 수 있습니다.
 9. **확인**을 선택합니다.
 
 ## <a name="claims-mapping"></a>클레임 매핑
 
-사용자가 처음으로 또는 그 이후에 로그인 하면 페더레이션 id 공급자는 해당 데이터베이스를 기반으로 사용자 로그인에 대 한 클레임을 제공 합니다. 이러한 클레임은 id 공급자에서 구성할 수 있습니다.
+사용자가 처음으로 또는 그 후에 로그인하면 사용자의 로그인에 관한 데이터베이스에 근거하여 연대된 ID 공급자가 클레임을 제공합니다. 이러한 클레임은 ID 공급자에서 구성할 수 있습니다.
 
-### <a name="includeazureincludespn-azure-shortestmd-ad-b2c-email-claims"></a>[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 메일 클레임
+### <a name="includeazureincludespn-azure-shortestmd-ad-b2c-email-claims"></a>[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C 이메일 클레임
 
-[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C는 전자 메일 클레임을 컬렉션으로 보냅니다. 포털은 컬렉션에 제공 된 첫 번째 전자 메일을 연락처의 기본 전자 메일 주소로 받아들입니다.
+[!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C는 컬렉션으로서 전자 메일 클레임을 보냅니다. 포털은 컬렉션에 제공된 첫 번째 이메일을 연락처의 기본 이메일 주소로 받아들입니다.
 
-### <a name="claims-to-support-sign-up-scenarios"></a>등록 시나리오를 지 원하는 클레임
+### <a name="claims-to-support-sign-up-scenarios"></a>가입 시나리오를 지원하기 위한 클레임
 
-Common Data Service에 없는 새 고객이 프로 비전 되는 경우 인바운드 클레임을 사용 하 여 포털에서 만들 새 연락처 레코드의 초기값을 지정할 수 있습니다. 일반 클레임에는 이름, 전자 메일 주소 및 전화 번호가 포함 될 수 있지만 이러한 클레임은 구성 가능 합니다. 다음 사이트 설정이 필요 합니다.
+Common Data Service에 존재하지 않는 새 고객이 프로비전된 경우 인바운드 클레임을 사용하여 포털이 만들 새 연락처 레코드를 시드할 수 있습니다. 일반 클레임은 이름과 성, 이메일 주소 및 전화번호를 포함할 수 있지만 그것들은 구성 가능합니다. 다음 사이트 설정이 요구됩니다.
 
-**이름**: Authentication/OpenIdConnect/[페더레이션 이름]/RegistrationClaimsMapping
+**이름**: Authentication/OpenIdConnect/[페더레이션-이름]/RegistrationClaimsMapping
 
-**설명**: 등록 중에 생성 된 연락처 레코드의 특성에 클레임 값을 매핑하는 데 사용할 논리적 이름/클레임 쌍의 목록입니다.
+**설명**: 등록 중에 생성된 연락처 레코드의 속성에 클레임 값을 매핑하는 데 사용할 논리 이름/클레임 쌍의 목록.
 
-**형식**: attribute1 = claim1, attribute2 = claim2, attribute3 = claim3
+**형식**: 속성1=클레임1,속성2=클레임2,속성3=클레임3
 
-예: firstname =<https://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=https://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle>
+예: firstname=<https://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=https://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle>
 
 > [!NOTE]
-> 전자 메일 주소를 연락처의 기본 전자 메일 (emailaddress1)에 매핑 했는지 확인 합니다. 연락처 레코드에 보조 전자 메일 (emailaddress2) 또는 대체 전자 메일 (emailaddress3)을 추가 하 고 전자 메일에 매핑한 경우 id 정보는 연락처에 추가 되지 않으며에 등록 집합에 사용 되는 전자 메일 주소를 사용 하 여 새로 생성 됩니다. 기본 전자 메일 (emailaddress1)입니다.
+> 이메일 주소를 연락처의 기본 이메일(emailaddress1)에 매핑하도록 합니다. 보조 이메일(emailaddress2) 또는 대체 이메일(emailaddress3)을 연락처 레코드에 추가하고 이메일에 매핑한 경우, ID 정보는 연락처에 추가되지 않으며 기본 이메일(emailaddress1)에 설정된 등록에 사용된 이메일 주소로 새 주소가 생성됩니다.
 
-### <a name="claims-to-support-sign-in-scenarios"></a>로그인 시나리오를 지 원하는 클레임
+### <a name="claims-to-support-sign-in-scenarios"></a>로그인 시나리오를 지원하기 위한 클레임
 
-Id 공급자의 Common Data Service 및 데이터는 직접 연결 되지 않으므로 데이터가 동기화 되지 않을 수 있습니다. 포털에는 Common Data Service에서 업데이트할 모든 로그인 이벤트에서 수락 하려는 클레임 목록이 있어야 합니다. 이러한 클레임은 로그인 시나리오에서 들어오는 클레임의 하위 집합 이거나 이와 같을 수 있습니다. 일부 키 포털 특성을 덮어쓰지 않을 수 있으므로 로그인 클레임 매핑과 별도로 구성 해야 합니다. 다음 사이트 설정이 필요 합니다.
+Common Data Service 및 ID 공급자의 데이터는 직접 연결되어 있지 않으므로 데이터가 동기화되지 않을 수 있습니다. 포털에는 Common Data Service에서 업데이트할 로그인 이벤트에서 수락할 클레임의 목록이 있어야 합니다. 이러한 클레임은 로그인 시나리오에서 들어오는 클레임과 같거나 하위 집합일 수 있습니다. 일부 키 포털 속성을 덮어쓰지 않을 수 있으므로 이는 로그인 클레임 매핑과는 별도로 구성해야 합니다. 다음 사이트 설정이 요구됩니다.
 
-**이름**: Authentication/OpenIdConnect/[페더레이션 이름]/LoginClaimsMapping
+**이름**: Authentication/OpenIdConnect/[페더레이션-이름]/LoginClaimsMapping
 
-**설명**: 로그인 후 생성 된 연락처 레코드의 특성에 클레임 값을 매핑하는 데 사용할 논리적 이름/클레임 쌍의 목록입니다.
+**설명**: 로그인 후에 생성된 연락처 레코드의 속성에 클레임 값을 매핑하는 데 사용할 논리 이름/클레임 쌍의 목록.
 
-**형식**: attribute1 = claim1, attribute2 = claim2, attribute3 = claim3
+**형식**: 속성1=클레임1, 속성2=클레임2, 속성3=클레임3
 
-예: firstname =<https://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=https://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle> 
+예: firstname=<https://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname,lastname=https://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname,jobtitle=jobTitle> 
 
-클레임 이름은 로그인 정책 응용 프로그램 클레임에서 특성 옆에 나열 된 클레임 유형 필드입니다.
+클레임 이름은 로그인 정책 응용 프로그램 클레임의 속성 옆에 나열된 클레임 타입 필드입니다.
 
-### <a name="allow-auto-association-to-a-contact-record-based-on-email"></a>전자 메일을 기반으로 하는 연락처 레코드에 대 한 자동 연결 허용 
+### <a name="allow-auto-association-to-a-contact-record-based-on-email"></a>이메일 주소에 근거한 연락처 레코드에 자동 연계 허용 
 
-연결 된 전자 메일에 연락처 레코드가 있는 고객은 외부 사용자가 전자 메일 유효성 검사 메커니즘을 통해 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C에 로그인 할 수 있는 웹 사이트를 시작 합니다. 새 로그인은 중복 레코드를 만드는 대신 기존 연락처 레코드와 연결 해야 합니다. 이 기능은 활성 id가 없는 연락처만 성공적으로 매핑하며 메일 주소는 고유 해야 합니다 (여러 연락처 레코드와는 관련이 없음). 다음 사이트 설정이 필요 합니다.
+그러면 이메일 주소가 연계된 연락처 레코드가 있는 고객이 웹사이트를 출범시키면 외부 사용자들이 이메일 주소 유효성 검사 메커니즘을 통해 [!include[Azure](../../../includes/pn-azure-shortest.md)] AD B2C로 로그인할 것입니다. 중복 레코드를 만드는 대신 새 로그인을 기존 연락처 레코드와 연계해야 합니다. 이 기능은 활성 ID가 없는 연락처만 성공적으로 매핑하기 때문에 이메일 주소는 고유해야 합니다(복수의 연락처 레코드에 연계되지 않아야 함). 다음 사이트 설정이 요구됩니다.
 
-**이름**: Authentication/[Protocol]/[Provider]/AllowContactMappingWithEmail
+**이름**: Authentication/[프로토콜]/[공급자]/AllowContactMappingWithEmail
 
-**설명**: 연락처가 해당 전자 메일에 매핑되는지 여부를 지정 합니다. True로 설정 되 면이 설정은 고유한 연락처 레코드를 일치 하는 전자 메일 주소와 연결한 다음 사용자가 성공적으로 로그인 한 후에 자동으로 연락처에 외부 id 공급자를 할당 합니다. 기본적으로 false로 설정 됩니다.
+**설명**: 연락처가 해당 이메일 주소에 매핑되는지의 여부를 지정합니다. 참으로 설정하면 이 설정은 고유한 연락처 레코드를 매칭되는 이메일 주소와 연계한 다음, 사용자가 성공적으로 로그인 한 후에 외부 ID 공급자를 연락처에 자동으로 할당합니다. 기본적으로는 거짓으로 설정됩니다.

@@ -9,17 +9,23 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 2328d35af7be35e3aae8d38bc1157adce513cb7c
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758551"
 ---
 # <a name="visualize-hierarchical-data-with-model-driven-apps"></a>모델 기반 앱을 사용하여 계층적 데이터 시각화
 
@@ -106,4 +112,4 @@ search.app:
 ### <a name="see-also"></a>참조 
 
 [계층적으로 관련된 데이터를 정의하고 쿼리하기](../common-data-service/define-query-hierarchical-data.md)<br />
-[비디오: 계층 구조 시각화](http://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)
+[비디오: 계층 구조 시각화](https://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)

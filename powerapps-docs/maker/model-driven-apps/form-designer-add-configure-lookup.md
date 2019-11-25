@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8ba09c46a46d0a4d40891419e1f6eb787f75f096
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2703914"
 ---
-
 # <a name="configure-a-lookup-component-on-a-form"></a>양식에서 조회 구성 요소 구성  
 조회 필드를 사용하여 다른 엔터티의 레코드에 연결할 수 있습니다. 조회 필드가 양식에 추가될 때 조회 구성 요소가 자동으로 사용됩니다. 제조업체는 양식 디자이너를 사용하여 조회 구성 요소를 구성할 수 있습니다.
 

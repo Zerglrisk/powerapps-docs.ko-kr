@@ -1,5 +1,5 @@
 ---
-title: '솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집 | MicrosoftDocs'
+title: 솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집 | MicrosoftDocs
 description: PowerApps 솔루션 탐색기를 사용하여 일대다 또는 다대일 엔터티 관계를 만들고 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 10/28/2018
@@ -9,24 +9,29 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3488b8228841f7b5323daee972472884e7c873d8
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758155"
 ---
-
 # <a name="create-and-edit-1n-one-to-many-or-n1-many-to-one-entity-relationships-using-solution-explorer"></a>솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집 
 
 솔루션 탐색기를 통해 Common Data Service에 대한 1: N(일대다) 또는 N:1(다대일) 엔터티 관계를 만들고 편집할 수 있습니다.
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능합니다. 추가 정보: 
+[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. 추가 정보: 
 - [1:N(일대다) 또는 N:1(다대일) 관계 만들기](create-edit-1n-relationships.md)
 - [PowerApps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)
   

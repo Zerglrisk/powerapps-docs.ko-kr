@@ -5,15 +5,18 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 09/16/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 39e909acb325bd870f73e16a72da78b4bec07c79
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2709854"
 ---
-
 # <a name="download-public-key-of-portal"></a>포털의 공개 키 다운로드
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 포털의 공개 키는 Dynamics 365의 모델 기반 앱용 Live Assist를 구성하는 데 사용되어 인증된 포털의 방문자가 사용할 수 있습니다. CafeX에서 제공하는 [라이브 지원](https://www.cafex.com/en/products/live-assist-dynamics-365/)은 사용자가 자신의 포털에 라이브 채팅 지원을 포함할 수 있는 채팅 솔루션을 제공합니다. 공개 키를 사용하여 포털에 채팅을 포함하는 방법에 대한 자세한 내용은 [Dynamics 고객 포털의 인증된 방문자](https://www.liveassistfor365.com/en/support/authenticated-visitors-in-the-dynamics-customer-portal/)를 참조하십시오.
 
@@ -22,7 +25,7 @@ ms.reviewer: null
 2.  **포털 작업** > **공개 키 가져오기**로 이동합니다. 키가 표시됩니다.
 
     > [!div class=mx-imgBorder]
-    > ![포털의 공개 키 가져오기](../media/get-public-key.png "포털의 공개 키 가져오기")
+    > ![포털의 공개 키 받기](../media/get-public-key.png "포털의 공개 키 받기")
 
 3.  **텍스트로 다운로드**를 선택하여 키를 텍스트로 다운로드합니다.
 

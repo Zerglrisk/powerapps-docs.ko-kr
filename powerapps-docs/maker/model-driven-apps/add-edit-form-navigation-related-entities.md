@@ -9,25 +9,31 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Mattp123
 ms.assetid: b4098c96-bce1-4f57-804f-8694e6254e81
 caps.latest.revision: 15
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 34b1680d7596719cd050c71af8cc6c355f6353e3
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2751916"
 ---
 # <a name="add-model-driven-app-form-navigation-for-related-entities"></a>관련 엔터티에 대한 탐색에서 모델 기반 앱 추가
 
 이 항목에서는 관련 엔터티에 링크를 추가하는 데 사용되는 양식 탐색 창을 사용할 수 있습니다. 앱 사용자가 레코드에서 이러한 링크 중 하나를 클릭하면 엔터티의 관련 보기가 표시됩니다.   
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
   
     > [!IMPORTANT]
@@ -83,4 +89,4 @@ search.app:
 > 솔루션 설치 또는 사용자 지정 항목 게시 작업은 일반적인 시스템 작업과 충돌할 수 있습니다. 사용자에게 가장 지장을 덜 줄 때 솔루션을 가져오도록 예약하는 것이 좋습니다.
   
 ## <a name="next-steps"></a>다음 단계  
- [Common Data Service에 대한 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)
+ [Common Data Service용 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)

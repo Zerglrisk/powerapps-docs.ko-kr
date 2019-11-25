@@ -9,23 +9,27 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
-ms.assetid: null
-caps.latest.revision: null
+ms.assetid: ''
+caps.latest.revision: ''
 ms.author: matp
 manager: kvivek
-tags: null
+tags: ''
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 32fb0c402fce458f728b44c63e337fe07b36fd76
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2754658"
 ---
-
-
 <!--note from editor: I think "dataflows" should be lowercase based on this entry in the Microsoft style guide (scroll down to find dataflows): https://styleguides.azurewebsites.net/Styleguide/Read?id=2696&topicid=42299 -->
 
 
@@ -59,7 +63,7 @@ Common Data Model은 비즈니스 및 분석 애플리케이션이 사용할 공
 > 데이터 흐름을 사용을 사용하려면 유료 PowerApps 플랜이 있어야 하지만 데이터 흐름 사용에 대한 요금은 별도로 청구되지 않습니다. 
 
 ### <a name="load-data-to-common-data-service"></a>Common Data Service에 데이터 로드
-데이터 흐름을 사용하여 [Common Data Service](https://docs.microsoft.com/en-us/powerapps/maker/common-data-service/data-platform-intro)에 엔터티를 채운 다음, PowerApps 애플리케이션에서 사용할 수 있습니다. 몇 번의 클릭만으로 온라인 및 온-프레미스 소스 데이터 원본의 데이터를 통합할 수 있습니다.
+데이터 흐름을 사용하여 [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)에 엔터티를 채운 다음, PowerApps 애플리케이션에서 사용할 수 있습니다. 몇 번의 클릭만으로 온라인 및 온-프레미스 소스 데이터 원본의 데이터를 통합할 수 있습니다.
 
 <!--from editor: In the last sentence above, should it change to "...on-premises data sources." ? -->
 
@@ -70,7 +74,7 @@ Common Data Model을 기반으로 하여 확장하려는 조직의 비즈니스 
 ### <a name="extend-your-capabilities-with-azure-data-and-ai-services"></a>Azure Data 및 AI 서비스로 기능 확장
 Power Platform 데이터 흐름을 조직의 Azure Data Lake Storage Gen2 계정에 데이터 흐름 데이터를 저장하도록 구성할 수 있습니다. 환경이 조직의 데이터 레이크에 연결되면 데이터 과학자와 개발자는 Azure Machine Learning, Azure Databricks, Azure Data Factory 등과 같은 강력한 Azure 제품을 활용할 수 있습니다.
 
-조직의 Azure Data Lake에 상주하는 데이터 흐름을 만드는 방법을 포함하여 Azure Data Lake Storage Gen2 및 데이터 흐름 통합에 대한 자세한 내용은 [데이터 흐름 및 Azure Data Lake 통합(미리 보기)](/power-bi/service-dataflows-azure-data-lake-integration)를 참조하십시오.
+조직의 Azure Data Lake에 상주하는 데이터 흐름을 만드는 방법을 포함하여 Azure Data Lake Storage Gen2 및 데이터 흐름 통합에 대한 자세한 내용은 [데이터 흐름 저장소에 Azure Data Lake Storage Gen2 연결](connect-azure-data-lake-storage-for-dataflow.md)을 참조하십시오.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-powerapps"></a>PowerApps의 빅 데이터에 대한 셀프 서비스 데이터 준비 요약
 데이터 흐름을 통해 비즈니스 데이터를 보다 효과적으로 제어하고 더욱 빠르게 통찰력을 얻을 수 있는 여러 가지 시나리오와 예가 있습니다. 조직의 다른 사람들이 Common Data Service 또는 Power BI의 Power Platform 데이터 흐름 커넥터를 통해, 또는 조직의 Azure Data Lake Storage Gen2 계정에 있는 데이터 흐름의 **Common Data Service** 폴더에 직접 액세스하여 데이터 흐름을 활용할 수 있습니다. Common Data Model에 의해 정의된 표준 데이터 모델(스키마)을 사용하여 비즈니스 애플리케이션은 엔터티의 스키마에 의존할 수 있으며 데이터 생성 방법 또는 데이터 원본에서 추상화될 수 있습니다. 데이터 흐름이 예약된 실행을 완료하면 데이터를 생성하는 데 몇 개월 이상이 걸리던 것에 비해 매우 짧은 기간에 앱, 흐름 또는 BI 통찰력을 모델링하고 만들 수 있습니다.

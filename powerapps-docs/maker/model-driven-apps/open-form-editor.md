@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 8478a07a-c697-4784-874b-36958eb4f95d
 caps.latest.revision: 63
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: f922908611d56afc99c5ebc844ff75c94d48657c
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759519"
 ---
-
 # <a name="open-the-model-driven-app-form-editor"></a>모델 기반 앱 양식 편집기 열기 
 양식 편집기에서는 섹션, 탭, 필드 및 컨트롤과 같은 구성 요소를 양식 편집기 캔버스에 놓아 양식을 디자인할 수 있습니다. 이 항목에서는 양식 편집기에 액세스하는 여러 가지 방법에 대해 설명합니다.
  
@@ -30,7 +35,7 @@ search.app:
 
 ## <a name="access-the-form-editor-from-the-powerapps-site"></a>PowerApps 사이트에서 양식 편집기 액세스
 
-1. [PowerApps](https://web.powerapps.com/)에 로그인합니다. 
+1. [PowerApps](https://make.powerapps.com/)에 로그인합니다. 
 
 2. **데이터** > **엔터티**를 선택한 다음 거래처 엔터티와 같은 원하는 엔터티를 선택합니다. 
 

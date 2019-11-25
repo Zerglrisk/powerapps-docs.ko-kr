@@ -4,24 +4,30 @@ description: 솔루션을 만드는 방법 알아보기
 ms.custom: ''
 ms.date: 10/30/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Mattp123
 ms.assetid: e21a4876-08b4-417a-a644-c577a27c5cf1
 caps.latest.revision: 12
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9e57aa7395b6c8fdbcfe35c944f625d9790f592a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757671"
 ---
 # <a name="create-a-solution"></a>솔루션 만들기
 
@@ -29,7 +35,7 @@ search.app:
   
  솔루션 개념에 대한 자세한 내용은 [솔루션 작업](solutions-overview.md)을 참조하십시오.  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 왼쪽 탐색 메뉴에서 **솔루션**을 선택합니다. 
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 왼쪽 탐색 메뉴에서 **솔루션**을 선택합니다. 
   
 2.  **새 솔루션**을 선택하고 솔루션의 필수 필드를 채웁니다.
   
@@ -51,7 +57,7 @@ search.app:
   
  이렇게 하면 **필수 구성 요소 누락** 대화 상자가 표시됩니다.  
    
- ![필수 구성 요소 추가 대화](media/crm-itpro-cust-addrequiredcomponents.PNG "필수 구성 요소 추가 대화")  
+ ![필수 구성요소 대화상자 추가](media/crm-itpro-cust-addrequiredcomponents.PNG "필수 구성요소 대화상자 추가")  
   
  이 대화 상자는 솔루션 구성 요소에 다른 솔루션 구성 요소에 대한 종속성이 있음을 알려 줍니다. **아니요, 필수 구성 요소를 포함하지 않습니다.** 를 선택하면 모든 필수 구성 요소가 없는 다른 조직으로 솔루션을 가져오려고 할 경우 실패할 수 있습니다. 솔루션 가져오기에 성공하면 구성 요소가 원본 솔루션과 다르게 구성되어 있으므로 다른 솔루션의 동작은 원래 조직과 동일하지 않을 수 있습니다.  
   

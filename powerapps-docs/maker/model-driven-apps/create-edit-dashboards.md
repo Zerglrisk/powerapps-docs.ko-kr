@@ -8,19 +8,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: 641885d2-4a08-41b8-b914-d9a244e4d5b1
 caps.latest.revision: 10
 ms.author: matp
 manager: kvivek
 author: Mattp123
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 1e6fa3440f0deef99f94ce94352177a105abf7b7
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759255"
 ---
 # <a name="create-or-edit-model-driven-app-dashboards"></a>모델 기반 앱 대시보드 만들기 또는 편집
 
@@ -29,7 +35,7 @@ search.app:
 <a name="BKMK_createdashboard"></a>   
 ## <a name="create-a-new-dashboard"></a>새 대시보드 만들기  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.   
@@ -51,7 +57,7 @@ search.app:
 <a name="BKMK_editdashboard"></a>   
 ## <a name="edit-an-existing-dashboard"></a>기존 대시보드 편집  
   
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.    
@@ -66,15 +72,15 @@ search.app:
   
 4.  변경이 완료되면 저장한 다음 게시합니다.  
   
- 수행할 수 있는 추가 시스템 대시보드 작업은 다음과 같습니다.  
+수행할 수 있는 추가 시스템 대시보드 작업은 다음과 같습니다.  
   
-    -   대시보드에서 목록 또는 차트 제거  
-  
-    -   대시보드에 목록 또는 차트 추가  
-  
-    -   기본 대시보드 설정  
-  
-    -   보안 역할을 사용하여 대시보드를 특정 역할만 볼 수 있도록 만들기    
-  
+-   대시보드에서 목록 또는 차트 제거  
+
+-   대시보드에 목록 또는 차트 추가  
+
+-   기본 대시보드 설정  
+
+-   보안 역할을 사용하여 대시보드를 특정 역할만 볼 수 있도록 만들기    
+
 ## <a name="next-steps"></a>다음 단계  
 [대시보드에 포함된 차트 또는 목록의 속성 설정](set-properties-chart-list-included-dashboard.md)

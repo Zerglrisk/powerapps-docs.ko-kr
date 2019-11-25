@@ -1,5 +1,5 @@
 ---
-title: '양식의 필드 추가, 구성, 이동 또는 삭제 | MicrosoftDocs'
+title: 양식의 필드 추가, 구성, 이동 또는 삭제 | MicrosoftDocs
 ms.custom: ''
 ms.date: 08/26/2019
 ms.reviewer: ''
@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: eaa02abdc4c85d4d6abd5e5ca3afe176144c4027
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2701538"
 ---
-
 # <a name="add-configure-move-or-delete-fields-on-a-form"></a>양식의 필드 추가, 구성, 이동 또는 삭제  
 양식 디자이너를 사용하여 필드를 추가, 구성, 이동 또는 삭제합니다.
 
@@ -30,7 +35,7 @@ search.app:
 양식에 필드를 추가하려면 **필드** 창을 사용합니다. **필드** 창을 사용하면 검색 및 필터를 통해 필드를 빠르게 찾을 수 있습니다. 또한 사용되지 않는 필드만 표시하는 옵션도 포함되어 있습니다. 
 
 > [!div class="mx-imgBorder"] 
->    ![](media/FormDesignerFieldsPane.png "필드 창")
+>    ![](media/FormDesignerFieldsPane.png "Fields pane")
 
 ### <a name="add-fields-to-a-form-using-drag-and-drop"></a>끌어서 놓기를 사용하여 양식에 필드 추가
 > [!NOTE]

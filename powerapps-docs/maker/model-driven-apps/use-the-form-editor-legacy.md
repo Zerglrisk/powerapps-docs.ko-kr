@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 4c379202-9f0e-4003-a49c-efff53e7f79f
 caps.latest.revision: 63
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 0d2a8be9daa7a98ab0ddd838b5a1c7388f2eb21f
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2710338"
 ---
 # <a name="change-navigation-within-a-model-driven-app-form"></a>모델 기반 앱 양식 내에서 탐색 변경
 
@@ -29,7 +35,7 @@ search.app:
   
  표시되도록 구성되어 있는 모든 엔터티 관계는 양식 편집기에서 재정의할 수 있습니다. 양식 탐색을 통해 다른 웹 사이트 또는 웹 리소스를 표시하도록 탐색 링크를 포함할 수 있습니다.  
   
- 단계별 지침은 [Common Data Service에 대한 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)을 참조하십시오.  
+ 단계별 지침은 [Common Data Service용 엔터티 관계 만들기 및 편집](../common-data-service/create-edit-entity-relationships.md)을 참조하십시오.  
   
  탐색을 편집할 수 있으려면 먼저 양식 디자이너의 **홈** 탭의 **선택** 그룹에서 **탐색**을 선택해야 합니다.  
  

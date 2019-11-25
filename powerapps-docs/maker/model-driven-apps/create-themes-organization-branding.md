@@ -13,10 +13,16 @@ caps.latest.revision: 17
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: b1aae7d51b22939f84478ad0537ef9285daf7631
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2753830"
 ---
 # <a name="create-a-theme"></a>테마 만들기
 
@@ -68,7 +74,7 @@ search.app:
 ## <a name="copy-and-alter-the-existing-theme"></a>기존 테마 복사 및 변경  
  새로운 테마를 만드는 가장 쉽고 빠른 방법은 기존 테마를 복제하고 변경한 다음 저장하고 미리 보고 게시하는 것입니다. 
  
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2.  **모델 기반**(왼쪽 아래). 
 
@@ -88,12 +94,12 @@ search.app:
  다음 스크린샷은 새로운 탐색 색상을 보여줍니다.  
  
  > [!div class="mx-imgBorder"] 
- > ![부드러운 녹색 테마 색상](media/theme-gentle-green.png "부드러운 녹색 테마 색상")  
+ > ![부드러운 녹색 테마 색](media/theme-gentle-green.png "부드러운 녹색 테마 색")  
   
  다음 스크린샷은 새로운 강조 표시 색상과 함께 계정 엔터티 표를 보여줍니다.  
  
  > [!div class="mx-imgBorder"] 
- > ![부드러운 녹색 테마 계정 표](media/themes-gentle-green-account-grid.png "부드러운 녹색 테마 계정 표")  
+ > ![부드러운 녹색 테마 거래처 표](media/themes-gentle-green-account-grid.png "부드러운 녹색 테마 거래처 표")  
   
 <a name="Publish"></a>   
 ## <a name="preview-and-publish-a-theme"></a>테마 미리 보기 및 게시  
@@ -143,5 +149,5 @@ search.app:
   
 ## <a name="see-also"></a>참조  
          
- [비디오: 테마](http://go.microsoft.com/fwlink/p/?LinkId=529568) [조직 테마 쿼리 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/query-and-edit-an-organization-theme)
+ [비디오: 테마](https://go.microsoft.com/fwlink/p/?LinkId=529568) [조직 테마 쿼리 및 편집](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-dev/query-and-edit-an-organization-theme)
 

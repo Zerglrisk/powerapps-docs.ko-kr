@@ -4,26 +4,31 @@ description: PowerApps 포털을 사용하여 엔터티를 만들고 편집하�
 ms.custom: ''
 ms.date: 07/25/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
-ms.assetid: null
+ms.assetid: ''
 caps.latest.revision: 0
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9fd6f2bf14a8007dd2b4f840a901316a0d3607cd
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2701010"
 ---
-
 # <a name="entity-relationships-overview"></a>엔터티 관계 개요
 
 엔터티 관계는 다른 엔터티 또는 동일한 엔터티의 레코드에 엔터티 레코드를 연결하는 방법을 정의합니다. 두 가지 유형의 엔터티 관계가 있습니다.
@@ -32,4 +37,4 @@ search.app:
 
 ## <a name="see-also"></a>참조
 [두 엔터티 간 관계 만들기](data-platform-entity-lookup.md) <br/>
-[PowerApps 포털을 사용하여 앱용 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)
+[PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)

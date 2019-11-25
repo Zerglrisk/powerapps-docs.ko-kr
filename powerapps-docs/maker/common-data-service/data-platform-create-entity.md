@@ -8,22 +8,27 @@ ms.topic: quickstart
 ms.date: 05/01/2018
 ms.author: matp
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: b1331d272b30bb3455ae06a8dd726eb3a9dc630f
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2754966"
 ---
-
-# <a name="create-a-custom-entity"></a>사용자 지정 엔터티 만들기
-PowerApps에서는 *엔터티*는 일반적으로 회사 이름, 위치, 제품, 전자 메일 및 전화와 같은 속성을 포함하는 레코드 형태로 추적하려는 정보를 정의합니다. 그런 다음 엔터티를 참조하는 앱을 개발하여 해당 데이터를 확인할 수 있습니다. PowerApps는 조직 내의 일반적인 시나리오(예: 약속 추적)를 포괄하는 표준 "기본" 엔터티를 제공하지만 조직과 관련된 데이터를 저장하기 위해 사용자 지정 엔터티를 만들어야 하는 경우가 있을 수 있습니다.
+# <a name="create-a-custom-entity"></a>맞춤 엔터티 만들기
+PowerApps에서 *엔터티*는 일반적으로 회사 이름, 위치, 제품, 전자 메일 및 전화와 같은 속성을 포함하는 레코드 형태로 추적하려는 정보를 정의합니다. 그런 다음 엔터티를 참조하는 앱을 개발하여 해당 데이터를 확인할 수 있습니다. PowerApps는 조직 내의 일반적인 시나리오(예: 약속 추적)를 포괄하는 표준 "기본" 엔터티를 제공하지만 조직과 관련된 데이터를 저장하기 위해 사용자 지정 엔터티를 만들어야 하는 경우가 있을 수 있습니다.
 
 이 항목에서는 회사에서 판매하는 제품에 대한 등급 및 설명을 표시하는 앱을 만드는 데 사용할 수 있는 제품 검토라는 사용자 지정 엔터티를 만드는 방법을 배웁니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 이 절차를 수행하려면 Common Data Service에서 시스템 관리자 또는 시스템 사용자 지정자 보안 역할이 있어야 합니다.
 
-## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
-[https://web.powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에 로그인
+## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인합니다.
+[https://make.powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에 로그인합니다.
 
 ## <a name="create-an-entity"></a>엔터티 만들기
 1. 탐색 창에서 **데이터**를 클릭하거나 탭하여 확장한 다음 **엔터티**를 클릭하거나 탭합니다.

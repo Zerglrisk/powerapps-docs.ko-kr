@@ -9,25 +9,31 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 14c4c18c-927c-4ea2-ba66-0531285a99a7
 caps.latest.revision: 25
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: eed1efac81b882d076e0e809c93ddec63f6a75f7
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759739"
 ---
 # <a name="quick-start-for-transitioning-your-legacy-web-client-application-to-unified-interface"></a>레거시 웹 클라이언트 애플리케이션을 통합 인터페이스로 전환 빠른 시작
 
 통합 인터페이스 프레임워크는 응답성이 뛰어난 웹 디자인 원칙을 사용하여 모든 화면 크기, 장치 또는 방향에 최적화된 보기 및 상호 작용 환경을 제공합니다. 이 빠른 시작 항목은 새로운 프로덕션 이외의 환경을 사용하여 레거시 웹 클라이언트 애플리케이션을 통합 인터페이스로 전환하는 방법을 설명합니다. 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3JwWU]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3JwWU]
 
 기존의 프로덕션 이외의 환경을 사용하여 웹 클라이언트 애플리케이션을 전환하려면 [통합 인터페이스에서 기존 환경을 사용하여 기존 웹 클라이언트 앱의 유효성을 검사하기 위한 빠른 시작](transition-web-app-existing.md)을 참조하십시오. 
 ## <a name="prerequisites"></a>필수 구성 요소
@@ -37,7 +43,7 @@ search.app:
 ## <a name="prepare-the-environment"></a>환경 준비
 먼저 프로덕션 이외의 환경을 선택하고 **통합 인터페이스만 사용** 모드를 활성화하고, 환경의 모든 모델 중심 앱에 통합 인터페이스를 사용합니다. 여기에는 레거시 웹 클라이언트용으로 원래 구성된 Dynamics 365 애플리케이션 모듈도 포함됩니다.
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **환경**을 선택한 다음, 샌드박스 환경을 선택합니다. 
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **환경**을 선택한 다음, 샌드박스 환경을 선택합니다. 
 
 2. **설정** > **동작**을 선택한 다음, **통합 인터페이스만 사용**을 켭니다.
 
@@ -56,7 +62,7 @@ search.app:
 ## <a name="run-and-validate-your-application-in-the-unified-interface"></a>통합 인터페이스에서 응용 프로그램 실행 및 유효성 검사
 원래 웹 클라이언트 애플리케이션인 응용 프로그램을 실행합니다. **통합 인터페이스만 사용**을 켠 후 응용 프로그램이 원래 웹 클라이언트용으로 구성되어 있어도 환경에서 사용 가능한 모든 앱은 통합 인터페이스를 사용합니다.
 
-앱을 실행하려면 [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **앱**을 누른 다음 실행할 응용 프로그램을 선택합니다. 또는 바로 *https://contoso.crm.dynamics.com/apps/* 와 같은 **내 앱** 페이지로 이동할 수도 있습니다.
+앱을 실행하려면 [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **앱**을 누른 다음 실행할 응용 프로그램을 선택합니다. 또는 바로 *https://contoso.crm.dynamics.com/apps/* 와 같은 **내 앱** 페이지로 이동할 수도 있습니다.
 
 ### <a name="validate-your-app-processes-and-customizations"></a>앱, 프로세스 및 사용자 지정 유효성 검사 
 모든 사용 사례를 테스트하는 것이 좋습니다. 가장 중요한 사용 사례로 시작하거나 논리적 디자인 패턴으로 그룹화할 수 있습니다. 통합 인터페이스는 반응형 디자인을 기반으로 하기 때문에 화면 해상도가 다른 여러 장치에서 테스트를 수행하는 것이 좋습니다. 응용 프로그램을 테스트할 때 사용자 지정 내용이 통합 인터페이스와 호환되는지, 그리고 재설계가 필요하거나 기능이 누락된 기능이 있는지 확인할 수 있습니다. 이러한 요소를 검토하기 위한 계획을 세우고 커뮤니티 포럼에 질문과 의견을 게시하십시오. 

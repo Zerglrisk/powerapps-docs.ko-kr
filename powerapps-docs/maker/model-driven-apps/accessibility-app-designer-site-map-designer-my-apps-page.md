@@ -1,27 +1,32 @@
 ---
-title: 'PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성 이해 | Microsoft Docs'
-description: 'PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지를 사용한 모델 기반 앱에서 접근성 알아보기'
-keywords: '앱 디자이너, 사이트 맵 디자이너, 내 앱, Dynamics 365'
+title: PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성 이해 | Microsoft Docs
+description: PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지를 사용한 모델 기반 앱에서 접근성 알아보기
+keywords: 앱 디자이너, 사이트 맵 디자이너, 내 앱, Dynamics 365
 author: Mattp123
 ms.author: matp
 manager: kvivek
 ms.date: 05/20/2019
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: 26c79c20-2987-476e-983a-406e0db13034
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: c0f845b1b1b390bb6033efa282792b0b5116e6fc
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752069"
 ---
-
 # <a name="accessibility-in-powerapps-app-designer-site-map-designer-and-my-apps-page"></a>PowerApps 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성
 
-Microsoft는 모든 사용자가 제품 및 서비스를 쉽게 사용할 수 있도록 최선을 다하고 있습니다. 추가 정보: [Microsoft 내게 필요한 옵션](http://www.microsoft.com/enable/default.aspx)  
+Microsoft는 모든 사용자가 제품 및 서비스를 쉽게 사용할 수 있도록 최선을 다하고 있습니다. 추가 정보: [Microsoft 내게 필요한 옵션](https://www.microsoft.com/enable/default.aspx)  
  
 이 주제에서는 모델 기반 앱에서 사용할 수 있는 내게 필요한 옵션 기능에 대해 설명합니다.  
   
@@ -96,11 +101,11 @@ PowerApps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 �
  특정 브라우저의 내게 필요한 옵션에 대한 정보는 다음 웹 사이트를 방문하십시오.  
   
   
--   [Windows 접근성 기능](http://www.microsoft.com/enable/products/ie9/default.aspx)  
+-   [Windows 접근성 기능](https://www.microsoft.com/enable/products/ie9/default.aspx)  
   
--   [장애인을 위한 Firefox 접근성 기능](http://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)  
+-   [장애인을 위한 Firefox 접근성 기능](https://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we?redirectlocale=en-US&redirectslug=accessibility)  
   
--   [Safari 내게 필요한 옵션](http://www.apple.com/accessibility/)  
+-   [Safari 내게 필요한 옵션](https://www.apple.com/accessibility/)  
   
 -   [Google Chrome 내게 필요한 옵션 기술 문서](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
 

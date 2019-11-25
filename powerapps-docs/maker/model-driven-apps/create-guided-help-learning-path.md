@@ -1,8 +1,8 @@
 ---
 title: 나만의 안내 도움말 만들기(학습 경로)(모델 중심 앱) | MicrosoftDocs
 description: ''
-keywords: null
-ms.date: 04/30/2019
+keywords: ''
+ms.date: 10/22/2019
 ms.service: powerapps
 ms.topic: article
 ms.assetid: 8ee3c432-5f76-4086-b9cc-6cd467ae056b
@@ -11,14 +11,24 @@ ms.author: matp
 manager: kvivek
 topic-status: Drafting
 search.audienceType:
-  - customizer
+- customizer
 search.app:
-  - PowerApps
+- PowerApps
+ms.openlocfilehash: b9c0f192f96d9ce967d1b8e56266aadeb64646c9
+ms.sourcegitcommit: 7411b4cf9e30e71052fe932dfd3276e969854af4
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2768294"
 ---
-
 # <a name="create-guided-help-learning-path-for-your-app"></a>앱을 위해 안내 도우미(학습 경로) 만들기
 
-학습 경로를 사용하여 사용자에게 환경 및 조직의 특정한 사용 및 워크플로에 맞는 사용자 지정 앱 내 도움말 환경을 제공합니다. 학습 경로는 앱 및 조직 프로세스의 학습과 도입을 용이하게 하고 데이터 입력 및 해석이 일관되게 보장하며 오류 및 사용자가 생성하는 지원 요청을 줄입니다. [학습 경로에 대한 짧은 비디오(1:50)를 시청하십시오](https://community.dynamics.com/crm/b/crmvideos/archive/2016/05/09/introducing-learning-path-for-dynamics-crm).  
+학습 경로를 사용하여 사용자에게 환경 및 조직의 특정한 사용 및 워크플로에 맞는 사용자 지정 앱 내 도움말 환경을 제공합니다. 
+
+> [!IMPORTANT]
+> 학습 경로는 레거시 웹 클라이언트 앱에서만 사용할 수 있습니다. 통합 인터페이스 앱에 대한 사용자 지정 도움말 페이지를 사용하십시오. 추가 정보: [통합 인터페이스 앱의 문제 해결 도우미 만들기](../common-data-service/create-custom-help-pages.md)
+
+학습 경로는 앱 및 조직 프로세스의 학습과 도입을 용이하게 하고 데이터 입력 및 해석이 일관되게 보장하며 오류 및 사용자가 생성하는 지원 요청을 줄입니다. [학습 경로에 대한 짧은 비디오(1:50)를 시청하십시오](https://community.dynamics.com/crm/b/crmvideos/archive/2016/05/09/introducing-learning-path-for-dynamics-crm).  
 
 <a name="CustomHelp"></a>   
 
@@ -54,7 +64,7 @@ search.app:
 ## <a name="turn-on-learning-path-for-your-organization"></a>조직에 대한 학습 경로 사용하기  
  학습 경로는 조직에 대해 켜거나 끌 수 있는 옵션 기능입니다. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 포함된 학습 경로 콘텐츠를 표시하거나 사용자를 위해 직접 학습 경로 콘텐츠를 만들 수 있습니다.  
 
-1. 관리자 계정으로 [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
+1. 관리자 계정으로 [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
 
 2. **설정**으로 이동한 다음 **시스템** 아래에 있는 **관리**를 선택합니다. 추가 정보: [설정](/powerapps/maker/model-driven-apps/advanced-navigation#settings)
 
@@ -64,7 +74,7 @@ search.app:
 
     학습 경로 또는 사용자 지정 가능한 도움말을 사용할 수 있으며 동시에 둘 다 사용할 수는 없습니다. **사용자 지정 가능한 엔터티에 대한 사용자 지정 도움말 사용** 및 **URL에 매개 변수 추가**가 **아니요**로 설정된 것을 확인합니다.  
 
-     ![학습 경로 작성 활성화를 선택하는 옵션을 표시하는 시스템 설정 대화 상자](media/lp-system-settings.png "학습 경로 작성 활성화를 선택하는 옵션을 표시하는 시스템 설정 대화 상자")  
+     ![학습 경로 작성을 활성화하기 위해 선택할 수 있는 옵션을 보여주는 시스템 설정 대화 상자](media/lp-system-settings.png "학습 경로 작성을 활성화하기 위해 선택할 수 있는 옵션을 보여주는 시스템 설정 대화")  
 
 5. **확인**을 선택합니다.  
 
@@ -72,7 +82,7 @@ search.app:
 ## <a name="add-a-user-to-the-office-365-learning-path-authors-security-group"></a>Office 365 학습 경로 작성자 보안 그룹에 사용자 추가  
  [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] 학습 경로 작성자 보안 그룹의 구성원이 아니라면 학습 경로 콘텐츠 라이브러리를 열 때 다음과 같은 오류 메시지가 나타납니다.  
 
- ![사용자가 학습 경로 보안 그룹의 구성원이 아님을 나타내는 오류 메시지](media/lp-o365-security-group.png "사용자가 학습 경로 보안 그룹의 구성원이 아님을 나타내는 오류 메시지")  
+ ![학습 경로 보안 그룹의 구성원이 아님을 나타내는 오류 메시지](media/lp-o365-security-group.png "학습 경로 보안 그룹의 구성원이 아님을 나타내는 오류 메시지")  
 
 #### <a name="add-a-user"></a>사용자 추가  
 
@@ -191,11 +201,11 @@ search.app:
 
 -   사이드바에서 **콘텐츠 라이브러리** 단추를 선택합니다.  
 
-     ![학습 경로 사이드바에 표시된 라이브러리 콘텐츠 아이콘](media/lp-sidebar-cl-icon.png "학습 경로 사이드바에 표시된 라이브러리 콘텐츠 아이콘")  
+     ![학습 경로 사이드바에 표시된 라이브러리 콘텐츠 아이콘](media/lp-sidebar-cl-icon.png "학습 경로 사이드바에 표시된 콘텐츠 라이브러리 아이콘")  
 
 -   사이트 맵의 **교육** 타일을 선택한 다음 **콘텐츠 라이브러리**를 선택합니다.  
 
-     ![모델 중심 앱 사이트 맵의 콘텐츠 라이브러리 아이콘](media/lp-sitemap-content-library.png "모델 중심 앱 사이트 맵의 콘텐츠 라이브러리 아이콘")  
+     ![모델 기반 앱 사이트 맵의 콘텐츠 라이브러리 아이콘](media/lp-sitemap-content-library.png "모델 기반 앱 사이트 맵의 콘텐츠 라이브러리 아이콘")  
 
 **모바일 앱 인터페이스 시뮬레이터에서 콘텐츠 라이브러리를 열려면 다음과 같이 하십시오.**  
 
@@ -216,7 +226,7 @@ search.app:
 
 |열|설명|  
 |------------|-----------------|  
-|**이름**|단계별 작업 또는 사이드바를 만들 때 사용한 이름입니다. 이름 옆에 빨간색 자물쇠 기호가 콘텐츠가 현재 체크아웃되었음을 나타냅니다. 마우스를 아이콘 위에 올리면 어떤 사용자가 콘텐츠를 체크아웃했는지 확인할 수 있습니다.<br /><br /> ![빨간색 자물쇠 아이콘이 콘텐츠가 체크 아웃되었음을 나타냅니다.](media/lp-cl-checked-out.png "빨간색 자물쇠 아이콘이 콘텐츠가 체크 아웃되었음을 나타냅니다.")<br /><br /> 이름 옆에 빨간색 별표는 새로 체크인된 콘텐츠를 나타냅니다.<br /><br /> ![콘텐츠의 새로 체크된 항목을 표시하는 빨간색 별표](media/lp-cl-new-check-in.png "콘텐츠의 새로 체크된 항목을 표시하는 빨간색 별표")|  
+|**이름**|단계별 작업 또는 사이드바를 만들 때 사용한 이름입니다. 이름 옆에 빨간색 자물쇠 기호가 콘텐츠가 현재 체크아웃되었음을 나타냅니다. 마우스를 아이콘 위에 올리면 어떤 사용자가 콘텐츠를 체크아웃했는지 확인할 수 있습니다.<br /><br /> ![빨간색 자물쇠 아이콘이 콘텐츠가 체크 아웃되었음을 나타냅니다.](media/lp-cl-checked-out.png "R빨간색 자물쇠 아이콘이 콘텐츠가 체크 아웃되었음을 나타냅니다.")<br /><br /> 이름 옆에 빨간색 별표는 새로 체크인된 콘텐츠를 나타냅니다.<br /><br /> ![콘텐츠의 새로 체크된 항목을 표시하는 빨간색 별표](media/lp-cl-new-check-in.png "R콘텐츠의 새로 체크된 항목을 표시하는 빨간색 별표")|  
 |**제목**|단계별 작업 또는 사이드바에 콘텐츠를 추가할 때 제공한 제목입니다. 사이드바 및 단계별 작업의 제목은 링크로 추가되거나 검색 결과로 반환될 때 사이드바에 표시됩니다.|  
 |**그런 다음**|콘텐츠 형식을 나타내는 기호: 사이드바 또는 단계별 작업|  
 |**폼 팩터**|콘텐츠를 만들 때 선택한 폼 팩터(**데스크톱** 또는 **태블릿**)를 나타내는 기호입니다.<br /><br /> 모바일 앱 인터페이스 시뮬레이터 또는 대화식 서비스 허브에 연결할 때 콘텐츠 라이브러리를 사용하는 경우에는 **폼 팩터** 열이 표시되지 않습니다.|  
@@ -501,7 +511,7 @@ YouTube 사용에 대한 자세한 내용은 [YouTube 도움말 센터](https://
 
 <a name="Localize"></a>   
 ## <a name="localize-learning-path-controls"></a>학습 경로 컨트롤 지역화  
- 학습 경로에서 만든 컨트롤의 콘텐츠를 지역화하여 사용자들이 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에서 선택한 언어도 표시되도록 할 수 있습니다. 컨트롤을 지역화하려면 컨트롤을 내보내고 사용자에게 표시할 문자열을 지역화한 다음 지역화된 콘텐츠를 포함하는 컨트롤을 가져오기만 하면 됩니다. 컨트롤은 필요에 따라 동일한 조직 또는 원하는 어떠한 조직으로든 가져올 수 있습니다. 동일한 컨트롤을 여러 언어로 지역화한 다음 특정 언어를 선택한 사용자를 지원하는 특정 조직에 해당 언어를 가져올 수 있습니다. 학습 경로의 지역화 지원은 OASIS XML 지역화 교환 파일 형식(XLIFF) 2.0 표준을 따릅니다. 이 일반적인 형식으로 작업하기 위해 자유롭게 사용할 수 있는 도구와 자습서가 있습니다. 추가 정보: [XLIFF 버전 2.0](http://docs.oasis-open.org/xliff/xliff-core/v2.0/os/xliff-core-v2.0-os.html)  
+ 학습 경로에서 만든 컨트롤의 콘텐츠를 지역화하여 사용자들이 [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에서 선택한 언어도 표시되도록 할 수 있습니다. 컨트롤을 지역화하려면 컨트롤을 내보내고 사용자에게 표시할 문자열을 지역화한 다음 지역화된 콘텐츠를 포함하는 컨트롤을 가져오기만 하면 됩니다. 컨트롤은 필요에 따라 동일한 조직 또는 원하는 어떠한 조직으로든 가져올 수 있습니다. 동일한 컨트롤을 여러 언어로 지역화한 다음 특정 언어를 선택한 사용자를 지원하는 특정 조직에 해당 언어를 가져올 수 있습니다. 학습 경로의 지역화 지원은 OASIS XML 지역화 교환 파일 형식(XLIFF) 2.0 표준을 따릅니다. 이 일반적인 형식으로 작업하기 위해 자유롭게 사용할 수 있는 도구와 자습서가 있습니다. 추가 정보: [XLIFF 버전 2.0](https://docs.oasis-open.org/xliff/xliff-core/v2.0/os/xliff-core-v2.0-os.html)  
 
  [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]의 사용자 언어 설정에 대한 자세한 내용은 [개인 옵션 설정](/dynamics365/customer-engagement/basics/set-personal-options)을 참조하십시오.  
 
@@ -546,8 +556,8 @@ YouTube 사용에 대한 자세한 내용은 [YouTube 도움말 센터](https://
 |                             오세아니아(OCE)                              |                             호주 동부                             |
 |                          남아메리카(SAM)                           |                              브라질 남부                              |
 
-## <a name="privacy-notice"></a>개인정보취급방침  
+## <a name="privacy-notice"></a>개인 정보 취급 방침  
 [!INCLUDE[cc_privacy_learning_path_authoring](../../includes/cc-privacy-learning-path-authoring.md)]
 
-### <a name="see-also"></a>참고 항목  
+### <a name="see-also"></a>참조  
  [학습 경로 설정/해제 스위치(문제 해결 도우미)](/dynamics365/customer-engagement/admin/on-off-switch-for-learning-path-guided-help)

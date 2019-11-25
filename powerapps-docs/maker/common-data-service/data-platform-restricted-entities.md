@@ -9,12 +9,17 @@ ms.topic: reference
 ms.date: 05/01/2018
 ms.author: lanced
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: cd722c29bfc850cb1b55c296b4e377e14678b3ad
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2703518"
 ---
-
 # <a name="restricted-entities-requiring-dynamics-365-licenses"></a>Dynamics 365 라이선스가 요구되는 제한적 엔터티
 
 > [!IMPORTANT]

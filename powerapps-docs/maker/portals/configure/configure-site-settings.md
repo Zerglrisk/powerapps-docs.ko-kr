@@ -1,6 +1,6 @@
 ---
-title: 포털에 대 한 사이트 설정 구성 | MicrosoftDocs
-description: 포털의 사이트 설정과 조직의 모든 포털에 대 한 전역 설정을 추가 하 고 구성 하는 지침을 설명 합니다.
+title: 포털에 대한 사이트 설정 구성 | MicrosoftDocs
+description: 포털에 대한 사이트 설정 및 조직의 모든 포털에 대한 전역 설정을 추가 및 구성하는 지침입니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
@@ -11,101 +11,101 @@ ms.author: shjais
 ms.reviewer: ''
 ms.openlocfilehash: 19dca44c26565bc55dcfaace48987b69dd0a195f
 ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2019
-ms.locfileid: "73542723"
+ms.locfileid: "2759563"
 ---
-# <a name="configure-site-settings-for-portals"></a>포털에 대 한 사이트 설정 구성
+# <a name="configure-site-settings-for-portals"></a>포털의 사이트 설정 구성
 
-사이트 설정은 웹 사이트 코드에서 포털의 동작 또는 비주얼 스타일을 수정 하는 데 사용 하는 구성 가능한 명명 된 값입니다. 일반적으로 개발자는 웹 사이트 코드를 만들 때 다양 한 구성 요소에 대 한 사이트 설정을 참조 하 여 최종 사용자가 코드를 변경 하거나 다시 컴파일하고 웹 사이트를 다시 배포 하지 않고도 웹 사이트를 변경 하도록 설정 값을 수정할 수 있도록 합니다.
+사이트 설정은 포털의 동작이나 시각적 스타일을 수정하기 위해 웹 사이트 코드에서 사용되는 구성 가능한 명명된 값입니다. 일반적으로 개발자가 웹 사이트 코드를 작성할 때에는 최종 사용자가 설정 값을 수정하여 코드를 변경하고 웹 사이트를 다시 컴파일하고 다시 배포할 필요 없이 웹 사이트를 변경할 수 있도록 다양한 구성 요소의 사이트 설정을 참조합니다.
 
-PowerApps 포털 설치와 함께 제공 되는 샘플 포털에는 배경 스타일, 텍스트 색 및 레이아웃 너비와 같이 사이트 내의 여러 시각적 요소를 수정 하는 데 사용 되는 다양 한 스타일에 대 한 몇 가지 구성 가능한 사이트 설정이 포함 되어 있습니다.
-다음 유형의 사이트 설정을 관리할 수 있습니다.
+PowerApps 포털의 설치와 함께 제공되는 샘플 포털에는 배경 스타일, 텍스트 색상, 레이아웃 너비 등 사이트 내 많은 시각적 요소를 수정하는 데 사용되는 다양한 스타일을 위해 구성 가능한 여러 사이트 설정이 포함되어 있습니다.
+다음 타입의 사이트 설정값을 관리할 수 있습니다.
 
-- **전역 포털 설정**: 이러한 설정은 추가 중인 Common Data Service 환경과 연결 된 모든 포털에 적용 됩니다.
-- **포털 사이트 설정**: 이러한 설정은 추가 중인 Common Data Service 환경과 연결 된 특정 포털 (웹 사이트 레코드)에 적용 됩니다.
+- **글로벌 포털 설정값**: 이 설정값은 추가되는 Common Data Service 환경에 연계된 모든 포털에 적용됩니다.
+- **포털 사이트 설정값**: 이 설정값은 추가되는 Common Data Service 환경에 연계된 특정 포털(웹 사이트 레코드)에 적용됩니다.
 
 
-## <a name="manage-portal-site-settings"></a>포털 사이트 설정 관리
+## <a name="manage-portal-site-settings"></a>포털 사이트 설정값 관리
 
-1. [포털 설정](../manage-existing-portals.md#settings) 으로 이동 하 고 **사이트 설정**을 선택 합니다.
+1. [포털 설정](../manage-existing-portals.md#settings)으로 이동하여 **사이트 설정**을 선택합니다.
 
-2. 새 설정을 만들려면 **새로**만들기를 선택 합니다.
+2. 새 설정을 만들려면 **+ 새로 만들기**를 선택합니다.
 
-3. 기존 설정을 편집 하려면 표에 나열 된 **사이트 설정을** 선택 합니다.
+3. 기존 설정을 편집하려면 표에 나열된 **사이트 설정**을 선택합니다.
 
-4. 제공 된 필드에 대 한 값을 지정 합니다. 
+4. 제공된 필드에 값을 지정합니다. 
 
-    - **이름**: 해당 설정을 검색 하기 위해 웹 사이트 코드에서 참조 하는 레이블입니다. 이 이름은 연결 된 웹 사이트에 대해 고유 해야 합니다. 설정을 검색 하는 코드는 이름이 일치 하는 첫 번째 레코드를 사용 하기 때문입니다.
+    - **이름**: 적절한 설정을 검색하기 위해 웹 사이트 코드에 의해 참조되는 레이블입니다. 설정을 검색하는 코드는 일치하는 이름으로 찾은 첫 번째 레코드를 선택하므로 해당 이름은 관련된 웹 사이트에 대해 고유해야 합니다.
     
-    - **웹 사이트**: 연결 된 웹 사이트입니다. 
+    - **웹 사이트**: 요구되는 연계된 웹 사이트. 
     
     - **값**: 설정
     
-    - **설명**: 설정 또는 특수 지침의 목적입니다.
+    - **설명**: 설정 또는 특별한 지침의 목적입니다.
 
 5. **저장 후 닫기**를 선택합니다.
 
 > [!NOTE] 
-> Bing 지도 통합은 독일어 소 버린 클라우드에서 지원 되지 않습니다. 이 환경에서 Bingmaps/credentials 설정을 만들려고 하면 오류 메시지가 표시 됩니다.
+> 독일 주권 클라우드 환경에서는 Bing 지도가 지원되지 않습니다. 이 환경에서 Bing 지도/자격 증명 설정값을 만들려고 하면 오류 메시지가 표시됩니다.
 
 ## <a name="portal-site-settings"></a>포털 사이트 설정
 
 |이름|Value|설명|
 |----|-----|-----------|
-|인증/등록/RequiresConfirmation|허위 |부울 값 true는 전자 메일 확인을 사용 하 고 열기 등록을 해제 합니다. 기본값: False |
-|인증/등록/RequiresInvitation|허위 |부울 값이 true 이면 초대 코드 기능이 활성화 되 고 열기 등록이 사용 하지 않도록 설정 됩니다. 기본값: False |
-|회의 이름|포털 회의|지정 된 포털의 회의를 나타내는 adx_conference 레코드의 이름입니다.|
-|기술 지원팀/CaseEntitlementEnabled|TRUE|지원 센터 케이스 자격을 사용할 수 있는지 여부를 나타내는 부울 값입니다. 기본값: false|
-|기술 지원팀/Deflection/DefaultSelectedProductName| |제품 이름이 100000001 인 제품이 둘 이상 있는 경우 지원 센터 사례 Deflection에 표시 되는 드롭다운 목록에서 선택 된 기본 제품인 제품 레코드 이름입니다.|
-|Profile/ForceSignUp|허위|부울 값이 "True"로 설정 되 면 사용자가 웹 사이트 콘텐츠에 대 한 액세스 권한을 부여 하기 전에 프로필 정보를 강제로 업데이트 합니다. 기본값: False|
-|Profile/ShowMarketingOptionsPanel|TRUE|프로필에 대 한 마케팅 통신 기본 설정을 지정 하는 필드를 나열 하는 패널을 표시할지 여부를 나타내는 부울 값입니다. 기본값: False|
-|검색/사용|TRUE|검색을 사용할 수 있는지 여부를 나타내는 부울 값입니다.|
-|검색/필터|콘텐츠: adx_webpage; 이벤트: adx_event, adx_eventschedule;<br>블로그: adx_blog, adx_blogpost, adx_blogpostcomment;<br>포럼: adx_communityforum, adx_communityforumthread, adx_communityforumpost;<br>아이디어: adx_ideaforum, adx_idea, adx_ideacomment;<br>문제: adx_issueforum, adx_issue, adx_issuecomment; 지원 센터: 인시던트|검색 논리 이름 필터 옵션의 컬렉션입니다. 여기에서 값을 정의 하면 드롭다운 필터 옵션이 사이트 전체 검색에 추가 됩니다. 이 값은 이름/값 쌍의 형식 이어야 하며, 이름 및 값은 콜론으로 구분 하 고 쌍은 세미콜론으로 구분 해야 합니다.<br>예: "포럼: adx_communityforum, adx_communityforumthread, adx_communityforumpost; 블로그: adx_blog, adx_blogpost, adx_blogpostcomment ".|
-|검색/IndexQueryName|포털 검색|포털 검색 쿼리에서 사용 되는 시스템 뷰의 이름입니다. 기본값: 포털 검색|
-|검색/쿼리|\+ (@Query) _title: (@Query) _logicalname: adx_webpage ~ 0.9 ^ 0.2<br> -_logicalname: adx_webfile ~ 0.9 adx_partialurl@Query)<br> _logicalname: adx_blogpost ~ 0.9 ^ 0.1-_logicalname: adx_communityforumthread ~ 0.9|사이트 검색에 대 한 쿼리를 재정의 하 여 추가 가중치 및 필터를 적용 합니다. @Query은 사용자가 입력 한 쿼리 텍스트입니다. Lucene 쿼리 구문 참조: [https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html](https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html)| 
-|검색/형태소 분석기|영어|포털 검색의 형태소 분석 알고리즘에서 사용 하는 언어입니다. 기본값: 영어|
-|CustomerSupport/Displayalluseractivonetimeline|허위| |
-|인증/[프로토콜]/[공급자]/AllowContactMappingWithEmail| |전자 메일을 기반으로 하는 연락처 레코드에 자동 연결을 허용 합니다. 자세한 내용을 보려면 [여기](azure-ad-b2c.md#allow-auto-association-to-a-contact-record-based-on-email)를 클릭 하세요.|
+|Authentication/Registration/RequiresConfirmation|FALSE |True의 부울 값은 전자 메일 확인을 활성화하고 열린 등록을 비활성화합니다. 기본값: False |
+|Authentication/Registration/RequiresInvitation|FALSE |True의 부울 값은 초대 코드 기능을 활성화하고 열린 등록을 비활성화합니다. 기본값: False |
+|전화 회의-이름|포털 전화 회의|지정된 포털에 대한 전화 회의를 나타내는 adx_conference 레코드의 이름입니다.|
+|HelpDesk/CaseEntitlementEnabled|TRUE|지원 센터 서비스 케이스 권리 유형이 활성화되었는지 여부를 나타내는 부울 값입니다. 기본값: false|
+|HelpDesk/Deflection/DefaultSelectedProductName| |producttypecode가 100000001과 동일한 제품이 두 개 이상 있는 경우 헬프 데스크 서비스 케이스 편향에 표시되는 드롭다운에서 기본 선택된 제품인 제품 레코드의 이름입니다.|
+|Profile/ForceSignUp|FALSE|"True"로 설정하면 사용자가 웹 사이트 콘텐츠에 대한 액세스 권한을 부여하기 전에 프로필 정보를 업데이트하도록 강제하는 부울 값입니다. 기본값: False|
+|Profile/ShowMarketingOptionsPanel|TRUE|프로필에서 마케팅 통신 기본 설정을 지정하기 위해 필드를 나열하는 패널을 표시할지 여부를 나타내는 부울 값입니다. 기본값: False|
+|Search/Enabled|TRUE|검색이 사용되는지 여부를 나타내는 부울 값입니다.|
+|search/filters|내용:adx_webpage;Events:adx_event,adx_eventschedule;<br>블로그:adx_blog,adx_blogpost,adx_blogpostcomment;<br>포럼:adx_communityforum,adx_communityforumthread,adx_communityforumpost;<br>아이디어:adx_ideaforum,adx_idea,adx_ideacomment;<br>문제:adx_issueforum,adx_issue,adx_issuecomment;헬프 데스크:문제|검색 논리 이름 필터 옵션의 컬렉션입니다. 여기에 값을 정의하면 사이트 차원의 검색에 드롭다운 필터 옵션이 추가됩니다. 이 값은 이름 및 값을 콜론으로 구분하고 쌍을 세미콜론으로 구분한 이름/값 쌍의 형식이어야 합니다.<br>예: "Forums:adx_communityforum,adx_communityforumthread,adx_communityforumpost;Blogs:adx_blog,adx_blogpost,adx_blogpostcomment".|
+|Search/IndexQueryName|포털 검색|포털 검색 쿼리에서 사용하는 시스템 보기의 이름입니다. 기본값: 포털 검색|
+|search/query|+(@Query) _title:(@Query) _logicalname:adx_webpage~0.9^0.2<br> -_logicalname:adx_webfile~0.9 adx_partialurl:(@Query)<br> _logicalname:adx_blogpost~0.9^0.1 -_logicalname:adx_communityforumthread~0.9|추가 가중치 및 필터를 적용하려면 사이트 검색에 대한 쿼리를 다시 정의합니다. @Query는 사용자가 입력한 쿼리 텍스트입니다. Lucene 쿼리 구문 참조: [https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html](https://lucene.apache.org/core/old_versioned_docs/versions/2_9_1/queryparsersyntax.html)| 
+|Search/Stemmer|영어|포털 검색의 형태소 분석 알고리즘에서 사용하는 언어입니다. 기본값: 영어|
+|CustomerSupport/DisplayAllUserActivitiesOnTimeline|FALSE| |
+|Authentication/[프로토콜]/[공급자]/AllowContactMappingWithEmail| |이메일 주소를 기반으로 연락처 레코드에 자동 연결을 허용합니다. 자세한 내용을 보려면 [여기](azure-ad-b2c.md#allow-auto-association-to-a-contact-record-based-on-email)를 클릭하십시오.|
 |||
 
-다양 한 포털 기능과 관련 된 사이트 설정은 다음을 참조 하세요.
+다양한 포털 기능과 관련된 사이트 설정에 대해서는 다음을 참조하십시오.
 
-- [인증 id](set-authentication-identity.md)
+- [인증 ID](set-authentication-identity.md)
 - [Azure AD B2C 공급자](azure-ad-b2c.md)
 - [OAuth 2.0](configure-oauth2-settings.md)
-- [Open ID Connect](configure-openid-settings.md)
-- [WS-FEDERATION](configure-ws-federation-settings.md)
+- [ID 연결 열기](configure-openid-settings.md)
+- [WS-Federation](configure-ws-federation-settings.md)
 - [SAML 2.0](configure-saml2-settings.md)
-- [Azure AD B2C로 id 공급자 마이그레이션](migrate-identity-providers.md)
-- [파일 첨부 콘텐츠 내에서 검색](search-file-attachment.md)
-- [날짜 및 시간 필드의 동작 및 형식](behavior-format-date-time-field.md)
+- [ID 공급자를 Azure AD B2C로 마이그레이션](migrate-identity-providers.md)
+- [첨부 파일 콘텐츠 내에서 검색](search-file-attachment.md)
+- [날짜 및 시간 필드의 특성 및 형식](behavior-format-date-time-field.md)
 - [지리적 위치 추가](add-geolocation.md)
 - [일반 데이터 보호 규정 구현](https://docs.microsoft.com/dynamics365/customer-engagement/portals/implement-gdpr)
-- [머리글 및 바닥글 출력 캐싱 사용](https://docs.microsoft.com/dynamics365/customer-engagement/portals/enable-header-footer-output-caching)
+- [머리글 및 바닥글 출력 캐싱 활성화](https://docs.microsoft.com/dynamics365/customer-engagement/portals/enable-header-footer-output-caching)
 
-## <a name="manage-global-portal-settings"></a>전역 포털 설정 관리
+## <a name="manage-global-portal-settings"></a>글로벌 포털 설정값 관리
 
-1. [포털 설정](../manage-existing-portals.md#settings) 으로 이동 하 고 **사이트 설정**을 선택 합니다.
+1. [포털 설정](../manage-existing-portals.md#settings)으로 이동하여 **사이트 설정**을 선택합니다.
 
-2. **설정** &gt; **설정**으로 이동 합니다.
+2. **설정** &gt; **설정**으로 이동합니다.
 
-3. 새 설정을 만들려면 **새로**만들기를 선택 합니다.
+3. 새 설정을 만들려면 **+ 새로 만들기**를 선택합니다.
 
-4. 기존 설정을 편집 하려면 표에 나열 된 **사이트 설정을** 선택 합니다.
+4. 기존 설정을 편집하려면 표에 나열된 **사이트 설정**을 선택합니다.
 
-5. 제공 된 필드에 대 한 값을 지정 합니다. 
+5. 제공된 필드에 값을 지정합니다. 
 
-    - **이름**: 적절 한 설정을 검색 하기 위해 코드에서 참조 하는 고유 이름입니다.
+    - **이름**: 해당 설정값을 검색하기 위해 코드에 의해 참조되는 고유 이름.
 
     - **값**: 설정
 
-    - **설명**: 설정 또는 특수 지침의 목적입니다.
+    - **설명**: 설정 또는 특별한 지침의 목적입니다.
 
 6. **저장 후 닫기**를 선택합니다.
 
 > [!NOTE] 
-> Bing 지도 통합은 독일어 소 버린 클라우드에서 지원 되지 않습니다. 이 환경에서 BinMap/Key 또는 Adxstudio/ProductivityPack/BingMap/Key 설정을 만들려고 하면 오류 메시지가 표시 됩니다.
+> 독일 주권 클라우드 환경에서는 Bing 지도가 지원되지 않습니다. 이 환경에서 Bing 지도/키 또는 Adxstudio/생산성 팩/Bing 지도/키 설정값을 생성하려고 하면 오류 메시지가 표시됩니다.
 
 

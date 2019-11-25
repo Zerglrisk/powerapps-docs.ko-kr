@@ -4,22 +4,27 @@ description: PowerApps 및 Common Data Service 개발자 리소스 및 서비스
 keywords: ''
 ms.date: 09/25/2019
 ms.service: powerapps
-ms.custom: null
+ms.custom: ''
 ms.topic: article
 ms.assetid: e200d242-ff3f-48e5-af32-aed050e02441
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: ae293843c38e7077580effd1c7670762cec91e1e
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2700438"
 ---
-
 # <a name="view-or-download-developer-resources"></a>개발자 리소스 보기 또는 다운로드
 
 이 페이지에서는 개발자를 위한 리소스와 작업 중인 특정 인스턴스에 대한 정보를 제공합니다. 

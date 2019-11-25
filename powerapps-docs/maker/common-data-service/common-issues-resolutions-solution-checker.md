@@ -1,23 +1,29 @@
 ---
 title: 솔루션 검사기에 대한 일반적인 문제 및 해결 방법 | Microsoft Docs
-description: ' 솔루션 검사기 내의 일반적인 문제 및 해결 방법 목록'
+description: " 솔루션 검사기 내의 일반적인 문제 및 해결 방법 목록"
 keywords: ''
 ms.date: 02/11/2019
 ms.service: powerapps
 ms.custom:
-  - ''
+- ''
 ms.topic: article
 ms.assetid: caa4e3f2-9700-49b8-87ed-8a68e8878b02
 author: jowells1
 ms.author: jowells
 manager: austinj
-ms.reviewer: null
-robots: 'noindex,nofollow'
+ms.reviewer: ''
+robots: noindex,nofollow
 search.audienceType:
-  - developer
+- developer
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 6f9168f51f8bfffc2ef9519e183e951706b7a024
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758331"
 ---
 # <a name="common-issues-and-resolutions-for-solution-checker"></a>솔루션 검사기에 대한 일반적인 문제 및 해결 방법
 
@@ -58,7 +64,7 @@ search.app:
 
 PowerApps 검사기 솔루션을 제거하려면:
 
-1. 시스템 관리자 또는 시스템 사용자 지정자의 경우 https://web.powerapps.com/environments로 이동하여 PowerApps 포털을 엽니다.
+1. 시스템 관리자 또는 시스템 사용자 지정자의 경우 https://make.powerapps.com/environments로 이동하여 PowerApps 포털을 엽니다.
 2. **솔루션**을 선택합니다.
 3. **PowerApps 검사기**를 선택한 다음 솔루션 도구 모음에서 **삭제**를 선택합니다.
 
@@ -66,13 +72,13 @@ PowerApps 검사기 솔루션을 제거하려면:
 
 Common Data Service 환경에 PowerApps 검사기를 다시 설치하려면:
 
-1. 시스템 관리자 또는 시스템 사용자 지정자의 경우 https://web.powerapps.com/environments로 이동하여 PowerApps 포털을 엽니다.
+1. 시스템 관리자 또는 시스템 사용자 지정자의 경우 https://make.powerapps.com/environments로 이동하여 PowerApps 포털을 엽니다.
 2. **솔루션**을 선택합니다.
 3. 솔루션 도구 모음에서 **솔루션 검사기**를 선택한 다음 **설치**를 선택합니다.
 
 ## <a name="solution-checker-cant-access-organizations-in-administration-mode"></a>솔루션 검사기가 관리 모드에서 조직에 액세스할 수 없음
 
-[관리 모드](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/manage-sandbox-instances#administration-mode)에 배치된 조직은 시스템 관리자 및 시스템 사용자 지정자 역할을 가진 사용자에게만 액세스를 의도적으로 제한합니다. PowerApps 검사기 응용 프로그램 ID에는 이러한 역할이 기본적으로 할당되어 있지 않으므로 이 모드로 작동하는 조직에 액세스할 수 없습니다.
+[관리 모드](https://docs.microsoft.com/dynamics365/customer-engagement/admin/manage-sandbox-instances#administration-mode)에 배치된 조직은 시스템 관리자 및 시스템 사용자 지정자 역할을 가진 사용자에게만 액세스를 의도적으로 제한합니다. PowerApps 검사기 응용 프로그램 ID에는 이러한 역할이 기본적으로 할당되어 있지 않으므로 이 모드로 작동하는 조직에 액세스할 수 없습니다.
 
 이 조직에서 솔루션 검사기를 사용하려면 관리 모드를 사용하지 않아야 합니다.
 

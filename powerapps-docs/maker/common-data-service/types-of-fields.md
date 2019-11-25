@@ -4,28 +4,34 @@ description: 앱에 사용할 수 있는 다양한 필드 데이터 유형 이�
 keywords: ''
 ms.date: 09/30/2019
 ms.service: powerapps
-ms.custom: null
+ms.custom: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 734b4ffa-5543-4f88-8517-299589f433f7
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: cf8a30ae29712804cea2da42b0e448acc6286553
+ms.sourcegitcommit: e4b3b6b610f91a0c704a4fa87c6ec238aa81d25f
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767246"
 ---
 # <a name="types-of-fields"></a>필드 타입
 
-형식에 사용되는 이름은 사용되는 디자이너에 따라 달라집니다. [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서는 데이터의 형식이 지정되는 방식을 포함하는 규칙을 사용합니다. 솔루션 탐색기 형식은 형식 한정자가 있는 데이터베이스 데이터 형식과 일치하는 이름을 사용합니다. 다음 표에는 해당 `AttributeTypeDisplayName`API 유형이 나와 있습니다.
+형식에 사용되는 이름은 사용되는 디자이너에 따라 달라집니다. [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서는 데이터의 형식이 지정되는 방식을 포함하는 규칙을 사용합니다. 솔루션 탐색기 형식은 형식 한정자가 있는 데이터베이스 데이터 형식과 일치하는 이름을 사용합니다. 다음 표에는 해당 `AttributeTypeDisplayName`API 유형이 나와 있습니다.
 
 |포털 데이터 유형 |솔루션 탐색기 유형| API 유형|
 |--|--|--|
@@ -37,6 +43,7 @@ search.app:
 |**10진수**|**10진수**|`DecimalType`|
 |**기간**|**정수**<br />*기간* 형식|`IntegerType`|
 |**Email**|**한 줄 텍스트**<br />*전자 메일* 형식|`StringType`|
+|**파일** | **파일**   | `FileType`  |
 |**부동 소수점 수**|**부동 소수점 수**|`DoubleType`|
 |**이미지**|**이미지**|`ImageType`|
 |**언어**|**정수**<br />*언어* 형식|`IntegerType`|
@@ -152,19 +159,18 @@ API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내
 <a name="BKMK_ImageFields"></a>
 
 ## <a name="image-fields"></a>이미지 필드  
-
 응용 프로그램에서 레코드 당 하나의 이미지를 표시하려면 이미지 필드를 사용합니다. 각 엔터티에는 하나의 이미지 필드를 사용할 수 있습니다. 이미지 필드를 사용자 지정 엔터티에는 추가할 수 있지만 표준 엔터티에는 추가할 수 없습니다. 일부 표준 엔터티에는 정의된 이미지 필드가 있습니다.
   
 엔터티에 이미지 필드가 있어도 모델 기반 앱에 해당 이미지를 표시하려면 두 가지 설정을 활성화해야 합니다. 
 - 표준 엔터티 정의 **기본 이미지**속성 값을 **기본 이미지**로 설정해야 합니다. 사용자 지정 엔터티에는 사용자 지정 이미지 필드가 필요합니다. 그런 다음 해당 이미지 필드를 사용자 지정 엔터티 정의의 **기본 이미지** 값으로 선택합니다.  
 - 이미지가 표시될 엔터티 양식은 **양식에 이미지 표시** 속성이 활성화되어야 합니다.  
   
-엔터티에 대한 이미지 표시가 활성화되면 이미지가 없는 다른 레코드는 자리 표시자 이미지를 표시합니다. 예:
+엔터티에 대한 이미지 표시가 활성화되면 이미지가 없는 다른 레코드는 자리 표시자 이미지를 표시합니다. 예: 
 
 > [!div class="mx-imgBorder"] 
 > ![기본 엔터티 이미지](../common-data-service/media/account-record-default-image.png "기본 거래처 엔터티 이미지")
   
-사용자는 기본 이미지를 선택하여 컴퓨터에서 사진을 업로드할 수 있습니다. 이미지는 5120KB 미만이어야 하고 다음 형식 중 하나여야 합니다.  
+사용자는 기본 이미지를 선택하여 컴퓨터에서 사진을 업로드할 수 있습니다. 이미지는 10MB 미만이어야 하고 다음 형식 중 하나여야 합니다.  
   
 - jpg
 - jpeg
@@ -176,7 +182,24 @@ API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내
   
 이미지를 업로드하면 .jpg 형식으로 변환되고 다운로드한 이미지도 모두 이 형식을 사용합니다. 애니메이션 .gif를 업로드하면 첫 번째 프레임만 저장됩니다.  
   
-이미지를 업로드하면 최대 144x144 픽셀로 크기가 조정됩니다. 사용자는 이 크기를 사용하여 이미지를 잘 표시하도록 업로드하기 전에 크기를 조정하거나 잘라내야 합니다. 모든 이미지는 정사각형으로 잘립니다. 양쪽 모두 144픽셀보다 작은 이미지의 경우 이미지는 작은 쪽 크기에 맞게 정사각형으로 잘립니다.  
+이미지를 업로드하면 최대 144x144 픽셀인 "미리 보기" 이미지로 크기가 조정됩니다. 사용자는 이 크기를 사용하여 이미지를 잘 표시하도록 업로드하기 전에 크기를 조정하거나 잘라내야 합니다. 모든 이미지는 정사각형으로 잘립니다. 양쪽 모두 144픽셀보다 작은 이미지의 경우 이미지는 작은 쪽 크기에 맞게 정사각형으로 잘립니다.  
+
+<!-- 
+By default, when an app user adds an image to display to a form or canvas app, the image displayed is the thumbnail image. To display a full image for a canvas app, see [Display a full-sized image on a canvas app form](../canvas-apps/display-full-image-on-form.md).
+
+
+### Add an image field to an entity using the PowerApps site
+
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+1. Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
+2.  Select **Data** > **Entities** and then select the entity where you want to add an image field. 
+3. Select **Add field** on the command bar, enter the following properties, and then select **Done**: 
+   - **Display name**. Enter a friendly name for the field. 
+   - **Data type**. Select **Image**. 
+   - **Primary image**. When selected, the primary image field becomes the image field for the entity. You can only have one primary image for each entity. 
+   - **Maximum image size**. The maximum file size that an app user can upload to the record. 10,240 KB is the default maximum size and 10 MB is the maximum size limit. 
+   - **Can store full images**. When selected, in addition to the rescaled thumbnail image described earlier, the full image is stored when uploaded by the user for each record. Full size images are limited to 30 MB.  -->
 
 ### <a name="add-image-support-for-a-form-in-a-custom-entity-using-solution-explorer"></a>솔루션 탐색기를 사용하여 사용자 지정 엔터티에서 양식에 대한 이미지 지원 추가
 1. [솔루션 탐색기](../model-driven-apps/advanced-navigation.md#solution-explorer)를 엽니다. 
@@ -186,14 +209,15 @@ API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내
 5. **사용자 지정 엔터티 이미지**와 같은 *표시 이름*을 입력합니다. 
 6. 나머지 필드를 적절히 작성하십시오. **이름**, **필드 요구 사항**, **검색 가능** 필드는 변경할 수 없습니다. **저장 후 닫기**를 선택합니다. 
 7. **기본 이미지** 속성 옆에 있는 엔터티 정의에서 값이 이전 단계에서 작성한 사용자 지정 이미지로 설정되어 있는지 확인하십시오. 그렇지 않다면 선택하십시오.  
-    ![기본 이미지 속성이 선택됨](media/primary-image-property.png)
+    > [!div class="mx-imgBorder"] 
+    > ![기본 이미지 속성이 선택됨](media/primary-image-property.png "기본 이미지 속성이 선택됨")
 
 8.  엔터티 기본 양식과 같이 이미지 지원을 원하는 양식을 여십시오. 
 9.  양식 편집기 리본에서 **양식 속성**을 선택합니다. 
 10. **양식 속성** 페이지에서 **표시** 탭을 선택하고 **양식에 이미지 표시**를 선택한 다음, **확인**을 선택합니다. 
 
     > [!div class="mx-imgBorder"] 
-    > ![양식 설정에서 이미지 표시](media/show-image-on-form.png "양식 설정에서 이미지 표시")
+    > ![양식에 이미지 표시 설정](media/show-image-on-form.png "양식에 이미지 표시 설정")
 
 11. 양식 편집기 리본에서 **저장**을 선택한 다음 **게시**를 선택합니다. 양식 편집기를 닫습니다. 
 
@@ -202,16 +226,30 @@ API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내
 > [!IMPORTANT]
 > 레코드가 저장되지 않은 새 레코드인 경우 이미지를 변경하려고 하면 잘못된 인수 오류가 반환됩니다. 
 
-#### <a name="change-the-image-for-a-record"></a>레코드 이미지 변경
+### <a name="change-the-image-for-a-record"></a>레코드 이미지 변경
+엔터티 양식에 이미지 필드가 있으면 앱 사용자는 지정된 레코드의 이미지를 변경할 수 있습니다. 
+
 1. 엔터티 양식이 포함된 앱을 열고 양식에서 이미지를 선택하십시오. 
    > [!div class="mx-imgBorder"] 
    > ![기본 엔터티 이미지](../common-data-service/media/default-entity-image-on-form.png "기본 엔터티 이미지")
 
 2. **이미지 업로드**를 선택하고 엔터티 양식에 표시할 이미지를 찾아서 선택한 다음 **변경**을 선택합니다. 이미지가 레코드에 나타납니다. 
    > [!div class="mx-imgBorder"] 
-   > ![변경된 이미지를 레코드에 저장](../common-data-service/media/custom-entity-icon-record.png "변경된 이미지를 레코드에 저장")
+   > ![레코드에 저장된 변경된 이미지](../common-data-service/media/custom-entity-icon-record.png "레코드에 저장된 변경된 이미지")
 
 
 이미지 데이터로 작업하는 개발자를 위한 추가 정보:
 - [엔터티 메타데이터 > 엔터티 이미지](/powerapps/developer/common-data-service/entity-metadata#entity-images)
 - [이미지 특성](/powerapps/developer/common-data-service/image-attributes)
+
+
+## <a name="file-fields"></a>파일 필드
+[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+
+현재 파일 데이터 형식은 캔버스 앱 및 흐름에서만 사용할 수 있습니다. 
+
+**파일** 필드는 이진 데이터를 저장하는 데 사용됩니다. 이 필드의 기본 용도는 단일 이미지, 메모 또는 첨부 파일을 저장하는 것입니다. 그러나 다른 형태의 이진 데이터를 저장할 수도 있습니다. 이 데이터 형식의 하나 이상의 필드를 기존 표준 사용자 지정 가능 엔터티 또는 사용자 지정 엔터티에 추가할 수 있습니다.
+
+기본 **최대 파일 크기**는 32MB이고 설정할 수 있는 최대 크기는 128MB입니다. 파일 크기 제한은 엔터티에 추가된 파일 유형의 각 필드에 대해 개별적으로 설정할 수 있습니다. 
+
+파일 데이터로 작업하는 개발자를 위한 추가 정보: [파일 특성](/powerapps/developer/common-data-service/file-attributes)

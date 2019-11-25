@@ -4,9 +4,9 @@ description: 기본 양식에 대한 iFrame 속성 이해
 Keywords: 기본 양식; iFrame 속성; Dynamics 365
 author: Mattp123
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 06/18/2018
@@ -14,10 +14,16 @@ ms.service: powerapps
 ms.topic: article
 ms.assetid: 1b7e6a0c-18a9-47e2-aa7d-0cffb8c93b19
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 532b720277cdc9649e8ef161e9ff623298c5f570
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2754045"
 ---
 # <a name="iframe-properties-for-model-driven-app-main-forms"></a>모델 기반 앱 기본 양식에 대한 iFrame 속성
 
@@ -25,7 +31,7 @@ iFrame을 양식에 추가하여 양식 안에 다른 웹 사이트의 콘텐츠
 
 IFrame 속성을 보려면 다음 단계를 수행합니다.
 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다. 
 

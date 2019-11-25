@@ -1,24 +1,30 @@
 ---
 title: 연결 역할 구성 | MicrosoftDocs
 ms.custom: ''
-ms.date: 05/27/2018
+ms.date: 10/17/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.author: matp
 manager: kvivek
 author: Mattp123
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 028be1172621c9bdb510f5e57d16eb226b10f92b
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758243"
 ---
 # <a name="configure-connection-roles"></a>연결 역할 구성
 
@@ -28,16 +34,30 @@ Common Data Service를 사용하면 엔터티 관계를 만들지 않고 엔터�
 
 **연결 역할** 엔터티에 대한 쓰기 권한이 있는 사용자는 사용자가 사용할 수 있는 연결을 설정할 수 있습니다.
 
+> [!IMPORTANT]
+> 기존 또는 새로운 연결 역할을 위해 엔터티를 레코드 종류로 사용할 수 있도록 하려면 엔터티에 대해 **연결 활성화** 속성을 활성화해야 합니다. 
+
+## <a name="enable-connection-roles-for-an-entity"></a>엔터티의 연결 규칙 활성화
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+2. **데이터**를 확장한 다음 **엔터티**를 선택합니다. 
+3. 연결 역할에 활성화할 엔터티를 선택한 다음 명령 모음에서 **설정**을 선택합니다. 
+4. **설정**창에서 **공동 작업** 영역을 확장한 다음 **연결 활성화**를 선택합니다.
+    > [!div class="mx-imgBorder"] 
+    > ![연결 활성화 설정](media/enable-connections.png "연결 활성화 설정")
+
+6. **완료**를 선택합니다. 
+
 ## <a name="view-connection-roles"></a>연결 역할 보기
 
 Common Data Service에 이미 구성된 여러 표준 연결 역할이 있습니다. 역할을 보려면 설정 영역으로 이동해야 합니다. 
 
 ### <a name="navigate-to-the-settings-area"></a>설정 영역으로 이동합니다.
 
-1. 모델 기반 앱을 보는 동안 URL을 편집하여 `dynamics.com` 후의 모든 것을 제거하고 페이지를 새로 고칩니다.
-1. **설정** > **비즈니스** > **비즈니스 관리**로 이동한 다음 **연결 역할**을 선택합니다.
+1. 모델 기반 앱에서 **설정** > **고급 설정**을 선택합니다. 
+2. **설정** > **비즈니스** > **비즈니스 관리**로 이동한 다음 **연결 역할**을 선택합니다.
 
-![비즈니스 관리 설정의 연결 역할](media/navigate-settings-connection-roles.png)
+   > [!div class="mx-imgBorder"] 
+    > ![비즈니스 관리 설정의 연결 역할](media/navigate-settings-connection-roles.png "비즈니스 관리 설정의 연결 역할")
 
 이 보기에서는 이 환경에 사용할 수 있는 모든 연결 역할을 볼 수 있으며 여기에서 편집할 수 있습니다.
 

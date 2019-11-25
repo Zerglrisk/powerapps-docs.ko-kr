@@ -10,12 +10,17 @@ ms.component: cds
 ms.date: 03/21/2018
 ms.author: millopis
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 22920502b75d16dedba7a70ced60b9b3f373ff10
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757583"
 ---
-
 # <a name="add-data-to-an-entity-in-common-data-service-by-using-power-query"></a>파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터 추가
 이 절차에서는 [Common Data Service](data-platform-intro.md)에서 엔터티를 만들고 파워 쿼리를 사용하여 OData 피드의 데이터로 해당 엔터티를 채웁니다. 동일한 기술을 사용하여 이러한 온라인 및 온-프레미스 소스의 데이터를 통합할 수 있습니다.
 
@@ -37,7 +42,7 @@ PowerApps 라이선스가 없는 경우 [무료로 가입](../signup-for-powerap
 
 ## <a name="specify-the-source-data"></a>원본 데이터 지정
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음 왼쪽 가장자리 근처의 **데이터**에 대해 아래쪽 화살표를 클릭하거나 탭합니다.
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음 왼쪽 가장자리 근처에 있는 **데이터**의 아래쪽 화살표를 클릭하거나 탭합니다.
 
     ![PowerApps 홈 페이지](./media/data-platform-cds-newentity-pq/sign-in.png)
 
@@ -48,7 +53,7 @@ PowerApps 라이선스가 없는 경우 [무료로 가입](../signup-for-powerap
     ![OAuth 커넥터 선택](./media/data-platform-cds-newentity-pq/choose-odata.png)
 
 1. **연결 설정**에서 이 URL을 입력하거나 붙여넣고 **다음**을 선택합니다.<br>
-`http://services.odata.org/V4/Northwind/Northwind.svc/`
+`https://services.odata.org/V4/Northwind/Northwind.svc/`
 
 1. 테이블 목록에서 **고객** 확인란을 선택하고 **다음**을 클릭하거나 탭합니다.
 

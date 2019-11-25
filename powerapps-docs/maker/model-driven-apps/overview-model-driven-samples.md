@@ -11,12 +11,17 @@ ms.component: model
 ms.date: 03/08/2018
 ms.author: brdang
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 5e579b7054171222819b2d1dd6bb21d9cb7400a9
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2711570"
 ---
-
 # <a name="model-driven-sample-apps"></a>모델 기반 샘플 앱
 
 [powerapps.com](https://powerapps.com)에서 샘플 앱을 사용하여 디자인 가능성을 탐색하고 고유한 앱을 개발할 때 적용할 수 있는 개념을 검색합니다. 각 샘플 앱은 가상 데이터를 사용하여 실제 시나리오를 보여주며, 
@@ -28,7 +33,7 @@ search.app:
 
 ## <a name="get-sample-apps"></a>샘플 앱 가져오기
 
-모델 기반 샘플 앱을 재생하거나 편집하려면 먼저 공통 데이터 서비스 데이터베이스에 앱을 프로비전해야 합니다. 먼저 평가판 환경과 데이터베이스를 만들고 **샘플 앱 및 데이터 포함**을 확인해야 합니다.
+모델 기반 샘플 앱을 재생하거나 편집하려면 먼저 Common Data Service 데이터베이스에 앱을 프로비저닝해야 합니다. 먼저 평가판 환경과 데이터베이스를 만들고 **샘플 앱 및 데이터 포함**을 확인해야 합니다.
 
 ![데이터베이스 만들기](media/overview-model-driven-samples/create-database1.png)
 

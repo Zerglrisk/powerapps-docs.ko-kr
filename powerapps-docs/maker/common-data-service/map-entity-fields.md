@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 엔터티 필드 매핑 | MicrosoftDocs
+title: PowerApps의 엔터티 필드 매핑 | MicrosoftDocs
 description: 엔터티 필드를 매핑하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/29/2018
@@ -9,20 +9,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 7c5aa1c3-bde9-43f1-a369-fdcdbf14dec0
 caps.latest.revision: 33
 ms.author: matp
 manager: kvivek
-tags: null
+tags: ''
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 7175a56b4658d19510c007efbf4bdcd02d88db2f
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2704618"
 ---
 # <a name="map-entity-fields"></a>엔터티 필드 매핑
  
@@ -98,7 +104,7 @@ search.app:
 - 필드가 옵션 집합인 경우 각 옵션의 정수 값이 동일해야 합니다.  
   
 > [!NOTE]
->  옵션 집합 필드를 매핑해야 하는 경우 동일한 전역 옵션 집합을 사용하여 두 필드를 모두 구성하는 것이 좋습니다. 그렇지 않으면 수동으로 동기화하는 별도의 두 옵션 집합을 유지하기 어려울 수 있습니다. 각 옵션의 정수 값이 올바르게 매핑되지 않으면 데이터에 문제가 발생할 수 있습니다. 자세한 내용: [Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)  
+>  옵션 집합 필드를 매핑해야 하는 경우 동일한 전역 옵션 집합을 사용하여 두 필드를 모두 구성하는 것이 좋습니다. 그렇지 않으면 수동으로 동기화하는 별도의 두 옵션 집합을 유지하기 어려울 수 있습니다. 각 옵션의 정수 값이 올바르게 매핑되지 않으면 데이터에 문제가 발생할 수 있습니다. 추가 정보: [Common Data Service에 대한 전역 옵션 집합(선택 목록) 만들기 및 편집](create-edit-global-option-sets.md)  
   
 ## <a name="automatically-generate-field-mappings"></a>자동으로 필드 매핑 생성  
 

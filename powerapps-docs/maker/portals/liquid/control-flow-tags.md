@@ -5,12 +5,17 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 77fcc7db0adf68cd6decbcc95e11d8e803761535
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2708578"
 ---
-
 # <a name="control-flow-tags"></a>흐름 통제 태그
 
 제어 흐름 태그는 주어진 조건에 따라 실행해야 할 코드의 블록과 렌더링할 콘텐츠를 결정합니다. 조건은 사용 가능한 [유동 연산자](liquid-operators.md)를 사용하여, 또는 단지 [주어진 값의 진실 또는 허위](liquid-conditional-operators.md)에 따라 구축됩니다.  

@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 42882b630cfe34cc17e310b32c9c072f0c2d5d8a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758463"
 ---
-
 # <a name="guidelines-on-working-with-embedded-canvas-apps"></a>포함된 캔버스 앱 작업 지침
 이 항목에서는 포함된 캔버스 앱 작업에 대한 지침과 발생할 수 있는 문제를 해결하는 유용한 팁을 제공합니다.
 
@@ -34,7 +39,7 @@ search.app:
 -   포함된 캔버스 앱을 모델 기반 양식에 추가하는 경우 항상 값이 보장되는 필수 필드를 사용합니다. 필드에 값이 없는 경우 포함된 캔버스 앱은 호스트 모델 기반 양식의 데이터 변경에 대한 응답으로 새로 고쳐지지 않습니다.
 -   모델 기반 양식을 게시해도 포함된 캔버스 앱이 게시되지 않습니다.
      - 포함된 캔버스 앱은 호스트 모델 기반 양식과 독립적으로 게시해야 합니다. 자세한 내용: [앱 게시](../canvas-apps/save-publish-app.md#publish-an-app).
--   웹 브라우저 팝업 차단으로 인해 캔버스 앱 컨트롤 속성의 **사용자 지정** 단추를 통해 포함된 캔버스 앱을 만들거나 편집하기 위해 PowerApps Studio를 열 경우 web.powerapps.com 사이트를 사용하도록 설정하거나 일시적으로 팝업 차단을 사용하지 않도록 설정한 다음 **사용자 지정**을 다시 선택합니다.
+-   웹 브라우저 팝업 차단으로 인해 캔버스 앱 컨트롤 속성의 **사용자 지정** 단추를 통해 포함된 캔버스 앱을 만들거나 편집하기 위해 PowerApps Studio를 열 경우 make.powerapps.com 사이트를 사용하도록 설정하거나 일시적으로 팝업 차단을 사용하지 않도록 설정한 다음 **사용자 지정**을 다시 선택합니다.
 -   포함된 캔버스 앱은 레코드 컨텍스트가 전달될 필요가 있기 때문에 새 레코드를 만들때 표시되지 않습니다.
 -   ModelDrivenFormIntegration.Item 개체는 읽기 전용입니다. 
      - 데이터를 다시 쓰려면 Common Data Service 커넥터를 사용해야 합니다. 추가 정보: [Common Data Service](/connectors/commondataservice/)

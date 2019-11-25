@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 68ca9059-cc5a-45e7-88bd-cc57186bbb48
 caps.latest.revision: 18
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: b1496fcb600524e7934fe55ca17a7a7bafb54c75
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759167"
 ---
 # <a name="create-or-edit-model-driven-app-quick-create-forms-for-a-streamlined-data-entry-experience"></a>간소화된 데이터 입력 환경을 위한 모델 기반 앱 빨리 만들기 양식 만들기 또는 편집
 
@@ -50,11 +56,12 @@ search.app:
   
 > [!NOTE]
 >  - 빨리 만들기 양식을 표시하려면 엔터티의 **빨리 만들기 허용** 옵션을 활성화해야 합니다. 
+>  - 또한 엔터티 및 빨리 만들기 양식을 앱에 추가해야 합니다.
 >  - CREATEDON 필드와 같은 일부 필드는 빨리 만들기 양식에 추가할 수 없습니다.  
   
 ### <a name="how-to-create-a-quick-create-form"></a>빨리 만들기 양식을 만드는 방법  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 
 > [!IMPORTANT]
@@ -92,10 +99,10 @@ search.app:
   
 ### <a name="to-edit-a-quick-create-form"></a>빨리 만들기 양식을 편집하려면  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 > [!IMPORTANT]
-> "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.    
+> **모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.    
   
 2. **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다.    
 
@@ -113,7 +120,7 @@ search.app:
 9.1.0.2007 업데이트에서 소개된 **빠른 만들기 허용** 속성은 되풀이 약속을 제외한 모든 표준 활동에 대해 활성화하거나 비활성화할 수 있습니다. 이 속성을 사용하면 대부분의 활동에 대해 기본적으로 표시되는 양식을 변경할 수 있습니다. 기본적으로 **빨리 만들기 허용** 속성은 활성화되며 빨리 만들기 양식은 앱 영역 및 이를 지원하는 활동 엔터티에 표시되는 양식입니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/allow-quick-create.png "약속 엔터티의 빨리 만들기 속성 허용")
+> ![](media/allow-quick-create.png "Allow Quick Create property on appointment entity")
 
 
 ### <a name="unified-interface-client-form-display-behavior"></a>통합 인터페이스 클라이언트 양식 표시 동작

@@ -8,23 +8,29 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.author: matp
 manager: kvivek
 author: Mattp123
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8bbae644cddd24bebfa03ab5e2a15a86c6ecd44e
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758023"
 ---
 # <a name="create-and-edit-fields-for-common-data-service-using-powerapps-solution-explorer"></a>PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집
 
 솔루션 탐색기를 통해 Common Data Service의 필드를 만들고 편집할 수 있습니다.
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
+[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
 - [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
 - [PowerApps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)
   

@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 첫 모델 기반 앱을 처음부터 새로 빌드하기 | Microsoft Docs
+title: PowerApps에서 첫 모델 기반 앱을 처음부터 빌드하기 | Microsoft Docs
 description: 단순한 모델 기반 앱을 빌드하는 방법 알아보기
 documentationcenter: ''
 author: Mattp123
@@ -13,20 +13,25 @@ ms.component: model
 ms.date: 02/05/2019
 ms.author: matp
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9c41feb81fbe90c1ca675105fe898b667f61b2b9
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752568"
 ---
-
 # <a name="build-your-first-model-driven-app-from-scratch"></a>첫 모델 기반 앱을 처음부터 새로 빌드하기
-모델 기반 앱 디자인은 앱 개발에 대한 구성 요소 중심의 접근 방식입니다. 이 항목에서는 PowerApps 환경에서 사용할 수 있는 표준 엔터티 중 하나를 사용하여 모델 기반 앱을 만드는 방법을 간단하게 설명합니다.
+모델 기반 앱 디자인은 앱 개발에 대한 구성 요소 중심의 접근 방식입니다. 이 항목에서는 PowerApps 환경에서 사용할 수 있는 표준 엔터티 중 하나를 사용하여 간편하게 모델 기반 앱을 만드는 방법을 설명합니다.
 
 > [!TIP]
 > 모델 기반 앱을 빌드하는 방법에 대한 자세한 내용은 먼저 [모델 기반 앱 구성 요소 이해](model-driven-app-components.md)를 참조하십시오. 
 
-## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
-[PowerApps](https://web.powerapps.com/)에 로그인합니다. 아직 [!INCLUDE [powerapps](../../includes/powerapps.md)] 계정이 없는 경우 **무료 시작** 링크를 선택합니다. 
+## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인합니다.
+[PowerApps](https://make.powerapps.com/)에 로그인합니다. 아직 [!INCLUDE [powerapps](../../includes/powerapps.md)] 계정이 없는 경우 **무료 시작** 링크를 선택합니다. 
 
 ## <a name="create-your-model-driven-app"></a>모델 기반 앱 만들기
 
@@ -45,7 +50,7 @@ search.app:
 추가 앱 속성에 대한 자세한 내용은 [앱 만들기](create-edit-app.md#create-an-app)를 참조하십시오.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/create-new-app.png "새 앱 만들기") 
+    > ![](media/create-new-app.png "Create a new app") 
 
 
 ## <a name="add-components-to-your-app"></a>앱에 구성 요소를 추가합니다.

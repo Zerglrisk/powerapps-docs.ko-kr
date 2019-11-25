@@ -10,17 +10,23 @@ ms.assetid: b4098c96-bce1-4f57-804f-8694e6254e81
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: aba6196680d674b8ee42096e340a105b19ac8d07
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752382"
 ---
 # <a name="add-reporting-features-to-your-model-driven-app"></a>모델 기반 앱에 보고 기능 추가
 
 PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 보고서를 포함할 수 있습니다. 이러한 보고서는 SQL Server Reporting Services를 기반으로 하며 일반적인 SQL Server Reporting Services 보고서에서 사용할 수 있는 기능과 동일한 기능을 제공합니다.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/progress-against-goals-report.png "목표 달성률 표준 보고서")
+> ![](media/progress-against-goals-report.png "Progress against goals standard report")
 
 시스템 보고서는 모든 사용자가 사용할 수 있는 반면, 보고서를 만들거나 소유한 개별 사용자는 특정 동료 또는 팀과 공유하거나 조직의 모든 사용자가 실행할 수 있도록 제공합니다. 이러한 보고서는 Common Data Service 고유의 FetchXML 쿼리를 사용하며 데이터를 검색하여 보고서를 빌드합니다. PowerApps 앱에서 작성한 보고서는 Fetch 기반 보고서입니다.
 
@@ -36,7 +42,7 @@ PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 �
 ## <a name="add-reporting-to-a-unified-interface-app"></a>통합 인터페이스 앱에 보고 추가
 사용자가 보고서를 실행, 공유, 작성 및 수정할 수 있도록 Fetch 기반 보고 기능을 앱에 추가할 수 있습니다. 이렇게 하려면 앱의 사이트 맵에 보고서 항목을 추가합니다. 
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 편집을 위해 기존 앱을 엽니다. 
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 편집을 위해 기존 앱을 엽니다. 
 2. 앱 디자이너에서 **사이트 맵** 옆의 ![사이트 맵 편집을 위한 연필 아이콘](media/ccf-pencil-icon.png)을 선택합니다. 
 3. 사이트 맵 디자이너에서 **추가**를 선택한 다음 **영역**을 선택합니다. 
 4. **제목** 상자에서 *보고서* 같은 영역 제목의 이름을 입력합니다. 
@@ -54,10 +60,10 @@ PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 �
 
 8. 앱 디자이너에서 **저장**을 선택한 다음 **게시**를 선택합니다.
 
-이제 앱에 사용자가 권한이 있는 보고서를 보고, 실행하고, 할당하고, 공유하고 편집할 수 있으며 보고서 마법사를 사용하여 새 보고서를 만들 수있는 **보고서** 영역이 표시됩니다. 
+이제 앱에 사용자가 권한이 있는 보고서를 보고, 실행하고, 할당하고, 공유하고 편집할 수 있으며 보고서 마법사를 사용하여 새 보고서를 만들 수 있는 **보고서** 영역이 표시됩니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/report-feature-in-app.png "보고서 보기")
+> ![](media/report-feature-in-app.png "Report view")
 
 ## <a name="options-for-creating-new-reports"></a>새 보고서 만들기 옵션
 다음 중 한 가지 방법으로 새 보고서를 만들 수 있습니다.
@@ -73,7 +79,7 @@ PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 �
 조직에서 볼 수 있는 보고서를 찾으려면 보고서 목록에서 모델 기반 앱을 열고 보고서를 선택한 다음 **편집**을 선택합니다. **관리** 탭에서 **볼 수 있는 대상**이 **조직**으로 설정되었는지 확인합니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/report-scope.png "조직 수준 보고서 가시성")
+> ![](media/report-scope.png "Organization level report visibility")
 
 보고서의 스냅숏을 솔루션의 일부로 추가하거나, 가져오거나, 내보낼 수 있습니다. 모델 기반 앱에서 보고서, 하위 보고서, 보고서 범주, 보고서 표시 영역 및 보고서 관련 레코드 종류는 보고서 집합의 구성 요소로 간주됩니다. 덮어쓰지 않는 모드에서 솔루션 업데이트를 가져올 때 보고서 집합의 어느 한 구성 요소라도 사용자 지정된 경우 솔루션에 의한 보고서 업데이트가 무시됩니다.
 

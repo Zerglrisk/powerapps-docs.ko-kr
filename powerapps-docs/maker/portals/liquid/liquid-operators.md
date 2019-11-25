@@ -5,12 +5,17 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 4a27a5364a4ae12fecc3a72dbb52115e415dcdb8
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2708182"
 ---
-
 # <a name="understand-liquid-operators"></a>유동 연산자의 이해
 
 유동은 모든 공통 논리 및 비교 연산자에 액세스할 수 있습니다. 이러한 연산자는 **if** 및 **unless**와 같은 태그에 사용할 수 있습니다.

@@ -1,20 +1,25 @@
 ---
 title: 옵션 집합 만들기| Microsoft Docs
 description: 옵션 집합을 만드는 방법에 대한 단계별 지침입니다.
-author: clwesene
-manager: kfile
+author: lancedMicrosoft
+manager: kvivek
 ms.service: powerapps
 ms.component: cds
 ms.topic: conceptual
 ms.date: 03/21/2018
-ms.author: clwesene
+ms.author: lanced
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 6f3f47882800252c91de0efc572954f7397ac251
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757627"
 ---
-
 # <a name="create-an-option-set"></a>옵션 집합 만들기
 
 옵션 집합을 사용하면 앱 내에서 사용자에게 고정 된 값의 드롭다운 목록을 포함하여 데이터 일관성을 보장하고, 다른 응용 프로그램에서는 선택 목록이라고도 합니다. 엔터티와 유사하게 표준 옵션 집합이 둘 다 있으며 앱 내에서 사용할 사용자 지정 옵션 집합을 만들 수 있습니다.
@@ -23,7 +28,7 @@ search.app:
 
 ## <a name="creating-an-option-set-while-adding-a-field"></a>필드를 추가하는 동안 옵션 집합 만들기
 
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
 
@@ -65,7 +70,7 @@ search.app:
 
 ## <a name="creating-an-option-set-from-the-option-set-list"></a>옵션 집합 목록에서 옵션 집합 만들기
 
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **옵션 집합**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **옵션 집합**를 클릭하거나 탭합니다.
 
     > [!div class="mx-imgBorder"] 
     > ![옵션 집합](./media/data-platform-cds-newoptionset/optionsetlist.png "옵션 집합 목록")

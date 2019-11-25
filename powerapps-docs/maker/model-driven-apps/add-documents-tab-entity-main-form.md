@@ -1,22 +1,28 @@
 ---
 title: 엔터티의 기본 양식에 문서 탭 추가 | MicrosoftDocs
 description: 엔터티의 기본 양식에 문서 탭을 추가하는 방법 알아보기
-s.custom: null
+s.custom: ''
 ms.date: 09/05/2019
-ms.reviewer: null
+ms.reviewer: ''
 ms.service: crm-online
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 author: Mattp123
-ms.assetid: null
-caps.latest.revision: null
+ms.assetid: ''
+caps.latest.revision: ''
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - customizer
+- customizer
 search.app:
-  - D365CE
+- D365CE
+ms.openlocfilehash: d8a81b531f43f3e252f2df348b8ae95551e068d4
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2702814"
 ---
 # <a name="add-the-sharepoint-documents-tab-to-the-main-form-for-an-entity"></a>엔터티의 기본 양식에 SharePoint 문서 탭 추가
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
@@ -45,7 +51,7 @@ search.app:
 11. **control id="address1_city"** 와 같이 control id="*field name*" 요소로 스크롤을 내려 전체 요소를 이 항목의 [XML 샘플](#xml-sample-for-adding-the-documents-tab-to-a-form)로 교체합니다. 
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/form-xml.png "XML 샘플 삽입 지점")
+    > ![](media/form-xml.png "XML sample insertion point")
 
 12. XML 샘플을 수정하십시오. 
     

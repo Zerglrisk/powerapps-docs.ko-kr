@@ -9,15 +9,21 @@ ms.date: 06/06/2018
 ms.service: powerapps
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.assetid: 43bfface-4dc2-411d-99a1-83e934646989
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 610a4baf51a2affea142b496d016d732fa626d20
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2755911"
 ---
 # <a name="use-the-model-driven-app-main-form-and-its-components"></a>모델 기반 앱 기본 양식 및 해당 구성 요소 사용
 
@@ -37,7 +43,7 @@ search.app:
 
 ### <a name="access-the-form-editor-through-app-designer-in-powerapps"></a>PowerApps에서 앱 디자이너를 통한 양식 편집기 액세스
 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  왼쪽 탐색 창에서 **앱**을 선택하고 원하는 앱을 선택한 다음 도구 모음에서 **편집**을 선택합니다.  
 
@@ -145,7 +151,7 @@ search.app:
 
 iFrame을 양식에 추가하여 양식 안에 다른 웹 사이트의 콘텐츠를 통합할 수 있습니다. IFRAME 속성을 더 자세히 알고 싶으면, [IFRAME 속성](iframe-properties-legacy.md)을 참조하십시오. 
   
-## <a name="edit-navigation"></a> 탐색 편집  
+## <a name="edit-navigation"></a>탐색 편집  
  양식 내 탐색 컨트롤이 있으면 관련 레코드 목록을 볼 수 있습니다. 각 엔터티 관계에는 표시 여부를 제어하는 속성이 있습니다. 추가 정보: [기본 엔터티에 대한 탐색 창 항목](../common-data-service/create-edit-1n-relationships-solution-explorer.md#navigation-pane-item-for-primary-entity)
   
  표시되도록 구성되어 있는 모든 엔터티 관계는 양식 편집기에서 재정의할 수 있습니다.  

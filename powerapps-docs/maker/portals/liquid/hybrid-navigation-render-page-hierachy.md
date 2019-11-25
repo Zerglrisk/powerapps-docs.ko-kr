@@ -5,12 +5,17 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: aace949be3cc191af5edd95c461e422b9c3217f5
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2708358"
 ---
-
 # <a name="render-up-to-three-levels-of-page-hierarchy-by-using-hybrid-navigation"></a>하이브리드 탐색을 사용하여 최대 3 레벨의 페이지 계층을 렌더링하기
 
 이 예는 최대 3개 수준의 페이지 계층을 렌더링하는 포털 사이트 맵에 근거하여 일종의 하이브리드 탐색을 렌더링합니다. 이 구성 요소의 규칙:

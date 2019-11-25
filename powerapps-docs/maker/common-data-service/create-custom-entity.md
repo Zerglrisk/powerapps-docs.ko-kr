@@ -9,12 +9,17 @@ ms.topic: tutorial
 ms.date: 01/23/2019
 ms.author: matp
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 436e4f03a38efc3d61a0d4fb9f027ae6eff1c931
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2754834"
 ---
-
 # <a name="create-a-custom-entity-that-has-components-in-powerapps"></a>PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기
 
 PowerApps에서 조직의 산업, 용어, 고유한 비즈니스 프로세스에 더 밀접하게 앱을 사용자 지정할 수 있습니다. PowerApps 앱 개발에는 표준 "기본 제공" 엔터티 추가 또는 사용자 지정 엔터티 만들기가 포함됩니다. 엔터티는 일반적으로 회사 이름, 위치, 제품, 전자 메일 및 전화와 같은 속성을 포함하는 레코드 형태로 추적하려는 정보를 정의합니다. 
@@ -31,7 +36,7 @@ PowerApps에서 조직의 산업, 용어, 고유한 비즈니스 프로세스에
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-[PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 아직 PowerApps 계정이 없는 경우 [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **무료 시작** 링크를 선택합니다.
+[PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 아직 PowerApps 계정이 없는 경우 [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **무료 시작** 링크를 선택합니다.
 
 ## <a name="create-a-custom-entity"></a>사용자 지정 엔터티 만들기
 

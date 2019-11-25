@@ -9,23 +9,29 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8b1b38c94cbd4615ff0ab449944e65089865a823
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758727"
 ---
 # <a name="define-alternate-keys-using-solution-explorer"></a>솔루션 탐색기를 사용한 대체 키 정의
 
 솔루션 탐색기를 통해 Common Data Service의 대체 키를 보고 만들 수 있습니다.
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능합니다. <br />추가 정보: 
+[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
 - [레코드를 참조할 대체 키 정의](define-alternate-keys-reference-records.md)<br />
 - [PowerApps 포털을 사용한 대체 키 정의](define-alternate-keys-portal.md)
 

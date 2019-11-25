@@ -4,28 +4,33 @@ description: 앱에 대한 표 제어를 구성하는 방법 알아보기
 keywords: ''
 ms.date: 06/03/2019
 ms.service: powerapps
-ms.custom: null
+ms.custom: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 3ecea4a7-0d18-4ccd-9609-3a62179e9e1b
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 caps.latest.revision: 0
 topic-status: Drafting
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: efca6e540a962295553222805052fda2c9a8ddf6
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2710910"
 ---
-
 # <a name="specify-properties-for-model-driven-unified-interface-apps"></a>모델 기반 통합 인터페이스 앱의 속성 지정
 
 통합 인터페이스 프레임워크는 응답성이 뛰어난 디자인 원칙을 사용하여 모든 화면 크기 또는 방향에 최적화된 보기 및 상호 작용 환경을 제공합니다. 통합 인터페이스 프레임워크를 사용하는 모델 기반 응용 프로그램에서 표(보기) 컨트롤의 응답이 빠릅니다. 예컨대 휴대폰과 작은 뷰포트 등으로 컨테이너의 크기가 줄어들면 표가 목록으로 변환됩니다. 
@@ -53,7 +58,7 @@ search.app:
     
 4. 표를 읽기 전용으로 만들 장치(**웹**, **전화** 또는 **태블릿**)를 선택합니다.
 
-    ![장치 유형 선택](media/UnifiedInterface_ReadOnlyGrid_SelectDevice.png "장치 유형 선택")
+    ![디바이스 유형 선택](media/UnifiedInterface_ReadOnlyGrid_SelectDevice.png "장치 선택")
 
 5. **카드 양식** 속성을 구성합니다.
 

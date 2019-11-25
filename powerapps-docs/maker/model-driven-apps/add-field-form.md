@@ -3,32 +3,38 @@ title: PowerApps의 모델 기반 앱에 필드 추가 | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Mattp123
 ms.assetid: 29499887-6e7b-44a1-86a7-eaad33f3075d
 caps.latest.revision: 30
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 1eb7d5c88031f7269472906b5bfcad7c91214417
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2751872"
 ---
 # <a name="add-a-field-to-a-model-driven-app-form"></a>모델 기반 앱 양식에 필드 추가 
 
-표준 엔터티 PowerApps 양식이 조직의 비즈니스 요구 사항을 만족하지 못할 경우 기존 필드를 변경하거나 새 필드를 추가하여 양식을 사용자 지정할 수 있습니다. 양식에서 기존 필드를 편집하는 것이 더 간단할 수 있지만 특정 비즈니스 문제를 해결하기 위해 필드를 추가하는 것이 좋을 때도 있습니다.
+표준 엔터티에 대한 PowerApps 양식이 조직의 비즈니스 요구 사항을 만족하지 못할 경우 기존 필드를 변경하거나 새 필드를 추가하여 양식을 사용자 지정할 수 있습니다. 양식에서 기존 필드를 편집하는 것이 더 간단할 수 있지만 특정 비즈니스 문제를 해결하기 위해 필드를 추가하는 것이 좋을 때도 있습니다.
 
 이 항목에서는 양식에 필드를 추가합니다.   
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
     > [!IMPORTANT]

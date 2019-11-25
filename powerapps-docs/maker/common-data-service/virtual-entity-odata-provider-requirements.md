@@ -8,20 +8,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-ms.assetid: null
-caps.latest.revision: null
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+ms.assetid: ''
+caps.latest.revision: ''
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: bd2d19b18b1de7bad4d6f661ec983af49fb8f4e4
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752157"
 ---
-
 # <a name="odata-v4-data-provider-configuration-requirements-and-best-practices"></a>OData v4 데이터 공급자 구성, 요구 사항 및 모범 사례
 
 이 항목에서는 OData v4 데이터 공급자를 설정하는 방법과 OData v4 웹 서비스에 연결하기 위해 OData v4 데이터 공급자를 사용하는 요구 사항 및 권장되는 최선의 방법에 대해 설명합니다. 
@@ -75,7 +80,7 @@ search.app:
 1. **새 데이터 원본** 속성 페이지에서 다음 필드를 입력한 다음 레코드를 저장합니다.  
   
     - **이름**: 데이터 원본을 설명하는 이름을 입력합니다.  
-    - **URI**. OData 데이터 공급자를 사용하는 경우 OData 웹 서비스에 대한 URI를 입력합니다. 예를 들어 OData 공급자를 사용하여 Azure에서 호스팅되는 웹 서비스에 연결하는 경우 URI는 *`http://contosodataservice.azurewebsites.net/odata/`* 와 비슷하게 보일 수 있습니다.  
+    - **URI**. OData 데이터 공급자를 사용하는 경우 OData 웹 서비스에 대한 URI를 입력합니다. 예를 들어 OData 공급자를 사용하여 Azure에서 호스팅되는 웹 서비스에 연결하는 경우 URI는 *`https://contosodataservice.azurewebsites.net/odata/`* 와 비슷하게 보일 수 있습니다.  
     - **시간 제한(초)**. 데이터 요청 제한 시간 이전에 웹 서비스의 응답을 기다리는 시간(초)을 입력 합니다. 예를 들어, 30을 입력하면 제한 시간이 발생하기 전에 최대 30초를 기다립니다.  
     - **페이지 매김 모드**. 쿼리 결과가 페이징되는 방식을 제어하기 위해 클라이언트 측 또는 서버 측 페이징을 사용할지 여부를 선택합니다. 기본값은 클라이언트 측 페이징입니다. 서버 쪽 페이징과 함께 서버는 쿼리 문자열에 추가되는 $skiptoken 매개 변수를 사용하여 결과를 페이징하는 방법을 제어합니다. 추가 정보:  [토큰 시스템 쿼리 건너뛰기 옵션($skiptoken)](https://msdn.microsoft.com/library/dd942121.aspx)  
         -  **인라인 개수 반환**. 결과 집합의 총 레코드 수를 반환합니다. 이 설정은 표에 데이터를 반환할 때 다음 페이지 기능을 사용하도록 설정하는 데 사용됩니다. OData 끝점이 OData $inlinecount 매개 변수를 지원하지 않으면 false 값을 사용합니다. 기본값은 false입니다.

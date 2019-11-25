@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8e032cc95f64e842552308ccf9d179fc153b49fd
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2710426"
 ---
-
 # <a name="using-the-tree-view-in-the-form-designer"></a>양식 디자이너에서 트리 보기 사용
 **트리 보기** 창에는 양식에 있는 구성 요소의 시각적 계층 구조가 표시됩니다. 트리 보기의 아이콘을 통해 필드 또는 구성 요소의 유형을 빠르게 식별할 수 있습니다. 
 
@@ -31,7 +36,7 @@ search.app:
 트리 보기에서 노드를 확장하거나 축소하여 노드 내의 요소를 보거나 숨길 수 있습니다. 트리 보기에서 요소를 선택하면 해당 요소가 양식 미리 보기에서 강조 표시되고 속성 창에 요소의 속성이 표시됩니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/FormDesignerTreeView.png "트리 보기")
+> ![](media/FormDesignerTreeView.png "Tree view")
 
 ### <a name="open-the-tree-view"></a>트리 보기 열기 
 1. 양식 디자이너를 열어 양식을 만들거나 편집합니다. 

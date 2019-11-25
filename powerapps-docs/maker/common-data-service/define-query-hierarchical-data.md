@@ -1,5 +1,5 @@
 ---
-title: Common Data Service에서 계층적 데이터 정의 및 쿼리 | MicrosoftDocs
+title: Common Data Service의 계층적 데이터 정의 및 쿼리 | MicrosoftDocs
 description: 계층적으로 관련된 데이터를 정의하고 쿼리하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/02/2018
@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 0cf62817-5ff5-40bb-ad17-e1f6b0921720
 caps.latest.revision: 42
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: c829665baf2688c755bdfba7debb19d7b69a1c46
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758683"
 ---
 # <a name="define-and-query-hierarchically-related-data"></a>계층적으로 관련된 데이터를 정의하고 쿼리하기
 
@@ -92,5 +98,5 @@ Common Data Service에서 계층 구조 데이터 구조는 관련 레코드의 
 [1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships.md)<br />
 [솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-solution-explorer.md)<br />
 [모델 기반 앱을 사용하여 계층적 데이터 시각화](visualize-hierarchical-data.md)<br />
-[비디오: 계층적 보안 모델링 설정](http://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)<br />
-[비디오: 계층 구조 시각화](http://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)
+[비디오: 계층적 보안 모델링 설정](https://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)<br />
+[비디오: 계층 구조 시각화](https://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)

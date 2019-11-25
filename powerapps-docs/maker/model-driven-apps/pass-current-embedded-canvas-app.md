@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 639b8631f1d953408d30a1fdbba9c9ae8161af4d
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2755142"
 ---
-
 # <a name="pass-the-current-record-as-data-context-to-an-embedded-canvas-app"></a>포함된 캔버스 앱을 사용하여 현재 레코드를 데이터 컨텍스트로 전달
 > [!IMPORTANT]
 > 모델 기반 양식에 포함된 캔버스 앱은 이제 미리 보기가 없이 일반적으로 사용할 수 있습니다. 아래 나열된 단계는 구식이며 모델 기반 양식에 포함된 캔버스 앱의 공개 미리 보기 릴리스에만 적용됩니다.
@@ -32,7 +37,7 @@ search.app:
 
 거래처 기본 양식의 포함된 캔버스 앱을 추가하고 현재 거래처 레코드를 포함된 캔버스 앱에 전달하려는 경우를 가정해 보겠습니다. 이렇게 하려면 다음 단계를 수행합니다. 
 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 거래처 엔터티와 같은 엔터티의 기본 양식에 대한 양식 편집기를 엽니다. 
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 거래처 엔터티와 같은 엔터티의 기본 양식에 대한 양식 편집기를 엽니다. 
 2.  양식에서 포함된 캔버스 앱을 표시할 섹션을 선택합니다.
 3.  필드 탐색기 창을 사용하여 **거래처 이름**과 같은 필수 필드를 추가합니다.
       > [!IMPORTANT]
@@ -49,7 +54,7 @@ search.app:
          - **앱 ID** 값을 변경하면 모델 기반 양식에서 포함된 캔버스 앱으로의 링크가 끊어집니다.
 10. **사용자 지정**을 선택하여 캔버스 앱을 만들거나 편집합니다. 그러면 새 탭에 PowerApps Studio가 열립니다.
        > [!NOTE]
-       > 웹 브라우저 팝업 차단기로 인해 PowerApps Studio를 여는 것이 차단된 경우 web.powerapps.com 사이트를 사용하도록 설정하거나 일시적으로 팝업 차단을 해제한 다음 **사용자 지정**을 다시 선택해야 합니다.
+       > 웹 브라우저 팝업 차단기로 인해 PowerApps Studio를 여는 것이 차단된 경우 make.powerapps.com 사이트를 사용하도록 설정하거나 일시적으로 팝업 차단을 해제한 다음 **사용자 지정**을 다시 선택해야 합니다.
 11. PowerApps Studio에서 왼쪽 창에 특별한 **ModelDrivenFormIntegration** 컨트롤이 있음을 알 수 있습니다. 이 컨트롤은 호스트 모델 기반 양식에서 포함된 캔버스 앱으로 컨텍스트 데이터를 가져오는 역할을 합니다.
 12. **Gallery1** 컨트롤을 선택하고 **Items** 속성이 **ModelDrivenFormIntegration**로 설정되어 있는지 확인합니다.
       > [!NOTE]

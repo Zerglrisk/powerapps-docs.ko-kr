@@ -5,15 +5,18 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 07/18/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 7b5bbc05ca7adf7fad9725215f8a7d6c06c035bb
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2709546"
 ---
-
 # <a name="reset-a-portal"></a>포털 다시 설정
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 포털이 프로비저닝되면 조직을 다른 테넌트 또는 다른 데이터 센터로 이동하는 경우 또는 조직에서 포털을 제거하려는 경우와 같이 특정 상황에서 포털에서 리소스를 삭제해야 할 수 있습니다.
 
@@ -36,14 +39,13 @@ ms.reviewer: null
 
 > [!NOTE]
 > - 연결된 Azure Active Directory 응용 프로그램에 대한 적절한 권한이 없는 경우 오류가 표시됩니다. 적절한 권한에 대해서는 전역 관리자에게 문의해야 합니다.
-> - 포털이 성공적으로 다시 설정되면 PowerApps 포털 관리 센터의 **애플리케이션** 탭에 있는 포털 이름과 상태는 변경되지 않습니다. 예를 들어 포털 이름 및 상태가 포털 1이고 각각 구성된 경우 포털을 다시 설정한 후 이러한 값은 변경되지 않습니다. 포털 이름을 변경하려면 포털 관리 센터의 **포털 세부 정보** 탭에서 변경할 수 있습니다. 그러나 상태 값은 구성되지 않음으로 되돌릴 수 없습니다.
-> 
-> **응용 프로그램** 탭의 포털 상태는 프로비저닝 상태를 나타내지 않으며 포털의 기능에 영향을 미치지 않는다는 점에 유의해야 합니다. 해당 포털에 대한 포털 관리 센터에 액세스한 적이 있는지 여부를 보여 줍니다.
+> - 이전 포털 추가 기능을 사용하여 포털을 프로비저닝했으며 포털이 성공적으로 재설정된 경우 Dynamics 365 관리 센터의 **애플리케이션** 탭에서 포털 이름 및 상태는 변경되지 않습니다. 예를 들어 포털 이름 및 상태가 포털 1이고 각각 구성된 경우 포털을 다시 설정한 후 이러한 값은 변경되지 않습니다. 포털 이름을 변경하려면 PowerApps 포털 관리 센터의 **포털 세부 정보** 탭에서 변경할 수 있습니다. 그러나 상태 값은 구성되지 않음으로 되돌릴 수 없습니다.
+> - **응용 프로그램** 탭의 포털 상태는 프로비저닝 상태를 나타내지 않으며 포털의 기능에 영향을 미치지 않는다는 점에 유의해야 합니다. 해당 포털에 대한 PowerApps 포털 관리 센터에 액세스한 적이 있는지 여부를 보여 줍니다.
 
 포털이 올바르게 프로비저닝되지 않으면 오류 상태가 되고 다음 화면이 표시됩니다. 이 경우 오류 화면에서 **포털 다시 설정**을 선택하여 포털을 다시 설정할 수도 있습니다.
 
 > [!div class=mx-imgBorder]
-> ![포털을 프로비저닝하는 동안 오류](../media/provision-portal-error.png "포털을 프로비저닝하는 동안 오류")
+> ![포털을 프로비저닝하는 중 오류](../media/provision-portal-error.png "포털을 프로비저닝하는 중 오류")
 
 ## <a name="troubleshooting"></a>문제 해결
 
@@ -51,17 +53,17 @@ ms.reviewer: null
 
 ### <a name="reset-request-could-not-be-submitted"></a>다시 설정 요청을 제출할 수 없음
 
-포털 다시 설정 요청을 제출할 수 없는 경우 다음 이미지와 같이 오류가 표시됩니다. 이 경우에는 포털 관리 센터를 닫았다가 다시 열어야 하며 포털 다시 설정을 다시 시도하십시오. 문제가 지속되면 Microsoft 지원팀에 문의하십시오.
+포털 다시 설정 요청을 제출할 수 없는 경우 다음 이미지와 같이 오류가 표시됩니다. 이 경우에는 PowerApps 포털 관리 센터를 닫았다가 다시 열어야 하며 포털 재설정을 다시 시도하십시오. 문제가 지속되면 Microsoft 지원팀에 문의하십시오.
 
 > [!div class=mx-imgBorder]
-> ![포털을 다시 설정하는 동안 오류](../media/reset-portal-request-error.png "포털을 다시 설정하는 동안 오류")
+> ![포털을 재설정하는 중 오류](../media/reset-portal-request-error.png "포털을 재설정하는 중 오류")
 
 ### <a name="reset-portal-job-fails"></a>포털 다시 설정 작업 실패
 
 포털 다시 설정 작업이 실패하는 경우 **포털 다시 설정** 작업과 함께 오류 메시지가 표시됩니다.
 
 > [!div class=mx-imgBorder]
-> ![포털을 다시 설정하는 동안 오류](../media/reset-portal-error.png "포털을 다시 설정하는 동안 오류")
+> ![포털을 재설정하는 중 오류](../media/reset-portal-error.png "포털을 재설정하는 중 오류")
 
 일반적으로 이는 일시적인 오류이므로 **포털 다시 설정**을 선택하여 작업을 다시 시작해야 합니다. 문제가 지속되면 Microsoft 지원팀에 문의하십시오.
 

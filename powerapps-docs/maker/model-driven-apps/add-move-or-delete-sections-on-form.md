@@ -1,5 +1,5 @@
 ---
-title: '양식 디자이너를 사용하여 양식에 섹션 추가, 구성, 이동 또는 삭제 | MicrosoftDocs'
+title: 양식 디자이너를 사용하여 양식에 섹션 추가, 구성, 이동 또는 삭제 | MicrosoftDocs
 ms.custom: ''
 ms.date: 08/26/2019
 ms.reviewer: ''
@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 38607e27fea1c926b6cbc81471113e2b49258921
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2701494"
 ---
-
 # <a name="add-configure-move-or-delete-sections-on-a-form"></a>양식의 섹션 추가, 구성, 이동 또는 삭제 
 양식 디자이너를 사용하여 양식에 섹션을 추가, 구성, 이동 또는 삭제합니다. 
 
@@ -30,7 +35,7 @@ search.app:
 양식에 섹션을 추가하려면 **구성 요소** 창을 사용합니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/FormDesignerComponentsLayout.png "레이아웃 구성 요소")
+> ![](media/FormDesignerComponentsLayout.png "Layout components")
 
   > [!NOTE]
   >   섹션은 기본 양식 및 빠른 보기 양식에만 추가할 수 있습니다. 추가 정보: [양식 유형](types-forms.md)

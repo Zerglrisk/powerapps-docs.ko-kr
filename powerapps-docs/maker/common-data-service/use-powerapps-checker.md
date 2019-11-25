@@ -9,12 +9,17 @@ ms.topic: article
 ms.date: 07/09/2019
 ms.author: matp
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: c42dfe260fd77f40cd3046f754177838b17eefc2
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758872"
 ---
-
 # <a name="use-solution-checker-to-validate-your-model-driven-apps-in-powerapps"></a>솔루션 검사기를 사용하여 PowerApps에서 모델 기반 앱의 유효성 검사
 
 복잡한 비즈니스 요구 사항을 제공하기 위해 모델 기반 앱 제작자는 종종 Common Data Service 플랫폼을 사용자 지정하고 확장하는 고도의 솔루션으로 끝날 수 있습니다. 고급 구현에서는 성능, 안정성 및 안정성 문제가 도입되어 사용자 환경에 부정적인 영향을 줄 수 있는 위험이 증가합니다. 이러한 문제를 해결하는 방법을 확인하고 이해하는 것은 복잡하고 시간이 많이 걸릴 수 있습니다. 솔루션 검사 기능을 사용하면 모범 사례 규칙 세트에 따라 솔루션에 대한 풍부한 정적 분석 검사를 수행하고 이러한 문제 패턴을 신속하게 식별할 수 있습니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
@@ -34,7 +39,7 @@ search.app:
 ## <a name="enable-the-solution-checker"></a>솔루션 검사 사용
 솔루션 검사기는 모든 Common Data Service 환경에서 기본적으로 활성화되어 있습니다. **솔루션 검사기** 메뉴 항목은 PowerApps의 **솔루션** 영역에서 관리되지 않는 솔루션을 선택하면 사용할 수 있습니다. **솔루션 검사기** 메뉴에서 **실행** 옵션을 사용할 수 없는 경우 PowerApps 검사기 솔루션을 설치하여 활성화할 수 있습니다. 이를 설치하려면 다음 단계를 수행합니다.   
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다.
 3. 도구 모음에서 **솔루션 검사기**를 선택하고 **설치**를 선택하여 Microsoft AppSource 페이지를 엽니다. 브라우저에서 페이지가 열리지 않도록 차단하는 경우 팝업 창을 허용해야 합니다. 
 
@@ -61,12 +66,12 @@ When you install the PowerApps checker these solution specific components are cr
 ## <a name="run-the-solution-checker"></a>솔루션 검사 실행
 환경에 PowerApps 검사기를 설치한 후에는 PowerApps의 **솔루션** 영역에서 비관리형 솔루션을 선택하면 **솔루션 검사기** 메뉴 항목을 사용할 수 있습니다. 
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다. 
 3. 분석하려는 비관리형 솔루션 옆, **...** 을 클릭하고 **솔루션검사기**를 가리킨 다음 **실행**을 선택합니다. 
 
    > [!div class="mx-imgBorder"]
-   > ![솔루션 검사기 명령 실행](media/solution-checker-run.png "솔루션 검사기 명령 실행")
+   > ![솔루션 검사기 명령](media/solution-checker-run.png "솔루션 검사기 명령")
 
 4.  **솔루션** 페이지의 오른쪽 위에 있는 상태 창에는 **솔루션 검사 실행**이 표시 됩니다. 
 
@@ -110,7 +115,7 @@ When you install the PowerApps checker these solution specific components are cr
 3. 문제를 선택하여 해결 방법에 대한 세부 사항 및 지침을 봅니다.
 
     > [!div class="mx-imgBorder"] 
-    > ![](media/solution-checker-viewresults.png "솔루션 검사기 보기 결과")
+    > ![](media/solution-checker-viewresults.png "Solution checker view results")
 
 솔루션 검사 결과를 다운로드할 수도 있습니다. 솔루션 검사기 zip 파일은 웹 브라우저에서 지정한 폴더로 다운로드됩니다. 다운로드 보고서는 [!INCLUDE [pn-excel-short](../../includes/pn-excel-short.md)] 형식이며 솔루션에서 감지된 각 문제의 영향, 유형 및 위치를 식별하는 데 도움이 되는 여러 시각화 및 열이 포함되어 있습니다. 이 문제를 해결하는 방법에 대한 자세한 지침에 대한 링크가 제공됩니다. 
 
@@ -140,40 +145,40 @@ When you install the PowerApps checker these solution specific components are cr
 
 |솔루션 구성 요소  |규칙 이름  |규칙 설명  |
 |---------|---------|---------|
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-지정-열](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-specify-column&client=PAChecker&source=featuredocs)  | Common Data Service 쿼리 API를 통해 모든 열을 선택하지 마십시오.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타 제거 dup-reg](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-dup-reg&client=PAChecker&source=featuredocs)     | 중복 Common Data Service 플러그 인 등록을 피하십시오.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-턴-오프-keepalive](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-turn-off-keepalive&client=PAChecker&source=featuredocs)   | Common Data Service 플러그 인에서 외부 호스트와 상호 작용할 때 KeepAlive를 false로 설정합니다.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-unpub-메타 데이터](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-unpub-metadata&client=PAChecker&source=featuredocs)   | 게시되지 않은 Common Data Service 메타데이터를 검색하지 마십시오.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-배치 플러그 인](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-batch-plugin&client=PAChecker&source=featuredocs)   | Common Data Service 플러그 인 및 워크플로 작업에서 batch 요청 유형을 사용하지 마십시오.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-reg-no-속성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-no-attribute&client=PAChecker&source=featuredocs)  | Common Data Service 플러그 인 등록에 필터링 특성을 포함하십시오.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-회피-reg-검색](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-retrieve&client=PAChecker&source=featuredocs)  | Retrieve 및 RetrieveMultiple 메시지에 등록된 Common Data Service 플러그 인을 주의하여 사용하십시오.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-제거-비활성](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-inactive&client=PAChecker&source=featuredocs)    | Common Data Service에서 비활성 구성을 제거합니다.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-메타-방지-crm2011-depr-메시지](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-crm2011-depr-message&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 사용되지 않는 메시지를 사용해서는 안됩니다.     |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-crm4-이벤트](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-crm4-event&client=PAChecker&source=featuredocs) | Microsoft Dynamics CRM 4.0 플러그 인 등록 스테이지를 사용하지 마십시오.    |
-|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-전문화된 업데이트-ops](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-specialized-update-ops&client=PAChecker&source=featuredocs)  | Common Data Service에서 특수화된 업데이트 작업 요청을 사용하지 마십시오.    | 
-| 플러그 인 또는 사용자 지정 워크플로 활동 |  [il-use-autonumber-feature](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-use-autonumber-feature&client=PAChecker)  |사용자 지정 자동 번호 매기기 솔루션 대신 자동 번호 기능을 사용하십시오. | 
-| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-parallel-plugin](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-parallel-plugin&client=PAChecker)  | 병렬 패턴의 사용은 플러그 인 내에서 피해야 합니다.  |
-| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-lock-plugin](http://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-lock-plugin&client=PAChecker)  | 플러그 인에서 정적 멤버를 잠그지 마십시오.  |
-| 플러그 인 또는 사용자 지정 워크플로 활동  | [meta-avoid-retrievemultiple-annotation](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-retrievemultiple-annotation&client=PAChecker)  | 주석의 RetrieveMultiple에 플러그 인을 등록하지 마십시오.  |
-|웹 리소스  | [웹-사용-async](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-async&client=PAChecker&source=featuredocs)  |  비동기적으로 HTTP 및 HTTPS 리소스와 상호작용 합니다.   |
-|웹 리소스  | [메타-제거-잘못된 양식-처리기](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-invalid-form-handler&client=PAChecker&source=featuredocs)  | 유효하지 않은 Common Data Service 양식 이벤트 등록을 수정 또는 제거하십시오.   |
-|웹 리소스  | [메타-분리-고아-양식-요소](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-orphaned-form-element&client=PAChecker&source=featuredocs)  | 분리된 Common Data Service 양식 이벤트 등록을 수정 또는 제거하십시오.   |
-|웹 리소스  | [웹-방지-modals](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-modals&client=PAChecker&source=featuredocs)  | 모달 대화 상자를 사용하지 마십시오.   |
-|웹 리소스  | [웹-방지-crm2011-서비스-odata](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-odata&client=PAChecker&source=featuredocs)   | Microsoft Dynamics CRM 2011 OData 2.0 끝점을 대상으로 지정하지 마십시오.     |
-|웹 리소스  | [웹-방지-crm2011-서비스-soap](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-soap&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 SOAP 서비스를 대상으로 지정하지 마십시오.   |
-|웹 리소스  | [웹-방지-브라우저-전용-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-browser-specific-api&client=PAChecker&source=featuredocs) | Internet Explorer 레거시 API 또는 브라우저 플러그 인을 사용하지 마십시오.   |
-|웹 리소스  | [웹-방지-2011-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-2011-api&client=PAChecker&source=featuredocs)  | 사용되지 않는 Microsoft Dynamics CRM 2011 개체 모델을 사용해서는 안 됩니다.  |
-|웹 리소스  | [웹-사용-상대-uri](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-relative-uri&client=PAChecker&source=featuredocs)   | 절대 Common Data Service 끝점 URL을 사용하지 마십시오.    |
-|웹 리소스  | [웹-사용-클라이언트-컨텍스트](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-client-context&client=PAChecker&source=featuredocs)  | 클라이언트 컨텍스트를 사용하십시오.   |
-|웹 리소스  | [웹-사용-대화-api-변수](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-dialog-api-param&client=PAChecker&source=featuredocs)   | 대화 상자 API 매개 변수를 사용합니다.   |
-|웹 리소스  | [웹-사용-조직-설정](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-org-setting&client=PAChecker&source=featuredocs)   | 조직 설정을 사용하십시오.   |
-|웹 리소스  | [web-use-grid-api](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-grid-api&client=PAChecker&source=featuredocs)   | grid API를 사용하십시오.    |
-|웹 리소스  | [web-avoid-isActivityType](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-isActivityType&client=PAChecker&source=featuredocs)   | Xrm.Utility.isActivityType 매서드를 새로운 Xrm.Utility.getEntityMetadata로 대체하고 리본 규칙에서 사용하지 마십시오.    |
-|웹 리소스  | [meta-avoid-silverlight](http://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-silverlight&client=PAChecker&source=featuredocs)   | Silverlight 웹 리소스 사용은 더 이상 사용되지 않습니다.   |
-| 웹 리소스  | [web-remove-debug-script](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-remove-debug-script&client=PAChecker)  | 비 개발 환경에서 디버그 스크립트를 포함하지 마십시오.  | 
-| 웹 리소스  | [web-use-strict-mode](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-mode&client=PAChecker)  | 가능한 경우 엄격 모드를 사용하십시오.  | 
-| 웹 리소스  | [web-use-strict-equality-operators](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-equality-operators&client=PAChecker)  | 완전 항등 연산자를 사용하십시오.  | 
-| 웹 리소스  | [web-avoid-eval](http://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-eval&client=PAChecker)  | 'eval' 함수 또는 해당 기능을 사용하지 마십시오.  | 
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-지정-열](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-specify-column&client=PAChecker&source=featuredocs)  | Common Data Service 쿼리 API를 통해 모든 열을 선택하지 마십시오.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타 제거 dup-reg](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-dup-reg&client=PAChecker&source=featuredocs)     | 중복 Common Data Service 플러그 인 등록을 피하십시오.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-턴-오프-keepalive](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-turn-off-keepalive&client=PAChecker&source=featuredocs)   | Common Data Service 플러그 인에서 외부 호스트와 상호 작용할 때 KeepAlive를 false로 설정합니다.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-unpub-메타 데이터](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-unpub-metadata&client=PAChecker&source=featuredocs)   | 게시되지 않은 Common Data Service 메타데이터를 검색하지 마십시오.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-배치 플러그 인](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-batch-plugin&client=PAChecker&source=featuredocs)   | Common Data Service 플러그 인 및 워크플로 작업에서 batch 요청 유형을 사용하지 마십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-reg-no-속성](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-no-attribute&client=PAChecker&source=featuredocs)  | Common Data Service 플러그 인 등록에 필터링 특성을 포함하십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-회피-reg-검색](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-reg-retrieve&client=PAChecker&source=featuredocs)  | Retrieve 및 RetrieveMultiple 메시지에 등록된 Common Data Service 플러그 인을 주의하여 사용하십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-제거-비활성](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-inactive&client=PAChecker&source=featuredocs)    | Common Data Service에서 비활성 구성을 제거합니다.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-메타-방지-crm2011-depr-메시지](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-crm2011-depr-message&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 사용되지 않는 메시지를 사용해서는 안 됩니다.     |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [메타-방지-crm4-이벤트](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-crm4-event&client=PAChecker&source=featuredocs) | Microsoft Dynamics CRM 4.0 플러그 인 등록 스테이지를 사용하지 마십시오.    |
+|플러그 인 또는 사용자 지정 워크플로 활동   | [il-방지-전문화된 업데이트-ops](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-specialized-update-ops&client=PAChecker&source=featuredocs)  | Common Data Service에서 특수화된 업데이트 작업 요청을 사용하지 마십시오.    | 
+| 플러그 인 또는 사용자 지정 워크플로 활동 |  [il-use-autonumber-feature](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-use-autonumber-feature&client=PAChecker)  |사용자 지정 자동 번호 매기기 솔루션 대신 자동 번호 기능을 사용하십시오. | 
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-parallel-plugin](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-parallel-plugin&client=PAChecker)  | 병렬 패턴의 사용은 플러그 인 내에서 피해야 합니다.  |
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [il-avoid-lock-plugin](https://go.microsoft.com/fwlink/?LinkID=398563&error=il-avoid-lock-plugin&client=PAChecker)  | 플러그 인에서 정적 멤버를 잠그지 마십시오.  |
+| 플러그 인 또는 사용자 지정 워크플로 활동  | [meta-avoid-retrievemultiple-annotation](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-retrievemultiple-annotation&client=PAChecker)  | 주석의 RetrieveMultiple에 플러그 인을 등록하지 마십시오.  |
+|웹 리소스  | [웹-사용-async](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-async&client=PAChecker&source=featuredocs)  |  비동기적으로 HTTP 및 HTTPS 리소스와 상호작용 합니다.   |
+|웹 리소스  | [메타-제거-잘못된 양식-처리기](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-invalid-form-handler&client=PAChecker&source=featuredocs)  | 유효하지 않은 Common Data Service 양식 이벤트 등록을 수정 또는 제거하십시오.   |
+|웹 리소스  | [메타-분리-고아-양식-요소](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-remove-orphaned-form-element&client=PAChecker&source=featuredocs)  | 분리된 Common Data Service 양식 이벤트 등록을 수정 또는 제거하십시오.   |
+|웹 리소스  | [웹-방지-modals](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-modals&client=PAChecker&source=featuredocs)  | 모달 대화 상자를 사용하지 마십시오.   |
+|웹 리소스  | [웹-방지-crm2011-서비스-odata](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-odata&client=PAChecker&source=featuredocs)   | Microsoft Dynamics CRM 2011 OData 2.0 끝점을 대상으로 지정하지 마십시오.     |
+|웹 리소스  | [웹-방지-crm2011-서비스-soap](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-crm2011-service-soap&client=PAChecker&source=featuredocs)  | Microsoft Dynamics CRM 2011 SOAP 서비스를 대상으로 지정하지 마십시오.   |
+|웹 리소스  | [웹-방지-브라우저-전용-api](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-browser-specific-api&client=PAChecker&source=featuredocs) | Internet Explorer 레거시 API 또는 브라우저 플러그 인을 사용하지 마십시오.   |
+|웹 리소스  | [웹-방지-2011-api](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-2011-api&client=PAChecker&source=featuredocs)  | 사용되지 않는 Microsoft Dynamics CRM 2011 개체 모델을 사용해서는 안 됩니다.  |
+|웹 리소스  | [웹-사용-상대-uri](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-relative-uri&client=PAChecker&source=featuredocs)   | 절대 Common Data Service 끝점 URL을 사용하지 마십시오.    |
+|웹 리소스  | [웹-사용-클라이언트-컨텍스트](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-client-context&client=PAChecker&source=featuredocs)  | 클라이언트 컨텍스트를 사용하십시오.   |
+|웹 리소스  | [웹-사용-대화-api-변수](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-dialog-api-param&client=PAChecker&source=featuredocs)   | 대화 상자 API 매개 변수를 사용합니다.   |
+|웹 리소스  | [웹-사용-조직-설정](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-org-setting&client=PAChecker&source=featuredocs)   | 조직 설정을 사용하십시오.   |
+|웹 리소스  | [web-use-grid-api](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-grid-api&client=PAChecker&source=featuredocs)   | grid API를 사용하십시오.    |
+|웹 리소스  | [web-avoid-isActivityType](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-isActivityType&client=PAChecker&source=featuredocs)   | Xrm.Utility.isActivityType 매서드를 새로운 Xrm.Utility.getEntityMetadata로 대체하고 리본 규칙에서 사용하지 마십시오.    |
+|웹 리소스  | [meta-avoid-silverlight](https://go.microsoft.com/fwlink/?LinkID=398563&error=meta-avoid-silverlight&client=PAChecker&source=featuredocs)   | Silverlight 웹 리소스 사용은 더 이상 사용되지 않습니다.   |
+| 웹 리소스  | [web-remove-debug-script](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-remove-debug-script&client=PAChecker)  | 비 개발 환경에서 디버그 스크립트를 포함하지 마십시오.  | 
+| 웹 리소스  | [web-use-strict-mode](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-mode&client=PAChecker)  | 가능한 경우 엄격 모드를 사용하십시오.  | 
+| 웹 리소스  | [web-use-strict-equality-operators](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-use-strict-equality-operators&client=PAChecker)  | 완전 항등 연산자를 사용하십시오.  | 
+| 웹 리소스  | [web-avoid-eval](https://go.microsoft.com/fwlink/?LinkID=398563&error=web-avoid-eval&client=PAChecker)  | 'eval' 함수 또는 해당 기능을 사용하지 마십시오.  | 
 
 
 ### <a name="see-also"></a>참조

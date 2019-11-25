@@ -1,5 +1,5 @@
 ---
-title: '양식의 구성 요소 추가, 구성, 이동 또는 삭제 | MicrosoftDocs'
+title: 양식의 구성 요소 추가, 구성, 이동 또는 삭제 | MicrosoftDocs
 ms.custom: ''
 ms.date: 08/26/2019
 ms.reviewer: ''
@@ -8,21 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: a40b0b9e5fc64856be931a2407a451c8d27ef8ec
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2702374"
 ---
-
 # <a name="add-configure-move-or-delete-components-on-a-form"></a>양식의 구성 요소 추가, 구성, 이동 또는 삭제  
 제조업체는 양식 디자이너를 사용하여 [하위 표](form-designer-add-configure-subgrid.md), [빠른 보기](form-designer-add-configure-quickview.md), 호 노브, 선형 슬라이더 등 인기 있는 구성 요소를 쉽게 추가하고 구성할 수 있습니다.
 
@@ -30,7 +35,7 @@ search.app:
 양식에 구성 요소를 추가하려면 **구성 요소** 창을 사용합니다. **구성 요소** 창을 통해 구성 요소를 빠르게 찾을 수 있습니다.  
 
 > [!div class="mx-imgBorder"] 
-> ![](media/FormDesignerComponentsPane.PNG "구성 요소 창")
+> ![](media/FormDesignerComponentsPane.PNG "Components pane")
 
 ### <a name="add-components-to-a-form-using-drag-and-drop"></a>끌어서 놓기를 사용하여 양식에 구성 요소 추가
 > [!NOTE]

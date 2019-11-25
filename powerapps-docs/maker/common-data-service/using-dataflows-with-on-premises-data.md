@@ -9,20 +9,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
-ms.assetid: null
-caps.latest.revision: null
+ms.assetid: ''
+caps.latest.revision: ''
 ms.author: matp
 manager: kvivek
-tags: null
+tags: ''
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 4a47f082520b4680c9045209f85c26beb3586875
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752245"
 ---
 # <a name="using-an-on-premises-data-gateway-in-power-platform-dataflows"></a>Power Platform 데이터 흐름에서 온-프레미스 데이터 게이트웨이 사용
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
@@ -46,7 +52,7 @@ search.app:
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
--   PowerApps 계정. 계정이 없으신가요? [30일 무료 평가판에 등록하세요](https://docs.microsoft.com/en-us/powerapps/maker/signup-for-powerapps).
+-   PowerApps 계정. 계정이 없으신가요? [30일 무료 평가판에 등록하세요](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps).
 
 -   게이트웨이에 대한 관리 권한. 이러한 권한은 기본적으로 설치한 게이트웨이에 제공됩니다. 관리자는 다른 사람에게 게이트웨이에 대한 권한을 부여할 수 있습니다. 
 
@@ -55,11 +61,11 @@ search.app:
 -   게이트웨이와 온-프레미스 연결은 사용자의 기본 환경에서만 만들고 사용할 수 있습니다. 추가 정보: [환경 및 Microsoft PowerApps에서 작업](../canvas-apps/working-with-environments.md).
 
 ## <a name="install-a-gateway"></a>게이트웨이 설치
-1.  [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서 **게이트웨이**를 선택합니다.
+1.  [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서 **게이트웨이**를 선택합니다.
 
     ![왼쪽 탐색 모음의 게이트웨이](media/nav-pane-gateways.png)
 
-2.  목록에서 게이트웨이를 선택하십시오. 게이트웨이에 대한 관리 권한이 없는 경우 [지금 게이트웨이 설치](http://go.microsoft.com/fwlink/?LinkID=820931)를 선택한 다음 마법사의 지시를 따릅니다.
+2.  목록에서 게이트웨이를 선택하십시오. 게이트웨이에 대한 관리 권한이 없는 경우 [지금 게이트웨이 설치](https://go.microsoft.com/fwlink/?LinkID=820931)를 선택한 다음 마법사의 지시를 따릅니다.
 
      ![게이트웨이 설치](media/install-gateway-now.png)
 
@@ -81,7 +87,7 @@ search.app:
 
 
 ## <a name="view-and-manage-gateway-permissions"></a>게이트웨이 권한 보기 및 관리
-1.  [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서 **게이트웨이**를 선택한 다음 원하는 게이트웨이를 선택하십시오.
+1.  [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서 **게이트웨이**를 선택한 다음 원하는 게이트웨이를 선택하십시오.
 
 2.  게이트웨이에 사용자를 추가하려면 **사용자**를 선택하고 사용자 또는 그룹을 지정한 다음 권한 수준을 지정하십시오.
 

@@ -3,42 +3,47 @@ title: PowerApps의 앱 디자이너를 사용하여 모델 기반 앱 만들기
 description: 앱 디자이너를 사용하여 앱을 만들거나 편집하는 방법 알아보기
 keywords: ''
 ms.date: 02/05/2019
-ms.service: crm-online
-ms.custom: null
+ms.service: powerapps
+ms.custom: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 2a44229e-44f0-4c4e-ba21-a476210d0a12
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 caps.latest.revision: 19
 topic-status: Drafting
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: fb852ce8b6137d16eb8544da4eb6c9b92c12e29e
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759299"
 ---
-
 # <a name="create-a-model-driven-app-by-using-the-app-designer"></a>앱 디자이너를 사용하여 모델 기반 앱 만들기
 
 이 항목에서는 타일 기반 앱 디자이너를 사용하여 모델 기반 앱을 만들고 편집하는 방법에 대한 기본 사항을 배웁니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 앱 만들기를 시작하기 전에 다음 필수 구성 요소를 확인합니다.
-- PowerApps 환경입니다. 추가 정보: [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)
+- PowerApps 환경. 추가 정보: [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)
 - 시스템 관리자 또는 시스템 사용자 지정자 보안 역할입니다. 추가 정보: [미리 정의된 보안 역할 정보](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app#about-predefined-security-roles)
  
 <a name="createApp"></a>   
 ## <a name="create-an-app"></a>앱 만들기  
 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) **홈** 페이지에서 모델 기반 앱의 **새 모델 기반 앱** 옵션을 선택합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) **홈** 페이지에서 모델 기반 앱의 **새 모델 기반 앱** 옵션을 선택합니다.  
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다. 
@@ -61,7 +66,7 @@ search.app:
       > [!NOTE]
       > 사이트 맵을 추가할 때 **기본 솔루션**을 선택하면 해당 사이트 맵과 연결된 구성 요소가 앱에 자동으로 추가됩니다.  
 
-      ![기존 솔루션을 사용하여 앱 페이지 만들기](media/use-existing-solution-to-create-the-app.png "기존 솔루션을 사용하여 앱 페이지 만들기") 
+      ![기존 솔루션을 사용하여 앱 페이지 만들기](media/use-existing-solution-to-create-the-app.png "기존 솔루션을 사용하여 앱 만들기") 
 
     - **시작 페이지 선택**: 이 옵션을 사용하여 조직에서 사용할 수 있는 웹 리소스를 선택할 수 있습니다. 사용자가 만든 시작 페이지에는 비디오 링크, 업그레이드 지침 또는 시작 정보 등의 유용한 정보가 포함될 수 있습니다. 시작 페이지는 앱을 열 때 표시됩니다. 사용자는 다음에 앱이 시작될 때 표시되지 않도록 페이지를 비활성화하기 위해 시작 페이지에서 **다음에 이 시작 화면을 표시 안 함**을 선택할 수 있습니다. **다음에 이 시작 화면을 표시 안 함** 옵션은 사용자 수준 설정이므로 관리자나 앱 제작자가 제어할 수 없습니다. 시작 페이지로 사용할 수 있는 HTML 파일과 같은 웹 리소스를 만드는 방법에 대한 자세한 내용은 [웹 리소스를 만들고 편집하여 웹 응용 프로그램 확장](create-edit-web-resources.md)을 참조하십시오.  
       
@@ -77,7 +82,7 @@ search.app:
 <a name="editApp"></a>   
 ## <a name="edit-an-app"></a>앱 편집  
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 > [!IMPORTANT]
 > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다. 

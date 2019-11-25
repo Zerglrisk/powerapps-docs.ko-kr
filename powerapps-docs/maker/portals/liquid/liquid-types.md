@@ -5,12 +5,17 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: dd6da4788f6563c2026f57914c8156caedfadad3
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2708094"
 ---
-
 # <a name="available-liquid-types"></a>사용 가능한 유동 유형
 
 유동 개체는 **문자열**, **숫자**, **부울**, **배열**, **사전**, **날짜/시간**, 또는 **Null**의 7가지 기본 형식 중 하나를 반환할 수 있습니다. 유동 변수는 **할당** 또는 **캡처** 태그를 사용하여 초기화할 수 있습니다.

@@ -8,21 +8,27 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: 99c795e0-9165-4112-85b1-6b5e1a4aa5ec
 caps.latest.revision: 33
 ms.author: matp
 manager: kvivek
 author: Mattp123
 tags:
-  - Links to topic not migrated
+- Links to topic not migrated
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3e3a3e8bd5527f9707849bf1b54247605d447469
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2704574"
 ---
 # <a name="create-and-design-model-driven-app-forms"></a>모델 기반 앱 양식 만들기 및 디자인 
 
@@ -61,7 +67,7 @@ PowerApps은 양식을 디자인하는 여러 옵션을 제공합니다. 통합 
 3. **구성 요소** 탭에서 앱에 포함된 기본 양식을 확인합니다. 표시하려는 양식이 선택되어 있는지 확인합니다. 그렇지 않은 경우에는 선택하고 저장한 다음 앱을 게시합니다.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/forms-included-in-app.png "앱에 포함된 양식")
+   > ![](media/forms-included-in-app.png "Forms included with app")
    
 ### <a name="why-isnt-my-form-displayed-as-the-default-form-in-the-app"></a>양식이 앱에서 기본 양식으로 표시되지 않는 이유는 무엇입니까?
 양식은 양식 순서 구성을 통해 기본 양식으로 설정하거나 사용자가 기본 양식을 개인 설정으로 설정할 때 사용할 수 있습니다.
@@ -69,12 +75,12 @@ PowerApps은 양식을 디자인하는 여러 옵션을 제공합니다. 통합 
 2. 도구 모음에서 **양식 주문** > **기본 양식 집합**을 선택합니다. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/form-order-toolbar.png "양식 순서 도구 모음 명령")
+   > ![](media/form-order-toolbar.png "Form Order toolbar command")
    
 3. 엔터티 양식 순서가 표시됩니다. 양식을 선택하고 위쪽 및 아래쪽 화살표를 사용하여 양식 주문 내에서 양식을 이동합니다. 목록 맨 위에 있는 양식이 기본 양식입니다. 
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/form-order-dialog.png "양식 주문 대화")
+   > ![](media/form-order-dialog.png "Form order dialog")
    
 4. **확인** 을 선택하여 양식 순서 변경 내용을 저장합니다.
 5. 양식 설계자 도구 모음에서 **게시** 를 선택하여 앱에서 양식 주문을 사용할 수 있도록 합니다.
@@ -83,7 +89,7 @@ PowerApps은 양식을 디자인하는 여러 옵션을 제공합니다. 통합 
 앱 사용자가 앱의 양식 선택기 드롭다운에서 양식 선택을 변경하면 해당 양식이 사용자의 기본 양식이 됩니다. 이 개인 설정은 앱의 엔터티에 대해 지정된 기본 양식을 다시 정의합니다.
 
    > [!div class="mx-imgBorder"] 
-   > ![](media/change-form-user-setting.png "기본 양식을 변경하는 사용자 설정")
+   > ![](media/change-form-user-setting.png "User setting to change default form")
    
 ### <a name="related-topics"></a>관련 항목  
     

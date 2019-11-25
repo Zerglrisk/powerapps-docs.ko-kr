@@ -3,30 +3,36 @@ title: PowerApps에서 모델 기반 앱 보기의 레코드 정렬 | MicrosoftD
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 25f5aa52-56dc-4be5-884e-9346616f665f
 caps.latest.revision: 25
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 7cd1e7b160550b877dd0ddd7a79b6babfbf56669
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752532"
 ---
 # <a name="sort-records-in-a-model-driven-app-view"></a>모델 기반 앱 보기의 레코드 정렬
 
  보기를 만들거나 편집할 때 오름차순이나 내림차순에 대한 정렬 순서를 구성할 수 있습니다.   
   
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
 2.  **데이터**를 확장하고 **엔터티**를 선택한 다음 **거래처**와 같은 원하는 엔터티를 선택합니다.   

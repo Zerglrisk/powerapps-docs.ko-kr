@@ -9,21 +9,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
-ms.assetid: null
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
+ms.assetid: ''
 caps.latest.revision: 11
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: b7aa64e5ecdc620b5f376601ffb826c3708f98d3
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752113"
 ---
-
 # <a name="virtual-entity-walkthrough-using-the-odata-v4-data-provider"></a>OData v4 데이터 공급자를 사용 는 가상 엔터티 연습
 
 모델 기반 앱 내에서 외부 데이터 원본의 티켓 정보에 액세스하려는 경우를 가정해 보겠습니다. 이 간단한 연습에서는 런타임에 OData 웹 서비스에서 티켓 데이터를 검색하는 외부 스키마에 매핑된 필드가 있는 가상 엔터티를 모델링합니다.
@@ -32,7 +37,7 @@ search.app:
 
 이 연습에 사용되는 데이터 원본에는 OData v4 웹 서비스가 있으므로 사용자 환경에 포함된 OData v4 데이터 공급자를 사용할 수 있습니다.
 
-웹 서비스 url: `http://contosowebservice.azurewebsites.net/odata/` 
+웹 서비스 url: `https://contosowebservice.azurewebsites.net/odata/` 
 
 > [!IMPORTANT]
 > 이 연습에 사용되는 웹 서비스 URL은 작동하는 웹 서비스가 아닙니다.
@@ -69,7 +74,7 @@ OASIS 개방형 데이터 프로토콜(OData) 샘플 웹 서비스를 사용하�
     |필드|값|
     |--|--|
     |**이름**|Contoso 예제 데이터 원본|
-    |**URL**|`http://contosowebservice.azurewebsites.net/odata` |
+    |**URL**|`https://contosowebservice.azurewebsites.net/odata` |
     |**시간 제한**|30|
     |**인라인 개수 반환**|True|
 

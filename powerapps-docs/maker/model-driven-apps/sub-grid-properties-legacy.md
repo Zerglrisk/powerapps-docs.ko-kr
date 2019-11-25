@@ -4,9 +4,9 @@ description: 기본 양식에 대한 하위 표 속성 이해
 Keywords: 기본 양식; 하위 표 속성; Dynamics 365
 author: Mattp123
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 06/07/2018
@@ -14,17 +14,23 @@ ms.service: powerapps
 ms.topic: article
 ms.assetid: 82892cd3-3436-4677-b96b-f2ccd0a4f078
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: a6bb86fde69554808f8cbf75f0366dc49ea485f4
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759695"
 ---
 # <a name="sub-grid-properties-for-model-driven-app-main-forms-overview"></a>모델 기반 앱 기본 양식에 대한 하위 표 속성 개요
 
 레코드 또는 차트의 목록을 표시하려면 양식에 하위 표를 구성할 수 있습니다. **표시** 탭에서 **차트만 표시**를 선택하여 목록 대신 차트를 표시합니다.  
 
 PowerApps 사이트에서 **하위 표 속성**에 액세스할 수 있습니다. 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
 
      ![모델 기반 디자인 모드](media/model-driven-switch.png)
 
@@ -59,7 +65,7 @@ PowerApps 사이트에서 **하위 표 속성**에 액세스할 수 있습니다
   
 
 ## <a name="show-list-behavior"></a>목록 표시 동작  
- [업데이트된 양식](main-form-presentations.md#updated-forms)을 사용하여 양식에 목록을 표시할 경우 각 하위 표는 엔터티도 양식 편집기의 탐색 영역에 포함되는 엔터티 중 하나로 표시되는 오른쪽 위에 **보기 열기** 단추 ![보기 열기 단추 ](media/crm-itpro-cust-openview.PNG "보기 열기 단추 ")를 표시합니다. 이 단추를 선택하면 보기가 열립니다. 동작은**레코드** 속성에서 선택한 옵션에 따라 변합니다.  
+ [업데이트된 양식](main-form-presentations.md#updated-forms)을 사용하여 양식에 목록을 표시할 경우 각 하위 표는 엔터티도 양식 편집기의 탐색 영역에 포함되는 엔터티 중 하나로 표시되는 오른쪽 위에 **보기 열기** 단추 ![보기 열기 단추](media/crm-itpro-cust-openview.PNG "보기 단추 열기")를 표시합니다. 이 단추를 선택하면 보기가 열립니다. 동작은**레코드** 속성에서 선택한 옵션에 따라 변합니다.  
   
  **관련 레코드만**을 선택하면 보기는 같은 창에서 관련 보기 중 하나를 사용하여 열립니다. 양식으로 돌아가려면 뒤로 단추를 사용하거나 탐색 모음에서 현재 레코드 기본 이름 값을 선택합니다.  
   

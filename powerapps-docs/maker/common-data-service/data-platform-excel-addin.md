@@ -9,18 +9,24 @@ ms.topic: conceptual
 ms.date: 05/21/2018
 ms.author: lanced
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: fa1602b59ed0fdfeec09a8bc7e5f1126249f071f
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757495"
 ---
 # <a name="open-entity-data-in-excel"></a>Excel에서 엔터티 데이터 열기
-Microsoft excel에서 엔터티 데이터를 열면 Microsoft PowerApps excel 추가 기능을 사용하여 쉽고 빠르게 데이터를 보고 편집할 수 있습니다. PowerApps Excel 추가 기능을 사용하려면 Microsoft Excel 2016이 필요합니다.
+Microsoft Excel에서 엔터티 데이터를 열면 Microsoft PowerApps Excel 추가 기능을 사용하여 쉽고 빠르게 데이터를 보고 편집할 수 있습니다. PowerApps Excel 추가 기능에는 Microsoft Excel 2016이 필요합니다.
 
 ![Excel 추가 기능](./media/data-platform-cds-excel-addin/ExcelAddin.png "PowerApps Excel 추가 기능")
 
 ## <a name="open-entity-data-in-excel"></a>Excel에서 엔터티 데이터 열기
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다. 모든 엔터티가 표시됩니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다. 모든 엔터티가 표시됩니다.
 2. 원하는 엔터티의 오른쪽에 있는 줄임표(...)를 클릭합니다.
 3. **Excel에서 열기**를 클릭한 다음 생성된 통합 문서를 엽니다. 이 통합 문서에는 엔터티에 대한 바인딩 정보, 사용자 환경에 대한 포인터 및 PowerApps Excel 추가 기능에 대한 포인터가 있습니다.  
 4. Excel에서 **편집 사용**을 클릭하여 PowerApps Excel 추가 기능을 실행할 수 있도록 설정합니다. Excel 추가 기능을 Excel 창의 오른쪽 창에서 실행됩니다.
@@ -79,5 +85,5 @@ Excel 추가 기능에서 엔터티 데이터를 통합 문서로 읽은 후에�
 * [엔터티의 필드 관리](data-platform-manage-fields.md)
 * [엔터티 간 관계 정의](data-platform-entity-lookup.md)
 * [Common Data Service를 사용하여 앱 생성](../canvas-apps/data-platform-create-app.md)
-* [Common Data Service를 사용하여 앱을 처음부터 새로 만들기](../canvas-apps/data-platform-create-app-scratch.md)
+* [Common Data Service를 사용하여 처음부터 앱 만들기](../canvas-apps/data-platform-create-app-scratch.md)
 

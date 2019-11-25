@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 7920ef78-2540-48ad-ba25-9ce9cb995ed1
 caps.latest.revision: 63
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: dc5f2c366d77ca49e5103c89d7114f1defd44b52
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752359"
 ---
 # <a name="additional-controls-for-dynamics-365-for-phones-and-tablets"></a>Dynamics 365 for phones 및 tablets 추가 컨트롤 
 
@@ -149,7 +155,7 @@ search.app:
  웹 사이트 미리 보기 컨트롤을 사용하여 URL 필드를 매핑하고 웹 사이트의 미리 보기를 표시합니다.  
   
 > [!IMPORTANT]
->  이 컨트롤을 활성화함으로써 사용자가 외부 시스템과 특정한 식별 가능한 장치 정보를 공유하는 것에 동의하는 것입니다. 외부 시스템에서 PowerApps 앱 또는 Dynamics 365 Sales 또는 Dynamics 365 Customer Service와 같은 Dynamics 365 앱으로 가져온 데이터는 [Microsoft 개인정보처리방침](http://go.microsoft.com/fwlink/p/?LinkId=521839)의 개인정보처리방침의 적용을 받습니다.  
+>  이 컨트롤을 활성화함으로써 사용자가 외부 시스템과 특정한 식별 가능한 장치 정보를 공유하는 것에 동의하는 것입니다. 외부 시스템에서 PowerApps 앱 또는 Dynamics 365 Sales 또는 Dynamics 365 Customer Service와 같은 Dynamics 365 앱으로 가져온 데이터는 [Microsoft 개인정보처리방침](https://go.microsoft.com/fwlink/p/?LinkId=521839)의 개인정보처리방침의 적용을 받습니다.  
 >   
 >  [개인정보취급방침](use-the-form-editor-legacy.md#BKMK_PrivacyNotices)  
   

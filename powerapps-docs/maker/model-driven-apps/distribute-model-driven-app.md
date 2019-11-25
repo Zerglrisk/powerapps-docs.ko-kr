@@ -4,28 +4,33 @@ description: 솔루션을 사용하여 모델 기반 앱을 배포하는 방법 
 keywords: ''
 ms.date: 08/06/2018
 ms.service: powerapps
-ms.custom: null
+ms.custom: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.assetid: e82e7f64-37ad-41e5-acd7-16309881c6a2
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 caps.latest.revision: 9
 topic-status: Drafting
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 72f5ad809983738526a03f306c3479f53745d991
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2755406"
 ---
-
 # <a name="distribute-a-model-driven-app-using-a-solution"></a>솔루션을 사용하여 모델 기반 앱 배포
 
 모델 기반 앱은 솔루션 구성 요소로 배포됩니다. 모델 기반 앱을 만든 후에는 앱을 솔루션에 패키징한 다음 zip 파일로 내보내는 방법으로 다른 환경에서 사용할 수 있습니다. 대상 환경에서 솔루션(.zip 파일)을 성공적으로 가져오면 패키지된 앱을 사용할 수 있습니다. 
@@ -33,7 +38,7 @@ search.app:
 ## <a name="add-an-app-to-a-solution"></a>솔루션에 앱 추가
 앱을 배포하려면 내보낼 앱을 패키지로 만들 수 있도록 솔루션을 만듭니다.
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2. **솔루션**을 선택한 다음 **새 솔루션**을 선택합니다.
 3. **새 솔루션** 페이지에서 필드를 완료한 다음 **저장**을 선택합니다. 추가 정보: [솔루션 만들기](../common-data-service/create-solution.md)
@@ -61,7 +66,7 @@ search.app:
 ## <a name="import-a-solution"></a>솔루션 가져오기  
 가져오려는 앱이 포함된 솔루션 zip 파일을 받으면 솔루션 구성 요소 페이지를 열고 솔루션을 가져옵니다. 솔루션을 성공적으로 가져오면 환경에서 앱을 사용할 수 있습니다.
 
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2. **솔루션**을 선택한 다음 도구 모음에서 **가져오기**를 선택합니다.
 3. 가져오려는 파일을 찾은 다음 **다음**을 선택합니다.

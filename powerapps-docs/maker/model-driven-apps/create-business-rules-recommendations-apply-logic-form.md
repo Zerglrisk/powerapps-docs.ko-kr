@@ -8,21 +8,27 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: 00e62904-2ce9-4730-a113-02b1fedbf22e
 caps.latest.revision: 31
 author: Mattp123
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3937b56ea5ed9aa03085f48de8f4846328d6e836
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2700570"
 ---
 # <a name="create-business-rules-and-recommendations-to-apply-logic-in-a-model-driven-app-form"></a>비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용
 
@@ -53,7 +59,7 @@ search.app:
   
 2.  비즈니스 규칙을 만들려는 엔터티(예를 들어 **거래처** 엔터티)를 열고 **비즈니스 규칙**을 두 번 클릭합니다.  
   
- ![기본 솔루션에서 비즈니스 규칙 만들기](media/create-business-rule-the-default-solution.png "기본 솔루션에서 비즈니스 규칙 만들기")  
+ ![기본 솔루션으로 비즈니스 규칙 만들기](media/create-business-rule-the-default-solution.png "기본 솔루션으로 비즈니스 규칙 만들기")  
   
 3.  **새로 만들기**를 선택합니다.  
   
@@ -93,7 +99,7 @@ search.app:
   
     1.  **구성 요소** 탭에서 작업 구성 요소를 끌어 **조건** 구성 요소 옆의 더하기 기호에 놓습니다. 조건이 충족될 때 비즈니스 규칙이 수행되도록 하려면 확인 표시 옆의 더하기 기호에 동작을 끌어놓습니다. 조건이 충족되지 않을 때 비즈니스 규칙이 수행되도록 하려면 x 옆의 더하기 기호에 놓습니다.  
   
-        ![비즈니스 규칙에 작업 끌어오기](media/drag-an-action-business-rule.png "비즈니스 규칙에 작업 끌어오기")  
+        ![비즈니스 규칙에 동작 끌어오기](media/drag-an-action-business-rule.png "비즈니스 규칙에 동작 끌어오기")  
   
     2.  동작의 속성을 설정하려면 디자이너 창의 **동작** 구성 요소를 클릭한 다음 **속성** 탭에서 속성을 설정합니다.  
   
@@ -143,12 +149,12 @@ search.app:
 4.  비즈니스 규칙 디자이너에서 각 조건 및 작업을 선택하여 각 조건 및 동작에서 참조되는 모든 필드를 확인합니다. 
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/business-rule-field.png "비즈니스 규칙에서 참조하는 필드가 엔터티에 존재")
+     > ![](media/business-rule-field.png "Field referenced in business rule exists in entity")
 
  5. 비즈니스 규칙에서 참조하는 각 필드가 양식에도 포함되어 있는지 확인합니다. 그렇지 않은 경우 양식에 누락된 필드를 추가합니다.
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/account-name-on-form.png "양식의 거래처 이름 필드")
+     > ![](media/account-name-on-form.png "Account name field on form")
 
 ## <a name="frequently-asked-questions-faq"></a>질문과 대답(FAQ)
 *비즈니스 규칙이 읽기 전용 양식의 필드를 잠금 해제할 수 있습니까?*

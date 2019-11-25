@@ -9,22 +9,27 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9a0a8ec96760c6816ea2b6caaf4bcc760b9852de
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757715"
 ---
-
 # <a name="create-many-to-many-entity-relationships-in-common-data-service-using-powerapps-portal"></a>PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 통해 Common Data Service에 대한 다대다 관계를 쉽게 만들고 편집할 수 있습니다.
+[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 통해 Common Data Service에 대한 다대다 엔터티 관계를 쉽게 만들고 편집할 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. 추가 정보: 
 - [N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships.md)
@@ -32,7 +37,7 @@ search.app:
 
 ## <a name="view-many-to-many-entity-relationships"></a>다대다 엔터티 관계 보기
 
-1. [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
+1. [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
 2. **데이터** > **엔터티**를 선택하고 보려는 관계가 있는 엔터티를 선택합니다.
 3. **관계** 탭을 선택한 상태에서 다음 보기를 선택할 수 있습니다. 
 
@@ -71,7 +76,7 @@ search.app:
 
 **확인**을 선택하여 **다대다** 패널을 닫습니다. 엔터티 변경 내용을 저장할 때 관계가 만들어집니다. 
 
-저장 된 후에는 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하여 변경할 수 있는 것이 없습니다. 모델 기반 앱에 대한 관계의 속성을 편집하려면 [솔루션 탐색기](create-edit-nn-relationships-solution-explorer.md)를 사용합니다.
+저장된 후에는 [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하여 변경할 수 있는 것이 없습니다. 모델 기반 앱에 대한 관계의 속성을 편집하려면 [솔루션 탐색기](create-edit-nn-relationships-solution-explorer.md)를 사용합니다.
 
 ## <a name="delete-relationships"></a>관계 삭제
 

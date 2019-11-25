@@ -1,6 +1,6 @@
 ---
-redirect_url: 'create-edit-entity-relationships#entity-relationship-behavior'
-title: 엔티티 관계 동작(Common Data Service) | Microsoft Docs
+redirect_url: create-edit-entity-relationships#entity-relationship-behavior
+title: 엔터티 관계 동작(Common Data Service) | Microsoft Docs
 description: <Description>
 ms.custom: ''
 ms.date: 08/01/2018
@@ -10,6 +10,12 @@ ms.topic: article
 author: Mattp123
 ms.author: matp
 manager: kvivek
+ms.openlocfilehash: f63c06af081478fc5263a8f14aefd1cf83f4f69f
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2705322"
 ---
 # <a name="entity-relationship-behavior"></a>엔터티 관계 동작
 

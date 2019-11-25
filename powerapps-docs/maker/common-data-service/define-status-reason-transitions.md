@@ -9,27 +9,32 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: dbc4f436-0b23-42f9-8079-b0de482aaebe
 caps.latest.revision: 11
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9fb1fc93b5559c47cebeef4fb73ebd095a48f0a5
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2705586"
 ---
-
 # <a name="define-status-reason-transitions-for-the-case-or-custom-entities"></a>서비스 케이스 또는 사용자 지정 엔터티에 대한 상태 설명 전환 정의
 
 인시던트(**서비스 케이스**) 엔터티 또는 사용자 지정 엔터티에 대한 상태 설명 전환을 지정할 수 있습니다.
 
 > [!NOTE]
-> 인시던트(케이스) 엔터티는 Common Data Service의 기본 환경에 포함되지 않지만 [Dynamics 365 for Customer Service](https://dynamics.microsoft.com/customer-service/)에 사용되고 [Common Data Model](https://github.com/Microsoft/CDM/blob/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Incident.cdm.json) 내에서 정의됩니다.
+> 인시던트(서비스 케이스) 엔터티는 기본 Common Data Service 환경에 포함되지 않지만 [Dynamics 365 for Customer Service](https://dynamics.microsoft.com/customer-service/)에서 사용되고 [Common Data Model](https://github.com/Microsoft/CDM/blob/master/schemaDocuments/core/applicationCommon/foundationCommon/crmCommon/service/Incident.cdm.json) 내에서 정의됩니다.
   
 상태 설명 전환은 각 상태 설명에 대해 변경될 수 있는 상태 설명 값을 정의하는 선택적인 추가 필터링 수준입니다. 제한된 올바른 옵션 목록을 정의하면 올바른 상태 설명 값의 조합을 많이 사용할 때 사람들이 레코드에 대해 올바른 다음 상태 설명을 쉽게 선택할 수 있습니다.  
   

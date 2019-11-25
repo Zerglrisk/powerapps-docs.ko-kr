@@ -8,19 +8,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: f06b8941-8dca-4601-b965-341cfb6fc3b2
 caps.latest.revision: 11
 ms.author: matp
 manager: kvivek
 author: Mattp123
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: e1b89a4f87938ac0147a6724e27441517728baef
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757847"
 ---
 # <a name="create-and-edit-global-option-sets-overview"></a>전역 옵션 집합 만들기 또는 편집 개요 
 
@@ -37,7 +43,7 @@ search.app:
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [옵션 집합 만들기](custom-picklists.md) |
+|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [옵션 집합 만들기](custom-picklists.md) |
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다. <br />추가 정보: [솔루션 탐색기를 사용하여 Common Data Service에 대한 전역 옵션 집합 만들기 및 편집](create-edit-global-option-sets-solution-explorer.md) |
 
 > [!NOTE]
@@ -47,7 +53,7 @@ search.app:
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 
-다음 요구 사항 중 하나를 해결 해야 하는 경우가 아니면 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하여 전역 옵션 집합을 작업해야 합니다.
+다음 요구 사항 중 하나를 해결 해야 하는 경우가 아니면 [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하여 전역 옵션 집합을 작업해야 합니다.
 
 - 옵션에 색상 할당
 - 옵션의 순서 변경

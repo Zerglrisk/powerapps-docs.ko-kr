@@ -5,15 +5,18 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: b361efd6a1f44485e9b7337e3e5b3a29c1a826d4
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2709634"
 ---
-
 # <a name="portal-checker"></a>포털 검사기
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 포털 검사기는 포털 관리자가 포털에서 일반적인 문제를 식별하는 데 사용할 수 있는 셀프 서비스 진단 도구입니다. 포털 검사기는 다양한 구성 매개 변수를 확인하여 포털과 관련된 문제를 식별하는 데 도움이 되며 이를 해결하는 방법에 대한 제안을 제공합니다.
 
@@ -31,14 +34,14 @@ ms.reviewer: null
 문제를 확장하여 자세한 정보 및 완화 단계를 볼 수 있습니다. 완화 조치가 필요한 경우 조치를 수행하는 단추가 표시됩니다. 완화가 유용한 지 여부에 대한 피드백을 제공할 수도 있습니다.
 
 > [!div class=mx-imgBorder]
-> ![진단 결과에서 문제 확장](../media/diagnostic-results-issue-expand.png "진단 결과에서 문제 확장")
+> ![진단 결과의 문제 확장](../media/diagnostic-results-issue-expand.png "진단 결과의 문제 확장")
 
 필요한 경우 업데이트된 데이터로 결과를 새로 고치는 진단 검사를 다시 실행할 수 있습니다.
 
 > [!NOTE]
 > 포털이 꺼져 있거나 IP 주소 필터링을 사용하는 경우 포털에서 특정 진단 검사가 실행되지 않습니다.
 
-포털 검사기 도구에서 진단되는 일반적인 문제 목록은 [포털 검사기로 진단되는 일반적인 포털 문제 및 모범 사례](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/portals/portal-faq)를 참조하십시오.
+포털 검사기 도구에서 진단되는 일반적인 문제 목록은 [포털 검사기로 진단되는 일반적인 포털 문제 및 모범 사례](https://docs.microsoft.com/dynamics365/customer-engagement/portals/portal-faq)를 참조하십시오.
 
 포털 검사기를 실행하려면:
 

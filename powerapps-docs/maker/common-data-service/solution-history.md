@@ -1,38 +1,43 @@
 ---
 title: 솔루션의 기록 보기 | MicrosoftDocs
 description: 솔루션의 기록을 보는 방법 알아보기
-keywords: null
+keywords: ''
 ms.date: 05/19/2019
 ms.service: powerapps
-ms.custom: null
+ms.custom: ''
 ms.topic: article
-ms.assetid: null
+ms.assetid: ''
 author: Mattp123
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
-caps.latest.revision: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
+caps.latest.revision: ''
 topic-status: Drafting
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 67239062f30efb80fb8ee416614c1088e20c4075
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2702198"
 ---
-
 # <a name="view-the-history-of-a-solution"></a>솔루션의 기록 보기
 모델 기반 앱의 **솔루션** 영역에서 솔루션 작업에 대한 세부 정보를 볼 수 있습니다. 작업은 솔루션 가져오기, 내보내기 또는 삭제일 수 있습니다. 솔루션 기록에는 솔루션 버전, 솔루션 게시자, 작업 유형, 작업 시작 및 종료 시간, 작업 상태와 같은 정보가 표시됩니다.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/solutions-history-custom-view.png "솔루션 기록 사용자 지정 보기")
+> ![](media/solutions-history-custom-view.png "Solutions history custom view")
 
 ## <a name="view-solution-history"></a>솔루션 기록 보기
 1. **설정**을 선택한 다음, **솔루션 기록**을 선택합니다.
 
      > [!div class="mx-imgBorder"] 
-     > ![](media/solution-history-sitemap.png "솔루션 기록 영역")
+     > ![](media/solution-history-sitemap.png "Solution History area")
 
      > [!NOTE]
      > PowerApps 통합 인터페이스 모델 기반 앱에서 **설정** 영역으로 이동하려면 앱 도구 모음에서 **설정** ![설정](../model-driven-apps/media/powerapps-gear.png)을 선택한 다음 **고급 설정**을 클릭합니다. 
@@ -57,15 +62,15 @@ search.app:
 솔루션 작업에 오류가 있는 경우 추가 오류 세부 정보가 포함된 페이지를 표시하도록 선택할 수 있습니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/solution-history-with-failure.png "작업 오류가 있는 솔루션 기록")
+> ![](media/solution-history-with-failure.png "Solution history with operation error")
 
 세부 정보 페이지에는 작업 실패에 대한 기본 원인을 진단하는 데 도움이 될 수 있는 **예외 메시지**를 포함한 정보가 포함되어 있습니다. 솔루션 종속성 오류를 비롯한 일부 오류에는 문제를 쉽게 진단 할 수 있는 **솔루션 계층** 에 대한 링크가 포함될 수도 있습니다. **활동 ID**는 Microsoft 고객 지원부에 문의해야 하는 경우 유용할 수 있습니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/solution-history-error-details.png "솔루션 작업 오류 세부 정보")
+> ![](media/solution-history-error-details.png "Solution operation error details")
 
 ### <a name="see-also"></a>참조
-[솔루션 레이어 보기](solution-layers.md)  <br />
+[솔루션 계층 보기](solution-layers.md)  <br />
 [솔루션 개요](solutions-overview.md) 
 
 

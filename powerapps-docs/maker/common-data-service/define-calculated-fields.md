@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 6d58a297-2ddf-4236-be3a-47249b49d5fa
 caps.latest.revision: 67
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: d4f66e3f047da19fd040cccdd3f9af2da913df09
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758771"
 ---
 # <a name="define-calculated-fields-to-automate-manual-calculations"></a>계산 필드를 정의하여 수동 계산 자동화
 
@@ -54,9 +60,9 @@ search.app:
 
 ## <a name="create-a-calculated-field"></a>계산 필드 만들기
 
-필드 편집기를 사용하여 계산 필드를 지정합니다. 이 예에서는 [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하지만 솔루션 탐색기를 사용하여 단계는 비슷합니다. 추가 정보: [필드 만들기 및 편집](create-edit-fields.md)
+필드 편집기를 사용하여 계산 필드를 지정합니다. 이 예에서는 [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하지만 솔루션 탐색기를 사용하는 것과 단계는 비슷합니다. 추가 정보: [필드 만들기 및 편집](create-edit-fields.md)
   
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 열기
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 열기
 1. **데이터** > **엔터티**를 확장합니다.  
 1. 원하는 엔터티를 선택하고 **필드**를 선택합니다. **필드 추가**를 선택합니다.  
 1. **표시 이름**, **이름** 및 **데이터 형식**을 포함한 필드에 필요한 정보를 제공합니다. 
@@ -228,4 +234,4 @@ search.app:
  
 [필드 만들기 및 편집](create-edit-fields.md)<br />
 [값을 집계하는 롤업 필드 정의](define-rollup-fields.md)<br />
-[비디오: 롤업 및 계산 필드](http://go.microsoft.com/fwlink/p/?LinkId=517727)
+[비디오: 롤업 및 계산 필드](https://go.microsoft.com/fwlink/p/?LinkId=517727)

@@ -9,18 +9,24 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
 author: Mattp123
 ms.assetid: fa04f99d-a5f9-48cb-8bfb-f0f50718ccee
 caps.latest.revision: 41
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: ba8fe12a9ecffa0ffb1116546d2bfe9ab2c62ac8
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758067"
 ---
 # <a name="create-and-edit-entities-in-common-data-service"></a>Common Data Service에서 엔터티 만들기 및 편집
 
@@ -30,7 +36,7 @@ search.app:
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: <br />[자습서: PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />[PowerApps 포털을 사용하여 엔터티 만들기 및 편집](create-edit-entities-portal.md)|
+|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: <br />[자습서: PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />[PowerApps 포털을 사용하여 엔터티 만들기 및 편집](create-edit-entities-portal.md)|
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다. <br />추가 정보 [솔루션 탐색기를 사용하여 엔터티 만들기 및 편집](create-edit-entities-solution-explorer.md)|
 
 > [!NOTE]
@@ -50,7 +56,7 @@ search.app:
 
 - 조직 담당 엔터티 만들기
 
-  기본적으로 PowerApps 포털은 **사용자 또는 팀** 소유 엔터티를 만듭니다. 솔루션 탐색기를 사용하여 **조직**에 소유권을 설정합니다. 추가 정보: [엔터티 소유권](types-of-entities.md#entity-ownership)
+  기본적으로 PowerApps 포털은 **사용자 또는 팀** 담당 엔터티를 만듭니다. 솔루션 탐색기를 사용하여 **조직**에 소유권을 설정합니다. 추가 정보: [엔터티 소유권](types-of-entities.md#entity-ownership)
 
 - 활동 엔터티 만들기
 
@@ -74,12 +80,12 @@ search.app:
   |**감사**|조직에서 감사 기능이 활성화되어 있으면 이 기능을 사용하여 엔터티 레코드에 대한 변경 내용을 시간에 따라 캡처할 수 있습니다. 엔터티에 대한 감사를 활성화하면 이 엔터티에 해당하는 모든 필드에 대해 감사가 활성화됩니다. 감사를 활성화할 필드를 선택하거나 선택을 취소할 수 있습니다.|
   |**변경 내용 추적**|데이터를 데이터가 처음 추출되었거나 마지막 동기화된 이후로 변경된 데이터를 감지함으로써 효율적인 방식으로 동기화를 활성화합니다.  |
   |**Color(색)**|모델 기반 앱에서 엔터티에 사용할 색을 설정합니다.|
-  |**문서 관리**|조직의 문서 관리를 활성화하도록 다른 작업을 수행한 후 이 엔터티에 대해 이 기능을 사용하면 SharePoint와의 상호 작용에 참여할 수 있습니다. |
+  |**문서 관리**|조직의 문서 관리를 활성화하도록 다른 작업을 수행한 후 이 엔터티에 대해 이 기능을 사용하면 SharePoint과의 상호 작용에 참여할 수 있습니다. |
   |**중복 검색**|조직에서 중복 검색이 활성화되어 있을 경우 이 기능을 사용하면 이 엔터티에 대한 중복 검색 규칙을 만들 수 있습니다.|
   |**모바일에 사용**|이 엔터티를 Dynamics 365 for phones 및 Dynamics 365 for tablets 앱에 사용할 수 있도록 합니다. 인 엔터티를 **모바일에서 읽기 전용**으로 설정할 수 있는 옵션도 있습니다.<br /><br /> 엔터티의 양식에 Dynamics 365 for phones 및 Dynamics 365 for tablets 앱에서 지원되지 않는 확장이 필요할 경우 이 설정을 사용하여 해당 엔터티의 데이터를 모바일 앱 사용자가 편집할 수 없는지 확인합니다.|
   |**Phone Express에 사용**|이 엔터티를 Dynamics 365 for phones 앱에 사용할 수 있도록 합니다.|
   |**편지 병합**|사용자는 이 엔터티를 메일과 병합하여 사용할 수 있습니다.|
-  |**Dynamics 365 for Outlook의 오프라인 기능**|Dynamics 365 for Outlook 응용 프로그램이 네트워크에 연결되어 있지 않은 동안 이 엔터티의 데이터를 사용할 수 있는지 여부입니다.|
+  |**Dynamics 365 for Outlook의 오프라인 기능**|Dynamics 365 for Outlook 애플리케이션이 네트워크에 연결되어 있지 않은 동안 이 엔터티의 데이터를 사용할 수 있는지 여부입니다.|
   |**Dynamics 365 for Outlook의 읽기 창**|엔터티가 Dynamics 365 for Outlook 앱에 대한 읽기 창에 표시되는지 여부입니다.|
   |**사용자 지정 도움말 사용**|활성화된 경우 도움말 URL을 설정하여 사용자가 응용 프로그램에서 도움말 단추를 클릭할 때 표시되는 페이지를 제어합니다. 이를 사용하여 엔터티에 대한 회사 프로세스에 대한 지침을 제공 합니다.|
 

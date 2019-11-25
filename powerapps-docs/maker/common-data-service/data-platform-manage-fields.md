@@ -9,12 +9,17 @@ ms.topic: conceptual
 ms.date: 03/21/2018
 ms.author: lanced
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: b0c576b8eab2b547c66a90f0693becf516b01207
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758595"
 ---
-
 # <a name="manage-custom-fields-in-an-entity"></a>엔터티의 사용자 지정 필드 관리
 모든 엔터티에서 하나 이상의 사용자 지정 필드를 만들고 업데이트할 수 있습니다. 사용자 지정 필드를 만들 때는 필드 이름, 표시 이름 및 포함될 데이터 형식과 같은 속성 집합을 지정합니다. 자세한 내용은 [엔터티 속성 메타데이터](../../developer/common-data-service/entity-attribute-metadata.md)를 참조하십시오.
 
@@ -22,7 +27,7 @@ search.app:
 > 모든 엔터티에는 레코드를 마지막으로 업데이트한 시간과 업데이트한 사람을 나타내는 필드와 같은 시스템 필드가 있습니다. 또한 표준 엔터티에는 표준(기본) 필드가 있습니다. 시스템 필드 또는 표준 필드를 수정하거나 삭제할 수 없습니다. 사용자 지정 필드를 만드는 경우에는 이러한 기본 제공 필드 외의 기능을 제공해야 합니다.
 
 ## <a name="create-a-field"></a>필드 만들기
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
     ![엔터티 세부 정보](./media/data-platform-cds-create-entity/entitylist.png "엔터티 목록")
 
@@ -46,7 +51,7 @@ search.app:
     > ![새 필드](./media/data-platform-cds-create-entity/newfieldpanel-2.png "새 필드 패널")
 
 
-7. 이 필드를 앱에 필요한 대로 권장하려면 **필수**에서 확인란을 선택합니다. 이는 Common Data Service에 대한 모든 연결 전체에서 엄격한 이행을 제공하지 않습니다. 필드가 채워졌는지 확인해야 하는 경우 [비즈니스 규칙](data-platform-create-business-rule.md)을 만드십시오.
+7. 이 필드를 앱에 필요한 대로 권장하려면 **필수**에서 확인란을 선택합니다. 이는 Common Data Service에 대한 모든 연결 전체에서 엄격한 적용을 제공하지 않습니다. 필드가 채워졌는지 확인해야 하는 경우 [비즈니스 규칙](data-platform-create-business-rule.md)을 만드십시오.
 
 8. 보기 ,차트, 대시보드 및 상세하게 찾기에서 이 필드를 사용하려면 **검색 가능**에서 확인란을 선택합니다. 대부분의 경우 이 확인란을 선택해야 합니다.
 
@@ -73,7 +78,7 @@ search.app:
 지원되는 표현식 유형과 예제에 대한 자세한 내용은 [계산된 필드 정의](/dynamics365/customer-engagement/customize/define-calculated-fields)를 참조하십시오.
 
 ## <a name="update-or-delete-a-field"></a>필드 업데이트 또는 삭제
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭한 다음 엔터티를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭한 다음 엔터티를 클릭하거나 탭합니다.
 2. 선택한 엔터티의 필드 목록에서 필드를 클릭하거나 탭한 후 다음 단계 중 하나를 수행합니다.
    
    * 필드의 하나 이상의 속성 변경
@@ -98,8 +103,8 @@ search.app:
 * [엔터티 간 관계 정의](data-platform-entity-lookup.md)
 * [비즈니스 규칙 만들기](data-platform-create-business-rule.md)
 * [엔터티를 사용하여 앱 만들기](../canvas-apps/data-platform-create-app.md)
-* [Common Data Service 데이터베이스를 사용하여 앱을 처음부터 새로 만들기](../canvas-apps/data-platform-create-app-scratch.md)
+* [Common Data Service 데이터베이스를 사용하여 처음부터 앱 만들기](../canvas-apps/data-platform-create-app-scratch.md)
 
 ## <a name="privacy-notice"></a>개인 정보 취급 방침
-Microsoft PowerApps 공통 데이터 모델을 사용하면 진단 시스템에서 사용자 지정 엔터티 및 필드 이름을 수집하고 저장합니다.  이 점을 파악하여 고객을 위해 일반적인 데이터 모델을 개선합니다. 작성자가 만드는 엔터티 및 필드 이름은 Microsoft PowerApps 커뮤니티에서 공통적인 시나리오를 이해하고 조직과 관련된 스키마와 같은 서비스의 표준 엔터티 적용 범위에서 차이를 확인하는 데 도움이 됩니다. 이러한 엔터티와 연결된 데이터베이스 테이블의 데이터는 Microsoft에서 액세스하거나 사용하거나 데이터베이스가 프로비전되는 지역 외부에서 복제되지 않습니다. 그러나 사용자 지정 엔터티와 필드 이름은 여러 지역에 걸쳐 복제될 수 있으며 데이터 보존 정책에 따라 삭제됩니다. Microsoft는 [보안 센터](https://www.microsoft.com/trustcenter/Privacy/default.aspx)에서 추가로 설명한 대로 사용자의 개인 정보를 보호하기 위해 최선을 다하고 있습니다.
+Microsoft PowerApps Common Data Model을 사용하면 진단 시스템에서 사용자 지정 엔터티 및 필드 이름을 수집하고 저장합니다.  이 점을 파악하여 고객을 위해 일반적인 데이터 모델을 개선합니다. 작성자가 만드는 엔터티 및 필드 이름은 Microsoft PowerApps 커뮤니티에서 공통적인 시나리오를 이해하고 조직과 관련된 스키마와 같은 서비스의 표준 엔터티 적용 범위에서 차이를 확인하는 데 도움이 됩니다. 이러한 엔터티와 연결된 데이터베이스 테이블의 데이터는 Microsoft에서 액세스하거나 사용하거나 데이터베이스가 프로비전되는 지역 외부에서 복제되지 않습니다. 그러나 사용자 지정 엔터티와 필드 이름은 여러 지역에 걸쳐 복제될 수 있으며 데이터 보존 정책에 따라 삭제됩니다. Microsoft는 [보안 센터](https://www.microsoft.com/trustcenter/Privacy/default.aspx)에서 추가로 설명한 대로 사용자의 개인 정보를 보호하기 위해 최선을 다하고 있습니다.
 

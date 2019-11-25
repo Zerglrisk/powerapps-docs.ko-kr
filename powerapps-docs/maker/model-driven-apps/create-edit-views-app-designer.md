@@ -4,28 +4,33 @@ description: 앱 디자이너를 사용하여 보기를 만들거나 편집하�
 keywords: ''
 ms.date: 11/27/2018
 ms.service: powerapps
-ms.custom: null
+ms.custom: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 666ab3f3-abda-468c-b248-3a0b410286b0
 ms.author: matp
 manager: kvivek
-ms.reviewer: null
-ms.suite: null
-ms.tgt_pltfrm: null
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 caps.latest.revision: 1
 topic-status: Drafting
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3c3e7133076eb46718ed3f60d1df4f36a012c520
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2753897"
 ---
-
 # <a name="create-and-edit-public-or-system-model-driven-app-views"></a>공용 또는 시스템 모델 기반 앱 보기 만들기 및 편집
 
 이 항목에서는 공용 보기 만들기, 앱에 기존 보기 추가, 보기의 열, 필터 및 정렬 순서 변경과 같은 보기 작업에 필요한 몇 가지 작업을 수행합니다.
@@ -45,7 +50,7 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 
 ## <a name="create-a-public-view-in-powerapps"></a>PowerApps에서 공용 보기 만들기
 앱 제조업체는 PowerApps를 사용하여 공용 보기를 만들고 편집할 수 있습니다.
-1. [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
     > [!IMPORTANT]
@@ -137,9 +142,9 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 여러 개의 필드를 사용하여 레코드를 필터링하려는 경우에는 보기에 여러 필터를 추가할 수 있습니다. 
 
 1. 그룹화할 필터를 선택하십시오.
-    ![그룹 필터 설정](media/ViewAppDesigner_GroupFilter.png "그룹 필터 설정")
+    ![그룹 필터 설정](media/ViewAppDesigner_GroupFilter.png "Se그룹 필터 설정")
 2. '및 그룹화' 또는 '또는 그룹화'를 선택하여 필터를 그룹화합니다.
-    ![그룹 필터 선택](media/ViewAppDesigner_GroupFilterSelection.png "그룹 필터 선택") **및 그룹화**를 선택하면 보기에 두 조건을 모두 충족하는 레코드만 표시됩니다. **또는 그룹화**를 선택하면 필터 조건에 맞는 모든 레코드가 표시됩니다. 예를 들어 높음 또는 보통, 그리고 활성 상태의 우선 순위인 레코드만 표시하려면 **및 그룹화**를 선택합니다.
+    ![그룹 필터 선택](media/ViewAppDesigner_GroupFilterSelection.png "Se그룹 필터 선택") **및 그룹화**를 선택하면 보기에 두 조건을 모두 충족하는 레코드만 표시됩니다. **또는 그룹화**를 선택하면 필터 조건에 맞는 모든 레코드가 표시됩니다. 예를 들어 높음 또는 보통, 그리고 활성 상태의 우선 순위인 레코드만 표시하려면 **및 그룹화**를 선택합니다.
 
 그룹에서 필터를 제거하려면 그룹을 선택한 다음 **그룹 해제**를 선택합니다. 
 
@@ -167,7 +172,7 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 ### <a name="edit-a-public-or-system-view-in-app-designer"></a>앱 디자이너에서 공용 또는 시스템 보기 편집
 열을 추가, 구성 또는 제거하여 공용 또는 시스템 보기가 표시되는 방식을 변경할 수 있습니다.
 1. 엔터티에 대한 **보기** 목록에서 **참조 목록 표시** 아래쪽 화살표 ![드롭다운](media/DownArrow.png "드롭다운 화살표")를 선택합니다.
-    ![보기 편집](media/ViewAppDesigner_EditView.png "공용 또는 시스템 보기 편집")
+    ![보기 편집](media/ViewAppDesigner_EditView.png "Ed공개 또는 시스템 보기 편집")
 2. 편집하려는 보기 옆에 있는 **디자이너 보기 열기** ![디자이너 보기 열기](media/dynamics365-open-designer.png "디자이너 보기 열기")를 선택합니다. 
 
     디자이너 보기에서 보기가 열립니다. 

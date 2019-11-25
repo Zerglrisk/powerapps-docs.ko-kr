@@ -5,15 +5,18 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 07/18/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: e53380c39257645e9056a271226b6f7ef8c8c721
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2709942"
 ---
-
 # <a name="maintenance-mode-for-a-portal"></a>포털에 대한 유지 관리 모드
-
-[!include[cc-beta-prerelease-disclaimer](../../../includes/cc-beta-prerelease-disclaimer.md)]
 
 웹 사이트가 예정된 유지 관리 중이거나 일시적인 중단으로 인해 중단된 경우가 있을 수 있습니다. 고객이 유지 관리 중에 웹 사이트에 액세스하는 경우 예측할 수 없는 동작과 간헐적 가용성을 경험할 수 있습니다. 
 
@@ -31,7 +34,7 @@ ms.reviewer: null
 3. **포털 작업** > **유지 관리 모드 활성화**로 이동합니다.
 
     > [!div class=mx-imgBorder]
-    > ![유지 관리 모드 활성화](../media/enable-maint-mode-button.png "유지 관리 모드 활성화")
+    > ![유지 관리 모드 사용](../media/enable-maint-mode-button.png "유지 관리 모드 사용")
 
 4. **유지 관리 모드 활성화** 창에서 다음 값을 입력합니다.
     - **유지 관리 모드가 활성화된 경우 사용할 페이지 선택**: 다음 값 중 하나를 선택합니다.
@@ -45,7 +48,7 @@ ms.reviewer: null
 5. **사용**을 선택합니다. 유지 관리 모드를 활성화하는 동안 포털이 다시 시작되고 몇 분 동안 사용할 수 없습니다. 
 
     > [!div class=mx-imgBorder]
-    > ![유지 관리 모드 설정 활성화](../media/enable-maint-mode.png "유지 관리 모드 설정 활성화")
+    > ![유지 관리 모드 사용 설정](../media/enable-maint-mode.png "유지 관리 모드 사용 설정")
 
 ## <a name="configure-or-disable-maintenance-mode"></a>유지 관리 모드 구성 또는 비활성화
 
@@ -65,5 +68,5 @@ ms.reviewer: null
 4. 유지 관리 모드를 비활성화하려면 **사용 안 함**을 선택합니다. 유지 관리 모드를 업데이트하거나 비활성화하는 동안 포털이 다시 시작되고 몇 분 동안 사용할 수 없습니다.
 
     > [!div class=mx-imgBorder]
-    > ![유지 관리 모드 설정 업데이트](../media/configure-maint-mode.png "유지 관리 모드 설정 업데이트")
+    > ![유지 관리 모드 사용 업데이트](../media/configure-maint-mode.png "유지 관리 모드 사용 업데이트")
 

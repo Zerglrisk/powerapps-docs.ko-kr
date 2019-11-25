@@ -1,6 +1,6 @@
 ---
-title: 포털에 사용자 지정 JavaScript 사용 | MicrosoftDocs
-description: 포털에서 양식에 사용자 지정 JavaScript를 추가 하는 방법에 대 한 지침
+title: 포털에 대한 사용자 지정 JavaScript 사용 | MicrosoftDocs
+description: 포털의 양식에 사용자 정의 JavaScript를 추가하는 방법
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
@@ -11,20 +11,20 @@ ms.author: shjais
 ms.reviewer: ''
 ms.openlocfilehash: 42e31fc2ecb18d4f26327f8ccbeabe034d7a1700
 ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/04/2019
-ms.locfileid: "73553650"
+ms.locfileid: "2760707"
 ---
-# <a name="add-custom-javascript"></a>사용자 지정 JavaScript 추가
+# <a name="add-custom-javascript"></a>맞춤 JavaScript 추가
 
-Web Form Step 레코드는 폼의 시각적 표시 또는 기능을 확장 하거나 수정할 수 있도록 JavaScript 코드를 저장 하는 데 사용할 수 있는 **사용자 지정 javascript** 라는 필드를 포함 합니다.
+웹 양식 단계 레코드에는 양식의 시각적 표시 또는 함수를 확장하거나 수정할 수 있도록 JavaScript 코드를 저장하는 데 사용할 수 있는 **사용자 지정 JavaScript** 라는 필드가 포함되어 있습니다.
 
-JavaScript의 사용자 지정 블록은 페이지 아래쪽의 닫는 form 태그 요소 바로 앞에 추가 됩니다.
+JavaScript의 사용자 지정 블록은 종료 양식 태그 요소 바로 앞 페이지의 하단에 추가됩니다.
 
 ## <a name="form-fields"></a>양식 필드
 
-엔터티 필드의 HTML 입력 ID는 특성의 논리적 이름으로 설정 됩니다. 그러면 [jQuery](https://jquery.com/)를 사용 하 여 필드, 값 설정 또는 다른 클라이언트 쪽 조작을 쉽게 선택할 수 있습니다.  
+엔터티 필드의 HTML 입력 ID는 특성의 논리 이름으로 설정됩니다. [jQuery](https://jquery.com/)로 필드 선택, 값 설정 또는 기타 클라이언트 쪽 조작을 쉽게 할 수 있습니다.  
 
 ```JavaScript
 $(document).ready(function() {
@@ -33,10 +33,10 @@ $(document).ready(function() {
 ```
 
 ## <a name="additional-client-side-field-validation"></a>추가 클라이언트 쪽 필드 유효성 검사
-양식에서 필드의 유효성 검사를 사용자 지정 해야 하는 경우도 있습니다. 다음 예제에서는 사용자 지정 유효성 검사기를 추가 하는 방법을 보여 줍니다. 이 예에서는 기본 연락 방법에 대 한 다른 필드가 전자 메일로 설정 된 경우에만 사용자에 게 전자 메일을 지정 하도록 강제 합니다.
+때로는 양식 내 필드의 유효성 검사를 사용자 지정해야 할 수 있습니다. 다음 예제에서는 사용자 지정 유효성 검사기를 추가하는 방법을 보여줍니다. 이 예에서는 선호하는 연락 방법의 다른 필드가 전자 메일로 설정되어 있는 경우에만 사용자가 이메일을 지정하게 합니다.
 
 > [!NOTE]
-> 클라이언트 쪽 필드 유효성 검사는 subgrid에서 지원 되지 않습니다.
+> 클라이언트 쪽 필드 유효성 검사는 하위 표에서 지원되지 않습니다.
 
 ```JavaScript
 if (window.jQuery) {
@@ -73,9 +73,9 @@ if (window.jQuery) {
 }
 ```
 
-## <a name="general-validation"></a>일반 유효성 검사
+## <a name="general-validation"></a>일반적인 유효성 검사
 
-**다음**/**제출** 단추를 클릭 하면 **webformclientvalidate** 라는 함수가 실행 됩니다. 이 메서드를 확장 하 여 사용자 지정 유효성 검사 논리를 추가할 수 있습니다.
+**다음**/**제출** 단추를 클릭하면 **webFormClientValidate**라는 함수가 실행됩니다. 이 메서드를 확장하여 사용자 지정 유효성 검사 논리를 추가할 수 있습니다.
 
 ```JavaScript
 if (window.jQuery) {
@@ -95,11 +95,11 @@ if (window.jQuery) {
    }(window.jQuery));
 }
 ```
-### <a name="see-also"></a>참고 항목
+### <a name="see-also"></a>참조
 
 [포털 구성](configure-portal.md)  
 [엔터티 양식 정의](entity-forms.md)  
-[포털에 대 한 웹 양식 단계](web-form-steps.md)  
-[양식 로드/로드 탭 단계 유형](load-form-step.md)  
-[단계 유형 리디렉션](add-redirect-step.md)  
+[포털에 대한 웹 양식 단계](web-form-steps.md)  
+[포럼 불러오기/탭 단계 유형 불러오기](load-form-step.md)  
+[리디렉션 단계 유형](add-redirect-step.md)  
 [조건부 단계 유형](add-conditional-step.md)

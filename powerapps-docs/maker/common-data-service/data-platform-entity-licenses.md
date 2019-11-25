@@ -9,12 +9,17 @@ ms.topic: conceptual
 ms.date: 05/01/2018
 ms.author: lanced
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 36baefe164716bf90635f8a0bc51e2c7d330bcd2
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2706466"
 ---
-
 # <a name="license-requirements-for-entities"></a>엔터티의 라이선스 요건
 
 > [!IMPORTANT]
@@ -43,7 +48,7 @@ search.app:
 
 엔터티에 복잡한 비즈니스 논리를 추가했는지 여부를 확인 하려면 사용자 환경에서 구성된 플러그 인 어셈블리 및 워크플로 목록을 검토합니다. Dynamics 365(예: Dynamics 365 Sales 또는 Dynamics 365 Customer Service)에서 모델 기반 앱을 설치한 후 서버 쪽 논리를 포함할 수 이씨는 엔터티 목록은 [PowerApps 플랜 2 라이선스가 필요한 복합 엔터티](data-platform-complex-entities.md)를 참조하십시오.  
 
-### <a name="impacting-license-requirements-when-adding-complex-business-logic"></a>복잡한 비즈니스 로직을 추가할 때 라이선스 요구 사항에 영향선
+### <a name="impacting-license-requirements-when-adding-complex-business-logic"></a>복잡한 비즈니스 논리를 추가할 때 라이선스 요구 사항에 영향
 앱 제작자는 Common Data Service의 엔터티에 코드 플러그 인 및 실시간 워크플로를 추가할 수 있지만 이렇게 하면 이미 배포된 앱의 사용자에 대한 라이선스 요구 사항이 변경될 수 있습니다. 앱 제작자는 엔터티에 복잡한 비즈니스 논리를 추가할 때 주의해야 하며, 먼저 해당 엔터티를 사용하는 앱과 해당 앱의 사용자에게 적절한 라이선스가 있는지 확인해야 합니다.
 
 ## <a name="restricted-entities"></a>제한된 엔터티

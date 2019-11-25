@@ -5,12 +5,17 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: 3cfd5ced4da80cae70b4f51d81e30b0d909a81c3
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2707874"
 ---
-
 # <a name="render-a-website-header-and-primary-navigation-bar"></a>웹 사이트 머리글 및 기본 탐색 모음 렌더링
 
 포털 설정, 조각, 웹 링크 및 사이트 마커를 사용하여 웹 사이트 머리글 및 기본 탐색 모음을 렌더링합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [웹 템플릿을 이용하여 소스 콘텐츠 저장](store-content-web-templates.md)  

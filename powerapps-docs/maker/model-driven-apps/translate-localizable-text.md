@@ -4,24 +4,30 @@ description: 여러 언어를 지원하기 위해 지역화 가능한 텍스트�
 ms.custom: ''
 ms.date: 06/03/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 3d77d149-819b-45e6-8e70-1fbe54d5c153
 caps.latest.revision: 19
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 32e6eb8439cdd5a685f761b1326a0cc891f0e6bb
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2754878"
 ---
 # <a name="translate-localizable-text-for-model-driven-apps"></a>모델 기반 앱의 지역화 가능한 텍스트 번역
 
@@ -41,7 +47,7 @@ search.app:
 > 각 언어를 활성화하는 데 몇 분 정도 걸릴 수 있습니다. 이 시간 동안 환경의 다른 사용자가 앱을 사용하지 못할 수 있습니다. 사용자에게 최소한의 지장을 줄 수 있는 시간에 언어를 사용하도록 설정해야 합니다.
 
 > [!TIP]
-> 언어를 활성화하는 있는 동안 각 언어에 사용되는 LCID 값을 기록해 둡니다. 이 값은 지역화할 수 있는 텍스트에 대한 내보낸 데이터의 언어를 나타냅니다. 언어 코드는 4-5자리 로캘 ID입니다. 유효한 로캘 ID 값은 [로캘 ID(LCID) 차트](http://go.microsoft.com/fwlink/?LinkId=122128)에서 확인할 수 있습니다.
+> 언어를 활성화하는 있는 동안 각 언어에 사용되는 LCID 값을 기록해 둡니다. 이 값은 지역화할 수 있는 텍스트에 대한 내보낸 데이터의 언어를 나타냅니다. 언어 코드는 4-5자리 로캘 ID입니다. 유효한 로캘 ID 값은 [로캘 ID(LCID) 차트](https://go.microsoft.com/fwlink/?LinkId=122128)에서 확인할 수 있습니다.
 
 ## <a name="export-the-localizable-text"></a>지역화할 텍스트 내보내기
 

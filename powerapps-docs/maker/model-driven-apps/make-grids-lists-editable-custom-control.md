@@ -4,24 +4,30 @@ description: 편집 가능한 표 사용자 지정 컨트롤을 사용하는 방
 ms.custom: ''
 ms.date: 06/27/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.assetid: cefbc0c2-769b-4230-ab5a-b28a84630a42
 caps.latest.revision: 8
 author: Mattp123
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8ec97723dcc5c1e17b3907c7b683ba24977b69de
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2700614"
 ---
 # <a name="make-model-driven-app-grids-lists-editable-using-the-editable-grid-custom-control"></a>편집 가능한 표 사용자 지정 컨트롤을 사용하여 모델 기반 앱 표(목록)를 편집 가능하도록 만들기
 

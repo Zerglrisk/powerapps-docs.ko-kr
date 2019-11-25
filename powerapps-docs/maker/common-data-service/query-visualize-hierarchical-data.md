@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 0cf62817-5ff5-40bb-ad17-e1f6b0921720
 caps.latest.revision: 42
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 563c773bd2bec365a3459097e4c4e8428d624c00
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2755274"
 ---
 # <a name="query-and-visualize-hierarchically-related-data"></a>계층적으로 관련된 데이터를 쿼리하고 가시화하기
 
@@ -43,20 +49,20 @@ search.app:
   
  거래처 계층 구조 쿼리  
   
- ![거래처 계층 구조에서 거래처 쿼리](media/query-accounts.png "거래처 계층 구조에서 거래처 쿼리")  
+ ![거래처 계층 구조의 쿼리 거래처](media/query-accounts.png "거래처 계층 구조의 쿼리 거래처")  
   
  관련 활동을 포함하는 거래처 계층 구조를 쿼리합니다.  
   
- ![거래처의 관련 활동 쿼리](media/query-account-related-activities.png "거래처의 관련 활동 쿼리")  
+ ![계정의 관련 작업 쿼리](media/query-account-related-activities.png "계정의 관련 작업 쿼리")  
   
  관련 영업 기회를 포함하는 거래처 계층 구조를 쿼리합니다.  
   
- ![거래처의 관련 영업 기회 쿼리](media/query-account-related-opportunities.png "거래처의 관련 영업 기회 쿼리")  
+ ![쿼리 계정의 관련 영업 기회](media/query-account-related-opportunities.png "쿼리 계정의 관련 영업 기회")  
   
  데이터를 계층 구조로 쿼리하려면 엔터티의 일대다 또는 다대일 자체 참조 관계를 계층적으로 설정해야 합니다. 계층 구조를 켜려면:  
   
 
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
 2. 기존 엔터티 클릭 또는 탭 또는 [새 엔터티 만들기](data-platform-create-entity.md)
 
@@ -80,7 +86,7 @@ search.app:
  계층 구조 아이콘을 선택하면 아래 그림처럼 왼쪽에는 트리 보기가, 오른쪽에는 타일 보기가 있는 계층 구조를 볼 수 있습니다.  
   
 > [!div class="mx-imgBorder"] 
-> ![거래처 트리 및 타일 보기](media/hierachy-security-accounts-tile-view.png "거래처 트리 및 타일 보기")  
+> ![계정 트리 및 타일 보기](media/hierachy-security-accounts-tile-view.png "계정 트리 및 타일 보기")  
   
  일부 다른 기본 제공 시스템 엔터티는 계층 구조에 대해 사용할 수 있습니다. 이러한 엔터티에는 `Case`, `Contact`, `Opportunity`, `Order`, `Quote`, `Campaign` 및 `Team`이 포함됩니다. 계층 구조에 대해 모든 사용자 지정 엔터티를 사용하도록 설정할 수 있습니다.  
   
@@ -107,12 +113,12 @@ search.app:
  **빠른 보기 양식**에서는 **위젯 계층 구조 타일 양식** 이라는 퀵 양식을 만들었습니다. 이 양식에서 각 타일에 표시할 4개의 필드를 추가했습니다.  
   
 > [!div class="mx-imgBorder"] 
-> ![위젯을 위한 퀵 양식 만들기](media/create-quickf-orm.png "위젯을 위한 퀵 양식 만들기")  
+> ![위젯에 대한 퀵 양식 만들기](media/create-quickf-orm.png "위젯에 대한 퀵 양식 만들기")  
   
  설치를 완료한 후 표준 위젯과 프리미엄 위젯의 두 레코드를 만들었습니다. 프리미엄 위젯을 조회 필드를 사용하여 표준 위젯의 상위 위젯으로 표시한 후 아래 그림처럼 new_Widget 표 보기는 계층 구조 아이콘을 나타냈습니다.  
   
 > [!div class="mx-imgBorder"] 
-> ![위젯의 계층 구조](media/widget-hierarchy-grid.png "위젯의 계층 구조")  
+> ![위젯의 계층 구조 표](media/widget-hierarchy-grid.png "위젯의 계층 구조 표")  
   
 > [!TIP]
 >  계층 구조 아이콘은 레코드가 상위 하위 관계로 쌍을 이룰 때까지 레코드 표 보기에 나타나지 않습니다.  
@@ -120,8 +126,8 @@ search.app:
  계층 구조 아이콘을 선택하면 왼쪽에는 트리 보기가, 오른쪽에는 두 레코드를 보여주는 타일 보기가 있는 new_Widget 계층 구조가 표시됩니다. 각 타일에는 **위젯 계층 구조 타일 양식**에서 제공한 4개의 필드가 포함되어 있습니다.  
  
  > [!div class="mx-imgBorder"] 
- > ![위젯의 트리 및 타일 보기](media/widget-tree-tiles.png "위젯의 트리 및 타일 보기")  
+ > ![위젯의 트리와 타일 보기](media/widget-tree-tiles.png "위젯의 트리와 타일 보기")  
   
 ## <a name="see-also"></a>참조  
- [비디오: 계층적 보안 모델링 설정](http://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)   
- [비디오: 계층 구조 시각화](http://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)
+ [비디오: 계층적 보안 모델링 설정](https://www.youtube.com/watch?v=kx5So32DrCo&index=10&list=PLC3591A8FE4ADBE07)   
+ [비디오: 계층 구조 시각화](https://www.youtube.com/watch?v=_dGBE6icLNw&index=9&list=PLC3591A8FE4ADBE07)

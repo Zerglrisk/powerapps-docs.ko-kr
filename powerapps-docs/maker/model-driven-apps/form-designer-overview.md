@@ -8,19 +8,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 96cae5273855fd6458a501aa0757da12ba8e1701
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2701670"
 ---
 # <a name="overview-of-the-model-driven-form-designer"></a>모델 기반 양식 디자이너 개요
 새 모델 기반 양식 디자이너는 모델 기반 양식으로 작업할 때 최신 WYSIWYG 작성 환경을 제공합니다. 여기에는 클래식 모델 기반 양식 디자이너에서 사용할 수 없는 몇 가지 향상된 기능이 포함되어 있습니다. 
@@ -40,7 +46,7 @@ search.app:
 - 너비에 맞추기 - 양식 미리 보기를 사용 가능한 너비에 맞출 수 있는 빠른 작업입니다.
 
 > [!div class="mx-imgBorder"] 
-> ![](media/FormDesignerOverview.png "양식 디자이너 레이아웃")
+> ![](media/FormDesignerOverview.png "Form designer layout")
 
 ## <a name="see-also"></a>참조
 [양식 디자이너를 사용하여 양식 만들기, 편집 또는 구성](create-and-edit-forms.md)  

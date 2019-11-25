@@ -4,24 +4,30 @@ description: 보기를 만들거나 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/11/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: bd1d393d-16ea-40ac-8136-26643c37dd2a
 caps.latest.revision: 25
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 78de24571448c0e3c8584ef3b31583acd9d6a4f4
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2704178"
 ---
 # <a name="understand-model-driven-app-views"></a>모델 기반 앱 보기 이해
 
@@ -83,7 +89,7 @@ PowerApps 앱에서 보기를 사용하여 특정 엔터티의 레코드 목록�
 
 ## <a name="places-where-you-can-access-the-view-editor-to-create-or-edit-views"></a>보기 편집기를 액세스하여 보기를 작성하거나 편집할 수 있는 위치
 
-- PowerApps 사이트 : **모델 기반** 영역 > **데이터** > **엔터티** > **보기** 탭에서 보기 디자이너에 액세스할 수 있습니다. 기존 보기를 열거나 새 보기를 만듭니다. 추가 정보: [보기 만들기 또는 편집](create-and-edit-views.md)
+- PowerApps 사이트: **모델 기반** 영역 > **데이터** > **엔터티** > **보기** 탭에서 보기 디자이너에 액세스할 수 있습니다. 기존 보기를 열거나 새 보기를 만듭니다. 추가 정보: [보기 만들기 또는 편집](create-and-edit-views.md)
 - 앱 디자이너: 앱에서 작업하는 경우 만들어진 보기에 대해 끌어서 놓기 기능이 있는 간단하고 직관적인 UI를 제공하는 앱 디자이너를 사용할 수 있습니다. 추가 정보: [자습서: 앱 디자이너를 사용하여 공용 또는 시스템 보기 만들기 및 편집](create-edit-views-app-designer.md)
 - 솔루션 탐색기: Dynamics 365를 이미 사용해 본 경우에는 솔루션 탐색기를 사용할 수 있습니다. 추가 정보: [고급 앱 제작 및 사용자 지정 영역으로 이동](advanced-navigation.md#solution-explorer)
  

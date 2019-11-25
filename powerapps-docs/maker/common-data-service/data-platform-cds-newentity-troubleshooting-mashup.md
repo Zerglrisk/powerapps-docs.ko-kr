@@ -9,12 +9,17 @@ ms.topic: conceptual
 ms.date: 05/16/2018
 ms.author: millopis
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 5679d82d6ec53d579567a778043ac9542099a20e
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2706686"
 ---
-
 # <a name="troubleshoot-power-query"></a>파워 쿼리 문제 해결
 Excel용 파워 쿼리를 사용하여 외부 원본의 데이터를 포함하는 사용자 지정 엔터티를 만드는 경우 이 오류가 나타날 수 있습니다.
 
@@ -30,7 +35,7 @@ Excel용 파워 쿼리를 사용하여 외부 원본의 데이터를 포함하�
 ## <a name="allow-users-to-consent-to-apps-that-access-company-data"></a>사용자가 회사 데이터에 액세스하는 앱에 동의할 수 있음
 이 방법은 다음보다 더 쉬울 수 있지만 광범위한 사용 권한을 허용합니다.
 
-1. [Azure portal](https://portal.azure.com)에서 **Azure Active Directory** 창을 열고 **사용자 설정**을 선택합니다.
+1. [Azure Portal](https://portal.azure.com)에서 **Azure Active Directory** 창을 열고 **사용자 설정**을 선택합니다.
 2. **사용자가 대신하여 회사 데이터에 액세스하는 앱에 동의할 수 있음** 옆에서 **예**를 선택한 다음 **저장**을 선택합니다.
 
 ## <a name="allow-power-query-to-access-company-data"></a>파워 쿼리가 회사 데이터에 액세스할 수 있음

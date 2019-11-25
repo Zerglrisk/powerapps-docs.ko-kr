@@ -4,24 +4,30 @@ description: 기본 양식을 만들거나 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/23/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: <needs new guid>
 caps.latest.revision: 18
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 52b80ac0809bbcfe0b008e6fc31fd8b97b894959
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2759211"
 ---
 # <a name="create-or-edit-a-model-driven-app-main-form-for-an-entity"></a>엔터티의 모델 기반 앱 기본 양식 만들기 또는 편집 
 
@@ -35,7 +41,7 @@ search.app:
 
 ## <a name="how-to-create-or-edit-a-main-form"></a>기본 양식을 만들거나 편집하는 방법
   
-1.   [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.   [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 
 > [!IMPORTANT]

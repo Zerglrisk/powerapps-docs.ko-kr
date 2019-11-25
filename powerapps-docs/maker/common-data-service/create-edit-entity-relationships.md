@@ -8,19 +8,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: c765b6d9-4d87-4c2d-aae2-5b1c3b664a71
 caps.latest.revision: 28
 ms.author: matp
 manager: kvivek
 author: Mattp123
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 400fb236df41fefc8a9cfa7175ebfd8260ec96bd
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2707478"
 ---
 # <a name="entity-relationships-overview"></a>엔터티 관계 개요
 엔터티 관계는 데이터베이스에서 레코드를 서로 연결할 수 있는지를 정의합니다. 가장 간단한 수준에서 조회 필드를 엔터티에 추가하면 두 엔터티 간에 새로운 1:N(일대다) 관계를 만들고 양식에 조회 필드를 배치할 수 있습니다. 조회 필드를 사용하면 사용자는 해당 엔터티의 여러 *하위* 레코드를 단일 *상위* 엔터티 레코드에 연결할 수 있습니다.  

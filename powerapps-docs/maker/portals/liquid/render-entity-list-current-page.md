@@ -5,12 +5,17 @@ author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
-ms.custom: null
-ms.date: 08/30/2019
+ms.custom: ''
+ms.date: 10/07/2019
 ms.author: shjais
-ms.reviewer: null
+ms.reviewer: ''
+ms.openlocfilehash: e31f83efb7cedfa42b6c4c9e7da83280b261d9c8
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2707962"
 ---
-
 # <a name="render-the-entity-list-associated-with-the-current-page"></a>현재 페이지와 연관된 엔터티 목록 렌더링
 
 현재 페이지와 연관된 엔터티 목록을 페이지가 매겨진 정렬 가능한 테이블로 렌더링합니다. [entitylist](liquid-objects.md#entitylist), [entityview](liquid-objects.md#entityview), [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md), [page](liquid-objects.md#page), [request](liquid-objects.md#request) 매개 변수를 사용하며, 검색 및 여러 보기 선택 사항을 포함합니다.  

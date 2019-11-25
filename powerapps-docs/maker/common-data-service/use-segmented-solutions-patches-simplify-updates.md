@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 세분화된 솔루션과 패치를 사용하여 솔루션 업데이트를 간소화 | MicrosoftDocs
+title: PowerApps에서 세분화된 솔루션과 패치를 사용하여 솔루션 업데이트 간소화 | MicrosoftDocs
 description: 솔루션 분할을 사용하여 솔루션을 업데이트하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/18/2018
@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 5c05f683-e1bd-4885-be23-b6973128773f
 caps.latest.revision: 15
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8f2b890766c6643da0a5363f49ef9b5c233b0b0b
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2703122"
 ---
 # <a name="use-segmented-solutions-and-patches-to-export-selected-entity-assets"></a>세분화된 솔루션 및 패치를 사용하여 선택한 Glossary 자산 내보내기
 
@@ -74,32 +80,32 @@ search.app:
  먼저 **엔터티** 구성 요소를 선택합니다.  
 
  > [!div class="mx-imgBorder"] 
- > ![기존 리소스 추가](media/solution-segmentation-add-existing-resources-admin.png "기존 리소스 추가")  
+ > ![기존 리소스 추가.](media/solution-segmentation-add-existing-resources-admin.png "기존 리소스 추가.")  
   
  그런 다음 솔루션 구성 요소를 선택합니다.  
   
- ![솔루션의 구성 요소 선택](media/solution-segmentation-select-components-admin.png "솔루션의 구성 요소 선택")  
+ ![솔루션 구성 요소 선택.](media/solution-segmentation-select-components-admin.png "솔루션 구성 요소 선택.")  
   
  마법사를 따릅니다. 1단계에서 알파벳 순서로 시작하여 첫 번째 엔터티, 그림처럼 `Account` 엔터티의 자산을 선택합니다.  
   
- ![마법사 시작](media/solution-segmentation-wizard-starts-admin.png "마법사 시작")  
+ ![마법사 시작.](media/solution-segmentation-wizard-starts-admin.png "마법사 시작.")  
   
  **필드** 탭을 열고 **계좌 번호** 필드를 선택합니다.  
   
- ![거래처 엔터티 자산을 선택합니다.](media/solution-segmentation-select-account-assets-admin.png "거래처 엔터티 자산을 선택합니다.")  
+ ![거래처 엔터티 자산 선택.](media/solution-segmentation-select-account-assets-admin.png "거래처 엔터티 자산 선택.")  
   
  2단계에서 **서비스 케이스** 엔터티에 대해 모든 자산을 추가합니다.  
   
- ![서비스 케이스 엔터티 자산을 선택합니다.](media/solution-segmentation-select-case-assets-admin.png "서비스 케이스 엔터티 자산을 선택합니다.")  
+ ![서비스 케이스 엔터티 자산 선택.](media/solution-segmentation-select-case-assets-admin.png "서비스 케이스 엔터티 자산 선택.")  
   
  3단계에서 **연락처** 엔터티에 대해 **기념일** 필드를 추가합니다.  
   
- ![연락처 엔터티 자산을 선택합니다.](media/solution-segmentation-select-contact-assets-admin.png "연락처 엔터티 자산을 선택합니다.")  
+ ![연락처 엔터티 자산 선택.](media/solution-segmentation-select-contact-assets-admin.png "연락처 엔터티 자산 선택.")  
   
  결과적으로 만들어지는 세분화된 솔루션은 3개의 엔터티 `Account`, `Case` 및 `Contact`을 포함합니다. 각 엔터티는 선택된 자산만 포함합니다.  
   
  > [!div class="mx-imgBorder"] 
- > ![엔터티가 포함된 솔루션입니다.](media/solution-segmentation-solution-entities-admin.png "엔터티가 포함된 솔루션입니다.")  
+ > ![엔터티가 있는 솔루션.](media/solution-segmentation-solution-entities-admin.png "엔터티가 있는 솔루션.")  
   
 ## <a name="create-a-solution-patch"></a>솔루션 패치 만들기  
  패치에는 구성 요소와 자산 추가 또는 편집 같은 상위 솔루션에 대한 변경 사항이 포함됩니다. 편집할 계획이 없는 경우 상위 구성 요소를 포함할 필요는 없습니다.  
@@ -117,11 +123,11 @@ search.app:
  다음 그림은 기존 솔루션에 대한 패치를 만드는 예제를 제공합니다. **패치 복제**를 선택합니다(압축된 보기에서 **패치 복제** 아이콘은 아래 그림처럼 두 개의 작은 사각형으로 표시됩니다).  
   
  > [!div class="mx-imgBorder"] 
- > ![패치 아이콘을 복제합니다.](media/solution-segmentation-click-patch-icon-admin.png "패치 아이콘을 복제합니다.")  
+ > ![패치 복제 아이콘.](media/solution-segmentation-click-patch-icon-admin.png "패치 복제 아이콘.")  
   
  **패치 복제** 대화 상자에서 패치의 버전 번호가 상위 솔루션 버전 번호를 기준으로 하지만 빌드 번호는 1씩 증가합니다. 각 후속 패치는 이전 패치보다 빌드 또는 개정 번호가 더 높습니다.  
   
- ![패치로 복제 대화를 사용합니다.](media/solution-segmentation-clone-patch-dialog-admin.png "패치로 복제 대화를 사용합니다.")  
+ ![패치로 복제 대화 사용.](media/solution-segmentation-clone-patch-dialog-admin.png "패치로 복제 대화 사용.")  
   
  다음 스크린샷은 기본 솔루션 **SegmentedSolutionExample**, 버전 **1.0.1.0** 및 패치 **SegmentedSolutionExample_Patch**, 버전 **1.0.2.0**를 보여줍니다.  
   
@@ -130,7 +136,7 @@ search.app:
   
  패치에서 `Book`라는 새로운 사용자 지정 엔터티를 추가했고 패치에 `Book` 엔터티의 모든 자산을 포함했습니다.  
   
- ![패치에 사용자 지정 엔터티를 추가합니다.](media/solution-segmentation-add-book-patch-admin.png "패치에 사용자 지정 엔터티를 추가합니다.")  
+ ![패치에 사용자 지정 엔터티 추가.](media/solution-segmentation-add-book-patch-admin.png "패치에 사용자 지정 엔터티 추가.")  
   
 ## <a name="clone-a-solution"></a>솔루션 복제  
  비관리형 솔루션을 복제하면 이 솔루션과 관련된 모든 패치는 원래 솔루션의 새로 만든 버전으로 롤업됩니다.  
@@ -143,12 +149,12 @@ search.app:
   
  예제를 계속하면 새로운 솔루션 버전 번호를 보여주는 **솔루션으로 복제** 대화 상자가 나타납니다.  
   
- ![솔루션으로 복제 대화를 사용합니다.](media/solution-segmentation-clone-solution-dialog-admin.png "솔루션으로 복제 대화를 사용합니다.")  
+ ![솔루션으로 복제 대화 사용.](media/solution-segmentation-clone-solution-dialog-admin.png "솔루션으로 복제 대화 사용.")  
   
  복제 후에 새로운 솔루션 버전은 3개의 원래 엔터티(`Account`, `Case` 및 `Contact`)와 패치에 추가된 `Book`라는 사용자 지정 엔터티를 포함합니다. 각 엔터티는 예제에 추가된 자산만 포함합니다.  
   
  > [!div class="mx-imgBorder"] 
- > ![롤업한 패치를 사용한 복제된 솔루션입니다.](media/solution-segmentation-solution-rolled-up-patch-admin.png "롤업한 패치를 사용한 복제된 솔루션입니다.")  
+ > ![롤업 패치가 있는 복제된 솔루션.](media/solution-segmentation-solution-rolled-up-patch-admin.png "롤업 패치가 있는 복제된 솔루션.")  
   
 ## <a name="next-steps"></a>다음 단계  
  [솔루션 개요](solutions-overview.md) [패치를 만들어 솔루션 업데이트 간소화]

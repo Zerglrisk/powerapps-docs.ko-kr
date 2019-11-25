@@ -1,34 +1,39 @@
 ---
-title: PowerApps에서 롤업 필드 정의 | MicrosoftDocs
+title: PowerApps의 롤업 필드 정의 | MicrosoftDocs
 description: 롤업 필드를 정의하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/23/2018
 ms.reviewer: ''
-ms.service: crm-online
+ms.service: powerapps
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: ff0504a1-01bd-4f9b-b884-7f84911d86c3
 caps.latest.revision: 58
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 9691912bab995fac0b3489580aaa1fef82f9dcc8
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758639"
 ---
-
 # <a name="define-rollup-fields-that-aggregate-values"></a>값을 집계하는 롤업 필드 정의
 
 롤업 필드는 사용자가 주요 비즈니스 메트릭을 모니터링하여 데이터에 대한 통찰력을 얻을 수 있도록 지원합니다. 롤업 필드는 지정된 레코드와 관련된 레코드를 통해 계산되는 누적 값을 포함합니다. 여기에는 전자 메일 및 약속과 같은 일반 엔터티와 활동 엔터티가 포함됩니다.
 
-더 복잡한 시나리오에서는 레코드의 계층 구조를 통해 데이터를 집계할 수 있습니다. 관리자나 사용자 지정자는 코드를 작성할 개발자 필요 없이 PowerApps의 사용자 지정 도구를 사용하여 롤업 필드를 정의할 수 있습니다.  
+더 복잡한 시나리오에서는 레코드의 계층 구조를 통해 데이터를 집계할 수 있습니다. 관리자나 사용자 지정자는 코드를 작성할 필요 없이 PowerApps의 사용자 지정 도구를 사용하여 롤업 필드를 정의할 수 있습니다.  
   
 <a name="BKMK_benefitsandcapabilities"></a> 
  
@@ -75,7 +80,7 @@ search.app:
 
 롤업 작업을 보려면
 
-1. **Common Data Services 기본 솔루션**을 보는 동안 `dynamics.com` 후 모든 것을 제거하고 URL을 편집하고 페이지를 새로 고칩니다.
+1. **Common Data Service 기본 솔루션**이 표시되는 상태에서 `dynamics.com` 뒤의 모든 것을 제거하여 URL을 편집하고 페이지를 새로 고칩니다.
 2. **설정** 영역에서 **시스템**  > **시스템 작업**을 선택합니다.<br />![시스템 작업으로 이동](media/navigate-system-jobs.png)
 1. 보기 선택기에서 **되풀이 시스템 작업**을 선택합니다.
 2. 관련 작업을 신속하게 찾으려면 **롤업 필드 대량 계산** 또는 **롤업 필드 계산** 등 시스템 작업 유형으로 필터링할 수 있습니다.
@@ -212,5 +217,5 @@ search.app:
 [계산된 필드 정의](define-calculated-fields.md)<br />
 [날짜 및 시간 필드의 특성 및 형식](behavior-format-date-time-field.md)<br />
 [계층적으로 관련된 데이터를 정의하고 쿼리하기](define-query-hierarchical-data.md)<br />
-[비디오: 롤업 및 계산 필드](http://www.youtube.com/watch?v=RoahCH1p3T8&list=PLC3591A8FE4ADBE07&index=8)<br />
-[비디오: Power BI 사용](http://www.youtube.com/watch?v=PkQe4BFlBS8&list=PLC3591A8FE4ADBE07&index=3)
+[비디오: 롤업 및 계산 필드](https://www.youtube.com/watch?v=RoahCH1p3T8&list=PLC3591A8FE4ADBE07&index=8)<br />
+[비디오: Power BI 사용](https://www.youtube.com/watch?v=PkQe4BFlBS8&list=PLC3591A8FE4ADBE07&index=3)

@@ -9,21 +9,27 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Mattp123
 ms.assetid: 034c8bef-0d1c-4ef9-8da7-f81343c4553a
 caps.latest.revision: 25
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3b29f863399c8a49ca0c0d60ebe2196d6de6414c
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2752025"
 ---
-# <a name="access-a-model-driven-app-view-definition-in-powerapps"></a>PowerApps의 모델 기반 앱 보기 정의 액세스
+# <a name="access-a-model-driven-app-view-definition-in-powerapps"></a>PowerApps에서 모델 기반 앱 보기 정의에 액세스
 
  이 항목에서는 보기 정의를 열어 보기를 구성하기 위한 속성 및 옵션을 표시합니다. 다음과 같은 몇 가지 방법으로 PowerApps에서 보기 정의에 액세스할 수 있습니다. 
   
@@ -33,7 +39,7 @@ search.app:
 > [!IMPORTANT]
 > 디자이너 보기의 최신 버전은 현재 미리 보기 상태입니다. 고급 필터링, 사용자 지정 컨트롤 및 열 속성과 같은 일부 기능은 아직 지원되지 않습니다. 이러한 작업을 수행하려면 [솔루션 탐색기에서 편집할 뷰를 엽니다](#open-a-view-for-editing-in-solution-explorer).
 
-1.  [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
     > [!IMPORTANT]

@@ -1,5 +1,5 @@
 ---
-title: 'Common Data Service와의 SharePoint, OneNote 및 OneDrive 통합 | Microsoft Docs'
+title: Common Data Service와의 SharePoint, OneNote 및 OneDrive 통합 | Microsoft Docs
 description: Common Data Service와의 Office 365  서비스 통합에 대해 알아봅니다.
 author: Mattp123
 manager: kvivek
@@ -9,12 +9,17 @@ ms.topic: conceptual
 ms.date: 08/02/2019
 ms.author: matp
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: b11abbf1412fbc34b3fc12b9dd6da8c543d66bb5
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2702242"
 ---
-
 # <a name="sharepoint-onenote-and-onedrive-integration-with-common-data-service"></a>Common Data Service와의 SharePoint, OneNote 및 OneDrive 통합
 
 Common Data Service는 SharePoint, OneDrive 및 OneNote 통합에 대한 지원을 제공합니다. 이러한 서비스와 통합하려면 먼저 SharePoint 통합을 활성화해야 합니다.   

@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: af866aed-2586-4b6f-bb1c-3519baae3645
 caps.latest.revision: 25
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: e1facad3d5d6cb95e0441800f4d743d429f50787
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2705498"
 ---
 # <a name="display-custom-icons-alongside-values-in-list-views"></a>목록 보기에서 값과 함께 사용자 지정 아이콘 표시
 
@@ -30,7 +36,7 @@ search.app:
  PowerApps 환경 관리자 및 사용자는 보기에 그래픽을 추가하고 JavaScript를 사용하여 열 값을 기반으로 그래픽을 선택하는 데 사용되는 논리를 설정할 수 있습니다. 이 기능을 사용하면 텍스트 또는 숫자 값과 함께 아이콘을 표시하는 목록 보기를 사용자 지정할 수 있습니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/icon-in-opportunity-view.png "아이콘 및 텍스트 값을 표시하는 등급 열이 있는 모든 영업 기회 보기")
+> ![](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
   
 > [!NOTE]
 >  표 아이콘은 웹 인터페이스에만 표시됩니다. [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] 또는 모바일 앱에서는 표시되지 않습니다.  

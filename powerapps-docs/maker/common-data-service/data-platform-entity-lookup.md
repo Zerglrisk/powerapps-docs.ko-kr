@@ -9,12 +9,17 @@ ms.topic: conceptual
 ms.date: 02/21/2019
 ms.author: lanced
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: ac4b57853e6dfc4c0969a4207538e15db0b58bc8
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757539"
 ---
-
 # <a name="create-a-relationship-between-entities"></a>두 엔터티 간 관계 만들기
 한 엔터티의 데이터는 다른 엔터티의 데이터와 관련이 있는 경우가 많습니다. 예를 들어 **교사** 엔터티와 **수업** 엔터티가 있을 수 있으며 **수업** 엔터티에는 교사가 수업을 가르치는 교사를 표시하기 위해 **교사** 엔터티와 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 **교사** 엔터티의 데이터를 표시할 수 있습니다. 일반적으로 조회 필드라고 합니다.
 
@@ -31,7 +36,7 @@ search.app:
 
 엔터티에 대한 조회 관계를 추가하려면 **관계** 탭 아래에 관계를 작성하고 관계가 생성될 엔터티를 지정합니다.
 
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
 2. 기존 엔터티 클릭 또는 탭 또는 [새 엔터티 만들기](data-platform-create-entity.md)
 
@@ -55,7 +60,7 @@ search.app:
 
 일대다 관계를 추가하려면 **관계** 탭 아래에 관계를 작성하고 관계가 생성될 엔터티를 지정합니다.
 
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
 2. 기존 엔터티 클릭 또는 탭 또는 [새 엔터티 만들기](data-platform-create-entity.md)
 
@@ -81,7 +86,7 @@ search.app:
 ## <a name="add-a-many-to-many-relationship"></a>다대다 관계 추가
 다대다 관계를 추가하려면 **관계** 탭 아래에 관계를 작성하고 관계가 생성될 엔터티를 지정합니다.
 
-1. [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
+1. [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **데이터** 섹션을 확장하고 왼쪽 탐색 창에서 **엔터티**를 클릭하거나 탭합니다.
 
 2. 기존 엔터티 클릭 또는 탭 또는 [새 엔터티 만들기](data-platform-create-entity.md)
 
@@ -135,5 +140,5 @@ search.app:
 
 ## <a name="next-steps"></a>다음 단계
 * [Common Data Service 데이터베이스를 사용하여 앱 생성](../canvas-apps/data-platform-create-app.md)
-* [Common Data Service 데이터베이스를 사용하여 앱을 처음부터 새로 만들기](../canvas-apps/data-platform-create-app-scratch.md)
+* [Common Data Service 데이터베이스를 사용하여 처음부터 앱 만들기](../canvas-apps/data-platform-create-app-scratch.md)
 

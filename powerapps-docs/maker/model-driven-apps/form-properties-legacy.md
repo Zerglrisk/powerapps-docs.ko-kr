@@ -4,9 +4,9 @@ description: 기본 양식 속성 이해
 Keywords: 기본 양식; 속성; Dynamics 365
 author: Mattp123
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 ms.author: matp
 manager: kvivek
 ms.date: 06/27/2018
@@ -14,12 +14,17 @@ ms.service: powerapps
 ms.topic: article
 ms.assetid: 4ed30bb7-dca1-4de8-80f3-842152ea921a
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 3a71fe6cf7771a0e15be85e0696e27226e84467e
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2700306"
 ---
-
 # <a name="model-driven-app-form-properties"></a>모델 기반 앱 양식 속성 
 
 솔루션 탐색기에서 **양식 속성**에 액세스할 수 있습니다. **구성 요소**에서 **엔터티**를 확장한 후 원하는 엔터티를 확장하고 **포럼**을 선택합니다. 양식 목록에서 유형 **기본**의 양식을 엽니다. 그런 다음 **홈** 탭에서 **양식 속성**을 선택합니다.

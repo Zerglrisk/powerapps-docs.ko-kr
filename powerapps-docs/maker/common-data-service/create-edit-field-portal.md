@@ -1,5 +1,5 @@
 ---
-title: PowerApps 포털을 사용한 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
+title: PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
 ms.custom: ''
 ms.date: 08/13/2019
 ms.reviewer: ''
@@ -8,21 +8,27 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.author: matp
 manager: kvivek
 author: Mattp123
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 231970fb08886b993b55dcc6506ef387c9a20018
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2757979"
 ---
-# <a name="create-and-edit-fields-for-common-data-service-using-powerapps-portal"></a>PowerApps 포털을 사용한 Common Data Service에 대한 필드 만들기 및 편집
+# <a name="create-and-edit-fields-for-common-data-service-using-powerapps-portal"></a>PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집
 
-[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service에서 엔터티 필드를 쉽게 만들고 편집할 수 있습니다.
+[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service 내에서 엔터티 필드를 쉽게 만들고 편집할 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. <br />추가 정보: 
 - [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
@@ -30,7 +36,7 @@ search.app:
 
 ## <a name="view-fields"></a>필드 보기
 
-1. [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
+1. [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
 2. **데이터** > **엔터티**를 선택하고 보려는 필드가 있는 엔터티를 선택합니다.
 3. **필드** 탭을 선택한 상태에서 다음 보기를 선택할 수 있습니다. 
 

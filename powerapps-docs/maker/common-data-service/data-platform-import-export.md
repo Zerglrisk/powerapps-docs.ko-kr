@@ -8,10 +8,16 @@ ms.component: cds
 ms.date: 05/14/2018
 ms.author: sabinn
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 8aad3e440e93becd4741223f1450dd8e3b34921a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2755582"
 ---
 # <a name="import-or-export-data-from-common-data-service"></a>Common Data Service에서 데이터 가져오기 또는 내보내기
 
@@ -34,7 +40,7 @@ Excel 또는 CSV 파일에서 엔터티로 파일을 가져올 수 있는 방법
     - Excel 또는 CSV 파일의 데이터를 방금 만든 템플릿으로 복사합니다.
 
 1. 파일을 가져옵니다.  
-    a. [powerapps.com](https://web.powerapps.com/)에서 **데이터** 섹션을 확장합니다. 왼쪽 탐색 창에서 **엔터티**를 선택합니다.  
+    a. [powerapps.com](https://make.powerapps.com/)에서 **데이터** 섹션을 확장합니다. 왼쪽 탐색 창에서 **엔터티**를 선택합니다.  
     b. 데이터를 가져오려는 엔터티를 선택합니다.  
     c. 맨 위에 있는 줄임표 또는 메뉴를 선택합니다. **데이터 가져오기**를 선택합니다. **Excel에서 데이터 가져오기**를 선택합니다.  
 
@@ -66,7 +72,7 @@ Excel 또는 CSV 파일에서 엔터티로 파일을 가져올 수 있는 방법
 
 ## <a name="option-2-import-by-bringing-your-own-source-file"></a>옵션 2: 원본 파일을 가져와 가져오기
 
-고급 사용자이고 엔터티에 대한 Common Data Service에 대한 지정된 엔터티에 대한 필수 필드를 알고 있는 경우 고유한 Excel 또는 CSV 원본 파일을 정의합니다. **파일 가져오기**의 단계를 따릅니다.
+고급 사용자이고 Common Data Service 엔터티에 대해 주어진 엔터티의 대한 필수 필드를 알고 있는 경우 고유한 Excel 또는 CSV 원본 파일을 정의합니다. **파일 가져오기**의 단계를 따릅니다.
 
 ## <a name="navigate-mapping-errors"></a>매핑 오류 탐색
 
@@ -92,7 +98,7 @@ Excel 또는 CSV 파일에서 엔터티로 파일을 가져올 수 있는 방법
 
 ## <a name="ensure-uniqueness-when-you-import-data-into-an-entity-from-excel-or-csv"></a>Excel 또는 CSV에서 엔터티로 데이터를 가져올 때 고유성 보장
 
-Common Data Service 엔터티는 기본 키를 사용하여 공통 데이터 서비스 엔터티 테이블 내의 레코드를 고유하게 식별합니다. Common Data Service 엔터티의 기본 키는 GUID(Globally Unique Identifier)입니다. 레코드 식별에 대한 기본 기반을 형성합니다. Common Data Service 엔터티로 데이터를 가져오는 등의 데이터 작업은 기본 기본 키를 노출합니다.
+Common Data Service 엔터티는 기본 키를 사용하여 Common Data Service 엔터티 테이블 내의 레코드를 고유하게 식별합니다. Common Data Service 엔터티의 기본 키는 GUID(Globally Unique Identifier)입니다. 레코드 식별에 대한 기본 기반을 형성합니다. Common Data Service 엔터티로 데이터를 가져오는 등의 데이터 작업은 기본값인 기본 키를 노출합니다.
 
 예제:  
 **거래처** 엔터티의 기본 키는 **accountid**입니다.
@@ -117,7 +123,7 @@ Common Data Service 엔터티는 기본 키를 사용하여 공통 데이터 서
 
 표준 엔터티 또는 사용자 지정 엔터티에서 일회성 데이터 내보내기를 수행할 수 있습니다. 한 번에 둘 이상의 엔터티에서 데이터를 내보낼 수 있습니다. 둘 이상의 엔터티에서 데이터를 내보내는 경우 각 엔터티는 자체 Microsoft CSV 파일로 내보내집니다.
 
-1. [powerapps.com](https://web.powerapps.com/)에서 **데이터** 섹션을 확장합니다. 왼쪽 탐색 창에서 **엔터티**를 선택합니다.
+1. [powerapps.com](https://make.powerapps.com/)에서 **데이터** 섹션을 확장합니다. 왼쪽 탐색 창에서 **엔터티**를 선택합니다.
 1. 데이터를 내보내려는 엔터티를 선택합니다.
 1. 맨 위에 있는 줄임표 또는 메뉴를 선택합니다. **내보내기**를 선택합니다. **데이터**를 선택합니다.
 

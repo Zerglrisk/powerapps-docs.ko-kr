@@ -8,20 +8,26 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 ms.assetid: 00e62904-2ce9-4730-a113-02b1fedbf22e
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 20a28b159158579b35fb9e8a1b650f718c5ef83b
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2703958"
 ---
 # <a name="modeldrivenformintegration-control-properties-and-actions"></a>ModelDrivenFormIntegration 컨트롤의 속성 및 동작
 모델 기반 양식에 포함된 캔버스 앱에는 **ModelDrivenFormIntegration**이라는 특수 컨트롤이 포함되어 있습니다. 이 컨트롤은 호스트 모델 기반 양식에서 포함된 캔버스 앱으로 컨텍스트 데이터를 가져오는 역할을 합니다.  
@@ -30,9 +36,9 @@ search.app:
 
 | 속성 또는 작업 | 설명 |
 |:--------------|:-------------------------|
-|**DataSource** | 호스트 모델 기반 양식의 상위 엔티티에 연결된 데이터 소스로 설정해야 합니다. <br />[새 캔버스 앱을 삽입](embedded-canvas-app-add-classic-designer.md)할 때 자동으로 설정됩니다. |
+|**DataSource** | 호스트 모델 기반 양식의 상위 엔터티에 연결된 데이터 소스로 설정해야 합니다. <br />[새 캔버스 앱을 삽입](embedded-canvas-app-add-classic-designer.md)할 때 자동으로 설정됩니다. |
 |**항목** | 포함된 캔버스 앱이 호스트 모델 기반 양식의 레코드에 액세스 할 수 있도록 하는 읽기 전용 속성입니다. <br />예를 들어 이름이 accountnumber이고 표시 이름이 거래처 번호인 필드의 값을 가져오려면 ModelDrivenFormIntegration.Item.accountnumber 또는 ModelDrivenFormIntegration.Item.'Account Number'를 사용할 수 있습니다. |
-|**OnDataRefresh** | 이 속성의 수식은 호스트 모델 기반 양식이 데이터를 저장할 때 평가됩니다. <br />이를 사용하여 호스트 모델 기반 양식의 상위 엔티티에 연결된 데이터 소스를 새로 고치고 변수 설정 또는 업데이트와 같은 다른 작업을 수행합니다. <br /> 예를 들어 아래 수식으로 설정하면 계정 데이터 소스가 새로 고쳐지고 CurrentAccountNumber라는 변수가 현재 레코드의 거래처 번호 필드 값으로 설정됩니다. <br /> Refresh(Accounts); Set(CurrentAccountNumber, ModelDrivenFormIntegration.Item.'Account Number') |
+|**OnDataRefresh** | 이 속성의 수식은 호스트 모델 기반 양식이 데이터를 저장할 때 평가됩니다. <br />이를 사용하여 호스트 모델 기반 양식의 상위 엔터티에 연결된 데이터 소스를 새로 고치고 변수 설정 또는 업데이트와 같은 다른 작업을 수행합니다. <br /> 예를 들어 아래 수식으로 설정하면 계정 데이터 소스가 새로 고쳐지고 CurrentAccountNumber라는 변수가 현재 레코드의 거래처 번호 필드 값으로 설정됩니다. <br /> Refresh(Accounts); Set(CurrentAccountNumber, ModelDrivenFormIntegration.Item.'Account Number') |
 |**RefreshForm** | 호스트 모델 기반 양식의 데이터를 새로 고칩니다. <br />자세한 내용은 [호스트 양식에서 미리 정의된 작업 수행](embedded-canvas-app-actions.md#refreshformshowprompt)을 참조하십시오. |
 |**SaveForm** | 호스트 모델 기반 양식에 데이터를 저장합니다. <br />자세한 내용은 [호스트 양식에서 미리 정의된 작업 수행](embedded-canvas-app-actions.md#saveform)을 참조하십시오.  |
 |**NavigateToMainForm** | 호스트 모델 기반 양식을 기본 양식으로 이동하고 지정된 레코드를 표시합니다. <br />자세한 내용은 [호스트 양식에서 미리 정의된 작업 수행](embedded-canvas-app-actions.md#navigatetomainformentityname-mainformname-recordid)을 참조하십시오. |

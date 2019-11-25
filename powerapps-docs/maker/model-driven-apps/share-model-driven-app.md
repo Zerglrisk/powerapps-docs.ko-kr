@@ -1,5 +1,5 @@
 ---
-title: PowerApps를 사용하여 모델 기반 앱 공유 | Microsoft Docs
+title: PowerApps에서 모델 기반 앱 공유 | Microsoft Docs
 description: 모델 기반 앱을 공유하는 방법 알아보기
 documentationcenter: ''
 author: Mattp123
@@ -13,13 +13,18 @@ ms.component: model
 ms.date: 03/19/2019
 ms.author: matp
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 1c44bd0ce65bd995d79f291bd6af36193c4165a5
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2711086"
 ---
-
-# <a name="share-a-model-driven-app-with-powerapps"></a>PowerApps를 사용하여 모델 기반 앱 공유
+# <a name="share-a-model-driven-app-with-powerapps"></a>PowerApps에서 모델 기반 앱 공유
 
 [!INCLUDE [powerapps](../../includes/powerapps.md)] 앱은 역할 기반 보안을 공유에 사용합니다. 역할 기반 보안의 기본 개념은 앱 내에서 수행할 수 있는 작업 집합을 정의하는 권한이 보안 역할에 포함되어 있다는 것입니다. 모든 앱 사용자가 하나 이상의 사용자 지정 또는 미리 정의된 역할에 할당되어야 합니다. 또는 팀에 역할을 할당할 수도 있습니다. 사용자 또는 팀이 이러한 역할 중 하나에 할당되면 사용자 또는 팀 구성원은 해당 역할에 연결된 권한 집합이 부여됩니다. 
 
@@ -31,7 +36,7 @@ search.app:
 ## <a name="prerequisites"></a>필수 구성 요소
 앱을 공유 하려면 [!INCLUDE [powerapps](../../includes/powerapps.md)]환경 관리자 또는 시스템 관리자 역할이 있어야 합니다. 
 
-## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
+## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인합니다.
 [PowerApps](https://powerapps.microsoft.com/)에 로그인합니다. 아직 [!INCLUDE [powerapps](../../includes/powerapps.md)] 계정이 없는 경우 **무료 시작** 링크를 선택합니다.
 
 ## <a name="share-an-app"></a>앱 공유 
@@ -119,7 +124,7 @@ search.app:
 1. **이 앱 공유** 대화 상자에서 **사용자와 직접 앱에 대한 링크 공유**에서 표시 되는 URL을 복사합니다.
  
 2. **닫기**를 선택합니다.
-3. 사용자가 SharePoint 사이트에 게시하거나 전자 메일을 통해 전송하는 등의 방법으로 액세스할 수 있도록 앱 URL을 위치에 붙여넣습니다.
+3. 사용자가 SharePoint 사이트에 게시하거나 전자 메일을 통해 전송하는 등의 방법으로 액세스할 수 있도록 앱 URL을 위치에 붙여 넣습니다.
 
 > [!div class="mx-imgBorder"] 
 > ![링크 공유](media/share-model-driven-app/share-model-driven-URL.PNG)

@@ -8,27 +8,32 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: get-started-article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - PowerApps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- PowerApps
 author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-  - PowerApps maker portal impact
+- PowerApps maker portal impact
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 38a2ebe769fdff6ebeeebd82824fffecae5ff00e
+ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2700350"
 ---
-
 # <a name="properties-available-in-the-form-designer"></a>양식 디자이너에서 사용 가능한 속성
 
 모델 기반 양식 디자이너의 오른쪽 창에 있는 속성 창에서 미리 보기나 트리 보기에서 선택한 요소의 속성을 빠르게 보고 업데이트할 수 있습니다. 
 
 > [!div class="mx-imgBorder"] 
-> ![](media/form-designer-property-pane.png "양식 디자이너 속성 창")
+> ![](media/form-designer-property-pane.png "Form designer property pane")
 
 ## <a name="form-properties"></a>양식 속성
 

@@ -9,19 +9,25 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 29e53691-0b18-4fde-a1d0-7490aa227898
 caps.latest.revision: 10
 ms.author: matp
 manager: kvivek
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: d6c620f518331f46ef3e662040975cd8c6c5625a
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758815"
 ---
 # <a name="define-alternate-keys-to-reference-records"></a>레코드를 참조할 대체 키 정의
 
@@ -32,7 +38,7 @@ search.app:
 예를 들어 대체 키를 사용하여 거래처 레코드를 식별하려면 계정 번호 또는 계정 번호 필드를 변경할 수 없는 값이 있는 다른 필드와 함께 사용하면 됩니다.
 
 > [!NOTE]
-> PowerApps서 대체 키를 정의할 수 있는 반면 코드에서 프로그래밍 방법으로만 사용될 수 있습니다. 대체 키 프로그래밍 기능 사용에 대한 자세한 내용은 다음을 참조하십시오.   
+> PowerApps에서 대체 키를 정의할 수 있는 반면 코드에서 프로그래밍 방법으로만 사용될 수 있습니다. 대체 키 프로그래밍 기능 사용에 대한 자세한 내용은 다음을 참조하십시오.   
 > - [개발자 설명서: 대체 키를 사용하여 레코드 만들기](/dynamics365/customer-engagement/developer/use-alternate-key-create-record) 
 > - [개발자 설명서: 대체 키를 사용하여 웹 API로 레코드 검색](/dynamics365/customer-engagement/developer/webapi/retrieve-entity-using-web-api#retrieve-using-an-alternate-key)
 
@@ -49,7 +55,7 @@ search.app:
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 옵션은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털을 사용한 대체 키 정의](define-alternate-keys-portal.md)|
+|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 옵션은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털을 사용한 대체 키 정의](define-alternate-keys-portal.md)|
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />추가 정보: [솔루션 탐색기를 사용한 대체 키 정의](define-alternate-keys-solution-explorer.md) |
 
 > [!NOTE]
@@ -59,7 +65,7 @@ search.app:
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 
-다음 요구 사항 중 하나를 해결 해야 하는 경우가 아니면 [PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하여 대체 키를 만들어야 합니다.
+다음 요구 사항 중 하나를 해결 해야 하는 경우가 아니면 [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하여 대체 키를 만들어야 합니다.
 
 - Common Data Service 기본 솔루션 이외의 솔루션 내에서 대체 키 만들기
 - 지원 색인 만들기의 진행 상황을 추적하는 시스템 작업을 쉽게 추적하길 원할 것입니다.

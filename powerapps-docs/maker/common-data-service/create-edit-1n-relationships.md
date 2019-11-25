@@ -1,6 +1,6 @@
 ---
-title: 'PowerApps 개요에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 | MicrosoftDocs'
-description: '1:N(일대다) 또는 N:1(다대일) 엔터티 관계를 만드는 방법 알아보기'
+title: PowerApps에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 개요 | MicrosoftDocs
+description: 1:N(일대다) 또는 N:1(다대일) 엔터티 관계를 만드는 방법 알아보기
 ms.custom: ''
 ms.date: 05/27/2018
 ms.reviewer: ''
@@ -9,24 +9,30 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 applies_to:
-  - Dynamics 365 (online)
-  - Dynamics 365 Version 9.x
-  - powerapps
+- Dynamics 365 (online)
+- Dynamics 365 Version 9.x
+- powerapps
 author: Mattp123
 ms.assetid: 52c00707-b2bc-4950-abec-89baefd94f6e
 caps.latest.revision: 33
 ms.author: matp
 manager: kvivek
-tags: null
+tags: ''
 search.audienceType:
-  - maker
+- maker
 search.app:
-  - PowerApps
-  - D365CE
+- PowerApps
+- D365CE
+ms.openlocfilehash: 724a887df3a5347f1d403ac30201297abf5201aa
+ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "2758199"
 ---
 # <a name="create-one-to-many-or-many-to-one-entity-relationships-overview"></a>1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 개요
 
-Common Data Service 1:N(일대다) 또는 N:1(다대일) 관계에서 두 엔터티가 서로 관련되는 방식을 정의합니다. 
+Common Data Service에서 1:N(일대다) 또는 N:1(다대일) 관계는 두 엔터티가 서로 관련되는 방식을 정의합니다. 
   
 사용자 지정 엔터티 관계를 만들려면 먼저 기존 엔터티 관계를 사용하여 요구 사항을 충족하는지 평가합니다. <br />추가 정보: [새 메타데이터를 만들거나 기존 메타데이터를 사용하시겠습니까?](create-edit-metadata.md#create-new-metadata-or-use-existing-metadata)
 
@@ -34,7 +40,7 @@ Common Data Service 1:N(일대다) 또는 N:1(다대일) 관계에서 두 엔터
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)|
+|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)|
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다. <br />추가 정보: [솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-solution-explorer.md) |
 
 > [!NOTE]
@@ -58,7 +64,7 @@ Common Data Service 1:N(일대다) 또는 N:1(다대일) 관계에서 두 엔터
 
 ## <a name="community-tools"></a>커뮤니티 도구
 
-**[엔터티 관계 다이어그램 작성자](https://www.xrmtoolbox.com/plugins/JourneyIntoCRM.XrmToolbox.ERDPlugin/)** xrmtoolbox 커뮤니티 앱용 Common Data Service를 개발하는 도구입니다. 더 많은 커뮤니티 개발 도구에 대한 [Common Data Service에 대한 개발자 도구](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools) 항목을 참조하십시오.
+**[엔터티 관계 다이어그램 작성자](https://www.xrmtoolbox.com/plugins/JourneyIntoCRM.XrmToolbox.ERDPlugin/)** 는 XrmToolbox 커뮤니티가 Common Data Service용으로 개발한 도구입니다. 커뮤니티 개발 도구에 대한 자세한 내용은 [Common Data Service용 개발자 도구](https://docs.microsoft.com/dynamics365/customer-engagement/developer/developer-tools) 항목을 참조하십시오.
 
 > [!NOTE]
 > 커뮤니티 도구는 Microsoft의 제품이 아니며 커뮤니티 도구에 대해 지원을 확장하지 않습니다. 도구와 관련된 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)
