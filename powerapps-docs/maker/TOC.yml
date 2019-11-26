@@ -68,6 +68,8 @@
               href: ../user/track-your-progress-with-dashboard-and-charts.md
             - name: Power BI 대시보드 추가
               href: ../user/add-powerbi-dashboards.md
+            - name: SharePoint를 사용하여 공동 작업
+              href: ../user/collaborate-using-sharepoint.md
         - name: 레코드 검색
           items:
             - name: 검색 및 찾기 옵션 비교
@@ -260,6 +262,8 @@
                   href: ./canvas-apps/working-with-form-layout.md
                 - name: 카드 이해
                   href: ./canvas-apps/working-with-cards.md
+                - name: 전체 크기 이미지 표시
+                  href: ./canvas-apps/display-full-image-on-form.md
             - name: 목록 추가
               items:
                 - name: '목록 상자, 드롭다운 목록 또는 라디오 단추 추가'
