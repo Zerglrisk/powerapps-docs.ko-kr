@@ -27,12 +27,12 @@ ms.locfileid: "74177889"
 
 | **필요한 최소 사항** | **권장** |
 | --- | --- |
-| iOS 12 or later |iOS 12 or later|
-| Android 7 or later |Android 7 or later |
+| iOS 12 이상 |iOS 12 이상|
+| Android 7 이상 |Android 7 이상 |
 | Windows 8.1 이상(PC만 해당) |최소 8GB의 RAM이 있는 Windows 10 Fall Creators Update|
 
 > [!NOTE]
-> We currently don't support new features on Windows platform for PowerApps app. Features such as the Improved Common Data Service option and guest access are not available on this platform. We recommend using a web player on Windows to leverage the full set of capabilities. Updates to the PowerApps app for Windows platform will be announced in future.
+> 현재 PowerApps 앱 용 Windows 플랫폼에서 새로운 기능을 지원 하지 않습니다. 이 플랫폼에서는 향상 된 Common Data Service 옵션 및 게스트 액세스와 같은 기능을 사용할 수 없습니다. Windows에서 웹 플레이어를 사용 하 여 전체 기능 집합을 활용 하는 것이 좋습니다. Windows 플랫폼용 PowerApps 앱에 대 한 업데이트는 나중에 발표 될 예정입니다.
 
 ## <a name="supported-browsers-for-running-canvas-apps"></a>캔버스 앱 실행에 지원되는 브라우저
 
@@ -55,7 +55,7 @@ ms.locfileid: "74177889"
 ## <a name="request-limits"></a>요청 제한
 이러한 제한은 보내는 단일 요청 각각에 적용됩니다.
 
-| 이름 | Limit |
+| 이름 | 제한 |
 | --- | --- |
 | 시간 제한 |180초 |
 | 재시도 횟수 |4 |
@@ -63,7 +63,7 @@ ms.locfileid: "74177889"
 > [!NOTE]
 > 재시도 값은 달라질 수 있습니다. 특정 오류 조건의 경우 재시도가 필요하지 않습니다.
 
-## <a name="ip-addresses"></a>IP addresses
+## <a name="ip-addresses"></a>IP 주소
 PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environments-overview.md)의 지역에 따라 다른 IP 주소를 사용합니다. PowerApps 시나리오에 사용할 수 있는 정규화된 도메인 이름을 게시하지 않습니다.
 
 이 항목의 뒷부분에서 지정된 IP 주소에서 앱(예: SQL API 또는 SharePoint API)을 통해 연결된 API의 호출이 비롯됩니다.
@@ -73,69 +73,69 @@ PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environment
 > [!IMPORTANT]
 >   PowerApps 앱이 위치한 지역의 경우 이 목록의 IP 주소를 포함하고 일치하도록 기존 구성이 있는 경우 2018년 9월 30일 전에 최대한 신속하게 업데이트하세요.
 
-| Region | 아웃바운드 IP |
+| 국가별 | 아웃바운드 IP |
 | --- | --- |
-| Asia | 13.75.36.64 - 13.75.36.79, 13.67.8.240 - 13.67.8.255, 52.175.23.169, 52.187.68.19 |
-| Australia  | 13.70.72.192 - 13.70.72.207, 13.72.243.10, 13.77.50.240 - 13.77.50.255, 13.70.136.174 |
-| Brazil | 191.233.203.192 - 191.233.203.207, 104.214.19.48 - 104.214.19.63, 13.65.86.57, 104.41.59.51 |
-| Canada | 13.71.170.208 - 13.71.170.223, 13.71.170.224 - 13.71.170.239, 52.237.24.126, 40.69.106.240 - 40.69.106.255, 52.242.35.152|
-| Europe | 13.69.227.208 - 13.69.227.223, 52.178.150.68, 13.69.64.208 - 13.69.64.223, 52.174.88.118, 137.117.161.181|
-| India  | 104.211.81.192 - 104.211.81.207, 52.172.211.12, 40.78.194.240 - 40.78.194.255, 13.71.125.22, 104.211.146.224 - 104.211.146.239, 104.211.189.218 |
-| Japan | 13.78.108.0 - 13.78.108.15, 13.71.153.19, 40.74.100.224 - 40.74.100.239, 104.215.61.248 |
+| 아시아 | 13.75.36.64 - 13.75.36.79, 13.67.8.240 - 13.67.8.255, 52.175.23.169, 52.187.68.19 |
+| 오스트레일리아  | 13.70.72.192 - 13.70.72.207, 13.72.243.10, 13.77.50.240 - 13.77.50.255, 13.70.136.174 |
+| 브라질 | 191.233.203.192 - 191.233.203.207, 104.214.19.48 - 104.214.19.63, 13.65.86.57, 104.41.59.51 |
+| 캐나다 | 13.71.170.208 - 13.71.170.223, 13.71.170.224 - 13.71.170.239, 52.237.24.126, 40.69.106.240 - 40.69.106.255, 52.242.35.152|
+| 유럽 | 13.69.227.208 - 13.69.227.223, 52.178.150.68, 13.69.64.208 - 13.69.64.223, 52.174.88.118, 137.117.161.181|
+| 인도  | 104.211.81.192 - 104.211.81.207, 52.172.211.12, 40.78.194.240 - 40.78.194.255, 13.71.125.22, 104.211.146.224 - 104.211.146.239, 104.211.189.218 |
+| 일본 | 13.78.108.0 - 13.78.108.15, 13.71.153.19, 40.74.100.224 - 40.74.100.239, 104.215.61.248 |
 | 남아메리카 | 191.233.203.192 - 191.233.203.207, 104.214.19.48 - 104.214.19.63, 13.65.86.57, 104.41.59.51 |
-| United Kingdom | 51.140.148.0 - 51.140.148.15, 51.140.80.51, 51.140.211.0 - 51.140.211.15, 51.141.47.105 |
-| United States | 13.89.171.80 - 13.89.171.95, 52.173.245.164, 40.71.11.80 - 40.71.11.95, 40.71.249.205, 40.70.146.208 - 40.70.146.223, 52.232.188.154, 52.162.107.160 - 52.162.107.175, 52.162.242.161, 40.112.243.160 - 40.112.243.175, 104.42.122.49 |
+| 영국 | 51.140.148.0 - 51.140.148.15, 51.140.80.51, 51.140.211.0 - 51.140.211.15, 51.141.47.105 |
+| 미국 | 13.89.171.80 - 13.89.171.95, 52.173.245.164, 40.71.11.80 - 40.71.11.95, 40.71.249.205, 40.70.146.208 - 40.70.146.223, 52.232.188.154, 52.162.107.160 - 52.162.107.175, 52.162.242.161, 40.112.243.160 - 40.112.243.175, 104.42.122.49 |
 | 미국(초기 액세스)  | 13.71.195.32 - 13.71.195.47, 52.161.102.22, 13.66.140.128 - 13.66.140.143, 52.183.78.157 |
 
 ## <a name="required-services"></a>필수 서비스
 PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하는 목록입니다. 네트워크는 이러한 서비스를 차단하지 **않아야** 합니다.
 
-| 도메인 | Protocols | 사용 |
+| 도메인 | 인터넷용 | 사용 |
 | --- | --- | --- |
-| management.azure.com |https |RP |
-| msmanaged-na.azure-apim.net |https |커넥터 런타임/API |
-| login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |https |ADAL |
-| graph.microsoft.com<br>graph.windows.net |https |Azure Graph - For getting user info (e.g., profile photo) |
-| gallery.azure.com |https |샘플 및 템플릿 앱 |
-| \*.azure-apim.net |https |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
-| \*.powerapps.com |https | create.powerapps.com, make.powerapps.com, content.powerapps.com, and make.powerapps.com |
-| \*.azureedge.net |https | create.powerapps.com, make.powerapps.com, content.powerapps.com, and make.powerapps.com |
-| \*.blob.core.windows.net |https | Blob storage |
-| \*.flow.microsoft.com | https | create.powerapps.com, make.powerapps.com, content.powerapps.com, and make.powerapps.com |
-| *.dynamics.com | https | Common Data Service |
-| vortex.data.microsoft.com |https |Telemetry |
-| localhost | https | PowerApps Mobile
+| management.azure.com |http |RP |
+| msmanaged-na.azure-apim.net |http |커넥터 런타임/API |
+| login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |http |ADAL |
+| graph.microsoft.com<br>graph.windows.net |http |Azure Graph-사용자 정보 (예: 프로필 사진)를 가져오는 데 사용 됩니다. |
+| gallery.azure.com |http |샘플 및 템플릿 앱 |
+| \*azure-apim.net |http |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
+| \*powerapps.com |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
+| \*azureedge.net |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
+| \*blob.core.windows.net |http | Blob 저장소 |
+| \*flow.microsoft.com | http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
+| *. dynamics.com | http | Common Data Service |
+| vortex.data.microsoft.com |http |분석이 |
+| 호스트 | http | PowerApps Mobile
 
 > [!NOTE]
 > VPN을 사용하는 경우 PowerApps Mobile을 위한 터널링에서 localhost를 제외하도록 구성해야 합니다.
 
-## <a name="size-limits"></a>Size limits
+## <a name="size-limits"></a>크기 제한
 
-You can find information about size limits on text, hyperlinks, images, and media in [Data types](functions/data-types.md#text-hyperlink-image-and-media).
+텍스트, 하이퍼링크, 이미지 및 미디어의 [데이터 형식](functions/data-types.md#text-hyperlink-image-and-media)에 대 한 크기 제한에 대 한 정보를 찾을 수 있습니다.
 
-## <a name="powerapps-per-app-plan"></a>PowerApps per app plan
+## <a name="powerapps-per-app-plan"></a>앱 요금제 별 PowerApps
 
-PowerApps per app plan allows individual users to run 2 applications on a single portal for a specific business scenario based on the full capabilities of PowerApps. This plan provides an easy way for users to get started with the platform before broader scale adoption.
+앱 요금제 당 PowerApps를 사용 하면 개별 사용자가 PowerApps의 전체 기능을 기반으로 하는 특정 비즈니스 시나리오에 대해 단일 포털에서 2 개의 응용 프로그램을 실행할 수 있습니다. 이 계획은 사용자가 보다 폭넓은 규모 도입 전에 플랫폼을 시작할 수 있는 쉬운 방법을 제공 합니다.
 
-After an admin allocates PowerApps per app plan to an environment, they're assigned to unlicensed users when an app in that environment is shared with them. You can see how an admin allocates per app plans [here](https://docs.microsoft.com/power-platform/admin/capacity-add-on).
+관리자가 앱 계획 당 PowerApps를 환경에 할당 하면 해당 환경의 앱을 공유할 때 허가 되지 않은 사용자에 게 할당 됩니다. 관리자가 앱 계획 별로 할당 하는 방법을 볼 [수 있습니다.](https://docs.microsoft.com/power-platform/admin/capacity-add-on)
 
-Follow these steps to turn off the assigning per app plans for users when an app is shared with them:
+앱이 공유 될 때 사용자에 대 한 앱 요금제 할당을 해제 하려면 다음 단계를 수행 합니다.
 
-- Choose the **App**.
-- Select **Settings**.
-- Change the **Auto assign per app passes** toggle under **Pass assignment**.
+- **앱**을 선택 합니다.
+- **설정**을 선택 합니다.
+- **Pass** **assign에서 앱 당 자동 할당 통과** 를 전환 합니다.
 
-The **Auto assign per app passes** toggle appears in all app setting.
+**앱 당 자동 할당 통과** 는 모든 앱 설정에 표시 됩니다.
 
 > [!NOTE]
-> Disabling the per app plan is currently available for only canvas apps.  Model-driven apps and Portals will have this ability in the future.
+> 앱 당 계획을 사용 하지 않도록 설정 하는 것은 현재 캔버스 앱에만 사용할 수 있습니다.  모델 기반 앱 및 포털은 나중에이 기능을 제공 합니다.
 >
-> The ability to control per app plan assignment for an app is only available for apps that are in an environment that had Per app plans allocated in the [Power Platform Admin center](https://admin.powerplatform.microsoft.com).  
+> 앱에 대 한 앱 별 계획 할당을 제어 하는 기능은 [전원 플랫폼 관리 센터](https://admin.powerplatform.microsoft.com)에서 앱 요금제를 할당 한 환경에 있는 앱에만 사용할 수 있습니다.  
 
-### <a name="app-settings"></a>App Settings
+### <a name="app-settings"></a>앱 설정
 
-![Canvas app settings](./media/limits-and-config/app_settings.png "Canvas app settings")
+![Canvas 앱 설정](./media/limits-and-config/app_settings.png "Canvas 앱 설정")
 
-### <a name="pass-assignment"></a>Pass assignment
+### <a name="pass-assignment"></a>통과 할당
 
-![Canvas app settings pass assignment](./media/limits-and-config/app_settings_pass_assignment.png "Canvas app settings pass assignment")
+![Canvas 앱 설정 패스 할당](./media/limits-and-config/app_settings_pass_assignment.png "Canvas 앱 설정 패스 할당")
