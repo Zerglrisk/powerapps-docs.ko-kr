@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ec991f54ff4b395026c9a869c315f75a549da79e
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 26ba133612e1c69ed470984fabafe6a6cdfddb1c
+ms.sourcegitcommit: d03915b4e2583327526b448ec10474cedfd7efe0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73649785"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74550579"
 ---
 # <a name="rich-text-editor-control-in-powerapps"></a>PowerApps의 서식 있는 텍스트 편집기 컨트롤
 최종 사용자가 WYSIWYG 편집 영역 내에서 텍스트의 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.
@@ -50,6 +50,8 @@ ms.locfileid: "73649785"
 **[AccessibleLabel](properties-accessibility.md)** – 화면 읽기 프로그램의 레이블입니다. 첨부 파일의 목적을 설명해야 합니다.
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 파일 추가 및 삭제(**편집**)하거나, 데이터만 표시(**보기**)하거나 사용 안 하도록(**사용 안 함**) 설정할지 선택합니다.
+
+**EnableSpellCheck** – 브라우저 맞춤법 검사기를 사용 하도록 설정할지 여부를 지정 합니다. 이 기능은 브라우저의 기본 언어 에서만 맞춤법 검사를 제공 합니다.  Windows 용 Power Apps는이 속성을 지원 하지 않습니다.
 
 **[Height](properties-size-location.md)** – 컨트롤의 위쪽 및 아래쪽 가장자리 사이의 간격입니다.
 
