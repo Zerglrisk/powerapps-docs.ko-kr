@@ -262,8 +262,6 @@
                   href: ./canvas-apps/working-with-form-layout.md
                 - name: 카드 이해
                   href: ./canvas-apps/working-with-cards.md
-                - name: 전체 크기 이미지 표시
-                  href: ./canvas-apps/display-full-image-on-form.md
             - name: 목록 추가
               items:
                 - name: '목록 상자, 드롭다운 목록 또는 라디오 단추 추가'
@@ -1534,6 +1532,8 @@
       href: ./common-data-service/import-translated-entity-field-text.md
     - name: Common Data Service의 보안
       href: /power-platform/admin/wp-security
+    - name: API 제한 개요
+      href: ./common-data-service/api-limits-overview.md
     - name: 개발자의 경우
       href: ../developer/common-data-service/overview.md
 - name: AI 작성기
