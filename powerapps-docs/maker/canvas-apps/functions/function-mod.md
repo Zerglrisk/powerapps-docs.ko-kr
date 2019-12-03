@@ -1,6 +1,6 @@
 ---
 title: Mod 함수 | Microsoft Docs
-description: PowerApps의 Mod 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Mod 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5b944da6458eee9f168be5eaa9dc774dd6a56aa0
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: db7c18c322b7d4c659ca577bf9092daf20f626b1
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992515"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730490"
 ---
-# <a name="mod-function-in-powerapps"></a>PowerApps의 Mod 함수
+# <a name="mod-function-in-power-apps"></a>Power Apps의 Mod 함수
 나눗셈의 나머지를 반환합니다.
 
 ## <a name="description"></a>설명

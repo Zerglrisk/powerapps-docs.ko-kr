@@ -1,6 +1,6 @@
 ---
 title: DateValue, TimeValue 및 DateTimeValue 함수 | Microsoft Docs
-description: PowerApps의 DateValue, TimeValue 및 DateTimeValue 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 DateValue, TimeValue 및 DateTimeValue 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3914c55bf3be5d172bc80832e437c3e3775a1859
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: aab6d3d00f960d2e0b4ca5cc5b309eee4fb9a7b7
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985076"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731199"
 ---
-# <a name="datevalue-timevalue-and-datetimevalue-functions-in-powerapps"></a>PowerApps의 DateValue, TimeValue 및 DateTimeValue 함수
+# <a name="datevalue-timevalue-and-datetimevalue-functions-in-power-apps"></a>Power Apps의 DateValue, TimeValue 및 DateTimeValue 함수
 문자열의 날짜, 시간 또는 둘 다를 날짜/시간 값으로 변환합니다.
 
 ## <a name="description"></a>설명
@@ -50,7 +50,7 @@ ms.locfileid: "71985076"
 ## <a name="syntax"></a>구문
 **DateValue**( *String* [, *Language* ])<br>**DateTimeValue**( *String* [, *Language* ])<br>**TimeValue**( *String* [, *Language* ])
 
-* *String* - 필수 항목이며,  날짜, 시간 또는 날짜와 시간의 조합 값이 포함된 텍스트 문자열입니다.
+* *String* - 필수 항목입니다.  날짜, 시간 또는 날짜와 시간의 조합 값이 포함된 텍스트 문자열입니다.
 * *Language* - 선택 항목입니다.  **[Language](function-language.md)** 함수의 첫 두 문자로 반환되는, 언어 문자열입니다.  제공되지 않으면 현재 사용자의 클라이언트 언어가 사용됩니다.  
 
 ## <a name="examples"></a>예

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: cba5d7bd1214866cc24ba01c64909cf15e0ca96d
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: d6ee64ddb2ae2f2a9c114a70970843627b92efb1
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674664"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74709707"
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 엔드투엔드 연습
 > [!NOTE]
@@ -160,7 +160,7 @@ ms.locfileid: "74674664"
 
 그러면 엔드투엔드 연습 및 이 시리즈의 자습서를 완료할 수 있습니다. 다음 사이트에서 사용자 경험을 계속하는 것이 좋습니다.
 
-* [PowerApps](https://www.powerapps.com/)
+* [Power Apps](https://www.powerapps.com/)
 * [전원 자동화](https://flow.microsoft.com)
 * [Power BI](https://www.powerbi.com)
 * [Power Users Community](https://powerusers.microsoft.com/)

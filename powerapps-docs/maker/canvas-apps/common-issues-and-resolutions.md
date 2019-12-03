@@ -1,6 +1,6 @@
 ---
 title: 파워 앱에 대 한 일반적인 문제 및 해결 방법 | Microsoft Docs
-description: PowerApps의 일반적인 문제 및 해결 방법에 대한 목록입니다.
+description: Power Apps 내에서 발생 하는 일반적인 문제 및 해결 방법 목록입니다.
 author: KumarVivek
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c8f05c74141301d0c41238daa20625874eec98aa
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: b578d34217647658bb872ed22cd7ee8b3cc4a1cd
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678790"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723853"
 ---
-# <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
+# <a name="common-issues-and-resolutions-for-power-apps"></a>Power Apps에 대 한 일반적인 문제 및 해결 방법
 
 이 문서에서는 Power Apps를 사용 하는 동안 발생할 수 있는 몇 가지 일반적인 문제를 나열 합니다. 적용 가능한 경우 해결 방법이 제공됩니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "74678790"
 
 1. **Android 디바이스의 릴리스 2.0.700**
 
-    Android 장치에 release 2.0.700를 설치한 후 앱을 열 수 없는 경우 (또는 앱의 응답이 중지 되는 경우), 전원 앱을 제거 하 고 장치를 다시 시작한 다음 PowerApps를 다시 설치 합니다.
+    Android 장치에 release 2.0.700를 설치한 후 앱을 열 수 없는 경우 (또는 앱의 응답이 중지 되는 경우), 전원 앱을 제거 하 고 장치를 다시 시작한 다음, 전원 앱을 다시 설치 합니다.
 
 1. **앱을 열 때 “빈” 갤러리**
 

@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 355793d572f6c4b6578d6cabff221c79e0724a93
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 22bd949dc11171d90a7ed358528c91999c4acc3e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650669"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74722847"
 ---
-# <a name="column-chart-and-line-chart-controls-in-powerapps"></a>PowerApps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
+# <a name="column-chart-and-line-chart-controls-in-power-apps"></a>Power Apps의 세로 막대형 차트 및 꺾은선형 차트 컨트롤
 데이터를 x 및 축이 있는 그래프로 표시하는 컨트롤입니다.
 
 ## <a name="description"></a>설명
@@ -70,13 +70,13 @@ ms.locfileid: "73650669"
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
