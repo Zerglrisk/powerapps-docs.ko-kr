@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8f2ff84ba79b202a888ab3909a09b3e66dd45640
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: de0aba95b4bb5c3a308b0b86b739302dc0dc70e3
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678928"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724651"
 ---
-# <a name="add-a-scrolling-screen-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 스크롤 화면 추가
+# <a name="add-a-scrolling-screen-to-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱에 스크롤 화면 추가
 
 캔버스 앱에서 사용자가 스크롤하여 다른 항목을 표시할 수 있는 화면을 만듭니다. 예를 들어, 사용자가 스크롤하여 표시할 수 있는 여러 차트의 데이터를 표시하는 전화 앱을 만듭니다.
 

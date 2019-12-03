@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 79d59c484f82f4d356f3b2ac40f02bdddd125901
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e5b961fb665ad0706d5b3c2c272a95dd4530c1d2
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676594"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74709471"
 ---
 # <a name="create-a-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
 
@@ -50,7 +50,7 @@ ms.locfileid: "74676594"
 
 ## <a name="open-a-blank-app"></a>비어 있는 앱 열기
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 합니다.
 
 1. **고유한 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
 

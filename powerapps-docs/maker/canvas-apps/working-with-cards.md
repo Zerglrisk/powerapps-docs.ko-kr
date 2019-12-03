@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4e895cbd482e24a1e61d499e6baae7d1ec9c1e82
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 4b159bbfe568e4f3a6501a0d98af83ac062b8c19
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674505"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732937"
 ---
-# <a name="understand-data-cards-in-powerapps"></a>PowerApps의 데이터 카드 이해
+# <a name="understand-data-cards-in-power-apps"></a>Power Apps의 데이터 카드 이해
 
 **[카드](controls/control-card.md)** 컨트롤은 캔버스 앱에서 **[편집 폼](controls/control-form-detail.md)** 및 **[표시 폼](controls/control-form-detail.md)** 컨트롤의 구성 요소입니다. 폼은 전체 레코드를 나타내며 각 카드는 해당 레코드의 단일 필드를 나타냅니다.
 

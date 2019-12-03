@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fe1192adca08d1fbde82b4b49ded5f5ca6a409e0
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: d100ac7902aa1d50abfc148ab4bbaed9e442a4ae
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675789"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74709851"
 ---
 # <a name="install-northwind-traders-database-and-apps"></a>Northwind Traders 데이터베이스 및 앱 설치
 
@@ -40,7 +40,7 @@ Northwind Traders는 주문, 제품, 고객, 공급 업체 및 소규모 기업�
 
 ## <a name="install-the-solution"></a>솔루션 설치
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 한 다음 Common Data Service 데이터베이스를 포함 하는 환경에서 작업 하 고 있는지 확인 합니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 한 후 Common Data Service 데이터베이스를 포함 하는 환경에서 작업 하 고 있는지 확인 합니다.
 
 1. 왼쪽 탐색 창에서 **솔루션**을 선택한 다음 화면 위쪽의 도구 모음에서 **가져오기** 를 선택 합니다.
 

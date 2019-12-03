@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 53b4adc44addb08432ad6abbe11bf2b217be1534
-ms.sourcegitcommit: abeedb952afc5e09ae4c158611e4813b63cb49b3
+ms.openlocfilehash: 6a4f85b5eb4d47bb4973de6902b0a69bb98df585
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2019
-ms.locfileid: "74598465"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732772"
 ---
-# <a name="controls-and-properties-in-powerapps"></a>PowerApps 컨트롤 및 속성
+# <a name="controls-and-properties-in-power-apps"></a>Power Apps의 컨트롤 및 속성
 
 속성 중 하나를 설정하여 컨트롤의 모양과 동작을 구성합니다. 각 유형의 컨트롤에는 서로 다른 속성 집합이 있습니다. **Height** 및 **Width**와 같은 일부 속성은 거의 모든 유형의 컨트롤에 공통으로 적용되지만, **CheckboxSize**와 같은 다른 속성은 한 유형의 컨트롤에만 적용됩니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "74598465"
 
 **[엔터티 양식](entity-form-control.md)** - 실험적 기능: 사용자가 Common Data Service에서 관계형 데이터를 보고, 탐색하고, 편집할 수 있는 동적 양식을 추가합니다.
 
-**[내보내기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 사용할 데이터를 내보냅니다.
+**[내보내기](controls/control-export-import.md)** – Power Apps의 다른 곳에서 사용 하기 위해 데이터를 내보냅니다.
 
 **[갤러리](controls/control-gallery.md)** – 여러 형식의 데이터를 포함할 수 있는 레코드 목록을 표시합니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "74598465"
 
 **[이미지](controls/control-image.md)** – 로컬 파일 또는 데이터 원본 등에서 이미지를 표시하는 컨트롤입니다.
 
-**[가져오기](controls/control-export-import.md)** – PowerApps의 다른 위치에서 데이터를 가져옵니다.
+**[가져오기](controls/control-export-import.md)** – Power Apps의 다른 위치에서 데이터를 가져옵니다.
 
 **[꺾은선형 차트](controls/control-column-line-chart.md)** – 두 축을 기준으로 값을 데이터 요소로 표시합니다.
 

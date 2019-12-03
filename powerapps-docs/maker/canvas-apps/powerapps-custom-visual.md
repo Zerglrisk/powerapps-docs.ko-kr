@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 11/20/2019
+ms.date: 12/02/2019
 ms.author: chmoncay
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ebce627faebf5df32ce27990086fe914d2a3823b
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 4db4e62bb3813b605b1ff4cdf5c2b83d969a1d3a
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675470"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74709752"
 ---
 # <a name="power-apps-custom-visual-for-power-bi"></a>Power BI에 대 한 Power Apps 사용자 지정 시각적 개체
 
@@ -28,9 +28,7 @@ Power BI를 사용 하면 데이터 정보 및 더 나은 의사 결정을 가�
 
 Power BI 보고서에서 Power Apps 사용자 지정 시각적 개체를 사용 하는 데 필요한 단계를 살펴보겠습니다.
 
-1. [AppSource](https://appsource.microsoft.com/product/power-bi-visuals/WA104381378?tab=Overview)에서 사용자 지정 시각적 개체를 가져오거나 Power BI 서비스에서 직접 가져옵니다.
-
-    ![마켓플레이스의 사용자 지정 시각적 개체](./media/powerapps-custom-visual/powerapps-store.png) 
+1. Power Apps 사용자 지정 시각적 개체는 기본적으로 Power BI 서비스에서 사용할 수 있습니다. Power BI Desktop를 사용 중이 고 표시 되지 않는 경우 최신 버전의 Power BI Desktop로 업그레이드 해야 합니다.
 
 2. Power Apps 시각적 개체를 보고서에 추가 하 고 연결 된 데이터 필드를 설정 합니다.
 
@@ -42,7 +40,7 @@ Power BI 보고서에서 Power Apps 사용자 지정 시각적 개체를 사용 
 
     ![새 앱 또는 기존 앱](./media/powerapps-custom-visual/create-new-or-choose-app.png)
 
-    기존 앱을 사용 하도록 선택 하는 경우 시각적 개체는 Power Apps에서 앱을 열도록 요청 합니다. 그런 다음, 시각적 개체는 Power BI에서 PowerApps에 데이터를 보낼 수 있도록 앱의 필수 구성 요소를 설정합니다.
+    기존 앱을 사용 하도록 선택 하는 경우 시각적 개체는 Power Apps에서 앱을 열도록 요청 합니다. 그러면 시각적 개체에서 앱에 필요한 구성 요소를 설정 하 여 Power BI에서 Power Apps로 데이터를 보낼 수 있도록 합니다.
 
     새 앱을 만드는 경우 Power Apps는 필수 구성 요소가 이미 설정 된 간단한 앱을 만듭니다.
 
@@ -75,7 +73,7 @@ Power Apps 사용자 지정 시각적 개체에는 다음과 같은 제한 사�
 - 시각적 개체와 연결된 데이터 필드를 변경하는 경우 줄임표(...)를 선택한 다음, **편집**을 선택하여 Power BI 서비스 내에서 앱을 편집해야 합니다. 그렇지 않으면 변경 내용이 전원 앱에 전파 되지 않으며 앱이 예기치 않은 방식으로 작동 합니다.
 - Power Apps 사용자 지정 시각적 개체는 Power BI Desktop 내에서 Power BI 보고서 및 Power BI 데이터 원본에 대 한 새로 고침을 트리거할 수 없습니다. 앱에서 보고서와 동일한 데이터 원본으로 데이터를 다시 작성 하는 경우 변경 내용은 Power BI Desktop에 즉시 반영 되지 않습니다. 변경 내용은 다음 예약된 새로 고침에서 반영됩니다.
 - Power Apps 사용자 지정 시각적 개체는 데이터를 필터링 하거나 보고서로 데이터를 다시 보낼 수 없습니다.
-- Power Apps 앱을 보고서와 별도로 공유 해야 합니다. [PowerApps에서 앱 공유](share-app.md)에 대해 알아봅니다.
+- Power Apps 앱을 보고서와 별도로 공유 해야 합니다. [Power apps에서 앱을 공유](share-app.md)하는 방법에 대해 알아봅니다.
 - Power BI Report Server 및 Power BI 용 모바일 앱은 Power Apps 사용자 지정 시각적 개체를 지원 하지 않습니다.
 - PowerBIIntegration. Refresh () 함수를 사용 하는 경우 [directquery](https://docs.microsoft.com/power-bi/desktop-directquery-data-sources) 를 지 원하는 원본을 사용 해야 하며 directquery 메서드를 사용 하 여 데이터 연결을 만들어야 합니다.
 - Power BI Desktop의 power Apps는 편집 하는 동안은 제외 하 고 앱을 만들 때 Power Apps 스튜디오에 데이터를 제공 합니다. Power BI 웹을 사용 하 여 앱을 편집 하는 동안 데이터를 미리 봅니다.

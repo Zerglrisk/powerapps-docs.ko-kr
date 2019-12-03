@@ -1,6 +1,6 @@
 ---
 title: Filter, Search 및 LookUp 함수 | Microsoft Docs
-description: PowerApps에서 Filter 및 LookUp 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 필터 및 조회 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b66997884d39e7e584eca7b6413e1fc8ae3caea9
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 8941352930e9978da6062f81fcf1e1ddb7700529
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680262"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731071"
 ---
-# <a name="filter-search-and-lookup-functions-in-powerapps"></a>PowerApps의 Filter, Search 및 LookUp 함수
+# <a name="filter-search-and-lookup-functions-in-power-apps"></a>Power Apps의 Filter, Search 및 LookUp 함수
 [테이블](../working-with-tables.md)에서 하나 이상의 [레코드](../working-with-tables.md#records)를 찾습니다.
 
 ## <a name="description"></a>설명

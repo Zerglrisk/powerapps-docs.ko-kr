@@ -1,6 +1,6 @@
 ---
 title: 캔버스의 액세스 가능한 색 | Microsoft Docs
-description: PowerApps의 캔버스 앱에 대한 색상 대비 지침
+description: Power Apps의 canvas 앱에 대 한 색 대비 지침
 author: tahoon
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 44c94a712402ef26a4fa6b36d84e287d3fa506e1
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 26fd45efc56ad03bc37635c29ddc7a6dbbe71568
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679296"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74725366"
 ---
-# <a name="accessible-colors-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 액세스 가능한 색
+# <a name="accessible-colors-for-canvas-apps-in-power-apps"></a>Power Apps의 캔버스 앱에 대 한 액세스 가능한 색
 캔버스 앱에서 사용되는 색은 색맹 및 저시력 사용자가 액세스할 수 있어야 합니다. 모든 Power Apps 테마는 기본적으로 액세스할 수 있습니다. 앱에서 사용되는 색을 수정할 경우 다음 지침에 따라 색에 계속 액세스할 수 있는지 확인합니다. 색 대비 문제를 식별하는 데 도움이 되는 온라인으로 사용 가능한 여러 도구가 있습니다.
 
 ## <a name="minimum-contrast-for-text"></a>텍스트에 대한 최소 대비

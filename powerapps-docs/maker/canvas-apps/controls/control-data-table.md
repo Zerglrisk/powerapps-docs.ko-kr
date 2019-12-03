@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6c41407397cc0f9a7ca12ec2c9cc3bbb7fa8c95f
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 4eaa58bc7bb27746a574c52fcd49253858a471ca
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679825"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723188"
 ---
-# <a name="data-table-control-in-powerapps"></a>PowerApps의 데이터 테이블 컨트롤
+# <a name="data-table-control-in-power-apps"></a>Power Apps의 데이터 테이블 제어
 테이블 형식으로 데이터 집합을 보여 줍니다.
 
 ## <a name="description"></a>설명
