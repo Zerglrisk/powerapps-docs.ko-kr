@@ -1,6 +1,6 @@
 ---
 title: Errors 함수 | Microsoft Docs
-description: PowerApps의 Errors 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+description: Power Apps의 Errors 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0a0871374bad90156f9b3626b58a68eb77bfb499
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 245bdbfbcf8e95b5bca6ca736ff67d5623f772f5
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680239"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731045"
 ---
-# <a name="errors-function-in-powerapps"></a>PowerApps의 Errors 함수
+# <a name="errors-function-in-power-apps"></a>Power Apps의 Errors 함수
 [데이터 원본](../working-with-data-sources.md)의 이전 변경에 대한 오류 정보를 제공합니다.
 
 ## <a name="overview"></a>개요
