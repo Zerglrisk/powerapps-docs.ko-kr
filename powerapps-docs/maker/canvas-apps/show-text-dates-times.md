@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f4f6ea46cadc99039fe9c43c3422640ee25bb58f
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 0fbbb330a8594ce953530ece623472826be14891
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674572"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733019"
 ---
-# <a name="show-text-dates-and-times-in-powerapps"></a>PowerApps에서 텍스트, 날짜 및 시간 표시
+# <a name="show-text-dates-and-times-in-power-apps"></a>Power Apps에서 텍스트, 날짜 및 시간 표시
 Power Apps에서 캔버스 앱에 날짜 및 시간을 추가 하 고 서식을 지정 하 여 적절 한 수준의 세부 정보를 표시 하거나 로캘을 반영 합니다. 두 날짜 사이의 시간을 계산하거나 지정한 날짜 이전 또는 이후의 특정 시간에 해당하는 날짜를 계산합니다. 날짜를 일, 월 및 연도에 대한 별도의 값으로 변환하고 시, 분 및 초에 대한 별도의 값으로 변환합니다.
 
 예를 들어 재고 거래 또는 클라이언트 회의, 외부 원본의 데이터 또는 Power Apps에서 만든 다른 앱의 데이터에 대 한 사용자의 데이터를 추가 합니다. 해당 데이터에 밀리초까지의 시간이 포함되어 있는 경우 간단히 하기 위해 가장 가까운 분으로 반올림합니다. 중요 시점까지 남아 있는 일 수를 계산합니다. 5일마다 고객 상담을 예약하려면 해당 날짜를 자동으로 계산합니다. 1985년 5월 10일이 일, 월 및 연도에 대한 별도의 필드에 저장되는 경우 단일 값으로 통합합니다. 반대로 앱에서 별도로 관리하는 경우 각 날짜를 별도의 값으로 구분합니다.
@@ -28,8 +28,8 @@ Power Apps에서 캔버스 앱에 날짜 및 시간을 추가 하 고 서식을 
 ## <a name="prerequisites"></a>필수 조건
 
 * Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 제공 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
-* PowerApps에서 앱을 만들거나 기존 앱을 엽니다.
-* PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
+* 앱을 만들거나 Power Apps에서 기존 앱을 엽니다.
+* Power Apps에서 [컨트롤을 구성](add-configure-controls.md) 하는 방법에 대해 알아봅니다.
 
 ## <a name="show-text-in-a-label-control"></a>레이블 컨트롤에 텍스트 표시
 **[Text](controls/properties-core.md)** 속성의 값을 설정하여 **[레이블](controls/control-text-box.md)** 컨트롤에 텍스트를 표시합니다. 컨트롤에 직접 입력하거나 수식 입력줄에 식을 입력하여 이 속성을 설정합니다.

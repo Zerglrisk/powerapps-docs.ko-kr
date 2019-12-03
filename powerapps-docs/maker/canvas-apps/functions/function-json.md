@@ -1,6 +1,6 @@
 ---
 title: JSON 함수 | Microsoft Docs
-description: PowerApps의 JSON 함수에 대 한 구문을 포함 한 참조 정보
+description: Power Apps의 JSON 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 13219dad84e693582ee649a11013d78b6fc69544
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 0780280298041aede5b24a9a819aa2743584f8c8
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73538920"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730728"
 ---
-# <a name="json-function-in-powerapps"></a>PowerApps의 JSON 함수
+# <a name="json-function-in-power-apps"></a>Power Apps의 JSON 함수
 
 테이블, 레코드 또는 값에 대 한 JSON 텍스트 문자열을 생성 합니다.
 
@@ -33,7 +33,7 @@ Canvas 앱은이 테이블에 표시 되는 [데이터 형식을](data-types.md)
 | 데이터 형식 | 설명 | 결과 예제 |
 |-----------|-------------|---------|
 | **부울** | *true* 또는 *false*입니다. | `true` |
-| **Color** | 색에 대 한 8 자리 16 진수 표현을 포함 하는 문자열입니다. 이 표현은 #*rrggbbaa*형식을 사용 합니다. 여기서 *rr* 은 빨강 구성 요소이 고, *gg* 는 녹색, *bb* 는 파란색, *aa* 는 알파 채널입니다. 알파 채널의 경우 **00** 은 완전히 투명 하 고 **ff** 는 완전히 불투명 합니다. 문자열을 [**Colorvalue**](function-colors.md) 함수로 전달할 수 있습니다.  | `"#102030ff"` |
+| **색상** | 색에 대 한 8 자리 16 진수 표현을 포함 하는 문자열입니다. 이 표현은 #*rrggbbaa*형식을 사용 합니다. 여기서 *rr* 은 빨강 구성 요소이 고, *gg* 는 녹색, *bb* 는 파란색, *aa* 는 알파 채널입니다. 알파 채널의 경우 **00** 은 완전히 투명 하 고 **ff** 는 완전히 불투명 합니다. 문자열을 [**Colorvalue**](function-colors.md) 함수로 전달할 수 있습니다.  | `"#102030ff"` |
 | **통화** | 사용자 언어에 적절 한 소수 구분 기호를 사용 하는 숫자입니다. 필요한 경우 과학적 표기법이 사용 됩니다. | `1.345` |
 | **날** | ISO 8601 **yyyy-mm-dd** 형식의 날짜를 포함 하는 문자열입니다. | `"2019-03-31"` |
 | **날짜** | ISO 8601 날짜/시간을 포함 하는 문자열입니다. 종료 "Z"가 표시 되는 날짜/시간 값은 UTC입니다.  | `"2019-03-31T22:32:06.822Z"`  |
@@ -51,7 +51,7 @@ Canvas 앱은이 테이블에 표시 되는 [데이터 형식을](data-types.md)
 
 | JSONFormat 열거형 | 설명 |
 |-----------------|-------------|
-| **구문** | 기본값.  출력은 공백이 나 줄바꿈를 추가 하지 않고 최대한 압축 됩니다. |
+| **구문** | 기본값입니다.  출력은 공백이 나 줄바꿈를 추가 하지 않고 최대한 압축 됩니다. |
 | **IndentFour** | 가독성을 높이기 위해 출력에는 각 열 및 중첩 수준에 대 한 줄 바꿈이 포함 되며 각 들여쓰기 수준에 4 개의 공백을 사용 합니다. |
 | **IncludeBinaryData** | 결과에는 이미지, 비디오 및 오디오 클립 열이 포함 됩니다. 이 형식은 결과 크기를 크게 증가 시키고 앱의 성능을 저하 시킬 수 있습니다. |
 | **IgnoreBinaryData** | 결과에는 이미지, 비디오 또는 오디오 클립 열이 포함 되지 않습니다. **IncludeBinaryData** 또는 **IgnoreBinaryData**를 모두 지정 하지 않으면 함수에서 이진 데이터를 발견 하면 오류를 생성 합니다. |

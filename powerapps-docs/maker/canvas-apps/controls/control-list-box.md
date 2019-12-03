@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d211af5c34874a0ea0afe80af91c2f65495a7a60
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 0e949cb54a4835b887ae971f110f4c02e12dc7fa
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650496"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727101"
 ---
-# <a name="list-box-control-in-powerapps"></a>PowerApps의 목록 상자 컨트롤
+# <a name="list-box-control-in-power-apps"></a>Power Apps의 목록 상자 컨트롤
 사용자가 하나 또는 여러 개의 항목을 선택할 수 있는 목록입니다.
 
 ## <a name="description"></a>설명

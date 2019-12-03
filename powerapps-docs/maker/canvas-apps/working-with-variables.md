@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0ac00411c48cc97cb54c30ccefc3d8a6e1af5e48
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 4dcc00f20de3a16f1f3125e8840f2f6d74feff32
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74673256"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733144"
 ---
-# <a name="understand-canvas-app-variables-in-powerapps"></a>PowerApps에서 캔버스 앱 변수 이해
+# <a name="understand-canvas-app-variables-in-power-apps"></a>Power Apps의 캔버스-앱 변수 이해
 
 Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용한 경우 **변수가 어디에 있나요?** 라고 물어볼 수 있습니다. Power Apps는 약간 다르며 다른 방법이 필요 합니다. 캔버스 앱을 빌드할 때 변수에 도달하는 대신 자신에게 **Excel에서 무엇을 할 수 있나요?** 라고 물어보세요.
 
@@ -30,7 +30,7 @@ Visual Basic 또는 JavaScript와 같은 다른 프로그래밍 도구를 사용
 
 일반적으로 변수를 사용하지 마세요. 그러나 때로는 변수만 사용하여 원하는 환경을 설정할 수 있습니다. 변수는 해당 값을 설정 하는 함수에 표시 될 때 암시적으로 만들어지고 형식화 됩니다. 
 
-## <a name="translate-excel-into-powerapps"></a>Excel을 PowerApps로 변환
+## <a name="translate-excel-into-power-apps"></a>Excel을 Power Apps로 변환
 
 ### <a name="excel"></a>Excel
 
@@ -42,17 +42,17 @@ Excel의 작동 원리를 검토해 보겠습니다. 셀에는 숫자 또는 문
 
 Excel에서는 변수를 사용하지 않습니다. 수식이 포함된 셀의 값은 입력에 따라 변경되지만 수식의 결과를 기억하고 셀이나 다른 위치에 저장할 방법이 없습니다. 셀의 값을 변경하면 전체 스프레드시트가 변경되고 이전에 계산된 값이 손실될 수 있습니다. Excel 사용자는 셀을 복사하여 붙여넣을 수 있고 직접 제어할 수 있지만, 수식으로는 가능하지 않습니다.
 
-### <a name="powerapps"></a>PowerApps
+### <a name="power-apps"></a>PowerApps
 
 Power Apps에서 만든 앱은 Excel과 매우 비슷하게 작동 합니다. 셀을 업데이트하는 대신 화면에 원하는 위치에 컨트롤을 추가하고 수식에 사용할 컨트롤의 이름을 지정할 수 있습니다.
 
 예를 들어 **Label1**이라는 **[레이블](controls/control-text-box.md)** 컨트롤을 추가 하 고 **TextInput1** 및 **TextInput2**라는 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤을 추가 하 여 앱에서 Excel 동작을 복제할 수 있습니다. 그런 다음 **Label1** 의 **[Text](controls/properties-core.md)** 속성을 **TextInput1 + TextInput2**로 설정 하면 **TextInput1** 및 **TextInput2** 에 있는 모든 숫자의 합계가 자동으로 표시 됩니다.
 
-![PowerApps에서 두 숫자의 합계 계산](media/working-with-variables/recalc1.png)
+![Power Apps에서 두 숫자의 합계 계산](media/working-with-variables/recalc1.png)
 
 **Label1** 컨트롤이 선택 되어 화면 위쪽의 수식 입력줄에 해당 **[텍스트](controls/properties-core.md)** 수식이 표시 됩니다. 여기서 **TextInput1 + TextInput2** 수식을 찾습니다. 이 수식은 Excel 통합 문서에서 셀 간에 종속성을 만든 것처럼 이러한 컨트롤 간에 종속성을 만듭니다.  **TextInput1**의 값을 변경 하겠습니다.
 
-![PowerApps에서 두 숫자의 합계를 계산 하는 애니메이션](media/working-with-variables/recalc2.gif)
+![Power Apps에서 두 숫자의 합계를 계산 하는 애니메이션](media/working-with-variables/recalc2.gif)
 
 **Label1** 의 수식이 자동으로 다시 계산 되어 새 값을 표시 합니다.
 
@@ -325,4 +325,4 @@ Power Apps에는 다음과 같은 세 가지 유형의 변수가 있습니다.
 12. F5 키를 눌러 다시 한 번 미리 보고, 텍스트 입력 컨트롤에서 숫자를 입력하고, 단추를 선택합니다. **저장** 단추를 선택합니다. 앱을 닫았다가 다시 로드 하 고 **로드** 단추를 선택 하 여 컬렉션을 다시 로드 합니다.
 
 > [!NOTE]
-> **Savedata** 및 **LoadData** 는 power apps Mobile에서 작동 하지만 Power apps Studio 나 PowerApps 용 웹 플레이어에서는 작동 하지 않습니다.
+> **Savedata** 및 **LoadData** 는 power apps Mobile에서 작동 하지만 Power apps Studio 또는 power apps 용 웹 플레이어에서는 작동 하지 않습니다.

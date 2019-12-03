@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0bf2502d22adb90993f5f7ebb8e05c72f51215a5
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 9b2e3298f09857e26df4c3707d8ae36737557b08
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675464"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732825"
 ---
-# <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
+# <a name="optimize-canvas-app-performance-in-power-apps"></a>Power Apps에서 캔버스 최적화-앱 성능
 Microsoft는 Power Apps 플랫폼에서 실행 되는 모든 앱의 성능을 향상 시키기 위해 노력 하 고 있습니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.
 
 사용자가 앱을 열면 다음 실행 단계를 거쳐 사용자 인터페이스를 표시합니다. 
@@ -98,7 +98,7 @@ Set(CustomerPhone, CustomerOrder.Phone);
 
 ![위임 사용](./media/performance-tips/perfdelegation1.png)
 
-예를 들어 SharePoint 목록은 [**필터**](functions/function-filter-lookup.md) 함수에서 위임을 지원하지만 [**검색**](functions/function-filter-lookup.md) 함수에서는 지원하지 않습니다. 따라서 SharePoint 목록에 500개를 초과하는 항목이 포함된 경우 갤러리에서 항목을 찾으려면 **검색** 대신 **필터**를 사용해야 합니다. 자세한 팁은 [PowerApps에서 대규모 SharePoint 목록 작업](https://powerapps.microsoft.com/blog/powerapps-now-supports-working-with-more-than-256-items-in-sharepoint-lists/)(블로그 게시물)을 참조하세요. 
+예를 들어 SharePoint 목록은 [**필터**](functions/function-filter-lookup.md) 함수에서 위임을 지원하지만 [**검색**](functions/function-filter-lookup.md) 함수에서는 지원하지 않습니다. 따라서 SharePoint 목록에 500개를 초과하는 항목이 포함된 경우 갤러리에서 항목을 찾으려면 **검색** 대신 **필터**를 사용해야 합니다. 자세한 팁은 [Power Apps에서 대량 SharePoint 목록 작업](https://powerapps.microsoft.com/blog/powerapps-now-supports-working-with-more-than-256-items-in-sharepoint-lists/) (블로그 게시물)을 참조 하세요. 
 
 ## <a name="use-delayed-load"></a>지연된 로드 사용
 앱에 10개를 초과하는 화면, 규칙 없음 및 여러 화면에 있고 데이터 원본에 직접 바인딩된 많은 컨트롤이 있는 경우 지연된 로드에 대한 [실험적 기능](working-with-experimental.md)을 사용 설정합니다. 이 유형의 앱을 빌드하고 이 기능을 사용하지 않으면 열려 있지 않은 화면에서도 모든 화면의 컨트롤을 채워야 하므로 앱 성능이 저하될 수 있습니다. 또한 사용자가 레코드를 추가하는 경우와 같이 데이터 원본이 변경될 때마다 앱의 모든 화면을 업데이트해야 합니다.

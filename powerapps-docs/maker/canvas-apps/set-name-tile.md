@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱의 앱 이름 및 아이콘 변경 | Microsoft Docs
-description: PowerApps에서 캔버스 앱의 앱 이름 및 아이콘과 같은 설정을 변경하기 위한 단계별 지침
+description: 'Power Apps의 캔버스 앱에 대 한 설정 (예: 앱 이름 및 아이콘)을 변경 하는 방법에 대 한 단계별 지침'
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 68e6b4495c6f3c69b5a0b21f1ad8a5fc26e032de
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: b258e5fb9361746c30873c478d11c486b2e62727
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71989083"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732511"
 ---
-# <a name="change-app-name-and-icon-for-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱의 앱 이름 및 아이콘 변경
+# <a name="change-app-name-and-icon-for-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱에 대 한 앱 이름 및 아이콘 변경
 이름과 아이콘을 변경하여 캔버스 앱을 사용자 지정합니다.
 
 ## <a name="prerequisites"></a>필수 조건

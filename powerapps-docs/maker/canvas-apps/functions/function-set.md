@@ -1,6 +1,6 @@
 ---
 title: Set 함수 | Microsoft Docs
-description: PowerApps의 Set 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Set 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 72adafedfe09a125fda2a48d5617b2cd8c79242a
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 6c0e4cfc1a180e183f29392181cd7699b6cb9242
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678192"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730205"
 ---
-# <a name="set-function-in-powerapps"></a>PowerApps의 Set 함수
+# <a name="set-function-in-power-apps"></a>Power Apps의 Set 함수
 전역 변수의 값을 설정합니다.
 
 ## <a name="overview"></a>개요

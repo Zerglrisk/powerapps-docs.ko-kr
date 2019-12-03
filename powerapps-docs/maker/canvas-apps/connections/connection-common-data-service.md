@@ -1,6 +1,6 @@
 ---
 title: Common Data Service에 연결 | Microsoft Docs
-description: Common Data Service에 연결 하 여 PowerApps에서 앱을 빌드하는 데 사용 하는 방법을 알아봅니다.
+description: Common Data Service에 연결 하 고이를 사용 하 여 Power Apps에서 앱을 빌드하는 방법을 알아봅니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d9f6e973aa632fe0821db3bcc493174e250afa72
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 2473f445839b774ecc28fe007912511095d9316d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679917"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723820"
 ---
 # <a name="connect-to-common-data-service"></a>Common Data Service에 연결
 

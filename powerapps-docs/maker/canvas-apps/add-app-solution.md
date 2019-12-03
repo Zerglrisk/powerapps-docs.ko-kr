@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f6b34a5ea1b2f269a26ad70de6a6a530a30bc240
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 679dab28c49d71e8f28a9ace047b9481c4d53cc2
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679342"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74725088"
 ---
 # <a name="create-a-canvas-app-from-within-a-solution"></a>솔루션 내에서 캔버스 앱 만들기
 
@@ -65,7 +65,7 @@ ms.locfileid: "74679342"
 
 솔루션 내에서 빈 캔버스 앱을 만들 수 있습니다. 3 화면 앱을 자동으로 생성 하거나 솔루션 내에서 템플릿 또는 샘플 앱을 사용자 지정할 수 없습니다.
 
-1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
+1. Power Apps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 
 1. 필요한 경우 캔버스 앱을 만들려는 솔루션을 포함 하는 환경으로 전환 합니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "74679342"
 
 솔루션에 앱을 연결 하려는 경우 둘 다 동일한 환경에 있어야 하 고 솔루션 내에서 앱을 만들어야 합니다.
 
-1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
+1. Power Apps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 
 1. 필요한 경우 앱을 연결 하려는 솔루션을 포함 하는 환경으로 전환 합니다.
 
@@ -121,7 +121,7 @@ ms.locfileid: "74679342"
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
-알려진 제한 사항에 대 한 자세한 내용은 [PowerApps에서 솔루션 사용](../common-data-service/use-solution-explorer.md#known-limitations)을 참조 하세요. 
+알려진 제한 사항에 대 한 자세한 내용은 [Power Apps에서 솔루션 사용](../common-data-service/use-solution-explorer.md#known-limitations)을 참조 하세요. 
 
 ## <a name="next-steps"></a>다음 단계
 

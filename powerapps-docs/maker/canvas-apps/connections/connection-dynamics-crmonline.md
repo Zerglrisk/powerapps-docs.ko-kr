@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dd23092f7fbe178dfe127f671e7364f5d97aaf38
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 37818e3c7cca175218826c1707ab83cd5c193ae7
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678836"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723918"
 ---
-# <a name="connect-to-dynamics-365-from-powerapps"></a>PowerApps에서 Dynamics 365 연결
+# <a name="connect-to-dynamics-365-from-power-apps"></a>파워 앱에서 Dynamics 365에 연결
 Power Apps를 사용 하면 코드를 거의 또는 전혀 사용 하지 않고 모바일 앱을 신속 하 게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.
 
 이 토픽의 단계에 따라 사용자가 Dynamics 365에 있는 연락처를 찾아 보고, 추가하며 삭제 및 업데이트할 수 있는 앱을 만듭니다. 사용자는 [브라우저](../../../user/run-app-browser.md) 또는 휴대폰과 같은 [모바일 디바이스](../../../user/run-app-client.md)에서 앱을 실행할 수 있습니다.
@@ -29,7 +29,7 @@ Power Apps를 사용 하면 코드를 거의 또는 전혀 사용 하지 않고 
 이 자습서를 따르려면 Dynamics 365 플랜이 포함된 Microsoft Office 365 계정이 필요합니다.
 
 ## <a name="create-a-connection"></a>연결 만들기
-1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+1. [Power Apps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 2. 왼쪽 탐색 창에서 **연결**을 클릭합니다.
    
     ![파일 메뉴의 연결 옵션](./media/connection-dynamics-crmonline/file-connections.png)
@@ -47,7 +47,7 @@ Power Apps를 사용 하면 코드를 거의 또는 전혀 사용 하지 않고 
     연결이 만들어집니다.
 
 ## <a name="generate-an-app-automatically"></a>자동으로 앱 생성
-1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)한 다음, 왼쪽 아래 모서리 근처에서 **새 앱**을 클릭합니다.
+1. [Power Apps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하 고 왼쪽 아래 모서리 근처에서 **새 앱** 을 클릭 합니다.
    
     ![새 앱](./media/connection-dynamics-crmonline/new-app.png)
 2. **데이터를 통해 시작**에서 **Dynamics 365** 타일의 **전화 레이아웃**을 클릭합니다.

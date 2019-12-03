@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8c4316c8f4aac11903aaad8cb624ff881173b403
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 68fad4cb2c73bcaeb448212012133c171d682cb4
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650618"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74722995"
 ---
-# <a name="combo-box-control-in-powerapps"></a>PowerApps의 콤보 박스 컨트롤
+# <a name="combo-box-control-in-power-apps"></a>Power Apps의 콤보 상자 컨트롤
 사용자가 제공된 선택 항목 중에서 선택할 수 있습니다.  검색과 다중 선택을 지원합니다.
 
 ## <a name="description"></a>설명

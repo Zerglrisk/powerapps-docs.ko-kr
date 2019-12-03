@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7a64c7e0eeff1a48385ea251597a9e8d91c075f1
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: c8610f726c0bd65cec5681cd817d5c93ec3d3c1d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675335"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732715"
 ---
-# <a name="save-and-publish-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 저장 및 게시
+# <a name="save-and-publish-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱 저장 및 게시
 캔버스 앱에 대한 변경 내용을 저장할 때마다 사용자와 앱을 편집할 수 있는 권한이 있는 다른 모든 사람에 대해서만 자동으로 게시합니다. 변경이 끝나면 앱이 공유된 모든 사용자가 사용할 수 있도록 명시적으로 게시해야 합니다.
 
 앱을 공유하는 방법에 대한 정보는 [공유](share-app.md)를 참조하세요.

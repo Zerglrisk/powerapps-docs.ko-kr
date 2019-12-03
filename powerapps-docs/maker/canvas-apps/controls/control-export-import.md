@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 942b4b1f5f10cf17d2a33e9f9604661256d99ea6
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 1fe22d1503193c7c26f0ac8532085bb9b7db2eac
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650539"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727294"
 ---
-# <a name="export-control-and-import-control-in-powerapps"></a>PowerApps에서 컨트롤 내보내기 및 가져오기
-로컬 파일에 데이터를 내보내고 해당 데이터를 PowerApps의 다른 앱으로 가져오기 위한 컨트롤
+# <a name="export-control-and-import-control-in-power-apps"></a>Power Apps에서 컨트롤 내보내기 및 가져오기
+데이터를 로컬 파일로 내보낸 다음 해당 데이터를 Power Apps의 다른 앱으로 가져오기 위한 컨트롤입니다.
 
 ## <a name="description"></a>설명
-동일한 데이터를 사용하는 여러 앱을 만들고자 하지만 해당 앱 외부로 데이터를 공유하고 싶지 않는 경우 **내보내기** 컨트롤과 **가져오기** 컨트롤을 사용하여 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보낼 때 만든 압축 파일은 다른 컴퓨터에 복사할 수 있지만 PowerApps 이외의 프로그램에서는 읽을 수 없습니다.
+동일한 데이터를 사용하는 여러 앱을 만들고자 하지만 해당 앱 외부로 데이터를 공유하고 싶지 않는 경우 **내보내기** 컨트롤과 **가져오기** 컨트롤을 사용하여 데이터를 가져오거나 내보낼 수 있습니다. 데이터를 내보낼 때는 다른 컴퓨터로 복사할 수 있는 압축 된 파일을 만들지만,이 파일을 Power Apps 이외의 프로그램에서 읽을 수는 없습니다.
 
 ## <a name="warning"></a>경고
 앱에서 이 기능을 활성화하면 보안상 취약한 부분 및 데이터 유출에 노출될 수 있습니다.  사용자가 인식되고 신뢰할 수 있는 파일만 가져오고 기밀 정보나 민감한 정보가 없는 데이터만 내보내도록 안내해야 합니다.
@@ -132,4 +132,4 @@ ms.locfileid: "73650539"
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침
-**내보내기[ 및 ](control-button.md)가져오기**는 특수화된 단추이므로단추에 대한 동일한 지침이 적용됩니다.
+**내보내기** 및 **가져오기**는 특수화된 단추이므로 **[단추](control-button.md)** 에 대한 동일한 지침이 적용됩니다.

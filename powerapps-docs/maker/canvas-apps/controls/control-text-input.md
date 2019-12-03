@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7dd961568fe9cf2a9eb58ad761403b20c99824be
-ms.sourcegitcommit: 8f32eed48adf4b24b9ca607bbf6db3d19749c46f
+ms.openlocfilehash: 1322fd34f4e3a59a62a414fc0e2e7ccca48fc99f
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74415498"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731964"
 ---
-# <a name="text-input-control-in-powerapps"></a>PowerApps의 텍스트 입력 컨트롤
+# <a name="text-input-control-in-power-apps"></a>Power Apps의 텍스트 입력 컨트롤
 사용자가 텍스트, 숫자 및 기타 데이터를 입력할 수 있는 상자입니다.
 
 ## <a name="description"></a>설명
@@ -82,7 +82,7 @@ ms.locfileid: "74415498"
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
-**[LineHeight](properties-text.md)** - 예를 들어 텍스트 선 또는 목록의 항목 사이의 거리입니다.
+**[LineHeight](properties-text.md)** - 텍스트 선 또는 목록의 항목 등, 항목 사이의 거리입니다.
 
 **MaxLength** – 사용자가 텍스트 입력 컨트롤에 입력할 수 있는 문자 수입니다.
 
@@ -92,13 +92,13 @@ ms.locfileid: "74415498"
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
 
 **[PressedBorderColor](properties-color-border.md)** – 사용자가 컨트롤을 탭하거나 클릭하는 경우 컨트롤의 테두리 색입니다.
 
@@ -114,7 +114,7 @@ ms.locfileid: "74415498"
 
 **[RadiusTopRight](properties-size-location.md)** – 컨트롤 오른쪽 위 모서리의 둥근 정도입니다.
 
-**[Reset](properties-core.md)** – 컨트롤이 기본값으로 되돌아가는지 여부입니다.
+**[Reset](properties-core.md)** – 컨트롤을 기본값으로 되돌릴지 여부를 선택합니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
@@ -148,7 +148,7 @@ ms.locfileid: "74415498"
    **Collect(Names, {FirstName:inputFirst.Text, LastName:inputLast.Text})**
    
     **[Collect](../functions/function-clear-collect-clearcollect.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
-3. 세로 방향으로 텍스트 갤러리를 추가하고 **[Items](properties-core.md)** 속성을 **Names**로 설정하고 **Subtitle1[의 ](properties-core.md)** Text 속성을 **ThisItem.FirstName**으로 설정합니다.
+3. 세로 방향으로 텍스트 갤러리를 추가하고 **[Items](properties-core.md)** 속성을 **Names**로 설정하고 **Subtitle1**의 **[Text](properties-core.md)** 속성을 **ThisItem.FirstName**으로 설정합니다.
 4. (선택 사항) 템플릿 갤러리에서 맨 아래 레이블(**Body1**)을 삭제하고 갤러리의 **[TemplateSize](control-gallery.md)** 속성을 **80**으로 설정합니다.
 5. F5 키를 누르고 텍스트의 문자열을 **inputFirst** 및 **inputLast**에 입력한 다음, **Add** 단추를 클릭하거나 탭합니다.
 6. (선택 사항) 컬렉션에 이름을 더 추가한 다음, Esc 키를 눌러 기본 작업 영역으로 돌아갑니다.
@@ -162,15 +162,15 @@ ms.locfileid: "74415498"
 
     **[If](../functions/function-if.md)** 함수 또는 [다른 함수](../formula-reference.md)에 대해 더 알고 싶으신가요?
 
-1. F5 키를 누르고 **inputPasswordP@ssw0rd에** 를 입력합니다.
+1. F5 키를 누르고 **inputPassword**에 **P@ssw0rd** 를 입력합니다.
 
     암호 입력을 마치면 **Access denied**를 표시하는 레이블이 중지하고 **Access granted**를 표시하기 시작합니다.
 
-1. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+1. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 1. (선택 사항) 화살표와 같은 컨트롤을 추가하고, 다른 화면으로 이동하도록 구성하며 사용자가 암호를 입력한 후에만 표시합니다.
 
-1. (선택 사항) 단추를 추가하고 **Sign in[을 표시하도록 ](properties-core.md)** Text 속성을 구성하며 사용자가 잘못된 암호를 입력한 다음, **Sign in** 단추를 클릭하거나 탭할 경우 일정 시간 동안 입력 텍스트 컨트롤을 비활성화합니다.
+1. (선택 사항) 단추를 추가하고 **Sign in**을 표시하도록 **[Text](properties-core.md)** 속성을 구성하며 사용자가 잘못된 암호를 입력한 다음 **Sign in** 단추를 클릭하거나 탭할 경우 일정 시간 동안 입력 텍스트 컨트롤을 비활성화합니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

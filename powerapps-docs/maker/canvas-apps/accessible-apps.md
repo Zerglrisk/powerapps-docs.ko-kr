@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 56e5ec7f303706ded114655e5c6d473408e9ddd7
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 9f80332a490289cc5b59de7131d1c2b2483633e1
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680032"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74725312"
 ---
-# <a name="create-accessible-canvas-apps-in-powerapps"></a>PowerApps에서 액세스 가능한 캔버스 앱 만들기
+# <a name="create-accessible-canvas-apps-in-power-apps"></a>Power Apps에서 액세스 가능한 캔버스 앱 만들기
 액세스 가능한 캔버스 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
 
 **[접근성 검사기](accessibility-checker.md)** 를 사용하여 앱의 잠재적인 접근성 문제를 검토하십시오. 
@@ -70,4 +70,4 @@ PenInput 컨트롤을 사용하는 서명 필드가 있는 경우 서명 입력�
 관련:
 - [접근성 속성](controls/properties-accessibility.md)
 - [접근성 검사기 사용](accessibility-checker.md)
-- [PowerApps의 액세스 가능한 색](accessible-apps-color.md)
+- [Power Apps에서 액세스할 수 있는 색](accessible-apps-color.md)

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4f54a2f6d3bfa7c843b7b095f999050602e063b0
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: b530fe0623c72f9df1adda1067638a3d1a1099f1
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675005"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732537"
 ---
 # <a name="overview-of-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿 개요
 
@@ -36,7 +36,7 @@ Canvas 앱에서 사용자가 조직 내에서 사용자를 검색할 수 있는
 
 ## <a name="prerequisite"></a>필수 조건
 
-[PowerApps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
+[Power Apps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
 
 ## <a name="default-functionality"></a>기본 기능
 

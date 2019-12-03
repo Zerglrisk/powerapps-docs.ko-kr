@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1b2c12805fc3ea8c9c7f8cee7432ac58c1183a18
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 135b85dc60f88c1cf87255f65be765afd80cc2f3
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679365"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731742"
 ---
-# <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-powerapps"></a>PowerApps에서 Color 열거 및 ColorFade, ColorValue 및 RGBA 함수
+# <a name="color-enumeration-and-colorfade-colorvalue-and-rgba-functions-in-power-apps"></a>Power Apps의 색 열거 및 ColorFade, Colorfade 및 RGBA 함수
 
 기본 제공 색 값을 사용 하 고, 사용자 지정 색을 정의 하 고, 알파 채널을 사용 합니다.
 

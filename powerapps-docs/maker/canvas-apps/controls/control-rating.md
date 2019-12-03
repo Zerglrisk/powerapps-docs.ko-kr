@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 212fc44b6c1cec981f17d134f4cd8f8131b7af9a
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: a5e91f8ff3b760e173ac01b32a68c7f60a488014
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73649932"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732119"
 ---
-# <a name="rating-control-in-powerapps"></a>PowerApps의 등급 컨트롤
+# <a name="rating-control-in-power-apps"></a>Power Apps의 등급 제어
 1과 사용자가 지정하는 최대 숫자 사이의 값을 나타낼 수 있는 컨트롤입니다.
 
 ## <a name="description"></a>설명

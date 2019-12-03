@@ -13,17 +13,17 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: eed7a0bd6b9ee269877b6dfe4fcfd5bc6c56e3af
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 08e54e48b371e71364edd2da09648af354a4d9ec
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678813"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723905"
 ---
-# <a name="connect-to-sql-server-from-powerapps"></a>PowerApps에서 SQL Server 연결
+# <a name="connect-to-sql-server-from-power-apps"></a>Power Apps에서 SQL Server에 연결
 ![SQL Server 아이콘](./media/connection-azure-sqldatabase/sqlicon.png)
 
-PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 데이터베이스에서 SQL Server에 연결합니다.
+Azure 또는 온-프레미스 데이터베이스에서 SQL Server에 연결 하 여 Power Apps에서 정보를 표시할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -68,7 +68,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 8. 먼저 앱 레이아웃 바꾸기부터 시작하여 [Excel에서 앱 만들기](../get-started-create-from-data.md)에서 설명한 것과 비슷한 기법을 사용하여 앱을 사용자 지정합니다.
 
 ## <a name="build-an-app-from-scratch"></a>앱을 처음부터 빌드
-1. PowerApps 가입에 사용한 것과 동일한 계정으로 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. Power Apps에 등록 하는 데 사용한 것과 동일한 계정으로 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 에 로그인 합니다.
 2. 왼쪽 탐색 모음에서 **연결**을 클릭하거나 탭합니다.  
    
     ![연결 관리](./media/connection-azure-sqldatabase/manage-connections.png)

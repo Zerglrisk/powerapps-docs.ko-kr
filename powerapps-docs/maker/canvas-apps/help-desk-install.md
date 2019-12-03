@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fce460ffe808b7a604e1cdceac05a2696b8e10ed
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 01fdadfd5ecf19d56ac115e53cef08a2cff2a254
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676142"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729647"
 ---
-# <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
+# <a name="install-and-configure-the-help-desk-sample-in-power-apps"></a>Power Apps에서 지원 센터 샘플 설치 및 구성
 
 Power Apps에서 캔버스 앱에 대 한 지원 센터 샘플을 설치 및 구성 하는 방법에 대 한 단계별 지침입니다.
 
@@ -40,7 +40,7 @@ Power Apps에서 캔버스 앱에 대 한 지원 센터 샘플을 설치 및 구
 
 ## <a name="prerequisites"></a>필수 조건
 
-- PowerApps에 [등록](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+- Power Apps에 [등록](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 - 올바른 SharePoint Online 라이선스 및 목록을 만들 수 있는 권한이 있어야 합니다.
 
 ## <a name="create-the-helpdesk-sharepoint-list"></a>지원 센터 SharePoint 목록 만들기

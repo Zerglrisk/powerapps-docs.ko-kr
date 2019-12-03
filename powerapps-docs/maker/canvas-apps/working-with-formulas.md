@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 42f5f188f107e8a5768ed9a74f463d1fc9bbc286
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e2200dece82eea17557de28a64e2bc4d228f4394
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74673199"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732888"
 ---
-# <a name="get-started-with-canvas-app-formulas-in-powerapps"></a>PowerApps에서 캔버스 앱 수식 시작
+# <a name="get-started-with-canvas-app-formulas-in-power-apps"></a>Power Apps에서 캔버스-앱 수식 시작
 
 Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행하는 것 외에도 캔버스 앱에서 요구하는 사용자의 입력 값에 응답하는 등 수식을 사용하여 앱을 구성할 수 있습니다.
 
@@ -36,7 +36,7 @@ Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행�
 ## <a name="prerequisites"></a>필수 조건
 
 * Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 제공 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
-* PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
+* Power Apps에서 [컨트롤을 구성](add-configure-controls.md) 하는 방법에 대해 알아봅니다.
 
 ## <a name="show-a-simple-value"></a>간단한 값 표시
 
@@ -154,6 +154,6 @@ Excel에서는 조건부 서식 수식을 사용 하 여 빨간색의 음수 값
 
 ## <a name="formula-syntax"></a>수식 구문
 
-수식 입력줄에 수식을 입력할 때 서로 다른 구문 요소는 가독성을 높여주고 긴 수식을 쉽게 이해할 수 있도록 여러 색으로 나타납니다. 다음은 PowerApps의 색 코드 목록입니다.
+수식 입력줄에 수식을 입력할 때 서로 다른 구문 요소는 가독성을 높여주고 긴 수식을 쉽게 이해할 수 있도록 여러 색으로 나타납니다. 다음은 Power Apps의 색 코드 목록입니다.
 
 ![구문 강조 표시](./media/working-with-formulas/syntax-highlighting.png)

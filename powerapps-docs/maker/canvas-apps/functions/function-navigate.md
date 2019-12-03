@@ -1,6 +1,6 @@
 ---
 title: Back 및 Navigate 함수 | Microsoft Docs
-description: PowerApps에서 Back 및 Navigate 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 탐색 및 뒤로 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8f63321b128214d14cd2f4e521d7cc1b85c7b98f
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: db8d2bf349fe61cac154c7456a60231215e6566c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984494"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730578"
 ---
-# <a name="back-and-navigate-functions-in-powerapps"></a>PowerApps에서 Back 및 Navigate 함수
+# <a name="back-and-navigate-functions-in-power-apps"></a>Power Apps의 뒤로 및 탐색 함수
 
 표시되는 화면을 변경합니다.
 
@@ -94,9 +94,9 @@ ms.locfileid: "71984494"
 
 1. 여기에 두 번째 화면을 추가 합니다.
 
-    앱에는 두 개의 빈 화면이 있습니다. **Screen1** 및 **Screen2**.
+    앱은 **Screen1** 및 **Screen2**라는 두 개의 빈 화면을 포함 합니다.
 
-1. **Screen2** 의 **Fill** 속성을 값 `Gray`로 설정 합니다.
+1. **Screen2** 의 **Fill** 속성을 `Gray`값으로 설정 합니다.
 
 1. **Screen2**에서 단추를 추가 하 고 **[onselect](../controls/properties-core.md)** 속성을 다음 수식으로 설정 합니다.
 

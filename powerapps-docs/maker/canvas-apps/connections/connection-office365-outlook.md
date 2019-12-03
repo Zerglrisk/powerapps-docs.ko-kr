@@ -1,6 +1,6 @@
 ---
 title: Office 365 Outlook 연결 개요 | Microsoft Docs
-description: Powerapps에 대한 Office 365 Outlook 연결을 위한 예제 등의 참조 정보
+description: Power Apps에 대 한 Office 365 Outlook 연결에 대 한 예제를 포함 한 참조 정보
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ba568cb34c12f8b63e8c59f5cb73aa1ed6cb9f02
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 1886514d036fe2b64ae82712128b14e19189fc73
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993947"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74728373"
 ---
-# <a name="connect-to-office-365-outlook-from-powerapps"></a>PowerApps에서 Office 365 Outlook연결
+# <a name="connect-to-office-365-outlook-from-power-apps"></a>Power Apps에서 Office 365 Outlook에 연결
 ![Office 365 Outlook](./media/connection-office365-outlook/office365icon.png)
 
 Office 365 Outlook에 연결하면 다른 작업 외에도 이메일 메시지를 표시, 전송, 삭제 및 답장할 수 있습니다.

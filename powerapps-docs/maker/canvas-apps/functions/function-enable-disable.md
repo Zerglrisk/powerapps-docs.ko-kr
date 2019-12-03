@@ -1,6 +1,6 @@
 ---
 title: Enable 및 Disable 함수 | Microsoft Docs
-description: PowerApps의 Enable 및 Disable 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Enable 및 Disable 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1b58b57ae880f54fc7fccb5aa4c49f0e2fcad6d0
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: af1522934bcfee13c00950a3686583393699d0ad
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992775"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731096"
 ---
-# <a name="enable-and-disable-functions-in-powerapps"></a>PowerApps의 Enable 및 Disable 함수
+# <a name="enable-and-disable-functions-in-power-apps"></a>Power Apps에서 함수 사용 및 사용 안 함
 [신호](signals.md)를 켜거나 끕니다.
 
 ## <a name="overview"></a>개요

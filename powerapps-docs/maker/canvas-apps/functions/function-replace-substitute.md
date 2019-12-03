@@ -1,6 +1,6 @@
 ---
 title: Replace 및 Substitute 함수 | Microsoft Docs
-description: PowerApps의 Replace 및 Substitute 함수에 대한 구문을 포함한 참조 정보
+description: Power Apps의 바꾸기 및 대체 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ff0e016f6ab1ad4f66651ccd3cfa2711f1d85a38
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: d58d215e4c075ce6948aa442e7fd74e250ea8d1e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992381"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730365"
 ---
-# <a name="replace-and-substitute-functions-in-powerapps"></a>PowerApps의 Replace 및 Substitute 함수
+# <a name="replace-and-substitute-functions-in-power-apps"></a>Power Apps에서 함수 바꾸기 및 대체
 텍스트 문자열의 일부를 다른 문자열로 바꿉니다.
 
 ## <a name="description"></a>설명
@@ -33,14 +33,14 @@ ms.locfileid: "71992381"
 ## <a name="syntax"></a>구문
 **Replace**( *String*, *StartingPosition*, *NumberOfCharacters*, *NewString* )
 
-* *String* - 필수 항목이며, 연산을 수행할 문자열입니다.
+* *String* - 필수 항목입니다. 연산을 수행할 문자열입니다.
 * *StartingPosition* - 필수 항목입니다. 교체를 시작할 문자 위치입니다. *String*의 첫 번째 문자는 위치 1입니다.
 * *NumberOfCharacters* - 필수 항목입니다. *String*에서 교체할 문자 수입니다.
 * *NewString* - 필수 항목입니다. 대체 문자열입니다. 이 인수의 문자 수는 *NumberOfCharacters* 인수와 다를 수 있습니다.
 
 **Substitute**( *String*, *OldString*, *NewString* [, *InstanceNumber* ] )
 
-* *String* - 필수 항목이며, 연산을 수행할 문자열입니다.
+* *String* - 필수 항목입니다. 연산을 수행할 문자열입니다.
 * *OldString* - 필수 항목입니다. 교체할 문자열입니다.
 * *NewString* - 필수 항목입니다. 대체 문자열입니다. *OldString* 및 *NewString*은 길이가 다를 수 있습니다.
 * *InstanceNumber* -선택 사항입니다. *문자열이* 둘 이상의 인스턴스를 포함 하는 경우 바꿀 *oldstring* 의 인스턴스를 지정 하려면이 인수를 사용 합니다. 이 인수를 지정 하지 않으면 모든 인스턴스가 대체 됩니다.

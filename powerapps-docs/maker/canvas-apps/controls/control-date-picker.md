@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4a7def7990723e9531c4c7a3075c3c2259a45a37
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: d34e5d128f6a38c430432f8acfcc40edaa80c034
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650603"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727269"
 ---
-# <a name="date-picker-control-in-powerapps"></a>PowerApps의 날짜 선택기 컨트롤
+# <a name="date-picker-control-in-power-apps"></a>Power Apps의 날짜 선택 컨트롤
 사용자가 날짜를 지정하기 위해 클릭 또는 탭할 수 있는 컨트롤입니다.
 
 ## <a name="description"></a>설명
-텍스트 입력 **[ 컨트롤 대신 ](control-text-input.md)날짜 선택기** 컨트롤을 추가하면 사용자가 올바른 형식으로 날짜를 지정하는 데 도움이 됩니다.
+**[텍스트 입력](control-text-input.md)** 컨트롤 대신 **날짜 선택기** 컨트롤을 추가하면 사용자가 올바른 형식으로 날짜를 지정하는 데 도움이 됩니다.
 
 ## <a name="key-properties"></a>주요 속성
 **DefaultDate** – 사용자가 변경하지 않을 경우 날짜 컨트롤 값의 초기 값입니다.
@@ -81,13 +81,13 @@ ms.locfileid: "73650603"
 
 **[OnSelect](properties-core.md)** – 사용자가 앱을 클릭하거나 탭할 때 앱이 응답하는 방법입니다.
 
-**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 아래쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 하단 가장자리 사이의 거리입니다.
 
 **[PaddingLeft](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 왼쪽 가장자리 사이의 거리입니다.
 
 **[PaddingRight](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 오른쪽 가장자리 사이의 거리입니다.
 
-**[PaddingTop](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 위쪽 가장자리 사이의 거리입니다.
+**[PaddingBottom](properties-size-location.md)** – 컨트롤의 텍스트와 해당 컨트롤의 상단 가장자리 사이의 거리입니다.
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
@@ -117,7 +117,7 @@ ms.locfileid: "73650603"
 3. F5 키를 누르고 **마감일**에서 날짜를 선택한 다음, **확인**을 클릭하거나 탭합니다.
 
     **[레이블](control-text-box.md)** 컨트롤은 오늘과 사용자가 선택한 날짜 사이의 일수를 보여줍니다.
-4. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+4. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

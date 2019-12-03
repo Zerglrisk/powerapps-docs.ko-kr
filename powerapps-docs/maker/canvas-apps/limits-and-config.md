@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱의 시스템 요구 사항, 제한 및 구성 값 | Microsoft Docs
-description: PowerApps에서 기본 제공되는 캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
+description: Power Apps에서 빌드된 canvas 앱에 대 한 시스템 요구 사항, 제한 및 구성 값
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0b67dda758140608b67fa8df44eca711270b663c
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e408eed2ac0ed769b747b647ea7b1a8c3c9df8f6
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675632"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729607"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
-이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
+이 항목에는 장치 플랫폼 및 웹 브라우저 요구 사항 뿐만 아니라 전원 앱에 대 한 제한 및 구성 값이 포함 되어 있습니다.
 
 ## <a name="supported-platforms-for-running-canvas-apps-using-the-power-apps-app"></a>Power Apps 앱을 사용 하 여 캔버스 앱을 실행 하는 데 지원 되는 플랫폼
 

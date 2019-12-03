@@ -10,14 +10,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1c6278a9ddbea085523117c6b790af2b2b1306a0
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 6479111dbae5e3f4d12e9cad0d78834800ff4c35
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680078"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74725581"
 ---
-# <a name="review-a-canvas-app-for-accessibility-in-powerapps"></a>PowerApps에서 캔버스 앱의 접근성 검토
+# <a name="review-a-canvas-app-for-accessibility-in-power-apps"></a>Power Apps에서 내게 필요한 옵션에 대 한 canvas 앱 검토
 
 앱의 외관 및 동작 방식을 설계할 때 접근성을 고려할 경우 시각, 청각 또는 기타 장애가 있는 사용자는 캔버스 앱을 더 쉽고 성공적으로 사용할 수 있습니다. 앱을 더 쉽게 액세스할 수 있도록 설정 하는 방법을 모를 경우 Power Apps 스튜디오에서 내게 필요한 옵션 검사기를 실행할 수 있습니다. 이 도구는 잠재적인 접근성 문제를 찾아낼 뿐만 아니라 각 문제가 특정 장애가 있는 사용자에게 잠재적인 문제가 될 수 있는 이유를 설명하고 각 문제의 해결 방법에 대한 제안을 제공합니다.
 접근성 검사기는 사용자에 대한 화면 판독기 및 키보드 문제를 감지하고 [액세스 가능한 색](accessible-apps-color.md)을 사용하여 색 대비 문제 해결 방법에 대한 정보를 찾을 수 있습니다.

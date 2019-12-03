@@ -1,6 +1,6 @@
 ---
 title: UpdateContext 함수 | Microsoft Docs
-description: PowerApps에서 UpdateContext 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 UpdateContext 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 646a5de203c713d59965f7787dabe087c0a33f51
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 7112d48b447140533ca432ec6d5e78b9ed367203
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678169"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729907"
 ---
-# <a name="updatecontext-function-in-powerapps"></a>PowerApps의 UpdateContext 함수
+# <a name="updatecontext-function-in-power-apps"></a>Power Apps의 UpdateContext 함수
 현재 화면의 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)를 만들거나 업데이트합니다.
 
 ## <a name="overview"></a>개요

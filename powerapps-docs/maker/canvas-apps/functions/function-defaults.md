@@ -1,6 +1,6 @@
 ---
 title: Defaults 함수 | Microsoft Docs
-description: PowerApps의 Defaults 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 기본값 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b51d956f2c188e0b877530b28dec933d42c905a6
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: ad3d8198d73a698abb771aef7230c12b48ff0f56
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992847"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731113"
 ---
-# <a name="defaults-function-in-powerapps"></a>PowerApps의 Defaults 함수
+# <a name="defaults-function-in-power-apps"></a>Power Apps의 기본값 함수
 [데이터 원본](../working-with-data-sources.md)의 기본값을 반환합니다.  
 
 ## <a name="description"></a>설명
@@ -35,11 +35,11 @@ ms.locfileid: "71992847"
 ## <a name="syntax"></a>구문
 **Defaults**( *DataSource* )
 
-* *DataSource* – 필수 항목입니다. 기본값이 필요한 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 기본값이 필요한 데이터 원본입니다.
 
 ## <a name="examples"></a>예
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Defaults(&nbsp;Scores&nbsp;)** |**점수** 데이터 원본의 기본값을 반환합니다. |**{점수: 0}** |
+| **Defaults(&nbsp;Scores&nbsp;)** |**점수** 데이터 원본의 기본값을 반환합니다. |**{ Score: 0 }** |
 

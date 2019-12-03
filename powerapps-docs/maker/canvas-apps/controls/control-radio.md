@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: cba6b072721efa04ce28606cd027939823c2f7c9
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 09e8e12a2a6bc94fcc7e3fb2482ff89b058c369f
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73649763"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732126"
 ---
-# <a name="radio-control-in-powerapps"></a>PowerApps의 라디오 컨트롤
+# <a name="radio-control-in-power-apps"></a>Power Apps의 라디오 컨트롤
 
 사용자가 한 번에 하나만을 선택할 수 있는 여러 옵션을 보여주는 입력 컨트롤입니다.
 

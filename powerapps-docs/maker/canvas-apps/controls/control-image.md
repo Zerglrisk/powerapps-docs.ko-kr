@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 02c9e680582b6d51a613fd8089709401f1e80b32
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: d35150434d8fec7694f493f2d62c67997e2c839c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679756"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727167"
 ---
-# <a name="image-control-in-powerapps"></a>PowerApps의 이미지 컨트롤
+# <a name="image-control-in-power-apps"></a>Power Apps의 이미지 컨트롤
 로컬 파일이나 데이터 원본 등으로부터 이미지를 표시하는 컨트롤입니다.
 
 ## <a name="description"></a>설명

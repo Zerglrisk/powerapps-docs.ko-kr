@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5912723765f99539852884a3fe55738c171c64c3
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 61cf2ad5926daf8b1b5bea6310b9fb29563208e2
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678583"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731691"
 ---
-# <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
+# <a name="customize-a-sharepoint-list-form-by-using-power-apps"></a>Power Apps를 사용 하 여 SharePoint 목록 양식 사용자 지정
 
 브라우저에서 Power Apps를 열어 SharePoint 목록의 양식을 쉽게 사용자 지정할 수 있습니다. C#과 같은 기존 코드를 작성하거나 InfoPath와 같은 다른 앱을 다운로드할 필요가 없습니다. 변경 내용을 게시하는 경우 해당 사용자가 모두 사용하기 위해 SharePoint 목록 내에 양식이 포함됩니다. Power Apps에서 분석 보고서를 검토 하 고, 조건부 서식을 쉽게 만들고, 다른 데이터 원본에 연결할 수도 있습니다.
 
@@ -114,7 +114,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
     - **기본 SharePoint 양식 사용** - 사용자가 목록을 열고 명령 모음에서 **새로 만들기**를 선택할 때 목록에 대한 기본 양식이 표시됩니다.
 
-    - **PowerApps에서 만든 사용자 지정 양식 사용** - 사용자가 목록을 열고 명령 모음에서 **새로 만들기**를 선택할 때 사용자 지정 양식이 표시됩니다. (대안으로 PowerApps에서 양식을 다시 게시할 수 있습니다.)
+    - **Power Apps에서 만든 사용자 지정 양식 사용** -사용자가 목록을 열고 명령 모음에서 **새로 만들기** 를 선택 하면 사용자 지정 양식이 표시 됩니다. 대신, Power Apps에서 양식을 다시 게시할 수 있습니다.
 
     필요에 따라 옵션을 앞뒤로 전환할 수 있습니다.
 
@@ -198,11 +198,11 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
 **Q:** 사용자 지정 목록 양식을 만들거나 사용 하려면 Power Apps 라이선스가 필요 한가요?
 
-**A:** [PowerApps가 포함된 Office 365 계획](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses)이 필요합니다.
+**A:** [Power Apps를 포함 하는 Office 365 요금제](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses)가 필요 합니다.
 
 **Q:** 게스트 사용자가 사용자 지정 양식이 있는 목록에 액세스하면 어떻게 되나요?
 
-**A:** PowerApps를 사용하여 사용자 지정된 목록 양식에 게스트 사용자가 액세스하려고 하면 오류 메시지가 표시됩니다.
+**A:** 게스트 사용자가 Power Apps를 사용 하 여 사용자 지정 된 목록 형식에 액세스 하려고 하면 오류 메시지가 표시 됩니다.
 
 **Q:** 관리자가 조직의 모든 사용자 지정 양식 목록을 얻으려면 어떻게 해야 하나요?
 

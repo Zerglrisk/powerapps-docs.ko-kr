@@ -1,6 +1,6 @@
 ---
 title: HashTags 함수 | Microsoft Docs
-description: PowerApps HashTags 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 해시 태그 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d29fa336ae96a164a6f189010c66deff970ba5a7
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: a88371e9c151ed097d2c86bcb64121c68a6d62d0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984914"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730809"
 ---
-# <a name="hashtags-function-in-powerapps"></a>PowerApps의 HashTags 함수
+# <a name="hashtags-function-in-power-apps"></a>Power Apps의 해시 태그 함수
 텍스트 문자열에서 해시태그(#strings)를 추출합니다.
 
 ## <a name="description"></a>설명
@@ -36,7 +36,7 @@ ms.locfileid: "71984914"
 ## <a name="syntax"></a>구문
 **HashTags**( *String* )
 
-* *String* - 필수 항목이며,  해시태그를 검색할 문자열입니다.
+* *String* - 필수 항목입니다.  해시태그를 검색할 문자열입니다.
 
 ## <a name="examples"></a>예
 ### <a name="step-by-step"></a>단계별 가이드

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 42ca4a12f75c82bb685396a857e5ae825d8d7fa1
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: cbf5fdaf3ae6cbba2f89124316ac6d23455a712c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674783"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733047"
 ---
 # <a name="generate-a-canvas-app-to-handle-project-requests"></a>프로젝트 요청을 처리할 캔버스 앱 생성
 > [!NOTE]
@@ -166,7 +166,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 
 4. 이제 **SortByColumns** 함수는 갤러리를 정렬할 수 있습니다. 이 경우에 **제목** 필드에 따라 정렬하지만 검색 필드가 아닌 다른 필드일 수 있습니다.
 
-이 지점까지 수행한 경우 사용자가 이 수식의 작동 방식 및 함수 및 기타 요소를 결합하여 앱에서 필요한 동작을 실행하는 방법을 이해할 수 있을 것입니다. 자세한 내용은 [PowerApps에 대한 수식 참조](formula-reference.md)를 참조하세요.
+이 지점까지 수행한 경우 사용자가 이 수식의 작동 방식 및 함수 및 기타 요소를 결합하여 앱에서 필요한 동작을 실행하는 방법을 이해할 수 있을 것입니다. 자세한 내용은 [Power Apps에 대 한 수식 참조](formula-reference.md)를 참조 하세요.
 
 ## <a name="next-steps"></a>다음 단계
 이 자습서 시리즈의 다음 단계에서는 [프로젝트 승인을 관리하는 흐름을 만듭니다](sharepoint-scenario-approval-flow.md).

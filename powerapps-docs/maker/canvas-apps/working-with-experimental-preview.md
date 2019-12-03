@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b1d8dbc97082cc2a7eeee2c5eae093a665d74d70
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 55788e22d41f2684651ddec8bcf0eb1c61e70e6e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674248"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732875"
 ---
-# <a name="understand-experimental-preview-and-deprecated-features-in-powerapps"></a>PowerApps의 실험적, 미리 보기 및 사용 되지 않는 기능 이해
+# <a name="understand-experimental-preview-and-deprecated-features-in-power-apps"></a>Power Apps에서 실험적, 미리 보기 및 사용 되지 않는 기능 이해
 
 모든 릴리스에서는 기능을 변경 하 고 기능을 추가 하 여 Power Apps를 요구 사항에 맞게 최상의 도구로 만듭니다. 제품을 발전시켜 나갑니다.  
 

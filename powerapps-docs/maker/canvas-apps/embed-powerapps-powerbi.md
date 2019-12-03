@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 94eb220bbe386b47e2fbb678f9487fcef8612415
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 60577eb3b6c272093222f1c14685d5ffe1d433f9
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679480"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731542"
 ---
 # <a name="embed-a-new-canvas-app-in-a-power-bi-report"></a>Power BI 보고서에 새 캔버스 앱 포함
 
@@ -36,7 +36,7 @@ Power Apps 구독이 없는 경우 시작 하기 전에 [무료 계정을 만듭
 
 * [Google Chrome](https://www.google.com/chrome/browser/) 또는 [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) 브라우저
 * [기회 분석 샘플](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)이 설치된 [Power BI 구독](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)
-* [PowerApps에서 앱을 만드는 방법](data-platform-create-app-scratch.md) 및 [Power BI 보고서를 편집하는 방법](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)에 대한 이해
+* [Power apps에서 앱을 만드는](data-platform-create-app-scratch.md) 방법 및 [Power BI 보고서를 편집](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour) 하는 방법에 대 한 이해
 
 ## <a name="import-the-power-apps-custom-visual"></a>Power Apps 사용자 지정 시각적 개체 가져오기
 

@@ -1,6 +1,6 @@
 ---
 title: Now, Today 및 IsToday 함수 | Microsoft Docs
-description: PowerApps의 Now, Today 및 IsToday 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+description: Power Apps의 Now, Today 및 IsToday 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bc3f882a25c5a0588e2be1eac4668c53ebc91e64
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 43f6dfcff0c4174301eda5cb8dde2067081d91e2
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992589"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730526"
 ---
-# <a name="now-today-and-istoday-functions-in-powerapps"></a>PowerApps의 Now, Today 및 IsToday 함수
+# <a name="now-today-and-istoday-functions-in-power-apps"></a>Power Apps의 Now, Today 및 IsToday 함수
 현재 날짜와 시간을 반환하고, 날짜/시간 값이 오늘인지 테스트합니다.
 
 ## <a name="description"></a>설명
@@ -52,7 +52,7 @@ ms.locfileid: "71992589"
 
 **IsToday**( *DateTime* )
 
-* *DateTime* - 필수 항목이며,  테스트할 날짜/시간 값입니다.
+* *DateTime* - 필수 항목입니다.  테스트할 날짜/시간 값입니다.
 
 ## <a name="examples"></a>예
 이 섹션의 예제에서 현재 시간은 **2015년 2월 12일** **오전 3시 59분**이며, 언어는 **ko-kr**입니다.

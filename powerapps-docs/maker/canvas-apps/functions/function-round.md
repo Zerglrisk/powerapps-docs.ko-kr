@@ -1,6 +1,6 @@
 ---
 title: Round, RoundDown 및 RoundUp 함수 | Microsoft Docs
-description: PowerApps의 Round, RoundDown 및 RoundUp 함수에 대한 참조 정보이며, 구문을 포함하고 있습니다.
+description: Power Apps의 Round, RoundDown 및 RoundUp 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8480d66949994ba59f5ab84aef7999ab36a20b51
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 3b319f831291b1d0d21f3ed4699a144beb023611
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71983973"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730304"
 ---
-# <a name="round-rounddown-and-roundup-functions-in-powerapps"></a>PowerApps의 Round, RoundDown 및 RoundUp 함수
+# <a name="round-rounddown-and-roundup-functions-in-power-apps"></a>Power Apps의 Round, RoundDown 및 RoundUp 함수
 숫자를 반올림합니다.
 
 ## <a name="description"></a>설명

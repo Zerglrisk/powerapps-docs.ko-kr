@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2a89f2afcceedada0ffdda53628e9253433e8f95
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 7bb993de28435478c65e061e959b2fa8945e73d1
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650695"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727429"
 ---
-# <a name="check-box-control-in-powerapps"></a>PowerApps의 확인란 컨트롤
+# <a name="check-box-control-in-power-apps"></a>Power Apps의 확인란 컨트롤
 사용자가 값을 **true** 또는 **false**로 설정하기 위해 선택 또는 지울 수 있는 컨트롤입니다.
 
 ## <a name="description"></a>설명

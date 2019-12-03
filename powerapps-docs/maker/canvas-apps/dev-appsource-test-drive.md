@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3970c5181939f8ab6e8bd1ad4f396595d7083ff3
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 324c7880643a6e06bc147d1bbafb1b9638b8f2ec
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679572"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731615"
 ---
 # <a name="let-customers-test-drive-your-canvas-app-on-appsource"></a>AppSource에서 고객이 캔버스 앱을 시험 사용할 수 있도록 하기
 
@@ -113,7 +113,7 @@ RemoveIf( SiteInspectorCollect, ID = record.ID )
 요약하자면, 외부 데이터에 연결하는 앱의 경험을 시뮬레이션하는 포함된 데이터로 앱의 버전을 만들 수 있습니다. 데이터가 포함된 후 AppSource.com에서 시험 사용으로 이 앱을 게시할 준비가 됩니다.
 
 ## <a name="how-do-i-list-my-test-drive-solution-on-appsourcecom"></a>AppSource.com에 내 시험 사용 솔루션을 어떻게 게시하나요?
-이제 앱이 준비되었으므로 AppSource.com에 게시할 시간입니다. 이 프로세스를 시작하려면 PowerApps.com의 [신청서](https://powerapps.microsoft.com/partners/get-listed/)를 작성하세요.
+이제 앱이 준비되었으므로 AppSource.com에 게시할 시간입니다. 이 프로세스를 시작 하려면 Power Apps.com에서 [응용 프로그램 양식을](https://powerapps.microsoft.com/partners/get-listed/) 작성 하세요.
 
 신청한 후 AppSource.com에 게시할 앱을 제출하는 방법에 대한 지침이 포함된 전자 메일을 받게 됩니다. 전체 엔드투엔드 프로세스를 캡처하는 온보딩 설명서는 [여기](https://go.microsoft.com/fwlink/?linkid=851031)에서 다운로드할 수도 있습니다.
 

@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1b9f819ab7e047b68e60b9c78e6f7f000502abb8
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: b0e189bc2bfd922839373f009fcc54a34217daba
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993323"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732070"
 ---
-# <a name="screen-control-in-powerapps"></a>PowerApps의 화면 컨트롤
+# <a name="screen-control-in-power-apps"></a>Power Apps의 화면 컨트롤
 
 앱에서 하나 이상의 다른 컨트롤을 포함하는 UI 요소입니다.
 

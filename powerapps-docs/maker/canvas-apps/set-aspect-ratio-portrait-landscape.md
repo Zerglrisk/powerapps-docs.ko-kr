@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱의 화면 크기 및 방향 변경 | Microsoft Docs
-description: PowerApps에서 캔버스 앱의 화면 크기 및 방향과 같은 설정을 변경하는 단계별 지침
+description: Power Apps에서 캔버스 앱의 화면 크기 및 방향과 같은 설정을 변경 하는 방법에 대 한 단계별 지침
 author: evchaki
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1d3bd48f658e31f795ca3489fa1973c48da94a22
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: b6ec2006266a15b7552d1a83b2d7d67c14560470
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71995616"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732975"
 ---
-# <a name="change-screen-size-and-orientation-of-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱의 화면 크기 및 방향 변경
+# <a name="change-screen-size-and-orientation-of-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱의 화면 크기 및 방향 변경
 화면 크기와 방향을 변경하여 캔버스 앱을 사용자 지정합니다.
 
 ## <a name="prerequisites"></a>필수 조건
@@ -47,7 +47,7 @@ ms.locfileid: "71995616"
 
     이 설정을 해제 하면 앱이 실행 되는 장치의 가로 세로 비율로 조정 되 고 사용 가능한 모든 공간이 사용 됩니다. 앱이 확장 되지 않고 화면에 추가 정보가 표시 될 수 있습니다.
 
-    이 설정을 끄면 **잠금 가로 세로 비율이** 자동으로 해제 되 고 사용 하지 않도록 설정 됩니다. 또한 모든 화면의 **Width** 속성은 `Max(App.Width, App.DesignWidth)`로 설정 되며, 해당 **Height** 속성은 앱이 실행 되는 창의 크기를 추적할 수 있도록 `Max(App.Height, App.DesignHeight)`으로 설정 됩니다. 이러한 변경을 통해 다양 한 장치 및 창 차원에 응답 하는 앱을 만들 수 있습니다. 자세한 정보: [반응 형 레이아웃 만들기](create-responsive-layout.md)
+    이 설정을 끄면 **잠금 가로 세로 비율이** 자동으로 해제 되 고 사용 하지 않도록 설정 됩니다. 또한 모든 화면의 **Width** 속성은 `Max(App.Width, App.DesignWidth)`로 설정 되 고 해당 **Height** 속성은 `Max(App.Height, App.DesignHeight)`으로 설정 되므로 앱이 실행 되는 창의 차원을 추적할 수 있습니다. 이러한 변경을 통해 다양 한 장치 및 창 차원에 응답 하는 앱을 만들 수 있습니다. 추가 정보: [반응 형 레이아웃 만들기](create-responsive-layout.md)
 
 1. **가로 세로 비율 고정** 아래에서 **고정** 또는 **해제**를 지정합니다.
 

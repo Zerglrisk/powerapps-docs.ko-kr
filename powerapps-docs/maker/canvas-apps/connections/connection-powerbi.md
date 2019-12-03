@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 100b69583593bd506cb6860890ee3dfcfc82ebdf
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 40741bbaaba75f6cb1312057d5bba8c02ea15835
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540452"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723636"
 ---
-# <a name="connect-to-power-bi-from-powerapps"></a>PowerApps에서 Power BI에 연결
+# <a name="connect-to-power-bi-from-power-apps"></a>Power Apps에서 Power BI에 연결
 ![Power BI](./media/connection-powerbi/powerbiicon.png)
 
 Power BI는 데이터를 분석하고 정보 활용을 공유하는 비즈니스 분석 도구 제품군입니다. 비즈니스를 모니터링하고 모든 디바이스에서 사용할 수 있는 다양한 대시보드에 대해 신속하게 답변 받을 수 있습니다. 앱에서 Power BI 서비스에서 설정한 데이터 경고의 상태를 확인할 수 있습니다. Power BI의 데이터 경고에 대한 자세한 내용은 [설명서 페이지](https://docs.microsoft.com/power-bi/service-set-data-alerts)를 참조하세요.

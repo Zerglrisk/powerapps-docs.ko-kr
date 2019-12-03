@@ -13,28 +13,28 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2482e5b4cbbcaaf168320a8cbfe3c31f486bf891
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: a4e19b4b261bb489dd5c63e4393452a500ab3df9
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674302"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732905"
 ---
 # <a name="start-a-flow-in-a-canvas-app"></a>캔버스 앱에서 흐름 시작
 
-Power 자동화를 사용 하 여 캔버스 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행 하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 흐름을 시작하도록 앱에서 모든 컨트롤을 구성하여 PowerApps를 닫은 경우에도 계속 실행되도록 할 수 있습니다.
+Power 자동화를 사용 하 여 캔버스 앱에서 이벤트가 발생할 때 하나 이상의 작업을 수행 하는 논리를 만들 수 있습니다. 예를 들어 사용자가 단추를 선택하면 SharePoint 목록에 항목을 만들거나, 전자 메일 또는 모임 요청을 보내거나, 클라우드에 파일을 추가하거나, 이러한 모든 작업을 추가하도록 해당 단추를 구성합니다. 앱에서 모든 컨트롤을 구성 하 여 흐름을 시작할 수 있습니다 .이는 Power Apps를 닫은 경우에도 계속 실행 됩니다.
 
 > [!NOTE]
 > 사용자가 앱 내에서 흐름을 실행 하는 경우 해당 사용자에 게 흐름에 지정 된 작업을 수행할 수 있는 권한이 있어야 합니다. 그렇지 않으면 흐름이 실패 합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
-- PowerApps에 [등록](../signup-for-powerapps.md)합니다.
+- Power Apps에 [등록](../signup-for-powerapps.md) 합니다.
 - [컨트롤을 구성](add-configure-controls.md)하는 방법을 알아봅니다.
 
 ## <a name="create-a-flow"></a>흐름 만들기
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 합니다.
 
 1. 왼쪽 탐색 모음에서 **비즈니스 논리**를 선택 하 고 **흐름**을 선택 합니다.
 
@@ -67,7 +67,7 @@ Power 자동화를 사용 하 여 캔버스 앱에서 이벤트가 발생할 때
    
        ![목록 지정](./media/using-logic-flows/list-fields.png)
 
-   1. 목록에서 필드의 입력 상자 (예: **제목**)를 선택 하 고 동적 콘텐츠 창에서 **자세히 보기** 를 선택한 다음 **PowerApps에서 묻기**를 선택 합니다. 
+   1. 목록에서 필드의 입력 상자 (예: **제목**)를 선택 하 고 동적 콘텐츠 창에서 **자세히 보기** 를 선택한 다음, **Power Apps에서 묻기**를 선택 합니다. 
 
        ![제목 필드에 Power Apps 매개 변수에 Ask 추가](./media/using-logic-flows/ask-in-powerapps.png)
 

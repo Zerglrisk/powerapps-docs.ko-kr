@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱 편집 | Microsoft Docs
-description: PowerApps에서 캔버스 앱 및 세션 잠금 시나리오를 편집하기 위한 단계별 지침입니다.
+description: Power Apps에서 캔버스 앱 및 세션 잠금 시나리오를 편집 하는 방법에 대 한 단계별 지침입니다.
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 29cf712e6938d34136c3d47b2f73fbcbd3d53a00
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e68d34d6a8f6b6a115bdd272235e9c5c0f155a2c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679549"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731555"
 ---
-# <a name="edit-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 편집
+# <a name="edit-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱 편집
 빌드하거나 소유하거나 **편집할 수 있는** 사용 권한이 있는 캔버스 앱을 편집합니다. Power Apps Studio에서 앱을 편집할 수 있습니다. 다른 위치에서 편집을 위해 열려 있는 앱을 편집하려고 하면 이미 열려 있거나 다른 사용자가 사용 중인지 여부를 알리는 메시지가 표시됩니다.
 
 ## <a name="verify-your-permissions"></a>사용 권한 확인
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, **파일** 메뉴(왼쪽 모서리)에서 **앱**을 클릭하거나 탭합니다.
+1. [파워 앱](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 한 다음, **파일** 메뉴 (왼쪽 가장자리)에서 **앱** 을 클릭 하거나 탭 합니다.
    
     ![파일 메뉴의 앱 옵션](./media/edit-app/file-apps.png)
 

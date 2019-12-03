@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 455ffff4813b457c2a439f2081c10418ace2e306
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: ba582906c34b2831fffbfedcf645a00bd7cdb7d6
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678721"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74728282"
 ---
-# <a name="connect-to-excel-from-powerapps"></a>PowerApps에서 Excel에 연결
+# <a name="connect-to-excel-from-power-apps"></a>Power Apps에서 Excel에 연결
 ![Excel](./media/connection-excel/excelicon.png)
 
 Excel은 연결의 *한 종류*입니다. 앱에서 Excel 데이터를 표시하려면 다음을 수행합니다.
@@ -35,7 +35,7 @@ Excel은 연결의 *한 종류*입니다. 앱에서 Excel 데이터를 표시하
 
 [클라우드 스토리지 연결 개요](cloud-storage-blob-connections.md)는 연결을 추가하고 Excel 표를 데이터 원본으로 저장하며 앱에서 Excel 데이터를 사용하는 방법을 보여줍니다.
 
-다른 종류의 데이터에 연결하는 방법에 대한 자세한 내용은 [PowerApps 연결 목록](../connections-list.md)을 참조하십시오.
+다른 유형의 데이터에 연결 하는 방법에 대 한 자세한 내용은 [Power Apps에 대 한 연결 목록](../connections-list.md)을 참조 하세요.
 
 ### <a name="known-limitations"></a>알려진 제한 사항
 조직 내에서 Excel 데이터를 공유하는 방법에 대한 자세한 내용은 [이러한 제한 사항을 검토](cloud-storage-blob-connections.md#sharing-excel-tables)하세요.

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 945a4fd3c017363a8c43171c8e891e0c32c84a0f
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e4c466a2a090836ff880301f0960302413a3e25e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675214"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732651"
 ---
 # <a name="overview-of-the-calendar-screen-template-for-canvas-apps"></a>Canvas 앱에 대 한 달력 화면 템플릿 개요
 
@@ -36,7 +36,7 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
 
 ## <a name="prerequisite"></a>필수 조건
 
-[PowerApps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
+[Power Apps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
 
 ## <a name="default-functionality"></a>기본 기능
 

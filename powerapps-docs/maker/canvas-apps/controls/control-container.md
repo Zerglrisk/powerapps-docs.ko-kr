@@ -13,19 +13,19 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: eec6400b4953f1183ffbb294093c13aebb53fe8d
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e22800dc929c32f0a605137b6dc94820b984459c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678652"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727331"
 ---
 # <a name="container-control-in-power-apps-experimental"></a>Power Apps의 컨테이너 컨트롤 (실험적)
 계층을 만드는 기능을 제공 합니다.
 
 > [!IMPORTANT]
 > 이는 실험적 기능입니다. 실험적 기능은 급진적으로 변하거나 언제라도 완전히 사라질 수 있습니다.
-> 자세한 내용은 [PowerApps의 실험적 및 미리 보기 기능 이해](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-experimental-preview)를 참조 하세요.
+> 자세한 내용은 [Power Apps의 실험적 및 미리 보기 기능 이해](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-experimental-preview)를 참조 하세요.
 
 ## <a name="description"></a>설명
  컨테이너는 컨트롤 집합을 보유할 수 있으며 고유한 속성을 가집니다. 

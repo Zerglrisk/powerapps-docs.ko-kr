@@ -1,6 +1,6 @@
 ---
 title: Find 함수 | Microsoft Docs
-description: PowerApps의 Find 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 찾기 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fbdd29ed1757301f076ab6bebea548fcd7a963cc
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 62254bf46836ffc8ed5fa5b7685561b611db49a7
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984950"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730994"
 ---
-# <a name="find-function-in-powerapps"></a>PowerApps의 Find 함수
+# <a name="find-function-in-power-apps"></a>Power Apps에서 함수 찾기
 다른 문자열 내에 텍스트 문자열이 있으면 찾습니다.
 
 ## <a name="description"></a>설명

@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 62a500ad6e39451a3fb62932b9eeafb1d38f772a
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 8cde35a14147eb8dd0e0e63da2bad54b89472957
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679388"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731322"
 ---
-# <a name="calendar-and-clock-functions-in-powerapps"></a>PowerApps의 Calendar 및 Clock 함수
+# <a name="calendar-and-clock-functions-in-power-apps"></a>Power Apps의 일정 및 클록 함수
 현재 로캘에 대한 달력 및 시계 정보를 검색합니다.
 
 ## <a name="description"></a>설명

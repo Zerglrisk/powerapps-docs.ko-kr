@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6732dabea803cd7680ef618e4e8d1c4e88f7afe5
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: f522f520c0f0f042e73932630980dee93bc5c89c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678629"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731757"
 ---
-# <a name="customize-a-canvas-app-form-in-powerapps"></a>PowerApps에서 캔버스 앱 양식 사용자 지정
+# <a name="customize-a-canvas-app-form-in-power-apps"></a>Power Apps에서 캔버스-앱 양식 사용자 지정
 
 캔버스 앱에서 **표시 양식** 컨트롤과 **편집 양식** 컨트롤을 사용자 지정하여 사용자가 데이터를 쉽게 파악하고 업데이트할 수 있도록 가장 직관적인 순서로 데이터를 표시합니다.
 
@@ -34,7 +34,7 @@ Common Data Service에서 [앱을 생성](data-platform-create-app.md)한 다음
 
 ## <a name="show-and-hide-cards"></a>카드 표시 및 숨기기
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 한 다음 생성 하 고 사용자 지정한 앱을 엽니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 하 고, 생성 하 고 사용자 지정한 앱을 엽니다.
 
 1. 왼쪽 탐색 모음에서 검색 표시줄에 **D** 를 입력 하거나 붙여 넣어 요소 목록을 필터링 한 다음 **DetailForm1**를 선택 합니다.
 

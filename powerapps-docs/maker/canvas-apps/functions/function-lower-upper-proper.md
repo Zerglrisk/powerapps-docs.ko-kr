@@ -1,6 +1,6 @@
 ---
 title: Lower, Upper 및 Proper 함수 | Microsoft Docs
-description: PowerApps에서 Lower, Upper 및 Proper 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps에서 Lower, Upper 및 적절 한 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 413f07bcca9d238ab1a6f6b020f1d1436f2ca737
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 115b5e51f816778d763481999f8f487a1d64037a
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984547"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730600"
 ---
-# <a name="lower-upper-and-proper-functions-in-powerapps"></a>PowerApps에서 Lower, Upper 및 Proper 함수
+# <a name="lower-upper-and-proper-functions-in-power-apps"></a>Power Apps에서 Lower, Upper 및 적절 한 함수
 텍스트 문자열의 문자를 모두 소문자, 모두 대문자 또는 적절한 대소문자로 변환합니다.
 
 ## <a name="description"></a>설명
@@ -37,7 +37,7 @@ ms.locfileid: "71984547"
 ## <a name="syntax"></a>구문
 **Lower**( *String* )<br>**Upper**( *String* )<br>**Proper**( *String* )
 
-* *String* - 필수 항목이며, 변환할 문자열입니다.
+* *String* - 필수 항목입니다. 변환할 문자열입니다.
 
 **Lower**( *SingleColumnTable* )<br>**Upper**( *SingleColumnTable* )<br>**Proper**( *SingleColumnTable* )
 

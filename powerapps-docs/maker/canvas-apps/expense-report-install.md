@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f66ae4ba95d19e871e101979496760931b6821e3
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 43d2632612a473f226a9c8c964ecb42837074cc6
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679526"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731471"
 ---
-# <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
+# <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-power-apps"></a>Power Apps의 canvas 앱에 대 한 경비 보고서 샘플 설치 및 구성
 
 경비 보고서 샘플 설치 및 구성에 대한 단계별 지침입니다. [여기](https://aka.ms/previewmyexpenses)에서 샘플 앱을 미리 볼 수도 있습니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "74679526"
 
 ## <a name="prerequisites"></a>필수 조건
 
-- PowerApps에 [등록](../signup-for-powerapps.md)합니다.
+- Power Apps에 [등록](../signup-for-powerapps.md) 합니다.
 
 ## <a name="create-the-expenses-list"></a>경비 목록 만들기
 

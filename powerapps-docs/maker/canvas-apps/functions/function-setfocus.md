@@ -1,6 +1,6 @@
 ---
 title: SetFocus 함수 | Microsoft Docs
-description: PowerApps의 SetFocus 함수에 대 한 구문을 포함 한 참조 정보
+description: Power Apps의 SetFocus 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: cdf34c3c4909697b70a105e5145620ab5bd31ea9
-ms.sourcegitcommit: 5899d37e38ed7111d5a9d9f3561449782702a5e9
+ms.openlocfilehash: 6347a76765fef433880754038d4e098fcb0fd6ee
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71038145"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730221"
 ---
-# <a name="setfocus-function-in-powerapps"></a>PowerApps의 SetFocus 함수
+# <a name="setfocus-function-in-power-apps"></a>Power Apps의 SetFocus 함수
 입력 포커스를 특정 컨트롤로 이동 합니다. 
 
 ## <a name="description"></a>설명
@@ -53,7 +53,7 @@ Apple iOS에서 수동 사용자 작업으로 인해 **SetFocus** 가 시작 된
 **SetFocus** 는 [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 
 ## <a name="syntax"></a>구문
-**SetFocus** ( *컨트롤* )
+**SetFocus**( *컨트롤* )
 
 * *Control* – 필수 항목입니다.  입력 포커스를 제공 하는 컨트롤입니다.
 
@@ -79,16 +79,16 @@ SetFocus( BillingName )
 1. [ **텍스트 입력** 컨트롤](../controls/control-text-input.md) 을 추가 하 고 이름을 파일 **이름**으로 바꿉니다.
 1. [ **텍스트 입력** 컨트롤](../controls/control-text-input.md) 을 **추가 하 고 이름을 파일 이름**으로 바꿉니다.
 1. [ **확인란** 컨트롤](../controls/control-check-box.md) 을 추가 하 고 **syncaddresses**의 이름을 바꿉니다.
-1. 이 컨트롤의 **Text** 속성을 수식 `"Use Shipping address as Billing address"`으로 설정 합니다.
+1. 이 컨트롤의 **Text** 속성을 `"Use Shipping address as Billing address"`수식으로 설정 합니다.
 1. [ **텍스트 입력** 컨트롤](../controls/control-text-input.md) 을 추가 하 고 이름을 **BillingName**로 바꿉니다.
-1. 이 컨트롤의 **기본** 속성을 수식 `ShippingName`으로 설정 합니다.
-1. 이 컨트롤의 **DisplayMode** 속성을 수식 `If( SyncAddresses.Value, DisplayMode.View, DisplayMode.Edit )`으로 설정 합니다.  그러면 확인란 컨트롤의 상태에 따라이 컨트롤을 자동으로 사용 하거나 사용 하지 않도록 설정 합니다.
+1. 이 컨트롤의 **기본** 속성을 `ShippingName`수식으로 설정 합니다.
+1. 이 컨트롤의 **DisplayMode** 속성을 `If( SyncAddresses.Value, DisplayMode.View, DisplayMode.Edit )`수식으로 설정 합니다.  그러면 확인란 컨트롤의 상태에 따라이 컨트롤을 자동으로 사용 하거나 사용 하지 않도록 설정 합니다.
 1. [ **텍스트 입력** 컨트롤](../controls/control-text-input.md) 을 추가 하 고 이름을 **BillingAddress**로 바꿉니다.
-1. 이 컨트롤의 **기본** 속성을 수식 `ShippingAddress`으로 설정 합니다.
-1. 이 컨트롤의 **DisplayMode** 속성을 수식 `If( SyncAddresses.Value, DisplayMode.View, DisplayMode.Edit )`으로 설정 합니다.  그러면 확인란 컨트롤의 상태에 따라이 컨트롤을 자동으로 사용 하거나 사용 하지 않도록 설정 합니다.
-1. 확인란의 **Default** 속성을 수식 `true`으로 설정 합니다.  이렇게 하면 기본적으로 청구 주소가 배송 주소와 같은 값을 사용 합니다.
-1. 확인란의 **Oncheck** 속성을 수식 `Reset( BillingName ); Reset( BillingAddress )`으로 설정 합니다.  사용자가 배송 및 대금 청구 주소를 동기화 하도록 선택 하면 청구 주소 필드의 모든 사용자 입력이 지워집니다. 그러면 각 사용자 입력에서 해당 **하는 배송** 주소 필드의 값을 가져올 수 있습니다.
-1. 확인란의 **Onuncheck 취소** 속성을 수식 `SetFocus( BillingName )`으로 설정 합니다.  사용자가 다른 청구 주소를 선택 하는 경우이를 통해 청구 주소의 첫 번째 컨트롤로 포커스가 이동 합니다.  **DisplayMode** 속성으로 인해 컨트롤이 이미 사용 하도록 설정 되었습니다.
+1. 이 컨트롤의 **기본** 속성을 `ShippingAddress`수식으로 설정 합니다.
+1. 이 컨트롤의 **DisplayMode** 속성을 `If( SyncAddresses.Value, DisplayMode.View, DisplayMode.Edit )`수식으로 설정 합니다.  그러면 확인란 컨트롤의 상태에 따라이 컨트롤을 자동으로 사용 하거나 사용 하지 않도록 설정 합니다.
+1. 확인란의 **Default** 속성을 `true`수식으로 설정 합니다.  이렇게 하면 기본적으로 청구 주소가 배송 주소와 같은 값을 사용 합니다.
+1. 확인란의 **Oncheck** 속성을 `Reset( BillingName ); Reset( BillingAddress )`수식으로 설정 합니다.  사용자가 배송 및 대금 청구 주소를 동기화 하도록 선택 하면 청구 주소 필드의 모든 사용자 입력이 지워집니다. 그러면 각 사용자 입력에서 해당 **하는 배송** 주소 필드의 값을 가져올 수 있습니다.
+1. 확인란의 **Onuncheck 취소** 속성을 수식 `SetFocus( BillingName )`로 설정 합니다.  사용자가 다른 청구 주소를 선택 하는 경우이를 통해 청구 주소의 첫 번째 컨트롤로 포커스가 이동 합니다.  **DisplayMode** 속성으로 인해 컨트롤이 이미 사용 하도록 설정 되었습니다.
 
 ### <a name="focus-on-validation-issues"></a>유효성 검사 문제에 집중
 
@@ -127,7 +127,7 @@ If( IsBlank( Name ),
 1. **삽입** 메뉴에서 **새로 만들기 화면**을 선택 하 고 **스크롤**가능을 선택 합니다.
 1. 화면의 가운데 섹션에서 **텍스트 입력** 컨트롤을 추가 하 고 이름을 **name**, **Street1**, **Street2**, **City**, **관할지**, **StateProvince**, **PostalCode**및 **Phone**으로 입력 합니다. 각 필드 위에 **레이블** 컨트롤을 추가 하 여 필드를 식별 합니다.  모든 컨트롤에 맞게 충분히 길지 않은 경우 섹션의 크기를 조정 해야 할 수 있습니다.
 1. 화면 위쪽에서 스크롤 가능 섹션 위에 확인 표시 [ **아이콘** 컨트롤](../controls/control-shapes-icons.md) 을 추가 합니다.  
-1. 아이콘 컨트롤의 **onselect** 속성을 위에 지정 된 수식 `If( IsBlank( ...` 으로 설정 합니다.
+1. 아이콘 컨트롤의 **Onselect** 속성을 위에 지정 된 `If( IsBlank( ...` 수식으로 설정 합니다.
 
 ### <a name="focus-when-displaying-a-screen"></a>화면을 표시할 때 포커스
 
@@ -150,8 +150,8 @@ SetFocus( Name )
 
 이 예를 만들려면 다음을 수행 합니다.
 1. 위의 "유효성 검사 문제에 초점을 맞춘" 앱을 만듭니다.
-1. 이 화면에서 **Onvisible** 속성을 수식 `SetFocus( Name )`으로 설정 합니다.
+1. 이 화면에서 **Onvisible** 속성을 수식 `SetFocus( Name )`로 설정 합니다.
 1. 두 번째 화면을 추가 합니다.
 1. [ **단추** 컨트롤](../controls/control-button.md)을 추가 합니다.
-1. 이 컨트롤의 **Onselect** 속성을 수식 `Navigate( Screen1 )`으로 설정 합니다.
+1. 이 컨트롤의 **Onselect** 속성을 수식 `Navigate( Screen1 )`로 설정 합니다.
 1. 이 화면에서 앱을 미리 봅니다.  단추를 누릅니다.  **Onvisible** 수식이 평가 되 고 **이름** 필드가 자동으로 포커스를 받습니다.

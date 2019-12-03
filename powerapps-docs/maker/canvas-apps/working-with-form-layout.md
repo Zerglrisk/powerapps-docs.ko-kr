@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f447a467319f814fd79aab6827bf623d35345102
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: dbc33f1a1e4ff0434ee69ad9f7c34ead441f6776
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674534"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733166"
 ---
-# <a name="understand-data-form-layout-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 양식 레이아웃 이해 | Microsoft Docs
+# <a name="understand-data-form-layout-for-canvas-apps-in-power-apps"></a>Power Apps의 캔버스 앱에 대 한 데이터 양식 레이아웃 이해
 
 Power Apps에서 캔버스 앱을 빌드할 때 편리 하 고 효율적인 형태를 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
 

@@ -1,6 +1,6 @@
 ---
 title: Update 및 UpdateIf 함수 | Microsoft Docs
-description: PowerApps에서 Update 및 UpdateIf 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps에서 Update 및 UpdateIf 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8dd673c343b484e6c24e218818cdfbba654dcbb7
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 0f3a843c75b86170a44dce8da0a61e672d9dab49
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71983694"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730025"
 ---
-# <a name="update-and-updateif-functions-in-powerapps"></a>PowerApps에서 Update 및 UpdateIf 함수
+# <a name="update-and-updateif-functions-in-power-apps"></a>Power Apps에서 함수 업데이트 및 UpdateIf 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 업데이트합니다.
 
 ## <a name="description"></a>설명
@@ -46,14 +46,14 @@ ms.locfileid: "71983694"
 ## <a name="syntax"></a>구문
 **Update**( *DataSource*, *OldRecord*, *NewRecord* [, **All** ] )
 
-* *DataSource* – 필수 항목입니다. 교체할 레코드가 포함된 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 교체할 레코드가 포함된 데이터 원본입니다.
 * *OldRecord* – 필수 항목입니다. 교체할 레코드입니다.
 * *NewRecord* – 필수 항목입니다. 대체 레코드입니다. 이는 변경 레코드가 아닙니다. 전체 레코드가 변경되고, 누락된 속성은 *blank*를 포함하게 됩니다.
 * **All** – 선택 사항입니다. 컬렉션에서 동일한 레코드가 두 번 이상 나타날 수 있습니다. **All** 인수를 지정하여 레코드의 모든 복사본을 제거할 수 있습니다.
 
 **UpdateIf**( *DataSource*, *Condition1*, *ChangeRecord1* [, *Condition2*, *ChangeRecord2*, ... ] )
 
-* *DataSource* – 필수 항목입니다. 제거할 레코드가 포함된 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 제거할 레코드가 포함된 데이터 원본입니다.
 * *Condition(s)* – 필수 항목입니다. 수정할 레코드에 대해 **true**로 평가되는 수식입니다.  수식에서 *DataSource*의 열 이름을 사용할 수 있습니다.  
 * *ChangeRecord(s)* – 필수 항목입니다.  각 해당 조건에서 조건을 충족하는 *DataSource*의 레코드에 적용할 새 속성 값의 변경 레코드입니다. 중괄호를 사용하여 레코드 인라인을 제공하는 경우 기존 레코드의 속성 값을 속성 수식에 사용할 수 있습니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "71983694"
 1. **Inventory**라는 컬렉션을 가져오거나 만들고, [갤러리에 데이터 표시](../show-images-text-gallery-sort-filter.md)의 설명에 따라 갤러리에 표시합니다.
 2. 갤러리의 이름을 **ProductGallery**로 지정합니다.
 3. **UnitsSold**라는 슬라이더를 추가하고, 해당 **Max** 속성을 다음 식으로 설정합니다.<br>**ProductGallery.Selected.UnitsInStock**
-4. 단추 하나를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>**UpdateIf(Inventory, ProductName = ProductGallery.Selected.ProductName, {UnitsInStock:UnitsInStock-UnitsSold.Value})**
+4. 단추 하나를 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**UpdateIf(Inventory, ProductName = ProductGallery.Selected.ProductName, {UnitsInStock:UnitsInStock-UnitsSold.Value})**
 5. F5 키를 눌러 갤러리에서 제품을 선택하고, 슬라이더로 값을 지정한 다음, 단추를 선택합니다.
    
     지정한 제품의 재고에서 단위 개수가 지정한 크기로 감소합니다.

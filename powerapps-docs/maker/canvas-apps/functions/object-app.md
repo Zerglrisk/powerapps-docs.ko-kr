@@ -1,6 +1,6 @@
 ---
 title: 앱 개체 | Microsoft Docs
-description: PowerApps의 앱 개체에 대 한 구문과 예제를 포함 한 참조 정보
+description: Power Apps의 앱 개체에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c2e34a9f466fcb64bcf14ef6a504d5b18b0a596d
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: f5f09bab44f3f229b47d9a801703b3aa10cba06d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676735"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729773"
 ---
-# <a name="app-object-in-powerapps"></a>PowerApps의 App 개체
+# <a name="app-object-in-power-apps"></a>Power Apps의 앱 개체
 
 현재 실행 중인 앱에 대 한 정보와 앱 동작에 대 한 제어를 제공 합니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "74676735"
   - Power Apps Mobile에서 다른 앱으로 전환 하려면 살짝 밀기를 진행 합니다.
   - Android 장치에서 뒤로 단추를 선택 합니다.
 
-확인 대화 상자의 정확한 모양은 PowerApps의 장치 및 버전에 따라 다를 수 있습니다.
+확인 대화 상자의 정확한 모양은 전원 앱의 장치 및 버전에 따라 다를 수 있습니다.
 
 확인 대화 상자는 Power Apps Studio에 표시 되지 않습니다.
 

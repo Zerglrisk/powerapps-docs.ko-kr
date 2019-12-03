@@ -1,6 +1,6 @@
 ---
 title: With 함수 | Microsoft Docs
-description: PowerApps의 With 함수에 대 한 구문을 포함 한 참조 정보
+description: Power Apps에서 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,33 +13,33 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c8d793fcfd2992a781f92d529002e22a34a9df5a
-ms.sourcegitcommit: 742a5a21e73a811e9cea353d8275f09c22366afc
+ms.openlocfilehash: 886482e9093fa44c34fb1f72b93d51181d4fbc10
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70130336"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729859"
 ---
-# <a name="with-function-in-powerapps"></a>PowerApps의 With 함수
+# <a name="with-function-in-power-apps"></a>Power Apps에서 함수 사용
 명명 된 값의 인라인 레코드를 포함 하 여 단일 [레코드](../working-with-tables.md#records)에 대 한 값을 계산 하 고 작업을 수행 합니다.
 
-## <a name="description"></a>Description
+## <a name="description"></a>설명
 
 **With** 함수는 단일 레코드에 대 한 수식을 계산 합니다.  수식은 값을 계산하고 데이터 수정이나 연결 작업과 같은 작업을 수행할 수 있습니다.  [ **ForAll** 함수](function-forall.md) 를 사용 하 여 레코드 테이블의 모든 레코드에 대 한 수식을 평가할 수 있습니다.
 
 [!INCLUDE [record-scope](../../../includes/record-scope.md)]
 
-**를** 사용 하 여 복잡 한 수식을 작은 명명 된 하위 수식으로 나누어 가독성을 향상 시킬 수 있습니다.  이러한 명명 된 값은의 범위에만 적용 되는 단순한 지역변수 처럼 작동 합니다.  [ **Updatecontext** 함수](function-updatecontext.md) 에 사용 되는 것과 동일한 인라인 레코드 구문을 **와**함께 사용할 수 있습니다.  는 자체 포함 되 고 이해 하기 쉬우며 선언적 수식 컨텍스트에서 사용할 수 있으므로 컨텍스트 또는 전역 변수 보다를 사용 하는 것이 좋습니다.  
+**를** 사용 하 여 복잡 한 수식을 작은 명명 된 하위 수식으로 나누어 가독성을 향상 시킬 수 있습니다.  이러한 명명 된 값은의 범위에만 적용 **되는 단순한**지역 변수 처럼 작동 합니다.  [ **Updatecontext** 함수](function-updatecontext.md) 에 사용 되는 것과 동일한 인라인 레코드 구문을 **와**함께 사용할 수 있습니다.  는 자체 포함 되 고 이해 하기 쉬우며 선언적 수식 컨텍스트에서 사용할 수 있으므로 컨텍스트 또는 전역 변수 보다를 **사용 하는** 것이 좋습니다.  
 
 **With** 를 사용 하 여 [**Patch**](function-patch.md) 또는 [**Match**](function-ismatch.md)와 같은 함수에서 반환 된 레코드의 필드에 액세스 합니다.  **With** 는 이러한 함수의 값을 추가 계산 또는 작업에 사용할 수 있을 정도로 길게 보유 합니다.  
 
-에 대 한 *Record* 인수가 오류가 면 해당 오류가 함수에 의해 반환 되 고 *수식이* 계산 되지 않습니다.
+**에 대 한** *Record* 인수가 오류가 면 해당 오류가 함수에 의해 반환 되 고 *수식이* 계산 되지 않습니다.
 
 ## <a name="syntax"></a>구문
-**With** ( *레코드*, *수식* )
+**With**( *Record*, *Formula* )
 
-* *Record* – 필수 항목입니다. 작업할 레코드입니다.  이름 값의 경우 인라인 구문을 사용 합니다.`{ name1: value1, name2: value2, ... }`
-* *수식* – 필수 항목입니다.  *레코드*에 대해 평가할 수식입니다.  수식은 레코드의 모든 필드를 레코드 범위로 직접 참조할 수 있습니다.
+* *Record* – 필수 항목입니다. 작업할 레코드입니다.  이름 값의 경우 인라인 구문을 사용 `{ name1: value1, name2: value2, ... }`
+* *수식* – 필수 항목입니다.  *레코드*에 대해 평가할 수식입니다.  수식은 레코드의 모든 필드를 레코드 *범위로 직접 참조할* 수 있습니다.
 
 ## <a name="examples"></a>예
 
@@ -53,7 +53,7 @@ With( { radius: 10,
 // Result: 4712.38898038 (as shown in a label control)
 ```
 
-이 예제에서는 명명 된 값의 레코드를 사용 하 여 실린더의 볼륨을 계산 합니다.  를 사용 하 여 모든 입력 값을 함께 캡처하여 계산 자체와 쉽게 구분할 수 있습니다.  
+이 예제에서는 명명 된 값의 레코드를 사용 하 여 실린더의 볼륨을 계산 합니다.  **를 사용** 하 여 모든 입력 값을 함께 캡처하여 계산 자체와 쉽게 구분할 수 있습니다.  
 
 ### <a name="nested-with"></a>중첩 된
 
@@ -72,7 +72,7 @@ With( { AnnualRate: RateSlider/8/100,        // slider moves in 1/8th increments
 )  
 ```
 
-이 예에서는 함수로 중첩 하 여 [월별 담보 대출 지불](https://en.wikipedia.org/wiki/Mortgage_calculator#Monthly_payment_formula)을 위한 2 계층 계산을 만듭니다.  충돌이 발생 하지 않는 한 내부 내에서 명명 된 값 **을 포함** 하는 모든 외부를 사용할 수있습니다.
+이 예에서는 **함수로 중첩 하 여** [월별 담보 대출 지불](https://en.wikipedia.org/wiki/Mortgage_calculator#Monthly_payment_formula)을 위한 2 계층 계산을 만듭니다.  충돌이 발생 하지 않는 한 내부 내에서 명명 된 값 **을 포함** 하는 모든 외부를 사용할 수 **있습니다.**
 
 슬라이더 컨트롤은 1만 큼 이동 될 수 있으므로 슬라이더를 분할 하거나 곱하여 사용자 지정 증가값을 효과적으로 만들 수 있습니다.  이자율의 경우 **RateSlider** 의 **Max** 속성이 **48**으로 설정 되 100 고 1/8 백분율 포인트 증분의 경우 8로 나누고% ~ 6%의 0.125 범위를 포함 하 여 백분율에서 10 진수로 변환 됩니다.  대출 금액의 경우 **Amountslider** 는 해당 **Max** 속성이 60으로 설정 되 고 1만로 곱하여 범위 1만를 60만로 설정 합니다.
 

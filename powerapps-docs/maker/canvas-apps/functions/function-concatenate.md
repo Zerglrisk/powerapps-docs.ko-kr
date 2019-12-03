@@ -1,6 +1,6 @@
 ---
 title: Concat 및 Concatenate 함수 | Microsoft Docs
-description: PowerApps의 Concat 및 Concatenate 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Concat 및 연결 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0a56230539990ce51cc9270f71d8c2b7c9a1db73
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 01bf9b2ea165fd24a06725f4f09427bd05c3fe14
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71992878"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731300"
 ---
-# <a name="concat-and-concatenate-functions-in-powerapps"></a>PowerApps의 Concat 및 Concatenate 함수
+# <a name="concat-and-concatenate-functions-in-power-apps"></a>Power Apps에서 함수 연결 및 연결
 
 [테이블](../working-with-tables.md)에 있는 텍스트와 문자열의 개별 문자열을 연결합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "71992878"
 
 - **FirstName** = "Jane"
 - **LastName** = "Doe"
-- **Products** 는 두 개의 열과 4 개의 행이 있는![테이블을 = ](media/function-concatenate/products.png)
+- **Products** 는 두 개의 열과 4 개의 행이 있는 ![테이블을 = ](media/function-concatenate/products.png)
 
 앱에서 이러한 전역 변수를 만들려면 [**단추**](../controls/control-button.md) 컨트롤을 삽입 하 고 **onselect** 속성을 다음 수식으로 설정 합니다.
 
@@ -106,7 +106,7 @@ Alt 키를 누른 채 단추를 클릭 하 여 단추를 선택 합니다.
 
 | 수식 | 설명 | 결과 |
 |---------|-------------|--------|
-| **Left (Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;), Len (&nbsp;Concat (&nbsp;Products,&nbsp;Name&nbsp;&" ,&nbsp;"&nbsp;)&nbsp;)&nbsp;-&nbsp;2)** | **Concat** 의 결과를 반환 하지만 불필요 한 구분 기호를 구성 하는 마지막 두 문자를 제거 합니다. | "바이올린,&nbsp;Cello,&nbsp;Trumpet" |
+| **Left (Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;), Len (&nbsp;Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;)&nbsp;)&nbsp;-&nbsp;2)** | **Concat** 의 결과를 반환 하지만 불필요 한 구분 기호를 구성 하는 마지막 두 문자를 제거 합니다. | "바이올린,&nbsp;Cello,&nbsp;Trumpet" |
 | **Match (Concat (&nbsp;Products,&nbsp;Name&nbsp;&&nbsp;",&nbsp;"&nbsp;), "^ (?&lt;trim&gt;. *),&nbsp;$ "). trim** | 텍스트 문자열 (^)의 시작 부분에서 끝 ($)으로의 **Concat** 문자를 반환 하지만 끝에 원치 않는 쉼표와 공백을 포함 하지 않습니다. | "바이올린,&nbsp;Cello,&nbsp;Trumpet" |
 
 ### <a name="split-and-matchall"></a>분할 및 MatchAll

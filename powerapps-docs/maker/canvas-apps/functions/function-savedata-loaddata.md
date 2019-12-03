@@ -1,6 +1,6 @@
 ---
 title: SaveData 및 LoadData 함수 | Microsoft Docs
-description: PowerApps의 SaveData 및 LoadData 함수에 대한 구문을 비롯한 참조 정보
+description: Power Apps의 SaveData 및 LoadData 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1be652ef905d73baeeafd9ddf06f74584851b457
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 8ad9eee5230d46e67f3a0c5370fd0960e0c6787b
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678307"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730263"
 ---
-# <a name="savedata-and-loaddata-functions-in-powerapps"></a>PowerApps의 SaveData 및 LoadData 함수
+# <a name="savedata-and-loaddata-functions-in-power-apps"></a>Power Apps의 SaveData 및 LoadData 함수
 [컬렉션](../working-with-data-sources.md#collections)을 저장하고 다시 로드합니다.
 
 ## <a name="description"></a>설명

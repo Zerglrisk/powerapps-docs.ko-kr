@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 641b22945dc6398e0f1ab57b03813eb7db02c79f
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: efd5b1ca4f30a5ab1131765d2bb38d21af7c2d2b
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678422"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731372"
 ---
-# <a name="char-function-in-powerapps"></a>PowerApps의 Char 함수
+# <a name="char-function-in-power-apps"></a>Power Apps의 Char 함수
 
 문자 코드를 문자열로 변환합니다.
 

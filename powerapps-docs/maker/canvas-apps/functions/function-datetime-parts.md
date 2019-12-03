@@ -1,6 +1,6 @@
 ---
 title: Day, Month, Year, Hour, Minute, Second 및 Weekday 함수 | Microsoft Docs
-description: PowerApps의 Day, Month, Year, Hour, Minute, Second 및 Weekday 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Day, Month, Year, Hour, Minute, Second, Weekday 함수 등에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bc5d17903ea5cfe834fd4e0987b4fc4613a1ad65
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 571ec9d9b18be623a60bedfc3ac04e8ed8e46b33
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992805"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731152"
 ---
-# <a name="day-month-year-hour-minute-second-and-weekday-functions-in-powerapps"></a>PowerApps의 Day, Month, Year, Hour, Minute, Second 및 Weekday 함수
+# <a name="day-month-year-hour-minute-second-and-weekday-functions-in-power-apps"></a>Power Apps의 Day, Month, Year, Hour, Minute, Second, Weekday 함수
 날짜/시간 값의 개별 구성 요소를 반환합니다.
 
 ## <a name="description"></a>설명
@@ -40,7 +40,7 @@ ms.locfileid: "71992805"
 
 | Excel 코드 | StartOfWeek 열거형 | 설명 |
 | --- | --- | --- |
-| **1**, **17** |**StartOfWeek.Sunday** |숫자 1(일요일) ~ 7(토요일).  기본값. |
+| **1**, **17** |**StartOfWeek.Sunday** |숫자 1(일요일) ~ 7(토요일).  기본값입니다. |
 | **2**, **11** |**StartOfWeek.Monday** |숫자 1(월요일) ~ 7(일요일). |
 | **3** |**StartOfWeek.MondayZero** |숫자 0(월요일) ~ 6(일요일). |
 | **12** |**StartOfWeek.Tuesday** |숫자 1(화요일) ~ 7(월요일). |
@@ -56,7 +56,7 @@ ms.locfileid: "71992805"
 ## <a name="syntax"></a>구문
 **Day**( *DateTime* )<br>**Month**( *DateTime* )<br>**Year**( *DateTime* )<br>**Hour**( *DateTime* )<br>**Minute**( *DateTime* )<br>**Second**( *DateTime* )
 
-* *DateTime* - 필수 항목이며,  연산을 수행할 날짜/시간 값입니다.  
+* *DateTime* - 필수 항목입니다.  연산을 수행할 날짜/시간 값입니다.  
 
 **Weekday**( *DateTime* [, *WeekdayFirst* ] )<br>
 
@@ -72,7 +72,7 @@ ms.locfileid: "71992805"
 | **Month(&nbsp;Now()&nbsp;)** |현재 시간과 날짜의 월 구성 요소를 반환합니다. |4 |
 | **Day(&nbsp;Now()&nbsp;)** |현재 시간과 날짜의 일 구성 요소를 반환합니다. |9 |
 | **Hour(&nbsp;Now()&nbsp;)** |현재 시간과 날짜의 시간 구성 요소를 반환합니다. |15 |
-| **Minute(&nbsp;Now()&nbsp;)** |현재 시간과 날짜의 분 구성 요소를 반환합니다. |59 |
+| **Minute(&nbsp;Now()&nbsp;)** |현재 시간과 날짜의 초 구성 요소를 반환합니다. |59 |
 | **Second(&nbsp;Now()&nbsp;)** |현재 시간과 날짜의 초 구성 요소를 반환합니다. |37 |
 | **Weekday(&nbsp;Now()&nbsp;)** |현재 시간과 날짜의 평일 구성 요소를 반환하고, 기본 시작 요일을 일요일로 사용합니다. |5 |
 | **Weekday(&nbsp;Now(),&nbsp;14&nbsp;)** |Excel 코드를 사용하여 주의 시작을 목요일로 지정하여 현재 시간 및 날짜의 요일 구성 요소를 반환합니다. |1 |

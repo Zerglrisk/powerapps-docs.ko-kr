@@ -1,6 +1,6 @@
 ---
 title: Oracle 데이터베이스에 연결 | Microsoft Docs
-description: Oracle 데이터베이스에 연결하고 PowerApps에서 앱을 빌드하기 위해 사용하는 방법에 알아봅니다.
+description: Oracle Database에 연결 하 고이를 사용 하 여 Power Apps에서 앱을 빌드하는 방법을 알아봅니다.
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 31bf18342de1191dbd816093186fe33e31755232
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: b742193e2d127993779e2bba94f35c0c24ecfd7b
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678744"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74728401"
 ---
-# <a name="connect-to-an-oracle-database-from-powerapps"></a>PowerApps에서 Oracle 데이터베이스에 연결
+# <a name="connect-to-an-oracle-database-from-power-apps"></a>Power Apps에서 Oracle 데이터베이스에 연결
 연결을 만들고 Power Apps에서 앱을 빌드한 후 테이블을 나열 하 고 Oracle 데이터베이스에서 테이블 행을 만들고, 읽고, 업데이트 하 고, 삭제 합니다. Oracle 데이터베이스 연결은 트리거 또는 저장 프로시저를 제외한 필터링, 정렬 및 기타 함수의 전체 위임을 지원합니다.
 
 ## <a name="prerequisites"></a>필수 조건

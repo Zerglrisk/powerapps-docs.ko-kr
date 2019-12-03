@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 21effecae904675e39c914145ee10df9c81ec752
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 50b783bce993d40ae88c438c115b2b859a08b7f8
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679848"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723311"
 ---
-# <a name="connect-to-twitter-from-powerapps"></a>PowerApps에서 Twitter 연결
+# <a name="connect-to-twitter-from-power-apps"></a>Power Apps에서 Twitter에 연결
 ![Twitter](./media/connection-twitter/twittericon.png)
 
 Twitter를 사용하여 트윗을 보내고 Twitter 계정에서 트윗, 타임라인, 친구, 팔로워를 가져올 수 있습니다.

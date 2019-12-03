@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f2b401fb4054d63e19b1dcab29cbabf27cc3c117
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 5ee1d56e6144f0c7f4e1b3ca440063f87b7bdc5d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674618"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733080"
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>이미지를 Excel 파일에 저장한 다음 앱에 추가하는 방법
 
@@ -100,5 +100,5 @@ Excel 테이블에서 이미지 경로는 이미지에 대한 URL일 수도 있�
 ## <a name="learn-more"></a>자세한 정보
 [이미지, 비디오 또는 사운드 추가](add-images-pictures-audio-video.md)  
 [앱에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시](use-line-pie-bar-chart.md)  
-[PowerApps 테이블 및 레코드에 대한 이해](working-with-tables.md)
+[Power Apps의 테이블 및 레코드 이해](working-with-tables.md)
 

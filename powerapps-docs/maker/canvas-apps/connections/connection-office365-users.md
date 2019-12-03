@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: da6c30cc824f5bb6cf1f661d332831223c37d5b8
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: aacb19180fc41cc52a9d292fd9d3282f19cc649f
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993894"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723759"
 ---
-# <a name="connect-to-office-365-users-connection-from-powerapps"></a>PowerApps에서 Office 365 사용자 연결
+# <a name="connect-to-office-365-users-connection-from-power-apps"></a>Power Apps에서 Office 365 사용자 연결에 연결
 ![Office 365 사용자](./media/connection-office365-users/office365icon.png)
 
 Office 365 사용자를 통해 Office 365 계정을 사용하여 조직의 사용자 프로파일에 액세스할 수 있습니다. 프로필, 사용자 프로필, 사용자의 관리자 또는 직속 부하의 정보 가져오기 등 다양한 작업을 수행할 수 있습니다.
@@ -66,7 +66,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 레이블에 현재 사용자에 대해 입력한 정보가 표시됩니다.
 
 ### <a name="show-information-about-another-user"></a>다른 사용자에 대한 정보 표시
-1. **삽입** 메뉴에서 **텍스트 상자**를 선택한 다음 **텍스트 입력**을 선택합니다. **InfoAbout**로 이름을 바꿉니다.  
+1. **삽입** 메뉴에서 **텍스트**를 선택한 다음 **텍스트 입력**을 선택합니다. **InfoAbout**로 이름을 바꿉니다.  
 
     ![컨트롤 이름 바꾸기](./media/connection-office365-users/renameinfoabout.png)
 2. **InfoAbout**에 조직의 사용자 전자 메일 주소를 입력하거나 붙여넣습니다. 예를 들어 *yourName*@*yourCompany.com*으로 입력합니다.
@@ -164,7 +164,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | [UserProfile](connection-office365-users.md#userprofile) |특정 사용자 프로필을 검색 합니다. |
 
 ### <a name="myprofile"></a>MyProfile
-내 프로필 가져오기: 현재 사용자의 프로필을 검색 합니다.
+내 프로필 가져오기: 현재 사용자에 대한 프로필을 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
 없음
@@ -174,7 +174,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| CompanyName | 문자열 |사용자의 회사입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -193,7 +193,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | BusinessPhones | 문자열 |사용자 회사의 전화 번호입니다.|
 
 ### <a name="userprofile"></a>UserProfile
-사용자 프로필 가져오기: 특정 사용자 프로필을 검색 합니다.
+사용자 프로필 가져오기: 특정 사용자 프로필을 검색합니다.
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -206,7 +206,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| CompanyName | 문자열 |사용자의 회사입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -235,7 +235,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| CompanyName | 문자열 |사용자의 회사입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -254,7 +254,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | BusinessPhones | 문자열 |사용자 회사의 전화 번호입니다.|
 
 ### <a name="directreports"></a>DirectReports
-부하 직원을 가져옵니다. 부하 직원을 가져옵니다.
+부하 직원 가져오기: 부하 직원을 가져옵니다.
 
 #### <a name="input-properties"></a>입력 속성
 
@@ -267,7 +267,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| CompanyName | 문자열 |사용자의 회사입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |
@@ -299,7 +299,7 @@ Office 365 사용자 연결이 만들어지고 앱에 추가됩니다. 이제 �
 | 속성 이름 | 유형 | 설명 |
 | --- | --- | --- |
 | 대도시 | 문자열 |사용자의 구/군/시입니다. |
-| CompanyName | 문자열 |사용자의 회사입니다. |
+| companyName | 문자열 |사용자의 회사입니다. |
 | 해외 | 문자열 |사용자의 국가입니다. |
 | Department |문자열 |사용자의 부서입니다. |
 | DisplayName |문자열 |사용자의 표시 이름입니다. |

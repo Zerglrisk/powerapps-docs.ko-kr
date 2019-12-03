@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bfefad0a3e1500e926251d68f12ea9c398e9cd9a
-ms.sourcegitcommit: abeedb952afc5e09ae4c158611e4813b63cb49b3
+ms.openlocfilehash: c9d3594ecf338c6cfa93786f56a09606b2de6296
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2019
-ms.locfileid: "74643787"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732008"
 ---
-# <a name="microsoft-stream-video-control-in-powerapps"></a>PowerApps의 Microsoft Stream 비디오 컨트롤
+# <a name="microsoft-stream-video-control-in-power-apps"></a>Power Apps의 Microsoft Stream 비디오 컨트롤
 비디오 및 채널을 Microsoft Stream 비디오 플레이어입니다.
 
 ## <a name="description"></a>설명

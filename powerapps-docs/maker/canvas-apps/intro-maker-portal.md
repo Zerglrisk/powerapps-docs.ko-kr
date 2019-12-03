@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0f745516ab0c282ab6519f0bac8ac8cfd5f46598
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 284d63d7ebc0eb57e11dae055a9178b3b92646cd
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675757"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729503"
 ---
 # <a name="sign-in-to-power-apps-for-the-first-time"></a>처음으로 Power Apps에 로그인
 
-[PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하면 사이트에서 자체 앱을 만들고, 다른 사용자가 만든 앱을 열거나 관련 작업을 수행하기 위한 다양한 옵션을 제공합니다. 이러한 작업은 액세스 권한을 제공하는 라이선스 또는 라이선스의 식별과 같은 가장 간단한 작업부터 특정 데이터 원본에 대한 사용자 지정 연결 생성과 같은 고급 기능에 이르기까지 다양합니다.
+[Power apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 하는 경우이 사이트는 사용자가 직접 앱을 만들고, 사용자 또는 다른 사용자가 만든 앱을 열고, 관련 작업을 수행 하는 다양 한 옵션을 제공 합니다. 이러한 작업은 액세스 권한을 제공하는 라이선스 또는 라이선스의 식별과 같은 가장 간단한 작업부터 특정 데이터 원본에 대한 사용자 지정 연결 생성과 같은 고급 기능에 이르기까지 다양합니다.
 
 세 가지 일반 영역에서 옵션을 선택할 수 있습니다.
 
@@ -112,7 +112,7 @@ Common Data Service 데이터베이스를 포함 하는 환경을 선택 하는 
   - [캔버스 앱 커넥터 개요](connections-list.md)
   - [캔버스 앱용 사용자 지정 커넥터 빌드 및 인증](register-custom-api.md)
   - [온-프레미스 데이터 게이트웨이 관리](gateway-management.md)
-  - [PowerApps 관리](../../administrator/index.md)
+  - [Power Apps 관리](../../administrator/index.md)
   - [라이선스 개요](../../administrator/pricing-billing-skus.md)
   - [모델 기반 앱 빌드에 대한 개요](../model-driven-apps/model-driven-app-overview.md)
 

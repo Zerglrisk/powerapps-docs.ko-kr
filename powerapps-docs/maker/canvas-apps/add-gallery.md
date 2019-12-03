@@ -13,20 +13,20 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fd48455f24cd07a09ce3a7cdb44b2fa6da2a0166
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 09b8f728d175edb598ee832be11cf3329d166ae7
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679250"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724770"
 ---
-# <a name="show-a-list-of-items-in-powerapps"></a>PowerApps에서 항목 목록 표시
+# <a name="show-a-list-of-items-in-power-apps"></a>Power Apps의 항목 목록 표시
 
 **[갤러리](controls/control-gallery.md)** 컨트롤을 캔버스 앱에 추가하여 모든 데이터 원본에서 항목 목록을 표시합니다. 이 토픽에서는 데이터 원본으로 Excel을 사용합니다. **[텍스트 입력](controls/control-text-input.md)** 컨트롤의 필터 조건과 일치하는 항목만 표시하도록 **갤러리** 컨트롤을 구성하여 목록을 필터링합니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
-- PowerApps에서 [컨트롤을 추가하고 구성](add-configure-controls.md)하는 방법을 알아봅니다.
+- Power Apps에서 [컨트롤을 추가 하 고 구성](add-configure-controls.md) 하는 방법에 대해 알아봅니다.
 
 - 샘플 데이터 설정:
     1. 이 자습서에 대한 샘플 데이터를 포함하는 [이 Excel 파일](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx)을 다운로드합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "74679250"
     2. Excel 파일을 비즈니스용 OneDrive와 같은 [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
 
 - 빈 앱을 엽니다.
-    1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+    1. [Power Apps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
 
     1. **고유한 앱 만들기**에서 **빈 페이지의 캔버스 앱**을 선택합니다.
 

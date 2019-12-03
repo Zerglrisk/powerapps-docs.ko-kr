@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3b8c5ea5ee2784bc1ab97d6943045cee8da6a52f
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: c797f6e9da4a0149638606613280100dcc26ad8a
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650775"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74722903"
 ---
-# <a name="audio-and-video-controls-in-powerapps"></a>PowerApps의 오디오 및 동영상
+# <a name="audio-and-video-controls-in-power-apps"></a>Power Apps의 오디오 및 비디오 컨트롤
 오디오 파일, 동영상 파일 또는 YouTube의 동영상을 재생하는 컨트롤입니다.
 
 ## <a name="description"></a>설명

@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 387089ea2ee40e8a0d418ab110d7544c17d7c423
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 772f74b13d254746b75253012940efd8bda6e9d3
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679894"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723810"
 ---
-# <a name="connect-to-microsoft-translator-from-powerapps"></a>PowerApps에서 Microsoft Translator에 연결
+# <a name="connect-to-microsoft-translator-from-power-apps"></a>Power Apps에서 Microsoft Translator에 연결
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
 
 Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에 번역된 텍스트를 표시합니다. 예를 들어, 사용자에게 번역할 텍스트를 입력하도록 요청하는 입력 텍스트 상자를 만들 수 있습니다. 다른 레이블에서는 번역된 텍스트를 표시할 수 있습니다.

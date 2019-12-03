@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6cda843ea95f79e907aa738a6546d63a6a3be270
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 9449c9ab8e03159ffdc4e5657d7eb8ca92cbf0f0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678859"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724031"
 ---
-# <a name="overview-of-canvas-app-connectors-for-powerapps"></a>PowerApps용 캔버스 앱 커넥터의 개요
-데이터는 Power Apps에서 작성 하는 앱을 포함 하 여 대부분의 앱에서 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. 파워 앱은 인기 있는 많은 서비스 및 온-프레미스 데이터 원본에 대 한 커넥터 (SharePoint, SQL Server, Office 365, Salesforce, Twitter 등)를 포함 합니다. 캔버스 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
+# <a name="overview-of-canvas-app-connectors-for-power-apps"></a>Power Apps 용 캔버스-앱 커넥터 개요
+데이터는 Power Apps에서 작성 하는 앱을 포함 하 여 대부분의 앱에서 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. 파워 앱은 인기 있는 많은 서비스 및 온-프레미스 데이터 원본에 대 한 커넥터 (SharePoint, SQL Server, Office 365, Salesforce, Twitter 등)를 포함 합니다. 캔버스 앱에 데이터를 추가 하는 작업을 시작 하려면 [Power Apps에서 데이터 연결 추가](add-data-connection.md)를 참조 하세요.
 
 커넥터는 **테이블** 데이터 또는 **작업**을 제공할 수 있습니다. 일부 커넥터는 테이블만 제공하고 일부 커넥터는 동작만 제공하며 일부 커넥터는 두 가지 모두를 제공합니다. 또한 커넥터는 표준 또는 사용자 지정 커넥터일 수 있습니다.
 
@@ -37,13 +37,13 @@ ms.locfileid: "74678859"
 
 테이블을 사용 하 여 수식을 사용자 지정 하는 방법에 대 한 자세한 내용은 다음 항목을 참조 하세요.
 
-  [PowerApps 데이터 원본에 대한 이해](working-with-data-sources.md)<br> 
+  [Power Apps의 데이터 원본 이해](working-with-data-sources.md)<br> 
   [Excel 데이터에서 앱 생성](get-started-create-from-data.md)<br> 
   [앱을 처음부터 만들기](get-started-create-from-blank.md)<br>
-  [PowerApps 테이블 및 레코드에 대한 이해](working-with-tables.md)
+  [Power Apps의 테이블 및 레코드 이해](working-with-tables.md)
 
   > [!NOTE]
-  > Excel 통합 문서의 데이터에 연결하려면 OneDrive와 같은 클라우드 스토리지 서비스에서 호스팅되어야 합니다. 자세한 내용은 [PowerApps에서 클라우드 스토리지에 연결](connections/cloud-storage-blob-connections.md)을 참조하세요.
+  > Excel 통합 문서의 데이터에 연결하려면 OneDrive와 같은 클라우드 스토리지 서비스에서 호스팅되어야 합니다. 자세한 내용은 [Power Apps에서 클라우드 저장소에 연결](connections/cloud-storage-blob-connections.md)을 참조 하세요.
 
 ## <a name="actions"></a>동작은
 

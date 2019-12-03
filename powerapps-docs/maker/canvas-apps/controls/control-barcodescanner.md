@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e80f34917bba942f85e141c382cf3b1caa5e6d44
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: a116d812f8be7d8c1fb15ba2b05805536240084c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650768"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727482"
 ---
-# <a name="web-barcode-scanner-control-experimental-in-powerapps"></a>PowerApps의 웹 바코드-스캐너 컨트롤 (실험적)
+# <a name="web-barcode-scanner-control-experimental-in-power-apps"></a>Power Apps의 웹 바코드-스캐너 컨트롤 (실험적)
 
 사용 되지 않지만 웹 브라우저에서 코드를 검사 하는 데 유용할 수 있는 레거시 바코드 검색 컨트롤입니다.
 

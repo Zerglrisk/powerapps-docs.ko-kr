@@ -1,6 +1,6 @@
 ---
 title: Relate 및 인시던트와 관계 해제 함수 | Microsoft Docs
-description: PowerApps의 Relate 및 인시던트와 관계 해제 함수에 대 한 구문과 예제를 포함 한 참조 정보
+description: Power Apps의 Relate 및 인시던트와 관계 해제 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 94400c88740ea93b3966db8a62a461b5616eaeef
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e2b1d0e8ab264b9576c18aa7d5803be30c4a45e1
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678353"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730541"
 ---
-# <a name="relate-and-unrelate-functions-in-powerapps"></a>PowerApps의 Relate 함수 및 인시던트와 관계 해제 함수
+# <a name="relate-and-unrelate-functions-in-power-apps"></a>Power Apps의 Relate 및 인시던트와 관계 해제 함수
 
 일 대 다 또는 다 대 다 관계를 통해 두 엔터티의 레코드를 연결 하 고 인시던트와 관계 해제 합니다.
 

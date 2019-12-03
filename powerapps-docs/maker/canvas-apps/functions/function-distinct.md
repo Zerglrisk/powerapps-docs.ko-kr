@@ -1,6 +1,6 @@
 ---
 title: Distinct 함수 | Microsoft Docs
-description: PowerApps의 Distinct 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Distinct 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7d9ae4df7a4ad11a49b2a25ae78330d0cd807c9b
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: b77cdf452250fc30e1b8c61867f82e5f109fff49
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71985237"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731240"
 ---
-# <a name="distinct-function-in-powerapps"></a>PowerApps의 Distinct 함수
+# <a name="distinct-function-in-power-apps"></a>Power Apps의 Distinct 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 요약하여 중복을 제거합니다.
 
 ## <a name="description"></a>설명

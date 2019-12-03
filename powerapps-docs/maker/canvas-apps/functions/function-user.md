@@ -1,6 +1,6 @@
 ---
 title: User 함수 | Microsoft Docs
-description: PowerApps에서 사용자 함수에 대한 구문을 포함한 참조 정보
+description: Power Apps의 사용자 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f95a6f7769cde01e99bc4c18fab0ae60ae6b8c96
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: d4c558e40b9bb351f3ea6b4d202ef4849cb4e85d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680147"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729889"
 ---
-# <a name="user-function-in-powerapps"></a>PowerApps의 사용자 함수
+# <a name="user-function-in-power-apps"></a>Power Apps의 사용자 기능
 현재 사용자에 대한 정보를 반환합니다.
 
 ## <a name="description"></a>설명

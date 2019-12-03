@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3181c00a4ef0836c043ee0402a29d3b7dadbef21
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: cda7635798b26b1936a44d7947ab1dc7c36a25c8
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678882"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724200"
 ---
 # <a name="generate-a-canvas-app-in-power-apps-from-a-sharepoint-list"></a>SharePoint 목록에서 Power Apps의 캔버스 앱 생성
 
@@ -40,9 +40,9 @@ ms.locfileid: "74678882"
 > [!IMPORTANT]
 > Power Apps는 모든 유형의 SharePoint 데이터를 지원 하지 않습니다. 자세한 내용은 [알려진 문제](connections/connection-sharepoint-online.md#known-issues)를 참조하세요.
 
-## <a name="generate-an-app-from-within-powerapps"></a>PowerApps 내에서 앱 생성
+## <a name="generate-an-app-from-within-power-apps"></a>Power Apps 내에서 앱 생성
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 합니다.
 
 1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 선택합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: 자습서 - 생성된 앱에서 갤러리 사용자 지정 | Microsoft Docs
-description: 이 자습서에서는 갤러리에 표시되는 데이터와 PowerApps에 자동으로 생성된 앱의 다른 요소를 사용자 지정합니다.
+description: 이 자습서에서는 갤러리에 표시 되는 데이터와 Power Apps에서 자동으로 생성 된 앱의 다른 요소를 사용자 지정 합니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a3afda5686c6b791243126c70b9c6d33762beae0
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 02d6e3b7a3dc18ab4c7d4d3d5f510b6c3bbd227a
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679664"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731715"
 ---
-# <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
+# <a name="tutorial-customize-a-gallery-in-power-apps"></a>자습서: Power Apps에서 갤러리 사용자 지정
 
 이 자습서에서는 갤러리 라는 레코드 목록을 사용자 지정 하 고 Microsoft Power Apps에서 자동으로 생성 된 앱의 다른 변경을 수행 합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
 
@@ -51,7 +51,7 @@ Common Data Service의 **계정** 엔터티에서 [앱을 생성](data-platform-
 
 ## <a name="open-the-generated-app"></a>생성된 앱 열기
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
+1. [파워 앱](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 한 다음, 왼쪽 가장자리 근처의 **앱** 을 선택 합니다.
 
 1. 생성한 앱을 찾고, 앱에 대한 줄임표 아이콘( **...** )을 선택한 다음, **편집**을 선택합니다.
 

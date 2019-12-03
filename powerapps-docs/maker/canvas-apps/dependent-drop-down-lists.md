@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 233fd99eeba86151f616a22955cf28c2114de43e
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 500154ecde380a1cf339f934728807216d29c804
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679618"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731620"
 ---
 # <a name="create-dependent-drop-down-lists-in-a-canvas-app"></a>캔버스 앱에서 종속 된 드롭다운 목록 만들기
 
@@ -49,7 +49,7 @@ ms.locfileid: "74679618"
 | Pembroke       | 생성할          |
 | Pembroke       | 흰꽃잎색           |
 
-**인시던트** 목록에는 각 인시던트에 대 한 연락처 정보 및 정보가 표시 됩니다. 날짜 열을 **날짜** 열로 만들지만 다른 열을 **한 줄의 텍스트** 열로 만들어 구성을 단순화 하 고 Microsoft PowerApps에서 [위임](./delegation-overview.md) 경고를 방지 합니다.
+**인시던트** 목록에는 각 인시던트에 대 한 연락처 정보 및 정보가 표시 됩니다. 날짜 열을 **날짜** 열로 만들지만 다른 열을 **한 줄의 텍스트** 열로 만들어 구성을 단순화 하 고 Microsoft Power Apps에서 [위임](./delegation-overview.md) 경고를 방지 합니다.
 
 | 이름 | 성 | 전화 번호     | 위치 | Department | 설명       | 날짜      |
 |------------|-----------|------------------|----------------|------------|-------------------------|-----------|

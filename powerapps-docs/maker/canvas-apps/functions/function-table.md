@@ -1,6 +1,6 @@
 ---
 title: Table 함수 | Microsoft Docs
-description: PowerApps의 Table 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 테이블 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2388df10fbc735f619497dc9b93dd049c8a46afa
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 900277f62d35ad36fc914e6ca83a1d03e621bafe
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680101"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729927"
 ---
-# <a name="table-function-in-powerapps"></a>PowerApps의 Table 함수
+# <a name="table-function-in-power-apps"></a>Power Apps의 테이블 함수
 임시 [테이블](../working-with-tables.md)을 만듭니다.
 
 ## <a name="description"></a>설명

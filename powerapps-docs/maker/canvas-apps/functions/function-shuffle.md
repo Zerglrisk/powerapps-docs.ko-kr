@@ -1,6 +1,6 @@
 ---
 title: Shuffle 함수 | Microsoft Docs
-description: PowerApps의 Shuffle 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 순서 섞기 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 181ef038a90c9bfc7e3fe72af9514a34afce9776
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: c67e8095a7c0ed3246bce0401bbe787becd7cea0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71983941"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730151"
 ---
-# <a name="shuffle-function-in-powerapps"></a>PowerApps의 Shuffle 함수
+# <a name="shuffle-function-in-power-apps"></a>Power Apps의 순서 섞기 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 무작위로 다시 정렬합니다.
 
 ## <a name="description"></a>설명

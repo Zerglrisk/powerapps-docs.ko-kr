@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 140fa7c51c30199360a08adc86c6e118e4e5bc52
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 4980d7989a65032cec28aab1bc70ae3e01d1747d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679940"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724156"
 ---
 # <a name="preview-create-a-canvas-app-from-azure-sql-database"></a>미리 보기: Azure SQL Database에서 캔버스 앱 만들기
 
@@ -43,7 +43,7 @@ ms.locfileid: "74679940"
 
 1. [Azure Portal](https://portal.azure.com)에 로그인 합니다.
 2. SQL Database로 이동 합니다.
-3. PowerApps를 선택 합니다.
+3. Power Apps를 선택 합니다.
 
     
     ![SQL Database 옵션의 Power Apps 옵션](./media/app-from-azure-sql-database/powerapps-link-azure-portal.png "SQL Database 내에서 Power Apps 옵션")
@@ -109,10 +109,10 @@ Power Apps는 Azure Portal를 사용 하 여 **Azure 서비스 제어에 대 한
 이 빠른 시작에서는 Azure Portal를 사용 하 여 SQL Database의 데이터를 사용 하 여 앱을 만들었습니다. 다음 단계로 비즈니스 요구 사항에 더 적합 하도록 컨트롤, 이미지 및 논리를 사용 하 여 앱을 사용자 지정 합니다.
 
 > [!div class="nextstepaction"]
-> [PowerApps에서 캔버스 앱 인터페이스 디자인](add-configure-controls.md)
+> [Power Apps에서 캔버스 앱 인터페이스 디자인](add-configure-controls.md)
 
 ## <a name="see-also"></a>참고 항목
 
-- [PowerApps에서 캔버스 앱 공유](share-app.md) </br>
-- [PowerApps에서 캔버스 앱에 데이터 연결 추가](add-data-connection.md#add-data-source)</br>
-- [Microsoft Learn: PowerApps에서 캔버스 앱 사용자 지정](https://docs.microsoft.com/learn/modules/customize-apps-in-powerapps/)
+- [Power Apps에서 캔버스 앱 공유](share-app.md) </br>
+- [Power Apps에서 캔버스 앱에 데이터 연결 추가](add-data-connection.md#add-data-source)</br>
+- [Microsoft Learn: Power Apps에서 캔버스 앱 사용자 지정](https://docs.microsoft.com/learn/modules/customize-apps-in-powerapps/)

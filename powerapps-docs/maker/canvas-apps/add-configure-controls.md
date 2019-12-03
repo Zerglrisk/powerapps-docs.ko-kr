@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b2a2aa1baf93008fa908ca3f73aebfde64c9b239
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: ae33122d140b6c13f744acb292362d8ec804233e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680055"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74725212"
 ---
-# <a name="add-and-configure-a-canvas-app-control-in-powerapps"></a>PowerApps에서 캔버스 앱 컨트롤 추가 및 구성
+# <a name="add-and-configure-a-canvas-app-control-in-power-apps"></a>Power Apps에서 캔버스-앱 컨트롤 추가 및 구성
 
 도구 모음, **속성** 탭 또는 수식 입력줄에서 직접 캔버스 앱에 다양한 UI 요소를 추가하고 모양과 동작의 측면을 구성합니다. 이러한 UI 요소는 컨트롤이라고 하며, 구성하는 측면은 속성이라고 합니다.
 

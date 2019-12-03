@@ -1,6 +1,6 @@
 ---
 title: 함수, 신호 및 열거형 | Microsoft Docs
-description: PowerApps에서 함수, 신호 및 열거형에 대한 참조 정보
+description: Power Apps의 함수, 신호 및 열거형에 대 한 참조 정보입니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: eb698f5e2775f1acfed6a7af70475a6079753abb
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 7712af247376d6db54aa6777eb2a3051f0e31f93
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678468"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731412"
 ---
-# <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
+# <a name="formula-reference-for-power-apps"></a>Power Apps에 대 한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
 
 * **함수**는 매개 변수를 받아 작업을 수행하고 값을 반환합니다. 예를 들어 **Sqrt(25)** 는 **5**를 반환합니다. 함수는 Microsoft Excel 함수를 본떠 만듭니다.  **SubmitForm**과 같은 일부 함수에는 파생 작업이 있으며 **Button.OnSelect**와 같은 [동작 수식](working-with-formulas-in-depth.md)에서만 적합합니다.

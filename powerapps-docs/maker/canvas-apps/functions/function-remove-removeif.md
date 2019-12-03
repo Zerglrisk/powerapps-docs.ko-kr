@@ -1,6 +1,6 @@
 ---
 title: Remove 및 RemoveIf 함수 | Microsoft Docs
-description: PowerApps의 Remove 및 RemoveIf 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Remove 및 RemoveIf 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 57432024254598ff8216d6fefafa5354844bb7a4
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 614474c70a8962345b13ddb256cd22d573938b47
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984300"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730416"
 ---
-# <a name="remove-and-removeif-functions-in-powerapps"></a>PowerApps의 Remove 및 RemoveIf 함수
+# <a name="remove-and-removeif-functions-in-power-apps"></a>Power Apps에서 함수 제거 및 제거
 [데이터 원본](../working-with-data-sources.md)에서 [레코드](../working-with-tables.md#records)를 제거합니다.
 
 ## <a name="description"></a>설명
@@ -42,19 +42,19 @@ ms.locfileid: "71984300"
 ## <a name="syntax"></a>구문
 **Remove**( *DataSource*, *Record1* [, *Record2*, ... ] [, **All** ] )
 
-* *DataSource* – 필수 항목입니다. 제거할 레코드가 포함된 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 제거할 레코드가 포함된 데이터 원본입니다.
 * *Record(s)* – 필수 항목입니다. 제거할 레코드입니다.
 * **All** – 선택 사항입니다. 컬렉션에서 동일한 레코드가 두 번 이상 나타날 수 있습니다.  **All** 인수를 추가하여 레코드의 모든 복사본을 제거할 수 있습니다.
 
 **Remove**( *DataSource*, *Table* [, **All** ] )
 
-* *DataSource* – 필수 항목입니다. 제거할 여러 레코드가 포함된 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 제거할 여러 레코드가 포함된 데이터 원본입니다.
 * *Table* – 필수 항목입니다. 제거할 레코드의 테이블입니다.
 * **All** – 선택 사항입니다. 컬렉션에서 동일한 레코드가 두 번 이상 나타날 수 있습니다.  **All** 인수를 추가하여 레코드의 모든 복사본을 제거할 수 있습니다.
 
 **RemoveIf**( *DataSource*, *Condition* [, ... ] )
 
-* *DataSource* – 필수 항목입니다. 제거할 레코드가 포함된 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 제거할 레코드가 포함된 데이터 원본입니다.
 * *Condition(s)* – 필수 항목입니다. 제거할 레코드에 대해 **true**로 평가되는 수식입니다.  수식에서 *DataSource*의 열 이름을 사용할 수 있습니다.  여러 *Condition*을 지정하는 경우 제거할 레코드에 대해 모두가 **true**로 평가되어야 합니다.
 
 ## <a name="examples"></a>예

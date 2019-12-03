@@ -1,6 +1,6 @@
 ---
 title: Refresh 함수 | Microsoft Docs
-description: PowerApps의 Refresh 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Refresh 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 72fafd2b55237dc4804c50c26530fddb763d9623
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 8376d21117c286a540ca8b873c7e91b07d53d607
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984272"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730395"
 ---
-# <a name="refresh-function-in-powerapps"></a>PowerApps의 Refresh 함수
+# <a name="refresh-function-in-power-apps"></a>Power Apps에서 함수 새로 고침
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 새로 고칩니다.
 
 ## <a name="description"></a>설명
@@ -31,7 +31,7 @@ ms.locfileid: "71984272"
 ## <a name="syntax"></a>구문
 **Refresh**( *DataSource* )
 
-* *DataSource* – 필수 항목입니다. 새로 고칠 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 새로 고칠 데이터 원본입니다.
 
 ## <a name="example"></a>예
 아래 예제는 다음 데이터로 시작하는 **IceCream**이라는 데이터 원본을 새로 고칩니다.

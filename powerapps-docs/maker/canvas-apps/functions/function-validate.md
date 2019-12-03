@@ -1,6 +1,6 @@
 ---
 title: Validate 함수 | Microsoft Docs
-description: PowerApps의 Validate 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Validate 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1004b5e7a921500065cca468d9b85e538110116c
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 1524b6f28d0ce5b1ed02fbd02d3c2df52e2b300f
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71991724"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729845"
 ---
-# <a name="validate-function-in-powerapps"></a>PowerApps의 Validate 함수
+# <a name="validate-function-in-power-apps"></a>Power Apps의 Validate 함수
 **Validate** 함수는 단일 [열](../working-with-tables.md#columns) 또는 전체 [레코드](../working-with-tables.md#records)의 값이 [데이터 원본](../working-with-data-sources.md)에 대해 유효한지 여부를 확인합니다.  
 
 ## <a name="description"></a>설명
@@ -42,13 +42,13 @@ ms.locfileid: "71991724"
 ## <a name="syntax"></a>구문
 **Validate**( *DataSource*, *Column*, *Value* )
 
-* *DataSource* – 필수 항목입니다. 유효성을 검사할 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 유효성을 검사할 데이터 원본입니다.
 * *Column* – 필수 항목입니다. 유효성을 검사할 열입니다.
 * *Value* – 필수 항목입니다. 유효성을 검사할 선택한 열의 값입니다.
 
 **Validate**( *DataSource*, *OriginalRecord*, *Updates* )
 
-* *DataSource* – 필수 항목입니다. 유효성을 검사할 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 유효성을 검사할 데이터 원본입니다.
 * *OriginalRecord* - 필수 항목입니다.  업데이트의 유효성을 검사할 레코드입니다.
 * *Updates* - 필수 항목입니다.  원본 레코드에 적용할 변경 내용입니다.
 

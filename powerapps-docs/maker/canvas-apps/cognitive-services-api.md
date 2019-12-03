@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2afd849a716034e4a4dbd50fd4ad58af059be18b
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: c1860320715798d1e3acc72af7f158f91b8f3cd0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680009"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724364"
 ---
-# <a name="use-cognitive-services-in-powerapps"></a>PowerApps에서 Cognitive Services 사용
+# <a name="use-cognitive-services-in-power-apps"></a>Power Apps에서 Cognitive Services 사용
 이 문서에서는 [Azure Cognitive Services 텍스트 분석 API](https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview) 를 사용 하 여 텍스트를 분석 하는 기본 캔버스 앱을 빌드하는 방법을 보여 줍니다. Text Analytics API를 설정하고 [Text Analytics 커넥터](https://docs.microsoft.com/connectors/cognitiveservicestextanalytics/)와 연결하는 방식을 보여주고, 그런 다음, API를 호출하는 캔버스 앱을 빌드하는 방법을 살펴보겠습니다.
 
 > [!NOTE]
@@ -69,7 +69,7 @@ API는 무료 미리 보기로 사용 가능하며 Azure 구독과 연결되어 
 텍스트 분석 API 이제 실행 중이 고, Power Apps에서 연결 하 고, API를 호출 하는 앱을 빌드합니다. Text Analytics API 페이지의 데모와 유사한 기능을 제공하는 단일 화면 앱입니다. 이제 빌드를 시작해 보겠습니다!
 
 ### <a name="create-the-app-and-add-a-connection"></a>앱 만들기 및 연결 추가
-먼저, 빈 휴대폰 앱을 만들고 **Text Analytics** 커넥터와의 연결을 추가하겠습니다. 이러한 작업에 대해 추가 정보가 필요할 경우 [처음부터 앱 만들기](get-started-create-from-blank.md)와 [PowerApps에서 연결 관리](add-manage-connections.md)를 참조하세요.
+먼저, 빈 휴대폰 앱을 만들고 **Text Analytics** 커넥터와의 연결을 추가하겠습니다. 이러한 작업에 대 한 자세한 정보가 필요한 경우 [처음부터 앱 만들기](get-started-create-from-blank.md) 및 [Power Apps에서 연결 관리](add-manage-connections.md)를 참조 하세요.
 
 1. [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **비어 있는 상태에서 시작** > ![Phone 앱 아이콘](./media/cognitive-services-api/icon-phone-app.png)(휴대폰) > **이 앱 만들기**를 선택합니다.
 

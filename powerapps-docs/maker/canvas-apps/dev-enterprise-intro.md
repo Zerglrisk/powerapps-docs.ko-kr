@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d2ec1d3fc39749f29a57fd8ca8e518e325c2a11a
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 02b95408a0e4d3d519c1a1105002c69372670f55
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679499"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731583"
 ---
 # <a name="canvas-apps-for-enterprise-developers-partners-and-isvs"></a>엔터프라이즈 개발자, 파트너 및 ISV용 캔버스 앱
 
@@ -26,7 +26,7 @@ ms.locfileid: "74679499"
 
 ## <a name="canvas-apps-for-enterprise-developers"></a>엔터프라이즈 개발자 용 캔버스 앱
 
-엔터프라이즈 개발자는 PowerApps에서 강력한 맞춤형 솔루션을 빌드하도록 조직을 강화합니다.
+엔터프라이즈 개발자로 서 조직의 역량을 강화 하 여 Power Apps에서 강력한 맞춤형 솔루션을 빌드할 수 있습니다.
 
 - **사용자 지정 커넥터 빌드**: 조직의 데이터 및 웹 서비스에 연결 하는 사용자 지정 커넥터를 개발 합니다. [자세히 알아보기](https://docs.microsoft.com/connectors/custom-connectors/)
 

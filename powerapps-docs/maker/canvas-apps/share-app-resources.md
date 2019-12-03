@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에서 사용하는 리소스 공유 | Microsoft Docs
-description: PowerApps에서 캔버스 앱이 사용하는 리소스를 공유하는 방법 이해
+description: Power Apps에서 캔버스 앱이 사용 하는 리소스를 공유 하는 방법 이해
 author: archnair
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2160855d1b5ce67a4c11f5e227eb4d889d927d08
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: a0dec0f593dee36cbdcff62667177c194abfc6e0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73542342"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732489"
 ---
-# <a name="share-canvas-app-resources-in-powerapps"></a>PowerApps의 캔버스 앱 리소스 공유
+# <a name="share-canvas-app-resources-in-power-apps"></a>Power Apps에서 캔버스 공유-앱 리소스
 
 [캔버스 앱을 공유](share-app.md)하기 전에 다음 중 한 개 이상과 같이 주로 사용하려는 리소스 유형을 고려합니다.
 

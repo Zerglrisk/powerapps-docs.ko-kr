@@ -1,6 +1,6 @@
 ---
 title: Patch 함수 | Microsoft Docs
-description: PowerApps의 Patch 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Patch 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 711a15a93d1e3ed9839f5d51c0bfa32e00563852
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 1b23ac058632c4a4b2196c48ed5ffaf6d63fc2bd
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984338"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730466"
 ---
-# <a name="patch-function-in-powerapps"></a>PowerApps의 Patch 함수
+# <a name="patch-function-in-power-apps"></a>Power Apps의 Patch 함수
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 하나 이상 수정 또는 생성하거나 데이터 원본 외부의 레코드를 병합합니다.
 
 **Patch** 함수를 사용하여 복잡한 상황(예: 사용자 상호 작용이 필요하지 않거나 여러 화면에 걸쳐 있는 양식을 사용하는 업데이트를 수행하는 경우)의 레코드를 수정합니다.
@@ -71,14 +71,14 @@ ms.locfileid: "71984338"
 #### <a name="modify-or-create-a-record-in-a-data-source"></a>데이터 원본의 레코드 수정 또는 만들기
 **Patch**( *DataSource*, *BaseRecord*, *ChangeRecord1* [, *ChangeRecord2*, … ])
 
-* *DataSource* – 필수 항목입니다. 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
 * *BaseRecord* – 필수 항목입니다. 수정하거나 만들 레코드입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)** 의 결과가 사용되면 레코드가 생성됩니다.
 * *ChangeRecord(s)* – 필수 항목입니다.  *BaseRecord*에서 수정할 속성이 포함된 하나 이상의 레코드입니다.  변경 레코드는 인수 목록의 처음부터 끝까지 순서대로 처리되며, 이후 속성 값이 이전 속성 값보다 우선합니다.
 
 #### <a name="modify-or-create-a-set-of-records-in-a-data-source"></a>데이터 원본의 레코드 집합 수정 또는 만들기
 **Patch**( *DataSource*, *BaseRecordsTable*, *ChangeRecordTable1* [, *ChangeRecordTable2*, ... ] )
 
-* *DataSource* – 필수 항목입니다. 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 수정할 레코드를 포함하거나 만들려는 레코드가 포함될 데이터 원본입니다.
 * *BaseRecordTable* – 필수 항목입니다. 수정하거나 만들 레코드 테이블입니다.  데이터 원본에서 레코드를 받으면 레코드가 발견되고 수정됩니다. **[Defaults](function-defaults.md)** 의 결과가 사용되면 레코드가 생성됩니다.
 * *ChangeRecordTable(s)* – 필수 항목입니다.  *BaseRecordTable*의 각 레코드에 대해 수정할 속성이 포함된 하나 이상의 레코드 테이블입니다.  변경 레코드는 인수 목록의 처음부터 끝까지 순서대로 처리되며, 이후 속성 값이 이전 속성 값보다 우선합니다.
 

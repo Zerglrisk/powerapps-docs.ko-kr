@@ -1,6 +1,6 @@
 ---
 title: 세션 ID 또는 캔버스 앱 ID 가져오기 | Microsoft Docs
-description: PowerApps의 문제를 해결하기 위해 세션 ID 또는 캔버스 앱 ID를 가져오는 방법
+description: Power Apps에서 문제를 해결 하기 위해 세션 ID 또는 캔버스-앱 ID를 가져오는 방법
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 81c1db4ab44f3ca8517c6154f0516ca9dad5f825
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: bad3f118da62d0c4eb6c0873aa6aed03516a9085
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676512"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729633"
 ---
 # <a name="get-a-session-id-or-a-canvas-app-id"></a>세션 ID 또는 캔버스 앱 ID 가져오기
 Power Apps에서 만든 캔버스 앱에 문제가 발생 하는 경우 해당 문제에 대 한 세션 ID, 앱 ID 또는 둘 다를 제공 하는 경우 Microsoft에서 문제를 보다 효과적으로 해결 하도록 도울 수 있습니다.
@@ -59,7 +59,7 @@ Power Apps에서 만든 캔버스 앱에 문제가 발생 하는 경우 해당 �
     ![포함 앱에서 세션 ID 가져오기](media/get-sessionid/embedded.png)
 
 ## <a name="get-an-app-id"></a>앱 ID 가져오기
-1. [PowerApps에 로그인](https://powerapps.microsoft.com)합니다.
+1. [Power Apps에 로그인](https://powerapps.microsoft.com)합니다.
 
 1. 왼쪽 모서리 근처에 있는 **앱**을 선택합니다.
 

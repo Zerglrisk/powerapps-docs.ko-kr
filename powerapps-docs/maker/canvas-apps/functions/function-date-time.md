@@ -1,6 +1,6 @@
 ---
 title: Date 및 Time 함수 | Microsoft Docs
-description: PowerApps의 Date 및 Time 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 날짜 및 시간 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: efd6e2cdea45f511a545ccfe2f38309bdf622110
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 01fdccf295dbf21e61790d537f74af562dce69f0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985234"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731210"
 ---
-# <a name="date-and-time-functions-in-powerapps"></a>PowerApps의 Date 및 Time 함수
+# <a name="date-and-time-functions-in-power-apps"></a>Power Apps의 날짜 및 시간 함수
 날짜 및 시간 구성 요소를 날짜/시간 값으로 변환합니다.
 
 ## <a name="description"></a>설명

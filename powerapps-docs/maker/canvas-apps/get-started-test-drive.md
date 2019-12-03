@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: eac22ce84d5864e79c2964d42ffa5fe37853bc97
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 682657a62db520c431bd0f594a87ae50c5e3ac0c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676268"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732186"
 ---
-# <a name="create-a-canvas-app-from-a-template-in-powerapps"></a>PowerApps의 템플릿에서 캔버스 앱 만들기
+# <a name="create-a-canvas-app-from-a-template-in-power-apps"></a>Power Apps에서 템플릿에서 캔버스 앱 만들기
 
 예산 추적 및 휴가 일정 예약과 같은 특정 시나리오에 대한 템플릿 기반의 캔버스 앱을 자동으로 만든 다음, 앱을 실행하여 해당 기본 동작을 이해합니다.
 
@@ -30,7 +30,7 @@ Power Apps에 대 한 라이선스가 없는 경우 [무료로 등록할](../sig
 
 ## <a name="create-an-app"></a>앱 만들기
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 합니다.
 
 1. **나만의 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **만들기**를 클릭하거나 탭합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: DateAdd, DateDiff 및 TimeZoneOffset 함수 | Microsoft Docs
-description: PowerApps의 DateAdd, DateDiff 및 TimeZoneOffset 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 DateAdd, DateDiff 및 TimeZoneOffset 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8108dbc1c78ba57e989f7bebeb8bd0f42f696360
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 4ebabe4240dff3f7f7c3c56cb97258885e2e7a3b
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985138"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731160"
 ---
-# <a name="dateadd-datediff-and-timezoneoffset-functions-in-powerapps"></a>PowerApps의 DateAdd, DateDiff 및 TimeZoneOffset 함수
+# <a name="dateadd-datediff-and-timezoneoffset-functions-in-power-apps"></a>Power Apps의 DateAdd, DateDiff 및 TimeZoneOffset 함수
 날짜/시간 값의 차이를 추가하거나 찾아서 현지 시간과 UTC 사이의 변환을 수행합니다.
 
 ## <a name="description"></a>설명
@@ -39,15 +39,15 @@ ms.locfileid: "71985138"
 ## <a name="syntax"></a>구문
 **DateAdd**( *DateTime*, *Addition* [, *Units* ] )
 
-* *DateTime* - 필수 항목이며, 연산을 수행할 날짜/시간 값입니다.
+* *DateTime* - 필수 항목입니다. 연산을 수행할 날짜/시간 값입니다.
 * *Addition* - 필수 항목입니다. *DateTime*에 추가할 *Units*에 해당하는 숫자입니다.
-* *Units* - 선택 사항입니다. 추가할 *단위* 유형입니다. **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기**또는 **년**입니다.  지정하지 않으면 **일**이 사용됩니다.
+* *Units* - 선택 사항입니다. 추가할 *단위* 유형: **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기** 또는 **연도**.  지정하지 않으면 **일**이 사용됩니다.
 
 **DateDiff**( *StartDateTime*, *EndDateTime* [, *Units* ] )
 
 * *StartDateTime* - 필수 항목입니다. 시작 날짜/시간 값입니다.
 * *EndDateTime* - 필수 항목입니다. 종료 날짜/시간 값입니다.
-* *Units* - 선택 사항입니다. 추가할 *단위* 유형입니다. **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기**또는 **년**입니다.  지정하지 않으면 **일**이 사용됩니다.
+* *Units* - 선택 사항입니다. 추가할 *단위* 유형: **밀리초**, **초**, **분**, **시간**, **일**, **월**, **분기** 또는 **연도**.  지정하지 않으면 **일**이 사용됩니다.
 
 **TimeZoneOffset**( [ *DateTime* ] )
 

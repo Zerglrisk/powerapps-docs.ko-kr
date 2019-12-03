@@ -1,6 +1,6 @@
 ---
 title: IsMatch, Match 및 MatchAll 함수 | Microsoft Docs
-description: PowerApps의 IsMatch, Match 및 MatchAll 함수에 대 한 구문을 포함 한 참조 정보
+description: Power Apps의 IsMatch, Match 및 MatchAll 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0cfc64397774abc33f27006e331238dc97e9895d
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: fb150fc9e640801588e8ab7a5bef4640438679f8
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680331"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730769"
 ---
-# <a name="ismatch-match-and-matchall-functions-in-powerapps"></a>PowerApps의 IsMatch, Match 및 MatchAll 함수
+# <a name="ismatch-match-and-matchall-functions-in-power-apps"></a>Power Apps의 IsMatch, Match 및 MatchAll 함수
 패턴을 기반으로 하 여 텍스트 문자열의 일부를 찾거나 일치 하는지 여부를 테스트 합니다.
 
 ## <a name="description"></a>설명

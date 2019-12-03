@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fbfe1b62091ff7a4fb84b899518fc941f99d7abb
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 9befcf4cb0e7267820c62ab78a14ee28ba985490
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674848"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732391"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
 이제 Power Apps에서 [SharePoint 목록 양식을 쉽게 사용자 지정할](customize-list-form.md) 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.
@@ -43,7 +43,7 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 
         **ResetForm(SharePointForm1); RequestHide()**
 
-* **SharePointIntegration** - SharePoint와 PowerApps 사이에서 사용자 작업의 전달을 담당하는 컨트롤입니다.
+* **SharePointIntegration** -SharePoint와 Power Apps 간의 사용자 작업을 통신 하는 컨트롤입니다.
 
     * **데이터 원본** - 양식이 사용자 지정된 목록입니다.
 
@@ -72,7 +72,7 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 이러한 기본값은 SharePoint 내에서 실행 하는 경우 양식이 작동 하는지 확인 합니다. 사용자가 SharePoint에서 상호 작용할 때 Power Apps 양식 모드를 변경 하 고 변경 내용이 SharePoint에 제출 되도록 합니다.
 
 ## <a name="understand-the-sharepointintegration-control"></a>SharePointIntegration 컨트롤 이해
-**SharePointIntegration** 컨트롤은 SharePoint와 PowerApps 사이에서 사용자 작업을 전달합니다.
+**SharePointIntegration** 컨트롤은 SharePoint와 Power Apps 간에 사용자 작업을 전달 합니다.
 
 ![](./media/sharepoint-form-integration/sharepointintegration-object.png)
 

@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 65076c38a1beeb41c9f6f308b6c0c7e82d30fc80
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 8b5a5366f3de487b7d34d60d989274223340f4e6
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674409"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732407"
 ---
-# <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>PowerApps에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시
+# <a name="show-data-in-a-line-pie-or-bar-chart-in-power-apps"></a>Power Apps에서 꺾은선형, 원형 또는 가로 막대형 차트로 데이터 표시
 
 꺾은선형 차트, 원형 차트 및 가로 막대형 차트를 사용하여 캔버스 앱에 데이터를 표시합니다. 차트를 사용할 때 가져오는 데이터는 다음 기준에 따라 구성되어야 합니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "74674409"
 
 * Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 사용 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 * [템플릿](get-started-test-drive.md), [데이터](get-started-create-from-data.md)에서 앱을 만들거나 [처음부터](get-started-create-from-blank.md)만듭니다.
-* PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
+* Power Apps에서 [컨트롤을 구성](add-configure-controls.md) 하는 방법에 대해 알아봅니다.
 * 샘플 데이터가 XML 파일로 포함된 [ChartData.zip](https://pwrappssamples.blob.core.windows.net/samples/ChartData.zip)을 다운로드합니다. 이 항목의 단계를 수행하여 앱에 직접 가져옵니다. 대신 .zip 파일의 압축을 풀고, Excel에서 XML 파일을 열고, [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.
 
 ## <a name="import-the-sample-data"></a>샘플 데이터 가져오기

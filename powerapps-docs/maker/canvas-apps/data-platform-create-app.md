@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f1737a70a8b9f6be30c73a91116c88df38609966
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: b98fcb51e5b379e6507e73f680100c9702ec24a8
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678560"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731682"
 ---
-# <a name="generate-a-canvas-app-from-common-data-service-in-powerapps"></a>PowerApps의 Common Data Service에서 캔버스 앱 생성
+# <a name="generate-a-canvas-app-from-common-data-service-in-power-apps"></a>Power Apps의 Common Data Service에서 캔버스 앱 생성
 
 Power Apps에서 [Common Data Service](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 캔버스 앱을 자동으로 생성 합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
 
@@ -32,7 +32,7 @@ Power Apps에 등록 하지 않은 경우 시작 하기 전에 [무료로 등록
 
 ## <a name="generate-an-app"></a>앱 생성
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 필요한 경우 이 항목의 앞부분에 지정된 대로 환경을 전환합니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 에 로그인 하 고 필요한 경우이 항목의 앞부분에서 지정한 대로 환경을 전환 합니다.
 
 1. **고유한 앱 만들기** 아래에서 **데이터로 시작**을 마우스로 가리킨 다음, **이 앱 만들기**를 선택합니다.
 

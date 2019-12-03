@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9e96b0733e139657c3105ec020470d55fe5008dd
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: af4412e2f098d6e7e5996b2de436b674cfa60a40
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679197"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724626"
 ---
-# <a name="add-images-to-excel-from-powerapps"></a>PowerApps에서 Excel에 이미지 추가
+# <a name="add-images-to-excel-from-power-apps"></a>Power Apps에서 Excel에 이미지 추가
 사용자가 파일의 이미지 또는 **펜** 컨트롤의 그림을 표시, 추가 또는 삭제할 수 있는 앱을 자동으로 만듭니다. 앱은 클라우드 스토리지 계정에 만들고 업로드하는 Excel 파일을 기반으로 합니다.
 
 ## <a name="prerequisites"></a>필수 조건

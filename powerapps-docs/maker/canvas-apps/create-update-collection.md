@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 47233d4ead10ab01fe57c1f0573a4123894f9e58
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: b124a27119a7b91572bdfef563e0f99e9d5da08d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678675"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731800"
 ---
 # <a name="create-and-update-a-collection-in-a-canvas-app"></a>Canvas 앱에서 컬렉션 만들기 및 업데이트
 
@@ -27,8 +27,8 @@ ms.locfileid: "74678675"
 ## <a name="prerequisites"></a>필수 조건
 
 - Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 제공 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
-- PowerApps에서 앱을 만들거나 기존 앱을 엽니다.
-- PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
+- 앱을 만들거나 Power Apps에서 기존 앱을 엽니다.
+- Power Apps에서 [컨트롤을 구성](add-configure-controls.md) 하는 방법에 대해 알아봅니다.
 
 ## <a name="create-a-multicolumn-collection"></a>여러 열 컬렉션 만들기
 

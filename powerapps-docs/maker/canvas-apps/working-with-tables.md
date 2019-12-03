@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱의 테이블 이해 | Microsoft Docs
-description: PowerApps에서 캔버스 앱 테이블, 열 및 레코드 작업에 대한 참조 정보
+description: Power Apps에서 캔버스-앱 테이블, 열 및 레코드 작업에 대 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8477ecce3ebd1953807cd348ca4080118c03991d
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 777dd5452af8662569e2e51452142a1bbce3f619
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74673156"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732841"
 ---
-# <a name="understand-canvas-app-tables-and-records-in-powerapps"></a>PowerApps에서 캔버스 앱 테이블 및 레코드 이해
+# <a name="understand-canvas-app-tables-and-records-in-power-apps"></a>Power Apps의 캔버스 이해-앱 테이블 및 레코드
 
 Power Apps에서 Microsoft Excel, SharePoint, SQL Server 및 레코드와 테이블에 데이터를 저장 하는 다른 여러 원본의 정보에 액세스 하는 canvas 앱을 만들 수 있습니다. 이러한 종류의 데이터로 가장 효과적으로 작업하려면 이러한 구조의 기반이 되는 개념을 검토합니다.
 

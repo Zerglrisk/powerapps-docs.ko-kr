@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a3996603e9d5de0f3844be0a3d6b4fb8e1c62d7b
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: b04c1d9ecc4c2955b68f1ffeae1a5a56e74ab710
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74674956"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733111"
 ---
-# <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
+# <a name="share-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱 공유
 
 비즈니스 요구를 해결하는 캔버스 앱을 빌드한 후에 조직의 어떤 사용자가 앱을 실행하고 수정하며 심지어 다시 공유할 수 있는지 지정합니다. 이름으로 각 사용자를 지정하거나, Azure Active Directory의 보안 그룹을 지정합니다. 모든 사용자가 앱의 이점을 누리는 경우 조직 전체가 실행할 수 있도록 지정합니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "74674956"
 
 1. 공유 패널의 아래쪽에서 **공유**를 선택 합니다.
 
-    앱을 공유 하는 모든 사용자는 모바일 장치의 Power Apps Mobile에서 또는 브라우저의 [Dynamics 365](https://home.dynamics.com) 에 대 한 appsource에서 앱을 실행할 수 있습니다. 공동 소유자는 [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 편집 하 고 공유할 수 있습니다.
+    앱을 공유 하는 모든 사용자는 모바일 장치의 Power Apps Mobile에서 또는 브라우저의 [Dynamics 365](https://home.dynamics.com) 에 대 한 appsource에서 앱을 실행할 수 있습니다. 공동 소유자는 [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 편집 하 고 공유할 수 있습니다.
 
     전자 메일 초대를 보낸 경우 앱을 공유한 모든 사람이 초대의 링크를 선택 하 여 실행할 수 있습니다.
 
@@ -165,7 +165,7 @@ Power Apps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
 ### <a name="frequently-asked-questions"></a>질문과 대답
 
 #### <a name="whats-the-difference-between-canvas-app-guest-access-and-power-apps-portals"></a>Canvas 앱 게스트 액세스와 Power Apps 포털의 차이점은 무엇 인가요? 
-Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드를 작성 하지 않고도 비즈니스 프로세스를 디지타이징에 맞게 구성 하 여 앱을 빌드할 수 있습니다. Canvas 앱에 대 한 게스트 액세스를 사용 하면 다양 한 Microsoft 및 타사 소스와 통합 될 수 있는 동일한 앱 리소스에 액세스 하는 공통 비즈니스 프로세스에 참여 하는 다양 한 조직으로 구성 된 개인 팀이 가능 합니다. 추가 정보: [PowerApps 용 캔버스 앱 커넥터 개요](/powerapps/maker/canvas-apps/connections-list)
+Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드를 작성 하지 않고도 비즈니스 프로세스를 디지타이징에 맞게 구성 하 여 앱을 빌드할 수 있습니다. Canvas 앱에 대 한 게스트 액세스를 사용 하면 다양 한 Microsoft 및 타사 소스와 통합 될 수 있는 동일한 앱 리소스에 액세스 하는 공통 비즈니스 프로세스에 참여 하는 다양 한 조직으로 구성 된 개인 팀이 가능 합니다. 추가 정보: [Power Apps의 캔버스-앱 커넥터 개요](/powerapps/maker/canvas-apps/connections-list)
 
 [Power Apps 포털](/powerapps/maker/portals/overview) 외부 사용자가 Common Data Service 저장 된 데이터와 상호 작용할 수 있도록 하는 낮은 코드의 응답성이 뛰어난 웹 사이트를 빌드하는 기능을 제공 합니다. 조직에서 조직 외부 사용자와 공유 하는 웹 사이트 (예: LinkedIn, Microsoft 계정 또는 기타 상업적 로그인 공급자)를 사용 하 여 익명으로 또는 선택한 로그인 공급자를 통해 공유할 수 있는 웹 사이트를 만들 수 있습니다. 
 

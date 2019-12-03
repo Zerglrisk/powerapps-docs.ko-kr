@@ -1,6 +1,6 @@
 ---
 title: Blank, Coalesce, IsBlank 및 IsEmpty 함수 | Microsoft Docs
-description: PowerApps의 Blank, Coalesce, IsBlank 및 IsEmpty 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+description: Power Apps에서 Blank, 병합, IsBlank 및 IsEmpty 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -14,14 +14,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a026d801a6bda6ae82884f5fab94f09b4fdde571
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 59314375b68a73e4c46bd3274a3fefc994465b4d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680377"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730756"
 ---
-# <a name="blank-coalesce-isblank-and-isempty-functions-in-powerapps"></a>PowerApps의 Blank, Coalesce, IsBlank 및 IsEmpty 함수
+# <a name="blank-coalesce-isblank-and-isempty-functions-in-power-apps"></a>Power Apps에서 blank, 병합, IsBlank 및 IsEmpty 함수
 값이 비어 있거나 [테이블](../working-with-tables.md)에 [레코드](../working-with-tables.md#records)가 없는지 여부를 테스트하고 *공백* 값을 만드는 방법을 제공합니다.
 
 ## <a name="overview"></a>개요

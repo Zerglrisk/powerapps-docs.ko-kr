@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4da95086c99c03fdd56214a0d2fb637beaa6243c
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: a5645f2f0d515d7eca125f3cd89ecff0c63cfa51
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650375"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729053"
 ---
-# <a name="pen-input-control-in-powerapps"></a>PowerApps의 펜 입력 컨트롤
+# <a name="pen-input-control-in-power-apps"></a>Power Apps의 펜 입력 컨트롤
 사용자가 그리고 삭제하고 이미지의 영역을 강조 표시할 수 있는 컨트롤입니다.
 
 ## <a name="description"></a>설명

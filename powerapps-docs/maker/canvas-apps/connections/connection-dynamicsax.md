@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6027589bc1cb5ae5a7e23ce2969e303d62151b96
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 4c0d6a2c30ed601808ad31f0be5325fc1b3858bb
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679871"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723794"
 ---
 # <a name="connect-from-microsoft-power-apps-to-dynamics-ax"></a>Microsoft Power Apps에서 Dynamics AX로 연결
 ![Dynamics AX Online](./media/connection-dynamicsax/dynamics-ax.png)
@@ -33,7 +33,7 @@ ms.locfileid: "74679871"
 
 Dynamics AX에서 기존 앱에 데이터를 추가하는 방법에 대 한 자세한 내용은 [데이터 연결 추가](../add-data-connection.md)를 참조하세요.
 
-[사용 가능한 연결 목록](../connections-list.md)을 참조하고 PowerApps에서 [연결 관리](../add-manage-connections.md) 방법을 알아보세요.
+[사용 가능한 연결 목록을](../connections-list.md)참조 하 고 Power Apps에서 [연결을 관리](../add-manage-connections.md) 하는 방법을 알아봅니다.
 
 ### <a name="next-steps"></a>다음 단계
 * [데이터 원본에서 데이터 표시](../add-gallery.md) 방법 알아보기

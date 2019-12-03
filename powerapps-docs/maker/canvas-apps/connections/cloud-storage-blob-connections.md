@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d2da924310d07869972e8d0a9a4b26649d6a56b8
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: dd5135aa04a552fc5606918a8158b40457a6eb6f
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679963"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724023"
 ---
-# <a name="connect-to-cloud-storage-from-powerapps"></a>PowerApps에서 클라우드 스토리지에 연결
+# <a name="connect-to-cloud-storage-from-power-apps"></a>Power Apps에서 클라우드 저장소에 연결
 Power Apps는 여러 클라우드 저장소 연결을 제공 합니다. 이러한 연결을 사용하여 Excel 파일을 저장하고 앱 전체에서 해당 정보를 사용할 수 있습니다. 이러한 연결 항목은 다음과 같습니다.  
 
 | **Azure Blob** | **Box** | **Dropbox** | **Google 드라이브** | **OneDrive** | **비즈니스용 <br>OneDrive** |

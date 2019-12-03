@@ -1,6 +1,6 @@
 ---
 title: Concurrent 함수 | Microsoft Docs
-description: PowerApps에서 Concurrent 함수에 대한 구문을 포함한 참조 정보
+description: Power Apps의 동시 기능에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0f2f51596e8973bf41e26e4ed56df9f1c6e34844
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: e6e2aa2e46625d14a197dc43206bcaac4f31efe1
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680308"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731280"
 ---
-# <a name="concurrent-function-in-powerapps"></a>PowerApps의 Concurrent 함수
+# <a name="concurrent-function-in-power-apps"></a>Power Apps의 동시 기능
 동시에 서로 여러 수식을 평가합니다.
 
 ## <a name="description"></a>설명

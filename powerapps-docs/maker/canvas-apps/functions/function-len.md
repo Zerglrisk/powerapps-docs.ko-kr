@@ -1,6 +1,6 @@
 ---
 title: Len 함수 | Microsoft Docs
-description: PowerApps에서 Len 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Len 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 967d83286cd179177cfbb5558f1fc3484a332875
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 07b706d9cc0a61e204669646734cdcaf7fc50946
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984600"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730645"
 ---
-# <a name="len-function-in-powerapps"></a>PowerApps의 Len 함수
+# <a name="len-function-in-power-apps"></a>Power Apps의 Len 함수
 텍스트 문자열의 길이를 반환합니다.
 
 ## <a name="description"></a>설명
@@ -31,7 +31,7 @@ ms.locfileid: "71984600"
 ## <a name="syntax"></a>구문
 **Len**( *String* )
 
-* *String* - 필수 항목이며, 측정할 문자열입니다.
+* *String* - 필수 항목입니다. 측정할 문자열입니다.
 
 **Len**( *SingleColumnTable* )
 

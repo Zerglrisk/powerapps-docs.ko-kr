@@ -1,6 +1,6 @@
 ---
 title: Abs, Exp, Ln, Power 및 Sqrt 함수 | Microsoft Docs
-description: PowerApps에서 Abs, Sqrt 및 기타 함수에 대한 구문과 예제를 포함한 참조 정보
+description: 파워 앱의 Abs, Sqrt 및 기타 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6e559f482c8ad151eb04057f3178b141150acc7d
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 925297a8e1a3f4c454cb8bbb09f75a87419cf5cb
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984414"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730474"
 ---
-# <a name="abs-exp-ln-power-and-sqrt-functions-in-powerapps"></a>Microsoft PowerApps의 Abs, Exp, Ln, Power 및 Sqrt 함수
+# <a name="abs-exp-ln-power-and-sqrt-functions-in-power-apps"></a>Power Apps의 Abs, Exp, Ln, Power 및 Sqrt 함수
 절대 값, 자연 로그, 제곱근 및 *e* 또는 지정된 숫자로 거듭제곱했을 때 결과를 계산합니다.
 
 ## <a name="description"></a>설명

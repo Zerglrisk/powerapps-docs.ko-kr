@@ -1,6 +1,6 @@
 ---
 title: DataSourceInfo 함수 | Microsoft Docs
-description: PowerApps의 DataSourceInfo 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 DataSourceInfo 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 33a119e1e023ed8a28bdabe9ac5caba0723476df
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 559549a1221ed5e6d5c683a5a3cbaf0f2e9960ed
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985326"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731265"
 ---
-# <a name="datasourceinfo-function-in-powerapps"></a>PowerApps의 DataSourceInfo 함수
+# <a name="datasourceinfo-function-in-power-apps"></a>Power Apps의 DataSourceInfo 함수
 [데이터 원본](../working-with-data-sources.md)에 대한 정보를 제공합니다.
 
 ## <a name="overview"></a>개요
@@ -60,12 +60,12 @@ ms.locfileid: "71985326"
 ## <a name="syntax"></a>구문
 **DataSourceInfo**( *DataSource*, *Information*, *ColumnName* )
 
-* *DataSource* – 필수 항목입니다. 사용할 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 사용할 데이터 원본입니다.
 * *Information* – 필수 항목입니다. 검색할 정보 유형입니다.
 * *ColumnName* – 선택 항목입니다. 열 수준 정보의 경우 열 이름은 문자열 형식입니다. **Phone** 열은 큰따옴표를 포함하여 **"Phone"** 으로 전달됩니다. 데이터 원본 레벨에 대한 정보는 *ColumnName* 인수를 사용할 수 없습니다.
   
     > [!NOTE]
-  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어 **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 이 섹션의 예제에서는 **IceCream**이라는 데이터 원본을 사용합니다.

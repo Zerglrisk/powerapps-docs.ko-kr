@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5eb7bac0197856988f344ae2779bf2b43d1f797f
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 503ab33c2c31854bb39baa8d523dda41f085ae2a
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679986"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724387"
 ---
-# <a name="manage-canvas-app-connections-in-powerapps"></a>PowerApps에서 캔버스 앱 연결 관리
+# <a name="manage-canvas-app-connections-in-power-apps"></a>Power Apps에서 캔버스-앱 연결 관리
 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 또는 해당 자격 증명을 업데이트합니다.
 
 캔버스 앱의 데이터 연결은 SharePoint, SQL Server, Office 365, 비즈니스용 OneDrive, Salesforce, Excel 및 기타 [데이터 원본](connections-list.md)에 연결할 수 있습니다.
@@ -35,7 +35,7 @@ ms.locfileid: "74679986"
 * Twilio에 연결하고 사용자 앱에서 SMS 메시지를 보냅니다.
 
 ## <a name="prerequisites"></a>필수 조건
-1. PowerApps에 [등록](../signup-for-powerapps.md)합니다.
+1. Power Apps에 [등록](../signup-for-powerapps.md) 합니다.
 2. 등록 시 사용한 동일한 자격 증명을 사용하여 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 ## <a name="background-on-data-connections"></a>데이터 연결에 대한 배경

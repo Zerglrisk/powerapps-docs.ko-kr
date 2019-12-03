@@ -1,6 +1,6 @@
 ---
 title: Choices 함수 | Microsoft Docs
-description: PowerApps에서 Choices 함수에 대한 구문을 포함한 참조 정보
+description: Power Apps의 선택 기능에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7adf3391ef418a2b42861df63bc8396adc22f93a
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 2ebe6b2019652b1f2e59419c718136aced81c62e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74679457"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731400"
 ---
-# <a name="choices-function-in-powerapps"></a>PowerApps의 Choices 함수
+# <a name="choices-function-in-power-apps"></a>Power Apps의 선택 기능
 조회 열에 대해 가능한 값의 테이블을 반환합니다.
 
 ## <a name="description"></a>설명

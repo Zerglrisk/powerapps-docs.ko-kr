@@ -1,6 +1,6 @@
 ---
 title: Language 함수 | Microsoft Docs
-description: PowerApps에서 Language 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 언어 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 33dcc3ab5e1682783c997adf4dd1185d59b0db2b
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: a7e41f9becc6cf974bffdeca127e549191ee9379
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678330"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730678"
 ---
-# <a name="language-function-in-powerapps"></a>PowerApps의 Language 함수
+# <a name="language-function-in-power-apps"></a>Power Apps의 언어 함수
 현재 사용자의 언어 태그를 반환합니다.
 
 ## <a name="description"></a>설명

@@ -1,6 +1,6 @@
 ---
 title: Value 함수 | Microsoft Docs
-description: PowerApps에서 Value 함수에 대한 구문을 포함한 참조 정보
+description: Power Apps의 Value 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: de9cf7aa2c01b25f17aa6be7ce1f95871c3ab118
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: ec168ce00fff1abdb624a8decc1c5d44ec7bd61c
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71983381"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729780"
 ---
-# <a name="value-function-in-powerapps"></a>PowerApps의 Value 함수
+# <a name="value-function-in-power-apps"></a>Power Apps의 Value 함수
 텍스트의 문자열을 숫자로 변환합니다.
 
 ## <a name="description"></a>설명
@@ -41,7 +41,7 @@ ms.locfileid: "71983381"
 ## <a name="syntax"></a>구문
 **Value**( *String* [, *LanguageTag* ] )
 
-* *String* - 필수 항목이며, 숫자 값으로 변환할 문자열입니다.
+* *String* - 필수 항목입니다. 숫자 값으로 변환할 문자열입니다.
 * *LanguageTag* - 선택 항목입니다.  문자열을 구문 분석하는 언어 태그입니다.  지정되지 않은 경우 현재 사용자의 언어를 사용합니다.
 
 ## <a name="examples"></a>예

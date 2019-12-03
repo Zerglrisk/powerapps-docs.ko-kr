@@ -1,6 +1,6 @@
 ---
 title: 샘플 앱 사용 | Microsoft Docs
-description: PowerApps에서 샘플 기반 캔버스 앱을 만들기 위한 단계별 지침
+description: Power Apps의 샘플을 기반으로 캔버스 앱을 만드는 단계별 지침
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e6ebc516c6b07f149e2b965b967966c3832476c9
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 853edb00d0325e287ff69149e1d807ff2529b915
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675494"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732802"
 ---
-# <a name="create-a-canvas-app-from-a-sample-in-powerapps"></a>PowerApps의 샘플에서 캔버스 앱 만들기
+# <a name="create-a-canvas-app-from-a-sample-in-power-apps"></a>Power Apps의 샘플에서 캔버스 앱 만들기
 이 빠른 시작에서 디자인 가능성을 알아보고 사용자 고유의 캔버스 앱을 개발할 때 적용할 수 있는 개념을 검색할 수 있도록 샘플에서 캔버스 앱을 만듭니다.
 
 각 샘플은 실제 업무 시나리오를 보여주지만 가상 데이터를 사용합니다. 이 데이터를 저장하기 위해 Dropbox, Google Drive 또는 OneDrive와 같은 클라우드 스토리지 계정이 필요합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "74675494"
 Power Apps에 대 한 라이선스가 없는 경우 [무료로 등록할](../signup-for-powerapps.md)수 있습니다.
 
 ## <a name="open-a-sample-app"></a>샘플 앱 열기
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 합니다.
 
 1. 샘플 앱 목록에서 샘플 앱(예: **비용 계산기**)을 마우스로 가리킵니다.
 
@@ -52,7 +52,7 @@ Power Apps에 대 한 라이선스가 없는 경우 [무료로 등록할](../sig
     - 평 수, 주소 등의 정보를 캡처하고 할인 및 세율에 따라 가격을 계산합니다.
     - 약속 목록을 필터링하여 견적이 작성된 경우, 견적이 작성되지 않은 경우 또는 모든 약속을 표시합니다.
     
-1. 앱 탐색을 완료하면 Esc 키를 누르거나 PowerApps의 제목 표시줄 아래에서 오른쪽 위 모서리의 닫기 아이콘을 클릭하거나 탭하여 미리 보기 모드를 닫습니다.
+1. 앱 탐색을 마치면 Esc 키를 눌러 (또는 Power Apps의 제목 표시줄 아래에서 오른쪽 위 모서리의 닫기 아이콘을 클릭 하거나 탭 하 여) 미리 보기 모드를 닫습니다.
 
 ## <a name="save-the-app"></a>앱 저장
 1. 왼쪽 위 모서리에서 **파일** 탭을 클릭하거나 탭합니다.

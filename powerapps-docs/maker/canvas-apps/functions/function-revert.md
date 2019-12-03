@@ -1,6 +1,6 @@
 ---
 title: Revert 함수 | Microsoft Docs
-description: PowerApps의 Revert 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Revert 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dbf1c623b18bc244e62fd962625f1d7cde35f1e4
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: efaffeac79c104d517d8e7da5b2e324fcac3eecb
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992440"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730336"
 ---
-# <a name="revert-function-in-powerapps"></a>PowerApps의 Revert 함수
+# <a name="revert-function-in-power-apps"></a>Power Apps에서 함수 되돌리기
 [데이터 원본](../working-with-data-sources.md)의 [레코드](../working-with-tables.md#records)를 새로 고치고 오류를 지웁니다.
 
 ## <a name="description"></a>설명
@@ -35,7 +35,7 @@ ms.locfileid: "71992440"
 ## <a name="syntax"></a>구문
 **Revert**( *DataSource* [, *Record* ] )
 
-* *DataSource* – 필수 항목입니다. 되돌릴 데이터 원본입니다.
+* *DataSource* – 필수 항목이며, 되돌릴 데이터 원본입니다.
 * *Record* - 선택 항목입니다.  되돌릴 레코드입니다.  레코드를 지정하지 않으면 전체 데이터 원본이 되돌려집니다.
 
 ## <a name="example"></a>예
@@ -46,13 +46,13 @@ ms.locfileid: "71992440"
 다른 디바이스의 사용자가 **Strawberry** 레코드의 **Quantity** 속성을 **400**으로 변경합니다.  같은 시간에 다른 변경을 모르는 상태에서 같은 레코드의 동일한 속성을 **500**으로 변경합니다.
 
 **[Patch](function-patch.md)** 함수를 사용하여 레코드를 업데이트합니다.<br>
-**Patch (IceCream, First (Filter (IceCream, 특색 = "Strawberry")), {Quantity: 500})**
+**Patch( IceCream, First( Filter( IceCream, Flavor = "Strawberry" ) ), { Quantity: 500 } )**
 
 **[Errors](function-errors.md)** 테이블을 확인하고 오류를 찾습니다.
 
 | 레코드 | [열](../working-with-tables.md#columns) | 메시지 | 오류 |
 | --- | --- | --- | --- |
-| **{ID: 1, 버전: "Strawberry", 수량: 300}** |*공백* |**"수정하려는 레코드를 다른 사용자가 수정했습니다.  레코드를 되돌린 후 다시 시도하십시오."** |**ErrorKind.Conflict** |
+| **{ ID: 1, Flavor: "Strawberry", Quantity: 300 }** |*공백* |**"수정 하려는 레코드를 다른 사용자가 수정 했습니다.  레코드를 되돌린 후 다시 시도 하십시오. "** |**ErrorKind.Conflict** |
 
 **오류** 열에 따라 **[OnSelect](../controls/properties-core.md)** 속성이 다음 수식으로 설정된 **다시 설정** 단추가 있습니다.<br>
 **Revert( IceCream, First( Filter( IceCream, Flavor = "Strawberry" ) ) )**

@@ -1,6 +1,6 @@
 ---
 title: First, FirstN, Last 및 LastN 함수 | Microsoft Docs
-description: PowerApps의 First, FirstN, Last 및 LastN 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 First, FirstN, Last 및 LastN 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 48e8311d5da00b02cbefbf6f47661c89adcc80a5
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 490bc00deb41cdc58919cf5f42302ef46dd405f7
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992728"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730963"
 ---
-# <a name="first-firstn-last-and-lastn-functions-in-powerapps"></a>PowerApps의 First, FirstN, Last 및 LastN 함수
+# <a name="first-firstn-last-and-lastn-functions-in-power-apps"></a>Power Apps의 First, FirstN, Last 및 LastN 함수
 테이블의 첫 번째 또는 마지막 [레코드](../working-with-tables.md#records) 집합을 반환합니다.
 
 ## <a name="description"></a>설명

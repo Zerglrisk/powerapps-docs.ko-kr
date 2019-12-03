@@ -1,6 +1,6 @@
 ---
 title: 연산자 | Microsoft Docs
-description: PowerApps의 연산자에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 연산자에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8c44db7094425366822d7924b771070d9e9a5ec5
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 8b1c1e5a4a65e4e6fcc90ca809a271f0fb94286a
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676627"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732221"
 ---
-# <a name="operators-in-powerapps"></a>PowerApps의 연산자
+# <a name="operators-in-power-apps"></a>Power Apps의 운영자
 
 일부 연산자는 제작자의 언어에 따라 달라집니다.  자세한 내용은 [글로벌 앱](../global-apps.md)을 참조하세요.
 

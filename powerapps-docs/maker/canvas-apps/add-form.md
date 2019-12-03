@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ed7493dcc9c2ef5f0b84052a11dbadb0947af38e
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 37b7117f599c29f886da3cafeb158db145ad1364
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994126"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74724902"
 ---
 # <a name="show-edit-or-add-a-record-in-a-canvas-app"></a>Canvas 앱에서 레코드 표시, 편집 또는 추가
 
@@ -26,7 +26,7 @@ Canvas 앱에서 **[표시](controls/control-form-detail.md)** 양식 컨트롤�
 
 ## <a name="prerequisites"></a>필수 조건
 
-- PowerApps에서 [컨트롤을 추가하고 구성](add-configure-controls.md)하는 방법을 알아봅니다.
+- Power Apps에서 [컨트롤을 추가 하 고 구성](add-configure-controls.md) 하는 방법에 대해 알아봅니다.
 - 이 자습서에 대한 샘플 데이터를 포함하는 [이 Excel 파일](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx)을 다운로드합니다.
 - Excel 파일을 비즈니스용 OneDrive와 같은 [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 업로드합니다.
 - 휴대폰에 대 한 앱을 만들거나 열고 Excel 파일의 **FlooringEstimates** 테이블에 대 한 [연결을 추가](add-data-connection.md) 합니다.

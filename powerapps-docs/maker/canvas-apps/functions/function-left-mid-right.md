@@ -1,6 +1,6 @@
 ---
 title: Left, Mid 및 Right 함수 | Microsoft Docs
-description: PowerApps의 Left, Mid 및 Right 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+description: Power Apps의 Left, Mid 및 Right 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 81220ab8df16dcea74dbdc9db48e692e379e1b4d
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 182731aaeb82b17e6040c4246f31f7fccc22f923
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992597"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730658"
 ---
-# <a name="left-mid-and-right-functions-in-powerapps"></a>PowerApps의 Left, Mid 및 Right 함수
+# <a name="left-mid-and-right-functions-in-power-apps"></a>Power Apps의 Left, Mid 및 Right 함수
 텍스트 문자열의 왼쪽, 가운데 또는 오른쪽 부분을 추출합니다.
 
 ## <a name="description"></a>설명
@@ -37,7 +37,7 @@ ms.locfileid: "71992597"
 ## <a name="syntax"></a>구문
 **Left**( *String*, *NumberOfCharacters* )<br>**Mid**( *String*, *StartingPosition*, *NumberOfCharacters* )<br>**Right**( *String*, *NumberOfCharacters* )
 
-* *String* - 필수 항목이며, 결과를 추출할 문자열입니다.
+* *String* - 필수 항목입니다. 결과를 추출할 문자열입니다.
 * *StartingPosition* - 필수 항목(**Mid** 전용)이며,  시작 위치입니다.  문자열의 첫 번째 문자는 위치 1입니다.
 * *Numberofcharacters* -필수 (**왼쪽** 및 **오른쪽** 만)입니다.  반환할 문자 수입니다.  **Mid** 함수에서 생략 된 경우 함수는 문자열의 끝까지 시작 위치에서 부분을 반환 합니다.
 
@@ -53,7 +53,7 @@ ms.locfileid: "71992597"
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **Left( Author.Text, 5 )** |문자열의 시작 부분에서 최대 5개 문자를 추출합니다. |"E. E." |
+| **Left( Author.Text, 5 )** |문자열의 시작 부분에서 최대 5개 문자를 추출합니다. |“E. E." |
 | **Mid( Author.Text, 7, 4 )** |문자열에서 7번째 문자부터 최대 4개 문자를 추출합니다. |"Cumm" |
 | **중간 (만든이, 텍스트 7)** |문자열에서 일곱 번째 문자부터 시작 하 여 모든 문자를 추출 합니다. |"Cummings" |
 | **Right( Author.Text, 5 )** |문자열의 끝 부분에서 최대 5개 문자를 추출합니다. |"mings" |

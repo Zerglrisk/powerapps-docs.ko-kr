@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ff3e2db1c0d02fda91215ae0e5cc6dd4ae712dd9
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 861d343e653a78af685a1e0cb82deb5b2ad59591
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675115"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732563"
 ---
 # <a name="overview-of-the-email-screen-template-for-canvas-apps"></a>Canvas 앱에 대 한 전자 메일 화면 템플릿 개요
 
@@ -36,7 +36,7 @@ Canvas 앱에서 사용자가 Office 365 Outlook 계정에서 전자 메일을 �
 
 ## <a name="prerequisite"></a>필수 조건
 
-[PowerApps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
+[Power Apps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
 
 ## <a name="default-functionality"></a>기본 기능
 
@@ -163,5 +163,5 @@ Canvas 앱에서 사용자가 Office 365 Outlook 계정에서 전자 메일을 �
 ## <a name="next-steps"></a>다음 단계
 
 * [이 화면에 대 한 참조 설명서를 봅니다](./email-screen-reference.md).
-* [PowerApps의 Office 365 사용자 커넥터에 대해 자세히 알아보세요](../connections/connection-office365-users.md).
-* [PowerApps에서 사용 가능한 모든 연결을 참조](../connections-list.md)하세요.
+* [Power Apps의 Office 365 사용자 커넥터에 대해 자세히 알아보세요](../connections/connection-office365-users.md).
+* [Power Apps에서 사용 가능한 모든 연결을 참조](../connections-list.md)하세요.

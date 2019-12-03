@@ -1,6 +1,6 @@
 ---
 title: GroupBy 및 Ungroup 함수 | Microsoft Docs
-description: PowerApps의 GroupBy 및 Ungroup 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 GroupBy 및 그룹 해제 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c5b5ddf05201743a5ea4848793fcd05aea7def24
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 47a71ab36d67cd3b6862b7d3fe6503b9053108c8
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680170"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730919"
 ---
-# <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
+# <a name="groupby-and-ungroup-functions-in-power-apps"></a>Power Apps의 GroupBy 및 그룹 해제 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.
 
 ## <a name="description"></a>설명

@@ -1,6 +1,6 @@
 ---
 title: Collect, Clear 및 ClearCollect 함수 | Microsoft Docs
-description: PowerApps의 Collect, Clear 및 ClearCollect 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 Collect, Clear, ClearCollect 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 02a69fd7844de8965607cd828c6b3e17437ce34f
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 6c4d9362819790d60faaf68173c119f67b895fb9
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678399"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731362"
 ---
-# <a name="collect-clear-and-clearcollect-functions-in-powerapps"></a>PowerApps의 Collect, Clear 및 ClearCollect 함수
+# <a name="collect-clear-and-clearcollect-functions-in-power-apps"></a>Power Apps에서 함수 수집, 지우기 및 지우기
 
 [컬렉션](../working-with-data-sources.md#collections)을 만들고 지우고 [데이터 원본](../working-with-data-sources.md)에 [레코드](../working-with-tables.md#records)를 추가합니다.
 

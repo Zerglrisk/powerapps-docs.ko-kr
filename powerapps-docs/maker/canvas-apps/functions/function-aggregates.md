@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4f25888cebb81b0b18b1dd54faecfa87df4eb1d6
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 7ff5e8440295f97268127cdc8a2d5646d5b676fa
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678445"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731437"
 ---
-# <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum 및 VarP 함수
+# <a name="average-max-min-stdevp-sum-and-varp-functions-in-power-apps"></a>Power Apps의 Average, Max, Min, StdevP, Sum 및 VarP 함수
 일련의 숫자를 요약하는 집계 함수입니다.
 
 ## <a name="description"></a>설명

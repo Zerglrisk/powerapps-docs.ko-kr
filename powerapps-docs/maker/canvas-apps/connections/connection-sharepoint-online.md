@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5c099f68c7dd8833b2ee494ff83cbbdb2c88b923
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 0c0f4744e7b323e3262a63278e7c12348142a99b
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678767"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74727715"
 ---
 # <a name="connect-to-sharepoint-from-a-canvas-app"></a>캔버스 앱에서 SharePoint에 연결
 
@@ -40,7 +40,7 @@ SharePoint 사이트에 연결 하 여 사용자 지정 목록에서 자동으�
 
 ## <a name="create-a-connection"></a>연결 만들기
 
-1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하 고, 왼쪽 탐색 모음에서 **데이터** > **연결** 을 선택한 다음, 왼쪽 위 모서리 근처에 있는 **새 연결** 을 선택 합니다.
+1. [파워 앱에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하 고, 왼쪽 탐색 모음에서 **데이터** > **연결** 을 선택한 다음, 왼쪽 위 모서리 근처에서 **새 연결** 을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 왼쪽 탐색 모음에서 데이터 > 연결 ![선택 하 고 왼쪽 위 모서리 근처에서 새 연결을 선택 합니다.](./media/connection-sharepoint-online/new-connection.png)

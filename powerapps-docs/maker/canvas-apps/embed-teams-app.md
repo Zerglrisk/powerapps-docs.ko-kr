@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0b8750733ac6c97d1669c1063700a3d075fbabbe
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: a12cd7c17a6aca93f254cc2e2cb89cb848245392
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678491"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731521"
 ---
 # <a name="embed-an-app-in-teams"></a>Teams에 앱 포함
 
@@ -32,7 +32,7 @@ Microsoft 팀에 직접 포함 하 여 만든 강력한 앱을 공유할 수 있
 ## <a name="prerequisites"></a>필수 조건
 
 - 유효한 [Power Apps 라이선스가](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus)필요 합니다.
-- 팀에 앱을 포함 하려면 [PowerApps를 사용 하 여 만든](data-platform-create-app.md)기존 앱이 필요 합니다.
+- 팀에 앱을 포함 하려면 [Power Apps를 사용 하 여 만든](data-platform-create-app.md)기존 앱이 필요 합니다.
 
 ## <a name="download-the-app"></a>앱 다운로드
 

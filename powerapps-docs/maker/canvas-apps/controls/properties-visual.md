@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a28ce0103157ae877fa8f21d156998e8ea6c684c
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: d9080ddeb1499d2608137aa07287b5b8b9c8cb5d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985857"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731852"
 ---
-# <a name="image-properties-in-powerapps"></a>PowerApps의 이미지 속성
+# <a name="image-properties-in-power-apps"></a>Power Apps의 이미지 속성
 이미지, 사진 및 펜 컨트롤의 요소를 포함하여 앱에서 그래픽 요소를 구성합니다.
 
 **BackgroundImage** – 화면의 배경에 나타나는 이미지 파일의 이름입니다.

@@ -1,6 +1,6 @@
 ---
 title: 온-프레미스 데이터 게이트웨이 | Microsoft Docs
-description: 이 문서는 PowerApps 용 온-프레미스 데이터 게이트웨이에 대 한 개요입니다.
+description: 이 문서는 Power Apps에 대 한 온-프레미스 데이터 게이트웨이에 대 한 개요입니다.
 author: arthiriyer
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 879fc0df86f05191941c6ff6b3b6403fe34fecea
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 4dc5afc49ba1ee38889d0eb6d86bf1cde6687135
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676565"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732200"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>온-프레미스 데이터 게이트웨이 란 무엇 인가요?
 

@@ -1,6 +1,6 @@
 ---
 title: 가속, 앱, 나침반, 연결 및 위치 신호 | Microsoft Docs
-description: PowerApps의 가속, 앱, 나침반, 연결 및 위치 센서 등, 구문 및 예제를 포함한 참조 정보
+description: Power Apps의 가속, 앱, 나침반, 연결 및 위치 센서에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a06217470482eccdf368279eaabcd297bbf73ce5
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 9cd0470d6911452b38040531ec17060b3bc69fa0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71983358"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729576"
 ---
-# <a name="acceleration-app-compass-connection-and-location-signals-in-powerapps"></a>PowerApps의 가속, 앱, 나침반, 연결 및 위치 신호
+# <a name="acceleration-app-compass-connection-and-location-signals-in-power-apps"></a>Power Apps의 가속, 앱, 나침반, 연결 및 위치 신호
 
 전 세계에서 사용자의 위치, 표시할 화면 등과 같이 앱 환경 관련 정보를 반환합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "71983358"
 | --- | --- |
 | **App.ActiveScreen** |표시 되는 화면입니다. 화면의 속성을 참조 하거나 다른 화면을 비교 하 여 표시할 화면을 결정 하는 데 사용할 수 있는 화면 개체를 반환 합니다. **[뒤로](function-navigate.md)** 또는 **[탐색](function-navigate.md)** 함수를 사용 하 여 표시 되는 화면을 변경할 수 있습니다. |
 
-자세한 정보: [ **앱** 개체](object-app.md) 설명서입니다.
+추가 정보: [ **앱** 개체](object-app.md) 설명서.
 
 ### <a name="compass"></a>Compass
 **나침반** 신호는 화면 맨 위의 나침반 방향을 반환합니다. 방향은 자기장의 북쪽을 기준으로 합니다.
@@ -60,7 +60,7 @@ ms.locfileid: "71983358"
 | --- | --- |
 | **Compass.Heading** |각도 단위의 방향입니다.  숫자 0~360을 반환하고 0이 북쪽입니다. |
 
-### <a name="connection"></a>연결
+### <a name="connection"></a>Connection
 **연결** 신호는 네트워크 연결 관련 정보를 반환합니다. 측정되는 연결에서 네트워크를 통해 보내거나 받는 데이터 크기를 제한하려 할 수 있습니다.
 
 | 속성 | 설명 |
@@ -93,7 +93,7 @@ ms.locfileid: "71983358"
 | **Acceleration.X** |디바이스의 측면 방향 가속도를 반환합니다. 투수가 화면 맨위에 대해 직선 방향으로 휴대전화를 던지므로 디바이스에는 측면 방향 가속도가 없습니다. |0 |
 | **Acceleration.Y** |디바이스의 전후 방향 가속도를 반환합니다. 투수가 처음에 디바이스를 던질 때는 디바이스에 높은 가속도가 부여되며 0.5초 안에 시간당 0에서 90마일(초당 132피트)로 가속됩니다. 디바이스가 공중에 오른 뒤 공기 마찰을 무시하고 디바이스는 더 이상 가속되지 않습니다. 포수가 디바이스를 잡을 때 디바이스가 가속이 줄어 멈추게 됩니다. |투수가 디바이스를 던지는 동안 8.2<br><br>디바이스가 공중에 있을 때 0<br><br>포수가 디바이스를 잡을 때 -8.2 |
 | **Acceleration.Z** |디바이스의 상하 방향 가속도를 반환합니다. 공중에 있는 동안 디바이스는 중력의 영향을 받습니다. |투수가 디바이스를 던지기 전 0<br><br>디바이스가 공중에 있을 때 1<br><br>포수가 디바이스를 잡은 후 0 |
-| **Acceleration** |가속을 레코드로 반환합니다. |.X 0, Y: 264, Z: 0} 컵이 장치를 throw 합니다. |
+| **Acceleration** |가속을 레코드로 반환합니다. |투수가 디바이스를 던질 때 { X: 0, Y: 264, Z: 0} |
 | **Connection.Connected** |디바이스의 네트워크 연결 여부를 표시하는 부울 값을 반환합니다. |**true** |
 | **Connection.Metered** |연결의 측정 여부를 표시하는 부울 값을 반환합니다. |**true** |
 | **App.ActiveScreen = PlayBall** |**PlayBall** 표시 여부를 표시하는 부울 값을 반환합니다. |**true** |

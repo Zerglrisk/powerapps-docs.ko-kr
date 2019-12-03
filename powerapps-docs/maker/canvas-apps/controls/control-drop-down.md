@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 53e78383733af1b5fdb71f5649d342f07605340e
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: cc9b12f6cf899d0a57e56eda9fe0dd4bc5ba6c2e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650566"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74723129"
 ---
-# <a name="drop-down-control-in-powerapps"></a>PowerApps의 드롭다운 컨트롤
+# <a name="drop-down-control-in-power-apps"></a>Power Apps의 드롭다운 컨트롤
 사용자가 열지 않는 한 첫 번째 항목만 표시하는 목록입니다.
 
 ## <a name="description"></a>설명

@@ -1,6 +1,6 @@
 ---
 title: GUID 함수 | Microsoft Docs
-description: PowerApps에서 GUID 함수에 대한 구문을 포함한 참조 정보
+description: Power Apps에서 GUID 함수에 대 한 구문을 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ea2668ca295d807bbc19f71c9aa9f477c3b96041
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 88028d2dc4016d294e051ecff66b590996b57966
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992667"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730859"
 ---
-# <a name="guid-function-in-powerapps"></a>PowerApps의 GUID 함수
+# <a name="guid-function-in-power-apps"></a>Power Apps의 GUID 함수
 GUID([전역적으로 고유 식별자](https://en.wikipedia.org/wiki/Universally_unique_identifier)) 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.
 
 ## <a name="description"></a>설명
@@ -69,7 +69,7 @@ GUID 값을 문자열로 변환하려면 문자열 컨텍스트에서 사용합�
 
 컨텍스트에서 사용하여 새 데이터베이스 레코드의 **상태** 필드를 잘 설정된 값으로 설정합니다.
 
-* **Patch (제품, 기본 (제품), {상태: GUID ("F9168C5E-CEB2-4faa-B6BF-329BF39FA1E4")})**
+* **패치( 제품, 기본값( 제품 ), { Status: GUID( "F9168C5E-CEB2-4faa-B6BF-329BF39FA1E4" ) } )**
 
 사용자에게 GUID를 표시하지 않을 수도 있지만 GUID를 사용하면 응용 프로그램을 디버그하는 데 도움이 될 수 있습니다. 이전 예에서 만든 레코드에서 **상태** 필드 값을 표시하려면 **레이블** 컨트롤의 **텍스트** 속성을 다음 수식으로 설정합니다.
 

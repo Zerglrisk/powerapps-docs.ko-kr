@@ -1,6 +1,6 @@
 ---
 title: Canvas 앱에 대 한 전자 메일 화면 템플릿에 대 한 참조 | Microsoft Docs
-description: PowerApps에서 캔버스 앱에 대 한 전자 메일 화면 템플릿이 작동 하는 방법에 대 한 세부 정보 이해
+description: Power Apps에서 캔버스 앱에 대 한 전자 메일 화면 템플릿이 작동 하는 방법에 대 한 세부 정보 이해
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7226433c5e95537346841f2e2f9474ea68e42dda
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: f173b4898df8853ef31d1660af6efe9298f838b0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74675079"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74732615"
 ---
 # <a name="reference-information-about-the-email-screen-template-for-canvas-apps"></a>Canvas 앱에 대 한 전자 메일 화면 템플릿에 대 한 참조 정보
 
@@ -34,7 +34,7 @@ Power Apps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
 
 ## <a name="prerequisite"></a>필수 조건
 
-[PowerApps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
+[Power Apps에서 앱을 만들](../data-platform-create-app-scratch.md)때 화면과 기타 컨트롤을 추가 하 고 구성 하는 방법을 잘 알고 있어야 합니다.
 
 ## <a name="text-search-box"></a>텍스트 검색 상자
 
@@ -203,5 +203,5 @@ Power Apps의 캔버스 앱의 경우 전자 메일 화면 템플릿의 각 주�
 ## <a name="next-steps"></a>다음 단계
 
 * [이 화면에 대 한 자세한 정보](./email-screen-overview.md)
-* [PowerApps의 Office 365 Outlook 커넥터에 대 한 자세한 정보](../connections/connection-office365-outlook.md)
-* [PowerApps의 Office 365 사용자 커넥터에 대 한 자세한 정보](../connections/connection-office365-users.md)
+* [Power Apps에서 Office 365 Outlook 커넥터에 대 한 자세한 정보](../connections/connection-office365-outlook.md)
+* [Power Apps의 Office 365 사용자 커넥터에 대 한 자세한 정보](../connections/connection-office365-users.md)

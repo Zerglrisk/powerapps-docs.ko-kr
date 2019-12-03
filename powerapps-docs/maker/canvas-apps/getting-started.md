@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 600e474117290c5f52793c1d9c3ec72aefc35783
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 543084f04e2c5456182a17f4f193c5cf722cbe27
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74676645"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729543"
 ---
 # <a name="what-are-canvas-apps-in-power-apps"></a>Power Apps의 캔버스 앱 이란 무엇 인가요?
 와 C#같은 기존 프로그래밍 언어로 코드를 작성 하지 않고 Microsoft Power Apps의 캔버스에서 비즈니스 앱을 디자인 하 고 빌드합니다. Powerpoint에서 슬라이드를 디자인하는 것처럼 캔버스에 요소를 끌어 놓아 앱을 설계합니다. 논리를 지정하고 데이터로 작업하기 위해 Excel 같은 식을 만듭니다. [다양한 Microsoft 및 타사 원본](connections-list.md)에서 비즈니스 데이터를 통합하는 앱을 빌드합니다. 사용자가 브라우저 또는 모바일 디바이스에서 앱을 실행하도록 앱을 공유하고 사용자가 SharePoint, Power BI 또는 Teams에서 앱을 실행할 수 있도록 앱을 포함합니다.
@@ -48,7 +48,7 @@ Windows, [웹 브라우저](../../user/run-app-browser.md) 또는 [iOS 또는 An
 
 ## <a name="learn-more"></a>자세한 정보
 * 왼쪽의 탐색 창에서 단계별 지침, 개념 및 참조 항목을 탐색합니다.
-* PowerApps의 특징과 기능을 활용하는 데 도움이 되는 주문형으로 액세스할 수 있는 [웨비나](webinars-listing.md)를 확인하세요.
+* 주문형으로 액세스할 수 있는 [웹 세미나](webinars-listing.md) 를 확인 하 여 Power Apps의 기능과 기능을 활용 하는 데 도움을 줍니다.
 * 앱 성능을 극대화 하 고 앱을 더 쉽게 유지 관리할 수 있도록 [코딩 표준을](https://aka.ms/powerappscanvasguidelines) 검토 합니다.
 
 ## <a name="share-your-experience"></a>사용자 경험 공유
@@ -58,5 +58,5 @@ Windows, [웹 브라우저](../../user/run-app-browser.md) 또는 [iOS 또는 An
 
 ## <a name="next-steps"></a>다음 단계
 - [무료 라이선스에 등록합니다.](../signup-for-powerapps.md)
-- [PowerApps에 로그인합니다.](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
+- [Power Apps에 로그인 합니다.](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)
 - [샘플 앱을 엽니다.](open-and-run-a-sample-app.md)

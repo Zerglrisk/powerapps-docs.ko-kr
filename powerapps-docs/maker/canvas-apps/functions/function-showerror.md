@@ -1,6 +1,6 @@
 ---
 title: ShowError 함수 | Microsoft Docs
-description: PowerApps의 ShowError 함수에 대한 구문과 예제를 포함한 참조 정보
+description: Power Apps의 ShowError 함수에 대 한 구문과 예제를 포함 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1a02a83e00b9f377f3882cb32c1e6b6606b5cc2a
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 02881fdf284a174f5118e7ee0ae185cca61578f8
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74678238"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74730172"
 ---
-# <a name="notify-function-in-powerapps"></a>PowerApps의 Notify 함수
+# <a name="notify-function-in-power-apps"></a>Power Apps에서 함수 알림
 사용자에게 배너 메시지를 표시합니다.
 
 ## <a name="description"></a>설명
@@ -41,7 +41,7 @@ ms.locfileid: "74678238"
 
 **Notify**는 [**IfError**](function-iferror.md) 함수와 쌍을 이루어 오류를 감지하고 사용자 지정 오류 메시지를 사용하여 오류를 보고할 수 있습니다.
 
-Power Apps **는 알림과 완전히**다른 메커니즘을 사용 하 여 푸시 알림을 보낼 수도 있습니다.  자세한 내용은 [PowerApps에서 알림 보내기](../add-notifications.md)를 참조하세요.
+Power Apps **는 알림과 완전히**다른 메커니즘을 사용 하 여 푸시 알림을 보낼 수도 있습니다.  자세한 내용은 [Power Apps에서 알림 보내기](../add-notifications.md)를 참조 하세요.
 
 **Notify**는 항상 *true*를 반환합니다.
 
