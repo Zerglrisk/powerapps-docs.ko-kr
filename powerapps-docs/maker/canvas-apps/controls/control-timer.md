@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 46b5cb0761027c7e39ac95619974d2c0187225a2
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 349365c84e9d59ea2edf3c61077e468ba16ab27e
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73649664"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679641"
 ---
 # <a name="timer-control-in-powerapps"></a>PowerApps의 타이머 컨트롤
 일정 시간이 지난 후 앱이 응답하는 방식을 결정할 수 있는 컨트롤입니다.
@@ -27,7 +27,7 @@ ms.locfileid: "73649664"
 타이머는 일정 시간이 지난 후 컨트롤이 표시되는 시간이나 컨트롤의 다른 속성 변경 등을 결정할 수 있습니다.
 
 > [!NOTE]
-> PowerApps Studio에서 타이머는 미리 보기 모드 에서만 실행 됩니다.
+> Power Apps Studio에서 타이머는 미리 보기 모드 에서만 실행 됩니다.
 
 
 ## <a name="key-properties"></a>주요 속성

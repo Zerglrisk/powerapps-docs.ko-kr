@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 91d3c43ee4cd5b640a4501fde8c5cc7c1fafab2a
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 2388df10fbc735f619497dc9b93dd049c8a46afa
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71983876"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680101"
 ---
 # <a name="table-function-in-powerapps"></a>PowerApps의 Table 함수
 임시 [테이블](../working-with-tables.md)을 만듭니다.
@@ -28,7 +28,7 @@ ms.locfileid: "71983876"
 
 테이블의 [열](../working-with-tables.md#columns)은 모든 인수 레코드의 모든 속성의 합집합입니다. 레코드에 값이 없는 열에는 *빈* 값이 추가됩니다.
 
-테이블은 문자열이나 숫자처럼 PowerApps의 값입니다. 테이블을 함수의 인수로 지정할 수 있으며 함수는 테이블을 결과로 반환할 수 있습니다. **Table**은 영구 테이블을 만들지 않습니다. 대신 인수로 이루어진 임시 테이블을 반환합니다.  이 임시 테이블을 다른 함수의 인수로 지정하거나 갤러리에서 시각화하거나 다른 테이블에 포함할 수 있습니다.  자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
+테이블은 문자열 또는 숫자와 마찬가지로 Power Apps의 값입니다. 테이블을 함수의 인수로 지정할 수 있으며 함수는 테이블을 결과로 반환할 수 있습니다. **Table**은 영구 테이블을 만들지 않습니다. 대신 인수로 이루어진 임시 테이블을 반환합니다.  이 임시 테이블을 다른 함수의 인수로 지정하거나 갤러리에서 시각화하거나 다른 테이블에 포함할 수 있습니다.  자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
 
 **[ value1, value2, ... ]** 구문을 사용하여 단일 열 테이블을 만들 수도 있습니다.
 

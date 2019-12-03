@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 48605d97a8b311f806ff3556474d9bc5f32260e1
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: dd23092f7fbe178dfe127f671e7364f5d97aaf38
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541095"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678836"
 ---
 # <a name="connect-to-dynamics-365-from-powerapps"></a>PowerApps에서 Dynamics 365 연결
-PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을 신속하게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.
+Power Apps를 사용 하면 코드를 거의 또는 전혀 사용 하지 않고 모바일 앱을 신속 하 게 생성, 사용자 지정, 공유 및 실행할 수 있습니다. Dynamics 365 커넥터를 사용하여 몇 분 만에 사용자의 조직과 공유할 수 있는 유용한 모바일 앱을 만들 수 있습니다.
 
 이 토픽의 단계에 따라 사용자가 Dynamics 365에 있는 연락처를 찾아 보고, 추가하며 삭제 및 업데이트할 수 있는 앱을 만듭니다. 사용자는 [브라우저](../../../user/run-app-browser.md) 또는 휴대폰과 같은 [모바일 디바이스](../../../user/run-app-client.md)에서 앱을 실행할 수 있습니다.
 
@@ -52,14 +52,14 @@ PowerApps를 사용하면 약간의 코드 또는 전혀 없이 모바일 앱을
     ![새 앱](./media/connection-dynamics-crmonline/new-app.png)
 2. **데이터를 통해 시작**에서 **Dynamics 365** 타일의 **전화 레이아웃**을 클릭합니다.
    
-    ![PowerApps는 Dynamics 365 커넥터를 선택합니다.](./media/connection-dynamics-crmonline/phonelayout.png)
+    ![파워 앱 Dynamics 365 커넥터 선택](./media/connection-dynamics-crmonline/phonelayout.png)
 3. **연결**에서 원하는 연결을 선택한 다음, 앱에서 관리할 Dynamics 365의 인스턴스에 해당하는 데이터 세트를 선택합니다.
 4. **테이블 선택**에서 **연락처**를 클릭한 다음, **연결**합니다.
 5. 왼쪽 탐색 모음에서 오른쪽 위 모서리의 아이콘을 클릭하거나 탭하여 미리 보기로 전환합니다.
    
     ![보기 토글](./media/connection-dynamics-crmonline/toggle-view.png)
 
-PowerApps는 연락처 레코드에 따라 세 화면 앱을 생성합니다.
+Power Apps는 연락처 레코드를 기반으로 3 화면 앱을 생성 합니다.
 
 * **BrowseScreen1**. 이 화면은 사용자가 앱을 열 때 기본적으로 나타납니다. 왼쪽 탐색 모음에서 이 화면에 대한 미리 보기가 다른 두 화면 위에 나타납니다.
 * **DetailScreen1**. 이 화면은 사용자가 **BrowseScreen1**의 항목을 클릭할 때 나타납니다.  왼쪽 탐색 모음에서 **DetailScreen1**에 대한 미리 보기가 다른 두 화면 사이에 나타납니다.

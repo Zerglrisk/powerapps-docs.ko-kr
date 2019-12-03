@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7b6f1056a6d2b5ceaf1fcefe1ccc7d583470450c
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f2b401fb4054d63e19b1dcab29cbabf27cc3c117
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541710"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674618"
 ---
 # <a name="how-to-save-images-in-an-excel-file-and-then-add-these-images-to-your-app"></a>이미지를 Excel 파일에 저장한 다음 앱에 추가하는 방법
 
@@ -49,7 +49,7 @@ ms.locfileid: "73541710"
 3. Excel 파일의 이름을 **SavePen.xlsx**로 지정하고, 클라우드 스토리지 계정(비즈니스용 OneDrive, Dropbox 등)에 해당 파일을 저장합니다.
 
 ## <a name="create-an-app-with-the-pen-control"></a>펜 컨트롤이 있는 앱 만들기
-1. PowerApps에서 [빈 앱](get-started-create-from-blank.md)을 만듭니다.
+1. Power Apps에서 [빈 앱](get-started-create-from-blank.md)을 만듭니다.
 2. 앱에서 클라우드 스토리지 계정을 [데이터 원본](add-data-connection.md)으로 추가합니다. 데이터 원본으로 추가되면 **SavePen.xlsx**를 연결로 추가한 다음 **Drawings** 테이블을 선택합니다.  
    ![연결](./media/tutorial-working-with-images-in-excel/savepen.png)  
    
@@ -77,7 +77,7 @@ ms.locfileid: "73541710"
 이 예제에서는 일부 .jpeg 파일이 포함된 [CreateFirstApp.zip](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
 
 > [!NOTE]
-> Excel 파일의 이미지를 표시할 때 이러한 이미지에 대한 경로에는 슬래시를 사용해야 합니다. PowerApps에서 이미지를 Excel 테이블에 저장하면(이전 단계와 마찬가지로) 경로에는 백슬래시가 사용됩니다. 따라서 이전 예제의 **SavePen_images**를 사용할 수도 있습니다. 이 경우 Excel 테이블의 경로에서 백슬래시 대신 슬래시를 사용하도록 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
+> Excel 파일의 이미지를 표시할 때 이러한 이미지에 대한 경로에는 슬래시를 사용해야 합니다. Power Apps에서 이미지를 Excel 테이블에 저장 하는 경우 (이전 단계와 마찬가지로) 경로는 백슬래시를 사용 합니다. 따라서 이전 예제의 **SavePen_images**를 사용할 수도 있습니다. 이 경우 Excel 테이블의 경로에서 백슬래시 대신 슬래시를 사용하도록 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
 
 1. [CreateFirstApp.zip](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 스토리지 계정에 압축 해제합니다.
 2. Excel 스프레드시트에서 다음과 비슷한 테이블을 만듭니다.

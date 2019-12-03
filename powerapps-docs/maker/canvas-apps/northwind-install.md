@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dca5d5189129e7c9dfe32d27fb4c1190b830c039
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: fe1192adca08d1fbde82b4b49ded5f5ca6a409e0
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541330"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675789"
 ---
 # <a name="install-northwind-traders-database-and-apps"></a>Northwind Traders 데이터베이스 및 앱 설치
 
@@ -28,7 +28,7 @@ Northwind Traders는 주문, 제품, 고객, 공급 업체 및 소규모 기업�
 
 ## <a name="prerequisites"></a>필수 조건
 
-- Common Data Service를 지 원하는 PowerApps 라이선스입니다. 30 일 동안 [무료 평가판 라이선스를 사용할](../signup-for-powerapps.md) 수 있습니다.
+- Common Data Service를 지 원하는 Power Apps 라이선스 30 일 동안 [무료 평가판 라이선스를 사용할](../signup-for-powerapps.md) 수 있습니다.
 - Common Data Service 데이터베이스를 사용 하는 환경입니다. 적절 한 권한이 있는 경우 [이러한 환경을 만들](https://docs.microsoft.com/power-platform/admin/create-environment) 수 있습니다.
 
 ## <a name="download-the-solution"></a>솔루션 다운로드

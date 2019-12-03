@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에 목록 상자, 드롭다운 목록 또는 라디오 단추 추가 | Microsoft Docs
-description: PowerApps에서 캔버스 앱에 다중 선택 옵션 만들기 또는 구성
+description: Power Apps에서 캔버스 앱의 다중 선택 옵션을 만들거나 구성 합니다.
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 211a5be4a97780a440bf151157576a5ab56933a5
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: 9bf03693a182a9c6f85ad43c431b10fabf21b48d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "71987493"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678951"
 ---
 # <a name="add-a-list-box-a-drop-down-list-or-radio-buttons-to-a-canvas-app"></a>캔버스 앱에 목록 상자, 드롭다운 목록 또는 라디오 단추 추가
 

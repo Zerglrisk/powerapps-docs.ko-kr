@@ -1,6 +1,6 @@
 ---
 title: Char 함수 | Microsoft Docs
-description: PowerApps의 Char 함수에 대한 참조 정보이며, 구문과 예제를 포함하고 있습니다.
+description: 구문 및 예제를 포함 하 여 Power Apps의 Char 함수에 대 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 099afb1e89d1551c6c6b969c3ae3688a3cdec777
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 641b22945dc6398e0f1ab57b03813eb7db02c79f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992959"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678422"
 ---
 # <a name="char-function-in-powerapps"></a>PowerApps의 Char 함수
 
@@ -60,7 +60,7 @@ ms.locfileid: "71992959"
     - **Templatesize**: 30
     - **Templatepadding**: 0
 
-    **Items** 속성의 값은 16을 첫 번째 갤러리의 **items** 속성 값 열에서 제공 하는 열 번호 (0-7 `ThisItem.Value`)로 곱합니다. 그런 다음 수식은 두 번째 갤러리 ( [**ForAll**](function-forall.md) 함수가 제공 하는 레코드 범위에서 0-15)의 행 번호 중 하나에 결과를 추가 합니다.
+    **Items** 속성의 값은 첫 번째 갤러리의 **items** 속성 값 열에서 제공 하는 열 번호를 16으로 곱합니다 (`ThisItem.Value`의 0-7). 그런 다음 수식은 두 번째 갤러리 ( [**ForAll**](function-forall.md) 함수가 제공 하는 레코드 범위에서 0-15)의 행 번호 중 하나에 결과를 추가 합니다.
 
 1. 두 번째 (세로) 갤러리 내에서 **레이블** 컨트롤을 추가 하 고 다음 속성을 설정 합니다.
 

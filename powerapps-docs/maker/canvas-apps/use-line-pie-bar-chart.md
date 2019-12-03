@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에서 차트 만들기 | Microsoft Docs
-description: PowerApps에서 캔버스 응용 프로그램의 꺾은 선형 차트, 원형 차트 또는 가로 막대형 차트로 데이터 범주 표시
+description: Power Apps에서 캔버스 앱의 꺾은선형 차트, 원형 차트 또는 가로 막대형 차트로 데이터 범주를 표시 합니다.
 author: fikaradz
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2841da7f5d7b19cd727f169c6fe89588f69bf1ec
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 65076c38a1beeb41c9f6f308b6c0c7e82d30fc80
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541686"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674409"
 ---
 # <a name="show-data-in-a-line-pie-or-bar-chart-in-powerapps"></a>PowerApps에서 꺾은선형, 원형 또는 막대형 차트로 데이터 표시
 
@@ -31,11 +31,11 @@ ms.locfileid: "73541686"
 
 ![][9]
 
-PowerApps 내에서 이러한 차트를 만들고 사용할 수 없습니다. 이제 시작하겠습니다.
+이러한 차트는 Power Apps 내에서 만들고 사용할 수 있습니다. 이제 시작하겠습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 사용 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 * [템플릿](get-started-test-drive.md), [데이터](get-started-create-from-data.md)에서 앱을 만들거나 [처음부터](get-started-create-from-blank.md)만듭니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 * 샘플 데이터가 XML 파일로 포함된 [ChartData.zip](https://pwrappssamples.blob.core.windows.net/samples/ChartData.zip)을 다운로드합니다. 이 항목의 단계를 수행하여 앱에 직접 가져옵니다. 대신 .zip 파일의 압축을 풀고, Excel에서 XML 파일을 열고, [클라우드 스토리지 계정](connections/cloud-storage-blob-connections.md)에 저장합니다.

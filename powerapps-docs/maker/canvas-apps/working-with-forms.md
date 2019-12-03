@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱 폼 이해 | Microsoft Docs
-description: PowerApps에서 캔버스 앱에 폼을 추가하면 데이터 원본에서 정보를 수집하고 표시할 수 있습니다.
+description: Power Apps에서 데이터 원본에서 정보를 수집 하 고 표시할 수 있도록 캔버스 앱에 폼을 추가 합니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 476964166a57bea23469baf0c1e7497be10ab73f
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 462830806165b4eb52eebb17436e11798dbdb267
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541660"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674472"
 ---
 # <a name="understand-canvas-app-forms-in-microsoft-powerapps"></a>Microsoft PowerApps의 캔버스 앱 폼 이해
 
@@ -38,11 +38,11 @@ ms.locfileid: "73541660"
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 제공 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 
 ## <a name="explore-a-generated-app"></a>생성된 앱 탐색
-PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으로 생성할 수 있습니다. 각 앱에는 앞에서 설명한 컨트롤과 이를 연결하는 수식이 포함된 3개의 화면이 있습니다. 이러한 앱을 "기본적으로(out of the box)" 실행하고, 특정 목표에 맞게 사용자 지정하거나 작동 방식을 검토하여 자신의 앱에 적용되는 유용한 개념을 알아봅니다. 다음 섹션에서는 생성된 앱을 구동하는 화면, 컨트롤 및 수식을 검사합니다.  
+Power Apps는 지정한 데이터 원본에 따라 앱을 자동으로 생성할 수 있습니다. 각 앱에는 앞에서 설명한 컨트롤과 이를 연결하는 수식이 포함된 3개의 화면이 있습니다. 이러한 앱을 "기본적으로(out of the box)" 실행하고, 특정 목표에 맞게 사용자 지정하거나 작동 방식을 검토하여 자신의 앱에 적용되는 유용한 개념을 알아봅니다. 다음 섹션에서는 생성된 앱을 구동하는 화면, 컨트롤 및 수식을 검사합니다.  
 
 ### <a name="browse-screen"></a>찾아보기 화면
 ![찾아보기 화면 컨트롤](./media/working-with-forms/afd-browse-screen-basic.png)
@@ -144,13 +144,13 @@ PowerApps는 지정한 데이터 원본을 기반으로 하는 앱을 자동으�
 ![옵션 창이 열려 있는 편집 화면](./media/working-with-forms/edit-screen.png)
 
 ## <a name="build-an-app-from-scratch"></a>앱을 처음부터 빌드
-PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부분에서 설명한 것과 동일한 구성 요소와 수식을 사용하여 앱을 직접 빌드할 수 있습니다.
+Power Apps에서 앱을 생성 하는 방법을 이해 하면이 항목의 앞부분에서 설명한 것과 동일한 빌딩 블록과 수식을 사용 하는 사용자를 직접 빌드할 수 있습니다.
 
 ## <a name="identify-test-data"></a>테스트 데이터 식별
 이 항목을 최대한 활용하려면 실험할 수 있는 데이터 원본으로 시작합니다. 걱정할 필요 없이 읽고 업데이트할 수 있는 테스트 데이터가 있어야 합니다.
 
 > [!NOTE]
-> 공백이 있는 열 이름이 데이터 원본으로 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+> 데이터 원본으로 공백을 포함 하는 열 이름이 포함 된 SharePoint 목록 또는 Excel 테이블을 사용 하는 경우 Power Apps는 공백을 **"\_x0020\_"** 로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"열 이름"** 은 데이터 레이아웃에 표시 되거나 수식에 사용 될 때 Power Apps에서 **"Column_x0020_Name"** 로 표시 됩니다.
 
 이 항목의 나머지 부분을 정확하게 수행하려면 다음 데이터가 포함된 "아이스크림"이라는 SharePoint 목록을 만듭니다.
 
@@ -314,7 +314,7 @@ PowerApps에서 앱을 생성하는 방법을 이해하면 이 항목의 앞부�
 
     !["편집" 단추가 추가된 표시 양식](./media/working-with-forms/edit-icecream-error.png)
 
-PowerApps가 데이터에서 생성하는 앱에서 이 컨트롤의 **[AutoHeight](controls/control-text-box.md)** 속성이 *true*로 설정되므로 오류가 발생하지 않으면 공백이 사용되지 않습니다. 또한 **[편집 양식](controls/control-form-detail.md)** 컨트롤의 **[Height](controls/properties-size-location.md)** 및 **[Y](controls/properties-size-location.md)** 속성은 오류가 발생할 때 이 컨트롤의 증가를 고려하여 동적으로 조정됩니다. 자세한 내용을 알아보려면 기존 데이터에서 앱을 생성하고 이러한 속성을 검사합니다. 오류가 발생하지 않은 경우 오류의 텍스트 상자 컨트롤은 매우 짧습니다. **고급** 보기(**보기** 탭에서 사용 가능)를 열어 이 컨트롤을 선택해야 할 수도 있습니다.
+Power Apps가 데이터에서 생성 하는 앱에서이 컨트롤의 **[Autoheight](controls/control-text-box.md)** 속성은 *true* 로 설정 되므로 오류가 발생 하지 않으면 공간이 사용 되지 않습니다. 또한 **[편집 양식](controls/control-form-detail.md)** 컨트롤의 **[Height](controls/properties-size-location.md)** 및 **[Y](controls/properties-size-location.md)** 속성은 오류가 발생할 때 이 컨트롤의 증가를 고려하여 동적으로 조정됩니다. 자세한 내용을 알아보려면 기존 데이터에서 앱을 생성하고 이러한 속성을 검사합니다. 오류가 발생하지 않은 경우 오류의 텍스트 상자 컨트롤은 매우 짧습니다. **고급** 보기(**보기** 탭에서 사용 가능)를 열어 이 컨트롤을 선택해야 할 수도 있습니다.
 
 ![오류 텍스트 컨트롤이 선택된 데이터 편집 양식의 앱](./media/working-with-forms/edit-assets-error1.png)
 
@@ -330,7 +330,7 @@ PowerApps가 데이터에서 생성하는 앱에서 이 컨트롤의 **[AutoHeig
     ![데이터 원본 새로 고침](./media/working-with-forms/browse-icecream-refresh.png)
 
 ## <a name="search-and-sort-the-gallery"></a>갤러리 검색 및 정렬
-PowerApps가 데이터에서 생성한 앱에서 찾아보기 화면의 위쪽에 있는 두 가지 컨트롤에 대해 논의하지 않았습니다. 사용자는 이러한 컨트롤을 사용하여 하나 이상의 레코드를 검색하거나 레코드 목록을 오름차순 또는 내림차순으로 정렬하거나 둘 다 정렬할 수 있습니다.
+데이터에서 앱을 생성 하는 앱에서 찾아보기 화면 위쪽의 두 컨트롤에 대해 논의 하는 것은 중단 되었습니다. 사용자는 이러한 컨트롤을 사용하여 하나 이상의 레코드를 검색하거나 레코드 목록을 오름차순 또는 내림차순으로 정렬하거나 둘 다 정렬할 수 있습니다.
 
 ![찾아보기 화면에서 컨트롤 정렬 및 검색](./media/working-with-forms/afd-browse-search-sort.png)
 

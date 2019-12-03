@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3348db5897b0c58d7addef775d2a871809fc491b
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: b2eca27d418a762820bf0955edafff435a176efb
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71995212"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674918"
 ---
 # <a name="share-excel-data-used-by-your-app"></a>앱에서 사용하는 Excel 데이터 공유
 OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connections.md)에서 앱 사용자와 Excel 데이터를 공유할 수 있습니다.
@@ -30,7 +30,7 @@ OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connecti
 이 항목에서는 Dropbox, OneDrive 및 Google 드라이브를 사용하여 Excel 스프레드시트의 데이터를 공유하는 방법을 보여줍니다. Excel 파일에서 데이터를 표시하는 앱을 만들려면 [데이터 집합에서 앱 만들기](get-started-create-from-data.md)를 참조하세요.
 
 ## <a name="share-data-in-dropbox"></a>Dropbox에서 데이터 공유
-1. PowerApps에서 Dropbox로 연결하는 데 사용한 것과 동일한 계정을 사용하여 Dropbox에 로그인합니다.
+1. Power Apps에서 Dropbox로의 연결을 만드는 데 사용한 것과 동일한 계정을 사용 하 여 Dropbox에 로그인 합니다.
 2. Excel 파일이 포함된 폴더를 선택한 다음 **공유**를 선택합니다.  
    
     ![공유 명령](./media/share-app-data/dropbox-share.png)
@@ -43,7 +43,7 @@ OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connecti
 자세한 내용은 [Dropbox에서 폴더 공유](https://www.dropbox.com/en/help/19)를 참조하세요.
 
 ## <a name="share-data-in-onedrive"></a>OneDrive에서 데이터 공유
-1. PowerApps에서 OneDrive로 연결할 때 사용한 것과 동일한 계정을 사용하여 OneDrive에 로그인합니다.
+1. Power Apps에서 OneDrive로의 연결을 만들 때 사용한 것과 동일한 계정을 사용 하 여 OneDrive에 로그인 합니다.
 2. 파일이 포함된 폴더를 선택한 다음 **공유**를 선택합니다.  
    
     ![공유 명령](./media/share-app-data/onedrive-share.png)
@@ -60,7 +60,7 @@ OneDrive와 같은 [클라우드 계정](connections/cloud-storage-blob-connecti
 자세한 내용은 [OneDrive 파일 및 폴더 공유](https://support.office.com/article/Share-OneDrive-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07)를 참조하세요.
 
 ## <a name="share-data-in-google-drive"></a>Google 드라이브에서 데이터 공유
-1. PowerApps에서 Google 드라이브로 연결하는 데 사용한 것과 동일한 계정을 사용하여 Google 드라이브에 로그인합니다.
+1. Power Apps에서 Google Drive로 연결 하는 것과 동일한 계정을 사용 하 여 Google Drive에 로그인 합니다.
 2. Excel 파일을 저장한 폴더를 마우스 오른쪽 단추로 클릭한 다음 **공유**를 선택합니다.  
    
     ![공유 명령](./media/share-app-data/googledrive-share.png)

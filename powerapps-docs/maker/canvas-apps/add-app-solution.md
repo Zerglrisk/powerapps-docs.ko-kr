@@ -1,6 +1,6 @@
 ---
 title: 솔루션에서 캔버스 앱 만들기 | Microsoft Docs
-description: PowerApps에서 앱을 다른 환경에 배포할 수 있도록 솔루션에서 캔버스 앱을 만듭니다.
+description: 앱을 다른 환경에 배포할 수 있도록 Power Apps에서 솔루션에 캔버스 앱을 만듭니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0748f78665b389d57989c9170ca21077721f6633
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f6b34a5ea1b2f269a26ad70de6a6a530a30bc240
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540990"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679342"
 ---
 # <a name="create-a-canvas-app-from-within-a-solution"></a>솔루션 내에서 캔버스 앱 만들기
 
@@ -34,7 +34,7 @@ ms.locfileid: "73540990"
 
 앱을 만들거나 앱을 연결 하려는 솔루션이 이미 있는 경우이 절차를 건너뛸 수 있습니다.
 
-1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 필요한 경우 적절 한 환경으로 전환 합니다.
+1. Power Apps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 필요한 경우 적절 한 환경으로 전환 합니다.
 
     - 솔루션 내에서 앱을 만들려는 경우 Common Data Service 데이터베이스를 포함 하는 환경으로 전환 합니다.
     - 솔루션에 기존 앱을 연결 하려는 경우 해당 앱을 포함 하는 환경으로 전환 합니다.
@@ -76,12 +76,12 @@ ms.locfileid: "73540990"
 
 1. 솔루션 목록에서 캔버스 앱을 만들려는 솔루션을 선택 합니다.
 
-1. 제목 표시줄 아래의 배너에서 **새로** 만들기  > **app**  > **Canvas 앱**을 선택한 다음 만들려는 앱의 폼 팩터 (전화 또는 태블릿)를 선택 합니다.
+1. 제목 표시줄 아래의 배너에서 **새로** 만들기 > **app** > **Canvas 앱**을 선택한 다음 만들려는 앱의 폼 팩터 (전화 또는 태블릿)를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![솔루션에서 앱을 만드는 옵션](./media/add-app-solution/new-option.png "솔루션에서 앱을 만드는 옵션")
 
-    PowerApps Studio 다른 브라우저 탭에서 빈 캔버스로 열립니다.
+    Power Apps 스튜디오는 다른 브라우저 탭에서 빈 캔버스로 열립니다.
 
 1. 앱을 만들고 하나 이상의 변경을 수행한 다음 변경 내용을 저장 합니다.
 
@@ -107,7 +107,7 @@ ms.locfileid: "73540990"
 
 1. 솔루션 목록에서 앱을 연결 하려는 솔루션을 선택 합니다.
 
-1. 제목 표시줄 아래의 배너에서 기존  > **앱** **추가**  > **Canvas 앱**을 선택 합니다.
+1. 제목 표시줄 아래의 배너에서 기존 > **앱** **추가** > **Canvas 앱**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![기존 앱을 연결 하는 배너 옵션](./media/add-app-solution/add-existing.png "기존 앱을 연결 하는 배너 옵션")

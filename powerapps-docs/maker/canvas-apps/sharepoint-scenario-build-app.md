@@ -13,24 +13,24 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: aa927559c13726bd2d780c7ce3841c5a53317c8f
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: 6b135f29ac020f933e4bc2c8276c3fa74d6fd762
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73899209"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674988"
 ---
 # <a name="create-a-canvas-app-to-manage-projects"></a>프로젝트를 관리하는 캔버스 앱 만들기
 > [!NOTE]
-> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 SharePoint Online에서 Power Apps, 파워 자동화 및 Power BI 사용에 대 한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 작업에서는 캔버스 앱을 처음부터 빌드합니다. 이 앱을 통해 사용자는 관리자를 프로젝트에 할당하고 프로젝트 세부 정보를 업데이트할 수 있습니다. 첫 번째 앱에서 본 것과 동일한 컨트롤과 수식이 표시되지만 이번에는 더 많은 앱을 직접 빌드합니다. 프로세스가 더 복잡하지만 자세히 설명하겠습니다.
 
 > [!TIP]
 > 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 앱의 완성된 버전인 project-details-app.msapp이 포함되어 있습니다.
 
-## <a name="quick-review-of-powerapps-studio"></a>PowerApps Studio에 대한 빠른 검토
-PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에는 앱을 만들 수 있는 3개 창 및 리본 메뉴가 있습니다.
+## <a name="quick-review-of-power-apps-studio"></a>Power Apps 스튜디오 빠른 검토
+Power Apps 스튜디오에는 PowerPoint에서 슬라이드 데크 작성과 같은 앱 생성을 지 원하는 세 개의 창과 리본 메뉴가 있습니다.
 
 1. 왼쪽 탐색 모음 - 화면의 썸네일뿐만 아니라 앱의 모든 화면과 컨트롤에 대한 계층적 보기를 보여 줍니다.
 2. 가운데 창 - 작업 중인 앱 화면이 포함되어 있습니다.
@@ -39,13 +39,13 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 5. 수식 입력줄 - Excel처럼 앱 동작을 정의하는 수식을 추가합니다.
 6. 리본 - 컨트롤을 추가하고 디자인 요소를 사용자 지정합니다.
 
-![PowerApps Studio](./media/sharepoint-scenario-build-app/04-00-00-powerapps-studio.png)
+![Power Apps 스튜디오](./media/sharepoint-scenario-build-app/04-00-00-powerapps-studio.png)
 
 ## <a name="step-1-create-screens"></a>1단계: 화면 만들기
 검토를 마쳤으면 앱 빌드를 시작하겠습니다.
 
 ### <a name="create-and-save-the-app"></a>앱 만들기 및 저장
-1. PowerApps Studio에서 **새로 만들기**를 클릭하거나 탭한 다음, **빈 앱** 아래에서 **전화 레이아웃**을 클릭하거나 탭합니다.
+1. Power Apps 스튜디오에서 **새로 만들기**를 클릭 하거나 탭 하 고, **비어 있는 앱**에서 **휴대폰 레이아웃**을 클릭 하거나 탭 합니다.
    
     ![빈 앱 - 전화 레이아웃](./media/sharepoint-scenario-build-app/04-01-01-blank-phone-app.png)
 2. **앱 설정** 탭에 열리는 **파일**을 클릭 하거나 탭 합니다. "프로젝트 관리 앱" 이름을 입력 합니다.
@@ -114,7 +114,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
     ![데이터 원본 탭](./media/sharepoint-scenario-build-app/04-02-06-data-sources.png)
 
 ## <a name="step-3-build-the-selecttask-screen"></a>3단계: SelectTask 화면 빌드
-이 단계에서는 PowerApps에서 제공하는 컨트롤, 수식 및 서식 옵션 중 일부를 사용하여 앱의 다른 화면으로 이동하는 방법을 제공합니다.
+이 단계에서는 Power Apps에서 제공 하는 일부 컨트롤, 수식 및 서식 옵션을 사용 하 여 앱에서 다른 화면으로 이동 하는 방법을 제공 합니다.
 
 ### <a name="update-the-title-and-insert-introductory-text"></a>제목 업데이트 및 설명 텍스트 삽입
 1. 왼쪽 탐색 모음에서 **SelectTask** 화면을 선택합니다.
@@ -161,7 +161,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 ### <a name="run-the-app"></a>앱 실행
 아직은 많은 작업을 수행할 수 없는 앱이지만 원하는 경우 실행할 수 있습니다.
 
-1. **SelectTask** 화면을 클릭하거나 탭합니다(앱은 항상 PowerApps Studio의 미리 보기 모드에서 선택한 화면에서 시작합니다).
+1. **Selecttask** 화면을 클릭 하거나 탭 합니다 (앱은 항상 Power Apps 스튜디오의 미리 보기 모드에서 선택한 화면에서 시작).
 
 2. 연필 편집 아이콘을 ![앱 실행 아이콘을 클릭하여](./media/sharepoint-scenario-build-app/icon-run-arrow.png) 앱을 실행합니다.
 
@@ -410,9 +410,9 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
 ### <a name="add-a-link-to-the-app"></a>앱에 링크 추가
 1. Office 365 앱 시작 관리자에서 **PowerApps**를 클릭하거나 탭합니다.
    
-    ![Office 365 앱 시작 관리자의 PowerApps](./media/sharepoint-scenario-build-app/04-07-02a-waffle.png)
+    ![Office 365 앱 시작 관리자의 Power Apps](./media/sharepoint-scenario-build-app/04-07-02a-waffle.png)
 
-2. PowerApps에서 **프로젝트 관리 앱**에 대한 줄임표( **. . .** ), **열기**를 차례로 클릭하거나 탭합니다.
+2. Power Apps에서 **프로젝트 관리 앱**에 대 한 줄임표 **(...** )를 클릭 하거나 탭 한 다음 **열기**를 클릭 합니다.
    
     ![프로젝트 관리 앱 선택](./media/sharepoint-scenario-build-app/04-07-02b-select-app.png)
 
@@ -494,7 +494,7 @@ PowerPoint에서 슬라이드 모음을 만드는 것처럼 PowerApps Studio에�
     ![업데이트된 SharePoint 목록](./media/sharepoint-scenario-build-app/04-07-11-updated-list.png)
 
 ## <a name="formula-deep-dive"></a>수식 심층 분석
-PowerApps 수식에 있는 선택적인 두 번째 섹션입니다. 첫 번째 심층 분석에서 PowerApps가 3개 화면 앱의 찾아보기 갤러리에 대해 생성하는 수식 중 하나를 살펴보았습니다. 이 심층 분석에서는 두 번째 앱의 **AssignManager** 화면에 사용할 수식을 살펴보겠습니다. 수식은 다음과 같습니다.
+Power Apps 수식에 대 한 두 번째 선택적 섹션입니다. 첫 번째 심층 조사에서는 Power Apps에서 3 화면 앱의 찾아보기 갤러리에 대해 생성 하는 수식 중 하나를 살펴보았습니다. 이 심층 분석에서는 두 번째 앱의 **AssignManager** 화면에 사용할 수식을 살펴보겠습니다. 수식은 다음과 같습니다.
 
 **Patch (' 프로젝트 세부 정보 ', 조회 (' 프로젝트 세부 정보 ', ID = Gallery1.Selected.ID), {PMAssigned: TextInput1})**
 

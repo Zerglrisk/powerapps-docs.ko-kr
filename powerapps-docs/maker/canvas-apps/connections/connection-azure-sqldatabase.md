@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bcadf4abfd55a317cf67196c9ba2158a001a015a
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: eed7a0bd6b9ee269877b6dfe4fcfd5bc6c56e3af
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541131"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678813"
 ---
 # <a name="connect-to-sql-server-from-powerapps"></a>PowerApps에서 SQL Server 연결
 ![SQL Server 아이콘](./media/connection-azure-sqldatabase/sqlicon.png)
@@ -27,7 +27,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* Power Apps에 [등록](../../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 제공 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 * 기본 키와 함께 최소 1개 이상의 테이블을 포함한 데이터베이스에 대한 다음 정보를 수집합니다.
   
   * 데이터베이스 이름
@@ -42,7 +42,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
   > 게이트웨이 및 온-프레미스 연결은 사용자의 [기본 환경](../working-with-environments.md)에서만 생성하고 사용할 수 있습니다.
 
 ## <a name="generate-an-app-automatically"></a>자동으로 앱 생성
-1. PowerApps Studio에서 **파일** 메뉴(왼쪽 모서리를 따라)에서 **새로 만들기**를 클릭하거나 탭합니다.
+1. Power Apps 스튜디오에서 **파일** 메뉴 (왼쪽 모서리를 따라)에서 **새로 만들기** 를 클릭 하거나 탭 합니다.
    
     ![파일 메뉴의 새 옵션](./media/connection-azure-sqldatabase/file-new.png)
 2. **데이터를 통해 시작**에서 커넥터 행 끝에 있는 오른쪽 화살표를 클릭하거나 탭합니다.
@@ -64,7 +64,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 6. **연결**을 클릭 하거나 탭합니다.
 7. **데이터 세트 선택**에서 옵션을 클릭하거나 탭하고 **테이블 선택**에서 옵션을 클릭하거나 탭한 다음, **연결**을 클릭하거나 탭합니다.
    
-    PowerApps는 세 개의 화면에 데이터를 표시하는 앱을 만듭니다. 추론은 표시할 데이터의 종류를 제안하지만, 사용자의 요구 사항에 맞게 UI를 사용자 지정해야 합니다.
+    Power Apps는 세 개의 화면에 데이터를 표시 하는 앱을 만듭니다. 추론은 표시할 데이터의 종류를 제안하지만, 사용자의 요구 사항에 맞게 UI를 사용자 지정해야 합니다.
 8. 먼저 앱 레이아웃 바꾸기부터 시작하여 [Excel에서 앱 만들기](../get-started-create-from-data.md)에서 설명한 것과 비슷한 기법을 사용하여 앱을 사용자 지정합니다.
 
 ## <a name="build-an-app-from-scratch"></a>앱을 처음부터 빌드
@@ -88,7 +88,7 @@ PowerApps에서 정보를 표시할 수 있도록 Azure 또는 온-프레미스 
 6. [처음부터 앱 만들기](../get-started-create-from-blank.md)에서 설명한 것과 비슷한 기법을 사용하여 앱을 만듭니다.
 
 ## <a name="update-an-existing-app"></a>기존 앱 업데이트
-1. PowerApps Studio에서 업데이트할 앱을 엽니다.
+1. Power Apps 스튜디오에서 업데이트 하려는 앱을 엽니다.
 2. 리본의 **보기** 탭에서 **데이터 원본**을 클릭하거나 탭합니다.
 3. 오른쪽 창에서 **데이터 원본 추가**를 클릭하거나 탭합니다.
    

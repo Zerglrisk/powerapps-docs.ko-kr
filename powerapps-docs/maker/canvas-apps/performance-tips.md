@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱 성능 최적화 | Microsoft Docs
-description: 이 항목의 모범 사례에 따라 PowerApps에서 만든 캔버스 앱의 성능을 향상시킵니다.
+description: 이 항목의 모범 사례를 따라 Power Apps에서 만든 캔버스 앱의 성능을 향상 시킬 수 있습니다.
 author: yingchin
 manager: kvivek
 ms.service: powerapps
@@ -13,19 +13,19 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9943678815b53df048ad197e3cdcbd56f4070fa3
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 0bf2502d22adb90993f5f7ebb8e05c72f51215a5
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71995793"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675464"
 ---
 # <a name="optimize-canvas-app-performance-in-powerapps"></a>PowerApps의 캔버스 앱 성능 최적화 | Microsoft Docs
-Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상을 위해 최선을 다합니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.
+Microsoft는 Power Apps 플랫폼에서 실행 되는 모든 앱의 성능을 향상 시키기 위해 노력 하 고 있습니다. 이 항목에서는 빌드한 앱의 성능을 향상시킬 수 있는 모범 사례를 소개합니다.
 
 사용자가 앱을 열면 다음 실행 단계를 거쳐 사용자 인터페이스를 표시합니다. 
 1. **사용자 인증** - 이전에 앱을 열지 않은 사용자에게 앱 연결에 필요한 자격 증명을 사용하여 로그인하라는 메시지를 표시합니다. 동일한 사용자가 앱을 다시 열면 조직의 보안 정책에 따라 해당 사용자에게 다시 메시지가 표시될 수 있습니다. 
-2. **메타데이터 가져오기** - 앱이 실행되는 PowerApps 플랫폼의 버전 및 데이타를 검색해야 하는 소스와 같은 메타데이터를 검색합니다. 
+2. **메타 데이터를 가져옵니다** .-앱이 실행 되는 Power Apps 플랫폼과 데이터를 검색 해야 하는 소스와 같은 메타 데이터를 검색 합니다. 
 3. **앱 초기화** - **OnStart** 속성에 지정된 모든 작업을 수행합니다. 
 4. **화면 렌더링** - 앱에 데이터로 채워진 컨트롤을 사용하여 첫 번째 화면을 렌더링합니다. 사용자가 다른 화면을 열면 앱은 동일한 프로세스를 사용하여 렌더링합니다.  
 
@@ -35,7 +35,7 @@ Microsoft는 PowerApps 플랫폼에서 실행되는 모든 앱의 성능 향상�
 앱을 실행하는 동안 [Microsoft Edge](https://docs.microsoft.com/microsoft-edge/devtools-guide/network) 또는 [Google Chrome](https://developers.google.com/web/tools/chrome-devtools/network-performance/)에서 개발자 도구를 사용하도록 설정하여 앱의 성능을 빠르게 측정할 수 있습니다. 앱은 Common Data Service, Azure SQL, SharePoint 및 OneDrive의 Excel과 같은 30 개 이상의 데이터 원본에서 데이터를 자주 요청 하는 경우 데이터를 반환 하는 데 15 초 보다 더 오래 걸릴 가능성이 높습니다.  
 
 ## <a name="limit-the-number-of-controls"></a>컨트롤 수 제한 
-**동일한 앱에 500개를 초과하는 컨트롤을 추가하지 마세요**. PowerApps는 각 컨트롤을 렌더링하는 HTML DOM을 생성합니다. 추가하는 컨트롤이 많을수록 PowerApps에 필요한 생성 시간이 늘어납니다. 
+**동일한 앱에 500개를 초과하는 컨트롤을 추가하지 마세요**. Power Apps는 각 컨트롤을 렌더링 하는 HTML DOM을 생성 합니다. 더 많은 컨트롤이 추가 되어 더 많은 세대의 Power Apps가 필요 합니다. 
 
 경우에 따라 개별 컨트롤 대신 갤러리를 사용하면 동일한 결과를 얻고 앱을 더 빨리 시작할 수 있습니다. 또한 동일한 화면에서 컨트롤 형식의 수를 줄이는 것이 좋습니다. 일부 컨트롤(예: PDF 뷰어, 데이터 테이블 및 콤보 상자)은 큰 실행 스크립트를 가져오고 렌더링하는 데 오래 걸립니다. 
 
@@ -107,7 +107,7 @@ Set(CustomerPhone, CustomerOrder.Phone);
 사용자가 필요한 모든 정보에 액세스할 수 있는 반면, 앱의 성능을 유지하려면 위임할 수 있는 데이터 원본과 수식을 사용하고 위임할 수 없는 쿼리에 대한 2000개의 데이터 행 제한을 넘지 마세요. 사용자가 데이터를 검색, 필터링 또는 정렬할 수 있는 레코드 열의 경우 이러한 열의 인덱스는 [SQL Server](https://docs.microsoft.com/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017) 및 [SharePoint](https://support.office.com/article/Add-an-index-to-a-SharePoint-column-f3f00554-b7dc-44d1-a2ed-d477eac463b0)에 대해 설명한 것처럼 잘 설계되었습니다.  
 
 ## <a name="republish-apps-regularly"></a>앱을 정기적으로 다시 게시
-[앱을 다시 게시](https://powerapps.microsoft.com/blog/republish-your-apps-to-get-performance-improvements-and-additional-features/)(블로그 게시물)하여 PowerApps 플랫폼에서 성능 향상 및 추가 기능을 가져옵니다.
+[앱](https://powerapps.microsoft.com/blog/republish-your-apps-to-get-performance-improvements-and-additional-features/) 을 다시 게시 (블로그 게시물) 하 여 Power apps 플랫폼에서 성능 향상 및 추가 기능을 활용할 수 있습니다.
 
 ## <a name="avoid-repeating-the-same-formula-in-multiple-places"></a>여러 위치에서 동일한 수식 반복 방지
 여러 속성에 동일한 수식이 실행 되는 경우 (특히 복잡 한 경우), 한 번 설정 하 고 이후 첫 번째 속성의 출력을 참조 하는 것이 좋습니다. 예를 들어 컨트롤 A, B, C, D 및 E의 **DisplayMode** 속성을 동일한 복합 수식으로 설정 하지 마세요. 대신,의 **DisplayMode** 속성을 복잡 한 수식으로 설정 하 고, B의 **DisplayMode** 속성을 **DisplayMode** 속성의 결과로 설정 하 고, C, D 및 E에 대 한 식으로 설정 합니다.

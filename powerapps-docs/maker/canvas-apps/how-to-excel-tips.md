@@ -1,6 +1,6 @@
 ---
 title: Excel에서 표 서식 지정 | Microsoft Docs
-description: PowerApps에서 Excel 데이터를 사용하려면 데이터를 표 서식으로 지정해야 합니다. 열 이름에 '이미지' 키워드 추가
+description: Power Apps에서 Excel 데이터를 사용 하려면 데이터를 테이블로 서식 지정 해야 합니다. 열 이름에 '이미지' 키워드 추가
 author: yifwang
 manager: kvivek
 ms.service: powerapps
@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 164de5c1b2534901563ab888cfd83641dbe5a9c5
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: da70ef7fe2447653c97bb17dbcd40a126ceb6888
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71990023"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675717"
 ---
 # <a name="format-a-table-in-excel-and-naming-tips"></a>Excel에서 표 서식 지정 및 이름 지정 팁
-PowerApps에서 테이블로 서식이 지정된 경우에만 Excel 데이터를 기반으로 캔버스 앱을 만들 수 있습니다. 이 콘텐츠를 따라가면 Excel 열의 이름을 지정하는 몇 가지 팁 및 Excel에서 표의 서식을 지정하는 방법을 알게 됩니다.
+Power Apps에서는 테이블로 형식이 지정 된 경우에만 Excel 데이터를 기반으로 캔버스 앱을 만들 수 있습니다. 이 콘텐츠를 따라가면 Excel 열의 이름을 지정하는 몇 가지 팁 및 Excel에서 표의 서식을 지정하는 방법을 알게 됩니다.
 
 ## <a name="how-to-format-a-table-in-excel"></a>Excel에서 표의 서식을 지정하는 방법
 Excel의 **홈** 탭에서 **테이블로 형식 지정**을 선택하면 사용자 데이터를 테이블로 변환할 수 있습니다.

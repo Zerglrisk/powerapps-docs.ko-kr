@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c1ee3d00bab865bf63dc06181a9430fd0a9a6674
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: fbfe1b62091ff7a4fb84b899518fc941f99d7abb
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71988371"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674848"
 ---
 # <a name="understand-sharepoint-forms-integration"></a>SharePoint 양식 통합 이해
-PowerApps에서 [SharePoint 목록 양식을 쉽게 사용자 지정](customize-list-form.md)할 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.
+이제 Power Apps에서 [SharePoint 목록 양식을 쉽게 사용자 지정할](customize-list-form.md) 수 있습니다. 이 문서에서는 이러한 양식의 작업 방식과 사용자 지정하는 방법을 자세히 설명합니다.
 
 SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 생성 양식에서 항목 생성, 표시 또는 편집과 같은 모든 작업이 가능하다는 것을 알 수 있습니다. 이러한 작업은 이는 생성된 수식과 **SharePointIntegration** 컨트롤의 도움으로 수행됩니다.
 
@@ -35,7 +35,7 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 
     * **데이터 원본** - 양식이 사용자 지정된 목록입니다.
 
-    * **항목** - 목록에서 선택한 항목입니다. PowerApps Studio에서 작업할 때 편의를 위해 목록의 First() 항목으로 설정됩니다.
+    * **항목** - 목록에서 선택한 항목입니다. Power Apps Studio에서 작업 하는 경우 편의를 위해 목록의 첫 번째 () 항목으로 설정 됩니다.
 
         **If(IsBlank(SharePointIntegration.Selected) || IsEmpty(SharePointIntegration.Selected),First('*YourListName*'),SharePointIntegration.Selected)**
 
@@ -69,7 +69,7 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 
         **ResetForm(SharePointForm1)**
 
-이 기본값은 SharePoint 내에서 실행 중일 때 양식이 작동되도록 합니다. 즉, SharePoint에서 사용자가 상호 작용할 때 PowerApps 양식 모드를 변경하고 변경 내용이 SharePoint에 제출되도록 합니다.
+이러한 기본값은 SharePoint 내에서 실행 하는 경우 양식이 작동 하는지 확인 합니다. 사용자가 SharePoint에서 상호 작용할 때 Power Apps 양식 모드를 변경 하 고 변경 내용이 SharePoint에 제출 되도록 합니다.
 
 ## <a name="understand-the-sharepointintegration-control"></a>SharePointIntegration 컨트롤 이해
 **SharePointIntegration** 컨트롤은 SharePoint와 PowerApps 사이에서 사용자 작업을 전달합니다.
@@ -77,7 +77,7 @@ SharePoint 목록의 양식을 사용자 지정한 경험이 있다면 기본 �
 ![](./media/sharepoint-form-integration/sharepointintegration-object.png)
 
 >[!NOTE]
->SharePoint에서 양식을 실행하는 경우에만 **SharePointIntegration** 컨트롤의 속성에 액세스할 수 있으며 PowerApps Studio에서 양식을 사용자 지정할 때는 액세스할 수 없습니다. 이러한 속성은 **OnStart** 또는 **OnVisible**에서 확인할 수 있습니다. 
+>Power Apps Studio에서 양식을 사용자 지정 하는 경우를 사용 하는 것이 아니라 양식이 SharePoint에서 실행 되는 경우에만 **SharePointIntegration** 컨트롤에 대 한 속성에 액세스할 수 있습니다. 이러한 속성은 **OnStart** 또는 **OnVisible**에서 확인할 수 있습니다. 
 
 **SharePointIntegration** 컨트롤에는 다음과 같은 속성이 있습니다.
 

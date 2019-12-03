@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4bb09a9aefd3db1981727642d766f308ad9d0ede
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: d90d26c3cbc00b621ee2857c5c0d8ce3169f8939
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73900033"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674735"
 ---
 # <a name="publish-the-power-bi-project-report-and-create-a-dashboard"></a>Power BI 프로젝트 보고서 게시 및 대시보드 만들기
 > [!NOTE]
-> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 SharePoint Online에서 Power Apps, 파워 자동화 및 Power BI 사용에 대 한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 작업에서는 데이터 세트를 게시하고 Power BI 서비스에 보고합니다. 그런 다음, 보고서를 기반으로 하여 대시보드를 만듭니다. 대부분의 경우 보고서에는 많은 수의 시각화가 있으며, 대시보드에는 하위 집합만 사용됩니다. 여기서는 네 가지 시각화를 모두 대시보드에 추가합니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ca0b81cb1150fb744251b3dfca30c9b6ed8f90a5
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 94400c88740ea93b3966db8a62a461b5616eaeef
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73537095"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678353"
 ---
 # <a name="relate-and-unrelate-functions-in-powerapps"></a>PowerApps의 Relate 함수 및 인시던트와 관계 해제 함수
 
@@ -39,7 +39,7 @@ ms.locfileid: "73537095"
 이러한 함수는 [동작 수식](../working-with-formulas-in-depth.md)에만 사용할 수 있습니다.
 
 > [!NOTE]
-> 이러한 함수는 미리 보기 기능의 일부 이며, **관계형 데이터, 옵션 집합 및 cd의 기타 새 기능** 을 사용 하는 경우에만 해당 동작을 사용할 수 있습니다. 새 앱에 대해 기본적으로 사용 하도록 설정 된 앱 수준 설정입니다. 이 기능 스위치를 찾으려면 **파일** 메뉴를 열고 **앱 설정**을 선택한 다음 **고급 설정**을 선택 합니다. 여러분의 피드백은 매우 소중합니다. [PowerApps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/Expressions-and-Formulas/bd-p/How-To)에 의견을 남겨주세요.
+> 이러한 함수는 미리 보기 기능의 일부 이며, **관계형 데이터, 옵션 집합 및 cd의 기타 새 기능** 을 사용 하는 경우에만 해당 동작을 사용할 수 있습니다. 새 앱에 대해 기본적으로 사용 하도록 설정 된 앱 수준 설정입니다. 이 기능 스위치를 찾으려면 **파일** 메뉴를 열고 **앱 설정**을 선택한 다음 **고급 설정**을 선택 합니다. 의견은 microsoft에 매우 유용 합니다. [Power Apps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/Expressions-and-Formulas/bd-p/How-To)에서 의견을 알려주세요.
 
 ## <a name="syntax"></a>구문
 
@@ -55,7 +55,7 @@ ms.locfileid: "73537095"
 
 ## <a name="examples"></a>예
 
-[PowerApps 포털의 엔터티 뷰어에](../../common-data-service/create-edit-entities-portal.md)표시 된 것 처럼 다음과 같은 관계가 있는 **Products** 엔터티를 생각해 보세요.
+[Power Apps 포털의 엔터티 뷰어에](../../common-data-service/create-edit-entities-portal.md)표시 된 것 처럼 다음과 같은 관계가 있는 **Products** 엔터티를 생각해 보세요.
 
 | 관계 표시 이름 | 관련 엔터티 | 관계 유형 |
 | --- | --- |

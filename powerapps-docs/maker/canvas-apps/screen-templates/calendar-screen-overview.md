@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9ca7e5f14508a2dcd70967e77b29989819bfe7ba
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 945a4fd3c017363a8c43171c8e891e0c32c84a0f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541591"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675214"
 ---
 # <a name="overview-of-the-calendar-screen-template-for-canvas-apps"></a>Canvas 앱에 대 한 달력 화면 템플릿 개요
 
@@ -42,7 +42,7 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
 
 템플릿에서 일정 화면을 추가 하려면 다음을 수행 합니다.
 
-1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
+1. 파워 앱에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 Power apps 스튜디오에서 기존 앱을 엽니다.
 
     이 항목은 휴대폰 앱을 표시 하지만 동일한 개념은 태블릿 앱에도 적용 됩니다.
 
@@ -210,7 +210,7 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
 1. 유연한 높이 갤러리에서 **Label** 컨트롤과 **HTML 텍스트** 컨트롤을 추가 하 고 둘 다의 **autoheight** 속성을 **true**로 설정 합니다.
 
     > [!NOTE]
-    > PowerApps는 각 이벤트의 메시지 본문을 HTML 텍스트로 검색 하므로 **html 텍스트** 컨트롤에 해당 내용을 표시 해야 합니다.
+    > Power Apps는 각 이벤트의 메시지 본문을 HTML 텍스트로 검색 하므로 **html 텍스트** 컨트롤에 해당 내용을 표시 해야 합니다.
 
 1. **HTML 텍스트** 컨트롤의 **Y** 속성을 다음 식으로 설정 합니다.
 
@@ -233,7 +233,7 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
     )
     ```
 
-    이 수식은 사용자가 **CalendarEventsGallery** 컨트롤에서 이벤트를 선택할 때마다 설정 되는 **_selectedCalendarEvent**의 필드 값으로 설정 된 동적 데이터의 갤러리를 만듭니다. 더 많은 레이블을 추가 하 여 더 많은 필드를 포함 하도록이 갤러리를 확장할 수 있지만이 집합은 좋은 시작 지점을 제공 합니다.
+    이 수식은 **_selectedCalendarEvent**의 필드 값으로 설정 되는 동적 데이터의 갤러리를 만듭니다 .이 갤러리는 사용자가 **CalendarEventsGallery** 컨트롤에서 이벤트를 선택할 때마다 설정 됩니다. 더 많은 레이블을 추가 하 여 더 많은 필드를 포함 하도록이 갤러리를 확장할 수 있지만이 집합은 좋은 시작 지점을 제공 합니다.
 
 1. 갤러리 항목을 배치한 상태에서 **Label** 컨트롤의 **Text** 속성을 `ThisItem.Title`로 설정 하 고 **HTML 텍스트** 컨트롤의 **HtmlText** 속성을 `ThisItem.Value`로 설정 합니다.
 
@@ -304,13 +304,13 @@ Canvas 앱에서 사용자의 Office 365 Outlook 계정에서 예정 된 이벤�
         )
     );
     ```
-    이 수식에서는 참석자가 조직에 있는지 여부를 대략적으로 확인 합니다. **_Userdomain** 의 정의는 앱을 실행 하는 사용자의 메일 주소에 있는 도메인 URL 일 뿐입니다. 이 줄은 **AttendeeEmailsTemp** 컬렉션에 **inorg**라는 추가 true/false 열을 만듭니다. **Userdomain** 이 **AttendeeEmailsTemp**의 특정 행에 있는 전자 메일 주소의 도메인 URL과 동일한 경우이 열에 **true** 가 포함 됩니다.
+    이 수식에서는 참석자가 조직에 있는지 여부를 대략적으로 확인 합니다. **_UserDomain** 정의는 앱을 실행 하는 사람의 전자 메일 주소에 있는 도메인 URL 일 뿐입니다. 이 줄은 **AttendeeEmailsTemp** 컬렉션에 **inorg**라는 추가 true/false 열을 만듭니다. **Userdomain** 이 **AttendeeEmailsTemp**의 특정 행에 있는 전자 메일 주소의 도메인 URL과 동일한 경우이 열에 **true** 가 포함 됩니다.
 
-    이 접근 방식은 항상 정확한 것은 아니지만 매우 가깝습니다. 예를 들어 조직의 특정 참석자는 Jane@OnContoso.com와 같은 전자 메일 주소를 가질 수 있습니다. 반면 **_Userdomain** 은 Contoso.com입니다. 앱 사용자와 Jane은 동일한 회사에서 작동할 수 있지만 전자 메일 주소에는 약간의 차이가 있습니다. 이와 같은 경우에는 다음 수식을 사용할 수 있습니다.
+    이 접근 방식은 항상 정확한 것은 아니지만 매우 가깝습니다. 예를 들어 조직의 특정 참석자는 Jane@OnContoso.com와 같은 전자 메일 주소를 포함할 수 있지만 **_userDomain** 는 Contoso.com입니다. 앱 사용자와 Jane은 동일한 회사에서 작동할 수 있지만 전자 메일 주소에는 약간의 차이가 있습니다. 이와 같은 경우에는 다음 수식을 사용할 수 있습니다.
 
     `Upper(_userDomain) in Upper(Right(Result, Len(Result) - Find("@", Result)))`
 
-    그러나이 수식은 Contoso.com와 같은 **_Userdomain** 과 Jane@NotTheContosoCompany.com 같은 전자 메일 주소를 찾지만 이러한 사용자는 같은 회사에서 작동 하지 않습니다.
+    그러나이 수식은 Contoso.com와 같은 **_userDomain** 와 Jane@NotTheContosoCompany.com 같은 전자 메일 주소를 찾지만 이러한 사용자는 같은 회사에서 작동 하지 않습니다.
 
 - ClearCollect (MyPeople)
 

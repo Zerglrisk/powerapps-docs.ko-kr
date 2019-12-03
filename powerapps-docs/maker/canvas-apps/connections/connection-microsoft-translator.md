@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4eab4585a2abd8633704c76b57cde52702982e97
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 387089ea2ee40e8a0d418ab110d7544c17d7c423
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994039"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679894"
 ---
 # <a name="connect-to-microsoft-translator-from-powerapps"></a>PowerApps에서 Microsoft Translator에 연결
 ![Microsoft Translator](./media/connection-microsoft-translator/translatoricon.png)
@@ -33,7 +33,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 [!INCLUDE [connection-requirements](../../../includes/connection-requirements.md)]
 
 ## <a name="connect-to-microsoft-translator"></a>Microsoft Translator 연결
-1. PowerApps를 열고 **새로 만들기**를 선택한 다음 **비어 있는 앱**을 만듭니다. 전화나 태블릿 레이아웃을 선택합니다. 태블릿 레이아웃의 작업 영역이 더 넓습니다.  
+1. Power Apps를 열고 **새로 만들기**를 선택한 다음, **빈 앱**을 만듭니다. 전화나 태블릿 레이아웃을 선택합니다. 태블릿 레이아웃의 작업 영역이 더 넓습니다.  
 
    ![비어 있는 앱 열기](./media/connection-microsoft-translator/blank-app.png)
 2. 오른쪽 창에서 **데이터** 탭을 클릭하거나 탭한 후 **데이터 원본 추가**를 클릭하거나 탭합니다.
@@ -72,7 +72,7 @@ Microsoft Translator 커넥터를 추가하여 앱의 **레이블** 컨트롤에
 3. **오디오** 컨트롤을 추가하고 (**삽입** 메뉴 > **Media**) **Media** 속성을 다음 수식으로 설정합니다.  
 
     `MicrosoftTranslator.TextToSpeech(Target.Text, TargetLang.Selected.Value)`
-4. F5 키를 누르거나 미리 보기 단추(![](./media/connection-microsoft-translator/preview.png))를 선택합니다. 일부 텍스트를 **Source**에 입력하고 **TargetLang**에서 언어를 선택한 다음, 오디오 컨트롤에서 재생 단추를 선택합니다.
+4. F5를 누르거나 미리 보기 단추(![](./media/connection-microsoft-translator/preview.png))를 선택합니다. 일부 텍스트를 **Source**에 입력하고 **TargetLang**에서 언어를 선택한 다음, 오디오 컨트롤에서 재생 단추를 선택합니다.
 
     앱은 사용자가 입력한 텍스트의 오디오 버전을 사용자가 선택한 언어로 재생합니다.
 5. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.

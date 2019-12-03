@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6b3a33f327aab7e4f02c954dbd31c412e35dd661
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: a3afda5686c6b791243126c70b9c6d33762beae0
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73539173"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679664"
 ---
 # <a name="tutorial-customize-a-gallery-in-powerapps"></a>자습서: PowerApps에서 갤러리 사용자 지정
 
-이 자습서에서는 갤러리라고 하는 레코드의 목록을 사용자 지정하고 Microsoft PowerApps에서 자동으로 생성된 앱의 다른 내용을 변경합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
+이 자습서에서는 갤러리 라는 레코드 목록을 사용자 지정 하 고 Microsoft Power Apps에서 자동으로 생성 된 앱의 다른 변경을 수행 합니다. 이러한 변경 내용이 없어도 사용자는 앱에서 데이터를 관리할 수 있지만 조직의 요구 사항에 맞게 사용자 지정하면 앱을 더 쉽게 사용할 수 있습니다.
 
 예를 들어 이 자습서에 나온 갤러리는 기본적으로 다음 그래픽과 일치합니다. 이메일 주소는 다른 데이터 유형에 비해 더 두드러지게 나타나며, 사용자는 해당 주소의 텍스트에 따라 갤러리를 정렬 및 필터링할 수 있습니다.
 
@@ -41,9 +41,9 @@ ms.locfileid: "73539173"
 > * 화면 제목 변경
 > * 스크롤 막대 표시
 
-이 자습서는 특정 데이터 원본에서 생성된 앱으로 시작합니다. 그러나 SharePoint 목록, Excel 테이블 또는 다른 데이터 원본을 기반으로 PowerApps에서 생성하는 모든 앱에는 동일한 개념이 적용됩니다.
+이 자습서는 특정 데이터 원본에서 생성된 앱으로 시작합니다. 그러나 동일한 개념은 SharePoint 목록, Excel 테이블 또는 다른 데이터 원본의 Power Apps에서 생성 하는 모든 앱에 적용 됩니다.
 
-PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등록합니다](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+Power Apps에 등록 하지 않은 경우 시작 하기 전에 [무료로 등록](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -57,7 +57,7 @@ Common Data Service의 **계정** 엔터티에서 [앱을 생성](data-platform-
 
     ![편집할 앱 열기](./media/customize-layout-sharepoint/open-app.png)
 
-1. **PowerApps Studio 시작** 대화 상자에서 **건너뛰기**를 선택합니다.
+1. **Power Apps 스튜디오 시작** 대화 상자가 나타나면 **건너뛰기**를 선택 합니다.
 
 ## <a name="change-the-layout"></a>레이아웃 변경
 

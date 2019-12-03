@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1412cdd79531f70a1c029d7657940200823e5ba0
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: b66997884d39e7e584eca7b6413e1fc8ae3caea9
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992850"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680262"
 ---
 # <a name="filter-search-and-lookup-functions-in-powerapps"></a>PowerApps의 Filter, Search 및 LookUp 함수
 [테이블](../working-with-tables.md)에서 하나 이상의 [레코드](../working-with-tables.md#records)를 찾습니다.
@@ -36,7 +36,7 @@ ms.locfileid: "71992850"
 
 **Filter** 및 **Search**는 원본 테이블과 동일한 열을 포함하는 테이블 및 조건과 일치하는 레코드를 반환합니다. **LookUp**은 단일 값으로 레코드를 줄이기 위해 수식을 적용한 후 발견한 첫 번째 레코드만을 반환합니다. 레코드가 발견되지 않는 경우 **Filter** 및 **Search**는 [빈](function-isblank-isempty.md) 테이블을 반환하고 **LookUp**은 *공백*을 반환합니다.  
 
-[Table](../working-with-tables.md)은 PowerApps에서 문자열이나 숫자와 같은 값입니다. 테이블을 함수로 전달하거나 함수로부터 반환할 수 있습니다.  **Filter**, **Search** 및 **LookUp**은 테이블을 수정하지 않습니다. 대신 테이블을 인수로 사용하며 여기에서 테이블, 레코드 또는 단일 값을 반환합니다. 자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
+[테이블](../working-with-tables.md) 은 문자열 또는 숫자와 마찬가지로 Power Apps의 값입니다. 테이블을 함수로 전달하거나 함수로부터 반환할 수 있습니다.  **Filter**, **Search** 및 **LookUp**은 테이블을 수정하지 않습니다. 대신 테이블을 인수로 사용하며 여기에서 테이블, 레코드 또는 단일 값을 반환합니다. 자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
 
 [!INCLUDE [delegation](../../../includes/delegation.md)]
 
@@ -53,7 +53,7 @@ ms.locfileid: "71992850"
 * *Column(s)* - 필수 항목입니다. 찾을 *테이블* 내의 열의 이름입니다. 검색할 열은 텍스트를 포함해야 합니다. 열 이름은 문자열이어야 하며 큰따옴표로 묶여야 합니다. 그러나 열 이름은 정적이어야 하며 수식으로 계산될 수 없습니다. 이러한 열의 데이터 내에서 부분 일치 항목으로 *SearchString*이 발견되는 경우 전체 레코드가 반환됩니다.
 
 > [!NOTE]
-> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+> 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어 **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 **LookUp**( *Table*, *Formula* [, *ReductionFormula* ] )
 
@@ -78,7 +78,7 @@ ms.locfileid: "71992850"
 | **LookUp( IceCream, Flavor = "Chocolate", Quantity )** |적어도 하나가 있는 "Chocolate"과 같은 **Flavor**로 레코드를 검색합니다.  발견된 첫 번째 레코드의 경우 해당 레코드의 **Quantity**를 반환합니다. |100 |
 | **LookUp( IceCream, Quantity > 150, Quantity + OnOrder )** |여러 개가 있는 100보다 큰 **Quantity**로 레코드를 검색합니다.  "Vanilla" **Flavor**인 발견된 첫 번째 레코드의 경우 **Quantity** 및 **OnOrder** 열의 합계를 반환합니다. |250 |
 | **LookUp( IceCream, Flavor = "Pistachio", OnOrder )** |하나도 없는 "Pistachio"와 같은 **Flavor**로 레코드를 검색합니다.  아무 것도 발견되지 않았으므로 **Lookup**은 *공백*을 반환합니다. |*공백* |
-| **LookUp( IceCream, Flavor = "Vanilla" )** |적어도 하나가 있는 "Vanilla"와 같은 **Flavor**로 레코드를 검색합니다.  감소가 없는 수식이 제공됐으므로 전체 레코드가 반환됩니다. |버전과 "바닐라", 수량: 200, OnOrder: 75} |
+| **LookUp( IceCream, Flavor = "Vanilla" )** |적어도 하나가 있는 "Vanilla"와 같은 **Flavor**로 레코드를 검색합니다.  감소가 없는 수식이 제공됐으므로 전체 레코드가 반환됩니다. |{ Flavor: "Vanilla", Quantity: 200, OnOrder: 75 } |
 
 ### <a name="search-user-experience"></a>검색 사용자 환경
 많은 앱에서 하나 이상의 문자를 검색 상자에 입력하면 큰 데이터 집합의 레코드 목록을 필터링할 수 있습니다. 입력하는 동안 검색 조건과 일치하는 레코드만 목록에 표시됩니다.
@@ -89,7 +89,7 @@ ms.locfileid: "71992850"
 
 이 데이터 원본을 컬렉션으로 만들려면 **[Button](../controls/control-button.md)** 컨트롤을 만들고 **OnSelect** 속성을 다음 수식으로 설정합니다.
 
-**ClearCollect (Customers, Table ({Name: "Fred 가르시아 섬", 회사: "Northwind Traders"}, {이름: "Cole", 회사: "Contoso"}, {Name: "글 록 enda Johnson", 회사: "Contoso"}, {Name: "Mike Collins", 회사: "놀이 Works"}, {Name: "Colleen Jones", 회사: "놀이 Works"})**
+**ClearCollect( Customers, Table( { Name: "Fred Garcia", Company: "Northwind Traders" }, { Name: "Cole Miller", Company: "Contoso" }, { Name: "Glenda Johnson", Company: "Contoso" }, { Name: "Mike Collins", Company: "Adventure Works" }, { Name: "Colleen Jones", Company: "Adventure Works" } ) )**
 
 이 예제에서와 같이 화면 하단의 [**갤러리 컨트롤**](../controls/control-gallery.md)에 레코드 목록을 표시할 수 있습니다. 사용자가 관심 있는 레코드를 지정할 수 있도록 화면 맨 위 가까이에 **SearchInput**이라는 [**텍스트 입력**](../controls/control-text-input.md) 컨트롤을 추가합니다.
 

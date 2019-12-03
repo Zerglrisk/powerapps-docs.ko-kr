@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에 대한 데이터 양식 레이아웃 이해 | Microsoft Docs
-description: PowerApps에서 행과 열을 사용하여 캔버스 앱에 멋진 양식 레이아웃을 만듭니다.
+description: Power Apps에서 행과 열을 사용 하 여 캔버스 앱에서 멋진 양식 레이아웃을 만듭니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2ef11e767fcf92259839c4bebe282757b0004f21
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: f447a467319f814fd79aab6827bf623d35345102
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71989133"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674534"
 ---
 # <a name="understand-data-form-layout-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 양식 레이아웃 이해 | Microsoft Docs
 
-PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양식을 쉽게 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
+Power Apps에서 캔버스 앱을 빌드할 때 편리 하 고 효율적인 형태를 만듭니다. 예를 들어 판매 주문을 기록하기 위해 다음 기본 양식을 고려해 보세요.
 
 ![판매 주문 샘플](./media/working-with-form-layout/sales-order.png)
 
@@ -30,9 +30,9 @@ PowerApps에서 캔버스 앱을 빌드할 때 매력적이고 효율적인 양�
 
 ## <a name="before-you-start"></a>시작하기 전에
 
-PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에는 이 항목을 살펴보기 전에 [앱을 처음부터 빌드](get-started-create-from-blank.md)합니다. 앱을 처음부터 빌드하는 경우 이 항목에서 언급하지만 설명하지 않는 데이터 원본 및 컨트롤 추가와 같이 필요한 개념에 익숙해집니다.
+Power Apps를 처음 접하는 경우 (또는 앱을 자동으로 생성 한 경우)이 항목을 살펴보기 전에 [앱을 처음부터 빌드해야](get-started-create-from-blank.md) 합니다. 앱을 처음부터 빌드하는 경우 이 항목에서 언급하지만 설명하지 않는 데이터 원본 및 컨트롤 추가와 같이 필요한 개념에 익숙해집니다.
 
-이 항목은 **판매 주문** 이름이 지정 되 고 이전 그래픽의 필드를 포함 하는 데이터 원본이 있는 경우에 작성 됩니다. PowerApps 요금제 2 라이선스 또는 [평가판 라이선스](../signup-for-powerapps.md) 와 시스템 관리자 또는 시스템 사용자 지정자 권한이 있는 경우 Common Data Service에서 [엔터티를 만들고](../common-data-service/data-platform-create-entity.md) 비슷한 필드를 추가할 수 있습니다. 
+이 항목은 **판매 주문** 이름이 지정 되 고 이전 그래픽의 필드를 포함 하는 데이터 원본이 있는 경우에 작성 됩니다. Power Apps 요금제 2 라이선스 또는 [평가판 라이선스](../signup-for-powerapps.md) 와 시스템 관리자 또는 시스템 사용자 지정자 권한이 있는 경우 Common Data Service에서 [엔터티를 만들고](../common-data-service/data-platform-create-entity.md) 비슷한 필드를 추가할 수 있습니다. 
 
 ## <a name="add-a-gallery"></a>갤러리 추가
 
@@ -199,13 +199,13 @@ PowerApps를 처음 사용하거나 앱을 자동으로만 생성한 경우에�
 | 자동으로 카드의 행 간 레이아웃 재지정(나중에 자세히 설명함) |예 |아니요 |
 
 ## <a name="set-width-and-height"></a>너비 및 높이 설정
-PowerApps의 모든 레이아웃과 마찬가지로 양식의 레이아웃은 카드 컨트롤의 속성으로 제어됩니다. 이미 설명한 대로 컨트롤을 다른 위치로 끌거나 잡기 핸들을 끌어서 컨트롤의 크기를 조정함으로써 이러한 속성의 값을 변경할 수 있습니다. 그러나 특히 수식을 사용하여 양식을 동적으로 만들 때 이러한 속성을 더 정확하게 이해하고 조작하려는 상황을 알게 됩니다.
+Power Apps의 모든 것과 마찬가지로 폼의 레이아웃은 카드 컨트롤의 속성에 의해 제어 됩니다. 이미 설명한 대로 컨트롤을 다른 위치로 끌거나 잡기 핸들을 끌어서 컨트롤의 크기를 조정함으로써 이러한 속성의 값을 변경할 수 있습니다. 그러나 특히 수식을 사용하여 양식을 동적으로 만들 때 이러한 속성을 더 정확하게 이해하고 조작하려는 상황을 알게 됩니다.
 
-### <a name="basic-layout-x-y-and-width"></a>기본 레이아웃: X, Y 및 Width
+### <a name="basic-layout-x-y-and-width"></a>기본 레이아웃: X, Y 및 너비
 **X** 및 **Y** 속성은 카드의 위치를 제어합니다. 원시 캔버스의 컨트롤을 사용하는 경우 이러한 속성은 절대 위치를 제공합니다. 양식에서 이러한 속성은 다른 의미를 갖습니다.
 
-* **X**: 행의 순서입니다.
-* **Y**: 행 번호입니다.
+* **X**: 행 내 순서
+* **Y**: 행 번호
 
 캔버스의 컨트롤과 마찬가지로 **Width** 속성은 카드의 최소 너비(모멘트당 최소 가로 세로 비율 이상)를 지정합니다.
 
@@ -224,7 +224,7 @@ PowerApps의 모든 레이아웃과 마찬가지로 양식의 레이아웃은 �
 
 이 동작을 사용하여 완전한 동적 레이아웃을 만들 수 있습니다. 이 경우 카드는 Z 순서에 따라 배치되며 다음 행으로 이동하기 전에 최대한 많이 채웁니다. 이 효과를 얻으려면 모든 카드에 동일한 **Y** 값을 제공하고 카드 순서에 대해 **X**를 사용합니다.
 
-### <a name="filling-spaces-widthfit"></a>공백 채우기: WidthFit
+### <a name="filling-spaces-widthfit"></a>공간 채우기: WidthFit
 마지막 예제의 오버플로는 첫 번째 행의 두 번째 카드인 **주문 상태** 카드 뒤에 공간을 만들었습니다. 이 공간을 채우기 위해 나머지 두 카드의 **Width** 속성을 수동으로 조정할 수 있지만 이 방법은 싫증나는 작업입니다.
 
 다른 방법으로 **WidthFit** 속성을 사용합니다. 행에 있는 하나 이상의 카드에 대해 이 속성을 **true**로 설정하면 행에 남아 있는 공간이 카드 간에 균등하게 분할됩니다. 이 동작은 이전에 카드의 **Width** 속성이 '최소'이며 실제로 표시되는 부분이 더 넓을 수 있다고 설명한 것입니다. 이 속성은 카드를 결코 줄이지 않고 늘리기만 합니다.

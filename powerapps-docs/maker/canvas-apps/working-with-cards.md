@@ -1,6 +1,6 @@
 ---
 title: 데이터 카드 이해 | Microsoft Docs
-description: PowerApps에서 폼 카드를 사용하여 데이터 원본에서 정보를 수집하고 표시합니다.
+description: Power Apps에서 양식 카드를 사용 하 여 데이터 원본에서 정보를 수집 하 고 표시 합니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 113d76a3b80c2ef68f5e267714e4f792c988d237
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 4e895cbd482e24a1e61d499e6baae7d1ec9c1e82
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71988890"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674505"
 ---
 # <a name="understand-data-cards-in-powerapps"></a>PowerApps의 데이터 카드 이해
 
@@ -32,7 +32,7 @@ ms.locfileid: "71988890"
 
 ## <a name="predefined-cards"></a>미리 정의된 카드
 
-PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 일련의 카드를 제공합니다. 오른쪽 창에서 사용할 수 있는 변동을 확인하고 필드에 사용되는 카드를 변경할 수 있습니다.
+Power Apps는 문자열, 숫자 및 기타 데이터 형식에 대해 미리 정의 된 카드 집합을 제공 합니다. 오른쪽 창에서 사용할 수 있는 변동을 확인하고 필드에 사용되는 카드를 변경할 수 있습니다.
 
 ![](./media/working-with-cards/selected-card.png)
 
@@ -108,7 +108,7 @@ PowerApps는 문자열, 숫자 및 기타 데이터 형식에 미리 정의된 �
 ## <a name="interact-with-a-form"></a>폼 사용
 카드의 잠금을 해제한 후에 이를 포함하는 폼을 사용하는 방법을 변경할 수 있습니다.
 
-컨트롤이 해당 카드를 사용하는 방법 및 카드가 폼을 사용하는 방법에 대한 몇 가지 지침은 다음과 같습니다. 이들은 지침일 뿐입니다. PowerApps의 모든 컨트롤과 마찬가지로 PowerApps에 있는 다른 컨트롤을 참조하고 카드 및 카드 내의 컨트롤에서 true인 수식을 만들 수 있습니다. 창의적인 여러 가지 방법으로 앱을 만들 수 있습니다.  
+컨트롤이 해당 카드를 사용하는 방법 및 카드가 폼을 사용하는 방법에 대한 몇 가지 지침은 다음과 같습니다. 이들은 지침일 뿐입니다. Power Apps의 모든 컨트롤과 마찬가지로, Power Apps의 다른 컨트롤을 참조 하는 수식을 만들 수 있으며 카드 내의 카드 및 컨트롤에는이 값이 적용 되지 않습니다. 창의적인 여러 가지 방법으로 앱을 만들 수 있습니다.  
 
 ### <a name="datafield-property"></a>DataField 속성
 카드의 가장 중요한 속성은 **[DataField](controls/control-card.md)** 속성입니다.  이 속성은 유효성 검사, 업데이트되는 필드 및 카드의 기타 측면을 생성합니다.

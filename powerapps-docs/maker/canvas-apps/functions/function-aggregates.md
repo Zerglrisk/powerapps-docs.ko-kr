@@ -1,6 +1,6 @@
 ---
 title: Average, Max, Min, StdevP, Sum 및 VarP 함수 | Microsoft Docs
-description: PowerApps의 Average, Max, Min, StdevP, Sum 및 VarP 함수에 대한 구문과 예제를 포함한 참조 정보
+description: 구문 및 예제를 포함 하 여 Power Apps의 Average, Max, Min, StdevP, Sum 및 VarP 함수에 대 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9c11c8e689254de1551bd35661d2768407cf4d6f
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 4f25888cebb81b0b18b1dd54faecfa87df4eb1d6
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985542"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678445"
 ---
 # <a name="average-max-min-stdevp-sum-and-varp-functions-in-powerapps"></a>PowerApps의 Average, Max, Min, StdevP, Sum 및 VarP 함수
 일련의 숫자를 요약하는 집계 함수입니다.
@@ -45,7 +45,7 @@ ms.locfileid: "71985542"
 
 이러한 함수는 숫자 값에 대해서만 작동합니다. 문자열이나 레코드와 같은 다른 유형의 값은 무시됩니다. 문자열을 숫자로 변환하려면 **[Value](function-value.md)** 함수를 사용합니다.
 
-**Average**, **Max**, **Min** 및 **Sum** 함수는 [이러한 함수에 대한 위임을 지원하는 데이터 원본](../delegation-list.md)과 함께 사용하면 위임이 가능합니다.  하지만 **StdevP** 및 **VarP**는 모든 데이터 원본에 대해 위임할 수 없습니다.  위임이 지원되지 않으면 데이터의 첫 번째 부분만 검색된 다음 함수가 로컬에 적용됩니다.  결과가 전체 상황을 나타내지 못할 수 있습니다.  해당하는 경우 이러한 제한 사항을 상기시키고 위임 가능한 대안으로 전환하도록 제안하기 위해 수식 작성 시 위임 경고가 표시됩니다. 자세한 내용은 [위임 개요](../delegation-overview.md)를 참조하세요.
+**Average**, **Max**, **Min** 및 **Sum** 함수는 [이러한 함수에 대한 위임을 지원하는 데이터 원본](../delegation-list.md)과 함께 사용하면 위임이 가능합니다.  하지만 **StdevP** 및 **VarP**는 모든 데이터 원본에 대해 위임할 수 없습니다.  위임이 지원되지 않으면 데이터의 첫 번째 부분만 검색된 다음 함수가 로컬에 적용됩니다.  결과에 전체 스토리가 나타나지 않을 수 있습니다.  해당하는 경우 이러한 제한 사항을 상기시키고 위임 가능한 대안으로 전환하도록 제안하기 위해 수식 작성 시 위임 경고가 표시됩니다. 자세한 내용은 [위임 개요](../delegation-overview.md)를 참조하세요.
 
 ## <a name="syntax"></a>구문
 **Average**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Max**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Min**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**Sum**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**StdevP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )<br>**VarP**( *NumericalFormula1*, [ *NumericalFormula2*, ... ] )

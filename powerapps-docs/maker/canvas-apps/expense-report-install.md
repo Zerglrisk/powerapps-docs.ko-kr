@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
-description: PowerApps에서 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성하기 위한 단계별 지침입니다.
+description: Power Apps에서 캔버스 앱에 대 한 비용 보고서 샘플을 설치 및 구성 하는 방법에 대 한 단계별 지침입니다.
 author: matthewbolanos
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: afdeb89b0bd026b20e0c940b05be60d4d3238b81
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f66ae4ba95d19e871e101979496760931b6821e3
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540213"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679526"
 ---
 # <a name="install-and-configure-the-expense-report-sample-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 대한 경비 보고서 샘플 설치 및 구성 | Microsoft Docs
 
@@ -206,7 +206,7 @@ ms.locfileid: "73540213"
 
     [https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip](https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/myexpenses/docs/MyExpenses(SP_List).zip).
 
-2. 경비 보고서 PowerApps 샘플 패키지를 다운로드하고 머신에 저장합니다.
+2. 지출 보고서 파워 앱 샘플 패키지를 다운로드 하 여 컴퓨터에 저장 합니다.
 
 ## <a name="create-connections"></a>연결 만들기
 

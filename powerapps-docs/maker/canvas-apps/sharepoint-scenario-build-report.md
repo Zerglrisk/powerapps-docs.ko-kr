@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9693e45da894348acd27b96f73d1358819812ae4
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: dbe706b19ccc974eda95f47145ced2e9ff14a4c6
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73900347"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674887"
 ---
 # <a name="create-a-power-bi-report-to-analyze-projects"></a>프로젝트를 분석하는 Power BI 보고서 만들기
 > [!NOTE]
-> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 SharePoint Online에서 Power Apps, 파워 자동화 및 Power BI 사용에 대 한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 작업에서는 두 가지 SharePoint 목록을 기반으로 하여 Power BI 보고서를 만듭니다. 목록 데이터를 Power BI Desktop으로 가져오고, 약간 정리하고, 몇 가지 기본 데이터 모델링을 수행하고, 데이터에 대한 중요한 의미를 알려주는 일단의 시각적 개체를 만듭니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d514342bc51cdd6aa737da1b893530d702127bd1
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: ed104f5ae4e7244e5a49b6cbc67745fd2f9e24dc
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650486"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678606"
 ---
 # <a name="html-text-control-in-powerapps"></a>PowerApps의 HTML 텍스트 컨트롤
 텍스트를 표시하고 HTML 태그를 서식 지정으로 변환하는 상자입니다.
@@ -102,4 +102,4 @@ ms.locfileid: "73650486"
 * **HtmlText**가 있어야 합니다.
 
 ### <a name="keyboard-support"></a>키보드 지원
-* **HtmlText**는 `<button>`, `<a>` 또는 `<input>`과 같은 대화형 요소를 포함해서는 안 됩니다. PowerApps의 **[TabIndex](properties-accessibility.md)** 시스템은 **HtmlText** 내부의 요소를 고려하지 않습니다.
+* **HtmlText**는 `<button>`, `<a>` 또는 `<input>`과 같은 대화형 요소를 포함해서는 안 됩니다. Power Apps의 **[TabIndex](properties-accessibility.md)** 시스템은 **HtmlText**내부의 요소를 고려 하지 않습니다.

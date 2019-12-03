@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 일반적인 문제 및 해결 방법 | Microsoft Docs
+title: 파워 앱에 대 한 일반적인 문제 및 해결 방법 | Microsoft Docs
 description: PowerApps의 일반적인 문제 및 해결 방법에 대한 목록입니다.
 author: KumarVivek
 manager: kvivek
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2c093adb4b63b5374de118d8d7dbb3421e352f46
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: c8f05c74141301d0c41238daa20625874eec98aa
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541067"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678790"
 ---
 # <a name="common-issues-and-resolutions-for-powerapps"></a>PowerApps의 일반적인 문제 및 해결 방법
 
-이 문서에서는 PowerApps를 사용하는 동안 발생할 수 있는 몇 가지 일반적인 문제가 나와 있습니다. 적용 가능한 경우 해결 방법이 제공됩니다.
+이 문서에서는 Power Apps를 사용 하는 동안 발생할 수 있는 몇 가지 일반적인 문제를 나열 합니다. 적용 가능한 경우 해결 방법이 제공됩니다.
 
 1. **인증자를 사용 하는 경우 특정 Android 모바일 장치에서 로그인 문제** (2019 년 8 월 21 일)
 
@@ -36,24 +36,24 @@ ms.locfileid: "73541067"
 
     손가락으로 스크롤하면 제한이 발생 하면이를 리프트 하 고 다시 스크롤을 시작 합니다.
 
-1. Windows 용 PowerApps (9 월 24 일, 2018) **에서 마우스 또는 터치 입력으로 그리기는 자연스럽 게 진행 되지 않습니다** .
+1. Windows 용 Power Apps (9 월 24 일, 2018) **에서 마우스 또는 터치 입력으로 그리기는 원활 하지 않습니다** .
 
     펜 컨트롤은 Windows 앱에서 마우스 또는 터치 입력을 사용한 그리기를 부분적 으로만 지원 합니다. 스트로크는 간헐적 일 수 있습니다. 부드러운 그리기의 경우 펜을 사용 하거나 브라우저에서 앱을 실행 합니다.
 
-1. **PowerApps Mobile의 여러 미디어 컨트롤**(2018년 8월 2일)
+1. **Power Apps Mobile의 여러 미디어 컨트롤** (8, 2018,)
 
-    PowerApps Mobile은 다양한 유형의 디바이스에서 실행되며 그 중 일부는 해당 플랫폼과 관련된 제한 사항이 있습니다.
+    Power Apps 모바일은 다양 한 유형의 장치에서 실행 되며, 그 중 일부는 해당 플랫폼과 관련 된 제한 사항이 있습니다.
 
     - iPhone 디바이스를 제외한 모든 플랫폼에서 여러 **비디오** 컨트롤로 동시에 비디오를 재생할 수 있습니다.
     - 웹 플레이어를 제외한 모든 플랫폼에서 여러 **마이크로폰** 컨트롤로 동시에 오디오를 녹음할 수 있습니다.
 
 1. **앱 다시 게시**(2018년 8월 2일)
 
-    몇 개월 내에 앱을 업데이트하지 않은 경우 성능 향상 및 기타 수정 사항이 포함된 PowerApps의 최신 버전과 동기화하도록 다시 게시합니다.
+    몇 달 후에 앱을 업데이트 하지 않은 경우 최신 버전의 Power Apps와 동기화 하도록 다시 게시 합니다. 여기에는 성능 향상 및 기타 수정이 포함 됩니다.
 
 1. <a name="out-of-memory"></a>**브라우저 메모리 부족**(2018년 7월 23일)
 
-    PowerApps를 사용 하는 동안 메모리가 부족 한 경우 64 비트 버전의 Chrome, Microsoft Edge 또는 Internet Explorer를 다운로드 하는 것을 고려 하세요.
+    Power Apps를 사용 하는 동안 메모리가 부족 한 경우 64 비트 버전의 Chrome, Microsoft Edge 또는 Internet Explorer를 다운로드 하는 것을 고려 하세요.
 
 1. **포함된 앱에서 웹 사이트 시작**(2018년 5월 10일)
 
@@ -65,7 +65,7 @@ ms.locfileid: "73541067"
 
 1. **사용자 지정 이미지를 앱 아이콘으로 사용**(2018년 4월 11일)
 
-    Windows용 PowerApps Studio 버전 3.18043에서는 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결하려면 [웹용 PowerApps Studio](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하여 사용자 지정 이미지를 업로드합니다. 또는 Windows용 PowerApps Studio에 포함된 아이콘 중 하나를 사용하고 배경색을 사용자 지정할 수 있습니다.
+    Windows 버전 3.18043 용 Power Apps Studio에서 앱 아이콘으로 사용할 사용자 지정 이미지를 업로드할 수 없습니다. 이 문제를 해결 하려면 [web 용 Power Apps Studio](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 를 사용 하 여 사용자 지정 이미지를 업로드 합니다. 또는 Windows 용 Power Apps Studio에 포함 된 아이콘 중 하나를 사용 하 고 배경색을 사용자 지정할 수 있습니다.
 
 1. **앱 간에 화면 복사 및 붙여넣기**(2018년 4월 4일)
 
@@ -79,33 +79,33 @@ ms.locfileid: "73541067"
 
     **Items** 속성이 **Filter** 함수가 포함된 수식으로 설정된 **데이터 테이블** 컨트롤을 복사하여 붙여넣으면, 새 **데이터 테이블** 컨트롤의 **Items** 속성에 대한 수식은 **_1** 접미사가 포함된 필드 이름으로 끝납니다. 그러면 필드 이름이 유효하지 않게 되어 데이터 테이블에 데이터가 표시되지 않습니다. 이 문제를 해결하려면 컨트롤을 복사하기 전에 **Filter** 함수가 **데이터 테이블** 컨트롤의 열과 이름이 동일한 데이터 원본의 필드를 참조하지 않는지 확인합니다. 그런 경우에는 **데이터 테이블** 컨트롤에 포함된 열의 이름을 변경합니다. 아니면, 엔터티의 이름과 일치하도록 잘못된 필드 이름에서 **_1** 접미사를 제거합니다.
 
-1. **Windows용 PowerApps Studio의 카메라 컨트롤**
+1. **Windows 용 Power Apps 스튜디오의 카메라 컨트롤**
 
-    카메라 컨트롤을 추가하거나 카메라 컨트롤을 사용하는 앱을 열 경우 Windows용 PowerApps Studio가 충돌할 수 있습니다. 이 문제를 방지하려면 카메라 컨트롤을 추가하거나 사용할 때 [웹용 PowerApps Studio](create-app-browser.md)를 사용하세요.
+    카메라 컨트롤을 추가 하거나 카메라 컨트롤을 사용 하는 앱을 열 경우 Windows 용 Power Apps 스튜디오가 작동 하지 않을 수 있습니다. 이 문제를 방지 하려면 카메라 컨트롤을 추가 하거나 사용할 때 [web 용 Power Apps Studio](create-app-browser.md) 를 사용 합니다.
 
 1. **Android 디바이스의 릴리스 2.0.700**
 
-    Android 디바이스에 릴리스 2.0.700을 설치한 후 앱을 열 수 없는 경우(또는 앱이 응답을 멈춘 경우) PowerApps를 제거하고 디바이스를 다시 시작한 후 PowerApps를 다시 설치하세요.
+    Android 장치에 release 2.0.700를 설치한 후 앱을 열 수 없는 경우 (또는 앱의 응답이 중지 되는 경우), 전원 앱을 제거 하 고 장치를 다시 시작한 다음 PowerApps를 다시 설치 합니다.
 
 1. **앱을 열 때 “빈” 갤러리**
 
     데이터에서 앱을 자동으로 생성하고 앱을 저장한 다음 다시 열면 갤러리 찾아보기에 데이터가 즉시 표시되지 않을 수 있습니다. 이 문제를 해결하려면 검색 상자에 문자를 하나 이상 입력한 다음 입력한 텍스트를 삭제하십시오. 그러면 갤러리에 데이터가 예상대로 표시됩니다.
 
-1. **Windows 8.1에서 PowerApps 업그레이드**
+1. **Windows 8.1에서 전원 앱 업그레이드**
 
-    Windows 8 또는 Windows 8.1을 실행하는 컴퓨터에서 PowerApps를 설치하는 경우 Windows 스토어 앱을 열어 활성 상태로 유지하고 설정 아이콘을 사용하여 업데이트를 확인한 다음 설치합니다.
+    Windows 8 또는 Windows 8.1를 실행 하는 컴퓨터에 전원 앱을 설치 하는 경우 Windows 스토어 앱을 열어 활성 상태로 유지 하 고 설정 참을 사용 하 여 업데이트를 확인 한 다음 설치 합니다.
 
 1. **Common Data Service의 사용자 지정 커넥터**
 
-    PowerApps 2.0.540 이전 버전을 사용하여 만든 앱이 Common Data Service의 데이터베이스 및 다른 환경에서 하나 이상의 사용자 지정 커넥터를 사용하는 경우, 데이터베이스와 동일한 환경에 커넥터를 배포하고 새로운 커넥터를 사용하도록 앱을 업데이트해야 합니다. 그렇지 않으면 API를 찾을 수 없는 사용자에게 대화 상자를 통해 알려 줍니다. 자세한 내용은 [환경 개요](../../administrator/environments-overview.md)를 참조하세요.
+    2\.0.540 또는 이전 버전의 Power Apps 빌드를 사용 하 여 만든 앱이 Common Data Service 데이터베이스를 사용 하 고 다른 환경에 있는 하나 이상의 사용자 지정 커넥터를 사용 하는 경우 커넥터를 데이터베이스와 동일한 환경에 배포 하 고 th를 사용 하도록 앱을 업데이트 해야 합니다. e 새 커넥터. 그렇지 않으면 API를 찾을 수 없는 사용자에게 대화 상자를 통해 알려 줍니다. 자세한 내용은 [환경 개요](../../administrator/environments-overview.md)를 참조하세요.
 
 1. **Windows 8.1에서 앱 실행**
 
-    [이 Windows 8.1용 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치하는 경우 해당 운영 체제에서 PowerApps Studio로 여는 앱을 실행할 수 없습니다. 하지만 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 PowerApps Mobile로 여는 앱은 계속 실행할 수 있습니다.
+    [Windows 8.1에 대해이 업데이트](https://technet.microsoft.com/library/security/ms16-118)를 설치 하는 경우 해당 운영 체제에서 Power apps Studio에서 연 앱을 실행할 수 없습니다. 그러나 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 또는 Power apps Mobile을 사용 하 여 연 앱을 계속 실행할 수 있습니다.
 
 1. **공백이 포함된 열 이**
 
-    열 이름에 공백이 포함된 SharePoint 목록 또는 Excel 테이블을 사용하는 경우 PowerApps에서 공백이 **"\_x0020\_"** 으로 바뀝니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+    열 이름에 공백이 포함 된 SharePoint 목록 또는 Excel 테이블을 사용 하는 경우 Power Apps는 **"\_x0020\_"** 로 대체 합니다. 예를 들어 SharePoint 또는 Excel의 **"열 이름"** 은 데이터 레이아웃에 표시 되거나 수식에 사용 될 때 Power Apps에서 **"Column_x0020_Name"** 로 표시 됩니다.
 
 1. **공유 앱의 흐름 변경**
 
@@ -131,7 +131,7 @@ ms.locfileid: "73541067"
 
 1. **브라우저에서 앱 만들고 수정**
 
-    Windows용 PowerApps Studio에서와 마찬가지로 웹용 PowerApps Studio에서도 동일한 작업을 많이 수행할 수 있지만 일부는 사용할 수 없습니다. 자세한 내용은 [브라우저에서 앱 만들기](create-app-browser.md)를 참조하세요.
+    Windows 용 Power Apps 스튜디오에서 사용할 수 있는 것 처럼 web 용 Power Apps 스튜디오에서 많은 작업을 수행할 수 있습니다. 자세한 내용은 [브라우저에서 앱 만들기](create-app-browser.md)를 참조하세요.
 
 1. **엔터티의 제목 필드 변경**
 
@@ -139,15 +139,15 @@ ms.locfileid: "73541067"
 
 1. **온-프레미스 SharePoint에 연결하는 앱**
 
-    자동으로 공유되지 않는 연결에 의존하는 앱을 공유하는 경우(예: 온-프레미스 SharePoint 사이트) 브라우저에서 이 앱을 연 사용자가 **로그인**을 클릭하거나 탭하면 텍스트가 없는 대화 상자가 나타납니다. 대화 상자를 닫으려면 오른쪽 위 모서리에 있는 닫기 (X) 아이콘을 클릭하거나 탭합니다. PowerApps Studio 또는 PowerApps Mobile에서 앱을 열면 대화 상자가 표시되지 않습니다. 공유 연결에 대한 자세한 내용은 [앱 리소스 공유](share-app-resources.md)를 참조하세요.
+    자동으로 공유되지 않는 연결에 의존하는 앱을 공유하는 경우(예: 온-프레미스 SharePoint 사이트) 브라우저에서 이 앱을 연 사용자가 **로그인**을 클릭하거나 탭하면 텍스트가 없는 대화 상자가 나타납니다. 대화 상자를 닫으려면 오른쪽 위 모서리에 있는 닫기 (X) 아이콘을 클릭하거나 탭합니다. Power Apps Studio 또는 Power Apps Mobile에서 앱을 여는 경우 대화 상자가 나타나지 않습니다. 공유 연결에 대한 자세한 내용은 [앱 리소스 공유](share-app-resources.md)를 참조하세요.
 
-1. **PowerApps는 데이터에서 앱을 생성할 때 정렬 및 검색에 사용된 필드를 자동으로 구성하지 않습니다**.
+1. **Power Apps가 데이터에서 앱을 생성 하는 경우 정렬 및 검색에 사용 되는 필드가 자동으로 구성 되지 않습니다**.
 
    이 필드를 구성하려면 [갤러리 추가](add-gallery.md)의 필터링 및 정렬에 대한 섹션에서 설명하는 대로 해당 갤러리에 대한 **[항목](controls/properties-core.md)** 수식을 편집합니다.
 
 1. **데이터에서 만들어진 앱의 경우 데이터 원본 중 500개의 레코드에만 액세스할 수 있습니다**.
 
-     일반적으로 PowerApps는 해당 데이터 원본에 수행할 작업을 위임하는 방식으로 모든 크기의 데이터 원본을 사용하여 작동합니다. PowerApps는 위임이 불가한 작업의 경우 작성 시 경고 메시지를 표시하고 해당 데이터 원본 중 최초 500개의 레코드에서만 작업을 수행합니다.  위임에 대한 자세한 내용은 [Filter 함수](functions/function-filter-lookup.md) 문서를 참조하세요.
+     일반적으로 Power Apps는 데이터 원본에 작업을 위임 하 여 모든 크기의 데이터 원본으로 작동 합니다. 위임할 수 없는 작업의 경우 Power Apps는 제작 시 경고를 제공 하 고 데이터 원본의 처음 500 레코드 에서만 작동 합니다.  위임에 대한 자세한 내용은 [Filter 함수](functions/function-filter-lookup.md) 문서를 참조하세요.
 
 1. **Excel 데이터는 표 형식으로 작성되어야 합니다**.
 

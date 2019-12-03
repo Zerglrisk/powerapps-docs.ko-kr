@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 010d567369e9c580b57a55ad251ac5ef01da3597
-ms.sourcegitcommit: 32542f1d17fee757dcdaf9c247f4051f59b86434
+ms.openlocfilehash: 7e29674e689ff77599bb49c58e7b0edbc028b6be
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73741336"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675956"
 ---
 # <a name="create-a-detail-gallery-in-a-canvas-app"></a>캔버스 앱에서 세부 정보 갤러리 만들기
 
@@ -47,7 +47,7 @@ ms.locfileid: "73741336"
 1. 다음 방법 중 하나를 수행 하 여 복사본에서 텍스트를 제거 합니다.
 
     - 텍스트를 두 번 클릭 하 여 선택한 다음 Delete 키를 누릅니다.
-    - 레이블의 **Text** 속성을 빈 문자열 (**""**)로 설정 합니다.
+    - 레이블의 **Text** 속성을 빈 문자열 ( **""** )로 설정 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![제목 표시줄 복사본에서 텍스트를 제거](media/northwind-orders-canvas-part3/details-02.png)
@@ -183,7 +183,7 @@ ms.locfileid: "73741336"
     Text( ThisItem.'Unit Price', "[$-en-US]$ #,###.00" )
     ```
 
-    언어 태그 (**[$-en-us]**)를 포함 하지 않는 경우 해당 언어와 지역에 따라 추가 됩니다. 다른 언어 태그를 사용 하는 경우 닫는 대괄호 (**]**) 바로 다음에 **$** 를 제거한 다음 해당 위치에 통화 기호를 추가 합니다.
+    언어 태그 ( **[$-en-us]** )를 포함 하지 않는 경우 해당 언어와 지역에 따라 추가 됩니다. 다른 언어 태그를 사용 하는 경우 닫는 대괄호 ( **]** ) 바로 다음에 **$** 를 제거한 다음 해당 위치에 통화 기호를 추가 합니다.
 
     > [!div class="mx-imgBorder"]
     > 단가](media/northwind-orders-canvas-part3/details-15.png) 표시 ![
@@ -201,7 +201,7 @@ ms.locfileid: "73741336"
     Text( ThisItem.Quantity * ThisItem.'Unit Price', "[$-en-US]$ #,###.00" )
     ```
 
-    언어 태그 (**[$-en-us]**)를 포함 하지 않으면 언어와 지역에 따라 추가 됩니다. 태그가 다른 경우 닫는 대괄호 (**]**) 바로 다음에 **$** 대신 사용자 고유의 통화 기호를 사용 하는 것이 좋습니다.
+    언어 태그 ( **[$-en-us]** )를 포함 하지 않으면 언어와 지역에 따라 추가 됩니다. 태그가 다른 경우 닫는 대괄호 ( **]** ) 바로 다음에 **$** 대신 사용자 고유의 통화 기호를 사용 하는 것이 좋습니다.
 
     > [!div class="mx-imgBorder"]
     > ![확장 된 가격](media/northwind-orders-canvas-part3/details-17.png) 표시
@@ -322,7 +322,7 @@ ms.locfileid: "73741336"
 
 ## <a name="select-a-product"></a>제품 선택
 
-1. **삽입** 탭에서 **컨트롤**  > **콤보 상자**를 선택 합니다.
+1. **삽입** 탭에서 **컨트롤** > **콤보 상자**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![삽입 콤보 상자](media/northwind-orders-canvas-part3/add-details-08.png)
@@ -334,7 +334,7 @@ ms.locfileid: "73741336"
     > [!div class="mx-imgBorder"]
     > ![콤보 상자의 Items 속성을 설정](media/northwind-orders-canvas-part3/add-details-09.png)
 
-1. 콤보 상자의 **속성** 탭에서 **필드**옆에 있는 **편집** 을 선택 하 여 **데이터** 창을 엽니다.  **주 텍스트** 및 **searchfield** 가 **nwind_productname**으로 설정 되어 있는지 확인 합니다.
+1. 콤보 상자의 **속성** 탭에서 **필드**옆에 있는 **편집** 을 선택 하 여 **데이터** 창을 엽니다.  **주 텍스트** 및 **searchfield** 가 **nwind_productname**로 설정 되어 있는지 확인 합니다.
 
     이 경우 **데이터** 창에서 표시 이름을 지원 하지 않으므로 논리적 이름을 지정 합니다.
 
@@ -358,7 +358,7 @@ ms.locfileid: "73741336"
 1. Alt 키를 누른 채 콤보 상자의 아래쪽 화살표를 선택 합니다.
 
     > [!TIP]
-    > Alt 키를 누른 채 미리 보기 모드를 열지 않고 PowerApps Studio의 컨트롤과 상호 작용할 수 있습니다.
+    > Alt 키를 누른 채 Preview 모드를 열지 않고 Power Apps Studio에서 컨트롤과 상호 작용할 수 있습니다.
 
 1. 표시 되는 제품 목록에서 제품을 선택 합니다.
 
@@ -367,7 +367,7 @@ ms.locfileid: "73741336"
 
 ## <a name="add-a-product-image"></a>제품 이미지 추가
 
-1. **삽입** 탭에서 **미디어**  > **이미지**를 선택 합니다.
+1. **삽입** 탭에서 **미디어** > **이미지**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 이미지 컨트롤 삽입 ![](media/northwind-orders-canvas-part3/add-details-15.png)
@@ -392,7 +392,7 @@ ms.locfileid: "73741336"
 
 ## <a name="add-a-quantity-box"></a>수량 상자 추가
 
-1. **삽입** 탭에서 **텍스트**  > **텍스트 입력**을 선택 합니다.
+1. **삽입** 탭에서 **텍스트** > **텍스트 입력**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 텍스트 ![추가-입력 상자](media/northwind-orders-canvas-part3/add-details-18.png)
@@ -469,7 +469,7 @@ ms.locfileid: "73741336"
 
 ## <a name="add-an-add-icon"></a>추가 아이콘 추가
 
-1. **삽입** 탭에서 **아이콘** 을 선택 하  > **추가**를 선택 합니다.
+1. **삽입** 탭에서 **아이콘** 을 선택 하 > **추가**를 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 추가 아이콘 ![삽입](media/northwind-orders-canvas-part3/add-details-29.png)
@@ -533,7 +533,7 @@ ms.locfileid: "73741336"
     > [!div class="mx-imgBorder"]
     > 갤러리 템플릿 ![선택](media/northwind-orders-canvas-part3/remove-details-01.png)
 
-1. **삽입** 탭에서**휴지통** >  **아이콘** 을 선택 합니다.
+1. **삽입** 탭에서 **휴지통** > **아이콘** 을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 휴지통 아이콘 ![삽입](media/northwind-orders-canvas-part3/remove-details-02.png)
@@ -567,7 +567,7 @@ ms.locfileid: "73741336"
 
 요약 하자면 주문 세부 정보를 표시 하는 다른 갤러리를 추가 하 고 앱에서 주문 세부 정보를 추가 및 제거 하는 컨트롤을 추가 했습니다. 다음 요소를 사용 했습니다.
 
-- 일 대 다 관계를 통해 주문 갤러리에 연결 된 두 번째 갤러리 컨트롤: **프로그램도 있습니다**  =  `Gallery1.Selected.'Order Details'`
+- 일 대 다 관계를 통해 주문 갤러리에 연결 된 두 번째 갤러리 컨트롤: **프로그램도 있습니다** = `Gallery1.Selected.'Order Details'`
 - **Order Details** 엔터티에서 **order Products** 엔터티: `ThisItem.Product.'Product Name'` 및 `ThisItem.Product.Picture`에 대 한 다대일 관계
 - 제품 목록을 가져오는 **선택** 함수: `Choices( 'Order Details'.Product' )`
 - 다 대 일 관련 레코드로 전체 콤보 상자의 **선택** 된 속성: `ComboBox1.Selected.Picture` 및 `ComboBox1.Selected.'List Price'`

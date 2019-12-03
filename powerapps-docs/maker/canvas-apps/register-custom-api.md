@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7beb08afe2e7a6fa68f5017ff70f95f5dcee75f8
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: 2997c2854979d019a71de8d00ddab37263b789d6
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73899842"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675426"
 ---
 # <a name="custom-connectors-for-canvas-apps"></a>캔버스 앱용 사용자 지정 커넥터
 
@@ -32,7 +32,7 @@ ms.locfileid: "73899842"
 
 * [처음부터 사용자 지정 커넥터 만들기](https://docs.microsoft.com/connectors/custom-connectors/define-blank)
 
-* [PowerApps 앱에서 사용자 지정 커넥터 사용](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-powerapps)
+* [Power Apps 앱에서 사용자 지정 커넥터 사용](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-powerapps)
 
 * [조직에서 사용자 지정 커넥터 공유](https://docs.microsoft.com/connectors/custom-connectors/share)
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9f7349faf01d2270427c8cd5862a55e413033023
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: f7e1b4ff10a12d454380c394b2f6ae64389bc23e
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650386"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679733"
 ---
 # <a name="pdf-viewer-control-experimental-in-powerapps"></a>PowerApps의 PDF 뷰어 컨트롤(실험)
 PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
@@ -27,7 +27,7 @@ PDF 파일의 콘텐츠를 표시하는 실험적 컨트롤입니다.
 이 형식의 컨트롤을 추가하고, **Document** 속성을 표시하려는 파일의 URL(큰따옴표로 묶은)로 설정하여 PDF 파일에 있는 텍스트, 그래픽 및 기타 콘텐츠를 표시합니다.
 
 ## <a name="limitations"></a>제한 사항
-1. PowerApps의 보안 아키텍처에서 HTTP가 아닌 HTTPS 링크만 지원 하려면 PDF 뷰어가 필요 합니다.  
+1. Power Apps의 보안 아키텍처에서 HTTP가 아닌 HTTPS 링크만 지원 하려면 PDF 뷰어가 필요 합니다.  
 
 2. **문서** 속성은 PDF 파일에 직접 연결 해야 합니다. 문서에 대 한 서버 리디렉션 또는 HTML 보기가 지원 되지 않습니다.
 

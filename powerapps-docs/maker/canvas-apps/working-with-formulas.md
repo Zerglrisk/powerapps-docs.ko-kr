@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에서 수식 시작 | Microsoft Docs
-description: PowerApps에서 수식을 사용하여 캔버스 앱을 사용자 지정합니다.
+description: Power Apps에서 수식을 사용 하 여 캔버스 앱을 사용자 지정 합니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,19 +13,19 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 715f82a1db2c8a4bb495e41b45a3911182024158
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 42f5f188f107e8a5768ed9a74f463d1fc9bbc286
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541625"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74673199"
 ---
 # <a name="get-started-with-canvas-app-formulas-in-powerapps"></a>PowerApps에서 캔버스 앱 수식 시작
 
 Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행하는 것 외에도 캔버스 앱에서 요구하는 사용자의 입력 값에 응답하는 등 수식을 사용하여 앱을 구성할 수 있습니다.
 
 * Excel의 경우 셀을 채우고 표와 차트를 작성하는 등에 대한 수식을 작성합니다.
-* PowerApps의 경우 셀 대신 컨트롤을 구성하는 것과 같은 수식을 작성합니다. 또한 스프레드시트 대신 앱에만 적용되는 수식을 작성합니다.
+* Power Apps에서 셀 대신 컨트롤을 구성할 때 비슷한 수식을 작성 합니다. 또한 스프레드시트 대신 앱에만 적용되는 수식을 작성합니다.
 
 예를 들어, 사용자가 단추를 선택하거나, 슬라이더를 조정하거나, 다른 입력 값을 제공할 때 앱이 응답하는 방식을 결정하기 위한 수식을 작성합니다. 이러한 수식으로 다른 화면을 표시하거나 앱 외부의 데이터 원본을 앱에 업데이트하거나, 기존 표에 있는 데이터의 하위 집합을 포함하는 표를 만들 수 있습니다.
 
@@ -35,12 +35,12 @@ Excel에서 작업하는 것처럼 값을 계산하고 다른 작업을 수행�
 
 ## <a name="prerequisites"></a>필수 조건
 
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 제공 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 * PowerApps에서 [컨트롤 구성](add-configure-controls.md)을 어떻게 하는지 알아봅니다.
 
 ## <a name="show-a-simple-value"></a>간단한 값 표시
 
-Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 같단한 특정 데이터를 셀에 입력할 수 있습니다. 해당 셀은 사용자가 입력한 대로 해당 데이터를 항상 표시합니다. PowerApps의 경우 레이블의 **[텍스트](controls/properties-core.md)** 속성을 큰따옴표로 묶인 정확한 문자 시퀀스로 설정하여 데이터의 일부가 변경되지 않도록 지정할 수 있습니다.
+Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 같단한 특정 데이터를 셀에 입력할 수 있습니다. 해당 셀은 사용자가 입력한 대로 해당 데이터를 항상 표시합니다. Power Apps에서는 레이블의 **[텍스트](controls/properties-core.md)** 속성을 큰따옴표로 묶은 정확한 문자 시퀀스로 설정 하 여 변경 되지 않는 데이터의 일부를 비슷하게 지정할 수 있습니다.
 
 1. (화면의 왼쪽 가장자리에 있는) **파일** 메뉴에서 **새로 만들기**를 선택합니다.
 2. **앱 만들기** 아래에서 **새 앱** 타일에 있는 **휴대폰 레이아웃**을 선택합니다.
@@ -70,10 +70,10 @@ Excel의 경우 숫자 **42**나 문구 **Hello World**와 같이 같단한 특�
 
     입력하는 대로 새 값이 레이블에 바로 반영됩니다.  입력하는 동안 노란색 느낌표 아이콘이 화면에 나타날 수 있습니다. 이 아이콘은 입력한 값에 오류가 있음을 나타내며, 유효한 값이 입력되면 바로 사라집니다. 예를 들어, 양쪽에 큰따옴표가 없는 문자열은 유효하지가 않습니다.
 
-    Excel의 경우 해당 숫자를 셀에 입력하거나 **=SUM(30,12)** 와 같이 해당 숫자가 나오는 수식을 입력하여 **42**와 같은 숫자를 표시할 수 있습니다. PowerApps에서는 레이블과 같은 컨트롤의 **Text** 속성을 **42** 또는 **Sum(30,12)** 에 설정하여 동일한 효과를 얻을 수 있습니다. 셀과 레이블은 워크시트 또는 앱의 변경에 관계 없이 항상 해당 숫자를 표시합니다.
+    Excel의 경우 해당 숫자를 셀에 입력하거나 **=SUM(30,12)** 와 같이 해당 숫자가 나오는 수식을 입력하여 **42**와 같은 숫자를 표시할 수 있습니다. Power Apps에서 레이블과 같은 컨트롤의 **Text** 속성을 **42** 또는 **Sum (30, 12)** 으로 설정 하 여 동일한 효과를 달성할 수 있습니다. 셀과 레이블은 워크시트 또는 앱의 변경에 관계 없이 항상 해당 숫자를 표시합니다.
 
     > [!NOTE]
-   > PowerApps의 경우도 Excel에서와 마찬가지로 등호 또는 더하기 기호가 있는 수식은 앞에 오지 않아야 합니다. 수식 입력줄은 입력하는 모든 내용은 기본적으로 수식으로 간주합니다. 또한 텍스트 문자열을 지정할 때 이전과 마찬가지로 큰따옴표(")로 수식을 묶지 않아야 합니다.
+   > Power Apps에서는 Excel에서와 마찬가지로 등호 또는 더하기 기호가 있는 수식 앞에 오지 않습니다. 수식 입력줄은 입력하는 모든 내용은 기본적으로 수식으로 간주합니다. 또한 텍스트 문자열을 지정할 때 이전과 마찬가지로 큰따옴표(")로 수식을 묶지 않아야 합니다.
 5. 레이블의 **[Text](controls/properties-core.md)** 속성에서 **"Hello World"** 를 **Sum(1,2,3)** 으로 바꿉니다.
 
     ![닫는 괄호 없이 부분 함수 Sum(1,2,3을 입력하여 오류가 나타나는 경우](./media/working-with-formulas/label-sum-partial.png)
@@ -88,17 +88,17 @@ Excel에서는 **= a1 + a2** 를 셀에 입력 하 여 **a1** 및 **a2** 셀에 
 
 ![Excel 애니메이션은 두 숫자의 합계를 계산 합니다.](./media/working-with-formulas/excel-recalc.gif)
 
-PowerApps에서 화면에 컨트롤을 추가 하 고 속성을 설정 하 여 비슷한 결과를 얻을 수 있습니다. 이 예제에서는 **TextInput1** 및 **TextInput2**라는 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤과 **Label1** 이라는 레이블 컨트롤을 보여 줍니다.
+Power Apps에서 화면에 컨트롤을 추가 하 고 속성을 설정 하 여 비슷한 결과를 얻을 수 있습니다. 이 예제에서는 **TextInput1** 및 **TextInput2**라는 두 개의 **[텍스트 입력](controls/control-text-input.md)** 컨트롤과 **Label1** 이라는 레이블 컨트롤을 보여 줍니다.
 
-![두 숫자의 합계를 계산 하는 PowerApps의 그림](./media/working-with-formulas/recalc1.png)
+![두 숫자의 합계를 계산 하는 Power Apps의 그림](./media/working-with-formulas/recalc1.png)
 
 텍스트 입력 컨트롤에 어떤 숫자를 입력하든 **[Text](controls/properties-core.md)** 속성이 다음 수식으로 설정되어 있으므로 레이블에는 항상 해당 숫자의 합이 표시됩니다.
 
 `TextInput1 + TextInput2`
 
-![PowerApps 애니메이션 두 숫자의 합계를 계산 합니다.](./media/working-with-formulas/recalc2.gif)
+![Power Apps 애니메이션은 두 숫자의 합계를 계산 합니다.](./media/working-with-formulas/recalc2.gif)
 
-Excel에서는 조건부 서식 수식을 사용 하 여 빨간색의 음수 값을 표시할 수 있습니다. PowerApps에서 수식을 사용하여 컨트롤의 기본값뿐만 아니라 서식과 같은 속성도 결정할 수 있습니다. 다음 예제에서는 레이블의 **[Color](controls/properties-color-border.md)** 속성에 대 한 수식이 자동으로 음수 값을 빨간색으로 표시 합니다. **[If](functions/function-if.md)** 함수는 Excel과 매우 친숙해야 합니다.
+Excel에서는 조건부 서식 수식을 사용 하 여 빨간색의 음수 값을 표시할 수 있습니다. Power Apps에서 수식을 사용 하 여 컨트롤의 기본 값 뿐만 아니라 서식 지정과 같은 속성을 확인할 수 있습니다. 다음 예제에서는 레이블의 **[Color](controls/properties-color-border.md)** 속성에 대 한 수식이 자동으로 음수 값을 빨간색으로 표시 합니다. **[If](functions/function-if.md)** 함수는 Excel과 매우 친숙해야 합니다.
 
 `If( Value(Label1.Text) < 0, Red, Black )`
 

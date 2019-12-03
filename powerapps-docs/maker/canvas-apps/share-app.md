@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2fdf5577f907e2beb7ead5eef3c4d7b06aeaa9c5
-ms.sourcegitcommit: 01fefd7a06bf5d6509acd0bb54ea6479208cbbc8
+ms.openlocfilehash: a3996603e9d5de0f3844be0a3d6b4fb8e1c62d7b
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "74177877"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674956"
 ---
 # <a name="share-a-canvas-app-in-powerapps"></a>PowerApps에서 캔버스 앱 공유
 
@@ -31,13 +31,13 @@ ms.locfileid: "74177877"
 
 앱을 공유하려면 로컬이 아닌 클라우드에 저장한 다음, 앱을 게시해야 합니다.
 
-- 사용자가 앱의 기능에 대해 알고 목록에서 쉽게 찾을 수 있도록 앱에 의미 있는 이름을 지정하고 명료한 설명을 제공합니다. PowerApps Studio의 **파일** 메뉴에서 **앱 설정**을 선택하고 이름을 지정한 다음, 설명을 입력하거나 붙여넣습니다.
+- 사용자가 앱의 기능에 대해 알고 목록에서 쉽게 찾을 수 있도록 앱에 의미 있는 이름을 지정하고 명료한 설명을 제공합니다. Power Apps 스튜디오의 **파일** 메뉴에서 **앱 설정**을 선택 하 고 이름을 지정한 다음 설명을 입력 하거나 붙여 넣습니다.
 
 - 변경 사항을 적용할 때마다 다른 사용자가 해당 변경 사항을 보길 원한다면 저장하고 앱을 다시 게시합니다.
 
 ## <a name="share-an-app"></a>앱 공유
 
-1. [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인한 다음, 왼쪽 가장자리 근처에서 **앱**을 선택합니다.
+1. 파워 앱에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음, 왼쪽 가장자리 근처의 **앱** 을 선택 합니다.
 
     ![앱 목록 표시](./media/share-app/file-apps.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "74177877"
 1. 앱을 공유 하려는 Azure Active Directory의 사용자 또는 보안 그룹을 이름 또는 별칭으로 지정 합니다.
 
     - 전체 조직에서 앱을 실행 (수정 하거나 공유 하지 않음) 할 수 있도록 하려면 공유 패널에 **Everyone** 을 입력 합니다.
-    - 항목이 세미콜론으로 구분 되는 경우 별칭, 이름 또는 이러한 항목의 조합 (예: **Jane Doe &lt;jane.doe@contoso.com>** ) 목록과 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
+    - 항목이 세미콜론으로 구분 되는 경우 별칭의 목록, 이름 또는 이러한 항목의 조합 (예: **Jane Doe &lt;jane.doe@contoso.com** )을 사용 하 여 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
 
     ![사용자 및 공동 소유자 지정](./media/share-app/share-everyone.png)
 
@@ -79,14 +79,14 @@ ms.locfileid: "74177877"
 
 1. 공유 패널의 아래쪽에서 **공유**를 선택 합니다.
 
-    앱을 공유 하는 모든 사용자는 모바일 장치의 PowerApps Mobile에서 또는 브라우저의 [Dynamics 365](https://home.dynamics.com) 에 대 한 appsource에서 실행할 수 있습니다. 공동 소유자는 [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 편집 하 고 공유할 수 있습니다.
+    앱을 공유 하는 모든 사용자는 모바일 장치의 Power Apps Mobile에서 또는 브라우저의 [Dynamics 365](https://home.dynamics.com) 에 대 한 appsource에서 앱을 실행할 수 있습니다. 공동 소유자는 [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 앱을 편집 하 고 공유할 수 있습니다.
 
     전자 메일 초대를 보낸 경우 앱을 공유한 모든 사람이 초대의 링크를 선택 하 여 실행할 수 있습니다.
 
-    - 사용자가 모바일 장치에서 링크를 선택 하면 PowerApps Mobile에서 앱이 열립니다.
+    - 사용자가 모바일 장치에서 링크를 선택 하면 앱이 Power Apps Mobile에서 열립니다.
     - 사용자가 데스크톱 컴퓨터에서 링크를 선택 하면 앱이 브라우저에서 열립니다.
 
-    초대를 받는 공동 소유자는 PowerApps Studio에서 편집 하기 위해 앱을 여는 다른 링크를 받습니다.
+    초대를 받는 공동 소유자는 Power Apps 스튜디오에서 편집 하기 위해 앱을 여는 다른 링크를 받습니다.
 
 사용자 또는 보안 그룹의 이름을 선택 하 고 다음 단계 중 하나를 수행 하 여 사용자 또는 보안 그룹에 대 한 권한을 변경할 수 있습니다.
 
@@ -126,7 +126,7 @@ Common Data Service 기반으로 앱을 만드는 경우 앱을 공유 하는 �
 
 ## <a name="share-with-guests"></a>게스트와 공유
  
-PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용자와 공유할 수 있습니다. 이를 통해 외부 비즈니스 파트너, 계약자 및 제 3 자가 회사의 캔버스 앱을 실행할 수 있습니다. 
+Power Apps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용자와 공유할 수 있습니다. 이를 통해 외부 비즈니스 파트너, 계약자 및 제 3 자가 회사의 캔버스 앱을 실행할 수 있습니다. 
 
 > [!NOTE]
 > 게스트에는 공유 된 앱에 대 한 **공동 소유자** 역할이 아닌 **사용자** 역할만 할당 될 수 있습니다.
@@ -151,7 +151,7 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
    > 게스트에 라이선스를 할당 하려면 Microsoft 365 관리 센터 미리 보기를 사용 하지 않도록 설정 해야 할 수 있습니다. 
 
 3. Canvas 앱을 공유 합니다. 
-    1. https://make.powerapps.com에 로그인  
+    1. https://make.powerapps.com 에 로그인  
     2. **앱**으로 이동 하 여 캔버스 앱을 선택한 다음 명령 모음에서 **공유**를 선택 합니다. 
     3. Azure AD 테 넌 트에서 게스트 사용자에 대 한 전자 메일 주소를 입력 합니다. 추가 정보: [AZURE AD B2B에서 게스트 사용자 액세스 란 무엇 인가요?](/azure/active-directory/b2b/what-is-b2b)
           > [!div class="mx-imgBorder"] 
@@ -164,16 +164,16 @@ PowerApps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
 
 ### <a name="frequently-asked-questions"></a>질문과 대답
 
-#### <a name="whats-the-difference-between-canvas-app-guest-access-and-powerapps-portals"></a>Canvas 앱 게스트 액세스와 PowerApps 포털의 차이점은 무엇 인가요? 
+#### <a name="whats-the-difference-between-canvas-app-guest-access-and-power-apps-portals"></a>Canvas 앱 게스트 액세스와 Power Apps 포털의 차이점은 무엇 인가요? 
 Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드를 작성 하지 않고도 비즈니스 프로세스를 디지타이징에 맞게 구성 하 여 앱을 빌드할 수 있습니다. Canvas 앱에 대 한 게스트 액세스를 사용 하면 다양 한 Microsoft 및 타사 소스와 통합 될 수 있는 동일한 앱 리소스에 액세스 하는 공통 비즈니스 프로세스에 참여 하는 다양 한 조직으로 구성 된 개인 팀이 가능 합니다. 추가 정보: [PowerApps 용 캔버스 앱 커넥터 개요](/powerapps/maker/canvas-apps/connections-list)
 
-[PowerApps 포털](/powerapps/maker/portals/overview) 외부 사용자가 Common Data Service에 저장 된 데이터와 상호 작용할 수 있도록 하는 낮은 코드의 응답성이 뛰어난 웹 사이트를 빌드하는 기능을 제공 합니다. 조직에서 조직 외부 사용자와 공유 하는 웹 사이트 (예: LinkedIn, Microsoft 계정 또는 기타 상업적 로그인 공급자)를 사용 하 여 익명으로 또는 선택한 로그인 공급자를 통해 공유할 수 있는 웹 사이트를 만들 수 있습니다. 
+[Power Apps 포털](/powerapps/maker/portals/overview) 외부 사용자가 Common Data Service 저장 된 데이터와 상호 작용할 수 있도록 하는 낮은 코드의 응답성이 뛰어난 웹 사이트를 빌드하는 기능을 제공 합니다. 조직에서 조직 외부 사용자와 공유 하는 웹 사이트 (예: LinkedIn, Microsoft 계정 또는 기타 상업적 로그인 공급자)를 사용 하 여 익명으로 또는 선택한 로그인 공급자를 통해 공유할 수 있는 웹 사이트를 만들 수 있습니다. 
 
-다음 표에서는 PowerApps 포털 및 canvas 앱 간의 몇 가지 핵심 기능 차이점을 간략하게 설명 합니다.  
+다음 표에서는 Power Apps 포털과 canvas 앱 간의 몇 가지 핵심 기능 차이점을 간략하게 설명 합니다.  
 
 | | 인터페이스 | 인증은 | 액세스 가능한 데이터 원본 |
 |------|--------|----------|-------------------|
-| PowerApps 포털 | 브라우저 전용 환경 | 익명 및 인증 된 액세스 허용 | Common Data Service |
+| Power Apps 포털 | 브라우저 전용 환경 | 익명 및 인증 된 액세스 허용 | Common Data Service |
 | 캔버스 앱 | 브라우저 및 모바일 앱 | Azure AD를 통한 인증 필요 | 모든 ~ 150 기본 커넥터 및 사용자 지정 커넥터  |
 ||
 
@@ -181,12 +181,12 @@ Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드
 예로. 사용자 지정 된 양식으로 SharePoint 목록에 액세스할 수 있는 모든 사용자는 Power Apps 라이선스 없이 양식을 사용 하 여 목록에서 항목을 만들고 편집할 수 있습니다.
 
 #### <a name="can-guests-access-apps-embedded-in-sharepoint"></a>게스트가 SharePoint에 포함 된 앱에 액세스할 수 있나요? 
-예로. 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하 여 앱의 기능과 일치 하는 Power Apps 사용 권한이 있는 라이선스가 필요 합니다. Microsoft PowerApps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
+예로. 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하 여 앱의 기능과 일치 하는 Power Apps 사용 권한이 있는 라이선스가 필요 합니다. Microsoft Power Apps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
 
 > [!div class="mx-imgBorder"]  
 > ![게스트에 대 한 SharePoint에 캔버스 앱 포함](media/share-app/guest_access_doc_5.PNG "게스트에 대 한 SharePoint에 캔버스 앱 포함")
 
-IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 https://make.powerapps.com로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
+IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 https://make.powerapps.com 로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
 
 > [!div class="mx-imgBorder"]  
 > ![Canvas 앱 세부 정보](media/share-app/guest_access_doc_6.PNG "Canvas 앱 세부 정보")
@@ -195,7 +195,7 @@ IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우
 비 게스트와 마찬가지로, 앱에서 액세스 하는 기본 데이터 원본도 게스트에서 액세스할 수 있도록 설정 해야 합니다.
 
 #### <a name="what-license-must-be-assigned-to-my-guest-so-they-can-run-an-app-shared-with-them"></a>사용자가 공유 하는 앱을 실행할 수 있도록 게스트에 할당 해야 하는 라이선스는 무엇입니까?
-비 게스트에 앱을 실행 하는 데 필요한 것과 동일한 라이선스. 예를 들어 앱에서 premium connecters를 사용 하는 경우 앱 계획 당 PowerApps 나 사용자 요금제 별 PowerApps를 게스트에 할당 해야 합니다.  
+비 게스트에 앱을 실행 하는 데 필요한 것과 동일한 라이선스. 예를 들어 앱에서 premium connecters를 사용 하는 경우 앱 요금제 또는 사용자 당 Power Apps 요금제의 Power Apps를 게스트에 할당 해야 합니다.  
 
 |                                 | SharePoint 사용자 지정 양식 | 비 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 프리미엄 커넥터를 사용 하는 독립 실행형 캔버스 앱 | 모델 기반 앱 |
 |---------------------------------|----------------------------|----------------------------------------------------|------------------------------------------------|------------------|
@@ -205,8 +205,8 @@ IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우
 | 사용자 요금제 당 Power Apps         | x                          | x                                                  | x                                              | x                |
 
 
-#### <a name="in-powerapps-mobile-how-does-a-guest-see-apps-for-their-home-tenant"></a>PowerApps Mobile에서 게스트는 홈 테 넌 트의 앱을 어떻게 볼 까 요?
-자신의 모바일 장치에서, 홈 테 넌 트가 아닌 Azure AD 테 넌 트에서 게시 된 캔버스 앱에 액세스 한 모든 사용자는 PowerApps에서 로그 아웃 하 고 PowerApps Mobile에 다시 로그인 해야 합니다.  
+#### <a name="in-power-apps-mobile-how-does-a-guest-see-apps-for-their-home-tenant"></a>Power Apps 모바일에서 게스트는 홈 테 넌 트에 대 한 앱을 어떻게 볼 까 요?
+자신의 모바일 장치에서, 홈 테 넌 트가 아닌 Azure AD 테 넌 트에서 게시 된 캔버스 앱에 액세스 한 모든 사용자는 Power apps에서 로그 아웃 하 고 Power Apps Mobile에 다시 로그인 해야 합니다.  
 
 #### <a name="must-a-guest-accept-the-azure-ad-guest-invitation-prior-to-sharing-an-app-with-the-guest"></a>게스트와 앱을 공유 하기 전에 게스트가 Azure AD 게스트 초대를 수락 해야 하나요?
 아니요. 게스트가 게스트 초대를 수락 하기 전에 공유 앱을 시작 하면 앱을 시작 하는 동안 로그인 환경의 일부로 초대를 수락 하 라는 메시지가 표시 됩니다.  
@@ -217,8 +217,8 @@ IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우
 #### <a name="can-guests-use-microsoft-graph-via-microsoft-security-graph-connector-or-a-custom-connector-using-microsoft-graph-apis"></a>게스트가 Microsoft Graph Api를 사용 하 여 Microsoft Security Graph 커넥터 또는 사용자 지정 커넥터를 통해 Microsoft Graph를 사용할 수 있나요?
 아니요, Azure AD 게스트는 Microsoft Graph을 쿼리하여 해당 사용자가 게스트로 된 테 넌 트에 대 한 정보를 검색할 수 없습니다.
 
-#### <a name="what-intune-policies-apply-to-guests-using-my-powerapps"></a>PowerApps를 사용 하 여 게스트에 적용 되는 InTune 정책은 무엇 인가요?
-InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니다. 예를 들어 Alice@Contoso.com Vikram@Fabrikam.com와 앱을 공유 하는 경우 InTune은 실행 하는 PowerApps에 관계 없이 Virkam의 장치에 Fabrikam.com 정책을 계속 적용 합니다.
+#### <a name="what-intune-policies-apply-to-guests-using-my-power-apps"></a>내 Power Apps를 사용 하 여 게스트에 적용 되는 InTune 정책은 무엇 인가요?
+InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니다. 예를 들어 Alice@Contoso.com Vikram@Fabrikam.com와 앱을 공유 하는 경우 InTune은 실행 하는 전원 앱에 관계 없이 Virkam의 장치에 Fabrikam.com 정책을 계속 적용 합니다.
 
 #### <a name="what-connectors-support-guest-access"></a>게스트 액세스를 지 원하는 커넥터는 무엇 인가요?
 모든 종류의 Azure AD 인증을 수행 하지 않는 모든 커넥터는 게스트 액세스를 지원 합니다. 다음 표에서는 Azure AD 인증을 수행 하는 모든 커넥터 및 현재 게스트 액세스를 지 원하는 커넥터를 열거 합니다. 이러한 대부분은 일반 공급으로 업데이트 될 예정입니다.

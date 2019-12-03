@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fb0ce1bca968d0e23dc10544a824b340ab336936
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 02c9e680582b6d51a613fd8089709401f1e80b32
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650449"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679756"
 ---
 # <a name="image-control-in-powerapps"></a>PowerApps의 이미지 컨트롤
 로컬 파일이나 데이터 원본 등으로부터 이미지를 표시하는 컨트롤입니다.
@@ -125,7 +125,7 @@ ms.locfileid: "73650449"
 
 ### <a name="show-a-set-of-images-from-a-data-source"></a>데이터 원본에서 이미지 집합 표시
 1. 이 [Excel 파일](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx)을 다운로드하고 로컬 디바이스에 저장합니다.
-2. PowerApps Studio에서 앱을 만들거나 연 다음 오른쪽 창에서 **데이터 원본 추가**를 클릭하거나 터치합니다.
+2. Power Apps 스튜디오에서 앱을 만들거나 연 다음 오른쪽 창에서 **데이터 원본 추가** 를 클릭 하거나 탭 합니다.
 
     **데이터 원본 추가**가 오른쪽 창에 표시되지 않으면 왼쪽 탐색 표시줄에서 화면을 클릭하거나 터치합니다.
 3. **앱에 정적 데이터 추가**를 클릭하거나 탭하고, 다운로드한 Excel 파일을 클릭하거나 탭한 다음 **열기**를 클릭하거나 탭합니다.

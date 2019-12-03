@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f704b96150b0021b7170fc095cc6561cd3aac908
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 44c94a712402ef26a4fa6b36d84e287d3fa506e1
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987773"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679296"
 ---
 # <a name="accessible-colors-for-canvas-apps-in-powerapps"></a>PowerApps의 캔버스 앱에 액세스 가능한 색
-캔버스 앱에서 사용되는 색은 색맹 및 저시력 사용자가 액세스할 수 있어야 합니다. 모든 PowerApps 테마는 기본적으로 액세스할 수 있습니다. 앱에서 사용되는 색을 수정할 경우 다음 지침에 따라 색에 계속 액세스할 수 있는지 확인합니다. 색 대비 문제를 식별하는 데 도움이 되는 온라인으로 사용 가능한 여러 도구가 있습니다.
+캔버스 앱에서 사용되는 색은 색맹 및 저시력 사용자가 액세스할 수 있어야 합니다. 모든 Power Apps 테마는 기본적으로 액세스할 수 있습니다. 앱에서 사용되는 색을 수정할 경우 다음 지침에 따라 색에 계속 액세스할 수 있는지 확인합니다. 색 대비 문제를 식별하는 데 도움이 되는 온라인으로 사용 가능한 여러 도구가 있습니다.
 
 ## <a name="minimum-contrast-for-text"></a>텍스트에 대한 최소 대비
 * 텍스트 및 배경의 대비 비율은 4.5:1 이상이어야 합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "71987773"
 * **[HoverFill](controls/properties-color-border.md)** 및 컨트롤 외부 색
 
 ### <a name="graphical-objects"></a>그래픽 개체
-이미지가 중요한 정보를 전달하는 경우 대비 문제를 확인하는 것이 좋습니다. 이는 이미지가 표시 될 수 있는 컨트롤에 적용 됩니다. **[오디오](controls/control-audio-video.md)** , **[이미지](controls/control-image.md)** , **[마이크](controls/control-microphone.md)** 및 **[비디오](controls/control-audio-video.md)** 입니다.
+이미지가 중요한 정보를 전달하는 경우 대비 문제를 확인하는 것이 좋습니다. 이 내용은 이미지가 표시될 수 있는 **[오디오](controls/control-audio-video.md)** , **[이미지](controls/control-image.md)** , **[마이크](controls/control-microphone.md)** 및 **[비디오](controls/control-audio-video.md)** 컨트롤에 적용됩니다.
 
 비디오 콘텐츠의 경우 대비 문제를 확인하는 것이 좋습니다. 또는 비디오를 설명하는 [선택 자막](controls/control-audio-video.md)을 추가할 수도 있습니다.
 
@@ -65,4 +65,4 @@ ms.locfileid: "71987773"
 **[아이콘](controls/control-shapes-icons.md)** 같은 추가적인 신호나 **[기울임꼴](controls/properties-text.md)** 및 **[밑줄](controls/properties-text.md)** 같은 텍스트 스타일이 의미를 전달하는 데 도움이 될 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
-PowerApps 컨트롤에서 [접근성 속성](controls/properties-accessibility.md)에 대해 알아보고 [접근성 검사기를 사용](accessibility-checker.md)해 보세요.
+파워 앱 컨트롤의 [접근성 속성](controls/properties-accessibility.md) 에 대해 알아보고 [내게 필요한 옵션 검사기를](accessibility-checker.md)사용해 보세요.

@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b4dde9c7b24352c1fefc62ff9ec73ba5ec82ee25
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 0bb04f9c3c1fc0d2b330e53dd39b355421af84aa
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71988116"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674289"
 ---
 # <a name="understand-data-sources-for-canvas-apps-in-powerapps"></a>PowerApps에서 캔버스 앱에 대한 데이터 원본 이해
 
-PowerApps에서 대부분의 캔버스 앱은 **데이터 원본**이라는 클라우드 서비스에 저장된 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스합니다.
+Power Apps에서 대부분의 canvas 앱은 **데이터 원본**이라고 하는 클라우드 서비스에 저장 된 외부 정보를 사용 합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스합니다.
 
 이 문서에서는 다양한 종류의 데이터 원본 및 테이블 데이터 원본을 사용하는 방법에 대해 설명합니다.
 
@@ -40,27 +40,27 @@ PowerApps에서 대부분의 캔버스 앱은 **데이터 원본**이라는 클�
 
 ### <a name="local-data-sources"></a>로컬 데이터 원본
 
-**[갤러리](controls/control-gallery.md)** , **[표시 양식](controls/control-form-detail.md)** 및 **[편집 양식](controls/control-form-detail.md)** 컨트롤을 사용하면 데이터 원본의 데이터를 읽고 쓰는 앱을 쉽게 만들 수 있습니다.  시작하려면 [데이터 양식 이해](working-with-forms.md) 문서를 참조하세요.  
+**[갤러리](controls/control-gallery.md)** , **[폼 표시](controls/control-form-detail.md)** 및 **[폼 편집](controls/control-form-detail.md)** 컨트롤을 사용하면 데이터 원본의 데이터를 읽고 쓸 수 있는 앱을 손쉽게 만들 수 있습니다.  시작하려면 [데이터 폼 이해](working-with-forms.md)를 읽어 보세요.  
 
-데이터에서 앱을 만들도록 PowerApps에 요청할 때 이러한 컨트롤이 사용됩니다. 내부적으로 앱은 내부 테이블을 사용하여 데이터 원본에서 제공되는 데이터를 저장하고 조작합니다.
+Power Apps에 데이터에서 앱을 만들도록 요청 하면 이러한 컨트롤이 사용 됩니다. 내부적으로 앱은 내부 테이블을 사용하여 데이터 원본에서 제공되는 데이터를 저장하고 조작합니다.
 
 특별한 종류의 데이터 원본으로 [컬렉션](working-with-data-sources.md#collections)이 있습니다. 이는 클라우드의 서비스에 대한 연결로 지원되지 않고 로컬로 앱에 연결되므로, 동일한 사용자 또는 다른 사용자의 디바이스 간에 정보를 공유할 수 없습니다. 컬렉션은 로드하고 로컬에 저장할 수 있습니다.
 
 ### <a name="kinds-of-tables"></a>테이블의 종류
 
-PowerApps 앱의 내부에 있는 테이블은 숫자 또는 문자열이 값일 때와 마찬가지로 고정된 값입니다. 내부 테이블은 어디에도 저장되지 않고 앱의 메모리에만 존재합니다. 테이블의 구조와 데이터는 직접 수정할 수 없습니다. 대신 수식을 통해 새 테이블을 만들 수 있습니다. 이 수식을 사용하여 원본 테이블의 수정된 복사본을 만듭니다.
+Power Apps 앱 내부에 있는 테이블은 숫자 또는 문자열 값과 마찬가지로 고정 값입니다. 내부 테이블은 어디에도 저장되지 않고 앱의 메모리에만 존재합니다. 테이블의 구조와 데이터는 직접 수정할 수 없습니다. 대신 수식을 통해 새 테이블을 만들 수 있습니다. 이 수식을 사용하여 원본 테이블의 수정된 복사본을 만듭니다.
 
-외부 테이블은 나중의 검색 및 공유를 위해 데이터 원본에 저장됩니다.  PowerApps는 저장된 데이터를 읽고 쓰는 "연결"을 제공합니다.  연결 내에서 여러 정보 테이블에 액세스할 수 있습니다.  앱에서 사용할 테이블을 선택하고 각 테이블은 별도의 '데이터 원본'이 됩니다.  
+외부 테이블은 나중의 검색 및 공유를 위해 데이터 원본에 저장됩니다.  Power Apps는 저장 된 데이터를 읽고 쓰기 위한 "연결"을 제공 합니다.  연결 내에서 여러 정보 테이블에 액세스할 수 있습니다.  앱에서 사용할 테이블을 선택하고 각 테이블은 별도의 '데이터 원본'이 됩니다.  
 
 자세한 내용은 [테이블 작업](working-with-tables.md)에서 내부 테이블에 대해 자세히 설명하지만, 클라우드 서비스에 상주하는 외부 테이블에도 적용할 수 있습니다.
 
 ## <a name="working-with-tables"></a>테이블 작업
-PowerApps 내부 테이블을 사용하는 것과 동일한 방식으로 테이블 데이터 원본을 사용할 수 있습니다.  내부 테이블과 마찬가지로 각 데이터 원본에는 [레코드](working-with-tables.md#records), [열](working-with-tables.md#columns) 및 수식에 사용할 수 있는 속성이 있습니다. 또한,
+내부 파워 앱 표를 사용 하는 것과 동일한 방식으로 테이블 데이터 원본을 사용할 수 있습니다.  내부 테이블과 마찬가지로 각 데이터 원본에는 [레코드](working-with-tables.md#records), [열](working-with-tables.md#columns) 및 수식에 사용할 수 있는 속성이 있습니다. 또한,
 
 * 데이터 원본은 연결의 기본 테이블과 동일한 열 이름 및 데이터 형식을 갖습니다.
   
     > [!NOTE]
-  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 PowerApps는 공백을 **"\_x0020\_"** 으로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+  > 공백이 있는 열 이름이 포함 된 SharePoint 및 Excel 데이터 원본의 경우 Power Apps는 공백을 **"\_x0020\_"** 로 바꿉니다. 예를 들어 SharePoint 또는 Excel의 **"열 이름"** 은 데이터 레이아웃에 표시 되거나 수식에 사용 될 때 Power Apps에서 **"Column_x0020_Name"** 로 표시 됩니다.
 * 데이터 원본은 앱이 로드될 때 서비스에서 자동으로 로드됩니다.  **[Refresh](functions/function-refresh.md)** 함수를 사용하여 강제로 데이터를 새로 고칠 수 있습니다.
 * 사용자가 앱을 실행하면 레코드를 생성, 수정 및 삭제하고, 변경 내용을 서비스의 기본 테이블로 다시 푸시할 수 있습니다.
   * 레코드는 **[Patch](functions/function-patch.md)** 및 **[Collect](functions/function-clear-collect-clearcollect.md)** 함수로 만들 수 있습니다.  
@@ -70,7 +70,7 @@ PowerApps 내부 테이블을 사용하는 것과 동일한 방식으로 테이�
 * **[DataSourceInfo](functions/function-datasourceinfo.md)** , **[Defaults](functions/function-defaults.md)** 및 **[Validate](functions/function-validate.md)** 함수는 사용자 환경을 최적화하는 데 사용할 수 있는 데이터 원본에 대한 정보를 제공합니다.
 
 ### <a name="creating-data-sources"></a>데이터 원본 만들기
-PowerApps는 연결된 데이터 원본을 만들거나 구조를 수정하는 데 사용할 수 없습니다. 이는 데이터 원본이 이미 어딘가의 서비스에 존재해야 하기 때문입니다. 예를 들어 OneDrive에 저장된 Excel 통합 문서에 테이블을 만들려면 먼저 OneDrive에서 Excel Online을 사용하여 통합 문서를 만듭니다. 다음으로 앱에서 이 문서에 대한 연결을 만듭니다.  
+Power Apps를 사용 하 여 연결 된 데이터 원본을 만들거나 해당 구조를 수정할 수는 없습니다. 데이터 원본은 다른 위치에 있는 서비스에 이미 있어야 합니다. 예를 들어 OneDrive에 저장된 Excel 통합 문서에 테이블을 만들려면 먼저 OneDrive에서 Excel Online을 사용하여 통합 문서를 만듭니다. 다음으로 앱에서 이 문서에 대한 연결을 만듭니다.  
 
 그러나 컬렉션 데이터 원본은 앱 내에서 "만들고 수정할 수 있지만" 일시적인 것입니다.
 
@@ -80,7 +80,7 @@ PowerApps는 연결된 데이터 원본을 만들거나 구조를 수정하는 �
 * 이 정보는 스토리지 서비스(이 경우 Office 365 사이트의 SharePoint 목록)를 통해 저장되고 공유됩니다.
 * 연결을 사용하면 앱에서 이 정보를 사용할 수 있습니다.  연결은 사용자의 인증을 통해 정보에 액세스합니다.
 * 앱이 시작되거나 **[Refresh](functions/function-refresh.md)** 함수를 누르면 정보가 로컬에서 사용하기 위해 정보를 연결에서 앱의 데이터 원본으로 가져옵니다.
-* 수식은 정보를 읽고 사용자에게 표시될 수 있는 컨트롤에 정보를 공개하는 데 사용됩니다. 화면에서 갤러리를 사용 하 여 데이터 원본의 레코드를 표시 하 고 **[Items](controls/properties-core.md)** 속성을 데이터 원본에 연결할 수 있습니다. **Gallery. Items = DataSource**  컨트롤의 **[Default](controls/properties-core.md)** 속성을 사용하여 갤러리 내의 컨트롤을 갤러리에 연결합니다.  
+* 수식은 정보를 읽고 사용자에게 표시될 수 있는 컨트롤에 정보를 공개하는 데 사용됩니다. 화면의 갤러리를 사용하고 **[Items](controls/properties-core.md)** 속성을 데이터 원본에 연결하여(**Gallery.Items = DataSource**) 데이터 원본의 레코드를 표시할 수 있습니다.  컨트롤의 **[Default](controls/properties-core.md)** 속성을 사용하여 갤러리 내의 컨트롤을 갤러리에 연결합니다.  
 * 데이터 원본도 테이블입니다.  따라서 데이터 원본 전체를 사용하기 전에 **[Filter](functions/function-filter-lookup.md)** , **[Sort](functions/function-sort.md)** , **[AddColumns](functions/function-table-shaping.md)** 및 기타 함수를 사용하여 데이터 원본을 구체화하고 보강합니다.  또한 **[Lookup](functions/function-filter-lookup.md)** , **[First](functions/function-first-last.md)** , **[Last](functions/function-first-last.md)** 및 기타 함수를 사용하여 개별 레코드로 작업할 수 있습니다.
 
 ### <a name="modify-a-record"></a>레코드 수정
@@ -104,7 +104,7 @@ PowerApps는 연결된 데이터 원본을 만들거나 구조를 수정하는 �
 * *사용자에 대한 즉각적인 피드백*.  문제를 해결하기 위한 가장 적합한 시기는 문제가 발생할 때, 즉 사용자의 마음 속에 선명하게 있을 때입니다.  실제로 각 터치 또는 키 입력을 사용하면 해당 항목에 있는 문제를 식별하는 빨간색 텍스트가 표시될 수 있습니다.
 * 네트워크 트래픽 감소 및 사용자 대기 시간 감소 -  앱에서 발견된 문제가 많을수록 네트워크를 통한 대화 수가 줄어들어 문제를 검색하고 해결할 수 있습니다.  각 대화에는 사용자가 계속 이동하기 전에 기다려야 하는 시간이 필요합니다.
 
-PowerApps는 유효성 검사를 위한 두 가지 도구를 제공합니다.
+Power Apps는 유효성 검사를 위한 두 가지 도구를 제공 합니다.
 
 * 데이터 원본은 유효하거나 유효하지 않은 항목에 대한 정보를 제공할 수 있습니다.  예를 들어 숫자에 최소값과 최대값이 있을 수 있으며, 하나 이상의 항목이 필요할 수 있습니다.  **[DataSourceInfo](functions/function-datasourceinfo.md)** 함수를 사용하여 이 정보에 액세스할 수 있습니다.  
 * **[Validate](functions/function-validate.md)** 함수는 이 동일한 정보를 사용하여 단일 열 또는 전체 레코드의 값을 확인합니다.

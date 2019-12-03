@@ -1,6 +1,6 @@
 ---
 title: Meeting Capture 샘플 템플릿 | Microsoft Docs
-description: PowerApps의 Meeting Capture 샘플 템플릿에서 설정, 개요 및 앱을 빌드하는 방법에 대해 자세히 알아봅니다.
+description: 앱을 빌드하는 방법에 대 한 설정, 개요 및 심층 다이브가 있는 Power Apps의 모임 캡처 샘플 템플릿에 대해 알아봅니다.
 author: matthewbolanos
 manager: kvivek
 ms.service: powerapps
@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 28ec571fc167f7233abed5d1448e5e441c6913a0
-ms.sourcegitcommit: 0e7bdaea83adaa15da4d5c9ddbcd0b2bcbee01df
+ms.openlocfilehash: 763e8a3cd84b4644787ce30398f8c36f016fe986
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73063371"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675326"
 ---
 # <a name="set-up-and-learn-about-the-meeting-capture-sample-template-in-powerapps"></a>PowerApps의 Meeting Capture 샘플 템플릿 설정 및 학습
 
 ## <a name="overview"></a>개요
 
- PowerApps에서 Meeting Capture 샘플 템플릿은 회의에서 발생하는 정보를 캡처하는 통합 단일 도구입니다. 앱을 실행하면 회의 세부 정보 보기, 정보 캡처, 화이트 보드의 사진 찍기, 스케치 그리기 및 작업 할당이 가능합니다. 또한 이러한 항목을 모두 내보내고, 모든 회의 참석자에게 보내며, 후속 회의를 빠르고 쉽게 예약할 수 있습니다.
+ Power Apps에서 모임 캡처 샘플 템플릿은 모임에서 정보를 캡처하는 데 사용할 수 있는 다 대 일 도구입니다. 앱을 실행하면 회의 세부 정보 보기, 정보 캡처, 화이트 보드의 사진 찍기, 스케치 그리기 및 작업 할당이 가능합니다. 또한 이러한 항목을 모두 내보내고, 모든 회의 참석자에게 보내며, 후속 회의를 빠르고 쉽게 예약할 수 있습니다.
 
 [![Meeting Capture](media/sample-meeting-capture/MeetingCapture.png)](https://aka.ms/previewmeetingcapture)
 
@@ -41,9 +41,9 @@ ms.locfileid: "73063371"
 
 ## <a name="how-do-i-build-the-app-myself"></a>앱을 직접 제작하는 방법은?
 
-Meeting Capture에는 PowerApps에서 일반적으로 사용되는 많은 기능이 포함되어 있습니다. 이러한 비디오를 시청하여 이 기능을 살펴보고 구현하는 방법을 알아냄으로써 자신의 앱에 동일한 기능과 패턴을 구현할 수 있습니다.
+모임 캡처에는 Power Apps에서 일반적으로 사용 되는 많은 기능이 포함 되어 있습니다. 이러한 비디오를 시청하여 이 기능을 살펴보고 구현하는 방법을 알아냄으로써 자신의 앱에 동일한 기능과 패턴을 구현할 수 있습니다.
 
-- PowerApps에서 OneNote로 [콘텐츠 내보내기](https://youtu.be/D6kmeM0UFH0).
+- Power Apps에서 OneNote로 [콘텐츠를 내보냅니다](https://youtu.be/D6kmeM0UFH0) .
 - 참석자에 대한 [사용 가능한 회의 시간 찾기](https://youtu.be/gSD8m6d_Gv0).
 
 Meeting Capture는 Office 365에서 이러한 서비스에 연결합니다.

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 78f091705a01a54b7e6eb008630949796ffac453
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 5612f97a3dde96fdb9ea017e34986b7e21c43bd7
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541181"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679227"
 ---
 # <a name="using-multimedia-files-in-powerapps"></a>PowerApps에서 멀티미디어 파일 사용
 
@@ -26,7 +26,7 @@ ms.locfileid: "73541181"
 
 ## <a name="prerequisites"></a>필수 조건
 
-PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 사용 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 
 ## <a name="add-media-from-a-file-or-the-cloud"></a>파일 또는 클라우드에서 미디어 추가
 
@@ -67,7 +67,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 2. 비디오를 게시한 후 해당 URL을 복사합니다.
 
-3. PowerApps의 **삽입 > 미디어**에서 **비디오** 컨트롤을 추가합니다.
+3. Power Apps에서 **삽입 > 미디어**의 **비디오** 컨트롤을 추가 합니다.
 
 4. **미디어** 속성을 복사한 URL로 설정합니다.
 
@@ -81,7 +81,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 이 시나리오에서는 일부 .jpeg 파일을 포함하는 [CreateFirstApp.zip](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 사용합니다.
 
 > [!NOTE]
-> Excel 파일에서 이러한 이미지에 대한 경로는 슬래시를 사용해야 합니다. PowerApps에서 Excel 테이블에 이미지 경로를 저장할 때 경로는 백슬래시를 사용합니다. 이러한 테이블에서 이미지 경로를 사용하는 경우 백슬래시 대신 슬래시를 사용하도록 Excel 테이블에서 경로를 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
+> Excel 파일에서 이러한 이미지에 대한 경로는 슬래시를 사용해야 합니다. Power Apps에서 이미지 경로를 Excel 테이블에 저장 하는 경우 경로는 백슬래시를 사용 합니다. 이러한 테이블에서 이미지 경로를 사용하는 경우 백슬래시 대신 슬래시를 사용하도록 Excel 테이블에서 경로를 변경합니다. 그렇지 않으면 이미지가 표시되지 않습니다.  
 
 1. [CreateFirstApp.zip](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 다운로드하고 **자산** 폴더를 클라우드 스토리지 계정에 압축 해제합니다.
 
@@ -130,7 +130,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 3. Excel 파일을 **SavePen.xlsx**로 비즈니스용 OneDrive에 저장합니다.
 
-4. PowerApps에서 [빈 앱](get-started-create-from-blank.md)을 만듭니다.
+4. Power Apps에서 [빈 앱](get-started-create-from-blank.md)을 만듭니다.
 
 5. 앱에서 비즈니스용 OneDrive 계정을 [데이터 원본](add-data-connection.md)으로 추가합니다.
 

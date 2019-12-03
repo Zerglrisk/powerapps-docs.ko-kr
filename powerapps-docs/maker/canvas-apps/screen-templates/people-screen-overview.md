@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e4c688232e275cee1e285b22dd4885ea2126e7ad
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 4f54a2f6d3bfa7c843b7b095f999050602e063b0
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541396"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675005"
 ---
 # <a name="overview-of-the-people-screen-template-for-canvas-apps"></a>캔버스 앱의 사용자 화면 템플릿 개요
 
@@ -42,7 +42,7 @@ Canvas 앱에서 사용자가 조직 내에서 사용자를 검색할 수 있는
 
 템플릿에서 사용자 화면을 추가 하려면 다음을 수행 합니다.
 
-1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
+1. 파워 앱에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 Power apps 스튜디오에서 기존 앱을 엽니다.
 
     이 항목은 휴대폰 앱을 표시 하지만 동일한 개념은 태블릿 앱에도 적용 됩니다.
 

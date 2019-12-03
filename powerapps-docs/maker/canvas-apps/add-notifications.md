@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d55245a6fba0383ce897030e87ccf5c4e7c6749d
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: d3f526b8795c8771d3f0e43c2951d207f7f1bfb0
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73897933"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678905"
 ---
 # <a name="send-a-push-notification-in-powerapps"></a>PowerApps에서 푸시 알림 보내기
-푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. PowerApps에서 PowerApps 알림 커넥터를 사용하여 알림을 보낼 수 있습니다. PowerApps에서 만드는 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
+푸시 알림은 앱 사용자의 관심을 끌고 주요 작업의 우선 순위를 지정하는 데 도움이 되도록 소비자 및 비즈니스 시나리오에 대한 모바일 앱에 주로 사용됩니다. Power Apps에서 Power Apps 알림 커넥터를 사용 하 여 알림을 보낼 수 있습니다. Power Apps에서 만든 모든 앱에 네이티브 푸시 알림을 보낼 수 있습니다. 나중에 더 많은 알림 유형을 추가할 예정입니다.
 
 ![푸시 알림 모양의 예](./media/add-notifications/pic1-notification-screenshot.png)
 
@@ -32,10 +32,10 @@ ms.locfileid: "73897933"
 * 특정 간격으로 사용자의 관심을 끌길 원하거나 사용자가 특정 컨텍스트에서 앱을 입력하도록 해야 하는 경우
 
 > [!NOTE]
-> 푸시 알림을 받으려면 각 사용자는 PowerApps Mobile에서 앱을 한 번 열거나 [Dynamics 365](https://home.dynamics.com/)의 AppSource에서 앱을 가져와야 합니다.
+> 푸시 알림을 받으려면 각 사용자가 Power Apps Mobile에서 앱을 한 번 열거나 [Dynamics 365](https://home.dynamics.com/)의 appsource에서 앱을 가져와야 합니다.
 
 ## <a name="before-you-start"></a>시작하기 전에
-**참가자** 권한이 있는 앱에서 PowerApps 알림 연결을 추가합니다. 아직 앱이 없는 경우 [템플릿에서 앱을 신속하게 만들](get-started-test-drive.md) 수 있으며 기본적으로 필요한 사용 권한을 갖습니다. 해당 자습서 및 이 문서는 사례 관리 템플릿을 기반으로 하는 앱을 사용합니다.
+**참가자** 권한이 있는 앱에서 Power Apps 알림 연결을 추가 합니다. 아직 앱이 없는 경우 [템플릿에서 앱을 신속하게 만들](get-started-test-drive.md) 수 있으며 기본적으로 필요한 사용 권한을 갖습니다. 해당 자습서 및 이 문서는 사례 관리 템플릿을 기반으로 하는 앱을 사용합니다.
 
 ## <a name="send-a-notification-from-a-flow"></a>흐름에서 알림 보내기
 > [!NOTE]
@@ -46,11 +46,11 @@ ms.locfileid: "73897933"
     예를 들어, 레코드가 Common Data Service의 **사례** 엔터티에 추가될 때 알림을 보낼 수 있습니다.
 
     ![Common Data Service 트리거를 사용하여 흐름 만들기의 스크린샷](./media/add-notifications/pic4-step1-flowupdated.png)
-2. **PowerApps 알림** 커넥터를 사용하여 흐름에 대한 작업을 만들고 알림을 보내려는 앱의 **앱 ID**를 입력합니다.
+2. **Power Apps 알림** 커넥터를 사용 하 여 흐름에 대 한 작업을 만들고 알림을 보내려는 앱의 **앱 ID** 를 입력 합니다.
 
     시나리오를 반영하도록 연결의 이름을 변경할 수도 있습니다.
 
-    ![이러한 푸시 알림을 받을 PowerApps에 대한 연결 만들기의 스크린샷](./media/add-notifications/pic5-step2-create-connection.jpg)
+    ![이러한 푸시 알림을 받을 전원 앱에 대 한 연결을 만드는 스크린샷](./media/add-notifications/pic5-step2-create-connection.jpg)
 3. (선택 사항) 열릴 때 앱에 매개 변수를 전달합니다(사용자가 푸시 알림을 탭한 후).
 
     예제에서는 선택한 연락처에 대한 **사례 ID** 및 **초기 소유자** 필드를 전달합니다.
@@ -64,7 +64,7 @@ ms.locfileid: "73897933"
 2. **세부 정보** 탭에서 해당 앱의 **앱 ID**를 복사합니다.
 
     ![앱 ID 가져오기](./media/add-notifications/grab-id.png)
-3. **연결** 탭에서 PowerApps 알림 커넥터에 대한 연결을 만들고, 이전 단계의 앱 ID에 붙여넣습니다.
+3. **연결** 탭에서 Power Apps 알림 커넥터에 대 한 연결을 만들고 이전 단계에서 앱 ID를 붙여 넣습니다.
 
     ![연결 만들기](./media/add-notifications/create-connection.png)
 4. 트리거 앱에 연결을 추가합니다.
@@ -76,7 +76,7 @@ ms.locfileid: "73897933"
 
     예제에서는 **OnSuccess** 속성의 형태를 사용하여 이 알림을 트리거합니다.
 
-    ![PowerApps 수식](./media/add-notifications/powerapps-function.png)
+    ![Power Apps 수식](./media/add-notifications/powerapps-function.png)
 
 ## <a name="load-a-specific-page-and-context-when-a-user-taps-the-notification"></a>사용자가 알림을 탭하는 경우 특정 페이지 및 컨텍스트 로드
 ### <a name="pass-parameters"></a>매개 변수 전달
@@ -137,10 +137,10 @@ PowerAppsNotification.SendPushNotification(
 ```
 
 ## <a name="known-limitations"></a>알려진 제한 사항
-* 현재 알림은 Windows Phone용 PowerApps Mobile에 표시되지 않습니다.
+* 현재 Windows Phone에 대 한 Power Apps Mobile에 알림이 표시 되지 않습니다.
 * 현재 웹 브라우저에서만 앱을 실행하는 사용자에게 푸시 알림을 제공하지 않습니다.
-* 알림은 특정 앱 아이콘 대신 일반 PowerApps 아이콘을 표시합니다.
+* 알림은 특정 앱 아이콘 대신 일반 Power Apps 아이콘을 표시 합니다.
 * 전원 자동화를 사용 하는 경우 한 번에 한 명의 받는 사람에 게 푸시 알림을 보낼 수 있습니다.
 
-참조 정보는 [PowerApps 알림 참조](https://docs.microsoft.com/connectors/powerappsnotification/)를 참조하세요.
+참조 정보는 [Power Apps 알림 참조](https://docs.microsoft.com/connectors/powerappsnotification/)를 참조 하세요.
 

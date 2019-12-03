@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0b1c81dd808b224ca30d9de3d4bab252a2676cf4
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f44d28ab57bb012f1cb4a847920a4cf0597e3b68
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73542307"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74673492"
 ---
 # <a name="understand-record-references-and-polymorphic-lookups-in-canvas-apps"></a>Canvas 앱에서 레코드 참조 및 다형성 조회 이해
 
@@ -50,7 +50,7 @@ Common Data Service의 모든 엔터티는 **소유자** 필드를 포함 합니
 
 **계정** 엔터티에 해당 필드를 표시 하려면 다음을 수행 합니다.
 
-1. [이 PowerApps 사이트](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 엽니다.
+1. [이 Power Apps 사이트](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 엽니다.
 1. 왼쪽 탐색 모음에서 **데이터** > **엔터티**를 선택 합니다.
 1. 엔터티 목록에서 **계정**을 선택 합니다.
 1. 오른쪽 위 모서리에서 필터 목록을 열고 (기본적으로 **기본값으로** 설정 됨) **모두**를 선택 합니다.

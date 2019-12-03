@@ -1,6 +1,6 @@
 ---
 title: Canvas 앱에서 종속 드롭다운 목록 만들기 | Microsoft Docs
-description: PowerApps에서 캔버스 앱의 다른 드롭다운 목록을 필터링 하는 드롭다운 목록을 만듭니다.
+description: Power Apps에서 캔버스 앱의 다른 드롭다운 목록을 필터링 하는 드롭다운 목록을 만듭니다.
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 57abde44541a2a1e40e3a8ffc55a89e37a8c6478
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: 233fd99eeba86151f616a22955cf28c2114de43e
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71985743"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679618"
 ---
 # <a name="create-dependent-drop-down-lists-in-a-canvas-app"></a>캔버스 앱에서 종속 된 드롭다운 목록 만들기
 
@@ -66,12 +66,12 @@ ms.locfileid: "71985743"
 
 ## <a name="open-the-form"></a>양식 열기
 
-1. **인시던트** 목록을 열고 **PowerApps**  > **양식 사용자 지정**을 선택 합니다.
+1. **인시던트** 목록을 열고 **PowerApps** > **양식 사용자 지정**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
-    > ![인시던트 목록을 열고 PowerApps > 양식 사용자 지정을 선택 합니다.](./media/dependent-drop-down-lists/open-form.png "인시던트 목록을 열고 PowerApps > 양식 사용자 지정을 선택 합니다.")
+    > ![인시던트 목록을 열고 Power Apps > 양식 사용자 지정을 선택 합니다.](./media/dependent-drop-down-lists/open-form.png "인시던트 목록을 열고 Power Apps > 양식 사용자 지정을 선택 합니다.")
 
-    PowerApps Studio의 기본 양식이 포함 된 브라우저 탭이 열립니다.
+    Power Apps Studio에서 기본 양식이 포함 된 브라우저 탭이 열립니다.
 
 1. 필드 **필드** 창에서 **제목** 필드를 마우스로 가리키고 표시 되는 줄임표 (...)를 선택한 다음 **제거**를 선택 합니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "71985743"
 
 ## <a name="add-the-locations-list"></a>위치 목록 추가
 
-1. 데이터**원본 추가** >   > **데이터** 원본 **보기** 를 선택 합니다.
+1. 데이터 **원본 추가** >  > **데이터** 원본 **보기** 를 선택 합니다.
 
 1. SharePoint 연결을 선택 하거나 만든 다음 **위치** 목록이 포함 된 사이트를 지정 합니다.
 
@@ -180,7 +180,7 @@ Alt 키를 누른 채 위치 목록을 열고, 위치를 하나 선택 하 고, 
 
 ## <a name="save-and-open-the-form-optional"></a>양식을 저장 하 고 엽니다 (선택 사항).
 
-1. **파일** 메뉴를 연 다음 **저장**  > **sharepoint에 게시**  > **sharepoint에**게시를 선택 합니다.
+1. **파일** 메뉴를 연 다음 **저장** > **sharepoint에 게시** > **sharepoint에**게시를 선택 합니다.
 
 1. 왼쪽 위 모퉁이에서 뒤로 화살표를 선택한 다음, **SharePoint로 돌아가기**를 선택합니다.
 
@@ -202,10 +202,10 @@ Alt 키를 누른 채 위치 목록을 열고, 위치를 하나 선택 하 고, 
     > ![변경 콤보 상자](./media/dependent-drop-down-lists/combo-box-display-field.png)
 
 **내 자식 드롭다운 목록에 중복 된 항목이 있습니다.**
-이 증상은 SharePoint에서 **조회** 열을 사용 하거나 PowerApps에서 **choice** 함수를 사용 하기 때문에 발생할 수 있습니다. 중복을 제거 하려면 적절 하 게 반환 되는 데이터를 중심으로 **고유한** 함수를 래핑합니다. 추가 정보: [Distinct 함수](functions/function-distinct.md)
+이 증상은 SharePoint에서 **조회** 열을 사용 하거나 Power Apps에서 **선택** 기능을 사용 하기 때문에 발생할 수 있습니다. 중복을 제거 하려면 적절 하 게 반환 되는 데이터를 중심으로 **고유한** 함수를 래핑합니다. 추가 정보: [Distinct 함수](functions/function-distinct.md)
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
 이 구성은 **드롭다운** 컨트롤 뿐만 아니라 한 번에 하나의 선택을 허용 하는 **콤보 상자** 및 **목록 상자** 컨트롤에서 사용할 수 있습니다. 여러 항목을 선택할 수 있는 경우는 해당 컨트롤의 구성 **에 따라 달라 집니다** . Common Data Service에서 옵션 집합을 사용 하는 경우에는이 방법을 사용 하지 않는 것이 좋습니다.
 
-구성 **에 종속** 은 정적 데이터 또는 컬렉션을 지원 하지 않습니다. 이러한 원본으로 종속 된 드롭다운 목록을 구성 하려면 수식 입력줄에서 직접 식을 편집 합니다. 또한 PowerApps는 일치 하는 데이터 테이블이 없는 SharePoint의 선택 필드 두 개를 사용 하는 것을 지원 하지 않으며이 UI 내에서 **일치 하는 필드** 를 정의할 수 없습니다.
+구성 **에 종속** 은 정적 데이터 또는 컬렉션을 지원 하지 않습니다. 이러한 원본으로 종속 된 드롭다운 목록을 구성 하려면 수식 입력줄에서 직접 식을 편집 합니다. 또한 Power Apps에서는 일치 하는 데이터 테이블이 없는 SharePoint의 선택 필드 두 개를 사용 하도록 지원 하지 않으며이 UI 내에서 **일치 하는 필드** 를 정의할 수 없습니다.

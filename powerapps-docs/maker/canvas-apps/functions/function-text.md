@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ac0291abababb807628fa224ba8292daf1064d23
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 98836d9dad8d46e88c9587c139ec58fed91fa323
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71991890"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678155"
 ---
 # <a name="text-function-in-powerapps"></a>PowerApps의 Text 함수
 모든 값을 변환 하 고 숫자 또는 날짜/시간 값의 형식을 텍스트 문자열로 변환 합니다.
@@ -27,7 +27,7 @@ ms.locfileid: "71991890"
 **Text** 함수는 이러한 유형의 인수 중 하나를 기반으로 숫자나 날짜/시간 값의 서식을 지정합니다.
 
 * **DateTimeFormat** 열거를 사용하여 지정하는 미리 정의된 날짜/시간 형식입니다. 날짜 및 시간의 경우이 접근 방식은 각 사용자의 언어 및 지역에 자동으로 조정 되므로 선호 됩니다.
-* 를 정의 하는 자리 표시자 문자열로 구성 된 사용자 지정 형식으로, 예를 들어 숫자에 소수 구분 기호를 표시 하 고 날짜에 월의 전체 이름, 월을 약어로 표시 하거나 월을 숫자로 표시 합니다. PowerApps는 Microsoft Excel이 수행하는 자리 표시자의 하위 집합을 지원합니다. 이 문자열에서 언어 자리 표시자는 다른 자리 표시자를 해석할 언어를 지정 합니다. 예를 들어 사용자 지정 형식에 마침표가 포함 된 경우 언어 형식 자리 표시자는 마침표를 소수 구분 기호 (ja-jp) 또는 천 단위 구분 기호 (es)로 지정 합니다.
+* 를 정의 하는 자리 표시자 문자열로 구성 된 사용자 지정 형식으로, 예를 들어 숫자에 소수 구분 기호를 표시 하 고 날짜에 월의 전체 이름, 월을 약어로 표시 하거나 월을 숫자로 표시 합니다. Power Apps는 Microsoft Excel에서 수행 하는 자리 표시자의 하위 집합을 지원 합니다. 이 문자열에서 언어 자리 표시자는 다른 자리 표시자를 해석할 언어를 지정 합니다. 예를 들어 사용자 지정 형식에 마침표가 포함 된 경우 언어 형식 자리 표시자는 마침표를 소수 구분 기호 (ja-jp) 또는 천 단위 구분 기호 (es)로 지정 합니다.
 
 자세한 내용은 [날짜 및 시간 작업](../show-text-dates-times.md)을 참조하세요.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f29b3a782ce62c475c80804225787a0a42e85a2c
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 6c41407397cc0f9a7ca12ec2c9cc3bbb7fa8c95f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993577"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679825"
 ---
 # <a name="data-table-control-in-powerapps"></a>PowerApps의 데이터 테이블 컨트롤
 테이블 형식으로 데이터 집합을 보여 줍니다.
@@ -27,7 +27,7 @@ ms.locfileid: "71993577"
 **데이터 테이블** 컨트롤은 컨트롤이 표시하는 각 필드에 대한 머리글을 포함하는 형식으로 데이터 세트를 보여 줍니다. 앱 제작자는 표시할 필드와 순서를 완전히 제어할 수 있습니다. **갤러리** 컨트롤처럼 **데이터 테이블** 컨트롤도 선택된 행을 가리키는 **Selected** 속성을 유지합니다. 따라서 **데이터 테이블**을 다른 컨트롤에 연결할 수 있습니다.
 
 ## <a name="capabilities"></a>기능
-PowerApps에는 2017년 5월 5일 **데이터 테이블**이 도입되었습니다. 이 섹션에서는 지원되는 기능과 지원되지 않는 기능에 대한 정보를 제공합니다.
+Power Apps는 5 월 5 일 2017에 **데이터 테이블** 컨트롤을 도입 했습니다. 이 섹션에서는 지원되는 기능과 지원되지 않는 기능에 대한 정보를 제공합니다.
 
 ### <a name="now-available"></a>지금 사용 가능
 * **데이터 테이블** 컨트롤의 데이터는 읽기 전용입니다.

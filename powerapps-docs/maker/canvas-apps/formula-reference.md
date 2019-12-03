@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 8ba2d504cc731725d154d8141854373fbf67dc2a
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: eb698f5e2775f1acfed6a7af70475a6079753abb
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992932"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678468"
 ---
 # <a name="formula-reference-for-powerapps"></a>PowerApps에 대한 수식 참조
 수식은 많은 요소를 결합합니다.  아래 나열되어 있습니다.
@@ -162,7 +162,7 @@ ms.locfileid: "71992932"
 
 **[ForAll](functions/function-forall.md)** – 테이블의 모든 레코드에 대해 값을 계산하고 작업을 수행합니다.
 
-## <a name="g"></a>EXPRESS-G
+## <a name="g"></a>Express-g
 **[GroupBy](functions/function-groupby.md)** – 함께 그룹화된 레코드가 있는 테이블을 반환합니다.
 
 **[GUID](functions/function-guid.md)** - GUID 문자열을 GUID 값으로 변환하거나 새 GUID 값을 만듭니다.
@@ -192,7 +192,7 @@ ms.locfileid: "71992932"
 ## <a name="j"></a>J
 **[Json](functions/function-json.md)** -테이블, 레코드 또는 값에 대 한 json 텍스트 문자열을 생성 합니다.
 
-## <a name="l"></a>L-VALUE
+## <a name="l"></a>L-value
 **[Language](functions/function-language.md)** – 현재 사용자의 언어 태그를 반환합니다.
 
 **[Last](functions/function-first-last.md)** – 테이블의 마지막 레코드를 반환합니다.
@@ -207,7 +207,7 @@ ms.locfileid: "71992932"
 
 **[Ln](functions/function-numericals.md)** – 자연 로그를 반환합니다.
 
-**[LoadData](functions/function-savedata-loaddata.md)** – PowerApps 사설 스토리지에서 컬렉션을 로드합니다.
+**[LoadData](functions/function-savedata-loaddata.md)** – Power Apps 개인 저장소에서 컬렉션을 로드 합니다.
 
 **[Location](functions/signals.md)** – GPS(Global Positioning System) 또는 기타 정보를 사용하여 사용자의 위치를 지도 좌표로 반환합니다.
 
@@ -295,7 +295,7 @@ ms.locfileid: "71992932"
 **[RoundUp](functions/function-round.md)** – 가장 작은 다음 숫자로 올림합니다.
 
 ## <a name="s"></a>삭제
-**[SaveData](functions/function-savedata-loaddata.md)** – PowerApps 사설 스토리지에 컬렉션을 저장합니다.
+**[Savedata](functions/function-savedata-loaddata.md)** – 컬렉션을 Power Apps 개인 저장소에 저장 합니다.
 
 **[Search](functions/function-filter-lookup.md)** – 해당 열 중 하나에 문자열을 포함하는 테이블의 레코드를 찾습니다.  
 

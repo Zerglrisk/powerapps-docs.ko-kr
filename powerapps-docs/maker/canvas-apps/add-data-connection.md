@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 420728d60555c3aeaf5fd5e844a900d412b0c3ef
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: d81b1648fc3c45d0498efb9eba0cc14ffbc6142b
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540980"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679273"
 ---
 # <a name="add-a-data-connection-to-a-canvas-app-in-powerapps"></a>PowerApps의 캔버스 앱에 데이터 연결 추가
 
-PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 캔버스 앱에서 데이터 연결을 추가합니다. 앱은 SharePoint, Common Data Service, Salesforce, OneDrive 또는 [다른 많은 데이터 원본](connections-list.md)에 연결할 수 있습니다.
+Power Apps에서 처음부터 작성 하는 기존 캔버스 앱 또는 앱에 데이터 연결을 추가 합니다. 앱은 SharePoint, Common Data Service, Salesforce, OneDrive 또는 [다른 많은 데이터 원본](connections-list.md)에 연결할 수 있습니다.
 
 이 문서 이후 [다음 단계](#next-steps)는 다음 예와 같이 앱에서 데이터 원본의 데이터를 표시하고 관리하기 위한 것입니다.
 
@@ -33,7 +33,7 @@ PowerApps에서 처음부터 앱을 빌드할 때 또는 기존 캔버스 앱에
 
 ## <a name="prerequisites"></a>필수 조건
 
-PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 입력하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 제공 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 
 ## <a name="open-a-blank-app"></a>비어 있는 앱 열기
 
@@ -41,7 +41,7 @@ PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한
 
 1. 앱의 이름을 지정 하 고 **만들기**를 선택 합니다.
 
-1. **PowerApps Studio 시작** 대화 상자에서 **건너뛰기**를 선택합니다.
+1. **Power Apps 스튜디오 시작** 대화 상자가 나타나면 **건너뛰기**를 선택 합니다.
 
 ## <a name="add-data-source"></a>데이터 원본 추가
 

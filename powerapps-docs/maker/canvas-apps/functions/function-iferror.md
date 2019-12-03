@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 992ff4ccfae533908acac96efaa117a726198334
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 8d9916c3fa62aab947315b7c31daa96f7e528acd
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984710"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680285"
 ---
 # <a name="iferror-function-in-powerapps"></a>PowerApps의 IfError 함수
 
@@ -27,9 +27,9 @@ ms.locfileid: "71984710"
 ## <a name="description"></a>설명
 
 > [!NOTE]
-> 이 함수는 실험적 기능의 일부이며 변경될 수 있습니다. 이 항목에서 설명 하는 동작은 *수식 수준 오류 관리* 기능이 설정 되어 있는 경우에만 사용할 수 있습니다. 이 앱 수준 설정은 기본적으로 해제 되어 있습니다. 이 기능을 설정 하려면 *파일* 탭을 열고 왼쪽 메뉴에서 *앱 설정* 을 선택한 다음 *실험적 기능*을 선택 합니다. 여러분의 피드백은 매우 소중합니다. [PowerApps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/Expressions-and-Formulas/bd-p/How-To)에 의견을 남겨주세요.
+> 이 함수는 실험적 기능의 일부이며 변경될 수 있습니다. 이 항목에서 설명 하는 동작은 *수식 수준 오류 관리* 기능이 설정 되어 있는 경우에만 사용할 수 있습니다. 이 앱 수준 설정은 기본적으로 해제 되어 있습니다. 이 기능을 설정 하려면 *파일* 탭을 열고 왼쪽 메뉴에서 *앱 설정* 을 선택한 다음 *실험적 기능*을 선택 합니다. 의견은 microsoft에 매우 유용 합니다. [Power Apps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/Expressions-and-Formulas/bd-p/How-To)에서 의견을 알려주세요.
 
-**IfError** 함수는 오류 결과를 찾을 때까지 하나 이상의 값을 테스트 합니다. 함수에서 오류를 발견 한 경우 함수는 해당 값을 반환 합니다. 그렇지 않으면이 함수는 기본값을 반환 합니다. 두 경우 모두 함수는 표시할 문자열, 평가할 수식 또는 다른 형태의 결과를 반환할 수 있습니다. **IfError** 함수는 **If** 함수와 유사 합니다. **IfError** 가 **true**에 대해 테스트 **하는** 동안 오류를 테스트 합니다.
+**IfError** 함수는 오류 결과를 찾을 때까지 하나 이상의 값을 테스트 합니다. 함수에서 오류를 발견 한 경우 함수는 해당 값을 반환 합니다. 그렇지 않으면이 함수는 기본값을 반환 합니다. 두 경우 모두 함수는 표시할 문자열, 평가할 수식 또는 다른 형태의 결과를 반환할 수 있습니다. **IfError** 함수는 **if** 함수와 유사 합니다. **IfError** 에서 오류를 테스트 하는 반면 **if** 는 **true**를 테스트 합니다.
 
 **IfError** 를 사용 하 여 오류 값을 유효한 값으로 바꿉니다. 예를 들어 사용자 입력으로 인해 0으로 나누기가 발생 하는 경우이 함수를 사용 합니다. 결과를 0 또는 앱에 적절 한 다른 값으로 대체 하는 수식을 작성 하 여 다운스트림 계산이 진행 될 수 있도록 합니다. 수식은 다음 예와 같이 간단할 수 있습니다.
 

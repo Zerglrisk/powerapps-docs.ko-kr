@@ -1,6 +1,6 @@
 ---
 title: Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기 | Microsoft Docs
-description: PowerApps에서 캔버스 앱을 생성하여 Common Data Service에서 레코드를 추가, 업데이트 및 삭제합니다.
+description: Power Apps에서 캔버스 앱을 만들어 Common Data Service에서 레코드를 추가, 업데이트 및 삭제 합니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,22 +13,22 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: bec8524ac6afc265eba5d9a6edf381c5ebf2c340
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 48cd98481cff354d4e54cb54dc38865f6dfa6a14
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540379"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679687"
 ---
 # <a name="create-a-canvas-app-from-scratch-using-common-data-service"></a>Common Data Service를 사용하여 캔버스 앱을 처음부터 만들기
 
 표준 엔터티(기본 제공), 사용자 지정 엔터티(사용자 조직에서 만듦) 또는 모두를 사용하여 Common Data Service에 저장된 데이터를 관리하는 캔버스 앱을 빌드합니다.
 
-Common Data Service에서 앱을 빌드하면, SharePoint, Dynamics 365 및 Salesforce와 같은 데이터 원본에서와 마찬가지로 PowerApps에서 연결을 만들 필요가 없습니다. 앱에서 표시, 관리하려는 엔터티를 지정하기만 하면 됩니다.
+Common Data Service에서 앱을 빌드하는 경우에는 SharePoint, Dynamics 365 또는 Salesforce와 같은 데이터 원본에서와 마찬가지로 Power Apps에서 연결을 만들 필요가 없습니다. 앱에서 표시, 관리하려는 엔터티를 지정하기만 하면 됩니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
-- 앱을 처음부터 만들기 전에 [앱을 생성](data-platform-create-app.md)한 다음, 해당 앱의 [갤러리](customize-layout-sharepoint.md), [양식](customize-forms-sharepoint.md) 및 [카드](customize-card.md)를 사용자 지정하여 PowerApps 기본 사항에 익숙해지도록 합니다.
+- 앱을 처음부터 만들기 전에 앱을 [생성](data-platform-create-app.md) 한 다음 해당 앱의 [갤러리](customize-layout-sharepoint.md), [양식](customize-forms-sharepoint.md)및 [카드](customize-card.md)를 사용자 지정 하 여 Power Apps 기본 사항에 익숙해져야 합니다.
 - 샘플 데이터를 사용하여 데이터베이스를 만든 [환경으로 전환합니다](working-with-environments.md). 적절한 라이선스를 있는 경우 이 요구 사항이 충족되는 [환경을 만들 수 있습니다](../../administrator/create-environment.md).
 - 앱을 만들려면 [Environment Maker](https://docs.microsoft.com/power-platform/admin/database-security#predefined-security-roles) 보안 역할에 할당되어야합니다.
 

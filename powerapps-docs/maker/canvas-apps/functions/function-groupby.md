@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6354862823122d332c7e70fba08829d3fc8147eb
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: c5b5ddf05201743a5ea4848793fcd05aea7def24
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985046"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680170"
 ---
 # <a name="groupby-and-ungroup-functions-in-powerapps"></a>PowerApps의 GroupBy 및 Ungroup 함수
 [테이블](../working-with-tables.md)의 [레코드](../working-with-tables.md#records)를 그룹화하고 그룹을 해제합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "71985046"
 
 **Ungroup**은 **GroupBy**에 공급된 레코드의 원래 순서를 유지하려고 합니다.  이것이 항상 가능하지는 않습니다(예: 원래 테이블에 *공백* 레코드가 있는 경우).
 
-테이블은 문자열이나 숫자처럼 PowerApps의 값입니다. 테이블을 함수의 인수로 지정할 수 있으며 함수는 테이블을 반환할 수 있습니다. **GroupBy**와 **Ungroup**은 테이블을 수정하지 않습니다. 대신 테이블을 인수로 취하여 다른 테이블을 반환합니다. 자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
+테이블은 문자열 또는 숫자와 마찬가지로 Power Apps의 값입니다. 테이블을 함수의 인수로 지정할 수 있으며 함수는 테이블을 반환할 수 있습니다. **GroupBy**와 **Ungroup**은 테이블을 수정하지 않습니다. 대신 테이블을 인수로 취하여 다른 테이블을 반환합니다. 자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
 
 ## <a name="syntax"></a>구문
 **GroupBy**( *Table*, *ColumnName1* [, *ColumnName2*, ... ], *GroupColumnName* )
@@ -52,7 +52,7 @@ ms.locfileid: "71985046"
 * *GroupColumnName* - 필수 항목입니다.  *ColumnName(s)* 에 없는 레코드 데이터의 스토리지에 대한 열 이름입니다.
   
     > [!NOTE]
-  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어 **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 **Ungroup**( *Table*, *GroupColumnName* )
 
@@ -60,7 +60,7 @@ ms.locfileid: "71985046"
 * *GroupColumnName* - 필수 항목입니다. **GroupBy** 함수를 사용하여 레코드 데이터 설정을 포함하는 열입니다.
   
     > [!NOTE]
-  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어 **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 ### <a name="create-a-collection"></a>컬렉션 만들기

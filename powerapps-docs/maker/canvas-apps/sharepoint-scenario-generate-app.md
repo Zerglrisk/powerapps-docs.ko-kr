@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 9bfd103d2f8e6503e2897855a0d424807b9573e6
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: 42ca4a12f75c82bb685396a857e5ae825d8d7fa1
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73899319"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674783"
 ---
 # <a name="generate-a-canvas-app-to-handle-project-requests"></a>프로젝트 요청을 처리할 캔버스 앱 생성
 > [!NOTE]
-> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 SharePoint Online에서 Power Apps, 파워 자동화 및 Power BI 사용에 대 한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
-SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자 지정할 수 있습니다. 목록에서 직접 기본 *3개 화면 앱*을 쉽게 생성하도록 PowerApps는 SharePoint와 통합됩니다. 이 앱을 사용하면 각 목록 항목에 대한 요약 및 세부 정보를 보고, 기존 목록 항목을 업데이트하고, 새 목록 항목을 만들 수 있습니다. 목록에서 직접 앱을 만드는 경우 앱은 해당 목록에서 *보기*로 나타납니다. 그런 다음 휴대폰뿐만 아니라 브라우저에서 해당 앱을 실행할 수 있습니다.
+SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자 지정할 수 있습니다. Power Apps는 SharePoint와 통합 되므로 목록에서 직접 기본 *3 개 화면 앱* 을 쉽게 생성할 수 있습니다. 이 앱을 사용하면 각 목록 항목에 대한 요약 및 세부 정보를 보고, 기존 목록 항목을 업데이트하고, 새 목록 항목을 만들 수 있습니다. 목록에서 직접 앱을 만드는 경우 앱은 해당 목록에서 *보기*로 나타납니다. 그런 다음 휴대폰뿐만 아니라 브라우저에서 해당 앱을 실행할 수 있습니다.
 
 > [!TIP]
 > 이 시나리오에 대한 [다운로드 패키지](https://aka.ms/o4ia0f)에는 이 앱의 완성된 버전인 project-requests-app.msapp이 포함되어 있습니다.
@@ -35,19 +35,19 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
     ![앱 만들기](./media/sharepoint-scenario-generate-app/02-01-01-create-app.png)
 
-2. "프로젝트 요청 앱"과 같은 이름을 앱에 지정한 다음 **만들기**를 클릭하거나 누릅니다. 앱이 준비되면 PowerApps Studio가 열립니다.
+2. "프로젝트 요청 앱"과 같은 이름을 앱에 지정한 다음 **만들기**를 클릭하거나 누릅니다. 앱이 준비 되 면 Power Apps 스튜디오에서 열립니다.
    
     ![앱의 이름 지정](./media/sharepoint-scenario-generate-app/02-01-02-create-app-name.png)
 
-## <a name="step-2-review-the-app-in-powerapps-studio"></a>2단계: PowerApps Studio에서 앱 검토
+## <a name="step-2-review-the-app-in-power-apps-studio"></a>2 단계: Power Apps Studio에서 앱 검토
 
-1. PowerApps Studio의 왼쪽 탐색 모음은 기본적으로 앱에서 화면 및 컨트롤의 계층적 보기를 보여줍니다.
+1. Power Apps 스튜디오에서 왼쪽 탐색 모음은 기본적으로 앱에 있는 화면과 컨트롤의 계층 뷰를 표시 합니다.
    
-    ![계층적 보기를 사용하는 PowerApps Studio](./media/sharepoint-scenario-generate-app/02-02-01-studio-screens-hierarchy.png)
+    ![계층 구조 보기를 사용 하는 Power Apps Studio](./media/sharepoint-scenario-generate-app/02-02-01-studio-screens-hierarchy.png)
 
 2. 썸네일 아이콘을 클릭하거나 눌러서 보기를 전환합니다.
    
-    ![PowerApps Studio 보기 선택기](./media/sharepoint-scenario-generate-app/02-02-02-studio-view-selector.png)
+    ![Power Apps 스튜디오 뷰 선택기](./media/sharepoint-scenario-generate-app/02-02-02-studio-view-selector.png)
 
 3. 가운데 창에서 보려는 각 화면을 클릭하거나 누릅니다. 화면에는 세 가지가 있습니다.
    
@@ -57,7 +57,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
     
     (c). 기존 항목을 편집하거나 새 항목을 만들 수 있는 **편집/만들기** 화면
       
-      ![썸네일 보기를 사용하는 PowerApps Studio](./media/sharepoint-scenario-generate-app/02-02-03-studio-screens-thumbnails.png)
+      ![미리 보기를 사용 하는 Power Apps 스튜디오](./media/sharepoint-scenario-generate-app/02-02-03-studio-screens-thumbnails.png)
 
 ## <a name="step-3-customize-the-apps-browse-screen"></a>3단계: 앱의 찾아보기 화면 사용자 지정
 
@@ -89,7 +89,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
    
     ![수식 입력줄](./media/sharepoint-scenario-generate-app/02-03-04-formula.png)
    
-    그러면 PowerApps에서 선택한 기본값 대신 **제목** 필드별로 정렬하고 검색할 수 있습니다. 자세한 정보는 [수식 심층 분석](#formula-deep-dive)을 참조하세요.
+    이렇게 하면 Power Apps에서 선택한 기본값 대신 **제목** 필드를 기준으로 정렬 하 고 검색할 수 있습니다. 자세한 정보는 [수식 심층 분석](#formula-deep-dive)을 참조하세요.
 
 6. **파일** 및 **저장**을 차례로 클릭하거나 누릅니다. ![앱으로 돌아가기 아이콘](./media/sharepoint-scenario-generate-app/icon-back-to-app.png)을 클릭하거나 눌러서 앱으로 돌아갑니다.
 
@@ -137,7 +137,7 @@ SharePoint 목록을 저장했으므로 첫 번째 앱을 빌드하고 사용자
 아주 간단한 앱이며 몇 가지 기본 사용자 지정만 수행했지만 흥미로운 기능을 신속하게 빌드할 수 있습니다. 다음 작업으로 이동하겠습니다. 하지만 원하신다면 앱에 대해 좀 더 살펴보고 컨트롤 및 수식이 함께 작동하여 앱 동작을 구현하는 방법을 확인합니다.
 
 ## <a name="formula-deep-dive"></a>수식 심층 분석
-이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있습니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **항목** 속성의 수식을 수정했습니다. 특히 선택한 PowerApps 필드 대신 **제목** 필드를 사용하도록 정렬 및 검색 방법을 변경했습니다. 수정한 수식은 다음과 같습니다.
+이 섹션은 옵션이지만 수식이 작동하는 방법에 대해 자세히 이해할 수 있습니다. 이 작업의 3단계에서 **BrowseGallery1**에 있는 **항목** 속성의 수식을 수정했습니다. 특히 Power Apps에서 선택한 필드 대신 **제목** 필드를 사용 하도록 정렬 및 검색을 변경 했습니다. 수정한 수식은 다음과 같습니다.
 
 **SortByColumns ( Filter ( 'Project Requests', StartsWith ( Title, TextSearchBox1.Text ) ), "Title", If ( SortDescending1, Descending, Ascending ) )**
 

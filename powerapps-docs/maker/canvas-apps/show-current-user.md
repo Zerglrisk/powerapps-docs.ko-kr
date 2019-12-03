@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에서 현재 사용자에 대한 세부 정보 표시 | Microsoft Docs
-description: PowerApps에서 로그인한 사용자의 이름과 이메일 주소를 캔버스 앱에 표시합니다.
+description: Power Apps에서 캔버스 앱에 로그인 한 사용자의 이름 및 전자 메일 주소를 표시 합니다.
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: afd5dffc75dea4186058ba96adbaf0dbde8dc3d8
-ms.sourcegitcommit: 57b968b542fc43737330596d840d938f566e582a
+ms.openlocfilehash: f77ec80cfaf579c836277f0e29d3b84b325a0462
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "71988510"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674605"
 ---
-# <a name="show-information-about-a-powerapps-user-in-a-canvas-app"></a>캔버스 앱에서 PowerApps 사용자에 대한 정보 표시
+# <a name="show-information-about-a-power-apps-user-in-a-canvas-app"></a>Canvas 앱에서 Power Apps 사용자에 대 한 정보 표시
 
-PowerApps에서 전체 이름, 이메일 주소 및 캔버스 앱에 로그인한 사용자와 관련된 그림을 표시합니다. 예를 들어, 이 정보를 사용하여 폼을 자동으로 채울 수 있습니다.
+Power Apps에서 캔버스 앱에 로그인 한 사용자와 연결 된 전체 이름, 전자 메일 주소 및 그림을 표시 합니다. 예를 들어, 이 정보를 사용하여 폼을 자동으로 채울 수 있습니다.
 
 예를 들어 이 기능을 사용하여 다음을 수행할 수 있습니다.
 

@@ -1,6 +1,6 @@
 ---
 title: Calendar 및 Clock 함수 | Microsoft Docs
-description: PowerApps의 Calendar 및 Clock 함수에 대한 구문과 예제를 포함한 참조 정보
+description: 구문 및 예제를 포함 하 여 Power Apps의 Calendar 및 Clock 함수에 대 한 참조 정보
 author: gregli-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a4b3540d8a7d499d4da1206f70298ea4a2541b16
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 62a500ad6e39451a3fb62932b9eeafb1d38f772a
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985432"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679388"
 ---
 # <a name="calendar-and-clock-functions-in-powerapps"></a>PowerApps의 Calendar 및 Clock 함수
 현재 로캘에 대한 달력 및 시계 정보를 검색합니다.

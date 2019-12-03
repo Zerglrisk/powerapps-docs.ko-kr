@@ -1,6 +1,6 @@
 ---
 title: Excel에서 캔버스 앱 생성 | Microsoft Docs
-description: PowerApps를 사용하여 클라우드 스토리지 계정에 저장된 Excel 파일을 사용하는 캔버스 앱을 자동으로 생성
+description: Power Apps를 사용 하 여 클라우드 저장소 계정에 저장 된 Excel 파일을 사용 하 여 캔버스 앱을 자동으로 생성
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,20 +13,20 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: cb1757da9a5b0a99dad22a43ac844b192651f6df
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 979c24de10eab4d91a89fbaf9e33b53a09b0ba58
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541309"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74676298"
 ---
 # <a name="generate-a-canvas-app-from-excel-in-powerapps"></a>PowerApps의 Excel에서 캔버스 앱 생성
 
-이 항목에서는 Excel 테이블의 데이터를 사용하여 PowerApps에서 첫 번째 캔버스 앱을 자동으로 생성합니다. Excel 파일을 선택하고, 앱을 생성한 다음, 생성하는 앱을 실행합니다. 생성된 모든 앱은 레코드를 검색하고, 레코드 세부 정보를 표시하고, 레코드를 만들거나 업데이트하는 화면을 포함합니다. 앱을 생성하여 Excel 데이터를 사용하는 작업 중인 앱을 신속하게 가져온 다음, 필요에 맞게 앱을 사용자 지정할 수 있습니다. 
+이 항목에서는 Excel 테이블의 데이터를 사용 하 여 Power Apps에서 첫 번째 캔버스 앱을 자동으로 생성 합니다. Excel 파일을 선택하고, 앱을 생성한 다음, 생성하는 앱을 실행합니다. 생성된 모든 앱은 레코드를 검색하고, 레코드 세부 정보를 표시하고, 레코드를 만들거나 업데이트하는 화면을 포함합니다. 앱을 생성하여 Excel 데이터를 사용하는 작업 중인 앱을 신속하게 가져온 다음, 필요에 맞게 앱을 사용자 지정할 수 있습니다. 
 
 Excel 파일은 OneDrive, Google Drive 또는 Dropbox와 같은 클라우드 스토리지 계정에 있어야 합니다. 이 항목에서는 비즈니스용 OneDrive를 사용합니다.
 
-PowerApps에 대한 라이선스가 없는 경우 [무료로 등록](../signup-for-powerapps.md)할 수 있습니다.
+Power Apps에 대 한 라이선스가 없는 경우 [무료로 등록할](../signup-for-powerapps.md)수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 

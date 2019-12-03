@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 565f751017bc8c145c34058bd4dd57d047127d45
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 455ffff4813b457c2a439f2081c10418ace2e306
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71987187"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678721"
 ---
 # <a name="connect-to-excel-from-powerapps"></a>PowerApps에서 Excel에 연결
 ![Excel](./media/connection-excel/excelicon.png)
@@ -31,7 +31,7 @@ Excel은 연결의 *한 종류*입니다. 앱에서 Excel 데이터를 표시하
 4. [앱을 자동으로 생성](../get-started-create-from-data.md)하거나 **갤러리** 컨트롤 등을 추가하고 구성하여 앱에 이 정보를 표시합니다.
 
 > [!NOTE]
-> PowerApps의 Excel 테이블에 연결하면, PowerApps는 Excel 테이블의 각 행에 고유한 ID가 있는 **\_PowerAppsId_** 라고 하는 열을 만듭니다.
+> Power Apps에서 Excel 테이블에 연결 하면 Excel 테이블의 각 행에 대 한 고유 ID를 사용 하 여 **\_PowerAppsId_** 라는 열이 생성 됩니다.
 
 [클라우드 스토리지 연결 개요](cloud-storage-blob-connections.md)는 연결을 추가하고 Excel 표를 데이터 원본으로 저장하며 앱에서 Excel 데이터를 사용하는 방법을 보여줍니다.
 

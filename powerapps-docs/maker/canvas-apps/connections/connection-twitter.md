@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f58f8e15d1bd522bd9c24d7e3e1dfe9a69b4d257
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 21effecae904675e39c914145ee10df9c81ec752
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541024"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679848"
 ---
 # <a name="connect-to-twitter-from-powerapps"></a>PowerApps에서 Twitter 연결
 ![Twitter](./media/connection-twitter/twittericon.png)
@@ -32,7 +32,7 @@ Twitter를 사용하여 트윗을 보내고 Twitter 계정에서 트윗, 타임�
 [!INCLUDE [connection-requirements](../../../includes/connection-requirements.md)]
 
 ## <a name="connect-to-twitter"></a>Twitter 연결
-1. PowerApps를 열고 **새로 만들기**를 선택한 다음 **비어 있는 앱**을 만듭니다. 전화나 태블릿 레이아웃을 선택합니다. 태블릿 레이아웃의 작업 영역이 더 넓습니다.  
+1. Power Apps를 열고 **새로 만들기**를 선택한 다음, **빈 앱**을 만듭니다. 전화나 태블릿 레이아웃을 선택합니다. 태블릿 레이아웃의 작업 영역이 더 넓습니다.  
 
    ![비어 있는 앱 열기](./media/connection-twitter/blank-app.png)
 2. 오른쪽 창에서 **데이터** 탭을 클릭하거나 탭한 후 **데이터 원본 추가**를 클릭하거나 탭합니다.

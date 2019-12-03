@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 26ba133612e1c69ed470984fabafe6a6cdfddb1c
-ms.sourcegitcommit: d03915b4e2583327526b448ec10474cedfd7efe0
+ms.openlocfilehash: cd6d16a86dbe9c3a7a6ea60be11b9054c54790f2
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74550579"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679710"
 ---
 # <a name="rich-text-editor-control-in-powerapps"></a>PowerApps의 서식 있는 텍스트 편집기 컨트롤
 최종 사용자가 WYSIWYG 편집 영역 내에서 텍스트의 서식을 지정할 수 있습니다.  출력 형식은 HTML입니다.
@@ -28,7 +28,7 @@ ms.locfileid: "74550579"
 
 컨트롤을 사용하면 복사된 서식 있는 텍스트(예: 웹 브라우저 또는 Word에서)를 컨트롤에 붙여넣을 수 있습니다.  
 
-컨트롤의 의도된 용도는 텍스트 서식을 지정하는 것이며 입력 HTML의 무결성을 유지하도록 보장하지 않습니다.  모든 스크립트, 스타일, 개체 및 기타 잠재적으로 손상되는 태그는 편집기에서 제거됩니다.  즉, 서식 있는 텍스트가 PowerApps 외부에서 만들어졌으면 만들어진 제품에서와 동일하게 보일 수 없습니다.
+컨트롤의 의도된 용도는 텍스트 서식을 지정하는 것이며 입력 HTML의 무결성을 유지하도록 보장하지 않습니다.  모든 스크립트, 스타일, 개체 및 기타 잠재적으로 손상되는 태그는 편집기에서 제거됩니다.  즉, 강력한 앱 외부에서 서식 있는 텍스트를 만든 경우 해당 텍스트는 생성 된 제품의 경우와 다를 수 있습니다.
 
 현재 지원되는 기능은 다음과 같습니다.
 - 굵게, 기울임꼴, 밑줄

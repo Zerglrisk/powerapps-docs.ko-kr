@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e8f40f9cd3b15dddfd9fdadbcd15495e33464967
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 5eb7bac0197856988f344ae2779bf2b43d1f797f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540913"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679986"
 ---
 # <a name="manage-canvas-app-connections-in-powerapps"></a>PowerApps에서 캔버스 앱 연결 관리
 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 하나 이상의 데이터 원본으로의 연결을 만들거나, 연결을 삭제하거나, 또는 해당 자격 증명을 업데이트합니다.
@@ -39,7 +39,7 @@ ms.locfileid: "73540913"
 2. 등록 시 사용한 동일한 자격 증명을 사용하여 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 ## <a name="background-on-data-connections"></a>데이터 연결에 대한 배경
-대부분의 PowerApps 앱은 클라우드 서비스에 저장된 **데이터 원본**이라는 외부 정보를 사용합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스할 수 있습니다.
+대부분의 Power Apps 앱은 cloud services에 저장 된 **데이터 원본** 이라는 외부 정보를 사용 합니다. 일반적인 예로 비즈니스용 OneDrive에 저장된 Excel 파일의 테이블이 있습니다. 앱에서 **연결**을 사용하여 이러한 데이터 원본에 액세스할 수 있습니다.
 
 데이터 원본의 가장 흔한 유형은 정보 검색 및 저장에 사용할 수 있는 테이블입니다. 데이터 원본에 대한 연결을 사용하여 데이터를 비즈니스용 OneDrive, DropBox, SQL Server 등과 같은 클라우드 서비스에 저장할 수 있는 Microsoft Excel 통합 문서, SharePoint 목록, SQL 테이블 및 다른 많은 형식으로 읽고 쓸 수 있습니다.
 
@@ -54,7 +54,7 @@ ms.locfileid: "73540913"
 * 다른 사용자가 생성하여 [사용자와 공유](share-app.md)한 앱을 엽니다.
 
 > [!NOTE]
-> 대신 PowerApps Studio를 사용하려는 경우 **파일** 메뉴를 열고 **연결**을 클릭하거나 탭하면 사용자가 연결을 만들고 관리할 수 있는 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)이 열립니다.
+> 대신 Power Apps Studio를 사용 하려는 경우 **파일** 메뉴를 열고 **연결**을 클릭 하거나 탭 하면 연결을 만들고 관리할 수 있도록 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 이 열립니다.
 
 ## <a name="create-a-new-connection"></a>새 연결 만들기
 1. 아직 수행하지 않은 경우 [powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.

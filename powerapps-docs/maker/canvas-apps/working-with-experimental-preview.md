@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 55174184cf0a94b6a398e6441c919ba5ad51dc85
-ms.sourcegitcommit: 249d710ec06c078eb71faa6d5eb48494c8435abd
+ms.openlocfilehash: b1d8dbc97082cc2a7eeee2c5eae093a665d74d70
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "73962517"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674248"
 ---
 # <a name="understand-experimental-preview-and-deprecated-features-in-powerapps"></a>PowerApps의 실험적, 미리 보기 및 사용 되지 않는 기능 이해
 
-모든 릴리스마다 PowerApps를 사용자의 요구 사항에 맞는 최상의 도구로 만들기 위해 변경 사항을 적용하고 기능을 추가합니다. 제품을 발전시켜 나갑니다.  
+모든 릴리스에서는 기능을 변경 하 고 기능을 추가 하 여 Power Apps를 요구 사항에 맞게 최상의 도구로 만듭니다. 제품을 발전시켜 나갑니다.  
 
 이전 버전과의 호환성을 매우 진지하게 다룹니다. 그러나 변경 또는 개선으로, 의도하지 않은 부작용이 초래되어 앱이 예전과 똑같이 작동하지 않을 수 있습니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "73962517"
 
 각 단계에서이 기능을 사용 하는 사용자 수는 기능이 향상 되어 기능이 필요한 지 여부를 확인 하 고 의도 하지 않은 부작용이 발생 하지 않도록 하는 데 도움이 됩니다.
 
-**사용자의 피드백은 이 프로세스에서 중요합니다.**  [PowerApps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)에 피드백을 올려 주세요.
+**사용자의 피드백은 이 프로세스에서 중요합니다.**  [Power Apps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)에서 사용자 의견을 게시 하세요.
 
 각 단계에서 기능은 얼마나 유지되나요? 기능에 따라 다릅니다. 해당 기능을 사용하는 앱의 수, 보고된 문제의 수는 물론, 이 기능이 얼마나 긴급하게 필요한지 등 많은 요소를 살펴 봅니다. 기능은 한 단계에서 몇 주에서 수개월까지 유지될 수 있습니다.  도움이 되지 않는다고 생각 되 면 몇 가지 단계를 건너뛸 수도 있습니다.
 
@@ -55,9 +55,9 @@ ms.locfileid: "73962517"
 ## <a name="documentation"></a>설명을
 
 이러한 기능에 대한 정보는 어디서 찾을 수 있나요?  미리 보기 기능을 완성된 기능으로 다루며 다른 제품 기능과 마찬가지로 이 기능에 대해서 자세히 알아볼 수 있습니다. 
-- [PowerApps 설명서](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started). 새 기능에 대한 기본 사항(예: 이점, 시작 방법 및 참조 정보)을 제공합니다.
-- [PowerApps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).  다른 사용자와 함께 새로운 기능을 살펴봅니다. 다른 사용자의 경험으로부터 배우고 자신의 경험을 공유합니다.
-- [PowerApps 블로그](https://powerapps.microsoft.com/blog/).  항상 그렇지는 않지만 종종 블로그 게시물에 새 기능이 소개됩니다.
+- [Power Apps 설명서](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started). 새 기능에 대한 기본 사항(예: 이점, 시작 방법 및 참조 정보)을 제공합니다.
+- [Power Apps 커뮤니티 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1).  다른 사용자와 함께 새로운 기능을 살펴봅니다. 다른 사용자의 경험으로부터 배우고 자신의 경험을 공유합니다.
+- [Power Apps 블로그](https://powerapps.microsoft.com/blog/).  항상 그렇지는 않지만 종종 블로그 게시물에 새 기능이 소개됩니다.
 
 실험적 기능은 다릅니다.  진행 중인 작업이며 완성된 것으로 생각하지 않습니다. **앱 설정** 창(아래 참조)의 짧은 설명이 해당 기능에 대한 유일한 정보가 될 수 있습니다. 실험적 기능은 일반적으로 설명서에 나타나지 않습니다. 커뮤니티 포럼이 정보를 얻을 수 있는 가장 좋은 곳일 것입니다.  초기 블로그 게시물에서 이 기능에 대해 설명하는 경우도 있습니다.  충분한 정보를 찾을 수 없는 경우에는 포럼에 묻거나 기능이 미리 보기 단계로 진행될 때까지 기다려 주세요.
 

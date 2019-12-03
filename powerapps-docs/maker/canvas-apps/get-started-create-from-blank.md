@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 81426f24eea958b40f6d03da787a729603ec6f7f
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 79d59c484f82f4d356f3b2ac40f02bdddd125901
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73537023"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74676594"
 ---
 # <a name="create-a-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
 
@@ -39,7 +39,7 @@ ms.locfileid: "73537023"
     | 일요일 | 정오~오후 2시 |Singh |Morgan |
     | 일요일 | 오후 2시~오후 4시 |Batye |Nguyen |
 
-2. PowerApps에서 정보를 구문 분석할 수 있도록 해당 데이터를 **Schedule**이라는 테이블로 형식을 지정합니다.
+2. Power Apps가 정보를 구문 분석할 수 있도록 해당 데이터를 **일정**이라는 테이블로 포맷 합니다.
 
     자세한 내용은 [Excel에서 테이블 형식 지정](how-to-excel-tips.md)을 참조합니다.
 
@@ -64,9 +64,9 @@ ms.locfileid: "73537023"
     > [!div class="mx-imgBorder"]
     >![앱의 이름 및 형식 지정](./media/get-started-create-from-blank/excel-demo.png)
 
-    PowerApps Studio에서는 빈 전화용 앱을 만듭니다.
+    Power Apps 스튜디오는 휴대폰용 빈 앱을 만듭니다.
 
-1. **PowerApps Studio 시작** 대화 상자가 열리면 **건너뛰기**를 선택합니다.
+1. **Power Apps 스튜디오 시작** 대화 상자가 열리면 **건너뛰기**를 선택 합니다.
 
 ## <a name="connect-to-data"></a>데이터에 연결
 

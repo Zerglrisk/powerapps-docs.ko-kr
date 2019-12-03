@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 6f2dfae897a19c66e493cbdecd897df87b8194c2
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 55e38d2be5f43e1b13fc1894f88aac26a26bd57e
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992228"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678215"
 ---
 # <a name="addcolumns-dropcolumns-renamecolumns-and-showcolumns-functions-in-powerapps"></a>PowerApps에서 AddColumns, DropColumns, RenameColumns 및 ShowColumns 함수
 해당 [열](../working-with-tables.md#columns)을 추가, 삭제, 이름 바꾸기 및 선택하여 [테이블](../working-with-tables.md)을 셰이프합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "71992228"
 * 테이블에 계산된 열을 추가합니다(예: **Quantity**에 **Unit Price**를 곱한 결과를 표시하는 **Total Price** 열).
 * 사용자에게 표시하거나 수식에서 사용할 수 있도록 열의 이름을 더 의미 있게 변경합니다.
 
-테이블은 문자열이나 숫자처럼 PowerApps의 값입니다.  테이블을 수식의 인수로 지정할 수 있으며 함수는 테이블을 결과로 반환할 수 있습니다.
+테이블은 문자열 또는 숫자와 마찬가지로 Power Apps의 값입니다.  테이블을 수식의 인수로 지정할 수 있으며 함수는 테이블을 결과로 반환할 수 있습니다.
 
 > [!NOTE]
 > 이 항목에서 설명 하는 함수는 원래 테이블을 수정 하지 않습니다. 대신 해당 테이블을 인수로 사용 하 고 변환이 적용 된 새 테이블을 반환 합니다. 자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.  

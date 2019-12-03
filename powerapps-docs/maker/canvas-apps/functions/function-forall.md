@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 73f197c7d4038748649261f4686cb07b456595e0
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 3d53a721e5abba3ce7e844420d9e8415b908cdde
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985199"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680216"
 ---
 # <a name="forall-function-in-powerapps"></a>PowerApps의 ForAll 함수
 [테이블](../working-with-tables.md)의 모든 [레코드](../working-with-tables.md#records)에 대해 값을 계산하고 작업을 수행합니다.
@@ -43,7 +43,7 @@ ms.locfileid: "71985199"
 데이터 원본을 수정하는 **Collect**, **Remove** 및 **Update**를 비롯한 몇 가지 함수는 변경된 데이터 원본을 반환 값으로 반환합니다.  이러한 반환 값이 **ForAll** 테이블의 모든 레코드에 대해 반환되면 커지고 상당한 리소스를 소비할 수 있습니다.  또한 이러한 반환 값이 필요한 값이 아닐 수도 있습니다. **ForAll**은 병렬 작업이 가능하고 이러한 함수의 파생 작업을 그 결과를 얻는 것으로부터 분리할 수 있기 때문입니다.  다행이 **ForAll**의 반환 값이 실제로 사용되지 않으면(데이터 수정 함수의 경우) 반환 값이 생성되지 않아서 리소스나 순서 관련 문제가 없습니다.  하지만 **ForAll**의 결과를 사용하고 데이터 원본을 반환하는 함수 중 하나를 사용하는 경우, 결과를 구조화하는 방법에 대해 신중히 생각하고, 작은 데이터 집합부터 먼저 시도해보십시오.  
 
 ### <a name="alternatives"></a>대안
-PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 둘 이상의 값을 처리할 수 있습니다.  예를 들어, **Len** 함수는 **ForAll** 함수와 같은 방식으로 텍스트 값 테이블을 처리하여 긴 테이블을 반환할 수 있습니다.  이렇게 하면 많은 경우 **ForAll**을 사용할 필요가 없어지고, 효율이 높아지고, 읽기가 쉬워집니다.
+Power Apps의 많은 함수는 단일 열 테이블을 사용 하 여 한 번에 두 개 이상의 값을 처리할 수 있습니다.  예를 들어, **Len** 함수는 **ForAll** 함수와 같은 방식으로 텍스트 값 테이블을 처리하여 긴 테이블을 반환할 수 있습니다.  이렇게 하면 많은 경우 **ForAll**을 사용할 필요가 없어지고, 효율이 높아지고, 읽기가 쉬워집니다.
 
 또 다른 고려 사항은, **ForAll**은 위임이 불가능한 반면 **Filter**와 같은 다른 함수는 위임이 가능하다는 점입니다.  
 
@@ -88,9 +88,9 @@ PowerApps의 많은 함수는 단일 열 테이블을 사용하여 한 번에 �
 | **ForAll( Expressions, MicrosoftTranslator.Translate( Value, "fr" ) )** |Expressions 테이블에 있는 모든 레코드의 **Value** 열 콘텐츠를 프랑스어(약어: "fr")로 번역합니다. |<style> img { max-width: none } </style> ![](media/function-forall/translate-fr.png) |
 
 ### <a name="copying-a-table"></a>테이블 복사
-데이터를 필터링하고, 형성하고, 정렬하고, 조작해야 하는 경우가 있습니다.  PowerApps에는 이러한 작업을 수행하는 **Filter**, **AddColumns** 및 **Sort**와 같은 다양한 함수가 제공됩니다.  PowerApps는 각 테이블을 값으로 처리하기 때문에 수식을 통과하여 쉽게 사용될 수 있도록 합니다.      
+데이터를 필터링하고, 형성하고, 정렬하고, 조작해야 하는 경우가 있습니다.  Power Apps는 **필터**, **Addcolumns**및 **Sort**와 같이이 작업을 수행 하기 위한 다양 한 기능을 제공 합니다.  Power Apps는 각 테이블을 값으로 처리 하 여 수식을 통해 이동 하 고 쉽게 사용할 수 있도록 합니다.      
 
-나중에 사용하기 위해 이러한 결과의 복사본을 만들어야 하는 경우가 있습니다.  하나의 데이터 원본에서 다른 데이터 원본으로 정보를 이동해야 하는 경우도 있습니다.  PowerApps는 데이터를 복사하는 **Collect** 함수를 제공합니다.
+나중에 사용하기 위해 이러한 결과의 복사본을 만들어야 하는 경우가 있습니다.  하나의 데이터 원본에서 다른 데이터 원본으로 정보를 이동해야 하는 경우도 있습니다.  Power Apps는 데이터를 복사 하는 **Collect** 함수를 제공 합니다.
 
 단 복사본을 만들기 전에 정말 필요한지 신중히 생각해야 합니다.  수식을 사용하여 필요에 따라 기본 데이터 원본을 필터링하고 형성하면 많은 상황이 해결될 수 있습니다. 복사본을 생성에는 다음과 같은 단점이 있습니다.
 

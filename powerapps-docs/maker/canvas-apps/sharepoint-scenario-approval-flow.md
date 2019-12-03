@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: a94b32b21bdb2338adefdfc4c3cddc7648001087
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: 457793686079a032d16d3e99960d1573e5edfbba
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73900311"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674904"
 ---
 # <a name="create-a-flow-to-manage-project-approvals"></a>프로젝트 승인을 관리하는 흐름 만들기
 > [!NOTE]
-> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 SharePoint Online에서 Power Apps, 파워 자동화 및 Power BI 사용에 대 한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 작업에서는 프로젝트 승인 프로세스를 구동하는 흐름을 만듭니다. 파워 자동화는 SharePoint와 통합 되므로 목록에서 직접 흐름을 쉽게 만들 수 있습니다. **프로젝트 요청** 목록에 항목을 추가할 때 만드는 흐름이 트리거됩니다. 흐름은 프로젝트 승인자에게 전자 메일을 보내고, 프로젝트 승인자는 전자 메일에서 직접 요청을 승인하거나 거부합니다. 그런 다음 승인 요청 또는 거부 전자 메일을 프로젝트 요청자에게 보내고, SharePoint 목록을 적절하게 업데이트합니다.
 

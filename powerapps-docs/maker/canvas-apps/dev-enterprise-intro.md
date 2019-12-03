@@ -1,5 +1,5 @@
 ---
-title: 엔터프라이즈 개발자, 파트너 및 ISV용 PowerApps | Microsoft Docs
+title: 엔터프라이즈 개발자, 파트너 및 Isv 용 Power Apps | Microsoft Docs
 description: Canvas 앱을 사용 하 여 솔루션을 개발 하는 방법을 소개 합니다.
 author: ImadYanni
 manager: kvivek
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 824ce3d3767ada450d9590d9b14e539ce66cf4e7
-ms.sourcegitcommit: da16207fe9bf4e2382a9a25463b2ee8c3a680a3b
+ms.openlocfilehash: d2ec1d3fc39749f29a57fd8ca8e518e325c2a11a
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "74086475"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679499"
 ---
 # <a name="canvas-apps-for-enterprise-developers-partners-and-isvs"></a>엔터프라이즈 개발자, 파트너 및 ISV용 캔버스 앱
 
-개발자로서 PowerApps에서 캔버스 앱을 확장하면 조직 및 고객을 위한 더 강력한 솔루션을 사용하도록 설정할 수 있습니다.
+개발자는 Power Apps에서 캔버스 앱을 확장 하 여 조직 및 고객에 게 훨씬 더 강력한 솔루션을 사용할 수 있습니다.
 
 ## <a name="canvas-apps-for-enterprise-developers"></a>엔터프라이즈 개발자 용 캔버스 앱
 
@@ -40,8 +40,8 @@ ms.locfileid: "74086475"
 
 Microsoft 파트너 또는 ISV(독립 소프트웨어 공급 업체)로써, 고객의 데이터 및 비즈니스 프로세스와 통합하도록 제품을 확장하여 고객 유입을 가속화합니다.
 
-- **사용자 지정 커넥터 빌드 및 인증**: PowerApps가 사용자 서비스와 통신할 수 있도록 하는 커넥터를 빌드하여 Microsoft 클라우드로 제품을 가져옵니다. [자세히 알아보기](https://docs.microsoft.com/connectors/custom-connectors/submit-certification)
+- **사용자 지정 커넥터 빌드 및 인증**: 전원 앱이 서비스와 통신할 수 있도록 하는 커넥터를 빌드하여 Microsoft 클라우드로 제품을 가져옵니다. [자세히 알아보기](https://docs.microsoft.com/connectors/custom-connectors/submit-certification)
 
-- **AppSource에 대한 솔루션 나열**: PowerApps를 사용하여 앱을 빌드하고, 새 고객이 평가판을 사용해 볼 수 있도록 AppSource에 게시함으로써 비즈니스의 새로운 우위를 만듭니다. [자세히 알아보기](dev-appsource-test-drive.md)
+- **Appsource에 솔루션 나열**: Power Apps를 사용 하 여 앱을 빌드하고 새 고객이 시험 사용을 위해 appsource에 게시 하 여 비즈니스에 대 한 새 잠재 고객을 생성 합니다. [자세히 알아보기](dev-appsource-test-drive.md)
 
-- **무료로 지금 시작**: PowerApps 커뮤니티 계획에 무료로 등록하고 전용 개별 환경에서 앱 빌드를 시작합니다. [자세히 알아보기](../dev-community-plan.md)
+- **지금 무료로 시작**하기: 무료로 Power Apps 커뮤니티 요금제에 등록 하 고 전용 개별 환경에서 앱 빌드를 시작 합니다. [자세히 알아보기](../dev-community-plan.md)

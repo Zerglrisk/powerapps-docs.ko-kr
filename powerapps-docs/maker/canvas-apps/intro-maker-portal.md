@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 06dad46643a3de8b8727d890865c9b6f847a825f
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: 0f745516ab0c282ab6519f0bac8ac8cfd5f46598
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73899243"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675757"
 ---
-# <a name="sign-in-to-powerapps-for-the-first-time"></a>PowerApps에 처음으로 로그인
+# <a name="sign-in-to-power-apps-for-the-first-time"></a>처음으로 Power Apps에 로그인
 
 [PowerApps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하면 사이트에서 자체 앱을 만들고, 다른 사용자가 만든 앱을 열거나 관련 작업을 수행하기 위한 다양한 옵션을 제공합니다. 이러한 작업은 액세스 권한을 제공하는 라이선스 또는 라이선스의 식별과 같은 가장 간단한 작업부터 특정 데이터 원본에 대한 사용자 지정 연결 생성과 같은 고급 기능에 이르기까지 다양합니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "73899243"
 
 ## <a name="choose-an-environment"></a>환경 선택
 
-Common Data Service에서 앱, 흐름, 데이터 연결 또는 엔터티를 만드는 경우 PowerApps에서 수행 하는 작업은 대부분 특정 환경에 포함 됩니다. 환경에서는 다양한 유형의 작업 간에 경계를 만듭니다. 예를 들어, 조직은 부서마다 별도의 환경이 있을 수 있습니다. 많은 조직에서 환경을 사용하여 광범위하게 사용할 준비가 된 앱에서 아직 개발 중인 앱을 분리합니다. 여러 환경 또는 하나의 환경에만 액세스할 수 있으며 적절한 사용 권한이 있는 경우 고유한 환경을 만들 수 있습니다.
+앱, 흐름, 데이터 연결 또는 Common Data Service에서 엔터티를 만들 때 Power Apps에서 수행 하는 작업은 대부분 특정 환경에 포함 되어 있습니다. 환경에서는 다양한 유형의 작업 간에 경계를 만듭니다. 예를 들어, 조직은 부서마다 별도의 환경이 있을 수 있습니다. 많은 조직에서 환경을 사용하여 광범위하게 사용할 준비가 된 앱에서 아직 개발 중인 앱을 분리합니다. 여러 환경 또는 하나의 환경에만 액세스할 수 있으며 적절한 사용 권한이 있는 경우 고유한 환경을 만들 수 있습니다.
 
 어떤 환경에 속해 있는지 확인하려면 헤더의 오른쪽 근처에 있는 환경 전환기를 찾습니다.
 
@@ -57,7 +57,7 @@ Common Data Service에서 앱, 흐름, 데이터 연결 또는 엔터티를 만�
 
 ## <a name="choose-an-app-type"></a>앱 유형 선택
 
-PowerApps에서 다음 유형의 앱을 만들고 실행할 수 있습니다.
+Power Apps에서 다음과 같은 유형의 앱을 만들고 실행할 수 있습니다.
 
 - **캔버스 앱**은 사용자 지정 UI를 디자인하고 다양한 소스의 데이터에 연결할 수 있도록 지원합니다.
 - **모델 기반 앱** 은 표준 UI를 포함 하 고 Common Data Service의 데이터에만 연결 합니다. 그러나 보기, 대시보드 및 다양한 유형의 비즈니스 논리와 같은 다른 요소를 더 쉽게 만들 수 있습니다.
@@ -93,7 +93,7 @@ Common Data Service 데이터베이스를 포함 하는 환경을 선택 하는 
 
     ![줄임표 메뉴가 열린 모델 기반 앱 목록](media/intro-maker-portal/help-icon.png)
 
-두 옵션 모두 이 설명서 집합, PowerApps 커뮤니티(다른 조직의 사용자와 정보를 공유할 수 있는 위치) 및 PowerApps 블로그(최신 기능이 발표되는 위치)에 대한 링크를 보여줍니다.
+두 옵션 모두이 설명서 집합, Power Apps 커뮤니티 (다른 조직의 사용자와 정보를 공유할 수 있음) 및 Power Apps 블로그 (최신 기능이 발표 됨)에 대 한 링크를 표시 합니다.
 
 ## <a name="other-common-tasks"></a>기타 일반 작업
 
@@ -105,7 +105,7 @@ Common Data Service 데이터베이스를 포함 하는 환경을 선택 하는 
 
     자세한 내용은 [앱 찾기 및 실행](../../user/index.md)을 참조하세요.
 
-- 기어 아이콘을 선택하여 데이터 원본에 연결, PowerApps 라이선스 또는 라이선스 식별, 그리고 관리 작업을 수행할 수 있는 페이지 열기와 같은 작업을 수행합니다.
+- 기어 아이콘을 선택 하 여 데이터 원본에 연결, Power Apps 라이선스 또는 라이선스 식별, 관리 작업을 수행할 수 있는 페이지 열기 등의 작업을 수행 합니다.
 
     자세한 내용은 다음 항목을 참조하세요.
 

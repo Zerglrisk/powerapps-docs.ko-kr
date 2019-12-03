@@ -1,6 +1,6 @@
 ---
 title: SharePoint 목록 양식 사용자 지정 | Microsoft Docs
-description: PowerApps를 사용하여 사용자가 SharePoint 목록에서 항목을 만들고 업데이트하는 양식을 사용자 지정합니다.
+description: Power Apps를 사용 하 여 사용자가 SharePoint 목록에서 항목을 만들고 업데이트 하는 양식을 사용자 지정할 수 있습니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,21 +13,21 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d50d9933eaaa79011a623bc643f4eda23ba8d745
-ms.sourcegitcommit: fa6ad01cf6d025d46564d755915caaa9db517c41
+ms.openlocfilehash: 5912723765f99539852884a3fe55738c171c64c3
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "72902409"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678583"
 ---
 # <a name="customize-a-sharepoint-list-form-by-using-powerapps"></a>PowerApps를 사용하여 SharePoint 목록 양식 사용자 지정
 
-브라우저에서 PowerApps를 열어서 SharePoint 목록의 양식을 쉽게 사용자 지정할 수 있습니다. C#과 같은 기존 코드를 작성하거나 InfoPath와 같은 다른 앱을 다운로드할 필요가 없습니다. 변경 내용을 게시하는 경우 해당 사용자가 모두 사용하기 위해 SharePoint 목록 내에 양식이 포함됩니다. PowerApps에서 분석 보고서를 검토하고, 조건부 서식 지정을 쉽게 만들고, 다른 데이터 원본에 연결할 수도 있습니다.
+브라우저에서 Power Apps를 열어 SharePoint 목록의 양식을 쉽게 사용자 지정할 수 있습니다. C#과 같은 기존 코드를 작성하거나 InfoPath와 같은 다른 앱을 다운로드할 필요가 없습니다. 변경 내용을 게시하는 경우 해당 사용자가 모두 사용하기 위해 SharePoint 목록 내에 양식이 포함됩니다. Power Apps에서 분석 보고서를 검토 하 고, 조건부 서식을 쉽게 만들고, 다른 데이터 원본에 연결할 수도 있습니다.
 
 이 항목의 단계를 수행하기 위해 사용자 지정 작동 방식을 볼 수 있도록 간단한 목록을 만든 다음, 고유한 목록에 동일한 개념을 적용할 수 있습니다.
 
 > [!NOTE]
-> - **양식 사용자 지정** 옵션을 사용할 수 없거나 목록에서 제대로 작동하지 않는 경우 [PowerApps에서 지원하지 않는](connections/connection-sharepoint-online.md#known-issues) 데이터 형식이 포함될 수 있습니다. 다른 목록 또는 [환경](working-with-environments.md)으로 양식을 전환할 수도 없습니다. 
+> - **양식 사용자 지정** 옵션을 사용할 수 없거나 목록에 대해 올바르게 작동 하지 않는 경우 [Power Apps에서 지원 하지](connections/connection-sharepoint-online.md#known-issues)않는 데이터 형식을 포함할 수 있습니다. 다른 목록 또는 [환경](working-with-environments.md)으로 양식을 전환할 수도 없습니다. 
 > - 목록의 사용자 지정 양식은 제네릭 목록 에서만 지원 됩니다. 일반 문서 라이브러리에 대 한 지원이 곧 제공 될 예정입니다. 사용자 지정 목록 및 라이브러리 템플릿은 현재 지원 되지 않습니다. 알림, 연락처, 작업 등의 목록에 포함 되지만이에 국한 되지 않습니다.
 
 ## <a name="create-a-list"></a>목록 만들기
@@ -46,12 +46,12 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
 1. 명령 모음에서 **PowerApps**를 선택 하 고 **양식 사용자 지정**을 선택 합니다.
 
-    PowerApps Studio는 동일한 브라우저 탭에서 열립니다.
+    Power Apps 스튜디오는 동일한 브라우저 탭에서 열립니다.
 
-1. **PowerApps Studio 시작** 대화 상자가 열리면 **건너뛰기**를 선택합니다.
+1. **Power Apps 스튜디오 시작** 대화 상자가 열리면 **건너뛰기**를 선택 합니다.
 
 > [!div class="mx-imgBorder"]
-> 명령 모음에서 PowerApps를 선택 하 고 양식 사용자 지정을 선택 합니다. ![ PowerApps Studio는 동일한 브라우저 탭에서 열립니다. PowerApps Studio 시작 대화 상자가 열리면 건너뛰기를 선택 합니다.](./media/customize-list-form/create-form.gif)
+> 명령 모음에서 ![Power Apps를 선택 하 고 양식 사용자 지정을 선택 합니다. Power Apps 스튜디오는 동일한 브라우저 탭에서 열립니다. Power Apps 스튜디오 시작 대화 상자가 열리면 건너뛰기를 선택 합니다.](./media/customize-list-form/create-form.gif)
 
 ## <a name="move-and-remove-a-field"></a>필드 이동 및 제거
 
@@ -134,9 +134,9 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
 ### <a name="forms-vs-apps"></a>양식 및 앱
 
-**Q:** 사용자 지정 양식이 SharePoint나 PowerApps에서 만드는 독립 실행형 앱과 다른 점은 무엇인가요?
+**Q:** 사용자 지정 된 양식은 SharePoint 또는 Power Apps에서 만든 독립 실행형 앱과 어떻게 다릅니까?
 
-**A:** SharePoint 목록에 대한 양식을 사용자 지정하는 경우 양식은 PowerApps Studio 또는 PowerApps Mobile에서 앱으로 표시되지 않습니다. 양식을 만든 목록에서만 해당 양식을 열 수 있습니다.
+**A:** SharePoint 목록에 대해 양식을 사용자 지정 하는 경우 양식은 Power Apps 스튜디오 또는 Power Apps Mobile에서 앱으로 표시 되지 않습니다. 양식을 만든 목록에서만 해당 양식을 열 수 있습니다.
 
 **Q:** 언제 양식을 사용자 지정하여 SharePoint 목록에서 데이터를 관리하고 독립 실행형 앱을 만들어야 하나요?
 
@@ -170,12 +170,12 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
 1. 목록을 열고, 명령 모음에서 **PowerApps**를 선택한 다음, **양식 사용자 지정**을 선택합니다.
 
-1. PowerApps Studio에서 **파일**을 선택한 다음, **모든 버전 보기**를 선택합니다. **버전** 페이지가 새 브라우저 탭에 열립니다.
+1. Power Apps Studio에서 **파일**을 선택한 다음 **모든 버전 보기**를 선택 합니다. **버전** 페이지가 새 브라우저 탭에 열립니다.
 
     > [!NOTE]
     > **모든 버전 보기** 단추가 표시되지 않으면 **저장**을 선택합니다. 그러면 단추가 표시됩니다.
 
-1. **버전** 페이지나 브라우저 탭을 닫지 않고 다른 브라우저 탭의 **저장** 페이지로 돌아가서 왼쪽 탐색 창의 맨 위에 있는 화살표를 클릭하거나 탭한 다음, **SharePoint로 돌아가기**를 클릭하거나 탭하여 양식의 잠금을 해제하고 PowerApps Studio를 닫습니다.
+1. **버전** 페이지나 브라우저 탭을 닫지 않고 다른 브라우저 탭의 **저장** 페이지로 돌아가서 왼쪽 탐색 창의 맨 위에 있는 화살표를 클릭 하거나 탭 한 다음, **SharePoint로 돌아가기** 를 클릭 하거나 탭 하 여 양식의 잠금을 해제 하 고 Power Apps Studio를 닫습니다.
 
 1. 다른 브라우저 탭의 **버전** 페이지로 돌아가서 복원할 버전을 찾은 다음, **복원**을 선택합니다.
 
@@ -196,7 +196,7 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
 **A:** 연결된 목록을 관리, 디자인 또는 편집할 수 있는 SharePoint 권한을 가진 사람이면 가능합니다.
 
-**Q:** 사용자 지정 목록 양식을 만들거나 사용하는 데 PowerApps 라이선스가 필요한가요?
+**Q:** 사용자 지정 목록 양식을 만들거나 사용 하려면 Power Apps 라이선스가 필요 한가요?
 
 **A:** [PowerApps가 포함된 Office 365 계획](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses)이 필요합니다.
 
@@ -206,9 +206,9 @@ SharePoint 사이트에서 목록을 만든 다음 이러한 열을 해당 목�
 
 **Q:** 관리자가 조직의 모든 사용자 지정 양식 목록을 얻으려면 어떻게 해야 하나요?
 
-**A:** PowerApps의 테넌트 관리자이거나 조직의 기본 PowerApps 환경에 대해 환경 관리자 권한이 있는 경우 다음을 수행합니다.
+**A:** Power Apps에 대 한 테 넌 트 관리자 이거나 조직의 기본 Power Apps 환경에서 환경-관리자 권한이 있는 경우 다음을 수행 합니다.
 
-1. [PowerApps 관리 센터](https://admin.powerapps.com)의 환경 목록에서 조직의 기본 환경을 선택합니다.
+1. [Power Apps 관리 센터](https://admin.powerapps.com)의 환경 목록에서 조직의 기본 환경을 선택 합니다.
 
 1. 기본 환경 페이지의 맨 위에서 **리소스**를 선택합니다.
 

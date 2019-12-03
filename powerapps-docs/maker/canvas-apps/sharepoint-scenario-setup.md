@@ -1,5 +1,5 @@
 ---
-title: PowerApps, 파워 자동화 및 Power BI와 SharePoint Online 통합에 대 한 목록 설정 Microsoft Docs
+title: Power Apps, 파워 자동화 및 Power BI와 SharePoint Online 통합에 대 한 목록 설정 Microsoft Docs
 description: 이 작업에서는 앱, 흐름, 보고서 및 대시보드의 데이터 원본으로 사용할 SharePoint 목록을 설정합니다.
 author: NickWaggoner
 manager: kvivek
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ec34399818120464a2ad2caca5834baa87d8a25c
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: c1b2e7dc4bb3f56983ddcdec39ecf7d37a283754
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73898851"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674706"
 ---
-# <a name="set-up-lists-for-sharepoint-online-integration-with-powerapps-power-automate-and-power-bi"></a>PowerApps, 파워 자동화 및 Power BI와 SharePoint Online 통합에 대 한 목록 설정
+# <a name="set-up-lists-for-sharepoint-online-integration-with-power-apps-power-automate-and-power-bi"></a>Power Apps, 전원 자동화 및 Power BI와의 SharePoint Online 통합에 대 한 목록 설정
 > [!NOTE]
-> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 SharePoint Online에서 Power Apps, 파워 자동화 및 Power BI 사용에 대 한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 SharePoint에는 공유 및 협업 기능이 많이 있지만 이 시나리오에서는 [SharePoint 목록](https://support.office.com/article/Introduction-to-lists-0A1C3ACE-DEF0-44AF-B225-CFA8D92C52D7)이라는 한 가지 기능에 대해 중점적으로 설명합니다. 목록은 팀 구성원 및 다른 사이트 사용자와 공유할 수 있는 데이터의 모음입니다. 이 시나리오에 사용된 목록을 검토한 다음 사용자 고유의 SharePoint Online 사이트에서 목록을 만들 수 있습니다.
 
@@ -40,7 +40,7 @@ SharePoint에는 공유 및 협업 기능이 많이 있지만 이 시나리오�
 | Approved |한 줄 텍스트 |값: 보류 중, 예, 아니요 |
 
 > [!NOTE]
-> SharePoint에서 생성되고 기본적으로 숨겨지는 **ID** 열을 사용합니다. 간단히 하기 위해 기본 데이터 형식을 사용하지만, 실제 앱에서는 **개인 또는 그룹**과 같이 **Requestor** 열에 대해 더 복잡한 형식을 사용할 수 있습니다. PowerApps에서 지원하는 데이터 형식에 대한 자세한 내용은 [Microsoft PowerApps에서 SharePoint로 연결](connections/connection-sharepoint-online.md#known-issues)을 참조하세요.
+> SharePoint에서 생성되고 기본적으로 숨겨지는 **ID** 열을 사용합니다. 간단히 하기 위해 기본 데이터 형식을 사용하지만, 실제 앱에서는 **개인 또는 그룹**과 같이 **Requestor** 열에 대해 더 복잡한 형식을 사용할 수 있습니다. Power Apps에서 지 원하는 데이터 형식에 대 한 자세한 내용은 [Microsoft Power apps에서 SharePoint로 연결](connections/connection-sharepoint-online.md#known-issues)을 참조 하세요.
 
 두 번째 목록은 프로젝트 관리자 할당과 같이 승인된 모든 프로젝트에 대한 세부 정보를 추적하는 **프로젝트 세부 정보**입니다.
 
@@ -112,15 +112,15 @@ SharePoint에는 공유 및 협업 기능이 많이 있지만 이 시나리오�
 
 ### <a name="update-connections-for-the-sample-apps"></a>샘플 앱에 대한 연결 업데이트
 
-1. [PowerApps Studio](https://create.powerapps.com/studio/)의 왼쪽 창에서 **열기**를 클릭하거나 탭합니다. 
+1. [Power Apps 스튜디오](https://create.powerapps.com/studio/)의 왼쪽 창에서 **열기** 를 클릭 하거나 탭 합니다. 
 
 2. **찾아보기**를 클릭하거나 탭한 다음 다운로드한 **project-management-app.msapp** 파일을 엽니다.
 
-3. PowerApps에서 SharePoint를 사용할 수 있도록 **허용**을 클릭하거나 탭합니다.
+3. Power Apps에서 SharePoint를 사용할 수 있도록 **허용**을 클릭 하거나 탭 합니다.
 
 4. 리본의 **보기** 탭에서 **데이터 원본**을 클릭하거나 탭합니다.
 
-    ![PowerApps 데이터 원본](./media/sharepoint-scenario-setup/01-03-01-data-sources.png)
+    ![Power Apps 데이터 원본](./media/sharepoint-scenario-setup/01-03-01-data-sources.png)
 5. **데이터** 창에서 **프로젝트 세부 정보** 옆의 줄임표( **. . .** )를 클릭하거나 탭한 다음**제거**를 클릭하거나 탭합니다.
    
     ![프로젝트 세부 정보 데이터 원본 제거](./media/sharepoint-scenario-setup/01-03-02-remove.png)
@@ -128,7 +128,7 @@ SharePoint에는 공유 및 협업 기능이 많이 있지만 이 시나리오�
    
     ![데이터 원본 추가](./media/sharepoint-scenario-setup/01-03-03-add.png)
 
-7. PowerApps에서 SharePoint 연결이 설정되어 있는지 여부에 따라 목록에 연결하는 방법이 두 가지 있습니다. 
+7. Power Apps가 이미 SharePoint 연결을 설정 했는지 여부에 따라 목록에 연결 하는 두 가지 방법을 보여 드리겠습니다. 
 
     * SharePoint 연결이 이미 표시되어 있으면 해당 연결을 클릭하거나 누릅니다.
 

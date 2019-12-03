@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5883e5f091d5454b00aead80a9daf919a2bcfc2c
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 56e5ec7f303706ded114655e5c6d473408e9ddd7
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71994286"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680032"
 ---
 # <a name="create-accessible-canvas-apps-in-powerapps"></a>PowerApps에서 액세스 가능한 캔버스 앱 만들기
 액세스 가능한 캔버스 앱에서는 시각, 청각 및 기타 장애가 있는 사용자가 앱을 사용할 수 있습니다.  여러 정부 및 조직의 요구 사항인 점을 별개로 하더라도 아래 지침을 따르면 사용자의 능력에 상관없이 모든 사용자의 사용 편의성이 개선됩니다.
@@ -26,7 +26,7 @@ ms.locfileid: "71994286"
 **[접근성 검사기](accessibility-checker.md)** 를 사용하여 앱의 잠재적인 접근성 문제를 검토하십시오. 
 
 ## <a name="layout-and-color"></a>레이아웃 및 색
-상식적이고 복잡하지 않은 디자인을 사용하면 모든 사용자가 앱에 쉽게 액세스하는 데 도움이 됩니다.  앱의 사용자 지정을 많이 수행하는 경우 아래 제안 사항에 유의하세요.  PowerApps 테마는 기본적으로 접근성이 좋습니다.
+상식적이고 복잡하지 않은 디자인을 사용하면 모든 사용자가 앱에 쉽게 액세스하는 데 도움이 됩니다.  앱의 사용자 지정을 많이 수행하는 경우 아래 제안 사항에 유의하세요.  Power Apps 테마는 기본적으로 액세스할 수 있습니다.
 - 모든 요소가 명확하게 표시되고 텍스트가 충분한 크기인지 확인하세요.  모든 콘텐츠를 육안으로 쉽게 읽고 이해할 수 있어야 합니다.
 - 항목의 표시 유형 속성을 사용하여 요소를 표시하지 마세요.  조건부로 표시해야 하는 항목이 있으면 새 화면에서 콘텐츠를 만들고 해당 화면으로 이동한 후 되돌아오세요.
 - 화면에서 입력 요소에 레이블이 지정되어 있어야 합니다. **[AccessibilityLabel](controls/properties-accessibility.md)** 속성은 화면 판독기가 알릴 내용을 정의합니다.
@@ -42,12 +42,12 @@ ms.locfileid: "71994286"
 - 탭 인덱스를 0보다 크게 설정하지 마세요.
 
 ## <a name="screen-reader-support"></a>화면 판독기 지원
-다음 소프트웨어 조합은 PowerApps를 화면 판독기와 함께 사용할 때 지원되는 권장 사항입니다.
+다음 소프트웨어 조합은 화면 판독기로 Power Apps를 사용 하는 데 지원 되는 권장 사항입니다.
 
 - **Windows**: Microsoft Edge/내레이터
-- **Macos**: Safari/VoiceOver
-- **Android**: PowerApps 앱/Talkback
-- **iOS**: PowerApps 앱/VoiceOver
+- **macOS**: Safari/VoiceOver
+- **Android**: Power Apps 앱/Talkback
+- **iOS**: Power Apps 앱/VoiceOver
 
 만족스러운 화면 판독기 환경을 위해서는 다음을 수행하는 것이 좋습니다.
 

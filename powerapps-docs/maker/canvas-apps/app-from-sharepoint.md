@@ -1,6 +1,6 @@
 ---
 title: SharePoint 목록에서 캔버스 앱 생성 | Microsoft Docs
-description: PowerApps에서 자동으로 캔버스 앱을 생성하여 SharePoint 목록의 데이터를 관리합니다.
+description: Power Apps에서 자동으로 캔버스 앱을 생성 하 여 SharePoint 목록의 데이터를 관리 합니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 50f84e06206a73c39feaee286ce1f4c9258c4958
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 3181c00a4ef0836c043ee0402a29d3b7dadbef21
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541115"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678882"
 ---
-# <a name="generate-a-canvas-app-in-powerapps-from-a-sharepoint-list"></a>SharePoint 목록에서 PowerApps에 캔버스 앱 생성
+# <a name="generate-a-canvas-app-in-power-apps-from-a-sharepoint-list"></a>SharePoint 목록에서 Power Apps의 캔버스 앱 생성
 
-이 항목에서는 PowerApps를 사용하여 SharePoint 목록의 항목에 따라 캔버스 앱을 자동으로 생성합니다. PowerApps 또는 SharePoint Online 내에서 앱을 생성할 수 있습니다. PowerApps 내에서 데이터 게이트웨이를 통해 [연결](connections/connection-sharepoint-online.md#create-a-connection)하는 경우, 온-프레미스 SharePoint 사이트의 목록을 기반으로 앱을 생성할 수 있습니다.
+이 항목에서는 Power Apps를 사용 하 여 SharePoint 목록의 항목을 기반으로 캔버스 앱을 자동으로 생성 합니다. Power Apps 또는 SharePoint Online 내에서 앱을 생성할 수 있습니다. Power Apps 내에서 데이터 게이트웨이를 통해 [연결](connections/connection-sharepoint-online.md#create-a-connection) 하는 경우 온-프레미스 SharePoint 사이트의 목록에 기반 하 여 앱을 생성할 수 있습니다.
 
 생성하는 앱에는 다음과 같은 세 개의 화면이 포함됩니다.
 
@@ -38,7 +38,7 @@ ms.locfileid: "73541115"
 텍스트, 날짜, 숫자 및 통화와 같은 다양한 형식의 여러 열이 포함된 훨씬 더 복잡한 목록을 만들더라도 앱을 생성하는 원칙은 변경되지 않습니다.
 
 > [!IMPORTANT]
-> PowerApps는 모든 형식의 SharePoint 데이터를 지원하지는 않습니다. 자세한 내용은 [알려진 문제](connections/connection-sharepoint-online.md#known-issues)를 참조하세요.
+> Power Apps는 모든 유형의 SharePoint 데이터를 지원 하지 않습니다. 자세한 내용은 [알려진 문제](connections/connection-sharepoint-online.md#known-issues)를 참조하세요.
 
 ## <a name="generate-an-app-from-within-powerapps"></a>PowerApps 내에서 앱 생성
 
@@ -80,7 +80,7 @@ SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 �
 
     ![앱 이름 지정](./media/app-from-sharepoint/app-name.png)
 
-    SharePoint 목록에 따라 자동으로 생성되는 앱을 표시하는 새 탭이 웹 브라우저에 나타납니다. 앱이 PowerApps Studio에 나타나며 여기에서 사용자 지정할 수 있습니다.
+    SharePoint 목록에 따라 자동으로 생성되는 앱을 표시하는 새 탭이 웹 브라우저에 나타납니다. 앱이 앱을 사용자 지정할 수 있는 Power Apps Studio에 표시 됩니다.
 
     ![기본 앱](./media/app-from-sharepoint/default-app.png)
 
@@ -93,10 +93,10 @@ SharePoint Online 명령 모음에서 사용자 지정 목록의 앱을 만들 �
 
     - SharePoint에서 보기를 제거하려면 **이 보기 제거**를 선택합니다.
 
-        PowerApps에서 앱을 제거하려면 [앱을 삭제](delete-app.md)합니다.
+        앱을 Power Apps에서 제거 하려면 [앱을 삭제](delete-app.md)합니다.
 
 > [!NOTE]
-> SharePoint 목록에서 만든 앱은 현재 PowerApps Mobile에 표시 되지 않습니다.
+> SharePoint 목록에서 만든 앱은 현재 Power Apps 모바일에 표시 되지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 이 항목에서는 SharePoint 목록의 데이터를 관리하는 앱을 만들었습니다. 다음 단계에서는 더 복잡한 목록에서 앱을 생성한 다음, 사용자의 요구 사항에 맞게 앱을 사용자 지정합니다(찾아보기 화면으로 시작).

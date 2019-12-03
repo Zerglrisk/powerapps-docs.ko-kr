@@ -13,17 +13,17 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 3144f2f6517cbaa641227ff7b2f9482ed1d2e476
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 6b65a2a6fcc4899ac92238ec76d45cb4fd2d62c8
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73542449"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674659"
 ---
-# <a name="show-sort-and-filter-data-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 데이터 표시, 정렬 및 필터링
+# <a name="show-sort-and-filter-data-in-a-power-apps-gallery"></a>Power Apps 갤러리에서 데이터 표시, 정렬 및 필터링
 갤러리를 만들어 여러 제품에 대한 이미지와 텍스트를 표시하고 해당 정보를 정렬 및 필터링합니다.
 
-카탈로그에서 표시하는 것처럼 PowerApps에서 갤러리를 사용하여 여러 관련 항목을 표시할 수 있습니다. 갤러리는 이름 및 가격과 같은 제품에 대한 정보를 표시하는 데 유용합니다. 이 항목에서는 갤러리를 만들고 Excel과 비슷한 함수를 사용하여 정보를 정렬 및 필터링합니다. 또한 항목이 선택되면 항목 주위에 테두리가 배치됩니다.
+Power Apps에서 갤러리를 사용 하 여 카탈로그에 표시 되는 것 처럼 여러 관련 항목을 표시할 수 있습니다. 갤러리는 이름 및 가격과 같은 제품에 대한 정보를 표시하는 데 유용합니다. 이 항목에서는 갤러리를 만들고 Excel과 비슷한 함수를 사용하여 정보를 정렬 및 필터링합니다. 또한 항목이 선택되면 항목 주위에 테두리가 배치됩니다.
 
 > [!NOTE]
 > 이 항목에서는 태블릿 앱을 사용합니다. 전화 앱을 사용할 수 있지만 일부 컨트롤의 크기를 조정해야 합니다.
@@ -31,10 +31,10 @@ ms.locfileid: "73542449"
 > 
 
 ### <a name="prerequisites"></a>필수 조건
-* PowerApps에 [등록](../signup-for-powerapps.md)한 다음, 등록에 사용한 동일한 자격 증명을 사용하여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다.
+* Power Apps에 [등록](../signup-for-powerapps.md) 한 다음 등록 하는 데 사용한 것과 동일한 자격 증명을 사용 하 여 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 합니다.
 * [템플릿](get-started-test-drive.md)에서, [데이터](get-started-create-from-data.md)에서 또는 [처음부터](get-started-create-from-blank.md) 태블릿 앱을 만듭니다.
 * [컨트롤을 구성](add-configure-controls.md)하는 방법을 알아봅니다.
-* 이러한 단계에서는 .jpg 이미지가 포함된 [CreateFirstApp](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 입력 데이터 샘플로 사용합니다. zip 파일에는 Excel로 변환할 수 있는 XML 파일이 포함되어 있습니다. 그렇지 않으면 PowerApps에서 자동으로 .zip 파일에 있는 파일을 읽고 성공적으로 가져옵니다. 이 샘플 데이터를 다운로드하여 사용하거나 직접 가져올 수 있습니다.
+* 이러한 단계에서는 .jpg 이미지가 포함된 [CreateFirstApp](https://pwrappssamples.blob.core.windows.net/samples/CreateFirstApp.zip)을 입력 데이터 샘플로 사용합니다. zip 파일에는 Excel로 변환할 수 있는 XML 파일이 포함되어 있습니다. 그렇지 않으면 Power Apps에서 자동으로 .zip 파일의 파일을 읽고 성공적으로 가져옵니다. 이 샘플 데이터를 다운로드하여 사용하거나 직접 가져올 수 있습니다.
 
 ## <a name="show-data-in-a-gallery"></a>갤러리에서 데이터 표시
 1. 샘플 데이터를 사용하여 **Inventory**라는 컬렉션을 만듭니다. 단계는 다음과 같습니다.  

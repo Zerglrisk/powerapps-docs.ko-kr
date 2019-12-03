@@ -12,18 +12,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 74bd5102703809883732fd498a587a31d669f4b2
-ms.sourcegitcommit: 6dea3559e012e56fde09b95ea8a2af2a81b89a91
+ms.openlocfilehash: fb2b04c50f8af17ec341c539c6c55d0f4c3a5bee
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "70000036"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679411"
 ---
-# <a name="preview-embed-canvas-apps-in-your-applications"></a>미리 보기: 애플리케이션에 캔버스 앱 포함
+# <a name="preview-embed-canvas-apps-in-your-applications"></a>미리 보기: 응용 프로그램에 캔버스 앱 포함
 
 [!INCLUDE[cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-PowerApps는 앱 제작자를 지원 하 고 누구나 다양 한 환경을 빌드할 수 있게 해 주는 낮은 코드 개발 플랫폼인 생산성이 높습니다. 응용 프로그램에 캔버스 앱을 포함 하 여 고객을 빠르고 쉽게 앱 제조업체에 게 전송할 수 있습니다. 새 앱 작성자는 응용 프로그램을 확장 하 여 기능을 갖춘 풍부한 화면과 모든 기능을 추가 하는 간단한 사용자 지정 양식을 만들 수 있습니다. 응용 프로그램 내에서 데이터에 연결 하 고 비즈니스 논리를 만들며 워크플로를 모두 오케스트레이션 할 수 있습니다. 고객이 앱 제조업체의 역할을 할 수 있도록 하 여, 응용 프로그램 및 서비스는 최종적으로 마지막 마일을 교차 하 고 고객의 워크플로에 완벽 하 게 맞게 조정 하 여 더 중요 하 고 필수적인 요소를 만들 수 있습니다.
+Power Apps는 앱 제작자를 지원 하 고 누구나 다양 한 환경을 빌드할 수 있게 해 주는 낮은 코드 개발 플랫폼인 생산성이 높습니다. 응용 프로그램에 캔버스 앱을 포함 하 여 고객을 빠르고 쉽게 앱 제조업체에 게 전송할 수 있습니다. 새 앱 작성자는 응용 프로그램을 확장 하 여 기능을 갖춘 풍부한 화면과 모든 기능을 추가 하는 간단한 사용자 지정 양식을 만들 수 있습니다. 응용 프로그램 내에서 데이터에 연결 하 고 비즈니스 논리를 만들며 워크플로를 모두 오케스트레이션 할 수 있습니다. 고객이 앱 제조업체의 역할을 할 수 있도록 하 여, 응용 프로그램 및 서비스는 최종적으로 마지막 마일을 교차 하 고 고객의 워크플로에 완벽 하 게 맞게 조정 하 여 더 중요 하 고 필수적인 요소를 만들 수 있습니다.
 
 새 canvas 앱 포함 SDK를 사용 하면 캔버스 앱을 응용 프로그램에 포함할 수 있습니다. 
 

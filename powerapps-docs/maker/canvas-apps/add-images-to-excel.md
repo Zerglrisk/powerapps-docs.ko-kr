@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d2e61a312aa3824c24b7058da4b34aa9c5cf462c
-ms.sourcegitcommit: 4ed29d83e90a2ecbb2f5e9ec5578e47a293a55ab
+ms.openlocfilehash: 9e96b0733e139657c3105ec020470d55fe5008dd
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "63321523"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679197"
 ---
 # <a name="add-images-to-excel-from-powerapps"></a>PowerApps에서 Excel에 이미지 추가
 사용자가 파일의 이미지 또는 **펜** 컨트롤의 그림을 표시, 추가 또는 삭제할 수 있는 앱을 자동으로 만듭니다. 앱은 클라우드 스토리지 계정에 만들고 업로드하는 Excel 파일을 기반으로 합니다.
@@ -27,7 +27,7 @@ ms.locfileid: "63321523"
 
 * [컨트롤 추가 및 구성](add-configure-controls.md)에 익숙합니다.
 * [Excel 데이터를 테이블로 구성](https://support.office.com/article/Format-an-Excel-table-6789619F-C889-495C-99C2-2F971C0E2370?ui=en-US&rs=en-US&ad=US)하는 것에 익숙합니다.
-* Excel 파일을 저장할 수 있는 클라우드 스토리지 계정(예: Dropbox, OneDrive 또는 Google Drive)에 대한 [PowerApps 연결](add-data-connection.md).
+* Excel 파일을 저장할 수 있는 클라우드 저장소 계정 (예: Dropbox, OneDrive 또는 Google Drive)에 대 한 [파워 앱 연결](add-data-connection.md) 입니다.
 
 ## <a name="create-the-data-source-and-the-app"></a>데이터 원본 및 앱 만들기
 1. Excel에서 **자막** 및 **이미지 [이미지]** 를 두 개의 빈 셀 바로 위 두 개의 셀에 나란히(예: A1, B1) 추가합니다.
@@ -35,7 +35,7 @@ ms.locfileid: "63321523"
    
     ![테이블 만들기](./media/add-images-to-excel/create-table.png)
 3. 파일을 저장(예: **ImageDemo**로)하고, 클라우드 스토리지 계정에 업로드합니다.
-4. PowerApps에서 **파일** 메뉴의 **새로 만들기**를 클릭하거나 탭한 다음(앱을 아직 열지 않은 경우 왼쪽 가장자리), 클라우드 스토리지 계정에 대한 타일에서 **휴대폰 레이아웃**을 클릭하거나 탭합니다.
+4. Power Apps에서 **파일** 메뉴에서 **새로 만들기** 를 클릭 하거나 탭 하 고 (앱을 아직 열지 않은 경우 왼쪽 가장자리를 따라), 클라우드 저장소 계정에 대 한 타일에서 **휴대폰 레이아웃** 을 클릭 하거나 탭 합니다.
    
     ![클라우드 스토리지 계정 선택](./media/add-images-to-excel/select-account.png)
 5. **Excel 파일 선택**에서 만든 파일을 클릭하거나 탭합니다.

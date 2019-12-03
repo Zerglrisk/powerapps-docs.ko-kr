@@ -1,6 +1,6 @@
 ---
 title: Common Data Service |에서 캔버스 앱 생성 Microsoft Docs
-description: PowerApps에서 자동으로 캔버스 앱을 생성 하 여의 데이터를 관리 Common Data Service
+description: Power Apps에서 자동으로 캔버스 앱을 생성 하 여 Common Data Service 데이터를 관리 합니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,18 +13,18 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7175ac7d96989de4abd7e9fa3446631ca04d5f1b
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f1737a70a8b9f6be30c73a91116c88df38609966
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540133"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678560"
 ---
 # <a name="generate-a-canvas-app-from-common-data-service-in-powerapps"></a>PowerApps의 Common Data Service에서 캔버스 앱 생성
 
-PowerApps에서 [Common Data Service](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 캔버스 앱을 자동으로 생성 합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
+Power Apps에서 [Common Data Service](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 캔버스 앱을 자동으로 생성 합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
 
-PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등록합니다](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+Power Apps에 등록 하지 않은 경우 시작 하기 전에 [무료로 등록](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -44,7 +44,7 @@ PowerApps에 등록하지 않은 경우 시작하기 전에 [체험판으로 등
 
 1. **테이블 선택**에서 **계정**을 선택한 다음, **연결**을 선택합니다.
 
-1. **PowerApps Studio 시작** 대화 상자에서 **건너뛰기**를 선택합니다.
+1. **Power Apps 스튜디오 시작** 대화 상자가 나타나면 **건너뛰기**를 선택 합니다.
 
 앱이 찾아보기 화면에 열리고 계정 목록이 갤러리라는 컨트롤에 표시됩니다. 화면 위쪽에 있는 제목 표시줄에는 갤러리의 데이터 새로 고침, 갤러리의 데이터를 사전순으로 정렬 및 갤러리에 데이터 추가에 대한 아이콘이 표시됩니다. 제목 표시줄 아래의 검색 상자에서 입력하거나 붙여넣을 텍스트를 기준으로 갤러리의 데이터를 필터링하는 옵션을 제공합니다. 
 

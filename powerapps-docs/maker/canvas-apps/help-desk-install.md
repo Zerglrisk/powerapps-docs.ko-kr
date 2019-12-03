@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성 | Microsoft Docs
-description: PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성하기 위한 단계별 지침입니다.
+description: Power Apps에서 캔버스 앱에 대 한 지원 센터 샘플을 설치 및 구성 하는 방법에 대 한 단계별 지침입니다.
 author: matthewbolanos
 manager: kvivek
 ms.service: powerapps
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: dd5d8b8e6757b18feb5da03c503b19e689ca3efe
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: fce460ffe808b7a604e1cdceac05a2696b8e10ed
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541241"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74676142"
 ---
 # <a name="install-and-configure-the-help-desk-sample-in-powerapps"></a>PowerApps에서 지원 센터 샘플 설치 및 구성
 
-PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성하기 위한 단계별 지침입니다.
+Power Apps에서 캔버스 앱에 대 한 지원 센터 샘플을 설치 및 구성 하는 방법에 대 한 단계별 지침입니다.
 
 이 단계를 완료하는 데 소요되는 예상 시간: **10-15분**
 
@@ -140,7 +140,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
 
 ## <a name="download-the-app"></a>앱 다운로드
 
-1.  PowerApps 패키지를 [다운로드](https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip)하여 컴퓨터에 저장합니다.
+1.  Power Apps 패키지를 [다운로드](https://pappsfeprodwestuscontent.blob.core.windows.net/sampleapps/helpdesk/docs/HelpDesk(SP_List).zip) 하 여 컴퓨터에 저장 합니다.
 
 ## <a name="create-connections"></a>연결 만들기
 
@@ -242,7 +242,7 @@ PowerApps에서 캔버스 앱에 대한 지원 센터 샘플 설치 및 구성�
     
    > [!TIP]
    > 관리자가 두 명 이상인 경우에는 쉼표를 사용 하 여 관리자 목록을 구분 합니다. 예: "admin1@microsoft.com","admin2@microsoft.com".
-   > AdminList의 주소가 PowerApps에 필요한 형식과 일치하는지 확인하려면 [보기] > [변수] > [전역] > [MyProfile]을 선택하고 ‘메일’ 열에서 필요한 메일 형식을 확인합니다.
+   > AdminList의 주소가 Power Apps에 필요한 형식과 일치 하는지 확인 하려면 > 변수 보기 > 전역 > MyProfile을 선택 하 고 ' 메일 ' 열을 확인 하 여 예상 전자 메일 형식을 확인 합니다.
 
 1. **파일** > **저장** > **게시** > **이 버전 게시**를 선택합니다.
 

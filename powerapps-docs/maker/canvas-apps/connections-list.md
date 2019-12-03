@@ -13,21 +13,21 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1fda14b7117334290c67d4d5727d93484ded7471
-ms.sourcegitcommit: 6c91c6dae20437f263e4eb827c6b938d6aa1b6a5
+ms.openlocfilehash: 6cda843ea95f79e907aa738a6546d63a6a3be270
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74262033"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678859"
 ---
 # <a name="overview-of-canvas-app-connectors-for-powerapps"></a>PowerApps용 캔버스 앱 커넥터의 개요
-데이터는 PowerApps에서 빌드하는 앱을 포함해 대부분 앱의 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. PowerApps에는 SharePoint, SQL Server, Office 365, Salesforce, Twitter를 비롯한 많은 인기 서비스 및 온-프레미스 데이터 원본용 커넥터가 있습니다. 캔버스 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
+데이터는 Power Apps에서 작성 하는 앱을 포함 하 여 대부분의 앱에서 핵심입니다. 데이터는 *데이터 원본*에 저장되며 *연결*을 만들어 해당 데이터를 앱으로 구현합니다. 이 연결은 특정 *커넥터*를 사용하여 데이터 원본과 데이터를 교환합니다. 파워 앱은 인기 있는 많은 서비스 및 온-프레미스 데이터 원본에 대 한 커넥터 (SharePoint, SQL Server, Office 365, Salesforce, Twitter 등)를 포함 합니다. 캔버스 앱에 데이터 추가를 시작하려면 [PowerApps에서 데이터 연결 추가](add-data-connection.md)를 참조하세요.
 
 커넥터는 **테이블** 데이터 또는 **작업**을 제공할 수 있습니다. 일부 커넥터는 테이블만 제공하고 일부 커넥터는 동작만 제공하며 일부 커넥터는 두 가지 모두를 제공합니다. 또한 커넥터는 표준 또는 사용자 지정 커넥터일 수 있습니다.
 
 ## <a name="tables"></a>표의
 
-커넥터가 테이블을 제공하는 경우 데이터 원본을 추가한 다음, 관리하려는 데이터 원본에서 테이블을 선택합니다. PowerApps는 테이블 데이터를 앱으로 검색하고 데이터 원본의 데이터를 업데이트합니다. 예를 들어 **단원**이라는 테이블이 포함된 데이터 원본을 추가한 다음, 캘러리 또는 양식과 같은 컨트롤의 **항목** 속성을 수식 표시줄의 이 값으로 설정할 수 있습니다.
+커넥터가 테이블을 제공하는 경우 데이터 원본을 추가한 다음, 관리하려는 데이터 원본에서 테이블을 선택합니다. Power Apps는 모두 앱에서 테이블 데이터를 검색 하 고 데이터 원본의 데이터를 업데이트 합니다. 예를 들어 **단원**이라는 테이블이 포함된 데이터 원본을 추가한 다음, 캘러리 또는 양식과 같은 컨트롤의 **항목** 속성을 수식 표시줄의 이 값으로 설정할 수 있습니다.
 
  ![일반 데이터 원본 항목 속성](./media/connections-list/ItemPropertyPlain.png)
 
@@ -58,7 +58,7 @@ ms.locfileid: "74262033"
 [패치](functions/function-patch.md)<br>[수집](functions/function-clear-collect-clearcollect.md)<br>[업데이트](functions/function-update-updateif.md)
 
 > [!NOTE]
->  **PowerApps는 동적 스키마를 사용 하지 않습니다**. 구 동적 스키마는 동일한 작업에서 열이 다른 테이블을 반환할 수 있는 가능성을 나타냅니다. 테이블의 열에는 동작 입력 매개 변수, 작업을 실행 하는 사용자나 역할 및 사용자가 작업 하 고 있는 그룹이 포함 될 수 있는 조건이 있습니다. 예를 들어 다른 입력을 사용 하 여 실행 하는 경우 저장 프로시저 SQL Server 다른 열을 반환할 수 있습니다. 동적 스키마를 사용 하는 작업의 경우 커넥터 설명서에서 **이 작업의 출력을 동적** 으로 보여 줍니다. 반환 값으로 반환 됩니다. 반면, 파워 자동화는 동적 스키마를 사용 하 여 작동 하며 시나리오에 대 한 해결 방법을 제공할 수 있습니다.
+>  **Power Apps는 동적 스키마를 사용 하지 않습니다**. 구 동적 스키마는 동일한 작업에서 열이 다른 테이블을 반환할 수 있는 가능성을 나타냅니다. 테이블의 열에는 동작 입력 매개 변수, 작업을 실행 하는 사용자나 역할 및 사용자가 작업 하 고 있는 그룹이 포함 될 수 있는 조건이 있습니다. 예를 들어 다른 입력을 사용 하 여 실행 하는 경우 저장 프로시저 SQL Server 다른 열을 반환할 수 있습니다. 동적 스키마를 사용 하는 작업의 경우 커넥터 설명서에서 **이 작업의 출력을 동적** 으로 보여 줍니다. 반환 값으로 반환 됩니다. 반면, 파워 자동화는 동적 스키마를 사용 하 여 작동 하며 시나리오에 대 한 해결 방법을 제공할 수 있습니다.
 
 ## <a name="popular-connectors"></a>가장 많이 사용되는 커넥터
 
@@ -77,9 +77,9 @@ ms.locfileid: "74262033"
 \* * Azure Blob, Box, Dropbox, Google Drive, OneDrive 및 비즈니스용 OneDrive에 적용 됩니다.
 
 ## <a name="standard-and-custom-connectors"></a>표준 및 사용자 지정 커넥터
-PowerApps는 위에 나열된 것과 같이 일반적으로 사용되는 많은 데이터 원본에 대해 *표준* 커넥터를 제공합니다. PowerApps에 사용하려는 데이터 원본 유형에 대한 표준 커넥터가 있는 경우 해당 커넥터를 사용해야 합니다. 빌드한 서비스와 같은 다른 유형의 데이터 원본에 연결하려면 [사용자 지정 커넥터 등록 및 사용](../canvas-apps/register-custom-api.md)을 참조합니다.
+Power Apps는 위에 나열 된 것과 같이 일반적으로 사용 되는 다양 한 데이터 원본에 대 한 *표준* 커넥터를 제공 합니다. Power Apps에 사용 하려는 데이터 원본 유형에 대 한 표준 커넥터가 있는 경우 해당 커넥터를 사용 해야 합니다. 빌드한 서비스와 같은 다른 유형의 데이터 원본에 연결하려면 [사용자 지정 커넥터 등록 및 사용](../canvas-apps/register-custom-api.md)을 참조합니다.
 
 ## <a name="all-standard-connectors"></a>모든 표준 커넥터
-모든 표준 커넥터 목록은 [Microsoft Connector Reference](https://docs.microsoft.com/connectors/)를 참조하세요. 프리미엄 커넥터는 PowerApps 요금제 1 또는 요금제 2가 필요합니다. 자세한 내용은 [PowerApps 가요금제](https://powerapps.microsoft.com/pricing/)를 참조하세요.
+모든 표준 커넥터 목록은 [Microsoft Connector Reference](https://docs.microsoft.com/connectors/)를 참조하세요. 프리미엄 커넥터에는 Power Apps 요금제 1 또는 요금제 2가 필요 합니다. 자세한 내용은 [Power Apps 요금제](https://powerapps.microsoft.com/pricing/)를 참조 하세요.
 
-[PowerApps 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)에서 특정 커넥터에 대한 질문을 할 수 있으며 [PowerApps Ideas](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas)에서 추가할 커넥터나 기타 개선 사항을 제안할 수 있습니다.
+[Power apps 포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)에서 특정 커넥터에 대 한 질문을 할 수 있으며, [power apps 아이디어](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas)에서 수행할 수 있는 다른 향상 된 기능을 추가할 수 있습니다.

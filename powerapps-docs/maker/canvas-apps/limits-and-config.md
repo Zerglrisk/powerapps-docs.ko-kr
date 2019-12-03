@@ -13,17 +13,17 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 1c8591790fe14d184f5d5e4ef5fc79ff0bfe0e2a
-ms.sourcegitcommit: 01fefd7a06bf5d6509acd0bb54ea6479208cbbc8
+ms.openlocfilehash: 0b67dda758140608b67fa8df44eca711270b663c
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "74177889"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675632"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목은 디바이스 플랫폼 및 웹 브라우저 요구 사항뿐만 아니라 PowerApps에 대한 제한 사항 및 구성 값을 포함합니다.
 
-## <a name="supported-platforms-for-running-canvas-apps-using-the-powerapps-app"></a>PowerApps 앱을 사용하여 캔버스 앱을 실행하는 데 지원되는 플랫폼
+## <a name="supported-platforms-for-running-canvas-apps-using-the-power-apps-app"></a>Power Apps 앱을 사용 하 여 캔버스 앱을 실행 하는 데 지원 되는 플랫폼
 
 | **필요한 최소 사항** | **권장** |
 | --- | --- |
@@ -32,7 +32,7 @@ ms.locfileid: "74177889"
 | Windows 8.1 이상(PC만 해당) |최소 8GB의 RAM이 있는 Windows 10 Fall Creators Update|
 
 > [!NOTE]
-> 현재 PowerApps 앱 용 Windows 플랫폼에서 새로운 기능을 지원 하지 않습니다. 이 플랫폼에서는 향상 된 Common Data Service 옵션 및 게스트 액세스와 같은 기능을 사용할 수 없습니다. Windows에서 웹 플레이어를 사용 하 여 전체 기능 집합을 활용 하는 것이 좋습니다. Windows 플랫폼용 PowerApps 앱에 대 한 업데이트는 나중에 발표 될 예정입니다.
+> 현재는 Power Apps 용 Windows 플랫폼 앱에서 새로운 기능을 지원 하지 않습니다. 이 플랫폼에서는 향상 된 Common Data Service 옵션 및 게스트 액세스와 같은 기능을 사용할 수 없습니다. Windows에서 웹 플레이어를 사용 하 여 전체 기능 집합을 활용 하는 것이 좋습니다. Windows 플랫폼용 Power Apps 앱에 대 한 업데이트는 나중에 발표 될 예정입니다.
 
 ## <a name="supported-browsers-for-running-canvas-apps"></a>캔버스 앱 실행에 지원되는 브라우저
 
@@ -44,7 +44,7 @@ ms.locfileid: "74177889"
 | Mozilla Firefox(최신 버전) |Windows 7 SP1, 8.1 및 10 <br> Android 5 이상 <br>iOS 8 이상 <br>macOS |
 | Apple Safari(최신 버전) |iOS 8 이상 <br>macOS |
 
-## <a name="supported-browsers-for-powerapps-studio"></a>PowerApps Studio에 대해 지원되는 브라우저
+## <a name="supported-browsers-for-power-apps-studio"></a>Power Apps Studio에 대해 지원 되는 브라우저
 
 | **브라우저** | **운영 체제** |
 | --- | --- |
@@ -64,14 +64,14 @@ ms.locfileid: "74177889"
 > 재시도 값은 달라질 수 있습니다. 특정 오류 조건의 경우 재시도가 필요하지 않습니다.
 
 ## <a name="ip-addresses"></a>IP 주소
-PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environments-overview.md)의 지역에 따라 다른 IP 주소를 사용합니다. PowerApps 시나리오에 사용할 수 있는 정규화된 도메인 이름을 게시하지 않습니다.
+Power Apps의 요청은 앱이 있는 [환경의](../../administrator/environments-overview.md) 지역에 의존 하는 IP 주소를 사용 합니다. Power Apps 시나리오에 사용할 수 있는 정규화 된 도메인 이름은 게시 하지 않습니다.
 
 이 항목의 뒷부분에서 지정된 IP 주소에서 앱(예: SQL API 또는 SharePoint API)을 통해 연결된 API의 호출이 비롯됩니다.
 
 예를 들어, Azure SQL Database에 대한 IP 주소를 허용 목록에 추가해야 하는 경우 이러한 주소를 사용합니다.
 
 > [!IMPORTANT]
->   PowerApps 앱이 위치한 지역의 경우 이 목록의 IP 주소를 포함하고 일치하도록 기존 구성이 있는 경우 2018년 9월 30일 전에 최대한 신속하게 업데이트하세요.
+>   기존 구성이 있는 경우 2018 년 9 월 30 일 이전에 가능한 한 빨리 업데이트 하세요. 그러면 Power Apps 앱이 있는 지역에 대해이 목록의 IP 주소를 포함 하 고 일치 시킵니다.
 
 | 국가별 | 아웃바운드 IP |
 | --- | --- |
@@ -88,7 +88,7 @@ PowerApps의 요청은 앱이 위치한 [환경](../../administrator/environment
 | 미국(초기 액세스)  | 13.71.195.32 - 13.71.195.47, 52.161.102.22, 13.66.140.128 - 13.66.140.143, 52.183.78.157 |
 
 ## <a name="required-services"></a>필수 서비스
-PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하는 목록입니다. 네트워크는 이러한 서비스를 차단하지 **않아야** 합니다.
+이 목록은 Power Apps Studio에서 사용 하는 모든 서비스와 해당 용도를 식별 합니다. 네트워크는 이러한 서비스를 차단하지 **않아야** 합니다.
 
 | 도메인 | 인터넷용 | 사용 |
 | --- | --- | --- |
@@ -104,20 +104,20 @@ PowerApps Studio에서 통신하고 사용하는 모든 서비스를 식별하�
 | \*flow.microsoft.com | http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
 | *. dynamics.com | http | Common Data Service |
 | vortex.data.microsoft.com |http |분석이 |
-| 호스트 | http | PowerApps Mobile
+| 호스트 | http | Power Apps 모바일
 
 > [!NOTE]
-> VPN을 사용하는 경우 PowerApps Mobile을 위한 터널링에서 localhost를 제외하도록 구성해야 합니다.
+> VPN을 사용 하는 경우 Power Apps Mobile에 대해 터널링에서 localhost를 제외 하도록 구성 해야 합니다.
 
 ## <a name="size-limits"></a>크기 제한
 
 텍스트, 하이퍼링크, 이미지 및 미디어의 [데이터 형식](functions/data-types.md#text-hyperlink-image-and-media)에 대 한 크기 제한에 대 한 정보를 찾을 수 있습니다.
 
-## <a name="powerapps-per-app-plan"></a>앱 요금제 별 PowerApps
+## <a name="power-apps-per-app-plan"></a>앱 요금제 당 Power Apps
 
-앱 요금제 당 PowerApps를 사용 하면 개별 사용자가 PowerApps의 전체 기능을 기반으로 하는 특정 비즈니스 시나리오에 대해 단일 포털에서 2 개의 응용 프로그램을 실행할 수 있습니다. 이 계획은 사용자가 보다 폭넓은 규모 도입 전에 플랫폼을 시작할 수 있는 쉬운 방법을 제공 합니다.
+앱 당 power Apps 요금제를 사용 하면 개별 사용자가 Power Apps의 전체 기능을 기반으로 하는 특정 비즈니스 시나리오에 대해 단일 포털에서 2 개의 응용 프로그램을 실행할 수 있습니다. 이 계획은 사용자가 보다 폭넓은 규모 도입 전에 플랫폼을 시작할 수 있는 쉬운 방법을 제공 합니다.
 
-관리자가 앱 계획 당 PowerApps를 환경에 할당 하면 해당 환경의 앱을 공유할 때 허가 되지 않은 사용자에 게 할당 됩니다. 관리자가 앱 계획 별로 할당 하는 방법을 볼 [수 있습니다.](https://docs.microsoft.com/power-platform/admin/capacity-add-on)
+관리자가 앱 계획 당 앱 계획을 환경에 할당 하면 해당 환경의 앱을 공유할 때 허가 되지 않은 사용자에 게 할당 됩니다. 관리자가 앱 계획 별로 할당 하는 방법을 볼 [수 있습니다.](https://docs.microsoft.com/power-platform/admin/capacity-add-on)
 
 앱이 공유 될 때 사용자에 대 한 앱 요금제 할당을 해제 하려면 다음 단계를 수행 합니다.
 

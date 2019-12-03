@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: daf6c3f0c067822b590535b9807af3bc0d96ec16
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 6027589bc1cb5ae5a7e23ce2969e303d62151b96
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71993981"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679871"
 ---
-# <a name="connect-from-microsoft-powerapps-to-dynamics-ax"></a>Microsoft PowerApps에서 Dynamics AX에 연결
+# <a name="connect-from-microsoft-power-apps-to-dynamics-ax"></a>Microsoft Power Apps에서 Dynamics AX로 연결
 ![Dynamics AX Online](./media/connection-dynamicsax/dynamics-ax.png)
 
 이 연결을 사용하여 이러한 버전의 Dynamics AX에서 데이터를 읽고 업데이트하며 삭제하는 앱을 쉽게 빌드할 수 있습니다.

@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱의 조회 필드를 통해 SharePoint 목록 간의 관계 만들기 | Microsoft Docs
-description: PowerApps에서 캔버스 앱의 조회 필드를 사용하여 SharePoint 목록 간의 관계를 만듭니다.
+description: Power Apps에서 캔버스 앱의 조회 필드를 사용 하 여 SharePoint 목록 간의 관계를 만듭니다.
 author: emcoope-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 2c1cce350c394d2809de4c3354b7b471af987236
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: bef5a66569a201a76c36da9b1e828169df7f3cb9
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541398"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674834"
 ---
 # <a name="how-to-link-sharepoint-lists-using-a-lookup-field-in-powerapps"></a>PowerApps에서 조회 필드를 사용하여 SharePoint 목록을 연결하는 방법
 
@@ -96,7 +96,7 @@ SharePoint에서는 두 가지 형식의 조회 필드를 제공합니다.
 ## <a name="create-an-app-from-the-assets-list"></a>자산 목록에서 앱 만들기
 이 앱을 사용하여 **자산** 목록에 데이터를 추가합니다.
 
-1. [PowerApps Studio에 로그인합니다](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). PowerApps을 처음 접하는 경우 조직 이메일 주소를 사용하여 [체험 등록](https://powerapps.microsoft.com)합니다.
+1. [Power Apps Studio에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)합니다. Power Apps를 처음 접하는 경우 조직의 전자 메일 주소를 사용 하 여 [무료로 등록 하세요](https://powerapps.microsoft.com) .
 
 2. **파일** 메뉴(왼쪽 모서리를 따라)에서 **새로 만들기**를 클릭하거나 누른 다음 **SharePoint**를 클릭하거나 누릅니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b0ab20ce5e0700337bb059644c458a2665d20f1e
-ms.sourcegitcommit: 7c1e70e94d75140955518349e6f9130ce3fd094e
+ms.openlocfilehash: c2e34a9f466fcb64bcf14ef6a504d5b18b0a596d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "71983554"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74676735"
 ---
 # <a name="app-object-in-powerapps"></a>PowerApps의 App 개체
 
@@ -64,7 +64,7 @@ ms.locfileid: "71983554"
 > 에 포함 된 앱 (예: Power BI 및 SharePoint)에서는 작업을 수행할 **수 없습니다.**
 
 > [!NOTE]
-> 현재는 **지연 된 부하** 미리 보기 기능을 사용 하는 경우 (새 앱에 대해 기본적으로) 이러한 속성은 첫 번째 화면 에서만 컨트롤을 참조할 수 있습니다. 참조가 생성 되는 경우 PowerApps Studio 오류는 표시 되지 않지만 게시 된 결과로 생성 된 앱은 PowerApps 모바일 또는 브라우저에서 열리지 않습니다. 이 제한을 리프트 하기 위해 적극적으로 노력 하 고 있습니다. 그 동안에는 **파일**  > **앱 설정**  > **고급 설정** ( **미리 보기 기능**)에서 **지연 된 로드** 를 해제할 수 있습니다.
+> 현재는 **지연 된 부하** 미리 보기 기능을 사용 하는 경우 (새 앱에 대해 기본적으로) 이러한 속성은 첫 번째 화면 에서만 컨트롤을 참조할 수 있습니다. 참조를 만들면 Power Apps 스튜디오에서 오류가 표시 되지 않지만, 게시 된 앱이 Power Apps 모바일 또는 브라우저에서 열리지 않습니다. 이 제한을 리프트 하기 위해 적극적으로 노력 하 고 있습니다. 그 동안에는 **파일** > **앱 설정** > **고급 설정** ( **미리 보기 기능**)에서 **지연 된 로드** 를 해제할 수 있습니다.
 
 ### <a name="confirmexit"></a>가 나 종료
 
@@ -78,14 +78,14 @@ ms.locfileid: "71983554"
 - 앱이 브라우저에서 실행 되는 경우:
   - 앱이 실행 되 고 있는 브라우저 또는 브라우저 탭을 닫습니다.
   - 브라우저의 뒤로 단추를 선택 합니다.
-- 앱이 PowerApps Mobile (iOS 또는 Android)에서 실행 되는 경우:
+- 앱이 Power Apps Mobile (iOS 또는 Android)에서 실행 되는 경우:
   - [**Launch**](function-param.md) 함수를 실행 하 고 있습니다.<br>**시작** 함수는 데이터가 손실 되지 않도록 다른 탭이 열리므로 브라우저에서 대화 상자를 트리거하지 않습니다.
-  - PowerApps Mobile에서 다른 앱으로 전환 하려면 살짝 밀기 합니다.
+  - Power Apps Mobile에서 다른 앱으로 전환 하려면 살짝 밀기를 진행 합니다.
   - Android 장치에서 뒤로 단추를 선택 합니다.
 
 확인 대화 상자의 정확한 모양은 PowerApps의 장치 및 버전에 따라 다를 수 있습니다.
 
-확인 대화 상자는 PowerApps Studio에 표시 되지 않습니다.
+확인 대화 상자는 Power Apps Studio에 표시 되지 않습니다.
 
 ### <a name="confirmexitmessage"></a>메시지 아웃 메시지
 

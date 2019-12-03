@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 636e9f853ada9816e87232348e5ce7ef6df2cedc
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: 2482e5b4cbbcaaf168320a8cbfe3c31f486bf891
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73898320"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674302"
 ---
 # <a name="start-a-flow-in-a-canvas-app"></a>캔버스 앱에서 흐름 시작
 
@@ -46,9 +46,9 @@ Power 자동화를 사용 하 여 캔버스 앱에서 이벤트가 발생할 때
 
 1. 검색 상자에 **powerapps**를 입력 한 다음 **powerapps** 아이콘을 선택 합니다.
 
-    ![PowerApps 트리거 만들기](./media/using-logic-flows/set-trigger.png)
+    ![Power Apps 트리거 만들기](./media/using-logic-flows/set-trigger.png)
     
-1. 다음 페이지에서 PowerApps 아이콘을 다시 선택 하 고 **새 단계**를 선택 합니다.
+1. 다음 페이지에서 전원 앱 아이콘을 다시 선택 하 고 **새 단계**를 선택 합니다.
 
 1. **커넥터 및 작업 검색**상자에서 다음 예제와 같이 흐름에 대 한 작업을 지정 합니다.
 
@@ -69,7 +69,7 @@ Power 자동화를 사용 하 여 캔버스 앱에서 이벤트가 발생할 때
 
    1. 목록에서 필드의 입력 상자 (예: **제목**)를 선택 하 고 동적 콘텐츠 창에서 **자세히 보기** 를 선택한 다음 **PowerApps에서 묻기**를 선택 합니다. 
 
-       ![[제목] 필드에서 [PowerApps에서 질문] 매개 변수 추가](./media/using-logic-flows/ask-in-powerapps.png)
+       ![제목 필드에 Power Apps 매개 변수에 Ask 추가](./media/using-logic-flows/ask-in-powerapps.png)
 
 1. 필드 지정 된 주소로 승인 메일을 보내거나 다른 데이터 원본에서 관련 항목을 만드는 등의 추가 단계를 하나 이상 지정 합니다.
 
@@ -91,7 +91,7 @@ Power 자동화를 사용 하 여 캔버스 앱에서 이벤트가 발생할 때
 1. 표시되는 창에서 이전 절차에서 만든 흐름을 선택합니다.
 
     > [!NOTE]
-   > 만든 흐름을 사용할 수 없는 경우 PowerApps가 흐름을 만든 환경으로 설정되어 있는지 확인합니다.
+   > 만든 흐름을 사용할 수 없는 경우에는 전원 앱이 흐름을 만든 환경으로 설정 되어 있는지 확인 합니다.
 
     ![사용자 지정 창에서 흐름 추가](./media/using-logic-flows/add-flow-from-pane.png)
 

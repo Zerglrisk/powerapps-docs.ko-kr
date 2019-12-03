@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ff143e9d73de25b5ba2c0076fc4b02d5f101a85b
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 5e89e0f5e9fc6c862f068ea7766bfc4e54ad5aeb
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984755"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680124"
 ---
 # <a name="if-and-switch-functions-in-powerapps"></a>PowerApps의 If 및 Switch 함수
 집합의 조건이 참 인지(**If**) 또는 수식의 결과가 집합의 값과 일치하는지(**Switch**) 확인한 다음, 결과를 반환하거나 작업을 실행합니다.
@@ -31,7 +31,7 @@ ms.locfileid: "71984755"
 **If**와 **Switch**는 매우 유사하지만 상황에 가장 적합한 함수를 사용해야 합니다.
 
 * 단일 조건을 평가하려면 **If**를 사용합니다. 이 함수의 가장 일반적인 구문은 **If**( *Condition*, *ThenResult*, *DefaultResult* )이며, 다른 프로그래밍 도구에서 볼 수 있는 일반적인 “if …  then … else …” 패턴을 제공합니다.
-* 관련이 없는 여러 조건을 평가하려면 **If**를 사용합니다. Microsoft Excel과 달리 PowerApps에서는 **If** 수식을 중첩하지 않고 여러 조건을 지정할 수 있습니다.
+* 관련이 없는 여러 조건을 평가하려면 **If**를 사용합니다. Microsoft Excel과 달리 Power Apps **에서 수식을 중첩** 하지 않고도 여러 조건을 지정할 수 있습니다.
 * 다수의 가능한 일치 항목에 대해 단일 조건을 평가하려면 **Switch**를 사용합니다. 이 경우 **If**를 사용할 수도 있지만 가능한 일치 항목마다 수식을 반복해야 합니다.
 
 두 가지 이상의 작업을 분기하기 위해 [동작 수식](../working-with-formulas-in-depth.md)에 이 두 가지 함수를 모두 사용할 수 있습니다. 하나의 분기만 작업을 트리거합니다. 조건과 일치는 순서대로 평가되고 조건이 **true**이거나 일치가 발견되면 중지됩니다.
@@ -70,16 +70,16 @@ ms.locfileid: "71984755"
 | **Switch( Slider1.Value, 20, "Result1", 10, "Result2", 0, "Result3", "DefaultResult" )** |슬라이더의 값이 검사할 모든 값과 일치하지 않습니다.  *DefaultResult*가 제공되었으므로 반환됩니다. |"DefaultResult" |
 
 ### <a name="branching-in-behavior-formulas"></a>동작 수식에서 분기
-이 예제는 **FirstName**이라는 **[Text input](../controls/control-text-input.md)** 컨트롤에 "John"이라는 값이 입력되어 있습니다.
+이 예제는 **FirstName**이라는 **[텍스트 입력](../controls/control-text-input.md)** 컨트롤에 "John"이라는 값이 입력되어 있습니다.
 
 | 수식 | 설명 | 결과 |
 | --- | --- | --- |
-| **If( ! IsBlank( FirstName.Text ), Navigate(&nbsp;Screen1, ScreenTransition.None ) )** |조건이 **true**이므로 **[Navigate](function-navigate.md)** 함수가 실행됩니다. **[IsBlank](function-isblank-isempty.md)** 함수를 사용하면 필수 양식 필드가 채워져 있는지 테스트할 수 있습니다.  **FirstName**이 [공백](function-isblank-isempty.md)인 경우 이 수식은 아무 효과가 없습니다. |**true**<br><br>화면이 **Screen1**으로 변경됩니다. |
+| **If (! IsBlank (FirstName), Navigate (&nbsp;Screen1, Screentransition.none))** |조건이 **true**이므로 **[Navigate](function-navigate.md)** 함수가 실행됩니다. **[IsBlank](function-isblank-isempty.md)** 함수를 사용하면 필수 양식 필드가 채워져 있는지 테스트할 수 있습니다.  **FirstName**이 [공백](function-isblank-isempty.md)인 경우 이 수식은 아무 효과가 없습니다. |**true**<br><br>화면이 **Screen1**으로 변경됩니다. |
 | **If( IsBlank( FirstName.Text ), Navigate(&nbsp;Screen1, ScreenTransition.None ), Back() )** |**!** 연산자가 없으면 조건이 **false**이므로 **[Navigate](function-navigate.md)** 함수가 실행되지 않습니다. **[Back](function-navigate.md)** 함수가 *DefaultResult*로 제공되었으므로 실행됩니다. |**true**<br><br>화면이 이전에 표시된 화면으로 돌아갑니다. |
 | **Switch( FirstName.Text, "Carlos", Navigate(&nbsp;Screen1, ScreenTransition.None ), "Kirstin", Navigate( Screen2, ScreenTransition.None ), "John", Navigate( Screen3, ScreenTransition.None ) )** |**FirstName.Text**의 값이 "Carlos", "Kirstin", "John" 순서로 비교됩니다. 'John'과 일치하는 항목이 있으므로 앱이 **Screen3**으로 이동합니다. |**true**<br><br>화면이 **Screen3**으로 변경됩니다. |
 
 ### <a name="step-by-step"></a>단계별 가이드
-1. **[Text input](../controls/control-text-input.md)** 컨트롤을 추가하고 기본적으로 해당 이름이 없는 경우 이름을 **Text1**로 지정합니다.
+1. **[텍스트 입력](../controls/control-text-input.md)** 컨트롤을 추가하고 기본적으로 해당 이름이 없는 경우 이름을 **Text1**로 지정합니다.
 2. **Text1**에 **30**을 입력합니다.
 3. **Label** 컨트롤을 추가하고 **[Text](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>
    **If( Value(Text1.Text) < 20, "Order MANY more!", Value(Text1.Text) < 40, "Order more!", Text1.Text )**

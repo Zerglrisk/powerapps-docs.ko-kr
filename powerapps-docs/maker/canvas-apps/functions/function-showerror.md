@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 5e18b64910bbc7efca8c460100163e1a0716a089
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 1a02a83e00b9f377f3882cb32c1e6b6606b5cc2a
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992149"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678238"
 ---
 # <a name="notify-function-in-powerapps"></a>PowerApps의 Notify 함수
 사용자에게 배너 메시지를 표시합니다.
@@ -41,11 +41,11 @@ ms.locfileid: "71992149"
 
 **Notify**는 [**IfError**](function-iferror.md) 함수와 쌍을 이루어 오류를 감지하고 사용자 지정 오류 메시지를 사용하여 오류를 보고할 수 있습니다.
 
-PowerApps에서는 **Notify**와 완전히 다른 메커니즘을 사용하여 푸시 알림을 보낼 수도 있습니다.  자세한 내용은 [PowerApps에서 알림 보내기](../add-notifications.md)를 참조하세요.
+Power Apps **는 알림과 완전히**다른 메커니즘을 사용 하 여 푸시 알림을 보낼 수도 있습니다.  자세한 내용은 [PowerApps에서 알림 보내기](../add-notifications.md)를 참조하세요.
 
 **Notify**는 항상 *true*를 반환합니다.
 
-두고 이 함수는 오류 메시지만 표시할 수 있는 경우 이전에 **Showerror** 로 이름이 지정 되었습니다.
+참고: 오류 메시지만 표시할 수 있는 경우 이 함수의 이전 이름은 **ShowError**입니다.
 
 ## <a name="syntax"></a>구문
 **Notify**( *Message*, [ *NotificationType* ] )

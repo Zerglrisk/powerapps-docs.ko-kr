@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7ab695d461cb980556a3027297c3e7f5ac5bde61
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 0f2f51596e8973bf41e26e4ed56df9f1c6e34844
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71985510"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680308"
 ---
 # <a name="concurrent-function-in-powerapps"></a>PowerApps의 Concurrent 함수
 동시에 서로 여러 수식을 평가합니다.
@@ -28,7 +28,7 @@ ms.locfileid: "71985510"
 
 앱의 [**OnStart**](../controls/control-screen.md) 속성에서 **Concurrent**를 사용하여 앱이 데이터를 로드할 때 성능을 향상시킵니다. 이전 호출이 완료될 때까지 데이터 호출이 시작되지 않는 경우 앱은 모든 요청 시간의 합계를 대기해야 합니다. 데이터 호출이 동시에 시작되는 경우 앱은 가장 긴 요청 시간 동안만 대기하면 됩니다. 웹 브라우저는 데이터 작업을 동시에 수행하여 성능을 향상시킵니다.
 
-**Concurrent** 함수 내에서 수식이 평가를 시작하고 종료하는 순서를 예측할 수 없습니다. **Concurrent** 함수 내의 수식은 동일한 **Concurrent** 함수 내의 다른 수식에 대한 종속성을 포함하지 않고 PowerApps에서는 사용하는 경우 오류를 표시합니다. 내부에서 **Concurrent** 함수가 시작하기 전에 완료하기 때문에 **Concurrent** 함수 외부의 수식에 대한 종속성을 안전하게 사용할 수 있습니다. **동시** 함수 뒤의 수식은 내 수식에 대 한 종속성을 안전 하 게 가져올 수 있습니다. 즉 **,** 연산자를 사용 하는 경우 **동시** 함수가 완료 되 고 체인의 다음 수식으로 이동 됩니다. 의도하지 않은 결과가 포함된 함수 또는 서비스 메서드를 호출하는 경우 미묘한 순서 종속성에 대해 주의합니다.
+**Concurrent** 함수 내에서 수식이 평가를 시작하고 종료하는 순서를 예측할 수 없습니다. **동시** 함수 내의 수식은 동일한 **동시** 함수 내에서 다른 수식에 대 한 종속성을 포함 하지 않아야 하며, 시도 하면 Power Apps에서 오류를 표시 합니다. 내부에서 **Concurrent** 함수가 시작하기 전에 완료하기 때문에 **Concurrent** 함수 외부의 수식에 대한 종속성을 안전하게 사용할 수 있습니다. **동시** 함수 뒤의 수식은 내 수식에 대 한 종속성을 안전 하 게 가져올 수 있습니다. 즉 **,** 연산자를 사용 하는 경우 **동시** 함수가 완료 되 고 체인의 다음 수식으로 이동 됩니다. 의도하지 않은 결과가 포함된 함수 또는 서비스 메서드를 호출하는 경우 미묘한 순서 종속성에 대해 주의합니다.
 
 인수 내 **에서 연산자와** 함께 수식을 **동시**에 연결할 수 있습니다. **Concurrent( Set( a, 1 ); Set( b, a+1 ), Set( x, 2 ); Set( y, x+2 ) )** 는 **Set( x, 2 ); Set( y, x+2 )** 와 동시에 **Set( a, 1 ); Set( b, a+1 )** 을 평가합니다. 이 경우에 수식 내에서 종속성에는 문제가 없습니다. **a**는 **b** 전에 설정되고 **x**는 **y** 전에 설정됩니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "71985510"
 
 1. 앱을 만들고 Common Data Service, SQL Server 또는 SharePoint에서 4 개의 데이터 원본을 추가 합니다. 
 
-    이 예제에서는 [SQL Azure의 샘플 Adventure Works 데이터베이스](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)에서 네 개의 테이블을 사용합니다. 데이터베이스를 만든 후에 정규화된 서버 이름(예: srvname.database.windows.net)을 사용하여 PowerApps에서 연결합니다.
+    이 예제에서는 [SQL Azure의 샘플 Adventure Works 데이터베이스](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)에서 네 개의 테이블을 사용합니다. 데이터베이스를 만든 후에는 정규화 된 서버 이름 (예: srvname.database.windows.net)을 사용 하 여 Power Apps에서 연결 합니다.
 
     ![Azure에서 Adventure Works 데이터베이스에 연결](media/function-concurrent/connect-database.png)
 
@@ -74,7 +74,7 @@ ms.locfileid: "71985510"
 
 5. 앱을 저장하고, 닫고, 다시 엽니다.
 
-    단추를 다시 선택해도 네 개의 새로운 요청이 발생해야만 하지 있도록 PowerApps는 데이터를 캐시합니다. 성능을 테스트할 때마다 앱을 닫고 다시 엽니다. 네트워크 제한을 설정한 경우 다른 테스트에 대해 준비가 될 때까지 해제하는 것이 좋습니다.
+    Power Apps는 데이터를 캐시 하므로 단추를 다시 선택 하면 새 요청이 4 개 발생할 수도 있습니다. 성능을 테스트할 때마다 앱을 닫고 다시 엽니다. 네트워크 제한을 설정한 경우 다른 테스트에 대해 준비가 될 때까지 해제하는 것이 좋습니다.
 
 1. 두 번째 **[단추](../controls/control-button.md)** 컨트롤을 추가하고 이 수식에 **OnSelect** 속성을 설정합니다.
 
@@ -149,4 +149,4 @@ ms.locfileid: "71985510"
 
     경우에 따라 프랑스어 번역이 독일어 번역보다 빠르고 반대로도 가능합니다. 둘 다 동시에 시작되지만 네트워크 대기 시간 및 서버 쪽 처리를 비롯한 다양한 이유로 한 번역이 다른 번역보다 먼저 반환됩니다.
 
-    앱이 먼저 종료한 한 가지 번역을 사용하는 경우 [경합 조건](https://en.wikipedia.org/wiki/Race_condition)이 발생합니다. 다행스럽게도 PowerApps는 감지할 수 있는 대부분의 타이밍 종속성의 플래그를 지정합니다.
+    앱이 먼저 종료한 한 가지 번역을 사용하는 경우 [경합 조건](https://en.wikipedia.org/wiki/Race_condition)이 발생합니다. 다행히 Power Apps는 검색할 수 있는 대부분의 타이밍 종속성에 플래그를 지정할 수 있습니다.

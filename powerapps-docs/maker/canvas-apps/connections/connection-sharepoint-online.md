@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e534d5b3cf21cbbed78b16960a5f4a83a44bfe24
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 5c099f68c7dd8833b2ee494ff83cbbdb2c88b923
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540339"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678767"
 ---
 # <a name="connect-to-sharepoint-from-a-canvas-app"></a>캔버스 앱에서 SharePoint에 연결
 
@@ -33,14 +33,14 @@ SharePoint 사이트에 연결 하 여 사용자 지정 목록에서 자동으�
 
 ## <a name="generate-an-app"></a>앱 생성
 
-사용자 지정 목록의 데이터를 관리 하려면 PowerApps에서 [3 화면 앱을 자동으로 생성할](../app-from-sharepoint.md)수 있습니다. 사용자는 첫 번째 화면에서 목록을 탐색 하 고, 두 번째 화면에서 항목에 대 한 세부 정보를 표시 하 고, 세 번째 화면에서 항목을 만들거나 업데이트할 수 있습니다.
+사용자 지정 목록에서 데이터를 관리 하려는 경우 Power Apps에서 [3 화면 앱을 자동으로 생성할](../app-from-sharepoint.md)수 있습니다. 사용자는 첫 번째 화면에서 목록을 탐색 하 고, 두 번째 화면에서 항목에 대 한 세부 정보를 표시 하 고, 세 번째 화면에서 항목을 만들거나 업데이트할 수 있습니다.
 
 > [!NOTE]
 > SharePoint 목록에 **선택**, **조회**또는 **개인 또는 그룹** 열이 포함 된 경우이 항목의 뒷부분에 나오는 [갤러리에 데이터 표시](connection-sharepoint-online.md#show-list-columns-in-a-gallery) 를 참조 하세요.
 
 ## <a name="create-a-connection"></a>연결 만들기
 
-1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하 고, 왼쪽 탐색 모음에서 **데이터**  > **연결** 을 선택한 다음, 왼쪽 위 모서리 근처에 있는 **새 연결** 을 선택 합니다.
+1. [PowerApps에 로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)하 고, 왼쪽 탐색 모음에서 **데이터** > **연결** 을 선택한 다음, 왼쪽 위 모서리 근처에 있는 **새 연결** 을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 왼쪽 탐색 모음에서 데이터 > 연결 ![선택 하 고 왼쪽 위 모서리 근처에서 새 연결을 선택 합니다.](./media/connection-sharepoint-online/new-connection.png)
@@ -81,12 +81,12 @@ SharePoint 사이트에 연결 하 여 사용자 지정 목록에서 자동으�
 
 ## <a name="add-data-to-an-existing-app"></a>기존 앱에 데이터 추가
 
-1. PowerApps Studio에서 업데이트할 앱을 열고 **보기** 탭을 선택한 다음 **데이터 원본**을 선택 합니다.
+1. Power Apps 스튜디오에서 업데이트할 앱을 열고 **보기** 탭을 선택한 다음 **데이터 원본**을 선택 합니다.
 
     > [!div class="mx-imgBorder"]
     > 보기 탭에서 ![하 고 데이터 원본을 선택](./media/connection-sharepoint-online/view-data-sources.png)
 
-1. **데이터** 창에서 **데이터 원본 추가**  > **SharePoint**를 선택 합니다.
+1. **데이터** 창에서 **데이터 원본 추가** > **SharePoint**를 선택 합니다.
 
 1. **SharePoint 사이트에 연결**아래에서 **최근에 사용한** 사이트 목록에서 항목을 선택 하거나 사용 하려는 사이트의 URL을 입력 하거나 붙여 넣은 다음 **연결**을 선택 합니다.
 
@@ -98,7 +98,7 @@ SharePoint 사이트에 연결 하 여 사용자 지정 목록에서 자동으�
     > [!div class="mx-imgBorder"]
     > 목록 선택에서 ![사용 하려는 문서 또는 하나 이상의 목록에 대 한 확인란을 선택 하 고 연결을 선택](./media/connection-sharepoint-online/select-sp-tables.png)
 
-    일부 목록 형식은 기본적으로 표시되지 않습니다. PowerApps는 탬플릿 기반 목록이 아닌 사용자 지정 목록을 지원합니다. 사용할 목록의 이름이 표시 되지 않는 경우 아래쪽으로 스크롤한 다음 **사용자 지정 테이블 이름 입력**이 포함 된 상자에 목록 이름을 입력 합니다.
+    일부 목록 형식은 기본적으로 표시되지 않습니다. Power Apps는 템플릿 기반 목록이 아닌 사용자 지정 목록을 지원 합니다. 사용할 목록의 이름이 표시 되지 않는 경우 아래쪽으로 스크롤한 다음 **사용자 지정 테이블 이름 입력**이 포함 된 상자에 목록 이름을 입력 합니다.
 
     > [!div class="mx-imgBorder"]
     > ![사용자 지정 목록 이름 입력이 포함 된 상자에 목록 이름을 입력 합니다.](./media/connection-sharepoint-online/custom-list.png)
@@ -160,7 +160,7 @@ SharePoint 라이브러리에 이미지가 여러 개 있는 경우 사용자가
 
 SharePoint 라이브러리에서 데이터를 표시 하는 더 복잡 한 방법을 보여 주는 [샘플 앱을 다운로드할](https://pwrappssamples.blob.core.windows.net/samples/spdoclib_blogapp.msapp) 수 있습니다.
 
-1. 앱을 다운로드 한 후 [PowerApps Studio](https://us.create.powerapps.com/studio/#)을 열고 왼쪽 탐색 모음에서 **열기** 를 선택한 다음 **찾아보기**를 선택 합니다.
+1. 앱을 다운로드 한 후에 [Power Apps Studio](https://us.create.powerapps.com/studio/#)를 열고 왼쪽 탐색 모음에서 **열기** 를 선택한 다음 **찾아보기**를 선택 합니다.
 1. **열기** 대화 상자에서 다운로드 한 파일을 찾아서 연 다음이 항목의 처음 두 가지 절차에 따라 SharePoint 라이브러리를 데이터 원본으로 추가 합니다.
 
 > [!NOTE]
@@ -180,7 +180,7 @@ SharePoint 라이브러리에서 데이터를 표시 하는 더 복잡 한 방�
 
 ### <a name="lists"></a>표시
 
-PowerApps는 공백을 포함 하는 열 이름을 읽을 수 있지만 공백은 16 진수 이스케이프 코드 **"\_x0020\_"** 로 바뀝니다. 예를 들어 SharePoint의 **"Column Name"** 은 데이터 레이아웃에 표시되거나 수식에 사용될 때 PowerApps에 **"Column_x0020_Name"** 으로 나타납니다.
+Power Apps는 공백을 포함 하는 열 이름을 읽을 수 있지만 공백은 16 진수 이스케이프 코드 **"\_x0020\_"** 로 바뀝니다. 예를 들어 SharePoint의 **"열 이름"** 은 데이터 레이아웃에 표시 되거나 수식에 사용 될 때 Power Apps에서 **"Column_x0020_Name"** 로 표시 됩니다.
 
 모든 유형의 열이 지원 되는 것은 아니므로 모든 유형의 열이 모든 유형의 카드를 지 원하는 것은 아닙니다.
 
@@ -206,10 +206,10 @@ PowerApps는 공백을 포함 하는 열 이름을 읽을 수 있지만 공백�
 
 ### <a name="libraries"></a>라이브러리인
 
-- PowerApps에서 라이브러리로 파일을 업로드할 수 없습니다.
+- Power Apps에서 라이브러리에 파일을 업로드할 수 없습니다.
 - Pdf 뷰어 컨트롤에서 라이브러리의 PDF 파일을 표시할 수 없습니다.
-- PowerApps Mobile은 **다운로드** 기능을 지원 하지 않습니다.
-- 사용자가 PowerApps Mobile 또는 Windows 10 앱에서 앱을 실행 하는 경우에는 **Launch** 함수를 사용 하 여 갤러리에 라이브러리 콘텐츠를 표시 합니다.
+- Power Apps Mobile은 **다운로드** 기능을 지원 하지 않습니다.
+- 사용자가 Power Apps Mobile 또는 Windows 10 앱에서 앱을 실행 하는 경우에는 **Launch** 함수를 사용 하 여 갤러리에 라이브러리 콘텐츠를 표시 합니다.
 
 ## <a name="next-steps"></a>다음 단계
 

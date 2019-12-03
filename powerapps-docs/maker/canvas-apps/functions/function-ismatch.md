@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ac6e5196de03a3c2d292696f1216c443f4c5b7e6
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 0cfc64397774abc33f27006e331238dc97e9895d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992664"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680331"
 ---
 # <a name="ismatch-match-and-matchall-functions-in-powerapps"></a>PowerApps의 IsMatch, Match 및 MatchAll 함수
 패턴을 기반으로 하 여 텍스트 문자열의 일부를 찾거나 일치 하는지 여부를 테스트 합니다.
@@ -111,7 +111,7 @@ ms.locfileid: "71992664"
 
 정규식은 매우 강력하고 여러 프로그래밍 언어에서 사용할 수 있으며 다양한 목적에 사용됩니다. 또한 종종 임의의 문장 부호 시퀀스와 같이 보일 수 있습니다. 이 문서에서는 정규식의 모든 측면을 설명 하지는 않지만 다양 한 정보, 자습서 및 도구를 웹에서 사용할 수 있습니다.  
 
-정규식은 다양 한 언어로 제공 되며 PowerApps는 JavaScript 언어의 변형을 사용 합니다. 구문에 대 한 소개는 [정규식 구문](https://msdn.microsoft.com/library/1400241x.aspx) 을 참조 하세요. 명명 된 하위 일치 (간혹 명명 된 캡처 그룹 이라고 함)가 지원 됩니다.
+정규식은 다양 한 언어로 제공 되며, Power Apps는 JavaScript 언어의 변형을 사용 합니다. 구문에 대 한 소개는 [정규식 구문](https://msdn.microsoft.com/library/1400241x.aspx) 을 참조 하세요. 명명 된 하위 일치 (간혹 명명 된 캡처 그룹 이라고 함)가 지원 됩니다.
 
 - 명명 된 하위 일치: **(?&lt;*name*&gt; ...)**
 - 명명 된 역참조: **\\k&lt;*이름*&gt;**

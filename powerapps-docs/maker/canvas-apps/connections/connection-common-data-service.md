@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 0970cbd51f351352c218dab3f220c6d5baa35435
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: d9f6e973aa632fe0821db3bcc493174e250afa72
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73897752"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679917"
 ---
 # <a name="connect-to-common-data-service"></a>Common Data Service에 연결
 
-사용자가 해당 데이터를 관리할 수 있도록 Common Data Service에 비즈니스 데이터를 안전 하 게 저장 하 고 PowerApps에서 다양 한 앱을 빌드할 수 있습니다. 또한 Dynamics 365의 전원 자동화, Power BI 및 데이터를 포함 하는 솔루션에 해당 데이터를 통합할 수 있습니다.
+사용자가 해당 데이터를 관리할 수 있도록 Common Data Service에 비즈니스 데이터를 안전 하 게 저장 하 고 Power Apps에서 다양 한 앱을 빌드할 수 있습니다. 또한 Dynamics 365의 전원 자동화, Power BI 및 데이터를 포함 하는 솔루션에 해당 데이터를 통합할 수 있습니다.
 
 기본적으로 Common Data Service 커넥터는 앱의 현재 환경에 있는 데이터에 연결 됩니다. 앱이 다른 환경으로 이동 하는 경우 커넥터는 새 환경의 데이터에 연결 됩니다. 이 동작은 개발에서 테스트로 이동 하기 위한 ALM 프로세스를 따르는 단일 환경 또는 앱을 사용 하는 응용 프로그램에서 효과적으로 작동 합니다.
 

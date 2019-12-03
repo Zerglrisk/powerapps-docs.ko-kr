@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b6f977154a350c6ca4b0b630cb4a4050e6d015c8
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: ff3e2db1c0d02fda91215ae0e5cc6dd4ae712dd9
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541510"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675115"
 ---
 # <a name="overview-of-the-email-screen-template-for-canvas-apps"></a>Canvas 앱에 대 한 전자 메일 화면 템플릿 개요
 
@@ -42,7 +42,7 @@ Canvas 앱에서 사용자가 Office 365 Outlook 계정에서 전자 메일을 �
 
 템플릿에서 전자 메일 화면을 추가 하려면 다음을 수행 합니다.
 
-1. PowerApps에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 PowerApps Studio에서 기존 앱을 엽니다.
+1. 파워 앱에 [로그인](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 한 다음 앱을 만들거나 Power apps 스튜디오에서 기존 앱을 엽니다.
 
     이 항목은 휴대폰 앱을 표시 하지만 동일한 개념은 태블릿 앱에도 적용 됩니다.
 

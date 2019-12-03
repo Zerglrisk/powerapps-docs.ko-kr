@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 54d8fb369cb63721de16c5bf280660dbd15796b5
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 5ac2eaf3a0cfa4dc5c2a2150aa4a02ab127e5154
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541291"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74676530"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-powerapps"></a>PowerApps의 온-프레미스 데이터 게이트웨이를 관리합니다.
 
-온-프레미스 게이트웨이를 설치하여 PowerApps에 빌드된 캔버스 앱 및 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같이 클라우드에 없는 데이터 원본 간에 데이터를 빠르고 안전하게 전송합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
+온-프레미스 데이터 게이트웨이를 설치 하 여 Power Apps에서 빌드된 canvas 앱과 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같은 클라우드에 없는 데이터 원본 간에 빠르고 안전 하 게 데이터를 전송 합니다. 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한과 연결을 관리합니다.
 
 게이트웨이를 사용하여 이러한 연결을 통해 온-프레미스 데이터에 연결할 수 있습니다.
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e96c7bda3740143339130d3e56a04703aae5fc7c
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 8c44db7094425366822d7924b771070d9e9a5ec5
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71990246"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74676627"
 ---
 # <a name="operators-in-powerapps"></a>PowerApps의 연산자
 
@@ -80,9 +80,9 @@ ms.locfileid: "71990246"
 ## <a name="parent-operator"></a>부모 연산자
 일부 컨트롤은 다른 컨트롤을 호스팅합니다. 예를 들어 **[화면](../controls/control-screen.md)** , **[갤러리](../controls/control-gallery.md)** , **[카드](../controls/control-card.md)** , **[편집 양식](../controls/control-form-detail.md)** 및 **[표시 양식](../controls/control-form-detail.md)** 컨트롤은 모두 컨트롤에 대한 컨테이너입니다. 호스팅하는 컨트롤을 그 안에 담긴 컨트롤의 "부모"라고 합니다.
 
-PowerApps의 컨트롤은 앱 내부의 어디서나 이름을 통해 참조할 수 있습니다. **Screen1**은 앱의 화면 이름일 수 있습니다. 이 화면의 배경색을 검색하기 위해 **Screen1.Fill**을 사용할 수 있습니다.
+Power Apps의 모든 컨트롤은 앱 내 어디서 나 이름으로 참조할 수 있습니다. **Screen1**은 앱의 화면 이름일 수 있습니다. 이 화면의 배경색을 검색하기 위해 **Screen1.Fill**을 사용할 수 있습니다.
 
-이 화면의 컨트롤에는 다른 옵션이 있습니다. 상대 참조를 사용할 수 있습니다. **부모. 채우기**입니다. **[Parent](operators.md#parent-operator)** 연산자는 이 컨트롤이 호스팅하는 컨트롤을 참조하여 그 속성을 모두 사용할 수 있게 합니다. **[Parent](operators.md#parent-operator)** 를 사용하면 컨트롤의 이름에 종속되지 않기 때문에 유용합니다. 컨테이너 안에서 참조를 조정할 필요 없이 컨테이너 컨트롤을 복사하여 붙여 넣을 수 있습니다. 이 연산자는 수식을 읽을 때 자식과 부모 컨트롤 간의 관계를 분명히 하기도 합니다.
+이 화면의 컨트롤에는 다른 옵션이 있습니다. 상대 참조 **Parent.Fill**을 사용할 수 있습니다. **[Parent](operators.md#parent-operator)** 연산자는 이 컨트롤이 호스팅하는 컨트롤을 참조하여 그 속성을 모두 사용할 수 있게 합니다. **[Parent](operators.md#parent-operator)** 를 사용하면 컨트롤의 이름에 종속되지 않기 때문에 유용합니다. 컨테이너 안에서 참조를 조정할 필요 없이 컨테이너 컨트롤을 복사하여 붙여 넣을 수 있습니다. 이 연산자는 수식을 읽을 때 자식과 부모 컨트롤 간의 관계를 분명히 하기도 합니다.
 
 ## <a name="disambiguation-operator"></a>명확성 연산자
 일부 함수는 각 레코드를 처리하는 동안 테이블의 필드에 액세스하기 위해 **Filter**, **AddColumns** 및 **Sum** 등과 같은 [범위 기록](../working-with-tables.md#record-scope)을 만듭니다.  레코드 범위에 추가된 필드 이름은 앱 어디에서나 동일한 이름을 재정의합니다.  이 경우 **@** 명확성 연산자를 사용하여 레코드 범위 밖에서 값에 계속 액세스할 수 있습니다.

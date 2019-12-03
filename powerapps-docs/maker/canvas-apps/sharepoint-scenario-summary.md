@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 76d4a1ffdc569a3ccfc2567229c99136e744191a
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: cba5d7bd1214866cc24ba01c64909cf15e0ca96d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73899306"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674664"
 ---
 # <a name="walk-end-to-end-through-the-completed-sharepoint-online-integration-scenario"></a>완료된 SharePoint Online 통합 시나리오 엔드투엔드 연습
 > [!NOTE]
-> 이 문서는 PowerApps를 사용 하는 방법에 대 한 자습서 시리즈의 일부입니다. Power 자동화 및 SharePoint Online에서 Power BI. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
+> 이 문서는 SharePoint Online에서 Power Apps, 파워 자동화 및 Power BI 사용에 대 한 자습서 시리즈의 일부입니다. [시리즈 소개](sharepoint-scenario-intro.md)를 참고하여 관련된 다운로드뿐만 아니라 전체적인 내용을 파악하도록 합니다.
 
 이 시리즈의 자습서에서는 캔버스 앱 및 흐름 빌드부터 보고서 생성 및 SharePoint에 포함에 이르기까지 막대한 양의 정보를 설명했습니다. 지금까지 많은 내용을 알아보고 이러한 기술을 통합하는 방법을 충분히 알아보았으므로 고유한 필요에 따라 SharePoint에 캔버스 앱, 흐름 및 보고서를 통합할 수 있습니다. 마무리하기 전에 시나리오를 끝까지 살펴보고 모든 파트가 함께 작동하는 방법을 확인하려고 합니다.
 

@@ -13,15 +13,15 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f60db0449a163c83691658095b15f41083316c91
-ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
+ms.openlocfilehash: bf83473e8b53d13e58b653974495acbe2595513f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73899199"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74674242"
 ---
-# <a name="powerapps-webinar-listing"></a>PowerApps 웹 세미나 목록 #
-웹 세미나는 Microsoft PowerApps의 기능을 활용하는 데 도움이 됩니다. 웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 메일로 전송됩니다. 
+# <a name="power-apps-webinar-listing"></a>Power Apps 웹 세미나 목록 #
+이러한 웹 세미나는 Microsoft Power Apps의 기능 및 기능을 활용 하는 데 도움이 될 수 있습니다. 웹 세미나는 실시간 방송 후에 주문형으로 제공됩니다. 일부 경우에 등록 세부 정보를 다시 입력하면 동영상 링크가 메일로 전송됩니다. 
 
 ## <a name="beginner-webinar-series"></a>초보자 웹 세미나 시리즈 ##
 **비즈니스에 맞는 앱 디자인을 위한 5가지 팁**
@@ -36,13 +36,13 @@ ms.locfileid: "73899199"
 **PowerApps에서 양식 시작**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Getting-Started-with-PowerApp-Forms/m-p/116842)
 
-**PowerApps 컨트롤 시작**
+**Power Apps 컨트롤 시작**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Introduction-to-PowerApps-Controls/m-p/116844)
 
-**PowerApps 커뮤니티 기회 및 보상**
+**Power Apps 커뮤니티 기회 & 보상**
 <br> 주체: Audrie Gordon 및 Mackenzie Lyng [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Community-Opportunities-and-Rewards/m-p/116856)
 
-**2017년 PowerApps 기능 릴리스에 대한 개요**
+**2017에 대 한 Power Apps 기능 릴리스 개요**
 <br>주체: Darshan Desai [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Overview-of-PowerApps-Feature-Releases-for-2017/m-p/116858)
 
 **Office Graph 템플릿 탐색**
@@ -55,10 +55,10 @@ ms.locfileid: "73899199"
 **PowerApps의 새로운 저장 및 게시 옵션을 사용한 애플리케이션 수명 주기**
 <br>주체: Karthik Bharathy [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Application-LIfecycle-with-the-new-Save-and-publish-options-in/m-p/116860)
 
-**Lookup 함수 사용에 중점을 둔 PowerApps**
+**Power Apps에서 Lookup 함수 사용에 집중**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Focus-on-Using-the-Lookup-Function/m-p/116866)
 
-**PowerApps 및 Flow를 사용하여 LOB(기간 업무) "포털" 만들기**
+**Power Apps 및 Flow를 사용 하 여 Lob (기간 업무) "포털" 만들기**
 <br>작성자: Vishwas Lele [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Using-PowerApps-and-Flow-to-create-Line-of-Business-portals-by/m-p/116869)
 
 **프로덕션 앱에 대한 모범 사례 공유 - IWMentor의 Laura Rogers**
@@ -67,33 +67,33 @@ ms.locfileid: "73899199"
 **커넥터 시리즈 | PowerApps를 사용한 Microsoft StaffHub(Shift Planning) 앱**
 <br>작성자: Marc-André Lépine [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connector-Series-Shift-Scheduling-Apps-with-PowerApps-StaffHub/m-p/122036)
 
-**PowerApps 관리 | 질문과 대답**
+**Power Apps 관리 | 질문과 대답**
 <br>작성자: Manas Maheshwari [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/PowerApps-Administration-FAQ/m-p/127369#M44)
 
-**범용 감사 앱 살펴보기: PowerApps 및 Flow에서 할 수 있는 작업 알아보기, 작성자: Paul Culmsee**
+**유니버설 감사 앱 내: Paul Culmsee에서 지원 되는 파워 앱 및 흐름을 참조 하세요.**
 <br>작성자: Paul Culmsee [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Inside-the-Universal-Audit-App-See-what-PowerApps-and-Flow-are/m-p/127370#M45)
 
 ## <a name="advanced-webinar-series"></a>고급자 웹 세미나 시리즈 ##
-**PowerApps 수식**
+**Power Apps 수식**
 <br>주체: Greg Lindhorst [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Deep-dive-on-formulas-by-Greg-Lindhorst/m-p/116899)
 
-**PowerApps를 사용한 서버 패치 솔루션 빌드, 작성자: Brian Blanchard**
+**Blanchard에서 Power Apps를 사용 하 여 서버 패치 솔루션 빌드**
 <br>작성자: Brian Blanchard 및 Audrie Gordon [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Server-Patching-Solutions-with-PowerApps-by-Brian/m-p/116901)
 
-**PowerApps를 사용한 서버 패치 솔루션 빌드, 작성자: Brian Blanchard(2부)**
+**Blanchard에서 Power Apps를 사용 하 여 서버 패치 솔루션 빌드 (2 부)**
 <br>작성자: Brian Blanchard 및 Audrie Gordon [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Server-Patching-Solutions-with-PowerApps-by-Brian/m-p/116902)
 
-**클릭 광고 PowerApps 분석, 작성자: Vivek Bavishi**
+**Vivek Bavishi에서 Power Apps Analytics를 클릭 합니다.**
 <br>작성자: Vivek Bavishi 및 Audrie Gordon [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Click-Through-PowerApps-Analytics-by-Vivek-Bavishi/m-p/116906)
 
- **Dawid van Heerden이 진행하는 BPM(비즈니스 프로세스 관리)에 PowerApps 사용**
+ **BPM (비즈니스 프로세스 관리)에 대 한 Power Apps를 Dawid van을 통해 사용**
 <br>작성자: Dawid van Heerden [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Using-PowerApps-and-Flow-for-Business-Process-Management/m-p/116907)
 
 ### <a name="connector-series"></a>커넥터 시리즈 ###
-**PowerApps에서 커넥터 최적화 및 전원 자동화**
+**Power Apps 및 파워 자동화에서 커넥터 최적화**
 <br>주체: Theresa Palmer-Boroski [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Optimizing-Connectors-in-PowerApps-and-Microsoft-Flow-by-Theresa/m-p/116874)
 
-**팀 + PowerApps 팁과 요령**
+**팀 + 파워 앱 팁과 요령**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Teams-PowerApps-Tips-and-Tricks/m-p/116846)
 
 **PowerApps의 비즈니스용 OneDrive에 Excel을 연결하는 팁**
@@ -112,16 +112,16 @@ ms.locfileid: "73899199"
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Connecting-to-Project-Online-PWA/m-p/116889)
 
 ## <a name="sharepoint-series"></a>SharePoint 시리즈 ##
-**PowerApps Studio로 신속하게 애플리케이션 구축**
+**Power Apps Studio를 사용 하 여 신속 하 게 응용 프로그램 빌드**
 <br>주체: Karthik Bharathy [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Rapidly-build-applications-with-PowerApps-Studio/m-p/116849)
 
 **PowerApps에서 InfoPath Designer 양식 다시 작성**
 <br>주체: Daniel Christian [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Rebuilding-an-InfoPath-Designer-Form/m-p/116909)
 
-**PowerApps로 전환하는 InfoPath 디자이너를 위한 팁 - 1부**
+**Power Apps로 전환 하는 InfoPath 디자이너를 위한 팁-1 부**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Tips-for-InfoPath-Designers-Transitioning-to-PowerApps-Part-1/m-p/116910)
 
-**InfoPath에서 PowerApps로 전환하기 위한 팁 - 2부**
+**InfoPath에서 Power Apps로 전환 하기 위한 팁-2 부**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Tips-for-InfoPath-Designers-Transitioning-to-PowerApps-Part-2/m-p/116912)
 
 **SharePoint Online에서 목록 양식 소개**
@@ -150,5 +150,5 @@ ms.locfileid: "73899199"
 **PowerApps에서 대화 상자 또는 팝업 메시지 빌드**
 <br>작성자: Veronica Ward [지금 보기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Building-Dialogs-in-PowerApps-by-Veronica-Ward/m-p/117627#M39)
 
-**PowerApps 개발자와 함께 알아보기 – 템플릿 자세히 살펴보기: Marie Hoeger**
+**Power Apps 개발자 중 하나를 사용 하 여 방식을를 살펴보세요. 템플릿: Marie Hoeger**
 <br>주체: Audrie Gordon [시청하기](https://powerusers.microsoft.com/t5/Live-Events-and-Webinars/Developer-Intro-and-Discussing-Templates/m-p/116848)

@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: fb051ffcdfed2aef2cb635d8dd2bf2bcfb44176e
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 712d7ed6166b2ea655a086b1f9a4416af1e8065f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71990320"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74676591"
 ---
-# <a name="show-items-of-different-heights-in-a-powerapps-gallery"></a>PowerApps 갤러리에서 높이가 다른 항목 표시
+# <a name="show-items-of-different-heights-in-a-power-apps-gallery"></a>Power Apps 갤러리에서 다른 높이의 항목 표시
 데이터 집합에 있는 다양한 항목이 같은 필드에 다른 양의 데이터를 포함하고 있다면 적은 데이터가 포함된 항목 다음에 빈 공백을 추가하지 않고 더 많은 데이터를 포함하는 항목을 완전히 표시할 수 있습니다. **높이 조정 가능** 갤러리 컨트롤을 추가 및 구성하여 다음 작업을 수행할 수 있습니다.
 
 * 콘텐츠에 따라 확장 또는 축소하도록 **레이블** 컨트롤을 구성합니다.
@@ -41,7 +41,7 @@ ms.locfileid: "71990320"
 
 2. Excel 파일을 OneDrive, Dropbox 또는 Google Drive와 같은 클라우드 스토리지 계정에 업로드합니다.
 
-3. PowerApps Studio에서 **파일** 메뉴에서 **새로 만들기**를 클릭하거나 탭합니다.
+3. Power Apps 스튜디오에서 **파일** 메뉴의 **새로 만들기** 를 클릭 하거나 탭 합니다.
 
 4. **빈 앱** 타일에서 **전화 레이아웃**을 클릭하거나 탭합니다.
 

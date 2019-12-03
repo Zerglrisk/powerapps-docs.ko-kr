@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: aa51c97eff57b9659e5fd246af8016898eeeb9df
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: b641ce213381dec59a20449cd17cc7919eea0fd4
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992232"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678275"
 ---
 # <a name="sort-and-sortbycolumns-functions-in-powerapps"></a>PowerApps의 Sort 및 SortByColumns 함수
 [테이블](../working-with-tables.md)을 정렬합니다.
@@ -30,7 +30,7 @@ ms.locfileid: "71992232"
 
 [!INCLUDE [record-scope](../../../includes/record-scope.md)]
 
-하나의 열로 먼저 정렬 후 다른 열로 정렬하려면 **Sort** 수식을 다른 열에 삽입합니다. 예를 들어 다음 수식을 사용 하 여 먼저 **LastName** 열을 기준으로 contact 테이블을 정렬 한 다음 **FirstName** 열을 기준으로 **연락처** 테이블을 정렬할 수 있습니다.  **Sort (Sort (Contacts, LastName), FirstName)**
+하나의 열로 먼저 정렬 후 다른 열로 정렬하려면 **Sort** 수식을 다른 열에 삽입합니다. 예를 들어, **Contacts** 테이블을 **LastName** 열로 먼저 정렬한 다음, **FirstName** 열로 정렬하려면 이 수식(**Sort( Sort( Contacts, LastName ), FirstName )** )을 사용할 수 있습니다.
 
 **SortByColumns** 함수는 하나 이상의 열을 기준으로 테이블을 정렬하는 데 사용할 수도 있습니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "71992232"
 
 **SortByColumns**는 오름차순 또는 내림차순의 정렬 방식 외에도, 테이블 값을 하나의 열로 정렬할 수 있습니다.  예를 들어, **["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]** 을 정렬 순서로 제공하여 해당 주의 요일 이름을 기준으로 레코드를 정렬할 수 있습니다.  모든 레코드에는 **월요일**이 먼저 오고, **화요일**이 다음에 옵니다.  정렬 테이블에 표시되지 않지만 찾은 레코드는 해당 목록의 끝에 배치됩니다.
 
-[Table](../working-with-tables.md)은 PowerApps에서 문자열이나 숫자와 같은 값입니다.  테이블을 함수로 전달하거나 함수로부터 반환할 수 있습니다.  **Sort** 및 **SortByColumn**은 테이블을 변경하지 않는 대신 테이블을 인수로 가져오고 정렬된 새 테이블을 반환합니다.  자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
+[테이블](../working-with-tables.md) 은 문자열 또는 숫자와 마찬가지로 Power Apps의 값입니다.  테이블을 함수로 전달하거나 함수로부터 반환할 수 있습니다.  **Sort** 및 **SortByColumn**은 테이블을 변경하지 않는 대신 테이블을 인수로 가져오고 정렬된 새 테이블을 반환합니다.  자세한 내용은 [테이블 작업](../working-with-tables.md)을 참조하세요.
 
 [!INCLUDE [delegation](../../../includes/delegation.md)]
 
@@ -58,7 +58,7 @@ ms.locfileid: "71992232"
 * *SortOrder(s)* - 선택 항목입니다.  **SortOrder.Ascending** 또는 **SortOrder.Descending**이 있습니다.  **SortOrder.Ascending**이 기본값입니다.  다양한 *ColumnNames*가 제공되면 마지막 열을 제외한 모든 열에는 *SortOrder*가 포함되어야 합니다.
   
     > [!NOTE]
-  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어 **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 **SortByColumns**( *Table*, *ColumnName*, *SortOrderTable* )
 
@@ -67,7 +67,7 @@ ms.locfileid: "71992232"
 * *SortOrderTable* - 필수 항목입니다.  정렬할 값들의 단일 열 테이블입니다.
   
     > [!NOTE]
-  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어, **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
+  > 공백이 있는 열 이름이 포함된 SharePoint 및 Excel 데이터 원본의 경우 각 공백을 **"\_x0020\_"** 으로 지정합니다. 예를 들어 **"Column Name"** 은 **"Column_x0020_Name"** 으로 지정합니다.
 
 ## <a name="examples"></a>예
 다음 예제에서는 이 테이블의 데이터가 포함된 **IceCream** [데이터 원본](../working-with-data-sources.md)을 사용합니다.
@@ -86,11 +86,11 @@ ms.locfileid: "71992232"
 ### <a name="step-by-step"></a>단계별 가이드
 이러한 예제를 직접 실행하려면 [Collection](../working-with-data-sources.md#collections)과 같은 **IceCream** 데이터 원본을 만듭니다.
 
-1. 단추 하나를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>**ClearCollect (IceCream, {특색: "초콜릿", Quantity: 100, OnOrder: 150}, {버전:  "바닐라", 수량: 200, OnOrder: 20}, {특색: "Strawberry", 수량: 300, OnOrder: 0}, {특색: "Mint 초콜릿", Quantity: 60, OnOrder: 100}, {버전: "Pistachio", 수량: 200, OnOrder: 10})**
+1. 단추 하나를 추가하고 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**ClearCollect( IceCream, { Flavor: "Chocolate", Quantity: 100, OnOrder: 150 }, { Flavor:  "Vanilla", Quantity: 200, OnOrder: 20 }, { Flavor: "Strawberry", Quantity: 300, OnOrder: 0 }, { Flavor: "Mint Chocolate", Quantity: 60, OnOrder: 100 }, { Flavor: "Pistachio", Quantity: 200, OnOrder: 10 } )**
 2. 앱을 미리 보고, 단추를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 3. 바로 만든 컬렉션을 표시하려면 **File** 메뉴의 **Collections**를 선택한 다음, 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
 
-#### <a name="sort"></a>정렬
+#### <a name="sort"></a>Sort
 1. 또 다른 단추를 추가하고 이 수식에 **[OnSelect](../controls/properties-core.md)** 속성을 설정합니다.<br>
    **ClearCollect( SortByFlavor, Sort( IceCream, Flavor ) )**
    

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 7750ad239df87e99d2321be20293b64153110fc1
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 646a5de203c713d59965f7787dabe087c0a33f51
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71991819"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678169"
 ---
 # <a name="updatecontext-function-in-powerapps"></a>PowerApps의 UpdateContext 함수
 현재 화면의 [컨텍스트 변수](../working-with-variables.md#use-a-context-variable)를 만들거나 업데이트합니다.
@@ -28,10 +28,10 @@ ms.locfileid: "71991819"
 
 컨텍스트 변수는 범위가 화면으로 한정되므로 다른 화면의 컨텍스트 변수를 참조하는 수식을 작성할 수 없습니다. 다른 프로그래밍 도구를 사용했다면 컨텍스트 변수를 로컬 변수와 비슷하다고 생각할 수 있습니다.  [**Set** 함수](function-set.md)를 사용하여 앱 전체에서 사용할 수 있는 전역 변수로 작업합니다.  
 
-PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산되는 수식을 기반으로 합니다.  컨텍스트 변수는 이러한 이점이 활용되지 않기 때문에 앱을 만들고 이해하기 어려울 수 있습니다.  컨텍스트 변수를 사용하기 전에 [변수 작업](../working-with-variables.md)을 검토하세요.
+Power Apps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산 되는 수식을 기반으로 합니다.  컨텍스트 변수는 이러한 이점이 활용되지 않기 때문에 앱을 만들고 이해하기 어려울 수 있습니다.  컨텍스트 변수를 사용하기 전에 [변수 작업](../working-with-variables.md)을 검토하세요.
 
 ## <a name="description"></a>설명
-컨텍스트 변수를 만들거나 업데이트하려면 [UpdateContext](../working-with-tables.md#records) 함수에 단일 **레코드**를 전달합니다. 각 레코드에 변수 이름을 정의하거나 일치시키는 [열](../working-with-tables.md#columns)의 이름과 해당 변수를 설정할 값을 지정합니다.
+컨텍스트 변수를 만들거나 업데이트하려면 **UpdateContext** 함수에 단일 [레코드](../working-with-tables.md#records)를 전달합니다. 각 레코드에 변수 이름을 정의하거나 일치시키는 [열](../working-with-tables.md#columns)의 이름과 해당 변수를 설정할 값을 지정합니다.
 
 * 이전에 정의한 변수의 이름을 지정하면 **UpdateContext**는 변수 값을 지정한 값으로 설정합니다.
 * 아직 존재하지 않는 변수의 이름을 지정하면 **UpdateContext**는 해당 이름의 변수를 만들고 해당 변수의 값을 사용자가 지정한 값으로 설정합니다.
@@ -81,8 +81,8 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 ### <a name="step-by-step-example"></a>단계별 예제
 1. 기본 화면 이름을 **Source**로 지정하고 다른 화면을 추가한 후 이름을 **Target**으로 지정합니다.
 2. **Source** 화면에서 단추 두 개를 추가하고 해당 **[Text](../controls/properties-core.md)** 속성을 하나는 **English**로, 다른 하나는 **Spanish**로 설정합니다.
-3. **English[ 단추의 ](../controls/properties-core.md)** OnSelect 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"English"})**
-4. **Spanish[ 단추의 ](../controls/properties-core.md)** OnSelect 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"Spanish"})**
+3. **English** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"English"})**
+4. **Spanish** 단추의 **[OnSelect](../controls/properties-core.md)** 속성을 이 식으로 설정합니다.<br>**Navigate(Target, ScreenTransition.Fade, {Language:"Spanish"})**
 5. **Target** 화면에서 레이블을 추가하고 해당 **[Text](../controls/properties-core.md)** 속성을 이 식으로 설정합니다.<br>**If(Language="English", "Hello!", "Hola!")**
 6. **Target** 화면의 **Insert** 탭에서 **Shapes**를 선택한 후 뒤로 화살표를 선택합니다.
 7. 뒤로 화살표의 **[OnSelect](../controls/properties-core.md)** 속성을 다음 수식으로 설정합니다.<br>**Navigate(Source, ScreenTransition.Fade)**
@@ -92,7 +92,7 @@ PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산
 9. 뒤로 화살표를 선택하여 **Source** 화면으로 돌아간 후 다른 언어에 대한 단추를 선택합니다.
 
     **Target** 화면에 선택한 단추에 해당하는 언어로 레이블이 나타납니다.
-10. 기본 작업 영역으로 돌아가려면 Esc 키를 누릅니다.
+10. 기본 작업 영역으로 돌아가려면 Esc를 누릅니다.
 
 [또 다른 예](../add-screen-context-variables.md)
 

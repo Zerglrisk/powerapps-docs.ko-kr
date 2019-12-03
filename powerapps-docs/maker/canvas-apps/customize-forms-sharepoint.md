@@ -1,6 +1,6 @@
 ---
 title: 캔버스 앱에서 양식 사용자 지정 | Microsoft Docs
-description: PowerApps에서 캔버스 앱 형식으로 표시할 데이터를 어떤 순서와 어떤 컨트롤 방식으로 표시할지 지정합니다.
+description: Power Apps에서 캔버스-앱 폼에 표시할 데이터를 지정 합니다 .이 데이터를 표시 하 고 컨트롤을 표시 합니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ccaa918bc0bd1e4ca666e62094fa137e31d3243f
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 6732dabea803cd7680ef618e4e8d1c4e88f7afe5
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540251"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678629"
 ---
 # <a name="customize-a-canvas-app-form-in-powerapps"></a>PowerApps에서 캔버스 앱 양식 사용자 지정
 

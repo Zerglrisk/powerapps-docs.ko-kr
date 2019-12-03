@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 750b02bdd3363f03ad0f32ae1fcbc59d7c5c3f3e
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: 430452514cd37930e145e8061ee6ac64c697b6e9
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650729"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679802"
 ---
 # <a name="button-control-in-powerapps"></a>PowerApps의 단추 컨트롤
 사용자가 클릭하거나 탭하여 앱과 상호 작용할 수 있는 컨트롤입니다.
@@ -161,7 +161,7 @@ ms.locfileid: "73650729"
 
 ### <a name="change-a-buttons-appearance"></a>단추의 모양 변경
 #### <a name="change-a-buttons-shape"></a>단추 모양 변경
-기본적으로 PowerApps는 모서리가 둥근 직사각 **단추** 컨트롤을 만듭니다. **단추** 컨트롤의 **[Height](properties-size-location.md)** , **[Width](properties-size-location.md)** 및 **[Radius](properties-size-location.md)** 속성을 설정하여 기본적인 모양을 수정할 수 있습니다.
+기본적으로 Power Apps는 모퉁이가 둥근 사각형 **단추** 컨트롤을 만듭니다. **단추** 컨트롤의 **[Height](properties-size-location.md)** , **[Width](properties-size-location.md)** 및 **[Radius](properties-size-location.md)** 속성을 설정하여 기본적인 모양을 수정할 수 있습니다.
 
 > [!NOTE]
 > [아이콘 및 셰이프](control-shapes-icons.md)는 다양한 디자인을 제공하며 **단추** 컨트롤이 수행하는 것과 동일한 기본 함수 중 일부를 수행할 수 있습니다. 그러나  **[아이콘 및 셰이프](control-shapes-icons.md)** 에는 **[Text](properties-core.md)** 속성이 없습니다.

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c9b84a8ce89863d94b9f3e4ac390c88e194a2894
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 7adf3391ef418a2b42861df63bc8396adc22f93a
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73540189"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74679457"
 ---
 # <a name="choices-function-in-powerapps"></a>PowerApps의 Choices 함수
 조회 열에 대해 가능한 값의 테이블을 반환합니다.
@@ -53,7 +53,7 @@ ms.locfileid: "73540189"
 
     **계정**과 같은 여러 엔터티가 생성됩니다.
 
-    **참고**: 엔터티 이름은 PowerApps Studio의 단 수 및 복수입니다.
+    **참고**: 엔터티 이름은 Power Apps 스튜디오에서 make.powerapps.com 및 plural의 단일 항목입니다.
 
     ![앱에 대 한 Common Data Service 계정 엔터티의 필드 목록 중 일부는 "기본 연락처"가 조회 필드 임을 강조 표시 합니다.](media/function-choices/entity-account.png)
 

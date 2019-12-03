@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c62c3de56534201a81e9f4d453796ebd9b3a0366
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 104225e61e986c4e91563945c4b09f2d83ef1a35
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71989567"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74675060"
 ---
 # <a name="reference-information-about-the-meeting-screen-template-for-canvas-apps"></a>Canvas 앱에 대 한 모임 화면 템플릿에 대 한 참조 정보
 
-PowerApps의 canvas 응용 프로그램의 경우 모임 화면 템플릿의 각 주요 컨트롤이 화면의 전반적인 기본 기능에 어떻게 기여 하는지 이해 합니다. 이 심층 정보는 컨트롤에서 사용자 입력에 응답 하는 방법을 결정 하는 동작 수식과 기타 속성의 값을 보여 줍니다. 이 화면의 기본 기능에 대 한 개략적인 설명은 [모임 화면 개요](meeting-screen-overview.md)를 참조 하세요.
+Power Apps의 캔버스 앱의 경우, 모임 화면 템플릿의 각 주요 컨트롤이 화면의 전반적인 기본 기능에 어떻게 기여 하는지 이해 합니다. 이 심층 정보는 컨트롤에서 사용자 입력에 응답 하는 방법을 결정 하는 동작 수식과 기타 속성의 값을 보여 줍니다. 이 화면의 기본 기능에 대 한 개략적인 설명은 [모임 화면 개요](meeting-screen-overview.md)를 참조 하세요.
 
 이 항목에서는 몇 가지 중요 한 컨트롤을 강조 하 고 이러한 컨트롤의 다양 한 속성 (예: **항목** 및 **onselect**)이 설정 되는 식이나 수식을 설명 합니다.
 
