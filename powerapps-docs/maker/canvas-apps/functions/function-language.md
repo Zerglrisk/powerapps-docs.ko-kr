@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 307950cf7e0aa67d7bf31daf29b3f8a3bb11d465
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 33dcc3ab5e1682783c997adf4dd1185d59b0db2b
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71984572"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678330"
 ---
 # <a name="language-function-in-powerapps"></a>PowerApps의 Language 함수
 현재 사용자의 언어 태그를 반환합니다.
@@ -34,10 +34,10 @@ ms.locfileid: "71984572"
 | 반환 값 | 설명 |
 | --- | --- |
 | **"*lg&#8209;RE*"** |*lg*는 언어에 대한 두 자의 약어이고 *RE*는 지역에 대한 두 자의 약어입니다.  가장 일반적인 반환 형식입니다.  예를 들어 "en-GB"는 영국에 대해 반환됩니다. |
-| **"*lg*"** |*lg*는 언어에 대한 두 자의 약어입니다.  PowerApps에 언어에 대한 정보가 있지만 특정 지역에 대한 정보는 없는 경우 사용하는 형식입니다. |
+| **"*lg*"** |*lg*는 언어에 대한 두 자의 약어입니다.  이는 전원 앱에 언어에 대 한 정보가 있지만 특정 지역에 대 한 정보가 없는 경우에 사용 되는 형식입니다. |
 | **"*lg&#8209;scrp&#8209;RE*"** |*lg*는 언어에 대한 두 자의 약어이고 *scrp*는 스크립트에 대한 네 자의 약어이며 *RE*는 지역에 대한 두 자의 약어입니다. |
 
-PowerApps는 [IETF BCP-47 언어 태그](https://tools.ietf.org/html/bcp47) 형식을 사용합니다.  
+Power Apps는 [IETF BCP-47 언어 태그](https://tools.ietf.org/html/bcp47) 형식을 사용 합니다.  
 
 수식 입력줄 또는 고급 뷰에서 지원된 언어 태그, 형식 **Value( "1", )** 목록을 보려면 두 번째 인수에 대해 제안된 로캘의 목록 전체를 스크롤합니다.  
 
@@ -72,7 +72,7 @@ PowerApps는 [IETF BCP-47 언어 태그](https://tools.ietf.org/html/bcp47) 형�
     목적에 맞게, 지역이 아닌 로캘의 언어를 확인해야 합니다.  지역별 고려 사항이 중요한 경우 위 테이블에 전체 언어 태그 값을 포함할 수 있습니다. 
 2. **Insert** 리본, **Table** 명령을 사용하여 적절한 Excel 테이블로 만듭니다.  기본적으로 이름은 **Table1**이지만 왼쪽 멀리 있는 **테이블 도구/디자인**  리본과 **테이블 이름:** 텍스트 상자로 원하는 이름을 지정할 수 있습니다.
 3. 로컬 파일 시스템에 Excel 파일을 저장합니다.   
-4. 오른쪽 창의 PowerApps에서, **데이터 원본** 탭을 클릭하거나 탭한 후 **데이터 원본 추가**를 클릭하거나 탭합니다.
+4. Power Apps의 오른쪽 창에서 **데이터 원본** 탭을 클릭 하거나 탭 한 다음 **데이터 원본 추가**를 클릭 하거나 탭 합니다.
 5. **앱에 정적 데이터 추가**를 클릭하거나 탭하고, 저장한 Excel 파일을 클릭하거나 탭한 다음, **열기**를 클릭하거나 탭합니다.
 6. 생성한 테이블을 선택한 후 **연결**을 클릭하거나 탭합니다.
 
@@ -87,7 +87,7 @@ PowerApps는 [IETF BCP-47 언어 태그](https://tools.ietf.org/html/bcp47) 형�
 ### <a name="translation-service"></a>번역 서비스
 Microsoft Translator 서비스와 같은 번역 서비스를 사용하여 필요에 따라 텍스트를 번역할 수 있습니다.  
 
-1. 오른쪽 창의 PowerApps에서, **데이터 원본** 탭을 클릭하거나 탭한 후 **데이터 원본 추가**를 클릭하거나 탭합니다.
+1. Power Apps의 오른쪽 창에서 **데이터 원본** 탭을 클릭 하거나 탭 한 다음 **데이터 원본 추가**를 클릭 하거나 탭 합니다.
 2. **Microsoft Translator**를 클릭하거나 탭합니다.
 
 앱에서 텍스트 **"Hello"** 를 사용했던 위치마다 대신 다음 수식을 사용합니다.

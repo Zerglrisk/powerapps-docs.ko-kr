@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 4c84fcac442d55cd20112f49c48f544d3f5b92b3
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 72adafedfe09a125fda2a48d5617b2cd8c79242a
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71992195"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678192"
 ---
 # <a name="set-function-in-powerapps"></a>PowerApps의 Set 함수
 전역 변수의 값을 설정합니다.
@@ -28,12 +28,12 @@ ms.locfileid: "71992195"
 
 전역 변수는 앱 전체의 모든 화면에서 사용할 수 있습니다. 가장 간단한 종류의 변수이며 대부분의 상황에서 필요를 충족합니다. 또한 테이블에 대한 행 수준 수정을 허용하는 컬렉션 및 단일 화면으로 범위가 지정된 컨텍스트 변수도 있습니다. 이러한 기타 옵션에 대 한 자세한 내용은 [변수 이해](../working-with-variables.md)를 참조 하세요.
 
-PowerApps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산되는 수식을 기반으로 합니다. 변수에 종속 된 수식은 변경 될 때 자동으로 업데이트 됩니다. 그러나 **Set** 함수에 사용 되는 수식의 값이 변경 되 면 변수가 자동으로 업데이트 되지 않습니다. 이렇게 하려면 앱 작성자가 변수를 수동으로 업데이트 해야 하며,이로 인해 오류가 발생 하기 쉬우며 다른 사람이 이해 하기 어려울 수 있습니다. 변수를 사용 하기 전에 [변수 이해](../working-with-variables.md)를 검토 합니다.
+Power Apps는 사용자가 앱과 상호 작용할 때 자동으로 다시 계산 되는 수식을 기반으로 합니다. 변수에 종속 된 수식은 변경 될 때 자동으로 업데이트 됩니다. 그러나 **Set** 함수에 사용 되는 수식의 값이 변경 되 면 변수가 자동으로 업데이트 되지 않습니다. 이렇게 하려면 앱 작성자가 변수를 수동으로 업데이트 해야 하며,이로 인해 오류가 발생 하기 쉬우며 다른 사람이 이해 하기 어려울 수 있습니다. 변수를 사용 하기 전에 [변수 이해](../working-with-variables.md)를 검토 합니다.
 
 ## <a name="description"></a>설명
 전역 변수는 **Set** 함수를 사용하여 암시적으로 생성됩니다. 명시적 선언이 필요 하지 않습니다. 전역 변수에 대 한 모든 **Set** 함수를 제거 하는 경우 해당 전역 변수는 존재 하지 않습니다. 변수를 지우려면 해당 값을 [ **Blank** 함수의](function-isblank-isempty.md)결과로 설정 합니다.
 
-PowerApps Studio의 **파일** 메뉴 아래에 있는 변수 뷰를 사용 하 여 변수의 값, 정의 및 사용을 볼 수 있습니다.
+파워 앱 스튜디오의 **파일** 메뉴에서 변수 값, 정의 및 사용을 변수 뷰와 함께 볼 수 있습니다.
 
 이 문서의 뒷부분에 나오는 예제에서 보듯이 전역 변수는 다음을 비롯한 여러 가지 정보를 보유할 수 있습니다.
 

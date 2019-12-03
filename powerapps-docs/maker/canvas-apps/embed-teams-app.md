@@ -1,6 +1,6 @@
 ---
 title: 팀에 앱 포함 | Microsoft Docs
-description: Microsoft 팀의 PowerApps에서 만든 앱을 포함 하 여 공유할 수 있습니다.
+description: Microsoft 팀의 Power Apps에서 만든 앱을 포함 하 여 공유할 수 있습니다.
 author: matthewbolanos
 manager: kvivek
 ms.service: powerapps
@@ -13,16 +13,16 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e2cce61533bf86063d907882024a5a83c2e03fb7
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 0b8750733ac6c97d1669c1063700a3d075fbabbe
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73538991"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74678491"
 ---
 # <a name="embed-an-app-in-teams"></a>Teams에 앱 포함
 
-Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습니다. 완료 되 면 사용자는 **+** 를 선택 하 여 사용자가 **있는 팀의 팀 채널** 또는 대화에 앱을 추가할 수 있습니다. 앱은 **팀의 탭 아래에**타일로 표시 됩니다.
+Microsoft 팀에 직접 포함 하 여 만든 강력한 앱을 공유할 수 있습니다. 완료 되 면 사용자는 **+** 를 선택 하 여 사용자가 **있는 팀의 팀 채널** 또는 대화에 앱을 추가할 수 있습니다. 앱은 **팀의 탭 아래에**타일로 표시 됩니다.
 
 관리자는 앱을 업로드 하 여 **모든 탭 섹션**아래에 있는 테 넌 트의 **모든** 팀에 표시 되도록 할 수 있습니다. [Microsoft 팀에서 앱 공유](https://docs.microsoft.com/power-platform/admin/embed-app-teams)를 참조 하세요.
 
@@ -31,7 +31,7 @@ Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습�
 
 ## <a name="prerequisites"></a>필수 조건
 
-- 유효한 [PowerApps 라이선스가](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus)필요 합니다.
+- 유효한 [Power Apps 라이선스가](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus)필요 합니다.
 - 팀에 앱을 포함 하려면 [PowerApps를 사용 하 여 만든](data-platform-create-app.md)기존 앱이 필요 합니다.
 
 ## <a name="download-the-app"></a>앱 다운로드
@@ -44,7 +44,7 @@ Microsoft 팀에 직접 포함 하 여 만든 PowerApps를 공유할 수 있습�
 
     ![앱 세부 정보](./media/embed-teams-app/add-to-teams.png "팀에 추가")
 
-3. 팀에 추가 패널에서 **다운로드**를 선택 합니다. 그러면 PowerApps는 앱에 이미 설정한 앱 설명 및 로고를 사용 하 여 팀 매니페스트 파일을 생성 합니다.
+3. 팀에 추가 패널에서 **다운로드**를 선택 합니다. 그러면 Power Apps는 앱에 이미 설정한 앱 설명 및 로고를 사용 하 여 팀 매니페스트 파일을 생성 합니다.
 
     ![앱 세부 정보](./media/embed-teams-app/download-app.png "앱 다운로드")
 
