@@ -1,7 +1,7 @@
 ---
 layout: HubPage
-title: Microsoft PowerApps 설명서 | Microsoft Docs
-description: Microsoft PowerApps 설명서
+title: Microsoft Power Apps 설명서 | Microsoft Docs
+description: Microsoft Power Apps 설명서
 searchScope:
 - PowerApps
 featureFlags:
@@ -9,17 +9,17 @@ featureFlags:
 ms.service: powerapps
 ms.custom:
 - powerapps-hub
-ms.openlocfilehash: 470d8e2a144e708162b886f6127bd6f9a498d093
-ms.sourcegitcommit: 6bec6932071db2411bb4ad1e01c059f57d8c9bca
+ms.openlocfilehash: ff7ac06904426ad990a99098b97814701e24ee22
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566963"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680193"
 ---
 <div id="main"
    class="v2">
    <div class="container">
-      <h1>PowerApps 설명서</h1>
+      <h1>Power Apps 설명서</h1>
       <ul class="pivots">
          <li>
             <a href="#home"></a>
@@ -42,8 +42,8 @@ ms.locfileid: "73566963"
                                              </div>
                                           </div>
                                           <div class="cardText">
-                                             <h3>PowerApps란?</h3>
-                                             <p>PowerApps에 대한 개요와 함께 설명서를 시작하세요.</p>
+                                             <h3>Power Apps란?</h3>
+                                             <p>Power Apps에 대한 개요와 함께 설명서를 시작하세요.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -80,8 +80,8 @@ ms.locfileid: "73566963"
                                              </div>
                                           </div>
                                           <div class="cardText">
-                                             <h3>PowerApps 알아보기</h3>
-                                             <p>PowerApps를 알아보기 위한 단계별 지침을 제공하는 Microsoft Learn의 학습 경로를 탐색합니다. 무료입니다!</p>
+                                             <h3>Power Apps 알아보기</h3>
+                                             <p>Power Apps를 알아보기 위한 단계별 지침을 제공하는 Microsoft Learn의 학습 경로를 탐색합니다. 무료입니다!</p>
                                           </div>
                                        </div>
                                     </div>
@@ -100,7 +100,7 @@ ms.locfileid: "73566963"
                                           </div>
                                           <div class="cardText">
                                              <h3>블로그</h3>
-                                             <p>최신 PowerApps 기능과 공지 사항을 알아보려면 공식 PowerApps 블러그를 읽어보세요.</p>
+                                             <p>최신 Power Apps 기능과 공지 사항을 알아보려면 공식 Power Apps 블러그를 읽어보세요.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -119,7 +119,7 @@ ms.locfileid: "73566963"
                                           </div>
                                           <div class="cardText">
                                              <h3>커뮤니티</h3>
-                                             <p>PowerApps 커뮤니티 포럼에서 피어와 연결하고, 아이디어를 공유하고, 전문가한테 배우세요.</p>
+                                             <p>Power Apps 커뮤니티 포럼에서 피어와 연결하고, 아이디어를 공유하고, 전문가한테 배우세요.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -138,7 +138,7 @@ ms.locfileid: "73566963"
                                           </div>
                                           <div class="cardText">
                                              <h3>라이선스</h3>
-                                             <p>PowerApps에 대한 다양한 라이선스 옵션을 이해합니다.</p>
+                                             <p>Power Apps에 대한 다양한 라이선스 옵션을 이해합니다.</p>
                                           </div>
                                        </div>
                                     </div>
@@ -215,7 +215,7 @@ ms.locfileid: "73566963"
                      class="cardsF">
                      <li>
                         <div class="container">
-                           <p>앱 제작자는 코드를 작성하지 않고도 사용자 지정 비즈니스 앱을 신속하게 만들어 조직의 중요 업무용 데이터를 관리할 수 있습니다. PowerApps에서는 세 가지 유형의 앱, <strong>캔버스 앱</strong>, <strong>모델 기반 앱</strong> 및 <strong>포털</strong>을 만들 수 있습니다. <strong>Common Data Service</strong>는 비즈니스 앱에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있는 데이터 플랫폼입니다. 자세한 정보: <a href="/powerapps/maker">앱 만들기</a>.</p>
+                           <p>앱 제작자는 코드를 작성하지 않고도 사용자 지정 비즈니스 앱을 신속하게 만들어 조직의 중요 업무용 데이터를 관리할 수 있습니다. Power Apps에서는 세 가지 유형의 앱, <strong>캔버스 앱</strong>, <strong>모델 기반 앱</strong> 및 <strong>포털</strong>을 만들 수 있습니다. <strong>Common Data Service</strong>는 비즈니스 앱에서 사용되는 데이터를 안전하게 저장하고 관리할 수 있는 데이터 플랫폼입니다. 자세한 정보: <a href="/powerapps/maker">앱 만들기</a>.</p>
                            <hr/>
                            <br/>
                         </div>
@@ -290,11 +290,11 @@ ms.locfileid: "73566963"
                                  <div class="cardText">
                                     <h3 style="font-size: 1.15rem">Portals</h3>
                                     <hr/>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/overview">PowerApps 포털이란?</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/overview">Power Apps 포털이란?</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/create-portal">포털 만들기</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/manage-existing-portals">기존 포털 관리</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/admin/admin-overview">포털 관리</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/faq">PowerApps 포털 FAQ</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/portals/faq">Power Apps 포털 FAQ</a></p>
                                  </div>
                               </div>
                            </div>
@@ -334,7 +334,7 @@ ms.locfileid: "73566963"
                      class="cardsF">
                      <li>
                         <div class="container">
-                           <p>관리자는 PowerApps 및 Power 플랫폼 관리 센터를 사용하여 데이터 보호, 환경 관리 및 사용량을 모니터링할 수 있습니다.</p>
+                           <p>관리자는 Power Platform 관리 센터를 사용하여 데이터 보호, 환경 관리 및 사용량을 모니터링할 수 있습니다.</p>
                            <hr/>
                            <br/>
                         </div>
@@ -393,7 +393,7 @@ ms.locfileid: "73566963"
                                     <hr/>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/pricing-billing-skus">라이선스 개요</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-entity-licenses">엔터티에 대한 라이선스 요구 사항</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/powerapps-us-government">PowerApps 미국 정부</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/power-platform/admin/powerapps-us-government">Power Apps US Government</a></p>
                                  </div>
                               </div>
                            </div>
@@ -491,7 +491,7 @@ ms.locfileid: "73566963"
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/customize-visualizations-dashboards">시각화 및 대시보드 사용자 지정</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/client-scripting">클라이언트 스크립팅을 사용하여 비즈니스 논리 적용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/customize-commands-ribbon">명령 및 리본 사용자 지정</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/component-framework/overview">사용자 지정 구성 요소 빌드(PowerApps 구성 요소 프레임워크)</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/component-framework/overview">사용자 지정 구성 요소 빌드(Power Apps 구성 요소 프레임워크)</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/model-driven-apps/create-manage-model-driven-apps-using-code">앱 만들기, 관리 및 게시</a></p>
                                  </div>
                               </div>
@@ -602,10 +602,10 @@ ms.locfileid: "73566963"
                                     <h3 style="font-size: 1.15rem">앱/확장 패키지 및 배포</h3>
                                     <hr/>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/introduction-solutions">솔루션 사용</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/build-tools-overview">Azure DevOps 용 PowerApps 빌드 도구</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/build-tools-overview">Azure DevOps용 Power Apps 빌드 도구</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/compress-extract-solution-file-solutionpackager">SolutionPackager 도구</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/package-deployer/create-packages-package-deployer">패키지 배포자 도구</a></p>
-                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/checker/webapi/overview">PowerApps 검사기 사용</a></p>
+                                    <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/checker/webapi/overview">Power Apps 검사기 사용</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/isv-app-management">ISV 앱 관리 및 모니터링</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/developer/common-data-service/publish-app-appsource">AppSource에 앱 게시</a></p>
                                     <p><a class="barLink" style="font-size: 0.95rem" href="https://www.microsoft.com/download/details.aspx?id=57777">백서: 솔루션을 사용하는 ALM</a></p>

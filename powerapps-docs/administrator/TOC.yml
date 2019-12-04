@@ -3,9 +3,9 @@
   items:
     - name: 시작
       items:
-        - name: PowerApps 관리자의 역할은 무엇입니까?
+        - name: Power Apps 관리자의 역할은 무엇인가요?
           href: overview-role-powerapps-admin.md
-        - name: PowerApps 엔터프라이즈 배포 백서
+        - name: Power Apps 엔터프라이즈 배포 백서
           href: admin-powerapps-enterprise-deployment.md
     - name: 라이선스
       items:
@@ -23,7 +23,7 @@
           href: admin-manage-apps.md
         - name: 테넌트 또는 환경 간에 앱 이동
           href: environment-and-tenant-migration.md
-        - name: PowerApps에 대한 PowerShell 지원(미리 보기)
+        - name: Power Apps에 대한 PowerShell 지원(미리 보기)
           href: powerapps-powershell.md
         - name: PowerApps에 대한 작업 로깅
           href: 'https://docs.microsoft.com/power-platform/admin/logging-powerapps'
@@ -39,7 +39,7 @@
               href: powerapps-gdpr-dsr-guide-systemlogs.md
             - name: Common Data Service 데이터 통합
               href: data-integration-gdpr-dsr-guide.md
-            - name: PowerApps 고객 데이터
+            - name: Power Apps 고객 데이터
               href: powerapps-gdpr-dsr-guide.md
               items:
                 - name: 데이터 내보내기
