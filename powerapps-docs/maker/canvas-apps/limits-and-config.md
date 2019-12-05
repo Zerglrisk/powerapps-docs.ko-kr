@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e408eed2ac0ed769b747b647ea7b1a8c3c9df8f6
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: 569792d634916ce32a54404580fb58d43bf4f24d
+ms.sourcegitcommit: d4462233c8973def0bcc4e75019390d92eccf684
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74729607"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831332"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
 이 항목에는 장치 플랫폼 및 웹 브라우저 요구 사항 뿐만 아니라 전원 앱에 대 한 제한 및 구성 값이 포함 되어 있습니다.
@@ -73,13 +73,13 @@ Power Apps의 요청은 앱이 있는 [환경의](../../administrator/environmen
 > [!IMPORTANT]
 >   기존 구성이 있는 경우 2018 년 9 월 30 일 이전에 가능한 한 빨리 업데이트 하세요. 그러면 Power Apps 앱이 있는 지역에 대해이 목록의 IP 주소를 포함 하 고 일치 시킵니다.
 
-| 국가별 | 아웃바운드 IP |
+| Region | 아웃바운드 IP |
 | --- | --- |
-| 아시아 | 13.75.36.64 - 13.75.36.79, 13.67.8.240 - 13.67.8.255, 52.175.23.169, 52.187.68.19 |
+| Asia | 13.75.36.64 - 13.75.36.79, 13.67.8.240 - 13.67.8.255, 52.175.23.169, 52.187.68.19 |
 | 오스트레일리아  | 13.70.72.192 - 13.70.72.207, 13.72.243.10, 13.77.50.240 - 13.77.50.255, 13.70.136.174 |
 | 브라질 | 191.233.203.192 - 191.233.203.207, 104.214.19.48 - 104.214.19.63, 13.65.86.57, 104.41.59.51 |
 | 캐나다 | 13.71.170.208 - 13.71.170.223, 13.71.170.224 - 13.71.170.239, 52.237.24.126, 40.69.106.240 - 40.69.106.255, 52.242.35.152|
-| 유럽 | 13.69.227.208 - 13.69.227.223, 52.178.150.68, 13.69.64.208 - 13.69.64.223, 52.174.88.118, 137.117.161.181|
+| Europe | 13.69.227.208 - 13.69.227.223, 52.178.150.68, 13.69.64.208 - 13.69.64.223, 52.174.88.118, 137.117.161.181|
 | 인도  | 104.211.81.192 - 104.211.81.207, 52.172.211.12, 40.78.194.240 - 40.78.194.255, 13.71.125.22, 104.211.146.224 - 104.211.146.239, 104.211.189.218 |
 | 일본 | 13.78.108.0 - 13.78.108.15, 13.71.153.19, 40.74.100.224 - 40.74.100.239, 104.215.61.248 |
 | 남아메리카 | 191.233.203.192 - 191.233.203.207, 104.214.19.48 - 104.214.19.63, 13.65.86.57, 104.41.59.51 |
@@ -90,52 +90,29 @@ Power Apps의 요청은 앱이 있는 [환경의](../../administrator/environmen
 ## <a name="required-services"></a>필수 서비스
 이 목록은 Power Apps Studio에서 사용 하는 모든 서비스와 해당 용도를 식별 합니다. 네트워크는 이러한 서비스를 차단하지 **않아야** 합니다.
 
-| 도메인 | 인터넷용 | 사용 |
+| 도메인 | 프로토콜 | 사용 |
 | --- | --- | --- |
-| management.azure.com |http |RP |
-| msmanaged-na.azure-apim.net |http |커넥터 런타임/API |
-| login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |http |ADAL |
-| graph.microsoft.com<br>graph.windows.net |http |Azure Graph-사용자 정보 (예: 프로필 사진)를 가져오는 데 사용 됩니다. |
-| gallery.azure.com |http |샘플 및 템플릿 앱 |
-| \*azure-apim.net |http |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
-| \*powerapps.com |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
-| \*azureedge.net |http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
-| \*blob.core.windows.net |http | Blob 저장소 |
-| \*flow.microsoft.com | http | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
-| *. dynamics.com | http | Common Data Service |
-| vortex.data.microsoft.com |http |분석이 |
-| 호스트 | http | Power Apps 모바일
+| management.azure.com |https |RP |
+| msmanaged-na.azure-apim.net |https |커넥터 런타임/API |
+| login.microsoft.com<br>login.windows.net<br>login.microsoftonline.com<br>secure.aadcdn.microsoftonline-p.com |https |ADAL |
+| graph.microsoft.com<br>graph.windows.net |https |Azure Graph-사용자 정보 (예: 프로필 사진)를 가져오는 데 사용 됩니다. |
+| gallery.azure.com |https |샘플 및 템플릿 앱 |
+| \*azure-apim.net |https |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
+| \*powerapps.com |https | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
+| \*azureedge.net |https | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
+| \*.blob.core.windows.net |https | Blob 스토리지 |
+| \*flow.microsoft.com | https | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
+| *. dynamics.com | https | Common Data Service |
+| vortex.data.microsoft.com |https |원격 분석 |
+| localhost | https | Power Apps Mobile
 
 > [!NOTE]
 > VPN을 사용 하는 경우 Power Apps Mobile에 대해 터널링에서 localhost를 제외 하도록 구성 해야 합니다.
 
-## <a name="size-limits"></a>크기 제한
+## <a name="size-limits"></a>크기 한도
 
 텍스트, 하이퍼링크, 이미지 및 미디어의 [데이터 형식](functions/data-types.md#text-hyperlink-image-and-media)에 대 한 크기 제한에 대 한 정보를 찾을 수 있습니다.
 
 ## <a name="power-apps-per-app-plan"></a>앱 요금제 당 Power Apps
 
-앱 당 power Apps 요금제를 사용 하면 개별 사용자가 Power Apps의 전체 기능을 기반으로 하는 특정 비즈니스 시나리오에 대해 단일 포털에서 2 개의 응용 프로그램을 실행할 수 있습니다. 이 계획은 사용자가 보다 폭넓은 규모 도입 전에 플랫폼을 시작할 수 있는 쉬운 방법을 제공 합니다.
-
-관리자가 앱 계획 당 앱 계획을 환경에 할당 하면 해당 환경의 앱을 공유할 때 허가 되지 않은 사용자에 게 할당 됩니다. 관리자가 앱 계획 별로 할당 하는 방법을 볼 [수 있습니다.](https://docs.microsoft.com/power-platform/admin/capacity-add-on)
-
-앱이 공유 될 때 사용자에 대 한 앱 요금제 할당을 해제 하려면 다음 단계를 수행 합니다.
-
-- **앱**을 선택 합니다.
-- **설정**을 선택 합니다.
-- **Pass** **assign에서 앱 당 자동 할당 통과** 를 전환 합니다.
-
-**앱 당 자동 할당 통과** 는 모든 앱 설정에 표시 됩니다.
-
-> [!NOTE]
-> 앱 당 계획을 사용 하지 않도록 설정 하는 것은 현재 캔버스 앱에만 사용할 수 있습니다.  모델 기반 앱 및 포털은 나중에이 기능을 제공 합니다.
->
-> 앱에 대 한 앱 별 계획 할당을 제어 하는 기능은 [전원 플랫폼 관리 센터](https://admin.powerplatform.microsoft.com)에서 앱 요금제를 할당 한 환경에 있는 앱에만 사용할 수 있습니다.  
-
-### <a name="app-settings"></a>앱 설정
-
-![Canvas 앱 설정](./media/limits-and-config/app_settings.png "Canvas 앱 설정")
-
-### <a name="pass-assignment"></a>통과 할당
-
-![Canvas 앱 설정 패스 할당](./media/limits-and-config/app_settings_pass_assignment.png "Canvas 앱 설정 패스 할당")
+이제이 정보는 Power Platform 관리자 가이드의 [앱 요금제 별 Power Apps](/power-platform/admin/signup-for-powerapps-admin#power-apps-per-app-plan) 섹션에서 사용할 수 있습니다.
