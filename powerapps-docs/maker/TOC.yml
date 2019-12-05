@@ -1106,6 +1106,8 @@
   items:
     - name: Power Apps 포털이란?
       href: ./portals/overview.md
+    - name: 릴리스 업데이트
+      href: ./portals/release-updates.md
     - name: 포털 디자인 및 빌드
       items:
         - name: 포털 템플릿
@@ -1260,6 +1262,12 @@
               href: ./portals/configure/add-geolocation.md
         - name: 포털에서 GDPR 구현
           href: ./portals/configure/implement-gdpr.md
+        - name: 보급 알림 만들기 및 실행
+          href: ./portals/configure/create-run-advertisement.md
+        - name: 설문 조사를 사용하여 피드백 수집
+          href: ./portals/configure/gather-feedback-poll.md
+        - name: 게시 상태 만들기 및 관리
+          href: ./portals/configure/publishing-states.md
     - name: 고급 포털 사용자 지정
       items:
         - name: Liquid 템플릿 사용
@@ -1338,6 +1346,8 @@
       href: ./portals/known-issues.md
     - name: Power Apps 포털 FAQ
       href: ./portals/faq.md
+    - name: 레거시 Adxstudio 포털 v7 FAQ
+      href: ./portals/legacy-portal-faq.md
 - name: 일반 데이터 서비스
   items:
     - name: Common Data Service란 무엇인가요?

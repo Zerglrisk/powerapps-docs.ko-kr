@@ -9,14 +9,14 @@ ms.custom: canvas
 ms.date: 07/18/2018
 ms.author: tapanm
 ms.reviewer: ''
-ms.openlocfilehash: 0af87fb6e8263878bd25ee740f7e852f68bfed47
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: d41af83d0a6de68ac94327798e076b19039dadef
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680722"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74729800"
 ---
-# <a name="overview-of-creating-apps-in-powerapps"></a>PowerApps에서 앱 만들기 개요
+# <a name="overview-of-creating-apps-in-power-apps"></a>Power Apps에서 앱 만들기 개요
 
 Power Apps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 다음과 같은 네 가지 주요 구성 요소가 있습니다.
 
