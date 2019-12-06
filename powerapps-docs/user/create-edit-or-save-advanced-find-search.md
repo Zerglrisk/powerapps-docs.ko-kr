@@ -1,5 +1,5 @@
 ---
-title: 모델 기반 PowerApps에서 고급 찾기 검색 만들기, 편집 또는 저장 | MicrosoftDocs
+title: 모델 기반 Power Apps에서 고급 찾기 검색 만들기, 편집 또는 저장 | MicrosoftDocs
 ms.custom: ''
 author: mduelae
 manager: kvivek
@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 4adffdfeb9235e7ffefc21d9f2b6cce64de354db
-ms.sourcegitcommit: 483c777a1537ccab6a2a2da6a5d1fe4470dd0e7e
+ms.openlocfilehash: df28883fb4048a9f14ae305a40c54f154695bf4f
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "63321613"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74725906"
 ---
 # <a name="create-edit-or-save-an-advanced-find-search"></a>고급 찾기 검색 만들기, 편집 또는 저장
 
@@ -32,7 +32,7 @@ ms.locfileid: "63321613"
   
    1.  **찾을 대상** 목록에서 레코드 종류를 선택 합니다.  
   
-   2.  **선택** 을 클릭 하 여 검색 조건을 정의 합니다. 필드 (예: 계정 이름 또는 구/군/시), 쿼리 관계 연산자 ("같음" 또는 "contains"와 같은 식의 일부는 지정 된 특성을 값과 비교 하는 방법을 정의 합니다.) 및 찾을 값 (예: "시애틀" 또는 "전자 메일").  
+   2.  **선택** 을 클릭 하 여 검색 조건 (예: 계정 이름 또는 구/군/시), 쿼리 관계 연산자 (지정 된 특성을 값과 비교 하는 방법을 정의 하는 "contains" 또는 "contains"와 같은 식의 일부)와 찾을 값 (예: "시애틀" 또는 "전자 메일")을 정의 합니다.  
   
        현재 레코드 유형 또는 관련 레코드에서 필드를 선택할 수 있습니다. 예를 들어 계정에는 여러 관련 연락처 레코드가 있을 수 있습니다.  
   
@@ -56,7 +56,7 @@ ms.locfileid: "63321613"
   
    3.  정렬할 열을 지정 하 고 정렬 순서를 지정한 다음 **확인**을 선택 합니다.  
   
-   4.            **확인**을 선택합니다.  
+   4.  **확인**을 선택합니다.  
   
 5. **결과**를 선택 합니다.  
   

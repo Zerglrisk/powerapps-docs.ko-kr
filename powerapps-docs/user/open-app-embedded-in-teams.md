@@ -16,28 +16,28 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 62a7166f228545f2a200570186ee23c868650b79
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 97be49797df13b82901425ae9389e85538068f5d
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73543487"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74726212"
 ---
 # <a name="add-an-app-to-microsoft-teams"></a>Microsoft Teams에 앱 추가
 
-Microsoft Teams는 Office 365 기술을 기반으로 구축된 채팅 기반 협업 플랫폼입니다. PowerApps 캔버스 앱을 팀의 채널에 추가하여 Teams 환경을 사용자 지정할 수 있습니다. 이 항목에서는 팀 채널에 제품 소개 샘플 앱을 추가한 다음, 해당 채널에서 앱을 여는 방법을 알아봅니다. 
+Microsoft Teams는 Office 365 기술을 기반으로 구축된 채팅 기반 협업 플랫폼입니다. 팀의 채널에 Power Apps canvas 앱을 추가 하 여 팀 환경을 사용자 지정할 수 있습니다. 이 항목에서는 팀 채널에 제품 소개 샘플 앱을 추가한 다음, 해당 채널에서 앱을 여는 방법을 알아봅니다. 
 
 ![Microsoft 팀에 포함된 앱](./media/open-app-embedded-in-teams/embedded-app.png)
 
-PowerApps에 등록하지 않은 경우 시작하기 전에 [무료로 등록합니다](https://make.powerapps.com/signup?redirect=marketing&email=).
+Power Apps에 등록 하지 않은 경우 시작 하기 전에 [무료로 등록](https://make.powerapps.com/signup?redirect=marketing&email=) 하세요.
 
 ## <a name="prerequisites"></a>필수 조건
 
 이 절차를 수행하려면 [Office 365 구독](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) 및 [Teams의 채널](https://www.youtube.com/watch?v=he2f1quaR7M)이 필요합니다.
 
-## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인
+## <a name="sign-in-to-power-apps"></a>Power Apps에 로그인
 
-[https://make.powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에 로그인합니다.
+[https://make.powerapps.com](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 Power Apps에 로그인 합니다.
 
 ## <a name="add-an-app"></a>앱 추가
 
@@ -92,7 +92,7 @@ Microsoft Teams의 데스크톱 앱:
 
 ## <a name="next-steps"></a>다음 단계
 
-이 항목에서는 팀 채널에 제품 소개 샘플 앱을 추가한 다음, 해당 채널에서 앱을 열었습니다. PowerApps에 대한 자세한 내용은 PowerApps 자습서를 계속합니다.
+이 항목에서는 팀 채널에 제품 소개 샘플 앱을 추가한 다음, 해당 채널에서 앱을 열었습니다. Power Apps에 대해 자세히 알아보려면 Power Apps 자습서를 계속 진행 하세요.
 
 > [!div class="nextstepaction"]
-> [PowerApps 자습서](../maker/canvas-apps/get-started-create-from-blank.md)
+> [Power Apps 자습서](../maker/canvas-apps/get-started-create-from-blank.md)

@@ -1,6 +1,6 @@
 ---
-title: PowerApps 외부에서 보고서 추가 | Microsoft Docs
-description: PowerApps 외부에서 보고서 추가
+title: 외부 앱에서 보고서 추가 | Microsoft Docs
+description: 외부 앱에서 보고서 추가
 author: mduelae
 manager: kvivek
 ms.service: powerapps
@@ -16,16 +16,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 9f775c5607720adcf233524522accb926d955289
-ms.sourcegitcommit: c4328e83f5caa58eab83757180b56ced480af220
+ms.openlocfilehash: e730d498a4d82518d0f908645e26a541c1e8c6af
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71982648"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74725851"
 ---
-# <a name="add-a-report-from-outside-powerapps"></a>PowerApps 외부에서 보고서 추가
+# <a name="add-a-report-from-outside-power-apps"></a>외부 앱에서 보고서 추가
 
-시스템 외부에서 사용자 지정 보고서를 만든 경우 PowerApps에 쉽게 추가할 수 있습니다.
+시스템 외부에서 사용자 지정 보고서를 만든 경우 Power Apps에 쉽게 추가할 수 있습니다.
 
 사용자 지정 보고서를 만드는 방법에 대 한 자세한 내용은 [보고 및 분석 가이드](https://docs.microsoft.com/dynamics365/customer-engagement/analytics/get-started-writing-reports)를 참조 하세요.
 
@@ -57,11 +57,11 @@ ms.locfileid: "71982648"
   
    2.  **부모 보고서** 텍스트 상자에는 현재 보고서에 대 한 부모 보고서 (있는 경우)가 표시 됩니다.  
   
-   3. **범주**. **이 필드의 값을 선택 하거나 변경** 합니다. ![줄임표]단추(media/ellipsis-button.png "줄임표") 단추 단추를 선택 하 고이 보고서에 포함할 범주를 지정 합니다.  
+   3. **범주**. **이 필드에 대 한 값 선택 또는 변경** ![줄임표 단추](media/ellipsis-button.png "줄임표 단추") 단추를 선택 하 고이 보고서에 포함할 범주를 지정 합니다.  
   
-   4. **관련 레코드 유형**입니다. 특정 레코드 유형에 대 한 페이지의 보고서 목록에 보고서가 표시 되도록 하려면 **이 필드의 값을 선택 하거나 변경** 하십시오 ![. 줄임표 단추](media/ellipsis-button.png "단추를") 선택한 다음 레코드 종류를 선택 합니다.  
+   4. **관련 레코드 유형**입니다. 특정 레코드 유형에 대 한 페이지의 보고서 목록에 보고서가 표시 되도록 하려면 **이 필드에 대 한 값 선택 또는 변경** ![줄임표 단추](media/ellipsis-button.png "줄임표 단추") 단추를 선택한 다음 레코드 유형을 선택 합니다.  
   
-   5. **에를 표시**합니다. 보고서가 표시 되는 위치를 지정 하려면 **이 필드의 값을 선택 하거나 변경** 합니다. ![줄임표](media/ellipsis-button.png "단추 단추") 를 선택 하 고 하나 이상의 옵션을 선택 합니다.  
+   5. **에를 표시**합니다. 보고서를 표시할 위치를 지정 하려면 **이 필드의 값을 선택 하거나 변경** 하십시오. ![줄임표 단추](media/ellipsis-button.png "줄임표 단추") 단추를 선택 하 고 하나 이상의 옵션을 선택 합니다.  
   
         값을 선택 하지 않으면 보고서가 최종 사용자에 게 표시 되지 않습니다.  
   

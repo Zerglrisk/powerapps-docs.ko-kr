@@ -16,15 +16,15 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 6e23833c57b5d37c7ce7908a048dbf49fa447e06
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: deff041b14d469055efc7947e3b5febcc94facc5
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73541787"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680538"
 ---
 # <a name="discover-apps-via-appsource"></a>AppSource를 통한 앱 검색
-PowerApps로 빌드하고 게시한 앱은 웹의 Dynamics 365에서 검색되며 사용됩니다. 사용자가 사용을 구체적으로 지정한 앱(즉, 공유 이메일에서 시작 또는 AppSource에서 열기) 또는 관리자가 사용자를 위해 프로비전한 앱과 같이 사용자의 모든 앱이 표시됩니다. 여기에는 PowerApps의 모든 사용자 앱과 함께 Microsoft에서의 Dynamics 365 애플리케이션이 포함됩니다. 앱을 검색하고, 환경별로 필터링하고, 가장 자주 사용하는 앱을 페이지 상단에 고정할 수 있습니다.
+Power Apps를 사용 하 여 빌드하고 게시 한 앱은 웹의 Dynamics 365에서 검색 되 고 사용 됩니다. 사용자가 사용을 구체적으로 지정한 앱(즉, 공유 이메일에서 시작 또는 AppSource에서 열기) 또는 관리자가 사용자를 위해 프로비전한 앱과 같이 사용자의 모든 앱이 표시됩니다. 여기에는 Microsoft의 Dynamics 365 응용 프로그램 뿐만 아니라 Power Apps의 모든 앱이 포함 됩니다. 앱을 검색하고, 환경별로 필터링하고, 가장 자주 사용하는 앱을 페이지 상단에 고정할 수 있습니다.
 
   ![Dynamics 365에서의 앱](./media/app-source/apps-dynamics365.png)
 
@@ -33,6 +33,6 @@ Microsoft AppSource가 이제 [Dynamics 365](https://home.dynamics.com) 홈 페�
 
 ![Dynamics 365에서의 앱](./media/app-source/getmoreapps.png)
 
-PowerApps를 사용하여 빌드되고 보안 그룹 또는 **사용자** 권한을 통해 전체 회사와 공유되는 앱은 기본적으로 홈 페이지에 포함되는 대신 여기에 표시됩니다. AppSource에서 앱을 가져오는 경우 홈 페이지에 표시되며 환경을 통해 손쉽게 액세스할 수 있습니다.
+Power Apps로 빌드된 앱과 보안 그룹 또는 사용자 권한이 있는 전체 회사에 대 한 공유는 기본적으로 **사용자** 의 홈 페이지를 복잡 하 게 하는 대신 여기에 표시 됩니다. AppSource에서 앱을 가져오는 경우 홈 페이지에 표시되며 환경을 통해 손쉽게 액세스할 수 있습니다.
 
   ![Dynamics 365에서의 앱](./media/app-source/appsource.png)

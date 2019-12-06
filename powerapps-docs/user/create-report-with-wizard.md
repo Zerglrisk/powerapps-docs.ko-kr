@@ -1,6 +1,6 @@
 ---
 title: 보고서 마법사를 사용 하 여 보고서 만들기 | Microsoft Docs
-description: PowerApps에서 보고서 마법사를 사용 하 여 보고서 만들기
+description: Power Apps에서 보고서 마법사를 사용 하 여 보고서 만들기
 author: mduelae
 manager: kvivek
 ms.service: powerapps
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 0f953c44d81742baca39058cd68180ca63833eb6
-ms.sourcegitcommit: e9671e018c1ee4b640528915350a367758991b6a
+ms.openlocfilehash: 8c7bde8d3aa5406a7ddcc5ecb2df4c2c7db7051e
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67420286"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733262"
 ---
 # <a name="create-a-report-using-the-report-wizard"></a>보고서 마법사를 사용하여 보고서 만들기
 

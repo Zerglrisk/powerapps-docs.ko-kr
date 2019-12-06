@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: dee8b918efc60fed57cc6d8ca407e6cafe2b8060
-ms.sourcegitcommit: bee698ca0d11524377b67813a65e1a022d08c05e
+ms.openlocfilehash: e6a64a5849b351b625468894696251895375d0c2
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "73609891"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74726094"
 ---
 # <a name="add-an-appointment-email-phone-call-note-or-task-activity-to-the-timeline"></a>타임라인에 약속, 메일, 전화 통화, 메모 또는 작업 활동 추가 
 
@@ -34,7 +34,7 @@ ms.locfileid: "73609891"
 - 첨부 된 이미지를 포함 하는 전자 메일이 전자 메일의 본문에 인라인으로 표시 됩니다.
 
   > [!div class="mx-imgBorder"]
-  > ![PowerApps의 활동에 대 한 타임 라인 보기](media/TimelineViewOfActivity.png "PowerApps의 활동에 대 한 타임 라인 보기")  
+  > ![Power Apps의 활동에 대 한 타임 라인 보기](media/TimelineViewOfActivity.png "Power Apps의 활동에 대 한 타임 라인 보기")  
  
 ## <a name="add-an-activity-from-the-nav-bar"></a>탐색 모음에서 활동 추가
  
@@ -43,7 +43,7 @@ ms.locfileid: "73609891"
 1. 탐색 모음에서 **더하기 기호** ![레코드 만들기 단추](media/create-record-button.png "레코드 만들기 단추")를 선택한 다음 **활동**을 선택 합니다. 
 
    > [!div class="mx-imgBorder"]
-   > ![PowerApps에서 작업을 추가 하는 바로 가기입니다.](media/QuickCreate.png "PowerApps에서 작업을 추가 하는 바로 가기입니다.")  
+   > ![Power Apps에서 작업을 추가 하는 바로 가기입니다.](media/QuickCreate.png "Power Apps에서 작업을 추가 하는 바로 가기입니다.")  
  
 2. 추가하려는 활동의 유형을 선택합니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "73609891"
 
 
    > [!div class="mx-imgBorder"]
-   > ![PowerApps에서 전화 활동 추가](media/addphonecall.png "PowerApps에서 전화 활동 추가")
+   > ![Power Apps에서 전화 활동 추가](media/addphonecall.png "Power Apps에서 전화 활동 추가")
   
 3. 통화의 **주제**를 입력합니다.
 

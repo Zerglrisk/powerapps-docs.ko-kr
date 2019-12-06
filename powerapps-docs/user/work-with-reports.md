@@ -1,6 +1,6 @@
 ---
 title: 보고서 작업 | Microsoft Docs
-description: PowerApps에서 보고서 작업
+description: Power Apps에서 보고서 작업
 author: mduelae
 manager: kvivek
 ms.service: powerapps
@@ -16,18 +16,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: f4647c565b2ecaf469c3b74873ba157ea27a1fd4
-ms.sourcegitcommit: 982cab99d84663656a8f73d48c6fae03e7517321
+ms.openlocfilehash: c16a589ddcd1e7beb0be1ce28bc9f6df6a8c8b83
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "67457041"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733318"
 ---
 # <a name="work-with-reports"></a>보고서 사용
 
 보고서를 통해 진행 상황을 확인 하 여 비즈니스 목표에 대 한 진행률을 모니터링할 수 있습니다. 또한 추세를 추적 하 여 경쟁 우위를 얻을 수 있습니다.  
 
-보고서를 구성 하 고 만드는 방법에 대 한 자세한 내용은 다음을 참조 하세요. [보고서를 사용자 지정 하 고 구성](https://docs.microsoft.com/powerapps/maker/model-driven-apps/add-reporting-to-app)합니다.
+보고서를 구성 하 고 만드는 방법에 대 한 자세한 내용은 [보고서 사용자 지정 및 구성](https://docs.microsoft.com/powerapps/maker/model-driven-apps/add-reporting-to-app)을 참조 하세요.
   
 ## <a name="run-a-report"></a>보고서 실행  
   
@@ -54,14 +54,14 @@ ms.locfileid: "67457041"
 5. **레코드 조회** 대화 상자에서 보고서를 공유 하려는 사용자 또는 팀 레코드를 찾고 레코드 옆의 확인란을 선택 합니다.
 
    > [!div class="mx-imgBorder"]
-   > ![보고서를 공유 하려면 사용자를 선택 하십시오](media/report-share1.png "보고서를 공유할 사용자를 선택 하십시오") .
+   > ![보고서를 공유 하려면 사용자를 선택 하십시오.](media/report-share1.png "보고서를 공유할 사용자를 선택 하십시오.")
 
 6. **선택** 을 선택 하 여 **선택한 레코드** 상자에 사용자 또는 팀 레코드를 추가 하 고 **추가**를 선택 합니다.
 
    > [!div class="mx-imgBorder"]
    > ![사용자를 추가 하 여 보고서 공유](media/report-share2.png "공유 보고서에 사용자 추가")
   
-7. **보고서 공유** 대화 상자에서 원하는 공유 액세스 유형을 선택 합니다. 사용 가능한 권한은 다음과 같습니다. 읽기, 쓰기, 삭제, 추가, 할당 또는 공유. 그러면 **선택한 레코드** 상자에 사용자 또는 팀 레코드가 추가 됩니다.
+7. **보고서 공유** 대화 상자에서 원하는 공유 액세스 유형을 선택 합니다. 사용 가능한 권한은 읽기, 쓰기, 삭제, 추가, 할당 또는 공유입니다. 그러면 **선택한 레코드** 상자에 사용자 또는 팀 레코드가 추가 됩니다.
 
    > [!div class="mx-imgBorder"]
    > ![공유 액세스 선택](media/report-share3.png "공유 액세스 선택")

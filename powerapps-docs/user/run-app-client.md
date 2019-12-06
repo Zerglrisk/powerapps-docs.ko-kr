@@ -15,20 +15,20 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 729d852227b31a6a162fdf94644d1e08c1a401ee
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: ad34f7daacf07ebc8ecde2a8ce29c163d0c28e95
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73543426"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74733334"
 ---
 # <a name="run-a-canvas-app-on-a-mobile-device"></a>모바일 디바이스에서 캔버스 앱 실행
 앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 항목에서는 모바일 디바이스에서 캔버스 앱을 실행하는 방법에 대해 알아봅니다. 모바일 디바이스에서 실행되는 앱은 위치 서비스 및 카메라와 같은 디바이스 기능을 활용할 수 있습니다.
 
-이 절차를 수행하려면 PowerApps에 가입되지 않은 경우 시작하기 전에 [체험 등록](https://make.powerapps.com/signup?redirect=marketing&email=)을 수행한 다음, [지원되는 운영 체제](../maker/canvas-apps/limits-and-config.md)에서 실행되는 iPhone, iPad 또는 Android 디바이스의 [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) 또는 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps)에서 PowerApps를 다운로드합니다. 또한, 자신이 만들거나 다른 사용자가 만들고 공유한 캔버스 앱에 대한 액세스 권한이 있는지 확인합니다.
+이 절차를 따르려면 Power Apps에 등록 하지 않은 경우 시작 하기 전에 [무료로 등록](https://make.powerapps.com/signup?redirect=marketing&email=) 하 고, [앱 스토어](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) 에서 power apps를 다운로드 하거나, [지원 되는 운영 체제](../maker/canvas-apps/limits-and-config.md)를 실행 하는 iPhone, iPad 또는 Android 장치에 [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps) 합니다. 또한, 자신이 만들거나 다른 사용자가 만들고 공유한 캔버스 앱에 대한 액세스 권한이 있는지 확인합니다.
 
-## <a name="open-powerapps-and-sign-in"></a>PowerApps 열기 및 로그인
-모바일 디바이스에서 PowerApps를 열고 Azure Active Directory 자격 증명을 사용하여 로그인합니다.
+## <a name="open-power-apps-and-sign-in"></a>Power Apps 열기 및 로그인
+모바일 장치에서 Power Apps를 열고 Azure Active Directory 자격 증명을 사용 하 여 로그인 합니다.
 
 ![로그인 사용자](./media/run-app-client/run-client-login.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "73543426"
 
     ![즐겨찾기로 표시](./media/run-app-client/favorite.png)
 
-앱을 필터링한 후에 가장 최근에 앱을 열거나 수정한 날짜별로 또는 이름을 사전순으로 필터링한 목록을 정렬할 수 있습니다. 이러한 기본 설정은 PowerApps를 닫고 다시 열 때 유지됩니다.
+앱을 필터링한 후에 가장 최근에 앱을 열거나 수정한 날짜별로 또는 이름을 사전순으로 필터링한 목록을 정렬할 수 있습니다. 이러한 기본 설정은 전원 앱을 닫았다가 다시 열 때 유지 됩니다.
 
 ![정렬 메뉴](./media/run-app-client/sort-menu.png)
 
@@ -64,7 +64,7 @@ ms.locfileid: "73543426"
 ## <a name="run-an-app"></a>앱 실행
 모바일 디바이스에서 캔버스 앱을 실행하려면 앱 타일을 탭합니다. 다른 사용자가 캔버스 앱을 만들고 이메일에서 사용자와 공유하는 경우 이메일의 링크를 탭하여 앱을 실행할 수 있습니다.
 
-PowerApps를 처음 사용할 경우 화면에 앱을 종료하기 위한 살짝 밀기 제스처가 표시됩니다.
+Power Apps를 처음 사용 하는 경우 화면에는 앱을 닫기 위한 살짝 밀기 제스처가 표시 됩니다.
 
 ![앱 시작하기](./media/run-app-client/run-client-app.png)
 

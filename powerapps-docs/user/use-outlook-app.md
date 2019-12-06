@@ -1,6 +1,6 @@
 ---
 title: Outlook 용 Dynamics 365 앱 사용 | MicrosoftDocs
-description: PowerApps 및 Common Data Service를 사용 하 여 Outlook 용 Dynamics 365 앱을 사용 합니다.
+description: Power Apps 및 Common Data Service를 사용 하 여 Outlook 용 Dynamics 365 앱을 사용 합니다.
 ms.custom: ''
 author: mduelae
 manager: kvivek
@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: f18b994dd0ff81b056c1868a49239d1801004ebd
-ms.sourcegitcommit: 2deb573fe40196b1921d151825d39ac04f6c4d79
+ms.openlocfilehash: 527f3f90b2fafbb8b2ac52a0dabf99a32e4c7521
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67266675"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74680400"
 ---
 # <a name="use-dynamics-365-app-for-outlook"></a>Dynamics 365 App for Outlook 사용
 
@@ -29,7 +29,7 @@ Outlook 용 Dynamics 365 앱을 사용 하 여 데스크톱, 웹 또는 휴대�
 
 
    > [!div class="mx-imgBorder"] 
-   > ![Outlook 용 Dynamics 365 앱](media/outlookapp.png "Outlook 용 Dynamics 365 앱")
+   > ![Outlook 용 Dynamics 365 앱](media/outlookapp.png "Dynamics 365 App for Outlook")
 
 ## <a name="what-dynamics-365-app-for-outlook-offers"></a>Outlook에서 제공 하는 Dynamics 365 앱은 무엇 인가요?
 
@@ -49,7 +49,7 @@ Outlook 용 Dynamics 365 앱을 사용 하 여 다음을 수행할 수 있습니
 
 Outlook 용 Dynamics 365 앱 사용에 대 한 자세한 내용은 [dynamics 365 app For Outlook 사용자 가이드](https://docs.microsoft.com/dynamics365/customer-engagement/outlook-app/dynamics-365-app-outlook-user-s-guide)를 참조 하세요.
 
-### <a name="see-also"></a>참고자료
+### <a name="see-also"></a>참고 항목
 
 [Outlook 용 Dynamics 365 앱 사용자 지정](../maker/model-driven-apps/app-for-outlook-customize.md)  
 
