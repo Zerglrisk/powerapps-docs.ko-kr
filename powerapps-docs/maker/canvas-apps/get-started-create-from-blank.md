@@ -7,22 +7,22 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 03/26/2019
+ms.date: 12/05/2019
 ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: e5b961fb665ad0706d5b3c2c272a95dd4530c1d2
-ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
+ms.openlocfilehash: 01bb3037e6223d41fd7da044b49a51abc57762de
+ms.sourcegitcommit: d194d2fa009ca7bfcbe95e5f31473832a130e0a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74709471"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74959521"
 ---
 # <a name="create-a-canvas-app-from-scratch-based-on-excel-data"></a>Excel 데이터를 기반으로 처음부터 캔버스 앱 만들기
 
-표 형식의 Excel 데이터를 기반으로 처음부터 고유한 캔버스 앱을 만든 다음, 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 접근 방식은 [앱을 자동으로 생성](get-started-create-from-data.md)하는 것보다 시간이 더 걸리지만 숙련된 앱 제작자는 이 방법으로 요구 사항에 맞는 최고의 앱을 빌드할 수 있습니다.
+표 형식의 Excel 데이터를 기반으로 처음부터 고유한 캔버스 앱을 만든 다음, 원하는 경우 다른 원본의 데이터를 추가합니다. 이 자습서를 따라 두 화면을 포함하는 앱을 만듭니다. 한 화면에서 사용자는 일련의 레코드를 찾아볼 수 있습니다. 다른 화면에서 사용자는 한 레코드를 만들거나, 한 레코드에서 하나 이상의 필드를 업데이트하거나, 전체 레코드를 삭제할 수 있습니다. 이 방법은 [Excel에서 기본 앱을 만드는](get-started-create-from-data.md) 것 보다 시간이 더 걸리지만, 더 많은 경험을 가진 앱 작성자는이를 사용 하 여 요구 사항에 가장 적합 한 앱을 빌드할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 조건
 
@@ -30,7 +30,7 @@ ms.locfileid: "74709471"
 
 1. 이 데이터를 복사한 다음 Excel 파일에 붙여넣습니다.
 
-    | StartDay | StartTime | 자원 봉사자 | 백 |
+    | StartDay | StartTime | 자원 봉사자 | 백업 |
     | --- | --- | --- | --- |
     | 토요일 |오전 10시 정오 |Vasquez |Kumashiro |
     | 토요일 |정오~오후 2시 |Ice |Singhal |

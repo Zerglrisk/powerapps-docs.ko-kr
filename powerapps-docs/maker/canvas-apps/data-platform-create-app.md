@@ -1,28 +1,28 @@
 ---
-title: Common Data Service |에서 캔버스 앱 생성 Microsoft Docs
-description: Power Apps에서 자동으로 캔버스 앱을 생성 하 여 Common Data Service 데이터를 관리 합니다.
+title: Common Data Service |에서 캔버스 앱 만들기 Microsoft Docs
+description: Power Apps에서 자동으로 캔버스 앱을 만들어 Common Data Service의 데이터를 관리 합니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: quickstart
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 05/06/2018
+ms.date: 12/05/2019
 ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b98fcb51e5b379e6507e73f680100c9702ec24a8
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: c62a690073e591c693d914000511b586dfc97b69
+ms.sourcegitcommit: d194d2fa009ca7bfcbe95e5f31473832a130e0a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74731682"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74959383"
 ---
-# <a name="generate-a-canvas-app-from-common-data-service-in-power-apps"></a>Power Apps의 Common Data Service에서 캔버스 앱 생성
+# <a name="create-a-canvas-app-from-common-data-service-in-power-apps"></a>Power Apps의 Common Data Service에서 캔버스 앱 만들기
 
-Power Apps에서 [Common Data Service](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 캔버스 앱을 자동으로 생성 합니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
+Power Apps에서 [Common Data Service](../common-data-service/data-platform-intro.md)의 샘플 계정 목록에 따라 캔버스 앱을 만듭니다. 이 앱에서는 모든 계정을 찾아보고, 단일 계정의 세부 정보를 표시하며, 계정을 생성, 업데이트 또는 삭제할 수 있습니다.
 
 Power Apps에 등록 하지 않은 경우 시작 하기 전에 [무료로 등록](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 하세요.
 
@@ -30,7 +30,7 @@ Power Apps에 등록 하지 않은 경우 시작 하기 전에 [무료로 등록
 
 이 빠른 시작을 수행 하려면 [환경 작성자](https://docs.microsoft.com/power-platform/admin/database-security#predefined-security-roles) 보안 역할에 할당 되어야 하며, Common Data Service 데이터베이스를 만들고 데이터를 포함 하며 업데이트를 허용 하는 [환경으로 전환](working-with-environments.md) 해야 합니다. 이러한 환경이 없고 관리자 권한이 있으면 이 요구 사항을 충족하는 [환경을 만들 수 있습니다](https://docs.microsoft.com/power-platform/admin/environments-administration#create-an-environment).
 
-## <a name="generate-an-app"></a>앱 생성
+## <a name="create-an-app"></a>앱 만들기
 
 1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 에 로그인 하 고 필요한 경우이 항목의 앞부분에서 지정한 대로 환경을 전환 합니다.
 

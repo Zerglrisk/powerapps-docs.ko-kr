@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: article
 ms.custom: canvas
 ms.reviewer: tapanm
-ms.date: 04/05/2018
+ms.date: 12/05/2019
 ms.author: emcoope
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 811f58243413c4de58e4cdb8868d838349248991
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: 9c4796a652c6e42609010162794dcc60a6466864
+ms.sourcegitcommit: d194d2fa009ca7bfcbe95e5f31473832a130e0a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74732367"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74959498"
 ---
 # <a name="transform-your-infopath-form-to-power-apps"></a>InfoPath 양식을 Power Apps로 변환
 
@@ -62,7 +62,7 @@ Power Apps와 SharePoint 팀은 함께 작업 하 여 SharePoint에서 사용할
 
 ![SharePoint 통합](./media/transform-infopath/sharepoint-integration.png)
 
-Power Apps의 또 다른 중요 한 기능은 동일한 양식에서 다른 SharePoint 사이트 컬렉션 또는 다른 환경에 쉽게 연결할 수 있는 기능입니다. 예를 들어 SharePoint Online 및 SharePoint 온-프레미스 환경에서 동시에 데이터를 업데이트하고 표시하는 한 가지 양식을 만들기를 원합니까? 문제 없어요. 온 [-프레미스 데이터 게이트웨이](gateway-management.md)를 설치 하는 경우 몇 분 내에 실행 되며, power Apps, Power BI, 파워 자동화 및 Azure Logic Apps를 온-프레미스 데이터와 연결 합니다. 방화벽 규칙을 변경할 필요가 없습니다. 이 앱을 전원 자동화로 연결 하 여 단계를 더 진행할 수 있습니다.
+Power Apps의 또 다른 중요 한 기능은 동일한 양식에서 다른 SharePoint 사이트 컬렉션 또는 다른 환경에 쉽게 연결할 수 있는 기능입니다. 예를 들어 SharePoint Online 및 SharePoint 온-프레미스 환경에서 동시에 데이터를 업데이트하고 표시하는 한 가지 양식을 만들기를 원합니까? Semmi akadálya. 온 [-프레미스 데이터 게이트웨이](gateway-management.md)를 설치 하는 경우 몇 분 내에 실행 되며, power Apps, Power BI, 파워 자동화 및 Azure Logic Apps를 온-프레미스 데이터와 연결 합니다. 방화벽 규칙을 변경할 필요가 없습니다. 이 앱을 전원 자동화로 연결 하 여 단계를 더 진행할 수 있습니다.
 
 ## <a name="a-standalone-sharepoint-app"></a>독립 실행형 SharePoint 앱
 
@@ -76,7 +76,7 @@ Power Apps의 또 다른 중요 한 기능은 동일한 양식에서 다른 Shar
 
 Power Apps는 사용자 지정할 수 있는 앱을 빌드합니다.
 
-첫 번째 앱에 지정할 수 있는 다른 유형을 나타내는 필드 한 쌍만 포함된 간단한 사용자 지정 목록으로 시작합니다. 그러면 전복되지 않는 견고한 토대를 빌드할 수 있습니다. 걱정하지 마세요. 순식간에 전문가가 되어 복잡한 앱을 만들어 낼 수 있습니다. 첫 번째 앱을 간단히 실행하기 위한 도움말은 이 [설명서](app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online) 또는 이 커뮤니티 [비디오](https://youtu.be/BnYe_7fpZRM)를 확인하세요. 아래 예제에서는 일반적인 InfoPath 작업 및이 작업을 Power Apps에서 수행 하는 방법을 보여 줍니다. 이들 각각의 예는 간단한 SharePoint 목록 앱에서 수행한 것입니다.
+첫 번째 앱에 지정할 수 있는 다른 유형을 나타내는 필드 한 쌍만 포함된 간단한 사용자 지정 목록으로 시작합니다. 그러면 전복되지 않는 견고한 토대를 빌드할 수 있습니다. 걱정하지 마세요. 순식간에 전문가가 되어 복잡한 앱을 만들어 낼 수 있습니다. 첫 번째 앱을 간단히 실행하기 위한 도움말은 이 [설명서](app-from-sharepoint.md#create-an-app-from-within-sharepoint-online) 또는 이 커뮤니티 [비디오](https://youtu.be/BnYe_7fpZRM)를 확인하세요. 아래 예제에서는 일반적인 InfoPath 작업 및이 작업을 Power Apps에서 수행 하는 방법을 보여 줍니다. 이들 각각의 예는 간단한 SharePoint 목록 앱에서 수행한 것입니다.
 
 ## <a name="how-do-you-do-that-with-power-apps"></a>Power Apps를 사용 하 여 어떻게 해야 하나요?
 

@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: b04c1d9ecc4c2955b68f1ffeae1a5a56e74ab710
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: d888ee1a3cee5bf74c4f7d8cd0cbc8a13f5f9fc8
+ms.sourcegitcommit: 15c6b26ff085928459ad9b3f52fb607fae4a997d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74733111"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74956880"
 ---
 # <a name="share-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱 공유
 
@@ -103,7 +103,7 @@ ms.locfileid: "74733111"
 
 ### <a name="common-data-service"></a>Common Data Service
 
-Common Data Service 기반으로 앱을 만드는 경우 앱을 공유 하는 사용자에 게 앱이 사용 하는 엔터티 또는 엔터티에 대 한 적절 한 권한이 있는지 확인 해야 합니다. 특히 해당 사용자는 관련 레코드 만들기, 읽기, 쓰기 및 삭제와 같은 태스크를 수행할 수 있는 보안 역할에 속해야 합니다. 대부분의 경우 사용자가 앱을 실행 하는 데 필요한 정확한 권한을 사용 하 여 사용자 지정 보안 역할을 하나 이상 만들 수 있습니다. 그러면 각 사용자에 게 적절 하 게 역할을 할당할 수 있습니다.
+Ha a Common Data Service-re épülő alkalmazást hoz létre, arról is gondoskodnia kell, hogy azok a felhasználók, akikkel az alkalmazást megosztja, a megfelelő jogosultságokkal rendelkezzenek az entitásra vagy entitásokra, amelyektől az alkalmazás függ. Ezeknek a felhasználóknak olyan biztonsági szerepkörhöz kell tartozniuk, amely végrehajthatja az érintett rekordok létrehozását, olvasását, írását és törlését. Sok esetben érdemes egy vagy több egyéni biztonsági szerepkört létrehozni pontosan azokkal az engedélyekkel, amelyek a felhasználóknak az alkalmazás futtatásához szükségesek. Ez után minden felhasználóhoz hozzárendelheti a megfelelő szerepkört.
 
 > [!NOTE]
 > 이 문서를 작성할 당시에는 Azure Active Directory에서 개별 사용자와 보안 그룹에 보안 역할을 할당할 수 있지만 Office 그룹에는 할당할 수 없습니다.
@@ -139,6 +139,9 @@ Power Apps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
     - 공유 되는 앱을 호스트 하는 테 넌 트입니다.
     - 게스트 사용자의 홈 테 넌 트입니다.
 
+> [!NOTE]
+> 앱 요금제 당 Power Apps는 특정 환경의 앱으로 범위가 지정 되므로 테 넌 트 간에 인식할 수 없습니다. Office 및 사용자 요금제에 포함 된 power Apps는 특정 환경에 바인딩되지 않으므로 게스트 시나리오에서 테 넌 트 간에 인식 됩니다. 
+
 ### <a name="steps-to-grant-guest-access"></a>게스트 액세스 권한을 부여 하는 단계
 1. **새 게스트 사용자** 를 선택 하 여 Azure AD에서 게스트 사용자를 추가 합니다. 추가 정보: [빠른 시작: AZURE AD에 새 게스트 사용자 추가](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal)
     > [!div class="mx-imgBorder"] 
@@ -171,17 +174,17 @@ Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드
 
 다음 표에서는 Power Apps 포털과 canvas 앱 간의 몇 가지 핵심 기능 차이점을 간략하게 설명 합니다.  
 
-| | 인터페이스 | 인증은 | 액세스 가능한 데이터 원본 |
+| | 인터페이스 | 인증 | 액세스 가능한 데이터 원본 |
 |------|--------|----------|-------------------|
 | Power Apps 포털 | 브라우저 전용 환경 | 익명 및 인증 된 액세스 허용 | Common Data Service |
 | 캔버스 앱 | 브라우저 및 모바일 앱 | Azure AD를 통한 인증 필요 | 모든 ~ 150 기본 커넥터 및 사용자 지정 커넥터  |
 ||
 
 #### <a name="can-guests-access-customized-forms-in-sharepoint"></a>게스트가 SharePoint에서 사용자 지정 된 양식에 액세스할 수 있나요?
-예로. 사용자 지정 된 양식으로 SharePoint 목록에 액세스할 수 있는 모든 사용자는 Power Apps 라이선스 없이 양식을 사용 하 여 목록에서 항목을 만들고 편집할 수 있습니다.
+예 사용자 지정 된 양식으로 SharePoint 목록에 액세스할 수 있는 모든 사용자는 Power Apps 라이선스 없이 양식을 사용 하 여 목록에서 항목을 만들고 편집할 수 있습니다.
 
 #### <a name="can-guests-access-apps-embedded-in-sharepoint"></a>게스트가 SharePoint에 포함 된 앱에 액세스할 수 있나요? 
-예로. 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하 여 앱의 기능과 일치 하는 Power Apps 사용 권한이 있는 라이선스가 필요 합니다. Microsoft Power Apps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
+예 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하 여 앱의 기능과 일치 하는 Power Apps 사용 권한이 있는 라이선스가 필요 합니다. Microsoft Power Apps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
 
 > [!div class="mx-imgBorder"]  
 > ![게스트에 대 한 SharePoint에 캔버스 앱 포함](media/share-app/guest_access_doc_5.PNG "게스트에 대 한 SharePoint에 캔버스 앱 포함")
@@ -229,11 +232,11 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Adobe Creative Cloud                              | 아니요                                                                     |
 | Adobe Sign                                        | 아니요                                                                     |
 | Asana                                             | 아니요                                                                     |
-| AtBot 관리자                                       | 아니요                                                                     |
-| AtBot 논리                                       | 아니요                                                                     |
+| AtBot Admin                                       | 아니요                                                                     |
+| AtBot Logic                                       | 아니요                                                                     |
 | Azure AD                                          | 예                                                                    |
 | Azure Automation                                  | 예                                                                    |
-| Azure 컨테이너 인스턴스                          | 예                                                                    |
+| Azure Container Instance                          | 예                                                                    |
 | Azure Data Factory                                | 예                                                                    |
 | Azure Data Lake                                   | 예                                                                    |
 | Azure DevOps                                      | 아니요                                                                     |
@@ -248,25 +251,25 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Bitly                                             | 아니요                                                                     |
 | bttn                                              | 아니요                                                                     |
 | Buffer                                            | 아니요                                                                     |
-| 비즈니스 중부                                  | 아니요                                                                     |
+| Business Central                                  | 아니요                                                                     |
 | CandidateZip                                      | 아니요                                                                     |
 | Capsule CRM                                       | 아니요                                                                     |
-| 클라우드 PKI 관리                              | 아니요                                                                     |
+| Cloud PKI Management                              | 아니요                                                                     |
 | Cognito Forms                                     | 아니요                                                                     |
 | Common Data Service                               | 아니요                                                                     |
-| Common Data Service (레거시)                      | 아니요                                                                     |
-| D & B 최적화 프로그램                                     | 아니요                                                                     |
-| DerSIGNL4                                    | 아니요                                                                     |
+| Common Data Service (örökölt)                      | 아니요                                                                     |
+| D&B Optimizer                                     | 아니요                                                                     |
+| Derdack SIGNL4                                    | 아니요                                                                     |
 | Disqus                                            | 아니요                                                                     |
-| 문서 병합                                    | 아니요                                                                     |
+| Document Merge                                    | 아니요                                                                     |
 | Dynamics 365                                      | 아니요                                                                     |
-| 판매에 대 한 Dynamics 365 AI                         | 예                                                                    |
-| Fin & Ops 용 Dynamics 365                        | 아니요                                                                     |
-| Enadoc my workspace                                            | 아니요                                                                     |
+| Dynamics 365 AI értékesítés                         | 예                                                                    |
+| Dynamics 365 for Fin & Ops                        | 아니요                                                                     |
+| Enadoc                                            | 아니요                                                                     |
 | Eventbrite                                        | 아니요                                                                     |
-| Excel Online (Business)                           | 아니요                                                                     |
+| Excel Online (vállalati)                           | 아니요                                                                     |
 | Excel Online (OneDrive)                           | 아니요                                                                     |
-| 만료 알림                               | 아니요                                                                     |
+| Lejárati emlékeztető                               | 아니요                                                                     |
 | FreshBooks                                        | 아니요                                                                     |
 | GoToMeeting                                       | 아니요                                                                     |
 | GoToTraining                                      | 아니요                                                                     |
@@ -279,17 +282,17 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | JotForm                                           | 아니요                                                                     |
 | kintone                                           | 아니요                                                                     |
 | LinkedIn                                          | 아니요                                                                     |
-| 마케팅 콘텐츠 허브                             | 아니요                                                                     |
-| 중간                                            | 아니요                                                                     |
+| Marketing Content Hub                             | 아니요                                                                     |
+| 보통                                            | 아니요                                                                     |
 | Metatask                                          | 아니요                                                                     |
 | Microsoft Forms                                   | 아니요                                                                     |
 | Microsoft Forms Pro                               | 아니요                                                                     |
-| Microsoft Graph 보안                          | 아니요                                                                     |
+| Microsoft Graph Security                          | 아니요                                                                     |
 | Microsoft Kaizala                                 | 아니요                                                                     |
-| Microsoft School 데이터 동기화                        | 아니요                                                                     |
+| A Microsoft iskolai adatok szinkronizálása szolgáltatása                        | 아니요                                                                     |
 | Microsoft StaffHub                                | 아니요                                                                     |
 | Microsoft Teams                                   | 예                                                                    |
-| Microsoft 할 일 (비즈니스)                        | 아니요                                                                     |
+| Microsoft To-Do (vállalati)                        | 아니요                                                                     |
 | Muhimbi PDF                                       | 아니요                                                                     |
 | NetDocuments                                      | 아니요                                                                     |
 | Office 365 그룹                                 | 예                                                                    |
@@ -304,14 +307,14 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Outlook.com                                       | 아니요                                                                     |
 | Paylocity                                         | 아니요                                                                     |
 | Planner                                           | 아니요                                                                     |
-| Plumsail 양식                                    | 아니요                                                                     |
+| Plumsail Forms                                    | 아니요                                                                     |
 | Power BI                                          | 예                                                                    |
 | Project Online                                    | 아니요                                                                     |
-| ProjectWise 디자인 통합                    | 아니요                                                                     |
-| Projectwise 공유                                 | 아니요                                                                     |
+| ProjectWise-terv integrálása                    | 아니요                                                                     |
+| Projectwise-megosztás                                 | 아니요                                                                     |
 | SharePoint                                        | 예                                                                    |
-| 지금 sign                                           | 아니요                                                                     |
-| 비즈니스용 Skype Online                         | 아니요                                                                     |
+| SignNow                                           | 아니요                                                                     |
+| Skype Vállalati online verzió                         | 아니요                                                                     |
 | Soft1                                             | 아니요                                                                     |
 | Stormboard                                        | 아니요                                                                     |
 | Survey123                                         | 아니요                                                                     |
@@ -319,6 +322,6 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Toodledo                                          | 아니요                                                                     |
 | Typeform                                          | 아니요                                                                     |
 | Vimeo                                             | 아니요                                                                     |
-| Webex 팀                                       | 아니요                                                                     |
-| Windows Defender ATP (Advanced Threat Protection) | 아니요                                                                     |
-| 온라인 Word (비즈니스)                            | 아니요                                                                     |
+| Webex Teams                                       | 아니요                                                                     |
+| Windows Defender Komplex veszélyforrások elleni védelem (Advanced Threat Protection, ATP) | 아니요                                                                     |
+| Word Online (vállalati)                            | 아니요                                                                     |

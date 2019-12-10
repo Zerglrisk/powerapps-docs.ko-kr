@@ -1,28 +1,28 @@
 ---
-title: Excel에서 캔버스 앱 생성 | Microsoft Docs
-description: Power Apps를 사용 하 여 클라우드 저장소 계정에 저장 된 Excel 파일을 사용 하 여 캔버스 앱을 자동으로 생성
+title: Excel에서 캔버스 앱 만들기 | Microsoft Docs
+description: Power Apps를 사용 하 여 클라우드 저장소 계정에 저장 된 Excel 파일을 사용 하 여 캔버스 앱을 자동으로 만듭니다.
 author: tapanm-msft
 manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 01/14/2019
+ms.date: 12/05/2019
 ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: f53f46562c401e978975da35c81e2ecb77a6673e
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: 2199d94938e51154d0f616f424f674c408277b52
+ms.sourcegitcommit: d194d2fa009ca7bfcbe95e5f31473832a130e0a6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74729734"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74959429"
 ---
-# <a name="generate-a-canvas-app-from-excel-in-power-apps"></a>Power Apps의 Excel에서 캔버스 앱 생성
+# <a name="create-a-canvas-app-from-excel-in-power-apps"></a>Power Apps의 Excel에서 캔버스 앱 만들기
 
-이 항목에서는 Excel 테이블의 데이터를 사용 하 여 Power Apps에서 첫 번째 캔버스 앱을 자동으로 생성 합니다. Excel 파일을 선택하고, 앱을 생성한 다음, 생성하는 앱을 실행합니다. 생성된 모든 앱은 레코드를 검색하고, 레코드 세부 정보를 표시하고, 레코드를 만들거나 업데이트하는 화면을 포함합니다. 앱을 생성하여 Excel 데이터를 사용하는 작업 중인 앱을 신속하게 가져온 다음, 필요에 맞게 앱을 사용자 지정할 수 있습니다. 
+이 항목에서는 Excel 테이블의 데이터를 사용 하 여 Power Apps에서 첫 번째 캔버스 앱을 만듭니다. Excel 파일을 선택 하 고 앱을 만든 다음 사용자가 만든 앱을 실행 합니다. 만든 모든 앱에는 레코드를 검색 하 고, 레코드 정보를 표시 하 고, 레코드를 만들거나 업데이트 하는 화면이 포함 됩니다. 앱을 생성하여 Excel 데이터를 사용하는 작업 중인 앱을 신속하게 가져온 다음, 필요에 맞게 앱을 사용자 지정할 수 있습니다. 
 
 Excel 파일은 OneDrive, Google Drive 또는 Dropbox와 같은 클라우드 스토리지 계정에 있어야 합니다. 이 항목에서는 비즈니스용 OneDrive를 사용합니다.
 
@@ -35,7 +35,7 @@ Power Apps에 대 한 라이선스가 없는 경우 [무료로 등록할](../sig
 > [!IMPORTANT]
 > 사용자 고유의 Excel 파일을 사용할 수 있지만 데이터는 테이블로 형식이 지정돼야 합니다. 자세한 내용은 [테이블 형식 지정](how-to-excel-tips.md)을 참조합니다. 
 
-## <a name="generate-the-app"></a>앱 생성
+## <a name="create-the-app"></a>앱 만들기
 
 1. [Power Apps](https://make.powerapps.com?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인 합니다.
 
