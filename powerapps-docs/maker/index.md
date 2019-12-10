@@ -6,15 +6,15 @@ manager: kvivek
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
-ms.date: 07/18/2018
+ms.date: 12/05/2019
 ms.author: tapanm
 ms.reviewer: ''
-ms.openlocfilehash: d41af83d0a6de68ac94327798e076b19039dadef
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: 79a1a5351bc3fe72a7558697e7cf8e8dfa079ce8
+ms.sourcegitcommit: d194d2fa009ca7bfcbe95e5f31473832a130e0a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74729800"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74959406"
 ---
 # <a name="overview-of-creating-apps-in-power-apps"></a>Power Apps에서 앱 만들기 개요
 
@@ -33,7 +33,7 @@ Power Apps는 생산성이 높은 비즈니스 앱 개발 플랫폼이며 다음
 
 다음과 같은 데이터가 있는 Microsoft 도구에서 앱을 만들 수 있습니다.
 
-- [SharePoint 목록 사용](canvas-apps/app-from-sharepoint.md#generate-an-app-from-within-sharepoint-online)
+- [SharePoint 목록 사용](canvas-apps/app-from-sharepoint.md#create-an-app-from-within-sharepoint-online)
 - [Power BI 대시보드 사용](canvas-apps/embed-powerapps-powerbi.md)
 
 캔버스 앱을 만드는 것은 간단합니다. Power Apps를 사용하면 여러 가지 방법으로 앱을 찾고 만들 수 있습니다.
