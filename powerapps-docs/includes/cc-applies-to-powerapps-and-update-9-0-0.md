@@ -1,1 +1,1 @@
-PowerApps 및 Dynamics 365 (online), 버전 9.x에 적용
+Power Apps 및 Dynamics 365 (online), 버전 9.x에 적용
