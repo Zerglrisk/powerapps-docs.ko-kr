@@ -13,14 +13,14 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 528dc54fe18971ff8971b4d0d7e87c3bf3c5367a
-ms.sourcegitcommit: 7dae19a44247ef6aad4c718fdc7c68d298b0a1f3
+ms.openlocfilehash: 69b15887894bba576364ced8bab9f47eceeb8f96
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "71986038"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74731903"
 ---
-# <a name="color-and-border-properties-in-powerapps"></a>PowerApps에서 색 및 테두리 속성
+# <a name="color-and-border-properties-in-power-apps"></a>Power Apps의 색 및 테두리 속성
 
 ## <a name="overview"></a>개요
 
@@ -33,7 +33,7 @@ ms.locfileid: "71986038"
   - **Color.Red**
   - **Color.Indigo**
 
-- [**Colorvalue**](../functions/function-colors.md) 함수: 다음 예와 같이 css 스타일 시트에서 색 이름과 같은 텍스트 문자열 및 16 진수 코드 표기법 ( **#** )을 지정 합니다.
+- [**Colorvalue**](../functions/function-colors.md) 함수: 다음 예와 같이 css 스타일 시트에서 색 이름과 같은 텍스트 문자열을 지정 하 고 **#** (hex)를 지정 합니다.
 
   - **ColorValue ("AliceBlue")**
   - **ColorValue( "#ff00ff" )**
