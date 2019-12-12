@@ -9,12 +9,12 @@ featureFlags:
 ms.service: powerapps
 ms.custom:
 - PowerApps-hub
-ms.openlocfilehash: 2f88e6f6330ec1e39bb4090718e886b1ceb9bbb3
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: 707f714ca658faa6255ee2e79c08184cb6f2a2fb
+ms.sourcegitcommit: d194d2fa009ca7bfcbe95e5f31473832a130e0a6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74725874"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74959567"
 ---
 <div id="main"
    class="v2">
@@ -234,14 +234,13 @@ ms.locfileid: "74725874"
                                     <hr/>
                                     <ul>
                                        <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/getting-started">캔버스 앱이란?</a></p>
-                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/data-platform-create-app">자동으로 앱 생성</a></p>
-                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/data-platform-create-app-scratch">직접 앱 빌드</a></p>
-                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/open-and-run-a-sample-app">샘플 앱 사용자 지정</a></p>
-                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/customize-list-form">SharePoint 양식 사용자 지정</a></p>
+                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/open-and-run-a-sample-app">샘플 앱 만들기</a></p>
+                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/data-platform-create-app-scratch">앱을 처음부터 빌드하기</a></p>
                                        <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/connections-list">커넥터</a></p>
                                        <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/common-data-service/data-platform-create-business-rule">비즈니스 논리 적용</a></p>
-                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/reference-properties">컨트롤 참조</a></p>
-                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/formula-reference">수식 참조</a></p>
+                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/add-configure-controls">인터페이스 설계</a></p>
+                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/working-with-formulas">앱 기능 구성</a></p>
+                                       <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/edit-app">앱 관리</a></p>
                                        <p><a class="barLink" style="font-size: 0.95rem" href="/powerapps/maker/canvas-apps/share-app">앱 공유</a></p>
                                     </ul>
                                  </div>

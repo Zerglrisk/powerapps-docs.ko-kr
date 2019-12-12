@@ -140,7 +140,9 @@
           href: ./canvas-apps/sample-meeting-capture.md
     - name: 첫 번째 앱 만들기
       items:
-        - name: 1 - 데이터에서 앱을 만들기
+        - name: 1 - 템플릿에서 앱 만들기
+          href: ./canvas-apps/get-started-test-drive.md
+        - name: 2 - 데이터를 사용하여 앱 만들기
           items:
             - name: Common Data Service 사용
               href: ./canvas-apps/data-platform-create-app.md
@@ -158,14 +160,12 @@
               href: ./canvas-apps/customize-forms-sharepoint.md
             - name: 3 - 카드
               href: ./canvas-apps/customize-card.md
-        - name: 3 - 직접 앱 만들기
-          items:
-            - name: Common Data Service 사용
-              href: ./canvas-apps/data-platform-create-app-scratch.md
-            - name: Excel 사용
-              href: ./canvas-apps/get-started-create-from-blank.md
-        - name: 템플릿에서 앱 만들기
-          href: ./canvas-apps/get-started-test-drive.md
+    - name: 앱을 처음부터 만들기
+      items:
+        - name: Common Data Service 사용
+          href: ./canvas-apps/data-platform-create-app-scratch.md
+        - name: Excel 사용
+          href: ./canvas-apps/get-started-create-from-blank.md
     - name: 앱 디자인 및 빌드
       items:
         - name: 데이터에 연결
