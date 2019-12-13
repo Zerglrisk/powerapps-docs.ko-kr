@@ -1,12 +1,12 @@
 ---
 title: 웹 브라우저에서 앱 실행 | Microsoft Docs
 description: 이 항목에서는 웹 브라우저에서 앱을 실행하는 방법 알아보기
-author: Mattp123
+author: mduelae
 ms.service: powerapps
 ms.component: pa-user
 ms.topic: quickstart
-ms.date: 8/21/2019
-ms.author: matp
+ms.date: 12/05/2019
+ms.author: mkaur
 manager: kvivek
 ms.custom: ''
 ms.reviewer: ''
@@ -16,15 +16,20 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 76d2d4cdccc14e5c9c60cd5679bd7b88a2649380
-ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
+ms.openlocfilehash: 8ce6cfe213817cd603857bb5ea2735b188f8cb6c
+ms.sourcegitcommit: 15c6b26ff085928459ad9b3f52fb607fae4a997d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74680676"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74956787"
 ---
 # <a name="run-an-app-in-a-web-browser"></a>웹 브라우저에서 앱 실행
-앱을 만들거나 다른 사용자가 앱을 공유하는 경우 Windows, iOS, Android 또는 웹 브라우저에서 해당 앱을 사용할 수 있습니다. 이 항목에서는 [Dynamics 365 홈페이지](https://home.dynamics.com)에서 웹 브라우저로 캔버스 또는 모델 기반 앱을 실행하는 방법을 알아봅니다.
+앱을 만들거나 다른 사람이 사용자와 앱을 공유 하는 경우 Dynamics 365 모바일 앱 또는 태블릿의 웹 브라우저에서 해당 앱을 실행할 수 있습니다. 이 항목에서는 [Dynamics 365 홈 페이지](https://home.dynamics.com)에서 태블릿의 웹 브라우저에서 캔버스 또는 모델 기반 앱을 실행 하는 방법에 대해 알아봅니다.
+
+모든 기능 및 최적화 된 환경을 위해 휴대폰 및 태블릿 모바일 앱에 대 한 Dynamics 365를 사용 하는 것이 좋습니다. 휴대폰 및 태블릿 앱에 대 한 Dynamics 365가 설치 되어 있지 않은 경우 장치에 화면 해상도가 충분히 높은 경우에도 태블릿에서 웹 브라우저를 사용할 수 있습니다. 자세한 내용은 [지원 되는 항목](https://docs.microsoft.com/dynamics365/mobile-app/support-phones-tablets#supported-devices-for-the-mobile-app)을 확인 하세요.
+
+> [!NOTE]
+> 휴대폰에서 웹 브라우저를 사용 하 여 모델 기반 앱을 실행 하는 것은 지원 되지 않습니다. 휴대폰 앱에 대 한 Dynamics 365을 사용 해야 합니다.
 
 이 빠른 시작을 수행하려면 다음이 필요합니다.
 - Power Apps 라이선스. 이 기능은 power apps 요금제 (예: power apps [요금제 2 평가판](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps)) 또는 power apps를 포함 하는 [Microsoft Office 365](https://signup.microsoft.com/Signup?OfferId=467eab54-127b-42d3-b046-3844b860bebf&dl=O365_BUSINESS_PREMIUM&ali=1) 또는 [Dynamics 365](https://dynamics.microsoft.com/pricing/) 요금제와 함께 사용할 수 있습니다. 
@@ -46,7 +51,7 @@ ms.locfileid: "74680676"
 
 
 ## <a name="run-an-app-from-a-url"></a>URL에서 앱 실행
-브라우저에 책갈피로 앱의 URL을 저장하고 책갈피를 선택하여 실행할 수 있습니다. 또는 URL을 이메일을 통해 링크로 보낼 수 있습니다. 다른 사용자가 앱을 만들고 전자 메일을 통해 공유 하는 경우 전자 메일의 링크를 선택 하 여 앱을 실행할 수 있습니다. URL을 사용하여 앱을 실행하는 경우에 Azure Active Directory 자격 증명을 사용하여 로그인하라는 메시지가 표시될 수 있습니다.
+앱의 URL을 태블릿 브라우저에 책갈피로 저장 하 고 책갈피를 선택 하 여 실행 하거나, 전자 메일을 통해 URL을 링크로 보낼 수 있습니다. 다른 사용자가 앱을 만들고 전자 메일을 통해 공유 하는 경우 전자 메일의 링크를 선택 하 여 앱을 실행할 수 있습니다. URL을 사용하여 앱을 실행하는 경우에 Azure Active Directory 자격 증명을 사용하여 로그인하라는 메시지가 표시될 수 있습니다.
 
 ![](./media/run-app-browser/web-login.png)
 
