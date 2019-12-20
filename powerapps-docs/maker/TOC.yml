@@ -1,4 +1,4 @@
-- name: 시작
+- name: 시작하기
   items:
     - name: Power Apps란?
       href: ../powerapps-overview.md
@@ -170,7 +170,7 @@
       items:
         - name: 데이터에 연결
           items:
-            - name: 연결 목록
+            - name: 연결 개요
               href: ./canvas-apps/connections-list.md
             - name: 가장 많이 사용되는 커넥터
               items:
@@ -376,7 +376,7 @@
                   href: ./canvas-apps/controls/properties-visual.md
                 - name: 크기 및 위치
                   href: ./canvas-apps/controls/properties-size-location.md
-                - name: Text
+                - name: 텍스트
                   href: ./canvas-apps/controls/properties-text.md
         - name: 앱 기능 구성
           items:
@@ -552,7 +552,7 @@
                   href: ./canvas-apps/functions/function-astype-istype.md
                 - name: JSON
                   href: ./canvas-apps/functions/function-json.md
-                - name: Language
+                - name: 언어
                   href: ./canvas-apps/functions/function-language.md
                 - name: Last
                   href: ./canvas-apps/functions/function-first-last.md
@@ -620,11 +620,11 @@
                   href: ./canvas-apps/functions/function-trig.md
                 - name: Rand
                   href: ./canvas-apps/functions/function-rand.md
-                - name: Refresh
+                - name: 새로 고침
                   href: ./canvas-apps/functions/function-refresh.md
                 - name: Relate
                   href: ./canvas-apps/functions/function-relate-unrelate.md
-                - name: Remove
+                - name: 제거
                   href: ./canvas-apps/functions/function-remove-removeif.md
                 - name: RemoveIf
                   href: ./canvas-apps/functions/function-remove-removeif.md
@@ -656,7 +656,7 @@
                   href: ./canvas-apps/functions/function-datetime-parts.md
                 - name: Select
                   href: ./canvas-apps/functions/function-select.md
-                - name: Set
+                - name: 설정
                   href: ./canvas-apps/functions/function-set.md
                 - name: SetFocus
                   href: ./canvas-apps/functions/function-setfocus.md
@@ -708,7 +708,7 @@
                   href: ./canvas-apps/functions/function-groupby.md
                 - name: Unrelate
                   href: ./canvas-apps/functions/function-relate-unrelate.md
-                - name: Update
+                - name: 업데이트
                   href: ./canvas-apps/functions/function-update-updateif.md
                 - name: UpdateContext
                   href: ./canvas-apps/functions/function-updatecontext.md
@@ -730,7 +730,7 @@
                   href: ./canvas-apps/functions/function-datetime-parts.md
                 - name: 사용
                   href: ./canvas-apps/functions/function-with.md
-                - name: Year
+                - name: 년
                   href: ./canvas-apps/functions/function-datetime-parts.md
         - name: 솔루션에서 앱 만들기
           href: ./canvas-apps/add-app-solution.md
@@ -1198,7 +1198,7 @@
               href: ./portals/configure/configure-saml2-settings.md
             - name: Azure AD B2C로 ID 공급자 마이그레이션
               href: ./portals/configure/migrate-identity-providers.md
-        - name: Search
+        - name: 검색
           items:
             - name: 검색 정보
               href: ./portals/configure/search.md
@@ -1222,8 +1222,8 @@
           href: ./portals/configure/place-child-nodes.md
         - name: 날짜 및 시간 필드의 동작 및 형식
           href: ./portals/configure/behavior-format-date-time-field.md
-        - name: 포털 타임라인에서 메일 레코드 보기
-          href: ./portals/configure/view-email-in-timeline.md
+        - name: 포털 타임라인에서 작업 보기
+          href: ./portals/configure/view-all-activities-in-portal-timeline.md
         - name: 웹 페이지 평가
           href: ./portals/configure/rate-webpage.md
         - name: 포털에서 머리글 및 바닥글 출력 캐싱 사용
@@ -1488,8 +1488,12 @@
           href: ./common-data-service/use-solution-explorer.md
         - name: Common Data Service 기본 솔루션 사용
           href: ./common-data-service/use-solutions-for-your-customizations.md
-        - name: '솔루션 가져오기, 업데이트 및 내보내기'
+        - name: 솔루션 가져오기
           href: ./common-data-service/import-update-export-solutions.md
+        - name: 솔루션 업데이트
+          href: ./common-data-service/update-solutions.md
+        - name: 솔루션 내보내기
+          href: ./common-data-service/export-solutions.md
         - name: 특정 솔루션으로 이동
           href: ./common-data-service/navigate-specific-solution.md
         - name: 솔루션 만들기
@@ -1546,7 +1550,7 @@
       href: ./common-data-service/api-limits-overview.md
     - name: 개발자의 경우
       href: ../developer/common-data-service/overview.md
-- name: AI 작성기
+- name: AI Builder
   items:
     - name: Power Apps에서 AI Builder 사용
       href: ../use-ai-builder.md
