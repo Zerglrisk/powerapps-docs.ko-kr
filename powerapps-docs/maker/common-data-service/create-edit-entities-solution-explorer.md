@@ -19,16 +19,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 2ec1fb0471ad1f47f4afad083ad89e87633ce9ed
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 7774090950b179e349c6c576439ebd4ad47da67b
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2707302"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883755"
 ---
 # <a name="create-and-edit-entities-using-solution-explorer"></a>솔루션 탐색기를 사용하여 엔터티 만들기 및 편집
 
-대부분의 일반적인 상황에서 PowerApps 포털을 사용하여 엔터티를 쉽게 만들 수 있지만 모든 기능이 구현되는 것은 아닙니다. [Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)에 설명된 요구 사항을 충족해야 하는 경우 솔루션 탐색기를 사용하여 엔터티를 만들거나 편집하여 이를 달성할 수 있습니다.
+대부분의 일반적인 상황에서 Power Apps 포털을 사용하여 엔터티를 쉽게 만들 수 있지만 모든 기능이 구현되는 것은 아닙니다. [Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)에 설명된 요구 사항을 충족해야 하는 경우 솔루션 탐색기를 사용하여 엔터티를 만들거나 편집하여 이를 달성할 수 있습니다.
 
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
 
@@ -203,5 +203,5 @@ Both should point to this include
 
 ### <a name="see-also"></a>참조
 [Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)<br />
-[자습서: PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />
+[자습서: Power Apps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />
 [솔루션 만들기](create-solution.md)

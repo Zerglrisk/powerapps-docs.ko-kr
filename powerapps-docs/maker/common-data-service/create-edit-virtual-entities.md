@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: ecb0731d3cbba030f3b819e2b2744cb6a7b29c20
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 07a6d262aeaba818d5a965409ce28a90934536c3
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2706906"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861302"
 ---
 # <a name="create-and-edit-virtual-entities-that-contain-data-from-an-external-data-source"></a>외부 데이터 원본에서 데이터를 포함하는 가상 엔터티 만들기 및 편집
 
@@ -48,7 +48,7 @@ Common Data Service에는 외부 데이터에 액세스하는 OData v4 웹 서�
 ## <a name="virtual-entity-benefits"></a>가상 엔터티 혜택  
   
 - 개발자는 Common Data Service 웹 서비스 및 플러그 인 등록 도구를 사용하여 외부 데이터를 읽기 위한 플러그 인을 구현할 수 있습니다.  
-- 시스템 사용자 지정자는 PowerApps 솔루션 탐색기를 사용하여 코드를 작성하지 않고 외부 데이터에 액세스하는 데 사용되는 가상 엔터티를 만들고 데이터 원본 레코드를 구성합니다.  
+- 시스템 사용자 지정자는 Power Apps 솔루션 탐색기를 사용하여 코드를 작성하지 않고 외부 데이터에 액세스하는 데 사용되는 가상 엔터티를 만들고 데이터 원본 레코드를 구성합니다.  
 - 최종 사용자는 가상 엔터티에서 만든 레코드를 사용하여 필드, 표, 검색 결과 및 Fetch XML 기반 보고서와 대시보드의 데이터를 봅니다.  
   
 <a name="AddDataSource"></a> 

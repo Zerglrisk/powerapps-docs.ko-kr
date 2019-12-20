@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 보기의 필터 조건 편집 및 정렬 순서 변경 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 보기의 필터 조건 편집 및 정렬 순서 변경 | MicrosoftDocs
 description: 보기에서 필터 조건 편집 및 정렬 순서를 변경하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/13/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 84ffba9df7eb09d6bc895fa10187eb000746b835
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 8a2a5eabcae5c6e9829104927a0013aa60799558
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2704090"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2868562"
 ---
 # <a name="edit-filter-criteria-and-change-sort-order-in-model-driven-app-views"></a>모델 기반 앱 보기의 필터 조건 편집 및 정렬 순서 변경
 

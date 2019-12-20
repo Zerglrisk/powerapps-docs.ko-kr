@@ -1,6 +1,6 @@
 ---
 title: 모델 기반 앱 삭제 | MicrosoftDocs
-description: PowerApps 환경에서 모델 기반 앱을 삭제하거나 제거하는 방법에 대해 알아봅니다.
+description: Power Apps 환경에서 모델 기반 앱을 삭제하거나 제거하는 방법에 대해 알아봅니다.
 keywords: ''
 ms.date: 10/08/2019
 ms.service: powerapps
@@ -24,12 +24,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 026420ad6a5f3ab3e74c9c0d11f87f8a52ffa417
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: e8f7d58f7c5cf40f6b582bc5be7970211334d271
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756219"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874835"
 ---
 # <a name="delete-a-model-driven-app"></a>모델 기반 앱 삭제
 환경에서 사용되지 않는 앱을 삭제 또는 제거합니다.
@@ -37,7 +37,7 @@ ms.locfileid: "2756219"
 > [!IMPORTANT]
 > 모델 기반 앱이 관리형 솔루션의 일부로 기본 솔루션에 설치된 경우 [관리형 솔루션의 일부로 설치된 모델 기반 앱 삭제](#delete-a-model-driven-app-that-was-installed-as-part-of-a-managed-solution)를 참고하십시오.
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 2. 왼쪽 탐색에서 **앱**을 선택합니다. 
 3. 삭제하려는 앱을 선택한 후 명령 모음에서 **삭제**를 선택합니다.
 4. 표시되는 확인 메시지에서 **삭제**를 선택합니다.
@@ -54,7 +54,7 @@ ms.locfileid: "2756219"
 
 ### <a name="delete-a-managed-solution"></a>관리형 솔루션 삭제 
 솔루션을 삭제하면 관리형 솔루션의 모든 구성 요소가 삭제됩니다.
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2.  왼쪽 탐색에서 **솔루션**을 선택합니다.
 3.  **솔루션** 목록에서 삭제할 비관리형 솔루션을 선택한 다음 도구 모음에서 **삭제**를 선택합니다. 
 

@@ -20,16 +20,16 @@ search.audienceType:
 - customizer
 search.app:
 - D365CE
-ms.openlocfilehash: f936dc4c6b78096b74b650bf8426ba1d78c41d19
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 557959f9bb561fcb138f15011bd8320dfa5c94ff
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2711394"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862891"
 ---
 # <a name="rdl-sandboxing"></a>RDL 샌드박싱 
 
-Common Data Service에서 보고서는 샌드박스 모드에서 실행됩니다. SQL Server Reporting Services에서 RDL(Report Definition Language) 샌드박싱을 설정하여 수행됩니다. RDL 샌드박싱을 사용하면 특정 유형의 리소스 사용을 검색하고 제한할 수 있습니다. 결과적으로 PowerApps 모델 기반 앱의 특정 기능을 사용할 수 없습니다. 자세한 내용은 [MSDN: RDL 샌드박스 활성화 및 비활성화](https://msdn.microsoft.com/library/ee210591.aspx)를 참조하십시오.  
+Common Data Service에서 보고서는 샌드박스 모드에서 실행됩니다. SQL Server Reporting Services에서 RDL(Report Definition Language) 샌드박싱을 설정하여 수행됩니다. RDL 샌드박싱을 사용하면 특정 유형의 리소스 사용을 검색하고 제한할 수 있습니다. 결과적으로 Power Apps 모델 기반 앱의 특정 기능을 사용할 수 없습니다. 자세한 내용은 [MSDN: RDL 샌드박스 활성화 및 비활성화](https://msdn.microsoft.com/library/ee210591.aspx)를 참조하십시오.  
   
  Common Data Service의 현재 RDL 샌드박싱 구성 설정은 이 항목의 다음 섹션에서 설명되어 있습니다.  
     

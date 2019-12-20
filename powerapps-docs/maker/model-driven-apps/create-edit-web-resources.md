@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 웹 리소스 만들기 또는 편집 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 웹 리소스 만들기 또는 편집 | MicrosoftDocs
 description: 웹 리소스 생성 및 편집 방법 배우기
 ms.custom: ''
 ms.date: 06/02/2018
@@ -22,19 +22,19 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 6711d78a217bc5bcee34f0bd209f7bdfe56249c5
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 4aa4e0399395861cf94740c92f35b738998b8209
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702462"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860517"
 ---
 # <a name="create-or-edit-model-driven-app-web-resources-to-extend-an-app"></a>모델 기반 앱 웹 리소스를 만들거나 편집하여 앱 확장
 
 웹 리소스는 웹 개발에 사용되는 파일을 사용하는 앱 확장을 위해 개발자들이 전형적으로 사용합니다. 앱 사용자는 개발자 또는 디자이너에 의해 제공되는 웹 리소스를 관리할 필요가 있습니다.  
 
 > [!TIP]
-> 웹 리소스에 대한 자세한 내용은 [개발자 설명서: 모델 기반 앱용 웹 리소스](/powerapps/developer/model-driven-apps/web-resources)를 참조하십시오.<br /> PowerApps에 추가된 웹 리소스 종속성에 대한 자세한 내용은 [개발자 설명서: 웹 리소스 종속성](/dynamics365/customer-engagement/developer/web-resources)을 참조하십시오.
+> 웹 리소스에 대한 자세한 내용은 [개발자 설명서: 모델 기반 앱용 웹 리소스](/powerapps/developer/model-driven-apps/web-resources)를 참조하십시오.<br /> Power Apps에 추가된 웹 리소스 종속성에 대한 자세한 내용은 [개발자 설명서: 웹 리소스 종속성](/dynamics365/customer-engagement/developer/web-resources)을 참조하십시오.
    
 <a name="BKMK_WhatAreWebResources"></a>
 

@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 대시보드에 포함된 모델 기반 앱 차트 또는 목록의 속성 설정 | MicrosoftDocs
+title: Power Apps에서 대시보드에 포함된 모델 기반 앱 차트 또는 목록의 속성 설정 | MicrosoftDocs
 description: 대시보드에 포함된 차트 또는 목록의 속성을 설정하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/06/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b284b42c162c44d59fc7af22905be08748d9c766
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 46861b569be4140ca2ac66d016285930c5d9fc31
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2711174"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862847"
 ---
 # <a name="set-properties-for-a-model-driven-app-chart-or-list-included-in-a-dashboard"></a>대시보드에 포함된 모델 기반 앱 차트 또는 목록의 속성 설정
 

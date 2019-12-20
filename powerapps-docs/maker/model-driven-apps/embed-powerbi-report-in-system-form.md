@@ -23,15 +23,15 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3d1ea2b05abb592ec6d2925e813cd213b5b7492a
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 5ea6ed1011ce9d21c78adf6beed9a2943c9f4cd0
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2706158"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860462"
 ---
 # <a name="embed-a-power-bi-report-in-a-model-driven-system-form"></a>모델 기반 시스템 양식에 Power BI 보고서 포함
-PowerApps 모델 기반 앱에서 Power BI 보고서를 사용하여 다양한 보고 및 분석을 시스템 양식으로 가져오고 사용자가 더 많은 것을 수행할 수 있도록 권한을 부여할 수 있습니다. 이를 통해 시스템 전체의 데이터를 집계하고 단일 레코드의 컨텍스트에 맞게 조정할 수 있습니다.
+Power Apps 모델 기반 앱에서 Power BI 보고서를 사용하여 다양한 보고 및 분석을 시스템 양식으로 가져오고 사용자가 더 많은 것을 수행할 수 있도록 권한을 부여할 수 있습니다. 이를 통해 시스템 전체의 데이터를 집계하고 단일 레코드의 컨텍스트에 맞게 조정할 수 있습니다.
  
 ## <a name="prerequisites"></a>필수 구성 요소
 Power BI 콘텐츠를 포함하는 것은 선택적 기능이며 기본적으로 모든 환경에서 비활성화됩니다. Power BI 콘텐츠를 포함하기 전에 이 기능을 활성화해야 합니다. 추가 정보: [조직에서 Power BI 시각화를 활성화합니다](https://docs.microsoft.com/dynamics365/customer-engagement/admin/use-power-bi?#enable--visualizations-in-the-organization).
@@ -127,14 +127,14 @@ XML의 `<sections>` 블록 내에 다음 코드 조각을 추가하여 시스템
     }
 ```
 
-이전 식의 대상 부분에서는 필터를 적용할 테이블과 열을 식별합니다. 연산자는 논리를 식별하고 값은 PowerApps 모델 기반 앱에서 전달된 데이터를 식별합니다. 일반적인 방식으로 매개 변수화하려면 값은 별칭으로 구성됩니다. 이전 식에서 거래처의 **firstname** 및 **lastname** 값이 전달되고, 그 중 하나가 Power BI 보고서의 **거래처 이름** 열에서 검색됩니다. **firstname** 및 **lastname**은 해당 값이 여기에 전달되는 거래처 엔터티의 고유 특성 이름입니다. 
+이전 식의 대상 부분에서는 필터를 적용할 테이블과 열을 식별합니다. 연산자는 논리를 식별하고 값은 Power Apps 모델 기반 앱에서 전달된 데이터를 식별합니다. 일반적인 방식으로 매개 변수화하려면 값은 별칭으로 구성됩니다. 이전 식에서 거래처의 **firstname** 및 **lastname** 값이 전달되고, 그 중 하나가 Power BI 보고서의 **거래처 이름** 열에서 검색됩니다. **firstname** 및 **lastname**은 해당 값이 여기에 전달되는 거래처 엔터티의 고유 특성 이름입니다. 
 
 [필터 구성](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#contructingfilters)에서 예제를 보고 $schema 및 filterType에 대한 적절한 값을 제공하여 보다 복잡한 필터 식을 만들 수 있습니다. JSON이 올바르게 생성되도록 *\"* 를 사용하여 필터 파트의 모든 리터럴을 이스케이프해야 합니다.
 
 ## <a name="known-issues-and-limitations"></a>알려진 문제 및 제한 사항
 1. 이 통합은 지원되는 웹 브라우저 및 모바일 장치에서 통합 인터페이스 클라이언트에서만 사용할 수 있습니다.
-2. PowerApps 양식 디자이너에서 이 양식을 열면 의미 있는 방식으로 컨트롤을 표시하지 않습니다. 이는 컨트롤이 양식 디자이너 외부에서 사용자 지정되었기 때문입니다.
-3. 사용자는 PowerApps 사용자 이름 및 암호를 사용하여 Power BI에 자동으로 인증됩니다. 자격 증명이 일치하는 Power BI 계정이 존재하지 않는 경우 여기에 설명된 대로 로그인 프롬프트가 표시됩니다. 
+2. Power Apps 양식 디자이너에서 이 양식을 열면 의미 있는 방식으로 컨트롤을 표시하지 않습니다. 이는 컨트롤이 양식 디자이너 외부에서 사용자 지정되었기 때문입니다.
+3. 사용자는 Power Apps 사용자 이름 및 암호를 사용하여 Power BI에 자동으로 인증됩니다. 자격 증명이 일치하는 Power BI 계정이 존재하지 않는 경우 여기에 설명된 대로 로그인 프롬프트가 표시됩니다. 
 
    > [!div class="mx-imgBorder"] 
    > ![](media/embed-powerbi/embed-powerbi-report-in-system-form-auth-1.png "Embed-powerbi-report-in-system-form-auth-1")
@@ -147,13 +147,13 @@ XML의 `<sections>` 블록 내에 다음 코드 조각을 추가하여 시스템
    > [!div class="mx-imgBorder"] 
    > ![](media/embed-powerbi/embed-powerbi-report-in-system-form-auth-3.png "Embed-powerbi-report-in-system-form-auth-3")
 
-5. PowerApps 내에 표시되는 보고서 데이터의 보기는 Power BI에서와 동일하며 PowerApps 보안 역할 및 권한은 표시되는 데이터에 영향을 주지 않습니다. 따라서 데이터는 Power BI 데이터 집합의 작성자가 보는 것과 본질적으로 동일합니다. PowerApps 보안 역할 및 팀과 유사한 데이터 액세스 제한을 적용하려면 [Power BI에 RLS(행 수준 보안)](https://docs.microsoft.com/power-bi/service-admin-rls)를 사용합니다.
+5. Power Apps 내에 표시되는 보고서 데이터의 보기는 Power BI에서와 동일하며 Power Apps 보안 역할 및 권한은 표시되는 데이터에 영향을 주지 않습니다. 따라서 데이터는 Power BI 데이터 집합의 작성자가 보는 것과 본질적으로 동일합니다. Power Apps 보안 역할 및 팀과 유사한 데이터 액세스 제한을 적용하려면 [Power BI에 RLS(행 수준 보안)](https://docs.microsoft.com/power-bi/service-admin-rls)를 사용합니다.
 6. 솔루션을 가져오고 사용자 지정 항목을 게시한 후 양식에 Power BI 보고서가 표시되지 않는 경우 모델 기반 양식 편집기에서 보고서를 열고 저장하여 양식 JSON이 다시 생성되도록 합니다.
 
 
 ### <a name="see-also"></a>참조
 
-[PowerApps 모델 기반 개인 대시보드에 Power BI 대시보드 포함](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)
+[Power Apps 모델 기반 개인 대시보드에 Power BI 대시보드 포함](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)
 
 [Dynamics 365 앱에 Power BI 사용](https://docs.microsoft.com/dynamics365/customer-engagement/admin/use-power-bi)
 

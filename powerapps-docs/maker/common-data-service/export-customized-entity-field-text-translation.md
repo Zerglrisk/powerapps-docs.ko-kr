@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 변환을 위해 사용자 지정 엔터티 및 필드 텍스트 내보내기 | MicrosoftDocs
+title: Power Apps에서 변환을 위해 사용자 지정 엔터티 및 필드 텍스트 내보내기 | MicrosoftDocs
 description: 변환을 위해 엔터티 및 필드 텍스트를 내보내는 방법 알아보기
 ms.custom: ''
 ms.date: 06/19/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: f14cf61f6f09df50a4245116b23f82bd2e147ef1
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 9061b953aff67a4fa98c342f89dbc3bf20c4ff93
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2705278"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863737"
 ---
 # <a name="translate-customized-entity-and-field-text-into-other-languages"></a>사용자 지정된 엔터티 및 필드 텍스트를 다른 언어로 번역
 
@@ -42,7 +42,7 @@ ms.locfileid: "2705278"
 
 ## <a name="community-tools"></a>커뮤니티 도구
 
-[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)는 XrmToolBox 커뮤니티가 PowerApps용으로 개발한 도구입니다. Easy Translator를 사용하여 문맥 정보로 번역을 내보내고 가져옵니다. 
+[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)는 XrmToolBox 커뮤니티가 Power Apps용으로 개발한 도구입니다. Easy Translator를 사용하여 문맥 정보로 번역을 내보내고 가져옵니다. 
 
 > [!NOTE]
 > 커뮤니티 도구는 Microsoft에서 지원되지 않습니다. 도구에 대해 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)

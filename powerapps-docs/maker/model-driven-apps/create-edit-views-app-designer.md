@@ -1,5 +1,5 @@
 ---
-title: PowerApps를 사용하여 공용 또는 시스템 모델 기반 앱 보기 만들기 및 편집 | MicrosoftDocs
+title: Power Apps를 사용하여 공용 또는 시스템 모델 기반 앱 보기 만들기 및 편집 | MicrosoftDocs
 description: 앱 디자이너를 사용하여 보기를 만들거나 편집하는 방법 알아보기
 keywords: ''
 ms.date: 11/27/2018
@@ -24,18 +24,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3c3e7133076eb46718ed3f60d1df4f36a012c520
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 03bfaec424624be1094314dbae763114892d2a59
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2753897"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884876"
 ---
 # <a name="create-and-edit-public-or-system-model-driven-app-views"></a>공용 또는 시스템 모델 기반 앱 보기 만들기 및 편집
 
 이 항목에서는 공용 보기 만들기, 앱에 기존 보기 추가, 보기의 열, 필터 및 정렬 순서 변경과 같은 보기 작업에 필요한 몇 가지 작업을 수행합니다.
 
-PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 방식을 정의합니다. 보기는 다음을 정의합니다.
+Power Apps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 방식을 정의합니다. 보기는 다음을 정의합니다.
 -  표시할 열(특성)
 -  열의 너비
 -  기본적으로 레코드를 정렬하는 방법
@@ -48,9 +48,9 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 
 추가 정보: [보기 이해](create-edit-views.md)
 
-## <a name="create-a-public-view-in-powerapps"></a>PowerApps에서 공용 보기 만들기
-앱 제조업체는 PowerApps를 사용하여 공용 보기를 만들고 편집할 수 있습니다.
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+## <a name="create-a-public-view-in-power-apps"></a>Power Apps에서 공용 보기 만들기
+앱 제조업체는 Power Apps를 사용하여 공용 보기를 만들고 편집할 수 있습니다.
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
     > [!IMPORTANT]
@@ -84,7 +84,7 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 ### <a name="open-and-add-a-view-in-the-app-designer"></a>앱 디자이너에서 보기를 열고 추가합니다.
 
 다음 단계에서는 앱 디자이너에서 보기를 열고 추가하는 방법에 대해 설명합니다.
-1. PowerApps의 왼쪽 탐색 창에서 **앱**을 선택하고 원하는 앱 옆의 **...** 를 선택한 다음 **편집**을 선택합니다. 
+1. Power Apps의 왼쪽 탐색 창에서 **앱**을 선택하고 원하는 앱 옆의 **...** 를 선택한 다음 **편집**을 선택합니다. 
 
 2. 앱 디자이너 **엔터티 보기** 섹션에서 **보기**를 선택합니다.
 
@@ -181,7 +181,7 @@ PowerApps에서 보기는 특정 엔터티에 대한 레코드가 표시되는 �
 
 
 ## <a name="community-tools"></a>커뮤니티 도구
-**레이아웃 복제기 보기**및 **디자이너 보기**는 XrmToolBox 커뮤니티가 PowerApps용으로 개발한 도구입니다.
+**레이아웃 복제기 보기**및 **디자이너 보기**는 XrmToolBox 커뮤니티가 Power Apps용으로 개발한 도구입니다.
 
 추가 정보: [개발자 도구 ](/powerapps/developer/common-data-service/developer-tools).
 

@@ -6,15 +6,15 @@ manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 11/04/2019
+ms.date: 11/22/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 79e6f02f9a13f1c828efe5c472d267e707b09576
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: a53bfa0a588da16e302e6986a7226e2c1bc42192
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760720"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874349"
 ---
 # <a name="about-entity-forms"></a>엔터티 양식 정보
 
@@ -109,7 +109,7 @@ ms.locfileid: "2760720"
 |현재 포털 사용자 연결| 현재 로그인한 사용자의 레코드가 대상 엔터티 레코드와 연결됨을 나타냅니다.|
 |대상 엔터티 포털 사용자 조회 특성|    포털 사용자를 저장하는 대상 엔터티의 특성의 논리적 이름입니다.|
 |활동 당사자 여부| 대상 엔터티 포털 사용자 조회 특성이 활동 당사자 유형인지 여부를 나타내는 부울 값입니다.|
-|파일 첨부|   양식 하단에 파일 업로드 컨트롤을 포함하도록 체크하면 레코드에 파일을 첨부할 수 있습니다.|
+|파일 첨부|   양식 하단에 파일 업로드 컨트롤을 포함하도록 선택하면 레코드에 파일을 첨부할 수 있습니다. 사용자가 파일을 양식에 첨부할 수 있도록 **엔터티 권한 사용**을 선택하고 주석 엔터티에 생성, 추가 및 추가 권한을 할당해야 합니다. 추가 정보: [엔터티 권한 할당](assign-entity-permissions.md)<br>**참고**: 사용자에게 파일을 업로드할 수 있는 적절한 권한이 없거나 엔터티 권한 사용을 선택하지 않은 경우 파일 업로드 옵션이 양식에 표시되지 않습니다.|
 |첨부 파일 저장소 위치|  옵션: 메모 첨부 파일, Azure Blob 저장소. 조직이 Azure 저장소를 사용하도록 구성된 경우 이 엔터티 양식에 대한 저장소 업로드된 파일을 선택할 수 있습니다. 그렇지 않은 경우에는 메모 첨부 파일로 저장됩니다.|
 |여러 파일 허용|사용자가 파일을 두 개 이상 업로드할 수 있는지 여부를 나타내는 부울 값입니다.|
 |수락|    수락 특성은 파일 업로드 시 서버가 허용하는 MIME 유형의 파일을 지정합니다. 둘 이상의 값을 지정하려면 쉼표로 값을 구분합니다(예: 오디오/*,비디오/*,이미지/*).|

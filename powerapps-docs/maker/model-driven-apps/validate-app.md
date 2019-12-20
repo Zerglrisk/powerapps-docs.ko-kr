@@ -24,12 +24,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 2e6ae7ac84710e6558adde2949025868e6da6930
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 8195103992e14094816b0bbedfd17d6a799072a0
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2710294"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884335"
 ---
 # <a name="validate-and-publish-a-model-driven-app-using-the-app-designer"></a>앱 디자이너를 사용하여 모델 기반 앱 유효성 검사 및 게시
 
@@ -80,6 +80,6 @@ ms.locfileid: "2710294"
 > - 저장하기 전까지 앱을 게시할 수 없습니다.  
 
 ## <a name="next-steps"></a>다음 단계  
-[PowerApps에서 모델 기반 앱 공유](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app) <br/>
+[Power Apps에서 모델 기반 앱 공유](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app) <br/>
  [모바일 장치에서 모델 기반 앱 실행](https://docs.microsoft.com/powerapps/user/run-app-client-model-driven)   
  

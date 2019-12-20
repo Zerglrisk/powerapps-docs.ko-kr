@@ -1,5 +1,5 @@
 ---
-title: PowerApps 포털에서 전역 검색 | MicrosoftDocs
+title: Power Apps 포털에서 전역 검색 | MicrosoftDocs
 description: 포털에서 전역 검색이 작동하는 방식에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: da142a452e903b890b1b395262771228e245140c
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 71a06d24e628ddae508af031aa80b8a08b380905
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760702"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866714"
 ---
 # <a name="search"></a>Search
 
-PowerApps 포털에서 포털의 전역 검색 기능을 사용하여 여러 엔터티에 걸쳐 레코드를 검색할 수 있습니다. 엔터티 목록 검색 기능을 사용하여 엔터티 목록의 레코드 내에서 검색할 수도 있습니다. 
+Power Apps 포털에서 포털의 전역 검색 기능을 사용하여 여러 엔터티에 걸쳐 레코드를 검색할 수 있습니다. 엔터티 목록 검색 기능을 사용하여 엔터티 목록의 레코드 내에서 검색할 수도 있습니다. 
 
 포털의 엔터티 목록 검색 기능은 백엔드에서 FetchXML을 사용하여 엔터티 목록에 정의된 열을 검색한 다음 결과를 표시합니다. 
 
@@ -36,7 +36,7 @@ PowerApps 포털에서 포털의 전역 검색 기능을 사용하여 여러 엔
 
 전역 검색에서는 일치율이 높을수록 결과에서 높은 위치에 나타납니다. 검색어에 상호 근접성이 높은 단어가 더 많을 경우 일치 항목의 관련성이 높은 것입니다. 검색어가 있는 텍스트의 양이 적을수록 관련성이 높습니다. 예를 들어 회사 이름과 주소에 검색어가 있는 경우 같은 단어가 큰 문서에 서로 멀리 떨어져 있는 경우보다 일치율이 높을 수 있습니다. 결과가 단일 목록으로 반환되기 때문에 레코드가 섞여 연이어 표시될 수 있으며 일치하는 작업은 강조 표시됩니다. 
 
-다음 섹션은 PowerApps 포털에서 전역 검색이 작동하는 방식에 대한 자세한 내용과 사용 가능한 다양한 구성 옵션을 설명합니다.
+다음 섹션은 Power Apps 포털에서 전역 검색이 작동하는 방식에 대한 자세한 내용과 사용 가능한 다양한 구성 옵션을 설명합니다.
 
 ## <a name="entities-searchable-in-portal-global-search"></a>포털 전역 검색에서 검색 가능한 엔터티
 
@@ -188,7 +188,7 @@ searchindex 태그를 사용하여 유동적 템플릿에서 포털 전역 검�
 
 ## <a name="update-search-index"></a>검색 색인 업데이트
 
-PowerApps 포털의 검색 색인 업데이트는 캐시 무효화와 같이 자동으로 수행됩니다. 고려해야 할 몇 가지 중요한 사항:
+Power Apps 포털의 검색 색인 업데이트는 캐시 무효화와 같이 자동으로 수행됩니다. 고려해야 할 몇 가지 중요한 사항:
 
 - 모든 검색 사용 엔터티는 변경 알림 메타데이터 플래그를 사용하도록 설정해야 하며, 그렇지 않으면 변경 내용이 포털에 알려지지 않고 검색 색인이 업데이트되지 않습니다.
 

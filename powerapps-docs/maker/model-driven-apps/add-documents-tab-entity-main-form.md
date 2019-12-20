@@ -17,12 +17,12 @@ search.audienceType:
 - customizer
 search.app:
 - D365CE
-ms.openlocfilehash: d8a81b531f43f3e252f2df348b8ae95551e068d4
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: f245d4c2a9272d10f7aefa2b2847adba5ce0f6e5
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702814"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860814"
 ---
 # <a name="add-the-sharepoint-documents-tab-to-the-main-form-for-an-entity"></a>엔터티의 기본 양식에 SharePoint 문서 탭 추가
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
@@ -35,7 +35,7 @@ ms.locfileid: "2702814"
 > 이 기능을 사용하려면 문서 관리를 사용해야 합니다. 추가 정보: [SharePoint를 사용하여 문서 관리](/dynamics365/customer-engagement/admin/manage-documents-using-sharepoint)
 
 ## <a name="add-the-documents-tab-in-the-formxml"></a>FormXML에 문서 탭 추가 
-1.  새 솔루션을 만듭니다. PowerApps에 로그인하고 **솔루션**으로 이동하여 **새 솔루션**을 선택하고 필수 및 선택적 정보를 입력하십시오. 추가 정보: [솔루션 만들기](../common-data-service/create-solution.md)
+1.  새 솔루션을 만듭니다. Power Apps에 로그인하고 **솔루션**으로 이동하여 **새 솔루션**을 선택하고 필수 및 선택적 정보를 입력하십시오. 추가 정보: [솔루션 만들기](../common-data-service/create-solution.md)
 2. 기본 양식의 문서 탭을 추가할 솔루션에 엔터티를 추가하십시오. 모든 표준 및 사용자 지정 엔터티가 지원됩니다. 추가 정보: [솔루션에 기존 구성 요소 추가](/powerapps/maker/common-data-service/use-solution-explorer#add-an-existing-component-to-a-solution)
 3. 거래처 엔터티의 기본 양식과 같이 솔루션에 엔터티의 양식을 포함시킵니다. 엔터티 옆에서 **...** 를 선택한 다음 **편집**을 선택합니다. **양식** 탭을 선택합니다. 원하는 양식이 없으면 추가하십시오.   
 
@@ -45,7 +45,7 @@ ms.locfileid: "2702814"
 5. 양식 디자이너에서 양식 디자이너 캔버스의 **새 탭**을 선택하고 **필드 추가**를 선택한 다음 왼쪽 창에서 *주소 1: 도시* 같은 필드를 추가하십시오. 탭에 텍스트 또는 숫자 필드를 사용할 수 있습니다. ![탭에 필드 추가](media/add-field-to-tab.png)
 6. 탭 레이블의 이름을 변경합니다. 이렇게 하려면 **새 탭**을 선택하고 오른쪽 속성 창에서 **새 탭**의 이름을 *파일*과 같이 더 잘 설명하는 이름으로 바꿉니다.
 7. **저장**을 선택하고 **게시**를 선택한 다음 양식 디자이너를 닫습니다. 
-8. PowerApps 제조업체 홈 페이지에서 **솔루션**을 선택하고, 해당 솔루션을 선택하고, **내보내기**를 선택하여 관리되지 않는 솔루션으로 솔루션을 내보냅니다. 추가 정보: [솔루션 내보내기](../common-data-service/import-update-export-solutions.md#export-solutions) 
+8. Power Apps 제조업체 홈 페이지에서 **솔루션**을 선택하고, 해당 솔루션을 선택하고, **내보내기**를 선택하여 관리되지 않는 솔루션으로 솔루션을 내보냅니다. 추가 정보: [솔루션 내보내기](../common-data-service/import-update-export-solutions.md#export-solutions) 
 9. 솔루션을 추출하고 XML 또는 텍스트 편집기로 customization.xml 파일을 여십시오. 
 10. customization.xml에서 **label description = "파일"**(또는 이전 단계에서 지정한 탭 레이블의 이름).
 11. **control id="address1_city"** 와 같이 control id="*field name*" 요소로 스크롤을 내려 전체 요소를 이 항목의 [XML 샘플](#xml-sample-for-adding-the-documents-tab-to-a-form)로 교체합니다. 

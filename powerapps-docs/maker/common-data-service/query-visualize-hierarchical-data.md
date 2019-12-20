@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 계층적 데이터 쿼리 및 시각화 | MicrosoftDocs
+title: Power Apps의 계층적 데이터 쿼리 및 시각화 | MicrosoftDocs
 description: 계층적 관련 데이터 쿼리 및 시각화 방법 알아보기
 ms.custom: ''
 ms.date: 06/20/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 563c773bd2bec365a3459097e4c4e8428d624c00
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: d3d0a6123927b6901a0ff2a27d981333847a8d9d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755274"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870035"
 ---
 # <a name="query-and-visualize-hierarchically-related-data"></a>계층적으로 관련된 데이터를 쿼리하고 가시화하기
 

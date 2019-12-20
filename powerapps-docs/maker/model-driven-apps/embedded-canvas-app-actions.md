@@ -16,18 +16,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 0f6ec9122582f338ac23143149c6f59ea63e456f
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: a7298400d87c4b1230e8d893e72e0116641509af
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2706114"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2868518"
 ---
 # <a name="perform-predefined-actions-on-the-host-model-driven-form-from-within-an-embedded-canvas-app"></a>포함된 캔버스 앱 내에서 호스트 모델 기반 양식에 대한 미리 정의된 작업 수행
 포함된 캔버스 앱은 호스트 모델 기반 양식에 대한 미리 정의된 작업을 수행하는 기능을 제공합니다. 이러한 작업을 통해 제조업체는 호스트 모델 기반 양식을 탐색하고, 새로 고치고, 저장할 수 있습니다. 이러한 작업을 사용하면 포함된 캔버스 앱이 모델 기반 양식과 모델 기반 앱의 더 중요한 부분으로 작용할 수 있습니다.  
@@ -99,4 +99,4 @@ RefreshForm 메서드를 호출하면 다음과 같은 오류 메시지가 표�
 [ModelDrivenFormIntegration 컨트롤의 속성 및 동작](embedded-canvas-app-properties-actions.md) <br />
 [포함된 캔버스 앱 공유](share-embedded-canvas-app.md) <br />
 [포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md) <br />
-[공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />
+[공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />

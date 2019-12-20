@@ -1,5 +1,5 @@
 ---
-title: 공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션 | MicrosoftDocs
+title: 공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션 | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/25/2019
 ms.reviewer: ''
@@ -15,31 +15,31 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e53f4b1cfd01225285fb50626aa9ace3b804d9c2
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: bc836669289ae6349d8e22eabe22f53c4dd6fd14
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756923"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884789"
 ---
-# <a name="migrate-embedded-canvas-apps-on-model-driven-forms-created-using-the-public-preview-release"></a>공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션
+# <a name="migrate-embedded-canvas-apps-on-model-driven-forms-created-using-the-public-preview-release"></a>공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션
 > [!IMPORTANT]
-> 최신 버전에서는 일반적으로 모델 기반 양식에 포함된 캔버스 앱을 사용할 수 있습니다. 공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식의 모든 포함된 캔버스 앱은 최신 버전을 사용하여 만든 새로운 포함된 캔버스 앱으로 마이그레이션해야 합니다.
-> 공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 앱에 대한 지원은 곧 더 이상 사용되지 않을 예정입니다. 
+> 최신 버전에서는 일반적으로 모델 기반 양식에 포함된 캔버스 앱을 사용할 수 있습니다. 공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식의 모든 포함된 캔버스 앱은 최신 버전을 사용하여 만든 새로운 포함된 캔버스 앱으로 마이그레이션해야 합니다.
+> 공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 앱에 대한 지원은 곧 더 이상 사용되지 않을 예정입니다. 
 
 공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에서 최신 버전으로 포함된 캔버스 앱을 마이그레이션하려면 제조업체는 먼저 최신 버전을 사용하여 새로운 포함된 캔버스 앱을 만들어야 합니다. 제조업체는 기존의 포함된 캔버스 앱에서 새 캔버스 캔버스 앱으로 컨트롤을 복사하고, 필요한 데이터 소스를 추가하고, 연결이 끊어진 참조가 있는 경우 이를 업데이트할 수 있습니다. 자세한 단계는 아래에 나와 있습니다.
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
-2. PowerApps Studio에서 편집을 위해 공개 미리 보기를 사용하여 만든 포함된 캔버스 앱을 엽니다. 캔버스 앱을 편집하는 단계는 [캔버스 앱 편집](../canvas-apps/edit-app.md)을 참조하십시오.
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+2. Power Apps Studio에서 편집을 위해 공개 미리 보기를 사용하여 만든 포함된 캔버스 앱을 엽니다. 캔버스 앱을 편집하는 단계는 [캔버스 앱 편집](../canvas-apps/edit-app.md)을 참조하십시오.
 3. 새 브라우저 탭에서 [모델 기반 양식에 새로운 포함된 캔버스 앱을 추가하는 단계](embedded-canvas-app-add-classic-designer.md)를 따르십시오.
 4. 공개 미리 보기 릴리스를 사용하여 만든 포함된 캔버스 앱의 컨트롤을 아래의 단계를 사용하여 한 번에 한 화면씩 새로 포함된 캔버스 앱에 복사합니다.
-    1. 2단계에서 공개 미리 보기 릴리스를 사용하여 만든 캔버스 앱이 포함된 브라우저 탭을 선택하고 PowerApps Studio에서 엽니다.
+    1. 2단계에서 공개 미리 보기 릴리스를 사용하여 만든 캔버스 앱이 포함된 브라우저 탭을 선택하고 Power Apps Studio에서 엽니다.
     2. 컨트롤을 복사할 화면을 선택합니다.
     3. **Ctrl + A**를 사용하여 화면의 모든 컨트롤을 선택합니다.
     4. **Ctrl + C**를 사용하여 선택한 모든 컨트롤을 복사합니다.
@@ -63,7 +63,7 @@ ms.locfileid: "2756923"
 현재(기본 양식) 레코드와 관련된 레코드 목록을 사용하는 모델 기반 양식에서 포함된 캔버스 앱을 마이그레이션하려면 다음 단계를 따르십시오.
 
 1. 위 섹션의 단계에 따라 공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 앱을 최신 버전으로 마이그레이션할 수 있습니다.
-2. Common Data Service 커넥터를 사용하여 관련 엔터티의 데이터 소스를 앱에 추가합니다. 캔버스 앱에서 데이터 원본을 추가하는 방법은 [PowerApps의 캔버스 앱에 데이터 연결 추가](../canvas-apps/add-data-connection.md)를 참조하십시오.
+2. Common Data Service 커넥터를 사용하여 관련 엔터티의 데이터 소스를 앱에 추가합니다. 캔버스 앱에서 데이터 원본을 추가하는 방법은 [Power Apps의 캔버스 앱에 데이터 연결 추가](../canvas-apps/add-data-connection.md)를 참조하십시오.
 3. [갤러리](../canvas-apps/controls/control-gallery.md) 또는 [데이터 테이블](../canvas-apps/controls/control-data-table.md)과 같은 컨트롤에 관련 엔터티의 데이터 원본을 사용하는 경우 **[필터](../canvas-apps/functions/function-filter-lookup.md)** 함수를 사용하여 현재(기본 양식) 레코드와 관련된 레코드로 레코드를 필터링합니다. 현재(기본 양식) 레코드는 **ModelDrivenFormIntegration.Item**을 통해 사용할 수 있습니다.
     > [!NOTE]
     > 포함된 캔버스 앱은 ModelDrivenFormIntegration.Item을 통해 호스트 모델 기반 양식에서 레코드에 대한 완벽한 액세스 권한을 갖습니다. 예를 들어 이름이 **accountnumber**이고 표시 이름이 **거래처 번호**인 필드의 값을 가져오려면 **ModelDrivenFormIntegration.Item.accountnumber** 또는 **ModelDrivenFormIntegration.Item.'Account Number'** 를 사용할 수 있습니다.

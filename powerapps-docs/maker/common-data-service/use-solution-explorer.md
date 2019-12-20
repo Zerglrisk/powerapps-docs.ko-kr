@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 솔루션 사용 | MicrosoftDocs
+title: Power Apps에서 솔루션 사용 | MicrosoftDocs
 description: 솔루션을 사용하여 앱을 만들거나 사용자 지정하는 방법 알아보기
 ms.custom: ''
 ms.date: 10/28/2019
@@ -16,22 +16,22 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 57df12285848d67a8cd85016aec0bbb033fef89a
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: e4d8b6b69ab820541b822fc58ce5c079df7b5b19
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2703166"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885337"
 ---
-# <a name="use-solutions-in-powerapps"></a>PowerApps에서 솔루션 사용
+# <a name="use-solutions-in-power-apps"></a>Power Apps에서 솔루션 사용
 
- PowerApps 내의 왼쪽 탐색에서 **솔루션**을 선택하여 솔루션 목록을 볼 수 있습니다. 그런 다음 솔루션을 선택하여 모든 구성 요소를 볼 수 있습니다. 
+ Power Apps 내의 왼쪽 탐색에서 **솔루션**을 선택하여 솔루션 목록을 볼 수 있습니다. 그런 다음 솔루션을 선택하여 모든 구성 요소를 볼 수 있습니다. 
  
 > [!div class="mx-imgBorder"]  
 > ![모든 구성 요소가 포함된 데모 솔루션](media/solution-all-items-list.PNG "모든 구성 요소가 포함된 데모 솔루션")  
  
 > [!NOTE]
->  솔루션 환경은 온라인 환경 및 환경 버전 9.1.0.267 이상에서만 사용할 수 있습니다. 버전을 확인하려면 [PowerApps 관리 센터](https://admin.powerapps.com/)> **환경**으로 이동하여 환경을 선택하고 **세부 정보** 탭을 선택합니다. 이전 버전 환경의 경우 솔루션을 선택하면 기본 환경에서 열립니다.  
+>  솔루션 환경은 온라인 환경 및 환경 버전 9.1.0.267 이상에서만 사용할 수 있습니다. 버전을 확인하려면 [Power Apps 관리 센터](https://admin.powerapps.com/)> **환경**으로 이동하여 환경을 선택하고 **세부 정보** 탭을 선택합니다. 이전 버전 환경의 경우 솔루션을 선택하면 기본 환경에서 열립니다.  
  
  항목을 스크롤하여 솔루션의 모든 구성 요소를 탐색할 수 있습니다. 목록에 100개 이상의 항목이 있는 경우 추가 항목을 보려면 **다음 100개 항목 로드**를 선택할 수 있습니다. 
  
@@ -87,7 +87,7 @@ ms.locfileid: "2703166"
 
 ## <a name="classic-solution-explorer"></a>기본 솔루션 탐색기
 
-PowerApps의 왼쪽 탐색 창에서 **솔루션**을 선택한 다음 명령 모음에서 **클래식으로 전환**을 선택하여 클래식 솔루션 탐색기를 볼 수 있습니다. 기본 솔루션 탐색기는 PowerApps의 **설정 > 고급 사용자 지정** 영역을 통해 이전에 사용할 수 있었던 항목입니다. 
+Power Apps의 왼쪽 탐색 창에서 **솔루션**을 선택한 다음 명령 모음에서 **클래식으로 전환**을 선택하여 클래식 솔루션 탐색기를 볼 수 있습니다. 기본 솔루션 탐색기는 Power Apps의 **설정 > 고급 사용자 지정** 영역을 통해 이전에 사용할 수 있었던 항목입니다. 
 
 ## <a name="known-limitations"></a>알려진 제한 사항
 
@@ -98,7 +98,7 @@ PowerApps의 왼쪽 탐색 창에서 **솔루션**을 선택한 다음 명령 �
 - 연결에는 인증 및 동의가 필요하며 대화식 사용자 세션이 필요하므로 솔루션을 통해 전송할 수 없습니다. 솔루션을 가져온 후 앱을 재생하여 연결을 인증하십시오. 솔루션을 가져오기 전에 대상 환경에서 연결을 생성할 수도 있습니다. 
 -   Azure Active Directory(AAD) 보안 그룹의 공동 담당자로 공유된 캔버스 앱은 솔루션에 추가할 수 없습니다. 솔루션에 앱을 추가하기 전에 앱의 공유를 해제하십시오.
 -   기본 솔루션 탐색기에 캔버스 앱이 표시되지 않습니다. 최신 환경을 사용하십시오.
--   캔버스 앱 액세스(CRUD 및 보안)는 PowerApps에서 전적으로 관리되고 Common Data Service 데이터베이스에서 관리되지 않습니다.
+-   캔버스 앱 액세스(CRUD 및 보안)는 Power Apps에서 전적으로 관리되고 Common Data Service 데이터베이스에서 관리되지 않습니다.
 - 캔버스 앱 및 흐름에는 백업, 복원 및 복사와 같은 데이터베이스 작업이 지원되지 않습니다. 이러한 작업으로 인해 캔버스 앱과 흐름이 손상될 수 있습니다.
 - 관리형 솔루션을 삭제해도 다른 캔버스 앱 버전으로 롤백되지 않습니다. 대신, 모든 버전의 앱이 삭제됩니다.
 - 흐름이 포함된 솔루션을 가져와도 필요한 연결이 자동으로 생성되거나 연결되지는 않습니다. 연결을 수정하려면 흐름을 편집해야 합니다.

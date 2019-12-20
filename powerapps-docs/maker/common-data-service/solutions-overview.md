@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 솔루션 작업 | MicrosoftDocs
+title: Power Apps에서 솔루션 작업 | MicrosoftDocs
 description: 솔루션 배포 방법 알아보기
 ms.custom: ''
 ms.date: 09/30/2019
@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 391220159917462833afac204183cdc68a94f898
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 286d955bfa0e6b28061d6a73962da25156820c9a
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759035"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870123"
 ---
 # <a name="solutions-overview"></a>솔루션 개요  
 
-  PowerApps에서 솔루션을 활용하여 한 환경에서 다른 환경의 앱 및 구성 요소를 전송하거나 기존 앱에 사용자 지정 집합을 적용합니다. 솔루션에는 사이트 맵, 엔터티, 프로세스, 웹 리소스, 옵션 집합 등과 같은 다른 구성 요소뿐만 아니라 하나 이상의 앱이 포함될 수 있습니다.  [AppSource](https://appsource.microsoft.com/) 또는 ISV(독립 소프트웨어 공급업체)로부터 솔루션을 얻을 수 있습니다.
+  Power Apps에서 솔루션을 활용하여 한 환경에서 다른 환경의 앱 및 구성 요소를 전송하거나 기존 앱에 사용자 지정 집합을 적용합니다. 솔루션에는 사이트 맵, 엔터티, 프로세스, 웹 리소스, 옵션 집합 등과 같은 다른 구성 요소뿐만 아니라 하나 이상의 앱이 포함될 수 있습니다.  [AppSource](https://appsource.microsoft.com/) 또는 ISV(독립 소프트웨어 공급업체)로부터 솔루션을 얻을 수 있습니다.
   
 추가 정보: [백서: 솔루션 수명 주기 관리](https://www.microsoft.com/download/details.aspx?id=57777)  
   

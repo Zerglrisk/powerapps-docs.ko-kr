@@ -15,18 +15,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 4d0b13a43f595c5b9bae7b9a8146b7ccb2b8308d
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 758a7d2ce925526e5c0e7062f1e5134ac519e9eb
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2703870"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2868254"
 ---
 # <a name="add-and-configure-a-quick-view-component-on-a-form"></a>양식에 빠른 보기 구성 요소 추가 또는 구성  
 레코드 세부 사항을 표시하는 기본 양식은 빠른 보기 구성 요소를 사용하여 관련 레코드(조회)의 읽기 전용 세부 정보를 표시할 수 있습니다. 빠른 보기 구성 요소에 의해 표시되는 데이터는 관련 엔터티의 빠른 보기 양식에 의해 정의됩니다. 조회와 같은 관련 레코드가 없으면 빠른 보기 구성 요소가 자동으로 숨겨집니다.

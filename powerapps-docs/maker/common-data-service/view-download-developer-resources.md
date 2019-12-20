@@ -1,6 +1,6 @@
 ---
-title: PowerApps 및 Common Data Service용 개발자 리소스 보기 또는 다운로드 | MicrosoftDocs
-description: PowerApps 및 Common Data Service 개발자 리소스 및 서비스 끝점 URL 찾기
+title: Power Apps 및 Common Data Service용 개발자 리소스 보기 또는 다운로드 | MicrosoftDocs
+description: Power Apps 및 Common Data Service 개발자 리소스 및 서비스 끝점 URL 찾기
 keywords: ''
 ms.date: 09/25/2019
 ms.service: powerapps
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: ae293843c38e7077580effd1c7670762cec91e1e
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 4cb1670334f676af1a6ddcb1e90ba47240ed46a4
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2700438"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869574"
 ---
 # <a name="view-or-download-developer-resources"></a>개발자 리소스 보기 또는 다운로드
 
@@ -31,7 +31,7 @@ ms.locfileid: "2700438"
 
 ## <a name="view-the-developer-resources-page-for-your-environment"></a>사용자 환경에 대한 개발자 리소스 페이지 보기
 
-1. PowerApps 포털에서 ![설정 단추](../../administrator/media/settings-button-nav-bar.png) 설정 단추를 선택하고 **고급 사용자 지정**을 선택합니다.
+1. Power Apps 포털에서 ![설정 단추](../../administrator/media/settings-button-nav-bar.png) 설정 단추를 선택하고 **고급 사용자 지정**을 선택합니다.
 
     ![고급 사용자 지정](media/advanced-customizations-menu.png)
 
@@ -44,11 +44,11 @@ ms.locfileid: "2700438"
 
 |링크 |설명|
 |---------|---------|
-|[개발자 센터](https://go.microsoft.com/fwlink/?LinkId=551006).|PowerApps 및 Common Data Service에 대한 개발자 문서를 보려면 여기에서 시작하십시오.|
-|[PowerApps 커뮤니티/포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)|PowerApps커뮤니티에서 질문하고 답변하십시오.|
+|[개발자 센터](https://go.microsoft.com/fwlink/?LinkId=551006).|Power Apps 및 Common Data Service에 대한 개발자 문서를 보려면 여기에서 시작하십시오.|
+|[Power Apps 커뮤니티/포럼](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)|Power Apps커뮤니티에서 질문하고 답변하십시오.|
 |[NuGetPackages(패키지)](https://www.nuget.org/profiles/crmsdk)|NuGet 패키지를 검색하여 프로젝트에 SDK 어셈블리를 추가합니다.|
 |[다운로드 도구](/powerapps/developer/common-data-service/download-tools-nuget)|필요한 도구는 NuGet에서 다운로드할 수 있습니다. 이 페이지에서 PowerShell 스크립트를 사용하여 최신 버전을 가져올 수 있습니다.|
-|[샘플 코드](https://go.microsoft.com/fwlink/?LinkId=553007)|PowerApps 샘플이 있는 GitHub 리포지토리.|
+|[샘플 코드](https://go.microsoft.com/fwlink/?LinkId=553007)|Power Apps 샘플이 있는 GitHub 리포지토리.|
 |[개발자 개요](https://go.microsoft.com/fwlink/?LinkId=550995)|개발자를 위한 개요를 제공하는 항목에 연결합니다.|
 
 ## <a name="connect-your-apps-to-this-instance-of-common-data-service"></a>Common Data Service의 이 인스턴스에 앱 연결

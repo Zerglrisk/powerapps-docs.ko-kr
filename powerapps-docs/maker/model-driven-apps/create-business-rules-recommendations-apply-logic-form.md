@@ -17,18 +17,18 @@ author: Mattp123
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3937b56ea5ed9aa03085f48de8f4846328d6e836
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: eff15d356b1ec37e0a2528f11b73d7ee99ea5af1
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2700570"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863343"
 ---
 # <a name="create-business-rules-and-recommendations-to-apply-logic-in-a-model-driven-app-form"></a>비즈니스 규칙 및 추천을 만들어 모델 기반 앱 양식의 논리에 적용
 

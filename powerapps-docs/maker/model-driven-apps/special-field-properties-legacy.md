@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 기본 양식에 대한 모델 기반 앱 특수 필드 속성 | MicrosoftDocs
+title: Power Apps의 기본 양식에 대한 모델 기반 앱 특수 필드 속성 | MicrosoftDocs
 description: 기본 양식에 대한 특수 필드 속성 이해
 Keywords: 기본 양식; 특수 필드 속성; Dynamics 365
 author: Mattp123
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: ad0fbb1208e612ba43d0a8c074ac62fab0000c2f
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: c98cc09bc0b7e9754af44e6602c35f4e32b382c3
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2711042"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2865101"
 ---
 # <a name="overview-of-model-driven-app-special-field-properties"></a>모델 기반 앱 특수 필드 속성 개요
 

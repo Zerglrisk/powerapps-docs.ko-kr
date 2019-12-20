@@ -15,18 +15,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: c357649ba68e6bce1b9df51d9601507c337afd31
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 3d35a73f02a1df1e3d5fd51f422b2b24263f53b5
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2752470"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875625"
 ---
 # <a name="create-edit-or-configure-forms-using-the-form-designer"></a>양식 디자이너를 사용하여 양식 만들기, 편집 또는 구성 
 새 양식 디자이너를 사용하여 모델 기반 앱에 대한 양식을 만들고, 편집하거나, 구성합니다. 
@@ -35,7 +35,7 @@ ms.locfileid: "2752470"
 > 새 모델 기반 양식 디자이너는 현재 카드 양식 편집을 지원하지 않습니다. 추가 정보: [양식 유형](types-forms.md)
 
 ## <a name="create-a-form"></a>양식 만들기 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2. 왼쪽 탐색 창에서 **데이터**를 확장하고 **엔터티**를 선택합니다. 
 3. 거래처 엔터티 같은 엔터티를 선택한 다음 **양식** 탭을 선택합니다. 
 4. **양식 추가**를 선택하고 다음 중 하나를 선택합니다.
@@ -46,7 +46,7 @@ ms.locfileid: "2752470"
 5. 양식을 변경한 후 **저장**을 선택하여 양식을 저장하거나 변경 사항을 저장하고 앱 사용자에게 표시하려면 **게시**를 선택합니다.  
 
 ## <a name="edit-a-form"></a>양식 편집 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2. 왼쪽 탐색 창에서 **데이터**를 확장하고 **엔터티**를 선택합니다. 
 3. 거래처 엔터티 같은 엔터티를 선택한 다음 **양식** 탭을 선택합니다.
 4. 편집할 양식 이름을 선택합니다.  

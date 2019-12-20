@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 보기에 대한 모델 기반 앱 관리 속성 | MicrosoftDocs
+title: Power Apps에서 보기에 대한 모델 기반 앱 관리 속성 | MicrosoftDocs
 description: 보기의 관리 속성을 설정하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/12/2018
@@ -22,18 +22,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b99fe00731066a4ee0f029bdba09c7eab9d8d67b
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 335084ee98cdfe82382eac775d068a62c9a429d9
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702990"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860022"
 ---
 # <a name="model-driven-app-managed-properties-for-views"></a>보기에 대한 모델 기반 앱 관리 속성
 
 <a name="BKMK_ManagedProperties"></a>   
  
- 배포할 관리형 솔루션에 포함하려는 사용자 지정 공용 보기를 PowerApps에서 만들 경우 보기를 사용자 지정하여 해당 솔루션을 설치하는 사용자의 기능을 제한하는 옵션이 있습니다.  
+ 배포할 관리형 솔루션에 포함하려는 사용자 지정 공용 보기를 Power Apps에서 만들 경우 보기를 사용자 지정하여 해당 솔루션을 설치하는 사용자의 기능을 제한하는 옵션이 있습니다.  
   
  기본적으로 대부분의 보기에는 **사용자 지정 가능** 관리 속성이 참으로 설정되어 있어 다른 사용자가 이를 사용자 지정할 수 있습니다. 이를 변경할 적합한 이유가 없는 한 앱에서 보기를 다른 사용자가 사용자 지정할 수 있도록 하는 것이 좋습니다.  
   

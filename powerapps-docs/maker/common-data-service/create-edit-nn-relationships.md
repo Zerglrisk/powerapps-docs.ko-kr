@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 90658adac8f04ea131968816a6004b4789ff42e4
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 907a1147630cc779e6c1af7be2486548f1907c5a
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757771"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2865764"
 ---
 # <a name="create-many-to-many-entity-relationships-overview"></a>다대다 엔터티 관계 만들기 개요
 
@@ -43,7 +43,7 @@ ms.locfileid: "2757771"
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)|
+|[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [Power Apps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)|
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />추가 정보: [솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md) |
 
 > [!NOTE]
@@ -53,7 +53,7 @@ ms.locfileid: "2757771"
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 
-다음 요구 사항 중 하나를 해결해야 하는 경우가 아니면 PowerApps 포털을 사용하여 다대다(N:N) 엔터티 관계를 만들고 편집해야 합니다.
+다음 요구 사항 중 하나를 해결해야 하는 경우가 아니면 Power Apps 포털을 사용하여 다대다(N:N) 엔터티 관계를 만들고 편집해야 합니다.
 
 - 모델 기반 앱에 대한 탐색 창 옵션을 구성합니다.
 - 모델 기반 앱의 상세하게 찾기에서 관계를 숨깁니다.
@@ -61,7 +61,7 @@ ms.locfileid: "2757771"
 ## <a name="see-also"></a>참조
 
 [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)<br />
-[PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)<br />
+[Power Apps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)<br />
 [솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)<br />
 [개발자 설명서: 엔터티 관계 메타데이터 사용자 지정](https://docs.microsoft.com/dynamics365/customer-engagement/developer/customize-entity-relationship-metadata)<br />
 [개발자 설명서: 엔터티 관계 자격](https://docs.microsoft.com/dynamics365/customer-engagement/developer/entity-relationship-eligibility)

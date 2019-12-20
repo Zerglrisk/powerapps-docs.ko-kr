@@ -14,21 +14,21 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: aba6196680d674b8ee42096e340a105b19ac8d07
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 847d132ba3d7ac3e928014fa61b04e0cb8a0ec7b
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2752382"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885184"
 ---
 # <a name="add-reporting-features-to-your-model-driven-app"></a>모델 기반 앱에 보고 기능 추가
 
-PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 보고서를 포함할 수 있습니다. 이러한 보고서는 SQL Server Reporting Services를 기반으로 하며 일반적인 SQL Server Reporting Services 보고서에서 사용할 수 있는 기능과 동일한 기능을 제공합니다.
+Power Apps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 보고서를 포함할 수 있습니다. 이러한 보고서는 SQL Server Reporting Services를 기반으로 하며 일반적인 SQL Server Reporting Services 보고서에서 사용할 수 있는 기능과 동일한 기능을 제공합니다.
 
 > [!div class="mx-imgBorder"] 
 > ![](media/progress-against-goals-report.png "Progress against goals standard report")
 
-시스템 보고서는 모든 사용자가 사용할 수 있는 반면, 보고서를 만들거나 소유한 개별 사용자는 특정 동료 또는 팀과 공유하거나 조직의 모든 사용자가 실행할 수 있도록 제공합니다. 이러한 보고서는 Common Data Service 고유의 FetchXML 쿼리를 사용하며 데이터를 검색하여 보고서를 빌드합니다. PowerApps 앱에서 작성한 보고서는 Fetch 기반 보고서입니다.
+시스템 보고서는 모든 사용자가 사용할 수 있는 반면, 보고서를 만들거나 소유한 개별 사용자는 특정 동료 또는 팀과 공유하거나 조직의 모든 사용자가 실행할 수 있도록 제공합니다. 이러한 보고서는 Common Data Service 고유의 FetchXML 쿼리를 사용하며 데이터를 검색하여 보고서를 빌드합니다. Power Apps 앱에서 작성한 보고서는 Fetch 기반 보고서입니다.
 
 > [!NOTE]
 > 태블릿 및 휴대폰과 같은 모바일 장치에서 실행되는 캔버스 앱 또는 모델 기반 앱에서는 보고서 기능이 작동하지 않습니다. 
@@ -42,7 +42,7 @@ PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 �
 ## <a name="add-reporting-to-a-unified-interface-app"></a>통합 인터페이스 앱에 보고 추가
 사용자가 보고서를 실행, 공유, 작성 및 수정할 수 있도록 Fetch 기반 보고 기능을 앱에 추가할 수 있습니다. 이렇게 하려면 앱의 사이트 맵에 보고서 항목을 추가합니다. 
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 편집을 위해 기존 앱을 엽니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 편집을 위해 기존 앱을 엽니다. 
 2. 앱 디자이너에서 **사이트 맵** 옆의 ![사이트 맵 편집을 위한 연필 아이콘](media/ccf-pencil-icon.png)을 선택합니다. 
 3. 사이트 맵 디자이너에서 **추가**를 선택한 다음 **영역**을 선택합니다. 
 4. **제목** 상자에서 *보고서* 같은 영역 제목의 이름을 입력합니다. 
@@ -74,7 +74,7 @@ PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 �
 거래처 엔터티에 대한 거래처 요약 보고서와 같은 표준 엔터티 보고서는 모든 앱 사용자가 사용할 수 있습니다. 보고서를 담당하는 사용자는 특정 동료 또는 팀과 보고서를 공유할 수 있습니다. 시스템 관리자 및 시스템 사용자 지정자는 조직 전체가 볼 수 있는 보고서를 제공하여 모든 사용자가 사용할 수 있도록 합니다. 보고서를 공유하는 방법에 대한 자세한 내용은 [다른 사용자 및 팀과 보고서 공유](../../user/work-with-reports.md#share-a-report-with-other-users-or-teams)를 참조하십시오. 
 
 ## <a name="reports-in-solutions"></a>솔루션의 보고서
-보고서는 솔루션에 따라 달라집니다. 솔루션에 보고서를 구성 요소로 추가하면 PowerApps 기능 및 사용자 인터페이스를 확장하는 단일 소프트웨어 단위가 됩니다. 조직에 표시되는 보고서만 솔루션에 추가할 수 있습니다.
+보고서는 솔루션에 따라 달라집니다. 솔루션에 보고서를 구성 요소로 추가하면 Power Apps 기능 및 사용자 인터페이스를 확장하는 단일 소프트웨어 단위가 됩니다. 조직에 표시되는 보고서만 솔루션에 추가할 수 있습니다.
 
 조직에서 볼 수 있는 보고서를 찾으려면 보고서 목록에서 모델 기반 앱을 열고 보고서를 선택한 다음 **편집**을 선택합니다. **관리** 탭에서 **볼 수 있는 대상**이 **조직**으로 설정되었는지 확인합니다. 
 
@@ -86,6 +86,6 @@ PowerApps 앱에 사용자에게 유용한 비즈니스 정보를 제공하는 �
 ## <a name="related-topics"></a>관련 항목
 [보고서 작업](/powerapps/user/work-with-reports)<br/>
 [보고서 마법사를 사용하여 보고서 만들기](/powerapps/user/create-report-with-wizard)<br/>
-[PowerApps 외부에서 보고서 추가](/powerapps/user/add-existing-report)<br/>
+[Power Apps 외부에서 보고서 추가](/powerapps/user/add-existing-report)<br/>
 [보고서의 기본 필터 편집](/powerapps/user/edit-report-filter)<br/>
 [보고서 문제 해결](/powerapps/user/troubleshoot-reports)

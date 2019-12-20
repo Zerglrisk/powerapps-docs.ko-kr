@@ -15,18 +15,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: a40b0b9e5fc64856be931a2407a451c8d27ef8ec
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: c77eeb17dfce8d98b7c573993e3096124c8a9bb6
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702374"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863868"
 ---
 # <a name="add-configure-move-or-delete-components-on-a-form"></a>양식의 구성 요소 추가, 구성, 이동 또는 삭제  
 제조업체는 양식 디자이너를 사용하여 [하위 표](form-designer-add-configure-subgrid.md), [빠른 보기](form-designer-add-configure-quickview.md), 호 노브, 선형 슬라이더 등 인기 있는 구성 요소를 쉽게 추가하고 구성할 수 있습니다.

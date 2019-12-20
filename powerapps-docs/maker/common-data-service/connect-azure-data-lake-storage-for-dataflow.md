@@ -2,7 +2,7 @@
 title: 데이터 흐름 저장소에 Azure Data Lake Storage Gen2 연결 | MicrosoftDocs
 description: 데이터 흐름 저장소에 Azure Data Lake Storage Gen2를 연결하는 방법 알아보기
 ms.custom: ''
-ms.date: 09/05/2019
+ms.date: 12/05/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -23,18 +23,19 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: d7957f048613045a64af0caf5696e540dbb8f883
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 313e33760a2bc3daf0ac645a8b99d3be22455675
+ms.sourcegitcommit: 64d816a759c5cc6343928d56a673812c3ea066c2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2754790"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2895159"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>데이터 흐름 저장소에 Azure Data Lake Storage Gen2 연결
 
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
-
 조직의 Azure Data Lake Storage Gen2 계정에 데이터를 저장하도록 데이터 흐름을 구성할 수 있습니다. 이 문서에서는 이를 수행하는 데 필요한 일반적인 단계를 설명하고 그 과정에서 지침과 모범 사례를 제공합니다. 
+
+> [!IMPORTANT]
+> 분석 엔터티가 포함된 데이터 흐름 기능은 다양한 수준의 규정 준수, 개인 정보 보호, 보안 및 데이터 위치 약속을 제공할 수 있는 데이터 레이크로 내보내기 서비스를 사용합니다. **데이터 레이크로 내보내기**서비스에 대한 자세한 내용은 [블로그 문서](https://go.microsoft.com/fwlink/?linkid=2109088)를 참조하세요.
 
 데이터 레이크에 정의 및 데이터 파일을 저장하도록 데이터 흐름을 구성하면 다음과 같은 이점이 있습니다.
 - Azure Data Lake Storage Gen2는 데이터를 위한 확장성이 뛰어난 스토리지 기능을 제공합니다.
@@ -43,7 +44,7 @@ ms.locfileid: "2754790"
 
 ## <a name="requirements"></a>요구 사항
 데이터 흐름에 Azure Data Lake Storage Gen2를 사용하려면 다음이 필요합니다.
-- PowerApps 환경. 모든 PowerApps 플랜을 통해 Azure Data Lake Storage Gen2가 있는 데이터 흐름을 대상으로 만들 수 있습니다. 환경에서 제조업체로서 권한을 부여받아야 합니다. 
+- Power Apps 환경. 모든 Power Apps 플랜을 통해 Azure Data Lake Storage Gen2가 있는 데이터 흐름을 대상으로 만들 수 있습니다. 환경에서 제조업체로서 권한을 부여받아야 합니다. 
 - Azure 구독. Azure Data Lake Storage Gen2를 사용하려면 Azure 구독이 필요합니다.
 - 리소스 그룹. 이미 보유한 리소스 그룹을 사용하거나 새로 작성하십시오.
 - Azure Storage 계정. 저장소 계정에는 Data Lake Storage Gen2 기능이 활성화되어 있어야 합니다.
@@ -53,8 +54,8 @@ ms.locfileid: "2754790"
 
 ## <a name="prepare-your-azure-data-lake-storage-gen2-for-power-platform-dataflows"></a>Power Platform 데이터 흐름용 Azure Data Lake Storage Gen2 준비
 Azure Data Lake Storage Gen2 계정으로 환경을 구성하기 전에 저장소 계정을 만들고 구성해야 합니다. Power Platform 데이터 흐름의 요구 사항은 다음과 같습니다.
-1.  저장소 계정은 PowerApps 테넌트와 동일한 Azure Active Directory 테넌트에서 만들어야 합니다.
-2.  저장소 계정은 사용하려는 PowerApps 환경과 동일한 지역에서 생성하는 것이 좋습니다. PowerApps 환경의 위치를 확인하려면 환경 관리자에게 문의하십시오.
+1.  저장소 계정은 Power Apps 테넌트와 동일한 Azure Active Directory 테넌트에서 만들어야 합니다.
+2.  저장소 계정은 사용하려는 Power Apps 환경과 동일한 지역에서 생성하는 것이 좋습니다. Power Apps 환경의 위치를 확인하려면 환경 관리자에게 문의하십시오.
 3.  저장소 계정에는 계층적 네임스페이스 기능이 활성화되어 있어야 합니다.
 4.  저장소 계정에 대한 담당자 역할이 부여되어야 합니다.
 
@@ -66,14 +67,14 @@ Azure Data Lake Storage Gen2 계정으로 환경을 구성하기 전에 저장�
 2.  계층적 네임스페이스 기능을 활성화해야 합니다. 
 3.  복제 설정을 RA-GRS(읽기 액세스 지역 중복 저장소)로 설정하는 것이 좋습니다.
 
-## <a name="connect-your-azure-data-lake-storage-gen2-to-powerapps"></a>PowerApps에 Azure Data Lake Storage Gen2 연결
-Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면 이를 특정 데이터 흐름 또는 PowerApps 환경에 연결할 수 있습니다. 레이크를 환경에 연결하면 환경의 다른 제조업체와 관리자가 조직의 레이크에 데이터를 저장하는 데이터 흐름을 만들 수 있습니다. 
+## <a name="connect-your-azure-data-lake-storage-gen2-to-power-apps"></a>Power Apps에 Azure Data Lake Storage Gen2 연결
+Azure Portal에서 Azure Data Lake Storage Gen2 계정을 설정했으면 이를 특정 데이터 흐름 또는 Power Apps 환경에 연결할 수 있습니다. 레이크를 환경에 연결하면 환경의 다른 제조업체와 관리자가 조직의 레이크에 데이터를 저장하는 데이터 흐름을 만들 수 있습니다. 
 
 Azure Data Lake Storage Gen2 계정을 데이터 흐름에 연결하려면 다음 단계를 따르십시오.
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하여 어떤 환경에 있는지 확인하십시오. 환경 전환기는 헤더의 오른쪽에 있습니다. 
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하여 어떤 환경에 있는지 확인하십시오. 환경 전환기는 헤더의 오른쪽에 있습니다. 
 2. 왼쪽 탐색 창에서 **데이터** 옆에 있는 아래쪽 화살표를 선택하십시오.
 
-   ![PowerApps 제조업체 포털 데이터 탭](media/powerapps-portal-data.png)
+   ![Power Apps 제조업체 포털 데이터 탭](media/powerapps-portal-data.png)
 
 3. 나타나는 목록에서 **데이터 흐름**을 선택한 다음 명령 모음에서 **새 데이터 흐름**을 선택합니다.
 
@@ -110,6 +111,11 @@ Azure Data Lake Storage Gen2 계정을 데이터 흐름에 연결하려면 다�
 > [!IMPORTANT]
 > 조직의 레이크에서 데이터 흐름으로 생성된 파일을 변경하거나 데이터 흐름의 **CDM 폴더**에 파일을 추가해서는 안 됩니다. 파일을 변경하면 데이터 흐름이 손상되거나 동작이 변경될 수 있으며 지원되지 않습니다. Power Platform 데이터 흐름은 레이크에서 생성된 파일에 대한 읽기 권한만 부여합니다. 다른 사람이나 서비스에 Power Platform 데이터 흐름에서 사용하는 파일 시스템에 대한 권한을 부여한 경우 해당 파일 시스템의 파일 또는 폴더에 대한 읽기 권한만 부여하게 됩니다.
 
+## <a name="privacy-notice"></a>개인 정보 취급 방침
+**데이터 레이크로 내보내기** 서비스를 통해 조직의 분석 엔터티로 데이터 흐름 만들기를 사용하면 저장소 계정 이름 등의 Azure Data Lake Storage 계정에 대한 정보는 데이터 레이크로 내보내기 서비스로 전송되어 저장됩니다. 이는 현재 PowerApps 규정 준수 경계 밖에 위치하며, PowerApps에서 일반적인 수준보다 덜 엄격하거나 다른 개인 정보 및 보안 조치를 적용할 수 있습니다. 이 기능의 사용을 중단하기 위해 언제든지 데이터 레이크 연결을 제거할 수 있으며 Azure Data Lake Storage 계정 세부 정보는 **데이터 레이크로 내보내기** 서비스에서 제거됩니다.
+데이터 레이크로 내보내기에 대한 자세한 내용은 [이 문서](https://go.microsoft.com/fwlink/?linkid=2109088)를 참조하세요.
+
+
 ## <a name="frequently-asked-questions"></a>질문과 대답
 *이전에 조직의 Azure Data Lake Storage Gen2에 데이터 흐름을 생성했으며 저장소 위치를 변경하고자 하면 어떻게 됩니까?*
 
@@ -124,7 +130,7 @@ Azure Data Lake Storage Gen2 계정을 데이터 흐름에 연결하려면 다�
 
 데이터 흐름, Common Data Model 및 Azure Data Lake Storage Gen2에 대한 자세한 내용은 다음 문서를 참조하십시오.
 - [데이터 흐름을 통한 셀프 서비스 데이터 준비](https://go.microsoft.com/fwlink/?linkid=2099972)
-- [PowerApps에서 데이터 흐름 만들기 및 사용](https://go.microsoft.com/fwlink/?linkid=2100076)
+- [Power Apps에서 데이터 흐름 만들기 및 사용](https://go.microsoft.com/fwlink/?linkid=2100076)
 - [데이터 흐름 저장소에 Azure Data Lake Storage Gen2 연결](https://go.microsoft.com/fwlink/?linkid=2099973)
 - [Common Data Service에서 엔터티에 데이터 추가](https://go.microsoft.com/fwlink/?linkid=2100075)
 
@@ -136,4 +142,4 @@ Common Data Model에 대한 자세한 내용은 다음 문서를 참조하십시
 - [Common Data Model 폴더](https://go.microsoft.com/fwlink/?linkid=2045304)
 - [CDM 모델 파일 정의](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-[PowerApps 커뮤니티](https://go.microsoft.com/fwlink/?linkid=2099971)에서 질문하고 답변할 수 있습니다.
+[Power Apps 커뮤니티](https://go.microsoft.com/fwlink/?linkid=2099971)에서 질문하고 답변할 수 있습니다.

@@ -1,6 +1,6 @@
 ---
 title: 솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집 | MicrosoftDocs
-description: PowerApps 솔루션 탐색기를 사용하여 일대다 또는 다대일 엔터티 관계를 만들고 편집하는 방법 알아보기
+description: Power Apps 솔루션 탐색기를 사용하여 일대다 또는 다대일 엔터티 관계를 만들고 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 10/28/2018
 ms.reviewer: ''
@@ -20,20 +20,20 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3488b8228841f7b5323daee972472884e7c873d8
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 2c40ea1fc52849290135e04274fed5c5e0c9232f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758155"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866230"
 ---
 # <a name="create-and-edit-1n-one-to-many-or-n1-many-to-one-entity-relationships-using-solution-explorer"></a>솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집 
 
 솔루션 탐색기를 통해 Common Data Service에 대한 1: N(일대다) 또는 N:1(다대일) 엔터티 관계를 만들고 편집할 수 있습니다.
 
-[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. 추가 정보: 
+[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. 추가 정보: 
 - [1:N(일대다) 또는 N:1(다대일) 관계 만들기](create-edit-1n-relationships.md)
-- [PowerApps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)
+- [Power Apps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)
   
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
 
@@ -235,6 +235,6 @@ ms.locfileid: "2758155"
 
 [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)<br />
 [1:N(일대다) 또는 N:1(다대일) 관계 만들기 및 편집](create-edit-1n-relationships.md)<br />
-[PowerApps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)<br />
+[Power Apps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)<br />
 [N:N(다대다) 관계 만들기](create-edit-nn-relationships.md)
 

@@ -1,6 +1,6 @@
 ---
-title: PowerApps 포털 관리 센터 개요 | MicrosoftDocs
-description: PowerApps 포털 관리 센터에 대한 정보.
+title: Power Apps 포털 관리 센터 개요 | MicrosoftDocs
+description: Power Apps 포털 관리 센터에 대한 정보.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
@@ -9,20 +9,20 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 6f8434a6a395931fc4edfe02913f47536b4a709d
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 0996704ccbc10f81b95c41d86234ca626a33a345
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756175"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867414"
 ---
-# <a name="powerapps-portals-admin-center"></a>PowerApps 포털 관리 센터
+# <a name="power-apps-portals-admin-center"></a>Power Apps 포털 관리 센터
 
-PowerApps 포털 관리 센터를 통해 포털에서 고급 관리 조치를 수행할 수 있습니다. 포털이 성공적으로 프로비저닝되면 관리 센터를 사용할 수 있습니다.
+Power Apps 포털 관리 센터를 통해 포털에서 고급 관리 조치를 수행할 수 있습니다. 포털이 성공적으로 프로비저닝되면 관리 센터를 사용할 수 있습니다.
 
-## <a name="open-powerapps-portals-admin-center"></a>PowerApps 포털 관리 센터 열기
+## <a name="open-power-apps-portals-admin-center"></a>Power Apps 포털 관리 센터 열기
 
-1. PowerApps 홈 페이지에서 **최근 앱** 섹션으로 이동하여 포털을 찾으십시오.
+1. Power Apps 홈 페이지에서 **최근 앱** 섹션으로 이동하여 포털을 찾으십시오.
 
     > [!div class=mx-imgBorder]
     > ![최근 앱](../media/recent-apps.png "최근 앱")  
@@ -41,7 +41,7 @@ PowerApps 포털 관리 센터를 통해 포털에서 고급 관리 조치를 �
 
 전역 관리자가 아니면서 이미 프로비된 포털을 관리하려고 하거나 이에 실패한 경우 프로비전을 다시 제출하려고 하면 포털에 연결된 Azure Active Directory(Azure AD 응용 프로그램의 담당자여야 합니다.
 
-1. PowerApps 포털 관리 센터로 이동하여 **포털 세부 정보** 탭을 엽니다.
+1. Power Apps 포털 관리 센터로 이동하여 **포털 세부 정보** 탭을 엽니다.
 
 2. **응용 프로그램 ID** 필드에서 값을 복사합니다.
 
@@ -57,4 +57,4 @@ PowerApps 포털 관리 센터를 통해 포털에서 고급 관리 조치를 �
     > [!Note]
     > 이 작업은 조직의 전역 관리자 또는 이 응용 프로그램의 기존 담당자가 수행할 수 있습니다.
 
-6. 자신을 담당자로 추가한 후 PowerApps 포털 관리 센터 페이지를 다시 엽니다.
+6. 자신을 담당자로 추가한 후 Power Apps 포털 관리 센터 페이지를 다시 엽니다.

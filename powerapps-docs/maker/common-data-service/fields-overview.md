@@ -1,6 +1,6 @@
 ---
-title: PowerApps의 필드 개요 | MicrosoftDocs
-description: PowerApps 포털의 필드에 대해 알아보기
+title: Power Apps의 필드 개요 | MicrosoftDocs
+description: Power Apps 포털의 필드에 대해 알아보기
 ms.custom: ''
 ms.date: 07/25/2018
 ms.reviewer: ''
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 24d92eaad2468d7537d3091e8bef0ca8ef7f6903
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: c6b729731c34930cef8123d052dcfbc4b7508833
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2701626"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861034"
 ---
 # <a name="fields-overview"></a>필드 개요
 

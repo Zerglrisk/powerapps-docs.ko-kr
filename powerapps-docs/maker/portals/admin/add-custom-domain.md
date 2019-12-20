@@ -9,18 +9,18 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: cd015b656c90ec2707f3654e02b4e1a5ef65e7d2
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: c36a077233a83b6246634cfc456d51deec14cf40
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756835"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867381"
 ---
 # <a name="add-a-custom-domain-name"></a>사용자 지정 도메인 이름 추가
 
 사용자 정의 도메인으로 귀하의 고객이 지원 리소스를 보다 쉽게 찾을 수 있게 되어 귀하의 브랜드를 강화할 수 있습니다. 포털에는 사용자 정의 도메인 이름을 하나만 추가할 수 있습니다. 포털을 구축하고 도메인 이름을 획득하고 나면 사용자 지정 호스트 이름을 설정하기 위해 SSL 인증서가 필요합니다. 도메인에 대한 SSL 인증서를 사용하여 마법사로 사용자 정의 도메인으로 포털을 연결할 수 있습니다.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 작업** > **사용자 지정 도메인 이름 추가**로 이동합니다. SSL 인증서를 선택하기 위한 마법사가 열립니다.
 

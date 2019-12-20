@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 03b3db348ff88b7fd2c5e89e2b94a7d16a1fee17
-ms.sourcegitcommit: bcaffcb3135251ea3c2e828f8b59926d19520bec
+ms.openlocfilehash: 20a64e12abc70e8c1b636ab5412e2a951b5ad612
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2761823"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869222"
 ---
 # <a name="checklist-unified-interface-transition"></a>검사 목록: 통합 인터페이스 전환
 
@@ -35,9 +35,9 @@ ms.locfileid: "2761823"
 
 - Dynamics 365 Project Service Automation
 
-## <a name="run-the-powerapps-solution-checker-on-your-solutions"></a>솔루션에서 PowerApps 솔루션 검사기 실행
+## <a name="run-the-power-apps-solution-checker-on-your-solutions"></a>솔루션에서 Power Apps 솔루션 검사기 실행
 
-[PowerApps 솔루션 검사기](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker)는 모범 사례 규칙 세트에 따라 솔루션에 대해 풍부한 정적 분석 검사를 수행하여 이러한 문제 패턴을 신속하게 식별합니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
+[Power Apps 솔루션 검사기](https://docs.microsoft.com/powerapps/maker/common-data-service/use-powerapps-checker)는 모범 사례 규칙 세트에 따라 솔루션에 대해 풍부한 정적 분석 검사를 수행하여 이러한 문제 패턴을 신속하게 식별합니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
 
 솔루션 검사에서 이러한 솔루션 구성 요소를 분석합니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "2761823"
 
 ## <a name="identify-replacements-for-deprecated-client-api-code-and-features"></a>더 이상 사용되지 않는 클라이언트 API 코드 및 기능에 대한 대체 경로 파악
 
-**PowerApps 솔루션 검사기**의 출력 및 더 이상 사용되지 않는 클라이언트 API 및 기능에 있는 [중요한 변경 사항(더 이상 사용되지 않음)](https://docs.microsoft.com/power-platform/important-changes-coming)에 포함된 정보를 기반으로 통합 인터페이스 프로젝트에서 수정하거나 교체해야 하는 사용자 지정 및 기능에 대해 잘 이해하고 있어야 합니다.
+**Power Apps 솔루션 검사기**의 출력 및 더 이상 사용되지 않는 클라이언트 API 및 기능에 있는 [중요한 변경 사항(더 이상 사용되지 않음)](https://docs.microsoft.com/power-platform/important-changes-coming)에 포함된 정보를 기반으로 통합 인터페이스 프로젝트에서 수정하거나 교체해야 하는 사용자 지정 및 기능에 대해 잘 이해하고 있어야 합니다.
 
 주의해야 할 가장 일반적인 영역은 다음과 같습니다.
 
@@ -129,7 +129,7 @@ ms.locfileid: "2761823"
 
 ### <a name="what-are-model-driven-apps"></a>모델 기반 앱이란 무엇입니까?
 
-**모델 기반 앱**은 PowerApps를 사용하여 만들 수 있는 앱 유형입니다. 이를 통해 조직에서의 역할에 따라 사용자에게 맞춤형 경험을 제공할 수 있습니다. 예를 들어, 영업 직원은 동일한 환경의 데이터를 사용하더라도 서로 다른 모델 기반 앱을 통해 고객 지원 담당자와는 완전히 다른 경험을 가질 수 있습니다. Common Data Service 환경에서 여러 모델 기반 앱을 만들 수 있습니다. 추가 정보: [모델 기반 앱이란 무엇입니까?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
+**모델 기반 앱**은 Power Apps를 사용하여 만들 수 있는 앱 유형입니다. 이를 통해 조직에서의 역할에 따라 사용자에게 맞춤형 경험을 제공할 수 있습니다. 예를 들어, 영업 직원은 동일한 환경의 데이터를 사용하더라도 서로 다른 모델 기반 앱을 통해 고객 지원 담당자와는 완전히 다른 경험을 가질 수 있습니다. Common Data Service 환경에서 여러 모델 기반 앱을 만들 수 있습니다. 추가 정보: [모델 기반 앱이란 무엇입니까?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)
 
 위에 나열된 Dynamics 365 자사 앱은 모델 기반 앱의 예입니다.
 
@@ -203,7 +203,7 @@ ms.locfileid: "2761823"
 
 -   양식에서 **참조 패널**을 활용하여 여러 보기, 빠른 보기, 참조 자료 검색 기능을 한곳에 묶을 수 있습니다.
 
--   [PowerApps Component Framework](https://docs.microsoft.com/powerapps/developer/component-framework/overview)를 활용하여 더 많은 사용자 지정 컨트롤을 추가합니다. 커뮤니티나 파트너 및 ISV로부터 일부를 얻을 수 있습니다.
+-   [Power Apps Component Framework](https://docs.microsoft.com/powerapps/developer/component-framework/overview)를 활용하여 더 많은 사용자 지정 컨트롤을 추가합니다. 커뮤니티나 파트너 및 ISV로부터 일부를 얻을 수 있습니다.
 
 -   양식에 [캔버스 앱](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)을 포함하여 애플리케이션을 쉽게 확장할 수 있습니다. 사용자 지정 HTML/JS 웹 리소스를 개발할 필요 없이 코드 없는 또는 거의 없는 앱 확장이 가능합니다.
 

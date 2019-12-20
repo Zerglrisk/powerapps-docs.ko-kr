@@ -1,6 +1,6 @@
 ---
-title: PowerApps 포털을 사용하여 일대다 또는 다대일 엔터티 관계 만들기 및 편집 | MicrosoftDocs
-description: PowerApps 포털을 사용하여 일대다 또는 다대일 엔터티 관계를 만들고 편집하는 방법 알아보기
+title: Power Apps 포털을 사용하여 일대다 또는 다대일 엔터티 관계 만들기 및 편집 | MicrosoftDocs
+description: Power Apps 포털을 사용하여 일대다 또는 다대일 엔터티 관계를 만들고 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/11/2018
 ms.reviewer: ''
@@ -20,16 +20,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 70f48af48b2a9221029735de484b555bc03a66c4
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 27f90d74025718eafca642040e40835530177c91
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756527"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861566"
 ---
-# <a name="create-and-edit-one-to-many-or-many-to-one-entity-relationships-using-powerapps-portal"></a>PowerApps 포털을 사용하여 일대다 또는 다대일 엔터티 관계 만들기 및 편집
+# <a name="create-and-edit-one-to-many-or-many-to-one-entity-relationships-using-power-apps-portal"></a>Power Apps 포털을 사용하여 일대다 또는 다대일 엔터티 관계 만들기 및 편집
 
-[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 통해 Common Data Service에 대한 1: N(일대다) 또는 N:1(다대일) 관계를 쉽게 만들고 편집할 수 있습니다.
+[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 통해 Common Data Service에 대한 1: N(일대다) 또는 N:1(다대일) 관계를 쉽게 만들고 편집할 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. 추가 정보: 
 - [1:N(일대다) 또는 N:1(다대일) 관계 만들기 및 편집](create-edit-1n-relationships.md)
@@ -37,7 +37,7 @@ ms.locfileid: "2756527"
 
 ## <a name="view-entity-relationships"></a>엔터티 관계를 봅니다.
 
-1. [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
+1. [Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
 2. **데이터** > **엔터티**를 선택하고 보려는 관계가 있는 엔터티를 선택합니다.
 3. **관계** 탭을 선택한 상태에서 다음 보기를 선택할 수 있습니다. 
 

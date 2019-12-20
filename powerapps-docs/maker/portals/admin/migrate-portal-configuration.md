@@ -6,15 +6,15 @@ manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 10/07/2019
+ms.date: 11/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 0aa057594b500c7019a4d645c70cafcfff183608
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 80f9cc89b0da2eec5d134f282507e68658e42a96
+ms.sourcegitcommit: 01fefd7a06bf5d6509acd0bb54ea6479208cbbc8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755999"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2816390"
 ---
 # <a name="migrate-portal-configuration"></a>포털 구성 마이그레이션
 
@@ -29,11 +29,16 @@ ms.locfileid: "2755999"
 > - 구성 마이그레이션을 위한 스키마 파일에서 지원하는 포털의 최소 솔루션 버전은 8.4.0.275입니다. 그러나 최신 솔루션 버전을 사용하는 것이 좋습니다.
 
 스키마 파일은 다음 포털 유형에 사용할 수 있습니다.
-- [커뮤니티 포털](https://go.microsoft.com/fwlink/p/?linkid=2019704)
-- [고객 셀프 서비스 포털](https://go.microsoft.com/fwlink/p/?linkid=2019705)
-- [파트너 포털](https://go.microsoft.com/fwlink/p/?linkid=2019803)
-- [직원 셀프 서비스 포털](https://go.microsoft.com/fwlink/p/?linkid=2019802)
-- [사용자 지정 포털](https://go.microsoft.com/fwlink/p/?linkid=2019804)
+
+- **Common Data Service가 있는 환경에서 만든 포털**
+    - [사용자 지정 포털(빈 포털)](https://go.microsoft.com/fwlink/p/?linkid=2110477)
+
+- **Dynamics 365의 모델 기반 앱이 포함된 환경에서 만든 포털**
+    - [사용자 지정 포털(빈 포털)](https://go.microsoft.com/fwlink/p/?linkid=2019804)
+    - [커뮤니티 포털](https://go.microsoft.com/fwlink/p/?linkid=2019704)
+    - [고객 셀프 서비스 포털](https://go.microsoft.com/fwlink/p/?linkid=2019705)
+    - [파트너 포털](https://go.microsoft.com/fwlink/p/?linkid=2019803)
+    - [직원 셀프 서비스 포털](https://go.microsoft.com/fwlink/p/?linkid=2019802)
 
 기본 스키마 파일에는 포털 엔터티, 관계 및 각 엔터티에 대한 고유성 정의에 대한 정보가 포함되어 있습니다. 추가 정보: [포털 구성 데이터 내보내기](#export-portal-configuration-data)
 

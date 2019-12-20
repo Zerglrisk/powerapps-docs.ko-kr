@@ -15,25 +15,25 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: d6881aaa3a55f16324e5d995e70be1e186a816bf
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: d229edaec03642c594eb8057927fcf44beadf7c5
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759387"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872788"
 ---
 # <a name="add-an-embedded-canvas-app-on-a-model-driven-form"></a>모델 기반 양식에 포함된 캔버스 앱 추가
 이 항목에서는 모델 기반 양식에 새 캔버스 앱을 포함하는 방법에 대해 설명합니다.
 
 새 캔버스 앱을 만들고 거래처 엔터티의 기본 양식에 포함한다고 가정해 보겠습니다. 이렇게 하려면 다음 단계를 수행합니다. 
 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 2.  엔터티의 [기본 양식 만들기 또는 편집](create-and-edit-forms.md), 이 예에서 거래처 엔터티. 
 3.  명령 모음에서 **클래식으로 전환**을 선택하여 기본 양식 디자이너의 양식을 엽니 다.
 4.  기본 양식 디자이너에서 양식에서 포함된 캔버스 앱을 표시할 섹션을 선택합니다.
@@ -50,10 +50,10 @@ ms.locfileid: "2759387"
          - 이 속성이 변경 가능하게 표시되더라도 포함된 캔버스 앱에는 영향을 주지 않습니다. 이는 참조로만 제공되는 것입니다.
      - **앱 ID** 속성은 포함된 캔버스 앱의 ID를 지정합니다. 캔버스 앱을 만들 때 자동으로 생성되어 채워집니다.
          - **앱 ID** 값을 변경하면 모델 기반 양식에서 포함된 캔버스 앱으로의 링크가 끊어집니다.
-12. **사용자 지정**을 선택하여 캔버스 앱을 만들거나 편집합니다. 그러면 새 탭에 PowerApps Studio가 열립니다.
+12. **사용자 지정**을 선택하여 캔버스 앱을 만들거나 편집합니다. 그러면 새 탭에 Power Apps Studio가 열립니다.
        > [!NOTE]
-       > 웹 브라우저 팝업 차단기로 인해 PowerApps Studio를 여는 것이 차단된 경우 make.powerapps.com 사이트를 사용하도록 설정하거나 일시적으로 팝업 차단을 해제한 다음 **사용자 지정**을 다시 선택해야 합니다.
-13. PowerApps Studio에서 왼쪽 창에 특별한 **ModelDrivenFormIntegration** 컨트롤이 있음을 알 수 있습니다. 이 컨트롤은 호스트 모델 기반 양식에서 포함된 캔버스 앱으로 컨텍스트 데이터를 가져오는 역할을 합니다.
+       > 웹 브라우저 팝업 차단기로 인해 Power Apps Studio를 여는 것이 차단된 경우 make.powerapps.com 사이트를 사용하도록 설정하거나 일시적으로 팝업 차단을 해제한 다음 **사용자 지정**을 다시 선택해야 합니다.
+13. Power Apps Studio에서 왼쪽 창에 특별한 **ModelDrivenFormIntegration** 컨트롤이 있음을 알 수 있습니다. 이 컨트롤은 호스트 모델 기반 양식에서 포함된 캔버스 앱으로 컨텍스트 데이터를 가져오는 역할을 합니다.
 14. [캔버스 앱 양식 컨트롤](../canvas-apps/controls/control-form-detail.md)이 포함된 캔버스 앱에 자동으로 추가되었으며 ModelDrivenFormIntegration 컨트롤을 통해 호스트 모델 기반 양식에서 전달된 데이터를 표시합니다. 
 15. **보기** 탭을 선택한 다음, **데이터 원본**을 선택합니다. 호스트 모델 기반 양식의 상위 엔터티(이 경우 거래처)의 데이터 원본이 포함된 캔버스 앱에 자동으로 추가되었음을 알 수 있습니다.
 16. **Form1** 컨트롤을 선택하고 **DataSource** 속성이 **Accounts**로 설정되어 있는지 확인합니다.
@@ -69,7 +69,7 @@ ms.locfileid: "2759387"
 22. 메뉴에서 **뒤로**를 선택합니다.
 23. 기본 양식 디자이너가 열려 있는 브라우저 탭을 선택합니다. 캔버스 앱 컨트롤의 **앱 ID** 속성에 이제 자동으로 채워진 값이 있는지 관찰합니다.
     > [!NOTE]
-    > - 양식 디자이너에는 이전 단계의 다른 브라우저 탭에서 열린 PowerApps Studio와의 직접 링크가 있습니다.
+    > - 양식 디자이너에는 이전 단계의 다른 브라우저 탭에서 열린 Power Apps Studio와의 직접 링크가 있습니다.
     > - 양식 디자이너는 앱 ID 보내기를 수신 대기합니다. 
     > - 앱을 저장하면 앱 ID가 양식 디자이너로 보내집니다.
 24. **필드 속성** 대화 상자에서 **표시** 탭을 선택합니다.
@@ -91,4 +91,4 @@ ms.locfileid: "2759387"
 [ModelDrivenFormIntegration 컨트롤의 속성 및 동작](embedded-canvas-app-properties-actions.md) <br />
 [포함된 캔버스 앱 공유](share-embedded-canvas-app.md) <br />
 [포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md) <br />
-[공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />
+[공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />

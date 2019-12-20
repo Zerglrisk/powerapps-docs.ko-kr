@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 롤업 필드 정의 | MicrosoftDocs
+title: Power Apps의 롤업 필드 정의 | MicrosoftDocs
 description: 롤업 필드를 정의하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/23/2018
@@ -22,18 +22,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 9691912bab995fac0b3489580aaa1fef82f9dcc8
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: e0c254635d6d51ee037ef7865f4b67b72710f319
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758639"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863999"
 ---
 # <a name="define-rollup-fields-that-aggregate-values"></a>값을 집계하는 롤업 필드 정의
 
 롤업 필드는 사용자가 주요 비즈니스 메트릭을 모니터링하여 데이터에 대한 통찰력을 얻을 수 있도록 지원합니다. 롤업 필드는 지정된 레코드와 관련된 레코드를 통해 계산되는 누적 값을 포함합니다. 여기에는 전자 메일 및 약속과 같은 일반 엔터티와 활동 엔터티가 포함됩니다.
 
-더 복잡한 시나리오에서는 레코드의 계층 구조를 통해 데이터를 집계할 수 있습니다. 관리자나 사용자 지정자는 코드를 작성할 필요 없이 PowerApps의 사용자 지정 도구를 사용하여 롤업 필드를 정의할 수 있습니다.  
+더 복잡한 시나리오에서는 레코드의 계층 구조를 통해 데이터를 집계할 수 있습니다. 관리자나 사용자 지정자는 코드를 작성할 필요 없이 Power Apps의 사용자 지정 도구를 사용하여 롤업 필드를 정의할 수 있습니다.  
   
 <a name="BKMK_benefitsandcapabilities"></a> 
  

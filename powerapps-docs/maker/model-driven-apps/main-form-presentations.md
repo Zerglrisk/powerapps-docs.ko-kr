@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 모델 기반 앱 기본 양식 프레젠테이션 | MicrosoftDocs
+title: Power Apps의 모델 기반 앱 기본 양식 프레젠테이션 | MicrosoftDocs
 description: 다른 장치에 표시될 때 기본 양식이 나타나는 방법 알아보기
 ms.custom: ''
 ms.date: 06/27/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 9ed031f75235cfb47a2206de0a814fb008a335bd
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 03eca0ade83c4d241eca9e4f7a6004232aac2b87
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702550"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860110"
 ---
 # <a name="how-model-driven-app-main-forms-appear-on-different-devices"></a>모델 기반 앱 기본 양식이 여러 장치에 표시되는 방식
 

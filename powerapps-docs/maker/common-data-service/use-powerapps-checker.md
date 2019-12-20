@@ -1,5 +1,5 @@
 ---
-title: 솔루션 검사기를 사용하여 PowerApps에서 앱의 유효성 검사 | Microsoft Docs
+title: 솔루션 검사기를 사용하여 Power Apps에서 앱의 유효성 검사 | Microsoft Docs
 description: 솔루션 검사기를 사용하여 솔루션의 유효성을 검사합니다.
 author: Mattp123
 manager: kvivek
@@ -13,14 +13,14 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: c42dfe260fd77f40cd3046f754177838b17eefc2
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: e9a3fb0c291678c5c571895c900bfde10a7f42ed
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758872"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885381"
 ---
-# <a name="use-solution-checker-to-validate-your-model-driven-apps-in-powerapps"></a>솔루션 검사기를 사용하여 PowerApps에서 모델 기반 앱의 유효성 검사
+# <a name="use-solution-checker-to-validate-your-model-driven-apps-in-power-apps"></a>솔루션 검사기를 사용하여 Power Apps에서 모델 기반 앱의 유효성 검사
 
 복잡한 비즈니스 요구 사항을 제공하기 위해 모델 기반 앱 제작자는 종종 Common Data Service 플랫폼을 사용자 지정하고 확장하는 고도의 솔루션으로 끝날 수 있습니다. 고급 구현에서는 성능, 안정성 및 안정성 문제가 도입되어 사용자 환경에 부정적인 영향을 줄 수 있는 위험이 증가합니다. 이러한 문제를 해결하는 방법을 확인하고 이해하는 것은 복잡하고 시간이 많이 걸릴 수 있습니다. 솔루션 검사 기능을 사용하면 모범 사례 규칙 세트에 따라 솔루션에 대한 풍부한 정적 분석 검사를 수행하고 이러한 문제 패턴을 신속하게 식별할 수 있습니다. 확인이 완료되면 식별된 문제, 영향을 받는 구성 요소 및 코드, 각 문제를 해결하는 방법을 설명하는 설명서에 대한 링크가 나열된 자세한 보고서를 받게 됩니다.
 
@@ -33,13 +33,13 @@ ms.locfileid: "2758872"
 솔루션 검사기는 환경에서 내보낼 수 있는 비관리형 솔루션에서 작동합니다. 
 
 > [!NOTE]
-> - 이 항목에서는 PowerApps 제조업체 포털에서 솔루션 검사기를 실행하는 방법에 대해 설명합니다. PowerShell 모듈을 사용하여 서비스와 직접 상호 작용할 수도 있습니다. Microsoft.PowerApps.Checker.PowerShell 모듈은 지원되는 버전의 온-프레미스 및 온라인 환경에서 관리되는 솔루션과 관리되지 않는 솔루션을 분석하거나 서비스를 자동화하고 빌드 및 릴리스 파이프라인에 통합하는 데 사용할 수 있습니다. 추가 정보: [Microsoft.PowerApps.Checker.PowerShell Overview]( /powershell/powerapps/overview?view=pa-ps-latest#get-started-using-the-microsoftpowerappscheckerpowershell-module) 
+> - 이 항목에서는 Power Apps 제조업체 포털에서 솔루션 검사기를 실행하는 방법에 대해 설명합니다. PowerShell 모듈을 사용하여 서비스와 직접 상호 작용할 수도 있습니다. Microsoft.PowerApps.Checker.PowerShell 모듈은 지원되는 버전의 온-프레미스 및 온라인 환경에서 관리되는 솔루션과 관리되지 않는 솔루션을 분석하거나 서비스를 자동화하고 빌드 및 릴리스 파이프라인에 통합하는 데 사용할 수 있습니다. 추가 정보: [Microsoft.PowerApps.Checker.PowerShell Overview]( /powershell/powerapps/overview?view=pa-ps-latest#get-started-using-the-microsoftpowerappscheckerpowershell-module) 
 > - 솔루션 검사기는 ECMAScript 6(2015) 이상 버전을 사용하는 JavaScript를 포함하는 솔루션에서 작동하지 않습니다. 이러한 버전 중 하나를 사용하는 JavaScript가 검색되면 웹 리소스용 JS001 구문 문제가 보고됩니다.
 
 ## <a name="enable-the-solution-checker"></a>솔루션 검사 사용
-솔루션 검사기는 모든 Common Data Service 환경에서 기본적으로 활성화되어 있습니다. **솔루션 검사기** 메뉴 항목은 PowerApps의 **솔루션** 영역에서 관리되지 않는 솔루션을 선택하면 사용할 수 있습니다. **솔루션 검사기** 메뉴에서 **실행** 옵션을 사용할 수 없는 경우 PowerApps 검사기 솔루션을 설치하여 활성화할 수 있습니다. 이를 설치하려면 다음 단계를 수행합니다.   
+솔루션 검사기는 모든 Common Data Service 환경에서 기본적으로 활성화되어 있습니다. **솔루션 검사기** 메뉴 항목은 Power Apps의 **솔루션** 영역에서 관리되지 않는 솔루션을 선택하면 사용할 수 있습니다. **솔루션 검사기** 메뉴에서 **실행** 옵션을 사용할 수 없는 경우 Power Apps 검사기 솔루션을 설치하여 활성화할 수 있습니다. 이를 설치하려면 다음 단계를 수행합니다.   
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 솔루션 검사를 사용하도록 설정하려는 Common Data Service 환경을 선택합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다.
 3. 도구 모음에서 **솔루션 검사기**를 선택하고 **설치**를 선택하여 Microsoft AppSource 페이지를 엽니다. 브라우저에서 페이지가 열리지 않도록 차단하는 경우 팝업 창을 허용해야 합니다. 
 
@@ -48,25 +48,25 @@ ms.locfileid: "2758872"
 
 4. AppSource 페이지에서 **무료 평가판**을 선택합니다. 
 
-5. 동의하면 이용 약관에 동의하고 환경을 선택하여 PowerApps 검사기 솔루션을 설치합니다. 
-6. 설치가 완료되면 PowerApps 사이트에서 **솔루션** 목록을 새로 고쳐 솔루션 검사를 사용할 수 있는지 확인합니다.  
+5. 동의하면 이용 약관에 동의하고 환경을 선택하여 Power Apps 검사기 솔루션을 설치합니다. 
+6. 설치가 완료되면 Power Apps 사이트에서 **솔루션** 목록을 새로 고쳐 솔루션 검사를 사용할 수 있는지 확인합니다.  
 7. 솔루션을 확인 하려면 솔루션 [검사를 실행](#run-the-solution-checker)합니다.
 
 
-<!-- ### Components created with the PowerApps checker
-When you install the PowerApps checker these solution specific components are created. 
+<!-- ### Components created with the Power Apps checker
+When you install the Power Apps checker these solution specific components are created. 
 - Entities: The entities that are created are required to store the results of solution analysis and the status of analysis jobs in your environment.
    - Analysis Component
    - Analysis Job
    - Analysis Result
 - System job: A system job is created so admins can remove solution analysis data from the environment. The job contains a configuration value, currently set to remove the solution analysis data after 60 days, which an administrator can override. 
 - Security Roles: Two security roles, **Export Customizations**, and **Solution Checker** are created. These roles are required to export the solution for analysis, and storing the analysis results to the entities in your environment.
-- User principle: The **PowerApps Advisor** user is created that allows the checker to authenticate with your Common Data Service environment and assign the two security roles, Export Customizations and Solution Checker. The PowerApps Advisor is an application user and does not consume a license.  -->
+- User principle: The **Power Apps Advisor** user is created that allows the checker to authenticate with your Common Data Service environment and assign the two security roles, Export Customizations and Solution Checker. The Power Apps Advisor is an application user and does not consume a license.  -->
 
 ## <a name="run-the-solution-checker"></a>솔루션 검사 실행
-환경에 PowerApps 검사기를 설치한 후에는 PowerApps의 **솔루션** 영역에서 비관리형 솔루션을 선택하면 **솔루션 검사기** 메뉴 항목을 사용할 수 있습니다. 
+환경에 Power Apps 검사기를 설치한 후에는 Power Apps의 **솔루션** 영역에서 비관리형 솔루션을 선택하면 **솔루션 검사기** 메뉴 항목을 사용할 수 있습니다. 
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2. 왼쪽 탐색 창에서 **솔루션**을 선택합니다. 
 3. 분석하려는 비관리형 솔루션 옆, **...** 을 클릭하고 **솔루션검사기**를 가리킨 다음 **실행**을 선택합니다. 
 
@@ -83,7 +83,7 @@ When you install the PowerApps checker these solution specific components are cr
     
     - 이 시간 동안 당신은 **실행을 알 수 있습니다...** **솔루션** 목록의 **솔루션 확인** 열에서 상태를 표시합니다. 
     
-    - 확인이 완료되면 PowerApps 사이트의 **알림** 영역에 전자 메일 알림 및 알림이 표시 됩니다.  
+    - 확인이 완료되면 Power Apps 사이트의 **알림** 영역에 전자 메일 알림 및 알림이 표시 됩니다.  
 
 5.  검사가 완료 되면 [보고서를 봅니다](#review-the-solution-checker-report).
 

@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 6a471dba2f91ca869ad9ba9da46f6e02cb2a643d
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f307e84ccfae749b86b34f787716b80784c8c617
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756747"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867154"
 ---
 # <a name="set-up-power-bi-integration"></a>Power BI 통합 설정
 
-Power BI는 간단한 대화형 시각화로 통찰력을 제공하는 최상의 도구 중 하나입니다. 포털의 웹 페이지에 있는 Power BI에서 대시보드 및 보고서를 보려면 PowerApps 포털 관리 센터에서 Power BI 시각화를 사용하도록 설정해야 합니다. Power BI Embedded 서비스 통합을 활성화하여 Power BI의 새 작업 영역에서 만든 대시보드 및 보고서를 포함할 수도 있습니다.
+Power BI는 간단한 대화형 시각화로 통찰력을 제공하는 최상의 도구 중 하나입니다. 포털의 웹 페이지에 있는 Power BI에서 대시보드 및 보고서를 보려면 Power Apps 포털 관리 센터에서 Power BI 시각화를 사용하도록 설정해야 합니다. Power BI Embedded 서비스 통합을 활성화하여 Power BI의 새 작업 영역에서 만든 대시보드 및 보고서를 포함할 수도 있습니다.
 
 > [!NOTE]
 > - 적절한 Power BI 라이선스가 있어야 합니다.
@@ -28,7 +28,7 @@ Power BI는 간단한 대화형 시각화로 통찰력을 제공하는 최상의
 
 Power BI 시각화를 사용하면 powerbi 유동 태그를 통해 포털의 웹 페이지에 대시보드와 보고서를 포함할 수 있습니다.
 
-1.  [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1.  [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **Power BI 통합 설정** > **Power BI 시각화 사용**으로 이동합니다.
 
@@ -41,7 +41,7 @@ Power BI 시각화를 사용하면 powerbi 유동 태그를 통해 포털의 웹
 
 ### <a name="disable-power-bi-visualization"></a>Power BI 시각화 사용 안 함
 
-1.  [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1.  [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **Power BI 통합 설정** > **Power BI 시각화 사용 안 함**으로 이동합니다.
 
@@ -54,14 +54,14 @@ Power BI 시각화를 사용하면 powerbi 유동 태그를 통해 포털의 웹
 
 Power BI Embedded 서비스를 활성화하면 Power BI의 새 작업 영역에서 만든 대시보드 및 보고서를 포함할 수도 있습니다. 대시보드 및 보고서는 powerbi 유동 태그를 사용하여 포털의 웹 페이지에 포함됩니다.
 
-**전제 조건**: Power BI Embedded 서비스를 사용하도록 설정하기 전에 Power BI의 새 작업 영역에서 대시보드 및 보고서를 만들었는지 확인합니다. 작업 영역을 만든 후에는 전역 관리자에게 관리자 액세스 권한을 제공하여 작업 영역이 PowerApps 포털 관리 센터에 표시되도록 합니다. 새 작업 영역을 만들고 액세스 권한을 추가하는 방법에 대한 자세한 내용은 [Power BI에서 새 작업 영역 만들기](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)를 참조하십시오.
+**전제 조건**: Power BI Embedded 서비스를 사용하도록 설정하기 전에 Power BI의 새 작업 영역에서 대시보드 및 보고서를 만들었는지 확인합니다. 작업 영역을 만든 후에는 전역 관리자에게 관리자 액세스 권한을 제공하여 작업 영역이 Power Apps 포털 관리 센터에 표시되도록 합니다. 새 작업 영역을 만들고 액세스 권한을 추가하는 방법에 대한 자세한 내용은 [Power BI에서 새 작업 영역 만들기](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces)를 참조하십시오.
 
 **Power BI Embedded 서비스 제한 사항**: 제한 사항에 대한 자세한 내용은 [고려 사항 및 제한 사항](https://docs.microsoft.com/power-bi/developer/embed-service-principal#considerations-and-limitations)을 참조하십시오.
 
 > [!NOTE]
 > Powerbi 유동 태그가 작동하도록 Power BI 시각화가 사용되도록 설정되어 있는지 확인합니다.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **Power BI 통합 설정** > **Power BI Embedded 서비스 사용**으로 이동합니다.
 
@@ -111,7 +111,7 @@ Power BI Embedded 서비스 통합을 사용하도록 설정한 후에는 Azure 
 
 **2단계: 그룹 구성원 추가**
 
-**전제 조건**: 보안 그룹에 구성원을 추가하기 전에 포털의 응용 프로그램 ID가 있어야 합니다. 포털의 응용 프로그램 ID는 [PowerApps 포털 관리 센터](admin-overview.md)의 **포털 세부 정보** 탭에서 사용할 수 있습니다.
+**전제 조건**: 보안 그룹에 구성원을 추가하기 전에 포털의 응용 프로그램 ID가 있어야 합니다. 포털의 응용 프로그램 ID는 [Power Apps 포털 관리 센터](admin-overview.md)의 **포털 세부 정보** 탭에서 사용할 수 있습니다.
 
 1. 디렉터리에 대 한 전역 관리자 계정을 사용하여 [Azure 포털](https://portal.azure.com)에 로그인합니다.
 
@@ -156,7 +156,7 @@ Power BI Embedded 서비스 통합을 사용하도록 설정한 후에는 Azure 
 
 ### <a name="manage-the-power-bi-embedded-service"></a>Power BI Embedded 서비스 관리
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **Power BI 통합 설정** > **Power BI Embedded 서비스 관리**로 이동합니다.
 
@@ -175,7 +175,7 @@ Power BI Embedded 서비스 통합을 사용하도록 설정한 후에는 Azure 
 
 ### <a name="disable-the-power-bi-embedded-service"></a>Power BI Embedded 서비스 사용 안 함
 
-1.  [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1.  [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **Power BI 통합 설정** > **Power BI Embedded 서비스 관리**로 이동합니다.
 

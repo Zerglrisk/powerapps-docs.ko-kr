@@ -6,24 +6,24 @@ manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 10/07/2019
+ms.date: 11/22/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 3735a0ef1a26fdd19b7bfb7f6db717cf9bd07861
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 722789d726d02b306eb794aa51665c13ce7f495d
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2710074"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874701"
 ---
 # <a name="add-a-power-bi-report-or-dashboard-to-a-web-page-in-portal"></a>포털에서 웹 페이지에 Power BI 보고서 또는 대시보드 추가
 
-[powerbi](../liquid/portals-entity-tags.md#powerbi) 유동 태그를 사용하여 포털의 웹 페이지에 Power BI 보고서 또는 대시보드를 추가할 수 있습니다. 웹 페이지의 **복사** 필드 또는 웹 템플릿의 **원본** 필드에 태그를 추가할 수 있습니다. Power BI의 새 작업 영역에서 만든 Power BI 보고서 또는 대시보드를 추가하는 경우에는 powerbi 유동 태그에 powerbiembedded로 인증 유형을 지정해야 합니다.
+[powerbi](../liquid/portals-entity-tags.md#powerbi) 유동 태그를 사용하여 포털의 웹 페이지에 Power BI 보고서 또는 대시보드를 추가할 수 있습니다. 웹 페이지의 **복사** 필드 또는 웹 템플릿의 **원본** 필드에 태그를 추가할 수 있습니다. Power BI의 새 작업 영역에서 만든 Power BI 보고서 또는 대시보드를 추가하는 경우에는 powerbi 유동 태그에 **powerbiembedded**로 인증 유형을 지정해야 합니다.
 
-예: 
+예:  
 
 ```
-{% powerbi path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+{% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
 ```
 
 > [!NOTE]

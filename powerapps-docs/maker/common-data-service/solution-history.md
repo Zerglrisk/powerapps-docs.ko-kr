@@ -20,12 +20,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 67239062f30efb80fb8ee416614c1088e20c4075
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 813a31b3b9d56dfb6742dc138ec947829613cf89
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702198"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869947"
 ---
 # <a name="view-the-history-of-a-solution"></a>솔루션의 기록 보기
 모델 기반 앱의 **솔루션** 영역에서 솔루션 작업에 대한 세부 정보를 볼 수 있습니다. 작업은 솔루션 가져오기, 내보내기 또는 삭제일 수 있습니다. 솔루션 기록에는 솔루션 버전, 솔루션 게시자, 작업 유형, 작업 시작 및 종료 시간, 작업 상태와 같은 정보가 표시됩니다.
@@ -40,7 +40,7 @@ ms.locfileid: "2702198"
      > ![](media/solution-history-sitemap.png "Solution History area")
 
      > [!NOTE]
-     > PowerApps 통합 인터페이스 모델 기반 앱에서 **설정** 영역으로 이동하려면 앱 도구 모음에서 **설정** ![설정](../model-driven-apps/media/powerapps-gear.png)을 선택한 다음 **고급 설정**을 클릭합니다. 
+     > Power Apps 통합 인터페이스 모델 기반 앱에서 **설정** 영역으로 이동하려면 앱 도구 모음에서 **설정** ![설정](../model-driven-apps/media/powerapps-gear.png)을 선택한 다음 **고급 설정**을 클릭합니다. 
 
 2. 기본적으로 **사용자 지정 솔루션 기록** 보기가 표시됩니다. 다음 보기는 **솔루션 기록** 영역에서 사용할 수 있습니다. 
 - **모든 솔루션 기록**. 내부 시스템 및 사용자 지정 솔루션 모두에 대한 솔루션 기록을 표시합니다. 

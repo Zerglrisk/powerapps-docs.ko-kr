@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 게시물에 대한 정보 액세스를 위한 모델 기반 앱 메모 컨트롤 설정 | MicrosoftDocs
+title: Power Apps에서 게시물에 대한 정보 액세스를 위한 모델 기반 앱 메모 컨트롤 설정 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/06/2018
 ms.reviewer: ''
@@ -21,16 +21,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: bb60588e34e66fc1a0222d18e90d50af672bcc69
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 52edc0881484d092332cc2ab5a3892d0f7983e30
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2711702"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862979"
 ---
 # <a name="set-up-the-model-driven-app-notes-control-to-access-information-about-posts"></a>게시물에 대한 정보 액세스를 위한 모델 기반 앱 메모 컨트롤 설정
 
- [업데이트된 양식](main-form-presentations.md#updated-forms)을 사용하는 특정 시스템 엔터티의 PowerApps 양식에서 메모 컨트롤은 **게시물**, **활동** 및 **메모**에 대한 정보에 액세스할 수 있는 기능을 제공합니다. 메모 및 활동이 활성화된 사용자 지정 엔터티의 경우 **메모** 및 **활동**만 표시됩니다. **게시물**을 포함하려면 사용자 지정 엔터티에 대한 게시물을 활성화해야 합니다.  
+ [업데이트된 양식](main-form-presentations.md#updated-forms)을 사용하는 특정 시스템 엔터티의 Power Apps 양식에서 메모 컨트롤은 **게시물**, **활동** 및 **메모**에 대한 정보에 액세스할 수 있는 기능을 제공합니다. 메모 및 활동이 활성화된 사용자 지정 엔터티의 경우 **메모** 및 **활동**만 표시됩니다. **게시물**을 포함하려면 사용자 지정 엔터티에 대한 게시물을 활성화해야 합니다.  
   
 ## <a name="enable-posts-for-a-custom-entity"></a>사용자 지정 엔터티에 대한 게시물 사용  
   

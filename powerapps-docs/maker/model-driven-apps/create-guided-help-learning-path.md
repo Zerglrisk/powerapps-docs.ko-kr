@@ -14,12 +14,12 @@ search.audienceType:
 - customizer
 search.app:
 - PowerApps
-ms.openlocfilehash: b9c0f192f96d9ce967d1b8e56266aadeb64646c9
-ms.sourcegitcommit: 7411b4cf9e30e71052fe932dfd3276e969854af4
+ms.openlocfilehash: bd40b60a82735d2bddb3629c8b34647df9e34857
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2768294"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875428"
 ---
 # <a name="create-guided-help-learning-path-for-your-app"></a>앱을 위해 안내 도우미(학습 경로) 만들기
 
@@ -44,7 +44,7 @@ ms.locfileid: "2768294"
 
  학습 경로 콘텐츠를 만들려면 다음이 필요합니다.  
 
-- PowerApps 또는 [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]을 사용 중입니다.  
+- Power Apps 또는 [!INCLUDE[pn_crm_online_shortest](../../includes/pn-crm-online-shortest.md)]을 사용 중입니다.  
 
 - 학습 경로를 사용하도록 설정했어야 합니다. 이 설정은 기본적으로 켜져 있지만 꺼져 있을 수도 있습니다.  
 
@@ -64,7 +64,7 @@ ms.locfileid: "2768294"
 ## <a name="turn-on-learning-path-for-your-organization"></a>조직에 대한 학습 경로 사용하기  
  학습 경로는 조직에 대해 켜거나 끌 수 있는 옵션 기능입니다. [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 포함된 학습 경로 콘텐츠를 표시하거나 사용자를 위해 직접 학습 경로 콘텐츠를 만들 수 있습니다.  
 
-1. 관리자 계정으로 [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
+1. 관리자 계정으로 [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]에 로그인합니다.  
 
 2. **설정**으로 이동한 다음 **시스템** 아래에 있는 **관리**를 선택합니다. 추가 정보: [설정](/powerapps/maker/model-driven-apps/advanced-navigation#settings)
 
@@ -133,7 +133,7 @@ ms.locfileid: "2768294"
 <a name="ConfigureRoles"></a>   
 #### <a name="configure-security-roles"></a>보안 역할 구성  
 
-1. 학습 경로 작성 권한이 있는 거래처의 PowerApps에 로그인합니다.  
+1. 학습 경로 작성 권한이 있는 거래처의 Power Apps에 로그인합니다.  
 
 2. **콘텐츠 라이브러리**를 엽니다.  
 
@@ -185,7 +185,7 @@ ms.locfileid: "2768294"
 
 6. 새 탭 또는 브라우저 창을 열고 만든 전체 URL을 복사하여 새 탭 또는 브라우저 창에 붙여 넣은 다음 Enter를 선택합니다.  
 
-    모바일 앱 인터페이스에 처음으로 연결하면 시스템에서 메타데이터를 처리하고 사용자 지정을 다운로드하는 동안 시작 화면이 표시됩니다. 완료되면 작업 공간이 표시됩니다.  
+    모바일 앱 인터페이스에 처음으로 연결하면 시스템에서 메타데이터를 처리하고 사용자 지정을 다운로드하는 동안 시작 화면이 표시됩니다. 완료되면 작업 영역이 표시됩니다.  
 
    > [!NOTE]
    >  모바일 앱 버전의 인터페이스에 연결할 때 웹 인터페이스에 로그인할 때 쓰인 자격 증명을 사용하여 사용자를 인증합니다. 모바일 앱 인터페이스를 열 때 액세스 거부 오류가 발생하지 않도록 웹 인터페이스를 열어 두어야 합니다.  

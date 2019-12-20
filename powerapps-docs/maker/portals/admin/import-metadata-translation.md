@@ -9,20 +9,20 @@ ms.custom: ''
 ms.date: 10/21/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: f05a0dfb6424b11e71cf5bf4324d5e3db03a7897
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 6e1f577e5097aead282b6da9338acfd5d1f36364
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2709810"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862630"
 ---
 # <a name="import-metadata-translation"></a>메타데이터 번역 가져오기
 
-포털을 프로비전하는 경우 포털 관련 솔루션이 조직에 설치됩니다. 솔루션을 설치하는 동안 솔루션 메타데이터 번역(예: 필드 이름, 양식 이름, 보기 이름)은 현재 조직에서 활성화된 언어에 대해서만 설치됩니다. 나중에 새 언어를 활성화하면 새로 활성화된 언어에 대한 메타데이터가 자동으로 설치되지는 않습니다. 새로 활성화된 언어의 메타데이터 번역을 가져오려면 PowerApps 관리 센터에서 메타데이터 번역을 가져와야 합니다.
+포털을 프로비전하는 경우 포털 관련 솔루션이 조직에 설치됩니다. 솔루션을 설치하는 동안 솔루션 메타데이터 번역(예: 필드 이름, 양식 이름, 보기 이름)은 현재 조직에서 활성화된 언어에 대해서만 설치됩니다. 나중에 새 언어를 활성화하면 새로 활성화된 언어에 대한 메타데이터가 자동으로 설치되지는 않습니다. 새로 활성화된 언어의 메타데이터 번역을 가져오려면 Power Apps 관리 센터에서 메타데이터 번역을 가져와야 합니다.
 
 ## <a name="to-import-metadata-translation"></a>메타데이터 번역 가져오기
 
-1.  [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1.  [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **포털 작업** > **최신 메타데이터 번역 가져오기**로 이동합니다. 포털 솔루션을 업데이트할지의 여부를 묻는 확인 창이 표시됩니다.
 

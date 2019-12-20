@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 양식 성능 최적화 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 양식 성능 최적화 | MicrosoftDocs
 description: 양식이 느리게 로드되도록 하는 양식 디자인을 피하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/27/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b777dc346897f87d710edc309b9e9a7eda1b711b
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 5df20edea9440d407c75b114d24dcb3c0f39306a
+ms.sourcegitcommit: 5e6d71967902c463f34a9254f988b9c10e431eb4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2711614"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890662"
 ---
 # <a name="optimize-model-driven-app-form-performance"></a>모델 기반 앱 양식 성능 최적화
 
@@ -38,8 +38,11 @@ ms.locfileid: "2711614"
  사용자와 양식의 상호 작용과 그 안에 표시되어야 하는 데이터 양을 생각해 봅니다.  
   
  **필드 수 최소로 유지**  
- 양식에 필드가 많을 수록 각 레코드를 표시하기 위해 인터넷이나 인트라넷을 통해 전송해야 하는 데이터가 더 많습니다.  
-  
+ 양식에 필드가 많을 수록 각 레코드를 표시하기 위해 인터넷이나 인트라넷을 통해 전송해야 하는 데이터가 더 많습니다.
+ 
+ **성능을 위한 디자인**  
+ 양식과 페이지를 디자인할 때 사용자가 가장 쉽게 액세스할 수 있도록 맨 위에 가장 중요한 것을 배치하십시오. 자주 사용하지 않는 구성 요소를 양식의 다른 탭으로 이동하고, 구성 요소를 표시하거나 숨기는 대신 역할 기반 양식을 사용하고, 다른 워크플로에 전용 대시보드와 보기가 있는지 확인하십시오. 섹션을 사용하여 컨트롤을 구성하십시오. 이렇게 하면 양식 속도가 느려지지 않습니다.
+ 
 <a name="BKMK_FormScripts"></a>   
 ## <a name="form-scripts"></a>양식 스크립트  
  양식 스크립트를 사용하는 사용자 지정 항목이 있을 경우 개발자가 이러한 전략을 이해하여 성능을 향상시킬 수 있어야 합니다.  

@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 보기 만들기 또는 편집 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 보기 만들기 또는 편집 | MicrosoftDocs
 description: 보기를 만들거나 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/11/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 7a83134fb655e67dba8b0aa211ba6f25ec383832
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 68d295e6c5426296cf4fb77e794b7c6edbf37021
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759343"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875581"
 ---
 # <a name="create-or-edit-a-model-driven-app-view"></a>모델 기반 앱 보기 만들기 또는 편집
 
@@ -37,7 +37,7 @@ ms.locfileid: "2759343"
   
 ### <a name="create-a-new-view"></a>새 보기 만들기  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
     
 
@@ -65,11 +65,11 @@ ms.locfileid: "2759343"
 
 7.  **확인**을 선택하여 **필터 조건 편집** 대화 상자를 닫은 다음 보기 편집기에서 **저장 후 닫기**를 선택합니다.  
   
-8.  이제 PowerApps 사이트의 **보기** 탭에서 앱에 추가할 수 있도록 보기를 사용할 수 있습니다.
+8.  이제 Power Apps 사이트의 **보기** 탭에서 앱에 추가할 수 있도록 보기를 사용할 수 있습니다.
   
 ### <a name="edit-a-view"></a>보기 편집  
   
-1.  PowerApps 사이트의 **보기** 탭에서 **직원 수** 보기를 선택합니다.
+1.  Power Apps 사이트의 **보기** 탭에서 **직원 수** 보기를 선택합니다.
   
 2.  보기 **이름**을 **애리조나에서 25명 이상의 직원이 있는 경우 직원 수**로 변경하고 **확인**을 선택합니다.  
 

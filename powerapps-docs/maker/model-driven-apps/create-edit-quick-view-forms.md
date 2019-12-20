@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 빠른 보기 양식 만들기 또는 편집 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 빠른 보기 양식 만들기 또는 편집 | MicrosoftDocs
 description: 빠른 보기 양식을 만들거나 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/23/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 0384b233ddd9df0f88019df6064f5a99ef8af0bd
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: e6a4540927ad4329bab936fac631e2693d618104
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759123"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875273"
 ---
 # <a name="create-a-model-driven-app-quick-view-form-to-view-information-about-a-related-entity"></a>모델 기반 앱 빠른 보기 양식을 만들어 관련 엔터티에 대한 정보 보기
 
@@ -43,7 +43,7 @@ ms.locfileid: "2759123"
 ## <a name="create-a-quick-view-form"></a>빠른 보기 양식 만들기  
  다른 양식을 만드는 방식과 유사한 방식으로 양식 편집기를 사용하여 빠른 보기 양식을 만듭니다. 빠른 보기 양식은 읽기 전용입니다. 이를 사용하여 읽기 전용 양식을 만듭니다.  
   
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
     > [!IMPORTANT]
@@ -79,7 +79,7 @@ ms.locfileid: "2759123"
 ## <a name="add-a-quick-view-control-to-a-main-form"></a>기본 양식에 빠른 보기 컨트롤 추가  
  빠른 보기 양식은 빠른 보기 양식의 엔터티를 대상으로 하는 조회 필드가 있는 기본 양식에만 추가할 수 있습니다.  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.     

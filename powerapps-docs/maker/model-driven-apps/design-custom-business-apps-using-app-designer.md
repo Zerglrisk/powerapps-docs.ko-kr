@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: a9ec701c921c9ad488d9d9b8b3a1f6615c5a9cd7
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: a839c261618e51bc06a426f3b1ab9dc69d0d5af3
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2703650"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2868606"
 ---
 # <a name="design-model-driven-apps-by-using-the-app-designer"></a>앱 디자이너를 사용하여 모델 기반 앱 디자인
 
-PowerApps를 사용하면 모델 기반 앱은 엔터티, 대시보드, 양식, 보기, 차트 및 비즈니스 프로세스와 같은 구성 요소로 구성됩니다.  
+Power Apps를 사용하면 모델 기반 앱은 엔터티, 대시보드, 양식, 보기, 차트 및 비즈니스 프로세스와 같은 구성 요소로 구성됩니다.  
   
  앱 디자이너를 사용하면 신속하게 이러한 모든 구성 요소를 가져올 수 있습니다. 타일 기반 정보 구조와 간소화된 인터페이스는 앱 구축 과정을 훨씬 쉽게 만들며 코드를 작성할 필요 없이 사용자의 비즈니스 역할 및 기능에 특화된 앱을 만들 수 있습니다.  
   

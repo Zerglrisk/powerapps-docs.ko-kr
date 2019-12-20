@@ -23,15 +23,14 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 4a47f082520b4680c9045209f85c26beb3586875
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 0b534e3c4a7aae36d38901b75b34cc87fd7f511e
+ms.sourcegitcommit: 64d816a759c5cc6343928d56a673812c3ea066c2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2752245"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2895247"
 ---
 # <a name="using-an-on-premises-data-gateway-in-power-platform-dataflows"></a>Power Platform 데이터 흐름에서 온-프레미스 데이터 게이트웨이 사용
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
 온-프레미스 데이터 게이트웨이를 설치하여 Power Platform 데이터 흐름과 온-프레미스 SQL Server 데이터베이스 또는 온-프레미스 SharePoint 사이트와 같이 클라우드에 없는 데이터 원본 간에 데이터를 빠르고 안전하게 전송할 수 있습니다.
 관리 권한이 있는 모든 게이트웨이를 보고 해당 게이트웨이에 대한 권한 및 연결을 관리할 수 있습니다.
@@ -52,13 +51,13 @@ ms.locfileid: "2752245"
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
--   PowerApps 계정. 계정이 없으신가요? [30일 무료 평가판에 등록하세요](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps).
+-   Power Apps 계정. 계정이 없으신가요? [30일 무료 평가판에 등록하세요](https://docs.microsoft.com/powerapps/maker/signup-for-powerapps).
 
 -   게이트웨이에 대한 관리 권한. 이러한 권한은 기본적으로 설치한 게이트웨이에 제공됩니다. 관리자는 다른 사람에게 게이트웨이에 대한 권한을 부여할 수 있습니다. 
 
--   온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스. 자세한 내용은 [올바른 PowerApps 플랜 찾기 페이지](https://powerapps.microsoft.com/pricing/)의 "데이터 및 시스템에 연결" 섹션을 참조하십시오.
+-   온-프레미스 게이트웨이를 사용하여 온-프레미스 데이터 액세스를 지원하는 라이선스. 자세한 내용은 [올바른 Power Apps 플랜 찾기 페이지](https://powerapps.microsoft.com/pricing/)의 "데이터 및 시스템에 연결" 섹션을 참조하십시오.
 
--   게이트웨이와 온-프레미스 연결은 사용자의 기본 환경에서만 만들고 사용할 수 있습니다. 추가 정보: [환경 및 Microsoft PowerApps에서 작업](../canvas-apps/working-with-environments.md).
+-   게이트웨이와 온-프레미스 연결은 사용자의 기본 환경에서만 만들고 사용할 수 있습니다. 추가 정보: [환경 및 Microsoft Power Apps에서 작업](../canvas-apps/working-with-environments.md).
 
 ## <a name="install-a-gateway"></a>게이트웨이 설치
 1.  [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)의 왼쪽 탐색 창에서 **게이트웨이**를 선택합니다.
@@ -107,9 +106,9 @@ ms.locfileid: "2752245"
     - 연결을 공유하려면 **공유**를 선택한 다음 사용자를 추가하거나 제거하십시오.
 
       > [!NOTE]
-      > SQL Server 연결과 같은 일부 연결 유형만 공유할 수 있습니다. 자세한 내용은 [PowerApps에서 캔버스와 앱 리소스 공유](../canvas-apps/share-app-resources.md)를 참조하십시오. <br />
+      > SQL Server 연결과 같은 일부 연결 유형만 공유할 수 있습니다. 자세한 내용은 [Power Apps에서 캔버스와 앱 리소스 공유](../canvas-apps/share-app-resources.md)를 참조하십시오. <br />
       >
-      > 연결을 관리하는 방법에 대한 자세한 내용은 [PowerApps에서 캔버스와 앱 연결 관리](../canvas-apps/add-manage-connections.md)를 참조하십시오.
+      > 연결을 관리하는 방법에 대한 자세한 내용은 [Power Apps에서 캔버스와 앱 연결 관리](../canvas-apps/add-manage-connections.md)를 참조하십시오.
 
 
 ## <a name="limitations"></a>제한 사항
@@ -127,7 +126,7 @@ ms.locfileid: "2752245"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [PowerApps에서 데이터 흐름 생성 및 사용](create-and-use-dataflows.md)
+- [Power Apps에서 데이터 흐름 생성 및 사용](create-and-use-dataflows.md)
 
 - [파워 쿼리를 사용하여 Common Data Service의 엔터티에 데이터 추가](data-platform-cds-newentity-pq.md)
 

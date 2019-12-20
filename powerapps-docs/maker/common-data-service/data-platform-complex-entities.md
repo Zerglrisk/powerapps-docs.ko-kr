@@ -1,6 +1,6 @@
 ---
-title: PowerApps 플랜 2 라이선스가 필요한 복합 엔터티 | Microsoft Docs
-description: PowerApps 플랜 2 라이선스가 필요한 Common Data Service의 복합 엔터티 목록입니다.
+title: Power Apps 플랜 2 라이선스가 필요한 복합 엔터티 | Microsoft Docs
+description: Power Apps 플랜 2 라이선스가 필요한 Common Data Service의 복합 엔터티 목록입니다.
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -13,25 +13,25 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: f5ec7419ea7369a57308e046ae820557303f0d15
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: a87b41fd2688992b85fb4dde36a2e7119f4e7a9f
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2706642"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861254"
 ---
 # <a name="complex-entities-and-licensing"></a>복합 엔터티 및 라이선스
 
 > [!IMPORTANT]
-> 이 항목은 최신 버전이 아니며 2019년 10월 1일부터 적용 가능한 최신 라이선스 변경 사항을 반영하여 곧 업데이트될 예정입니다. 엔터티의 라이선스 요구 사항에 대한 최신 정보는 [PowerApps 라이선스 가이드](https://go.microsoft.com/fwlink/?linkid=2085130)를 참조하십시오.
+> 이 항목은 최신 버전이 아니며 2019년 10월 1일부터 적용 가능한 최신 라이선스 변경 사항을 반영하여 곧 업데이트될 예정입니다. 엔터티의 라이선스 요구 사항에 대한 최신 정보는 [Power Apps 라이선스 가이드](https://go.microsoft.com/fwlink/?linkid=2085130)를 참조하십시오.
 
-다음과 같은 복잡한 서버 쪽 논리를 포함하는 엔터티에는 이러한 엔터티를 사용하는 앱 또는 흐름 사용자에게 PowerApps 플랜 2 또는 Microsoft Flow 플랜 2 라이선스가 있어야 합니다.
+다음과 같은 복잡한 서버 쪽 논리를 포함하는 엔터티에는 이러한 엔터티를 사용하는 앱 또는 흐름 사용자에게 Power Apps 플랜 2 또는 Power Automate 플랜 2 라이선스가 있어야 합니다.
 
 * 코드 플러그 인. 추가 정보: [플러그 인 개발](/powerapps/developer/common-data-service/plug-ins)
 * 실시간 워크플로입니다. 추가 정보: [워크플로 프로세스](/flow/workflow-processes)
 
     > [!IMPORTANT]
-    >  실시간 워크플로로 변환된 워크플로만 실시간 및 동기식으로 간주됩니다. 백그라운드에서 실행되는 워크플로는 적절한 PowerApps 플랜에 계속 사용할 수 있으며 추가 라이선스가 필요하지 않습니다.
+    >  실시간 워크플로로 변환된 워크플로만 실시간 및 동기식으로 간주됩니다. 백그라운드에서 실행되는 워크플로는 적절한 Power Apps 플랜에 계속 사용할 수 있으며 추가 라이선스가 필요하지 않습니다.
 
 엔터티에 복잡한 비즈니스 논리를 추가했는지 여부를 확인 하려면 사용자 환경에서 구성된 플러그 인 어셈블리 및 워크플로 목록을 검토합니다.
 
@@ -178,5 +178,5 @@ ms.locfileid: "2706642"
 
 
 ## <a name="licensing"></a>라이선싱
-PowerApps 및 Dynamics 365 라이선스에 대한 자세한 내용은 [라이선스 개요](../../administrator/pricing-billing-skus.md) 페이지를 참조하십시오.
+Power Apps 및 Dynamics 365 라이선스에 대한 자세한 내용은 [라이선스 개요](../../administrator/pricing-billing-skus.md) 페이지를 참조하십시오.
 

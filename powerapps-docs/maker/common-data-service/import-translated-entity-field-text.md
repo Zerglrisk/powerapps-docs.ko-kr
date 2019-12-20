@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 번역된 엔터티 및 필드 텍스트 가져오기 | MicrosoftDocs
+title: Power Apps에서 번역된 엔터티 및 필드 텍스트 가져오기 | MicrosoftDocs
 description: 번역된 엔터티 및 필드 텍스트를 가져오는 방법 알아보기
 ms.custom: ''
 ms.date: 06/19/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3836eaebd6f3064ad2e5f4209d86f1bc34898144
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 9887132a8cba9a68faf0d9f16b2e7dbc64221f1b
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2706202"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863774"
 ---
 # <a name="import-translated-entity-and-field-text-back-into-an-app"></a>앱으로 번역된 엔터티 및 필드 텍스트 다시 가져오기
 
@@ -51,7 +51,7 @@ ms.locfileid: "2706202"
 
 ## <a name="community-tools"></a>커뮤니티 도구
 
-[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)는 XrmToolBox 커뮤니티가 PowerApps용으로 개발한 도구입니다. Easy Translator를 사용하여 문맥 정보로 번역을 내보내고 가져옵니다. 
+[Easy Translator](https://www.xrmtoolbox.com/plugins/MsCrmTools.Translator/)는 XrmToolBox 커뮤니티가 Power Apps용으로 개발한 도구입니다. Easy Translator를 사용하여 문맥 정보로 번역을 내보내고 가져옵니다. 
 
 > [!NOTE]
 > 커뮤니티 도구는 Microsoft에서 지원되지 않습니다. 도구에 대해 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)

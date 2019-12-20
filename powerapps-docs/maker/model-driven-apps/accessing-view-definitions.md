@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3b29f863399c8a49ca0c0d60ebe2196d6de6414c
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 43a35f82f93260b4f4a8f6b5084e6827e46eff8f
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2752025"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885140"
 ---
-# <a name="access-a-model-driven-app-view-definition-in-powerapps"></a>PowerApps에서 모델 기반 앱 보기 정의에 액세스
+# <a name="access-a-model-driven-app-view-definition-in-power-apps"></a>Power Apps에서 모델 기반 앱 보기 정의에 액세스
 
- 이 항목에서는 보기 정의를 열어 보기를 구성하기 위한 속성 및 옵션을 표시합니다. 다음과 같은 몇 가지 방법으로 PowerApps에서 보기 정의에 액세스할 수 있습니다. 
+ 이 항목에서는 보기 정의를 열어 보기를 구성하기 위한 속성 및 옵션을 표시합니다. 다음과 같은 몇 가지 방법으로 Power Apps에서 보기 정의에 액세스할 수 있습니다. 
   
   
 ## <a name="open-a-view-for-editing-in-the-latest-view-designer"></a>최신 디자이너 보기에서 편집할 뷰 열기
@@ -39,7 +39,7 @@ ms.locfileid: "2752025"
 > [!IMPORTANT]
 > 디자이너 보기의 최신 버전은 현재 미리 보기 상태입니다. 고급 필터링, 사용자 지정 컨트롤 및 열 속성과 같은 일부 기능은 아직 지원되지 않습니다. 이러한 작업을 수행하려면 [솔루션 탐색기에서 편집할 뷰를 엽니다](#open-a-view-for-editing-in-solution-explorer).
 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
     > [!IMPORTANT]

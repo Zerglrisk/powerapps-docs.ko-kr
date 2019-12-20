@@ -9,18 +9,18 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 2de821da110808432cc6769995e94c9d2a1e8523
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 36c6657e8f565b38495dded1f408c21cc0414356
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2709062"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866978"
 ---
 # <a name="portal-management-app"></a>포털 관리 앱
 
 포털 관리 앱을 사용하면 포털에서 고급 구성 작업을 수행할 수 있습니다. Common Data Service에서 데이터베이스를 성공적으로 만들면 앱을 사용할 수 있습니다.
 
-포털 관리 앱을 열려면 PowerApps 홈 페이지에서 **내 앱** 섹션으로 이동하여 포털 관리 앱을 찾아 선택하십시오.
+포털 관리 앱을 열려면 Power Apps 홈 페이지에서 **내 앱** 섹션으로 이동하여 포털 관리 앱을 찾아 선택하십시오.
 
 > [!div class=mx-imgBorder]
 > ![포털 관리 앱](../media/portal-mgmt.png "포털 관리 앱")

@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: eed1efac81b882d076e0e809c93ddec63f6a75f7
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: bf9b21936a0b1a9d843d248cf4941854dcdbbd7d
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759739"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874569"
 ---
 # <a name="quick-start-for-transitioning-your-legacy-web-client-application-to-unified-interface"></a>레거시 웹 클라이언트 애플리케이션을 통합 인터페이스로 전환 빠른 시작
 
@@ -43,7 +43,7 @@ ms.locfileid: "2759739"
 ## <a name="prepare-the-environment"></a>환경 준비
 먼저 프로덕션 이외의 환경을 선택하고 **통합 인터페이스만 사용** 모드를 활성화하고, 환경의 모든 모델 중심 앱에 통합 인터페이스를 사용합니다. 여기에는 레거시 웹 클라이언트용으로 원래 구성된 Dynamics 365 애플리케이션 모듈도 포함됩니다.
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **환경**을 선택한 다음, 샌드박스 환경을 선택합니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **환경**을 선택한 다음, 샌드박스 환경을 선택합니다. 
 
 2. **설정** > **동작**을 선택한 다음, **통합 인터페이스만 사용**을 켭니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "2759739"
 ## <a name="run-and-validate-your-application-in-the-unified-interface"></a>통합 인터페이스에서 응용 프로그램 실행 및 유효성 검사
 원래 웹 클라이언트 애플리케이션인 응용 프로그램을 실행합니다. **통합 인터페이스만 사용**을 켠 후 응용 프로그램이 원래 웹 클라이언트용으로 구성되어 있어도 환경에서 사용 가능한 모든 앱은 통합 인터페이스를 사용합니다.
 
-앱을 실행하려면 [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **앱**을 누른 다음 실행할 응용 프로그램을 선택합니다. 또는 바로 *https://contoso.crm.dynamics.com/apps/* 와 같은 **내 앱** 페이지로 이동할 수도 있습니다.
+앱을 실행하려면 [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 **앱**을 누른 다음 실행할 응용 프로그램을 선택합니다. 또는 바로 *https://contoso.crm.dynamics.com/apps/* 와 같은 **내 앱** 페이지로 이동할 수도 있습니다.
 
 ### <a name="validate-your-app-processes-and-customizations"></a>앱, 프로세스 및 사용자 지정 유효성 검사 
 모든 사용 사례를 테스트하는 것이 좋습니다. 가장 중요한 사용 사례로 시작하거나 논리적 디자인 패턴으로 그룹화할 수 있습니다. 통합 인터페이스는 반응형 디자인을 기반으로 하기 때문에 화면 해상도가 다른 여러 장치에서 테스트를 수행하는 것이 좋습니다. 응용 프로그램을 테스트할 때 사용자 지정 내용이 통합 인터페이스와 호환되는지, 그리고 재설계가 필요하거나 기능이 누락된 기능이 있는지 확인할 수 있습니다. 이러한 요소를 검토하기 위한 계획을 세우고 커뮤니티 포럼에 질문과 의견을 게시하십시오. 
@@ -118,10 +118,10 @@ Dynamics 365 Field Service 또는 Dynamics 365 Project Service Automation 앱을
 [통합 인터페이스 플레이북](unified-interface-playbook.md) <br />
 [사용자 경험 및 통합 인터페이스 전환 접근](approaching-unified-interface.md) <br />
 [통합 인터페이스 정보](/dynamics365/customer-engagement/admin/about-unified-interface) <br />
-[PowerApps의 모델 기반 앱이란 무엇입니까?](model-driven-app-overview.md) <br />
+[Power Apps의 모델 기반 앱이란 무엇입니까?](model-driven-app-overview.md) <br />
 [통합 인터페이스로 앱 업데이트](/dynamics365/customer-engagement/admin/update-apps-to-unified-interface) <br />
 [모델 기반 앱 상호 작용 환경 대시보드 구성](configure-interactive-experience-dashboards.md) <br />
 [모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용](use-custom-controls-data-visualizations.md) <br />
-[PowerApps component framework 개요](/powerapps/developer/component-framework/overview) <br />
+[Power Apps component framework 개요](/powerapps/developer/component-framework/overview) <br />
 [모든 사용자를 위한 통합 인터페이스](/power-platform-release-plan/2019wave2/microsoft-powerapps/unified-interface-app-everybody)
 

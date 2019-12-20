@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 기본 양식 및 구성 요소 사용 | Microsoft Docs
+title: Power Apps에서 모델 기반 앱 기본 양식 및 구성 요소 사용 | Microsoft Docs
 description: 통합된 인터페이스 기반 앱에서 주요 양식 및 구성 요소 사용하는 방법 알기
 keywords: 메인 양식; 고객 서비스; 고객 서비스 허브; Dynamics 365
 author: Mattp123
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 610a4baf51a2affea142b496d016d732fa626d20
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 3232099a5ad1526ad351aea37e8952afc6e474bf
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755911"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884281"
 ---
 # <a name="use-the-model-driven-app-main-form-and-its-components"></a>모델 기반 앱 기본 양식 및 해당 구성 요소 사용
 
@@ -41,9 +41,9 @@ ms.locfileid: "2755911"
 > 양식을 편집하는 과정에서 새로운 솔루션 구성 요소를 만드는 경우 구성 ㅇ소 이름은 기본 솔루션의 솔루션 게시자 사용자 지정 접두사를 사용하고 이러한 구성 요소는 기본 솔루션에만 포함됩니다. 새 솔루션 구성 요소를 특정 비관리형 솔루션에 포함하려면 비관리형 솔루션을 통해 양식 편집기를 엽니다.
 
 
-### <a name="access-the-form-editor-through-app-designer-in-powerapps"></a>PowerApps에서 앱 디자이너를 통한 양식 편집기 액세스
+### <a name="access-the-form-editor-through-app-designer-in-power-apps"></a>Power Apps에서 앱 디자이너를 통한 양식 편집기 액세스
 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  왼쪽 탐색 창에서 **앱**을 선택하고 원하는 앱을 선택한 다음 도구 모음에서 **편집**을 선택합니다.  
 
@@ -64,7 +64,7 @@ ms.locfileid: "2755911"
 
 ### <a name="access-the-form-editor-through-the-default-solution"></a>기본 솔루션을 통해 양식 편집기에 액세스
 
-1.  [PowerApps](https:///?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https:///?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다.  
 

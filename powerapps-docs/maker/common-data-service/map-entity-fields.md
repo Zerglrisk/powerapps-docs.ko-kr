@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 엔터티 필드 매핑 | MicrosoftDocs
+title: Power Apps의 엔터티 필드 매핑 | MicrosoftDocs
 description: 엔터티 필드를 매핑하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/29/2018
@@ -23,12 +23,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 7175a56b4658d19510c007efbf4bdcd02d88db2f
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: a5da8b9ecfb2bbba2a4e03fbc0d28301c41e2a7c
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2704618"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860902"
 ---
 # <a name="map-entity-fields"></a>엔터티 필드 매핑
  

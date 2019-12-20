@@ -16,18 +16,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 1d763fd341c3537f908720ea9616b1646bda1745
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 4a2f17995d92d09ad025d643589f5993041a2f96
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2704838"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884831"
 ---
 # <a name="embed-a-canvas-app-on-a-model-driven-form"></a>모델 기반 양식에 캔버스 앱 포함
 
@@ -45,9 +45,9 @@ ms.locfileid: "2704838"
 포함된 캔버스 앱 작업에 대한 지침과 발생할 수 있는 문제를 해결하는 유용한 팁은 다음을 참조하십시오. [포함된 캔버스 앱 작업에 대한 가이드라인](embedded-canvas-app-guidelines.md).
 
 ## <a name="see-also"></a>참조
-[PowerApps의 캔버스 앱이란 무엇입니까?](../canvas-apps/getting-started.md) <br />
-[PowerApps에서 캔버스 앱 컨트롤 추가 및 구성](../canvas-apps/add-configure-controls.md) <br />
-[PowerApps용 캔버스 앱 커넥터 개요](../canvas-apps/connections-list.md) <br />
+[Power Apps의 캔버스 앱이란 무엇입니까?](../canvas-apps/getting-started.md) <br />
+[Power Apps에서 캔버스 앱 컨트롤 추가 및 구성](../canvas-apps/add-configure-controls.md) <br />
+[Power Apps용 캔버스 앱 커넥터 개요](../canvas-apps/connections-list.md) <br />
 [모델 기반 양식에 포함된 캔버스 앱 추가](embedded-canvas-app-add-classic-designer.md) <br />
 [모델 기반 양식에 포함된 캔버스 앱 편집](embedded-canvas-app-edit-classic-designer.md) <br />
 [모델 기반 양식에 포함된 캔버스 앱의 화면 크기 및 방향 사용자 지정](embedded-canvas-app-customize-screen.md) <br />

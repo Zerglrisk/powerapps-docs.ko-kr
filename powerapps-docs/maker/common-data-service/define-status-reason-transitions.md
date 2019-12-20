@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 상태 설명 전환 정의 | MicrosoftDocs
+title: Power Apps에서 상태 설명 전환 정의 | MicrosoftDocs
 description: 상태 설명 전환을 정의하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/25/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 9fb1fc93b5559c47cebeef4fb73ebd095a48f0a5
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 5dd257a07a21b2d0b0d2a449feb9df855d51d604
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2705586"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861122"
 ---
 # <a name="define-status-reason-transitions-for-the-case-or-custom-entities"></a>서비스 케이스 또는 사용자 지정 엔터티에 대한 상태 설명 전환 정의
 
@@ -65,7 +65,7 @@ ms.locfileid: "2705586"
 서비스 케이스 엔터티와 사용자 지정 엔터티에 대한 상태 설명 필드 옵션을 수정하여 사람들이 선택할 수 있는 다음 상태 설명 옵션을 정의할 수 있습니다. 유일한 제한 사항은 활성 상태에 대한 각 상태 설명 옵션은 비활성 상태에 대한 하나 이상의 경로를 허용해야 한다는 것입니다. 그렇지 않을 경우 서비스 케이스를 해결하거나 취소할 수 없는 조건을 만들 수 있습니다.  
 
 > [!NOTE]
-> 상태 설명 변환을 편집하려면 솔루션 탐색기를 사용해야 합니다. 필드를 편집하는 방법에 대한 자세한 내용은 [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
+> 상태 설명 변환을 편집하려면 솔루션 탐색기를 사용해야 합니다. 필드를 편집하는 방법에 대한 자세한 내용은 [Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
   
  상태 설명 필드를 편집하면 **상태 설명 전환 편집** 단추가 메뉴에 표시됩니다. 
 
@@ -86,7 +86,7 @@ ms.locfileid: "2705586"
   
 ### <a name="see-also"></a>참고 항목  
 
-[PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
+[Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [엔터티 메타데이터 > 엔터티 상태](/powerapps/developer/common-data-service/entity-metadata#entity-states)<br />
 [사용자 지정 상태 모델 전환 정의](/dynamics365/customer-engagement/developer/define-custom-state-model-transitions)
 

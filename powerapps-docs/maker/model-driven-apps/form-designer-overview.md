@@ -15,18 +15,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 96cae5273855fd6458a501aa0757da12ba8e1701
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: b0c79dac6652940d214841328cae3bfe61b8601b
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2701670"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2868210"
 ---
 # <a name="overview-of-the-model-driven-form-designer"></a>모델 기반 양식 디자이너 개요
 새 모델 기반 양식 디자이너는 모델 기반 양식으로 작업할 때 최신 WYSIWYG 작성 환경을 제공합니다. 여기에는 클래식 모델 기반 양식 디자이너에서 사용할 수 없는 몇 가지 향상된 기능이 포함되어 있습니다. 

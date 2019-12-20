@@ -9,25 +9,25 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 240af2f54e153490794358dc1598b72a16fe1c38
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 998a233f5051c1445d56dbeeba1f2d7faff5811d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757187"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862319"
 ---
 # <a name="create-a-custom-page-template-to-render-an-rss-feed"></a>RSS 피드를 렌더링하기 위해 사용자 지정 페이지 템플릿 만들기
 이 예에서는 유동 및 웹 템플릿 페이지 템플릿을 사용해서 뉴스 기사의 [RSS 피드](https://en.wikipedia.org/wiki/RSS)를 렌더링하기 위한 사용자 지정 페이지 템플릿을 만듭니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [웹 템플릿을 이용하여 소스 콘텐츠 저장](store-content-web-templates.md)  
 
-## <a name="step-1-create-a-new-powerapps-view"></a>1단계: 새 PowerApps 보기 만들기
+## <a name="step-1-create-a-new-power-apps-view"></a>1단계: 새 Power Apps 보기 만들기
 
-처음으로 피드 데이터를 로드하기 위해 사용할 새 PowerApps 보기를 만듭니다. 이 예에서는 웹 페이지에서 보기를 만들고, 이 엔터티를 사용하여 기사를 저장합니다. 이 보기를 사용해 결과에 대한 분류 및 필터링을 구성하고 유동 템플릿에서 사용할 수 있는 엔터티 특성을 열 형식으로 추가할 수 있습니다.
+처음으로 피드 데이터를 로드하기 위해 사용할 새 Power Apps 보기를 만듭니다. 이 예에서는 웹 페이지에서 보기를 만들고, 이 엔터티를 사용하여 기사를 저장합니다. 이 보기를 사용해 결과에 대한 분류 및 필터링을 구성하고 유동 템플릿에서 사용할 수 있는 엔터티 특성을 열 형식으로 추가할 수 있습니다.
 
 ![페이지 템플릿 편집](../media/edit-page-template.png "페이지 템플릿 편집")  
 
 ## <a name="step-2-create-a-web-template-for-rss-feed"></a>2단계: RSS 피드에 대한 웹 템플릿 만들기
 
-이 단계에서는 RSS 피드에 대한 웹 템플릿을 만듭니다. 이 템플릿은 웹 사이트의 특정 웹 페이지에 적용됩니다. 따라서 그 페이지의 제목과 요약을 피드의 제목과 설명으로 사용할 것입니다. 그 다음 entityview 태그를 사용하여 새로 생성된 뉴스 기사 보기를 로드합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md). 웹 템플릿의 **MIME 유형** 필드 또한 application/rss+xml로 설정합니다. 템플릿이 렌더링되었을 때 표시될 응답 콘텐츠 유형을 나타냅니다.  
+이 단계에서는 RSS 피드에 대한 웹 템플릿을 만듭니다. 이 템플릿은 웹 사이트의 특정 웹 페이지에 적용됩니다. 따라서 그 페이지의 제목과 요약을 피드의 제목과 설명으로 사용할 것입니다. 그 다음 entityview 태그를 사용하여 새로 생성된 뉴스 기사 보기를 로드합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [Power Apps Common Data Service 엔터티 태그](portals-entity-tags.md). 웹 템플릿의 **MIME 유형** 필드 또한 application/rss+xml로 설정합니다. 템플릿이 렌더링되었을 때 표시될 응답 콘텐츠 유형을 나타냅니다.  
 
 ![RSS 피드에 대한 웹 템플릿 구성](../media/web-template-rss-feed.png "RSS 피드에 대한 웹 템플릿 구성")  
 
@@ -67,7 +67,7 @@ ms.locfileid: "2757187"
 
 ![RSS 피드의 예](../media/rss-feed-example.png "RSS 피드의 예")  
 
-이 예에서는 유동, 웹 템플릿, PowerApps 보기 및 포털 콘텐츠 관리 기능을 통합하여 사용자 지정 RSS 피드를 만드는 방법에 대해 알아보았습니다. 이 기능들을 통합하면 어느 포털 응용 프로그램에든 강력한 사용자 지정 기능을 추가할 수 있습니다.
+이 예에서는 유동, 웹 템플릿, Power Apps 보기 및 포털 콘텐츠 관리 기능을 통합하여 사용자 지정 RSS 피드를 만드는 방법에 대해 알아보았습니다. 이 기능들을 통합하면 어느 포털 응용 프로그램에든 강력한 사용자 지정 기능을 추가할 수 있습니다.
 
 ### <a name="see-also"></a>참조
 

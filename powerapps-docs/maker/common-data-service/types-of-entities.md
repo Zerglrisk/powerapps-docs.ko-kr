@@ -21,12 +21,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 2587dbcd76fe228ed017b2832bb37d05f6a1e884
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: ebf5b794bcfc7ec01abf08315f1dbf59ce6e4808
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2703298"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869903"
 ---
 # <a name="types-of-entities"></a>엔터티 타입
 
@@ -72,7 +72,7 @@ Common Data Service에서 엔터티를 만들거나 편집하기 전에 다른 �
 새 사용자 지정 활동 엔터티를 만들 수 있습니다. 예를 들어 사용자 지정 활동 엔터티를 만들어 인스턴스 메시지 통신을 기록할 수 있습니다. 활동 엔터티를 만드는 것은 기본 필드를 지정하지 않으므로 비활동 엔터티를 만드는 것과 다릅니다. 모든 활동 엔터티에는 **제목**으로 설정된 **기본 필드**와 활동 엔터티에서 정의되는 다른 공통 필드가 있습니다. 따라서 공통 필드가 표시되는 보기에 모든 유형의 활동을 표시할 수 있습니다.  
 
 > [!NOTE]
-> PowerApps 포털을 사용하여 사용자 지정 활동을 만들 수 없습니다. **고급** 단추를 사용하여 솔루션 탐색기를 열어야 합니다.
+> Power Apps 포털을 사용하여 사용자 지정 활동을 만들 수 없습니다. **고급** 단추를 사용하여 솔루션 탐색기를 열어야 합니다.
   
 사용자 지정 활동 엔터티를 만들려면 **활동 엔터티로 정의**를 선택합니다. 이 옵션을 선택하면 **활동 메뉴에 표시**가 선택됩니다. 이 설정을 사용하면 활동 메뉴에서 이 유형의 활동을 만들 수 있습니다. 이 설정은 일반적으로 특정 이벤트에 연결되고 코드를 사용하거나 워크플로로 뒤에서 만든 활동에 대해 선택되지 않습니다. 엔터티를 저장한 후 이러한 설정을 변경할 수 없습니다.  
 

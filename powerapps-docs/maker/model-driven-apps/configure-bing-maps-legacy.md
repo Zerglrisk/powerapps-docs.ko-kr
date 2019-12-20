@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱의 Bing 지도 구성 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱의 Bing 지도 구성 | MicrosoftDocs
 ms.custom: ''
 ms.date: 10/18/2019
 ms.reviewer: ''
@@ -21,12 +21,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: ff7f5c01e913da60409bb60c637b37ebd4bfa096
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 132f5c2cfb5763714176a86c1ea846085588f862
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756483"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875229"
 ---
 # <a name="configure-a-map-on-a-form"></a>양식에서 지도 구성
 기본적으로 Bing 지도 컨트롤은 거래처 및 연락처 엔터티에 대한 기본 양식으로 구성되어 엔터티 레코드에 지도를 표시할 수 있습니다. 기본적으로 구성되어 있지는 않지만 Bing 지도 컨트롤을 시스템 사용자 엔터티에 추가할 수 있습니다. Bing 지도 컨트롤은 Dynamics 365 Sales 및 Dynamics 365 Customer Service와 같이 Dynamics 365의 모델 기반 앱에 포함된 일부 엔터티와 함께 사용할 수도 있습니다. 예를 들면 잠재 고객, 견적, 주문, 송장 및 경쟁 업체 등입니다. Bing 지도 컨트롤은 사용자 지정 엔터티와 함께 사용할 수 없습니다.  
@@ -49,7 +49,7 @@ ms.locfileid: "2756483"
     ![양식에서 지도 사용](media/enable-maps.png)
 
 ## <a name="configure-a-map"></a>지도 구성 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2. **데이터** > **엔터티**로 이동한 다음 기본 양식에서 지도를 구성할 엔터티를 선택하십시오. 
 3. **양식** 탭을 선택한 다음 기본 양식을 선택하고 명령 모음에서 **클래식으로 전환**을 선택합니다. 
 4. 클래식 양식 디자이너에서 **지도 보기** 컨트롤을 두 번 클릭하여 속성을 보고 편집할 수 있습니다. 추가 정보: [지도 속성 보기 및 편집](#view-and-edit-map-properties)

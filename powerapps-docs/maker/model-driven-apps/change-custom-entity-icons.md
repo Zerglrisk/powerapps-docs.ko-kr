@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 모델 기반 앱 사용자 지정 엔터티 아이콘 변경 | MicrosoftDocs
+title: Power Apps의 모델 기반 앱 사용자 지정 엔터티 아이콘 변경 | MicrosoftDocs
 definition: Learn how to change the icon for a custom entity
 ms.custom: ''
 ms.date: 05/17/2018
@@ -24,12 +24,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: f7e23ece0ee37d15ef5401421d078e81dd5d590c
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 7d45a3fc5afae25f2a4e254c033f4e35be20c0ff
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2700790"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869266"
 ---
 # <a name="change-model-driven-app-custom-entity-icons"></a>모델 기반 앱 사용자 지정 엔터티 아이콘 변경 
 
@@ -69,7 +69,7 @@ ms.locfileid: "2700790"
   
 ## <a name="community-tools"></a>커뮤니티 도구
 
-**[Iconator](https://www.xrmtoolbox.com/plugins/MscrmTools.Iconator/)** 는 XrmToolbox 커뮤니티가 PowerApps용으로 개발한 도구입니다. 커뮤니티 개발 도구에 대해서는 [Common Data Service용 개발자 도구](/powerapps/developer/common-data-service/developer-tools) 항목을 참조하십시오.
+**[Iconator](https://www.xrmtoolbox.com/plugins/MscrmTools.Iconator/)** 는 XrmToolbox 커뮤니티가 Power Apps용으로 개발한 도구입니다. 커뮤니티 개발 도구에 대해서는 [Common Data Service용 개발자 도구](/powerapps/developer/common-data-service/developer-tools) 항목을 참조하십시오.
 
 > [!NOTE]
 > 커뮤니티 도구는 Microsoft의 제품이 아니며 커뮤니티 도구에 대해 지원을 확장하지 않습니다. 도구와 관련된 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)

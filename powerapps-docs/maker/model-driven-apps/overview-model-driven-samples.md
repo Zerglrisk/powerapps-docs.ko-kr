@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 5e579b7054171222819b2d1dd6bb21d9cb7400a9
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 13ec511c692af8694012f94f881cb02ee1280ee2
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2711570"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863163"
 ---
 # <a name="model-driven-sample-apps"></a>모델 기반 샘플 앱
 
@@ -60,7 +60,7 @@ ms.locfileid: "2711570"
 - 샘플 앱에 대한 사용자 지정이 만들어진 경우 [종속성](https://docs.microsoft.com/dynamics365/customer-engagement/developer/dependency-tracking-solution-components)이 있을 수 있으며 이는 솔루션을 삭제하기 전에 제거해야 합니다.
 
 ### <a name="steps"></a>단계
-1. [PowerApps 관리 포털](https://admin.powerapps.com)에 로그인합니다.
+1. [Power Apps 관리 포털](https://admin.powerapps.com)에 로그인합니다.
 
 2. 환경을 선택합니다.
 

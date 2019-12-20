@@ -1,6 +1,6 @@
 ---
 title: 솔루션 가져오기, 업데이트 및 내보내기 | MicrosoftDocs
-description: PowerApps에서 솔루션 가져오기, 업데이트 및 내보내기 방법 알아보기
+description: Power Apps에서 솔루션 가져오기, 업데이트 및 내보내기 방법 알아보기
 ms.custom: ''
 ms.date: 09/30/2019
 ms.reviewer: ''
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: de2c4a4ecefe303f607a9d7f19d892eae2c4bffb
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: d726860afa8aa2f3cdbb60ede7c549df4da424d2
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2701582"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884712"
 ---
 # <a name="import-update-and-export-solutions"></a>솔루션 가져오기, 업데이트 및 내보내기 
 
@@ -93,12 +93,12 @@ ms.locfileid: "2701582"
 <a name="BKMK_ExportSolutions"></a>   
 
 ## <a name="export-solutions"></a>솔루션 내보내기  
- 사용자 지정을 내보내는 데 사용할 관리되지 않는 솔루션을 만드는 것이 좋습니다. 그런 다음, 문제가 발생할 경우에 대비하여 백업하도록 비관리형 사용자 지정을 주기적으로 내보냅니다. 관리형 솔루션은 내보낼 수 없습니다. PowerApps에서 솔루션을 내보내거나 클래식 환경을 사용하여 내보낼 수 있습니다. 
+ 사용자 지정을 내보내는 데 사용할 관리되지 않는 솔루션을 만드는 것이 좋습니다. 그런 다음, 문제가 발생할 경우에 대비하여 백업하도록 비관리형 사용자 지정을 주기적으로 내보냅니다. 관리형 솔루션은 내보낼 수 없습니다. Power Apps에서 솔루션을 내보내거나 클래식 환경을 사용하여 내보낼 수 있습니다. 
  
 > [!IMPORTANT]
 > 기본 솔루션 내보내기는 지원되지 않습니다. 
 
-### <a name="export-from-powerapps"></a>PowerApps에서 내보내기
+### <a name="export-from-power-apps"></a>Power Apps에서 내보내기
   
 1.  왼쪽 탐색 창에서 **솔루션**을 선택합니다.   
   
@@ -134,7 +134,7 @@ ms.locfileid: "2701582"
 <a name="BKMK_SettingsOptionsOnSolutionExport"></a>  
  
 ## <a name="settings-options-for-solution-export"></a>솔루션 내보내기에 대한 옵션 설정  
- PowerApps에서 솔루션을 내보내는 경우 이 섹션을 무시하십시오. 다음 표는 클래식 환경에서 솔루션을 내보낼 때 사용할 수 있는 옵션을 보여줍니다.  
+ Power Apps에서 솔루션을 내보내는 경우 이 섹션을 무시하십시오. 다음 표는 클래식 환경에서 솔루션을 내보낼 때 사용할 수 있는 옵션을 보여줍니다.  
   
 |그룹|설정|설명|  
 |-----------|-------------|-----------------|  

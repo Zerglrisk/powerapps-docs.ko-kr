@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱의 자동 저장 비활성화 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱의 자동 저장 비활성화 | MicrosoftDocs
 ms.custom: ''
 ms.date: 06/18/2018
 ms.reviewer: ''
@@ -20,12 +20,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: fda8a194a47101eb26d000ea60ede5b38b0f235d
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 2f09cd488165643a3336c526050abc0b9223b49f
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759475"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875669"
 ---
 # <a name="disable-auto-save-in-a-model-driven-app"></a>모델 기반 앱의 자동 저장 비활성화
 
@@ -63,7 +63,7 @@ ms.locfileid: "2759475"
 > [!NOTE]
 >  해당 양식에 대해 자동 저장 기능이 비활성화되지만 오른쪽 아래에 있는 ![자동 저장 단추](media/auto-save-icon.png "A자동 저장 단추") 단추를 선택하면 데이터가 계속 저장됩니다. 데이터가 변경된 양식을 벗어나거나 닫으려고 하면 해당 변경 사항을 저장해야 양식을 벗어나거나 닫을 수 있다는 메시지가 나타납니다.  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다.  
   

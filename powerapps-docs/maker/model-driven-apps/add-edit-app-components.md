@@ -1,6 +1,6 @@
 ---
-title: PowerApps에서 모델 기반 앱 구성 요소를 추가 또는 편집하기 위한 자습서 | MicrosoftDocs
-description: PowerApps 앱 디자이너를 사용하여 구성 요소 추가 또는 편집
+title: Power Apps에서 모델 기반 앱 구성 요소를 추가 또는 편집하기 위한 자습서 | MicrosoftDocs
+description: Power Apps 앱 디자이너를 사용하여 구성 요소 추가 또는 편집
 keywords: ''
 ms.date: 10/15/2018
 ms.service: powerapps
@@ -23,14 +23,14 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: c9cbb77b0b312b4376aed8b5f9d106e2c2826ea4
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f78b990432988de5ba1d6c2b254bef8577770d16
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2752201"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2873557"
 ---
-# <a name="tutorial-add-or-edit-model-driven-app-components-in-the-powerapps-app-designer"></a>자습서: PowerApps 앱 디자이너에서 모델 기반 앱 구성 요소를 추가 또는 편집하기 위한 자습서
+# <a name="tutorial-add-or-edit-model-driven-app-components-in-the-power-apps-app-designer"></a>자습서: Power Apps 앱 디자이너에서 모델 기반 앱 구성 요소를 추가 또는 편집하기 위한 자습서
 
 이 자습서에서는 모델 기반 앱에서 구성 요소를 추가하고 제거하는 방법을 배웁니다. 
 
@@ -56,7 +56,7 @@ ms.locfileid: "2752201"
  > ![캔버스 검색 옵션](media/app-designer-search-tab.png "캔버스 검색")
 
 ## <a name="open-an-app"></a>응용 프로그램을 엽니다.
-1. [PowerApps](https://make.powerapps.com/)에 로그인합니다. 
+1. [Power Apps](https://make.powerapps.com/)에 로그인합니다. 
 
 2. 기존 모델 기반 앱을 선택하거나 **새 규칙으로 시작**을 선택합니다. 앱을 만드는 방법에 대한 자세한 내용은 [앱 디자이너를 사용하여 모델 기반 앱 만들기 또는 편집](create-edit-app.md#create-an-app)을 참조하십시오.
 
@@ -85,7 +85,7 @@ ms.locfileid: "2752201"
 
      이 대시보드는 앱 디자이너 캔버스의 **대시보드** 타일에 추가됩니다. **대시보드** 타일에는 앱에 추가할 수 있는 대시보드의 개수 또한 표시됩니다. 대시보드를 선택하지 않으면 대시보드 개수 대신 **모두**가 표시되며 사용자가 앱을 사용할 때 모든 대시보드를 사용할 수 있습니다.  
   
-     대시보드가 사용하는 모든 엔터티 또한 **엔터티 보기** 영역에 추가됩니다. 예를 들어, 고객 서비스 관리자 대시보드를 추가한 경우, 서비스 케이스, 권한, 큐 항목 엔터티가 엔터티 보기 영역에 추가됩니다. 각 엔터티에 대해 자산에 대한 타일도 추가됩니다. 이 타일을 이용하여 양식, 보기 및 차트를 추가할 수 있습니다. 추가 정보: [PowerApps 앱 디자이너에서 앱 구성 요소 추가 또는 편집](add-edit-app-components.md#bkmk_AddEntityAssets)   
+     대시보드가 사용하는 모든 엔터티 또한 **엔터티 보기** 영역에 추가됩니다. 예를 들어, 고객 서비스 관리자 대시보드를 추가한 경우, 서비스 케이스, 권한, 큐 항목 엔터티가 엔터티 보기 영역에 추가됩니다. 각 엔터티에 대해 자산에 대한 타일도 추가됩니다. 이 타일을 이용하여 양식, 보기 및 차트를 추가할 수 있습니다. 추가 정보: [Power Apps 앱 디자이너에서 앱 구성 요소 추가 또는 편집](add-edit-app-components.md#bkmk_AddEntityAssets)   
   
     ![앱 디자이너 캔버스에 엔터티 추가](../model-driven-apps/media/add-entity-app-designer-canvas.png "앱 디자이너 캔버스에 엔터티 추가")  
   

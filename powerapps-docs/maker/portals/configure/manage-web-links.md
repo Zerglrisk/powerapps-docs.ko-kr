@@ -9,18 +9,18 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 5d0ead5104765ab71848ffcf8c4aaff801a58a20
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: d8e2421545247f72b5b164e08b4ac210466048c1
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760715"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866846"
 ---
 # <a name="manage-web-links"></a>웹 링크 관리
 
 웹 링크는 어느 URL에든 연결될 수 있으며 또는 같은 웹 사이트 내의 다른 웹 페이지에 링크될 수 있습니다. 웹 링크가 웹 페이지에 링크될 때 웹 페이지의 보안 및 게시 상태도 웹 링크에 적용됩니다. 웹 링크는 항상 웹 링크 세트에 속합니다. 웹 링크 세트는 기본 탐색 또는 바닥글 링크 그룹 같은 링크 그룹입니다. 웹 링크 세트는 내부(사이트 맵에서의 배치와 무관) 및 외부 링크가 같이 묶어져 정렬될 수 있게 합니다.
 
-## <a name="manage-web-links-in-powerapps-portals"></a>PowerApps 포털에서 웹 링크 관리
+## <a name="manage-web-links-in-power-apps-portals"></a>Power Apps 포털에서 웹 링크 관리
 
 Common Data Service 환경에 포털 맞춤화를 가져오면 웹 링크 집합에서 웹 링크를 관리할 수 있습니다.
 

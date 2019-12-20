@@ -1,6 +1,6 @@
 ---
-title: PowerApps 포털을 사용한 대체 키 정의 | MicrosoftDocs
-description: PowerApps 포털을 사용한 대체 키 정의에 대해 알아보기
+title: Power Apps 포털을 사용한 대체 키 정의 | MicrosoftDocs
+description: Power Apps 포털을 사용한 대체 키 정의에 대해 알아보기
 ms.custom: ''
 ms.date: 05/31/2018
 ms.reviewer: ''
@@ -20,16 +20,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: fec01122ad00710507fb3e0976ec9f80115f06cf
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: d52b3fa67863a43f82f020f3894bbabf5d38df84
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758893"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2865474"
 ---
-# <a name="define-alternate-keys-using-powerapps-portal"></a>PowerApps 포털을 사용한 대체 키 정의
+# <a name="define-alternate-keys-using-power-apps-portal"></a>Power Apps 포털을 사용한 대체 키 정의
 
-[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service에서 엔터티 대체 키를 쉽게 보고 만들 수 있습니다.
+[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service에서 엔터티 대체 키를 쉽게 보고 만들 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. <br />추가 정보: 
 - [레코드를 참조할 대체 키 정의](define-alternate-keys-reference-records.md)
@@ -37,7 +37,7 @@ ms.locfileid: "2758893"
 
 ## <a name="view-alternate-keys"></a>대체 키 보기
 
-1. [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
+1. [Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
 2. **데이터** > **엔터티**를 선택하고 보려는 엔터티를 선택합니다.
 3. 정의된 대체 키 목록을 보려면 **키**를 선택합니다.
 

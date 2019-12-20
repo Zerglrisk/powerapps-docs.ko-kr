@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 207a1abdfc8145c38b8d6222f71281ce714e8947
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 76e0f5cceedb2e2b1ba1bf7c5d0d7f338af920fd
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2751828"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862055"
 ---
 # <a name="work-with-templates"></a>템플릿으로 작업
 
@@ -30,7 +30,7 @@ ms.locfileid: "2751828"
 
 코드 편집기에서 템플릿을 열려면:
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  화면 왼쪽의 툴 벨트에서 **템플릿** ![템플릿 아이콘](media/templates-icon.png "템플릿 아이콘")을 선택합니다. 사용 가능한 템플릿이 표시됩니다.  
 

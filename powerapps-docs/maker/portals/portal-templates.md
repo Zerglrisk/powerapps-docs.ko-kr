@@ -1,27 +1,24 @@
 ---
-title: PowerApps에서 사용 가능한 포털 템플릿 | Microsoft 문서
-description: PowerApps에서 사용 가능한 다양한 포털 템플릿에 대해 알아봅니다.
+title: Power Apps에서 사용 가능한 포털 템플릿 | Microsoft 문서
+description: Power Apps에서 사용 가능한 다양한 포털 템플릿에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 10/07/2019
+ms.date: 11/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 01995c7d1d23d4986441e8ccdcbba59029004cdf
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f37769e63d6231869aedfd83e834ffcdd86062ea
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755691"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884524"
 ---
 # <a name="portal-templates"></a>포털 템플릿
 
-PowerApps에서 선택한 환경을 기반으로 Common Data Service 시작 포털 또는 Dynamics 365의 모델 기반 앱이 포함된 환경의 포털을 만들 수 있습니다.
-
-> [!NOTE]
-> 기존 포털 및 기존 포털 템플릿(커뮤니티, 파트너, 직원 셀프 서비스, 고객 셀프 서비스)은 PowerApps 포털 스튜디오에서 완전히 지원되지 않으며 일부 구성 요소가 렌더링되지 않을 수 있습니다. 그러나 평소와 같이 나머지 구성 요소를 계속 편집할 수 있습니다.
+Power Apps에서 선택한 환경을 기반으로 Common Data Service 시작 포털 또는 Dynamics 365의 모델 기반 앱이 포함된 환경의 포털을 만들 수 있습니다.
 
 ## <a name="environment-with-common-data-service"></a>Common Data Service가 포함된 환경
 

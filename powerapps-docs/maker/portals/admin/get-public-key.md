@@ -9,18 +9,18 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 39e909acb325bd870f73e16a72da78b4bec07c79
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 120339aae2cc0f39bbdaa9a0343c31f42b98cfdd
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2709854"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867286"
 ---
 # <a name="download-public-key-of-portal"></a>포털의 공개 키 다운로드
 
 포털의 공개 키는 Dynamics 365의 모델 기반 앱용 Live Assist를 구성하는 데 사용되어 인증된 포털의 방문자가 사용할 수 있습니다. CafeX에서 제공하는 [라이브 지원](https://www.cafex.com/en/products/live-assist-dynamics-365/)은 사용자가 자신의 포털에 라이브 채팅 지원을 포함할 수 있는 채팅 솔루션을 제공합니다. 공개 키를 사용하여 포털에 채팅을 포함하는 방법에 대한 자세한 내용은 [Dynamics 고객 포털의 인증된 방문자](https://www.liveassistfor365.com/en/support/authenticated-visitors-in-the-dynamics-customer-portal/)를 참조하십시오.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **포털 작업** > **공개 키 가져오기**로 이동합니다. 키가 표시됩니다.
 

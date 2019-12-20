@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: cf8a30ae29712804cea2da42b0e448acc6286553
-ms.sourcegitcommit: e4b3b6b610f91a0c704a4fa87c6ec238aa81d25f
+ms.openlocfilehash: 2b54cad59b1f5a6cc4199675308f5cd48d05240d
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2767246"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2873997"
 ---
 # <a name="types-of-fields"></a>필드 타입
 
-형식에 사용되는 이름은 사용되는 디자이너에 따라 달라집니다. [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서는 데이터의 형식이 지정되는 방식을 포함하는 규칙을 사용합니다. 솔루션 탐색기 형식은 형식 한정자가 있는 데이터베이스 데이터 형식과 일치하는 이름을 사용합니다. 다음 표에는 해당 `AttributeTypeDisplayName`API 유형이 나와 있습니다.
+형식에 사용되는 이름은 사용되는 디자이너에 따라 달라집니다. [Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서는 데이터의 형식이 지정되는 방식을 포함하는 규칙을 사용합니다. 솔루션 탐색기 형식은 형식 한정자가 있는 데이터베이스 데이터 형식과 일치하는 이름을 사용합니다. 다음 표에는 해당 `AttributeTypeDisplayName`API 유형이 나와 있습니다.
 
 |포털 데이터 유형 |솔루션 탐색기 유형| API 유형|
 |--|--|--|
@@ -65,8 +65,8 @@ ms.locfileid: "2767246"
 |**정수**|**정수**<br />*없음* 형식|`IntegerType`|
 
 추가하거나 편집할 수 있는 각 형식에 대한 자세한 설명은 해당 디자이너에 대한 항목을 참조하십시오.
- - [PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-portal.md#field-data-types)
- - [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-solution-explorer.md#field-data-types)
+ - [Power Apps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-portal.md#field-data-types)
+ - [Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집: 필드 데이터 형식](create-edit-field-solution-explorer.md#field-data-types)
 
 API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내용은 [특성 메타데이터](/powerapps/developer/common-data-service/entity-attribute-metadata)를 참조하십시오.
 
@@ -188,11 +188,11 @@ API에서 필드 데이터 형식이 정의되는 방법에 대한 자세한 내
 By default, when an app user adds an image to display to a form or canvas app, the image displayed is the thumbnail image. To display a full image for a canvas app, see [Display a full-sized image on a canvas app form](../canvas-apps/display-full-image-on-form.md).
 
 
-### Add an image field to an entity using the PowerApps site
+### Add an image field to an entity using the Power Apps site
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-1. Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
+1. Sign in to [Power Apps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).  
 2.  Select **Data** > **Entities** and then select the entity where you want to add an image field. 
 3. Select **Add field** on the command bar, enter the following properties, and then select **Done**: 
    - **Display name**. Enter a friendly name for the field. 

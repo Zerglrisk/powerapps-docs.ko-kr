@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: f94dee983d5d2d9cedf417f2843a2c10c46b82c1
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: a4ba89a1497a6ed81d2e71f7d7a43813d47b6583
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757008"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2873316"
 ---
 # <a name="manage-sharepoint-documents"></a>SharePoint 문서 관리
 
-Common Data Service은 Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]의 문서 관리 기능을 사용할 수 있는 [!INCLUDE[pn-microsoft-sharepoint-online](../../includes/pn-microsoft-sharepoint-online.md)]와의 통합을 지원합니다. 이제 PowerApps 포털에서는 포털의 엔터티 양식 또는 웹 양식의 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]에서 직접 문서를 업로드하고 표시하는 기능을 지원합니다. 이를 통해 포털 사용자는 포털에서 문서를 보고, 다운로드하고, 추가하고, 삭제할 수 있습니다. 포털 사용자는 문서를 구성하는 하위 폴더를 만들 수도 있습니다.
+Common Data Service은 Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]의 문서 관리 기능을 사용할 수 있는 [!INCLUDE[pn-microsoft-sharepoint-online](../../includes/pn-microsoft-sharepoint-online.md)]와의 통합을 지원합니다. 이제 Power Apps 포털에서는 포털의 엔터티 양식 또는 웹 양식의 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]에서 직접 문서를 업로드하고 표시하는 기능을 지원합니다. 이를 통해 포털 사용자는 포털에서 문서를 보고, 다운로드하고, 추가하고, 삭제할 수 있습니다. 포털 사용자는 문서를 구성하는 하위 폴더를 만들 수도 있습니다.
 
 > [!NOTE]
 > - 문서 관리는 [!INCLUDE[pn-microsoft-sharepoint-online](../../includes/pn-microsoft-sharepoint-online.md)]에서만 작동합니다.
@@ -28,11 +28,11 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
 1.  [Dynamics 365의 모델 기반 앱에서 문서 관리 기능 사용](#step-1-enable-document-management-functionality-in-model-driven-apps-in-dynamics-365)
 
-2.  [PowerApps 포털 관리 센터에서 SharePoint 통합 설정](#step-2-set-up-sharepoint-integration-from-powerapps-portals-admin-center)
+2.  [Power Apps 포털 관리 센터에서 SharePoint 통합 설정](#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center)
 
 3.  [엔터티에 대해 문서 관리 사용](#step-3-enable-document-management-for-entities)
 
-4.  [PowerApps 문서에서 적절한 양식 구성](#step-4-configure-the-appropriate-form-to-display-documents)
+4.  [Power Apps 문서에서 적절한 양식 구성](#step-4-configure-the-appropriate-form-to-display-documents)
 
 5.  [적절한 엔터티 권한을 만들어 적절한 웹 역할에 할당](#step-5-create-appropriate-entity-permission-and-assign-it-to-the-appropriate-web-role)
 
@@ -40,14 +40,14 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
 서버 기반 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용하여 Dynamics 365의 모델 기반 앱에서 문서 관리 기능을 활성화해야 합니다. 서버 기반 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 사용하면 Dynamics 365의 모델 기반 앱 및 [!INCLUDE[pn-microsoft-sharepoint-online](../../includes/pn-microsoft-sharepoint-online.md)]에서 서버 간 연결을 수행할 수 있습니다. 기본 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]사이트 레코드는 포털에서 사용됩니다. Dynamics 365의 모델 기반 앱에서 문서 관리 기능을 활성화하는 방법에 대한 자세한 내용은 [Dynamics 365의 모델 기반 앱에서 SharePoint 온라인을 사용하도록 설정](https://docs.microsoft.com/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online)을 참조하십시오.
 
-## <a name="step-2-set-up-sharepoint-integration-from-powerapps-portals-admin-center"></a>2단계: PowerApps 포털 관리 센터에서 SharePoint 통합 설정
+## <a name="step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center"></a>2단계: Power Apps 포털 관리 센터에서 SharePoint 통합 설정
 
-[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]의 문서 관리 기능을 사용하려면 PowerApps 포털 관리 센터에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 활성화해야 합니다.
+[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]의 문서 관리 기능을 사용하려면 Power Apps 포털 관리 센터에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합을 활성화해야 합니다.
 
 > [!NOTE]
 > 이 작업을 수행하려면 전역 관리자여야 합니다.
 
-1. [PowerApps 포털 관리 센터](admin/admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin/admin-overview.md)를 엽니다.
 
 2.  **[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합 설정** > **[!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합 활성화**로 이동합니다.
 
@@ -80,7 +80,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
 ## <a name="step-4-configure-the-appropriate-form-to-display-documents"></a>4단계: 문서를 표시하도록 적절한 양식 구성
 
-### <a name="powerapps-customization"></a>PowerApps 사용자 지정
+### <a name="power-apps-customization"></a>Power Apps 사용자 지정
 
 문서 관리 기능을 사용할 양식을 식별합니다. 모델 기반 앱 양식 편집기를 사용하여 양식을 편집하고 여기에 하위 표를 추가해야 합니다. 하위 표는 양식에 섹션을 추가하여 포탈 내에서 문서로 작업할 수 있습니다. 이 기능이 작동하려면 하위 표에서 다음 속성을 설정해야 합니다.
 
@@ -93,7 +93,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 > [!NOTE]
 > 양식을 편집하는 엔터티에 대해 문서 관리를 사용하도록 설정해야 합니다. 추가 정보: [엔터티에 대해 문서 관리 사용](#step-3-enable-document-management-for-entities)
 
-### <a name="powerapps-portals-configuration"></a>PowerApps 포털 구성
+### <a name="power-apps-portals-configuration"></a>Power Apps 포털 구성
 
 엔터티 양식이나 웹 양식에 필요한 표준 구성 외에, 다음 속성을 설정하여 문서 관리를 사용하도록 설정해야 합니다.
 
@@ -135,7 +135,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
 1.  [1단계](#step-1-enable-document-management-functionality-in-model-driven-apps-in-dynamics-365)의 지침에 따라 Dynamics 365의 모델 기반 앱 및 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)] 통합에 대해 서버 기반 구성이 완전한지 확인합니다.
 
-2.  [2단계](#step-2-set-up-sharepoint-integration-from-powerapps-portals-admin-center)의 지침에 따라 포털에 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]와 통합할 권한이 있는지 확인합니다. 
+2.  [2단계](#step-2-set-up-sharepoint-integration-from-power-apps-portals-admin-center)의 지침에 따라 포털에 [!INCLUDE[pn-sharepoint-short](../../includes/pn-sharepoint-short.md)]와 통합할 권한이 있는지 확인합니다. 
 
 3.  [3단계](#step-3-enable-document-management-for-entities)의 지침에 따라 서비스 케이스 엔터티에 대해 문서 관리를 사용하도록 설정되었는지 확인합니다.
 
@@ -172,7 +172,7 @@ Common Data Service 내에서 [!INCLUDE[pn-sharepoint-short](../../includes/pn-s
 
         f. 양식 편집기에서 **저장**을 선택한 다음 **게시**를 선택합니다.
 
-    - PowerApps 포털 구성
+    - Power Apps 포털 구성
 
         a. **포털** > **엔터티 양식**으로 이동합니다.
     

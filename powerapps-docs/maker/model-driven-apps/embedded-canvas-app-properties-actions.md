@@ -16,18 +16,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 20a28b159158579b35fb9e8a1b650f718c5ef83b
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 674147425097d75b96e14bfbf76b3c937f9fd999
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2703958"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2868450"
 ---
 # <a name="modeldrivenformintegration-control-properties-and-actions"></a>ModelDrivenFormIntegration 컨트롤의 속성 및 동작
 모델 기반 양식에 포함된 캔버스 앱에는 **ModelDrivenFormIntegration**이라는 특수 컨트롤이 포함되어 있습니다. 이 컨트롤은 호스트 모델 기반 양식에서 포함된 캔버스 앱으로 컨텍스트 데이터를 가져오는 역할을 합니다.  
@@ -54,4 +54,4 @@ ms.locfileid: "2703958"
 [포함된 캔버스 앱 내에서 호스트 양식에 대한 미리 정의된 작업 수행](embedded-canvas-app-actions.md) <br />
 [포함된 캔버스 앱 공유](share-embedded-canvas-app.md) <br />
 [포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md) <br />
-[공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />
+[공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />

@@ -21,12 +21,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: ba8fe12a9ecffa0ffb1116546d2bfe9ab2c62ac8
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: c13092daaa86abbcba5ef65dc809f29d9a6a6f12
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758067"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883711"
 ---
 # <a name="create-and-edit-entities-in-common-data-service"></a>Common Data Service에서 엔터티 만들기 및 편집
 
@@ -36,7 +36,7 @@ ms.locfileid: "2758067"
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: <br />[자습서: PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />[PowerApps 포털을 사용하여 엔터티 만들기 및 편집](create-edit-entities-portal.md)|
+|[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: <br />[자습서: Power Apps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />[Power Apps 포털을 사용하여 엔터티 만들기 및 편집](create-edit-entities-portal.md)|
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다. <br />추가 정보 [솔루션 탐색기를 사용하여 엔터티 만들기 및 편집](create-edit-entities-solution-explorer.md)|
 
 > [!NOTE]
@@ -46,9 +46,9 @@ ms.locfileid: "2758067"
 > - 개발자는 [메타데이터 서비스](/powerapps/developer/common-data-service/use-web-services#metadata-services)를 사용하여 프로그램을 작성할 수 있습니다.
 
 
-## <a name="entity-options-not-available-in-the-powerapps-portal"></a>PowerApps 포털에서 사용할 수 없는 엔터티 옵션
+## <a name="entity-options-not-available-in-the-power-apps-portal"></a>Power Apps 포털에서 사용할 수 없는 엔터티 옵션
 
-이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 다음 요구 사항 중 하나를 해결 해야 하는 경우가 아니면 PowerApps 포털을 사용하여 엔터티를 만들 수 있습니다.
+이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 다음 요구 사항 중 하나를 해결 해야 하는 경우가 아니면 Power Apps 포털을 사용하여 엔터티를 만들 수 있습니다.
 
 - 사용자 지정 접두사 제어
 
@@ -56,7 +56,7 @@ ms.locfileid: "2758067"
 
 - 조직 담당 엔터티 만들기
 
-  기본적으로 PowerApps 포털은 **사용자 또는 팀** 담당 엔터티를 만듭니다. 솔루션 탐색기를 사용하여 **조직**에 소유권을 설정합니다. 추가 정보: [엔터티 소유권](types-of-entities.md#entity-ownership)
+  기본적으로 Power Apps 포털은 **사용자 또는 팀** 담당 엔터티를 만듭니다. 솔루션 탐색기를 사용하여 **조직**에 소유권을 설정합니다. 추가 정보: [엔터티 소유권](types-of-entities.md#entity-ownership)
 
 - 활동 엔터티 만들기
 
@@ -93,6 +93,6 @@ ms.locfileid: "2758067"
 ### <a name="see-also"></a>참조
 
 [솔루션 탐색기를 사용하여 엔터티 만들기 및 편집](create-edit-entities-solution-explorer.md)<br />
-[자습서: PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />
+[자습서: Power Apps에서 구성 요소가 있는 사용자 지정 엔터티 만들기](/powerapps/maker/common-data-service/create-custom-entity)<br />
 [엔터티 편집](edit-entities.md)<br />
 [개발자 설명서: 사용자 지정 엔터티 만들기](/dynamics365/customer-engagement/developer/org-service/create-custom-entity)

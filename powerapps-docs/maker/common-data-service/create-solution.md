@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 9e57aa7395b6c8fdbcfe35c944f625d9790f592a
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: c917314137580ffee9d70f702c87bfb265a55810
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757671"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872964"
 ---
 # <a name="create-a-solution"></a>솔루션 만들기
 
@@ -35,7 +35,7 @@ ms.locfileid: "2757671"
   
  솔루션 개념에 대한 자세한 내용은 [솔루션 작업](solutions-overview.md)을 참조하십시오.  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 왼쪽 탐색 메뉴에서 **솔루션**을 선택합니다. 
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인하고 왼쪽 탐색 메뉴에서 **솔루션**을 선택합니다. 
   
 2.  **새 솔루션**을 선택하고 솔루션의 필수 필드를 채웁니다.
   

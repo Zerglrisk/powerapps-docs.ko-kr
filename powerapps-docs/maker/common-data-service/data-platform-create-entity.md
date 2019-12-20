@@ -1,6 +1,6 @@
 ---
 title: 사용자 지정 엔터티 만들기 | Microsoft Docs
-description: PowerApps에서 사용자 지정 엔터티를 만드는 방법에 대해 설명합니다.
+description: Power Apps에서 사용자 지정 엔터티를 만드는 방법에 대해 설명합니다.
 author: Mattp123
 ms.service: powerapps
 ms.component: cds
@@ -12,23 +12,23 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b1331d272b30bb3455ae06a8dd726eb3a9dc630f
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: e24249573f6c7e56ff16de6808e2423acbf3c0cf
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2754966"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884195"
 ---
 # <a name="create-a-custom-entity"></a>맞춤 엔터티 만들기
-PowerApps에서 *엔터티*는 일반적으로 회사 이름, 위치, 제품, 전자 메일 및 전화와 같은 속성을 포함하는 레코드 형태로 추적하려는 정보를 정의합니다. 그런 다음 엔터티를 참조하는 앱을 개발하여 해당 데이터를 확인할 수 있습니다. PowerApps는 조직 내의 일반적인 시나리오(예: 약속 추적)를 포괄하는 표준 "기본" 엔터티를 제공하지만 조직과 관련된 데이터를 저장하기 위해 사용자 지정 엔터티를 만들어야 하는 경우가 있을 수 있습니다.
+Power Apps에서 *엔터티*는 일반적으로 회사 이름, 위치, 제품, 전자 메일 및 전화와 같은 속성을 포함하는 레코드 형태로 추적하려는 정보를 정의합니다. 그런 다음 엔터티를 참조하는 앱을 개발하여 해당 데이터를 확인할 수 있습니다. Power Apps는 조직 내의 일반적인 시나리오(예: 약속 추적)를 포괄하는 표준 "기본" 엔터티를 제공하지만 조직과 관련된 데이터를 저장하기 위해 사용자 지정 엔터티를 만들어야 하는 경우가 있을 수 있습니다.
 
 이 항목에서는 회사에서 판매하는 제품에 대한 등급 및 설명을 표시하는 앱을 만드는 데 사용할 수 있는 제품 검토라는 사용자 지정 엔터티를 만드는 방법을 배웁니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 이 절차를 수행하려면 Common Data Service에서 시스템 관리자 또는 시스템 사용자 지정자 보안 역할이 있어야 합니다.
 
-## <a name="sign-in-to-powerapps"></a>PowerApps에 로그인합니다.
-[https://make.powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 PowerApps에 로그인합니다.
+## <a name="sign-in-to-power-apps"></a>Power Apps에 로그인합니다.
+[https://make.powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 Power Apps에 로그인합니다.
 
 ## <a name="create-an-entity"></a>엔터티 만들기
 1. 탐색 창에서 **데이터**를 클릭하거나 탭하여 확장한 다음 **엔터티**를 클릭하거나 탭합니다.
@@ -45,7 +45,7 @@ PowerApps에서 *엔터티*는 일반적으로 회사 이름, 위치, 제품, �
 
     표시 이름을 입력할 때 다음 상자가 자동으로 채워지는지 확인하십시오.
 
-    * **여러 표시 이름** - 이 상자는 표시 이름을 입력할 때 자동으로 채워지지만 필요한 경우 변경할 수 있습니다. 여러 표시 이름은 Common Data Service WebAPI에 있는 엔터티의 이름이며 PowerApps 또는 Flow에서 이 엔터티와 상호 작용할 때 사용됩니다.
+    * **여러 표시 이름** - 이 상자는 표시 이름을 입력할 때 자동으로 채워지지만 필요한 경우 변경할 수 있습니다. 여러 표시 이름은 Common Data Service WebAPI에 있는 엔터티의 이름이며 Power Apps 또는 Flow에서 이 엔터티와 상호 작용할 때 사용됩니다.
     * **이름** - 또한 이 상자는 표시 이름을 입력할 때 자동으로 채워집니다. 이 접두사는 환경을 만들 때 설정되었으며 사용자가 만든 엔터티를 다른 엔터티 이름과 충돌하지 않고 다른 환경으로 내보내고 가져올 수 있는지 확인합니다. Common Data Service 기본 솔루션에 대한 게시자의 접두사를 업데이트하여 이 접두사를 변경할 수 있습니다. 기존 앱을 중단하지 않도록 하려면 엔터티를 저장한 후에 이름을 변경할 수 없습니다.
 
        > [!NOTE]
@@ -111,4 +111,4 @@ PowerApps에서 *엔터티*는 일반적으로 회사 이름, 위치, 제품, �
 > [관계 만들기](data-platform-entity-lookup.md)
 
 ## <a name="privacy-notice"></a>개인 정보 취급 방침
-Microsoft PowerApps Microsoft PowerApps 공통 데이터 모델을 사용하면 Microsoft는 진단 시스템에서 사용자 지정 엔터티 및 필드 이름을 수집하고 저장합니다. 이 점을 파악하여 고객을 위해 일반적인 데이터 모델을 개선합니다. 앱 작성자가 만드는 엔터티 및 필드 이름은 Microsoft PowerApps 커뮤니티에서 공통적인 시나리오를 이해하고 조직과 관련된 스키마와 같은 서비스의 표준 엔터티 적용 범위에서 차이를 확인하는 데 도움이 됩니다. 이러한 엔터티와 연결된 데이터베이스 테이블의 데이터는 Microsoft에서 액세스하거나 사용하거나 데이터베이스가 프로비전되는 지역 외부에서 복제되지 않습니다. 그러나 사용자 지정 엔터티와 필드 이름은 여러 지역에 걸쳐 복제될 수 있으며 데이터 보존 정책에 따라 삭제됩니다. Microsoft는 [보안 센터](https://www.microsoft.com/trustcenter/Privacy/default.aspx)에서 추가로 설명한 대로 사용자의 개인 정보를 보호하기 위해 최선을 다하고 있습니다.
+Microsoft PowerApps Microsoft Power Apps 공통 데이터 모델을 사용하면 Microsoft는 진단 시스템에서 사용자 지정 엔터티 및 필드 이름을 수집하고 저장합니다. 이 점을 파악하여 고객을 위해 일반적인 데이터 모델을 개선합니다. 앱 작성자가 만드는 엔터티 및 필드 이름은 Microsoft Power Apps 커뮤니티에서 공통적인 시나리오를 이해하고 조직과 관련된 스키마와 같은 서비스의 표준 엔터티 적용 범위에서 차이를 확인하는 데 도움이 됩니다. 이러한 엔터티와 연결된 데이터베이스 테이블의 데이터는 Microsoft에서 액세스하거나 사용하거나 데이터베이스가 프로비전되는 지역 외부에서 복제되지 않습니다. 그러나 사용자 지정 엔터티와 필드 이름은 여러 지역에 걸쳐 복제될 수 있으며 데이터 보존 정책에 따라 삭제됩니다. Microsoft는 [보안 센터](https://www.microsoft.com/trustcenter/Privacy/default.aspx)에서 추가로 설명한 대로 사용자의 개인 정보를 보호하기 위해 최선을 다하고 있습니다.

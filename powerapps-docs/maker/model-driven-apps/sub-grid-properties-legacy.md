@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 모델 기반 앱 기본 양식에 대한 하위 표 | MicrosoftDocs
+title: Power Apps의 모델 기반 앱 기본 양식에 대한 하위 표 | MicrosoftDocs
 description: 기본 양식에 대한 하위 표 속성 이해
 Keywords: 기본 양식; 하위 표 속성; Dynamics 365
 author: Mattp123
@@ -18,19 +18,19 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: a6bb86fde69554808f8cbf75f0366dc49ea485f4
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: ff9b79565525cee42eedfcd48c59669c4fe277d8
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759695"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872832"
 ---
 # <a name="sub-grid-properties-for-model-driven-app-main-forms-overview"></a>모델 기반 앱 기본 양식에 대한 하위 표 속성 개요
 
 레코드 또는 차트의 목록을 표시하려면 양식에 하위 표를 구성할 수 있습니다. **표시** 탭에서 **차트만 표시**를 선택하여 목록 대신 차트를 표시합니다.  
 
-PowerApps 사이트에서 **하위 표 속성**에 액세스할 수 있습니다. 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+Power Apps 사이트에서 **하위 표 속성**에 액세스할 수 있습니다. 
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
 
      ![모델 기반 디자인 모드](media/model-driven-switch.png)
 

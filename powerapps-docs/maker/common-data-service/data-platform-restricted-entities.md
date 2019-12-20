@@ -13,29 +13,29 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: cd722c29bfc850cb1b55c296b4e377e14678b3ad
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 5672922d04ae8ea4342139ef9179c7a871fd5ea6
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2703518"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861210"
 ---
 # <a name="restricted-entities-requiring-dynamics-365-licenses"></a>Dynamics 365 라이선스가 요구되는 제한적 엔터티
 
 > [!IMPORTANT]
-> 이 항목은 최신 버전이 아니며 2019년 10월 1일부터 적용 가능한 최신 라이선스 변경 사항을 반영하여 곧 업데이트될 예정입니다. 엔터티의 라이선스 요구 사항에 대한 최신 정보는 [PowerApps 라이선스 가이드](https://go.microsoft.com/fwlink/?linkid=2085130)를 참조하십시오.
+> 이 항목은 최신 버전이 아니며 2019년 10월 1일부터 적용 가능한 최신 라이선스 변경 사항을 반영하여 곧 업데이트될 예정입니다. 엔터티의 라이선스 요구 사항에 대한 최신 정보는 [Power Apps 라이선스 가이드](https://go.microsoft.com/fwlink/?linkid=2085130)를 참조하십시오.
 
-앱 제조업체는 Common Data Service 내에서 사용 가능한 대부분의 엔터티를 사용하여 PowerApps 플랜 1 라이선스만 있는 사용자를 위한 앱과 흐름을 만들 수 있습니다. 그러나 일부 엔터티에는 앱 사용자에게 PowerApps 플랜 2 또는 Microsoft Flow플랜 2 라이선스가 있어야 하는 복잡한 비즈니스 논리가 포함되어 있습니다(자세한 내용은 [엔터티 라이선스 요구 사항](data-platform-entity-licenses.md) 참조). Dynamics 365 제품에 연결된 더 작은 엔터티 집합에는 엔터티 내에서 레코드를 생성, 업데이트 또는 삭제해야 하는 경우 캔버스 및 모델 기반 앱 사용자에 게 해당 Dynamics 365 제품에 대한 라이선스가 있어야 합니다. 이러한 항목은 *제한된* 엔터티로 참조됩니다.
+앱 제조업체는 Common Data Service 내에서 사용 가능한 대부분의 엔터티를 사용하여 Power Apps 플랜 1 라이선스만 있는 사용자를 위한 앱과 흐름을 만들 수 있습니다. 그러나 일부 엔터티에는 앱 사용자에게 Power Apps 플랜 2 또는 Power Automate플랜 2 라이선스가 있어야 하는 복잡한 비즈니스 논리가 포함되어 있습니다(자세한 내용은 [엔터티 라이선스 요구 사항](data-platform-entity-licenses.md) 참조). Dynamics 365 제품에 연결된 더 작은 엔터티 집합에는 엔터티 내에서 레코드를 생성, 업데이트 또는 삭제해야 하는 경우 캔버스 및 모델 기반 앱 사용자에 게 해당 Dynamics 365 제품에 대한 라이선스가 있어야 합니다. 이러한 항목은 *제한된* 엔터티로 참조됩니다.
 
 엔터티는 다음과 같은 이유로 Dynamics 365 라이선스로 제한될 수 있습니다.
 
 * 엔터티는 일반적으로 응용 프로그램 외부에서 사용되지 않는 제품별 구성 데이터를 저장하 고 유지 관리하는 데 사용됩니다.
 * 이 엔터티에는 Dynamics 365 제품 내에서 사용될 때 특정 방식으로 데이터를 만들고 유지 관리하는 고급 논리가 수반됩니다.
 
-앱 또는 흐름이 엔터티에서 정보를 읽기만 하는 경우 Dynamics 365 라이선스가 필요하지 않으며 적절한 PowerApps 또는 Microsoft Flow 라이선스가 필요합니다. 
+앱 또는 흐름이 엔터티에서 정보를 읽기만 하는 경우 Dynamics 365 라이선스가 필요하지 않으며 적절한 Power Apps 또는 Power Automate 라이선스가 필요합니다. 
 
 ## <a name="restricted-entities-for-create-update-and-delete-operations"></a>읽기, 만들기, 업데이트 및 삭제 작업 제한 엔터티
-다음 표에서는 엔터티 내에 저장된 데이터를 만들거나 업데이트하거나 삭제하는 PowerApps 및 Microsoft Flow 앱 사용자에 대한 제한된 엔터티 및 관련 Dynamics 365 라이선스 요구 사항을 보여줍니다. 
+다음 표에서는 엔터티 내에 저장된 데이터를 만들거나 업데이트하거나 삭제하는 Power Apps 및 Power Automate 앱 사용자에 대한 제한된 엔터티 및 관련 Dynamics 365 라이선스 요구 사항을 보여줍니다. 
 
 |엔터티  |논리적 이름  |라이선스 필수  |
 |---------|---------|---------|
@@ -82,5 +82,5 @@ SLA| sla | Dynamics 365 for Customer Service, Enterprise Edition <br>**또는** 
 작업 주문 세부 정보 생성 큐(더 이상 사용되지 않음)|msdyn_workorderdetailsgenerationqueue |Dynamics 365 for Field Service<br>**또는** Dynamics 365 Customer Engagement 플랜 <br> **또는** Dynamics 365 계획
 
 ## <a name="licensing"></a>라이선싱
-PowerApps 및 Dynamics 365 라이선스에 대한 자세한 내용은 [라이선스 개요](../../administrator/pricing-billing-skus.md) 페이지를 참조하십시오.
+Power Apps 및 Dynamics 365 라이선스에 대한 자세한 내용은 [라이선스 개요](../../administrator/pricing-billing-skus.md) 페이지를 참조하십시오.
 

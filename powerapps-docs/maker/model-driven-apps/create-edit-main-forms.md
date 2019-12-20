@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 기본 양식 만들기 또는 편집 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 기본 양식 만들기 또는 편집 | MicrosoftDocs
 description: 기본 양식을 만들거나 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/23/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 52b80ac0809bbcfe0b008e6fc31fd8b97b894959
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 2c60e3b149ae634364a0e0bca8fb2349c96c1aab
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759211"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875317"
 ---
 # <a name="create-or-edit-a-model-driven-app-main-form-for-an-entity"></a>엔터티의 모델 기반 앱 기본 양식 만들기 또는 편집 
 
@@ -41,7 +41,7 @@ ms.locfileid: "2759211"
 
 ## <a name="how-to-create-or-edit-a-main-form"></a>기본 양식을 만들거나 편집하는 방법
   
-1.   [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.   [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 
 > [!IMPORTANT]

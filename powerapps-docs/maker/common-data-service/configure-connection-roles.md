@@ -19,12 +19,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 028be1172621c9bdb510f5e57d16eb226b10f92b
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 434dea11e5238167e824561e247bc23ddbb7839b
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758243"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874173"
 ---
 # <a name="configure-connection-roles"></a>연결 역할 구성
 
@@ -38,7 +38,7 @@ Common Data Service를 사용하면 엔터티 관계를 만들지 않고 엔터�
 > 기존 또는 새로운 연결 역할을 위해 엔터티를 레코드 종류로 사용할 수 있도록 하려면 엔터티에 대해 **연결 활성화** 속성을 활성화해야 합니다. 
 
 ## <a name="enable-connection-roles-for-an-entity"></a>엔터티의 연결 규칙 활성화
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
 2. **데이터**를 확장한 다음 **엔터티**를 선택합니다. 
 3. 연결 역할에 활성화할 엔터티를 선택한 다음 명령 모음에서 **설정**을 선택합니다. 
 4. **설정**창에서 **공동 작업** 영역을 확장한 다음 **연결 활성화**를 선택합니다.

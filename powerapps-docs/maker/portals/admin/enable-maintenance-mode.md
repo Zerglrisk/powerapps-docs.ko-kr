@@ -6,15 +6,15 @@ manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 10/07/2019
+ms.date: 11/11/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: e53380c39257645e9056a271226b6f7ef8c8c721
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: cc2c7aae9b2329bfa7b24d45049d7cbbab399e28
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2709942"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862715"
 ---
 # <a name="maintenance-mode-for-a-portal"></a>포털에 대한 유지 관리 모드
 
@@ -29,7 +29,7 @@ ms.locfileid: "2709942"
 
 웹 사이트가 예약된 유지 관리 상태에 있을 때 예측할 수 없는 동작을 처리하는 대신 일관된 메시지를 제공하기 위해 포털에서 유지 관리 모드를 활성화할 수도 있습니다. 이렇게 하면 포털 사용자에게 더 나은 환경을 제공할 수 있습니다.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 3. **포털 작업** > **유지 관리 모드 활성화**로 이동합니다.
 
@@ -45,6 +45,9 @@ ms.locfileid: "2709942"
 
     - **사용자 지정 페이지 URL**: 이 필드는 사용자 지정 HTML 페이지를 표시하는 옵션을 선택하는 경우에만 사용할 수 있습니다. 제공하는 페이지 URL에 공개적으로 액세스할 수 있는지 확인해야 합니다. 지정된 HTML 페이지에 연결할 수 없는 경우 기본 페이지가 관리자에게 메모와 함께 표시됩니다.
 
+        > [!NOTE]
+        > 사용자 지정 유지 보수 페이지는 IFrame을 사용하여 페이지를 표시합니다. 따라서 페이지에는 `x-frame-options:SAMEORIGIN` 응답 헤더를 포함하지 않아야 하며, 그렇지 않으면 페이지가 로드되지 않습니다.
+
 5. **사용**을 선택합니다. 유지 관리 모드를 활성화하는 동안 포털이 다시 시작되고 몇 분 동안 사용할 수 없습니다. 
 
     > [!div class=mx-imgBorder]
@@ -56,7 +59,7 @@ ms.locfileid: "2709942"
 
 또한 웹 사이트의 예약된 유지 관리가 완료되면 포털에서 유지 관리 모드를 비활성화하도록 선택할 수 있습니다. 이제 포털 사용자는 평소와 같이 모든 웹 페이지를 찾아보고 액세스할 수 있습니다.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 작업** > **유지 관리 모드 구성 또는 비활성화**로 이동합니다.
 

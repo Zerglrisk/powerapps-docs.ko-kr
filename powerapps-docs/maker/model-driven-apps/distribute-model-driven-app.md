@@ -24,12 +24,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 72f5ad809983738526a03f306c3479f53745d991
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 2d9c6692f26e16b03872696b094ccd14a649299f
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755406"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2873184"
 ---
 # <a name="distribute-a-model-driven-app-using-a-solution"></a>솔루션을 사용하여 모델 기반 앱 배포
 
@@ -38,7 +38,7 @@ ms.locfileid: "2755406"
 ## <a name="add-an-app-to-a-solution"></a>솔루션에 앱 추가
 앱을 배포하려면 내보낼 앱을 패키지로 만들 수 있도록 솔루션을 만듭니다.
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2. **솔루션**을 선택한 다음 **새 솔루션**을 선택합니다.
 3. **새 솔루션** 페이지에서 필드를 완료한 다음 **저장**을 선택합니다. 추가 정보: [솔루션 만들기](../common-data-service/create-solution.md)
@@ -66,7 +66,7 @@ ms.locfileid: "2755406"
 ## <a name="import-a-solution"></a>솔루션 가져오기  
 가져오려는 앱이 포함된 솔루션 zip 파일을 받으면 솔루션 구성 요소 페이지를 열고 솔루션을 가져옵니다. 솔루션을 성공적으로 가져오면 환경에서 앱을 사용할 수 있습니다.
 
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2. **솔루션**을 선택한 다음 도구 모음에서 **가져오기**를 선택합니다.
 3. 가져오려는 파일을 찾은 다음 **다음**을 선택합니다.

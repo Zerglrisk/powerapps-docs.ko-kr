@@ -1,6 +1,6 @@
 ---
-title: PowerApps 포털 스튜디오에 지원되는 웹 브라우저 | Microsoft Docs
-description: PowerApps 포털 스튜디오에 지원되는 웹 브라우저에 대해 알아보십시오.
+title: Power Apps 포털 스튜디오에 지원되는 웹 브라우저 | Microsoft Docs
+description: Power Apps 포털 스튜디오에 지원되는 웹 브라우저에 대해 알아보십시오.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: e4f4110e888b684d3c34c1c1c6c048a5eabc912a
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: a378cbbaf5355c5239f22987e2084bf6aef78480
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755647"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2864573"
 ---
-# <a name="supported-web-browsers-for-powerapps-portals-studio"></a>PowerApps 포털 스튜디오에 지원되는 웹 브라우저
+# <a name="supported-web-browsers-for-power-apps-portals-studio"></a>Power Apps 포털 스튜디오에 지원되는 웹 브라우저
 
-PowerApps 포털 스튜디오에 지원되는 브라우저는 다음과 같습니다.
+Power Apps 포털 스튜디오에 지원되는 브라우저는 다음과 같습니다.
 
 | **브라우저**                     | **작동 시스템**           |
 |---------------------------------|--------------------------------|

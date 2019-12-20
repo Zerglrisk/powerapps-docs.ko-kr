@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 앱에 대한 모델 기반 앱 사이트 맵 만들기 | MicrosoftDocs
+title: Power Apps에서 앱에 대한 모델 기반 앱 사이트 맵 만들기 | MicrosoftDocs
 description: 앱에 대한 사이트 맵을 만드는 방법 알아보기
 keywords: ''
 ms.date: 05/29/2018
@@ -24,12 +24,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 852cacde56cc76dfd166471b9985f28b5b995c13
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: d225bba7469ba25f170bfa1f77af226996a9946b
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2700658"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860330"
 ---
 # <a name="tutorial-create-a-model-driven-app-site-map-for-an-app-using-the-site-map-designer"></a>자습서: 사이트 맵 디자이너를 사용하여 앱에 대한 모델 기반 앱 사이트 맵 만들기
 
@@ -158,7 +158,7 @@ ms.locfileid: "2700658"
   
     - **URL**: 그룹을 나타내는 Dynamics 365 for Outlook 폴더를 렌더링할 URL을 입력합니다.  
   
-    - **프로필로 설정**: 이 확인란을 선택하여 이 그룹에서 작업 공간에 대해 사용자가 선택할 수 있는 프로필 표시 여부를 나타냅니다. 그룹을 사용자가 선택할 수 있는 프로필로 설정하는 옵션은 개인 옵션에서 사용할 수 있습니다. **작업 공간** 영역 내의 그룹에만 적용됩니다.  
+    - **프로필로 설정**: 이 확인란을 선택하여 이 그룹에서 작업 영역에 대해 사용자가 선택할 수 있는 프로필 표시 여부를 나타냅니다. 그룹을 사용자가 선택할 수 있는 프로필로 설정하는 옵션은 개인 옵션에서 사용할 수 있습니다. **작업 영역** 영역 내의 그룹에만 적용됩니다.  
   
 <a name="bkmk_AddSubarea"></a>   
 ## <a name="add-a-subarea-to-a-group-in-the-site-map"></a>사이트 맵의 그룹에 하위 영역 추가  

@@ -21,12 +21,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: fd5d17f33490aab049a166fa53ce541bdea2235a
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 004e6e00d433473b6d7a700288dc2d0e920ab884
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757935"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861390"
 ---
 # <a name="how-to-create-and-edit-fields"></a>필드를 만들고 편집하는 방법
 
@@ -38,8 +38,8 @@ Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 �
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)|
-|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />추가 정보: [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md) |
+|[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [Power Apps 포털을 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-portal.md)|
+|솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.<br />추가 정보: [Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md) |
 
 > [!NOTE]
 > 다음을 사용하여 환경에서 필드를 만들 수도 있습니다.
@@ -50,7 +50,7 @@ Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 �
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 
-다음 요구 사항 중 하나를 해결해야 하는 경우가 아니면 PowerApps 포털을 사용하여 Common Data Service에 대한 필드를 만들고 편집해야 합니다.
+다음 요구 사항 중 하나를 해결해야 하는 경우가 아니면 Power Apps 포털을 사용하여 Common Data Service에 대한 필드를 만들고 편집해야 합니다.
 
 - 고객 조회 필드 만들기. 
    - 추가 정보: [조회의 다른 유형](types-of-fields.md#different-types-of-lookups)
@@ -73,7 +73,7 @@ Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 �
    - 추가 정보: [필드 관리 속성 설정](set-managed-properties-for-field.md)
 
 > [!NOTE]
-> 엔터티에 대한 일대다 관계를 만들어 PowerApps 포털 또는 솔루션 탐색기에서 조회 필드를 만들 수 있습니다. 그러나 솔루션 탐색기만 필드를 만드는 동안 관계를 만드는 옵션을 제공합니다.
+> 엔터티에 대한 일대다 관계를 만들어 Power Apps 포털 또는 솔루션 탐색기에서 조회 필드를 만들 수 있습니다. 그러나 솔루션 탐색기만 필드를 만드는 동안 관계를 만드는 옵션을 제공합니다.
 
 ## <a name="community-tools"></a>커뮤니티 도구
 
@@ -83,8 +83,8 @@ Common Data Service에서 필드는 엔터티에 데이터를 저장하는 데 �
 > 커뮤니티 도구는 Microsoft의 제품이 아니며 커뮤니티 도구에 대해 지원을 확장하지 않습니다. 도구와 관련된 질문이 있으면 게시자에게 문의하십시오. 추가 정보: [XrmToolBox](https://www.xrmtoolbox.com)
 
 ### <a name="see-also"></a>참조  
-[PowerApps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)<br />
-[PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
+[Power Apps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)<br />
+[Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [필드 유형 및 필드 데이터 형식](types-of-fields.md)<br />
 [개발자 설명서: 속성 메타데이터 작업](/dynamics365/customer-engagement/developer/org-service/work-attribute-metadata)
  

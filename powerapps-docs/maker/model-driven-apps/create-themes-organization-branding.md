@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b1aae7d51b22939f84478ad0537ef9285daf7631
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 1919084b26cb7605b2c32e8569df8ab31fb857a3
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2753830"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875097"
 ---
 # <a name="create-a-theme"></a>테마 만들기
 
@@ -74,7 +74,7 @@ ms.locfileid: "2753830"
 ## <a name="copy-and-alter-the-existing-theme"></a>기존 테마 복사 및 변경  
  새로운 테마를 만드는 가장 쉽고 빠른 방법은 기존 테마를 복제하고 변경한 다음 저장하고 미리 보고 게시하는 것입니다. 
  
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2.  **모델 기반**(왼쪽 아래). 
 

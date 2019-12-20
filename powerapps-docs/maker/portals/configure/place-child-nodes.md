@@ -9,19 +9,19 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: e004b0f4f37a57e37d8f847ad7221e6a50d549ed
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 2a9bd271c8aaa2f1dbc0278078868606fb4c64de
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760713"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2864969"
 ---
 # <a name="place-child-nodes-by-using-shortcuts-for-portals"></a>포털의 바로 가기를 사용하여 하위 노드 배치
 바로 가기를 사용하면 사이트 맵에 있는 다른 노드 또는 포털 외부 URL을 가리키는 포털의 사이트 맵 전체에 하위 노드를 배치할 수 있습니다. 즉, 웹 페이지, 웹 파일, 이벤트 및 포럼은 포털 사이트 맵의 "고정" 노드라고 할 수 있습니다. 고정 노드는 사용자의 사이트 맵에 추가되고 고정 노드로 이동하면 해당 노드의 실제 내용을 직접 확인할 수 있습니다. 반면에 바로 가기는 "무형" 노드로 간주될 수 있습니다. 또한 웹 링크와 달리 사이트 맵에는 추가되지만 해당 콘텐츠가 해당 노드의 페이지 템플릿으로 렌더링되어 있어 그 위치로 이동하면 바로 가기가 가리키는 대상 "고정" 노드의 콘텐츠를 보게 됩니다.
 
 ## <a name="manage-shortcuts"></a>바로 가기 관리
 
-PowerApps 포털 내에서 바로 가기 만들기, 편집 및 삭제를 수행할 수 있습니다.
+Power Apps 포털 내에서 바로 가기 만들기, 편집 및 삭제를 수행할 수 있습니다.
 
 1. [포털 관리 앱](configure-portal.md)을 엽니다.
 

@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: da8e6ac6d4e86a12ba196393073706c3705e4a92
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: efc0ea8449e387d292063f16ee6e38f69863267c
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756131"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867242"
 ---
 # <a name="restrict-portal-access-by-ip-address"></a>IP 주소로 포털 액세스 제한
 
-포털은 컴퓨터의 모든 사용자가 프로비저닝하고 액세스할 수 있는 경우 공개입니다. 이제 IP 주소 목록에서 포털에 대한 액세스를 제한할 수 있습니다. 예를 들어, 정부 기관은 해당 기업 네트워크 내에서만 컨텐츠를 노출시킬 수 있습니다. 상용 조직에서는 데이터 누출을 방지하기 위해 포털이 개발 중일 때가 아니라 게시된 경우에만 포털을 표시할 수 있습니다.
+포털은 컴퓨터의 모든 사용자가 프로비저닝하고 액세스할 수 있는 경우 공개입니다. 이제 IP 주소 목록에서 포털에 대한 액세스를 제한할 수 있습니다. 예를 들어, 정부 기관은 해당 기업 네트워크 내에서만 콘텐츠를 노출시킬 수 있습니다. 상용 조직에서는 데이터 누출을 방지하기 위해 포털이 개발 중일 때가 아니라 게시된 경우에만 포털을 표시할 수 있습니다.
 
 포털에 대한 요청이 사용자로부터 생성되면 해당 IP 주소가 허용 목록과 비교하여 평가됩니다. IP 주소가 목록에 없으면 포털에 HTTP 403 상태 코드가 포함된 웹 페이지가 표시됩니다.
 
@@ -39,7 +39,7 @@ IP 주소 또는 IP 주소 집합에서 포털에 대한 액세스를 허용하�
 > [!NOTE]
 > 포털에서 액세스할 수 있는 공용 IP 주소를 지정해야 합니다. 포털에서 개인 IP 주소에 액세스할 수 없습니다.
 
-1.  [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1.  [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **IP 주소 제한 설정**으로 이동합니다. IP 주소와 해당 종류의 목록이 표시됩니다.
 
@@ -63,7 +63,7 @@ IP 주소 또는 IP 주소 집합에서 포털에 대한 액세스를 허용하�
 
 이전에 허용된 IP 주소에서 포털에 대한 액세스 권한을 제거하려면 목록에서 IP 주소를 제거하면 됩니다. 모든 IP 주소를 제거하는 경우 모든 IP 주소에서 포털에 액세스할 수 있습니다.
 
-1.  [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1.  [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **IP 주소 제한 설정**으로 이동합니다. IP 주소와 해당 종류의 목록이 표시됩니다.
 

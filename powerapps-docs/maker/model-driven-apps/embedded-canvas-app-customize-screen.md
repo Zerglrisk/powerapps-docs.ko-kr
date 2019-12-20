@@ -15,18 +15,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 6be2a23a64108ec616fd95a0178d2008290bc289
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 7d766a40dca689f6d0537be56edc9865437f62fa
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2706026"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2868366"
 ---
 # <a name="customize-the-screen-size-and-orientation-of-a-canvas-app-embedded-on-a-model-driven-form"></a>모델 기반 양식에 포함된 캔버스 앱의 화면 크기 및 방향 사용자 지정
 이 항목에서는 모델 기반 양식에 포함된 캔버스 앱의 화면 크기 및 방향을 사용자 지정하는 방법에 대해 설명합니다.
@@ -34,7 +34,7 @@ ms.locfileid: "2706026"
 1.  단계에 따라 모델 기반 양식에 포함된 캔버스 앱을 추가하거나 편집하십시오.
     - [모델 기반 양식에 포함된 캔버스 앱 추가](embedded-canvas-app-add-classic-designer.md)
     - [모델 기반 양식에 포함된 캔버스 앱 편집](embedded-canvas-app-edit-classic-designer.md)
-2. PowerApps Studio에서 캔버스 앱을 열고 **파일** 탭을 선택한 다음 **앱 설정**을 선택합니다.
+2. Power Apps Studio에서 캔버스 앱을 열고 **파일** 탭을 선택한 다음 **앱 설정**을 선택합니다.
 3. **화면 크기 + 방향** 탭을 선택합니다. 기본적으로 **크기**는 **사용자 지정**으로 설정됩니다.
 4. 사용 가능한 **크기** 및 **방향** 목록에서 선택하거나 **사용자 지정**을 선택하고 **너비** 및 **높이**에 원하는 값을 제공합니다.
     > [!NOTE]
@@ -50,4 +50,4 @@ ms.locfileid: "2706026"
 [ModelDrivenFormIntegration 컨트롤의 속성 및 동작](embedded-canvas-app-properties-actions.md) <br />
 [포함된 캔버스 앱 공유](share-embedded-canvas-app.md) <br />
 [포함된 캔버스 앱 작업 지침](embedded-canvas-app-guidelines.md) <br />
-[공개 미리보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />
+[공개 미리 보기 릴리스를 사용하여 만든 모델 기반 양식에 포함된 캔버스 엡을 최신 버전으로 마이그레이션](embedded-canvas-app-migrate-from-preview.md) <br />

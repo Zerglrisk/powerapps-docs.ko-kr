@@ -20,20 +20,20 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 8b1b38c94cbd4615ff0ab449944e65089865a823
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: c13838bdd957d78552d71636b4a165902154e82c
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758727"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2865735"
 ---
 # <a name="define-alternate-keys-using-solution-explorer"></a>솔루션 탐색기를 사용한 대체 키 정의
 
 솔루션 탐색기를 통해 Common Data Service의 대체 키를 보고 만들 수 있습니다.
 
-[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
+[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
 - [레코드를 참조할 대체 키 정의](define-alternate-keys-reference-records.md)<br />
-- [PowerApps 포털을 사용한 대체 키 정의](define-alternate-keys-portal.md)
+- [Power Apps 포털을 사용한 대체 키 정의](define-alternate-keys-portal.md)
 
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
 
@@ -72,5 +72,5 @@ ms.locfileid: "2758727"
 ### <a name="see-also"></a>참조
 
 [레코드를 참조할 대체 키 정의](define-alternate-keys-reference-records.md)<br />
-[PowerApps 포털을 사용한 대체 키 정의](define-alternate-keys-portal.md)<br />
+[Power Apps 포털을 사용한 대체 키 정의](define-alternate-keys-portal.md)<br />
 [개발자 설명서: 엔터티에 대한 대체 키 정의](/dynamics365/customer-engagement/developer/define-alternate-keys-entity)

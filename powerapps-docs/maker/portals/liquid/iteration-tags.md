@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 600ddb0ac6e016acf057e592ac638b4e07ddf8ba
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 582bd72897a91fac08ac86a79aa6c71cab49aaad
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2708402"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866545"
 ---
 # <a name="iteration-tags"></a>반복 태그
 
@@ -401,4 +401,4 @@ Child Page 4
 [제어 흐름 태그](control-flow-tags.md)
 [변수 태그](variable-tags.md)
 [템플릿 태그](template-tags.md)
-[PowerApps Common Data Service 엔터티 태그](portals-entity-tags.md)
+[Power Apps Common Data Service 엔터티 태그](portals-entity-tags.md)

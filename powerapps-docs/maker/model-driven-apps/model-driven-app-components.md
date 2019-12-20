@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 모델 기반 앱 구성 요소 이해 | MicrosoftDocs
+title: Power Apps의 모델 기반 앱 구성 요소 이해 | MicrosoftDocs
 description: 데이터, UI, 논리 및 시각화와 같은 모델 기반 앱의 다양한 구성 요소를 이해합니다.
 Keywords: 필드, 특성, 모델 기반 앱
 author: Mattp123
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b84fa7a8bc0b77bddaa4e0a22d68cd983ac735ef
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 4f1c05ca41e6873a0072e8ea6720343e468e38bb
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2711790"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863067"
 ---
 # <a name="understand-model-driven-app-components"></a>모델 기반 앱 구성 요소 이해
 잘 디자인된 모델 기반 앱은 완성된 앱의 모양과 기능을 빌드하기 위해 디자이너를 사용하여 선택한 여러 구성 요소로 구성됩니다. 디자이너가 앱을 구성하는 데 사용하는 컴포넌트 및 구성 요소 속성은 메타데이터가 됩니다. 
@@ -64,7 +64,7 @@ ms.locfileid: "2711790"
 |워크플로     |  워크플로는 사용자 인터페이스 없이 비즈니스 프로세스를 자동화합니다. 디자이너는 워크플로를 사용하여 사용자 상호 작용이 필요 없는 자동화를 시작합니다.       | 워크플로 디자이너        |
 |작업    |  작업은 사용자 지정 작업을 비롯한 작업을 워크플로에서 직접 호출할 수 있도록 하는 프로세스 유형입니다.       |  프로세스 디자이너       |
 |비즈니스 규칙     | 필드 요구 사항 설정, 필드 숨기기 또는 데이터 유효성 검사와 같은 규칙 또는 권장 사항 논리를 양식에 적용하는 데 사용됩니다. 앱 디자이너는 빠르게 변화하고 일반적으로 사용되는 규칙을 구현하고 유지하는 간단한 인터페이스를 사용합니다.         |  비즈니스 규칙 디자이너       |
-|흐름     | 흐름은 앱과 서비스 간에 자동화된 워크플로를 만들어 알림을 수신하고, 파일을 동기화하고, 데이터를 수집하는 등의 클라우드 기반 서비스입니다.        | Microsoft Flow        |
+|흐름     | 흐름은 앱과 서비스 간에 자동화된 워크플로를 만들어 알림을 수신하고, 파일을 동기화하고, 데이터를 수집하는 등의 클라우드 기반 서비스입니다.        | Power Automate        |
 
 ![워크플로, 작업 및 비즈니스 프로세스 흐름 디자이너](media/model-driven-app-overview/designer-mash.png)
 

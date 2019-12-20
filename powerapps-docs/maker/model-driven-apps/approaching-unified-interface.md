@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: fe3a0a46d7e611c738ebbb4962d61bafd9c62cb8
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 934aae075d185551cd1e3025880887b10689cc6d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2754702"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869354"
 ---
 # <a name="approaching-a-user-experience-and-unified-interface-transition"></a>사용자 경험 및 통합 인터페이스 전환 접근
 
-이 비즈니스 중심 백서에서는 PowerApps 플랫폼의 모델 중심 응용 프로그램에서 사용자 경험 변화에 접근할 때 고려해야 할 계획, 거버넌스 및 관리 원칙을 간략하게 설명합니다. 이 백서는 특히 Dynamics 365 Sales 및 Dynamics 365 Customer Service 같은 Dynamics 365 for 애플리케이션에 중점을 두고 통합 인터페이스를 채택했지만 모든 사용자 환경 업데이트에 많은 주제가 적용됩니다.
+이 비즈니스 중심 백서에서는 Power Apps 플랫폼의 모델 중심 응용 프로그램에서 사용자 경험 변화에 접근할 때 고려해야 할 계획, 거버넌스 및 관리 원칙을 간략하게 설명합니다. 이 백서는 특히 Dynamics 365 Sales 및 Dynamics 365 Customer Service 같은 Dynamics 365 for 애플리케이션에 중점을 두고 통합 인터페이스를 채택했지만 모든 사용자 환경 업데이트에 많은 주제가 적용됩니다.
 
 요약하면 이 가이드는 다음과 같은 도움을 줍니다.
 - 통합 인터페이스 배치.

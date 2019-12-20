@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 편집 가능한 표 사용자 지정 컨트롤을 사용하여 모델 기반 앱 표(목록)을 편집 가능하도록 만들기 | MicrosoftDocs
+title: Power Apps에서 편집 가능한 표 사용자 지정 컨트롤을 사용하여 모델 기반 앱 표(목록)을 편집 가능하도록 만들기 | MicrosoftDocs
 description: 편집 가능한 표 사용자 지정 컨트롤을 사용하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/27/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 8ec97723dcc5c1e17b3907c7b683ba24977b69de
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 866c058ad873fa278ee0bb8bf026983ed0201df7
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2700614"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867990"
 ---
 # <a name="make-model-driven-app-grids-lists-editable-using-the-editable-grid-custom-control"></a>편집 가능한 표 사용자 지정 컨트롤을 사용하여 모델 기반 앱 표(목록)를 편집 가능하도록 만들기
 

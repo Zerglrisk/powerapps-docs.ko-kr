@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용 | MicrosoftDocs
 description: 필드에 사용자 지정 컨트롤을 사용하는 방법 알아보기
 ms.custom: ''
 ms.date: 06/07/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b34354a1bc0bdfb3556acc6ca999a1e0e8dcec74
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 8fd79185c4db541700e3079e9151a1193ebd6247
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756043"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874495"
 ---
 # <a name="use-custom-controls-for-model-driven-app-data-visualizations"></a>모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용
 
@@ -48,7 +48,7 @@ Dynamics 365 휴대폰이나 태블릿 모바일 앱에 다른 사용자 지정 
 ## <a name="use-a-custom-control-to-add-visualizations-to-a-field"></a>사용자 지정 컨트롤을 사용하여 필드에 시각화 추가  
  이 절차의 단계에 따라 **예산 금액** 필드의 기본 레이블 및 텍스트 상자 필드를 영업 기회 엔터티의 슬라이더 사용자 지정 컨트롤로 변경합니다. 비슷한 단계를 사용하여 기존 필드를 사용자 지정 컨트롤로 바꾸거나 사용자 지정 필드에 대한 사용자 지정 컨트롤을 구성할 수 있습니다.  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
      
 

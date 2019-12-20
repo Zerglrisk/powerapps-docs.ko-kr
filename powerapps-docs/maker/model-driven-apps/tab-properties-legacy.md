@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 모델 기반 앱 양식에 대한 탭 속성 | MicrosoftDocs
+title: Power Apps의 모델 기반 앱 양식에 대한 탭 속성 | MicrosoftDocs
 description: 기본 양식에 대한 탭 속성 이해
 Keywords: 탭 속성; Dynamics 365; 기본 양식
 author: matp
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: bd97c61829aaba7279f56019f0eec7fa9829a6ea
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: d0653ad2089be03ff06bfd5495c8995d92ec704e
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756263"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874613"
 ---
 # <a name="tab-properties-for-model-driven-app-forms-overview"></a>모델 기반 앱 양식에 대한 탭 속성 개요
 
@@ -31,8 +31,8 @@ ms.locfileid: "2756263"
   
  탭에는 최대 3개까지 열을 포함하며 각 열의 너비는 전체 너비에 비례하여 설정할 수 있습니다. 새 탭을 만들 때 각 열은 섹션으로 미리 채워집니다.  
 
-PowerApps 사이트에서 **탭 속성**에 액세스할 수 있습니다. 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
+Power Apps 사이트에서 **탭 속성**에 액세스할 수 있습니다. 
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 사이트에서 **모델 기반**(탐색 창의 왼쪽 아래)을 선택합니다.  
 
      ![모델 기반 디자인 모드](media/model-driven-switch.png)
 

@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 빠른 만들기 양식 만들기 또는 편집 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 빠른 만들기 양식 만들기 또는 편집 | MicrosoftDocs
 description: 빠른 만들기 양식을 만들거나 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/14/2019
@@ -22,20 +22,20 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b1496fcb600524e7934fe55ca17a7a7bafb54c75
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 171d64581fd0a9feb51d5a6111c79e63de1ba845
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759167"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875361"
 ---
 # <a name="create-or-edit-model-driven-app-quick-create-forms-for-a-streamlined-data-entry-experience"></a>간소화된 데이터 입력 환경을 위한 모델 기반 앱 빨리 만들기 양식 만들기 또는 편집
 
 이 항목에서는 빠른 만들기 양식을 만들고 편집합니다.
 
- 빨리 만들기 양식을 사용하면 앱은 양식 스크립트와 비즈니스 규칙에 정의된 논리를 완벽하게 지원하며 효율적인 데이터 입력 환경을 즐길 수 있습니다. PowerApps 모델 기반 앱에서, 조회 또는 하위 표에서 새 레코드를 만들 때 탐색 모음의 **만들기** 단추를 선택하거나 **+ 새로 만들기**를 선택하면 빨리 만들기 양식이 나타납니다.
+ 빨리 만들기 양식을 사용하면 앱은 양식 스크립트와 비즈니스 규칙에 정의된 논리를 완벽하게 지원하며 효율적인 데이터 입력 환경을 즐길 수 있습니다. Power Apps 모델 기반 앱에서, 조회 또는 하위 표에서 새 레코드를 만들 때 탐색 모음의 **만들기** 단추를 선택하거나 **+ 새로 만들기**를 선택하면 빨리 만들기 양식이 나타납니다.
   
- Dynamics 365 모바일 앱은 빨리 만들기 양식을 사용하여 새 레코드를 만듭니다. 엔터티에 빨리 만들기 양식이 이미 구성된 경우 모바일 응용 프로그램은 해당 양식을 사용합니다. 엔터티에 빨리 만들기 양식이 구성되지 않은 경우 PowerApps는 모바일 응용 프로그램에서 기본 양식 정의에 따라 빨리 만들기 양식을 만들어 새 레코드를 만듭니다.  
+ Dynamics 365 모바일 앱은 빨리 만들기 양식을 사용하여 새 레코드를 만듭니다. 엔터티에 빨리 만들기 양식이 이미 구성된 경우 모바일 응용 프로그램은 해당 양식을 사용합니다. 엔터티에 빨리 만들기 양식이 구성되지 않은 경우 Power Apps는 모바일 응용 프로그램에서 기본 양식 정의에 따라 빨리 만들기 양식을 만들어 새 레코드를 만듭니다.  
   
 <a name="BKMK_QuickCreateFormEntities"></a>   
 ## <a name="entities-with-quick-create-forms"></a>빨리 만들기 양식이 있는 엔터티  
@@ -61,7 +61,7 @@ ms.locfileid: "2759167"
   
 ### <a name="how-to-create-a-quick-create-form"></a>빨리 만들기 양식을 만드는 방법  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 
 > [!IMPORTANT]
@@ -99,7 +99,7 @@ ms.locfileid: "2759167"
   
 ### <a name="to-edit-a-quick-create-form"></a>빨리 만들기 양식을 편집하려면  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 > [!IMPORTANT]
 > **모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다.    

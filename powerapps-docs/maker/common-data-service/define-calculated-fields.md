@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 계산 필드 정의 | MicrosoftDocs
+title: Power Apps에서 계산 필드 정의 | MicrosoftDocs
 description: 계산 필드를 정의하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/25/2018
@@ -22,18 +22,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: d4f66e3f047da19fd040cccdd3f9af2da913df09
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 82bf8cad9b64f9866cb1cc856eff94eacf1f23a2
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758771"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2873909"
 ---
 # <a name="define-calculated-fields-to-automate-manual-calculations"></a>계산 필드를 정의하여 수동 계산 자동화
 
 계산 필드를 사용하여 비즈니스 프로세스에 사용되는 수동 계산을 자동화합니다. 
 
-예를 들어, 영업 직원은 가능성을 곱한 영업 기회에서 예측된 매출을 기반으로 하는 영업 기회에 대한 가중 수익을 알고 싶어할 수 있습니다. 또는 주문이 $500보다 큰 경우 자동으로 할인을 적용하고자 합니다. 계산 필드는 간단한 수학 연산 또는 보다 큼이나 if-else, 등과 같은 조건 연산의 결과 값을 포함할 수 있습니다. PowerApps를 사용하여 모든 작업을 수행할 수 있으며 코드를 작성할 필요가 없습니다.  
+예를 들어, 영업 직원은 가능성을 곱한 영업 기회에서 예측된 매출을 기반으로 하는 영업 기회에 대한 가중 수익을 알고 싶어할 수 있습니다. 또는 주문이 $500보다 큰 경우 자동으로 할인을 적용하고자 합니다. 계산 필드는 간단한 수학 연산 또는 보다 큼이나 if-else, 등과 같은 조건 연산의 결과 값을 포함할 수 있습니다. Power Apps를 사용하여 모든 작업을 수행할 수 있으며 코드를 작성할 필요가 없습니다.  
   
 ## <a name="capabilities"></a>기능
   
@@ -60,9 +60,9 @@ ms.locfileid: "2758771"
 
 ## <a name="create-a-calculated-field"></a>계산 필드 만들기
 
-필드 편집기를 사용하여 계산 필드를 지정합니다. 이 예에서는 [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하지만 솔루션 탐색기를 사용하는 것과 단계는 비슷합니다. 추가 정보: [필드 만들기 및 편집](create-edit-fields.md)
+필드 편집기를 사용하여 계산 필드를 지정합니다. 이 예에서는 [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)를 사용하지만 솔루션 탐색기를 사용하는 것과 단계는 비슷합니다. 추가 정보: [필드 만들기 및 편집](create-edit-fields.md)
   
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 열기
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) 열기
 1. **데이터** > **엔터티**를 확장합니다.  
 1. 원하는 엔터티를 선택하고 **필드**를 선택합니다. **필드 추가**를 선택합니다.  
 1. **표시 이름**, **이름** 및 **데이터 형식**을 포함한 필드에 필요한 정보를 제공합니다. 

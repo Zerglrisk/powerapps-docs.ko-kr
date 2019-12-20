@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 양식 요소 표시 또는 숨기기 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 양식 요소 표시 또는 숨기기 | MicrosoftDocs
 description: 탭, 섹션 또는 필드와 같은 요소를 표시하거나 숨기는 방법 알아보기
 ms.custom: ''
 ms.date: 06/11/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 6004aab267da345dc1681dd920913e7858986d9d
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 637ee2f171eaae493a219e245c2bf1147cd13bd2
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2710250"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867506"
 ---
 # <a name="show-or-hide-model-driven-app-form-elements"></a>모델 기반 앱 양식 요소 표시 또는 숨기기
 

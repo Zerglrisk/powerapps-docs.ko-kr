@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 38a1ac18a5c978c7b39d6dee85afcb9adf334534
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 9c4ea4e34dacf70a9bb51c28c5761700904a3053
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755823"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862198"
 ---
 # <a name="use-oauth-20-implicit-grant-flow-within-your-portal"></a>포털 내에서 OAuth 2.0 암시적 권한 부여 흐름 사용 
 
@@ -127,11 +127,11 @@ ID 토큰을 얻는 것 만으로는 사용자를 인증할 수 없습니다. �
 
 ## <a name="sample-code"></a>샘플 코드
 
-다음 샘플 코드를 사용하여 PowerApps 포털 API와 함께 OAuth 2.0 암시적 부여 사용을 시작할 수 있습니다.
+다음 샘플 코드를 사용하여 Power Apps 포털 API와 함께 OAuth 2.0 암시적 부여 사용을 시작할 수 있습니다.
 
 ### <a name="use-portal-oauth-token-with-an-external-web-api"></a>외부 웹 API와 함께 포털 OAuth 토큰 사용
 
-이 샘플은 ASP.NET 기반 프로젝트이며 PowerApps 포털에서 발급한 ID 토큰의 유효성을 검사하는 데 사용됩니다. 전체 샘플은 [외부 웹 API와 함께 포털 OAuth 토큰 사용](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/ExternalWebApiConsumingPortalOAuthTokenSample)에서 찾을 수 있습니다.
+이 샘플은 ASP.NET 기반 프로젝트이며 Power Apps 포털에서 발급한 ID 토큰의 유효성을 검사하는 데 사용됩니다. 전체 샘플은 [외부 웹 API와 함께 포털 OAuth 토큰 사용](https://github.com/microsoft/PowerApps-Samples/tree/master/portals/ExternalWebApiConsumingPortalOAuthTokenSample)에서 찾을 수 있습니다.
 
 ### <a name="authorize-endpoint-sample"></a>승인 끝점 샘플
 
@@ -139,4 +139,4 @@ ID 토큰을 얻는 것 만으로는 사용자를 인증할 수 없습니다. �
 
 ### <a name="token-endpoint-sample"></a>토큰 끝점 샘플
 
-이 샘플은 getAuthenticationToken 함수를 사용하여 PowerApps 포털에서 토큰 끝점을 사용하여 ID 토큰을 가져오는 방법을 보여줍니다. 샘플은 [토큰 끝점 샘플](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js)에서 찾을 수 있습니다.
+이 샘플은 getAuthenticationToken 함수를 사용하여 Power Apps 포털에서 토큰 끝점을 사용하여 ID 토큰을 가져오는 방법을 보여줍니다. 샘플은 [토큰 끝점 샘플](https://github.com/microsoft/PowerApps-Samples/blob/master/portals/TokenEndpoint.js)에서 찾을 수 있습니다.

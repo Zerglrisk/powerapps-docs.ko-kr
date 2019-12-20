@@ -1,6 +1,6 @@
 ---
-title: PowerApps 포털에서 페이지 템플릿 만들기 및 관리 | MicrosoftDocs
-description: PowerApps 포털에서 페이지 템플릿을 만들고 관리하는 방법을 알아보십시오.
+title: Power Apps 포털에서 페이지 템플릿 만들기 및 관리 | MicrosoftDocs
+description: Power Apps 포털에서 페이지 템플릿을 만들고 관리하는 방법을 알아보십시오.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: ef4f61e7b9165d8d2c4abbc70c0bce65957665ab
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 435270ec5c996b90d5633650ed3813e6344a2db6
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760714"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866802"
 ---
 # <a name="create-and-manage-page-templates"></a>페이지 템플릿을 만들고 관리합니다.
 

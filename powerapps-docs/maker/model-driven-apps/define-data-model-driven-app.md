@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱에 대한 데이터 정의 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱에 대한 데이터 정의 | MicrosoftDocs
 description: 모델 기반 앱에 대한 데이터를 정의하는 방법 이해
 Keywords: 데이터, 엔터티, 필드, 관계, 특성 및 모델 기반 앱
 author: Mattp123
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 65a4766be330fba6a2ec0ed25a532a5ea37f7138
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 7bdd0a9fdfce45c1e8d61f76cc542de09a0d344d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2705058"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860374"
 ---
 # <a name="define-data-for-your-model-driven-app"></a>모델 기반 앱에 대한 데이터 정의
 

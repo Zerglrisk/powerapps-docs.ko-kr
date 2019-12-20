@@ -1,8 +1,8 @@
 ---
-title: PowerApps에서 데이터 흐름 생성 및 사용 | MicrosoftDocs
-description: PowerApps에서 데이터 흐름을 생성하고 사용하는 방법을 알아봅니다.
+title: Power Apps에서 데이터 흐름 생성 및 사용 | MicrosoftDocs
+description: Power Apps에서 데이터 흐름을 생성하고 사용하는 방법을 알아봅니다.
 ms.custom: ''
-ms.date: 08/05/2019
+ms.date: 12/05/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -23,25 +23,24 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 5ad261f668c36e623b35e619e4d573401f3b547a
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: c1f58228cb86ae7415739f5e6ffe4b3175b87b0d
+ms.sourcegitcommit: 64d816a759c5cc6343928d56a673812c3ea066c2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2705806"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2895043"
 ---
-# <a name="create-and-use-dataflows-in-powerapps"></a>PowerApps에서 데이터 흐름 생성 및 사용
-[!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
+# <a name="create-and-use-dataflows-in-power-apps"></a>Power Apps에서 데이터 흐름 생성 및 사용
 
-PowerApps에서 사용 가능한 고급 데이터 준비를 통해 데이터 흐름이라고 하는 데이터 모음을 만들어 다양한 소스의 비즈니스 데이터와 연결하고 데이터를 정리하고 변환한 다음 Common Data Service 또는 조직의 Azure Data Lake Gen2 저장소 계정에 로드할 수 있습니다.
+Power Apps에서 사용 가능한 고급 데이터 준비를 통해 데이터 흐름이라고 하는 데이터 모음을 만들어 다양한 소스의 비즈니스 데이터와 연결하고 데이터를 정리하고 변환한 다음 Common Data Service 또는 조직의 Azure Data Lake Gen2 저장소 계정에 로드할 수 있습니다.
 
-데이터 흐름은 PowerApps 서비스의 환경에서 생성 및 관리되는 엔터티(엔터티는 테이블과 유사)의 모음입니다. 데이터 흐름이 생성된 환경에서 직접 데이터 흐름의 엔터티를 추가 및 편집하고 데이터 새로 고침 일정을 관리할 수 있습니다.
+데이터 흐름은 Power Apps 서비스의 환경에서 생성 및 관리되는 엔터티(엔터티는 테이블과 유사)의 모음입니다. 데이터 흐름이 생성된 환경에서 직접 데이터 흐름의 엔터티를 추가 및 편집하고 데이터 새로 고침 일정을 관리할 수 있습니다.
 
-PowerApps 포털에 데이터 흐름을 생성하면 데이터 흐름을 만들 때 선택한 대상에 따라 Common Data Service 커넥터 또는 Power BI Desktop 데이터 흐름 커넥터를 사용하여 이 흐름에서 데이터를 얻을 수 있습니다.
+Power Apps 포털에 데이터 흐름을 생성하면 데이터 흐름을 만들 때 선택한 대상에 따라 Common Data Service 커넥터 또는 Power BI Desktop 데이터 흐름 커넥터를 사용하여 이 흐름에서 데이터를 얻을 수 있습니다.
 
 데이터 흐름을 사용하기 위한 세 가지 기본 단계가 있습니다.
 
-1.  PowerApps 포털에서 데이터 흐름을 작성합니다. 작업을 바로 수행할 수 있도록 설계된 Microsoft 도구를 사용하여 출력 데이터를 로드할 대상, 데이터를 가져올 소스, 데이터를 변환하는 Power Query 단계를 선택합니다.
+1.  Power Apps 포털에서 데이터 흐름을 작성합니다. 작업을 바로 수행할 수 있도록 설계된 Microsoft 도구를 사용하여 출력 데이터를 로드할 대상, 데이터를 가져올 소스, 데이터를 변환하는 Power Query 단계를 선택합니다.
 
 2.  일정 데이터 흐름을 실행합니다. 이는 Power Platform 데이터 흐름에서 이것이 로드 및 변환할 데이터를 새로 고쳐야 하는 빈도입니다.
 
@@ -52,10 +51,8 @@ PowerApps 포털에 데이터 흐름을 생성하면 데이터 흐름을 만들 
 ## <a name="create-a-dataflow"></a>데이터 흐름 만들기
 하나의 환경에서 데이터 흐름이 생성됩니다. 따라서 해당 환경에서만 흐름을 보고 관리할 수 있습니다. 또한 데이터 흐름에서 데이터를 가져오려는 개인은 이를 생성한 환경에 액세스할 수 있어야 합니다.
 
-> [!NOTE]
-> 기본 환경의 Azure Data Lake Storage Gen2에 데이터를 로드하는 데이터 흐름 생성은 현재 지원되지 않습니다.
 
-1.  PowerApps에 로그인하고 어떤 환경인지 확인하고, 명령 모음의 오른쪽 근처에서 환경 전환기를 찾으십시오.
+1.  Power Apps에 로그인하고 어떤 환경인지 확인하고, 명령 모음의 오른쪽 근처에서 환경 전환기를 찾으십시오.
 
     ![환경 전환기](media/environment-switcher.png)
 

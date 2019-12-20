@@ -15,18 +15,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 8e032cc95f64e842552308ccf9d179fc153b49fd
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 37f935bc8767f4738e2cfd317b7447653f848f65
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2710426"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867550"
 ---
 # <a name="using-the-tree-view-in-the-form-designer"></a>양식 디자이너에서 트리 보기 사용
 **트리 보기** 창에는 양식에 있는 구성 요소의 시각적 계층 구조가 표시됩니다. 트리 보기의 아이콘을 통해 필드 또는 구성 요소의 유형을 빠르게 식별할 수 있습니다. 

@@ -1,6 +1,6 @@
 ---
-title: PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성 이해 | Microsoft Docs
-description: PowerApps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지를 사용한 모델 기반 앱에서 접근성 알아보기
+title: Power Apps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성 이해 | Microsoft Docs
+description: Power Apps의 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지를 사용한 모델 기반 앱에서 접근성 알아보기
 keywords: 앱 디자이너, 사이트 맵 디자이너, 내 앱, Dynamics 365
 author: Mattp123
 ms.author: matp
@@ -17,21 +17,21 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: c0f845b1b1b390bb6033efa282792b0b5116e6fc
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 5a2226e87193079c1b68858f30759f509562cbda
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2752069"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885228"
 ---
-# <a name="accessibility-in-powerapps-app-designer-site-map-designer-and-my-apps-page"></a>PowerApps 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성
+# <a name="accessibility-in-power-apps-app-designer-site-map-designer-and-my-apps-page"></a>Power Apps 앱 디자이너, 사이트 맵 디자이너 및 내 앱 페이지 접근성
 
 Microsoft는 모든 사용자가 제품 및 서비스를 쉽게 사용할 수 있도록 최선을 다하고 있습니다. 추가 정보: [Microsoft 내게 필요한 옵션](https://www.microsoft.com/enable/default.aspx)  
  
 이 주제에서는 모델 기반 앱에서 사용할 수 있는 내게 필요한 옵션 기능에 대해 설명합니다.  
   
 ## <a name="keyboard-shortcuts"></a>키보드 바로 가기 키  
-PowerApps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 않거나 지체 장애가 있는 사용자가 겪을 수 있는 문제를 해결합니다.  
+Power Apps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 않거나 지체 장애가 있는 사용자가 겪을 수 있는 문제를 해결합니다.  
   
 |내 앱 페이지|||  
 |------------------|-|-|  
@@ -85,8 +85,8 @@ PowerApps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 �
 |명령 표시줄 작업을 활성화 또는 구성 요소 추가 확인.|Enter|  
 |알림, 대화 상자, 메뉴를 종료 또는 취소.|Esc|  
   
-## <a name="screen-reader-support"></a>화면 판독기 지원  
- 장애가 있는 사용자는 앱 디자이너, 사이트 맵 디자이너, 내 앱 페이지와 상호 작용하기 위해 화면 판독기 또는 다양한 다른 입력 장치 등 AT(보조 기술) 사용에 의존할 수 있습니다.  
+## <a name="screen-reader-support"></a>스크린 리더 지원  
+ 장애가 있는 사용자는 앱 디자이너, 사이트 맵 디자이너, 내 앱 페이지와 상호 작용하기 위해 스크린 리더 또는 다양한 다른 입력 장치 등 AT(보조 기술) 사용에 의존할 수 있습니다.  
   
  지원 매트릭스는 다음과 같습니다.  
   
@@ -111,4 +111,4 @@ PowerApps에서는 바로 가기 키를 제공하여 손놀림이 자유롭지 �
 
 ## <a name="see-also"></a>참조
 
-[PowerApps에서 바로 가기 키 사용](/powerapps/user/keyboard-shortcuts)
+[Power Apps에서 바로 가기 키 사용](/powerapps/user/keyboard-shortcuts)

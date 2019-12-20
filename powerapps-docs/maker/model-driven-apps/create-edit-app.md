@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 앱 디자이너를 사용하여 모델 기반 앱 만들기 또는 편집 | MicrosoftDocs
+title: Power Apps의 앱 디자이너를 사용하여 모델 기반 앱 만들기 또는 편집 | MicrosoftDocs
 description: 앱 디자이너를 사용하여 앱을 만들거나 편집하는 방법 알아보기
 keywords: ''
 ms.date: 02/05/2019
@@ -24,12 +24,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: fb852ce8b6137d16eb8544da4eb6c9b92c12e29e
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: ef8fa8e20afd7d0e4ad1593ae169a132246d3992
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759299"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875431"
 ---
 # <a name="create-a-model-driven-app-by-using-the-app-designer"></a>앱 디자이너를 사용하여 모델 기반 앱 만들기
 
@@ -37,13 +37,13 @@ ms.locfileid: "2759299"
 
 ## <a name="prerequisites"></a>필수 구성 요소
 앱 만들기를 시작하기 전에 다음 필수 구성 요소를 확인합니다.
-- PowerApps 환경. 추가 정보: [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)
+- Power Apps 환경. 추가 정보: [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)
 - 시스템 관리자 또는 시스템 사용자 지정자 보안 역할입니다. 추가 정보: [미리 정의된 보안 역할 정보](https://docs.microsoft.com/powerapps/maker/model-driven-apps/share-model-driven-app#about-predefined-security-roles)
  
 <a name="createApp"></a>   
 ## <a name="create-an-app"></a>앱 만들기  
 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) **홈** 페이지에서 모델 기반 앱의 **새 모델 기반 앱** 옵션을 선택합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) **홈** 페이지에서 모델 기반 앱의 **새 모델 기반 앱** 옵션을 선택합니다.  
 
     > [!IMPORTANT]
     > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다. 
@@ -82,7 +82,7 @@ ms.locfileid: "2759299"
 <a name="editApp"></a>   
 ## <a name="edit-an-app"></a>앱 편집  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 > [!IMPORTANT]
 > "**모델 기반** 디자인 모드를 사용할 수 없는 경우 [환경 만들기](https://docs.microsoft.com/powerapps/administrator/create-environment)를 해야 할 수 있습니다. 

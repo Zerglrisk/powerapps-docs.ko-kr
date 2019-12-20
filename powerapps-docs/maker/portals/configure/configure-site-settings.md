@@ -9,18 +9,18 @@ ms.custom: ''
 ms.date: 10/18/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 19dca44c26565bc55dcfaace48987b69dd0a195f
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 6f37959db1296995abe08e85995750796a93da9c
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759563"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866934"
 ---
 # <a name="configure-site-settings-for-portals"></a>포털의 사이트 설정 구성
 
 사이트 설정은 포털의 동작이나 시각적 스타일을 수정하기 위해 웹 사이트 코드에서 사용되는 구성 가능한 명명된 값입니다. 일반적으로 개발자가 웹 사이트 코드를 작성할 때에는 최종 사용자가 설정 값을 수정하여 코드를 변경하고 웹 사이트를 다시 컴파일하고 다시 배포할 필요 없이 웹 사이트를 변경할 수 있도록 다양한 구성 요소의 사이트 설정을 참조합니다.
 
-PowerApps 포털의 설치와 함께 제공되는 샘플 포털에는 배경 스타일, 텍스트 색상, 레이아웃 너비 등 사이트 내 많은 시각적 요소를 수정하는 데 사용되는 다양한 스타일을 위해 구성 가능한 여러 사이트 설정이 포함되어 있습니다.
+Power Apps 포털의 설치와 함께 제공되는 샘플 포털에는 배경 스타일, 텍스트 색상, 레이아웃 너비 등 사이트 내 많은 시각적 요소를 수정하는 데 사용되는 다양한 스타일을 위해 구성 가능한 여러 사이트 설정이 포함되어 있습니다.
 다음 타입의 사이트 설정값을 관리할 수 있습니다.
 
 - **글로벌 포털 설정값**: 이 설정값은 추가되는 Common Data Service 환경에 연계된 모든 포털에 적용됩니다.

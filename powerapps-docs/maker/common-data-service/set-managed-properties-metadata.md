@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: c58e70e596bc2382907da5baebfe8d901cb9f420
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 287df9ac6daa38022a269177247a5b446bdfa1fa
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702330"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869991"
 ---
 # <a name="set-managed-properties-in-common-data-service-metadata"></a>Common Data Service 메타데이터에서 관리 속성 설정 
 
@@ -64,7 +64,7 @@ ms.locfileid: "2702330"
 
 ## <a name="field-managed-properties"></a>필드 관리 속성
 
-필드를 편집하는 방법에 대한 자세한 내용은 [PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
+필드를 편집하는 방법에 대한 자세한 내용은 [Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)을 참조하십시오.
 
 [필드 를 보는](create-edit-field-solution-explorer.md#view-fields) 동안 비관리형 솔루션에서 사용자 지정 필드를 선택한 다음 메뉴 모음에서 **추가 작업** >  **관리 속성**을 선택합니다.
 
@@ -100,6 +100,6 @@ ms.locfileid: "2702330"
 
 [관리 속성](solutions-overview.md#managed-properties)<br />
 [솔루션 탐색기를 사용하여 엔터티 만들기 및 편집](create-edit-entities-solution-explorer.md)<br />
-[PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
+[Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집](create-edit-field-solution-explorer.md)<br />
 [솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-solution-explorer.md)<br />
 [솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기](create-edit-nn-relationships-solution-explorer.md)

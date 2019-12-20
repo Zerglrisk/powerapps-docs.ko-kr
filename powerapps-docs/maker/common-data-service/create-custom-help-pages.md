@@ -22,18 +22,21 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e5c0d84da984fbdb5d7bdb4a2f05a567f76cee09
-ms.sourcegitcommit: 7411b4cf9e30e71052fe932dfd3276e969854af4
+ms.openlocfilehash: 25ad6206fb76c1c26f182c4ff4b67c8815e7e8ba
+ms.sourcegitcommit: 94aa6fd38aab1e145e0b9a0189154fb69b0ee223
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2768436"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "2778952"
 ---
 # <a name="create-guided-help-for-your-unified-interface-app"></a>통합 인터페이스 앱의 문제 해결 도우미 만들기
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../../includes/cc-beta-prerelease-disclaimer.md)]
 
-사용자 지정 도움말 창과 단계별 작업을 사용하여 통합 인터페이스 애플리케이션에 조직에 맞는 맞춤형 제품 내 도움말 환경을 제공하십시오. 사용자 지정 도움말 창을 사용하여 서식 있는 텍스트, 콘텐츠 링크, 이미지 및 비디오 링크가 포함된 엔터티, 양식 및 언어별 도움말 및 지침을 제공하십시오. 사용자 지정 도움말 창은 레거시 웹 클라이언트 앱에 사용된 이전의 학습 경로 단계별 학습 기능을 대체합니다.
+사용자 지정 도움말 창과 단계별 작업을 사용하여 통합 인터페이스 애플리케이션에 조직에 맞는 맞춤형 제품 내 도움말 환경을 제공하십시오. 사용자 지정 도움말 창을 사용하여 서식 있는 텍스트, 콘텐츠 링크, 이미지 및 비디오 링크가 포함된 엔터티, 양식 및 언어별 도움말 및 지침을 제공하십시오. 
+
+> [!IMPORTANT]
+> 사용자 지정 도움말 창은 레거시 웹 클라이언트 앱에 사용된 이전의 학습 경로 단계별 학습 기능을 대체합니다.
 
 ## <a name="custom-help-panes-and-learning-path"></a>사용자 지정 도움말 창 및 학습 경로
 사용자 지정 도움말 창의 새로운 안내식 도움말 구현은 이전의 학습 경로 문제 해결 도우미 기능과 다릅니다. 두 기능 모두 애플리케이션에 대한 사용자 지정 도움말을 만들 수 있습니다. 그러나 사용자 지정 도움말 창은 가장 일반적인 문제 해결 도우미 시나리오에 최적화되어 있습니다.   
@@ -219,7 +222,7 @@ ms.locfileid: "2768436"
 
 - `title`: 일반적으로 가리키기 도구 설명으로 이미지와 함께 표시할 제목을 지정합니다.
 
-- `alt`: 이미지의 대체 텍스트를 지정합니다. 이 텍스트는 화면 판독기에서 사용됩니다.
+- `alt`: 이미지의 대체 텍스트를 지정합니다. 이 텍스트는 스크린 리더에서 사용됩니다.
 
 ### <a name="video"></a>비디오
 도움말 페이지에 비디오를 표시합니다.

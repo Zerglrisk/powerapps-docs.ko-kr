@@ -1,6 +1,6 @@
 ---
-title: PowerApps에서 모델 기반 앱 상호 작용 환경 대시보드 구성 | Microsoft Docs
-description: PowerApps에서 상호 작용 환경 대시보드를 구성하는 방법 이해
+title: Power Apps에서 모델 기반 앱 상호 작용 환경 대시보드 구성 | Microsoft Docs
+description: Power Apps에서 상호 작용 환경 대시보드를 구성하는 방법 이해
 keywords: 상호 작용 대시보드; 고객 서비스; Microsoft Dynamics 365; 상호 작용 서비스 허브
 author: Mattp123
 ms.author: matp
@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 4e73097b6b02f98b6ac5dc83a7f1d833e07a8696
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: fefeebb0106907e59ea1fd5a13d620cdeb315774
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2752587"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2885008"
 ---
 # <a name="configure-model-driven-app-interactive-experience-dashboards"></a>모델 기반 앱 상호 작용 환경 대시보드 구성
 
-대화식 경험 대시 보드는 서비스 담당자와 같은 앱 사용자가 워크로드 정보를 보고 조치를 취할 수 있는 원스톱 작업 공간이 될 수 있습니다. 대시보드는 완벽하게 구성할 수 있는 보안 역할 기반이며 실시간으로 여러 스트림에서 워크로드 정보를 제공합니다. 대화형 대시보드 사용자는 특정 레코드를 찾는 응용 프로그램 페이지가 필요하지 않습니다. 그들은 대시 보드에서 직접 작업할 수 있습니다. 
+대화식 경험 대시 보드는 서비스 담당자와 같은 앱 사용자가 워크로드 정보를 보고 조치를 취할 수 있는 원스톱 작업 영역이 될 수 있습니다. 대시보드는 완벽하게 구성할 수 있는 보안 역할 기반이며 실시간으로 여러 스트림에서 워크로드 정보를 제공합니다. 대화형 대시보드 사용자는 특정 레코드를 찾는 응용 프로그램 페이지가 필요하지 않습니다. 그들은 대시 보드에서 직접 작업할 수 있습니다. 
 
  상호 작용 환경의 대시보드에는 멀티 스트림과 단일 스트림 두 종류의 양식이 제공됩니다. 또한 멀티 스트림 대시보드는 홈 페이지 또는 엔터티 특정 대시보드가 될 수 있습니다. 엔터티 특정 대시보드는 사용자 인터페이스의 여러 부분에서 구성되며 부분적으로 엔터티 특정 구성 정보로 미리 로드됩니다.  
   
@@ -149,7 +149,7 @@ ms.locfileid: "2752587"
   
 ### <a name="configure-a-multi-stream-interactive-dashboard-using-the-4-column-layout"></a>4열 레이아웃을 사용하여 멀티 스트림 대화형 대시보드를 구성합니다.  
  
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 
   
 2.  **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. 
 
@@ -203,7 +203,7 @@ ms.locfileid: "2752587"
   
 #### <a name="edit-or-delete-individual-streams-of-an-existing-dashboard"></a>기존 대시보드의 개별 스트림을 편집 또는 삭제합니다.  
   
-1. [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.   
+1. [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.   
   
 2. **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. **대시보드** 탭을 선택합니다.  
   
@@ -226,7 +226,7 @@ ms.locfileid: "2752587"
 
 예를 들어, 엔터티 특정 대시보드에 있는 일부 필드는 대시보드를 만들고 있는 엔터티로 사전 설정됩니다.  
   
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2.  **데이터** > **엔터티**를 선택하고 원하는 엔터티를 선택합니다. 
 

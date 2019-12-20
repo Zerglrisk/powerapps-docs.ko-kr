@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 기본 솔루션을 사용하여 사용자 지정 | MicrosoftDocs
+title: Power Apps에서 기본 솔루션을 사용하여 사용자 지정 | MicrosoftDocs
 description: 기본 솔루션을 사용자 지정하는 방법 알아보기
 ms.custom: ''
 ms.date: 10/29/2018
@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 0676d24ef79f2fe92da2971028a6e22fbdc76c62
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: da116f81addf057a5f3fd4c44264bc6305e7b884
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755186"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2869683"
 ---
 # <a name="use-the-common-data-services-default-solution"></a>Common Data Service 기본 솔루션 사용  
   
- 모든 PowerApps 환경에는 다음과 같은 솔루션이 포함됩니다.
+ 모든 Power Apps 환경에는 다음과 같은 솔루션이 포함됩니다.
 -   **Common Data Service 기본 솔루션** - 제작자가 환경에서 사용자 지정에 대해 기본적으로 사용할 수 있는 기본 솔루션입니다.
 -   **기본 솔루션** - 환경에 있는 모든 솔루션의 모든 사용자 지정 항목을 포함하는 특별한 솔루션입니다. 
 <!-- **Base Custom Controls Core** - This solution includes a core set of controls. Controls are used in user interface elements, such as fields, lists, and views. -->

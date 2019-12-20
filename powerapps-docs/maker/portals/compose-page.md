@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 0bedeae7952f5ec11394b680064af9016ae2b82e
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: a6affbb0d13af137ddd044a7ae4b6d2cddbf813c
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756615"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862451"
 ---
 # <a name="compose-a-page"></a>페이지 작성
 
@@ -33,11 +33,11 @@ ms.locfileid: "2756615"
     - 이동 경로
 
 > [!NOTE]
-> PowerApps 포털 스튜디오를 사용하여 포털을 사용자 지정하면 웹 사이트 사용자가 성능 효과를 체감할 수 있습니다. 사용량이 많지 않은 시간 동안 실시간 포털에서 변경을 수행하는 것이 좋습니다. 
+> Power Apps 포털 스튜디오를 사용하여 포털을 사용자 지정하면 웹 사이트 사용자가 성능 효과를 체감할 수 있습니다. 사용량이 많지 않은 시간 동안 실시간 포털에서 변경을 수행하는 것이 좋습니다. 
 
 ## <a name="use-the-wysiwyg-editor"></a>WYSIWYG 편집기 사용
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  구성 요소를 추가할 페이지를 선택합니다.
 
@@ -64,7 +64,7 @@ ms.locfileid: "2756615"
 
 섹션에서는 페이지 구조를 정의하고 그에 따라 포털 구성 요소를 정렬할 수 있습니다. 페이지에 섹션을 추가하면 요구 사항에 따라 섹션 내에 포털 구성 요소를 추가할 수 있습니다.
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.
 
 2.  섹션을 추가할 페이지를 선택합니다.
 
@@ -115,7 +115,7 @@ ms.locfileid: "2756615"
 
 ### <a name="add-text-box"></a>텍스트 상자 추가
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  구성 요소를 추가할 페이지를 선택합니다.
 
@@ -144,7 +144,7 @@ ms.locfileid: "2756615"
 
 ### <a name="add-image"></a>이미지 추가
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  구성 요소를 추가할 페이지를 선택합니다.
 
@@ -181,7 +181,7 @@ ms.locfileid: "2756615"
 
 ### <a name="add-iframe"></a>IFrame 추가
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  구성 요소를 추가할 페이지를 선택합니다.
 
@@ -209,7 +209,7 @@ ms.locfileid: "2756615"
 
 양식은 개발자가 포털에 양식을 구현하지 않아도 포털에서 데이터를 수집하기 위해 양식을 추가할 수 있는 데이터 기반 구성입니다. [양식은 Common Data Service에서 생성](https://docs.microsoft.com/powerapps/maker/model-driven-apps/form-designer-overview)되며 포털의 웹 페이지에서 이를 사용하거나 목록과 함께 사용하여 완전한 웹 응용 프로그램을 빌드할 수 있습니다.  
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  구성 요소를 추가할 페이지를 선택합니다.
 
@@ -264,7 +264,7 @@ ms.locfileid: "2756615"
 
 목록은 개발자가 포털에 표를 표시할 필요 없이 레코드 목록을 렌더링할 웹 페이지를 추가하는 데 사용하는 데이터 기반 구성입니다. 목록은 [Common Data Service 보기](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-and-edit-views)를 사용 하여 포털에 레코드를 표시합니다.  
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  구성 요소를 추가할 페이지를 선택합니다.
 
@@ -308,7 +308,7 @@ ms.locfileid: "2756615"
 
 ### <a name="add-breadcrumb"></a>이동 경로 추가
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.  
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.  
 
 2.  구성 요소를 추가할 페이지를 선택합니다.
 
@@ -324,7 +324,7 @@ ms.locfileid: "2756615"
 
 웹 링크를 만들고 다음을 설정합니다.
 
-1.  [포털을 편집](manage-existing-portals.md#edit)하여 PowerApps 포털 스튜디오에서 엽니다.
+1.  [포털을 편집](manage-existing-portals.md#edit)하여 Power Apps 포털 스튜디오에서 엽니다.
 
 2.  헤더 구성 요소를 선택합니다. 
 

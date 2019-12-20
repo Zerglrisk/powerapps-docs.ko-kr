@@ -13,12 +13,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b0c576b8eab2b547c66a90f0693becf516b01207
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: fd0499f48cfb5c02d8dab45b89bd38b753850ea1
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758595"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2865518"
 ---
 # <a name="manage-custom-fields-in-an-entity"></a>엔터티의 사용자 지정 필드 관리
 모든 엔터티에서 하나 이상의 사용자 지정 필드를 만들고 업데이트할 수 있습니다. 사용자 지정 필드를 만들 때는 필드 이름, 표시 이름 및 포함될 데이터 형식과 같은 속성 집합을 지정합니다. 자세한 내용은 [엔터티 속성 메타데이터](../../developer/common-data-service/entity-attribute-metadata.md)를 참조하십시오.
@@ -106,5 +106,5 @@ ms.locfileid: "2758595"
 * [Common Data Service 데이터베이스를 사용하여 처음부터 앱 만들기](../canvas-apps/data-platform-create-app-scratch.md)
 
 ## <a name="privacy-notice"></a>개인 정보 취급 방침
-Microsoft PowerApps Common Data Model을 사용하면 진단 시스템에서 사용자 지정 엔터티 및 필드 이름을 수집하고 저장합니다.  이 점을 파악하여 고객을 위해 일반적인 데이터 모델을 개선합니다. 작성자가 만드는 엔터티 및 필드 이름은 Microsoft PowerApps 커뮤니티에서 공통적인 시나리오를 이해하고 조직과 관련된 스키마와 같은 서비스의 표준 엔터티 적용 범위에서 차이를 확인하는 데 도움이 됩니다. 이러한 엔터티와 연결된 데이터베이스 테이블의 데이터는 Microsoft에서 액세스하거나 사용하거나 데이터베이스가 프로비전되는 지역 외부에서 복제되지 않습니다. 그러나 사용자 지정 엔터티와 필드 이름은 여러 지역에 걸쳐 복제될 수 있으며 데이터 보존 정책에 따라 삭제됩니다. Microsoft는 [보안 센터](https://www.microsoft.com/trustcenter/Privacy/default.aspx)에서 추가로 설명한 대로 사용자의 개인 정보를 보호하기 위해 최선을 다하고 있습니다.
+Microsoft Power Apps Common Data Model을 사용하면 진단 시스템에서 사용자 지정 엔터티 및 필드 이름을 수집하고 저장합니다.  이 점을 파악하여 고객을 위해 일반적인 데이터 모델을 개선합니다. 작성자가 만드는 엔터티 및 필드 이름은 Microsoft Power Apps 커뮤니티에서 공통적인 시나리오를 이해하고 조직과 관련된 스키마와 같은 서비스의 표준 엔터티 적용 범위에서 차이를 확인하는 데 도움이 됩니다. 이러한 엔터티와 연결된 데이터베이스 테이블의 데이터는 Microsoft에서 액세스하거나 사용하거나 데이터베이스가 프로비전되는 지역 외부에서 복제되지 않습니다. 그러나 사용자 지정 엔터티와 필드 이름은 여러 지역에 걸쳐 복제될 수 있으며 데이터 보존 정책에 따라 삭제됩니다. Microsoft는 [보안 센터](https://www.microsoft.com/trustcenter/Privacy/default.aspx)에서 추가로 설명한 대로 사용자의 개인 정보를 보호하기 위해 최선을 다하고 있습니다.
 

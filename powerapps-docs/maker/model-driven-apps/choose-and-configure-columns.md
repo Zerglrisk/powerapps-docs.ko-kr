@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 보기의 열 선택 및 구성 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 보기의 열 선택 및 구성 | MicrosoftDocs
 description: 앱에 대한 보기 선택 및 구성 방법 알아보기
 keywords: ''
 ms.date: 11/27/2018
@@ -24,18 +24,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: d9f34be645a8e3dee1283f064e5aeda6a9d59e9a
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: b259ea097ed5caf1683d2ba7b2450551d32e3a61
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2754614"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874889"
 ---
 # <a name="choose-and-configure-columns-in-model-driven-app-views"></a>모델 기반 앱 보기의 열 선택 및 구성
 
 <a name="BKMK_ChooseAndConfigureColumns"></a>   
 
- 필터 조건에 따라 PowerApps 보기에 표시되는 열은 보기에 제공되는 값에 매우 중요합니다. 이 항목에서는 다음 작업을 수행하여 보기를 만들거나 편집합니다.  
+ 필터 조건에 따라 Power Apps 보기에 표시되는 열은 보기에 제공되는 값에 매우 중요합니다. 이 항목에서는 다음 작업을 수행하여 보기를 만들거나 편집합니다.  
 
 -   [보기 편집기 열기](choose-and-configure-columns.md#open-the-view-editor)  
    
@@ -57,7 +57,7 @@ ms.locfileid: "2754614"
 
 ### <a name="open-the-view-editor"></a>보기 편집기 열기
 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **보기** 탭을 선택합니다. 
 

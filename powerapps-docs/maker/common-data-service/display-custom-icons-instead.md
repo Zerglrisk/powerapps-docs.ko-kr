@@ -1,8 +1,8 @@
 ---
-title: PowerApps의 목록 보기에서 값과 함께 사용자 지정 아이콘 표시 | MicrosoftDocs
+title: Power Apps의 목록 보기에서 값과 함께 사용자 지정 아이콘 표시 | MicrosoftDocs
 description: 보기에 사용자 지정 아이콘 그래픽을 표시하는 방법 알아보기
 ms.custom: ''
-ms.date: 02/14/2019
+ms.date: 11/20/2019
 ms.reviewer: ''
 ms.service: powerapps
 ms.suite: ''
@@ -22,36 +22,37 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e1facad3d5d6cb95e0441800f4d743d429f50787
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 5a8eec0d7079b748b5b70c623c794b403b399ea2
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2705498"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861078"
 ---
 # <a name="display-custom-icons-alongside-values-in-list-views"></a>목록 보기에서 값과 함께 사용자 지정 아이콘 표시
 
 <a name="GridIcons"></a>   
 
- PowerApps 환경 관리자 및 사용자는 보기에 그래픽을 추가하고 JavaScript를 사용하여 열 값을 기반으로 그래픽을 선택하는 데 사용되는 논리를 설정할 수 있습니다. 이 기능을 사용하면 텍스트 또는 숫자 값과 함께 아이콘을 표시하는 목록 보기를 사용자 지정할 수 있습니다. 
+ Power Apps 환경 관리자 및 사용자는 보기에 그래픽을 추가하고 JavaScript를 사용하여 열 값을 기반으로 그래픽을 선택하는 데 사용되는 논리를 설정할 수 있습니다. 이 기능을 사용하면 텍스트 또는 숫자 값과 함께 아이콘을 표시하는 목록 보기를 사용자 지정할 수 있습니다. 
+
+이 예에서는 Dynamics 365 Sales와 같은 특정 앱에서 사용할 수 있는 영업 기회 엔터티에 대한 사용자 지정 아이콘을 표시합니다. 거래처 또는 연락처 엔터티와 같은 다른 표준 엔터티 및 사용자 지정 엔터티와 함께 보기에서 사용자 지정 아이콘을 표시할 수 있습니다. 
 
 > [!div class="mx-imgBorder"] 
 > ![](media/icon-in-opportunity-view.png "All Opportunities view with Rating column displaying icons and text value")
   
-> [!NOTE]
->  표 아이콘은 웹 인터페이스에만 표시됩니다. [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] 또는 모바일 앱에서는 표시되지 않습니다.  
+목록 보기의 사용자 지정 아이콘은 통합 인터페이스, 레거시 웹 클라이언트, 모바일 앱 및 Outlook용 앱에 표시될 수 있습니다. 
   
-### <a name="add-custom-graphics-and-javascript-as-web-resources"></a>사용자 지정 그래픽 및 JavaScript를 웹 리소스로 추가  
+## <a name="add-custom-graphics-and-javascript-as-web-resources"></a>사용자 지정 그래픽 및 JavaScript를 웹 리소스로 추가  
   
 1.  사용자 지정에 필요한 새 그래픽 파일을 만듭니다. 아이콘 크기는 16x16 픽셀을 사용하는 것이 좋습니다(더 큰 이미지는 축소됨).  
   
-2.  해당 값을 표시하는 아이콘을 설정하는 하나 또는 그 이상의 JavaScript 함수를 작성합니다.(일반적으로 사용자 지정하려는 각 열에 대해 하나의 함수가 필요합니다.) 각 함수는 이미지 이름 및 도구 설명 텍스트를 포함하는 배열을 반환하는 행 데이터 개체와 언어(LCID) 코드 입력을 허용해야 합니다. 함수 예제는 이 항목의 뒷부분에 나오는 [샘플 JavaScript 함수](#SampleJavascript)를 참조 하십시오.  
+2.  해당 값을 표시하는 아이콘을 설정하는 하나 또는 그 이상의 JavaScript 함수를 작성합니다.(일반적으로 사용자 지정하려는 각 열에 대해 하나의 함수가 필요합니다.) 각 함수는 이미지 이름 및 도구 설명 텍스트를 포함하는 배열을 반환하는 행 데이터 개체와 언어(LCID) 코드 입력을 허용해야 합니다. 함수 예제는 이 문서의 뒷부분에 나오는 [샘플 JavaScript 함수](#SampleJavascript)를 참조하십시오.  
   
-3.  관리자로 환경에 로그인하고 솔루션 탐색기를 엽니다.  
+3.  관리자로 환경에 로그인하고 [솔루션 탐색기](../model-driven-apps/advanced-navigation.md#solution-explorer)를 엽니다.  
   
 4.  **기본 솔루션** 팝업 창이 열립니다. 여기에서 **구성 요소** > **웹 리소스**로 이동합니다..  
   
-5.  이제 사용자 지정 그래픽이 웹 리소스로 한 번에 하나씩 업로드됩니다. 도구 모음에서 **새로 만들기** 단추를 선택하여 새 웹 리소스를 만듭니다. 리소스를 만들 수 있는 다른 팝업 창이 열립니다. 합니다.  
+5.  이제 사용자 지정 그래픽이 웹 리소스로 한 번에 하나씩 업로드됩니다. 도구 모음에서 **새로 만들기** 단추를 선택하여 새 웹 리소스를 만듭니다. 리소스를 만들 수 있는 다른 팝업 창이 열립니다. 다음 단계를 수행합니다.  
   
     1.  새 리소스에 알기 쉬운 **이름**을 지정합니다. JavaScript 코드에서 각 그래픽을 참조하는 데 사용할 이름입니다.  
   
@@ -162,7 +163,27 @@ function displayIconTooltip(rowData, userLCID) {
   
  <!-- This results in displaying icons with tooltips in the **Rating** column that depend on the value in each row. The result could look like this:  
   
- ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  -->
+ ![Custom column graphics example](../customize/media/custom-column-graphics-example.png "Custom column graphics example")  --> 
+
+## <a name="custom-icon-view-display-behavior"></a>사용자 지정 아이콘 보기 표시 동작
+### <a name="primary-fields"></a>기본 필드 
+표 목록 보기에서 엔터티 기본 필드에 적용된 사용자 지정 아이콘이 기본 시스템 생성 아이콘을 대체합니다. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/mobile-primary-field-custom-icon-display.png "Primary field replaces default icon in the custom icon view")
+
+### <a name="other-fields"></a>그 외 필드 
+표 목록 보기에서 엔터티 기본 필드가 아닌 필드에 적용된 사용자 지정 아이콘은 기본 시스템 생성 아이콘에 더하여 보조 아이콘으로 표시됩니다. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/card-form-not-primary-field.png "Not an entity primary field custom icon view")
+
+### <a name="card-forms"></a>카드 양식
+보기가 카드 양식을 사용하도록 구성된 경우 사용자 지정 아이콘이 기본 시스템 생성 아이콘을 대체합니다. 
+
+> [!div class="mx-imgBorder"] 
+> ![](media/card-view-icon-display.png "Card view custom icon view")
+
  
  ### <a name="see-also"></a>참조
 [모델 기반 앱 보기 이해](../model-driven-apps/create-edit-views.md)

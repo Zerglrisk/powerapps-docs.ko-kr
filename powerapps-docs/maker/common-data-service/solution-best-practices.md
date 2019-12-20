@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 솔루션 모범 사례 | MicrosoftDocs
+title: Power Apps의 솔루션 모범 사례 | MicrosoftDocs
 description: 솔루션 작업 시 모범 사례에 대해 알아보십시오.
 ms.custom: ''
 ms.date: 10/08/2019
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e10b9951ca70e497349620ae96308d6db49403fe
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 810fd536da5236f5ac7490505e82e78179ab61da
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702154"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2865298"
 ---
 # <a name="best-practices-when-working-with-solutions"></a>솔루션 작업 시 모범 사례 
 이 항목에서는 솔루션 작업 시 모범 사례에 대해 설명합니다. 

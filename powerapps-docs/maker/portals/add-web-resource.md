@@ -6,15 +6,15 @@ manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 10/07/2019
+ms.date: 11/11/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: c735513bc0a8f325aaf0debca2170131d45178dc
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 873f2054856e21b7fbf56247a4234ae2fb2a72c9
+ms.sourcegitcommit: 01fefd7a06bf5d6509acd0bb54ea6479208cbbc8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756879"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2816478"
 ---
 # <a name="add-the-azure-storage-web-resource-to-a-form"></a>양식에 Azure 저장소 웹 리소스 추가
 
@@ -67,7 +67,7 @@ Azure에 저장된 파일을 보고 상호 작용하려면, 양식에 웹 리소
 
 > [!Note]
 > 또한 Azure Storage 계정에서 원본 간 리소스 공유(CORS) 규칙을 추가해야 하며 그렇지 않으면 클라우드 아이콘이 아닌 일반 첨부 아이콘이 표시됩니다.
-> - **허용되는 원본**: 도메인을 지정합니다. 예를 들면 contoso.crm.dynamics.com입니다.
+> - **허용되는 원본**: 도메인을 지정합니다. `http://contoso.crm.dynamics.com`을 예로 들 수 있습니다.
 > - **허용되는 동사:** GET, PUT, DELETE, HEAD, POST
 > - **허용되는 헤더**: 원본 도메인이 CORS 요청에 지정할 수 있는 요청 헤더를 지정합니다. 예를 들어 x-ms-meta-data\*, x-ms-meta-target\*입니다. 이 시나리오에서는 *를 지정해야 하며 그렇지 않으면 웹 리소스가 제대로 렌더링되지 않습니다.
 > - **노출되는 헤더**: CORS 요청에 응답하여 전송되고 브라우저에서 요청 발급자에게 노출되는 응답 헤더를 지정합니다. 예를 들어 x-ms-meta-\*입니다.

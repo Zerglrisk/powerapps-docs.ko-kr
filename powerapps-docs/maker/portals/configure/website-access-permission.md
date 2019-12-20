@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 포털에서 웹 사이트 액세스 권한 만들기 | MicrosoftDocs
+title: Power Apps 포털에서 웹 사이트 액세스 권한 만들기 | MicrosoftDocs
 description: 웹 사이트 액세스 권한을 만들고 포털의 요소에 연결하는 방법에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 0ac02992498204efc42a52e736284ea134ed42f5
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: ab85eb4feca871089366c8675305b4f6c741f0af
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760711"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2873469"
 ---
 # <a name="create-website-access-permissions"></a>웹 사이트 액세스 권한 만들기
 
@@ -38,8 +38,10 @@ ms.locfileid: "2760711"
 
 4. **일반**에서 이름, 웹 사이트를 입력하고 필요한 권한을 선택합니다.
 
-5. **웹 역할**에서 권한을 연결할 웹 역할을 선택하고 추가합니다.
+    ![웹 사이트 액세스 권한 만들기](../media/website-access-permission.png "웹 사이트 액세스 권한 만들기")
+
+5. **웹 역할**에서 **기존 웹 역할 추가**를 선택하고 권한을 연결할 웹 역할을 추가합니다.
 
 6. 변경 내용을 저장합니다.
 
-    ![웹 사이트 액세스 권한 만들기](../media/website-access-permission.png "웹 사이트 액세스 권한 만들기")  
+    

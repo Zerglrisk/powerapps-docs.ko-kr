@@ -1,5 +1,5 @@
 ---
-title: PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
+title: Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집 | MicrosoftDocs
 ms.custom: ''
 ms.date: 05/18/2018
 ms.reviewer: ''
@@ -19,20 +19,20 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 8bbae644cddd24bebfa03ab5e2a15a86c6ecd44e
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 8eee62b8190c2422e2e910fd28306a0d56da85ec
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758023"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2865966"
 ---
-# <a name="create-and-edit-fields-for-common-data-service-using-powerapps-solution-explorer"></a>PowerApps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집
+# <a name="create-and-edit-fields-for-common-data-service-using-power-apps-solution-explorer"></a>Power Apps 솔루션 탐색기를 사용하여 Common Data Service에 대한 필드 만들기 및 편집
 
 솔루션 탐색기를 통해 Common Data Service의 필드를 만들고 편집할 수 있습니다.
 
-[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
+[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. <br />추가 정보: 
 - [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)
-- [PowerApps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)
+- [Power Apps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)
   
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
 
@@ -268,7 +268,7 @@ ms.locfileid: "2758023"
 
 ### <a name="see-also"></a>참조  
 [Common Data Service에 대한 필드 만들기 및 편집](create-edit-fields.md)<br />
-[PowerApps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)<br />
+[Power Apps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)<br />
 [필드 유형 및 필드 데이터 형식](types-of-fields.md)<br />
 [계산 필드를 정의하여 수동 계산 자동화](define-calculated-fields.md)<br />
 [값을 집계하는 롤업 필드 정의](define-rollup-fields.md)<br />

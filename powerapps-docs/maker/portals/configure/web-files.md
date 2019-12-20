@@ -1,5 +1,5 @@
 ---
-title: PowerApps 포털에서 웹 파일 만들기 및 관리 | MicrosoftDocs
+title: Power Apps 포털에서 웹 파일 만들기 및 관리 | MicrosoftDocs
 description: 포털에서 웹 파일을 만들고 관리하는 방법에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: dc67db92ac502611b0c10b5d387b100e8aa43da7
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 0e8487e211cf685c77aef545ebc39a43968f8e40
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760728"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2864925"
 ---
 # <a name="create-and-manage-web-files"></a>웹 파일 만들기 및 관리
 
@@ -24,7 +24,7 @@ ms.locfileid: "2760728"
 
 ## <a name="manage-web-files"></a>웹 파일 관리
 
-PowerApps 포털 내에서 웹 파일을 만들고, 편집하고, 삭제할 수 있습니다.
+Power Apps 포털 내에서 웹 파일을 만들고, 편집하고, 삭제할 수 있습니다.
 
 1. [포털 관리 앱](configure-portal.md)을 엽니다.
 

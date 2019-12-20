@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 엔터티 편집 | MicrosoftDocs
+title: Power Apps에서 엔터티 편집 | MicrosoftDocs
 description: 엔터티를 편집할 수 있는 다양한 방법 알아보기
 ms.custom: ''
 ms.date: 05/15/2018
@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3ec64583e2146703711b88456ff7bc91ece3e921
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: cff90011a80bd051882da08be1f479cb997a7a72
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757451"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2863955"
 ---
 # <a name="edit-an-entity"></a>엔터티 편집
 
@@ -40,10 +40,10 @@ ms.locfileid: "2757451"
 
 |디자이너|설명|
 |--|--|
-|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.|
+|[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.|
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다.|
 
-PowerApps 포털 및 솔루션 탐색기에서 다음을 수행할 수 있습니다.
+Power Apps 포털 및 솔루션 탐색기에서 다음을 수행할 수 있습니다.
 
 - **엔터티 필드 편집**. 추가 정보: [Common Data Service용 필드 만들기 및 편집](create-edit-fields.md)
   
@@ -63,9 +63,9 @@ PowerApps 포털 및 솔루션 탐색기에서 다음을 수행할 수 있습니
 
 - **차트** [시스템 차트 만들기 또는 편집](../model-driven-apps/create-edit-system-chart.md)
 
-## <a name="edit-using-powerapps-portal-designer"></a>PowerApps 포털 디자이너를 사용하여 편집
+## <a name="edit-using-power-apps-portal-designer"></a>Power Apps 포털 디자이너를 사용하여 편집
 
-PowerApps 포털 디자이너 내에서는 다음과 같은 세 가지 엔터티 속성만 편집할 수 있습니다.
+Power Apps 포털 디자이너 내에서는 다음과 같은 세 가지 엔터티 속성만 편집할 수 있습니다.
  - 표시 이름
  - 여러 표시 이름
  - 설명

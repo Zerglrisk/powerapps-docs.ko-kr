@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: cfc2fd0ca753aebfe7bc77b73c7e7ec1ca011387
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: a0ccf3fe2178b711a5eb61bc64814d343c648d25
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2709986"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867330"
 ---
 # <a name="change-the-base-url-of-a-portal"></a>포털의 기본 URL을 변경합니다.
 
@@ -23,7 +23,7 @@ ms.locfileid: "2709986"
 > [!NOTE]
 > 포털의 기본 URL을 변경하면 이전 URL에 더 이상 액세스할 수 없으며 다른 고객이 자신의 포털에 사용할 수 있게 됩니다.
 
-1.  [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1.  [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2.  **포털 작업** > **기본 URL 변경**으로 이동합니다. 
 

@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 기본 양식에 대한 iFrame 속성 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 기본 양식에 대한 iFrame 속성 | MicrosoftDocs
 description: 기본 양식에 대한 iFrame 속성 이해
 Keywords: 기본 양식; iFrame 속성; Dynamics 365
 author: Mattp123
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 532b720277cdc9649e8ef161e9ff623298c5f570
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 7c4d4348726dfb53b0b54e3a8d86a1809a568b7b
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2754045"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2875009"
 ---
 # <a name="iframe-properties-for-model-driven-app-main-forms"></a>모델 기반 앱 기본 양식에 대한 iFrame 속성
 
@@ -31,7 +31,7 @@ iFrame을 양식에 추가하여 양식 안에 다른 웹 사이트의 콘텐츠
 
 IFrame 속성을 보려면 다음 단계를 수행합니다.
 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다. 
 

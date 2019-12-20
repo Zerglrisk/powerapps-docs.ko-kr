@@ -1,28 +1,28 @@
 ---
-title: 포털에 대한 PowerApps Common Data Service 엔터티 태그 사용 | MicrosoftDocs
-description: 포털에서 사용 가능한 PowerApps Common Data Service 엔터티 태그에 대해 알아봅니다.
+title: 포털에 대한 Power Apps Common Data Service 엔터티 태그 사용 | MicrosoftDocs
+description: 포털에서 사용 가능한 Power Apps Common Data Service 엔터티 태그에 대해 알아봅니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 10/07/2019
+ms.date: 11/28/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: b6efc3e176602d366315b9b54b66593005051e55
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: f252b0c9ef0ea90f6206863fe45a36702e4ce481
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757143"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884656"
 ---
-# <a name="powerapps-common-data-service-entity-tags"></a>PowerApps Common Data Service 엔터티 태그
+# <a name="power-apps-common-data-service-entity-tags"></a>Power Apps Common Data Service 엔터티 태그
 
-PowerApps 엔터티 태그는 PowerApps 데이터를 로드하고 표시하는 데 사용되거나 다른 PowerApps 포털 프레임워크 서비스를 사용합니다. 이러한 태그는 유동 언어에 대한 PowerApps 특정 확장입니다.
+Power Apps 엔터티 태그는 Power Apps 데이터를 로드하고 표시하는 데 사용되거나 다른 Power Apps 포털 프레임워크 서비스를 사용합니다. 이러한 태그는 유동 언어에 대한 Power Apps 특정 확장입니다.
 
 ## <a name="chart"></a>차트
 
-웹 페이지에 PowerApps 차트를 추가합니다. 웹 페이지의 복사 필드 또는 웹 템플릿의 원본 필드에 차트 태그를 추가할 수 있습니다. 웹 페이지에 PowerApps 차트를 추가하는 단계를 보려면 [포털의 웹 페이지에 차트 추가](../configure/add-chart.md)를 참조하십시오.
+웹 페이지에 Power Apps 차트를 추가합니다. 웹 페이지의 복사 필드 또는 웹 템플릿의 원본 필드에 차트 태그를 추가할 수 있습니다. 웹 페이지에 Power Apps 차트를 추가하는 단계를 보려면 [포털의 웹 페이지에 차트 추가](../configure/add-chart.md)를 참조하십시오.
 
 ```
 {% chart id:"EE3C733D-5693-DE11-97D4-00155DA3B01E" viewid:"00000000-0000-0000-00AA-000010001006" %}
@@ -45,7 +45,7 @@ PowerApps 엔터티 태그는 PowerApps 데이터를 로드하고 표시하는 �
 페이지 내에 Power BI 대시보드 및 보고서를 추가합니다. 웹 페이지의 **복사** 필드 또는 웹 템플릿의 **원본** 필드에 태그를 추가할 수 있습니다. 포털의 웹 페이지에 Power BI 보고서 또는 대시보드를 추가하는 단계는 [포털에서 웹 페이지에 Power BI 보고서 또는 대시보드 추가](../admin/add-powerbi-report.md)를 참조하십시오.
 
 > [!NOTE]
-> 태그가 작동하려면 PowerApps 포털 관리 센터에서 [Power BI 통합 사용을 설정](../admin/set-up-power-bi-integration.md)해야 합니다. Power BI 통합이 활성화되지 않으면 대시보드 또는 보고서가 표시되지 않습니다.
+> 태그가 작동하려면 Power Apps 포털 관리 센터에서 [Power BI 통합 사용을 설정](../admin/set-up-power-bi-integration.md)해야 합니다. Power BI 통합이 활성화되지 않으면 대시보드 또는 보고서가 표시되지 않습니다.
 
 ### <a name="parameters"></a>매개 변수
 
@@ -56,14 +56,14 @@ powerbi 태그는 다음 매개 변수를 허용합니다.
 Power BI 보고서 또는 대시보드의 경로. Power BI 보고서 또는 대시보드가 보안인 경우 인증 유형을 제공해야 합니다.
 
 ```
-{% powerbi path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
+{% powerbi authentication_type:"powerbiembedded" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
 ```
 
 **authentication_type**
 
 Power BI 보고서 또는 대시보드에 필요한 인증 유형입니다. 이 매개 변수의 올바른 값:
 
-- **익명**: 웹 Power BI 보고서에 게시를 포함할 수 있습니다. 기본 인증 유형은 익명입니다.
+- **익명**: 웹 Power BI 보고서에 게시를 포함할 수 있습니다. 기본 인증 유형은 익명입니다. 인증 유형을 익명으로 사용하는 경우 [Power BI에서 웹에 게시](https://docs.microsoft.com/power-bi/service-publish-to-web)에 설명된 대로 Power BI 보고서 URL을 얻어야 합니다.
 
 - **AAD**: 보안 Power BI 보고서 또는 대시보드를 Power BI Azure Active Directory 인증된 사용자와 공유할 수 있습니다.
 
@@ -139,7 +139,7 @@ Power BI 보고서에 역할을 할당하고 유동 태그에 **역할** 매개 
 
 ## <a name="editable"></a>편집 가능
 
-해당 개체에 대한 콘텐츠 편집 권한을 가진 사용자를 위해, 제공된 PowerApps 포털 CMS 개체를 포털에서 편집 가능한 개체로 렌더링합니다. 편집 가능한 개체에는 [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), [weblinks](liquid-objects.md#weblinks)가 포함됩니다.  
+해당 개체에 대한 콘텐츠 편집 권한을 가진 사용자를 위해, 제공된 Power Apps 포털 CMS 개체를 포털에서 편집 가능한 개체로 렌더링합니다. 편집 가능한 개체에는 [page](liquid-objects.md#page), [snippets](liquid-objects.md#snippets), [weblinks](liquid-objects.md#weblinks)가 포함됩니다.  
 
 ```
 {% editable page 'adx_copy' type: 'html', title: 'Page Copy', escape: false, liquid: true %}
@@ -284,7 +284,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 **language\_code**
 
-로드할 레이블이 지역화되어 있는 엔터티 목록을 선택하기 위한 PowerApps 정수 언어 코드입니다. language\_code가 제공되지 않은 경우, 포털 응용 프로그램 PowerApps 연결의 기본 언어가 사용됩니다.
+로드할 레이블이 지역화되어 있는 엔터티 목록을 선택하기 위한 Power Apps 정수 언어 코드입니다. language\_code가 제공되지 않은 경우, 포털 응용 프로그램 Power Apps 연결의 기본 언어가 사용됩니다.
 
 ```
 {% entitylist name:"My Entity List", language_code:1033 %}
@@ -296,7 +296,7 @@ Loaded entity list {{ entitylist.adx_name }}.
 
 ## <a name="entityview"></a>entityview
 
-이름 또는 ID별로 PowerApps 보기를 로드합니다. 그러면 보기 ߝ열 메타데이터, 페이지를 매긴 결과 레코드 등의 속성은 태그 블록 내에서 사용할 수 있는 [entityview 개체](liquid-objects.md#entityview)를 사용하여 액세스할 수 있습니다.  
+이름 또는 ID별로 Power Apps 보기를 로드합니다. 그러면 보기 ߝ열 메타데이터, 페이지를 매긴 결과 레코드 등의 속성은 태그 블록 내에서 사용할 수 있는 [entityview 개체](liquid-objects.md#entityview)를 사용하여 액세스할 수 있습니다.  
 
 보기가 로드되면 블록 내 콘텐츠가 렌더링됩니다. 보기를 찾을 수 없는 경우, 블록 콘텐츠가 렌더링되지 않습니다.
 
@@ -334,7 +334,7 @@ Loaded default view of the entity list associated with the current page, with {{
 
 ### <a name="parameters"></a>매개 변수
 
-**이름과 함께** id **또는** logical\_name을 제공하여 로드할 PowerApps 보기를 선택합니다. 둘 다 제공되지 않고 entityview 태그가 entitylist 태그 내에 중첩된 경우, 바깥쪽 entitylist의 기본 보기가 로드됩니다.
+**이름과 함께** id **또는** logical\_name을 제공하여 로드할 Power Apps 보기를 선택합니다. 둘 다 제공되지 않고 entityview 태그가 entitylist 태그 내에 중첩된 경우, 바깥쪽 entitylist의 기본 보기가 로드됩니다.
 
 **id**
 
@@ -360,7 +360,7 @@ Loaded entity view {{ entityview.name }} using view query string request paramet
 
 **logical\_name**
 
-로드할 보기의 PowerApps 엔터티 논리 이름입니다. name과 조합하여 사용해야 합니다.
+로드할 보기의 Power Apps 엔터티 논리 이름입니다. name과 조합하여 사용해야 합니다.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -372,7 +372,7 @@ Loaded entity view with {{ entityview.total_records }} total records.
 
 **name**
 
-로드할 보기의 PowerApps 이름입니다. logical\_name과 조합하여 사용해야 합니다.
+로드할 보기의 Power Apps 이름입니다. logical\_name과 조합하여 사용해야 합니다.
 
 ```
 {% entityview logical_name:'contact', name:"Active Contacts" %}
@@ -527,7 +527,7 @@ Loaded entity view with {{ entityview.total_records }} total records to which th
 
 **language\_code**
 
-로드될 레이블(열 머리글 레이블 등)이 지역화되어 있는 엔터티 보기를 선택하기 위한 PowerApps 정수 언어 코드입니다. language\_code가 제공되지 않은 경우, 포털 응용 프로그램 PowerApps 연결의 기본 언어가 사용됩니다.
+로드될 레이블(열 머리글 레이블 등)이 지역화되어 있는 엔터티 보기를 선택하기 위한 Power Apps 정수 언어 코드입니다. language\_code가 제공되지 않은 경우, 포털 응용 프로그램 Power Apps 연결의 기본 언어가 사용됩니다.
 
 entitylist 블록 내에서 entityview가 사용되는 경우 entityview는 entitylist에서 해당 언어 코드 구성을 상속합니다.
 
@@ -636,7 +636,7 @@ searchindex 태그는 다음 매개 변수를 허용합니다.
 
 **logical\_names**
 
-쉼표로 구분된 문자열로서, 일치하는 결과를 제한하는 PowerApps 엔터티의 논리 이름입니다. 지정되지 않은 경우에는 일치하는 모든 엔터티가 반환됩니다.
+쉼표로 구분된 문자열로서, 일치하는 결과를 제한하는 Power Apps 엔터티의 논리 이름입니다. 지정되지 않은 경우에는 일치하는 모든 엔터티가 반환됩니다.
 
 ```
 {% searchindex query: request.params.query, logical_names: 'kbarticle,incident' %}
@@ -681,7 +681,7 @@ searchindex 태그는 다음 매개 변수를 허용합니다.
 
 ## <a name="entityform"></a>entityform
 
-이름 또는 ID로 PowerApps 구성 엔터티 양식을 완전히 렌더링합니다.  
+이름 또는 ID로 Power Apps 구성 엔터티 양식을 완전히 렌더링합니다.  
 
 > [!Note]
 > entityform 태그는 <em>[웹 템플릿](store-content-web-templates.md)</em> 기반 페이지 템플릿 내에 렌더링된 콘텐츠에만 사용할 수 있습니다. 재작성 기반 페이지 템플릿 내의 태그를 사용해도 아무것도 렌더링되지 않습니다. 페이지당 단일 entityform 또는 webform 태그만 렌더링할 수 있습니다. 첫 번째 이후의 entityform 또는 webform 태그는 렌더링되지 않습니다.       
@@ -696,9 +696,9 @@ searchindex 태그는 다음 매개 변수를 허용합니다.
 
 `{% entityform name:My Entity Form %}`
 
-### <a name="webform"></a>**webform**
+## <a name="webform"></a>webform
 
-이름 또는 ID로 PowerApps 구성 웹 양식을 완전히 렌더링합니다. webform 태그는 [웹 템플릿](store-content-web-templates.md) 기반 페이지 템플릿 내에 렌더링된 콘텐츠에만 사용할 수 있습니다. 재작성 기반 페이지 템플릿 내의 태그를 사용해도 아무것도 렌더링되지 않습니다. 페이지당 단일 entityform 또는 webform 태그만 렌더링할 수 있습니다. 첫 번째 이후의 entityform 또는 webform 태그는 렌더링되지 않습니다.                
+이름 또는 ID로 Power Apps 구성 웹 양식을 완전히 렌더링합니다. webform 태그는 [웹 템플릿](store-content-web-templates.md) 기반 페이지 템플릿 내에 렌더링된 콘텐츠에만 사용할 수 있습니다. 재작성 기반 페이지 템플릿 내의 태그를 사용해도 아무것도 렌더링되지 않습니다. 페이지당 단일 entityform 또는 webform 태그만 렌더링할 수 있습니다. 첫 번째 이후의 entityform 또는 webform 태그는 렌더링되지 않습니다.                
 `{% webform name: 'My Web Form' %}`
 
 ### <a name="parameters"></a>매개 변수
@@ -708,6 +708,7 @@ searchindex 태그는 다음 매개 변수를 허용합니다.
 로드할 웹 양식의 이름입니다.
 
 `{% webform name:My Web Form %}`
+
 
 ### <a name="see-also"></a>참고 항목
 

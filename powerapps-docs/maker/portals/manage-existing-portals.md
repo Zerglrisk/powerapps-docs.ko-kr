@@ -1,6 +1,6 @@
 ---
-title: PowerApps에서 기존 포털 관리 | Microsoft 문서
-description: PowerApps에서 포털을 관리하기 위한 지침입니다.
+title: Power Apps에서 기존 포털 관리 | Microsoft 문서
+description: Power Apps에서 포털을 관리하기 위한 지침입니다.
 author: sbmjais
 manager: shujoshi
 ms.service: powerapps
@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 82fbc5d8cafa6af13af63eaff106ea028830bd01
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 0921e39c93b5f63a3f9a0ea038fd97389ea2b968
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756975"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883905"
 ---
-# <a name="manage-existing-portals-in-powerapps"></a>PowerApps에서 기존 포털 관리
+# <a name="manage-existing-portals-in-power-apps"></a>Power Apps에서 기존 포털 관리
 
-포털을 만들면 PowerApps 홈 페이지의 **최근 앱** 섹션 아래에 표시됩니다.
+포털을 만들면 Power Apps 홈 페이지의 **최근 앱** 섹션 아래에 표시됩니다.
 
 > [!div class=mx-imgBorder]
 > ![최근 앱](media/recent-apps.png "최근 앱")  
@@ -30,7 +30,7 @@ ms.locfileid: "2756975"
 
 ## <a name="edit"></a>편집
 
-[PowerApps 포털 스튜디오](portal-designer-anatomy.md)를 열어 포털의 콘텐츠 및 구성 요소를 편집합니다.  
+[Power Apps 포털 스튜디오](portal-designer-anatomy.md)를 열어 포털의 콘텐츠 및 구성 요소를 편집합니다.  
 
 > [!div class=mx-imgBorder]
 > ![포털 제작자](media/portal-maker.png "포털 제작자")  
@@ -42,7 +42,7 @@ ms.locfileid: "2756975"
 > [!div class=mx-imgBorder]
 > ![포털 웹 사이트](media/portal-website.png "포털 웹 사이트")  
 
-또는, 포털을 열고 [PowerApps 포털 스튜디오](portal-designer-anatomy.md)에서 **웹 사이트 찾아보기**를 선택하여 웹 사이트로 이동하여 웹 사이트에 대한 변경 사항을 볼 수 있습니다. 웹 사이트가 웹 사이트의 URL이 포함된 새 탭에서 열립니다.
+또는, 포털을 열고 [Power Apps 포털 스튜디오](portal-designer-anatomy.md)에서 **웹 사이트 찾아보기**를 선택하여 웹 사이트로 이동하여 웹 사이트에 대한 변경 사항을 볼 수 있습니다. 웹 사이트가 웹 사이트의 URL이 포함된 새 탭에서 열립니다.
 
 ## <a name="share"></a>공유
 
@@ -91,7 +91,7 @@ ms.locfileid: "2756975"
 
 ## <a name="settings"></a>설정
 
-포털 설정을 표시하고 포털 이름을 변경할 수 있습니다. PowerApps 포털 관리 센터를 통한 포털 관리 및 사이트 설정 작업과 같은 고급 조치를 수행할 수도 있습니다. 설정은 PowerApps 포털 관리 센터 및 사이트 설정에 대한 링크를 제공합니다. 추가 정보: [고급 포털 관리](admin/admin-overview.md) 및 [사이트 설정 구성](configure/configure-site-settings.md).  
+포털 설정을 표시하고 포털 이름을 변경할 수 있습니다. Power Apps 포털 관리 센터를 통한 포털 관리 및 사이트 설정 작업과 같은 고급 조치를 수행할 수도 있습니다. 설정은 Power Apps 포털 관리 센터 및 사이트 설정에 대한 링크를 제공합니다. 추가 정보: [고급 포털 관리](admin/admin-overview.md) 및 [사이트 설정 구성](configure/configure-site-settings.md).  
 
 > [!div class=mx-imgBorder]
 > ![포털 설정](media/portal-settings.png "포털 설정")  

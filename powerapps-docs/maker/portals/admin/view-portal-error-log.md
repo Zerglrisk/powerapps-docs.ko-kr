@@ -9,16 +9,16 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 7989c15b0c5c4cf50d4b55f518244758afc067e1
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: ced53e6b3eb30668d81aca0f385f4ebd841f02fa
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2756659"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862495"
 ---
 # <a name="view-portal-error-logs"></a>포털 오류 로그 보기
 
-포털 관리자나 개발자는 PowerApps 포털을 사용하여 고객을 위한 웹 사이트를 만들 수 있습니다. 개발자의 일반적인 작업 중 하나는 포털을 개발하는 동안 문제를 디버깅하는 것입니다. 디버깅을 돕기 위해 포털의 모든 문제에 대한 자세한 오류 로그에 액세스할 수 있습니다. 포털에 대한 오류 로그를 얻을 수 있는 방법은 여러 가지가 있습니다.
+포털 관리자나 개발자는 Power Apps 포털을 사용하여 고객을 위한 웹 사이트를 만들 수 있습니다. 개발자의 일반적인 작업 중 하나는 포털을 개발하는 동안 문제를 디버깅하는 것입니다. 디버깅을 돕기 위해 포털의 모든 문제에 대한 자세한 오류 로그에 액세스할 수 있습니다. 포털에 대한 오류 로그를 얻을 수 있는 방법은 여러 가지가 있습니다.
 
 ## <a name="custom-error"></a>사용자 지정 오류
 
@@ -40,7 +40,7 @@ YSOD를 활성화하려면 포털에서 [사용자 정의 오류](#disable-custo
 
 포털에서 서버 쪽 예외가 발생 하면 자세한 예외 메시지를 표시하기 위해 포털에서 사용자 지정 오류를 비활성화할 수 있습니다.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 작업** > **사용자 지정 오류를 사용 안 함**으로 이동합니다.
 
@@ -53,7 +53,7 @@ YSOD를 활성화하려면 포털에서 [사용자 정의 오류](#disable-custo
 
 포털에서 사용자 지정 오류를 사용하여 YSOD 대신 전문가 수준의 페이지를 표시할 수 있습니다. 이 페이지에서는 응용 프로그램에서 예외가 발생하는 경우에 의미있는 정보를 제공합니다.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 작업** > **사용자 지정 오류를 사용**으로 이동합니다.
 
@@ -94,14 +94,14 @@ YSOD를 활성화하려면 포털에서 [사용자 정의 오류](#disable-custo
 
 ## <a name="access-portal-error-logs"></a>포털 액세스 오류 로그
 
-포털을 개발하고 게시한 후에도 포털 로그에 액세스하여 고객이 보고한 문제를 디버깅할 수 있어야 합니다. 로그에 액세스하려면 사용자가 소유한 Azure Blob 저장소 계정으로 모든 응용 프로그램 오류를 보내도록 포털을 구성할 수 있습니다. 문제의 세부 사항을 가지고 있기 때문에 포털 오류 로그에 액세스하여 고객 쿼리에 효율적으로 응답할 수 있습니다. 포털 오류 로그를 Azure Blob Storage에 가져오려면 PowerApps 포털 관리 센터에서 진단 로깅을 사용하도록 설정해야 합니다.
+포털을 개발하고 게시한 후에도 포털 로그에 액세스하여 고객이 보고한 문제를 디버깅할 수 있어야 합니다. 로그에 액세스하려면 사용자가 소유한 Azure Blob 저장소 계정으로 모든 응용 프로그램 오류를 보내도록 포털을 구성할 수 있습니다. 문제의 세부 사항을 가지고 있기 때문에 포털 오류 로그에 액세스하여 고객 쿼리에 효율적으로 응답할 수 있습니다. 포털 오류 로그를 Azure Blob Storage에 가져오려면 Power Apps 포털 관리 센터에서 진단 로깅을 사용하도록 설정해야 합니다.
 
 > [!NOTE]
 > 포털이 연결된 Common Data Service 인스턴스를 변경하면 진단 로깅이 비활성화됩니다. 진단 로깅을 사용하도록 다시 설정해야 합니다.
 
 ### <a name="enable-diagnostic-logging"></a>진단 로깅 사용
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 작업** > **진단 로깅 사용**으로 이동합니다.
 
@@ -138,7 +138,7 @@ YSOD를 활성화하려면 포털에서 [사용자 정의 오류](#disable-custo
  
 ### <a name="update-diagnostic-logging"></a>진단 로깅 업데이트
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 작업** > **진단 로깅 구성 업데이트**로 이동합니다.
 
@@ -166,7 +166,7 @@ YSOD를 활성화하려면 포털에서 [사용자 정의 오류](#disable-custo
 
 ### <a name="disable-diagnostic-logging"></a>진단 로깅 사용 안 함
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 작업** > **진단 로깅 사용 안 함**으로 이동합니다.
 

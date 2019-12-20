@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 24e1ed3f2c2836bef1d861a2ef6b4b1f61dc09b9
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 9ee7770528f104d383bbf2f1b6c810d261334800
+ms.sourcegitcommit: 0f0b26122be28d674af0833247b491e9367c4932
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2702638"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "2780309"
 ---
 # <a name="apply-business-logic-in-common-data-service"></a>Common Data Service에 비즈니스 논리 적용
 
@@ -36,7 +36,7 @@ ms.locfileid: "2702638"
 > [!NOTE]
 > 모델 기반 앱에서 양식에 적용되는 비즈니스 규칙을 정의하려면 [모델 기반 앱 양식에 대한 비즈니스 규칙 만들기](../model-driven-apps/create-business-rules-recommendations-apply-logic-form.md)를 참조하십시오.
 
-워크플로 및 작업인 Common Data Service 프로세스를 사용할 수도 있습니다. 추가 정보: [Microsoft Flow: 워크플로 프로세스 사용](/flow/workflow-processes) 및 [Microsoft Flow: 작업 개요](/flow/actions)
+워크플로 및 작업인 Common Data Service 프로세스를 사용할 수도 있습니다. 추가 정보: [Power Automate: 워크플로 프로세스 사용](/flow/workflow-processes) 및 [Power Automate: 작업 개요](/flow/actions)
 
 ## <a name="see-also"></a>참조
 

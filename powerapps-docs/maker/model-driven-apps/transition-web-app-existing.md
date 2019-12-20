@@ -22,12 +22,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: e39cb11b9883e93d341232bcdcbb43dc17fa491a
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 75175b34b158be75165c6bcdae5826060fb47f38
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2759783"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2884371"
 ---
 # <a name="quick-start-for-using-an-existing-environment-to-validate-your-legacy-web-client-app-with-the-unified-interface"></a>기존 환경을 사용하여 통합 인터페이스로 기존 웹 클라이언트 앱의 유효성을 검사하기 위한 빠른 시작
 이 빠른 시작 항목은 기존 환경을 사용하여 현재 구성 또는 기본 솔루션을 기반으로 통합 인터페이스 응용 프로그램을 만드는 방법을 보여줍니다. 이를 통해 기존 레거시 웹 클라이언트 애플리케이션을 병렬로 실행하면서 통합 인터페이스를 탐색하고 테스트할 수 있습니다. 그런 다음 사용자는 나란히 보기 위해 환경 간에 전환할 수 있습니다. 
@@ -65,7 +65,7 @@ ALM(Application Lifecycle Management) 및 개발 운영 프로세스를 따르�
 최근에 개발 환경에서 **통합 인터페이스만 사용** 모드를 **켜기**로 전환한 경우(예: [Dynamics 365 레거시 웹 클라이언트 애플리케이션을 통합 인터페이스로 전환하기 위한 빠른 시작](transition-web-app.md) 항목의 지침에 따라) 기존 레거시 웹 클라이언트 앱을 실행할 수 있도록 설정을 다시 **끄기**로 설정해야 합니다.
 
 ### <a name="create-a-new-solution-thats-based-on-the-default-solution"></a>기본 솔루션을 기반으로 새 솔루션 만들기
-1. [PowerApps 제조업체 포털](https://make.powerapps.com)에 로그인합니다.   
+1. [Power Apps 제조업체 포털](https://make.powerapps.com)에 로그인합니다.   
 2. 환경 목록에서 원하는 환경을 선택합니다.  
 3. 왼쪽 탐색 창에서 **솔루션**을 선택합니다. 
 4. 메뉴 모음에서 **새 솔루션**을 선택합니다. 
@@ -98,7 +98,7 @@ ALM(Application Lifecycle Management) 및 개발 운영 프로세스를 따르�
 > [!div class="mx-imgBorder"] 
 > ![새 통합 인터페이스 앱](media/new-unified-interface-app.png "새 통합 인터페이스 앱")
 
-PowerApps 제조업체 포털 **솔루션** 영역을 사용하여 브라우저 탭으로 돌아가면 새 모델 중심 앱 및 비슷한 이름의 사이트 맵 클라이언트 확장 프로그램은 모두 사용자가 생성한 솔루션의 일부입니다.  
+Power Apps 제조업체 포털 **솔루션** 영역을 사용하여 브라우저 탭으로 돌아가면 새 모델 중심 앱 및 비슷한 이름의 사이트 맵 클라이언트 확장 프로그램은 모두 사용자가 생성한 솔루션의 일부입니다.  
 
 > [!div class="mx-imgBorder"] 
 > ![솔루션 자산](media/solution-assets.png "솔루션 자산")
@@ -158,7 +158,7 @@ PowerApps 제조업체 포털 **솔루션** 영역을 사용하여 브라우저 
 > Common Data Service의 현재 버전 및 Dynamics 365의 모델 기반 앱에는 여전히 더 이상 사용되지 않는 기능이 포함되어 있습니다. 더 이상 사용되지 않는 기능이 있는지 응용 프로그램을 검토하고 필요에 따라 새 기능으로 교체해야 합니다. 추가 정보: [중요한 변경 사항(사용 중지)](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming)
 
 > [!TIP]
-> PowerApps 검사기 도구는 솔루션 구성 요소의 품질 검사를 지원합니다.  추가 정보: [솔루션 검사기를 사용하여 PowerApps에서 모델 기반 앱의 유효성 검사](../common-data-service/use-powerapps-checker.md)
+> Power Apps 검사기 도구는 솔루션 구성 요소의 품질 검사를 지원합니다.  추가 정보: [솔루션 검사기를 사용하여 Power Apps에서 모델 기반 앱의 유효성 검사](../common-data-service/use-powerapps-checker.md)
 
 ## <a name="next-steps"></a>다음 단계
 결과를 바탕으로 구현 팀 또는 파트너는 응용 프로그램을 통합 인터페이스로 전환하는 데 필요한 노력의 양을 추정하고 잠재적 유용성 개선을 식별할 수 있습니다. 통합 인터페이스에서 여러 가지 새로운 기능을 사용할 수 있으므로 응용 프로그램 사용자의 가치를 높일 수 있습니다. 
@@ -171,9 +171,9 @@ PowerApps 제조업체 포털 **솔루션** 영역을 사용하여 브라우저 
 [통합 인터페이스 플레이북](unified-interface-playbook.md) <br />
 [사용자 경험 및 통합 인터페이스 전환 접근](approaching-unified-interface.md) <br />
 [통합 인터페이스 정보](/dynamics365/customer-engagement/admin/about-unified-interface) <br />
-[PowerApps의 모델 기반 앱이란 무엇입니까?](model-driven-app-overview.md) <br />
+[Power Apps의 모델 기반 앱이란 무엇입니까?](model-driven-app-overview.md) <br />
 [통합 인터페이스로 앱 업데이트](/dynamics365/customer-engagement/admin/update-apps-to-unified-interface) <br />
 [모델 기반 앱 상호 작용 환경 대시보드 구성](configure-interactive-experience-dashboards.md) <br />
 [모델 기반 앱 데이터 시각화를 위한 사용자 지정 컨트롤 사용](use-custom-controls-data-visualizations.md) <br />
-[PowerApps component framework 개요](/powerapps/developer/component-framework/overview) <br />
+[Power Apps component framework 개요](/powerapps/developer/component-framework/overview) <br />
 [모든 사용자를 위한 통합 인터페이스](/power-platform-release-plan/2019wave2/microsoft-powerapps/unified-interface-app-everybody)

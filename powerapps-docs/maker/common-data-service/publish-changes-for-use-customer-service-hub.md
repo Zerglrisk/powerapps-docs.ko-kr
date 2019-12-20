@@ -1,5 +1,5 @@
 ---
-title: PowerApps에 변경 내용 게시 | MicrosoftDocs
+title: Power Apps에 변경 내용 게시 | MicrosoftDocs
 description: 앱에 적용된 변경 내용을 게시하는 방법 알아보기
 ms.custom: ''
 ms.date: 10/29/2018
@@ -23,12 +23,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: ebe28c407ad5b3315ec518c53dacfec18656c9c7
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: a351fb6a6ca42057f06c3c065c7282789a1a4a17
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2700702"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870191"
 ---
 # <a name="publish-changes"></a>변경 사항 게시 
 

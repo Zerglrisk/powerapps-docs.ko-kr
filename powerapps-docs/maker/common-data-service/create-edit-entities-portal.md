@@ -1,6 +1,6 @@
 ---
-title: PowerApps 포털을 사용하여 엔터티 만들기 및 편집 | MicrosoftDocs
-description: PowerApps 포털을 사용하여 엔터티를 만들고 편집하는 방법 알아보기
+title: Power Apps 포털을 사용하여 엔터티 만들기 및 편집 | MicrosoftDocs
+description: Power Apps 포털을 사용하여 엔터티를 만들고 편집하는 방법 알아보기
 ms.custom: ''
 ms.date: 05/30/2018
 ms.reviewer: ''
@@ -21,16 +21,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 6b1fb1e479237face89e0a19ee145f7fa428cb62
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 2aa8cb6f5bb0cd3e58eda61c2b9c7b9d03637ec7
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758111"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866098"
 ---
-# <a name="create-and-edit-entities-using-powerapps-portal"></a>PowerApps 포털을 사용하여 엔터티 만들기 및 편집
+# <a name="create-and-edit-entities-using-power-apps-portal"></a>Power Apps 포털을 사용하여 엔터티 만들기 및 편집
 
-[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service용 엔터티를 쉽게 만들고 편집할 수 있습니다.
+[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 Common Data Service용 엔터티를 쉽게 만들고 편집할 수 있습니다.
 
 포털을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정만 가능 합니다. 추가 정보: 
 - [Common Data Service에서 엔터티 만들기 및 편집](create-edit-entities.md)
@@ -38,7 +38,7 @@ ms.locfileid: "2758111"
 
 ## <a name="view-entities"></a>엔터티 보기
 
-1. [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
+1. [Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **모델 기반** 또는 **캔버스** 디자인 모드 중 하나를 선택합니다.
 2. **데이터** > **엔터티**를 선택합니다.
 
 ![엔터티 보기](media/view-entities-portal.png)
@@ -143,7 +143,7 @@ ms.locfileid: "2758111"
 
 [엔터티 를 보는](#view-entities) 동안 엔터티를 선택하고 메뉴 또는 상황에 맞는 메뉴에서 **엔터티 삭제**를 선택합니다.
 
-![PowerApps 포털을 사용하여 엔터티 삭제](media/delete-entity-powerapps-portal.png)
+![Power Apps 포털을 사용하여 엔터티 삭제](media/delete-entity-powerapps-portal.png)
 
 엔터티에 삭제되지 않도록 하는 종속성이 있는 경우 오류 메시지가 표시됩니다. 종속성을 식별하고 제거하려면 솔루션 탐색기를 사용해야 합니다. 추가 정보 [엔터티 종속성 식별](create-edit-entities-solution-explorer.md#identify-entity-dependencies)
 

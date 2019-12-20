@@ -1,6 +1,6 @@
 ---
 title: 조회 필드를 사용하여 엔터티 간 관계 만들기 | Microsoft Docs
-description: 조회 필드를 사용하여 PowerApps에서 엔터티 간의 관계를 만드는 방법에 대한 단계별 지침입니다.
+description: 조회 필드를 사용하여 Power Apps에서 엔터티 간의 관계를 만드는 방법에 대한 단계별 지침입니다.
 author: lancedMicrosoft
 manager: kvivek
 ms.service: powerapps
@@ -13,12 +13,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: ac4b57853e6dfc4c0969a4207538e15db0b58bc8
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 468f31eeb48a3e79f79db9188be78a7fa6d28c18
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757539"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883579"
 ---
 # <a name="create-a-relationship-between-entities"></a>두 엔터티 간 관계 만들기
 한 엔터티의 데이터는 다른 엔터티의 데이터와 관련이 있는 경우가 많습니다. 예를 들어 **교사** 엔터티와 **수업** 엔터티가 있을 수 있으며 **수업** 엔터티에는 교사가 수업을 가르치는 교사를 표시하기 위해 **교사** 엔터티와 조회 관계가 있을 수 있습니다. 조회 필드를 사용하여 **교사** 엔터티의 데이터를 표시할 수 있습니다. 일반적으로 조회 필드라고 합니다.
@@ -136,7 +136,7 @@ ms.locfileid: "2757539"
 조회 필드가 포함된 엔터티에서 [자동으로 앱을 만들면](../canvas-apps/data-platform-create-app.md) 엔터티의 **기본 이름** 필드에 있는 데이터를 포함하는 **드롭다운** 컨트롤로 표시됩니다.
 
 ## <a name="add-1n-and-nn-relationships-for-canvas-apps"></a>캔버스 앱에 대해 1:N 및 N:N 관계 추가
-**관계** 함수를 사용하여 Common Data Service에서 일대다 또는 다대다 관계를 통해 두 레코드를 연결합니다. 추가 정보: [PowerApps의 관계 및 관계 해제 함수](../canvas-apps/functions/function-relate-unrelate.md)
+**관계** 함수를 사용하여 Common Data Service에서 일대다 또는 다대다 관계를 통해 두 레코드를 연결합니다. 추가 정보: [Power Apps의 관계 및 관계 해제 함수](../canvas-apps/functions/function-relate-unrelate.md)
 
 ## <a name="next-steps"></a>다음 단계
 * [Common Data Service 데이터베이스를 사용하여 앱 생성](../canvas-apps/data-platform-create-app.md)

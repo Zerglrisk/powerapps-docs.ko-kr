@@ -15,18 +15,18 @@ author: Aneesmsft
 ms.author: matp
 manager: kvivek
 tags:
-- PowerApps maker portal impact
+- Power Apps maker portal impact
 search.audienceType:
 - maker
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: eaa02abdc4c85d4d6abd5e5ca3afe176144c4027
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: d711a46676003786363f3496515dbd387024dadb
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2701538"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2860677"
 ---
 # <a name="add-configure-move-or-delete-fields-on-a-form"></a>양식의 필드 추가, 구성, 이동 또는 삭제  
 양식 디자이너를 사용하여 필드를 추가, 구성, 이동 또는 삭제합니다.
@@ -123,7 +123,7 @@ ms.locfileid: "2701538"
 5. **새 필드** 대화 상자에서 **데이터 형식**을 선택하고 필드의 다른 필수 속성을 구성하십시오.
 
      > [!NOTE]
-     >   -  양식 디자이너 내에서 필드를 만들면 일부 필드 유형을 사용할 수 없습니다. 원하는 필드 유형을 사용할 수 없는 경우 [PowerApps 포털을 사용하여 Common Data Service의 필드 만들기 및 편집](../common-data-service/create-edit-field-portal.md)에 설명된 단계를 수행할 수 있습니다.
+     >   -  양식 디자이너 내에서 필드를 만들면 일부 필드 유형을 사용할 수 없습니다. 원하는 필드 유형을 사용할 수 없는 경우 [Power Apps 포털을 사용하여 Common Data Service의 필드 만들기 및 편집](../common-data-service/create-edit-field-portal.md)에 설명된 단계를 수행할 수 있습니다.
 
 6. **완료**를 선택하여 엔터티에 새 필드를 만듭니다. **필드** 창에 필드가 나타납니다.
 7. 새로 만든 필드를 양식에 추가하려면 [**양식에 필드 추가**](add-move-or-delete-fields-on-form.md#add-fields-to-a-form) 섹션에 설명된 단계를 수행하십시오.

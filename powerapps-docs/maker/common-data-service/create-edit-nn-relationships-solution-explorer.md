@@ -20,20 +20,20 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 68b64d5ec7c7f81352a2b9733310d2ec5e51d9c1
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 8c5239874449772922ec9fa89ece7d2b3a5d7f06
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2757803"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2861346"
 ---
 # <a name="create-nn-many-to-many-entity-relationships-in-common-data-service-using-solution-explorer"></a>솔루션 탐색기를 사용하여 Common Data Service에서 N:N(다대다) 엔터티 관계 만들기
 
 솔루션 탐색기를 통해 Common Data Service의 N:N(다대다)를 만들고 편집할 수 있습니다.
 
-[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. 추가 정보:
+[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)을 사용하면 가장 일반적인 옵션을 구성할 수 있지만 특정 옵션은 솔루션 탐색기를 사용하여 설정할 수 있습니다. 추가 정보:
 - [다대다(N:N) 엔터티 관계 만들기](create-edit-nn-relationships.md)
-- [PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)
+- [Power Apps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)
 
   
 ## <a name="open-solution-explorer"></a>솔루션 탐색기를 엽니다.
@@ -112,5 +112,5 @@ ms.locfileid: "2757803"
 ### <a name="see-also"></a>참조
 
 [다대다(N:N) 엔터티 관계 만들기](create-edit-nn-relationships.md)<br />
-[PowerApps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)<br />
+[Power Apps 포털을 사용하여 Common Data Service에서 다대다 엔터티 관계 만들기](create-edit-nn-relationships-portal.md)<br />
 [1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships.md)

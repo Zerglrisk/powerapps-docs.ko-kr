@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 개요 | MicrosoftDocs
+title: Power Apps에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 개요 | MicrosoftDocs
 description: 1:N(일대다) 또는 N:1(다대일) 엔터티 관계를 만드는 방법 알아보기
 ms.custom: ''
 ms.date: 05/27/2018
@@ -23,12 +23,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 724a887df3a5347f1d403ac30201297abf5201aa
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 07e173dff08a10de5354c08d3530605f530e512d
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758199"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2866142"
 ---
 # <a name="create-one-to-many-or-many-to-one-entity-relationships-overview"></a>1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 개요
 
@@ -40,7 +40,7 @@ Common Data Service에서 1:N(일대다) 또는 N:1(다대일) 관계는 두 엔
 
 |디자이너| 설명|
 |--|--|
-|[PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [PowerApps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)|
+|[Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)|쉽게 간소화된 환경을 제공하지만 일부 특수 설정은 사용할 수 없습니다.<br />추가 정보: [Power Apps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)|
 |솔루션 탐색기|쉽지 않지만 덜 일반적인 요구 사항에 대한 더 많은 유연성을 제공합니다. <br />추가 정보: [솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-solution-explorer.md) |
 
 > [!NOTE]
@@ -53,7 +53,7 @@ Common Data Service에서 1:N(일대다) 또는 N:1(다대일) 관계는 두 엔
 
 이 항목의 정보는 사용할 수 있는 디자이너를 선택하는 데 도움이 됩니다. 
 
-다음 요구 사항 중 하나를 해결해야 하는 경우가 아니면 PowerApps 포털을 사용하여 1: N(일대다) 또는 N:1(다대일) 엔터티 관계를 만들고 편집해야 합니다.
+다음 요구 사항 중 하나를 해결해야 하는 경우가 아니면 Power Apps 포털을 사용하여 1: N(일대다) 또는 N:1(다대일) 엔터티 관계를 만들고 편집해야 합니다.
 
 - 필드 매핑 구성
 - 모델 기반 앱에 대한 탐색 창 옵션 구성
@@ -72,7 +72,7 @@ Common Data Service에서 1:N(일대다) 또는 N:1(다대일) 관계는 두 엔
 ### <a name="see-also"></a>참조
 
 [엔터티 간 관계 만들기 및 편집](create-edit-entity-relationships.md)<br />
-[PowerApps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)<br />
+[Power Apps 포털에서 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-portal.md)<br />
 [솔루션 탐색기를 사용하여 1:N(일대다) 또는 N:1(다대일) 엔터티 관계 만들기 및 편집](create-edit-1n-relationships-solution-explorer.md)<br />
 [개발자 설명서: 엔터티 관계 메타데이터 사용자 지정](/dynamics365/customer-engagement/developer/customize-entity-relationship-metadata)<br />
 [개발자 설명서: 엔터티 관계 자격](/dynamics365/customer-engagement/developer/entity-relationship-eligibility)

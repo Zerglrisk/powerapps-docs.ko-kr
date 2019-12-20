@@ -22,16 +22,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 3db46288b0f1fc384cae8c683648d1dd0a945d44
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 81b20a326be239445422cce51a54b2e0b991d5c4
+ms.sourcegitcommit: a7f2313a048d3b8a03516a2e4c349f3fb08f4a22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2710866"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "2805700"
 ---
-# <a name="add-the-team-entity-as-a-lookup-option-in-your-app"></a>앱에서 팀 엔터티를 조회 옵션으로 추가
+# <a name="add-an-entity-as-a-lookup-option-in-your-app"></a>앱에서 엔터티를 조회 옵션으로 추가
 
-통합 인터페이스 앱을 사용하여 팀 엔터티를 조회할 수 있으려면 앱에 추가해야 합니다. 예를 들어, 연락처 레코드는 사용자 또는 팀에 할당할 수 있습니다.  
+통합 인터페이스 앱을 사용하여 엔터티를 조회하려면 엔터티를 앱에 추가해야 합니다. 예를 들어, 연락처 레코드는 사용자 또는 팀에 할당할 수 있습니다.  
 
 > [!div class="mx-imgBorder"] 
 > ![](media/entity-lookup-teams.png "Entity lookup with both users and teams available")

@@ -1,5 +1,5 @@
 ---
-title: PowerApps에서 모델 기반 앱 기본 양식의 빠른 보기 컨트롤 속성 | MicrosoftDocs
+title: Power Apps에서 모델 기반 앱 기본 양식의 빠른 보기 컨트롤 속성 | MicrosoftDocs
 description: 기본 양식의 빠른 보기 컨트롤 속성 이해
 Keywords: 빠른 보기 컨트롤 속성; Dynamics 365; 기본 양식
 author: Mattp123
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: b2d4a8f55bf9b6f3e54f948ad16be36fdecb6d20
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 549728e2fb100f927de6660dd5fc5d5aa0da4f68
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2755098"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2873689"
 ---
 # <a name="model-driven-app-quick-view-control-properties"></a>모델 기반 앱 빠른 보기 컨트롤 속성
 
@@ -32,8 +32,8 @@ ms.locfileid: "2755098"
 > [!div class="mx-imgBorder"] 
 > ![거래처 양식의 연락처 빠른 보기 양식](media/quick-view-form-contact.png "거래처 양식의 연락처 빠른 보기 양식")  
 
-PowerApps 사이트에서 **빠른 보기 컨트롤 속성**에 액세스할 수 있습니다. 
-1.  [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
+Power Apps 사이트에서 **빠른 보기 컨트롤 속성**에 액세스할 수 있습니다. 
+1.  [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.  
 
 
 2.  **데이터**를 확장하고 **엔터티**를 선택하고 원하는 엔터티를 선택한 다음 **양식** 탭을 선택합니다. 

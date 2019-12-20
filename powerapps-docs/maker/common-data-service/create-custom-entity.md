@@ -1,6 +1,6 @@
 ---
-title: PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기 | Microsoft Docs
-description: PowerApps 앱에서 사용할 엔터티를 만들고 구성하기 위한 단계별 지침이 포함된 항목입니다.
+title: Power Apps에서 구성 요소가 있는 사용자 지정 엔터티 만들기 | Microsoft Docs
+description: Power Apps 앱에서 사용할 엔터티를 만들고 구성하기 위한 단계별 지침이 포함된 항목입니다.
 author: Mattp123
 manager: kvivek
 ms.service: powerapps
@@ -13,16 +13,16 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 436e4f03a38efc3d61a0d4fb9f027ae6eff1c931
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: 864bc9c8cfad92bac661db0b12b47d880cc86edf
+ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2754834"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883799"
 ---
-# <a name="create-a-custom-entity-that-has-components-in-powerapps"></a>PowerApps에서 구성 요소가 있는 사용자 지정 엔터티 만들기
+# <a name="create-a-custom-entity-that-has-components-in-power-apps"></a>Power Apps에서 구성 요소가 있는 사용자 지정 엔터티 만들기
 
-PowerApps에서 조직의 산업, 용어, 고유한 비즈니스 프로세스에 더 밀접하게 앱을 사용자 지정할 수 있습니다. PowerApps 앱 개발에는 표준 "기본 제공" 엔터티 추가 또는 사용자 지정 엔터티 만들기가 포함됩니다. 엔터티는 일반적으로 회사 이름, 위치, 제품, 전자 메일 및 전화와 같은 속성을 포함하는 레코드 형태로 추적하려는 정보를 정의합니다. 
+Power Apps에서 조직의 산업, 용어, 고유한 비즈니스 프로세스에 더 밀접하게 앱을 사용자 지정할 수 있습니다. Power Apps 앱 개발에는 표준 "기본 제공" 엔터티 추가 또는 사용자 지정 엔터티 만들기가 포함됩니다. 엔터티는 일반적으로 회사 이름, 위치, 제품, 전자 메일 및 전화와 같은 속성을 포함하는 레코드 형태로 추적하려는 정보를 정의합니다. 
 
 이 항목에서는 엔터티를 만든 다음 필드, 관계, 보기 및 양식과 같은 주요 구성 요소를 추가하거나 사용자 지정합니다. 다음 방법에 대해 설명합니다.
 
@@ -36,7 +36,7 @@ PowerApps에서 조직의 산업, 용어, 고유한 비즈니스 프로세스에
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
-[PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 아직 PowerApps 계정이 없는 경우 [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **무료 시작** 링크를 선택합니다.
+[Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다. 아직 Power Apps 계정이 없는 경우 [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에서 **무료 시작** 링크를 선택합니다.
 
 ## <a name="create-a-custom-entity"></a>사용자 지정 엔터티 만들기
 

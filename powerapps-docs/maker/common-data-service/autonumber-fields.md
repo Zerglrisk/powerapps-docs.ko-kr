@@ -22,18 +22,18 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: 5735e425dd0d19dd5e52603433d56cc37e897cd6
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: e4ffa1062d553e37776b1ff9a4625f7d80b4e46e
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2758396"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874283"
 ---
 # <a name="autonumber-fields"></a>자동 번호 매기기 필드
 
 자동 번호 매기기 필드는 만들 때마다 영숫자 문자열을 자동으로 생성하는 필드입니다. 제작자는 이러한 필드의 형식을 원하는 대로 사용자 지정하고 시스템을 사용하여 런타임에 자동으로 채우는 값을 생성할 수 있습니다.
 
-자동 번호 매기기 필드는 공식적으로 그 위에 추가 기능이 내장된 텍스트 필드이지만, [PowerApps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)는 단순히 **자동 번호 매기기**를 **텍스트** 범주 아래에 별개의 데이터 형식으로 노출하여 이 개념을 간소화합니다. [클래식 솔루션 탐색기](use-solution-explorer.md#classic-solution-explorer)가 자동 번호 매기기 필드 만들기 또는 관리를 지원하지 않는지 확인하는 것이 중요합니다.
+자동 번호 매기기 필드는 공식적으로 그 위에 추가 기능이 내장된 텍스트 필드이지만, [Power Apps](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)는 단순히 **자동 번호 매기기**를 **텍스트** 범주 아래에 별개의 데이터 형식으로 노출하여 이 개념을 간소화합니다. [클래식 솔루션 탐색기](use-solution-explorer.md#classic-solution-explorer)가 자동 번호 매기기 필드 만들기 또는 관리를 지원하지 않는지 확인하는 것이 중요합니다.
 
 자동 번호 매기기 필드를 만들려면 동일한 단계에 따라 [필드를 만들고](create-edit-field-portal.md#create-a-field) **데이터 형식** 드롭다운 목록 상자에서 **자동 번호 매기기**를 선택하기만 하면 됩니다. 
 
@@ -70,7 +70,7 @@ ms.locfileid: "2758396"
 
 ## <a name="create-an-autonumber-field"></a>자동 번호 매기기 필드 만들기
   
-1.  [PowerApps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
+1.  [Power Apps 포털](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc)에 로그인합니다.
   
 2.  왼쪽 창에서 **데이터**를 확장하고 **엔터티**를 선택합니다.
   
@@ -92,4 +92,4 @@ ms.locfileid: "2758396"
 9. **완료**를 선택합니다.
 
 ## <a name="see-also"></a>참조
- [PowerApps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)
+ [Power Apps포털을 사용하여 Common Data Service용 필드 만들기 및 편집](create-edit-field-portal.md)

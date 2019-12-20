@@ -1,5 +1,5 @@
 ---
-title: PowerApps의 모델 기반 앱 기본 양식에 대한 웹 리소스 속성 | MicrosoftDocs
+title: Power Apps의 모델 기반 앱 기본 양식에 대한 웹 리소스 속성 | MicrosoftDocs
 description: 기본 양식에 대한 웹 리소스 속성 이해
 Keywords: 기본 양식; 웹 리소스 속성; Dynamics 365
 author: Mattp123
@@ -18,12 +18,12 @@ search.audienceType:
 search.app:
 - PowerApps
 - D365CE
-ms.openlocfilehash: efc8f74806a464f4aa8b37df875e429ba92247b8
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 7784c70c2559aeecb5fabb7f44efdfc644f55b33
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2710162"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2867462"
 ---
 # <a name="web-resource-properties-for-model-driven-app-forms"></a>모델 기반 앱 양식에 대한 웹 리소스 속성
 

@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 11/04/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 47730a2ba169b89534fa93221290c5598a95a8e8
-ms.sourcegitcommit: d9cecdd5a35279d78aa1b6c9fc642e36a4e4612c
+ms.openlocfilehash: c92b664c2c40c6bb6354e2666d583d5c7ed7aead
+ms.sourcegitcommit: 861ba8e719fa16899d14e4a628f9087b47206993
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "2760705"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2874437"
 ---
 # <a name="add-record-based-security-by-using-entity-permissions-for-portals"></a>포털의 엔터티 권한을 사용하여 레코드 기반 보안 추가
 
@@ -30,9 +30,11 @@ ms.locfileid: "2760705"
 
 2. **포털** &gt; **웹 역할**로 이동하여 권한을 추가하려는 웹 역할을 엽니다. 
 
-3. 웹 역할에 기존 엔터티 권한을 추가하려면 **추가**를 선택합니다. 
+3. **관련 항목** 아래에서 **엔터티 권한**을 선택합니다.
 
-4. 새 엔터티 권한 레코드를 만들려면 **새로 만들기**를 선택합니다.
+4. 웹 역할에 기존 엔터티 권한을 추가하려면 **기존 엔터티 권한 추가**를 선택합니다. 
+
+4. 엔터티 권한을 찾거나 **새 엔터티 권한**을 선택하여 새 엔터티 권한 레코드를 만듭니다.
 
     ![웹 역할에 엔터티 권한 추가](../media/add-entity-permission-web-role.png "웹 역할에 엔터티 권한 추가")  
 
@@ -51,7 +53,7 @@ ms.locfileid: "2760705"
 
 엔터티 목록에서 필터는 현재 사용자에게 직접 연결된 레코드만 검색하는 목록에 의해 표시되는 모든 모델 기반 앱 보기에 추가될 것임을 의미합니다. (시나리오에 따라 이 관계는 소유권 또는 관리 권한으로 간주할 수 있습니다.)
 
-레코드를 로드할 때 이 관계가 존재하는 경우 엔터티 양식은 읽기, 만들기, 쓰기 등의 적합한 권한만을 허용합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [포털 내에서 엔터티 양식 및 사용자 지정 논리 정의](entity-forms.md).  
+레코드를 로드할 때 이 관계가 존재하는 경우 엔터티 양식은 읽기, 만들기, 쓰기 등의 적합한 권한만을 허용합니다. [!INCLUDE[proc-more-information](../../../includes/proc-more-information.md)] [엔터티 양식 정의](entity-forms.md).  
 
 ### <a name="account-scope"></a>계정 범위
 

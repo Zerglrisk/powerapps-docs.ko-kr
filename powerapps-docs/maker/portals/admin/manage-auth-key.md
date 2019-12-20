@@ -9,12 +9,12 @@ ms.custom: ''
 ms.date: 10/07/2019
 ms.author: shjais
 ms.reviewer: ''
-ms.openlocfilehash: 31632f4de1834855c696baa1b4b651ed777c8abd
-ms.sourcegitcommit: 8185f87dddf05ee256491feab9873e9143535e02
+ms.openlocfilehash: 82245371095e523ba9221fc43ce21564e0445103
+ms.sourcegitcommit: dd2a8a0362a8e1b64a1dac7b9f98d43da8d0bd87
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2709722"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2862671"
 ---
 # <a name="connect-to-a-common-data-service-environment-using-a-portal"></a>포털을 사용하여 Common Data Service 환경에 연결
 
@@ -24,7 +24,7 @@ ms.locfileid: "2709722"
 
 각 포털은 동일한 Common Data Service 환경에 연결되어 있는지 여부와 관계 없이 별도의 Azure Active Directory 응용 프로그램에 연결되어 있습니다. 포털에 대해 만들어진 기본 Azure Active Directory 인증 공급자는 동일한 Azure Active Directory 응용 프로그램을 사용하여 포털을 인증합니다. 인증은 포털에 액세스하는 사용자에게 할당된 웹 역할에 의해 적용됩니다.
 
-Azure Active Directory에서 연결된 포털 응용 프로그램을 볼 수 있습니다. 이 응용 프로그램의 이름은 Microsoft CRM 포털이 되며, 포털 ID는 Azure Active Directory 응용 프로그램의 **앱 ID URI** 필드에 있습니다. 포털을 프로비전하는 사람이 이 응용 프로그램을 소유합니다. 포털 기능이 손상될 수 있으므로 이 응용 프로그램을 삭제하거나 수정해서는 안 됩니다. PowerApps 포털 관리 센터에서 포털을 관리하려면 응용 프로그램 담당자여야 합니다.
+Azure Active Directory에서 연결된 포털 응용 프로그램을 볼 수 있습니다. 이 응용 프로그램의 이름은 Microsoft CRM 포털이 되며, 포털 ID는 Azure Active Directory 응용 프로그램의 **앱 ID URI** 필드에 있습니다. 포털을 프로비전하는 사람이 이 응용 프로그램을 소유합니다. 포털 기능이 손상될 수 있으므로 이 응용 프로그램을 삭제하거나 수정해서는 안 됩니다. Power Apps 포털 관리 센터에서 포털을 관리하려면 응용 프로그램 담당자여야 합니다.
 
 ## <a name="authentication-key"></a>인증 키
 
@@ -35,16 +35,16 @@ Azure Active Directory에서 연결된 포털 응용 프로그램을 볼 수 있
 
 ### <a name="authentication-key-details"></a>인증 키 세부 정보
 
-인증 키의 세부 정보는 PowerApps 포털 관리 센터 및 포털에 표시됩니다.
+인증 키의 세부 정보는 Power Apps 포털 관리 센터 및 포털에 표시됩니다.
 
-**PowerApps 포털 관리 센터**
+**Power Apps 포털 관리 센터**
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 인증 키 관리**를 선택합니다. 인증 키가 만료 날짜 및 지문과 함께 표시됩니다.
 
    > [!div class=mx-imgBorder]
-   > ![PowerApps 포털 관리 센터의 인증 키 세부 정보](../media/manage-auth-key.png "PowerApps 포털 관리 센터의 인증 키 세부 정보")
+   > ![Power Apps 포털 관리 센터의 인증 키 세부 정보](../media/manage-auth-key.png "Power Apps 포털 관리 센터의 인증 키 세부 정보")
 
 **포털**
 
@@ -60,7 +60,7 @@ Azure Active Directory에서 연결된 포털 응용 프로그램을 볼 수 있
 
 ### <a name="authentication-key-expiration-notification"></a>인증 키 만료 알림
 
-인증 키가 만료되기 전에 이메일, PowerApps 포털 관리 센터 및 포털로 통보됩니다.
+인증 키가 만료되기 전에 이메일, Power Apps 포털 관리 센터 및 포털로 통보됩니다.
 
 **Email**
 
@@ -88,12 +88,12 @@ Azure Active Directory에서 연결된 포털 응용 프로그램을 볼 수 있
 > - 간격은 키 만료 날짜에서 UTC로 계산됩니다.
 > - 이메일이 위에 나열된 간격으로 정확하게 보내지지는 않습니다. 이메일 알림은 지연되거나 누락될 수 있습니다. 또한 온라인에서 중요한 만료 날짜를 확인하십시오.
 
-**PowerApps 포털 관리 센터**
+**Power Apps 포털 관리 센터**
 
 키 만료에 대한 메시지가 페이지 맨 위에 표시됩니다.
 
 > [!div class=mx-imgBorder]
-> ![PowerApps 포털 관리 센터의 인증 키 알림](../media/portal-admin-center-auth-notif.png "PowerApps 포털 관리 센터의 인증 키 알림")
+> ![Power Apps 포털 관리 센터의 인증 키 알림](../media/portal-admin-center-auth-notif.png "Power Apps 포털 관리 센터의 인증 키 알림")
 
 **포털**
 
@@ -112,7 +112,7 @@ Azure Active Directory에서 연결된 포털 응용 프로그램을 볼 수 있
 > [!NOTE]
 > 키를 갱신하려면 포털을 관리할 수 있는 권한이 있어야 합니다.
 
-1. [PowerApps 포털 관리 센터](admin-overview.md)를 엽니다.
+1. [Power Apps 포털 관리 센터](admin-overview.md)를 엽니다.
 
 2. **포털 인증 키 관리**를 선택합니다. 인증 키가 만료 날짜 및 지문과 함께 표시됩니다.
 
