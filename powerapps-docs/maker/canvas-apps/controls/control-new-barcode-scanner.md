@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c7c3079ebbdeea0097f50acc2ce7f5d4e4089947
-ms.sourcegitcommit: 8e42a5996799d9831f8c5a52b0b051a6088d9ce7
+ms.openlocfilehash: c83e713a5f29198779b0b9b8968bb38b98bc2a5a
+ms.sourcegitcommit: 212bd841595db0d6f41002f7ff9a1c8eb33a0724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73650413"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75203999"
 ---
 # <a name="barcode-scanner-control-for-canvas-apps"></a>Canvas 앱에 대 한 바코드 스캐너 컨트롤
 
@@ -27,17 +27,6 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 ## <a name="description"></a>설명
 
 컨트롤은 Android 또는 iOS 장치에서 네이티브 스캐너를 엽니다. 스캐너는 보기에서 바코드, QR 코드 또는 데이터 행렬 코드를 자동으로 검색 합니다. 컨트롤은 웹 브라우저에서 검색을 지원 하지 않습니다.
-
-컨트롤은 QR 코드, 데이터 행렬 코드 및 이러한 종류의 바코드를 지원 합니다.
-
-- UPC
-- UPC E
-- E 8
-- E 13
-- 코드 39
-- 코드 128
-- ITF
-- PDF 417
 
 ## <a name="key-properties"></a>주요 속성
 
@@ -48,6 +37,8 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 **Onscan** – 바코드가 성공적으로 검색 될 때 앱이 응답 하는 방식입니다.
 
 ## <a name="additional-properties"></a>추가 속성
+
+**BarcodeType** -스캔할 바코드 유형입니다. 여러 바코드 유형을 연결 하 여 대상으로 지정할 수 있습니다. 고급. BarcodeType Code128 & BarcodeType. Code39 **기본값: Auto**
 
 **[BorderColor](properties-color-border.md)** - 컨트롤의 테두리 색입니다.
 
@@ -82,3 +73,26 @@ Android 또는 iOS 장치에서 바코드, QR 코드 및 데이터 행렬 코드
 * 바코드 스캐너는 스캔 결과를 표시 하지 않는 단추입니다. **[레이블](control-text-box.md)** 컨트롤을 사용 하 여 검사 결과를 표시 하는 것이 좋습니다. 레이블의 **[Text](properties-core.md)** 속성을 바코드 스캐너의 **Value** 속성으로 설정 합니다. 화면 판독기 사용자에 게 변경 내용을 알릴 수 있도록 레이블의 **[라이브](properties-accessibility.md)** 속성을 **처리 완료 후** 로 설정 합니다. 이렇게 변경 하면 시각적 기능에 관계 없이 모든 사용자가 검색 된 값에 액세스할 수 있습니다.
 
 * 시각적 및 화물 장애가 있는 사용자는 바코드에서 카메라를 가리키지 않는 것이 좋습니다. 사용자가 바코드를 입력할 수 있도록 **[텍스트 입력](control-text-input.md)** 컨트롤과 같은 다른 형식의 입력을 추가 하는 것이 좋습니다.
+
+## <a name="barcode-availability-by-device"></a>장치별 바코드 가용성
+
+| 바코드 종류 | Android | iOS |
+|--------------|:-------:|:---:|
+|QR_CODE|✔|✔|
+|DATA_MATRIX|✔|✔|
+|UPC_A|✔|✔|
+|UPC_E|✔|✔|
+|EAN_8|✔|✔|
+|EAN_13|✔|✔|
+|CODE_39|✔|✔|
+|CODE_93|✔|✔|
+|CODE_128|✔|✔|
+|CODABAR|✔|✖|
+|ITF|✔|✔|
+|RSS14|✔|✖|
+|PDF_417|✔|✔|
+|RSS_EXPANDED|✔|✖|
+|I|✖|✖|
+|족|✔|✔|
+
+**참고:** PDF_417 및 아즈텍은 Auto 모드에서 지원 되지 않습니다.

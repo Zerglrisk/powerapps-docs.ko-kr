@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: abbe0165041aa3fa496bae480fa1235d9c0b159c
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: f5288e6a8ee655cf24479a7de3a5904b7f1a4e07
+ms.sourcegitcommit: 212bd841595db0d6f41002f7ff9a1c8eb33a0724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74727658"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75204045"
 ---
 # <a name="attachments-control-in-power-apps"></a>Power Apps의 첨부 파일 컨트롤
 사용자가 장치에 파일을 다운로드 하 고 SharePoint 목록 또는 Common Data Service 엔터티에서 파일을 업로드 및 삭제할 수 있도록 하는 컨트롤입니다.
@@ -92,7 +92,7 @@ ms.locfileid: "74727658"
 
     SharePoint 목록과 연결된 첨부 파일 필드가 양식에 표시됩니다.
 
-[컨트롤을 추가하고 구성하는 방법을 알아봅니다].(../add-configure-controls.md)
+[컨트롤을 추가 하 고 구성 하는 방법을 알아봅니다.](../add-configure-controls.md)
 
 
 ## <a name="accessibility-guidelines"></a>접근성 지침

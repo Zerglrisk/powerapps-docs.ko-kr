@@ -13,18 +13,21 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: c9d3594ecf338c6cfa93786f56a09606b2de6296
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: 00c13a3b57cce0f7c8831b0932f7e17bbb32efe7
+ms.sourcegitcommit: 212bd841595db0d6f41002f7ff9a1c8eb33a0724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74732008"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75203953"
 ---
 # <a name="microsoft-stream-video-control-in-power-apps"></a>Power Apps의 Microsoft Stream 비디오 컨트롤
 비디오 및 채널을 Microsoft Stream 비디오 플레이어입니다.
 
 ## <a name="description"></a>설명
 이 컨트롤을 사용 하면 앱 사용자가 비디오를 재생 하 고 Microsoft Stream 서비스에서 채널을 탐색할 수 있습니다.
+
+## <a name="limitations"></a>제한 사항
+이 컨트롤은 현재 Power Apps의 네이티브 Windows 플레이어에서 지원 되지 않습니다.  Android 및 iOS Power Apps 플레이어 뿐만 아니라 웹 브라우저 에서도 정상적으로 작동 합니다.
 
 ## <a name="key-properties"></a>주요 속성
 **Streamurl** – 컨트롤에 표시할 Microsoft Stream 비디오 또는 채널의 URL입니다.
@@ -87,7 +90,7 @@ ms.locfileid: "74732008"
 
 ## <a name="browser-considerations"></a>브라우저 고려 사항
 
-### <a name="ios"></a>Io
+### <a name="ios"></a>iOS
 Power Apps iOS 플레이어는 앱에 포함 된 비디오의 직접 재생을 지원 하지 않습니다.  비디오를 시청 하려면 스트림 아이콘을 클릭 하 여 비디오 플레이어를 전체 화면 모드로 시작 합니다.
 
 ### <a name="safari"></a>Safari

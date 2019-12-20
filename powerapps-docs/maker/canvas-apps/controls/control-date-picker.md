@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: d34e5d128f6a38c430432f8acfcc40edaa80c034
-ms.sourcegitcommit: 6b27eae6dd8a53f224a8dc7d0aa00e334d6fed15
+ms.openlocfilehash: ae11f42fef927509461d8219b8df4134a633ae5d
+ms.sourcegitcommit: 212bd841595db0d6f41002f7ff9a1c8eb33a0724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74727269"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75204022"
 ---
 # <a name="date-picker-control-in-power-apps"></a>Power Apps의 날짜 선택 컨트롤
 사용자가 날짜를 지정하기 위해 클릭 또는 탭할 수 있는 컨트롤입니다.
@@ -91,6 +91,8 @@ ms.locfileid: "74727269"
 
 **[Size](properties-text.md)** -컨트롤에 표시되는 텍스트의 글꼴 크기입니다.
 
+**StartOfWeek** – 날짜 선택 컨트롤의 첫 번째 날 열에 표시 되는 요일입니다.
+
 **StartYear** – 사용자가 날짜 선택기 컨트롤의 값을 설정할 수 있는 가장 이른 연도입니다.
 
 **[TabIndex](properties-accessibility.md)** – 다른 컨트롤에 관련된 키보드 탐색 순서입니다.
@@ -104,7 +106,7 @@ ms.locfileid: "74727269"
 **[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
-**[Year](../functions/function-datetime-parts.md)** ( *DateTimeValue* )
+**[Year](../functions/function-datetime-parts.md)**( *DateTimeValue* )
 
 ## <a name="example"></a>예
 1. **날짜 선택기** 컨트롤을 추가하고 이름을 **Deadline**으로 지정합니다.

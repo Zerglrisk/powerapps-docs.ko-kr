@@ -13,17 +13,17 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 569792d634916ce32a54404580fb58d43bf4f24d
-ms.sourcegitcommit: d4462233c8973def0bcc4e75019390d92eccf684
+ms.openlocfilehash: ed59b379b55a38a1e5a3454d26d07ae93d106e4f
+ms.sourcegitcommit: 212bd841595db0d6f41002f7ff9a1c8eb33a0724
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831332"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75204114"
 ---
 # <a name="system-requirements-limits-and-configuration-values-for-canvas-apps"></a>캔버스 앱의 시스템 요구 사항, 제한 및 구성 값
-이 항목에는 장치 플랫폼 및 웹 브라우저 요구 사항 뿐만 아니라 전원 앱에 대 한 제한 및 구성 값이 포함 되어 있습니다.
+이 항목에는 canvas 앱에 대 한 제한 및 구성 값 뿐만 아니라 장치 플랫폼 및 웹 브라우저 요구 사항이 포함 되어 있습니다.
 
-## <a name="supported-platforms-for-running-canvas-apps-using-the-power-apps-app"></a>Power Apps 앱을 사용 하 여 캔버스 앱을 실행 하는 데 지원 되는 플랫폼
+## <a name="supported-platforms-for-running-canvas-apps-using-the-power-apps-mobile-app"></a>Power Apps 모바일 앱을 사용 하 여 캔버스 앱을 실행 하는 데 지원 되는 플랫폼
 
 | **필요한 최소 사항** | **권장** |
 | --- | --- |
@@ -32,7 +32,7 @@ ms.locfileid: "74831332"
 | Windows 8.1 이상(PC만 해당) |최소 8GB의 RAM이 있는 Windows 10 Fall Creators Update|
 
 > [!NOTE]
-> 현재는 Power Apps 용 Windows 플랫폼 앱에서 새로운 기능을 지원 하지 않습니다. 이 플랫폼에서는 향상 된 Common Data Service 옵션 및 게스트 액세스와 같은 기능을 사용할 수 없습니다. Windows에서 웹 플레이어를 사용 하 여 전체 기능 집합을 활용 하는 것이 좋습니다. Windows 플랫폼용 Power Apps 앱에 대 한 업데이트는 나중에 발표 될 예정입니다.
+> 현재는 Power Apps 용 Windows 플랫폼 [모바일 앱](/powerapps/user/run-app-client)에서 새 기능을 지원 하지 않습니다. 이 플랫폼에서는 향상 된 Common Data Service 옵션 및 게스트 액세스와 같은 기능을 사용할 수 없습니다. Windows에서 웹 플레이어를 사용 하 여 전체 기능 집합을 활용 하는 것이 좋습니다. Windows 플랫폼용 Power Apps 모바일 앱에 대 한 업데이트는 나중에 발표 될 예정입니다.
 
 ## <a name="supported-browsers-for-running-canvas-apps"></a>캔버스 앱 실행에 지원되는 브라우저
 
@@ -75,7 +75,7 @@ Power Apps의 요청은 앱이 있는 [환경의](../../administrator/environmen
 
 | Region | 아웃바운드 IP |
 | --- | --- |
-| Asia | 13.75.36.64 - 13.75.36.79, 13.67.8.240 - 13.67.8.255, 52.175.23.169, 52.187.68.19 |
+| 아시아 | 13.75.36.64 - 13.75.36.79, 13.67.8.240 - 13.67.8.255, 52.175.23.169, 52.187.68.19 |
 | 오스트레일리아  | 13.70.72.192 - 13.70.72.207, 13.72.243.10, 13.77.50.240 - 13.77.50.255, 13.70.136.174 |
 | 브라질 | 191.233.203.192 - 191.233.203.207, 104.214.19.48 - 104.214.19.63, 13.65.86.57, 104.41.59.51 |
 | 캐나다 | 13.71.170.208 - 13.71.170.223, 13.71.170.224 - 13.71.170.239, 52.237.24.126, 40.69.106.240 - 40.69.106.255, 52.242.35.152|
@@ -100,16 +100,16 @@ Power Apps의 요청은 앱이 있는 [환경의](../../administrator/environmen
 | \*azure-apim.net |https |API 허브 - 각 로캘에 대해 다른 하위 도메인 |
 | \*powerapps.com |https | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
 | \*azureedge.net |https | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
-| \*.blob.core.windows.net |https | Blob 스토리지 |
+| \*blob.core.windows.net |https | Blob 저장소 |
 | \*flow.microsoft.com | https | create.powerapps.com, make.powerapps.com, content.powerapps.com 및 make.powerapps.com |
 | *. dynamics.com | https | Common Data Service |
-| vortex.data.microsoft.com |https |원격 분석 |
-| localhost | https | Power Apps Mobile
+| vortex.data.microsoft.com |https |분석이 |
+| localhost | https | Power Apps 모바일
 
 > [!NOTE]
 > VPN을 사용 하는 경우 Power Apps Mobile에 대해 터널링에서 localhost를 제외 하도록 구성 해야 합니다.
 
-## <a name="size-limits"></a>크기 한도
+## <a name="size-limits"></a>크기 제한
 
 텍스트, 하이퍼링크, 이미지 및 미디어의 [데이터 형식](functions/data-types.md#text-hyperlink-image-and-media)에 대 한 크기 제한에 대 한 정보를 찾을 수 있습니다.
 
