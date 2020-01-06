@@ -13,12 +13,12 @@ search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: ae11f42fef927509461d8219b8df4134a633ae5d
-ms.sourcegitcommit: 212bd841595db0d6f41002f7ff9a1c8eb33a0724
+ms.openlocfilehash: 3275c93aea5492384727701d1074982a345fae67
+ms.sourcegitcommit: fa88889cd109651d403ab03287b7f0521bb90e02
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75204022"
+ms.lasthandoff: 12/21/2019
+ms.locfileid: "75324945"
 ---
 # <a name="date-picker-control-in-power-apps"></a>Power Apps의 날짜 선택 컨트롤
 사용자가 날짜를 지정하기 위해 클릭 또는 탭할 수 있는 컨트롤입니다.
@@ -31,7 +31,7 @@ ms.locfileid: "75204022"
 
 **SelectedDate** -날짜 컨트롤에서 현재 선택한 날짜입니다.  이 날짜는 현지 시간으로 표시 됩니다.
 
-**Format** - 컨트롤이 날짜를 표시하고 사용자가 날짜를 지정하는 텍스트 형식입니다. 이 속성을 **ShortDate**(기본값) 또는 **LongDate**로 설정하여 이 컨트롤의 **날짜** 속성에 따라 날짜 형식을 지정할 수 있습니다. 또한, 언어와 상관없이 동일한 형식을 원하는 경우 이 속성을 표현식(예: **yyyy/mm/dd**)으로 설정할 수도 있습니다. 예:
+**Format** - 컨트롤이 날짜를 표시하고 사용자가 날짜를 지정하는 텍스트 형식입니다. 이 속성을 **ShortDate**(기본값) 또는 **LongDate**로 설정하여 이 컨트롤의 **날짜** 속성에 따라 날짜 형식을 지정할 수 있습니다. 또한, 언어와 상관없이 동일한 형식을 원하는 경우 이 속성을 표현식(예: **yyyy/mm/dd**)으로 설정할 수도 있습니다. 예제:
 
 * 이 컨트롤은 사용자가 2017의 마지막 날을 클릭하거나 누르고, **Format** 형식이 **ShortDate**로 설정되어 있고 **Language** 속성이 **en-us**로 설정되어 있는 경우 **12/31/2017**을 표시합니다.
 * 이 컨트롤은 사용자가 2017의 마지막 날을 클릭하거나 누르고, **Format** 형식이 **LongDate**로 설정되어 있고 **Language** 속성이 **fr-fr**로 설정되어 있는 경우 **dimanche 31 decembre 2017**을 표시합니다.
@@ -48,6 +48,8 @@ ms.locfileid: "75204022"
 **[BorderThickness](properties-color-border.md)** - 컨트롤의 테두리 굵기입니다.
 
 **[Color](properties-color-border.md)** – 컨트롤의 텍스트 색입니다.
+
+**DateTimeZone** – 날짜를 **UTC** 로 표시할지 아니면 사용자의 **현지** 시간으로 표시할지를 지정 합니다.
 
 **[DisplayMode](properties-core.md)** – 컨트롤이 사용자 입력을 허용(편집)하거나, 데이터만 표시(보기)하거나 사용 안 하도록(사용 안 함) 설정할지 선택합니다.
 
@@ -76,6 +78,8 @@ ms.locfileid: "75204022"
 **IconBackground** – 날짜 선택기 아이콘의 배경색입니다.
 
 **Inputtextplaceholder** – 날짜를 입력 하지 않은 경우 표시 되는 지침 텍스트입니다.
+
+**IsEditable** – datepicker 텍스트를 편집할 수 있는지 여부를 지정 합니다. False 이면 날짜만 달력을 사용 하 여 변경할 수 있습니다.
 
 **[Italic](properties-text.md)** - 컨트롤의 텍스트를 기울임꼴로 설정할지 여부를 선택합니다.
 
@@ -106,7 +110,7 @@ ms.locfileid: "75204022"
 **[Y](properties-size-location.md)** – 컨트롤의 상단 가장자리와 해당 부모 컨테이너(부모 컨테이너가 없는 경우 화면)의 상단 가장자리 사이의 거리입니다.
 
 ## <a name="related-functions"></a>관련된 함수
-**[Year](../functions/function-datetime-parts.md)**( *DateTimeValue* )
+**[Year](../functions/function-datetime-parts.md)** ( *DateTimeValue* )
 
 ## <a name="example"></a>예
 1. **날짜 선택기** 컨트롤을 추가하고 이름을 **Deadline**으로 지정합니다.
