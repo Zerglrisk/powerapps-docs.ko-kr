@@ -1,4 +1,4 @@
-- name: 시작하기
+- name: 시작
   items:
     - name: Power Apps란?
       href: ../powerapps-overview.md
@@ -174,7 +174,7 @@
               href: ./canvas-apps/connections-list.md
             - name: 가장 많이 사용되는 커넥터
               items:
-                - name: 일반 데이터 서비스
+                - name: Common Data Service
                   href: canvas-apps/connections/connection-common-data-service.md
                 - name: 클라우드 스토리지
                   href: canvas-apps/connections/cloud-storage-blob-connections.md
@@ -478,7 +478,7 @@
                   href: ./canvas-apps/functions/data-types.md
                 - name: DataSourceInfo
                   href: ./canvas-apps/functions/function-datasourceinfo.md
-                - name: Date
+                - name: 날짜
                   href: ./canvas-apps/functions/function-date-time.md
                 - name: DateAdd
                   href: ./canvas-apps/functions/function-dateadd-datediff.md
@@ -554,7 +554,7 @@
                   href: ./canvas-apps/functions/function-json.md
                 - name: 언어
                   href: ./canvas-apps/functions/function-language.md
-                - name: Last
+                - name: 마지막
                   href: ./canvas-apps/functions/function-first-last.md
                 - name: LastN
                   href: ./canvas-apps/functions/function-first-last.md
@@ -568,7 +568,7 @@
                   href: ./canvas-apps/functions/function-numericals.md
                 - name: LoadData
                   href: ./canvas-apps/functions/function-savedata-loaddata.md
-                - name: Location
+                - name: 위치
                   href: ./canvas-apps/functions/signals.md
                 - name: LookUp
                   href: ./canvas-apps/functions/function-filter-lookup.md
@@ -588,7 +588,7 @@
                   href: ./canvas-apps/functions/function-datetime-parts.md
                 - name: Mod
                   href: ./canvas-apps/functions/function-mod.md
-                - name: Month
+                - name: 월
                   href: ./canvas-apps/functions/function-datetime-parts.md
                 - name: Navigate
                   href: ./canvas-apps/functions/function-navigate.md
@@ -656,7 +656,7 @@
                   href: ./canvas-apps/functions/function-datetime-parts.md
                 - name: Select
                   href: ./canvas-apps/functions/function-select.md
-                - name: 설정
+                - name: Set
                   href: ./canvas-apps/functions/function-set.md
                 - name: SetFocus
                   href: ./canvas-apps/functions/function-setfocus.md
@@ -704,7 +704,7 @@
                   href: ./canvas-apps/functions/function-trim.md
                 - name: TrimEnds
                   href: ./canvas-apps/functions/function-trim.md
-                - name: Ungroup
+                - name: 그룹 해제
                   href: ./canvas-apps/functions/function-groupby.md
                 - name: Unrelate
                   href: ./canvas-apps/functions/function-relate-unrelate.md
@@ -728,9 +728,9 @@
                   href: ./canvas-apps/functions/function-form.md
                 - name: Weekday
                   href: ./canvas-apps/functions/function-datetime-parts.md
-                - name: 사용
+                - name: 사용 항목
                   href: ./canvas-apps/functions/function-with.md
-                - name: 년
+                - name: Year
                   href: ./canvas-apps/functions/function-datetime-parts.md
         - name: 솔루션에서 앱 만들기
           href: ./canvas-apps/add-app-solution.md
@@ -995,7 +995,7 @@
                   href: ./model-driven-apps/create-edit-views-app-designer.md
                 - name: 보기에서 열 선택 및 구성
                   href: ./model-driven-apps/choose-and-configure-columns.md
-                - name: '방법 가이드: 뷰'
+                - name: '방법 가이드: 보기'
                   items:
                     - name: 그리드를 편집 가능하게 만드는 방법
                       href: ./model-driven-apps/make-grids-lists-editable-custom-control.md
@@ -1028,6 +1028,10 @@
               items:
                 - name: 메모 컨트롤 설정
                   href: ./model-driven-apps/notes-control-legacy.md
+                - name: 타임라인 컨트롤 설정
+                  href: ./model-driven-apps/set-up-timeline-control.md
+                - name: 타임라인 컨트롤 FAQ
+                  href: ./model-driven-apps/faqs-timeline-control.md
                 - name: 빠른 보기 컨트롤 속성
                   href: ./model-driven-apps/quick-view-control-properties-legacy.md
                 - name: 휴대폰 및 태블릿용 Dynamics 365에 대한 추가 컨트롤
@@ -1102,7 +1106,7 @@
       href: ./model-driven-apps/app-for-outlook-customize.md
     - name: 개발자의 경우
       href: ../developer/model-driven-apps/overview.md
-- name: Portals
+- name: 포털
   items:
     - name: Power Apps 포털이란?
       href: ./portals/overview.md
@@ -1330,7 +1334,7 @@
           href: ./portals/configure/webpage-access-control.md
         - name: 웹 사이트 액세스 권한 만들기
           href: ./portals/configure/website-access-permission.md
-    - name: 포털의 문서 저장소
+    - name: 포털의 문서 스토리지
       items:
         - name: 정보 구성
           href: ./portals/configure-notes.md
@@ -1348,7 +1352,7 @@
       href: ./portals/faq.md
     - name: 레거시 Adxstudio 포털 v7 FAQ
       href: ./portals/legacy-portal-faq.md
-- name: 일반 데이터 서비스
+- name: Common Data Service
   items:
     - name: Common Data Service란 무엇인가요?
       href: ./common-data-service/data-platform-intro.md
@@ -1525,7 +1529,7 @@
           href: ./common-data-service/create-and-use-dataflows.md
         - name: 파워 쿼리를 사용하여 엔터티에 데이터 추가
           href: ./common-data-service/data-platform-cds-newentity-pq.md
-        - name: 데이터 흐름 저장소에 대한 Azure Data Lake 연결
+        - name: 데이터 흐름 스토리지에 대한 Azure Data Lake 연결
           href: ./common-data-service/connect-azure-data-lake-storage-for-dataflow.md
         - name: 온-프레미스 데이터 게이트웨이 사용
           href: ./common-data-service/using-dataflows-with-on-premises-data.md
@@ -1550,7 +1554,7 @@
       href: ./common-data-service/api-limits-overview.md
     - name: 개발자의 경우
       href: ../developer/common-data-service/overview.md
-- name: AI Builder
+- name: AI 작성기
   items:
     - name: Power Apps에서 AI Builder 사용
       href: ../use-ai-builder.md
