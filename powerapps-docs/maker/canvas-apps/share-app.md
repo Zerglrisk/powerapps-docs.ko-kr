@@ -7,18 +7,18 @@ ms.service: powerapps
 ms.topic: conceptual
 ms.custom: canvas
 ms.reviewer: ''
-ms.date: 12/18/2019
+ms.date: 01/02/2020
 ms.author: tapanm
 search.audienceType:
 - maker
 search.app:
 - PowerApps
-ms.openlocfilehash: 75157ecd3921476d7b527dfc5b87b0efbd308f71
-ms.sourcegitcommit: 212bd841595db0d6f41002f7ff9a1c8eb33a0724
+ms.openlocfilehash: e21db21ff9c161e8ae8ab55d4d3ef295da7d419e
+ms.sourcegitcommit: 5ec7c7f04fe41896dec966706a3b3d295648726f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75203976"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75676247"
 ---
 # <a name="share-a-canvas-app-in-power-apps"></a>Power Apps에서 캔버스 앱 공유
 
@@ -27,7 +27,7 @@ ms.locfileid: "75203976"
 > [!IMPORTANT]
 > 공유 앱이 원하는 대로 작동 하려면 [Common Data Service](#common-data-service) 또는 [Excel](share-app-data.md)과 같이 앱의 기반이 되는 데이터 원본 또는 원본에 대 한 권한도 관리 해야 합니다. 또한, 앱이 종속된 [기타 리소스](share-app-resources.md)(예: 흐름, 게이트웨이 또는 연결)도 공유해야 합니다.
 
-## <a name="prerequisites"></a>필수 조건
+## <a name="prerequisites"></a>사전준비
 
 앱을 공유하려면 로컬이 아닌 클라우드에 저장한 다음, 앱을 게시해야 합니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "75203976"
 1. 앱을 공유 하려는 Azure Active Directory의 사용자 또는 보안 그룹을 이름 또는 별칭으로 지정 합니다.
 
     - 전체 조직에서 앱을 실행 (수정 하거나 공유 하지 않음) 할 수 있도록 하려면 공유 패널에 **Everyone** 을 입력 합니다.
-    - 항목이 세미콜론으로 구분 되는 경우 별칭의 목록, 이름 또는 이러한 항목의 조합 (예: **Jane Doe &lt;jane.doe@contoso.com**)을 사용 하 여 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
+    - 항목이 세미콜론으로 구분 되는 경우 별칭의 목록, 이름 또는 이러한 항목의 조합 (예: **Jane Doe &lt;jane.doe@contoso.com** )을 사용 하 여 앱을 공유할 수 있습니다. 두 명 이상의 사용자에 게 이름이 같지만 별칭이 다른 경우 처음 찾은 사용자가 목록에 추가 됩니다. 이름 또는 별칭에 이미 권한이 있거나 확인할 수 없는 경우 도구 설명이 나타납니다. 
 
     ![사용자 및 공동 소유자 지정](./media/share-app/share-everyone.png)
 
@@ -99,11 +99,41 @@ ms.locfileid: "75203976"
 
 - 보안 그룹의 모든 구성원은 앱에 대해 전체 그룹과 동일한 권한을 갖습니다. 하지만 해당 그룹의 한 명 또는 그 이상의 회원에게 더 많은 사용 권한을 지정하여 더 많은 액세스를 허용할 수 있습니다. 예를 들어 보안 그룹에 앱을 실행할 수 있는 권한을 부여할 수 있지만, 해당 그룹에 속한 사용자 B, **공동 소유자** 권한을 제공할 수도 있습니다. 보안 그룹의 모든 구성원은 앱을 실행할 수 있지만 사용자 B만 편집할 수 있습니다. 앱을 실행할 수 있는 보안 그룹에 **공동 소유자** 권한 및 사용자 B 권한을 부여 하는 경우 해당 사용자는 여전히 앱을 편집할 수 있습니다.
 
+### <a name="share-an-app-with-office-365-groups"></a>Office 365 그룹과 앱 공유
+
+[Office 365 그룹과](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#office-365-groups)앱을 공유할 수 있습니다. 그러나 그룹은 보안을 설정 해야 합니다. 보안을 사용 하도록 설정 하면 Office 365 그룹이 인증을 위해 앱 또는 리소스에 액세스 하기 위한 보안 토큰을 받을 수 있습니다.
+
+Office 365 그룹에 보안이 설정 되었는지 확인 하려면 다음 단계를 수행 합니다.
+
+1. [AZURE AD cmdlet](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-v2-cmdlets)에 대 한 액세스 권한이 있는지 확인 합니다.
+
+1. \> [Azure Portal](https://portal.azure.com/) 로 이동 하 여 Azure Active Directory \> 그룹 \> 적절 한 그룹을 선택 하 \> 개체 Id를 복사 합니다.
+
+1. PowerShell을 사용 하 여 [AZURE AD에 연결 합니다](https://docs.microsoft.com/powershell/module/azuread/connect-azuread) .
+
+    ![Connect-AzureAD](media/share-app/azure_cmdlet_connect.png)
+
+1. ```Get-AzureADGroup -ObjectId <ObjectID\> |
+    select *```를 사용 하 여 [그룹 세부 정보](https://docs.microsoft.com/powershell/module/AzureAD/Get-AzureADGroup) 를 가져옵니다. <br> 출력에서 **SecurityEnabled** 속성이 **True**로 설정 되어 있는지 확인 합니다.
+
+    ![SecurityEnabled 속성 확인](media/share-app/azure_cmdlet_get_azuread_group_details.png)
+
+그룹이 보안을 사용 하도록 설정 되지 않은 경우 **SecurityEnabled** 속성을 **True**로 설정 하 여 PowerShell cmdlet [AzureADGroup](https://docs.microsoft.com/powershell/module/AzureAD/Set-AzureADGroup) 을 사용 하도록 설정할 수 있습니다. 
+
+```Set-AzureADGroup -ObjectId <ObjectID> -SecurityEnabled $True```
+
+![SecurityEnabled을 True로 설정](media/share-app/azure_cmdlet_set_security_enabled.png)
+
+> [!NOTE]
+> 보안을 사용 하려면 Office 365 그룹의 소유자 여야 합니다.
+
+잠시 후에 Power Apps 공유 패널에서이 그룹을 검색 하 고이 그룹을 사용 하 여 앱을 공유할 수 있습니다.
+
 ## <a name="manage-entity-permissions"></a>엔터티 사용 권한 관리
 
 ### <a name="common-data-service"></a>Common Data Service
 
-Common Data Service 기반으로 앱을 만드는 경우 앱을 공유 하는 사용자에 게 앱이 사용 하는 엔터티 또는 엔터티에 대 한 적절 한 권한이 있는지 확인 해야 합니다. 특히 해당 사용자는 관련 레코드 만들기, 읽기, 쓰기 및 삭제와 같은 태스크를 수행할 수 있는 보안 역할에 속해야 합니다. 대부분의 경우 사용자가 앱을 실행 하는 데 필요한 정확한 권한을 사용 하 여 사용자 지정 보안 역할을 하나 이상 만들 수 있습니다. 그러면 각 사용자에 게 적절 하 게 역할을 할당할 수 있습니다.
+Common Data Service를 기반으로 앱을 만드는 경우에는, 앱이 공유된 사용자에게 앱이 의존하는 하나 이상의 엔터티에 대한 적절한 권한이 있는지도 확인해야 합니다. 특히 이러한 사용자는 관련 레코드 작성, 읽기, 쓰기 및 삭제와 같은 작업을 수행할 수 있는 보안 역할에 속해야 합니다. 대부분의 경우, 사용자가 앱을 실행하는 데 필요한 정확한 권한이 있는 맞춤형 보안 역할을 하나 이상 만드는 것이 좋습니다. 그런 다음, 각 사용자에게 적절한 역할을 지정하면 됩니다.
 
 > [!NOTE]
 > 이 문서를 작성할 당시에는 Azure Active Directory에서 개별 사용자와 보안 그룹에 보안 역할을 할당할 수 있지만 Office 그룹에는 할당할 수 없습니다.
@@ -131,7 +161,7 @@ Power Apps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
 > [!NOTE]
 > 게스트에는 공유 된 앱에 대 한 **공동 소유자** 역할이 아닌 **사용자** 역할만 할당 될 수 있습니다.
 
-### <a name="prerequisites"></a>필수 조건
+### <a name="prerequisites"></a>사전준비
 - Azure Active Directory (Azure AD)에서 테 넌 트에 대해 B2B 외부 공동 작업을 사용 하도록 설정 합니다. 추가 정보: [B2B 외부 공동 작업을 사용 하도록 설정 하 고 게스트를 초대할 수 있는 사람 관리](/azure/active-directory/b2b/delegate-invitations)
     - B2B 외부 공동 작업은 기본적으로 설정 되어 있습니다. 그러나 테 넌 트 관리자는 설정을 변경할 수 있습니다.  Azure AD B2B에 대 한 자세한 내용은 [AZURE AD b2b의 게스트 사용자 액세스 란?](/azure/active-directory/b2b/what-is-b2b) 을 참조 하세요.  
 - Azure AD 테 넌 트에 게스트 사용자를 추가할 수 있는 계정에 대 한 액세스. 관리자 및 게스트 초대자 역할을 가진 사용자는 테 넌 트에 게스트를 추가할 수 있습니다.   
@@ -154,7 +184,7 @@ Power Apps canvas 앱은 Azure Active Directory 테 넌 트의 게스트 사용�
    > 게스트에 라이선스를 할당 하려면 Microsoft 365 관리 센터 미리 보기를 사용 하지 않도록 설정 해야 할 수 있습니다. 
 
 3. Canvas 앱을 공유 합니다. 
-    1. https://make.powerapps.com에 로그인  
+    1. https://make.powerapps.com 에 로그인  
     2. **앱**으로 이동 하 여 캔버스 앱을 선택한 다음 명령 모음에서 **공유**를 선택 합니다. 
     3. Azure AD 테 넌 트에서 게스트 사용자에 대 한 전자 메일 주소를 입력 합니다. 추가 정보: [AZURE AD B2B에서 게스트 사용자 액세스 란 무엇 인가요?](/azure/active-directory/b2b/what-is-b2b)
           > [!div class="mx-imgBorder"] 
@@ -181,15 +211,15 @@ Canvas apps를 사용 하면와 C#같은 기존 프로그래밍 언어로 코드
 ||
 
 #### <a name="can-guests-access-customized-forms-in-sharepoint"></a>게스트가 SharePoint에서 사용자 지정 된 양식에 액세스할 수 있나요?
-예 사용자 지정 된 양식으로 SharePoint 목록에 액세스할 수 있는 모든 사용자는 Power Apps 라이선스 없이 양식을 사용 하 여 목록에서 항목을 만들고 편집할 수 있습니다.
+예. 사용자 지정 된 양식으로 SharePoint 목록에 액세스할 수 있는 모든 사용자는 Power Apps 라이선스 없이 양식을 사용 하 여 목록에서 항목을 만들고 편집할 수 있습니다.
 
 #### <a name="can-guests-access-apps-embedded-in-sharepoint"></a>게스트가 SharePoint에 포함 된 앱에 액세스할 수 있나요? 
-예 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하 여 앱의 기능과 일치 하는 Power Apps 사용 권한이 있는 라이선스가 필요 합니다. Microsoft Power Apps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
+예. 그러나 캔버스 독립 실행형 앱에 대 한 액세스에는 포함 된 앱을 포함 하 여 앱의 기능과 일치 하는 Power Apps 사용 권한이 있는 라이선스가 필요 합니다. Microsoft Power Apps embed 컨트롤을 통해 SharePoint에 캔버스 앱을 포함 하는 경우 앱 id를 입력 합니다. 이렇게 하려면 **앱 웹 링크 또는 ID** 상자에 앱 id를 입력 합니다. 
 
 > [!div class="mx-imgBorder"]  
 > ![게스트에 대 한 SharePoint에 캔버스 앱 포함](media/share-app/guest_access_doc_5.PNG "게스트에 대 한 SharePoint에 캔버스 앱 포함")
 
-IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 https://make.powerapps.com로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
+IFrame HTML 태그를 통해 SharePoint에 캔버스 앱을 포함 하는 경우 전체 웹 URL을 사용 하 여 앱을 참조 합니다. URL을 찾으려면 https://make.powerapps.com 로 이동 하 고, 앱을 선택 하 고, **세부 정보** 탭을 선택 하 고, **웹 링크**아래에 url을 표시 합니다.
 
 > [!div class="mx-imgBorder"]  
 > ![Canvas 앱 세부 정보](media/share-app/guest_access_doc_6.PNG "Canvas 앱 세부 정보")
@@ -237,7 +267,7 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | AtBot 논리                                       | 아니요                                                                     |
 | Azure AD                                          | 예                                                                    |
 | Azure Automation                                  | 예                                                                    |
-| Azure 컨테이너 인스턴스                          | 예                                                                    |
+| Azure Container Instance                          | 예                                                                    |
 | Azure Data Factory                                | 예                                                                    |
 | Azure Data Lake                                   | 예                                                                    |
 | Azure DevOps                                      | 아니요                                                                     |
@@ -252,24 +282,24 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Bitly                                             | 아니요                                                                     |
 | bttn                                              | 아니요                                                                     |
 | Buffer                                            | 아니요                                                                     |
-| 비즈니스 중부                                  | 아니요                                                                     |
+| Business Central                                  | 아니요                                                                     |
 | CandidateZip                                      | 아니요                                                                     |
 | Capsule CRM                                       | 아니요                                                                     |
-| 클라우드 PKI 관리                              | 아니요                                                                     |
+| Cloud PKI 관리                              | 아니요                                                                     |
 | Cognito Forms                                     | 아니요                                                                     |
 | Common Data Service                               | 아니요                                                                     |
-| Common Data Service (레거시)                      | 아니요                                                                     |
-| D & B 최적화 프로그램                                     | 아니요                                                                     |
-| DerSIGNL4                                    | 아니요                                                                     |
+| Common Data Service(레거시)                      | 아니요                                                                     |
+| D&B Optimizer                                     | 아니요                                                                     |
+| Derdack SIGNL4                                    | 아니요                                                                     |
 | Disqus                                            | 아니요                                                                     |
 | 문서 병합                                    | 아니요                                                                     |
 | Dynamics 365                                      | 아니요                                                                     |
-| 판매에 대 한 Dynamics 365 AI                         | 예                                                                    |
-| Fin & Ops 용 Dynamics 365                        | 아니요                                                                     |
-| Enadoc my workspace                                            | 아니요                                                                     |
+| Dynamics 365 AI for Sales                         | 예                                                                    |
+| Dynamics 365 for Fin & Ops                        | 아니요                                                                     |
+| Enadoc                                            | 아니요                                                                     |
 | Eventbrite                                        | 아니요                                                                     |
-| Excel Online (Business)                           | 아니요                                                                     |
-| Excel Online (OneDrive)                           | 아니요                                                                     |
+| Excel Online(비즈니스)                           | 아니요                                                                     |
+| Excel Online(OneDrive)                           | 아니요                                                                     |
 | 만료 알림                               | 아니요                                                                     |
 | FreshBooks                                        | 아니요                                                                     |
 | GoToMeeting                                       | 아니요                                                                     |
@@ -284,16 +314,16 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | kintone                                           | 아니요                                                                     |
 | LinkedIn                                          | 아니요                                                                     |
 | 마케팅 콘텐츠 허브                             | 아니요                                                                     |
-| 보통                                            | 아니요                                                                     |
+| 중형                                            | 아니요                                                                     |
 | Metatask                                          | 아니요                                                                     |
 | Microsoft Forms                                   | 아니요                                                                     |
 | Microsoft Forms Pro                               | 아니요                                                                     |
 | Microsoft Graph 보안                          | 아니요                                                                     |
 | Microsoft Kaizala                                 | 아니요                                                                     |
-| Microsoft School 데이터 동기화                        | 아니요                                                                     |
+| Microsoft School Data Sync                        | 아니요                                                                     |
 | Microsoft StaffHub                                | 아니요                                                                     |
 | Microsoft Teams                                   | 예                                                                    |
-| Microsoft 할 일 (비즈니스)                        | 아니요                                                                     |
+| Microsoft To-Do(비즈니스)                        | 아니요                                                                     |
 | Muhimbi PDF                                       | 아니요                                                                     |
 | NetDocuments                                      | 아니요                                                                     |
 | Office 365 그룹                                 | 예                                                                    |
@@ -309,13 +339,13 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Paylocity                                         | 아니요                                                                     |
 | Planner                                           | 아니요                                                                     |
 | Plumsail 양식                                    | 아니요                                                                     |
-| Power BI                                          | 예                                                                    |
-| Project Online                                    | 아니요                                                                     |
+| Azure 소비 분석                                          | 예                                                                    |
+| 프로젝트 온라인                                    | 아니요                                                                     |
 | ProjectWise 디자인 통합                    | 아니요                                                                     |
 | Projectwise 공유                                 | 아니요                                                                     |
 | SharePoint                                        | 예                                                                    |
-| 지금 sign                                           | 아니요                                                                     |
-| 비즈니스용 Skype Online                         | 아니요                                                                     |
+| SignNow                                           | 아니요                                                                     |
+| 비즈니스용 Skype                         | 아니요                                                                     |
 | Soft1                                             | 아니요                                                                     |
 | Stormboard                                        | 아니요                                                                     |
 | Survey123                                         | 아니요                                                                     |
@@ -324,5 +354,5 @@ InTune은 사용자의 홈 테 넌 트에 대해서만 정책을 적용 합니�
 | Typeform                                          | 아니요                                                                     |
 | Vimeo                                             | 아니요                                                                     |
 | Webex 팀                                       | 아니요                                                                     |
-| Windows Defender ATP (Advanced Threat Protection) | 아니요                                                                     |
-| 온라인 Word (비즈니스)                            | 아니요                                                                     |
+| Windows Defender ATP(Advanced Threat Protection) | 아니요                                                                     |
+| Word Online(비즈니스)                            | 아니요                                                                     |
